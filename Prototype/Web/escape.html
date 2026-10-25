@@ -1,0 +1,1298 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>After Seconds Escape V0.01</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans+KR:wght@400;600&display=swap">
+<style>
+/* Layout: a first-person escape room on the left with a reservation timeline under it, a narrow ledger of rules and goals on the right. */
+:root {
+  color-scheme: dark;
+  --bg: #121019;
+  --panel: #1b1824;
+  --panel-2: #242030;
+  --line: #36304a;
+  --fg: #efe9f5;
+  --muted: #a39cb5;
+  --ember: #ff8a3d;
+  --swap: #b49bff;
+  --blast: #ff5b5b;
+  --ok: #86d49a;
+  --display: "Big Shoulders Display", "Arial Narrow", Impact, sans-serif;
+  --body: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+}
+html, body { height: 100%; }
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 15px; line-height: 1.55; }
+.app { max-width: 1340px; margin: 0 auto; padding-block: 18px 32px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 16px; }
+.top { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px 24px; }
+.brand h1 { font-family: var(--display); font-weight: 800; font-size: clamp(38px, 6vw, 58px); line-height: .9; letter-spacing: .02em; text-transform: uppercase; margin: 0; }
+.brand h1 span { color: var(--swap); }
+.brand p { margin: 6px 0 0; color: var(--muted); font-size: 13px; letter-spacing: .04em; }
+.rules { display: grid; gap: 4px; padding: 10px 14px; border: 1px solid var(--line); border-left: 3px solid var(--swap); background: var(--panel); margin: 0; font-size: 15.5px; }
+.rules b.o { color: var(--ember); } .rules b.s { color: var(--swap); }
+.rules small { color: var(--muted); font-size: 12.5px; }
+.layout { display: grid; grid-template-columns: minmax(0, 1fr) 310px; gap: 16px; align-items: start; }
+@media (max-width: 960px) { .layout { grid-template-columns: minmax(0, 1fr); } }
+.stage-wrap { min-width: 0; display: grid; gap: 8px; }
+.stage { position: relative; width: 100%; border: 1px solid var(--line); background: var(--bg); overflow: hidden; outline: none; }
+.stage canvas { display: block; width: 100%; touch-action: none; cursor: crosshair; }
+.stage:focus-visible { outline: 2px solid var(--swap); outline-offset: 2px; }
+.labels { position: absolute; inset: 0; pointer-events: none; }
+.chip { position: absolute; transform: translate(-50%, -100%); font-family: var(--mono); font-size: 12.5px; font-weight: 600; line-height: 1; padding: 4px 6px; background: color-mix(in srgb, var(--bg) 82%, transparent); border: 1px solid currentColor; white-space: nowrap; }
+.crosshair { position: absolute; left: 50%; top: 50%; width: 22px; height: 22px; transform: translate(-50%, -50%); pointer-events: none; }
+.crosshair::before, .crosshair::after { content: ""; position: absolute; background: var(--fg); opacity: .85; }
+.crosshair::before { left: 10px; top: 2px; width: 2px; height: 18px; }
+.crosshair::after { top: 10px; left: 2px; height: 2px; width: 18px; }
+.crosshair.obj::before, .crosshair.obj::after { background: var(--ember); opacity: 1; }
+.crosshair.swap::before, .crosshair.swap::after { background: var(--swap); opacity: 1; }
+.hud { position: absolute; left: 50%; top: calc(50% + 26px); transform: translateX(-50%); pointer-events: none; font-size: 13px; font-weight: 600; white-space: nowrap; display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.hud span { background: color-mix(in srgb, var(--bg) 78%, transparent); border: 1px solid var(--line); padding: 3px 8px; }
+.hud kbd { margin: 0 4px 0 0; }
+.hud .o kbd { color: var(--ember); border-color: var(--ember); }
+.hud .s kbd { color: var(--swap); border-color: var(--swap); }
+.hud .x { color: var(--blast); }
+.ammo { position: absolute; right: 10px; top: 10px; pointer-events: none; font-family: var(--mono); font-size: 13px; font-weight: 600; background: color-mix(in srgb, var(--bg) 78%, transparent); border: 1px solid var(--line); padding: 4px 8px; letter-spacing: .04em; }
+.ammo b { color: var(--swap); letter-spacing: .12em; }
+.meter { position: absolute; left: 50%; bottom: 16px; transform: translateX(-50%); width: min(260px, 60%); height: 8px; border: 1px solid var(--line); background: color-mix(in srgb, var(--bg) 70%, transparent); pointer-events: none; }
+.meter i { display: block; height: 100%; width: 0; background: var(--ember); }
+.meter[hidden] { display: none !important; }
+.pip { position: absolute; right: 10px; bottom: 10px; border: 2px solid var(--swap); pointer-events: none; box-shadow: 0 0 0 1px var(--bg); }
+.pip[hidden] { display: none !important; }
+.pip span { position: absolute; left: 0; top: 0; transform: translateY(-100%); font-family: var(--mono); font-size: 12px; font-weight: 600; color: var(--swap); background: color-mix(in srgb, var(--bg) 85%, transparent); padding: 2px 6px; white-space: nowrap; }
+.flash { position: absolute; inset: 0; background: var(--swap); opacity: 0; pointer-events: none; transition: opacity .25s ease-out; }
+.overlay { position: absolute; inset: 0; display: grid; place-items: center; background: color-mix(in srgb, var(--bg) 72%, transparent); padding: 16px; }
+.overlay[hidden] { display: none !important; }
+.ov-card { max-width: 500px; text-align: center; display: grid; gap: 10px; justify-items: center; }
+.ov-card h2 { font-family: var(--display); font-weight: 800; font-size: 34px; letter-spacing: .03em; margin: 0; text-transform: uppercase; }
+.ov-card p { margin: 0; color: var(--muted); text-wrap: balance; }
+.ov-card .win { color: var(--ok); }
+.timeline { border: 1px solid var(--line); background: var(--panel); padding: 10px 12px; display: grid; gap: 8px; }
+.timeline .head { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.timeline .head .now { font-family: var(--mono); letter-spacing: 0; text-transform: none; }
+.track { position: relative; height: 54px; background: var(--panel-2); border: 1px solid var(--line); overflow: hidden; }
+.track .tick { position: absolute; top: 0; bottom: 0; width: 1px; background: var(--line); }
+.track .tick span { position: absolute; bottom: 2px; left: 3px; font-family: var(--mono); font-size: 10px; color: var(--muted); }
+.track .ev { position: absolute; top: 6px; transform: translateX(-50%); font-size: 12px; font-weight: 600; white-space: nowrap; padding: 2px 6px; border: 1px solid currentColor; background: var(--bg); }
+.track .ev.o { color: var(--ember); } .track .ev.s { color: var(--swap); }
+.track .ev.row2 { top: 28px; }
+.track .empty { position: absolute; inset: 0; display: grid; place-items: center; color: var(--muted); font-size: 13px; padding: 0 10px; text-align: center; }
+.hint { margin: 0; min-height: 1.6em; color: var(--muted); font-size: 14px; }
+.hint b { color: var(--fg); }
+.side { display: grid; gap: 12px; min-width: 0; }
+.card { background: var(--panel); border: 1px solid var(--line); padding: 14px; display: grid; gap: 10px; }
+.card h2, .card h3 { margin: 0; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.keys { display: grid; grid-template-columns: auto 1fr; gap: 6px 10px; margin: 0; font-size: 13.5px; align-items: center; }
+.keys dt { white-space: nowrap; } .keys dd { margin: 0; color: var(--muted); }
+kbd { font-family: var(--mono); font-size: 11.5px; color: var(--fg); border: 1px solid var(--line); background: var(--panel-2); padding: 1px 5px; margin-right: 2px; }
+.tasks { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; font-size: 14px; }
+.tasks li { display: grid; grid-template-columns: 20px 1fr; gap: 8px; align-items: start; color: var(--muted); }
+.tasks li .box { width: 16px; height: 16px; border: 1.5px solid var(--line); margin-top: 3px; display: grid; place-items: center; font-size: 12px; line-height: 1; }
+.tasks li.done { color: var(--fg); } .tasks li.done .box { background: var(--ok); border-color: var(--ok); color: #10200f; }
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; margin: 0; }
+.stats div { background: var(--panel-2); padding: 7px 8px; }
+.stats dt { font-size: 11px; color: var(--muted); letter-spacing: .06em; }
+.stats dd { margin: 0; font-family: var(--mono); font-size: 17px; font-variant-numeric: tabular-nums; }
+button { font: inherit; font-size: 14px; color: var(--fg); background: var(--panel-2); border: 1px solid var(--line); padding: 8px 12px; cursor: pointer; }
+button:hover { border-color: var(--muted); }
+button:focus-visible, input:focus-visible, summary:focus-visible { outline: 2px solid var(--swap); outline-offset: 2px; }
+button.primary { background: var(--swap); border-color: var(--swap); color: #150f2a; font-weight: 600; }
+.btns { display: flex; gap: 8px; flex-wrap: wrap; }
+.row { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.seg { display: flex; }
+.seg button { padding: 5px 9px; font-family: var(--mono); font-size: 13px; }
+.seg button + button { border-left: none; }
+.seg button[aria-pressed="true"] { background: var(--swap); border-color: var(--swap); color: #150f2a; }
+.note { margin: 0; font-size: 12px; color: var(--muted); }
+input[type=checkbox] { width: 18px; height: 18px; accent-color: var(--swap); }
+details.data summary { cursor: pointer; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.tbl-wrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 12.5px; }
+th, td { text-align: left; padding: 5px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--muted); font-weight: 600; font-size: 11px; letter-spacing: .06em; }
+td.mono { font-family: var(--mono); white-space: nowrap; }
+.pad { position: absolute; left: 0; right: 0; bottom: 0; display: none; justify-content: space-between; align-items: end; padding: 10px; pointer-events: none; }
+.pad .grp { display: grid; gap: 6px; pointer-events: auto; }
+.pad .dpad { grid-template-columns: repeat(3, 46px); grid-template-rows: repeat(2, 46px); }
+.pad .acts { grid-template-columns: repeat(2, 72px); }
+.pad button { padding: 0; height: 46px; font-size: 13px; background: color-mix(in srgb, var(--panel-2) 85%, transparent); user-select: none; -webkit-user-select: none; touch-action: none; }
+@media (pointer: coarse) { .pad { display: flex; } }
+.fallback { padding: 24px; color: var(--muted); }
+</style>
+
+<div class="app">
+  <header class="top">
+    <div class="brand">
+      <h1>After <span>Seconds</span></h1>
+      <p>탈출 실험 · A안 / B안 비교 · 빌드 V0.01</p>
+    </div>
+    <div class="rules" id="rules"></div>
+  </header>
+
+  <main class="layout">
+    <section class="stage-wrap">
+      <div class="stage" id="stage" tabindex="0" aria-label="1인칭 탈출 방. 키보드로 움직이고 마우스로 둘러봅니다.">
+        <div class="labels" id="labels"></div>
+        <div class="flash" id="flash"></div>
+        <div class="pip" id="pip" hidden><span id="pipLabel"></span></div>
+        <div class="crosshair" id="crosshair"></div>
+        <div class="hud" id="hud"></div>
+        <div class="ammo" id="ammo"></div>
+        <div class="meter" id="meter" hidden><i id="meterBar"></i></div>
+        <div class="pad" id="pad" aria-hidden="true">
+          <div class="grp dpad">
+            <span></span><button data-k="KeyW">▲</button><span></span>
+            <button data-k="KeyA">◀</button><button data-k="KeyS">▼</button><button data-k="KeyD">▶</button>
+          </div>
+          <div class="grp acts">
+            <button data-k="KeyE">E 줍기·제압</button><button data-k="Space">점프</button>
+            <button data-k="KeyF">쏘기·던지기</button><button data-k="KeyQ">총 던지기</button>
+          </div>
+        </div>
+        <div class="overlay" id="overlay"><div class="ov-card" id="ovCard"></div></div>
+      </div>
+      <div class="timeline" aria-live="off">
+        <div class="head"><span>예약 타임라인 · 시간순으로 일어남</span><span class="now" id="tlNow"></span></div>
+        <div class="track" id="track"></div>
+      </div>
+      <p class="hint" id="hint" aria-live="polite"></p>
+    </section>
+
+    <aside class="side">
+      <div class="card">
+        <h2>탈출 순서</h2>
+        <ol class="tasks" id="tasks"></ol>
+        <dl class="stats">
+          <div><dt>교환</dt><dd id="stSwap">0</dd></div>
+          <div><dt>제압</dt><dd id="stDown">0</dd></div>
+          <div><dt>탄약</dt><dd id="stAmmo">-</dd></div>
+          <div><dt>경과</dt><dd id="stTime">0.0</dd></div>
+        </dl>
+        <div class="btns"><button id="btnReset">처음부터<kbd style="margin-left:6px">R</kbd></button></div>
+      </div>
+      <div class="card">
+        <h2>조작</h2>
+        <dl class="keys">
+          <dt>마우스</dt><dd>둘러보기 (화면 클릭으로 고정, <kbd>Esc</kbd>로 해제)</dd>
+          <dt><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> · <kbd>Space</kbd></dt><dd>이동 · 점프</dd>
+          <dt>왼쪽 클릭 / <kbd>F</kbd></dt><dd>총 쏘기 (바로 발사). 상자를 들고 있으면 누르고 있다 떼서 던지기</dd>
+          <dt><kbd>E</kbd></dt><dd>총 빼앗기 · 줍기 · 들키지 않은 경비 뒤에서 제압</dd>
+          <dt><kbd>Q</kbd></dt><dd>누르고 있다 떼면 총 던지기</dd>
+          <dt><kbd>R</kbd></dt><dd>처음부터</dd>
+        </dl>
+        <p class="note">총에 맞은 경비는 쏜 곳으로, 던진 것에 맞은 경비는 그 물체가 멈춰 있던 곳으로 달려옵니다. 던지려고 누르고 있으면 경비가 그때 어디 있을지 미리 보입니다. 마우스 고정이 안 되면 오른쪽 드래그로 둘러봅니다.</p>
+      </div>
+      <div class="card">
+        <h3>실험 설정</h3>
+        <div class="row"><span>교환 지연</span><div class="seg" id="segSwap" role="group" aria-label="교환 지연"></div></div>
+        <div class="row"><span>규칙 모델</span><div class="seg" id="segModel" role="group" aria-label="규칙 모델"></div></div>
+        <p class="note" id="modelNote"></p>
+        <div class="row"><span>탄약 (처음부터)</span><div class="seg" id="segAmmo" role="group" aria-label="탄약"></div></div>
+        <label class="row" for="chkGhost"><span>미래의 나 표시</span><input type="checkbox" id="chkGhost" checked></label>
+        <label class="row" for="chkPip"><span>시야 창 (맞힌 대상의 3초)</span><input type="checkbox" id="chkPip"></label>
+        <label class="row" for="chkKeep"><span>교환 때 속도 유지</span><input type="checkbox" id="chkKeep"></label>
+        <p class="note">미래의 나는 각 교환 시각에 내가 서게 될 자리입니다. 경비가 달려오는 반응까지 계산해서 보여 줍니다.</p>
+      </div>
+      <details class="card data">
+        <summary>숨은 데이터</summary>
+        <p class="note">플레이어가 아는 규칙은 맨 위 두 줄뿐입니다.</p>
+        <div class="tbl-wrap"><table id="dataTable"></table></div>
+      </details>
+    </aside>
+  </main>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+(() => {
+  const $ = id => document.getElementById(id);
+  const stage = $('stage');
+  if (!window.THREE) { stage.innerHTML = '<p class="fallback">3D 라이브러리를 불러오지 못했습니다. 새로 고침해 주세요.</p>'; return; }
+  const T3 = window.THREE, V3 = T3.Vector3;
+  const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+  const C = { ember: css('--ember'), swap: css('--swap'), ok: css('--ok'), fg: css('--fg'), blast: css('--blast'), bg: css('--bg') };
+
+  // ---------- hidden data ----------
+  const DATA = {
+    box: { name: '상자', size: [0.6, 0.6, 0.6], color: '#b0773f' },
+    gunItem: { name: '총', size: [0.5, 0.2, 0.2], color: '#3a3d48' },
+    player: { speed: 4.6, jump: 6.6, half: [0.3, 1.6, 0.3], eye: 1.5, reach: 2.6, takedown: 1.8 },
+    guard: { radius: 0.35, height: 1.8, eye: 1.6, catchDist: 0.9, run: 3.0, react: 0.35, search: 2.5, confused: 1.2, vision: 5, visionDeg: 40, lose: 2 },
+    gun: { range: 30 },
+    gravity: 20,
+    throwing: { min: 4, max: 12, liftDeg: 10, chargeTime: 0.9, lead: 0.05 },
+    mantle: 1.1,
+    look: { sens: 0.0022, pitchMin: -1.45, pitchMax: 1.45 },
+  };
+  const GR = DATA.guard;
+  // model A: my hands' force arrives 3 s late. model B: hands act now, only the swap waits (and you watch the target meanwhile)
+  const SETTINGS = { swapDelay: 3, hang: 3, ammo: 3, ghost: true, keepVel: false, model: 'A', pip: false };
+  const SWAP_CHOICES = [2, 3, 4], AMMO_CHOICES = [3, 6], MODEL_CHOICES = ['A', 'B'];
+  const MODEL_HANG = { A: 3, B: 0 };
+
+  // ---------- level (axis-aligned blocks: min xyz, max xyz) ----------
+  const B = (x0, y0, z0, x1, y1, z1, kind) => ({ min: [x0, y0, z0], max: [x1, y1, z1], kind: kind || 'floor' });
+  const STATIC = [
+    B(-6, -1, 2, 6, 0, 13, 'floor'),                // start side
+    B(-6, -1, -16, 6, 0, -4, 'floor'),              // far side across the chasm
+    B(-3, 0, -15, 3, 2.5, -11, 'dais'),             // exit dais (2.5 m)
+    B(-6.4, 0, -16, -6, 4, 13, 'wall'), B(6, 0, -16, 6.4, 4, 13, 'wall'),
+    B(-6, 0, 13, 6, 4, 13.4, 'wall'), B(-6, 0, -16.4, 6, 4, -16, 'wall'),
+    // the cell: solid sides and back, bars in front
+    B(-1.6, 0, 9, -1.4, 3, 12, 'wall'), B(1.4, 0, 9, 1.6, 3, 12, 'wall'), B(-1.6, 0, 12, 1.6, 3, 12.3, 'wall'), B(-1.6, 2.6, 8.9, 1.6, 3, 12, 'wall'),
+  ];
+  for (let x = -1.25; x <= 1.26; x += 0.36) STATIC.push(B(x - 0.04, 0, 8.86, x + 0.04, 2.6, 8.94, 'bar'));
+  const PIT = { z0: -4, z1: 2 };
+  const EXIT = new V3(0, 2.5, -14);
+  const SPAWN = new V3(0, 0, 10.8);
+  const BOX_START = [[-3.2, 3.4], [-2.2, 3.4], [3.2, 3.4], [-4.6, -6.3], [4.6, -6.3], [-4.6, -10.2]];
+  const GUARD_START = [
+    { id: 'A', name: '잠든 경비', a: [0, 0, 7.4], sleep: true, gun: true, facing: Math.PI },
+    { id: 'B', name: '순찰 경비 B', a: [-4.2, 0, -5.4], b: [4.2, 0, -5.4], walk: 1.5 },
+    { id: 'D', name: '순찰 경비 D', a: [4.5, 0, -8.4], b: [-4.5, 0, -8.4], walk: 1.4 },
+    { id: 'C', name: '단상 경비 C', a: [-2.2, 2.5, -12.4], b: [2.2, 2.5, -12.4], walk: 1.0 },
+  ];
+  const TASKS = [
+    { id: 'gun', text: '철창 너머 잠든 경비의 총 빼앗기' },
+    { id: 'cell', text: '경비를 쏴서 자리를 바꿔 감방 나가기' },
+    { id: 'pit', text: '구덩이 건너편 경비와 바꿔 건너기' },
+    { id: 'exit', text: '단상 위 경비와 바꿔 출구에 서기' },
+    { id: 'takedown', text: '보너스: 들키지 않고 뒤에서 제압하기', bonus: true },
+    { id: 'drop', text: '보너스: 경비를 구덩이에 떨어뜨리기', bonus: true },
+  ];
+
+  // ---------- renderer / scene ----------
+  const renderer = new T3.WebGLRenderer({ antialias: true });
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+  renderer.shadowMap.enabled = true; renderer.shadowMap.type = T3.PCFSoftShadowMap;
+  renderer.outputEncoding = T3.sRGBEncoding;
+  stage.prepend(renderer.domElement);
+  const cv = renderer.domElement;
+  const scene = new T3.Scene();
+  scene.background = new T3.Color(C.bg);
+  scene.fog = new T3.Fog(new T3.Color(C.bg), 14, 34);
+  const camera = new T3.PerspectiveCamera(72, 16 / 9, 0.05, 100);
+  camera.rotation.order = 'YXZ'; scene.add(camera);
+  scene.add(new T3.HemisphereLight(0xb8b0d8, 0x0e0b16, 0.55));
+  scene.add(new T3.AmbientLight(0x2a2440, 0.5));
+  const sun = new T3.DirectionalLight(0xe6dcff, 0.75);
+  sun.position.set(-5, 14, 4); sun.castShadow = true; sun.shadow.mapSize.set(2048, 2048);
+  Object.assign(sun.shadow.camera, { left: -16, right: 16, top: 18, bottom: -18, near: 1, far: 40 });
+  sun.shadow.bias = -0.0012; scene.add(sun); sun.target.position.set(0, 0, -2); scene.add(sun.target);
+  for (const [x, z, col] of [[0, 10, 0xff9a50], [0, -6, 0x9f86ff], [0, -13, 0x86d49a]]) { const l = new T3.PointLight(col, 0.7, 11, 2); l.position.set(x, 3.3, z); scene.add(l); }
+
+  const std = (color, extra) => new T3.MeshStandardMaterial(Object.assign({ color, roughness: 0.85, metalness: 0.05 }, extra || {}));
+  const MATS = { floor: std('#221e2c'), wall: std('#1a1724'), dais: std('#2c2740'), bar: std('#8a86a0', { metalness: 0.7, roughness: 0.35 }) };
+  for (const s of STATIC) {
+    const m = new T3.Mesh(new T3.BoxGeometry(s.max[0] - s.min[0], s.max[1] - s.min[1], s.max[2] - s.min[2]), MATS[s.kind] || MATS.floor);
+    m.position.set((s.min[0] + s.max[0]) / 2, (s.min[1] + s.max[1]) / 2, (s.min[2] + s.max[2]) / 2);
+    m.receiveShadow = true; m.castShadow = s.kind !== 'floor'; scene.add(m);
+  }
+  function gridLines(x0, z0, x1, z1, y) {
+    const pts = [];
+    for (let x = Math.ceil(x0); x <= x1; x++) pts.push(new V3(x, y, z0), new V3(x, y, z1));
+    for (let z = Math.ceil(z0); z <= z1; z++) pts.push(new V3(x0, y, z), new V3(x1, y, z));
+    scene.add(new T3.LineSegments(new T3.BufferGeometry().setFromPoints(pts), new T3.LineBasicMaterial({ color: 0x302a42 })));
+  }
+  gridLines(-6, 2, 6, 13, 0.004); gridLines(-6, -16, 6, -4, 0.004); gridLines(-3, -15, 3, -11, 2.504);
+  const pitFloor = new T3.Mesh(new T3.PlaneGeometry(12, 6), new T3.MeshBasicMaterial({ color: 0x07060b }));
+  pitFloor.rotation.x = -Math.PI / 2; pitFloor.position.set(0, -4, -1); scene.add(pitFloor);
+  for (const z of [PIT.z0, PIT.z1]) { const e = new T3.Mesh(new T3.BoxGeometry(12, 0.02, 0.06), new T3.MeshBasicMaterial({ color: C.ember })); e.position.set(0, 0.01, z); scene.add(e); }
+  const exitPad = new T3.Mesh(new T3.CylinderGeometry(0.7, 0.7, 0.06, 32), new T3.MeshStandardMaterial({ color: C.ok, emissive: C.ok, emissiveIntensity: 0.5 }));
+  exitPad.position.set(EXIT.x, EXIT.y + 0.03, EXIT.z); scene.add(exitPad);
+  const exitBeam = new T3.Mesh(new T3.CylinderGeometry(0.7, 0.7, 3, 32, 1, true), new T3.MeshBasicMaterial({ color: C.ok, transparent: true, opacity: 0.12, side: T3.DoubleSide, depthWrite: false }));
+  exitBeam.position.set(EXIT.x, EXIT.y + 1.5, EXIT.z); scene.add(exitBeam);
+
+  // ---------- lines ----------
+  const ARC_N = 90;
+  function makeLine(n, mat) {
+    const g = new T3.BufferGeometry(); g.setAttribute('position', new T3.BufferAttribute(new Float32Array(n * 3), 3));
+    const l = new T3.Line(g, mat); l.visible = false; l.frustumCulled = false; scene.add(l); return l;
+  }
+  const dashed = (color, opacity) => new T3.LineDashedMaterial({ color, dashSize: 0.18, gapSize: 0.12, transparent: true, opacity });
+  function fillLine(line, pts) {
+    const pos = line.geometry.attributes.position, n = Math.min(pts.length, pos.count);
+    for (let i = 0; i < n; i++) pos.setXYZ(i, pts[i].x, pts[i].y, pts[i].z);
+    pos.needsUpdate = true; line.geometry.setDrawRange(0, n); line.geometry.computeBoundingSphere(); line.computeLineDistances();
+  }
+
+  // ---------- collision ----------
+  const half = DATA.player.half;
+  function boxAt(p, h) { return { min: [p.x - h[0], p.y - h[1], p.z - h[2]], max: [p.x + h[0], p.y + h[1], p.z + h[2]] }; }
+  function feetBox(p, hx, hy) { return { min: [p.x - hx, p.y, p.z - hx], max: [p.x + hx, p.y + hy, p.z + hx] }; }
+  const playerBox = p => feetBox(p, half[0], half[1]);
+  const guardBox = p => feetBox(p, GR.radius, GR.height);
+  const overlap = (a, b) => a.min[0] < b.max[0] - 1e-6 && a.max[0] > b.min[0] + 1e-6 && a.min[1] < b.max[1] - 1e-6 && a.max[1] > b.min[1] + 1e-6 && a.min[2] < b.max[2] - 1e-6 && a.max[2] > b.min[2] + 1e-6;
+  const AX = ['x', 'y', 'z'];
+  function moveBox(pos, delta, boxFn, colliders) {
+    const hit = [null, null, null];
+    for (let a = 0; a < 3; a++) {
+      if (!delta[a]) continue;
+      pos[AX[a]] += delta[a];
+      for (const c of colliders) {
+        const b = boxFn(pos);
+        if (!overlap(b, c)) continue;
+        if (delta[a] > 0) pos[AX[a]] -= (b.max[a] - c.min[a]); else pos[AX[a]] += (c.max[a] - b.min[a]);
+        hit[a] = c;
+      }
+    }
+    return hit;
+  }
+  function groundAt(p) {
+    let best = null;
+    for (const c of STATIC) if (p.x > c.min[0] && p.x < c.max[0] && p.z > c.min[2] && p.z < c.max[2] && c.max[1] <= p.y + 0.5) best = Math.max(best ?? -10, c.max[1]);
+    return best;
+  }
+  // slab test: distance along a unit ray to the box, or null
+  function rayBox(o, d, b) {
+    let t0 = 0, t1 = Infinity;
+    for (let a = 0; a < 3; a++) {
+      const oa = o[AX[a]], da = d[AX[a]];
+      if (Math.abs(da) < 1e-9) { if (oa < b.min[a] || oa > b.max[a]) return null; continue; }
+      let ta = (b.min[a] - oa) / da, tb = (b.max[a] - oa) / da;
+      if (ta > tb) [ta, tb] = [tb, ta];
+      t0 = Math.max(t0, ta); t1 = Math.min(t1, tb);
+      if (t0 > t1) return null;
+    }
+    return t0;
+  }
+  function segmentBlocked(a, b) {
+    const d = b.clone().sub(a), len = d.length(); d.normalize();
+    return STATIC.some(s => { const t = rayBox(a, d, s); return t !== null && t < len - 0.05; });
+  }
+
+  // ---------- world state ----------
+  const W = { t: 0, events: [], seq: 0, swaps: 0, down: 0, done: new Set(), cp: null, won: false };
+  const objects = [], guards = [];
+
+  function makeItem(kind, x, y, z) {
+    const d = kind === 'gun' ? DATA.gunItem : DATA.box;
+    const geo = new T3.BoxGeometry(...d.size);
+    const mat = std(d.color, kind === 'gun' ? { metalness: 0.6, roughness: 0.4 } : null);
+    const mesh = new T3.Mesh(geo, mat); mesh.castShadow = mesh.receiveShadow = true;
+    mesh.add(new T3.LineSegments(new T3.EdgesGeometry(geo), new T3.LineBasicMaterial({ color: kind === 'gun' ? 0x8a8ea0 : 0x1c140d })));
+    scene.add(mesh);
+    const ring = new T3.Mesh(new T3.TorusGeometry(0.52, 0.03, 8, 48), new T3.MeshBasicMaterial({ color: C.ember, transparent: true }));
+    ring.visible = false; scene.add(ring);
+    const h = d.size.map(v => v / 2);
+    const o = {
+      kind, name: d.name, half: h, pos: new V3(x, y ?? h[1], z), vel: new V3(), stored: new V3(), origin: new V3(),
+      state: 'rest', hangTotal: 0, launchAt: 0, mesh, mat, ring, home: new V3(x, y ?? h[1], z), spin: 0, hitSet: new Set(), thrown: false,
+      arc: makeLine(ARC_N, dashed(C.ember, 0.95)), stem: makeLine(2, dashed(C.fg, 0.5)),
+    };
+    objects.push(o); return o;
+  }
+  function removeItem(o) {
+    scene.remove(o.mesh, o.ring, o.arc, o.stem); o.mesh.geometry.dispose(); o.mat.dispose();
+    const i = objects.indexOf(o); if (i >= 0) objects.splice(i, 1);
+    W.events = W.events.filter(e => e.target !== o);
+  }
+
+  function makeGuard(spec) {
+    const g = new T3.Group(); g.rotation.order = 'YXZ';
+    const suit = std(spec.sleep ? '#3b4a6a' : '#6a2f3a');
+    const body = new T3.Mesh(new T3.CylinderGeometry(0.32, 0.34, 1.2, 16), suit); body.position.y = 0.85; body.castShadow = true; g.add(body);
+    const head = new T3.Mesh(new T3.SphereGeometry(0.22, 18, 14), std('#d7c2a6')); head.position.y = 1.62; head.castShadow = true; g.add(head);
+    const visorMat = new T3.MeshStandardMaterial({ color: C.blast, emissive: C.blast, emissiveIntensity: 0.8 });
+    const visor = new T3.Mesh(new T3.BoxGeometry(0.34, 0.08, 0.1), visorMat); visor.position.set(0, 1.64, -0.2); g.add(visor);
+    for (const sx of [-0.13, 0.13]) { const leg = new T3.Mesh(new T3.BoxGeometry(0.16, 0.3, 0.18), std('#1d1a24')); leg.position.set(sx, 0.15, 0); g.add(leg); }
+    const holster = new T3.Mesh(new T3.BoxGeometry(0.1, 0.2, 0.42), std('#2a2c34', { metalness: 0.6, roughness: 0.4 })); holster.position.set(0.38, 0.9, -0.05); g.add(holster);
+    scene.add(g);
+    const tag = new T3.Mesh(new T3.TorusGeometry(0.5, 0.03, 8, 48), new T3.MeshBasicMaterial({ color: C.swap, transparent: true }));
+    tag.rotation.x = Math.PI / 2; tag.visible = false; scene.add(tag);
+    // vision fan on the floor, centred on the guard's facing (-z at facing 0)
+    const cone = new T3.Group();
+    const coneMat = new T3.MeshBasicMaterial({ color: C.blast, transparent: true, opacity: 0.08, depthWrite: false, side: T3.DoubleSide });
+    const ca = T3.MathUtils.degToRad(GR.visionDeg);
+    const fan = new T3.Mesh(new T3.CircleGeometry(GR.vision, 28, Math.PI / 2 - ca, 2 * ca), coneMat); fan.rotation.x = -Math.PI / 2; cone.add(fan);
+    scene.add(cone);
+    let path = null;
+    if (spec.b) {
+      path = new T3.Line(new T3.BufferGeometry().setFromPoints([new V3(spec.a[0], spec.a[1] + 0.02, spec.a[2]), new V3(spec.b[0], spec.b[1] + 0.02, spec.b[2])]), dashed(C.blast, 0.6));
+      path.computeLineDistances(); scene.add(path);
+    }
+    const facing = spec.facing ?? (spec.b ? Math.atan2(-(spec.b[0] - spec.a[0]), -(spec.b[2] - spec.a[2])) : 0);
+    const s = { x: spec.a[0], y: spec.a[1], z: spec.a[2], vy: 0, facing, mode: spec.sleep ? 'sleep' : 'patrol', wp: 1, timer: 0, gx: 0, gz: 0, lost: 0 };
+    const gd = { kind: 'guard', id: spec.id, name: spec.name, a: new V3(...spec.a), b: spec.b ? new V3(...spec.b) : null, walk: spec.walk || 1.4, facing0: facing,
+      s, pos: new V3(s.x, s.y, s.z), hasGun: !!spec.gun, marked: false, mesh: g, visorMat, holster, tag, cone, coneMat, path };
+    guards.push(gd); return gd;
+  }
+  const alive = g => g.s.mode !== 'gone';
+  const awake = g => !['sleep', 'down', 'gone'].includes(g.s.mode);
+  const LOOKING = ['patrol', 'return', 'search', 'alert', 'chase'];
+
+  // ---------- guard brain: a plain state object, so the same step runs the world and every prediction ----------
+  const G = DATA.gravity;
+  function gMoveTo(s, tx, tz, speed, dt) {
+    const dx = tx - s.x, dz = tz - s.z, d = Math.hypot(dx, dz);
+    if (d < 0.06) return 'arrived';
+    s.facing = Math.atan2(-dx, -dz);
+    const step = Math.min(d, speed * dt), nx = s.x + dx / d * step, nz = s.z + dz / d * step;
+    // guards never walk off a ledge: no ground, or a step of more than 0.3 m, stops them
+    const gnd = groundAt({ x: nx, y: s.y, z: nz });
+    if (gnd === null || Math.abs(gnd - s.y) > 0.3) return 'blocked';
+    const p = { x: s.x, y: s.y, z: s.z };
+    moveBox(p, [nx - s.x, 0, nz - s.z], guardBox, STATIC);
+    const moved = Math.hypot(p.x - s.x, p.z - s.z);
+    s.x = p.x; s.z = p.z;
+    return moved < step * 0.3 ? 'blocked' : 'moving';
+  }
+  function stepG(g, s, dt) {
+    if (s.mode === 'gone') return;
+    s.vy -= G * dt;
+    const p = { x: s.x, y: s.y, z: s.z };
+    const hit = moveBox(p, [0, s.vy * dt, 0], guardBox, STATIC);
+    s.y = p.y;
+    const grounded = !!hit[1] && s.vy < 0;
+    if (hit[1]) s.vy = 0;
+    if (s.y < -3) { s.mode = 'gone'; return; }
+    if (!grounded) return;
+    switch (s.mode) {
+      case 'sleep': case 'down': return;
+      case 'confused': if ((s.timer -= dt) <= 0) { s.mode = 'search'; s.timer = GR.search; } return;
+      case 'search': s.facing += dt * 1.6; if ((s.timer -= dt) <= 0) s.mode = 'return'; return;
+      case 'patrol': {
+        if (!g.b) { s.facing = g.facing0; return; }
+        const t = s.wp ? g.b : g.a;
+        if (gMoveTo(s, t.x, t.z, g.walk, dt) !== 'moving') s.wp = 1 - s.wp;
+        return;
+      }
+      case 'return': {
+        const t = !g.b || Math.hypot(g.a.x - s.x, g.a.z - s.z) <= Math.hypot(g.b.x - s.x, g.b.z - s.z) ? g.a : g.b;
+        const r = gMoveTo(s, t.x, t.z, g.walk, dt);
+        if (r === 'arrived') { s.mode = 'patrol'; s.wp = t === g.a ? 1 : 0; }
+        else if (r === 'blocked') { s.mode = 'search'; s.timer = GR.search; }
+        return;
+      }
+      case 'alert': {
+        if (s.timer > 0) { s.timer -= dt; s.facing = Math.atan2(-(s.gx - s.x), -(s.gz - s.z)); return; }
+        if (gMoveTo(s, s.gx, s.gz, GR.run, dt) !== 'moving') { s.mode = 'search'; s.timer = GR.search; }
+        return;
+      }
+      case 'chase': gMoveTo(s, s.gx, s.gz, GR.run, dt); return;
+    }
+  }
+  function alertG(s, x, z) {
+    if (s.mode === 'down' || s.mode === 'gone') return;
+    s.mode = 'alert'; s.timer = GR.react; s.gx = x; s.gz = z;
+  }
+  // where a guard will stand after `secs`, assuming nothing new happens to it
+  function predictGuard(g, secs, tweak) {
+    const s = { ...g.s }; if (tweak) tweak(s);
+    const n = Math.max(1, Math.ceil(secs * 30)), h = secs / n;
+    for (let i = 0; i < n; i++) stepG(g, s, h);
+    return s;
+  }
+  function canSee(g, target, h) {
+    const s = g.s;
+    const dx = target.x - s.x, dz = target.z - s.z, d = Math.hypot(dx, dz);
+    if (d > GR.vision) return false;
+    const fx = -Math.sin(s.facing), fz = -Math.cos(s.facing);
+    if (d > 0.5 && (dx * fx + dz * fz) / d < Math.cos(T3.MathUtils.degToRad(GR.visionDeg))) return false;
+    return !segmentBlocked(new V3(s.x, s.y + GR.eye, s.z), new V3(target.x, target.y + h, target.z));
+  }
+  // a guard can grab you only if a hand-sized box fits through the gap (bars stop it)
+  function reachClear(g) {
+    const a = new V3(g.s.x, g.s.y + 1, g.s.z), b = player.pos.clone().add(new V3(0, 1, 0));
+    const n = Math.max(1, Math.ceil(a.distanceTo(b) / 0.1));
+    for (let i = 0; i <= n; i++) { const p = a.clone().lerp(b, i / n); if (STATIC.some(s => overlap(boxAt(p, [0.16, 0.3, 0.16]), s))) return false; }
+    return true;
+  }
+  function objHitsGuard(p, h, s) {
+    if (s.mode === 'gone') return false;
+    const down = s.mode === 'down';
+    const r = down ? 0.8 : GR.radius, top = down ? 0.5 : GR.height;
+    return Math.hypot(p.x - s.x, p.z - s.z) < r + h[0] + 0.05 && p.y - s.y > -h[1] && p.y - s.y < top + h[1];
+  }
+  function guardHitBox(g) {
+    const s = g.s;
+    return s.mode === 'down' ? { min: [s.x - 0.8, s.y, s.z - 0.8], max: [s.x + 0.8, s.y + 0.5, s.z + 0.8] } : guardBox(s);
+  }
+  // where an entity's feet will be at time t (for the "future me" ghosts)
+  function feetAt(e, t) {
+    if (e.kind === 'guard') { const s = predictGuard(e, Math.max(0, t - W.t)); return new V3(s.x, s.y, s.z); }
+    const center = e.pos.clone();
+    if (e.state === 'hang' || e.state === 'fly') {
+      const after = e.state === 'hang' ? t - e.launchAt : t - W.t;
+      const v = e.state === 'hang' ? e.stored : e.vel;
+      if (after > 0) { center.addScaledVector(v, after); center.y -= 0.5 * G * after * after; const gnd = groundAt(center); if (gnd !== null && center.y - e.half[1] < gnd) center.y = gnd + e.half[1]; }
+    }
+    return center.sub(new V3(0, e.half[1], 0));
+  }
+
+  // ---------- player ----------
+  const player = { pos: SPAWN.clone(), vel: new V3(), grounded: false, ground: null, groundPrev: new V3(), holding: null, charge: null, bob: 0, gun: false, ammo: 0 };
+  const look = { yaw: 0, pitch: -0.05 };
+  const eye = () => player.pos.clone().add(new V3(0, DATA.player.eye, 0));
+  const lookDir = () => new V3(-Math.sin(look.yaw) * Math.cos(look.pitch), Math.sin(look.pitch), -Math.cos(look.yaw) * Math.cos(look.pitch));
+  const flatFwd = () => new V3(-Math.sin(look.yaw), 0, -Math.cos(look.yaw));
+  const flatRight = () => new V3(Math.cos(look.yaw), 0, -Math.sin(look.yaw));
+  const aimArc = makeLine(ARC_N, dashed(0xefe9f5, 0.8));
+  const ghostBox = new T3.Mesh(new T3.BoxGeometry(1, 1, 1), new T3.MeshBasicMaterial({ color: 0xefe9f5, transparent: true, opacity: 0.25, depthWrite: false, wireframe: true }));
+  ghostBox.visible = false; scene.add(ghostBox);
+  function silhouette(color, opacity) {
+    const g = new T3.Group();
+    const mat = new T3.MeshBasicMaterial({ color, transparent: true, opacity, depthWrite: false });
+    const b = new T3.Mesh(new T3.CylinderGeometry(0.3, 0.3, 1.25, 16), mat); b.position.y = 0.72; g.add(b);
+    const h = new T3.Mesh(new T3.SphereGeometry(0.2, 16, 12), mat); h.position.y = 1.5; g.add(h);
+    g.visible = false; scene.add(g); g.userData.mat = mat; return g;
+  }
+  const futureMes = [0, 1, 2, 3].map(() => silhouette(C.swap, 0.32));
+  const previewMe = silhouette(C.swap, 0.18);
+  const ghostGuard = silhouette(C.blast, 0.28);
+  // first-person gun and tracer
+  const gunView = new T3.Group();
+  gunView.add(new T3.Mesh(new T3.BoxGeometry(0.09, 0.12, 0.42), std('#3a3d48', { metalness: 0.6, roughness: 0.4 })));
+  const gvGrip = new T3.Mesh(new T3.BoxGeometry(0.07, 0.16, 0.08), std('#22242c')); gvGrip.position.set(0, -0.11, 0.12); gunView.add(gvGrip);
+  gunView.position.set(0.24, -0.22, -0.5); camera.add(gunView); gunView.visible = false;
+  const tracer = makeLine(2, new T3.LineBasicMaterial({ color: C.swap, transparent: true, opacity: 0.9 }));
+  let tracerLeft = 0, kick = 0;
+
+  // ---------- event queue: every delayed result is an event, run strictly in time order ----------
+  function schedule(t, kind, target) { const e = { t, kind, target, seq: W.seq++ }; W.events.push(e); return e; }
+  function runDue(until) {
+    for (;;) {
+      let bi = -1;
+      for (let i = 0; i < W.events.length; i++) {
+        const e = W.events[i]; if (e.t > until) continue;
+        if (bi < 0 || e.t < W.events[bi].t || (e.t === W.events[bi].t && e.seq < W.events[bi].seq)) bi = i;
+      }
+      if (bi < 0) return;
+      const e = W.events.splice(bi, 1)[0];
+      if (e.kind === 'launch') launch(e.target);
+      else if (e.kind === 'swap') doSwap(e.target);
+      else if (e.kind === 'knockout') knockout(e.target);
+    }
+  }
+  function launch(o) {
+    if (o.state !== 'hang') return;
+    o.state = 'fly'; o.vel.copy(o.stored); o.spin = (Math.random() - 0.5) * 6; o.hitSet.clear(); beep(150, 0.1);
+  }
+  function reserveSwap(target, why) {
+    if (!target || (target.kind === 'guard' && !alive(target)) || target.state === 'held') return;
+    schedule(W.t + SETTINGS.swapDelay, 'swap', target);
+    beep(600, 0.06);
+    const after = target.kind !== 'guard' ? '' : why === 'shot' ? ' 경비는 총 쏜 곳으로 달려옵니다.' : ' 경비는 물체가 멈춰 있던 곳을 범인 자리로 압니다.';
+    toast(`${target.name} 명중. ${SETTINGS.swapDelay}초 뒤 자리가 바뀝니다.${after}`);
+  }
+  function doSwap(target) {
+    // the exception does nothing: a target that is gone or in hand simply cancels
+    if (target.kind === 'guard' && !alive(target)) { toast(`${target.name}이(가) 사라져 교환이 취소됐습니다.`); return; }
+    if (target.kind !== 'guard' && (target.state === 'held' || !objects.includes(target))) return;
+    const myFeet = player.pos.clone();
+    const theirFeet = target.kind === 'guard' ? target.pos.clone() : target.pos.clone().sub(new V3(0, target.half[1], 0));
+    player.pos.copy(theirFeet); player.ground = null;
+    if (!SETTINGS.keepVel) player.vel.set(0, 0, 0);
+    if (target.kind === 'guard') {
+      const s = target.s;
+      s.x = myFeet.x; s.y = myFeet.y; s.z = myFeet.z; s.vy = 0;
+      unstick(s, guardBox);
+      if (s.mode !== 'down') { s.mode = 'confused'; s.timer = GR.confused; }
+      target.pos.set(s.x, s.y, s.z);
+    } else {
+      target.pos.copy(myFeet).add(new V3(0, target.half[1], 0));
+      if (target.state === 'rest') { target.state = 'fly'; target.thrown = false; }
+      if (target.state === 'fly' && !SETTINGS.keepVel) target.vel.set(0, 0, 0);
+    }
+    unstick(player.pos, playerBox);
+    W.swaps++; flash(); beep(420, 0.18);
+    if (!W.done.has('cell') && player.pos.z < 8.8) { complete('cell', '감방에서 나왔습니다. 경비는 이제 철창 안에 있습니다.'); setCheckpoint(new V3(0, 0, 5)); }
+  }
+  function knockout(g) {
+    g.marked = false;
+    if (!alive(g) || g.s.mode === 'down') return;
+    g.s.mode = 'down'; W.down++; beep(110, 0.25);
+    complete('takedown', `${g.name}이(가) 쓰러졌습니다.`);
+    for (const o of guards) if (o !== g && awake(o) && LOOKING.includes(o.s.mode) && canSee(o, g.pos, 0.3)) {
+      alertG(o.s, g.pos.x, g.pos.z); toast(`${o.name}이(가) 쓰러지는 걸 봤습니다. 그쪽으로 갑니다.`);
+    }
+  }
+  // after a swap, nudge sideways first (a guard is wider than me), and only then upward
+  function unstick(pos, boxFn) {
+    const stuck = p => STATIC.some(s => overlap(boxFn(p), s));
+    if (!stuck(pos)) return;
+    for (let r = 0.05; r <= 0.5; r += 0.05) for (let k = 0; k < 8; k++) {
+      const a = k * Math.PI / 4, p = { x: pos.x + Math.cos(a) * r, y: pos.y, z: pos.z + Math.sin(a) * r };
+      if (!stuck(p)) { pos.x = p.x; pos.z = p.z; return; }
+    }
+    for (let k = 0; k < 20 && stuck(pos); k++) pos.y += 0.1;
+  }
+
+  // ---------- input ----------
+  const keys = new Set();
+  let started = false, paused = false, lockMode = 'unknown', jumpQueued = false;
+  document.addEventListener('keydown', e => {
+    if (e.target.closest && e.target.closest('input, textarea, select')) return;
+    if (!started || paused) return;
+    if (['Space', 'ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.code)) e.preventDefault();
+    if (e.repeat) return;
+    press(e.code);
+  });
+  document.addEventListener('keyup', e => release(e.code));
+  window.addEventListener('blur', () => { keys.clear(); if (player.charge !== null) doThrow(); });
+  function press(code) {
+    keys.add(code); unlockAudio();
+    if (code === 'KeyE') interact();
+    if (code === 'KeyF') primaryDown();
+    if (code === 'KeyQ') gunThrowDown();
+    if (code === 'Space') jumpQueued = true;
+    if (code === 'KeyR') resetLevel();
+  }
+  function release(code) {
+    keys.delete(code);
+    if (code === 'KeyF') primaryUp();
+    if (code === 'KeyQ') gunThrowUp();
+  }
+  function turn(dx, dy) { look.yaw -= dx * DATA.look.sens; look.pitch = Math.max(DATA.look.pitchMin, Math.min(DATA.look.pitchMax, look.pitch - dy * DATA.look.sens)); }
+  function requestLock() {
+    if (lockMode === 'drag' || !cv.requestPointerLock) { lockMode = 'drag'; return; }
+    try { const r = cv.requestPointerLock(); if (r && r.catch) r.catch(() => { lockMode = 'drag'; toast('마우스 고정을 쓸 수 없어 오른쪽 드래그로 둘러봅니다.'); }); } catch (e) { lockMode = 'drag'; }
+  }
+  const locked = () => document.pointerLockElement === cv;
+  document.addEventListener('pointerlockchange', () => {
+    if (locked()) { lockMode = 'lock'; paused = false; $('overlay').hidden = true; }
+    else if (started && lockMode === 'lock' && !W.won) { keys.clear(); if (player.charge !== null) doThrow(); showPause(); }
+  });
+  document.addEventListener('pointerlockerror', () => { lockMode = 'drag'; });
+  let dragging = null, mouseDown = false;
+  cv.addEventListener('contextmenu', e => e.preventDefault());
+  cv.addEventListener('pointerdown', e => {
+    stage.focus({ preventScroll: true });
+    if (!started || paused) return;
+    if (e.pointerType === 'touch' || e.button === 2) { dragging = { x: e.clientX, y: e.clientY, id: e.pointerId }; cv.setPointerCapture(e.pointerId); return; }
+    if (e.button === 0) {
+      if (!locked() && lockMode !== 'drag') { requestLock(); return; }
+      unlockAudio(); primaryDown(); mouseDown = true;
+    }
+  });
+  cv.addEventListener('pointermove', e => {
+    if (locked()) { turn(e.movementX, e.movementY); return; }
+    if (dragging && dragging.id === e.pointerId) { turn(e.clientX - dragging.x, e.clientY - dragging.y); dragging.x = e.clientX; dragging.y = e.clientY; }
+  });
+  window.addEventListener('pointerup', e => {
+    if (dragging && dragging.id === e.pointerId) dragging = null;
+    if (e.button === 0 && mouseDown) { mouseDown = false; primaryUp(); }
+  });
+  document.querySelectorAll('#pad button').forEach(b => {
+    const code = b.dataset.k;
+    b.addEventListener('pointerdown', e => { e.preventDefault(); e.stopPropagation(); if (started && !paused) press(code); });
+    const up = e => { e.preventDefault(); release(code); };
+    b.addEventListener('pointerup', up); b.addEventListener('pointercancel', up); b.addEventListener('pointerleave', up);
+  });
+
+  // ---------- aim / actions ----------
+  function aimed(filter) {
+    const e = eye(), d = lookDir();
+    let best = null, bs = -Infinity;
+    const cands = [...objects.filter(o => o.state !== 'held'), ...guards.filter(alive)];
+    for (const o of cands) {
+      if (!filter(o)) continue;
+      const center = o.kind === 'guard' ? o.pos.clone().add(new V3(0, o.s.mode === 'down' ? 0.3 : 0.95, 0)) : o.pos.clone();
+      const rad = o.kind === 'guard' ? (o.s.mode === 'down' ? 0.8 : 0.55) : Math.max(...o.half) + 0.3;
+      const to = center.clone().sub(e);
+      const dist = to.length();
+      if (dist > DATA.player.reach + rad) continue;
+      const along = to.dot(d); if (along <= 0) continue;
+      const off = to.clone().sub(d.clone().multiplyScalar(along)).length();
+      if (off > rad) continue;
+      const score = -off - dist * 0.1;
+      if (score > bs) { bs = score; best = o; }
+    }
+    return best;
+  }
+  function castRay(o, d, max) {
+    let best = { t: max, target: null };
+    for (const s of STATIC) { const t = rayBox(o, d, s); if (t !== null && t < best.t) best = { t, target: null }; }
+    for (const g of guards) { if (!alive(g)) continue; const t = rayBox(o, d, guardHitBox(g)); if (t !== null && t < best.t) best = { t, target: g }; }
+    for (const ob of objects) { if (ob.state === 'held') continue; const t = rayBox(o, d, boxAt(ob.pos, ob.half)); if (t !== null && t < best.t) best = { t, target: ob }; }
+    best.point = o.clone().addScaledVector(d, best.t);
+    return best;
+  }
+  const hDist = g => Math.hypot(g.pos.x - player.pos.x, g.pos.z - player.pos.z);
+  // what E would do on this guard right now
+  function guardAction(g) {
+    if (g.hasGun && g.s.mode === 'sleep') return { ok: true, kind: 'steal', text: '총 빼앗기' };
+    if (g.s.mode === 'down') return { ok: false, text: '쓰러진 경비' };
+    if (g.marked) return { ok: false, text: '이미 제압함' };
+    if (hDist(g) > DATA.player.takedown) return { ok: false, text: '제압하려면 더 가까이' };
+    if (awake(g) && canSee(g, player.pos, 1.2)) return { ok: false, text: '보고 있어 제압 불가' };
+    return { ok: true, kind: 'takedown', text: SETTINGS.hang ? `뒤에서 제압 · ${SETTINGS.hang}초 뒤 기절` : '뒤에서 제압 · 바로 기절' };
+  }
+  function interact() {
+    if (player.holding) return;
+    const t = aimed(() => true);
+    if (!t) return;
+    if (t.kind === 'guard') {
+      const act = guardAction(t);
+      if (!act.ok) { toast(`${t.name}: ${act.text}.`); return; }
+      if (act.kind === 'steal') {
+        t.hasGun = false; player.gun = true; player.ammo = SETTINGS.ammo;
+        W.cp.gun = true; W.cp.ammo = player.ammo;
+        complete('gun', '총을 빼앗았습니다. 클릭하면 바로 발사됩니다. 맞은 경비와는 3초 뒤 자리가 바뀝니다.');
+        beep(500, 0.08); return;
+      }
+      t.marked = true; schedule(W.t + SETTINGS.hang, 'knockout', t); beep(200, 0.12);
+      toast(SETTINGS.hang ? `${t.name}을(를) 제압했습니다. ${SETTINGS.hang}초 뒤 쓰러집니다. 그때까지는 아무것도 모른 채 하던 일을 계속합니다.` : `${t.name}을(를) 제압했습니다. 바로 쓰러집니다.`);
+      return;
+    }
+    if (t.kind === 'gun') { removeItem(t); player.gun = true; beep(500, 0.06); toast('총을 다시 주웠습니다.'); return; }
+    t.state = 'held'; t.thrown = false; player.holding = t;
+    W.events = W.events.filter(e => e.target !== t || e.kind === 'swap');
+    beep(330, 0.05);
+  }
+  function holdPoint() { return eye().add(lookDir().multiplyScalar(1.0)).add(flatRight().multiplyScalar(0.55)).add(new V3(0, -0.5, 0)); }
+  function releasePoint(o, v) {
+    const hand = eye().add(lookDir().multiplyScalar(0.7 + o.half[0])).add(new V3(0, -0.35, 0));
+    const tries = [hand.clone().addScaledVector(v, DATA.throwing.lead), hand];
+    for (let k = 0.15; k <= 0.6; k += 0.15) tries.push(hand.clone().add(flatFwd().multiplyScalar(-k)));
+    for (const p of tries) {
+      p.y = Math.max(p.y, (groundAt(p) ?? -10) + o.half[1] + 0.05);
+      const b = boxAt(p, o.half);
+      if (!STATIC.some(s => overlap(b, s)) && !overlap(b, playerBox(player.pos))) return p;
+    }
+    return null;
+  }
+  function primaryDown() {
+    if (player.holding) { if (player.holding.kind === 'box' && player.charge === null) player.charge = 0; return; }
+    if (!player.gun) { toast(objects.some(o => o.kind === 'gun') ? '총을 던져 손이 비었습니다. E로 다시 주우세요.' : '손에 아무것도 없습니다. E로 빼앗거나 주우세요.'); return; }
+    if (player.ammo <= 0) { toast('탄약이 없습니다. Q를 누르고 있다 떼면 총을 던질 수 있습니다.'); return; }
+    shoot();
+  }
+  function primaryUp() { if (player.holding && player.holding.kind === 'box') doThrow(); }
+  function gunThrowDown() {
+    if (!player.gun || player.holding) return;
+    const hp = holdPoint();
+    const g = makeItem('gun', hp.x, hp.y, hp.z); g.state = 'held';
+    player.holding = g; player.gun = false; player.charge = 0;
+  }
+  function gunThrowUp() { if (player.holding && player.holding.kind === 'gun') doThrow(); }
+  function shoot() {
+    player.ammo--; kick = 1;
+    const o = eye(), d = lookDir(), h = castRay(o, d, DATA.gun.range);
+    camera.updateMatrixWorld();
+    const muzzle = camera.localToWorld(new V3(0.24, -0.18, -0.75));
+    fillLine(tracer, [muzzle, h.point]); tracer.visible = true; tracerLeft = 0.12;
+    beep(900, 0.05); beep(180, 0.12);
+    if (h.target) {
+      reserveSwap(h.target, 'shot');
+      if (h.target.kind === 'guard') alertG(h.target.s, player.pos.x, player.pos.z);
+    } else toast(`빗나갔습니다. 남은 탄약 ${player.ammo}발.`);
+  }
+  function throwVelocity(charge) {
+    const t = DATA.throwing;
+    const s = t.min + (t.max - t.min) * charge;
+    const pitch = Math.min(1.4, Math.asin(Math.max(-1, Math.min(1, lookDir().y))) + T3.MathUtils.degToRad(t.liftDeg));
+    return flatFwd().multiplyScalar(Math.cos(pitch) * s).add(new V3(0, Math.sin(pitch) * s, 0));
+  }
+  function doThrow() {
+    const o = player.holding;
+    if (player.charge === null || !o) { player.charge = null; return; }
+    const charge = Math.min(1, player.charge / DATA.throwing.chargeTime);
+    player.charge = null;
+    const v = throwVelocity(charge), p = releasePoint(o, v);
+    if (!p) {
+      if (o.kind === 'gun') { removeItem(o); player.holding = null; player.gun = true; }
+      toast('여기서는 던질 공간이 없습니다.'); return;
+    }
+    o.pos.copy(p); o.origin.copy(p); o.stored.copy(v); o.vel.set(0, 0, 0); player.holding = null; o.mesh.rotation.set(0, look.yaw, 0);
+    o.thrown = true; o.hitSet.clear();
+    if (SETTINGS.hang > 0) { o.state = 'hang'; o.hangTotal = SETTINGS.hang; o.launchAt = W.t + SETTINGS.hang; schedule(o.launchAt, 'launch', o); }
+    else { o.state = 'fly'; o.vel.copy(v); }
+    beep(220, 0.08);
+  }
+
+  // ---------- simulation ----------
+  function objColliders(except) {
+    const list = STATIC.slice();
+    for (const o of objects) if (o !== except && o.state !== 'held') { const b = boxAt(o.pos, o.half); b.ref = o; list.push(b); }
+    return list;
+  }
+  function stepObjects(dt) {
+    for (const o of objects.slice()) {
+      if (o.state === 'held') { o.pos.copy(holdPoint()); continue; }
+      if (o.state === 'hang') continue;
+      o.vel.y -= G * dt;
+      const hit = moveBox(o.pos, [o.vel.x * dt, o.vel.y * dt, o.vel.z * dt], p => boxAt(p, o.half), objColliders(o));
+      let grounded = false;
+      if (hit[1]) { if (o.vel.y < 0) grounded = true; o.vel.y = 0; }
+      if (hit[0]) o.vel.x *= -0.15; if (hit[2]) o.vel.z *= -0.15;
+      if (grounded) { const k = Math.max(0, 1 - 7 * dt); o.vel.x *= k; o.vel.z *= k; o.spin *= k; }
+      if (o.state === 'fly' && o.thrown) {
+        // anything a thrown object reaches counts as hit: guards and other objects alike
+        for (const g of guards) {
+          if (!alive(g) || o.hitSet.has(g) || !objHitsGuard(o.pos, o.half, g.s)) continue;
+          o.hitSet.add(g); o.vel.multiplyScalar(-0.2);
+          reserveSwap(g, 'hit'); alertG(g.s, o.origin.x, o.origin.z);
+        }
+        for (const c of hit) if (c && c.ref && !o.hitSet.has(c.ref)) { o.hitSet.add(c.ref); reserveSwap(c.ref, 'hit'); }
+      }
+      if (o.state === 'fly' && grounded && Math.hypot(o.vel.x, o.vel.z) < 0.25) { o.state = 'rest'; o.thrown = false; o.vel.set(0, 0, 0); o.spin = 0; }
+      if (o.pos.y < -6) {
+        if (o.kind === 'gun') { removeItem(o); player.gun = true; toast('총이 구덩이로 떨어졌습니다. 다시 손에 쥐어 줍니다.'); continue; }
+        o.pos.copy(o.home); o.vel.set(0, 0, 0); o.state = 'rest'; o.thrown = false; W.events = W.events.filter(e => e.target !== o);
+      }
+    }
+  }
+  function stepGuards(dt) {
+    for (const g of guards) {
+      const s = g.s;
+      if (s.mode === 'gone') continue;
+      const wasDown = s.mode === 'down';
+      stepG(g, s, dt);
+      g.pos.set(s.x, s.y, s.z);
+      if (s.mode === 'gone') { fell(g, wasDown); continue; }
+      if (LOOKING.includes(s.mode)) {
+        if (canSee(g, player.pos, 1.2)) {
+          if (s.mode !== 'chase') { toast(`${g.name}에게 들켰습니다! 시야 밖으로 벗어나세요.`); beep(760, 0.15); }
+          s.mode = 'chase'; s.gx = player.pos.x; s.gz = player.pos.z; s.lost = 0;
+        } else if (s.mode === 'chase' && (s.lost += dt) > GR.lose) { s.mode = 'search'; s.timer = GR.search; }
+        if (hDist(g) < GR.catchDist && Math.abs(s.y - player.pos.y) < 1 && reachClear(g)) { caught(`${g.name}에게 붙잡혔습니다.`); return; }
+      }
+    }
+  }
+  function fell(g, wasDown) {
+    g.mesh.visible = false; g.tag.visible = false; g.cone.visible = false; if (g.path) g.path.visible = false;
+    if (!wasDown) W.down++;
+    W.events = W.events.filter(e => e.target !== g);
+    complete('drop', `${g.name}이(가) 구덩이로 떨어졌습니다.`);
+  }
+  function setCheckpoint(pos) { W.cp = { pos: pos.clone(), gun: player.gun || objects.some(o => o.kind === 'gun'), ammo: player.ammo }; }
+  function caught(msg) {
+    player.pos.copy(W.cp.pos); player.vel.set(0, 0, 0); player.charge = null;
+    if (player.holding) { const o = player.holding; player.holding = null; if (o.kind === 'box') { o.state = 'rest'; o.pos.copy(o.home); } }
+    for (const o of objects.filter(o => o.kind === 'gun')) removeItem(o);
+    player.gun = W.cp.gun; player.ammo = Math.max(player.ammo, W.cp.ammo);
+    W.events = W.events.filter(e => e.kind !== 'swap');
+    for (const g of guards) if (['chase', 'alert'].includes(g.s.mode)) g.s.mode = 'return';
+    toast(msg + ' 마지막 지점에서 다시 시작합니다. 예약했던 교환은 취소됐습니다.');
+  }
+  function stepPlayer(dt) {
+    const p = player;
+    if (p.ground && objects.includes(p.ground)) { const d = p.ground.pos.clone().sub(p.groundPrev); if (d.lengthSq() > 0) moveBox(p.pos, [d.x, d.y, d.z], playerBox, STATIC); }
+    let ix = 0, iz = 0;
+    if (keys.has('KeyW') || keys.has('ArrowUp')) iz += 1;
+    if (keys.has('KeyS') || keys.has('ArrowDown')) iz -= 1;
+    if (keys.has('KeyA') || keys.has('ArrowLeft')) ix -= 1;
+    if (keys.has('KeyD') || keys.has('ArrowRight')) ix += 1;
+    const dir = flatFwd().multiplyScalar(iz).add(flatRight().multiplyScalar(ix));
+    if (dir.lengthSq() > 0) dir.normalize();
+    if (p.charge !== null) p.charge += dt;
+    const sp = DATA.player.speed * (p.charge !== null ? 0.6 : 1);
+    const acc = Math.min(1, (p.grounded ? 18 : 6) * dt);
+    p.vel.x += (dir.x * sp - p.vel.x) * acc; p.vel.z += (dir.z * sp - p.vel.z) * acc;
+    if (jumpQueued && p.grounded) { p.vel.y = DATA.player.jump; p.grounded = false; beep(260, 0.04); }
+    jumpQueued = false;
+    p.vel.y -= G * dt;
+    const cols = objColliders(null);
+    const hit = moveBox(p.pos, [p.vel.x * dt, p.vel.y * dt, p.vel.z * dt], playerBox, cols);
+    p.grounded = false; p.ground = null;
+    if (hit[1]) { if (p.vel.y < 0) { p.grounded = true; p.ground = hit[1].ref || null; } p.vel.y = 0; }
+    if (hit[0]) p.vel.x = 0; if (hit[2]) p.vel.z = 0;
+    const side = hit[0] || hit[2];
+    if (side && side.ref && dir.lengthSq() > 0) {
+      const rise = side.max[1] - p.pos.y;
+      if (rise > 0.05 && rise <= DATA.mantle) {
+        const np = p.pos.clone(); np.y = side.max[1] + 0.002; np.addScaledVector(dir, 0.18);
+        if (!cols.some(c => overlap(playerBox(np), c))) { p.pos.copy(np); p.vel.y = 0; p.grounded = true; p.ground = side.ref; }
+      }
+    }
+    if (p.ground) p.groundPrev.copy(p.ground.pos);
+    if (p.grounded) p.bob += Math.hypot(p.vel.x, p.vel.z) * dt * 2.4;
+    if (p.pos.y < -3.5) { caught('구덩이에 떨어졌습니다.'); return; }
+    if (p.grounded && p.pos.z < PIT.z0 && p.pos.y > -0.1 && p.pos.y < 0.5 && !W.done.has('pit')) { complete('pit', '구덩이를 건넜습니다. 순찰 경비 D의 시야를 조심하세요.'); setCheckpoint(p.pos); }
+    if (!W.won && p.pos.y > EXIT.y - 0.2 && Math.hypot(p.pos.x - EXIT.x, p.pos.z - EXIT.z) < 0.8) { complete('exit', '출구에 섰습니다.'); win(); }
+  }
+
+  // ---------- trajectory ----------
+  function simArc(start, v, h) {
+    const pts = [], p = start.clone(), vel = v.clone();
+    for (let n = 0; n < ARC_N - 1; n++) {
+      pts.push(p.clone());
+      vel.y -= G / 30; p.addScaledVector(vel, 1 / 30);
+      if (p.y < -3 || STATIC.some(s => overlap(boxAt(p, h), s))) { pts.push(p.clone()); break; }
+    }
+    return pts;
+  }
+  // throw preview: walk every guard forward through the hang and the flight, and find the first contact
+  function predictThrow(o, rp, v) {
+    const pts = simArc(rp, v, o.half);
+    const steps = Math.round(SETTINGS.hang * 30);
+    let best = null, near = null;
+    for (const g of guards) {
+      if (!alive(g)) continue;
+      const s = { ...g.s };
+      for (let i = 0; i < steps; i++) stepG(g, s, 1 / 30);
+      for (let i = 0; i < pts.length; i++) {
+        if (i > 0) stepG(g, s, 1 / 30);
+        if (objHitsGuard(pts[i], o.half, s)) { if (!best || i < best.i) best = { g, i, s: { ...s } }; break; }
+        const d = Math.hypot(pts[i].x - s.x, pts[i].z - s.z);
+        if (d < 3 && (!near || d < near.d)) near = { g, i, d, s: { ...s } };
+      }
+    }
+    for (const ob of objects) {
+      if (ob === o || ob.state === 'held') continue;
+      const bb = boxAt(ob.pos, ob.half);
+      for (let i = 0; i < pts.length; i++) if (overlap(boxAt(pts[i], o.half), bb)) { if (!best || i < best.i) best = { obj: ob, i }; break; }
+    }
+    return { pts, best, near };
+  }
+
+  // ---------- labels ----------
+  const labelBox = $('labels'); const pool = []; let used = 0; const v3 = new V3();
+  function label(text, pos, color) {
+    v3.copy(pos).project(camera);
+    if (v3.z > 1 || Math.abs(v3.x) > 1.05 || Math.abs(v3.y) > 1.05) return;
+    let el = pool[used]; if (!el) { el = document.createElement('span'); el.className = 'chip'; labelBox.appendChild(el); pool.push(el); }
+    used++; el.style.display = ''; el.textContent = text; el.style.color = color;
+    const r = cv.getBoundingClientRect();
+    el.style.left = ((v3.x + 1) / 2 * r.width) + 'px'; el.style.top = ((1 - v3.y) / 2 * r.height) + 'px';
+  }
+  function flushLabels() { for (let i = used; i < pool.length; i++) pool[i].style.display = 'none'; used = 0; }
+  function showGhost(ghost, at, color, text, lift) {
+    ghost.visible = true; ghost.position.copy(at); ghost.userData.mat.color.set(color);
+    if (text) label(text, at.clone().add(new V3(0, lift || 2.0, 0)), color);
+  }
+  const isDanger = at => { const gnd = groundAt(at.clone().add(new V3(0, 0.3, 0))); return gnd === null || at.y - gnd > 1.5; };
+
+  // ---------- view ----------
+  const EMBER = new T3.Color(C.ember);
+  let hudKey = '';
+  function setHud(h, cls) { if (h !== hudKey) { hudKey = h; $('hud').innerHTML = h; } $('crosshair').className = 'crosshair ' + (cls || ''); }
+  function updateView(dt, wall) {
+    const bob = player.grounded ? Math.sin(player.bob * 3) * 0.03 * Math.min(1, Math.hypot(player.vel.x, player.vel.z) / 2) : 0;
+    camera.position.copy(eye()).add(new V3(0, bob, 0));
+    camera.rotation.set(look.pitch, look.yaw, 0);
+    gunView.visible = player.gun && !player.holding;
+    kick = Math.max(0, kick - dt * 8);
+    gunView.position.set(0.24, -0.22 + kick * 0.03, -0.5 + kick * 0.08); gunView.rotation.x = kick * 0.25;
+    if (tracerLeft > 0) { tracerLeft -= dt; tracer.material.opacity = Math.max(0, tracerLeft / 0.12) * 0.9; if (tracerLeft <= 0) tracer.visible = false; }
+
+    aimArc.visible = false; ghostBox.visible = false; previewMe.visible = false; ghostGuard.visible = false;
+    let hud = '', cls = '';
+    const throwing = !!(player.holding && player.charge !== null);
+    if (throwing) {
+      const o = player.holding, charge = Math.min(1, player.charge / DATA.throwing.chargeTime);
+      $('meter').hidden = false; $('meterBar').style.width = Math.round(charge * 100) + '%';
+      const v = throwVelocity(charge), rp = releasePoint(o, v);
+      if (rp) {
+        ghostBox.visible = true; ghostBox.position.copy(rp); ghostBox.scale.set(...o.half.map(h => h * 2));
+        const pr = predictThrow(o, rp, v);
+        aimArc.visible = true; fillLine(aimArc, pr.pts);
+        aimArc.material.color.set(pr.best ? C.swap : C.fg);
+        if (pr.best && pr.best.g) {
+          const t = SETTINGS.hang + pr.best.i / 30;
+          showGhost(ghostGuard, new V3(pr.best.s.x, pr.best.s.y, pr.best.s.z), C.swap, `명중 +${t.toFixed(1)}`);
+          // the guard runs to where the object hung, then the swap lands me where it stops
+          const after = { ...pr.best.s }; alertG(after, rp.x, rp.z);
+          for (let i = 0, n = SETTINGS.swapDelay * 30; i < n; i++) stepG(pr.best.g, after, 1 / 30);
+          const at = new V3(after.x, after.y, after.z);
+          if (SETTINGS.ghost) showGhost(previewMe, at, isDanger(at) ? C.blast : C.swap, `+${(t + SETTINGS.swapDelay).toFixed(1)} 나`, 1.8);
+          hud = `<span class="s">명중 예상 · ${pr.best.g.name}</span>`; cls = 'swap';
+        } else if (pr.best && pr.best.obj) {
+          hud = `<span class="s">명중 예상 · ${pr.best.obj.name}</span>`; cls = 'swap';
+        } else if (pr.near) {
+          showGhost(ghostGuard, new V3(pr.near.s.x, pr.near.s.y, pr.near.s.z), C.blast, `${pr.near.g.name} +${(SETTINGS.hang + pr.near.i / 30).toFixed(1)}`);
+          hud = '<span class="x">빗나감 · 경비는 그때 저 자리에</span>';
+        }
+      }
+    } else $('meter').hidden = true;
+
+    for (const o of objects) {
+      o.mesh.position.copy(o.pos);
+      // shown smaller in hand so it does not cover the view; its real size is unchanged
+      o.mesh.scale.setScalar(o.state === 'held' ? 0.45 : 1);
+      if (o.state === 'held') o.mesh.rotation.set(0, look.yaw, 0);
+      if (o.state === 'fly') { o.mesh.rotation.y += o.spin * dt; o.mesh.rotation.x += o.spin * 0.5 * dt; }
+      const hanging = o.state === 'hang';
+      o.ring.visible = hanging; o.arc.visible = hanging; o.stem.visible = false;
+      if (hanging) {
+        const left = Math.max(0, o.launchAt - W.t), k = left / o.hangTotal;
+        o.ring.position.copy(o.pos); o.ring.rotation.x = Math.PI / 2; o.ring.rotation.z += dt * (1 + 6 * (1 - k));
+        o.mat.emissive.copy(EMBER); o.mat.emissiveIntensity = 0.12 + 0.2 * (1 - k);
+        o.mesh.position.y = o.pos.y + Math.sin(wall / 260) * 0.02;
+        fillLine(o.arc, simArc(o.pos, o.stored, o.half));
+        label(left.toFixed(1), o.pos.clone().add(new V3(0, o.half[1] + 0.3, 0)), C.ember);
+        const gnd = groundAt(o.pos);
+        if (gnd !== null && o.pos.y - o.half[1] - gnd > 0.08) {
+          fillLine(o.stem, [new V3(o.pos.x, o.pos.y - o.half[1], o.pos.z), new V3(o.pos.x, gnd + 0.01, o.pos.z)]); o.stem.visible = true;
+        }
+      } else o.mat.emissiveIntensity = 0;
+    }
+
+    for (const g of guards) {
+      const s = g.s;
+      if (s.mode === 'gone') continue;
+      const down = s.mode === 'down';
+      g.mesh.position.set(s.x, s.y + (down ? 0.3 : 0), s.z);
+      g.mesh.rotation.y = s.facing; g.mesh.rotation.x = down ? -Math.PI / 2 : s.mode === 'sleep' ? -0.28 : 0;
+      g.holster.visible = g.hasGun;
+      g.visorMat.color.set(awake(g) ? C.blast : '#55607a'); g.visorMat.emissiveIntensity = awake(g) ? (s.mode === 'chase' ? 1.8 : 0.8) : 0;
+      g.cone.visible = awake(g) && s.mode !== 'confused';
+      g.cone.position.set(s.x, s.y + 0.03, s.z); g.cone.rotation.y = s.facing;
+      g.coneMat.opacity = s.mode === 'chase' ? 0.2 : s.mode === 'alert' ? 0.14 : 0.07;
+      const pending = W.events.some(e => e.kind === 'swap' && e.target === g);
+      g.tag.visible = pending;
+      if (pending) { g.tag.position.set(s.x, s.y + 2.05, s.z); g.tag.rotation.z += dt * 3; }
+      if (g.path) g.path.visible = s.mode === 'patrol';
+      const head = new V3(s.x, s.y + 2.15, s.z);
+      const ko = W.events.find(e => e.kind === 'knockout' && e.target === g);
+      if (ko) label(`기절 ${Math.max(0, ko.t - W.t).toFixed(1)}`, head, C.ember);
+      else if (s.mode === 'sleep') label('Zz', head, C.fg);
+      else if (s.mode === 'alert') label('!', head, C.blast);
+      else if (s.mode === 'chase') label('!! 추격', head, C.blast);
+      else if (s.mode === 'search') label('?', head, C.fg);
+      else if (s.mode === 'confused') label('?!', head, C.swap);
+    }
+
+    // future me: where each pending swap will put me
+    futureMes.forEach(f => { f.visible = false; });
+    const swaps = W.events.filter(e => e.kind === 'swap').sort((a, b) => a.t - b.t || a.seq - b.seq);
+    if (SETTINGS.ghost) swaps.slice(0, futureMes.length).forEach((e, i) => {
+      const at = feetAt(e.target, e.t);
+      showGhost(futureMes[i], at, isDanger(at) ? C.blast : C.swap, `${i + 1} · +${(e.t - W.t).toFixed(1)} 나`);
+    });
+
+    // crosshair prompts when not throwing
+    if (started && !paused && !W.won && !throwing) {
+      const parts = [];
+      if (player.holding) parts.push('<span class="o"><kbd>클릭</kbd>누르고 있다 떼면 던지기</span>');
+      else {
+        const t = aimed(() => true);
+        if (t && t.kind === 'guard') { const act = guardAction(t); parts.push(act.ok ? `<span class="o"><kbd>E</kbd>${act.text}</span>` : `<span class="x">${act.text}</span>`); if (act.ok) cls = 'obj'; }
+        else if (t) { parts.push(`<span class="o"><kbd>E</kbd>${t.name} 줍기</span>`); cls = 'obj'; }
+        if (player.gun && player.ammo > 0) {
+          const h = castRay(eye(), lookDir(), DATA.gun.range);
+          if (h.target) {
+            const tg = h.target;
+            let at;
+            if (tg.kind === 'guard') { const s = predictGuard(tg, SETTINGS.swapDelay, s0 => alertG(s0, player.pos.x, player.pos.z)); at = new V3(s.x, s.y, s.z); }
+            else at = feetAt(tg, W.t + SETTINGS.swapDelay);
+            if (SETTINGS.ghost) showGhost(previewMe, at, isDanger(at) ? C.blast : C.swap, `쏘면 +${SETTINGS.swapDelay} 나`, 1.8);
+            parts.push(`<span class="s"><kbd>클릭</kbd>쏘기 · ${tg.name}와 ${SETTINGS.swapDelay}초 뒤 교환</span>`); cls = 'swap';
+          }
+        }
+      }
+      hud = parts.join('');
+    }
+    setHud(hud, cls);
+    $('ammo').innerHTML = player.gun ? `총 <b>${'●'.repeat(player.ammo)}${'○'.repeat(Math.max(0, SETTINGS.ammo - player.ammo))}</b>` : objects.some(o => o.kind === 'gun') ? '총 · 던짐' : '총 없음';
+  }
+
+  // ---------- view window: what the hit target sees until the swap ----------
+  const pipCam = new T3.PerspectiveCamera(70, 4 / 3, 0.05, 60); pipCam.rotation.order = 'YXZ';
+  const meBody = silhouette(C.ember, 0.95); // I have no body in first person; the window needs one
+  function renderPip() {
+    const box = $('pip');
+    const ev = SETTINGS.pip && started && !W.won
+      ? W.events.filter(e => e.kind === 'swap').sort((a, b) => a.t - b.t || a.seq - b.seq)[0] : null;
+    if (!ev) { box.hidden = true; return; }
+    const tg = ev.target;
+    let hidden = null, wasVisible = false;
+    if (tg.kind === 'guard') {
+      const s = tg.s;
+      pipCam.position.set(s.x, s.y + (s.mode === 'down' ? 0.5 : GR.eye), s.z);
+      pipCam.rotation.set(-0.12, s.facing, 0);
+      hidden = tg.mesh; wasVisible = hidden.visible; hidden.visible = false;
+    } else { // objects have no eyes: look down on them from above
+      pipCam.position.set(tg.pos.x, tg.pos.y + 4, tg.pos.z + 2.5);
+      pipCam.lookAt(tg.pos);
+    }
+    const w = cv.clientWidth, h = cv.clientHeight;
+    const pw = Math.round(Math.min(280, w * 0.3)), ph = Math.round(pw * 0.75);
+    pipCam.aspect = pw / ph; pipCam.updateProjectionMatrix();
+    meBody.position.copy(player.pos); meBody.visible = true;
+    renderer.setScissorTest(true);
+    renderer.setViewport(w - pw - 10, 10, pw, ph); renderer.setScissor(w - pw - 10, 10, pw, ph);
+    renderer.render(scene, pipCam);
+    renderer.setScissorTest(false); renderer.setViewport(0, 0, w, h);
+    meBody.visible = false;
+    if (hidden) hidden.visible = wasVisible;
+    box.hidden = false; box.style.width = pw + 'px'; box.style.height = ph + 'px';
+    $('pipLabel').textContent = `${tg.name} 시야 · 교환까지 ${Math.max(0, ev.t - W.t).toFixed(1)}초`;
+  }
+
+  // ---------- timeline ----------
+  let tlKey = '';
+  function renderTimeline() {
+    const span = 7;
+    const evs = W.events.slice().sort((a, b) => a.t - b.t || a.seq - b.seq).filter(e => e.t - W.t <= span + 0.01);
+    const key = evs.map(e => e.kind + e.seq + ':' + (e.t - W.t).toFixed(1)).join('|');
+    $('tlNow').textContent = `지금 ${W.t.toFixed(1)}초`;
+    if (key === tlKey) return; tlKey = key;
+    let html = '';
+    for (let s = 0; s <= span; s++) html += `<div class="tick" style="left:${(s / span) * 100}%"><span>+${s}</span></div>`;
+    if (!evs.length) html += '<div class="empty">예약 없음. 쏘거나 던지거나 제압하면 여기에 시간순으로 쌓입니다.</div>';
+    let swapNo = 0;
+    evs.forEach((e, i) => {
+      const x = Math.min(88, Math.max(12, ((e.t - W.t) / span) * 100));
+      const dt = `+${(e.t - W.t).toFixed(1)}`;
+      const text = e.kind === 'launch' ? `${e.target.name} 출발 ${dt}` : e.kind === 'knockout' ? `${e.target.name} 기절 ${dt}` : `${++swapNo} · ${e.target.name} 교환 ${dt}`;
+      html += `<div class="ev ${e.kind === 'swap' ? 's' : 'o'} ${i % 2 ? 'row2' : ''}" style="left:${x}%">${text}</div>`;
+    });
+    $('track').innerHTML = html;
+  }
+
+  // ---------- feedback ----------
+  function flash() { const f = $('flash'); f.style.transition = 'none'; f.style.opacity = '0.35'; requestAnimationFrame(() => { f.style.transition = 'opacity .35s ease-out'; f.style.opacity = '0'; }); }
+  let toastUntil = 0;
+  function toast(msg) { $('hint').innerHTML = msg; toastUntil = performance.now() + 4000; }
+  function idleHint() {
+    if (performance.now() < toastUntil) return;
+    const next = TASKS.find(t => !W.done.has(t.id) && !t.bonus);
+    $('hint').innerHTML = W.won ? '탈출했습니다.' : next ? `다음: <b>${next.text}</b>` : '';
+  }
+  function renderTasks() { $('tasks').innerHTML = TASKS.map(t => `<li class="${W.done.has(t.id) ? 'done' : ''}"><span class="box">${W.done.has(t.id) ? '✓' : ''}</span><span>${t.text}</span></li>`).join(''); }
+  function complete(id, msg) { if (W.done.has(id)) return; W.done.add(id); renderTasks(); toast(msg); beep(880, 0.12); }
+  function updateStats() { $('stSwap').textContent = W.swaps; $('stDown').textContent = W.down; $('stAmmo').textContent = player.gun || objects.some(o => o.kind === 'gun') ? player.ammo : '-'; $('stTime').textContent = W.t.toFixed(1); }
+  let ac = null;
+  function unlockAudio() { if (!ac) { try { ac = new (window.AudioContext || window.webkitAudioContext)(); } catch (e) { ac = null; } } }
+  function beep(freq, dur) {
+    if (!ac) return;
+    try { const o = ac.createOscillator(), g = ac.createGain(); o.type = 'triangle'; o.frequency.value = freq; g.gain.value = 0.06; g.gain.exponentialRampToValueAtTime(0.0001, ac.currentTime + dur); o.connect(g).connect(ac.destination); o.start(); o.stop(ac.currentTime + dur); } catch (e) { /* audio unavailable */ }
+  }
+
+  // ---------- overlays ----------
+  function showIntro() {
+    $('ovCard').innerHTML = `<h2>3초 늦은 실험체</h2>
+      <p>감방 안에는 아무것도 없습니다. 철창 너머 잠든 경비의 총을 E로 빼앗으세요.</p>
+      <p>${SETTINGS.model === 'A'
+        ? '<b>A안 지연형.</b> 총알은 바로 날아가고, 맞은 것과는 3초 뒤 자리가 바뀝니다. 던지기와 제압은 내 손의 힘이라 3초 뒤에 나갑니다.'
+        : '<b>B안 예지형.</b> 주먹·제압·던지기는 바로 일어납니다. 손을 떠난 것(총알·던진 것)에 맞은 대상과는 3초 뒤 자리가 바뀌고, 그 3초 동안 오른쪽 아래에 대상의 시야가 보입니다.'}
+      경비는 맞으면 범인이 있던 곳으로 달려옵니다.</p>
+      <p>오른쪽 「실험 설정」의 규칙 모델에서 A안과 B안을 바꿀 수 있습니다(방이 처음부터 다시 시작됩니다).</p>
+      <button class="primary" id="btnStart">시작</button>`;
+    $('overlay').hidden = false;
+    $('btnStart').onclick = () => { started = true; $('overlay').hidden = true; unlockAudio(); stage.focus({ preventScroll: true }); requestLock(); };
+  }
+  function showPause() {
+    paused = true;
+    $('ovCard').innerHTML = `<h2>잠시 멈춤</h2><p>화면을 클릭하면 다시 마우스로 둘러볼 수 있습니다.</p><button class="primary" id="btnResume">계속</button>`;
+    $('overlay').hidden = false;
+    $('btnResume').onclick = () => { paused = false; $('overlay').hidden = true; stage.focus({ preventScroll: true }); requestLock(); };
+  }
+  function win() {
+    W.won = true;
+    if (document.exitPointerLock && locked()) document.exitPointerLock();
+    $('ovCard').innerHTML = `<h2 class="win">탈출 성공</h2><p>${W.t.toFixed(1)}초 · 교환 ${W.swaps}번 · 제압 ${W.down}명 · 남은 탄약 ${player.ammo}발</p>
+      <p>총 대신 던지기로, 또는 경비 D를 뒤에서 제압하고 다시 해 보세요. 던진 것은 내 위치를 숨겨 줍니다.</p>
+      <button class="primary" id="btnAgain">처음부터</button>`;
+    $('overlay').hidden = false;
+    $('btnAgain').onclick = () => { resetLevel(); stage.focus({ preventScroll: true }); requestLock(); };
+  }
+
+  // ---------- settings ----------
+  function seg(id, choices, key, fmt, after) {
+    const el = $(id); el.innerHTML = '';
+    for (const c of choices) {
+      const b = document.createElement('button'); b.textContent = fmt(c); b.setAttribute('aria-pressed', c === SETTINGS[key] ? 'true' : 'false');
+      b.onclick = () => { SETTINGS[key] = c; seg(id, choices, key, fmt, after); after(); stage.focus({ preventScroll: true }); };
+      el.appendChild(b);
+    }
+  }
+  function renderRules() {
+    const d = SETTINGS.swapDelay;
+    $('rules').innerHTML = SETTINGS.model === 'A'
+      ? `<div>맞은 것은 <b class="s">${d}초</b> 뒤 나와 자리가 바뀐다.</div>
+         <div>내 손이 준 힘(던지기·제압)은 <b class="o">${SETTINGS.hang}초</b> 뒤에 나간다.</div>
+         <small>A안 지연형 · 총알은 내 손이 아니라서 바로 날아간다.</small>`
+      : `<div>손을 떠난 것에 맞은 것은 <b class="s">${d}초</b> 뒤 나와 자리가 바뀐다.</div>
+         <small>B안 예지형 · 주먹·제압·던지기는 바로. 맞힌 순간부터 ${d}초 동안 그 대상의 시야가 보인다.</small>`;
+    $('modelNote').textContent = SETTINGS.model === 'A'
+      ? 'A안: 던진 물체는 3초 멈췄다 날아가고, 뒤에서 제압한 경비는 3초 동안 모른 채 걷다 쓰러집니다.'
+      : 'B안: 던지면 바로 날아가고, 제압하면 바로 쓰러집니다. 3초 뒤에 일어나는 건 교환 하나뿐입니다.';
+    renderData();
+  }
+  function setModel(m) {
+    SETTINGS.model = m; SETTINGS.hang = MODEL_HANG[m];
+    SETTINGS.pip = m === 'B'; $('chkPip').checked = SETTINGS.pip;
+    resetLevel();
+  }
+  function renderData() {
+    const rows = [
+      ['규칙 모델', SETTINGS.model === 'A' ? 'A안 지연형' : 'B안 예지형', SETTINGS.model === 'A' ? '손의 힘도 3초 뒤' : '손의 힘은 즉시, 교환만 3초 뒤'],
+      ['시야 창', SETTINGS.pip ? '켬' : '끔', '맞힌 순간부터 교환까지 대상의 시야를 오른쪽 아래에. 물체는 위에서 내려다봄'],
+      ['교환 지연', `${SETTINGS.swapDelay}초`, '맞은 순간부터. 그 시각 서로의 발 위치를 바꿈'],
+      ['손 힘 지연', `${SETTINGS.hang}초`, '던진 물체가 날아가기까지, 제압한 경비가 쓰러지기까지'],
+      ['총알', '즉시 · 탄약 ' + SETTINGS.ammo, '내 손 힘이 아니라서 지연 없음. 탄약은 처음부터 적용'],
+      ['처리 순서', '시각 → 예약 순서', '같은 시각이면 먼저 예약한 것부터. 연쇄 교환은 앞 교환 이후 위치 기준'],
+      ['경비: 총에 맞음', `${GR.react}초 뒤 쏜 곳으로 ${GR.run} m/s`, '쏜 사람의 위치가 들킴. 도착하면 수색'],
+      ['경비: 던진 것에 맞음', '물체가 멈춰 있던 곳으로', '지연이 내 위치를 숨겨 줌'],
+      ['경비: 시야', `${GR.vision}m · ±${GR.visionDeg}°`, '벽·단상에 가리면 못 봄. 보이면 추격, 놓치면 ' + GR.lose + '초 뒤 수색'],
+      ['경비: 붙잡기', `${GR.catchDist}m`, '손이 닿을 틈이 있어야 함 (철창 너머는 못 잡음)'],
+      ['경비: 교환 직후', `${GR.confused}초 멍함`, '그동안은 보지도 잡지도 못함'],
+      ['경비: 낭떠러지', '멈춤', '스스로는 떨어지지 않음. 교환으로 허공에 놓이면 떨어짐'],
+      ['뒤에서 제압', `${DATA.player.takedown}m 안, 시야 밖`, '손 힘 지연 뒤 기절. 그 전까지 순찰 계속. 다른 경비가 보면 그쪽으로 감'],
+      ['대상이 사라짐', '취소', '떨어진 경비, 손에 든 물체와의 교환은 조용히 꺼짐'],
+      ['교환 때 속도', SETTINGS.keepVel ? '유지' : '0으로', '실험 설정에서 바꿀 수 있음'],
+      ['던지는 속도', `${DATA.throwing.min}~${DATA.throwing.max} m/s`, `${DATA.throwing.chargeTime}초 누르면 최대, 조준 + ${DATA.throwing.liftDeg}°`],
+    ];
+    $('dataTable').innerHTML = '<tr><th>항목</th><th>값</th><th>설명</th></tr>' + rows.map(r => `<tr><td>${r[0]}</td><td class="mono">${r[1]}</td><td>${r[2]}</td></tr>`).join('');
+  }
+  $('chkGhost').onchange = e => { SETTINGS.ghost = e.target.checked; stage.focus({ preventScroll: true }); };
+  $('chkPip').onchange = e => { SETTINGS.pip = e.target.checked; renderData(); stage.focus({ preventScroll: true }); };
+  $('chkKeep').onchange = e => { SETTINGS.keepVel = e.target.checked; renderData(); stage.focus({ preventScroll: true }); };
+  $('btnReset').onclick = () => { resetLevel(); stage.focus({ preventScroll: true }); };
+
+  // ---------- reset ----------
+  function resetLevel() {
+    for (const o of objects.slice()) removeItem(o);
+    for (const g of guards) { scene.remove(g.mesh, g.tag, g.cone); if (g.path) scene.remove(g.path); }
+    guards.length = 0;
+    for (const [x, z] of BOX_START) makeItem('box', x, null, z);
+    for (const s of GUARD_START) makeGuard(s);
+    Object.assign(W, { t: 0, events: [], seq: 0, swaps: 0, down: 0, won: false });
+    W.done = new Set(); W.cp = { pos: SPAWN.clone(), gun: false, ammo: 0 };
+    player.pos.copy(SPAWN); player.vel.set(0, 0, 0); player.holding = null; player.charge = null; player.gun = false; player.ammo = 0;
+    look.yaw = 0; look.pitch = -0.05; tracer.visible = false;
+    renderTasks(); updateStats(); tlKey = null;
+    if (started) { paused = false; $('overlay').hidden = true; }
+  }
+
+  // ---------- size / loop ----------
+  function resize() {
+    const w = stage.clientWidth;
+    const h = Math.max(320, Math.min(Math.round(w * 0.58), Math.round(window.innerHeight * 0.68)));
+    renderer.setSize(w, h, false); cv.style.width = w + 'px'; cv.style.height = h + 'px';
+    camera.aspect = w / h; camera.updateProjectionMatrix();
+  }
+  new ResizeObserver(resize).observe(stage);
+  let last = performance.now();
+  function advance(dt, wall) {
+    if (started && !paused && !W.won) {
+      const n = Math.max(1, Math.ceil(dt / (1 / 120)));
+      for (let i = 0; i < n && !W.won; i++) {
+        const h = dt / n;
+        W.t += h;
+        runDue(W.t);
+        stepObjects(h); stepGuards(h); stepPlayer(h);
+      }
+      updateStats();
+    }
+    updateView(dt, wall);
+    renderer.render(scene, camera);
+    renderPip();
+    flushLabels(); renderTimeline(); idleHint();
+  }
+  function frame(ts) { advance(Math.min(0.05, (ts - last) / 1000), ts); last = ts; requestAnimationFrame(frame); }
+  function boot(data) {
+    if (data && SWAP_CHOICES.includes(data.swapDelay)) SETTINGS.swapDelay = data.swapDelay;
+    if (data && MODEL_CHOICES.includes(data.model)) { SETTINGS.model = data.model; SETTINGS.hang = MODEL_HANG[data.model]; SETTINGS.pip = data.model === 'B'; }
+    if (data && AMMO_CHOICES.includes(data.ammo)) SETTINGS.ammo = data.ammo;
+    if (data && typeof data.ghost === 'boolean') { SETTINGS.ghost = data.ghost; $('chkGhost').checked = data.ghost; }
+    if (data && typeof data.keepVel === 'boolean') { SETTINGS.keepVel = data.keepVel; $('chkKeep').checked = data.keepVel; }
+    if (data && typeof data.pip === 'boolean') SETTINGS.pip = data.pip;
+    $('chkPip').checked = SETTINGS.pip;
+    seg('segSwap', SWAP_CHOICES, 'swapDelay', c => c + '초', renderRules);
+    seg('segModel', MODEL_CHOICES, 'model', c => c === 'A' ? 'A안 지연' : 'B안 예지', () => { setModel(SETTINGS.model); renderRules(); });
+    seg('segAmmo', AMMO_CHOICES, 'ammo', c => c + '발', renderRules);
+    renderRules(); resetLevel(); resize(); showIntro();
+    requestAnimationFrame(frame);
+  }
+  // designer handle: drive the level without real input (tests, tuning)
+  window.AfterSecondsEscape = { DATA, SETTINGS, W, player, look, objects, guards, press, release, castRay, predictGuard, advance: dt => advance(dt, performance.now()), start: () => { started = true; $('overlay').hidden = true; } };
+  window.claude?.hot?.snapshot?.(() => ({ ...SETTINGS }));
+  window.claude?.hot?.ready ? window.claude.hot.ready(boot) : boot(window.claude?.hot?.data ?? {});
+})();
+</script>
+
+</body></html>

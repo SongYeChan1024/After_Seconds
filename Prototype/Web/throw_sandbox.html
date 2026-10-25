@@ -1,0 +1,884 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>After Seconds Sandbox</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans+KR:wght@400;600&display=swap">
+<style>
+/* Layout: a large first-person 3D room on the left, a narrow ledger of controls, tasks and data on the right; stacks on phones. */
+:root {
+  color-scheme: dark;
+  --bg: #15110e;
+  --panel: #1e1915;
+  --panel-2: #262019;
+  --line: #3b3129;
+  --fg: #f1e7da;
+  --muted: #ab9c8b;
+  --ember: #ff8a3d;
+  --blast: #ff5440;
+  --ok: #86d49a;
+  --cool: #79bcd8;
+  --display: "Big Shoulders Display", "Arial Narrow", Impact, sans-serif;
+  --body: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+}
+html, body { height: 100%; }
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 15px; line-height: 1.55; }
+.app {
+  max-width: 1320px; margin: 0 auto;
+  padding-block: 18px 32px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid; gap: 16px;
+}
+.top { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px 24px; }
+.brand h1 { font-family: var(--display); font-weight: 800; font-size: clamp(38px, 6vw, 58px); line-height: .9; letter-spacing: .02em; text-transform: uppercase; margin: 0; }
+.brand h1 span { color: var(--ember); }
+.brand p { margin: 6px 0 0; color: var(--muted); font-size: 13px; letter-spacing: .04em; }
+.rule { font-size: 17px; padding: 10px 14px; border: 1px solid var(--line); border-left: 3px solid var(--ember); background: var(--panel); margin: 0; text-wrap: balance; }
+.rule b { color: var(--ember); font-weight: 600; }
+.layout { display: grid; grid-template-columns: minmax(0, 1fr) 310px; gap: 16px; align-items: start; }
+@media (max-width: 940px) { .layout { grid-template-columns: minmax(0, 1fr); } }
+.stage-wrap { min-width: 0; display: grid; gap: 8px; }
+.stage { position: relative; width: 100%; border: 1px solid var(--line); background: var(--bg); overflow: hidden; outline: none; }
+.stage canvas { display: block; width: 100%; touch-action: none; cursor: crosshair; }
+.stage:focus-visible { outline: 2px solid var(--ember); outline-offset: 2px; }
+.labels { position: absolute; inset: 0; pointer-events: none; }
+.chip { position: absolute; transform: translate(-50%, -100%); font-family: var(--mono); font-size: 13px; font-weight: 600; line-height: 1; padding: 4px 6px; background: color-mix(in srgb, var(--bg) 82%, transparent); border: 1px solid currentColor; white-space: nowrap; }
+.crosshair { position: absolute; left: 50%; top: 50%; width: 22px; height: 22px; transform: translate(-50%, -50%); pointer-events: none; }
+.crosshair::before, .crosshair::after { content: ""; position: absolute; background: var(--fg); opacity: .85; }
+.crosshair::before { left: 10px; top: 2px; width: 2px; height: 18px; }
+.crosshair::after { top: 10px; left: 2px; height: 2px; width: 18px; }
+.crosshair.on::before, .crosshair.on::after { background: var(--ember); opacity: 1; }
+.hud { position: absolute; left: 50%; top: calc(50% + 26px); transform: translateX(-50%); pointer-events: none; font-size: 13px; font-weight: 600; white-space: nowrap; display: flex; gap: 10px; }
+.hud span { background: color-mix(in srgb, var(--bg) 78%, transparent); border: 1px solid var(--line); padding: 3px 8px; }
+.hud kbd { margin: 0 4px 0 0; color: var(--ember); border-color: var(--ember); }
+.meter { position: absolute; left: 50%; bottom: 18px; transform: translateX(-50%); width: min(260px, 60%); height: 8px; border: 1px solid var(--line); background: color-mix(in srgb, var(--bg) 70%, transparent); pointer-events: none; }
+.meter i { display: block; height: 100%; width: 0; background: var(--ember); }
+.meter[hidden] { display: none !important; }
+.overlay { position: absolute; inset: 0; display: grid; place-items: center; background: color-mix(in srgb, var(--bg) 70%, transparent); padding: 16px; }
+.overlay[hidden] { display: none !important; }
+.ov-card { max-width: 460px; text-align: center; display: grid; gap: 10px; justify-items: center; }
+.ov-card h2 { font-family: var(--display); font-weight: 800; font-size: 34px; letter-spacing: .03em; margin: 0; text-transform: uppercase; }
+.ov-card p { margin: 0; color: var(--muted); text-wrap: balance; }
+.hint { margin: 0; min-height: 1.6em; color: var(--muted); font-size: 14px; }
+.hint b { color: var(--fg); }
+.side { display: grid; gap: 12px; min-width: 0; }
+.card { background: var(--panel); border: 1px solid var(--line); padding: 14px; display: grid; gap: 10px; }
+.card h2, .card h3 { margin: 0; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.keys { display: grid; grid-template-columns: auto 1fr; gap: 6px 10px; margin: 0; font-size: 13.5px; align-items: center; }
+.keys dt { white-space: nowrap; }
+.keys dd { margin: 0; color: var(--muted); }
+kbd { font-family: var(--mono); font-size: 11.5px; color: var(--fg); border: 1px solid var(--line); background: var(--panel-2); padding: 1px 5px; margin-right: 2px; }
+.tasks { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; font-size: 14px; }
+.tasks li { display: grid; grid-template-columns: 20px 1fr; gap: 8px; align-items: start; color: var(--muted); }
+.tasks li .box { width: 16px; height: 16px; border: 1.5px solid var(--line); margin-top: 3px; display: grid; place-items: center; font-size: 12px; line-height: 1; }
+.tasks li.done { color: var(--fg); }
+.tasks li.done .box { background: var(--ok); border-color: var(--ok); color: #10200f; }
+button { font: inherit; font-size: 14px; color: var(--fg); background: var(--panel-2); border: 1px solid var(--line); padding: 8px 12px; cursor: pointer; }
+button:hover { border-color: var(--muted); }
+button:focus-visible, input:focus-visible, summary:focus-visible { outline: 2px solid var(--ember); outline-offset: 2px; }
+button.primary { background: var(--ember); border-color: var(--ember); color: #1a0f07; font-weight: 600; }
+.btns { display: flex; gap: 8px; flex-wrap: wrap; }
+.row { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.seg { display: flex; }
+.seg button { padding: 5px 9px; font-family: var(--mono); font-size: 13px; }
+.seg button + button { border-left: none; }
+.seg button[aria-pressed="true"] { background: var(--ember); border-color: var(--ember); color: #1a0f07; }
+.note { margin: 0; font-size: 12px; color: var(--muted); }
+input[type=checkbox] { width: 18px; height: 18px; accent-color: var(--ember); }
+details.data summary { cursor: pointer; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.tbl-wrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 12.5px; }
+th, td { text-align: left; padding: 5px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--muted); font-weight: 600; font-size: 11px; letter-spacing: .06em; }
+td.mono { font-family: var(--mono); white-space: nowrap; }
+.pad { position: absolute; left: 0; right: 0; bottom: 0; display: none; justify-content: space-between; align-items: end; padding: 10px; pointer-events: none; }
+.pad .grp { display: grid; gap: 6px; pointer-events: auto; }
+.pad .dpad { grid-template-columns: repeat(3, 46px); grid-template-rows: repeat(2, 46px); }
+.pad .acts { grid-template-columns: repeat(2, 64px); }
+.pad button { padding: 0; height: 46px; font-size: 13px; background: color-mix(in srgb, var(--panel-2) 85%, transparent); user-select: none; -webkit-user-select: none; touch-action: none; }
+@media (pointer: coarse) { .pad { display: flex; } }
+.fallback { padding: 24px; color: var(--muted); }
+</style>
+
+<div class="app">
+  <header class="top">
+    <div class="brand">
+      <h1>After <span>Seconds</span></h1>
+      <p>지연 물리 샌드박스 · 1인칭 프로토타입</p>
+    </div>
+    <p class="rule">손을 떠난 물체는 그 자리에 <b id="ruleHang">3초</b> 멈췄다가 날아간다.</p>
+  </header>
+
+  <main class="layout">
+    <section class="stage-wrap">
+      <div class="stage" id="stage" tabindex="0" aria-label="1인칭 3D 방. 키보드로 움직이고 마우스로 둘러봅니다.">
+        <div class="labels" id="labels"></div>
+        <div class="crosshair" id="crosshair"></div>
+        <div class="hud" id="hud"></div>
+        <div class="meter" id="meter" hidden><i id="meterBar"></i></div>
+        <div class="pad" id="pad" aria-hidden="true">
+          <div class="grp dpad">
+            <span></span><button data-k="KeyW">▲</button><span></span>
+            <button data-k="KeyA">◀</button><button data-k="KeyS">▼</button><button data-k="KeyD">▶</button>
+          </div>
+          <div class="grp acts">
+            <button data-k="KeyE">줍기</button><button data-k="Space">점프</button>
+            <button data-k="KeyF" style="grid-column: span 2">던지기 · 치기 (누르고 있기)</button>
+          </div>
+        </div>
+        <div class="overlay" id="overlay">
+          <div class="ov-card" id="ovCard">
+            <h2>던지면, 멈춘다</h2>
+            <p>상자를 주워 던져 보세요. 손을 떠난 상자는 허공에 3초 멈춰 날아갈 길을 보여 준 다음, 그 길로 날아갑니다.</p>
+            <p>멈춘 상자는 밟을 수 있고, 올라탄 채로 같이 날아갈 수도 있습니다. 화면을 클릭하면 마우스로 둘러볼 수 있고, <kbd>Esc</kbd>로 풀립니다.</p>
+            <button class="primary" id="btnStart">시작</button>
+          </div>
+        </div>
+      </div>
+      <p class="hint" id="hint" aria-live="polite">시작을 누르고 방을 둘러보세요.</p>
+    </section>
+
+    <aside class="side">
+      <div class="card">
+        <h2>조작</h2>
+        <dl class="keys">
+          <dt>마우스</dt><dd>둘러보기 (화면 클릭으로 고정, <kbd>Esc</kbd>로 해제)</dd>
+          <dt><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></dt><dd>이동</dd>
+          <dt><kbd>Space</kbd></dt><dd>점프</dd>
+          <dt><kbd>E</kbd></dt><dd>조준점의 물체 줍기 · 내려놓기 (내려놓아도 멈췄다 떨어짐)</dd>
+          <dt>왼쪽 클릭 / <kbd>F</kbd></dt><dd>누르고 있다가 떼면 조준한 방향으로 던지기. 멈춘 물체를 조준하면 치기</dd>
+          <dt><kbd>R</kbd></dt><dd>방 초기화</dd>
+        </dl>
+        <p class="note">마우스 고정이 안 되는 환경에서는 오른쪽 드래그로 둘러봅니다.</p>
+      </div>
+      <div class="card">
+        <h2>과제</h2>
+        <ol class="tasks" id="tasks"></ol>
+        <div class="btns"><button id="btnReset">방 초기화<kbd style="margin-left:6px">R</kbd></button></div>
+      </div>
+      <div class="card">
+        <h3>실험 설정</h3>
+        <div class="row"><span>상자 대기</span><div class="seg" id="segHang" role="group" aria-label="상자 대기 시간"></div></div>
+        <label class="row" for="chkArc"><span>궤적 미리 보기</span><input type="checkbox" id="chkArc" checked></label>
+        <label class="row" for="chkTrail"><span>날아간 꼬리</span><input type="checkbox" id="chkTrail" checked></label>
+        <label class="row" for="chkStand"><span>멈춘 물체 밟기</span><input type="checkbox" id="chkStand" checked></label>
+        <p class="note">미리 보기를 끄면 3초 뒤를 머릿속으로 읽어야 합니다. 꼬리는 실제로 날아간 길만 그립니다.</p>
+      </div>
+      <details class="card data">
+        <summary>숨은 데이터</summary>
+        <p class="note">플레이어가 아는 규칙은 맨 위 한 줄뿐입니다. 실제 움직임은 아래 값이 정합니다.</p>
+        <div class="tbl-wrap"><table id="dataTable"></table></div>
+      </details>
+    </aside>
+  </main>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+(() => {
+  const $ = id => document.getElementById(id);
+  const stage = $('stage');
+  if (!window.THREE) { stage.innerHTML = '<p class="fallback">3D 라이브러리를 불러오지 못했습니다. 새로 고침해 주세요.</p>'; return; }
+  const T3 = window.THREE;
+  const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+  const C = { ember: css('--ember'), ok: css('--ok'), fg: css('--fg'), cool: css('--cool'), bg: css('--bg') };
+
+  // ---------- hidden data ----------
+  const DATA = {
+    types: {
+      box:  { name: '상자', size: [0.8, 0.8, 0.8], hang: 3, speed: 1.0,  bounce: 0.12, standable: true,  color: '#b0773f' },
+      ball: { name: '공',   size: [0.5, 0.5, 0.5], hang: 1, speed: 1.15, bounce: 0.62, standable: false, color: '#79bcd8', sphere: true },
+      iron: { name: '철괴', size: [0.7, 0.45, 0.7], hang: 5, speed: 0.6, bounce: 0.0,  standable: true,  color: '#6f757c' },
+    },
+    player: { speed: 4.6, jump: 6.6, half: [0.3, 1.6, 0.3], eye: 1.5, reach: 2.6 },
+    gravity: 20,
+    throwing: { min: 4, max: 12, liftDeg: 10, chargeTime: 0.9 },
+    punch: { forward: 3.5, up: 1.5 },
+    release: { lead: 0.05 },      // seconds of travel before the object pauses (how far past the hand it stops)
+    mantle: 1.1,                  // how high above the feet the player can climb onto a hanging or resting object
+    look: { sens: 0.0022, pitchMin: -1.45, pitchMax: 1.45 },
+  };
+  const HANG_CHOICES = [1, 2, 3, 5];
+  const SETTINGS = { boxHang: 3, arc: true, trail: true, stand: true };
+
+  // ---------- room (axis-aligned blocks: min xyz, max xyz) ----------
+  const B = (x0, y0, z0, x1, y1, z1, kind) => ({ min: [x0, y0, z0], max: [x1, y1, z1], kind: kind || 'floor' });
+  const STATIC = [
+    B(-8.5, -1, -6.5, 4, 0, 6.5, 'floor'),          // main floor
+    B(8.5, -1, -3.5, 12, 0, 3.5, 'floor'),          // far platform across the pit
+    B(-8.5, 0, -6.5, -4.5, 1.8, -3.5, 'ledge'),     // high ledge (1.8 m)
+    B(-8.5, 0, -7, 4, 4, -6.5, 'wall'),             // north wall
+    B(-9, 0, -6.5, -8.5, 4, 6.5, 'wall'),           // west wall
+    B(-8.5, 0, 6.5, 4, 0.5, 7, 'low'),              // south curb
+    B(8.5, 0, -4, 12, 2.4, -3.5, 'wall'),
+    B(12, 0, -3.5, 12.5, 2.4, 3.5, 'wall'),
+    B(8.5, 0, 3.5, 12, 0.4, 4, 'low'),
+  ];
+  const LEDGE = STATIC[2];
+  const TARGETS = [
+    { pos: new T3.Vector3(-1, 1.6, -6.45), hit: false },
+    { pos: new T3.Vector3(2.2, 1.0, -6.45), hit: false },
+  ];
+  const SPAWN = new T3.Vector3(-1, 0, 3.2);
+  const OBJ_START = [
+    ['box', -3.2, 1.6], ['box', -2.1, 1.6], ['box', 2.6, 0.6],
+    ['ball', 0.2, 2.2], ['iron', 1.3, 1.6],
+  ];
+
+  // ---------- tasks ----------
+  const TASKS = [
+    { id: 'hang', text: '상자를 던져 허공에 멈추는 것 보기' },
+    { id: 'ledge', text: '멈춘 상자를 밟고 높은 턱(1.8m) 위에 올라서기' },
+    { id: 'ride', text: '날아가는 상자에 올라타 구덩이 건너기' },
+    { id: 'targets', text: '벽의 과녁 두 개 맞히기' },
+  ];
+  const done = new Set();
+  function renderTasks() {
+    $('tasks').innerHTML = TASKS.map(t => `<li class="${done.has(t.id) ? 'done' : ''}"><span class="box">${done.has(t.id) ? '✓' : ''}</span><span>${t.text}</span></li>`).join('');
+  }
+  function complete(id, msg) {
+    if (done.has(id)) return;
+    done.add(id); renderTasks(); toast(msg); beep(880, 0.12);
+  }
+
+  // ---------- renderer / scene ----------
+  const renderer = new T3.WebGLRenderer({ antialias: true });
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+  renderer.shadowMap.enabled = true;
+  renderer.shadowMap.type = T3.PCFSoftShadowMap;
+  renderer.outputEncoding = T3.sRGBEncoding;
+  stage.prepend(renderer.domElement);
+  const cv = renderer.domElement;
+  const scene = new T3.Scene();
+  const BG = new T3.Color(C.bg);
+  scene.background = BG.clone();
+  scene.fog = new T3.Fog(BG.clone(), 18, 36);
+  const camera = new T3.PerspectiveCamera(72, 16 / 9, 0.05, 100);
+  camera.rotation.order = 'YXZ';
+  scene.add(camera);
+  scene.add(new T3.HemisphereLight(0xb8a894, 0x1a120c, 0.65));
+  scene.add(new T3.AmbientLight(0x3a2c22, 0.45));
+  const sun = new T3.DirectionalLight(0xffdcb4, 0.9);
+  sun.position.set(-4, 12, 6); sun.castShadow = true;
+  sun.shadow.mapSize.set(2048, 2048);
+  Object.assign(sun.shadow.camera, { left: -14, right: 14, top: 12, bottom: -12, near: 1, far: 40 });
+  sun.shadow.bias = -0.0012;
+  scene.add(sun); sun.target.position.set(1.5, 0, 0); scene.add(sun.target);
+  const lamp = new T3.PointLight(0xff9a50, 0.8, 14, 2); lamp.position.set(-2, 3.4, -3); scene.add(lamp);
+
+  const std = (color, extra) => new T3.MeshStandardMaterial(Object.assign({ color, roughness: 0.85, metalness: 0.05 }, extra || {}));
+  const MATS = { floor: std('#2a231d'), ledge: std('#3d332b'), wall: std('#2e2621'), low: std('#3a3029') };
+  for (const s of STATIC) {
+    const sx = s.max[0] - s.min[0], sy = s.max[1] - s.min[1], sz = s.max[2] - s.min[2];
+    const m = new T3.Mesh(new T3.BoxGeometry(sx, sy, sz), MATS[s.kind] || MATS.floor);
+    m.position.set((s.min[0] + s.max[0]) / 2, (s.min[1] + s.max[1]) / 2, (s.min[2] + s.max[2]) / 2);
+    m.receiveShadow = true; m.castShadow = s.kind !== 'floor';
+    scene.add(m);
+  }
+  // 1 m floor grid so distances read at a glance
+  function gridLines(x0, z0, x1, z1) {
+    const pts = [];
+    for (let x = Math.ceil(x0); x <= x1; x++) pts.push(new T3.Vector3(x, 0.004, z0), new T3.Vector3(x, 0.004, z1));
+    for (let z = Math.ceil(z0); z <= z1; z++) pts.push(new T3.Vector3(x0, 0.004, z), new T3.Vector3(x1, 0.004, z));
+    scene.add(new T3.LineSegments(new T3.BufferGeometry().setFromPoints(pts), new T3.LineBasicMaterial({ color: 0x3b3129 })));
+  }
+  gridLines(-8.5, -6.5, 4, 6.5); gridLines(8.5, -3.5, 12, 3.5);
+  const pit = new T3.Mesh(new T3.PlaneGeometry(4.5, 13), new T3.MeshBasicMaterial({ color: 0x0b0806 }));
+  pit.rotation.x = -Math.PI / 2; pit.position.set(6.25, -3, 0); scene.add(pit);
+  for (const [x, len] of [[4, 13], [8.5, 7]]) {
+    const e = new T3.Mesh(new T3.BoxGeometry(0.06, 0.02, len), new T3.MeshBasicMaterial({ color: C.ember }));
+    e.position.set(x, 0.01, 0); scene.add(e);
+  }
+  function flag(x, y, z, color) {
+    const g = new T3.Group();
+    const pole = new T3.Mesh(new T3.CylinderGeometry(0.03, 0.03, 1.4, 8), std('#c8b8a4')); pole.position.y = 0.7; g.add(pole);
+    const cloth = new T3.Mesh(new T3.PlaneGeometry(0.6, 0.38), new T3.MeshStandardMaterial({ color, side: T3.DoubleSide, emissive: color, emissiveIntensity: 0.25 }));
+    cloth.position.set(0.31, 1.18, 0); g.add(cloth);
+    g.position.set(x, y, z); g.traverse(o => { if (o.isMesh) o.castShadow = true; });
+    scene.add(g);
+  }
+  flag(-6.4, 1.8, -5, C.ember);
+  flag(10.6, 0, 0, C.ok);
+  function bullseye() {
+    const c = document.createElement('canvas'); c.width = c.height = 128;
+    const g = c.getContext('2d');
+    ['#e8463a', '#f3ead9', '#e8463a', '#f3ead9', '#e8463a'].forEach((col, i) => { g.fillStyle = col; g.beginPath(); g.arc(64, 64, 64 - i * 12.5, 0, Math.PI * 2); g.fill(); });
+    const t = new T3.CanvasTexture(c); t.encoding = T3.sRGBEncoding; return t;
+  }
+  const TARGET_TEX = bullseye();
+  for (const tg of TARGETS) {
+    tg.mat = new T3.MeshStandardMaterial({ map: TARGET_TEX, emissive: 0x000000 });
+    tg.mesh = new T3.Mesh(new T3.CircleGeometry(0.55, 32), tg.mat);
+    tg.mesh.position.copy(tg.pos); scene.add(tg.mesh);
+  }
+
+  // ---------- lines: prediction arcs and flight trails ----------
+  const ARC_N = 90, TRAIL_N = 80;
+  function makeLine(n, mat) {
+    const g = new T3.BufferGeometry(); g.setAttribute('position', new T3.BufferAttribute(new Float32Array(n * 3), 3));
+    const l = new T3.Line(g, mat); l.visible = false; l.frustumCulled = false; scene.add(l); return l;
+  }
+  const dashed = (color, opacity) => new T3.LineDashedMaterial({ color, dashSize: 0.18, gapSize: 0.12, transparent: true, opacity });
+
+  // ---------- objects ----------
+  const objects = [];
+  function makeObject(type, x, z) {
+    const d = DATA.types[type];
+    const geo = d.sphere ? new T3.SphereGeometry(d.size[0] / 2, 24, 16) : new T3.BoxGeometry(...d.size);
+    const mat = std(d.color, type === 'iron' ? { metalness: 0.6, roughness: 0.4 } : {});
+    const mesh = new T3.Mesh(geo, mat); mesh.castShadow = mesh.receiveShadow = true;
+    if (!d.sphere) mesh.add(new T3.LineSegments(new T3.EdgesGeometry(geo), new T3.LineBasicMaterial({ color: 0x1c140d })));
+    scene.add(mesh);
+    const ring = new T3.Mesh(new T3.TorusGeometry(Math.max(...d.size) * 0.85, 0.035, 8, 48), new T3.MeshBasicMaterial({ color: C.ember, transparent: true }));
+    ring.visible = false; scene.add(ring);
+    const o = {
+      type, d, half: d.size.map(v => v / 2), pos: new T3.Vector3(x, d.size[1] / 2, z), vel: new T3.Vector3(), stored: new T3.Vector3(),
+      state: 'rest', hangLeft: 0, hangTotal: 0, mesh, mat, ring, home: new T3.Vector3(x, d.size[1] / 2, z), grounded: true, spin: 0,
+      arc: makeLine(ARC_N, dashed(C.ember, 0.95)),        // prediction while paused
+      path: makeLine(ARC_N, dashed(C.fg, 0.55)),          // the same prediction, kept while it flies
+      trail: makeLine(TRAIL_N, new T3.LineBasicMaterial({ color: C.ember, transparent: true, opacity: 1 })),
+      trailPts: [], trailFade: 0, trailTick: 0,
+      stem: makeLine(2, dashed(C.fg, 0.55)),             // drop line to the floor so a paused object reads as floating
+      mark: new T3.Mesh(new T3.RingGeometry(0.16, 0.22, 32), new T3.MeshBasicMaterial({ color: C.ember, transparent: true, opacity: 0.85, side: T3.DoubleSide, depthWrite: false })),
+    };
+    o.mark.rotation.x = -Math.PI / 2; o.mark.visible = false; scene.add(o.mark);
+    objects.push(o);
+    return o;
+  }
+
+  // ---------- player ----------
+  const player = { pos: SPAWN.clone(), vel: new T3.Vector3(), grounded: false, ground: null, groundPrev: new T3.Vector3(), holding: null, charge: null, bob: 0 };
+  const half = DATA.player.half;
+  const look = { yaw: 0, pitch: -0.12 };
+  const aimArc = makeLine(ARC_N, dashed(0xf1e7da, 0.8));
+  const ghost = new T3.Mesh(new T3.BoxGeometry(1, 1, 1), new T3.MeshBasicMaterial({ color: 0xf1e7da, transparent: true, opacity: 0.22, depthWrite: false }));
+  ghost.visible = false; scene.add(ghost);
+
+  // ---------- collision ----------
+  function boxAt(p, h) { return { min: [p.x - h[0], p.y - h[1], p.z - h[2]], max: [p.x + h[0], p.y + h[1], p.z + h[2]] }; }
+  function aabbOf(o) { const b = boxAt(o.pos, o.half); b.ref = o; return b; }
+  function playerBox(p) { return { min: [p.x - half[0], p.y, p.z - half[2]], max: [p.x + half[0], p.y + half[1], p.z + half[2]] }; }
+  const overlap = (a, b) => a.min[0] < b.max[0] - 1e-6 && a.max[0] > b.min[0] + 1e-6 && a.min[1] < b.max[1] - 1e-6 && a.max[1] > b.min[1] + 1e-6 && a.min[2] < b.max[2] - 1e-6 && a.max[2] > b.min[2] + 1e-6;
+  const AX = ['x', 'y', 'z'];
+  // move axis by axis and push out of whatever it hits; returns the collider hit on each axis
+  function moveBox(pos, delta, boxFn, colliders) {
+    const hit = [null, null, null];
+    for (let a = 0; a < 3; a++) {
+      if (!delta[a]) continue;
+      pos[AX[a]] += delta[a];
+      for (const c of colliders) {
+        const b = boxFn(pos);
+        if (!overlap(b, c)) continue;
+        if (delta[a] > 0) pos[AX[a]] -= (b.max[a] - c.min[a]);
+        else pos[AX[a]] += (c.max[a] - b.min[a]);
+        hit[a] = c;
+      }
+    }
+    return hit;
+  }
+  function objColliders(except) {
+    const list = STATIC.slice();
+    for (const o of objects) if (o !== except && o.state !== 'held') list.push(aabbOf(o));
+    return list;
+  }
+  function playerColliders() {
+    const list = STATIC.slice();
+    for (const o of objects) {
+      if (o.state === 'held' || !o.d.standable) continue;
+      if (o.state === 'hang' && !SETTINGS.stand) continue;
+      list.push(aabbOf(o));
+    }
+    return list;
+  }
+
+  // ---------- look and aim ----------
+  const eye = () => player.pos.clone().add(new T3.Vector3(0, DATA.player.eye, 0));
+  const lookDir = () => new T3.Vector3(-Math.sin(look.yaw) * Math.cos(look.pitch), Math.sin(look.pitch), -Math.cos(look.yaw) * Math.cos(look.pitch));
+  const flatFwd = () => new T3.Vector3(-Math.sin(look.yaw), 0, -Math.cos(look.yaw));
+  const flatRight = () => new T3.Vector3(Math.cos(look.yaw), 0, -Math.sin(look.yaw));
+
+  // the object the crosshair points at, within reach
+  function aimed(filter) {
+    const e = eye(), d = lookDir();
+    let best = null, bs = -Infinity;
+    for (const o of objects) {
+      if (!filter(o)) continue;
+      const to = o.pos.clone().sub(e);
+      const dist = to.length();
+      if (dist > DATA.player.reach + o.half[0]) continue;
+      const along = to.dot(d);
+      if (along <= 0) continue;
+      const off = to.clone().sub(d.clone().multiplyScalar(along)).length();   // distance from the aim ray
+      if (off > Math.max(...o.half) + 0.35) continue;
+      const score = -off - dist * 0.1;
+      if (score > bs) { bs = score; best = o; }
+    }
+    return best;
+  }
+
+  // ---------- input ----------
+  const keys = new Set();
+  let started = false, paused = false, lockMode = 'unknown';
+  document.addEventListener('keydown', e => {
+    if (e.target.closest && e.target.closest('input, textarea, select')) return;
+    if (!started || paused) return;
+    if (['Space', 'ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.code)) e.preventDefault();
+    if (e.repeat) return;
+    press(e.code);
+  });
+  document.addEventListener('keyup', e => release(e.code));
+  window.addEventListener('blur', () => { keys.clear(); if (player.charge !== null) doThrow(); });
+  let jumpQueued = false;
+  function press(code) {
+    keys.add(code);
+    unlockAudio();
+    if (code === 'KeyE') interactE();
+    if (code === 'KeyF') startCharge();
+    if (code === 'Space') jumpQueued = true;
+    if (code === 'KeyR') resetRoom();
+  }
+  function release(code) {
+    keys.delete(code);
+    if (code === 'KeyF') doThrow();
+  }
+
+  // mouse look: pointer lock when the frame allows it, right-drag otherwise
+  function turn(dx, dy) {
+    look.yaw -= dx * DATA.look.sens;
+    look.pitch = Math.max(DATA.look.pitchMin, Math.min(DATA.look.pitchMax, look.pitch - dy * DATA.look.sens));
+  }
+  function requestLock() {
+    if (lockMode === 'drag' || !cv.requestPointerLock) { lockMode = 'drag'; return; }
+    try {
+      const r = cv.requestPointerLock();
+      if (r && r.catch) r.catch(() => { lockMode = 'drag'; toast('마우스 고정을 쓸 수 없어 오른쪽 드래그로 둘러봅니다.'); });
+    } catch (e) { lockMode = 'drag'; }
+  }
+  const locked = () => document.pointerLockElement === cv;
+  document.addEventListener('pointerlockchange', () => {
+    if (locked()) { lockMode = 'lock'; paused = false; $('overlay').hidden = true; }
+    else if (started && lockMode === 'lock') { keys.clear(); if (player.charge !== null) { player.charge = null; } showPause(); }
+  });
+  document.addEventListener('pointerlockerror', () => { lockMode = 'drag'; toast('마우스 고정을 쓸 수 없어 오른쪽 드래그로 둘러봅니다.'); });
+  let dragging = null, mouseThrow = false;
+  cv.addEventListener('contextmenu', e => e.preventDefault());
+  cv.addEventListener('pointerdown', e => {
+    stage.focus({ preventScroll: true });
+    if (!started || paused) return;
+    if (e.pointerType === 'touch') { dragging = { x: e.clientX, y: e.clientY, id: e.pointerId }; cv.setPointerCapture(e.pointerId); return; }
+    if (e.button === 2 || (e.button === 0 && lockMode !== 'lock' && e.shiftKey)) { dragging = { x: e.clientX, y: e.clientY, id: e.pointerId }; cv.setPointerCapture(e.pointerId); return; }
+    if (e.button === 0) {
+      // the first click only grabs the mouse; throwing starts from the next one
+      if (!locked() && lockMode !== 'drag') { requestLock(); return; }
+      startCharge(); mouseThrow = true;
+    }
+  });
+  cv.addEventListener('pointermove', e => {
+    if (locked()) { turn(e.movementX, e.movementY); return; }
+    if (dragging && dragging.id === e.pointerId) { turn(e.clientX - dragging.x, e.clientY - dragging.y); dragging.x = e.clientX; dragging.y = e.clientY; }
+  });
+  window.addEventListener('pointerup', e => {
+    if (dragging && dragging.id === e.pointerId) dragging = null;
+    if (e.button === 0 && mouseThrow) { mouseThrow = false; doThrow(); }
+  });
+  document.querySelectorAll('#pad button').forEach(b => {
+    const code = b.dataset.k;
+    b.addEventListener('pointerdown', e => { e.preventDefault(); e.stopPropagation(); if (started && !paused) press(code); });
+    const up = e => { e.preventDefault(); release(code); };
+    b.addEventListener('pointerup', up); b.addEventListener('pointercancel', up); b.addEventListener('pointerleave', up);
+  });
+
+  function showPause() {
+    paused = true;
+    $('ovCard').innerHTML = `<h2>잠시 멈춤</h2><p>화면을 클릭하면 다시 마우스로 둘러볼 수 있습니다.</p><button class="primary" id="btnResume">계속</button>`;
+    $('overlay').hidden = false;
+    $('btnResume').onclick = resume;
+  }
+  function resume() { paused = false; $('overlay').hidden = true; stage.focus({ preventScroll: true }); requestLock(); }
+
+  // ---------- actions ----------
+  function holdPoint() {
+    // carried low and to the right of the view, like a first-person viewmodel
+    const d = lookDir(), r = flatRight();
+    return eye().add(d.multiplyScalar(0.85)).add(r.multiplyScalar(0.32)).add(new T3.Vector3(0, -0.32, 0));
+  }
+  // the release point: where the object would be a moment after leaving the hand, so it visibly hangs in mid-air.
+  // Looking up leaves it higher, looking down lower. Falls back toward the hand if that spot is inside the room.
+  function releasePoint(o, v) {
+    const hand = eye().add(lookDir().multiplyScalar(0.75 + o.half[0])).add(new T3.Vector3(0, -0.35, 0));
+    const tries = [hand.clone().addScaledVector(v, DATA.release.lead), hand];
+    for (let k = 0.15; k <= 0.6; k += 0.15) tries.push(hand.clone().add(flatFwd().multiplyScalar(-k)));
+    for (const p of tries) {
+      p.y = Math.max(p.y, (groundAt(p) ?? -10) + o.half[1] + 0.05);
+      const box = boxAt(p, o.half);
+      if (!STATIC.some(s => overlap(box, s)) && !overlap(box, playerBox(player.pos))) return p;
+    }
+    return null;
+  }
+  function groundAt(p) {
+    let best = null;
+    for (const c of STATIC) if (p.x > c.min[0] && p.x < c.max[0] && p.z > c.min[2] && p.z < c.max[2] && c.max[1] <= p.y + 0.5) best = Math.max(best ?? -10, c.max[1]);
+    return best;
+  }
+  function interactE() {
+    if (player.charge !== null) return;
+    if (player.holding) { letGo(new T3.Vector3()); return; }
+    const o = aimed(o => o.state === 'rest' || o.state === 'hang' || o.state === 'fly');
+    if (o) { o.state = 'held'; o.vel.set(0, 0, 0); player.holding = o; clearLines(o); beep(330, 0.05); }
+  }
+  function startCharge() {
+    if (player.holding) { if (player.charge === null) player.charge = 0; return; }
+    const o = aimed(o => o.state === 'hang');
+    if (o) {
+      // hitting a paused object stacks force onto what it will do; its timer is unchanged
+      o.stored.add(flatFwd().multiplyScalar(DATA.punch.forward)).add(new T3.Vector3(0, DATA.punch.up, 0));
+      o.flash = 0.25; beep(520, 0.06);
+      toast(`${o.d.name}에 힘을 더했습니다. 남은 ${o.hangLeft.toFixed(1)}초 뒤 새 궤적으로 날아갑니다.`);
+    }
+  }
+  function throwVelocity(o, charge) {
+    const t = DATA.throwing;
+    const s = (t.min + (t.max - t.min) * charge) * o.d.speed;
+    // aim where the crosshair points, tilted a little upward so a level throw still arcs
+    const d = lookDir();
+    const pitch = Math.min(1.4, Math.asin(Math.max(-1, Math.min(1, d.y))) + T3.MathUtils.degToRad(t.liftDeg));
+    const f = flatFwd();
+    return f.multiplyScalar(Math.cos(pitch) * s).add(new T3.Vector3(0, Math.sin(pitch) * s, 0));
+  }
+  function doThrow() {
+    if (player.charge === null || !player.holding) { player.charge = null; return; }
+    const charge = Math.min(1, player.charge / DATA.throwing.chargeTime);
+    player.charge = null;
+    letGo(throwVelocity(player.holding, charge));
+  }
+  function letGo(v) {
+    const o = player.holding;
+    const p = releasePoint(o, v);
+    if (!p) { toast('여기서는 놓을 공간이 없습니다. 벽에서 조금 떨어지세요.'); return; }
+    o.pos.copy(p); o.stored.copy(v); o.vel.set(0, 0, 0);
+    o.state = 'hang'; o.hangTotal = o.hangLeft = hangOf(o);
+    o.mesh.rotation.set(0, look.yaw, 0);
+    player.holding = null;
+    beep(220, 0.08);
+    complete('hang', '손을 떠난 물체가 멈췄습니다. 궤적과 남은 초를 보세요.');
+  }
+  const hangOf = o => o.type === 'box' ? SETTINGS.boxHang : o.d.hang;
+  function clearLines(o) { o.arc.visible = o.path.visible = o.trail.visible = false; o.trailPts.length = 0; o.trailFade = 0; }
+
+  // ---------- simulation ----------
+  const G = DATA.gravity;
+  function stepObjects(dt) {
+    for (const o of objects) {
+      if (o.flash) o.flash = Math.max(0, o.flash - dt);
+      if (o.state === 'held') { o.pos.copy(holdPoint()); continue; }
+      if (o.state === 'hang') {
+        o.hangLeft -= dt;
+        if (o.hangLeft <= 0) {
+          o.state = 'fly'; o.vel.copy(o.stored); o.spin = (Math.random() - 0.5) * 6; beep(150, 0.1);
+          // keep the predicted path on screen while it flies, and start the trail
+          fillArc(o.path, o.pos, o.stored, o.half); o.path.visible = SETTINGS.arc;
+          o.trailPts = [o.pos.clone()]; o.trailFade = 1; o.trailTick = 0;
+        }
+        continue;
+      }
+      o.vel.y -= G * dt;
+      const hit = moveBox(o.pos, [o.vel.x * dt, o.vel.y * dt, o.vel.z * dt], p => boxAt(p, o.half), objColliders(o));
+      o.grounded = false;
+      if (hit[1]) {
+        if (o.vel.y < -2.5 && o.d.bounce > 0) o.vel.y = -o.vel.y * o.d.bounce;
+        else { if (o.vel.y < 0) o.grounded = true; o.vel.y = 0; }
+      }
+      if (hit[0]) o.vel.x = -o.vel.x * o.d.bounce;
+      if (hit[2]) o.vel.z = -o.vel.z * o.d.bounce;
+      if (o.grounded) { const k = Math.max(0, 1 - 7 * dt); o.vel.x *= k; o.vel.z *= k; o.spin *= k; }
+      if (o.state === 'fly') {
+        o.trailTick += dt;
+        if (o.trailTick > 0.02) { o.trailTick = 0; o.trailPts.push(o.pos.clone()); if (o.trailPts.length > TRAIL_N) o.trailPts.shift(); }
+        if (o.grounded && Math.hypot(o.vel.x, o.vel.z) < 0.25) { o.state = 'rest'; o.vel.set(0, 0, 0); o.spin = 0; }
+        for (const tg of TARGETS) {
+          if (!tg.hit && o.pos.distanceTo(tg.pos) < 0.55 + o.half[0]) {
+            tg.hit = true; tg.mat.emissive.set(C.ok); tg.mat.emissiveIntensity = 0.6; beep(990, 0.15);
+            toast('과녁 명중');
+            if (TARGETS.every(t => t.hit)) complete('targets', '과녁 두 개를 모두 맞혔습니다.');
+          }
+        }
+      } else if (o.trailFade > 0) {
+        o.trailFade = Math.max(0, o.trailFade - dt / 1.6);   // lines fade out after landing
+      }
+      if (o.pos.y < -8) { o.pos.copy(o.home); o.vel.set(0, 0, 0); o.state = 'rest'; clearLines(o); }
+    }
+  }
+
+  function stepPlayer(dt) {
+    const p = player;
+    // carried along by whatever we stand on
+    if (p.ground && objects.includes(p.ground)) {
+      const d = p.ground.pos.clone().sub(p.groundPrev);
+      if (d.lengthSq() > 0) moveBox(p.pos, [d.x, d.y, d.z], playerBox, STATIC);
+    }
+    let ix = 0, iz = 0;
+    if (keys.has('KeyW') || keys.has('ArrowUp')) iz += 1;
+    if (keys.has('KeyS') || keys.has('ArrowDown')) iz -= 1;
+    if (keys.has('KeyA') || keys.has('ArrowLeft')) ix -= 1;
+    if (keys.has('KeyD') || keys.has('ArrowRight')) ix += 1;
+    const dir = flatFwd().multiplyScalar(iz).add(flatRight().multiplyScalar(ix));
+    if (dir.lengthSq() > 0) dir.normalize();
+    if (p.charge !== null) p.charge += dt;
+    const sp = DATA.player.speed * (p.charge !== null ? 0.6 : 1);
+    const acc = Math.min(1, (p.grounded ? 18 : 6) * dt);
+    p.vel.x += (dir.x * sp - p.vel.x) * acc;
+    p.vel.z += (dir.z * sp - p.vel.z) * acc;
+    if (jumpQueued && p.grounded) { p.vel.y = DATA.player.jump; p.grounded = false; beep(260, 0.04); }
+    jumpQueued = false;
+    p.vel.y -= G * dt;
+    const hit = moveBox(p.pos, [p.vel.x * dt, p.vel.y * dt, p.vel.z * dt], playerBox, playerColliders());
+    p.grounded = false; p.ground = null;
+    if (hit[1]) { if (p.vel.y < 0) { p.grounded = true; p.ground = hit[1].ref || null; } p.vel.y = 0; }
+    if (hit[0]) p.vel.x = 0;
+    if (hit[2]) p.vel.z = 0;
+    // walking or jumping into the side of an object (not the room) climbs on top if its top is within reach
+    const side = hit[0] || hit[2];
+    if (side && side.ref && side.ref.d.standable && dir.lengthSq() > 0) {
+      const rise = side.max[1] - p.pos.y;
+      if (rise > 0.05 && rise <= DATA.mantle) {
+        const np = p.pos.clone(); np.y = side.max[1] + 0.002; np.addScaledVector(dir, 0.18);
+        if (!playerColliders().some(c => overlap(playerBox(np), c))) { p.pos.copy(np); p.vel.y = 0; p.grounded = true; p.ground = side.ref; }
+      }
+    }
+    if (p.ground) p.groundPrev.copy(p.ground.pos);
+    if (p.grounded) p.bob += Math.hypot(p.vel.x, p.vel.z) * dt * 2.4;
+    if (p.pos.y < -4) {
+      p.pos.copy(SPAWN); p.vel.set(0, 0, 0);
+      if (p.holding) { p.holding.state = 'rest'; p.holding.pos.copy(p.holding.home); p.holding = null; }
+      p.charge = null;
+      toast('구덩이에 떨어졌습니다. 상자에 올라탄 채로 건너 보세요.');
+    }
+    if (p.grounded && p.pos.y > 1.7 && p.pos.x < LEDGE.max[0] && p.pos.z < LEDGE.max[2]) complete('ledge', '높은 턱 위에 올라섰습니다.');
+    if (p.grounded && p.pos.x > 8.6 && p.pos.y > -0.1) complete('ride', '구덩이를 건넜습니다.');
+  }
+
+  // ---------- trajectory lines ----------
+  function fillArc(line, start, v, h) {
+    const pos = line.geometry.attributes.position;
+    const p = start.clone(), vel = v.clone();
+    let n = 0;
+    for (; n < ARC_N; n++) {
+      pos.setXYZ(n, p.x, p.y, p.z);
+      vel.y -= G / 30; p.addScaledVector(vel, 1 / 30);
+      if (p.y < -3 || STATIC.some(s => overlap(boxAt(p, h), s))) { n++; if (n < ARC_N) { pos.setXYZ(n, p.x, p.y, p.z); n++; } break; }
+    }
+    pos.needsUpdate = true;
+    line.geometry.setDrawRange(0, n);
+    line.geometry.computeBoundingSphere();
+    line.computeLineDistances();
+  }
+  function fillTrail(o) {
+    const pos = o.trail.geometry.attributes.position;
+    const pts = o.trailPts;
+    for (let i = 0; i < pts.length; i++) pos.setXYZ(i, pts[i].x, pts[i].y, pts[i].z);
+    if (o.state === 'fly' && pts.length) { pos.setXYZ(pts.length, o.pos.x, o.pos.y, o.pos.z); }
+    pos.needsUpdate = true;
+    o.trail.geometry.setDrawRange(0, Math.min(TRAIL_N, pts.length + (o.state === 'fly' ? 1 : 0)));
+    o.trail.geometry.computeBoundingSphere();
+  }
+
+  // ---------- labels ----------
+  const labelBox = $('labels'); const pool = []; let used = 0; const v3 = new T3.Vector3();
+  function label(text, pos, color) {
+    v3.copy(pos).project(camera);
+    if (v3.z > 1 || Math.abs(v3.x) > 1.05 || Math.abs(v3.y) > 1.05) return;
+    let el = pool[used];
+    if (!el) { el = document.createElement('span'); el.className = 'chip'; labelBox.appendChild(el); pool.push(el); }
+    used++;
+    el.style.display = ''; el.textContent = text; el.style.color = color;
+    const r = cv.getBoundingClientRect();
+    el.style.left = ((v3.x + 1) / 2 * r.width) + 'px';
+    el.style.top = ((1 - v3.y) / 2 * r.height) + 'px';
+  }
+  function flushLabels() { for (let i = used; i < pool.length; i++) pool[i].style.display = 'none'; used = 0; }
+
+  // ---------- view ----------
+  const EMBER = new T3.Color(C.ember);
+  let hudKey = '';
+  function setHud(html) { if (html !== hudKey) { hudKey = html; $('hud').innerHTML = html; } }
+  function updateView(dt, wall) {
+    const bob = player.grounded ? Math.sin(player.bob * 3) * 0.035 * Math.min(1, Math.hypot(player.vel.x, player.vel.z) / 2) : 0;
+    camera.position.copy(eye()).add(new T3.Vector3(0, bob, 0));
+    camera.rotation.set(look.pitch, look.yaw, 0);
+
+    // aiming preview while charging
+    aimArc.visible = false; ghost.visible = false;
+    const meter = $('meter');
+    if (player.holding && player.charge !== null) {
+      const o = player.holding;
+      const charge = Math.min(1, player.charge / DATA.throwing.chargeTime);
+      meter.hidden = false; $('meterBar').style.width = Math.round(charge * 100) + '%';
+      const tv = throwVelocity(o, charge);
+      const rp = releasePoint(o, tv);
+      if (rp) {
+        ghost.visible = true; ghost.position.copy(rp); ghost.scale.set(o.d.size[0], o.d.size[1], o.d.size[2]); ghost.rotation.y = look.yaw;
+        if (SETTINGS.arc) { aimArc.visible = true; fillArc(aimArc, rp, tv, o.half); }
+      }
+    } else meter.hidden = true;
+
+    for (const o of objects) {
+      o.mesh.position.copy(o.pos);
+      if (o.state === 'held') o.mesh.rotation.set(0, look.yaw, 0);
+      if (o.state === 'fly') { o.mesh.rotation.y += o.spin * dt; o.mesh.rotation.x += o.spin * 0.5 * dt; }
+      if (o.state === 'rest' && !o.d.sphere) { o.mesh.rotation.x *= 0.9; o.mesh.rotation.z *= 0.9; }
+      const hanging = o.state === 'hang';
+      o.ring.visible = hanging;
+      o.arc.visible = hanging && SETTINGS.arc;
+      if (hanging) {
+        const k = o.hangLeft / o.hangTotal;
+        o.ring.position.copy(o.pos); o.ring.rotation.x = Math.PI / 2; o.ring.rotation.z += dt * (1 + 6 * (1 - k));
+        o.ring.scale.setScalar(0.85 + 0.25 * k);
+        o.ring.material.opacity = 0.5 + 0.5 * Math.abs(Math.sin(wall / (90 + 260 * k)));
+        o.mat.emissive.copy(EMBER); o.mat.emissiveIntensity = 0.12 + (o.flash ? 0.6 : 0) + 0.18 * (1 - k);
+        o.mesh.position.y = o.pos.y + Math.sin(wall / 260) * 0.02;
+        if (o.arc.visible) fillArc(o.arc, o.pos, o.stored, o.half);
+        label(o.hangLeft.toFixed(1), o.pos.clone().add(new T3.Vector3(0, o.half[1] + 0.32, 0)), C.ember);
+        const g = groundAt(o.pos);
+        const showStem = g !== null && o.pos.y - o.half[1] - g > 0.08;
+        o.stem.visible = o.mark.visible = showStem;
+        if (showStem) {
+          const sp = o.stem.geometry.attributes.position;
+          sp.setXYZ(0, o.pos.x, o.pos.y - o.half[1], o.pos.z); sp.setXYZ(1, o.pos.x, g + 0.01, o.pos.z);
+          sp.needsUpdate = true; o.stem.geometry.setDrawRange(0, 2); o.stem.geometry.computeBoundingSphere(); o.stem.computeLineDistances();
+          o.mark.position.set(o.pos.x, g + 0.012, o.pos.z);
+        }
+      } else {
+        o.stem.visible = o.mark.visible = false;
+        o.mat.emissiveIntensity = o.state === 'fly' ? 0.2 : 0;
+      }
+      // flight: predicted path (dashed) plus the path actually flown (solid), fading after landing
+      const showPath = SETTINGS.arc && (o.state === 'fly' || o.trailFade > 0) && o.state !== 'held' && o.state !== 'hang';
+      o.path.visible = showPath;
+      if (showPath) o.path.material.opacity = 0.55 * (o.state === 'fly' ? 1 : o.trailFade);
+      const showTrail = SETTINGS.trail && o.trailPts.length > 0 && (o.state === 'fly' || o.trailFade > 0);
+      o.trail.visible = showTrail;
+      if (showTrail) { fillTrail(o); o.trail.material.opacity = o.state === 'fly' ? 1 : o.trailFade; }
+    }
+
+    // crosshair prompt
+    let hud = '', on = false;
+    if (started && !paused) {
+      if (player.holding && player.charge === null) hud = `<span><kbd>클릭</kbd>누르고 있다 떼기 · 던지기</span><span><kbd>E</kbd>내려놓기</span>`;
+      else if (!player.holding) {
+        const h = aimed(o => o.state === 'hang');
+        const r = aimed(o => o.state === 'rest' || o.state === 'fly');
+        if (h) { on = true; hud = `<span><kbd>클릭</kbd>치기</span><span><kbd>E</kbd>${h.d.name} 다시 줍기</span>`; }
+        else if (r) { on = true; hud = `<span><kbd>E</kbd>${r.d.name} 줍기</span>`; }
+      }
+    }
+    setHud(hud);
+    $('crosshair').classList.toggle('on', on);
+  }
+
+  // ---------- hint / toast ----------
+  let toastUntil = 0;
+  function toast(msg) { $('hint').innerHTML = msg; toastUntil = performance.now() + 3500; }
+  function idleHint() {
+    if (performance.now() < toastUntil) return;
+    const next = TASKS.find(t => !done.has(t.id));
+    $('hint').innerHTML = next ? `다음 과제: <b>${next.text}</b>` : '과제를 모두 마쳤습니다. 대기 시간을 바꿔 가며 감각을 비교해 보세요.';
+  }
+
+  // ---------- audio (starts after the first key or click) ----------
+  let ac = null;
+  function unlockAudio() { if (!ac) { try { ac = new (window.AudioContext || window.webkitAudioContext)(); } catch (e) { ac = null; } } }
+  function beep(freq, dur) {
+    if (!ac) return;
+    try {
+      const o = ac.createOscillator(), g = ac.createGain();
+      o.type = 'triangle'; o.frequency.value = freq; g.gain.value = 0.06;
+      g.gain.exponentialRampToValueAtTime(0.0001, ac.currentTime + dur);
+      o.connect(g).connect(ac.destination); o.start(); o.stop(ac.currentTime + dur);
+    } catch (e) { /* audio unavailable */ }
+  }
+
+  // ---------- room reset / settings ----------
+  function resetRoom() {
+    for (const o of objects) { scene.remove(o.mesh, o.ring, o.arc, o.path, o.trail, o.stem, o.mark); o.mesh.geometry.dispose(); o.mat.dispose(); }
+    objects.length = 0;
+    for (const [t, x, z] of OBJ_START) makeObject(t, x, z);
+    for (const tg of TARGETS) { tg.hit = false; tg.mat.emissive.set(0x000000); }
+    player.pos.copy(SPAWN); player.vel.set(0, 0, 0); player.holding = null; player.charge = null;
+    look.yaw = 0; look.pitch = -0.12;
+  }
+  function renderSeg() {
+    const seg = $('segHang'); seg.innerHTML = '';
+    for (const h of HANG_CHOICES) {
+      const b = document.createElement('button');
+      b.textContent = h + '초'; b.setAttribute('aria-pressed', h === SETTINGS.boxHang ? 'true' : 'false');
+      b.onclick = () => { SETTINGS.boxHang = h; $('ruleHang').textContent = h + '초'; renderSeg(); renderData(); stage.focus({ preventScroll: true }); };
+      seg.appendChild(b);
+    }
+  }
+  function renderData() {
+    const t = DATA.types;
+    const rows = [
+      ['상자 대기', `${SETTINGS.boxHang}초`, '실험 설정에서 바꿀 수 있음'],
+      ['공 대기', `${t.ball.hang}초`, '가볍고 잘 튐. 밟을 수 없음'],
+      ['철괴 대기', `${t.iron.hang}초`, '무겁고 멀리 못 감. 밟을 수 있음'],
+      ['던지는 속도', `${DATA.throwing.min}~${DATA.throwing.max} m/s`, `누르고 있는 시간 ${DATA.throwing.chargeTime}초에 최대. 물체별 배율 상자 ${t.box.speed} · 공 ${t.ball.speed} · 철괴 ${t.iron.speed}`],
+      ['던지는 방향', `조준 + ${DATA.throwing.liftDeg}°`, '조준점 방향에서 조금 위로 띄움'],
+      ['멈추는 자리', `손 앞 + ${DATA.release.lead}초 이동`, '손을 떠나 던진 방향으로 살짝 나간 공중. 위를 보면 높게, 아래를 보면 낮게 멈춤'],
+      ['물체 위로 오르기', `${DATA.mantle}m까지`, '떠 있거나 놓인 물체 옆으로 걷거나 뛰어오르면 짚고 올라섬. 벽과 턱에는 적용 안 됨'],
+      ['멈춘 물체 치기', `+${DATA.punch.forward} 앞 · +${DATA.punch.up} 위`, '저장된 힘에 더해지고, 남은 시간은 그대로'],
+      ['튕김', `상자 ${t.box.bounce} · 공 ${t.ball.bounce} · 철괴 ${t.iron.bounce}`, '바닥에 세게 떨어질 때만'],
+      ['캐릭터', `걷기 ${DATA.player.speed} m/s · 점프 ${DATA.player.jump} m/s`, `점프만으로는 약 ${(DATA.player.jump ** 2 / (2 * G)).toFixed(1)}m까지 오름`],
+      ['중력', `${G} m/s²`, '멈춰 있는 동안은 받지 않음'],
+    ];
+    $('dataTable').innerHTML = '<tr><th>항목</th><th>값</th><th>설명</th></tr>' + rows.map(r => `<tr><td>${r[0]}</td><td class="mono">${r[1]}</td><td>${r[2]}</td></tr>`).join('');
+  }
+  $('chkArc').onchange = e => { SETTINGS.arc = e.target.checked; stage.focus({ preventScroll: true }); };
+  $('chkTrail').onchange = e => { SETTINGS.trail = e.target.checked; stage.focus({ preventScroll: true }); };
+  $('chkStand').onchange = e => { SETTINGS.stand = e.target.checked; stage.focus({ preventScroll: true }); };
+  $('btnReset').onclick = () => { resetRoom(); stage.focus({ preventScroll: true }); };
+  $('btnStart').onclick = () => { started = true; $('overlay').hidden = true; unlockAudio(); stage.focus({ preventScroll: true }); requestLock(); idleHint(); };
+
+  // ---------- size ----------
+  function resize() {
+    const w = stage.clientWidth;
+    const h = Math.max(320, Math.min(Math.round(w * 0.6), Math.round(window.innerHeight * 0.78)));
+    renderer.setSize(w, h, false);
+    cv.style.width = w + 'px'; cv.style.height = h + 'px';
+    camera.aspect = w / h; camera.updateProjectionMatrix();
+  }
+  new ResizeObserver(resize).observe(stage);
+
+  // ---------- loop ----------
+  let last = performance.now();
+  function advance(dt, wall) {
+    if (started && !paused) {
+      const n = Math.max(1, Math.ceil(dt / (1 / 120)));
+      for (let i = 0; i < n; i++) { stepObjects(dt / n); stepPlayer(dt / n); }
+    }
+    updateView(dt, wall);
+    renderer.render(scene, camera);
+    flushLabels();
+    idleHint();
+  }
+  function frame(ts) {
+    advance(Math.min(0.05, (ts - last) / 1000), ts);
+    last = ts;
+    requestAnimationFrame(frame);
+  }
+  function boot(data) {
+    if (data && HANG_CHOICES.includes(data.boxHang)) SETTINGS.boxHang = data.boxHang;
+    for (const k of ['arc', 'trail', 'stand']) if (data && typeof data[k] === 'boolean') { SETTINGS[k] = data[k]; $('chk' + k[0].toUpperCase() + k.slice(1)).checked = data[k]; }
+    $('ruleHang').textContent = SETTINGS.boxHang + '초';
+    renderSeg(); renderData(); renderTasks(); resetRoom(); resize();
+    requestAnimationFrame(frame);
+  }
+  // designer handle: drive the sandbox without real input (tests, tuning)
+  window.AfterSecondsSandbox = { DATA, SETTINGS, player, look, objects, TARGETS, done, press, release, advance: dt => advance(dt, performance.now()), start: () => { started = true; $('overlay').hidden = true; } };
+  window.claude?.hot?.snapshot?.(() => ({ ...SETTINGS }));
+  window.claude?.hot?.ready ? window.claude.hot.ready(boot) : boot(window.claude?.hot?.data ?? {});
+})();
+</script>
+
+</body></html>

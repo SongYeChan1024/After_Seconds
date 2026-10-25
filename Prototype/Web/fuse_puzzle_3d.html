@@ -1,0 +1,910 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>After Seconds 3D</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans+KR:wght@400;600&display=swap">
+<style>
+/* Layout: a 3D workshop stage on the left, a narrow ledger of rules and settings on the right; stacks on phones. */
+:root {
+  color-scheme: dark;
+  --bg: #15110e;
+  --panel: #1e1915;
+  --panel-2: #262019;
+  --line: #3b3129;
+  --fg: #f1e7da;
+  --muted: #ab9c8b;
+  --ember: #ff8a3d;
+  --fuse: #e2bf63;
+  --blast: #ff5440;
+  --ok: #86d49a;
+  --cool: #79bcd8;
+  --display: "Big Shoulders Display", "Arial Narrow", Impact, sans-serif;
+  --body: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+}
+html, body { height: 100%; }
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 15px; line-height: 1.55; }
+.app {
+  max-width: 1240px; margin: 0 auto;
+  padding-block: 20px 32px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid; gap: 18px;
+}
+.top { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px 24px; }
+.brand h1 { font-family: var(--display); font-weight: 800; font-size: clamp(40px, 7vw, 64px); line-height: .9; letter-spacing: .02em; text-transform: uppercase; margin: 0; }
+.brand h1 span { color: var(--ember); }
+.brand h1 small { font-size: .45em; color: var(--muted); letter-spacing: .08em; margin-left: .3em; }
+.brand p { margin: 6px 0 0; color: var(--muted); font-size: 13px; letter-spacing: .04em; }
+.rule { font-size: 17px; padding: 10px 14px; border: 1px solid var(--line); border-left: 3px solid var(--ember); background: var(--panel); margin: 0; text-wrap: balance; }
+.rule b { color: var(--ember); font-family: var(--mono); font-weight: 600; }
+.layout { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 18px; align-items: start; }
+@media (max-width: 900px) { .layout { grid-template-columns: minmax(0, 1fr); } }
+.board-wrap { min-width: 0; display: grid; gap: 10px; }
+.board-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.board-head .lvl { font-family: var(--display); font-weight: 700; font-size: 26px; letter-spacing: .03em; }
+.mono { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+.clock { color: var(--muted); font-size: 14px; }
+.clock b { color: var(--fg); font-weight: 600; }
+.board { position: relative; width: 100%; border: 1px solid var(--line); background: var(--bg); overflow: hidden; }
+.board canvas { display: block; width: 100%; touch-action: manipulation; }
+.labels { position: absolute; inset: 0; pointer-events: none; }
+.chip {
+  position: absolute; transform: translate(-50%, -100%);
+  font-family: var(--mono); font-size: 12px; font-weight: 600; line-height: 1;
+  padding: 3px 5px; background: color-mix(in srgb, var(--bg) 82%, transparent);
+  border: 1px solid currentColor; white-space: nowrap;
+}
+.overlay { position: absolute; inset: 0; display: grid; place-items: center; background: color-mix(in srgb, var(--bg) 74%, transparent); padding: 16px; }
+.overlay[hidden] { display: none !important; }
+.ov-card { max-width: 440px; text-align: center; display: grid; gap: 10px; justify-items: center; }
+.ov-card h2 { font-family: var(--display); font-weight: 800; font-size: 34px; letter-spacing: .03em; margin: 0; text-transform: uppercase; }
+.ov-card p { margin: 0; color: var(--muted); text-wrap: balance; }
+.ov-card .win { color: var(--ok); }
+.ov-card .lose { color: var(--blast); }
+.ov-btns { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; margin-top: 4px; }
+.hint { margin: 0; min-height: 3.1em; color: var(--muted); font-size: 14px; }
+.hint b { color: var(--fg); }
+.hint .good { color: var(--ok); }
+.hint .bad { color: var(--blast); }
+.side { display: grid; gap: 12px; min-width: 0; }
+.card { background: var(--panel); border: 1px solid var(--line); padding: 14px; display: grid; gap: 10px; }
+.card h2, .card h3 { margin: 0; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.goal p { margin: 0; font-size: 15px; }
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 0; }
+.stats div { background: var(--panel-2); padding: 8px 10px; }
+.stats dt { font-size: 11px; color: var(--muted); letter-spacing: .08em; }
+.stats dd { margin: 0; font-family: var(--mono); font-size: 18px; font-variant-numeric: tabular-nums; }
+button { font: inherit; font-size: 14px; color: var(--fg); background: var(--panel-2); border: 1px solid var(--line); padding: 8px 12px; cursor: pointer; }
+button:hover { border-color: var(--muted); }
+button:focus-visible, input:focus-visible, summary:focus-visible { outline: 2px solid var(--ember); outline-offset: 2px; }
+button.primary { background: var(--ember); border-color: var(--ember); color: #1a0f07; font-weight: 600; }
+kbd { font-family: var(--mono); font-size: 11px; color: var(--muted); border: 1px solid var(--line); padding: 0 4px; margin-left: 4px; }
+button.primary kbd { color: #1a0f07; border-color: #1a0f0755; }
+.btns { display: flex; gap: 8px; flex-wrap: wrap; }
+.levels { display: grid; gap: 6px; }
+.levels button { display: flex; justify-content: space-between; align-items: center; text-align: left; gap: 8px; }
+.levels button[aria-current="true"] { border-color: var(--ember); }
+.levels .num { font-family: var(--mono); color: var(--muted); margin-right: 8px; }
+.levels .done { color: var(--ok); font-size: 12px; }
+.row { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.seg { display: flex; }
+.seg button { padding: 5px 9px; font-family: var(--mono); font-size: 13px; }
+.seg button + button { border-left: none; }
+.seg button[aria-pressed="true"] { background: var(--ember); border-color: var(--ember); color: #1a0f07; }
+.note { margin: 0; font-size: 12px; color: var(--muted); }
+input[type=checkbox] { width: 18px; height: 18px; accent-color: var(--ember); }
+details.data summary { cursor: pointer; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.tbl-wrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 12.5px; }
+th, td { text-align: left; padding: 5px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--muted); font-weight: 600; font-size: 11px; letter-spacing: .06em; }
+td.mono { white-space: nowrap; }
+.fallback { padding: 24px; color: var(--muted); }
+</style>
+
+<div class="app">
+  <header class="top">
+    <div class="brand">
+      <h1>After <span>Seconds</span><small>3D</small></h1>
+      <p>도화선 연쇄 퍼즐 · 프로토타입</p>
+    </div>
+    <p class="rule">누른 행동은 <b id="ruleDelay">1.5초</b> 뒤에 일어난다.</p>
+  </header>
+
+  <main class="layout">
+    <section class="board-wrap" aria-label="게임 보드">
+      <div class="board-head">
+        <span class="lvl" id="lvlName">레벨 1</span>
+        <span class="clock mono">경과 <b id="clock">0.0</b> / <span id="limit">20.0</span>초</span>
+      </div>
+      <div class="board" id="boardBox">
+        <div class="labels" id="labels"></div>
+        <div class="overlay" id="overlay"><div class="ov-card" id="ovCard"></div></div>
+      </div>
+      <p class="hint" id="hint" aria-live="polite"></p>
+    </section>
+
+    <aside class="side">
+      <div class="card goal">
+        <h2>목표</h2>
+        <p id="goalText"></p>
+        <dl class="stats">
+          <div><dt>성냥</dt><dd id="stMatch">1</dd></div>
+          <div><dt>표적</dt><dd id="stTarget">0/1</dd></div>
+          <div><dt>제한</dt><dd id="stLimit">20초</dd></div>
+        </dl>
+        <div class="btns">
+          <button id="btnRestart">다시 하기<kbd>R</kbd></button>
+          <button id="btnNext">다음 레벨<kbd>N</kbd></button>
+        </div>
+      </div>
+      <div class="card">
+        <h3>레벨</h3>
+        <div class="levels" id="levels"></div>
+      </div>
+      <div class="card">
+        <h3>실험 설정</h3>
+        <div class="row"><span>점화 지연</span><div class="seg" id="segDelay" role="group" aria-label="점화 지연"></div></div>
+        <label class="row" for="chkPreview"><span>미리 보기 <kbd>P</kbd></span><input type="checkbox" id="chkPreview" checked></label>
+        <p class="note">점화 지연을 바꾸면 레벨이 처음부터 다시 시작됩니다.</p>
+      </div>
+      <details class="card data">
+        <summary>숨은 데이터</summary>
+        <p class="note">플레이어는 "누르면 몇 초 뒤"만 압니다. 실제 결과는 아래 값들이 정합니다.</p>
+        <div class="tbl-wrap"><table id="dataTable"></table></div>
+      </details>
+    </aside>
+  </main>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+(() => {
+  // ---------- hidden data (same as the 2D prototype) ----------
+  const MAT = {
+    fuse:   { name: '도화선',   spreadAfter: 0.4, burnFor: 0.6 },
+    crate:  { name: '나무 상자', spreadAfter: 2.0, burnFor: 2.0 },
+    barrel: { name: '화약통',   fuseFire: 1.0, fuseBlast: 0.25, radius: 1 },
+  };
+  const PAIR_WINDOW = 0.5;
+  const DELAYS = [1, 1.5, 2, 3];
+  const LEVELS = [
+    { name: '첫 불씨', matches: 1, limit: 20, goal: '도화선 아무 칸에나 불을 붙여 표적을 터뜨리세요.',
+      map: ['############', '#..........#', '#..........#', '#.~~~~~~BT.#', '#..........#', '#..........#', '############'] },
+    { name: '갈림길', matches: 1, limit: 20, goal: '성냥은 하나뿐입니다. 두 표적을 모두 터뜨릴 칸을 고르세요.',
+      map: ['############', '#.....~~~BT#', '#.....~....#', '#.~~~~~....#', '#.....~....#', '#.....~~BT.#', '############'] },
+    { name: '광차', matches: 2, limit: 30, goal: '움직이는 광차 위의 표적을 맞히세요. 화약통이 터지는 순간 광차가 바로 앞에 있어야 합니다.',
+      map: ['############', '#.....~....#', '#.....~....#', '#.....B....#', '#==========#', '#..........#', '############'],
+      carts: [{ row: 4, from: 1, to: 10, speed: 1.6, phase: 10 }] },
+    { name: '동시 폭파', matches: 2, limit: 25, goal: 'A 표적 두 개를 0.5초 안에 함께 터뜨리세요. 하나만 먼저 터지면 경보가 울립니다.',
+      map: ['############', '#..........#', '#.~~BA.....#', '#..........#', '#.~~~~~~~BA#', '#..........#', '############'] },
+    { name: '느린 다리', matches: 2, limit: 35, goal: '나무 상자는 천천히 타서 번집니다. 긴 연쇄로 광차를 맞히고, 아래 표적도 처리하세요.',
+      map: ['############', '#.~CC~~B...#', '#==========#', '#..........#', '#..~~~BT...#', '#..........#', '############'],
+      carts: [{ row: 2, from: 1, to: 10, speed: 1.2, phase: 0 }] },
+  ];
+  const TYPE = { '#': 'wall', '.': 'floor', '~': 'fuse', 'C': 'crate', 'B': 'barrel', 'T': 'target', 'A': 'target', '=': 'rail' };
+  const DIR4 = [[1, 0], [-1, 0], [0, 1], [0, -1]];
+  const CLICKABLE = new Set(['fuse', 'crate', 'barrel']);
+
+  // ---------- simulation ----------
+  function makeSim(level) {
+    const rows = level.map.length, cols = level.map[0].length;
+    const cells = [], targets = [];
+    for (let y = 0; y < rows; y++) {
+      const row = [];
+      for (let x = 0; x < cols; x++) {
+        const ch = level.map[y][x];
+        const type = TYPE[ch] || 'floor';
+        row.push({ type, st: 'idle', t: null, until: null, smashed: null });
+        if (type === 'target') targets.push({ kind: 'static', x, y, group: ch === 'A' ? 'A' : null, dead: null });
+      }
+      cells.push(row);
+    }
+    const carts = (level.carts || []).map(c => ({ ...c }));
+    carts.forEach((c, i) => targets.push({ kind: 'cart', cart: i, group: null, dead: null }));
+    return { rows, cols, cells, targets, carts, events: [], seq: 0, log: [] };
+  }
+  function push(s, t, kind, x, y) { s.events.push({ t, kind, x, y, seq: s.seq++ }); }
+  function cartPos(c, t) {
+    const L = c.to - c.from;
+    let p = (t * c.speed + c.phase) % (2 * L);
+    if (p < 0) p += 2 * L;
+    return { fx: c.from + (p <= L ? p : 2 * L - p), y: c.row };
+  }
+  function targetCell(s, tg, t) {
+    if (tg.kind === 'static') return { x: tg.x, y: tg.y };
+    const p = cartPos(s.carts[tg.cart], t);
+    return { x: Math.round(p.fx), y: p.y };
+  }
+  function kill(s, tg, t) {
+    if (tg.dead !== null) return;
+    tg.dead = t;
+    const p = targetCell(s, tg, t);
+    s.log.push({ t, kind: 'hit', x: p.x, y: p.y });
+  }
+  function ignite(s, x, y, t, cause) {
+    const c = s.cells[y] && s.cells[y][x];
+    if (!c || c.st !== 'idle') return;
+    if (c.type === 'fuse' || c.type === 'crate') {
+      const m = MAT[c.type];
+      c.st = 'lit'; c.t = t; c.until = t + m.burnFor;
+      s.log.push({ t, kind: 'ignite', x, y });
+      push(s, t + m.spreadAfter, 'spread', x, y);
+      push(s, t + m.burnFor, 'done', x, y);
+    } else if (c.type === 'barrel') {
+      const f = cause === 'blast' ? MAT.barrel.fuseBlast : MAT.barrel.fuseFire;
+      c.st = 'lit'; c.t = t; c.until = t + f;
+      s.log.push({ t, kind: 'ignite', x, y });
+      push(s, t + f, 'explode', x, y);
+    } else if (c.type === 'target') {
+      c.st = 'done'; c.t = t;
+      const tg = s.targets.find(g => g.kind === 'static' && g.x === x && g.y === y);
+      if (tg) kill(s, tg, t);
+    }
+  }
+  function run(s, e) {
+    const { x, y, t } = e;
+    if (e.kind === 'match') ignite(s, x, y, t, 'fire');
+    else if (e.kind === 'spread') { for (const [dx, dy] of DIR4) ignite(s, x + dx, y + dy, t, 'fire'); }
+    else if (e.kind === 'done') { const c = s.cells[y][x]; if (c.st === 'lit') c.st = 'done'; }
+    else if (e.kind === 'explode') {
+      const c = s.cells[y][x];
+      c.st = 'done'; c.boom = t;
+      s.log.push({ t, kind: 'boom', x, y });
+      const r = MAT.barrel.radius;
+      for (let dy = -r; dy <= r; dy++) for (let dx = -r; dx <= r; dx++) {
+        if (!dx && !dy) continue;
+        const nx = x + dx, ny = y + dy;
+        const n = s.cells[ny] && s.cells[ny][nx];
+        if (!n) continue;
+        if (n.type === 'barrel' || n.type === 'fuse' || n.type === 'target') ignite(s, nx, ny, t, 'blast');
+        else if (n.type === 'crate' && n.st !== 'done') {
+          // a blast smashes a crate outright, so its own slow spread never happens
+          n.st = 'done'; n.smashed = t; if (n.t === null) n.t = t;
+          s.events = s.events.filter(ev => !(ev.x === nx && ev.y === ny && (ev.kind === 'spread' || ev.kind === 'done')));
+          s.log.push({ t, kind: 'smash', x: nx, y: ny });
+        }
+      }
+      s.carts.forEach((cart, i) => {
+        const tg = s.targets.find(g => g.kind === 'cart' && g.cart === i);
+        if (!tg || tg.dead !== null) return;
+        const p = cartPos(cart, t);
+        if (Math.abs(Math.round(p.fx) - x) <= r && Math.abs(p.y - y) <= r) kill(s, tg, t);
+      });
+    }
+  }
+  function step(s, until) {
+    for (;;) {
+      let bi = -1;
+      for (let i = 0; i < s.events.length; i++) {
+        const e = s.events[i];
+        if (e.t > until) continue;
+        if (bi < 0) { bi = i; continue; }
+        const b = s.events[bi];
+        if (e.t < b.t || (e.t === b.t && e.seq < b.seq)) bi = i;
+      }
+      if (bi < 0) break;
+      run(s, s.events.splice(bi, 1)[0]);
+    }
+  }
+  function pairGaps(s) {
+    const groups = {};
+    for (const g of s.targets) if (g.group) (groups[g.group] ||= []).push(g);
+    const out = [];
+    for (const k in groups) {
+      const dead = groups[k].filter(g => g.dead !== null).map(g => g.dead);
+      out.push({ group: k, total: groups[k].length, dead: dead.length, first: dead.length ? Math.min(...dead) : null, last: dead.length ? Math.max(...dead) : null });
+    }
+    return out;
+  }
+  function evaluate(s, t, limit, matchesLeft) {
+    for (const p of pairGaps(s)) {
+      if (!p.dead) continue;
+      if (p.dead === p.total) { if (p.last - p.first > PAIR_WINDOW + 1e-6) return { result: 'fail', why: 'pair', group: p.group, gap: p.last - p.first }; }
+      else if (t > p.first + PAIR_WINDOW) return { result: 'fail', why: 'pair', group: p.group, gap: null };
+    }
+    if (s.targets.every(g => g.dead !== null)) return { result: 'win', t: Math.max(...s.targets.map(g => g.dead)) };
+    if (t >= limit) return { result: 'fail', why: 'time' };
+    if (matchesLeft === 0 && s.events.length === 0) return { result: 'fail', why: 'out' };
+    return null;
+  }
+
+  // ---------- game state ----------
+  const G = { li: 0, level: null, sim: null, t: 0, running: false, ended: null, matches: 0, marks: [], delay: 1.5, previewOn: true, hover: null, touchSel: null, preview: null };
+  let cleared = new Set();
+  try { cleared = new Set(JSON.parse(localStorage.getItem('after-seconds-3d-cleared') || '[]')); } catch (e) { cleared = new Set(); }
+  function saveCleared() { try { localStorage.setItem('after-seconds-3d-cleared', JSON.stringify([...cleared])); } catch (e) { /* storage unavailable */ } }
+  const $ = id => document.getElementById(id);
+  const boardBox = $('boardBox');
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+
+  if (!window.THREE) { boardBox.innerHTML = '<p class="fallback">3D 라이브러리를 불러오지 못했습니다. 새로 고침해 주세요.</p>'; return; }
+  const T3 = window.THREE;
+
+  // ---------- 3D scene ----------
+  const COL = {
+    bg: new T3.Color(css('--bg')), ember: new T3.Color(css('--ember')), fuse: new T3.Color(css('--fuse')),
+    blast: new T3.Color(css('--blast')), ok: new T3.Color(css('--ok')), cool: new T3.Color(css('--cool')),
+    ash: new T3.Color('#4d443c'), floorA: new T3.Color('#2a231d'), floorB: new T3.Color('#241e19'),
+    wall: new T3.Color('#2e2621'), wood: new T3.Color('#a06c3c'), barrel: new T3.Color('#9a3324'), metal: new T3.Color('#55606a'),
+  };
+  const renderer = new T3.WebGLRenderer({ antialias: true });
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+  renderer.shadowMap.enabled = true;
+  renderer.shadowMap.type = T3.PCFSoftShadowMap;
+  renderer.outputEncoding = T3.sRGBEncoding;
+  renderer.domElement.setAttribute('aria-label', '3D 퍼즐 보드. 칸을 눌러 불을 붙입니다.');
+  boardBox.prepend(renderer.domElement);
+  const cv = renderer.domElement;
+
+  const scene = new T3.Scene();
+  scene.background = COL.bg.clone();
+  scene.fog = new T3.Fog(COL.bg.clone(), 18, 38);
+  const camera = new T3.PerspectiveCamera(34, 16 / 9, 0.1, 100);
+  scene.add(new T3.HemisphereLight(0x9a8a7a, 0x120d0a, 0.55));
+  scene.add(new T3.AmbientLight(0x3a2c22, 0.5));
+  const sun = new T3.DirectionalLight(0xffd6a8, 0.85);
+  sun.castShadow = true;
+  sun.shadow.mapSize.set(1024, 1024);
+  sun.shadow.camera.left = -9; sun.shadow.camera.right = 9; sun.shadow.camera.top = 9; sun.shadow.camera.bottom = -9;
+  sun.shadow.bias = -0.0015;
+  scene.add(sun); scene.add(sun.target);
+
+  // shared geometries
+  const GEO = {
+    tile: new T3.BoxGeometry(0.96, 0.12, 0.96),
+    wall: new T3.BoxGeometry(1, 0.55, 1),
+    seg: new T3.BoxGeometry(0.5, 0.07, 0.07),
+    node: new T3.CylinderGeometry(0.09, 0.09, 0.08, 12),
+    crate: new T3.BoxGeometry(0.68, 0.62, 0.68),
+    barrel: new T3.CylinderGeometry(0.29, 0.29, 0.62, 20),
+    band: new T3.TorusGeometry(0.295, 0.025, 6, 24),
+    post: new T3.CylinderGeometry(0.035, 0.035, 0.5, 8),
+    disc: new T3.CylinderGeometry(0.3, 0.3, 0.05, 28),
+    rail: new T3.BoxGeometry(1, 0.05, 0.05),
+    sleeper: new T3.BoxGeometry(0.12, 0.04, 0.62),
+    cartBody: new T3.BoxGeometry(0.8, 0.32, 0.56),
+    wheel: new T3.CylinderGeometry(0.09, 0.09, 0.06, 12),
+    flame: new T3.ConeGeometry(0.11, 0.34, 8),
+    sphere: new T3.SphereGeometry(1, 20, 14),
+    debris: new T3.BoxGeometry(0.08, 0.08, 0.08),
+    scorch: new T3.CircleGeometry(0.55, 24),
+    ring: new T3.RingGeometry(0.5, 0.58, 40),
+  };
+
+  function bullseyeTexture(letter) {
+    const c = document.createElement('canvas'); c.width = c.height = 128;
+    const g = c.getContext('2d');
+    const rings = ['#e8463a', '#f3ead9', '#e8463a', '#f3ead9', '#e8463a'];
+    rings.forEach((col, i) => { g.fillStyle = col; g.beginPath(); g.arc(64, 64, 64 - i * 12.5, 0, Math.PI * 2); g.fill(); });
+    if (letter) { g.fillStyle = '#15110e'; g.font = 'bold 40px sans-serif'; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(letter, 64, 66); }
+    const tex = new T3.CanvasTexture(c); tex.encoding = T3.sRGBEncoding; return tex;
+  }
+  const TEX = { target: bullseyeTexture(''), targetA: bullseyeTexture('A') };
+
+  let world = null;
+  const effects = [];
+  let logSeen = 0;
+
+  function std(color, extra) { return new T3.MeshStandardMaterial(Object.assign({ color, roughness: 0.85, metalness: 0.05 }, extra || {})); }
+
+  function buildWorld() {
+    if (world) {
+      scene.remove(world.root);
+      world.root.traverse(o => { if (o.material) [].concat(o.material).forEach(m => m.dispose()); });
+    }
+    effects.length = 0; logSeen = 0;
+    const s = G.sim;
+    const root = new T3.Group();
+    const cells = [];
+    const tileMatA = std(COL.floorA), tileMatB = std(COL.floorB), wallMat = std(COL.wall), railMat = std(COL.metal, { metalness: 0.6, roughness: 0.4 }), sleeperMat = std('#3a2a1e');
+    const linkable = (x, y) => { const c = s.cells[y] && s.cells[y][x]; return c && ['fuse', 'crate', 'barrel', 'target'].includes(c.type); };
+    for (let y = 0; y < s.rows; y++) {
+      const row = [];
+      for (let x = 0; x < s.cols; x++) {
+        const c = s.cells[y][x];
+        const ref = { type: c.type };
+        if (c.type === 'wall') {
+          const m = new T3.Mesh(GEO.wall, wallMat); m.position.set(x, 0.275 - 0.12, y); m.castShadow = m.receiveShadow = true; root.add(m);
+        } else {
+          const t = new T3.Mesh(GEO.tile, (x + y) % 2 ? tileMatA : tileMatB); t.position.set(x, -0.06, y); t.receiveShadow = true; root.add(t);
+        }
+        if (c.type === 'rail') {
+          for (const dz of [-0.2, 0.2]) { const r = new T3.Mesh(GEO.rail, railMat); r.position.set(x, 0.03, y + dz); r.receiveShadow = true; root.add(r); }
+          for (const dx of [-0.25, 0.25]) { const sl = new T3.Mesh(GEO.sleeper, sleeperMat); sl.position.set(x + dx, 0.01, y); sl.receiveShadow = true; root.add(sl); }
+        } else if (c.type === 'fuse') {
+          const mat = std(COL.fuse, { roughness: 0.6 });
+          ref.mat = mat;
+          const g = new T3.Group(); g.position.set(x, 0.05, y);
+          g.add(new T3.Mesh(GEO.node, mat));
+          let linked = false;
+          for (const [dx, dy] of DIR4) {
+            if (!linkable(x + dx, y + dy)) continue;
+            const seg = new T3.Mesh(GEO.seg, mat); seg.position.set(dx * 0.25, 0, dy * 0.25); if (dy) seg.rotation.y = Math.PI / 2; seg.castShadow = true; g.add(seg); linked = true;
+          }
+          if (!linked) { const seg = new T3.Mesh(GEO.seg, mat); g.add(seg); }
+          root.add(g);
+          ref.flame = makeFlame(x, y, 0.22); root.add(ref.flame);
+        } else if (c.type === 'crate') {
+          const mat = std(COL.wood);
+          const m = new T3.Mesh(GEO.crate, mat); m.position.set(x, 0.31, y); m.castShadow = m.receiveShadow = true;
+          const edges = new T3.LineSegments(new T3.EdgesGeometry(GEO.crate), new T3.LineBasicMaterial({ color: 0x3a2414 }));
+          m.add(edges);
+          root.add(m); ref.mesh = m; ref.mat = mat;
+          ref.flame = makeFlame(x, y, 0.75, 1.6); root.add(ref.flame);
+        } else if (c.type === 'barrel') {
+          const mat = std(COL.barrel, { roughness: 0.55, metalness: 0.15 });
+          const g = new T3.Group(); g.position.set(x, 0.31, y);
+          const body = new T3.Mesh(GEO.barrel, mat); body.castShadow = body.receiveShadow = true; g.add(body);
+          const bandMat = std('#2b1a14', { metalness: 0.5, roughness: 0.5 });
+          for (const by of [-0.17, 0.17]) { const b = new T3.Mesh(GEO.band, bandMat); b.rotation.x = Math.PI / 2; b.position.y = by; g.add(b); }
+          root.add(g); ref.mesh = g; ref.mat = mat;
+        } else if (c.type === 'target') {
+          const tg = s.targets.find(q => q.kind === 'static' && q.x === x && q.y === y);
+          const g = makeTarget(tg && tg.group ? TEX.targetA : TEX.target);
+          g.position.set(x, 0, y); root.add(g); ref.mesh = g; ref.tg = tg;
+        }
+        row.push(ref);
+      }
+      cells.push(row);
+    }
+    const carts = s.carts.map((cart, i) => {
+      const g = makeCart(false);
+      root.add(g);
+      return { g, tg: s.targets.find(q => q.kind === 'cart' && q.cart === i) };
+    });
+    const ghosts = [0, 1, 2, 3].map(() => { const g = makeCart(true); g.visible = false; root.add(g); return g; });
+    const hover = new T3.LineLoop(new T3.BufferGeometry().setFromPoints([
+      new T3.Vector3(-0.47, 0, -0.47), new T3.Vector3(0.47, 0, -0.47), new T3.Vector3(0.47, 0, 0.47), new T3.Vector3(-0.47, 0, 0.47),
+    ]), new T3.LineBasicMaterial({ color: 0xf1e7da, transparent: true, opacity: 0.85 }));
+    hover.position.y = 0.02; hover.visible = false; root.add(hover);
+    const markRings = [0, 1, 2].map(() => {
+      const m = new T3.Mesh(GEO.ring, new T3.MeshBasicMaterial({ color: COL.ember, transparent: true, side: T3.DoubleSide }));
+      m.rotation.x = -Math.PI / 2; m.position.y = 0.025; m.visible = false; root.add(m); return m;
+    });
+    scene.add(root);
+    world = { root, cells, carts, ghosts, hover, markRings };
+    frameCamera();
+  }
+
+  function makeFlame(x, y, h, scale) {
+    const m = new T3.Mesh(GEO.flame, new T3.MeshBasicMaterial({ color: COL.ember, transparent: true, opacity: 0.9, blending: T3.AdditiveBlending, depthWrite: false }));
+    m.position.set(x, h, y); m.scale.setScalar(scale || 1); m.visible = false; m.userData.base = scale || 1;
+    return m;
+  }
+
+  function makeTarget(tex) {
+    const g = new T3.Group();
+    const pivot = new T3.Group(); g.add(pivot);
+    const post = new T3.Mesh(GEO.post, std('#6b5a48')); post.position.y = 0.25; post.castShadow = true; pivot.add(post);
+    const face = new T3.MeshStandardMaterial({ map: tex, roughness: 0.7 });
+    const disc = new T3.Mesh(GEO.disc, [std('#d8cdbd'), face, face]);
+    disc.rotation.x = Math.PI / 2; disc.position.y = 0.58; disc.castShadow = true; pivot.add(disc);
+    g.userData.pivot = pivot;
+    return g;
+  }
+
+  function makeCart(ghost) {
+    const g = new T3.Group();
+    const mk = (geo, col, extra) => {
+      const m = new T3.Mesh(geo, ghost
+        ? new T3.MeshBasicMaterial({ color: col, transparent: true, opacity: 0.35, depthWrite: false })
+        : std(col, extra));
+      if (!ghost) m.castShadow = true;
+      return m;
+    };
+    const body = mk(GEO.cartBody, '#2f4550', { metalness: 0.4, roughness: 0.5 }); body.position.y = 0.26; g.add(body);
+    for (const sx of [-0.27, 0.27]) for (const sz of [-0.24, 0.24]) {
+      const w = mk(GEO.wheel, '#1b1f22'); w.rotation.x = Math.PI / 2; w.position.set(sx, 0.09, sz); g.add(w);
+    }
+    if (!ghost) {
+      const t = makeTarget(TEX.target); t.scale.setScalar(0.7); t.position.y = 0.42; g.add(t); g.userData.target = t;
+    }
+    return g;
+  }
+
+  function frameCamera() {
+    const s = G.sim;
+    const w = boardBox.clientWidth;
+    const h = Math.max(260, Math.round(w * (w < 560 ? 0.78 : 0.6)));
+    renderer.setSize(w, h, false);
+    cv.style.width = w + 'px'; cv.style.height = h + 'px';
+    camera.aspect = w / h;
+    const cx = (s.cols - 1) / 2, cz = (s.rows - 1) / 2;
+    const vfov = T3.MathUtils.degToRad(camera.fov);
+    const hfov = 2 * Math.atan(Math.tan(vfov / 2) * camera.aspect);
+    const halfW = s.cols / 2 + 0.2, halfH = s.rows / 2 + 0.6;
+    const elev = T3.MathUtils.degToRad(52);
+    const d = Math.max(halfW / Math.tan(hfov / 2), (halfH * Math.sin(elev) + 0.6) / Math.tan(vfov / 2)) * 1.08;
+    camera.position.set(cx, d * Math.sin(elev), cz + d * Math.cos(elev));
+    camera.lookAt(cx, 0, cz + 0.2);
+    camera.updateProjectionMatrix();
+    sun.position.set(cx - 4, 12, cz + 5); sun.target.position.set(cx, 0, cz);
+  }
+  new ResizeObserver(() => { if (G.sim) frameCamera(); }).observe(boardBox);
+
+  // ---------- labels projected from 3D ----------
+  const labelBox = $('labels');
+  const labelPool = [];
+  let labelUsed = 0;
+  const v3 = new T3.Vector3();
+  function label(text, x, h, z, color) {
+    v3.set(x, h, z).project(camera);
+    if (v3.z > 1) return;
+    const rect = cv.getBoundingClientRect();
+    let el = labelPool[labelUsed];
+    if (!el) { el = document.createElement('span'); el.className = 'chip'; labelBox.appendChild(el); labelPool.push(el); }
+    labelUsed++;
+    el.style.display = '';
+    el.textContent = text; el.style.color = color;
+    el.style.left = ((v3.x + 1) / 2 * rect.width) + 'px';
+    el.style.top = ((1 - v3.y) / 2 * rect.height) + 'px';
+  }
+  function flushLabels() { for (let i = labelUsed; i < labelPool.length; i++) labelPool[i].style.display = 'none'; labelUsed = 0; }
+
+  // ---------- effects ----------
+  function spawnBoom(x, y, t) {
+    const core = new T3.Mesh(GEO.sphere, new T3.MeshBasicMaterial({ color: COL.fuse, transparent: true, blending: T3.AdditiveBlending, depthWrite: false }));
+    const shell = new T3.Mesh(GEO.sphere, new T3.MeshBasicMaterial({ color: COL.blast, transparent: true, blending: T3.AdditiveBlending, depthWrite: false }));
+    core.position.set(x, 0.4, y); shell.position.set(x, 0.4, y);
+    const light = new T3.PointLight(0xff6a30, 0, 7, 2); light.position.set(x, 1, y);
+    const scorch = new T3.Mesh(GEO.scorch, new T3.MeshBasicMaterial({ color: 0x0a0806, transparent: true, opacity: 0.75, depthWrite: false }));
+    scorch.rotation.x = -Math.PI / 2; scorch.position.set(x, 0.006, y);
+    const debris = [];
+    for (let i = 0; i < 14; i++) {
+      const m = new T3.Mesh(GEO.debris, std(i % 3 ? '#3a2a20' : '#7a2a1e')); m.position.set(x, 0.4, y);
+      const a = Math.random() * Math.PI * 2, sp = 2 + Math.random() * 3;
+      m.userData.v = new T3.Vector3(Math.cos(a) * sp, 3 + Math.random() * 3, Math.sin(a) * sp);
+      m.castShadow = true; debris.push(m); world.root.add(m);
+    }
+    world.root.add(core, shell, light, scorch);
+    effects.push({ kind: 'boom', t, core, shell, light, debris });
+  }
+  function spawnHit(x, y, t) {
+    const m = new T3.Mesh(GEO.ring, new T3.MeshBasicMaterial({ color: COL.ok, transparent: true, side: T3.DoubleSide, depthWrite: false }));
+    m.rotation.x = -Math.PI / 2; m.position.set(x, 0.03, y); world.root.add(m);
+    effects.push({ kind: 'hit', t, m });
+  }
+  function spawnSmash(x, y, t) {
+    const debris = [];
+    for (let i = 0; i < 10; i++) {
+      const m = new T3.Mesh(GEO.debris, std('#8a5a30')); m.scale.set(1.6, 0.6, 3); m.position.set(x, 0.3, y);
+      const a = Math.random() * Math.PI * 2, sp = 1.5 + Math.random() * 2;
+      m.userData.v = new T3.Vector3(Math.cos(a) * sp, 2 + Math.random() * 2, Math.sin(a) * sp);
+      m.castShadow = true; debris.push(m); world.root.add(m);
+    }
+    effects.push({ kind: 'smash', t, debris });
+  }
+  function updateEffects(now, dt) {
+    const s = G.sim;
+    for (; logSeen < s.log.length; logSeen++) {
+      const e = s.log[logSeen];
+      if (e.kind === 'boom') spawnBoom(e.x, e.y, e.t);
+      else if (e.kind === 'hit') spawnHit(e.x, e.y, e.t);
+      else if (e.kind === 'smash') spawnSmash(e.x, e.y, e.t);
+    }
+    for (let i = effects.length - 1; i >= 0; i--) {
+      const f = effects[i];
+      const age = now - f.t;
+      if (f.kind === 'boom') {
+        const k = Math.min(1, age / 0.7);
+        f.core.scale.setScalar(0.25 + 0.8 * k); f.core.material.opacity = Math.max(0, 1 - k * 1.3);
+        f.shell.scale.setScalar(0.4 + 1.6 * k); f.shell.material.opacity = Math.max(0, 0.85 * (1 - k));
+        f.light.intensity = 6 * Math.pow(1 - k, 2);
+      }
+      if (f.debris) for (const d of f.debris) {
+        if (d.position.y <= 0.04 && d.userData.v.y < 0) { d.userData.v.set(0, 0, 0); d.position.y = 0.04; continue; }
+        d.userData.v.y -= 12 * dt;
+        d.position.addScaledVector(d.userData.v, dt);
+        d.rotation.x += dt * 6; d.rotation.z += dt * 4;
+      }
+      if (f.kind === 'hit') { const k = Math.min(1, age / 0.6); f.m.scale.setScalar(0.6 + 1.2 * k); f.m.material.opacity = 1 - k; }
+      const life = f.kind === 'boom' ? 0.75 : f.kind === 'hit' ? 0.6 : 99;
+      if (age > life && f.kind !== 'smash') {
+        if (f.core) { world.root.remove(f.core, f.shell, f.light); f.core.material.dispose(); f.shell.material.dispose(); }
+        if (f.m) { world.root.remove(f.m); f.m.material.dispose(); }
+        if (f.kind === 'hit') effects.splice(i, 1);
+        else { f.core = null; f.kind = 'debris'; }
+      }
+    }
+  }
+
+  // ---------- per-frame world state ----------
+  function updateWorld(now, wall) {
+    const s = G.sim;
+    const flick = reduceMotion ? 0.5 : 0.5 + 0.5 * Math.sin(wall / 70);
+    for (let y = 0; y < s.rows; y++) for (let x = 0; x < s.cols; x++) {
+      const c = s.cells[y][x], r = world.cells[y][x];
+      if (c.type === 'fuse') {
+        r.mat.color.copy(c.st === 'idle' ? COL.fuse : c.st === 'lit' ? COL.ember : COL.ash);
+        r.mat.emissive.copy(c.st === 'lit' ? COL.ember : COL.bg); r.mat.emissiveIntensity = c.st === 'lit' ? 0.6 + 0.6 * flick : 0;
+        r.flame.visible = c.st === 'lit';
+        if (r.flame.visible) r.flame.scale.set(1, 0.7 + 0.6 * flick, 1);
+      } else if (c.type === 'crate') {
+        if (c.st === 'done') {
+          if (c.smashed !== null) r.mesh.visible = false;
+          else { r.mat.color.copy(COL.ash); r.mesh.scale.y = 0.35; r.mesh.position.y = 0.11; r.mat.emissiveIntensity = 0; }
+          r.flame.visible = false;
+        } else if (c.st === 'lit') {
+          r.mat.emissive.copy(COL.ember); r.mat.emissiveIntensity = 0.25 + 0.35 * flick;
+          r.flame.visible = true; r.flame.scale.set(1.6, (1.2 + 0.8 * flick) * 1.6, 1.6);
+        }
+      } else if (c.type === 'barrel') {
+        if (c.st === 'done') r.mesh.visible = false;
+        else if (c.st === 'lit') {
+          const left = Math.max(0, c.until - now) / (c.until - c.t);
+          r.mat.emissive.copy(COL.blast); r.mat.emissiveIntensity = 0.4 + 0.8 * flick * (1 - left);
+          r.mesh.scale.setScalar(1 + 0.06 * (1 - left) * flick);
+          label(Math.max(0, c.until - now).toFixed(1), x, 1.05, y, css('--blast'));
+        }
+      } else if (c.type === 'target' && r.tg && r.tg.dead !== null) {
+        const k = Math.min(1, (now - r.tg.dead) / 0.35);
+        r.mesh.userData.pivot.rotation.x = -k * Math.PI / 2.2;
+      }
+    }
+    world.carts.forEach((wc, i) => {
+      const p = cartPos(s.carts[i], now);
+      wc.g.position.set(p.fx, 0, p.y);
+      if (wc.tg && wc.tg.dead !== null) {
+        const k = Math.min(1, (now - wc.tg.dead) / 0.35);
+        wc.g.userData.target.userData.pivot.rotation.x = -k * Math.PI / 2.2;
+      }
+    });
+    // pending matches: shrinking ring on the floor and a countdown label
+    world.markRings.forEach(m => { m.visible = false; });
+    let mi = 0;
+    for (const m of G.marks) {
+      if (m.at <= now || mi >= world.markRings.length) continue;
+      const ring = world.markRings[mi++];
+      const left = (m.at - now) / G.delay;
+      ring.visible = true; ring.position.x = m.x; ring.position.z = m.y; ring.scale.setScalar(0.7 + 0.5 * left);
+      label((m.at - now).toFixed(1), m.x, 0.55, m.y, css('--ember'));
+    }
+  }
+
+  // ---------- preview ----------
+  function makePreview(x, y) {
+    const p = structuredClone(G.sim);
+    push(p, G.t + G.delay, 'match', x, y);
+    const from = p.log.length;
+    step(p, G.level.limit);
+    const marks = new Map();
+    for (const e of p.log.slice(from)) {
+      const k = e.x + ',' + e.y;
+      if (e.kind === 'boom' || e.kind === 'hit' || !marks.has(k)) marks.set(k, e);
+    }
+    const booms = p.log.slice(from).filter(e => e.kind === 'boom');
+    const ghosts = [];
+    for (const b of booms) p.carts.forEach(cart => {
+      if (Math.abs(cart.row - b.y) > MAT.barrel.radius) return;
+      const pos = cartPos(cart, b.t);
+      ghosts.push({ fx: pos.fx, y: cart.row, t: b.t, hit: Math.abs(Math.round(pos.fx) - b.x) <= MAT.barrel.radius });
+    });
+    return { x, y, marks, ghosts, hits: p.targets.filter(g => g.dead !== null).length, total: p.targets.length, pairs: pairGaps(p), lastBoom: booms.length ? Math.max(...booms.map(b => b.t)) : null, made: G.t };
+  }
+
+  function drawPreview(now) {
+    world.ghosts.forEach(g => { g.visible = false; });
+    world.hover.visible = false;
+    const sel = G.touchSel || G.hover;
+    if (!G.running || !sel) { if (G.preview) { G.preview = null; setHint(); } return; }
+    const ok = G.matches > 0 && canIgnite(sel.x, sel.y);
+    world.hover.visible = true; world.hover.position.x = sel.x; world.hover.position.z = sel.y;
+    world.hover.material.opacity = ok ? 0.9 : 0.3;
+    if (!ok || !G.previewOn) { if (G.preview) { G.preview = null; setHint(); } return; }
+    if (!G.preview || G.preview.x !== sel.x || G.preview.y !== sel.y || now - G.preview.made > 0.1) { G.preview = makePreview(sel.x, sel.y); setHint(); }
+    const pv = G.preview;
+    pv.ghosts.slice(0, world.ghosts.length).forEach((g, i) => {
+      const gm = world.ghosts[i]; gm.visible = true; gm.position.set(g.fx, 0, g.y);
+      gm.traverse(o => { if (o.material) o.material.color.copy(g.hit ? COL.ok : COL.blast); });
+      label('+' + (g.t - now).toFixed(1), g.fx, 0.75, g.y, g.hit ? css('--ok') : css('--blast'));
+    });
+    for (const e of pv.marks.values()) {
+      const col = e.kind === 'boom' ? css('--blast') : e.kind === 'hit' ? css('--ok') : css('--fuse');
+      const h = e.kind === 'boom' ? 0.95 : e.kind === 'hit' ? 1.05 : 0.45;
+      label('+' + (e.t - now).toFixed(1), e.x, h, e.y, col);
+    }
+  }
+
+  // ---------- input ----------
+  const raycaster = new T3.Raycaster();
+  const ground = new T3.Plane(new T3.Vector3(0, 1, 0), 0);
+  const hit = new T3.Vector3(), ndc = new T3.Vector2();
+  function cellAt(evt) {
+    const r = cv.getBoundingClientRect();
+    ndc.set(((evt.clientX - r.left) / r.width) * 2 - 1, -((evt.clientY - r.top) / r.height) * 2 + 1);
+    raycaster.setFromCamera(ndc, camera);
+    if (!raycaster.ray.intersectPlane(ground, hit)) return null;
+    const x = Math.round(hit.x), y = Math.round(hit.z);
+    if (x < 0 || y < 0 || x >= G.sim.cols || y >= G.sim.rows) return null;
+    return { x, y };
+  }
+  function canIgnite(x, y) {
+    const c = G.sim.cells[y][x];
+    if (!CLICKABLE.has(c.type) || c.st !== 'idle') return false;
+    return !G.marks.some(m => m.x === x && m.y === y && m.at > G.t);
+  }
+  function place(x, y) {
+    if (!G.running || G.matches <= 0 || !canIgnite(x, y)) return;
+    const at = G.t + G.delay;
+    push(G.sim, at, 'match', x, y);
+    G.marks.push({ x, y, at });
+    G.matches--; G.preview = null; G.touchSel = null;
+    updateStats();
+  }
+  cv.addEventListener('pointermove', e => {
+    if (e.pointerType === 'touch') return;
+    G.hover = cellAt(e);
+    cv.style.cursor = G.hover && G.running && G.matches > 0 && canIgnite(G.hover.x, G.hover.y) ? 'pointer' : 'default';
+  });
+  cv.addEventListener('pointerleave', () => { G.hover = null; });
+  cv.addEventListener('pointerdown', e => {
+    const c = cellAt(e);
+    if (!c) return;
+    if (!G.running) { if (!G.ended) start(); return; }
+    if (e.pointerType === 'touch') {
+      if (G.touchSel && G.touchSel.x === c.x && G.touchSel.y === c.y) place(c.x, c.y);
+      else G.touchSel = canIgnite(c.x, c.y) ? c : null;
+      return;
+    }
+    place(c.x, c.y);
+  });
+  document.addEventListener('keydown', e => {
+    if (e.target.closest && e.target.closest('input, textarea')) return;
+    if (e.key === 'r' || e.key === 'R') loadLevel(G.li);
+    else if (e.key === 'n' || e.key === 'N') loadLevel(G.li + 1);
+    else if (e.key === 'p' || e.key === 'P') { $('chkPreview').checked = !$('chkPreview').checked; G.previewOn = $('chkPreview').checked; G.preview = null; setHint(); }
+    else if (e.key === ' ' && !G.running && !G.ended) { e.preventDefault(); start(); }
+  });
+  $('btnRestart').onclick = () => loadLevel(G.li);
+  $('btnNext').onclick = () => loadLevel(G.li + 1);
+  $('chkPreview').onchange = e => { G.previewOn = e.target.checked; G.preview = null; setHint(); };
+
+  // ---------- panel ----------
+  function loadLevel(i) {
+    G.li = (i + LEVELS.length) % LEVELS.length;
+    G.level = LEVELS[G.li];
+    G.sim = makeSim(G.level);
+    G.t = 0; G.running = false; G.ended = null;
+    G.matches = G.level.matches; G.marks = []; G.preview = null; G.touchSel = null;
+    $('lvlName').textContent = `레벨 ${G.li + 1} · ${G.level.name}`;
+    $('goalText').textContent = G.level.goal;
+    $('limit').textContent = G.level.limit.toFixed(1);
+    $('stLimit').textContent = G.level.limit + '초';
+    buildWorld();
+    renderLevels(); renderData(); showOverlay('start'); updateStats(); setHint();
+  }
+  function start() {
+    if (G.running || G.ended) return;
+    G.running = true; $('overlay').hidden = true; last = performance.now(); setHint();
+  }
+  function end(r) {
+    G.running = false; G.ended = r;
+    if (r.result === 'win') { cleared.add(G.li); saveCleared(); renderLevels(); }
+    showOverlay('end');
+  }
+  function showOverlay(kind) {
+    const card = $('ovCard');
+    if (kind === 'start') {
+      card.innerHTML = `<h2>레벨 ${G.li + 1} · ${G.level.name}</h2><p>${G.level.goal}</p>
+        <p>칸을 누르면 <b>${G.delay}초</b> 뒤에 불이 붙습니다. 성냥 ${G.level.matches}개, 제한 ${G.level.limit}초.</p>
+        <div class="ov-btns"><button class="primary" id="ovStart">시작<kbd>Space</kbd></button></div>`;
+      $('ovStart').onclick = start;
+    } else {
+      const r = G.ended;
+      let title, msg, cls;
+      if (r.result === 'win') { title = '성공'; cls = 'win'; msg = `마지막 표적이 ${r.t.toFixed(1)}초에 터졌습니다. 성냥 ${G.level.matches - G.matches}개 사용.`; }
+      else {
+        title = '실패'; cls = 'lose';
+        if (r.why === 'pair') msg = r.gap !== null ? `${r.group} 표적이 ${r.gap.toFixed(1)}초 간격으로 터졌습니다. ${PAIR_WINDOW}초 안에 함께 터져야 합니다.` : `${r.group} 표적 하나가 먼저 터져 경보가 울렸습니다. ${PAIR_WINDOW}초 안에 나머지도 터져야 합니다.`;
+        else if (r.why === 'time') msg = '제한 시간이 지났습니다.';
+        else msg = '성냥을 다 썼고 남은 불씨도 꺼졌습니다.';
+      }
+      const isLast = G.li === LEVELS.length - 1;
+      card.innerHTML = `<h2 class="${cls}">${title}</h2><p>${msg}</p><div class="ov-btns">${r.result === 'win'
+        ? `<button class="primary" id="ovNext">${isLast ? '처음 레벨로' : '다음 레벨'}<kbd>N</kbd></button><button id="ovRetry">다시 하기<kbd>R</kbd></button>`
+        : `<button class="primary" id="ovRetry">다시 하기<kbd>R</kbd></button><button id="ovNext">다음 레벨<kbd>N</kbd></button>`}</div>`;
+      $('ovRetry').onclick = () => loadLevel(G.li);
+      $('ovNext').onclick = () => loadLevel(G.li + 1);
+    }
+    $('overlay').hidden = false;
+  }
+  function updateStats() {
+    $('stMatch').textContent = G.matches;
+    $('stTarget').textContent = `${G.sim.targets.filter(g => g.dead !== null).length}/${G.sim.targets.length}`;
+    $('clock').textContent = G.t.toFixed(1);
+  }
+  function renderLevels() {
+    const box = $('levels'); box.innerHTML = '';
+    LEVELS.forEach((lv, i) => {
+      const b = document.createElement('button');
+      b.setAttribute('aria-current', i === G.li ? 'true' : 'false');
+      b.innerHTML = `<span><span class="num">${i + 1}</span>${lv.name}</span>${cleared.has(i) ? '<span class="done">완료</span>' : ''}`;
+      b.onclick = () => loadLevel(i);
+      box.appendChild(b);
+    });
+  }
+  function renderDelaySeg() {
+    const seg = $('segDelay'); seg.innerHTML = '';
+    DELAYS.forEach(d => {
+      const b = document.createElement('button');
+      b.textContent = d + '초';
+      b.setAttribute('aria-pressed', d === G.delay ? 'true' : 'false');
+      b.onclick = () => { G.delay = d; $('ruleDelay').textContent = d + '초'; renderDelaySeg(); loadLevel(G.li); };
+      seg.appendChild(b);
+    });
+  }
+  function renderData() {
+    const carts = (G.level.carts || []).map(c => `${c.speed}칸/초 왕복`).join(', ') || '없음';
+    const rows = [
+      ['점화 지연', `${G.delay}초`, '누른 칸에 실제로 불이 붙기까지'],
+      ['도화선 전파', `${MAT.fuse.spreadAfter}초`, '불붙은 뒤 상하좌우로 번지기까지'],
+      ['도화선 연소', `${MAT.fuse.burnFor}초`, '타고 재가 되기까지'],
+      ['나무 상자 전파', `${MAT.crate.spreadAfter}초`, '느린 연결 고리. 폭발에 맞으면 번지지 않고 부서짐'],
+      ['화약통 (불)', `${MAT.barrel.fuseFire}초`, '불이 닿은 뒤 터지기까지'],
+      ['화약통 (폭발)', `${MAT.barrel.fuseBlast}초`, '다른 폭발에 맞은 뒤 터지기까지'],
+      ['폭발 반경', `${MAT.barrel.radius}칸`, '대각선 포함 주변 8칸'],
+      ['동시 폭파 허용', `${PAIR_WINDOW}초`, '같은 글자 표적이 모두 터져야 하는 간격'],
+      ['광차 (이 레벨)', carts, '폭발 순간의 칸 위치로 판정'],
+    ];
+    $('dataTable').innerHTML = '<tr><th>항목</th><th>값</th><th>설명</th></tr>' + rows.map(r => `<tr><td>${r[0]}</td><td class="mono">${r[1]}</td><td>${r[2]}</td></tr>`).join('');
+  }
+  function setHint() {
+    const h = $('hint');
+    if (!G.running) { h.innerHTML = G.ended ? '' : '<b>시작</b>을 누르면 시간이 흐르기 시작합니다. 광차는 시작과 함께 움직입니다.'; return; }
+    if (!G.previewOn) { h.innerHTML = '미리 보기 꺼짐. 칸을 누르면 ' + G.delay + '초 뒤에 불이 붙습니다.'; return; }
+    const pv = G.preview;
+    if (!pv) { h.innerHTML = G.matches > 0 ? '불붙일 수 있는 칸을 가리키면 그 뒤에 일어날 일이 숫자로 떠오릅니다. <b>+초</b>는 지금부터의 시간입니다.' : '성냥을 다 썼습니다. 결과를 지켜보세요.'; return; }
+    const parts = [`이 칸에 불을 붙이면 표적 <b class="${pv.hits === pv.total ? 'good' : 'bad'}">${pv.hits}/${pv.total}</b>`];
+    if (pv.lastBoom !== null) parts.push(`마지막 폭발 <b>+${(pv.lastBoom - G.t).toFixed(1)}초</b>`);
+    for (const p of pv.pairs) {
+      if (p.dead === p.total && p.total > 1) {
+        const gap = p.last - p.first;
+        parts.push(gap <= PAIR_WINDOW + 1e-6 ? `<span class="good">${p.group} 동시 폭파 간격 ${gap.toFixed(1)}초</span>` : `<span class="bad">${p.group} 간격 ${gap.toFixed(1)}초 (${PAIR_WINDOW}초 이내 필요)</span>`);
+      } else if (p.dead > 0) parts.push(`<span class="bad">${p.group} 표적 ${p.dead}/${p.total}만 터짐</span>`);
+    }
+    if (pv.ghosts.length && !pv.ghosts.some(g => g.hit)) parts.push('<span class="bad">폭발 순간 광차가 비켜 있음</span>');
+    h.innerHTML = parts.join(' · ');
+  }
+
+  // ---------- loop ----------
+  let last = performance.now();
+  function frame(ts) {
+    advance(Math.min(0.1, (ts - last) / 1000), ts);
+    last = ts;
+    requestAnimationFrame(frame);
+  }
+  function advance(dt, ts) {
+    if (G.running) {
+      G.t += dt;
+      step(G.sim, G.t);
+      updateStats();
+      const r = evaluate(G.sim, G.t, G.level.limit, G.matches);
+      if (r) end(r);
+    }
+    updateWorld(G.t, ts);
+    updateEffects(G.t, G.running || G.ended ? dt : 0);
+    drawPreview(G.t);
+    renderer.render(scene, camera);
+    flushLabels();
+  }
+
+  function boot(data) {
+    if (data && DELAYS.includes(data.delay)) G.delay = data.delay;
+    if (data && typeof data.preview === 'boolean') { G.previewOn = data.preview; $('chkPreview').checked = data.preview; }
+    $('ruleDelay').textContent = G.delay + '초';
+    renderDelaySeg();
+    loadLevel(data && Number.isInteger(data.li) ? data.li : 0);
+    requestAnimationFrame(frame);
+  }
+  // designer handle: run the simulation without the clock (balance checks, level solvers)
+  window.AfterSeconds = { MAT, PAIR_WINDOW, LEVELS, makeSim, push, step, evaluate, cartPos, G, advance: (dt) => advance(dt, performance.now()) };
+  window.claude?.hot?.snapshot?.(() => ({ li: G.li, delay: G.delay, preview: G.previewOn }));
+  window.claude?.hot?.ready ? window.claude.hot.ready(boot) : boot(window.claude?.hot?.data ?? {});
+})();
+</script>
+
+</body></html>
