@@ -1,0 +1,229 @@
+{
+  "unityVersion": "6000.4.0f1",
+  "generatedAtUtc": "2026-10-28T00:39:30.5336163Z",
+  "scene": "",
+  "preview": "",
+  "error": "",
+  "success": true,
+  "adoptedBlankUntitledScene": false,
+  "userScenesBefore": [
+    "Assets/Afrer_Seconds/01.Scenes/VARCO_AssetReview.unity [active]"
+  ],
+  "assets": [
+    {
+      "id": "AS01_Crate",
+      "source": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS01_Crate/Models/AS01_Crate.fbx",
+      "prefab": "Assets/Afrer_Seconds/04.Prefabs/Candidates/VARCO/AS01_Crate.prefab",
+      "rigStatus": "Unvalidated generated candidate. Humanoid rigging and animation approval remain separate work.",
+      "embeddedTexturesExtracted": true,
+      "hasValidAvatar": false,
+      "hasHumanAvatar": false,
+      "rendererCount": 1,
+      "meshCount": 1,
+      "skinnedRendererCount": 0,
+      "boneCount": 0,
+      "bindPoseCount": 0,
+      "vertices": 6199,
+      "triangles": 8000,
+      "proposedHeightMeters": 1.0,
+      "visualScale": 1.001095175743103,
+      "originalBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.49945297837257385,
+          "z": -5.9539427610388884E-08
+        },
+        "size": {
+          "x": 0.9968560934066772,
+          "y": 0.9989060759544373,
+          "z": 0.9981269240379333
+        }
+      },
+      "normalizedBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.5,
+          "z": 0.0
+        },
+        "size": {
+          "x": 0.9979478120803833,
+          "y": 1.0,
+          "z": 0.999220073223114
+        }
+      },
+      "animationClips": [],
+      "extractedTexturePaths": [
+        "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS01_Crate/Textures/base_color.png",
+        "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS01_Crate/Textures/normal.png"
+      ],
+      "materials": [
+        {
+          "name": "material_0",
+          "shader": "Universal Render Pipeline/Lit",
+          "sourceAsset": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS01_Crate/Models/AS01_Crate.fbx",
+          "baseTexture": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS01_Crate/Textures/base_color.png",
+          "normalTexture": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS01_Crate/Textures/normal.png",
+          "generatedMaterial": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS01_Crate/Materials/AS01_Crate_00_URP_Lit.mat",
+          "sourceColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "usedBaseTexture": true,
+          "usedNormalTexture": true,
+          "fallbackColorUsed": false
+        }
+      ],
+      "notes": [
+        "Vertex and triangle counts sum unique imported meshes, not repeated renderer instances."
+      ]
+    },
+    {
+      "id": "AS05_PlayerDummy",
+      "source": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS05_PlayerDummy/Models/AS05_PlayerDummy.fbx",
+      "prefab": "Assets/Afrer_Seconds/04.Prefabs/Candidates/VARCO/AS05_PlayerDummy.prefab",
+      "rigStatus": "Unvalidated generated candidate. Humanoid rigging and animation approval remain separate work.",
+      "embeddedTexturesExtracted": true,
+      "hasValidAvatar": false,
+      "hasHumanAvatar": false,
+      "rendererCount": 1,
+      "meshCount": 1,
+      "skinnedRendererCount": 0,
+      "boneCount": 0,
+      "bindPoseCount": 0,
+      "vertices": 5155,
+      "triangles": 8000,
+      "proposedHeightMeters": 1.7999999523162842,
+      "visualScale": 1.803963541984558,
+      "originalBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.4989014267921448,
+          "z": -5.9473677538335323E-08
+        },
+        "size": {
+          "x": 0.995678186416626,
+          "y": 0.9978028535842896,
+          "z": 0.1556984931230545
+        }
+      },
+      "normalizedBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.8999999761581421,
+          "z": 0.0
+        },
+        "size": {
+          "x": 1.7961671352386475,
+          "y": 1.7999999523162842,
+          "z": 0.2808744013309479
+        }
+      },
+      "animationClips": [],
+      "extractedTexturePaths": [
+        "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS05_PlayerDummy/Textures/base_color.png",
+        "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS05_PlayerDummy/Textures/normal.png"
+      ],
+      "materials": [
+        {
+          "name": "material_0",
+          "shader": "Universal Render Pipeline/Lit",
+          "sourceAsset": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS05_PlayerDummy/Models/AS05_PlayerDummy.fbx",
+          "baseTexture": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS05_PlayerDummy/Textures/base_color.png",
+          "normalTexture": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS05_PlayerDummy/Textures/normal.png",
+          "generatedMaterial": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS05_PlayerDummy/Materials/AS05_PlayerDummy_00_URP_Lit.mat",
+          "sourceColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "usedBaseTexture": true,
+          "usedNormalTexture": true,
+          "fallbackColorUsed": false
+        }
+      ],
+      "notes": [
+        "Vertex and triangle counts sum unique imported meshes, not repeated renderer instances."
+      ]
+    },
+    {
+      "id": "AS06_GuardDummy",
+      "source": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS06_GuardDummy/Models/AS06_GuardDummy.fbx",
+      "prefab": "Assets/Afrer_Seconds/04.Prefabs/Candidates/VARCO/AS06_GuardDummy.prefab",
+      "rigStatus": "Unvalidated generated candidate. Humanoid rigging and animation approval remain separate work.",
+      "embeddedTexturesExtracted": true,
+      "hasValidAvatar": false,
+      "hasHumanAvatar": false,
+      "rendererCount": 1,
+      "meshCount": 1,
+      "skinnedRendererCount": 0,
+      "boneCount": 0,
+      "bindPoseCount": 0,
+      "vertices": 5121,
+      "triangles": 8000,
+      "proposedHeightMeters": 1.7999999523162842,
+      "visualScale": 1.8000332117080688,
+      "originalBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.4999907612800598,
+          "z": -5.960353632872284E-08
+        },
+        "size": {
+          "x": 0.9823541045188904,
+          "y": 0.9999815225601196,
+          "z": 0.16444401443004608
+        }
+      },
+      "normalizedBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.8999999761581421,
+          "z": 0.0
+        },
+        "size": {
+          "x": 1.7682700157165527,
+          "y": 1.7999999523162842,
+          "z": 0.29600468277931213
+        }
+      },
+      "animationClips": [],
+      "extractedTexturePaths": [
+        "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS06_GuardDummy/Textures/base_color.png",
+        "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS06_GuardDummy/Textures/normal.png"
+      ],
+      "materials": [
+        {
+          "name": "material_0",
+          "shader": "Universal Render Pipeline/Lit",
+          "sourceAsset": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS06_GuardDummy/Models/AS06_GuardDummy.fbx",
+          "baseTexture": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS06_GuardDummy/Textures/base_color.png",
+          "normalTexture": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS06_GuardDummy/Textures/normal.png",
+          "generatedMaterial": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS06_GuardDummy/Materials/AS06_GuardDummy_00_URP_Lit.mat",
+          "sourceColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "usedBaseTexture": true,
+          "usedNormalTexture": true,
+          "fallbackColorUsed": false
+        }
+      ],
+      "notes": [
+        "Vertex and triangle counts sum unique imported meshes, not repeated renderer instances."
+      ]
+    }
+  ],
+  "notes": [
+    "Generated candidates, not approved production assets or validated Humanoid rigs.",
+    "1 Unity unit = 1 metre; dummy height 1.8m and crate height 1m are proposed test dimensions.",
+    "Source FBX geometry preserved. Uniform scaling and floor alignment are on VisualRoot only.",
+    "Materials preserve available base-colour and normal textures; metallic/smoothness are conservative placeholders.",
+    "No gameplay scripts, AD, SampleScene, build settings, or existing user scenes are edited."
+  ],
+  "placementScope": "Assets and reusable prefabs only; scene layout is performed by the user. Automatically created review scene was removed after scope correction on 2026-10-28."
+}

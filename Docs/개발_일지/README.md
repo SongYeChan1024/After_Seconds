@@ -1,8 +1,11 @@
 # 개발 일지
 
-작업 나열보다 문제를 어떻게 발견하고 해결했는지 기록합니다. 날마다 노션 「Logs For Develope」의 데일리로그와 짝을 이룹니다.
+작업 나열보다 문제를 어떻게 발견하고 해결했는지 기록합니다. 매일의 학습 과정은 공개 「데일리 로그」로, 프로젝트의 구현 문제와 해결 과정은 별도의 기술 글로 작성합니다.
 
-**2026-10-26부터 새 일일개발일지 본문은 블로그 Git 저장소 [Kasil-portfolio-pages](https://github.com/SongYeChan1024/Kasil-portfolio-pages)의 `_posts/YYYY-MM-DD-영문-슬러그.md`에 작성합니다.** 이 폴더는 기존 기록과 새 글 링크를 보관합니다. 노션 데일리로그는 기존 위치를 유지하며, 이어하기 상태는 [세션 인수인계](../이어하기_2026-10-26.md)에 기록합니다.
+**현재 게시 저장소는 [Kasil_DevLog](https://github.com/SongYeChan1024/Kasil_DevLog)이며 `_posts/YYYY-MM-DD-영문-슬러그.md`에서 관리합니다.** 로컬 저장소는 `C:/Users/503-26/Documents/Codex/Kasil_DevLog`입니다. 이 폴더에는 블로그 본문을 복제하지 않고 공개 글 링크와 기존 기록·노션 링크를 보관합니다. 이어하기 상태는 [세션 인수인계](../이어하기_2026-10-26.md)에 기록합니다.
+
+- [2026-10-28 데일리 로그 — 의사코드로 배우는 과정](https://songyechan1024.github.io/Kasil_DevLog/posts/daily-log-learning-through-pseudocode/)
+- [2026-10-28 기술 기록 — After Seconds 1인칭 플레이어 컨트롤러](https://songyechan1024.github.io/Kasil_DevLog/posts/after-seconds-first-person-player-controller/)
 
 - [2026-10-26 연구소 시안에서 Unity 계층 분리까지 — 블로그 일일개발일지](https://songyechan1024.github.io/Kasil-portfolio-pages/posts/after-seconds-unity-assembly-setup/) — 오늘 앞선 준비 작업과 집에서 진행한 6계층 asmdef 생성·Define/Simulator 설정을 합친 기록
 - [2026-10-26 노션 데일리로그](https://app.notion.com/p/40536532580e81e2ab76fe7ddaa73ee1)
