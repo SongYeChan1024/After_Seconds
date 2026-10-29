@@ -10,7 +10,9 @@
 | `Prototype/Web/` | 웹 프로토타입과 설명 |
 | `Unity_Project_After_Seconds/After_Seconds_Build_V0.01/` | 현재 Unity 게임 프로젝트 |
 
-Unity 작업 루트는 `Assets/Afrer_Seconds/`다. 앞으로 `03.Art`에는 2D 이미지만 넣고 `UI/`, `Cutscenes/` 등 이미지 종류별 폴더로 분류한다. `05.Model`에는 기준 리깅 모델과 부속 재질·조립 중인 외형을 용도별로 보관하고, `04.Prefabs`에는 스크립트와 결합해 기능이 완성된 에셋을 둔다. 모델 준비 단계의 `.prefab` 파일도 `05.Model`에서 관리한다.
+Unity 작업 루트는 `Assets/Afrer_Seconds/`다. 앞으로 `03.Art`에는 2D 이미지만 넣고 `UI/`, `Cutscenes/` 등 이미지 종류별 폴더로 분류. 
+`05.Model`에는 기준 리깅 모델과 부속 재질·조립 중인 외형을 용도별로 보관하고, `04.Prefabs`에는 스크립트와 결합해 기능이 완성된 에셋을 둘 것. 
+모델 준비 단계의 `.prefab` 파일도 `05.Model`에서 관리.
 
 애니메이션은 `07.Animator`의 `Player/`, `Enemy/` 등 대상별 폴더에서 관리한다. 기존 플레이어 동작 FBX 6종은 `07.Animator/Player/Clips/`에, AnimatorController(`.controller`)·AnimatorOverrideController(`.overrideController`)는 `07.Animator/Player/Controllers/`에 둔다. AvatarMask(`.mask`)를 사용할 때는 해당 대상의 `Masks/` 폴더를 만든다. 기존 기준 모델은 사용자가 이름을 바꾼 `05.Model/Player/Rigged/Models/PlayerDummy_Rigged_V0.2.fbx`이며, 과거 반입명은 `AS05_PlayerDummy_Rigged.fbx`다.
 
