@@ -1,0 +1,38 @@
+{
+  "createdOn": "2026-10-29",
+  "scope": "Separate VARCO rerig and one walking-motion visual validation; no Unity import or replacement",
+  "sourceModelUrl": "https://3d.varco.ai/animate/3b98cd0f-3e26-4837-bf32-ba9a0ce4de3c",
+  "preservedOldRigUrl": "https://3d.varco.ai/animate/4bde1920-1d4b-4bb6-99cd-fc7b51925756",
+  "newMarkerRigUrl": "https://3d.varco.ai/animate/21f9ed3e-6be3-4d88-a1a8-5d030db8c257",
+  "walkingTestUrl": "https://3d.varco.ai/animate/9675193e-8335-422e-852f-669435e886ab",
+  "method": "Separate marker rig from original unrigged mesh; symmetric anatomical chin, shoulder, elbow, wrist, spine, crotch, hip, knee and ankle placement",
+  "motion": "좌발 전방걷기",
+  "inspectedPoses": [
+    "front approximately 0s",
+    "front approximately 3s",
+    "front approximately 6s",
+    "side approximately 2s",
+    "side approximately 5s",
+    "front mesh with skeleton hidden"
+  ],
+  "conclusion": "Major pelvis collapse and fused-thigh deformation from the old rig were not reproduced in inspected poses; improved lower-body candidate",
+  "limitations": [
+    "Subtle crotch deformation remains uncertain",
+    "Continuous loop and foot contact not certified",
+    "Unity Humanoid retargeting not tested",
+    "Visible marker-rig hierarchy ends at hand.L and hand.R without finger bones; not approved as a complete interaction rig"
+  ],
+  "unityImported": false,
+  "existingProjectFilesChecked": 62,
+  "existingProjectFilesUnchanged": 62,
+  "changedExistingFiles": [],
+  "missingExistingFiles": [],
+  "evidence": [
+    "walk-front-early.png",
+    "walk-front-middle.png",
+    "walk-front-late.png",
+    "walk-side-early.png",
+    "walk-side-late.png",
+    "walk-mesh-front.png"
+  ]
+}

@@ -1,0 +1,646 @@
+{
+  "schemaVersion": "0.01",
+  "validatedOn": "2026-10-29",
+  "unityVersion": "6000.4.0f1",
+  "targetModelPath": "Assets/Afrer_Seconds/05.Model/Player/Rigged/Models/AS05_PlayerDummy_Rigged.fbx",
+  "targetAvatar": "AS05_PlayerDummy_RiggedAvatar",
+  "fbxScaleOptions": "FBX_SCALE_UNITS",
+  "method": "Sample each of six Humanoid clips at five times on the rigged model in a temporary isolated PreviewScene, then close and clean up that PreviewScene.",
+  "scope": "Import and sampled retargeting validation. Gameplay scene, model prefab and Animator Controller connections remain for the user.",
+  "samplingLimit": "Five points per clip confirm sampled pose data and unit-scale behavior; they do not certify loop seams, continuous deformation quality, first-person framing or gameplay transitions.",
+  "sampledPositionCoordinateSystem": "Unity preview world coordinates in metres; the preview model uses its imported scale, not the gameplay visual scale.",
+  "sourceSnapshotSha256": "0ab283e9f425cb63933c44baf067ba6e98dede44cfdd22b6ccccdff3c1d528b9",
+  "sceneBefore": "Assets/Afrer_Seconds/01.Scenes/SampleScene.unity",
+  "sceneAfter": "Assets/Afrer_Seconds/01.Scenes/SampleScene.unity",
+  "existingFileHashCheck": {
+    "total": 16,
+    "unchanged": 16,
+    "scope": "One SampleScene, six C# scripts, six assembly definitions, three existing prefabs. Existing user-edited FBX importer metadata is outside this comparison."
+  },
+  "clips": [
+    {
+      "role": "Idle",
+      "clip": "Player_Idle",
+      "targetAvatar": "AS05_PlayerDummy_RiggedAvatar",
+      "materialIsUrpLit": true,
+      "runtimeControllerAssigned": false,
+      "samples": [
+        {
+          "timeSeconds": 0.0,
+          "vertexCount": 5185,
+          "boundsSize": [
+            0.506966352,
+            1.08867514,
+            0.316758364
+          ],
+          "handPosition": [
+            -0.165309519,
+            0.0300626457,
+            0.08848049
+          ],
+          "headPosition": [
+            -0.00238655461,
+            0.3402742,
+            -0.01597716
+          ]
+        },
+        {
+          "timeSeconds": 2.22500014,
+          "vertexCount": 5185,
+          "boundsSize": [
+            0.505442142,
+            1.0884738,
+            0.313831985
+          ],
+          "handPosition": [
+            -0.163421109,
+            0.030295508,
+            0.08568979
+          ],
+          "headPosition": [
+            -0.0008435192,
+            0.340291858,
+            -0.01651376
+          ]
+        },
+        {
+          "timeSeconds": 4.45000029,
+          "vertexCount": 5185,
+          "boundsSize": [
+            0.510528743,
+            1.087664,
+            0.3239044
+          ],
+          "handPosition": [
+            -0.16949293,
+            0.0339072421,
+            0.09272216
+          ],
+          "headPosition": [
+            -0.004104429,
+            0.3395956,
+            -0.0190644283
+          ]
+        },
+        {
+          "timeSeconds": 6.675,
+          "vertexCount": 5185,
+          "boundsSize": [
+            0.504728436,
+            1.08845425,
+            0.318255067
+          ],
+          "handPosition": [
+            -0.164810464,
+            0.03132733,
+            0.08785461
+          ],
+          "headPosition": [
+            -0.000357208948,
+            0.340402544,
+            -0.0141993118
+          ]
+        },
+        {
+          "timeSeconds": 8.891101,
+          "vertexCount": 5185,
+          "boundsSize": [
+            0.5107188,
+            1.08798409,
+            0.3243575
+          ],
+          "handPosition": [
+            -0.168651387,
+            0.0324641019,
+            0.0908841342
+          ],
+          "headPosition": [
+            -0.00423532724,
+            0.3395323,
+            -0.019529514
+          ]
+        }
+      ]
+    },
+    {
+      "role": "Walk",
+      "clip": "Player_Walk",
+      "targetAvatar": "AS05_PlayerDummy_RiggedAvatar",
+      "materialIsUrpLit": true,
+      "runtimeControllerAssigned": false,
+      "samples": [
+        {
+          "timeSeconds": 0.0,
+          "vertexCount": 5185,
+          "boundsSize": [
+            0.5501257,
+            1.07043052,
+            0.388234735
+          ],
+          "handPosition": [
+            -0.183256865,
+            0.0170313474,
+            0.0772298649
+          ],
+          "headPosition": [
+            -0.00130790472,
+            0.335635066,
+            0.009619861
+          ]
+        },
+        {
+          "timeSeconds": 1.87500012,
+          "vertexCount": 5185,
+          "boundsSize": [
+            0.5358415,
+            1.06093717,
+            0.5838428
+          ],
+          "handPosition": [
+            -0.189478964,
+            0.0230416674,
+            0.0736835152
+          ],
+          "headPosition": [
+            0.00370323472,
+            0.33182013,
+            0.0164226461
+          ]
+        },
+        {
+          "timeSeconds": 3.75000024,
+          "vertexCount": 5185,
+          "boundsSize": [
+            0.559348,
+            1.05889082,
+            0.6361332
+          ],
+          "handPosition": [
+            -0.206493676,
+            0.0470913425,
+            0.130336016
+          ],
+          "headPosition": [
+            0.00206817081,
+            0.331138551,
+            0.0191283952
+          ]
+        },
+        {
+          "timeSeconds": 5.62500048,
+          "vertexCount": 5185,
+          "boundsSize": [
+            0.532404065,
+            1.06498766,
+            0.4556879
+          ],
+          "handPosition": [
+            -0.168358073,
+            0.00354399742,
+            0.0269280449
+          ],
+          "headPosition": [
+            -0.00298221,
+            0.334318429,
+            -0.00205859
+          ]
+        },
+        {
+          "timeSeconds": 7.492501,
+          "vertexCount": 5185,
+          "boundsSize": [
+            0.5410392,
+            1.07062387,
+            0.334156364
+          ],
+          "handPosition": [
+            -0.163866892,
+            0.007619534,
+            0.05399154
+          ],
+          "headPosition": [
+            -0.00605112035,
+            0.336514562,
+            0.00386123615
+          ]
+        }
+      ]
+    },
+    {
+      "role": "Run",
+      "clip": "Player_Run",
+      "targetAvatar": "AS05_PlayerDummy_RiggedAvatar",
+      "materialIsUrpLit": true,
+      "runtimeControllerAssigned": false,
+      "samples": [
+        {
+          "timeSeconds": 0.0,
+          "vertexCount": 5185,
+          "boundsSize": [
+            0.5538349,
+            0.9270104,
+            0.8355102
+          ],
+          "handPosition": [
+            -0.185933679,
+            0.04123995,
+            -0.06842491
+          ],
+          "headPosition": [
+            0.015562186,
+            0.272674561,
+            0.106063038
+          ]
+        },
+        {
+          "timeSeconds": 0.391666681,
+          "vertexCount": 5185,
+          "boundsSize": [
+            0.545655251,
+            0.9568827,
+            0.7981201
+          ],
+          "handPosition": [
+            -0.08307,
+            0.08022899,
+            0.257278949
+          ],
+          "headPosition": [
+            -0.00368794566,
+            0.2806328,
+            0.08948627
+          ]
+        },
+        {
+          "timeSeconds": 0.783333361,
+          "vertexCount": 5185,
+          "boundsSize": [
+            0.603382647,
+            1.04005218,
+            0.783151269
+          ],
+          "handPosition": [
+            -0.257639617,
+            0.134233728,
+            -0.09633785
+          ],
+          "headPosition": [
+            0.030086292,
+            0.289358974,
+            0.0567507744
+          ]
+        },
+        {
+          "timeSeconds": 1.17500007,
+          "vertexCount": 5185,
+          "boundsSize": [
+            0.54916954,
+            1.03640366,
+            0.8547418
+          ],
+          "handPosition": [
+            -0.04625488,
+            0.132321492,
+            0.198493451
+          ],
+          "headPosition": [
+            -0.0114667118,
+            0.2926237,
+            0.0426743031
+          ]
+        },
+        {
+          "timeSeconds": 1.56510007,
+          "vertexCount": 5185,
+          "boundsSize": [
+            0.5185532,
+            1.05620527,
+            0.769412458
+          ],
+          "handPosition": [
+            -0.118052989,
+            0.0239302851,
+            0.04279811
+          ],
+          "headPosition": [
+            0.00254187244,
+            0.296214372,
+            0.00593305565
+          ]
+        }
+      ]
+    },
+    {
+      "role": "Jump",
+      "clip": "Player_Jump",
+      "targetAvatar": "AS05_PlayerDummy_RiggedAvatar",
+      "materialIsUrpLit": true,
+      "runtimeControllerAssigned": false,
+      "samples": [
+        {
+          "timeSeconds": 0.0,
+          "vertexCount": 5185,
+          "boundsSize": [
+            0.582187057,
+            1.05078053,
+            0.44210124
+          ],
+          "handPosition": [
+            -0.219407409,
+            0.0356487036,
+            0.00543130049
+          ],
+          "headPosition": [
+            0.0007917145,
+            0.329505265,
+            0.009036501
+          ]
+        },
+        {
+          "timeSeconds": 1.1833334,
+          "vertexCount": 5185,
+          "boundsSize": [
+            0.4709596,
+            0.9525355,
+            0.8672595
+          ],
+          "handPosition": [
+            -0.120474175,
+            0.292382,
+            0.30433777
+          ],
+          "headPosition": [
+            -0.00757905655,
+            0.2968597,
+            0.0529606566
+          ]
+        },
+        {
+          "timeSeconds": 2.36666679,
+          "vertexCount": 5185,
+          "boundsSize": [
+            0.6771605,
+            1.00291955,
+            0.680059135
+          ],
+          "handPosition": [
+            -0.269729972,
+            0.06394557,
+            -0.037675295
+          ],
+          "headPosition": [
+            -0.00531455642,
+            0.3098061,
+            0.0562782064
+          ]
+        },
+        {
+          "timeSeconds": 3.55000019,
+          "vertexCount": 5185,
+          "boundsSize": [
+            0.64837563,
+            1.03019381,
+            0.5712878
+          ],
+          "handPosition": [
+            -0.244209886,
+            0.02943284,
+            -0.0381143577
+          ],
+          "headPosition": [
+            -0.000600006431,
+            0.323515236,
+            0.0237537529
+          ]
+        },
+        {
+          "timeSeconds": 4.7286005,
+          "vertexCount": 5185,
+          "boundsSize": [
+            0.6487076,
+            1.032042,
+            0.576228142
+          ],
+          "handPosition": [
+            -0.244819522,
+            0.0311829187,
+            -0.03807185
+          ],
+          "headPosition": [
+            0.000244576251,
+            0.323807359,
+            0.0225806553
+          ]
+        }
+      ]
+    },
+    {
+      "role": "Land",
+      "clip": "Player_Land",
+      "targetAvatar": "AS05_PlayerDummy_RiggedAvatar",
+      "materialIsUrpLit": true,
+      "runtimeControllerAssigned": false,
+      "samples": [
+        {
+          "timeSeconds": 0.0,
+          "vertexCount": 5185,
+          "boundsSize": [
+            0.4967661,
+            1.084283,
+            0.338328183
+          ],
+          "handPosition": [
+            -0.156995311,
+            0.0306172613,
+            0.0823126361
+          ],
+          "headPosition": [
+            0.00117899664,
+            0.338669181,
+            -0.0101873819
+          ]
+        },
+        {
+          "timeSeconds": 0.525000036,
+          "vertexCount": 5185,
+          "boundsSize": [
+            0.4978912,
+            1.01136291,
+            0.535610437
+          ],
+          "handPosition": [
+            -0.1576386,
+            0.0138581619,
+            -0.00208324613
+          ],
+          "headPosition": [
+            0.009644095,
+            0.3280391,
+            0.0554776974
+          ]
+        },
+        {
+          "timeSeconds": 1.05000007,
+          "vertexCount": 5185,
+          "boundsSize": [
+            0.637215555,
+            1.05890346,
+            0.346509576
+          ],
+          "handPosition": [
+            -0.22475104,
+            0.104216479,
+            0.0472857431
+          ],
+          "headPosition": [
+            0.00664934563,
+            0.32968697,
+            -0.00755834533
+          ]
+        },
+        {
+          "timeSeconds": 1.575,
+          "vertexCount": 5185,
+          "boundsSize": [
+            0.51871717,
+            1.046591,
+            0.5709451
+          ],
+          "handPosition": [
+            -0.09545239,
+            0.114280328,
+            0.209345356
+          ],
+          "headPosition": [
+            0.0102616148,
+            0.330974221,
+            0.01405776
+          ]
+        },
+        {
+          "timeSeconds": 2.09790015,
+          "vertexCount": 5185,
+          "boundsSize": [
+            0.5265354,
+            1.0885365,
+            0.31532222
+          ],
+          "handPosition": [
+            -0.183652729,
+            0.03417507,
+            0.0505813546
+          ],
+          "headPosition": [
+            0.00431567,
+            0.3387705,
+            -0.008051932
+          ]
+        }
+      ]
+    },
+    {
+      "role": "Pickup",
+      "clip": "Player_Pickup",
+      "targetAvatar": "AS05_PlayerDummy_RiggedAvatar",
+      "materialIsUrpLit": true,
+      "runtimeControllerAssigned": false,
+      "samples": [
+        {
+          "timeSeconds": 0.0,
+          "vertexCount": 5185,
+          "boundsSize": [
+            0.5094497,
+            1.06730545,
+            0.321620971
+          ],
+          "handPosition": [
+            -0.14391543,
+            -0.00663474668,
+            0.03432053
+          ],
+          "headPosition": [
+            -0.0023762905,
+            0.339228451,
+            -0.00126577378
+          ]
+        },
+        {
+          "timeSeconds": 1.73333347,
+          "vertexCount": 5185,
+          "boundsSize": [
+            0.524821162,
+            1.02862787,
+            0.480914831
+          ],
+          "handPosition": [
+            -0.118482336,
+            -0.0103486218,
+            0.0550920665
+          ],
+          "headPosition": [
+            0.00338306,
+            0.308477849,
+            0.08615507
+          ]
+        },
+        {
+          "timeSeconds": 3.466667,
+          "vertexCount": 5185,
+          "boundsSize": [
+            0.527936339,
+            0.860844135,
+            0.8987824
+          ],
+          "handPosition": [
+            -0.117332451,
+            0.06355688,
+            0.02751409
+          ],
+          "headPosition": [
+            0.0584451929,
+            0.22256802,
+            0.135311812
+          ]
+        },
+        {
+          "timeSeconds": 5.20000029,
+          "vertexCount": 5185,
+          "boundsSize": [
+            0.477232784,
+            0.9764489,
+            0.821008444
+          ],
+          "handPosition": [
+            -0.09779345,
+            -0.0379228778,
+            0.0277532525
+          ],
+          "headPosition": [
+            -0.00865908153,
+            0.281600773,
+            0.125863835
+          ]
+        },
+        {
+          "timeSeconds": 6.92640066,
+          "vertexCount": 5185,
+          "boundsSize": [
+            0.512640238,
+            1.07542777,
+            0.322883219
+          ],
+          "handPosition": [
+            -0.1501417,
+            0.003108091,
+            -0.009431141
+          ],
+          "headPosition": [
+            0.009252924,
+            0.338188678,
+            0.000908319664
+          ]
+        }
+      ]
+    }
+  ]
+}

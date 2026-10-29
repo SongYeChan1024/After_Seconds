@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerPresenter : MonoBehaviour
 {
-    #region 의사코드
+    #region 의사코드 Ver 0.1
 
     /*
     플레이어 입력을 이동과 시야 회전 기능에 연결하는 기능
@@ -69,6 +69,90 @@ public class PlayerPresenter : MonoBehaviour
 
     #endregion
 
+    #region 의사코드 Ver 0.2 (애니메이션 처리)
+
+    /*
+    플레이어 입력을 이동·시야 회전·애니메이션 기능에 연결하는 기능
+
+기억해둘 정보:
+    PlayerMotor의 참조 — playerMotor
+    PlayerLook의 참조 — playerLook
+    PlayerAnimationSystem의 참조 — playerAnimationSystem
+    현재 이동 입력값 — moveInput, 처음에는 (0, 0)
+    현재 시야 입력값 — lookInput, 처음에는 (0, 0)
+
+초기화할 때 — Awake:
+    인스펙터에서 연결한 PlayerMotor가 없다면:
+        같은 게임 오브젝트에서 PlayerMotor를 찾아 보관한다
+
+    그래도 PlayerMotor가 없다면:
+        오류를 알리고 이 컴포넌트를 비활성화한다
+        초기화를 중단한다
+
+    인스펙터에서 연결한 PlayerLook이 없다면:
+        같은 게임 오브젝트에서 PlayerLook을 찾아 보관한다
+
+    그래도 PlayerLook이 없다면:
+        오류를 알리고 이 컴포넌트를 비활성화한다
+        초기화를 중단한다
+
+    인스펙터에서 연결한 PlayerAnimationSystem이 없다면:
+        같은 게임 오브젝트에서 PlayerAnimationSystem을 찾아 보관한다
+
+    그래도 PlayerAnimationSystem이 없다면:
+        오류를 알리고 이 컴포넌트를 비활성화한다
+        초기화를 중단한다
+
+Move 입력 이벤트를 받으면 — OnMove:
+    이 컴포넌트나 게임 오브젝트가 비활성화 상태라면:
+        이번 이벤트 처리를 종료한다
+
+    유효한 이동 입력이 발생하거나 입력값이 바뀌었다면 — performed:
+        이벤트에서 2차원 입력값을 읽어 현재 이동 입력값으로 저장한다
+
+    이동 입력이 취소되었다면 — canceled:
+        현재 이동 입력값을 (0, 0)으로 바꾼다
+
+Look 입력 이벤트를 받으면 — OnLook:
+    이 컴포넌트나 게임 오브젝트가 비활성화 상태라면:
+        이번 이벤트 처리를 종료한다
+
+    유효한 시야 입력이 발생하거나 입력값이 바뀌었다면 — performed:
+        이벤트에서 2차원 입력값을 읽어 현재 시야 입력값으로 저장한다
+
+    시야 입력이 취소되었다면 — canceled:
+        현재 시야 입력값을 (0, 0)으로 바꾼다
+
+매 프레임 — Update:
+    저장한 시야 입력값을 PlayerLook에 전달해 회전을 요청한다
+        좌우 입력으로 플레이어 전체를 회전한다
+        상하 입력으로 CameraRoot를 회전한다
+
+    회전한 플레이어의 방향을 기준으로 이동하도록:
+        저장한 이동 입력값과 이번 프레임의 경과 시간을
+        PlayerMotor에 전달해 이동을 요청한다
+
+    이동 입력이 (0, 0)이어도 중력 처리가 계속되도록
+    이동 요청은 매 프레임 수행한다
+
+    현재 이동 입력이 (0, 0)이 아니라면:
+        이동 여부를 true로 판단한다
+    그렇지 않다면:
+        이동 여부를 false로 판단한다
+
+    판단한 이동 여부를
+    playerAnimationSystem의 isMove에 전달한다
+
+이 컴포넌트가 비활성화되면 — OnDisable:
+    다시 활성화할 때 이전 입력값이 남지 않도록:
+        현재 이동 입력값을 (0, 0)으로 초기화한다
+        현재 시야 입력값을 (0, 0)으로 초기화한다
+
+    PlayerAnimationSystem이 연결되어 있다면:
+        isMove에 false를 전달해 이동 애니메이션 상태를 초기화한다
+    */
+
+    #endregion 
     // 이동을 담당하는 Motor의 참조. 다른 클래스에서 직접 접근하지 못하도록 private으로 둔다.
     // SerializeField는 이 필드를 저장 대상으로 만들어 인스펙터에서 연결할 수 있게 한다.
     [SerializeField] private PlayerMotor playerMotor;
@@ -82,6 +166,10 @@ public class PlayerPresenter : MonoBehaviour
 
     // 현재 이동 입력을 보관한다. Vector2.zero는 이동 입력이 없는 (0, 0)이다.
     private Vector2 moveInput = Vector2.zero;
+
+    [SerializeField] private PlayerAnimationSystem playerAnimationSystem;
+    // Presenter가 판단한 이동 여부를 전달받아
+    // Animator의 이동 상태를 갱신하는 PlayerAnimationSystem의 참조.
 
     // 동작을 시작하기 전에 필요한 참조 확보와 검증을 끝내기 위해
     // Start보다 앞선 초기화 단계인 Awake에서 처리한다.
@@ -113,6 +201,17 @@ public class PlayerPresenter : MonoBehaviour
             return; // Awake() 종료
         }
 
+        if (playerAnimationSystem == null) // 인스펙터에서 연결한 AnimationSystem이 없다면 같은 오브젝트에서 찾는다.
+        {
+            playerAnimationSystem = GetComponent<PlayerAnimationSystem>(); // 찾은 컴포넌트의 참조를 보관한다.
+        }
+
+        if (playerAnimationSystem == null) // 같은 오브젝트에서도 AnimationSystem을 찾지 못했다면 갱신을 시작하지 않는다.
+        {
+            Debug.LogError("플레이어에 PlayerAnimationSystem 컴포넌트를 연결해야 합니다."); // 설정 누락을 알린다.
+            enabled = false; // 이후 Update 호출을 막는다. 현재 실행 중인 함수를 즉시 끝내는 명령은 아니다.
+            return; // Awake() 종료
+        }
     }
 
     // Player Input의 Move 입력을 처리하기 위해 만든 전용 함수.
@@ -153,7 +252,7 @@ public class PlayerPresenter : MonoBehaviour
             lookInput = context.ReadValue<Vector2>();
         }
 
-        // 시야 입력값이 0으로 돌아오거나, 진행 중인 Look 액션이 비활성화되어 취소된 경우.
+        // 시야s 입력값이 0으로 돌아오거나, 진행 중인 Look 액션이 비활성화되어 취소된 경우.
         else if (context.canceled)
         {
             lookInput = Vector2.zero; // 이후 프레임에 추가 회전량이 없도록 입력을 초기화한다.
@@ -171,6 +270,10 @@ public class PlayerPresenter : MonoBehaviour
 
         // 경과 시간은 그대로 전달한다. 속도에 시간을 곱해 이동량으로 바꾸는 계산은 Motor가 담당한다.
         playerMotor.Move(moveInput, Time.deltaTime);
+
+        playerAnimationSystem.isMove(moveInput != Vector2.zero); 
+        // 이동 입력이 (0, 0)이 아니라면 이동 중으로 판단해 true를 전달한다. 그렇지 않다면 false를 전달한다.
+
     }
 
     // 이 컴포넌트나 게임 오브젝트가 비활성화될 때 호출된다. 씬 언로드로 제거될 때도 호출된다.
@@ -180,5 +283,9 @@ public class PlayerPresenter : MonoBehaviour
     {
         moveInput = Vector2.zero; // 재활성화할 때 이전 입력이 남지 않도록 초기화한다.
         lookInput = Vector2.zero; // 재활성화할 때 이전 입력이 남지 않도록 초기화한다.
+        if (playerAnimationSystem != null) // AnimationSystem이 연결되어 있다면
+        {
+            playerAnimationSystem.isMove(false); // 이동 애니메이션 상태를 초기화한다.
+        }
     }
 }

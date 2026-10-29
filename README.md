@@ -1,4 +1,4 @@
-# After Seconds 프로젝트 안내 V0.03
+# After Seconds 프로젝트 안내 V0.10
 
 맞힌 대상과 3초 뒤 위치를 바꾸며 연구 시설을 탈출하는 1인칭 퍼즐 액션 게임.
 
@@ -10,12 +10,21 @@
 | `Prototype/Web/` | 웹 프로토타입과 설명 |
 | `Unity_Project_After_Seconds/After_Seconds_Build_V0.01/` | 현재 Unity 게임 프로젝트 |
 
-Unity 작업 루트는 `Assets/Afrer_Seconds/`다. `05.Model`에는 가져온 모델을 분류해 보관하고, `04.Prefabs`에는 스크립트와 결합해 기능이 완성된 에셋을 둔다. 모델 준비 단계의 `.prefab` 파일도 `05.Model`에서 관리한다. Plane과 씬 배치는 사용자가 직접 진행한다.
+Unity 작업 루트는 `Assets/Afrer_Seconds/`다. 앞으로 `03.Art`에는 2D 이미지만 넣고 `UI/`, `Cutscenes/` 등 이미지 종류별 폴더로 분류한다. `05.Model`에는 기준 리깅 모델과 부속 재질·조립 중인 외형을 용도별로 보관하고, `04.Prefabs`에는 스크립트와 결합해 기능이 완성된 에셋을 둔다. 모델 준비 단계의 `.prefab` 파일도 `05.Model`에서 관리한다.
+
+애니메이션은 `07.Animator`의 `Player/`, `Enemy/` 등 대상별 폴더에서 관리한다. 기존 플레이어 동작 FBX 6종은 `07.Animator/Player/Clips/`에, AnimatorController(`.controller`)·AnimatorOverrideController(`.overrideController`)는 `07.Animator/Player/Controllers/`에 둔다. AvatarMask(`.mask`)를 사용할 때는 해당 대상의 `Masks/` 폴더를 만든다. 기존 기준 모델은 사용자가 이름을 바꾼 `05.Model/Player/Rigged/Models/PlayerDummy_Rigged_V0.2.fbx`이며, 과거 반입명은 `AS05_PlayerDummy_Rigged.fbx`다.
+
+2026-10-29에는 손가락 본을 보존하고 하체 관절·스킨 인덱스를 보정한 별도 V0.3 후보와 동작 6종을 반입했다. 신규 모델은 `05.Model/Player/Rigged/Models/PlayerDummy_Rigged_V0.3.fbx`, 동작은 `07.Animator/Player/Clips/Rigged_V0.3/`에 분리했다. 새 7개 파일의 유효한 Humanoid Avatar와 동작 54개 시점의 임시 미리보기를 확인했으며, 반입 단계에서는 기존 V0.2·동작 6종·보호 대상 파일 116개를 보존했다. **웹 재생성 원본에는 스킨 인덱스 오류가 남아 있으므로 프로젝트의 보정 FBX를 기준으로 한다.** 미세 변형·접지·루프·독립 발가락·손 쥐기 품질은 추가 검수 대상이다. 파일별 출처와 확인 범위는 [리깅·애니메이션 안내](Unity_Project_After_Seconds/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Player/Rigged/README.md)를 따른다.
+
+현재 SampleScene과 사용자가 적용한 기준 플레이어 프리팹에 V0.3 외형과 `Player_Animator`의 동작 6종을 연결했다. 사용자 코드가 `PlayerPresenter → PlayerAnimationSystem.isMove → Animator.IsMoving`으로 이동 입력 여부를 전달해 WASD에 따라 Idle·Walk가 전환된다. Walk는 원본 FBX를 보존한 채 importer의 프레임 `124–160`만 사용하며, 클립 약 `1.2초`·State `1.5배`로 한 보행 주기 약 `0.8초`를 반복한다. 실제 이동 속도는 `1.5m/s`, 높이 오프셋은 `0.227`이며 Root Motion은 껐다. 다음은 점프·스프린트·상호작용과 관련 애니메이션을 의사코드부터 분석하고 사용자가 직접 구현하는 단계다.
+
+현재 `03.Art/Candidates/VARCO`에 남아 있는 기존 모델·텍스처·재질·검수 기록은 과거 반입 결과다. 앞으로의 2D 이미지 분류 기준과 구분하며, 이번에는 기존 파일을 일괄 이동하지 않는다.
 
 실제 폴더 트리·계층별 역할·현재 에셋 위치는 [Unity 프로젝트 안내](Unity_Project_After_Seconds/README.md)에 정리했다.
 
 ## 주요 문서
 
+- [프로젝트 공통 작업 규칙](CLAUDE.md) · [Codex 작업 안내](AGENTS.md)
 - [집에서 이어하기 — 2026-10-26](Docs/이어하기_2026-10-26.md)
 - [메인 기획서 V0.09](Docs/AfterSeconds_메인기획서.md)
 - [Unity 계층 설계와 학습 순서](Docs/Unity_계층_설계와_학습_순서.md)

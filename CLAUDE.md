@@ -1,4 +1,4 @@
-# After Seconds — Claude 작업 안내
+# After Seconds — Claude 작업 안내 V0.03
 
 개인 프로젝트 「After Seconds(애프터 세컨즈)」 저장소입니다. 기획의 기준 문서는 [Docs/AfterSeconds_메인기획서.md](Docs/AfterSeconds_메인기획서.md)이고, 규칙·수치가 이 파일과 다르면 기획서를 따릅니다. 사용자와는 한국어로 대화합니다.
 
@@ -67,6 +67,13 @@
 
 ## 작업 규칙
 
+- **에셋 반입·정리:** 에셋을 가져오는 작업에는 용도에 맞는 폴더로 분류·정리하는 것까지 포함합니다. 먼저 [Unity 프로젝트 안내의 폴더별 사용 기준](Unity_Project_After_Seconds/README.md#폴더별-사용-기준)을 확인합니다. 실제 작업 루트는 `Assets/Afrer_Seconds/`입니다.
+  - `03.Art`에는 **2D 이미지만** 넣습니다. UI는 `UI/`, 컷씬 이미지는 `Cutscenes/`처럼 종류별 폴더를 필요한 시점에 만듭니다.
+  - 기준 모델·리깅 모델과 모델에 딸린 재질 등은 `05.Model`의 `Player/`, `Enemy/`, `Props/`, `Environment/` 등 용도별 하위 폴더에 정리합니다. 모델 준비 단계의 `.prefab`도 여기에 둡니다.
+  - `04.Prefabs`에는 **스크립트와 결합해 기능을 조립·검증한 완성 게임 에셋**을 둡니다.
+  - **애니메이션과 Animator 구성 리소스는 `07.Animator`에 따로 관리**합니다. `Player/`, `Enemy/` 등 대상별 폴더 아래 `Clips/`에는 애니메이션용 FBX와 클립, `Controllers/`에는 Animator Controller(`.controller`)와 Animator Override Controller(`.overrideController`), `Masks/`에는 Avatar Mask(`.mask`)를 둡니다. 폴더는 필요할 때 만듭니다. 기준 리깅 모델은 `05.Model`에 유지하고, 클립이 FBX에 포함되어 있다면 해당 애니메이션용 FBX와 `.meta`를 함께 이동합니다.
+  - 기존 Unity 에셋을 옮길 때는 Unity AssetDatabase로 `.meta`와 GUID를 보존하고 참조를 확인합니다. 반입·이동 후 관련 README의 실제 위치도 갱신합니다.
+  - 반입만 요청받았다면 씬 배치·기존 모델 교체·Animator·게임 로직 연결은 진행하지 않습니다. `03.Art/Candidates/VARCO`의 과거 파일은 신규 분류 규칙과 구분하며 별도 정리 요청 없이 일괄 이동하지 않습니다.
 - **표시:** 💡 제안 / 🔴 작성 필요 / 🟡 보완 필요 표시를 유지합니다. 정하지 않은 값을 확정된 것처럼 쓰지 않습니다. 테스트 전 수치는 💡입니다.
 - **문서 먼저:** 규칙이나 수치를 바꾸면 기획서를 먼저 고치고, 기획서 맨 아래 「변경 기록」에 남깁니다. 작성자는 송예찬으로 적습니다.
 - **문서 버전:** Git으로 관리합니다. `_v1.2.md`처럼 파일을 복사해 남기지 않습니다.

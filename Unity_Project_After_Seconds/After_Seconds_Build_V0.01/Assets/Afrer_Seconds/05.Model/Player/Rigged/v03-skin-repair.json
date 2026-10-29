@@ -1,0 +1,987 @@
+{
+  "schema_version": 1,
+  "asset": "After Seconds AS05 full-finger edited rig and six animation candidates",
+  "provenance": {
+    "original_skin_cloud_url": "https://3d.varco.ai/animate/4bde1920-1d4b-4bb6-99cd-fc7b51925756",
+    "original_skin_archive": "2015fa4a6c9f4335ba4e4b990e86e0d5.usdz",
+    "original_skin_sha256": "cc8a0c899851743f9b8bdcd961861e97e690b210e1578895447714eb5a4d1ed6",
+    "edited_rig_cloud_url": "https://3d.varco.ai/animate/eb6d7efc-2d6d-4cce-a8b7-ccd779cb4412"
+  },
+  "diagnosis": {
+    "cause": "Skeleton joint order changed to DFS during editing; skin joint indices were not correctly permuted before dummy removal. Finger, arm and leg influences then addressed different bones.",
+    "affected_vertex_count": 4121,
+    "bind_and_rest_were_consistent": true,
+    "bind_rest_max_matrix_element_error": 6.638249677726193e-08
+  },
+  "repair": {
+    "modified_properties": [
+      "primvars:skel:jointIndices",
+      "primvars:skel:jointWeights"
+    ],
+    "bone_name_rules": {
+      "LeftUpLeg": "Hips",
+      "RightUpLeg": "Hips",
+      "LeftLeg": "LeftUpLeg",
+      "RightLeg": "RightUpLeg",
+      "LeftFoot": "LeftLeg",
+      "RightFoot": "RightLeg",
+      "LeftToeBase": "LeftFoot",
+      "RightToeBase": "RightFoot",
+      "all_other_old_bones": "same name"
+    },
+    "algorithm": [
+      "Verify identical vertex order/topology and shape up to the authored uniform origin offset; verify original textures.",
+      "For each original vertex and skin slot, resolve the original joint name, apply the bone-name rule and look up its index in the edited Skeleton joint list.",
+      "Merge repeated target influences per vertex (notably Hips); retain the exact old weight sums. Keep at most the original four active influences; pad unused slots with zero weight.",
+      "Replace only jointIndices and jointWeights. Keep the edited Skeleton joints, rest/bind transforms, full mesh data and animation data byte-for-byte outside those arrays.",
+      "Do not invent toe weights; newly added ToeBase bones start with zero influences."
+    ],
+    "old_to_new_index_mapping": [
+      {
+        "old_index": 0,
+        "old_name": "Root",
+        "new_index": 0,
+        "new_name": "Root"
+      },
+      {
+        "old_index": 1,
+        "old_name": "Hips",
+        "new_index": 1,
+        "new_name": "Hips"
+      },
+      {
+        "old_index": 2,
+        "old_name": "Spine",
+        "new_index": 2,
+        "new_name": "Spine"
+      },
+      {
+        "old_index": 3,
+        "old_name": "Spine1",
+        "new_index": 3,
+        "new_name": "Spine1"
+      },
+      {
+        "old_index": 4,
+        "old_name": "Spine2",
+        "new_index": 4,
+        "new_name": "Spine2"
+      },
+      {
+        "old_index": 5,
+        "old_name": "Neck",
+        "new_index": 5,
+        "new_name": "Neck"
+      },
+      {
+        "old_index": 6,
+        "old_name": "Head",
+        "new_index": 6,
+        "new_name": "Head"
+      },
+      {
+        "old_index": 7,
+        "old_name": "LeftShoulder",
+        "new_index": 7,
+        "new_name": "LeftShoulder"
+      },
+      {
+        "old_index": 8,
+        "old_name": "LeftArm",
+        "new_index": 8,
+        "new_name": "LeftArm"
+      },
+      {
+        "old_index": 9,
+        "old_name": "LeftForeArm",
+        "new_index": 9,
+        "new_name": "LeftForeArm"
+      },
+      {
+        "old_index": 10,
+        "old_name": "LeftHand",
+        "new_index": 10,
+        "new_name": "LeftHand"
+      },
+      {
+        "old_index": 11,
+        "old_name": "RightShoulder",
+        "new_index": 26,
+        "new_name": "RightShoulder"
+      },
+      {
+        "old_index": 12,
+        "old_name": "RightArm",
+        "new_index": 27,
+        "new_name": "RightArm"
+      },
+      {
+        "old_index": 13,
+        "old_name": "RightForeArm",
+        "new_index": 28,
+        "new_name": "RightForeArm"
+      },
+      {
+        "old_index": 14,
+        "old_name": "RightHand",
+        "new_index": 29,
+        "new_name": "RightHand"
+      },
+      {
+        "old_index": 15,
+        "old_name": "LeftUpLeg",
+        "new_index": 1,
+        "new_name": "Hips"
+      },
+      {
+        "old_index": 16,
+        "old_name": "LeftLeg",
+        "new_index": 45,
+        "new_name": "LeftUpLeg"
+      },
+      {
+        "old_index": 17,
+        "old_name": "LeftFoot",
+        "new_index": 46,
+        "new_name": "LeftLeg"
+      },
+      {
+        "old_index": 18,
+        "old_name": "LeftToeBase",
+        "new_index": 47,
+        "new_name": "LeftFoot"
+      },
+      {
+        "old_index": 19,
+        "old_name": "RightUpLeg",
+        "new_index": 1,
+        "new_name": "Hips"
+      },
+      {
+        "old_index": 20,
+        "old_name": "RightLeg",
+        "new_index": 48,
+        "new_name": "RightUpLeg"
+      },
+      {
+        "old_index": 21,
+        "old_name": "RightFoot",
+        "new_index": 49,
+        "new_name": "RightLeg"
+      },
+      {
+        "old_index": 22,
+        "old_name": "RightToeBase",
+        "new_index": 50,
+        "new_name": "RightFoot"
+      },
+      {
+        "old_index": 23,
+        "old_name": "HandLoRA_Bip01_L_Finger0",
+        "new_index": 11,
+        "new_name": "HandLoRA_Bip01_L_Finger0"
+      },
+      {
+        "old_index": 24,
+        "old_name": "HandLoRA_Bip01_L_Finger01",
+        "new_index": 12,
+        "new_name": "HandLoRA_Bip01_L_Finger01"
+      },
+      {
+        "old_index": 25,
+        "old_name": "HandLoRA_Bip01_L_Finger02",
+        "new_index": 13,
+        "new_name": "HandLoRA_Bip01_L_Finger02"
+      },
+      {
+        "old_index": 26,
+        "old_name": "HandLoRA_Bip01_L_Finger1",
+        "new_index": 14,
+        "new_name": "HandLoRA_Bip01_L_Finger1"
+      },
+      {
+        "old_index": 27,
+        "old_name": "HandLoRA_Bip01_L_Finger11",
+        "new_index": 15,
+        "new_name": "HandLoRA_Bip01_L_Finger11"
+      },
+      {
+        "old_index": 28,
+        "old_name": "HandLoRA_Bip01_L_Finger12",
+        "new_index": 16,
+        "new_name": "HandLoRA_Bip01_L_Finger12"
+      },
+      {
+        "old_index": 29,
+        "old_name": "HandLoRA_Bip01_L_Finger2",
+        "new_index": 17,
+        "new_name": "HandLoRA_Bip01_L_Finger2"
+      },
+      {
+        "old_index": 30,
+        "old_name": "HandLoRA_Bip01_L_Finger21",
+        "new_index": 18,
+        "new_name": "HandLoRA_Bip01_L_Finger21"
+      },
+      {
+        "old_index": 31,
+        "old_name": "HandLoRA_Bip01_L_Finger22",
+        "new_index": 19,
+        "new_name": "HandLoRA_Bip01_L_Finger22"
+      },
+      {
+        "old_index": 32,
+        "old_name": "HandLoRA_Bip01_L_Finger3",
+        "new_index": 20,
+        "new_name": "HandLoRA_Bip01_L_Finger3"
+      },
+      {
+        "old_index": 33,
+        "old_name": "HandLoRA_Bip01_L_Finger31",
+        "new_index": 21,
+        "new_name": "HandLoRA_Bip01_L_Finger31"
+      },
+      {
+        "old_index": 34,
+        "old_name": "HandLoRA_Bip01_L_Finger32",
+        "new_index": 22,
+        "new_name": "HandLoRA_Bip01_L_Finger32"
+      },
+      {
+        "old_index": 35,
+        "old_name": "HandLoRA_Bip01_L_Finger4",
+        "new_index": 23,
+        "new_name": "HandLoRA_Bip01_L_Finger4"
+      },
+      {
+        "old_index": 36,
+        "old_name": "HandLoRA_Bip01_L_Finger41",
+        "new_index": 24,
+        "new_name": "HandLoRA_Bip01_L_Finger41"
+      },
+      {
+        "old_index": 37,
+        "old_name": "HandLoRA_Bip01_L_Finger42",
+        "new_index": 25,
+        "new_name": "HandLoRA_Bip01_L_Finger42"
+      },
+      {
+        "old_index": 38,
+        "old_name": "HandLoRA_Bip01_R_Finger0",
+        "new_index": 30,
+        "new_name": "HandLoRA_Bip01_R_Finger0"
+      },
+      {
+        "old_index": 39,
+        "old_name": "HandLoRA_Bip01_R_Finger01",
+        "new_index": 31,
+        "new_name": "HandLoRA_Bip01_R_Finger01"
+      },
+      {
+        "old_index": 40,
+        "old_name": "HandLoRA_Bip01_R_Finger02",
+        "new_index": 32,
+        "new_name": "HandLoRA_Bip01_R_Finger02"
+      },
+      {
+        "old_index": 41,
+        "old_name": "HandLoRA_Bip01_R_Finger1",
+        "new_index": 33,
+        "new_name": "HandLoRA_Bip01_R_Finger1"
+      },
+      {
+        "old_index": 42,
+        "old_name": "HandLoRA_Bip01_R_Finger11",
+        "new_index": 34,
+        "new_name": "HandLoRA_Bip01_R_Finger11"
+      },
+      {
+        "old_index": 43,
+        "old_name": "HandLoRA_Bip01_R_Finger12",
+        "new_index": 35,
+        "new_name": "HandLoRA_Bip01_R_Finger12"
+      },
+      {
+        "old_index": 44,
+        "old_name": "HandLoRA_Bip01_R_Finger2",
+        "new_index": 36,
+        "new_name": "HandLoRA_Bip01_R_Finger2"
+      },
+      {
+        "old_index": 45,
+        "old_name": "HandLoRA_Bip01_R_Finger21",
+        "new_index": 37,
+        "new_name": "HandLoRA_Bip01_R_Finger21"
+      },
+      {
+        "old_index": 46,
+        "old_name": "HandLoRA_Bip01_R_Finger22",
+        "new_index": 38,
+        "new_name": "HandLoRA_Bip01_R_Finger22"
+      },
+      {
+        "old_index": 47,
+        "old_name": "HandLoRA_Bip01_R_Finger3",
+        "new_index": 39,
+        "new_name": "HandLoRA_Bip01_R_Finger3"
+      },
+      {
+        "old_index": 48,
+        "old_name": "HandLoRA_Bip01_R_Finger31",
+        "new_index": 40,
+        "new_name": "HandLoRA_Bip01_R_Finger31"
+      },
+      {
+        "old_index": 49,
+        "old_name": "HandLoRA_Bip01_R_Finger32",
+        "new_index": 41,
+        "new_name": "HandLoRA_Bip01_R_Finger32"
+      },
+      {
+        "old_index": 50,
+        "old_name": "HandLoRA_Bip01_R_Finger4",
+        "new_index": 42,
+        "new_name": "HandLoRA_Bip01_R_Finger4"
+      },
+      {
+        "old_index": 51,
+        "old_name": "HandLoRA_Bip01_R_Finger41",
+        "new_index": 43,
+        "new_name": "HandLoRA_Bip01_R_Finger41"
+      },
+      {
+        "old_index": 52,
+        "old_name": "HandLoRA_Bip01_R_Finger42",
+        "new_index": 44,
+        "new_name": "HandLoRA_Bip01_R_Finger42"
+      }
+    ],
+    "weight_normalization": "No renormalization; the original sums differ from one by at most 6.4e-8.",
+    "scope_proof": "For each role, the entire original and fixed USDA text is identical after replacing only the two skin arrays with a common placeholder. All other archive members are identical."
+  },
+  "conversion": {
+    "blender_version": "5.1.2",
+    "apply_scale_options": "FBX_SCALE_UNITS",
+    "global_scale": 1,
+    "axis_up": "Y",
+    "axis_forward": "-Z",
+    "add_leaf_bones": false,
+    "bake_step_frames": 1,
+    "bake_simplify_factor": 0,
+    "unit_note": "Meter-scale geometry is represented by FBX UnitScaleFactor 100 with unit node transforms. No 100x node-scale workaround is applied.",
+    "timing_note": "Fixed USD files preserve every authored key time/value exactly. FBX is sampled each integer stage frame at 30 fps; tiny authored floating-point offsets near integer endpoints are retained in the source and rounded only for the export stage range."
+  },
+  "verification": {
+    "files": 7,
+    "motion_files": 6,
+    "all_fbx_roundtrip_valid": true,
+    "all_six_motion_bounds_finite": true,
+    "quality_scope": "Recovered skin binding and conversion verification. This is not a claim of production animation, loop seam, finger weighting, foot contact or Unity retarget quality; Unity avatar/retarget inspection is a separate step.",
+    "fbx_pose_sample_count": 20,
+    "additional_rendered_key_poses": 6,
+    "max_vertex_error_including_rendered_key_poses_m": 8.511428990598977e-06,
+    "key_pose_preview_sheet": "animation-keyposes-front-and-side.jpg"
+  },
+  "files": [
+    {
+      "role": "Rig",
+      "preset": null,
+      "cloud_url": "https://3d.varco.ai/animate/eb6d7efc-2d6d-4cce-a8b7-ccd779cb4412",
+      "raw_archive": "1793251816321419600.usdz",
+      "raw_bytes": 4142326,
+      "raw_sha256": "dd809aff80adaf4efcb027bbd98171c53a86feabb6a35df1e65d22910e5e7d59",
+      "raw_unchanged_since_repair": true,
+      "fixed_archive": "AS05_EditedRig_SkinFixed.usdz",
+      "fixed_sha256": "63c09b8eb292f9c42da787b619687e5a24cdb26375ccd786d0c2480b4a6b7c7f",
+      "only_changed_usda_arrays": [
+        "primvars:skel:jointIndices",
+        "primvars:skel:jointWeights"
+      ],
+      "outside_skin_arrays_identical": true,
+      "outside_skin_arrays_utf8_sha256": "a6a95de1d474daf109c38db51a915fda1800ecd2f6641bd1289e856ff932d2ed",
+      "non_usda_archive_members_identical": true,
+      "bone_count": 53,
+      "finger_bone_count": 30,
+      "mesh_vertex_count": 5285,
+      "triangle_count": 8000,
+      "weighted_vertices": 5285,
+      "skin_changed_vertices": 4121,
+      "max_active_influences": 4,
+      "weight_sum_range": [
+        0.999999937,
+        1.000000064
+      ],
+      "empty_skin_groups": [
+        "Root",
+        "HandLoRA_Bip01_L_Finger42",
+        "LeftToeBase",
+        "RightToeBase"
+      ],
+      "fbx": "AS05_PlayerDummy_Rigged.fbx",
+      "fbx_bytes": 2791244,
+      "fbx_sha256": "81796c651f58017183023d432e75d84666c13d94d65262f18f6aff18c73103b0",
+      "fbx_unit_scale_factor": 100,
+      "fbx_nodes_have_unit_scale_within_tolerance": true,
+      "pose_roundtrip_max_vertex_error_m": 3.370134543443606e-07,
+      "pose_roundtrip_sample_count": 1
+    },
+    {
+      "role": "Walk",
+      "preset": "좌발 전방걷기",
+      "cloud_url": "https://3d.varco.ai/animate/6f2946f9-5ffb-4d3f-9b2c-3f25f6786cd4",
+      "raw_archive": "1793251861899488800.usdz",
+      "raw_bytes": 4654582,
+      "raw_sha256": "edbdad5ee3ec058d0da96dd720a865c6669005dbdb536e398ca50d1ed8397120",
+      "raw_unchanged_since_repair": true,
+      "fixed_archive": "Player_Walk_SkinFixed.usdz",
+      "fixed_sha256": "3c6dabe3a3b0446dde1b882bc6211fee42e37d5119373800d5cea3d5fe4a4bb9",
+      "only_changed_usda_arrays": [
+        "primvars:skel:jointIndices",
+        "primvars:skel:jointWeights"
+      ],
+      "outside_skin_arrays_identical": true,
+      "outside_skin_arrays_utf8_sha256": "5230595b0c4150507d24c8856f7a893340aecc14e9cabeb731144f6b103043a9",
+      "non_usda_archive_members_identical": true,
+      "bone_count": 53,
+      "finger_bone_count": 30,
+      "mesh_vertex_count": 5285,
+      "triangle_count": 8000,
+      "weighted_vertices": 5285,
+      "skin_changed_vertices": 4121,
+      "max_active_influences": 4,
+      "weight_sum_range": [
+        0.999999937,
+        1.000000064
+      ],
+      "empty_skin_groups": [
+        "Root",
+        "HandLoRA_Bip01_L_Finger42",
+        "LeftToeBase",
+        "RightToeBase"
+      ],
+      "fbx": "Player_Walk.fbx",
+      "fbx_bytes": 3827516,
+      "fbx_sha256": "b238298997f33807e497c6e44fcfd8dd48d302791f223c6d7e3b94b1346c33e2",
+      "fbx_unit_scale_factor": 100,
+      "fbx_nodes_have_unit_scale_within_tolerance": true,
+      "pose_roundtrip_max_vertex_error_m": 4.943945980076129e-06,
+      "pose_roundtrip_sample_count": 4,
+      "motion": {
+        "role": "Walk",
+        "frames": [
+          2,
+          227
+        ],
+        "frame_count": 226,
+        "duration_seconds_at_30fps": 7.5,
+        "old_frames": [
+          2,
+          227
+        ],
+        "old_frame_count": 226,
+        "frame_count_delta": 0,
+        "world_union_bounds_usd_y_up_m": {
+          "min": [
+            -0.25869996583428545,
+            -0.693428820216963,
+            -0.13032492816169183
+          ],
+          "max": [
+            0.25219923559075613,
+            0.39843895097629833,
+            0.5877956941520113
+          ]
+        },
+        "per_frame_mesh_size_min_usd_xyz_m": [
+          0.23071923235007152,
+          0.9496289969725836,
+          0.2670460049863127
+        ],
+        "per_frame_mesh_size_max_usd_xyz_m": [
+          0.4631724836651885,
+          0.9972313208406212,
+          0.663321941004392
+        ],
+        "all_deformed_vertices_finite": true,
+        "edge_stretch_p99_min": 1.4009513325856564,
+        "edge_stretch_p99_max": 1.5685728091200464,
+        "hips_y_min": -0.16621098,
+        "hips_y_max": -0.04833155,
+        "key_preview_source_frame": 52,
+        "key_preview_reason": "previously reviewed walking stride"
+      },
+      "rendered_key_pose_validation": {
+        "role": "Walk",
+        "source_frame": 52,
+        "fbx_import_frame": 53.0,
+        "max_vertex_error_m": 4.7560249579618005e-06,
+        "preview_reason": "previously reviewed walking stride"
+      }
+    },
+    {
+      "role": "Idle",
+      "preset": "대기 1",
+      "cloud_url": "https://3d.varco.ai/animate/2c78d9f5-841e-4903-be11-e784ef309845",
+      "raw_archive": "1793252380352605500.usdz",
+      "raw_bytes": 4754550,
+      "raw_sha256": "8e06010bbb04145756747d06285b3256b90f3e82576011fd54dde45e303c27d8",
+      "raw_unchanged_since_repair": true,
+      "fixed_archive": "Player_Idle.usdz",
+      "fixed_sha256": "e6c02a2ab51c7871943cb68f8230df3ca0806dd7be2901dea0baa9b37f47bb5a",
+      "only_changed_usda_arrays": [
+        "primvars:skel:jointIndices",
+        "primvars:skel:jointWeights"
+      ],
+      "outside_skin_arrays_identical": true,
+      "outside_skin_arrays_utf8_sha256": "20514e40e2b4e18611c547346679630fca6c0bb0e275e5d6a29831a8756581d0",
+      "non_usda_archive_members_identical": true,
+      "bone_count": 53,
+      "finger_bone_count": 30,
+      "mesh_vertex_count": 5285,
+      "triangle_count": 8000,
+      "weighted_vertices": 5285,
+      "skin_changed_vertices": 4121,
+      "max_active_influences": 4,
+      "weight_sum_range": [
+        0.999999937,
+        1.000000064
+      ],
+      "empty_skin_groups": [
+        "Root",
+        "HandLoRA_Bip01_L_Finger42",
+        "LeftToeBase",
+        "RightToeBase"
+      ],
+      "fbx": "Player_Idle.fbx",
+      "fbx_bytes": 3950732,
+      "fbx_sha256": "b3ae3c6f8c9ea447f4494d661182e26300abfc7fb9782ece07e50fd8c160657b",
+      "fbx_unit_scale_factor": 100,
+      "fbx_nodes_have_unit_scale_within_tolerance": true,
+      "pose_roundtrip_max_vertex_error_m": 8.848719193330326e-07,
+      "pose_roundtrip_sample_count": 3,
+      "motion": {
+        "role": "Idle",
+        "frames": [
+          2,
+          269
+        ],
+        "frame_count": 268,
+        "duration_seconds_at_30fps": 8.9,
+        "old_frames": [
+          2,
+          269
+        ],
+        "old_frame_count": 268,
+        "frame_count_delta": 0,
+        "world_union_bounds_usd_y_up_m": {
+          "min": [
+            -0.16576713163283144,
+            -0.7770819297097127,
+            0.21196150319953608
+          ],
+          "max": [
+            0.2647607031484613,
+            0.22737936229489797,
+            0.4665025028677952
+          ]
+        },
+        "per_frame_mesh_size_min_usd_xyz_m": [
+          0.3849645067954082,
+          0.9997328872486626,
+          0.22322089246532917
+        ],
+        "per_frame_mesh_size_max_usd_xyz_m": [
+          0.4304109196517339,
+          1.0038774624918223,
+          0.2540232699225149
+        ],
+        "all_deformed_vertices_finite": true,
+        "edge_stretch_p99_min": 1.412253578744587,
+        "edge_stretch_p99_max": 1.4502023672525364,
+        "hips_y_min": -0.22286798000000002,
+        "hips_y_max": -0.22258668000000004,
+        "key_preview_source_frame": 2,
+        "key_preview_reason": "first idle pose"
+      },
+      "rendered_key_pose_validation": {
+        "role": "Idle",
+        "source_frame": 2,
+        "fbx_import_frame": 3.0,
+        "max_vertex_error_m": 8.848719193330326e-07,
+        "preview_reason": "first idle pose"
+      }
+    },
+    {
+      "role": "Run",
+      "preset": "달리기",
+      "cloud_url": "https://3d.varco.ai/animate/afb12e28-70c6-47e2-ad14-edafb058eaa1",
+      "raw_archive": "1793252482192221800.usdz",
+      "raw_bytes": 4246966,
+      "raw_sha256": "7aa9a20d8a7b49527ec9f20904636dfe3b62de2a54f6769d79fa5f969771aab3",
+      "raw_unchanged_since_repair": true,
+      "fixed_archive": "Player_Run.usdz",
+      "fixed_sha256": "7dd3990f1c6bc54298c6937cf51a79d9921f7157708ce02c14b0f4ab1db1d0e7",
+      "only_changed_usda_arrays": [
+        "primvars:skel:jointIndices",
+        "primvars:skel:jointWeights"
+      ],
+      "outside_skin_arrays_identical": true,
+      "outside_skin_arrays_utf8_sha256": "7a60fb77a577aaf1a75ff09d05fe350f2af62af4823860a0b3eaefb9659b6e71",
+      "non_usda_archive_members_identical": true,
+      "bone_count": 53,
+      "finger_bone_count": 30,
+      "mesh_vertex_count": 5285,
+      "triangle_count": 8000,
+      "weighted_vertices": 5285,
+      "skin_changed_vertices": 4121,
+      "max_active_influences": 4,
+      "weight_sum_range": [
+        0.999999937,
+        1.000000064
+      ],
+      "empty_skin_groups": [
+        "Root",
+        "HandLoRA_Bip01_L_Finger42",
+        "LeftToeBase",
+        "RightToeBase"
+      ],
+      "fbx": "Player_Run.fbx",
+      "fbx_bytes": 3248204,
+      "fbx_sha256": "c2639fc299605c639ae00ee4ebf8c3140eada270852cd86743397c123f5ca39d",
+      "fbx_unit_scale_factor": 100,
+      "fbx_nodes_have_unit_scale_within_tolerance": true,
+      "pose_roundtrip_max_vertex_error_m": 5.608351081302814e-06,
+      "pose_roundtrip_sample_count": 3,
+      "motion": {
+        "role": "Run",
+        "frames": [
+          2,
+          49.000004
+        ],
+        "frame_count": 49,
+        "duration_seconds_at_30fps": 1.5666668,
+        "old_frames": [
+          2,
+          49.000004
+        ],
+        "old_frame_count": 49,
+        "frame_count_delta": 0,
+        "world_union_bounds_usd_y_up_m": {
+          "min": [
+            -0.6187383363335313,
+            -0.7030116841941985,
+            -0.10111688028074328
+          ],
+          "max": [
+            0.18225254576461225,
+            0.27989849847039383,
+            0.4416830122836155
+          ]
+        },
+        "per_frame_mesh_size_min_usd_xyz_m": [
+          0.396111947462817,
+          0.8560218592061671,
+          0.30743630917608383
+        ],
+        "per_frame_mesh_size_max_usd_xyz_m": [
+          0.7558335644741085,
+          0.9424973041214246,
+          0.4068230809221584
+        ],
+        "all_deformed_vertices_finite": true,
+        "edge_stretch_p99_min": 1.4955344990214479,
+        "edge_stretch_p99_max": 1.6325129872005346,
+        "hips_y_min": -0.20583178000000002,
+        "hips_y_max": -0.15074049,
+        "key_preview_source_frame": 22,
+        "key_preview_reason": "maximum knee flexion"
+      },
+      "rendered_key_pose_validation": {
+        "role": "Run",
+        "source_frame": 22,
+        "fbx_import_frame": 23.0,
+        "max_vertex_error_m": 4.4166029923450025e-06,
+        "preview_reason": "maximum knee flexion"
+      }
+    },
+    {
+      "role": "Jump",
+      "preset": "제자리 점프",
+      "cloud_url": "https://3d.varco.ai/animate/2f631525-f5f3-43c6-ae7d-55d7c146ef40",
+      "raw_archive": "1793252533187636900.usdz",
+      "raw_bytes": 4463606,
+      "raw_sha256": "b4dd09187e506cd851e8f3edad015d4bff6aa0d9d47187aa01858245be702cff",
+      "raw_unchanged_since_repair": true,
+      "fixed_archive": "Player_Jump.usdz",
+      "fixed_sha256": "681d5c74fa6a258aa454f52a44192287556287691ab4699a65c16fa36bf3a435",
+      "only_changed_usda_arrays": [
+        "primvars:skel:jointIndices",
+        "primvars:skel:jointWeights"
+      ],
+      "outside_skin_arrays_identical": true,
+      "outside_skin_arrays_utf8_sha256": "a117650a38e4644da46239ac8faa0c503e78f412be2d55dd23886de34faf5ece",
+      "non_usda_archive_members_identical": true,
+      "bone_count": 53,
+      "finger_bone_count": 30,
+      "mesh_vertex_count": 5285,
+      "triangle_count": 8000,
+      "weighted_vertices": 5285,
+      "skin_changed_vertices": 4121,
+      "max_active_influences": 4,
+      "weight_sum_range": [
+        0.999999937,
+        1.000000064
+      ],
+      "empty_skin_groups": [
+        "Root",
+        "HandLoRA_Bip01_L_Finger42",
+        "LeftToeBase",
+        "RightToeBase"
+      ],
+      "fbx": "Player_Jump.fbx",
+      "fbx_bytes": 3559852,
+      "fbx_sha256": "9e5fd4a4ccb5e09494dcf583f0e1758178c59d6a38f1de4ea9a8d224397efb9a",
+      "fbx_unit_scale_factor": 100,
+      "fbx_nodes_have_unit_scale_within_tolerance": true,
+      "pose_roundtrip_max_vertex_error_m": 6.144842203305319e-06,
+      "pose_roundtrip_sample_count": 3,
+      "motion": {
+        "role": "Jump",
+        "frames": [
+          2,
+          143.99998
+        ],
+        "frame_count": 143,
+        "duration_seconds_at_30fps": 4.733332666666667,
+        "old_frames": [
+          2,
+          143.99998
+        ],
+        "old_frame_count": 143,
+        "frame_count_delta": 0,
+        "world_union_bounds_usd_y_up_m": {
+          "min": [
+            -0.46295222246088513,
+            -0.7413280133929232,
+            -0.2515794384250917
+          ],
+          "max": [
+            0.4130932037302139,
+            0.5348754022755,
+            0.6432526993110569
+          ]
+        },
+        "per_frame_mesh_size_min_usd_xyz_m": [
+          0.28488570379833744,
+          0.6925500714927465,
+          0.41463053609349193
+        ],
+        "per_frame_mesh_size_max_usd_xyz_m": [
+          0.8401233899134672,
+          1.1329370428760108,
+          0.7409688807969035
+        ],
+        "all_deformed_vertices_finite": true,
+        "edge_stretch_p99_min": 1.5123542512169312,
+        "edge_stretch_p99_max": 1.7375972020268782,
+        "hips_y_min": -0.38644026000000004,
+        "hips_y_max": 0.088710024,
+        "key_preview_source_frame": 38,
+        "key_preview_reason": "maximum hips height"
+      },
+      "rendered_key_pose_validation": {
+        "role": "Jump",
+        "source_frame": 38,
+        "fbx_import_frame": 39.0,
+        "max_vertex_error_m": 8.511428990598977e-06,
+        "preview_reason": "maximum hips height"
+      }
+    },
+    {
+      "role": "Land",
+      "preset": "가벼운 착지 1",
+      "cloud_url": "https://3d.varco.ai/animate/1c2a2873-af9b-49a7-9550-729d901a32af",
+      "raw_archive": "1793252564517730800.usdz",
+      "raw_bytes": 4280822,
+      "raw_sha256": "12a78eddf1dd66ab83e5750fcdb98fa01bbf36070b93ad2c67952172133bc220",
+      "raw_unchanged_since_repair": true,
+      "fixed_archive": "Player_Land.usdz",
+      "fixed_sha256": "befee4ec7554d138cb2c45477602ec41d38543d37044e494fcb4abbd5ff2e526",
+      "only_changed_usda_arrays": [
+        "primvars:skel:jointIndices",
+        "primvars:skel:jointWeights"
+      ],
+      "outside_skin_arrays_identical": true,
+      "outside_skin_arrays_utf8_sha256": "0639b4b9e43fec11f1e94d2b80fd076b023108687843ca4ed6f9da690ba35490",
+      "non_usda_archive_members_identical": true,
+      "bone_count": 53,
+      "finger_bone_count": 30,
+      "mesh_vertex_count": 5285,
+      "triangle_count": 8000,
+      "weighted_vertices": 5285,
+      "skin_changed_vertices": 4121,
+      "max_active_influences": 4,
+      "weight_sum_range": [
+        0.999999937,
+        1.000000064
+      ],
+      "empty_skin_groups": [
+        "Root",
+        "HandLoRA_Bip01_L_Finger42",
+        "LeftToeBase",
+        "RightToeBase"
+      ],
+      "fbx": "Player_Land.fbx",
+      "fbx_bytes": 3299900,
+      "fbx_sha256": "6ac57953e9bad3eee12bddd518b84e306489c7d0555040f008f92bf9ccb364fd",
+      "fbx_unit_scale_factor": 100,
+      "fbx_nodes_have_unit_scale_within_tolerance": true,
+      "pose_roundtrip_max_vertex_error_m": 5.865948512024224e-06,
+      "pose_roundtrip_sample_count": 3,
+      "motion": {
+        "role": "Land",
+        "frames": [
+          2,
+          64.99999
+        ],
+        "frame_count": 64,
+        "duration_seconds_at_30fps": 2.0999996666666667,
+        "old_frames": [
+          2,
+          64.99999
+        ],
+        "old_frame_count": 64,
+        "frame_count_delta": 0,
+        "world_union_bounds_usd_y_up_m": {
+          "min": [
+            -0.2980612943185914,
+            -1.0477092152561922,
+            0.06116452827428141
+          ],
+          "max": [
+            0.29873943521818147,
+            0.17708701569597785,
+            0.6133115396090643
+          ]
+        },
+        "per_frame_mesh_size_min_usd_xyz_m": [
+          0.34980847605935395,
+          0.8374209975326055,
+          0.17246960253131768
+        ],
+        "per_frame_mesh_size_max_usd_xyz_m": [
+          0.5940332912003321,
+          1.0082976155969683,
+          0.4264165291631933
+        ],
+        "all_deformed_vertices_finite": true,
+        "edge_stretch_p99_min": 1.3137354733881093,
+        "edge_stretch_p99_max": 1.5507649091193354,
+        "hips_y_min": -0.64386301,
+        "hips_y_max": -0.27363211000000004,
+        "key_preview_source_frame": 41,
+        "key_preview_reason": "minimum hips height"
+      },
+      "rendered_key_pose_validation": {
+        "role": "Land",
+        "source_frame": 41,
+        "fbx_import_frame": 42.0,
+        "max_vertex_error_m": 7.979823336907528e-06,
+        "preview_reason": "minimum hips height"
+      }
+    },
+    {
+      "role": "Pickup",
+      "preset": "줍기",
+      "cloud_url": "https://3d.varco.ai/animate/013934a9-5ce6-4c31-a162-930a8743a1a7",
+      "raw_archive": "1793252449846761400.usdz",
+      "raw_bytes": 4614966,
+      "raw_sha256": "d317e72e396470cdbc6b8a9a76664b4684ecb173511e6a88cd6ee47af66cf650",
+      "raw_unchanged_since_repair": true,
+      "fixed_archive": "Player_Pickup.usdz",
+      "fixed_sha256": "8c90ba40dec5f653e0c490857ebe69224a90b07193cd7860e24c6d1dce628869",
+      "only_changed_usda_arrays": [
+        "primvars:skel:jointIndices",
+        "primvars:skel:jointWeights"
+      ],
+      "outside_skin_arrays_identical": true,
+      "outside_skin_arrays_utf8_sha256": "fd9c28dcc3c1f2dd4fdcc99b96d56b7b9e04b6893e3eb27175487afcd8794f12",
+      "non_usda_archive_members_identical": true,
+      "bone_count": 53,
+      "finger_bone_count": 30,
+      "mesh_vertex_count": 5285,
+      "triangle_count": 8000,
+      "weighted_vertices": 5285,
+      "skin_changed_vertices": 4121,
+      "max_active_influences": 4,
+      "weight_sum_range": [
+        0.999999937,
+        1.000000064
+      ],
+      "empty_skin_groups": [
+        "Root",
+        "HandLoRA_Bip01_L_Finger42",
+        "LeftToeBase",
+        "RightToeBase"
+      ],
+      "fbx": "Player_Pickup.fbx",
+      "fbx_bytes": 3778476,
+      "fbx_sha256": "2da40446b5da63156e5f3fe7b865eb591b2ed15dc7b300031550250881f2dad2",
+      "fbx_unit_scale_factor": 100,
+      "fbx_nodes_have_unit_scale_within_tolerance": true,
+      "pose_roundtrip_max_vertex_error_m": 6.393653084041005e-06,
+      "pose_roundtrip_sample_count": 3,
+      "motion": {
+        "role": "Pickup",
+        "frames": [
+          2,
+          210
+        ],
+        "frame_count": 209,
+        "duration_seconds_at_30fps": 6.933333333333334,
+        "old_frames": [
+          2,
+          210
+        ],
+        "old_frame_count": 209,
+        "frame_count_delta": 0,
+        "world_union_bounds_usd_y_up_m": {
+          "min": [
+            -0.2005720743766622,
+            -0.8636680679393394,
+            0.08033399344919215
+          ],
+          "max": [
+            0.2246615633744957,
+            0.20597372780448164,
+            0.7854006673181441
+          ]
+        },
+        "per_frame_mesh_size_min_usd_xyz_m": [
+          0.27482342407550797,
+          0.5102951890553985,
+          0.27388464753813413
+        ],
+        "per_frame_mesh_size_max_usd_xyz_m": [
+          0.4111989079304327,
+          0.9997580987806769,
+          0.6282861750572248
+        ],
+        "all_deformed_vertices_finite": true,
+        "edge_stretch_p99_min": 1.448837027310523,
+        "edge_stretch_p99_max": 1.8152799176265226,
+        "hips_y_min": -0.6260030400000001,
+        "hips_y_max": -0.24417026000000003,
+        "key_preview_source_frame": 103,
+        "key_preview_reason": "minimum average hand height"
+      },
+      "rendered_key_pose_validation": {
+        "role": "Pickup",
+        "source_frame": 103,
+        "fbx_import_frame": 104.0,
+        "max_vertex_error_m": 6.431267451935196e-06,
+        "preview_reason": "minimum average hand height"
+      }
+    }
+  ]
+}

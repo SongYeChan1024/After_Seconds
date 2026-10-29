@@ -1,6 +1,6 @@
-# After Seconds VARCO 에셋 후보 반입 V0.04
+# After Seconds VARCO 에셋 후보 반입 V0.07
 
-2026-10-28 · 작성자 송예찬
+2026-10-29 · 작성자 송예찬
 
 [After_Seconds 플로우](https://3d.varco.ai/flow/b7248081-b012-4913-87ba-4b056a7381ea)에서 첫 교환 테스트에 사용할 후보 3종을 가져왔다. AS02 관제 콘솔, AS03 원심분리기, AS04 문짝은 후속 레벨 작업 때 검수한다.
 
@@ -22,17 +22,21 @@
 | AS05 플레이어 | `Assets/Afrer_Seconds/05.Model/Player/Player_Dummy_V0.1.prefab` |
 | AS06 경비 | `Assets/Afrer_Seconds/05.Model/Enemy/Enemy_Guard_V0.1.prefab` |
 
-`05.Model`은 반입한 모델과 조립 중인 외형을 관리한다. 현재 파일도 `.prefab` 형식이지만 이 단계에 해당한다. `04.Prefabs`에는 스크립트와 결합해 기능이 완성된 게임 에셋만 보관하며, 현재는 비어 있다. 환경 모델은 `05.Model/Environment`에 분류한다.
+앞으로 `03.Art`에는 2D 이미지만 추가하며, `UI/`, `Cutscenes/` 등 이미지 종류별 하위 폴더에 분류한다. 현재 이 `Candidates/VARCO` 위치에 남아 있는 모델·텍스처·재질·검수 기록은 과거 반입 결과다. 신규 파일 분류 기준과 구분하며, 이번에는 기존 파일을 일괄 이동하지 않는다.
+
+`05.Model`은 기준 리깅 모델·부속 재질과 조립 중인 외형을 관리한다. 현재 파일도 `.prefab` 형식이지만 이 단계에 해당한다. 동작 FBX·클립은 `07.Animator`의 대상별 `Clips/`에, Animator Controller·Override Controller는 `Controllers/`에 분류한다. Avatar Mask를 사용할 때는 `Masks/`를 만든다. `04.Prefabs`에는 스크립트와 결합해 기능이 완성된 게임 에셋만 보관하며, 현재는 비어 있다. 환경 모델은 `05.Model/Environment`에 분류한다.
 
 각 모델의 루트에는 단순 충돌체가 있고 `VisualRoot` 아래에 가져온 메쉬가 있다. 정규화한 높이와 바닥 맞춤은 `VisualRoot`에만 적용했다. 실제 레벨 치수와 캐릭터 충돌체 치수는 플레이 테스트로 정한다.
 
-Unity Project 창에서 `05.Model/Player`, `Enemy`, `Props`의 모델을 사용자가 만든 Scene에 직접 배치한다. 앞으로 반입하는 모델도 `05.Model`의 해당 분류에 정리한다. 원본 모델부터 직접 설정하려면 이 README가 있는 `03.Art/Candidates/VARCO/` 아래 각 후보의 `Models/`에 있는 FBX를 사용한다.
+Unity Project 창에서 `05.Model/Player`, `Enemy`, `Props`의 모델을 사용자가 만든 Scene에 직접 배치한다. 앞으로 반입하는 기준 모델·리깅·부속 재질은 `05.Model`의 해당 분류에, 애니메이션은 `07.Animator`의 대상별 폴더에 정리한다. 기존 미술 원본 모델부터 직접 설정하려면 이 README가 있는 `03.Art/Candidates/VARCO/` 아래 각 후보의 `Models/`에 있는 FBX를 사용한다.
 
 원본 FBX는 각 후보의 `Models/`에 보존했다. `Textures/`에는 추출한 색상·노멀 텍스처가, `Materials/`에는 URP/Lit 재질이 있다. 실제 추출 크기는 색상 1024×1024, 노멀 2048×2048이다. 노멀은 NormalMap 형식으로 가져왔으며 색상과 함께 프리팹 재질에 연결했다. 메탈릭·매끄러움은 검수용 가안이다.
 
 ## 캐릭터 후보의 현재 상태
 
-AS05와 AS06은 정적 T포즈 메쉬다. Unity에서 두 모델 모두 SkinnedMeshRenderer·뼈대·바인드 포즈·애니메이션 클립·유효 Humanoid Avatar가 없는 것을 확인했다. 지금은 크기·색 구분·위치 교환의 외형으로 사용할 수 있으며, 신체 동작에는 별도 리깅과 애니메이션이 필요하다.
+기존 `Models/`의 AS05와 AS06은 정적 T포즈 메쉬다. 원본에 SkinnedMeshRenderer·뼈대·바인드 포즈·애니메이션 클립이 없으며, Import Settings를 Humanoid로 바꾸는 것만으로 뼈대가 만들어지지는 않는다.
+
+2026-10-29에는 AS05 원본을 VARCO에서 휴머노이드·손가락 본 포함으로 리깅하고, 대기 1·좌발 전방걷기·달리기·제자리 점프·가벼운 착지 1·줍기를 별도 후보로 반입했다. 기준 모델은 `05.Model/Player/Rigged/Models/AS05_PlayerDummy_Rigged.fbx`에, 동작 FBX 6종은 `07.Animator/Player/Clips/`에 있다. 기존 플레이어·씬·모델 프리팹에는 연결하지 않았으며, 사용자가 외형 교체와 Animator 구성을 진행한다. 새 리깅 모델과 각 클립의 Avatar·본·재질·출처는 [`05.Model/Player/Rigged/`의 반입 기록](../../../05.Model/Player/Rigged/README.md)을 기준으로 한다.
 
 두 캐릭터는 별도로 생성한 메쉬여서 동일한 토폴로지와 비례를 보장하지 않는다. 회색 더미 가슴의 불필요한 문자 흔적 등 생성 결과의 정리는 최종 캐릭터 작업에서 검토한다. 현재 SampleScene에서는 플레이어 이동과 1인칭 시야 회전을 연결했다. 모델 프리팹에는 Motor·Presenter 등이 일부 연결되어 있으나 CameraRoot·PlayerLook은 씬에 추가한 구성이므로, 독립 실행되는 완성 플레이어 프리팹은 아직 아니다. 사격과 경비 행동도 후속 작업이다.
 
@@ -45,3 +49,5 @@ AS05와 AS06은 정적 T포즈 메쉬다. Unity에서 두 모델 모두 SkinnedM
 반입 당시 브릿지는 Unity 6000.4.0f1에서 정상 동작하는 상태를 확인했다. 이번 후보는 FBX 다운로드로 확보했으며, 브릿지를 통한 중복 전송은 하지 않았다. 반입에 사용한 임시 Editor 스크립트는 제거했다. 에셋 반입 작업 자체에서는 게임 스크립트와 AD를 추가하거나 변경하지 않았다.
 
 현재 브릿지는 기본 패키지 의존성에 포함하지 않는 선택 설치다. 기존 FBX·텍스처·재질과 현재 씬은 학원 PC의 브릿지 폴더 없이 사용할 수 있다. 웹 전송이 필요하면 집 PC에서 브릿지의 `package.json`을 `Install package from disk`로 선택하며, 설치로 생긴 PC별 절대 `file:` 경로는 공용 저장소에 다시 커밋하지 않는다.
+
+이번 리깅 반입에서는 웹의 직접 다운로드가 시작되지 않아 브릿지의 파일 수신 기능을 사용했다. 자동 씬 배치는 비활성화하고 USDZ 원본만 받아 Blender 5.1.2에서 FBX로 변환했다. 반입 후에는 브릿지를 중지하고 패키지 의존성을 이전 상태로 복원했다. 결과 FBX는 브릿지·USD 패키지 없이 사용할 수 있다.

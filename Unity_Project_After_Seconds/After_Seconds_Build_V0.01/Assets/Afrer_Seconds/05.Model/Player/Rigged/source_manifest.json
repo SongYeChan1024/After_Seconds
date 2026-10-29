@@ -1,0 +1,1043 @@
+{
+  "schemaVersion": "0.01",
+  "importedOn": "2026-10-29",
+  "project": "After Seconds",
+  "sourceService": "VARCO 3D",
+  "sourceFlowUrl": "https://3d.varco.ai/flow/b7248081-b012-4913-87ba-4b056a7381ea",
+  "sourceModel": {
+    "name": "Gray Male Mannequin",
+    "assetId": "3b98cd0f-3e26-4837-bf32-ba9a0ce4de3c",
+    "role": "AS05 gray player dummy",
+    "rigging": "VARCO AI Humanoid rigging with finger bones"
+  },
+  "importScope": "One rigged T-pose model and six animation FBXs; user connects Animator and scene model",
+  "materialRemap": {
+    "sourceSlot": "mat_2",
+    "unityMaterialPath": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS05_PlayerDummy/Materials/AS05_PlayerDummy_00_URP_Lit.mat",
+    "materialGuid": "e263a35ae7ddffe478f466f0f4fb4047",
+    "shader": "Universal Render Pipeline/Lit"
+  },
+  "sourceConsistency": {
+    "referenceRole": "Rig",
+    "absoluteCoordinatesDiffer": true,
+    "relativeBindPoseAndShapeConsistentWithin1eMinus6": true,
+    "allSourceTexturesIdentical": true,
+    "note": "VARCO exports apply a per-motion uniform origin translation to mesh and bind transforms. Preserved as authored; rotations, non-root local rest transforms, geometry shape, weights and joint names are consistent."
+  },
+  "preservedSourceMotion": {
+    "sourceFrameRangesPreserved": true,
+    "originOffsetsPreserved": true,
+    "verticalRootAndHipsMotionPreserved": true,
+    "walkFullSourceDurationSeconds": 7.5,
+    "walkLoopCorrectionApplied": false,
+    "note": "USD origin offsets are expressed in original Y-up coordinates. Root/Hips motion sample vectors use Blender Z-up world coordinates as recorded in each sample. FBX axis conversion preserves the authored placement and motion, rather than normalizing all clips to a shared origin."
+  },
+  "unityValidation": {
+    "factsFile": "unity-import-facts.json",
+    "motionPreviewFile": "motion-preview-validation.json",
+    "avatarValidatedFbxCount": 7,
+    "humanoidClipCount": 6,
+    "previewSampleCountPerClip": 5,
+    "previewTargetAvatar": "AS05_PlayerDummy_RiggedAvatar",
+    "previewScope": "Isolated temporary PreviewScene; no persistent scene, prefab or Animator Controller connection"
+  },
+  "assets": [
+    {
+      "role": "Rig",
+      "varcoName": "Gray Male Mannequin",
+      "cloudAssetId": "4bde1920-1d4b-4bb6-99cd-fc7b51925756",
+      "cloudUrl": "https://3d.varco.ai/animate/4bde1920-1d4b-4bb6-99cd-fc7b51925756",
+      "sourceArchive": {
+        "format": "USDZ",
+        "fileName": "2015fa4a6c9f4335ba4e4b990e86e0d5.usdz",
+        "bytes": 4139830,
+        "sha256": "cc8a0c899851743f9b8bdcd961861e97e690b210e1578895447714eb5a4d1ed6",
+        "includedInRepository": false
+      },
+      "importedFbx": {
+        "file": "Models/AS05_PlayerDummy_Rigged.fbx",
+        "unityAssetPath": "Assets/Afrer_Seconds/05.Model/Player/Rigged/Models/AS05_PlayerDummy_Rigged.fbx",
+        "bytes": 2792988,
+        "sha256": "06511bcafae424bdb5936b0503e87419c17ddc764729ba029c4db30a47c8d53a",
+        "guid": "7ef380eeb78fcf54eba2678d889d1a53",
+        "texturesEmbedded": true
+      },
+      "conversion": {
+        "application": "Blender",
+        "version": "5.1.2",
+        "sourceUpAxis": "Y",
+        "sourceMetersPerUnit": 1.0,
+        "axisForward": "-Z",
+        "axisUp": "Y",
+        "applyScaleOptions": "FBX_SCALE_UNITS",
+        "blenderUnitScaleLength": 1.0,
+        "scaleHandlingNote": "Unit conversion is represented by FBX unit metadata instead of 100x node transforms. Physical size, authored pose, skin weights, motion and timing are preserved.",
+        "sampleStepFrames": 1,
+        "simplifyFactor": 0,
+        "addLeafBones": false,
+        "originRecenterApplied": false,
+        "verticalMotionRemoved": false
+      },
+      "sourceOriginOffsetFromRig": {
+        "coordinateSystem": "Source USD Y-up metres; vector = this source mesh points minus Rig source mesh points",
+        "xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "variationXYZ": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "correctionApplied": false
+      },
+      "rootAndHipsMotionSamples": {
+        "skel/Root": {
+          "coordinate_system": "Blender Z-up world meters; X/Y are horizontal, Z is vertical",
+          "min": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "max": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "range": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "first": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "last": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "end_minus_start": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "skel/Hips": {
+          "coordinate_system": "Blender Z-up world meters; X/Y are horizontal, Z is vertical",
+          "min": [
+            0.00276125967502594,
+            0.00542140007019043,
+            0.04855959117412567
+          ],
+          "max": [
+            0.00276125967502594,
+            0.00542140007019043,
+            0.04855959117412567
+          ],
+          "range": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "first": [
+            0.00276125967502594,
+            0.00542140007019043,
+            0.04855959117412567
+          ],
+          "last": [
+            0.00276125967502594,
+            0.00542140007019043,
+            0.04855959117412567
+          ],
+          "end_minus_start": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "sourceTextures": [
+        {
+          "name": "mat_2_base_color.png",
+          "bytes": 657368,
+          "sha256": "862a2f725dcbfa2c18c5e7746522e2ec8c8c007c82a45c82dbda8665ae5c474f"
+        },
+        {
+          "name": "mat_2_normal.png",
+          "bytes": 1642984,
+          "sha256": "cf5eb700438e5cb0f9e893fc70dd40b99ba290569fbb40f447f82ed05fd3ba2f"
+        }
+      ],
+      "clip": null,
+      "status": "Imported candidate; user Animator connection and deformation review pending"
+    },
+    {
+      "role": "Idle",
+      "varcoName": "대기 1",
+      "cloudAssetId": "6294218b-8079-4507-a2b3-8187e9fbe2a7",
+      "cloudUrl": "https://3d.varco.ai/animate/6294218b-8079-4507-a2b3-8187e9fbe2a7",
+      "sourceArchive": {
+        "format": "USDZ",
+        "fileName": "8b730755d0424db68a92027a6b807e94.usdz",
+        "bytes": 4653686,
+        "sha256": "8f8f1b94ef8304c60c8ceb0071b3fb947810aa4b1d5a62417b8fd842b964dedf",
+        "includedInRepository": false
+      },
+      "importedFbx": {
+        "file": "../../../07.Animator/Player/Clips/Player_Idle.fbx",
+        "unityAssetPath": "Assets/Afrer_Seconds/07.Animator/Player/Clips/Player_Idle.fbx",
+        "bytes": 3956460,
+        "sha256": "f862ed94e7302c7b24fdc44287e67932b553c43db16910a97d05022df957fb57",
+        "guid": "d9adf6c9359026747a4c31684c7412df",
+        "texturesEmbedded": true
+      },
+      "conversion": {
+        "application": "Blender",
+        "version": "5.1.2",
+        "sourceUpAxis": "Y",
+        "sourceMetersPerUnit": 1.0,
+        "axisForward": "-Z",
+        "axisUp": "Y",
+        "applyScaleOptions": "FBX_SCALE_UNITS",
+        "blenderUnitScaleLength": 1.0,
+        "scaleHandlingNote": "Unit conversion is represented by FBX unit metadata instead of 100x node transforms. Physical size, authored pose, skin weights, motion and timing are preserved.",
+        "sampleStepFrames": 1,
+        "simplifyFactor": 0,
+        "addLeafBones": false,
+        "originRecenterApplied": false,
+        "verticalMotionRemoved": false
+      },
+      "sourceOriginOffsetFromRig": {
+        "coordinateSystem": "Source USD Y-up metres; vector = this source mesh points minus Rig source mesh points",
+        "xyz": [
+          -0.005835294818518448,
+          -0.02642247062073226,
+          -0.013959940527522688
+        ],
+        "variationXYZ": [
+          7.000000007417739e-08,
+          1.2000000010337075e-07,
+          2.000000001722846e-08
+        ],
+        "correctionApplied": false
+      },
+      "rootAndHipsMotionSamples": {
+        "skel/Root": {
+          "coordinate_system": "Blender Z-up world meters; X/Y are horizontal, Z is vertical",
+          "min": [
+            -0.005835294723510742,
+            0.013959942385554314,
+            0.027174977585673332
+          ],
+          "max": [
+            -0.005835294723510742,
+            0.013959942385554314,
+            0.02750997059047222
+          ],
+          "range": [
+            0.0,
+            0.0,
+            0.00033499300479888916
+          ],
+          "first": [
+            -0.005835294723510742,
+            0.013959942385554314,
+            0.027174977585673332
+          ],
+          "last": [
+            -0.005835294723510742,
+            0.013959942385554314,
+            0.02750997059047222
+          ],
+          "end_minus_start": [
+            0.0,
+            0.0,
+            0.00033499300479888916
+          ]
+        },
+        "skel/Hips": {
+          "coordinate_system": "Blender Z-up world meters; X/Y are horizontal, Z is vertical",
+          "min": [
+            -0.0030740350484848022,
+            0.019381342455744743,
+            0.07573457062244415
+          ],
+          "max": [
+            -0.0030740350484848022,
+            0.019381342455744743,
+            0.07606956362724304
+          ],
+          "range": [
+            0.0,
+            0.0,
+            0.00033499300479888916
+          ],
+          "first": [
+            -0.0030740350484848022,
+            0.019381342455744743,
+            0.07573457062244415
+          ],
+          "last": [
+            -0.0030740350484848022,
+            0.019381342455744743,
+            0.07606956362724304
+          ],
+          "end_minus_start": [
+            0.0,
+            0.0,
+            0.00033499300479888916
+          ]
+        }
+      },
+      "sourceTextures": [
+        {
+          "name": "mat_2_base_color.png",
+          "bytes": 657368,
+          "sha256": "862a2f725dcbfa2c18c5e7746522e2ec8c8c007c82a45c82dbda8665ae5c474f"
+        },
+        {
+          "name": "mat_2_normal.png",
+          "bytes": 1642984,
+          "sha256": "cf5eb700438e5cb0f9e893fc70dd40b99ba290569fbb40f447f82ed05fd3ba2f"
+        }
+      ],
+      "clip": {
+        "name": "Player_Idle",
+        "sourceFirstFrame": 2,
+        "sourceLastFrame": 269,
+        "sourceFrameRate": 30.0,
+        "sourceDurationSeconds": 8.9,
+        "unityDurationSeconds": 8.900001,
+        "unityFrameRate": 30.0,
+        "humanMotion": true,
+        "loopTime": false,
+        "loopCorrectionApplied": false
+      },
+      "status": "Imported candidate; user Animator connection and deformation review pending"
+    },
+    {
+      "role": "Walk",
+      "varcoName": "좌발 전방걷기",
+      "cloudAssetId": "a97a01d1-b568-4f18-8681-dcfe90233492",
+      "cloudUrl": "https://3d.varco.ai/animate/a97a01d1-b568-4f18-8681-dcfe90233492",
+      "sourceArchive": {
+        "format": "USDZ",
+        "fileName": "e96eab57eb8649348b3e8bf3744e3ea2.usdz",
+        "bytes": 4566646,
+        "sha256": "021f21c8058d3d408015386df616df693317992e0d0398bbb664db4699e8c384",
+        "includedInRepository": false
+      },
+      "importedFbx": {
+        "file": "../../../07.Animator/Player/Clips/Player_Walk.fbx",
+        "unityAssetPath": "Assets/Afrer_Seconds/07.Animator/Player/Clips/Player_Walk.fbx",
+        "bytes": 3830380,
+        "sha256": "bc4aa9d0eb0794e1eda12f1dc97c0a644c562ec1b30d5abf51459635e9f1c862",
+        "guid": "c134c0cb239e46b40810a45b3c48e5b1",
+        "texturesEmbedded": true
+      },
+      "conversion": {
+        "application": "Blender",
+        "version": "5.1.2",
+        "sourceUpAxis": "Y",
+        "sourceMetersPerUnit": 1.0,
+        "axisForward": "-Z",
+        "axisUp": "Y",
+        "applyScaleOptions": "FBX_SCALE_UNITS",
+        "blenderUnitScaleLength": 1.0,
+        "scaleHandlingNote": "Unit conversion is represented by FBX unit metadata instead of 100x node transforms. Physical size, authored pose, skin weights, motion and timing are preserved.",
+        "sampleStepFrames": 1,
+        "simplifyFactor": 0,
+        "addLeafBones": false,
+        "originRecenterApplied": false,
+        "verticalMotionRemoved": false
+      },
+      "sourceOriginOffsetFromRig": {
+        "coordinateSystem": "Source USD Y-up metres; vector = this source mesh points minus Rig source mesh points",
+        "xyz": [
+          0.02009069309717124,
+          -0.02076302449544371,
+          -0.07051759974065638
+        ],
+        "variationXYZ": [
+          7.999999995789153e-08,
+          9.000000011916143e-08,
+          2.699999999966618e-08
+        ],
+        "correctionApplied": false
+      },
+      "rootAndHipsMotionSamples": {
+        "skel/Root": {
+          "coordinate_system": "Blender Z-up world meters; X/Y are horizontal, Z is vertical",
+          "min": [
+            0.02009069174528122,
+            0.07051759958267212,
+            -0.008096905425190926
+          ],
+          "max": [
+            0.02009069174528122,
+            0.07051760703325272,
+            0.13227854669094086
+          ],
+          "range": [
+            0.0,
+            7.450580596923828e-09,
+            0.14037545211613178
+          ],
+          "first": [
+            0.02009069174528122,
+            0.07051759958267212,
+            0.022994885221123695
+          ],
+          "last": [
+            0.02009069174528122,
+            0.07051760703325272,
+            0.12879471480846405
+          ],
+          "end_minus_start": [
+            0.0,
+            7.450580596923828e-09,
+            0.10579982958734035
+          ]
+        },
+        "skel/Hips": {
+          "coordinate_system": "Blender Z-up world meters; X/Y are horizontal, Z is vertical",
+          "min": [
+            0.02285195142030716,
+            0.07593899965286255,
+            0.0404626838862896
+          ],
+          "max": [
+            0.02285195142030716,
+            0.07593901455402374,
+            0.18083813786506653
+          ],
+          "range": [
+            0.0,
+            1.4901161193847656e-08,
+            0.14037545397877693
+          ],
+          "first": [
+            0.02285195142030716,
+            0.07593900710344315,
+            0.07155447453260422
+          ],
+          "last": [
+            0.02285195142030716,
+            0.07593901455402374,
+            0.17735430598258972
+          ],
+          "end_minus_start": [
+            0.0,
+            7.450580596923828e-09,
+            0.1057998314499855
+          ]
+        }
+      },
+      "sourceTextures": [
+        {
+          "name": "mat_2_base_color.png",
+          "bytes": 657368,
+          "sha256": "862a2f725dcbfa2c18c5e7746522e2ec8c8c007c82a45c82dbda8665ae5c474f"
+        },
+        {
+          "name": "mat_2_normal.png",
+          "bytes": 1642984,
+          "sha256": "cf5eb700438e5cb0f9e893fc70dd40b99ba290569fbb40f447f82ed05fd3ba2f"
+        }
+      ],
+      "clip": {
+        "name": "Player_Walk",
+        "sourceFirstFrame": 2,
+        "sourceLastFrame": 227,
+        "sourceFrameRate": 30.0,
+        "sourceDurationSeconds": 7.5,
+        "unityDurationSeconds": 7.50000048,
+        "unityFrameRate": 30.0,
+        "humanMotion": true,
+        "loopTime": false,
+        "loopCorrectionApplied": false
+      },
+      "status": "Imported candidate; user Animator connection and deformation review pending"
+    },
+    {
+      "role": "Run",
+      "varcoName": "달리기",
+      "cloudAssetId": "9f97ec76-b246-4bd8-9371-bf5f78eca986",
+      "cloudUrl": "https://3d.varco.ai/animate/9f97ec76-b246-4bd8-9371-bf5f78eca986",
+      "sourceArchive": {
+        "format": "USDZ",
+        "fileName": "232107cc949845938b5e5f0e29ad90cd.usdz",
+        "bytes": 4234294,
+        "sha256": "80c9861e2d5b0a47ef8a9db4eee425acdb4e72ebde2becd9ca888601177c9d76",
+        "includedInRepository": false
+      },
+      "importedFbx": {
+        "file": "../../../07.Animator/Player/Clips/Player_Run.fbx",
+        "unityAssetPath": "Assets/Afrer_Seconds/07.Animator/Player/Clips/Player_Run.fbx",
+        "bytes": 3252204,
+        "sha256": "0d3c5d0add9d559288942a9afb5db4401d6f1e2124c1a20651388f1f7bba329b",
+        "guid": "c11e43a3f3f4845499cfa8f9000c0860",
+        "texturesEmbedded": true
+      },
+      "conversion": {
+        "application": "Blender",
+        "version": "5.1.2",
+        "sourceUpAxis": "Y",
+        "sourceMetersPerUnit": 1.0,
+        "axisForward": "-Z",
+        "axisUp": "Y",
+        "applyScaleOptions": "FBX_SCALE_UNITS",
+        "blenderUnitScaleLength": 1.0,
+        "scaleHandlingNote": "Unit conversion is represented by FBX unit metadata instead of 100x node transforms. Physical size, authored pose, skin weights, motion and timing are preserved.",
+        "sampleStepFrames": 1,
+        "simplifyFactor": 0,
+        "addLeafBones": false,
+        "originRecenterApplied": false,
+        "verticalMotionRemoved": false
+      },
+      "sourceOriginOffsetFromRig": {
+        "coordinateSystem": "Source USD Y-up metres; vector = this source mesh points minus Rig source mesh points",
+        "xyz": [
+          -0.07465861732771618,
+          0.05610272292547587,
+          -0.020123273160399396
+        ],
+        "variationXYZ": [
+          9.000000000813912e-08,
+          1.200000000478596e-07,
+          1.40000000134477e-08
+        ],
+        "correctionApplied": false
+      },
+      "rootAndHipsMotionSamples": {
+        "skel/Root": {
+          "coordinate_system": "Blender Z-up world meters; X/Y are horizontal, Z is vertical",
+          "min": [
+            -0.07465861737728119,
+            0.020123271271586418,
+            -0.020449550822377205
+          ],
+          "max": [
+            -0.07465861737728119,
+            0.020123276859521866,
+            0.045155324041843414
+          ],
+          "range": [
+            0.0,
+            5.587935447692871e-09,
+            0.06560487486422062
+          ],
+          "first": [
+            -0.07465861737728119,
+            0.020123273134231567,
+            -0.0014195755356922746
+          ],
+          "last": [
+            -0.07465861737728119,
+            0.020123271271586418,
+            -0.01793978549540043
+          ],
+          "end_minus_start": [
+            0.0,
+            -1.862645149230957e-09,
+            -0.016520209959708154
+          ]
+        },
+        "skel/Hips": {
+          "coordinate_system": "Blender Z-up world meters; X/Y are horizontal, Z is vertical",
+          "min": [
+            -0.07189735770225525,
+            0.025544671341776848,
+            0.028110040351748466
+          ],
+          "max": [
+            -0.07189735770225525,
+            0.025544676929712296,
+            0.09371491521596909
+          ],
+          "range": [
+            0.0,
+            5.587935447692871e-09,
+            0.06560487486422062
+          ],
+          "first": [
+            -0.07189735770225525,
+            0.025544673204421997,
+            0.04714001342654228
+          ],
+          "last": [
+            -0.07189735770225525,
+            0.025544671341776848,
+            0.030619805678725243
+          ],
+          "end_minus_start": [
+            0.0,
+            -1.862645149230957e-09,
+            -0.01652020774781704
+          ]
+        }
+      },
+      "sourceTextures": [
+        {
+          "name": "mat_2_base_color.png",
+          "bytes": 657368,
+          "sha256": "862a2f725dcbfa2c18c5e7746522e2ec8c8c007c82a45c82dbda8665ae5c474f"
+        },
+        {
+          "name": "mat_2_normal.png",
+          "bytes": 1642984,
+          "sha256": "cf5eb700438e5cb0f9e893fc70dd40b99ba290569fbb40f447f82ed05fd3ba2f"
+        }
+      ],
+      "clip": {
+        "name": "Player_Run",
+        "sourceFirstFrame": 2,
+        "sourceLastFrame": 49,
+        "sourceFrameRate": 30.0,
+        "sourceDurationSeconds": 1.5666666666666667,
+        "unityDurationSeconds": 1.56666672,
+        "unityFrameRate": 30.0,
+        "humanMotion": true,
+        "loopTime": false,
+        "loopCorrectionApplied": false
+      },
+      "status": "Imported candidate; user Animator connection and deformation review pending"
+    },
+    {
+      "role": "Jump",
+      "varcoName": "제자리 점프",
+      "cloudAssetId": "9a2af089-7892-49db-bc80-ad69ecd7e47f",
+      "cloudUrl": "https://3d.varco.ai/animate/9a2af089-7892-49db-bc80-ad69ecd7e47f",
+      "sourceArchive": {
+        "format": "USDZ",
+        "fileName": "beb5444eb7fe48f1b72432bdceb5421a.usdz",
+        "bytes": 4409654,
+        "sha256": "2bcfadb5148c747208d2737abc6d4b39bf21d51f3791788f8e3524c9d6d9171b",
+        "includedInRepository": false
+      },
+      "importedFbx": {
+        "file": "../../../07.Animator/Player/Clips/Player_Jump.fbx",
+        "unityAssetPath": "Assets/Afrer_Seconds/07.Animator/Player/Clips/Player_Jump.fbx",
+        "bytes": 3562988,
+        "sha256": "9240a9516bfabaa4626ed92660c43051bb1aaecfa35f632b630c00103a8af2b9",
+        "guid": "4bcb4d2bf7aec214b9ef1e6e6f53106a",
+        "texturesEmbedded": true
+      },
+      "conversion": {
+        "application": "Blender",
+        "version": "5.1.2",
+        "sourceUpAxis": "Y",
+        "sourceMetersPerUnit": 1.0,
+        "axisForward": "-Z",
+        "axisUp": "Y",
+        "applyScaleOptions": "FBX_SCALE_UNITS",
+        "blenderUnitScaleLength": 1.0,
+        "scaleHandlingNote": "Unit conversion is represented by FBX unit metadata instead of 100x node transforms. Physical size, authored pose, skin weights, motion and timing are preserved.",
+        "sampleStepFrames": 1,
+        "simplifyFactor": 0,
+        "addLeafBones": false,
+        "originRecenterApplied": false,
+        "verticalMotionRemoved": false
+      },
+      "sourceOriginOffsetFromRig": {
+        "coordinateSystem": "Source USD Y-up metres; vector = this source mesh points minus Rig source mesh points",
+        "xyz": [
+          0.05396239456363747,
+          -0.013984754575577484,
+          -0.04337808493921154
+        ],
+        "variationXYZ": [
+          9.000000006365028e-08,
+          1.0000000005838672e-07,
+          1.500000000598245e-08
+        ],
+        "correctionApplied": false
+      },
+      "rootAndHipsMotionSamples": {
+        "skel/Root": {
+          "coordinate_system": "Blender Z-up world meters; X/Y are horizontal, Z is vertical",
+          "min": [
+            0.05396239459514618,
+            0.0433780699968338,
+            -0.2165420651435852
+          ],
+          "max": [
+            0.05396239459514618,
+            0.043378110975027084,
+            0.3492854833602905
+          ],
+          "range": [
+            0.0,
+            4.0978193283081055e-08,
+            0.5658275485038757
+          ],
+          "first": [
+            0.05396239459514618,
+            0.043378084897994995,
+            0.01638929173350334
+          ],
+          "last": [
+            0.05396239459514618,
+            0.0433780811727047,
+            -0.05289000645279884
+          ],
+          "end_minus_start": [
+            0.0,
+            -3.725290298461914e-09,
+            -0.06927929818630219
+          ]
+        },
+        "skel/Hips": {
+          "coordinate_system": "Blender Z-up world meters; X/Y are horizontal, Z is vertical",
+          "min": [
+            0.05672365427017212,
+            0.04879947006702423,
+            -0.16798247396945953
+          ],
+          "max": [
+            0.05672365427017212,
+            0.048799511045217514,
+            0.3978450894355774
+          ],
+          "range": [
+            0.0,
+            4.0978193283081055e-08,
+            0.5658275634050369
+          ],
+          "first": [
+            0.05672365427017212,
+            0.048799484968185425,
+            0.06494888663291931
+          ],
+          "last": [
+            0.05672365427017212,
+            0.048799481242895126,
+            -0.004330415278673172
+          ],
+          "end_minus_start": [
+            0.0,
+            -3.725290298461914e-09,
+            -0.06927930191159248
+          ]
+        }
+      },
+      "sourceTextures": [
+        {
+          "name": "mat_2_base_color.png",
+          "bytes": 657368,
+          "sha256": "862a2f725dcbfa2c18c5e7746522e2ec8c8c007c82a45c82dbda8665ae5c474f"
+        },
+        {
+          "name": "mat_2_normal.png",
+          "bytes": 1642984,
+          "sha256": "cf5eb700438e5cb0f9e893fc70dd40b99ba290569fbb40f447f82ed05fd3ba2f"
+        }
+      ],
+      "clip": {
+        "name": "Player_Jump",
+        "sourceFirstFrame": 2,
+        "sourceLastFrame": 144,
+        "sourceFrameRate": 30.0,
+        "sourceDurationSeconds": 4.733333333333333,
+        "unityDurationSeconds": 4.73333359,
+        "unityFrameRate": 30.0,
+        "humanMotion": true,
+        "loopTime": false,
+        "loopCorrectionApplied": false
+      },
+      "status": "Imported candidate; user Animator connection and deformation review pending"
+    },
+    {
+      "role": "Land",
+      "varcoName": "가벼운 착지 1",
+      "cloudAssetId": "e4af9f91-8a86-4a4b-8c6f-edcf00295de8",
+      "cloudUrl": "https://3d.varco.ai/animate/e4af9f91-8a86-4a4b-8c6f-edcf00295de8",
+      "sourceArchive": {
+        "format": "USDZ",
+        "fileName": "502cef77246d4003a6cb80aae18447b6.usdz",
+        "bytes": 4262134,
+        "sha256": "74798c271c93501ba4df85bd3f22a119454db07fb24147227c2a73fc3e05f783",
+        "includedInRepository": false
+      },
+      "importedFbx": {
+        "file": "../../../07.Animator/Player/Clips/Player_Land.fbx",
+        "unityAssetPath": "Assets/Afrer_Seconds/07.Animator/Player/Clips/Player_Land.fbx",
+        "bytes": 3304908,
+        "sha256": "f9c6cd2f81539163c43986b693824d39739328f6f06777133ccaea702bd09311",
+        "guid": "e30c59ed0fa1f864b845631af70a4d65",
+        "texturesEmbedded": true
+      },
+      "conversion": {
+        "application": "Blender",
+        "version": "5.1.2",
+        "sourceUpAxis": "Y",
+        "sourceMetersPerUnit": 1.0,
+        "axisForward": "-Z",
+        "axisUp": "Y",
+        "applyScaleOptions": "FBX_SCALE_UNITS",
+        "blenderUnitScaleLength": 1.0,
+        "scaleHandlingNote": "Unit conversion is represented by FBX unit metadata instead of 100x node transforms. Physical size, authored pose, skin weights, motion and timing are preserved.",
+        "sampleStepFrames": 1,
+        "simplifyFactor": 0,
+        "addLeafBones": false,
+        "originRecenterApplied": false,
+        "verticalMotionRemoved": false
+      },
+      "sourceOriginOffsetFromRig": {
+        "coordinateSystem": "Source USD Y-up metres; vector = this source mesh points minus Rig source mesh points",
+        "xyz": [
+          0.006747186118545127,
+          -0.025504201696232735,
+          0.008469454946996783
+        ],
+        "variationXYZ": [
+          9.000000000813912e-08,
+          1.200000000478596e-07,
+          1.2000000007561518e-08
+        ],
+        "correctionApplied": false
+      },
+      "rootAndHipsMotionSamples": {
+        "skel/Root": {
+          "coordinate_system": "Blender Z-up world meters; X/Y are horizontal, Z is vertical",
+          "min": [
+            0.006747186183929443,
+            -0.008469486609101295,
+            -0.41559749841690063
+          ],
+          "max": [
+            0.006747186183929443,
+            -0.00846945308148861,
+            0.025288015604019165
+          ],
+          "range": [
+            0.0,
+            3.3527612686157227e-08,
+            0.4408855140209198
+          ],
+          "first": [
+            0.006747186183929443,
+            -0.00846945308148861,
+            0.025288015604019165
+          ],
+          "last": [
+            0.006747186183929443,
+            -0.008469468913972378,
+            -0.18099211156368256
+          ],
+          "end_minus_start": [
+            0.0,
+            -1.5832483768463135e-08,
+            -0.20628012716770172
+          ]
+        },
+        "skel/Hips": {
+          "coordinate_system": "Blender Z-up world meters; X/Y are horizontal, Z is vertical",
+          "min": [
+            0.009508445858955383,
+            -0.003048086306080222,
+            -0.36703789234161377
+          ],
+          "max": [
+            0.009508445858955383,
+            -0.0030480530112981796,
+            0.07384760677814484
+          ],
+          "range": [
+            0.0,
+            3.329478204250336e-08,
+            0.4408854991197586
+          ],
+          "first": [
+            0.009508445858955383,
+            -0.0030480530112981796,
+            0.07384760677814484
+          ],
+          "last": [
+            0.009508445858955383,
+            -0.0030480686109513044,
+            -0.13243252038955688
+          ],
+          "end_minus_start": [
+            0.0,
+            -1.5599653124809265e-08,
+            -0.20628012716770172
+          ]
+        }
+      },
+      "sourceTextures": [
+        {
+          "name": "mat_2_base_color.png",
+          "bytes": 657368,
+          "sha256": "862a2f725dcbfa2c18c5e7746522e2ec8c8c007c82a45c82dbda8665ae5c474f"
+        },
+        {
+          "name": "mat_2_normal.png",
+          "bytes": 1642984,
+          "sha256": "cf5eb700438e5cb0f9e893fc70dd40b99ba290569fbb40f447f82ed05fd3ba2f"
+        }
+      ],
+      "clip": {
+        "name": "Player_Land",
+        "sourceFirstFrame": 2,
+        "sourceLastFrame": 65,
+        "sourceFrameRate": 30.0,
+        "sourceDurationSeconds": 2.1,
+        "unityDurationSeconds": 2.10000014,
+        "unityFrameRate": 30.0,
+        "humanMotion": true,
+        "loopTime": false,
+        "loopCorrectionApplied": false
+      },
+      "status": "Imported candidate; user Animator connection and deformation review pending"
+    },
+    {
+      "role": "Pickup",
+      "varcoName": "줍기",
+      "cloudAssetId": "016d1556-5a6b-46b5-8ad9-ef09613d351b",
+      "cloudUrl": "https://3d.varco.ai/animate/016d1556-5a6b-46b5-8ad9-ef09613d351b",
+      "sourceArchive": {
+        "format": "USDZ",
+        "fileName": "fcb163f0a80d428cbfe694b12cbaf5db.usdz",
+        "bytes": 4536310,
+        "sha256": "08230ca55d3f2f82d9058a3ebe3a4bf91202041e4a47f42223840a7a986ef1a7",
+        "includedInRepository": false
+      },
+      "importedFbx": {
+        "file": "../../../07.Animator/Player/Clips/Player_Pickup.fbx",
+        "unityAssetPath": "Assets/Afrer_Seconds/07.Animator/Player/Clips/Player_Pickup.fbx",
+        "bytes": 3779932,
+        "sha256": "0aa3fc91989314a4580913e36f24090690826acf14491201ece015cf92be5c0f",
+        "guid": "3be2889a18d5d27449959dcaefc450a4",
+        "texturesEmbedded": true
+      },
+      "conversion": {
+        "application": "Blender",
+        "version": "5.1.2",
+        "sourceUpAxis": "Y",
+        "sourceMetersPerUnit": 1.0,
+        "axisForward": "-Z",
+        "axisUp": "Y",
+        "applyScaleOptions": "FBX_SCALE_UNITS",
+        "blenderUnitScaleLength": 1.0,
+        "scaleHandlingNote": "Unit conversion is represented by FBX unit metadata instead of 100x node transforms. Physical size, authored pose, skin weights, motion and timing are preserved.",
+        "sampleStepFrames": 1,
+        "simplifyFactor": 0,
+        "addLeafBones": false,
+        "originRecenterApplied": false,
+        "verticalMotionRemoved": false
+      },
+      "sourceOriginOffsetFromRig": {
+        "coordinateSystem": "Source USD Y-up metres; vector = this source mesh points minus Rig source mesh points",
+        "xyz": [
+          0.03200788789266868,
+          -0.02387648836006244,
+          -0.021067097791787323
+        ],
+        "variationXYZ": [
+          9.000000006365028e-08,
+          1.2000000010337075e-07,
+          1.5000000012921344e-08
+        ],
+        "correctionApplied": false
+      },
+      "rootAndHipsMotionSamples": {
+        "skel/Root": {
+          "coordinate_system": "Blender Z-up world meters; X/Y are horizontal, Z is vertical",
+          "min": [
+            0.032007887959480286,
+            0.021067066118121147,
+            -0.4276478588581085
+          ],
+          "max": [
+            0.032007887959480286,
+            0.021067099645733833,
+            0.027053577825427055
+          ],
+          "range": [
+            0.0,
+            3.3527612686157227e-08,
+            0.4547014366835356
+          ],
+          "first": [
+            0.032007887959480286,
+            0.021067099645733833,
+            0.02554100565612316
+          ],
+          "last": [
+            0.032007887959480286,
+            0.021067099645733833,
+            0.027053577825427055
+          ],
+          "end_minus_start": [
+            0.0,
+            0.0,
+            0.001512572169303894
+          ]
+        },
+        "skel/Hips": {
+          "coordinate_system": "Blender Z-up world meters; X/Y are horizontal, Z is vertical",
+          "min": [
+            0.034769147634506226,
+            0.026488466188311577,
+            -0.37908828258514404
+          ],
+          "max": [
+            0.034769147634506226,
+            0.026488499715924263,
+            0.07561317086219788
+          ],
+          "range": [
+            0.0,
+            3.3527612686157227e-08,
+            0.4547014534473419
+          ],
+          "first": [
+            0.034769147634506226,
+            0.026488499715924263,
+            0.07410059869289398
+          ],
+          "last": [
+            0.034769147634506226,
+            0.026488499715924263,
+            0.07561317086219788
+          ],
+          "end_minus_start": [
+            0.0,
+            0.0,
+            0.001512572169303894
+          ]
+        }
+      },
+      "sourceTextures": [
+        {
+          "name": "mat_2_base_color.png",
+          "bytes": 657368,
+          "sha256": "862a2f725dcbfa2c18c5e7746522e2ec8c8c007c82a45c82dbda8665ae5c474f"
+        },
+        {
+          "name": "mat_2_normal.png",
+          "bytes": 1642984,
+          "sha256": "cf5eb700438e5cb0f9e893fc70dd40b99ba290569fbb40f447f82ed05fd3ba2f"
+        }
+      ],
+      "clip": {
+        "name": "Player_Pickup",
+        "sourceFirstFrame": 2,
+        "sourceLastFrame": 210,
+        "sourceFrameRate": 30.0,
+        "sourceDurationSeconds": 6.933333333333334,
+        "unityDurationSeconds": 6.933334,
+        "unityFrameRate": 30.0,
+        "humanMotion": true,
+        "loopTime": false,
+        "loopCorrectionApplied": false
+      },
+      "status": "Imported candidate; user Animator connection and deformation review pending"
+    }
+  ]
+}

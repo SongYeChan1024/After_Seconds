@@ -1,0 +1,924 @@
+{
+  "sampledUtc": "2026-10-29T04:15:37.0895044Z",
+  "unityVersion": "6000.4.0f1",
+  "isCompiling": false,
+  "isUpdating": false,
+  "activeScene": "Assets/Afrer_Seconds/01.Scenes/SampleScene.unity",
+  "assets": [
+    {
+      "id": "RiggedModel",
+      "path": "Assets/Afrer_Seconds/05.Model/Player/Rigged/Models/AS05_PlayerDummy_Rigged.fbx",
+      "guid": "7ef380eeb78fcf54eba2678d889d1a53",
+      "loadedAssetCount": 116,
+      "hasModel": true,
+      "importer": {
+        "animationType": "Human",
+        "avatarSetup": "CreateFromThisModel",
+        "importAnimation": false,
+        "globalScale": 1.0,
+        "sourceAvatarName": null,
+        "humanMappingCount": 51,
+        "skeletonEntryCount": 56,
+        "usingDefaultClipDefinitions": true,
+        "clipDefinitions": []
+      },
+      "avatars": [
+        {
+          "name": "AS05_PlayerDummy_RiggedAvatar",
+          "isValid": true,
+          "isHuman": true
+        }
+      ],
+      "clips": [],
+      "nonPreviewClipCount": 0,
+      "transformCount": 56,
+      "skinnedRendererCount": 1,
+      "skinnedRenderers": [
+        {
+          "name": "mesh_0",
+          "boneCount": 53,
+          "nullBoneCount": 0,
+          "rootBone": "Root",
+          "meshName": "mesh_0",
+          "bindPoseCount": 53,
+          "vertexCount": 5185,
+          "boneNames": [
+            "Root",
+            "Hips",
+            "Spine",
+            "Spine1",
+            "Spine2",
+            "Neck",
+            "Head",
+            "LeftShoulder",
+            "LeftArm",
+            "LeftForeArm",
+            "LeftHand",
+            "HandLoRA_Bip01_L_Finger0",
+            "HandLoRA_Bip01_L_Finger01",
+            "HandLoRA_Bip01_L_Finger02",
+            "HandLoRA_Bip01_L_Finger1",
+            "HandLoRA_Bip01_L_Finger11",
+            "HandLoRA_Bip01_L_Finger12",
+            "HandLoRA_Bip01_L_Finger2",
+            "HandLoRA_Bip01_L_Finger21",
+            "HandLoRA_Bip01_L_Finger22",
+            "HandLoRA_Bip01_L_Finger3",
+            "HandLoRA_Bip01_L_Finger31",
+            "HandLoRA_Bip01_L_Finger32",
+            "HandLoRA_Bip01_L_Finger4",
+            "HandLoRA_Bip01_L_Finger41",
+            "HandLoRA_Bip01_L_Finger42",
+            "RightShoulder",
+            "RightArm",
+            "RightForeArm",
+            "RightHand",
+            "HandLoRA_Bip01_R_Finger0",
+            "HandLoRA_Bip01_R_Finger01",
+            "HandLoRA_Bip01_R_Finger02",
+            "HandLoRA_Bip01_R_Finger1",
+            "HandLoRA_Bip01_R_Finger11",
+            "HandLoRA_Bip01_R_Finger12",
+            "HandLoRA_Bip01_R_Finger2",
+            "HandLoRA_Bip01_R_Finger21",
+            "HandLoRA_Bip01_R_Finger22",
+            "HandLoRA_Bip01_R_Finger3",
+            "HandLoRA_Bip01_R_Finger31",
+            "HandLoRA_Bip01_R_Finger32",
+            "HandLoRA_Bip01_R_Finger4",
+            "HandLoRA_Bip01_R_Finger41",
+            "HandLoRA_Bip01_R_Finger42",
+            "LeftUpLeg",
+            "LeftLeg",
+            "LeftFoot",
+            "LeftToeBase",
+            "RightUpLeg",
+            "RightLeg",
+            "RightFoot",
+            "RightToeBase"
+          ]
+        }
+      ],
+      "animators": [
+        {
+          "name": "AS05_PlayerDummy_Rigged",
+          "avatarName": "AS05_PlayerDummy_RiggedAvatar",
+          "avatarValid": true,
+          "avatarHuman": true,
+          "hasRuntimeController": false,
+          "applyRootMotion": true
+        }
+      ]
+    },
+    {
+      "id": "Idle",
+      "path": "Assets/Afrer_Seconds/07.Animator/Player/Clips/Player_Idle.fbx",
+      "guid": "d9adf6c9359026747a4c31684c7412df",
+      "loadedAssetCount": 118,
+      "hasModel": true,
+      "importer": {
+        "animationType": "Human",
+        "avatarSetup": "CreateFromThisModel",
+        "importAnimation": true,
+        "globalScale": 1.0,
+        "sourceAvatarName": null,
+        "humanMappingCount": 51,
+        "skeletonEntryCount": 56,
+        "usingDefaultClipDefinitions": false,
+        "clipDefinitions": [
+          {
+            "name": "Player_Idle",
+            "takeName": "Scene",
+            "firstFrame": 2.0,
+            "lastFrame": 269.0,
+            "loopTime": false,
+            "loopPose": false
+          }
+        ]
+      },
+      "avatars": [
+        {
+          "name": "Player_IdleAvatar",
+          "isValid": true,
+          "isHuman": true
+        }
+      ],
+      "clips": [
+        {
+          "name": "__preview__Scene",
+          "isPreview": true,
+          "lengthSeconds": 8.966667,
+          "frameRate": 30.0,
+          "isHumanMotion": true,
+          "legacy": false,
+          "loopTime": false,
+          "curveBindingCount": 140
+        },
+        {
+          "name": "Player_Idle",
+          "isPreview": false,
+          "lengthSeconds": 8.900001,
+          "frameRate": 30.0,
+          "isHumanMotion": true,
+          "legacy": false,
+          "loopTime": false,
+          "curveBindingCount": 130
+        }
+      ],
+      "nonPreviewClipCount": 1,
+      "transformCount": 56,
+      "skinnedRendererCount": 1,
+      "skinnedRenderers": [
+        {
+          "name": "mesh_0",
+          "boneCount": 53,
+          "nullBoneCount": 0,
+          "rootBone": "Root",
+          "meshName": "mesh_0",
+          "bindPoseCount": 53,
+          "vertexCount": 5185,
+          "boneNames": [
+            "Root",
+            "Hips",
+            "Spine",
+            "Spine1",
+            "Spine2",
+            "Neck",
+            "Head",
+            "LeftShoulder",
+            "LeftArm",
+            "LeftForeArm",
+            "LeftHand",
+            "HandLoRA_Bip01_L_Finger0",
+            "HandLoRA_Bip01_L_Finger01",
+            "HandLoRA_Bip01_L_Finger02",
+            "HandLoRA_Bip01_L_Finger1",
+            "HandLoRA_Bip01_L_Finger11",
+            "HandLoRA_Bip01_L_Finger12",
+            "HandLoRA_Bip01_L_Finger2",
+            "HandLoRA_Bip01_L_Finger21",
+            "HandLoRA_Bip01_L_Finger22",
+            "HandLoRA_Bip01_L_Finger3",
+            "HandLoRA_Bip01_L_Finger31",
+            "HandLoRA_Bip01_L_Finger32",
+            "HandLoRA_Bip01_L_Finger4",
+            "HandLoRA_Bip01_L_Finger41",
+            "HandLoRA_Bip01_L_Finger42",
+            "RightShoulder",
+            "RightArm",
+            "RightForeArm",
+            "RightHand",
+            "HandLoRA_Bip01_R_Finger0",
+            "HandLoRA_Bip01_R_Finger01",
+            "HandLoRA_Bip01_R_Finger02",
+            "HandLoRA_Bip01_R_Finger1",
+            "HandLoRA_Bip01_R_Finger11",
+            "HandLoRA_Bip01_R_Finger12",
+            "HandLoRA_Bip01_R_Finger2",
+            "HandLoRA_Bip01_R_Finger21",
+            "HandLoRA_Bip01_R_Finger22",
+            "HandLoRA_Bip01_R_Finger3",
+            "HandLoRA_Bip01_R_Finger31",
+            "HandLoRA_Bip01_R_Finger32",
+            "HandLoRA_Bip01_R_Finger4",
+            "HandLoRA_Bip01_R_Finger41",
+            "HandLoRA_Bip01_R_Finger42",
+            "LeftUpLeg",
+            "LeftLeg",
+            "LeftFoot",
+            "LeftToeBase",
+            "RightUpLeg",
+            "RightLeg",
+            "RightFoot",
+            "RightToeBase"
+          ]
+        }
+      ],
+      "animators": [
+        {
+          "name": "Player_Idle",
+          "avatarName": "Player_IdleAvatar",
+          "avatarValid": true,
+          "avatarHuman": true,
+          "hasRuntimeController": false,
+          "applyRootMotion": true
+        }
+      ]
+    },
+    {
+      "id": "Walk",
+      "path": "Assets/Afrer_Seconds/07.Animator/Player/Clips/Player_Walk.fbx",
+      "guid": "c134c0cb239e46b40810a45b3c48e5b1",
+      "loadedAssetCount": 118,
+      "hasModel": true,
+      "importer": {
+        "animationType": "Human",
+        "avatarSetup": "CreateFromThisModel",
+        "importAnimation": true,
+        "globalScale": 1.0,
+        "sourceAvatarName": null,
+        "humanMappingCount": 51,
+        "skeletonEntryCount": 56,
+        "usingDefaultClipDefinitions": false,
+        "clipDefinitions": [
+          {
+            "name": "Player_Walk",
+            "takeName": "Scene",
+            "firstFrame": 2.0,
+            "lastFrame": 227.0,
+            "loopTime": false,
+            "loopPose": false
+          }
+        ]
+      },
+      "avatars": [
+        {
+          "name": "Player_WalkAvatar",
+          "isValid": true,
+          "isHuman": true
+        }
+      ],
+      "clips": [
+        {
+          "name": "__preview__Scene",
+          "isPreview": true,
+          "lengthSeconds": 7.566667,
+          "frameRate": 30.0,
+          "isHumanMotion": true,
+          "legacy": false,
+          "loopTime": false,
+          "curveBindingCount": 140
+        },
+        {
+          "name": "Player_Walk",
+          "isPreview": false,
+          "lengthSeconds": 7.50000048,
+          "frameRate": 30.0,
+          "isHumanMotion": true,
+          "legacy": false,
+          "loopTime": false,
+          "curveBindingCount": 130
+        }
+      ],
+      "nonPreviewClipCount": 1,
+      "transformCount": 56,
+      "skinnedRendererCount": 1,
+      "skinnedRenderers": [
+        {
+          "name": "mesh_0",
+          "boneCount": 53,
+          "nullBoneCount": 0,
+          "rootBone": "Root",
+          "meshName": "mesh_0",
+          "bindPoseCount": 53,
+          "vertexCount": 5185,
+          "boneNames": [
+            "Root",
+            "Hips",
+            "Spine",
+            "Spine1",
+            "Spine2",
+            "Neck",
+            "Head",
+            "LeftShoulder",
+            "LeftArm",
+            "LeftForeArm",
+            "LeftHand",
+            "HandLoRA_Bip01_L_Finger0",
+            "HandLoRA_Bip01_L_Finger01",
+            "HandLoRA_Bip01_L_Finger02",
+            "HandLoRA_Bip01_L_Finger1",
+            "HandLoRA_Bip01_L_Finger11",
+            "HandLoRA_Bip01_L_Finger12",
+            "HandLoRA_Bip01_L_Finger2",
+            "HandLoRA_Bip01_L_Finger21",
+            "HandLoRA_Bip01_L_Finger22",
+            "HandLoRA_Bip01_L_Finger3",
+            "HandLoRA_Bip01_L_Finger31",
+            "HandLoRA_Bip01_L_Finger32",
+            "HandLoRA_Bip01_L_Finger4",
+            "HandLoRA_Bip01_L_Finger41",
+            "HandLoRA_Bip01_L_Finger42",
+            "RightShoulder",
+            "RightArm",
+            "RightForeArm",
+            "RightHand",
+            "HandLoRA_Bip01_R_Finger0",
+            "HandLoRA_Bip01_R_Finger01",
+            "HandLoRA_Bip01_R_Finger02",
+            "HandLoRA_Bip01_R_Finger1",
+            "HandLoRA_Bip01_R_Finger11",
+            "HandLoRA_Bip01_R_Finger12",
+            "HandLoRA_Bip01_R_Finger2",
+            "HandLoRA_Bip01_R_Finger21",
+            "HandLoRA_Bip01_R_Finger22",
+            "HandLoRA_Bip01_R_Finger3",
+            "HandLoRA_Bip01_R_Finger31",
+            "HandLoRA_Bip01_R_Finger32",
+            "HandLoRA_Bip01_R_Finger4",
+            "HandLoRA_Bip01_R_Finger41",
+            "HandLoRA_Bip01_R_Finger42",
+            "LeftUpLeg",
+            "LeftLeg",
+            "LeftFoot",
+            "LeftToeBase",
+            "RightUpLeg",
+            "RightLeg",
+            "RightFoot",
+            "RightToeBase"
+          ]
+        }
+      ],
+      "animators": [
+        {
+          "name": "Player_Walk",
+          "avatarName": "Player_WalkAvatar",
+          "avatarValid": true,
+          "avatarHuman": true,
+          "hasRuntimeController": false,
+          "applyRootMotion": true
+        }
+      ]
+    },
+    {
+      "id": "Run",
+      "path": "Assets/Afrer_Seconds/07.Animator/Player/Clips/Player_Run.fbx",
+      "guid": "c11e43a3f3f4845499cfa8f9000c0860",
+      "loadedAssetCount": 118,
+      "hasModel": true,
+      "importer": {
+        "animationType": "Human",
+        "avatarSetup": "CreateFromThisModel",
+        "importAnimation": true,
+        "globalScale": 1.0,
+        "sourceAvatarName": null,
+        "humanMappingCount": 51,
+        "skeletonEntryCount": 56,
+        "usingDefaultClipDefinitions": false,
+        "clipDefinitions": [
+          {
+            "name": "Player_Run",
+            "takeName": "Scene",
+            "firstFrame": 2.0,
+            "lastFrame": 49.0,
+            "loopTime": false,
+            "loopPose": false
+          }
+        ]
+      },
+      "avatars": [
+        {
+          "name": "Player_RunAvatar",
+          "isValid": true,
+          "isHuman": true
+        }
+      ],
+      "clips": [
+        {
+          "name": "__preview__Scene",
+          "isPreview": true,
+          "lengthSeconds": 1.63333344,
+          "frameRate": 30.0,
+          "isHumanMotion": true,
+          "legacy": false,
+          "loopTime": false,
+          "curveBindingCount": 140
+        },
+        {
+          "name": "Player_Run",
+          "isPreview": false,
+          "lengthSeconds": 1.56666672,
+          "frameRate": 30.0,
+          "isHumanMotion": true,
+          "legacy": false,
+          "loopTime": false,
+          "curveBindingCount": 130
+        }
+      ],
+      "nonPreviewClipCount": 1,
+      "transformCount": 56,
+      "skinnedRendererCount": 1,
+      "skinnedRenderers": [
+        {
+          "name": "mesh_0",
+          "boneCount": 53,
+          "nullBoneCount": 0,
+          "rootBone": "Root",
+          "meshName": "mesh_0",
+          "bindPoseCount": 53,
+          "vertexCount": 5185,
+          "boneNames": [
+            "Root",
+            "Hips",
+            "Spine",
+            "Spine1",
+            "Spine2",
+            "Neck",
+            "Head",
+            "LeftShoulder",
+            "LeftArm",
+            "LeftForeArm",
+            "LeftHand",
+            "HandLoRA_Bip01_L_Finger0",
+            "HandLoRA_Bip01_L_Finger01",
+            "HandLoRA_Bip01_L_Finger02",
+            "HandLoRA_Bip01_L_Finger1",
+            "HandLoRA_Bip01_L_Finger11",
+            "HandLoRA_Bip01_L_Finger12",
+            "HandLoRA_Bip01_L_Finger2",
+            "HandLoRA_Bip01_L_Finger21",
+            "HandLoRA_Bip01_L_Finger22",
+            "HandLoRA_Bip01_L_Finger3",
+            "HandLoRA_Bip01_L_Finger31",
+            "HandLoRA_Bip01_L_Finger32",
+            "HandLoRA_Bip01_L_Finger4",
+            "HandLoRA_Bip01_L_Finger41",
+            "HandLoRA_Bip01_L_Finger42",
+            "RightShoulder",
+            "RightArm",
+            "RightForeArm",
+            "RightHand",
+            "HandLoRA_Bip01_R_Finger0",
+            "HandLoRA_Bip01_R_Finger01",
+            "HandLoRA_Bip01_R_Finger02",
+            "HandLoRA_Bip01_R_Finger1",
+            "HandLoRA_Bip01_R_Finger11",
+            "HandLoRA_Bip01_R_Finger12",
+            "HandLoRA_Bip01_R_Finger2",
+            "HandLoRA_Bip01_R_Finger21",
+            "HandLoRA_Bip01_R_Finger22",
+            "HandLoRA_Bip01_R_Finger3",
+            "HandLoRA_Bip01_R_Finger31",
+            "HandLoRA_Bip01_R_Finger32",
+            "HandLoRA_Bip01_R_Finger4",
+            "HandLoRA_Bip01_R_Finger41",
+            "HandLoRA_Bip01_R_Finger42",
+            "LeftUpLeg",
+            "LeftLeg",
+            "LeftFoot",
+            "LeftToeBase",
+            "RightUpLeg",
+            "RightLeg",
+            "RightFoot",
+            "RightToeBase"
+          ]
+        }
+      ],
+      "animators": [
+        {
+          "name": "Player_Run",
+          "avatarName": "Player_RunAvatar",
+          "avatarValid": true,
+          "avatarHuman": true,
+          "hasRuntimeController": false,
+          "applyRootMotion": true
+        }
+      ]
+    },
+    {
+      "id": "Jump",
+      "path": "Assets/Afrer_Seconds/07.Animator/Player/Clips/Player_Jump.fbx",
+      "guid": "4bcb4d2bf7aec214b9ef1e6e6f53106a",
+      "loadedAssetCount": 118,
+      "hasModel": true,
+      "importer": {
+        "animationType": "Human",
+        "avatarSetup": "CreateFromThisModel",
+        "importAnimation": true,
+        "globalScale": 1.0,
+        "sourceAvatarName": null,
+        "humanMappingCount": 51,
+        "skeletonEntryCount": 56,
+        "usingDefaultClipDefinitions": false,
+        "clipDefinitions": [
+          {
+            "name": "Player_Jump",
+            "takeName": "Scene",
+            "firstFrame": 2.0,
+            "lastFrame": 144.0,
+            "loopTime": false,
+            "loopPose": false
+          }
+        ]
+      },
+      "avatars": [
+        {
+          "name": "Player_JumpAvatar",
+          "isValid": true,
+          "isHuman": true
+        }
+      ],
+      "clips": [
+        {
+          "name": "__preview__Scene",
+          "isPreview": true,
+          "lengthSeconds": 4.8,
+          "frameRate": 30.0,
+          "isHumanMotion": true,
+          "legacy": false,
+          "loopTime": false,
+          "curveBindingCount": 140
+        },
+        {
+          "name": "Player_Jump",
+          "isPreview": false,
+          "lengthSeconds": 4.73333359,
+          "frameRate": 30.0,
+          "isHumanMotion": true,
+          "legacy": false,
+          "loopTime": false,
+          "curveBindingCount": 130
+        }
+      ],
+      "nonPreviewClipCount": 1,
+      "transformCount": 56,
+      "skinnedRendererCount": 1,
+      "skinnedRenderers": [
+        {
+          "name": "mesh_0",
+          "boneCount": 53,
+          "nullBoneCount": 0,
+          "rootBone": "Root",
+          "meshName": "mesh_0",
+          "bindPoseCount": 53,
+          "vertexCount": 5185,
+          "boneNames": [
+            "Root",
+            "Hips",
+            "Spine",
+            "Spine1",
+            "Spine2",
+            "Neck",
+            "Head",
+            "LeftShoulder",
+            "LeftArm",
+            "LeftForeArm",
+            "LeftHand",
+            "HandLoRA_Bip01_L_Finger0",
+            "HandLoRA_Bip01_L_Finger01",
+            "HandLoRA_Bip01_L_Finger02",
+            "HandLoRA_Bip01_L_Finger1",
+            "HandLoRA_Bip01_L_Finger11",
+            "HandLoRA_Bip01_L_Finger12",
+            "HandLoRA_Bip01_L_Finger2",
+            "HandLoRA_Bip01_L_Finger21",
+            "HandLoRA_Bip01_L_Finger22",
+            "HandLoRA_Bip01_L_Finger3",
+            "HandLoRA_Bip01_L_Finger31",
+            "HandLoRA_Bip01_L_Finger32",
+            "HandLoRA_Bip01_L_Finger4",
+            "HandLoRA_Bip01_L_Finger41",
+            "HandLoRA_Bip01_L_Finger42",
+            "RightShoulder",
+            "RightArm",
+            "RightForeArm",
+            "RightHand",
+            "HandLoRA_Bip01_R_Finger0",
+            "HandLoRA_Bip01_R_Finger01",
+            "HandLoRA_Bip01_R_Finger02",
+            "HandLoRA_Bip01_R_Finger1",
+            "HandLoRA_Bip01_R_Finger11",
+            "HandLoRA_Bip01_R_Finger12",
+            "HandLoRA_Bip01_R_Finger2",
+            "HandLoRA_Bip01_R_Finger21",
+            "HandLoRA_Bip01_R_Finger22",
+            "HandLoRA_Bip01_R_Finger3",
+            "HandLoRA_Bip01_R_Finger31",
+            "HandLoRA_Bip01_R_Finger32",
+            "HandLoRA_Bip01_R_Finger4",
+            "HandLoRA_Bip01_R_Finger41",
+            "HandLoRA_Bip01_R_Finger42",
+            "LeftUpLeg",
+            "LeftLeg",
+            "LeftFoot",
+            "LeftToeBase",
+            "RightUpLeg",
+            "RightLeg",
+            "RightFoot",
+            "RightToeBase"
+          ]
+        }
+      ],
+      "animators": [
+        {
+          "name": "Player_Jump",
+          "avatarName": "Player_JumpAvatar",
+          "avatarValid": true,
+          "avatarHuman": true,
+          "hasRuntimeController": false,
+          "applyRootMotion": true
+        }
+      ]
+    },
+    {
+      "id": "Land",
+      "path": "Assets/Afrer_Seconds/07.Animator/Player/Clips/Player_Land.fbx",
+      "guid": "e30c59ed0fa1f864b845631af70a4d65",
+      "loadedAssetCount": 118,
+      "hasModel": true,
+      "importer": {
+        "animationType": "Human",
+        "avatarSetup": "CreateFromThisModel",
+        "importAnimation": true,
+        "globalScale": 1.0,
+        "sourceAvatarName": null,
+        "humanMappingCount": 51,
+        "skeletonEntryCount": 56,
+        "usingDefaultClipDefinitions": false,
+        "clipDefinitions": [
+          {
+            "name": "Player_Land",
+            "takeName": "Scene",
+            "firstFrame": 2.0,
+            "lastFrame": 65.0,
+            "loopTime": false,
+            "loopPose": false
+          }
+        ]
+      },
+      "avatars": [
+        {
+          "name": "Player_LandAvatar",
+          "isValid": true,
+          "isHuman": true
+        }
+      ],
+      "clips": [
+        {
+          "name": "__preview__Scene",
+          "isPreview": true,
+          "lengthSeconds": 2.16666675,
+          "frameRate": 30.0,
+          "isHumanMotion": true,
+          "legacy": false,
+          "loopTime": false,
+          "curveBindingCount": 140
+        },
+        {
+          "name": "Player_Land",
+          "isPreview": false,
+          "lengthSeconds": 2.10000014,
+          "frameRate": 30.0,
+          "isHumanMotion": true,
+          "legacy": false,
+          "loopTime": false,
+          "curveBindingCount": 130
+        }
+      ],
+      "nonPreviewClipCount": 1,
+      "transformCount": 56,
+      "skinnedRendererCount": 1,
+      "skinnedRenderers": [
+        {
+          "name": "mesh_0",
+          "boneCount": 53,
+          "nullBoneCount": 0,
+          "rootBone": "Root",
+          "meshName": "mesh_0",
+          "bindPoseCount": 53,
+          "vertexCount": 5185,
+          "boneNames": [
+            "Root",
+            "Hips",
+            "Spine",
+            "Spine1",
+            "Spine2",
+            "Neck",
+            "Head",
+            "LeftShoulder",
+            "LeftArm",
+            "LeftForeArm",
+            "LeftHand",
+            "HandLoRA_Bip01_L_Finger0",
+            "HandLoRA_Bip01_L_Finger01",
+            "HandLoRA_Bip01_L_Finger02",
+            "HandLoRA_Bip01_L_Finger1",
+            "HandLoRA_Bip01_L_Finger11",
+            "HandLoRA_Bip01_L_Finger12",
+            "HandLoRA_Bip01_L_Finger2",
+            "HandLoRA_Bip01_L_Finger21",
+            "HandLoRA_Bip01_L_Finger22",
+            "HandLoRA_Bip01_L_Finger3",
+            "HandLoRA_Bip01_L_Finger31",
+            "HandLoRA_Bip01_L_Finger32",
+            "HandLoRA_Bip01_L_Finger4",
+            "HandLoRA_Bip01_L_Finger41",
+            "HandLoRA_Bip01_L_Finger42",
+            "RightShoulder",
+            "RightArm",
+            "RightForeArm",
+            "RightHand",
+            "HandLoRA_Bip01_R_Finger0",
+            "HandLoRA_Bip01_R_Finger01",
+            "HandLoRA_Bip01_R_Finger02",
+            "HandLoRA_Bip01_R_Finger1",
+            "HandLoRA_Bip01_R_Finger11",
+            "HandLoRA_Bip01_R_Finger12",
+            "HandLoRA_Bip01_R_Finger2",
+            "HandLoRA_Bip01_R_Finger21",
+            "HandLoRA_Bip01_R_Finger22",
+            "HandLoRA_Bip01_R_Finger3",
+            "HandLoRA_Bip01_R_Finger31",
+            "HandLoRA_Bip01_R_Finger32",
+            "HandLoRA_Bip01_R_Finger4",
+            "HandLoRA_Bip01_R_Finger41",
+            "HandLoRA_Bip01_R_Finger42",
+            "LeftUpLeg",
+            "LeftLeg",
+            "LeftFoot",
+            "LeftToeBase",
+            "RightUpLeg",
+            "RightLeg",
+            "RightFoot",
+            "RightToeBase"
+          ]
+        }
+      ],
+      "animators": [
+        {
+          "name": "Player_Land",
+          "avatarName": "Player_LandAvatar",
+          "avatarValid": true,
+          "avatarHuman": true,
+          "hasRuntimeController": false,
+          "applyRootMotion": true
+        }
+      ]
+    },
+    {
+      "id": "Pickup",
+      "path": "Assets/Afrer_Seconds/07.Animator/Player/Clips/Player_Pickup.fbx",
+      "guid": "3be2889a18d5d27449959dcaefc450a4",
+      "loadedAssetCount": 118,
+      "hasModel": true,
+      "importer": {
+        "animationType": "Human",
+        "avatarSetup": "CreateFromThisModel",
+        "importAnimation": true,
+        "globalScale": 1.0,
+        "sourceAvatarName": null,
+        "humanMappingCount": 51,
+        "skeletonEntryCount": 56,
+        "usingDefaultClipDefinitions": false,
+        "clipDefinitions": [
+          {
+            "name": "Player_Pickup",
+            "takeName": "Scene",
+            "firstFrame": 2.0,
+            "lastFrame": 210.0,
+            "loopTime": false,
+            "loopPose": false
+          }
+        ]
+      },
+      "avatars": [
+        {
+          "name": "Player_PickupAvatar",
+          "isValid": true,
+          "isHuman": true
+        }
+      ],
+      "clips": [
+        {
+          "name": "__preview__Scene",
+          "isPreview": true,
+          "lengthSeconds": 7.00000048,
+          "frameRate": 30.0,
+          "isHumanMotion": true,
+          "legacy": false,
+          "loopTime": false,
+          "curveBindingCount": 140
+        },
+        {
+          "name": "Player_Pickup",
+          "isPreview": false,
+          "lengthSeconds": 6.933334,
+          "frameRate": 30.0,
+          "isHumanMotion": true,
+          "legacy": false,
+          "loopTime": false,
+          "curveBindingCount": 130
+        }
+      ],
+      "nonPreviewClipCount": 1,
+      "transformCount": 56,
+      "skinnedRendererCount": 1,
+      "skinnedRenderers": [
+        {
+          "name": "mesh_0",
+          "boneCount": 53,
+          "nullBoneCount": 0,
+          "rootBone": "Root",
+          "meshName": "mesh_0",
+          "bindPoseCount": 53,
+          "vertexCount": 5185,
+          "boneNames": [
+            "Root",
+            "Hips",
+            "Spine",
+            "Spine1",
+            "Spine2",
+            "Neck",
+            "Head",
+            "LeftShoulder",
+            "LeftArm",
+            "LeftForeArm",
+            "LeftHand",
+            "HandLoRA_Bip01_L_Finger0",
+            "HandLoRA_Bip01_L_Finger01",
+            "HandLoRA_Bip01_L_Finger02",
+            "HandLoRA_Bip01_L_Finger1",
+            "HandLoRA_Bip01_L_Finger11",
+            "HandLoRA_Bip01_L_Finger12",
+            "HandLoRA_Bip01_L_Finger2",
+            "HandLoRA_Bip01_L_Finger21",
+            "HandLoRA_Bip01_L_Finger22",
+            "HandLoRA_Bip01_L_Finger3",
+            "HandLoRA_Bip01_L_Finger31",
+            "HandLoRA_Bip01_L_Finger32",
+            "HandLoRA_Bip01_L_Finger4",
+            "HandLoRA_Bip01_L_Finger41",
+            "HandLoRA_Bip01_L_Finger42",
+            "RightShoulder",
+            "RightArm",
+            "RightForeArm",
+            "RightHand",
+            "HandLoRA_Bip01_R_Finger0",
+            "HandLoRA_Bip01_R_Finger01",
+            "HandLoRA_Bip01_R_Finger02",
+            "HandLoRA_Bip01_R_Finger1",
+            "HandLoRA_Bip01_R_Finger11",
+            "HandLoRA_Bip01_R_Finger12",
+            "HandLoRA_Bip01_R_Finger2",
+            "HandLoRA_Bip01_R_Finger21",
+            "HandLoRA_Bip01_R_Finger22",
+            "HandLoRA_Bip01_R_Finger3",
+            "HandLoRA_Bip01_R_Finger31",
+            "HandLoRA_Bip01_R_Finger32",
+            "HandLoRA_Bip01_R_Finger4",
+            "HandLoRA_Bip01_R_Finger41",
+            "HandLoRA_Bip01_R_Finger42",
+            "LeftUpLeg",
+            "LeftLeg",
+            "LeftFoot",
+            "LeftToeBase",
+            "RightUpLeg",
+            "RightLeg",
+            "RightFoot",
+            "RightToeBase"
+          ]
+        }
+      ],
+      "animators": [
+        {
+          "name": "Player_Pickup",
+          "avatarName": "Player_PickupAvatar",
+          "avatarValid": true,
+          "avatarHuman": true,
+          "hasRuntimeController": false,
+          "applyRootMotion": true
+        }
+      ]
+    }
+  ]
+}

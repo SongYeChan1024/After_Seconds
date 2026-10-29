@@ -1,0 +1,67 @@
+{
+  "sampledUtc": "2026-10-29T07:01:05.6351367Z",
+  "scene": "Assets/Afrer_Seconds/01.Scenes/SampleScene.unity",
+  "sceneSaved": true,
+  "newModel": "PlayerDummy_Rigged_V0.3",
+  "newModelActive": true,
+  "oldModel": "AS05_PlayerDummy_Rigged",
+  "oldModelActive": false,
+  "newModelAsset": "Assets/Afrer_Seconds/05.Model/Player/Rigged/Models/PlayerDummy_Rigged_V0.3.fbx",
+  "avatar": "PlayerDummy_Rigged_V0.3Avatar",
+  "valid": true,
+  "human": true,
+  "controller": "Assets/Afrer_Seconds/07.Animator/Player/Controllers/Player_Animator.controller",
+  "applyRootMotion": false,
+  "activeAnimatorCount": 1,
+  "defaultState": "Player_Idle",
+  "motions": [
+    {
+      "state": "Player_Idle",
+      "motion": "Player_Idle",
+      "path": "Assets/Afrer_Seconds/07.Animator/Player/Clips/Rigged_V0.3/Player_Idle.fbx"
+    },
+    {
+      "state": "Player_Jump",
+      "motion": "Player_Jump",
+      "path": "Assets/Afrer_Seconds/07.Animator/Player/Clips/Rigged_V0.3/Player_Jump.fbx"
+    },
+    {
+      "state": "Player_Land",
+      "motion": "Player_Land",
+      "path": "Assets/Afrer_Seconds/07.Animator/Player/Clips/Rigged_V0.3/Player_Land.fbx"
+    },
+    {
+      "state": "Player_Pickup",
+      "motion": "Player_Pickup",
+      "path": "Assets/Afrer_Seconds/07.Animator/Player/Clips/Rigged_V0.3/Player_Pickup.fbx"
+    },
+    {
+      "state": "Player_Run",
+      "motion": "Player_Run",
+      "path": "Assets/Afrer_Seconds/07.Animator/Player/Clips/Rigged_V0.3/Player_Run.fbx"
+    },
+    {
+      "state": "Player_Walk",
+      "motion": "Player_Walk",
+      "path": "Assets/Afrer_Seconds/07.Animator/Player/Clips/Rigged_V0.3/Player_Walk.fbx"
+    }
+  ],
+  "selected": "PlayerDummy_Rigged_V0.3",
+  "playing": false,
+  "scopeVerification": {
+    "checkedFileCount": 134,
+    "changedFiles": [
+      "Assets/Afrer_Seconds/01.Scenes/SampleScene.unity",
+      "Assets/Afrer_Seconds/07.Animator/Player/Controllers/Player_Animator.controller"
+    ],
+    "unexpectedChangedFiles": [],
+    "controllerOnlySixMotionReferencesChanged": true,
+    "controllerStatesTransitionsParametersPreserved": true,
+    "sceneComponentsOutsidePlayerModelPreserved": true,
+    "playerPrefabAssetApplied": false,
+    "gameplayAnimatorParameterCodeAdded": false,
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "compilationFailed": false
+  }
+}
