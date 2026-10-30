@@ -1,4 +1,4 @@
-# After Seconds (애프터 세컨즈) — 메인 기획서 V0.09
+# After Seconds (애프터 세컨즈) — 메인 기획서 V0.10
 
 > 모든 행동이 3초 늦게 세상에 닿는 실험체가 되어, 총에 맞힌 것과 3초 뒤 자리를 바꾸며 시설을 탈출하는 1인칭 퍼즐 액션 게임.
 
@@ -1121,7 +1121,7 @@ z= 9   +------------    ------------+   남쪽: 통로 ← 9번 연쇄
 
 캐릭터 공통 원문: nonmetallic featureless human mannequin, adult human proportions, clean human silhouette, full-body symmetrical T-pose, two arms two legs, no face detail, no accessories, no weapons, no base, soft neutral studio lighting, plain gray background, full body visible. COLOR = neutral matte gray (player) / matte orange (guard).
 
-Unity 진행 방식: 사용자가 `Unity_Project_After_Seconds/After_Seconds_Build_V0.01`에 초기 프로젝트를 생성했습니다. Unity 6000.4.0f1 / URP 17.4.0 / Input System 1.19.0입니다. 사용자가 분석·의사코드·구현을 직접 진행하고 Codex는 구조 분석·설계·질문 대응을 지원합니다. 게임 로직·계층별 asmdef는 아직 구현 전입니다.
+Unity 진행 방식: 사용자가 `Unity/After_Seconds_Build_V0.01`에 초기 프로젝트를 생성했습니다. Unity 6000.4.0f1 / URP 17.4.0 / Input System 1.19.0입니다. 사용자가 분석·의사코드·구현을 직접 진행하고 Codex는 구조 분석·설계·질문 대응을 지원합니다. 게임 로직·계층별 asmdef는 아직 구현 전입니다.
 
 참고: https://github.com/Jin-o12/Document_LucidDiver 및 https://github.com/Jin-o12/UnityProject_LucidDiver . 원본 Define → Utils → System·UI → Manager·Presenter 분리와 asmdef 의존성 관리를 참고합니다. 원본 UI가 System을, Presenter가 Manager를 참조한다는 실제 구조도 함께 확인했습니다.
 
@@ -1207,3 +1207,5 @@ After Seconds 제안: Define은 순수 데이터·계약, Simulation은 Unity에
 | V0.08 | 2026-10-26 | 송예찬 | 연구소 전체 건물 시안 V0.01 반영. 9.0에 외관·층별 지원 공간·보안 및 직원 동선·층 연결 유지·치수 가안·검증 항목 추가. 외관·단면과 전체 층별 평면 이미지 수록. 기존 방별 좌표·SVG 보존 |
 
 | V0.09 | 2026-10-26 | 송예찬 | 부위별 모듈 제작·공통 STYLE/OBJECT 템플릿·에셋 후보 AS01~06·회색 플레이어와 주황 경비 더미 추가. Unity 사용 및 사용자 주도 프로젝트 생성·의사코드 학습 진행 반영. 루시드 다이버 계층 분석을 바탕으로 순수 Simulation 분리와 단계별 구현 순서 제안 |
+
+| V0.10 | 2026-10-30 | 송예찬 | 로컬 프로젝트를 Desktop/Projects 아래로 이동하고 Unity 상위 폴더 경로를 Unity로 갱신. 게임 규칙·수치 변경 없음. 구글 문서는 이번 로컬 경로 정리에서 수정하지 않음 |

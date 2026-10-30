@@ -1,4 +1,4 @@
-# After Seconds 프로젝트 안내 V0.10
+# After Seconds 프로젝트 안내 V0.11
 
 맞힌 대상과 3초 뒤 위치를 바꾸며 연구 시설을 탈출하는 1인칭 퍼즐 액션 게임.
 
@@ -8,7 +8,7 @@
 | --- | --- |
 | `Docs/` | 메인 기획서, 계층 설계·학습 안내, 이어하기 기록, 도면 |
 | `Prototype/Web/` | 웹 프로토타입과 설명 |
-| `Unity_Project_After_Seconds/After_Seconds_Build_V0.01/` | 현재 Unity 게임 프로젝트 |
+| `Unity/After_Seconds_Build_V0.01/` | 현재 Unity 게임 프로젝트 |
 
 Unity 작업 루트는 `Assets/Afrer_Seconds/`다. 앞으로 `03.Art`에는 2D 이미지만 넣고 `UI/`, `Cutscenes/` 등 이미지 종류별 폴더로 분류. 
 `05.Model`에는 기준 리깅 모델과 부속 재질·조립 중인 외형을 용도별로 보관하고, `04.Prefabs`에는 스크립트와 결합해 기능이 완성된 에셋을 둘 것. 
@@ -20,14 +20,14 @@ Unity 작업 루트는 `Assets/Afrer_Seconds/`다. 앞으로 `03.Art`에는 2D �
 신규 모델은 `05.Model/Player/Rigged/Models/PlayerDummy_Rigged_V0.3.fbx`, 동작은 `07.Animator/Player/Clips/Rigged_V0.3/`에 분리. 
 새 7개 파일의 유효한 Humanoid Avatar와 동작 54개 시점의 임시 미리보기를 확인했으며, 반입 단계에서는 기존 V0.2·동작 6종·보호 대상 파일 116개를 보존. 
 **웹 재생성 원본에는 스킨 인덱스 오류가 남아 있으므로 프로젝트의 보정 FBX를 기준으로 한다.** 미세 변형·접지·루프·독립 발가락·손 쥐기 품질은 추가 검수 대상. 
-파일별 출처와 확인 범위는 [리깅·애니메이션 안내](Unity_Project_After_Seconds/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Player/Rigged/README.md)를 따름.
+파일별 출처와 확인 범위는 [리깅·애니메이션 안내](Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Player/Rigged/README.md)를 따름.
 
 현재 SampleScene과 사용자가 적용한 기준 플레이어 프리팹에 V0.3 외형과 `Player_Animator`의 동작 6종을 연결했다. 사용자 코드가 `PlayerPresenter → PlayerAnimationSystem.isMove → Animator.IsMoving`으로 이동 입력 여부를 전달해 WASD에 따라 Idle·Walk가 전환된다. Walk는 원본 FBX를 보존한 채 importer의 프레임 `124–160`만 사용하며, 클립 약 `1.2초`·State `1.5배`로 한 보행 주기 약 `0.8초`를 반복한다. 실제 이동 속도는 `1.5m/s`, 높이 오프셋은 `0.227`이며 Root Motion은 껐다. 다음은 점프·스프린트·상호작용과 관련 애니메이션을 의사코드부터 분석하고 사용자가 직접 구현하는 단계다.
 
 현재 `03.Art/Candidates/VARCO`에 남아 있는 기존 모델·텍스처·재질·검수 기록은 과거 반입 결과. 
 앞으로의 2D 이미지 분류 기준과 구분하며, 이번에는 기존 파일을 일괄 이동하지 않음.
 
-실제 폴더 트리·계층별 역할·현재 에셋 위치는 [Unity 프로젝트 안내](Unity_Project_After_Seconds/README.md)에 정리.
+실제 폴더 트리·계층별 역할·현재 에셋 위치는 [Unity 프로젝트 안내](Unity/README.md)에 정리.
 
 ## 주요 문서
 
@@ -35,7 +35,7 @@ Unity 작업 루트는 `Assets/Afrer_Seconds/`다. 앞으로 `03.Art`에는 2D �
 - [집에서 이어하기 — 2026-10-26](Docs/이어하기_2026-10-26.md)
 - [메인 기획서 V0.09](Docs/AfterSeconds_메인기획서.md)
 - [Unity 계층 설계와 학습 순서](Docs/Unity_계층_설계와_학습_순서.md)
-- [Unity 프로젝트 안내](Unity_Project_After_Seconds/README.md)
+- [Unity 프로젝트 안내](Unity/README.md)
 - [2026-10-28 데일리 로그 — 의사코드로 배우는 과정](https://songyechan1024.github.io/Kasil_DevLog/posts/daily-log-learning-through-pseudocode/)
 - [2026-10-28 기술 기록 — After Seconds 1인칭 플레이어 컨트롤러](https://songyechan1024.github.io/Kasil_DevLog/posts/after-seconds-first-person-player-controller/)
 
@@ -90,7 +90,7 @@ unity auth status
 
 ### 3. 기존 Unity 프로젝트 열기
 
-Unity Hub에 **6000.4.0f1**을 설치하고, 받은 저장소 안의 `Unity_Project_After_Seconds/After_Seconds_Build_V0.01`을 기존 프로젝트로 추가해 열기. 
+Unity Hub에 **6000.4.0f1**을 설치하고, 받은 저장소 안의 `Unity/After_Seconds_Build_V0.01`을 기존 프로젝트로 추가해 열기.
 `Assets`, `Packages`, `ProjectSettings`가 있는 폴더가 기준이며 새 프로젝트를 만들 필요는 없음.
 
 `Packages/manifest.json`에는 `com.unity.pipeline` **0.9.1-exp.1**과 `com.unity.cinemachine` **2.10.7**이 등록되어 있다. 최신 `main`을 받은 다음 최초 Library 생성과 Package Manager의 패키지 복원·스크립트 컴파일을 기다린다. 
@@ -110,7 +110,7 @@ Unity Hub에 **6000.4.0f1**을 설치하고, 받은 저장소 안의 `Unity_Proj
 저장소 루트에서 PowerShell을 열고 실제 Unity 프로젝트 폴더로 이동한다. 이후 명령은 이 위치에서 실행한다.
 
 ```powershell
-Set-Location .\Unity_Project_After_Seconds\After_Seconds_Build_V0.01
+Set-Location .\Unity\After_Seconds_Build_V0.01
 unity pipeline list
 ```
 
