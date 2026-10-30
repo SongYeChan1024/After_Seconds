@@ -53,7 +53,7 @@
 
 - 웹 프로토타입들은 claude.ai 아티팩트로 올라가 있고 **비공개**입니다. 링크는 기획서 12장에 있습니다. 탈출 방 최신본은 https://claude.ai/artifact/9yk2t6TGWsFJLXtRt3HRCR 입니다.
 - 웹 빌드 HTML은 `Prototype/Web/`에 있습니다(목록은 그 폴더 README). 아티팩트를 고치면 이 폴더 파일도 같은 내용으로 바꿔 커밋합니다. 아티팩트에 다시 게시하기 전에는 아티팩트의 현재 버전을 읽어 저장소 파일과 다른지 확인합니다.
-- **공개 「데일리 로그」와 프로젝트별 기술 글은 블로그 Git 저장소 `SongYeChan1024/Kasil_DevLog`의 `_posts/YYYY-MM-DD-영문-슬러그.md`에 별도 글로 작성합니다.** 로컬 저장소는 `C:/Users/503-26/Desktop/Projects/Kasil_DevLog`입니다. 매일의 학습 과정은 데일리 로그에, 구현 문제·해결 과정은 해당 프로젝트 기술 글에 기록하며, 해당 저장소 README의 머리말·공개 범위를 따릅니다.
+- **공개 「데일리 로그」와 프로젝트별 기술 글은 블로그 Git 저장소 `SongYeChan1024/Kasil_DevLog`의 `_posts/YYYY-MM-DD-영문-슬러그.md`에 별도 글로 작성합니다.** 로컬 위치는 PC마다 다릅니다(학원 `C:/Users/503-26/Desktop/Projects/Kasil_DevLog`, 집 `C:/GitHubProjects/Kasil_DevLog` — 집에서는 worktree이므로 `C:/GitHubProjects/CLAUDE.md`의 블로그 주의점을 따릅니다). 매일의 학습 과정은 데일리 로그에, 구현 문제·해결 과정은 해당 프로젝트 기술 글에 기록하며, 해당 저장소 README의 머리말·공개 범위를 따릅니다.
 - `Docs/개발_일지/`는 기존 기록과 공개 글 링크를 보관하며 블로그 본문을 중복 작성하지 않습니다. 기존 노션 「Logs For Develope」 기록 링크도 보관합니다. 세션 인수인계·현재 상태는 이 프로젝트의 `Docs/이어하기_2026-10-26.md`에 갱신합니다.
 - 코덱스가 만든 별도 웹 프로토타입(압력판·셔터·감금)은 학원 PC의 `Desktop/MCP_Test/after-seconds-web`에 있습니다. 아이디어만 가져왔고 코드는 쓰지 않습니다.
 
