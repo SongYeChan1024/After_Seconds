@@ -1,0 +1,414 @@
+{
+  "author": "송예찬",
+  "sourceFlowId": "3ace28ca-d501-4921-b5a8-0875b2468245",
+  "models": [
+    {
+      "name": "Env_ConcreteWall_4m",
+      "nodeId": "a925be18-76e0-4976-b8de-3e7125880967",
+      "taskId": "8a5baaf4-d0e0-43d5-bfbe-3b08f3edd199",
+      "sourceUrl": "https://3d.varco.ai/api/objects/04a5fdacf294669652f71422467e7daa.fbx",
+      "sourceBytes": 58383116,
+      "sourceSha256": "29bab5cb155b64be4dd71c4034d0428d7f3484c21f4d38cd96e2047854877f4c",
+      "sourcePreserved": true,
+      "bytes": 977644,
+      "sha256": "221fde8ed30b5171a1b953e932620f963605444ec131d0fa3f0d90606beaea32",
+      "triBefore": 500000,
+      "triAfter": 8000,
+      "triTarget": 8000,
+      "meshCount": 1,
+      "roundTripVerification": {
+        "passed": true,
+        "triangles": 8000,
+        "meshCount": 1,
+        "allUvLayersPresent": true,
+        "textureInfo": [
+          {
+            "file": "C:\\GitHubProjects\\After_Seconds\\tmp\\B5_Level_20261102\\prepared\\Env_ConcreteWall_4m\\Env_ConcreteWall_4m.fbm\\01_baseColor_base_color.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "roles": [
+              "baseColor"
+            ],
+            "externalFileValid": true
+          },
+          {
+            "file": "C:\\GitHubProjects\\After_Seconds\\tmp\\B5_Level_20261102\\prepared\\Env_ConcreteWall_4m\\Env_ConcreteWall_4m.fbm\\02_normal_normal.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "roles": [
+              "normal"
+            ],
+            "externalFileValid": true
+          }
+        ],
+        "relativeTexturePaths": [
+          "Env_ConcreteWall_4m.fbm/01_baseColor_base_color.png",
+          "Env_ConcreteWall_4m.fbm/02_normal_normal.png"
+        ],
+        "embeddedTextureCount": 0,
+        "sourceShaPreserved": true
+      }
+    },
+    {
+      "name": "Env_MetalWall_4m",
+      "nodeId": "bd3ea3eb-7ae3-41a2-8022-3163fd44f4c4",
+      "taskId": "f0aeeece-9cff-447a-bc98-a4f49e416039",
+      "sourceUrl": "https://3d.varco.ai/api/objects/ebf2a9522cabfaa5c7945e36db3db71d.fbx",
+      "sourceBytes": 63593852,
+      "sourceSha256": "ee2314626afaef3917e4509f06be000f8ef0a7e12991b2a45253cda4485fb2a3",
+      "sourcePreserved": true,
+      "bytes": 1171260,
+      "sha256": "670f02202ac211c4e955f941c437b1488152d4b8a5d3daa942be44414b45e004",
+      "triBefore": 500000,
+      "triAfter": 8000,
+      "triTarget": 8000,
+      "meshCount": 1,
+      "roundTripVerification": {
+        "passed": true,
+        "triangles": 8000,
+        "meshCount": 1,
+        "allUvLayersPresent": true,
+        "textureInfo": [
+          {
+            "file": "C:\\GitHubProjects\\After_Seconds\\tmp\\B5_Level_20261102\\prepared\\Env_MetalWall_4m\\Env_MetalWall_4m.fbm\\01_baseColor_base_color.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "roles": [
+              "baseColor"
+            ],
+            "externalFileValid": true
+          },
+          {
+            "file": "C:\\GitHubProjects\\After_Seconds\\tmp\\B5_Level_20261102\\prepared\\Env_MetalWall_4m\\Env_MetalWall_4m.fbm\\02_normal_normal.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "roles": [
+              "normal"
+            ],
+            "externalFileValid": true
+          }
+        ],
+        "relativeTexturePaths": [
+          "Env_MetalWall_4m.fbm/01_baseColor_base_color.png",
+          "Env_MetalWall_4m.fbm/02_normal_normal.png"
+        ],
+        "embeddedTextureCount": 0,
+        "sourceShaPreserved": true
+      }
+    },
+    {
+      "name": "Env_ObservationWall_4m",
+      "nodeId": "14bf2df9-aa2d-4c63-8217-36d6f8aa2461",
+      "taskId": "4fefc469-e2ff-4f7a-9cf9-98692f1b40e1",
+      "sourceUrl": "https://3d.varco.ai/api/objects/483d2afd6ab8488d8e45bc92e08f31c5.fbx",
+      "sourceBytes": 58912620,
+      "sourceSha256": "3fba88abe5360e249c6bcfee02bffd5243d3666c162ecd27a1567a13df01fe9a",
+      "sourcePreserved": true,
+      "bytes": 1448220,
+      "sha256": "329d7879ef4c4b5d0478209f22fb91a8a7026028729474952ff553b44d663805",
+      "triBefore": 500000,
+      "triAfter": 12000,
+      "triTarget": 12000,
+      "meshCount": 1,
+      "roundTripVerification": {
+        "passed": true,
+        "triangles": 12000,
+        "meshCount": 1,
+        "allUvLayersPresent": true,
+        "textureInfo": [
+          {
+            "file": "C:\\GitHubProjects\\After_Seconds\\tmp\\B5_Level_20261102\\prepared\\Env_ObservationWall_4m\\Env_ObservationWall_4m.fbm\\01_baseColor_base_color.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "roles": [
+              "baseColor"
+            ],
+            "externalFileValid": true
+          },
+          {
+            "file": "C:\\GitHubProjects\\After_Seconds\\tmp\\B5_Level_20261102\\prepared\\Env_ObservationWall_4m\\Env_ObservationWall_4m.fbm\\02_normal_normal.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "roles": [
+              "normal"
+            ],
+            "externalFileValid": true
+          }
+        ],
+        "relativeTexturePaths": [
+          "Env_ObservationWall_4m.fbm/01_baseColor_base_color.png",
+          "Env_ObservationWall_4m.fbm/02_normal_normal.png"
+        ],
+        "embeddedTextureCount": 0,
+        "sourceShaPreserved": true
+      }
+    },
+    {
+      "name": "Env_FireDoorWall_3m",
+      "nodeId": "a582cc93-53fb-4c86-aebe-b4ad2419de6f",
+      "taskId": "47ec1d43-81c2-45b1-a562-92acf232d551",
+      "sourceUrl": "https://3d.varco.ai/api/objects/3a96432dee51fdbe0fa3c66c87df6a58.fbx",
+      "sourceBytes": 53473852,
+      "sourceSha256": "afeaddb0b55fcb9028c1baa9aa74138dacea7ca766eea8865b90cd54088adb9c",
+      "sourcePreserved": true,
+      "bytes": 1328652,
+      "sha256": "f774d6b65035f9c408d5d501a34cab69317bee12021ac5cd63cd6b2e732bfab7",
+      "triBefore": 500000,
+      "triAfter": 12000,
+      "triTarget": 12000,
+      "meshCount": 1,
+      "roundTripVerification": {
+        "passed": true,
+        "triangles": 12000,
+        "meshCount": 1,
+        "allUvLayersPresent": true,
+        "textureInfo": [
+          {
+            "file": "C:\\GitHubProjects\\After_Seconds\\tmp\\B5_Level_20261102\\prepared\\Env_FireDoorWall_3m\\Env_FireDoorWall_3m.fbm\\01_baseColor_base_color.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "roles": [
+              "baseColor"
+            ],
+            "externalFileValid": true
+          },
+          {
+            "file": "C:\\GitHubProjects\\After_Seconds\\tmp\\B5_Level_20261102\\prepared\\Env_FireDoorWall_3m\\Env_FireDoorWall_3m.fbm\\02_normal_normal.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "roles": [
+              "normal"
+            ],
+            "externalFileValid": true
+          }
+        ],
+        "relativeTexturePaths": [
+          "Env_FireDoorWall_3m.fbm/01_baseColor_base_color.png",
+          "Env_FireDoorWall_3m.fbm/02_normal_normal.png"
+        ],
+        "embeddedTextureCount": 0,
+        "sourceShaPreserved": true
+      }
+    },
+    {
+      "name": "Env_FloorSlab_4m",
+      "nodeId": "52405ce3-b02e-4aac-9cf4-dab2bcc0d2a7",
+      "taskId": "87de76a7-0060-43b5-b4ad-7f75936d16b3",
+      "sourceUrl": "https://3d.varco.ai/api/objects/82d0b1d37fc83410e981aef1bd99165c.fbx",
+      "sourceBytes": 60088140,
+      "sourceSha256": "30a749f26151e7371fe0c4b7056fd69d772a6b0de0bed8af49f97e15ff93fe80",
+      "sourcePreserved": true,
+      "bytes": 900316,
+      "sha256": "56fca3a71878e5ff86e3b7a58ed2affec6dd12099b87e39a1a5300a6463c3e7a",
+      "triBefore": 500000,
+      "triAfter": 8000,
+      "triTarget": 8000,
+      "meshCount": 1,
+      "roundTripVerification": {
+        "passed": true,
+        "triangles": 8000,
+        "meshCount": 1,
+        "allUvLayersPresent": true,
+        "textureInfo": [
+          {
+            "file": "C:\\GitHubProjects\\After_Seconds\\tmp\\B5_Level_20261102\\prepared\\Env_FloorSlab_4m\\Env_FloorSlab_4m.fbm\\01_baseColor_base_color.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "roles": [
+              "baseColor"
+            ],
+            "externalFileValid": true
+          },
+          {
+            "file": "C:\\GitHubProjects\\After_Seconds\\tmp\\B5_Level_20261102\\prepared\\Env_FloorSlab_4m\\Env_FloorSlab_4m.fbm\\02_normal_normal.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "roles": [
+              "normal"
+            ],
+            "externalFileValid": true
+          }
+        ],
+        "relativeTexturePaths": [
+          "Env_FloorSlab_4m.fbm/01_baseColor_base_color.png",
+          "Env_FloorSlab_4m.fbm/02_normal_normal.png"
+        ],
+        "embeddedTextureCount": 0,
+        "sourceShaPreserved": true
+      }
+    },
+    {
+      "name": "Env_CeilingPanel_4m",
+      "nodeId": "384fb947-611c-4e58-9dea-c92a39e37f72",
+      "taskId": "26d9df4f-c590-4481-994a-1d963e514653",
+      "sourceUrl": "https://3d.varco.ai/api/objects/785ca5c4e29945f4581b0b6d20a7bd32.fbx",
+      "sourceBytes": 69808876,
+      "sourceSha256": "c6a73809746a83b6cb6cd72eb694820fc7dcc75f57cd99ceb6a1808113ddb279",
+      "sourcePreserved": true,
+      "bytes": 1461724,
+      "sha256": "301ac3153efd7ac6c7bea3cfd5586e2629c9291b23c229647a91df86c820a003",
+      "triBefore": 500000,
+      "triAfter": 8000,
+      "triTarget": 8000,
+      "meshCount": 1,
+      "roundTripVerification": {
+        "passed": true,
+        "triangles": 8000,
+        "meshCount": 1,
+        "allUvLayersPresent": true,
+        "textureInfo": [
+          {
+            "file": "C:\\GitHubProjects\\After_Seconds\\tmp\\B5_Level_20261102\\prepared\\Env_CeilingPanel_4m\\Env_CeilingPanel_4m.fbm\\01_baseColor_base_color.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "roles": [
+              "baseColor"
+            ],
+            "externalFileValid": true
+          },
+          {
+            "file": "C:\\GitHubProjects\\After_Seconds\\tmp\\B5_Level_20261102\\prepared\\Env_CeilingPanel_4m\\Env_CeilingPanel_4m.fbm\\02_normal_normal.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "roles": [
+              "normal"
+            ],
+            "externalFileValid": true
+          }
+        ],
+        "relativeTexturePaths": [
+          "Env_CeilingPanel_4m.fbm/01_baseColor_base_color.png",
+          "Env_CeilingPanel_4m.fbm/02_normal_normal.png"
+        ],
+        "embeddedTextureCount": 0,
+        "sourceShaPreserved": true
+      }
+    },
+    {
+      "name": "Props_CoolingPump",
+      "nodeId": "2ee2220e-bfdd-4843-9e5f-5575819938a2",
+      "taskId": "28ce380c-3479-46b7-b022-65a57b51b47e",
+      "sourceUrl": "https://3d.varco.ai/api/objects/5108e48917e8e36c82781f40daed9d9f.fbx",
+      "sourceBytes": 60015308,
+      "sourceSha256": "9ef2b15346ae8312c624ead48424a01497c45b679104e19b1a424c1d1d74f191",
+      "sourcePreserved": true,
+      "bytes": 1813100,
+      "sha256": "61c8c2683e881981ec5de37ccfae5084d4855a66dcb06048924b03b0766d6a56",
+      "triBefore": 500000,
+      "triAfter": 16000,
+      "triTarget": 16000,
+      "meshCount": 1,
+      "roundTripVerification": {
+        "passed": true,
+        "triangles": 16000,
+        "meshCount": 1,
+        "allUvLayersPresent": true,
+        "textureInfo": [
+          {
+            "file": "C:\\GitHubProjects\\After_Seconds\\tmp\\B5_Level_20261102\\prepared\\Props_CoolingPump\\Props_CoolingPump.fbm\\01_baseColor_base_color.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "roles": [
+              "baseColor"
+            ],
+            "externalFileValid": true
+          },
+          {
+            "file": "C:\\GitHubProjects\\After_Seconds\\tmp\\B5_Level_20261102\\prepared\\Props_CoolingPump\\Props_CoolingPump.fbm\\02_normal_normal.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "roles": [
+              "normal"
+            ],
+            "externalFileValid": true
+          }
+        ],
+        "relativeTexturePaths": [
+          "Props_CoolingPump.fbm/01_baseColor_base_color.png",
+          "Props_CoolingPump.fbm/02_normal_normal.png"
+        ],
+        "embeddedTextureCount": 0,
+        "sourceShaPreserved": true
+      }
+    },
+    {
+      "name": "Props_ElectricalCabinet",
+      "nodeId": "fb32aade-642f-467d-8184-2267d70c6a86",
+      "taskId": "6813739b-f2c9-4b78-bc62-f06e36d865f0",
+      "sourceUrl": "https://3d.varco.ai/api/objects/325c846d98af5166da91656e4a68e7f7.fbx",
+      "sourceBytes": 56571180,
+      "sourceSha256": "c59d54612932368dca5708368967cb1a82790cb03e13cf85ff7d0b2c5c2453ae",
+      "sourcePreserved": true,
+      "bytes": 1388828,
+      "sha256": "c98f3d6c2720a758daf5f25e1422b3b02053af36bda448460c315a45a5af2c6a",
+      "triBefore": 500000,
+      "triAfter": 12000,
+      "triTarget": 12000,
+      "meshCount": 1,
+      "roundTripVerification": {
+        "passed": true,
+        "triangles": 12000,
+        "meshCount": 1,
+        "allUvLayersPresent": true,
+        "textureInfo": [
+          {
+            "file": "C:\\GitHubProjects\\After_Seconds\\tmp\\B5_Level_20261102\\prepared\\Props_ElectricalCabinet\\Props_ElectricalCabinet.fbm\\01_baseColor_base_color.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "roles": [
+              "baseColor"
+            ],
+            "externalFileValid": true
+          },
+          {
+            "file": "C:\\GitHubProjects\\After_Seconds\\tmp\\B5_Level_20261102\\prepared\\Props_ElectricalCabinet\\Props_ElectricalCabinet.fbm\\02_normal_normal.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "roles": [
+              "normal"
+            ],
+            "externalFileValid": true
+          }
+        ],
+        "relativeTexturePaths": [
+          "Props_ElectricalCabinet.fbm/01_baseColor_base_color.png",
+          "Props_ElectricalCabinet.fbm/02_normal_normal.png"
+        ],
+        "embeddedTextureCount": 0,
+        "sourceShaPreserved": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+    "author": "송예찬",
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Level_B5_Isolation.unity",
+    "scope": "PlayMode: 기존 PlayerMotor.Move를 이용한 지지면·충돌·통로·계단 이동",
+    "timestampUtc": "2026-11-02T14:41:16.5735948Z",
+    "passed": true,
+    "checks": [
+        {
+            "name": "시작점 접지",
+            "passed": true,
+            "detail": "grounded=True,capsuleBottomY=0.05000001,position=(0.00, 0.65, 10.80)"
+        },
+        {
+            "name": "철창 몸체 통과 차단",
+            "passed": true,
+            "detail": "감방 안에서 북쪽으로140/60초 이동 후 z=9.238795"
+        },
+        {
+            "name": "감방 천장 차단",
+            "passed": true,
+            "detail": "상승 충돌 후 capsuleTopY=2.52,감방천장2.6m"
+        },
+        {
+            "name": "감방 밖→차폐통로→냉각조 남쪽 데크",
+            "passed": true,
+            "detail": "도착=7/7,grounded=True,position=(4.00, 0.68, -5.37),bottomY=0.07999992"
+        },
+        {
+            "name": "냉각조 서쪽 가장자리 이동",
+            "passed": true,
+            "detail": "가장자리를 따라 북쪽 이동시 낙하. capsuleBottomY=-3.47,position=(-1.55, -2.87, -10.30)"
+        },
+        {
+            "name": "냉각조 동쪽 가장자리 이동",
+            "passed": true,
+            "detail": "가장자리를 따라 북쪽 이동시 낙하. capsuleBottomY=-3.47,position=(9.55, -2.87, -10.30)"
+        },
+        {
+            "name": "북쪽 데크→계단 전실→B4 연결 계단 하부",
+            "passed": true,
+            "detail": "도착=4/4,grounded=True,position=(4.00, 2.09, -26.48),bottomY=1.491569"
+        },
+        {
+            "name": "계단 상승",
+            "passed": true,
+            "detail": "계단 끝 근처 capsuleBottomY=1.491569,position=(4.00, 2.09, -26.48)"
+        },
+        {
+            "name": "B4 연결문 통과 차단",
+            "passed": true,
+            "detail": "잠긴 연결문 북쪽으로 몸체가 통과하지 않는다. 플레이어 최소z=-27.84,문남측z=-27.81"
+        }
+    ],
+    "limitations": [
+        "사격·교환·경비 AI·문 작동·체크포인트·층 전환은 구현 및 검수 범위에 포함하지 않는다.",
+        "감방 탈출과 냉각조 횡단 기능이 아직 없으므로, 두 구간 이후 이동 검수는 임시 위치 이동으로 분리한다.",
+        "경비 모델은 정적 T포즈 후보다. 캐릭터 애니메이션의 최종 품질을 판정하지 않는다."
+    ]
+}

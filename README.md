@@ -1,4 +1,4 @@
-# After Seconds 프로젝트 안내 V0.11
+# After Seconds 프로젝트 안내 V0.13
 
 맞힌 대상과 3초 뒤 위치를 바꾸며 연구 시설을 탈출하는 1인칭 퍼즐 액션 게임.
 
@@ -29,11 +29,16 @@ Unity 작업 루트는 `Assets/Afrer_Seconds/`다. 앞으로 `03.Art`에는 2D �
 
 실제 폴더 트리·계층별 역할·현재 에셋 위치는 [Unity 프로젝트 안내](Unity/README.md)에 정리.
 
+2026-11-02. 층마다 별도 씬으로 제작하며 첫 대상은 **B5 격리층**이다. `Assets/Afrer_Seconds/01.Scenes/Level_B5_Isolation.unity`에 격리실·차폐 통로·냉각조·B4행 계단 연결부를 구성했다. 기존 `SampleScene`은 보존하며 다른 층은 아직 만들지 않는다. 기존 VARCO 환경 모델 8종을 경량화해 외형으로 사용하고, 기획 치수의 충돌체를 따로 유지한다. 사격·교환·경비 AI·문 작동·층 전환은 이후 사용자 구현 대상이다. 배치 가안·출처·검수 범위는 [B5 레벨 구성](Docs/B5_레벨_구성.md)을 따른다.
+
+Unity Hub의 프로젝트 경로도 `Unity/After_Seconds_Build_V0.01`로 등록한다. 옛 `Unity_Project_After_Seconds` 경로를 열면 Assets가 비어 있는 다른 프로젝트를 보게 된다. [경로 문제 안내](Unity/README.md#hub에서-빈-프로젝트처럼-보일-때)를 참고한다.
+
 ## 주요 문서
 
 - [프로젝트 공통 작업 규칙](CLAUDE.md) · [Codex 작업 안내](AGENTS.md)
 - [집에서 이어하기 — 2026-10-26](Docs/이어하기_2026-10-26.md)
-- [메인 기획서 V0.09](Docs/AfterSeconds_메인기획서.md)
+- [메인 기획서 V0.10](Docs/AfterSeconds_메인기획서.md)
+- [B5 격리층 레벨 구성](Docs/B5_레벨_구성.md)
 - [Unity 계층 설계와 학습 순서](Docs/Unity_계층_설계와_학습_순서.md)
 - [Unity 프로젝트 안내](Unity/README.md)
 - [2026-10-28 데일리 로그 — 의사코드로 배우는 과정](https://songyechan1024.github.io/Kasil_DevLog/posts/daily-log-learning-through-pseudocode/)

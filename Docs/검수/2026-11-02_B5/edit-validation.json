@@ -1,0 +1,139 @@
+{
+    "author": "송예찬",
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Level_B5_Isolation.unity",
+    "scope": "EditMode: 씬 참조·설계 좌표·물리 형상 확인",
+    "timestampUtc": "2026-11-02T14:44:12.7983851Z",
+    "passed": true,
+    "checks": [
+        {
+            "name": "층 범위",
+            "passed": true,
+            "detail": "B5 격리실·냉각조·차폐 통로·계단 연결부가 별도 씬에 존재한다."
+        },
+        {
+            "name": "방 좌표계",
+            "passed": true,
+            "detail": "Room01=(0,0,0), Room02=(4,0,-9). 방 안 기획 좌표를 부모 오프셋으로 보존한다."
+        },
+        {
+            "name": "플레이어 수",
+            "passed": true,
+            "detail": "활성 CharacterController=1"
+        },
+        {
+            "name": "플레이어 충돌체 보존",
+            "passed": true,
+            "detail": "height=1.8,radius=0.28,center=(0.00, 0.30, 0.00)"
+        },
+        {
+            "name": "시작 위치·방향",
+            "passed": true,
+            "detail": "시작=(0.00, 0.65, 10.80),forward=(0.00, 0.00, -1.00)"
+        },
+        {
+            "name": "플레이어 기능 연결",
+            "passed": true,
+            "detail": "기존 Motor·Look·Presenter·AnimationSystem·PlayerInput을 보존한다."
+        },
+        {
+            "name": "플레이어 설정·카메라 참조",
+            "passed": true,
+            "detail": "설정 ScriptableObject와 현재 플레이어 자식 CameraRoot를 참조한다."
+        },
+        {
+            "name": "Presenter 참조",
+            "passed": true,
+            "detail": "직렬화 참조 또는 기존 Awake의 같은 루트 GetComponent 경로로 연결되며, 다른 플레이어를 참조하지 않는다."
+        },
+        {
+            "name": "V0.3 Animator 연결",
+            "passed": true,
+            "detail": "활성 Humanoid Avatar·Controller·RootMotion OFF를 확인한다."
+        },
+        {
+            "name": "Cinemachine Follow",
+            "passed": true,
+            "detail": "기존 Virtual Camera가 같은 CameraRoot를 따라간다."
+        },
+        {
+            "name": "입력 이벤트",
+            "passed": true,
+            "detail": "PlayerInput의 OnMove·OnLook UnityEvent가 현재 Presenter에 연결되어 있다."
+        },
+        {
+            "name": "스크립트 누락",
+            "passed": true,
+            "detail": "Missing component=0"
+        },
+        {
+            "name": "재질·셰이더 참조",
+            "passed": true,
+            "detail": "유효하지 않은 재질 슬롯=0"
+        },
+        {
+            "name": "출력 카메라·오디오",
+            "passed": true,
+            "detail": "활성 Camera=1,AudioListener=1"
+        },
+        {
+            "name": "Guard_A_Local_0_7.4 좌표",
+            "passed": true,
+            "detail": "기획 local(x,z)=0,7.4"
+        },
+        {
+            "name": "Guard_A_Local_0_7.4 바닥",
+            "passed": true,
+            "detail": "경비 콜라이더를 제외한 바닥 지지면을 확인한다."
+        },
+        {
+            "name": "Guard_B_Local_-4.2_-5.4 좌표",
+            "passed": true,
+            "detail": "기획 local(x,z)=-4.2,-5.4"
+        },
+        {
+            "name": "Guard_B_Local_-4.2_-5.4 바닥",
+            "passed": true,
+            "detail": "경비 콜라이더를 제외한 바닥 지지면을 확인한다."
+        },
+        {
+            "name": "Guard_D_Local_4.5_-8.4 좌표",
+            "passed": true,
+            "detail": "기획 local(x,z)=4.5,-8.4"
+        },
+        {
+            "name": "Guard_D_Local_4.5_-8.4 바닥",
+            "passed": true,
+            "detail": "경비 콜라이더를 제외한 바닥 지지면을 확인한다."
+        },
+        {
+            "name": "철창 간격·인체 차단",
+            "passed": true,
+            "detail": "막대=8,최대 빈틈=0.3000001m,인체 지름0.56m"
+        },
+        {
+            "name": "철창 사이 사격 공간",
+            "passed": true,
+            "detail": "중앙 틈에 가상의 통짜 충돌벽이 없다."
+        },
+        {
+            "name": "감방→냉각조 시선 차폐",
+            "passed": true,
+            "detail": "첫 건축 차폐=SightBlock_South_CrossLeg"
+        },
+        {
+            "name": "냉각조 가장자리 우회 차단",
+            "passed": true,
+            "detail": "양옆 local x±5.6, local z[-3.6,1.6]의 Y0 보행 충돌면=0"
+        },
+        {
+            "name": "냉각조 중앙 빈 공간",
+            "passed": true,
+            "detail": "수면이 Y0 보행 바닥으로 작동하지 않는다."
+        }
+    ],
+    "limitations": [
+        "사격·교환·경비 AI·문 작동·체크포인트·층 전환은 구현 및 검수 범위에 포함하지 않는다.",
+        "감방 탈출과 냉각조 횡단 기능이 아직 없으므로, 두 구간 이후 이동 검수는 임시 위치 이동으로 분리한다.",
+        "경비 모델은 정적 T포즈 후보다. 캐릭터 애니메이션의 최종 품질을 판정하지 않는다."
+    ]
+}

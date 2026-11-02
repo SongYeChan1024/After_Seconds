@@ -1,0 +1,185 @@
+{
+    "author": "송예찬",
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Level_B5_Isolation.unity",
+    "shaderDepthTest": "LEqual",
+    "shaderCull": "Back",
+    "shaderDepthWrite": true,
+    "staticLabelCount": 10,
+    "dynamicTextMeshCount": 0,
+    "atlasWidth": 256,
+    "atlasHeight": 512,
+    "atlasAlphaMinimum": 0,
+    "atlasAlphaMaximum": 255,
+    "records": [
+        {
+            "name": "Sign_AIRLOCK",
+            "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/Labels/Meshes/Sign_AIRLOCK.asset",
+            "material": "Assets/Afrer_Seconds/05.Model/Environment/B5/Labels/Materials/B5_StaticSignText.mat",
+            "atlas": "Assets/Afrer_Seconds/05.Model/Environment/B5/Labels/Textures/B5_SignGlyphAtlas.png",
+            "worldPosition": {
+                "x": 2.25,
+                "y": 2.299999952316284,
+                "z": -0.019999999552965165
+            },
+            "frontNormal": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -1.0
+            },
+            "height": 0.18000000715255738
+        },
+        {
+            "name": "Sign_B4",
+            "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/Labels/Meshes/Sign_B4.asset",
+            "material": "Assets/Afrer_Seconds/05.Model/Environment/B5/Labels/Materials/B5_StaticSignText.mat",
+            "atlas": "Assets/Afrer_Seconds/05.Model/Environment/B5/Labels/Textures/B5_SignGlyphAtlas.png",
+            "worldPosition": {
+                "x": 4.0,
+                "y": 3.9000000953674318,
+                "z": -27.81999969482422
+            },
+            "frontNormal": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.0
+            },
+            "height": 0.3799999952316284
+        },
+        {
+            "name": "Sign_B5   |   NORTH STAIR",
+            "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/Labels/Meshes/Sign_B5_______NORTH_STAIR.asset",
+            "material": "Assets/Afrer_Seconds/05.Model/Environment/B5/Labels/Materials/B5_StaticSignText.mat",
+            "atlas": "Assets/Afrer_Seconds/05.Model/Environment/B5/Labels/Textures/B5_SignGlyphAtlas.png",
+            "worldPosition": {
+                "x": 4.0,
+                "y": 3.25,
+                "z": -4.21999979019165
+            },
+            "frontNormal": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -1.0
+            },
+            "height": 0.20000000298023225
+        },
+        {
+            "name": "Sign_COOLING _ 02",
+            "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/Labels/Meshes/Sign_COOLING___02.asset",
+            "material": "Assets/Afrer_Seconds/05.Model/Environment/B5/Labels/Materials/B5_StaticSignText.mat",
+            "atlas": "Assets/Afrer_Seconds/05.Model/Environment/B5/Labels/Textures/B5_SignGlyphAtlas.png",
+            "worldPosition": {
+                "x": 4.0,
+                "y": 3.25,
+                "z": -19.799999237060548
+            },
+            "frontNormal": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.0
+            },
+            "height": 0.30000001192092898
+        },
+        {
+            "name": "Sign_ISOLATION _ 01",
+            "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/Labels/Meshes/Sign_ISOLATION___01.asset",
+            "material": "Assets/Afrer_Seconds/05.Model/Environment/B5/Labels/Materials/B5_StaticSignText.mat",
+            "atlas": "Assets/Afrer_Seconds/05.Model/Environment/B5/Labels/Textures/B5_SignGlyphAtlas.png",
+            "worldPosition": {
+                "x": 0.0,
+                "y": 3.25,
+                "z": 2.180000066757202
+            },
+            "frontNormal": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.0
+            },
+            "height": 0.30000001192092898
+        },
+        {
+            "name": "Sign_MONITORING",
+            "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/Labels/Meshes/Sign_MONITORING.asset",
+            "material": "Assets/Afrer_Seconds/05.Model/Environment/B5/Labels/Materials/B5_StaticSignText.mat",
+            "atlas": "Assets/Afrer_Seconds/05.Model/Environment/B5/Labels/Textures/B5_SignGlyphAtlas.png",
+            "worldPosition": {
+                "x": 5.900000095367432,
+                "y": 2.5999999046325685,
+                "z": 10.199999809265137
+            },
+            "frontNormal": {
+                "x": -1.0000001192092896,
+                "y": 0.0,
+                "z": -2.980232238769531e-7
+            },
+            "height": 0.1599999964237213
+        },
+        {
+            "name": "Sign_NORTH STAIR",
+            "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/Labels/Meshes/Sign_NORTH_STAIR.asset",
+            "material": "Assets/Afrer_Seconds/05.Model/Environment/B5/Labels/Materials/B5_StaticSignText.mat",
+            "atlas": "Assets/Afrer_Seconds/05.Model/Environment/B5/Labels/Textures/B5_SignGlyphAtlas.png",
+            "worldPosition": {
+                "x": 4.0,
+                "y": 3.0999999046325685,
+                "z": -22.969999313354493
+            },
+            "frontNormal": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.0
+            },
+            "height": 0.24000000953674317
+        },
+        {
+            "name": "Sign_S-03",
+            "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/Labels/Meshes/Sign_S-03.asset",
+            "material": "Assets/Afrer_Seconds/05.Model/Environment/B5/Labels/Materials/B5_StaticSignText.mat",
+            "atlas": "Assets/Afrer_Seconds/05.Model/Environment/B5/Labels/Textures/B5_SignGlyphAtlas.png",
+            "worldPosition": {
+                "x": 0.0,
+                "y": 3.0199999809265138,
+                "z": 8.739999771118164
+            },
+            "frontNormal": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -1.0
+            },
+            "height": 0.30000001192092898
+        },
+        {
+            "name": "Sign_SECURITY",
+            "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/Labels/Meshes/Sign_SECURITY.asset",
+            "material": "Assets/Afrer_Seconds/05.Model/Environment/B5/Labels/Materials/B5_StaticSignText.mat",
+            "atlas": "Assets/Afrer_Seconds/05.Model/Environment/B5/Labels/Textures/B5_SignGlyphAtlas.png",
+            "worldPosition": {
+                "x": -5.900000095367432,
+                "y": 2.5999999046325685,
+                "z": 6.0
+            },
+            "frontNormal": {
+                "x": 1.0000001192092896,
+                "y": 0.0,
+                "z": -2.980232238769531e-7
+            },
+            "height": 0.1599999964237213
+        },
+        {
+            "name": "Sign_UTILITY",
+            "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/Labels/Meshes/Sign_UTILITY.asset",
+            "material": "Assets/Afrer_Seconds/05.Model/Environment/B5/Labels/Materials/B5_StaticSignText.mat",
+            "atlas": "Assets/Afrer_Seconds/05.Model/Environment/B5/Labels/Textures/B5_SignGlyphAtlas.png",
+            "worldPosition": {
+                "x": -1.899999976158142,
+                "y": 2.5999999046325685,
+                "z": -15.5
+            },
+            "frontNormal": {
+                "x": 1.0000001192092896,
+                "y": 0.0,
+                "z": -2.980232238769531e-7
+            },
+            "height": 0.1599999964237213
+        }
+    ]
+}

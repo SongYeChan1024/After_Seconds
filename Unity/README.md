@@ -1,6 +1,6 @@
-# After Seconds Unity 프로젝트 안내 V0.09
+# After Seconds Unity 프로젝트 안내 V0.11
 
-2026-10-29 · 작성자 송예찬 · 실제 저장된 폴더 구조 기준
+2026-11-02 · 작성자 송예찬 · 실제 저장된 폴더 구조 기준
 
 ## 프로젝트 열기
 
@@ -13,6 +13,20 @@
 
 집에서는 최신 `main`을 먼저 받은 뒤 연다. CLI 설치·로그인·조회 명령은 [집 CLI 안내](../README.md#집에서-unity-cli로-이어하기)를 따른다. VARCO 브릿지는 선택 설치로 분리했으므로 학원 PC의 Downloads 경로 없이 패키지를 복원할 수 있다. 기존 FBX와 현재 SampleScene에는 브릿지가 필요하지 않다.
 
+### Hub에서 빈 프로젝트처럼 보일 때
+
+Hub에 등록할 실제 경로는 저장소 안의 **`Unity/After_Seconds_Build_V0.01`**이다. 옛 `Unity_Project_After_Seconds/After_Seconds_Build_V0.01` 경로에는 소스 Assets 없이 캐시·기본 설정만 남아 있었고, 이 경로를 열면서 에셋이 사라진 것처럼 보였다. 2026-11-02 정식 경로를 다시 등록해 B5 씬·Console 오류 0·경고 0을 확인했다. 옛 Hub 항목은 목록에서 제외했으며 폴더의 파일을 프로젝트 복구 원본으로 사용하지 않는다.
+
+## B5 격리층 씬
+
+`Assets/Afrer_Seconds/01.Scenes/Level_B5_Isolation.unity`를 열면 B5층 외형을 확인할 수 있다. `Room01_Isolation`, `Connector_Airlock`, `Room02_CoolingPool`, `Exit_StairVestibule`로 나누며 기존 SampleScene은 이동·걷기 검증용으로 보존한다. 다른 층은 아직 만들지 않는다.
+
+VARCO의 기존 모델 8종을 반입해 외형 58개를 배치했다. 환경은 `05.Model/Environment/VARCO`, 소품은 `05.Model/Props/VARCO`에 보관하며 각 `source_manifest.json`에 출처·실측·프리팹 경로를 기록한다. 원본은 로컬 `tmp`에 보존하고 프로젝트에는 8천~1만6천 삼각형 파생 FBX와 최대 2K 텍스처를 넣었다.
+
+새 씬은 기존 플레이어·카메라 연결을 복제하고 시작 위치·방향만 B5에 맞춘다. 기존 코드·프리팹·모델·Animator·이동 설정은 수정하지 않았다. 통로·계단·부모 오프셋은 제작 가안이다. [배치와 검수 결과](../Docs/B5_레벨_구성.md)를 참고한다.
+
+사격·교환·경비 AI·문 작동·체크포인트·층 전환은 아직 없다. 감방 탈출·냉각조 횡단은 해당 기능을 구현한 뒤 진행한다. Build Settings는 기존 SampleScene만 유지하며, B5는 Editor에서 씬을 열어 실행한다.
+
 ## 현재 폴더 구조
 
 아래는 `After_Seconds_Build_V0.01` 안의 게임 작업 폴더다. `.meta`는 생략했다. V0.3은 별도 보정 후보이며 Unity Humanoid 반입과 임시 미리보기 검수를 완료했다.
@@ -21,6 +35,7 @@
 Assets/Afrer_Seconds/
   01.Scenes/
     SampleScene.unity
+    Level_B5_Isolation.unity          # B5층 전용
   02.Scripts/
     A.Define/DefineAD.asmdef
     B.Simulator/SimulatorAD.asmdef
@@ -63,8 +78,12 @@ Assets/Afrer_Seconds/
         v03-unity-import-facts.json
         v03-motion-preview-validation.json
     Enemy/Enemy_Guard_V0.1.prefab
-    Props/Props_Crate_V0.1.prefab
-    Environment/                     # 현재 비어 있음
+    Props/
+      Props_Crate_V0.1.prefab
+      VARCO/                         # 냉각 펌프·전기함
+    Environment/
+      B5/{Materials,Modules,Labels}/ # 기본 구조·충돌 경사면·고정 표지
+      VARCO/                         # 벽·문·바닥·천장 6종
   06.Data/
     PlayerMotorSettings.asset
     PlayerLookSettings.asset
@@ -92,7 +111,7 @@ Assets/Afrer_Seconds/
 
 | 폴더 | 보관할 내용 | 현재 상태 |
 | --- | --- | --- |
-| `01.Scenes` | 사용자가 구성하는 씬과 레벨 | SampleScene에서 사용자 배치와 플레이어 이동·시야 회전을 확인함 |
+| `01.Scenes` | 맵과 레벨, 층별 별도 씬 | SampleScene 보존, B5 격리층 별도 구성 |
 | `02.Scripts` | 책임에 따라 분리한 게임 코드와 AD | 6개 AD와 입력·이동·시야·Presenter 코드 |
 | `03.Art` | **2D 이미지 전용. UI·컷씬 등 종류별 하위 폴더로 분류** | 과거 반입한 VARCO 모델·텍스처·재질·검수 기록이 아직 남아 있음 |
 | `04.Prefabs` | **스크립트와 결합해 기능이 완성된 게임 에셋** | 완성 에셋은 아직 없음 |
@@ -106,7 +125,7 @@ Assets/Afrer_Seconds/
 
 동작 FBX·애니메이션 클립과 Animator 구성 리소스는 `07.Animator`에서 관리한다. 플레이어용은 `07.Animator/Player/`, 경비용은 `07.Animator/Enemy/`처럼 대상별로 나누고, 그 아래 `Clips/`에 동작 FBX·클립을, `Controllers/`에 AnimatorController(`.controller`)·AnimatorOverrideController(`.overrideController`)를 둔다. AvatarMask(`.mask`)를 사용할 때는 해당 대상의 `Masks/` 폴더를 만든다. 현재 플레이어 동작 FBX 6종은 `07.Animator/Player/Clips/`에 정리했다.
 
-현재 `03.Art/Candidates/VARCO/`에 남아 있는 모델·텍스처·재질·검수 기록은 과거 반입 결과이며, 위의 신규 파일 분류 기준과 구분한다. 기존 `05.Model`의 모델 프리팹과 리깅 모델이 이 위치의 재질·텍스처 등을 참조하므로 이번에는 과거 파일을 일괄 이동하지 않는다. 사용자가 이름을 바꾼 기존 `PlayerDummy_Rigged_V0.2.fbx`와 반입 기록은 `05.Model/Player/Rigged`에 유지한다. `AS05_PlayerDummy_Rigged.fbx`는 당시 반입명이며 현재 파일명과 구분한다. 추후 기존 파일을 정리할 때는 Unity 안에서 파일과 `.meta`를 함께 이동해 참조를 유지한다. Plane 생성과 모델·레벨 배치는 사용자가 직접 진행한다.
+현재 `03.Art/Candidates/VARCO/`에 남아 있는 모델·텍스처·재질·검수 기록은 과거 반입 결과이며, 위의 신규 파일 분류 기준과 구분한다. 기존 `05.Model`의 모델 프리팹과 리깅 모델이 이 위치의 재질·텍스처 등을 참조하므로 이번에는 과거 파일을 일괄 이동하지 않는다. 사용자가 이름을 바꾼 기존 `PlayerDummy_Rigged_V0.2.fbx`와 반입 기록은 `05.Model/Player/Rigged`에 유지한다. `AS05_PlayerDummy_Rigged.fbx`는 당시 반입명이며 현재 파일명과 구분한다. 추후 기존 파일을 정리할 때는 Unity 안에서 파일과 `.meta`를 함께 이동해 참조를 유지한다. 2026-11-02에는 사용자가 B5층 제작을 요청해 별도 씬에 배치했다. 게임 로직은 사용자가 의사코드부터 직접 구현한다.
 
 ## 코드 계층의 역할과 설정
 
