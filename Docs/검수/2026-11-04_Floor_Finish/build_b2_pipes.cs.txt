@@ -1,0 +1,205 @@
+// 의사코드
+// 1. B2 씬인지 확인하고 기존 Transform/Collider 상태를 기록한다.
+// 2. 벽면 공급·회수 관망을 곡관, 플랜지, 클램프가 있는 닫힌 절차 메시로 만든다.
+// 3. 두 기계와 HVAC에 하강관을 연결하고 기존 VARCO 밸브/게이지의 복제본을 붙인다.
+// 4. 원래 예시 배관은 위치를 그대로 두고 Renderer만 끈다.
+// 5. 구덩이·투척 통로·관제실 해치가 비어 있는지와 원래 충돌/좌표 보존을 검사한다.
+// 6. B2 전용 모델 프리팹과 출처 기록을 저장한다.
+
+// 코딩
+var scene = UnityEngine.SceneManagement.SceneManager.GetActiveScene();
+if (UnityEditor.EditorApplication.isPlaying) throw new System.Exception("Play Mode에서는 제작할 수 없습니다.");
+if (!scene.path.EndsWith("/Level_B2_Machinery.unity")) throw new System.Exception("B2 씬을 먼저 여세요: " + scene.path);
+var V = new System.Func<float,float,float,UnityEngine.Vector3>((x,y,z)=>new UnityEngine.Vector3(x,y,z));
+System.Func<UnityEngine.Transform,string> PathOf = null;
+PathOf = t => t.parent == null ? t.name : PathOf(t.parent) + "/" + t.name;
+var originals = scene.GetRootGameObjects().SelectMany(g=>g.GetComponentsInChildren<UnityEngine.Transform>(true)).ToArray();
+var room07 = originals.Single(t=>t.name=="Room07_CentrifugeHall");
+var room08 = originals.Single(t=>t.name=="Room08_CentralControl");
+if ((room07.lossyScale-UnityEngine.Vector3.one).sqrMagnitude>.0001f || (room08.lossyScale-UnityEngine.Vector3.one).sqrMagnitude>.0001f) throw new System.Exception("방 스케일이 1이 아닙니다. 먼저 좌표를 확인하세요.");
+if (originals.Any(t=>t.name=="B2_CompletePipeNetwork_20261104")) throw new System.Exception("B2_CompletePipeNetwork_20261104가 이미 있습니다. 재실행 전 기존 제작 결과를 확인하세요.");
+var colliders = originals.SelectMany(t=>t.GetComponents<UnityEngine.Collider>()).Distinct().ToArray();
+var colliderBefore = colliders.ToDictionary(c=>c.GetInstanceID(),c=>UnityEditor.EditorJsonUtility.ToJson(c));
+var transformBefore = originals.ToDictionary(t=>t.GetInstanceID(),t=>new[]{t.localPosition.x,t.localPosition.y,t.localPosition.z,t.localRotation.x,t.localRotation.y,t.localRotation.z,t.localRotation.w,t.localScale.x,t.localScale.y,t.localScale.z});
+var assetBase = "Assets/Afrer_Seconds/05.Model/Environment/B2";
+var dataBase = "Assets/Afrer_Seconds/06.Data/AssetSources";
+System.IO.Directory.CreateDirectory(assetBase+"/Materials");
+System.IO.Directory.CreateDirectory(dataBase);
+UnityEditor.AssetDatabase.Refresh();
+var shader=UnityEngine.Shader.Find("Universal Render Pipeline/Lit");
+if(shader==null) throw new System.Exception("URP/Lit shader missing");
+var mats=new System.Collections.Generic.Dictionary<string,UnityEngine.Material>();
+var colors=new System.Collections.Generic.Dictionary<string,UnityEngine.Color>{
+ {"Supply",new UnityEngine.Color(.34f,.37f,.38f)}, {"Return",new UnityEngine.Color(.30f,.36f,.38f)},
+ {"Fittings",new UnityEngine.Color(.22f,.25f,.26f)}, {"Support",new UnityEngine.Color(.18f,.21f,.22f)},
+ {"SupplyBand",new UnityEngine.Color(.54f,.39f,.16f)}, {"ReturnBand",new UnityEngine.Color(.17f,.40f,.45f)}
+};
+foreach(var kv in colors){
+ var path=assetBase+"/Materials/B2_Pipe_"+kv.Key+"_20261104.mat";
+ var mat=UnityEditor.AssetDatabase.LoadAssetAtPath<UnityEngine.Material>(path);
+ if(mat==null){mat=new UnityEngine.Material(shader);UnityEditor.AssetDatabase.CreateAsset(mat,path);}
+ mat.SetColor("_BaseColor",kv.Value); mat.SetFloat("_Metallic",.68f); mat.SetFloat("_Smoothness",.37f);
+ UnityEditor.EditorUtility.SetDirty(mat);mats[kv.Key]=mat;
+}
+var network=new UnityEngine.GameObject("B2_CompletePipeNetwork_20261104");
+network.transform.SetPositionAndRotation(UnityEngine.Vector3.zero,UnityEngine.Quaternion.identity);
+var groups=new System.Collections.Generic.Dictionary<string,UnityEngine.Transform>();
+foreach(var kv in new[]{new{key="R07",room=room07},new{key="R08",room=room08}}){
+ var g=new UnityEngine.GameObject(kv.key=="R07"?"Room07_PipeNetwork":"Room08_PipeNetwork");g.transform.SetParent(network.transform,false);g.transform.SetPositionAndRotation(kv.room.position,kv.room.rotation);groups[kv.key]=g.transform;
+}
+var vertices=new System.Collections.Generic.Dictionary<string,System.Collections.Generic.List<UnityEngine.Vector3>>();
+var triangles=new System.Collections.Generic.Dictionary<string,System.Collections.Generic.List<int>>();
+var keyMat=new System.Collections.Generic.Dictionary<string,string>();
+var keyRoom=new System.Collections.Generic.Dictionary<string,string>();
+var routeRecords=new System.Collections.Generic.List<object>();
+var jointRecords=new System.Collections.Generic.List<object>();
+var cloneRecords=new System.Collections.Generic.List<object>();
+System.Func<UnityEngine.Vector3,float[]> vf=p=>new[]{p.x,p.y,p.z};
+System.Func<UnityEngine.Vector3[],float,bool,System.Collections.Generic.List<UnityEngine.Vector3>> Rounded=(points,radius,closed)=>{
+ var result=new System.Collections.Generic.List<UnityEngine.Vector3>();
+ if(!closed)result.Add(points[0]);
+ int first=closed?0:1,last=closed?points.Length:points.Length-1;
+ for(int i=first;i<last;i++){
+  var a=points[(i-1+points.Length)%points.Length];var b=points[i];var c=points[(i+1)%points.Length];
+  var d0=(b-a).normalized;var d1=(c-b).normalized;
+  float trim=UnityEngine.Mathf.Min(radius,UnityEngine.Vector3.Distance(a,b)*.27f,UnityEngine.Vector3.Distance(b,c)*.27f);
+  if(UnityEngine.Vector3.Dot(d0,d1)>.999f){result.Add(b);continue;}
+  var entry=b-d0*trim;var exit=b+d1*trim;
+  for(int j=0;j<=8;j++){float t=j/8f;result.Add((1-t)*(1-t)*entry+2*(1-t)*t*b+t*t*exit);}
+ }
+ if(!closed)result.Add(points[points.Length-1]);return result;
+};
+System.Action<string,string,string,System.Collections.Generic.List<UnityEngine.Vector3>,float,bool> Tube=(key,room,mat,path,radius,closed)=>{
+ if(path.Count<2)throw new System.Exception("Pipe needs 2 points");
+ if(!vertices.ContainsKey(key)){vertices[key]=new System.Collections.Generic.List<UnityEngine.Vector3>();triangles[key]=new System.Collections.Generic.List<int>();keyMat[key]=mat;keyRoom[key]=room;}
+ var vs=vertices[key];var ts=triangles[key];int start=vs.Count,n=path.Count,sides=16;
+ var previousTangent=UnityEngine.Vector3.zero;var previousU=UnityEngine.Vector3.zero;
+ for(int i=0;i<n;i++){
+  var previous=path[i==0?(closed?n-1:0):i-1];var next=path[i==n-1?(closed?0:n-1):i+1];var tangent=(next-previous).normalized;
+  var reference=UnityEngine.Mathf.Abs(UnityEngine.Vector3.Dot(tangent,UnityEngine.Vector3.up))>.92f?UnityEngine.Vector3.forward:UnityEngine.Vector3.up;
+  var u=i==0?UnityEngine.Vector3.Cross(tangent,reference).normalized:(UnityEngine.Quaternion.FromToRotation(previousTangent,tangent)*previousU).normalized;var w=UnityEngine.Vector3.Cross(tangent,u).normalized;
+  previousTangent=tangent;previousU=u;
+  for(int j=0;j<sides;j++){float theta=j*UnityEngine.Mathf.PI*2/sides;vs.Add(path[i]+radius*(UnityEngine.Mathf.Cos(theta)*u+UnityEngine.Mathf.Sin(theta)*w));}
+ }
+ int strips=closed?n:n-1;
+ for(int i=0;i<strips;i++)for(int j=0;j<sides;j++){
+  int a=start+i*sides+j,b=start+i*sides+(j+1)%sides,c=start+((i+1)%n)*sides+j,d=start+((i+1)%n)*sides+(j+1)%sides;
+  ts.Add(a);ts.Add(b);ts.Add(c);ts.Add(b);ts.Add(d);ts.Add(c);
+ }
+ if(!closed){
+  int capA=vs.Count;vs.Add(path[0]);int capB=vs.Count;vs.Add(path[n-1]);
+  for(int j=0;j<sides;j++){ts.Add(capA);ts.Add(start+(j+1)%sides);ts.Add(start+j);int e=start+(n-1)*sides;ts.Add(capB);ts.Add(e+j);ts.Add(e+(j+1)%sides);}
+ }
+};
+System.Action<string,UnityEngine.Vector3,UnityEngine.Vector3,float,bool> Collar=(room,center,axis,radius,bolts)=>{
+ var unit=axis.normalized;Tube(room+"_Fittings",room,"Fittings",new System.Collections.Generic.List<UnityEngine.Vector3>{center-unit*.022f,center+unit*.022f},radius,false);
+ if(bolts){
+  var reference=UnityEngine.Mathf.Abs(UnityEngine.Vector3.Dot(unit,UnityEngine.Vector3.up))>.92f?UnityEngine.Vector3.forward:UnityEngine.Vector3.up;
+  var u=UnityEngine.Vector3.Cross(unit,reference).normalized;var w=UnityEngine.Vector3.Cross(unit,u).normalized;
+  for(int i=0;i<8;i++){float theta=i*UnityEngine.Mathf.PI/4;var p=center+(radius-.025f)*(UnityEngine.Mathf.Cos(theta)*u+UnityEngine.Mathf.Sin(theta)*w);Tube(room+"_Fittings",room,"Fittings",new System.Collections.Generic.List<UnityEngine.Vector3>{p-unit*.038f,p+unit*.038f},.012f,false);}
+ }
+};
+System.Action<string,string,UnityEngine.Vector3[],bool> PipeRoute=(room,id,points,closed)=>{
+ var path=Rounded(points,.25f,closed);string kind=id.Contains("Return")?"Return":"Supply";
+ Tube(room+"_"+kind,room,kind,path,.105f,closed);
+ float length=0;for(int i=0;i<(closed?points.Length:points.Length-1);i++){
+  var a=points[i];var b=points[(i+1)%points.Length];float len=UnityEngine.Vector3.Distance(a,b);length+=len;
+  int flanges=UnityEngine.Mathf.Max(0,UnityEngine.Mathf.FloorToInt((len-.6f)/2f));
+  for(int k=1;k<=flanges;k++){float t=k/(float)(flanges+1);var p=UnityEngine.Vector3.Lerp(a,b,t);Collar(room,p,b-a,.158f,true);Tube(room+"_"+kind+"Band",room,kind+"Band",new System.Collections.Generic.List<UnityEngine.Vector3>{p-(b-a).normalized*.13f,p-(b-a).normalized*.075f},.109f,false);}
+ }
+ routeRecords.Add(new{id,room,closed,length,centerlineCorners=points.Select(vf).ToArray(),start=vf(points[0]),end=vf(points[points.Length-1]),endCaps=!closed,pipeRadius=.105f,flangeRadius=.158f});
+};
+System.Action<string,UnityEngine.Vector3,UnityEngine.Vector3> Support=(room,pipe,wall)=>{
+ Collar(room,pipe,wall-pipe,.131f,false);
+ Tube(room+"_Support",room,"Support",new System.Collections.Generic.List<UnityEngine.Vector3>{pipe,wall},.025f,false);
+ Tube(room+"_Support",room,"Support",new System.Collections.Generic.List<UnityEngine.Vector3>{wall-(wall-pipe).normalized*.014f,wall+(wall-pipe).normalized*.014f},.09f,false);
+};
+// Room07의 두 관은 독립 폐루프다. 구덩이 위에서는 양쪽 벽에만 붙는다.
+foreach(var row in new[]{new{id="Supply",y=3.38f},new{id="Return",y=3.78f}}){
+ PipeRoute("R07",row.id+"_WallLoop",new[]{V(-5.42f,row.y,5.42f),V(-5.42f,row.y,-9.42f),V(5.42f,row.y,-9.42f),V(5.42f,row.y,5.42f)},true);
+ foreach(float z in new[]{-8f,-5.5f,-3f,-.5f,2f,4.5f})foreach(float x in new[]{-5.42f,5.42f})Support("R07",V(x,row.y,z),V(UnityEngine.Mathf.Sign(x)*5.84f,row.y,z));
+ foreach(float x in new[]{-3f,3f}){Support("R07",V(x,row.y,-9.42f),V(x,row.y,-9.84f));Support("R07",V(x,row.y,5.42f),V(x,row.y,5.84f));}
+}
+// 하강관은 시작 데크 양쪽 장비 뒤에만 둔다. 끝점은 장비 외피 안에 들어간다.
+foreach(var port in new[]{new{id="Supply_Reactor",x=5.42f,y=3.38f,z=4.95f,endX=4.90f,endY=2.30f},new{id="Return_Reactor",x=5.42f,y=3.78f,z=4.55f,endX=4.90f,endY=2.08f},new{id="Supply_Centrifuge",x=-5.42f,y=3.38f,z=4.95f,endX=-4.90f,endY=1.35f},new{id="Return_Centrifuge",x=-5.42f,y=3.78f,z=4.55f,endX=-4.90f,endY=1.10f}}){
+ var points=new[]{V(port.x,port.y,port.z),V(port.x,port.endY,port.z),V(port.endX,port.endY,port.z)};
+ PipeRoute("R07",port.id,points,false);Collar("R07",points[0],UnityEngine.Vector3.forward,.145f,false);Collar("R07",points[2],UnityEngine.Vector3.right,.148f,false);
+ jointRecords.Add(new{id=port.id,trunk=vf(points[0]),sealedEquipmentEnd=vf(points[2]),joint="capped branch overlaps sealed main at centreline; equipment end inside opaque casing"});
+}
+// Room08은 관제 섬과 뒤쪽 던지는 자리를 가로지르지 않고 양벽과 남벽만 사용한다.
+foreach(var row in new[]{new{id="Supply",y=5.05f},new{id="Return",y=5.50f}}){
+ PipeRoute("R08",row.id+"_WallService",new[]{V(-5.42f,row.y,-9.12f),V(-5.42f,row.y,5.42f),V(5.42f,row.y,5.42f),V(5.42f,row.y,-9.12f)},false);
+ foreach(float z in new[]{-8f,-5.5f,-3f,-.5f,2f,4.5f})foreach(float x in new[]{-5.42f,5.42f})Support("R08",V(x,row.y,z),V(UnityEngine.Mathf.Sign(x)*5.84f,row.y,z));
+ foreach(float x in new[]{-3f,3f})Support("R08",V(x,row.y,5.42f),V(x,row.y,5.84f));
+ foreach(float x in new[]{-5.42f,5.42f}){Collar("R08",V(x,row.y,-8.83f),UnityEngine.Vector3.forward,.19f,true);jointRecords.Add(new{id="R08_"+row.id+"_WallEnd",sealedWallEnd=vf(V(x,row.y,-9.12f)),wallInnerFaceZ=-8.85f,capBehindWall=.27f});}
+}
+PipeRoute("R08","Supply_HVAC",new[]{V(-5.42f,5.05f,-4.40f),V(-5.00f,5.05f,-4.40f),V(-5.00f,4.55f,-4.40f),V(-5.00f,4.55f,-3.85f),V(-5.32f,4.55f,-3.85f)},false);
+PipeRoute("R08","Return_HVAC",new[]{V(-5.42f,5.50f,-3.00f),V(-5.00f,5.50f,-3.00f),V(-5.00f,4.30f,-3.00f),V(-5.00f,4.30f,-3.55f),V(-5.32f,4.30f,-3.55f)},false);
+foreach(var point in new[]{V(-5.42f,5.05f,-4.40f),V(-5.42f,5.50f,-3f)})Collar("R08",point,UnityEngine.Vector3.forward,.145f,false);
+foreach(var point in new[]{V(-5.32f,4.55f,-3.85f),V(-5.32f,4.30f,-3.55f)}){Collar("R08",point,UnityEngine.Vector3.right,.14f,false);jointRecords.Add(new{id="HVAC",sealedEquipmentEnd=vf(point),machineInnerFaceX=-5.225f,insertion=.095f});}
+// 기존 미완성 관은 Transform/오브젝트를 보존하고 렌더링만 끈다.
+var legacy=originals.Where(t=>t.parent!=null&&t.parent.name=="VARCO_Batch02_Visuals"&&t.IsChildOf(room07)&&(t.name.StartsWith("U01_")||t.name.StartsWith("U02_")||t.name.StartsWith("U03_")||t.name.StartsWith("U07_"))).ToArray();
+var legacyRecords=legacy.Select(t=>new{path=PathOf(t),renderers=t.GetComponentsInChildren<UnityEngine.Renderer>(true).Select(r=>new{name=r.name,wasEnabled=r.enabled}).ToArray()}).ToArray();
+foreach(var t in legacy)foreach(var r in t.GetComponentsInChildren<UnityEngine.Renderer>(true))r.enabled=false;
+var valvePath="Assets/Afrer_Seconds/05.Model/Environment/Common/U03_HandwheelValve.prefab";
+var gaugePath="Assets/Afrer_Seconds/05.Model/Environment/Common/U07_PressureGauge.prefab";
+var valveAsset=UnityEditor.AssetDatabase.LoadAssetAtPath<UnityEngine.GameObject>(valvePath);
+var gaugeAsset=UnityEditor.AssetDatabase.LoadAssetAtPath<UnityEngine.GameObject>(gaugePath);
+if(valveAsset==null||gaugeAsset==null)throw new System.Exception("기존 U03/U07 프리팹이 없습니다.");
+foreach(var item in new[]{new{name="Reactor",x=5.42f,valveY=2.66f,gaugeY=3.10f,inward=UnityEngine.Vector3.left},new{name="Centrifuge",x=-5.42f,valveY=2.12f,gaugeY=2.72f,inward=UnityEngine.Vector3.right}}){
+ var clone=(UnityEngine.GameObject)UnityEditor.PrefabUtility.InstantiatePrefab(valveAsset);clone.name="Connected_Valve_"+item.name;clone.transform.SetParent(groups["R07"],false);clone.transform.localPosition=UnityEngine.Vector3.zero;clone.transform.localRotation=UnityEngine.Quaternion.identity;
+ var meshPoints=clone.GetComponentsInChildren<UnityEngine.MeshFilter>(true).Where(m=>m.sharedMesh!=null).SelectMany(m=>m.sharedMesh.vertices.Select(p=>clone.transform.InverseTransformPoint(m.transform.TransformPoint(p)))).ToArray();
+ float minX=meshPoints.Min(p=>p.x),maxX=meshPoints.Max(p=>p.x);
+ var tips=meshPoints.Where(p=>p.x<minX+.008f||p.x>maxX-.008f).ToArray();
+ var centre=V((minX+maxX)*.5f,(tips.Min(p=>p.y)+tips.Max(p=>p.y))*.5f,(tips.Min(p=>p.z)+tips.Max(p=>p.z))*.5f);
+ var q=UnityEngine.Quaternion.LookRotation(UnityEngine.Vector3.Cross(UnityEngine.Vector3.down,item.inward),item.inward);
+ clone.transform.localRotation=q;clone.transform.localPosition=V(item.x,item.valveY,4.95f)-q*centre;
+ cloneRecords.Add(new{name=clone.name,source=valvePath,centreline=vf(V(item.x,item.valveY,4.95f)),sourceCapCentre=vf(centre),sourceLength=maxX-minX,axis="vertical Y, handwheel inward"});
+ var gauge=(UnityEngine.GameObject)UnityEditor.PrefabUtility.InstantiatePrefab(gaugeAsset);gauge.name="Connected_Gauge_"+item.name;gauge.transform.SetParent(groups["R07"],false);gauge.transform.localRotation=UnityEngine.Quaternion.LookRotation(UnityEngine.Vector3.forward,item.inward);gauge.transform.localPosition=V(item.x,item.gaugeY,4.95f)+item.inward*.075f;
+ cloneRecords.Add(new{name=gauge.name,source=gaugePath,stemRoot=vf(gauge.transform.localPosition),axis="stem localY points inward, dial faces local+Z"});
+}
+// 실제 메시 점으로 금지 체적과 천장 여유를 검사한다. 방별 로컬 좌표를 사용한다.
+var zones=new[]{
+ new{id="R07_Pit_NoBridge",room="R07",min=V(-6,-3,-5),max=V(6,3.15f,2)},
+ new{id="R07_ThrowLane",room="R07",min=V(-2,0,2),max=V(2,3.15f,6)},
+ new{id="R07_FarDeck_NoTargets",room="R07",min=V(-6,0,-10),max=V(6,3.15f,-5)},
+ new{id="R08_RearThrowAisle",room="R08",min=V(-6,0,-9),max=V(6,4.25f,-7)},
+ new{id="R08_HatchVertical",room="R08",min=V(-1.15f,2.4f,-7.15f),max=V(1.15f,6.5f,-4.85f)},
+ new{id="R08_WestWalking",room="R08",min=V(-6,0,-7),max=V(-3.15f,3.25f,6)},
+ new{id="R08_EastWalking",room="R08",min=V(3.15f,0,-7),max=V(6,3.25f,6)}
+};
+var clearances=new System.Collections.Generic.List<object>();
+int violations=0;
+foreach(var zone in zones){int count=vertices.Where(k=>keyRoom[k.Key]==zone.room).SelectMany(k=>k.Value).Count(p=>p.x>zone.min.x&&p.x<zone.max.x&&p.y>zone.min.y&&p.y<zone.max.y&&p.z>zone.min.z&&p.z<zone.max.z);violations+=count;clearances.Add(new{id=zone.id,verticesInside=count,min=vf(zone.min),max=vf(zone.max)});}
+foreach(var room in new[]{"R07","R08"}){
+ float roof=room=="R07"?4f:6f;float top=vertices.Where(k=>keyRoom[k.Key]==room).SelectMany(k=>k.Value).Max(p=>p.y);
+ if(top>roof-.015f)throw new System.Exception(room+" pipe penetrates roof: "+top);
+ clearances.Add(new{id=room+"_Roof",highestVertexY=top,ceilingY=roof,clearance=roof-top});
+}
+if(violations!=0)throw new System.Exception("배관이 보호 공간을 침범했습니다: "+violations);
+var meshRecords=new System.Collections.Generic.List<object>();
+foreach(var key in vertices.Keys){
+ var mesh=new UnityEngine.Mesh();mesh.name="B2_"+key+"_PipeMesh_20261104";mesh.indexFormat=UnityEngine.Rendering.IndexFormat.UInt32;mesh.SetVertices(vertices[key]);mesh.SetTriangles(triangles[key],0);mesh.RecalculateNormals();mesh.RecalculateBounds();
+ var path=assetBase+"/"+mesh.name+".asset";if(UnityEditor.AssetDatabase.LoadAssetAtPath<UnityEngine.Mesh>(path)!=null)throw new System.Exception("Mesh already exists: "+path);UnityEditor.AssetDatabase.CreateAsset(mesh,path);
+ var g=new UnityEngine.GameObject(key);g.transform.SetParent(groups[keyRoom[key]],false);g.AddComponent<UnityEngine.MeshFilter>().sharedMesh=mesh;var renderer=g.AddComponent<UnityEngine.MeshRenderer>();renderer.sharedMaterial=mats[keyMat[key]];renderer.shadowCastingMode=UnityEngine.Rendering.ShadowCastingMode.On;
+ meshRecords.Add(new{key,path,vertices=mesh.vertexCount,triangles=triangles[key].Count/3,room=keyRoom[key],material=keyMat[key],boundsCenter=vf(mesh.bounds.center),boundsSize=vf(mesh.bounds.size)});
+}
+var colliderChanges=colliders.Where(c=>c==null||!colliderBefore.ContainsKey(c.GetInstanceID())||UnityEditor.EditorJsonUtility.ToJson(c)!=colliderBefore[c.GetInstanceID()]).Select(c=>c==null?"missing":PathOf(c.transform)).ToArray();
+var transformChanges=originals.Where(t=>t==null||!transformBefore[t.GetInstanceID()].SequenceEqual(new[]{t.localPosition.x,t.localPosition.y,t.localPosition.z,t.localRotation.x,t.localRotation.y,t.localRotation.z,t.localRotation.w,t.localScale.x,t.localScale.y,t.localScale.z})).Select(t=>t==null?"missing":PathOf(t)).ToArray();
+if(colliderChanges.Length>0||transformChanges.Length>0)throw new System.Exception("원래 충돌/Transform 변경 감지");
+if(network.GetComponentsInChildren<UnityEngine.Collider>(true).Length!=0)throw new System.Exception("새 관망에 Collider가 있습니다.");
+var prefabPath=assetBase+"/B2_CompletePipeNetwork_20261104.prefab";
+UnityEditor.PrefabUtility.SaveAsPrefabAssetAndConnect(network,prefabPath,UnityEditor.InteractionMode.AutomatedAction);
+UnityEditor.AssetDatabase.SaveAssets();UnityEditor.SceneManagement.EditorSceneManager.MarkSceneDirty(scene);UnityEditor.SceneManagement.EditorSceneManager.SaveScene(scene);
+var report=new{author="송예찬",date="2026-11-04",scene=scene.path,prefab=prefabPath,source="Procedural sealed tube meshes, rounded elbows, flanges, wall clamps. Existing VARCO U03/U07 prefabs referenced without modifying shared source assets.",visualOnly=true,newColliders=0,originalColliderCount=colliders.Length,originalColliderChanges=colliderChanges,originalTransformCount=originals.Length,originalTransformChanges=transformChanges,legacy=legacyRecords,networks=routeRecords,joints=jointRecords,clones=cloneRecords,meshes=meshRecords,clearances,protectedSpaceViolations=violations,notes=new[]{"Room07 supply/return are continuous sealed loops; equipment branches are individually capped inside opaque machine casings.","Room08 U-shaped service mains terminate with closed caps .27m behind rear wall; there is no free-floating connection across the inter-room corridor.","All old U01/U02/U03/U07 GameObjects and transforms are preserved; only their renderers are disabled.","Pipe geometry adds no collider, script, audio or puzzle behavior. No runtime C# file is modified."}};
+string json=Newtonsoft.Json.JsonConvert.SerializeObject(report,Newtonsoft.Json.Formatting.Indented);
+System.IO.File.WriteAllText(dataBase+"/Environment_B2_CompletePipeNetwork_20261104_source_manifest.json",json,new System.Text.UTF8Encoding(false));
+string outDir=System.IO.Path.GetFullPath(System.IO.Path.Combine(UnityEngine.Application.dataPath,"../../../tmp/B2_Pipes_20261104"));System.IO.Directory.CreateDirectory(outDir);System.IO.File.WriteAllText(System.IO.Path.Combine(outDir,"build_report.json"),json,new System.Text.UTF8Encoding(false));
+UnityEditor.AssetDatabase.Refresh();
+return new{success=true,scene=scene.path,prefab=prefabPath,meshes=meshRecords.Count,networks=routeRecords.Count,oldRenderRootsHidden=legacy.Length,originalCollidersPreserved=colliderChanges.Length==0,originalTransformsPreserved=transformChanges.Length==0,protectedSpaceViolations=violations,report=System.IO.Path.Combine(outDir,"build_report.json")};
+
+// 주석
+// 모든 신규 형상은 정적 외형이다. 원래 플레이/교환/경비/충돌 동작은 변경하지 않는다.
+// 메인 관은 동일한 반지름으로 연속 스윕하고 모서리는 8단 곡선으로 연결한다.
+// 플랜지와 클램프는 관 단면에 겹쳐 붙이며, 열린 가지 끝은 벽 또는 장비 안에서 닫는다.
+// 실행은 B2를 연 Unity Editor에서만 한다. 실행 주체가 저장 전후 장면을 다시 열어 육안 검수한다.

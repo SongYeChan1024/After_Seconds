@@ -1,0 +1,11 @@
+{
+  "camera": "PlaytestRig/Camera/CM_Player_1st",
+  "reason": "Cinemachine edit-mode tracking auto-updated the camera pose when the B2 scene was saved; original serialized pose retained. Follow settings and player pose unchanged.",
+  "restoredFields": [
+    {
+      "field": "m_LocalPosition",
+      "before": "m_LocalPosition: {x: -0.000000028849517, y: 1.8249999, z: 4.67}",
+      "restored": "m_LocalPosition: {x: -30, y: 1.675, z: 30.33}"
+    }
+  ]
+}

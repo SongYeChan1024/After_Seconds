@@ -1,0 +1,314 @@
+[
+  {
+    "key": "Props_IndustrialCentrifuge_00",
+    "asset": "Props_IndustrialCentrifuge",
+    "floor": "B2",
+    "room": "Room07_CentrifugeHall",
+    "pos": [
+      -4.6,
+      0,
+      5.0
+    ],
+    "max": [
+      2.2,
+      2.8,
+      1.5
+    ],
+    "yaw": 0,
+    "center": false
+  },
+  {
+    "key": "Props_ReactorTank_01",
+    "asset": "Props_ReactorTank",
+    "floor": "B2",
+    "room": "Room07_CentrifugeHall",
+    "pos": [
+      4.6,
+      0,
+      5.0
+    ],
+    "max": [
+      2.2,
+      3.0,
+      1.5
+    ],
+    "yaw": 180,
+    "center": false
+  },
+  {
+    "key": "Props_HVACUnit_02",
+    "asset": "Props_HVACUnit",
+    "floor": "B2",
+    "room": "Room08_CentralControl",
+    "pos": [
+      -5.55,
+      4.5,
+      -3.7
+    ],
+    "max": [
+      0.65,
+      1.25,
+      2.2
+    ],
+    "yaw": -90,
+    "center": true
+  },
+  {
+    "key": "Props_LaboratoryWorkbench_03",
+    "asset": "Props_LaboratoryWorkbench",
+    "floor": "B3",
+    "room": "Room05_SampleStorage",
+    "pos": [
+      -5.1,
+      0,
+      -2.7
+    ],
+    "max": [
+      1.4,
+      1.85,
+      2.0
+    ],
+    "yaw": 90,
+    "center": false
+  },
+  {
+    "key": "Props_LaboratoryWorkbench_04",
+    "asset": "Props_LaboratoryWorkbench",
+    "floor": "B1",
+    "room": "Room09_SubjectChamber",
+    "pos": [
+      -4.3,
+      0,
+      6.5
+    ],
+    "max": [
+      1.8,
+      1.85,
+      1.0
+    ],
+    "yaw": 180,
+    "center": false
+  },
+  {
+    "key": "Props_PalletStorageRack_05",
+    "asset": "Props_PalletStorageRack",
+    "floor": "1F",
+    "room": "Room10_ExitCheckpoint",
+    "pos": [
+      -5.7,
+      0,
+      -0.6
+    ],
+    "max": [
+      1.7,
+      2.3,
+      1.2
+    ],
+    "yaw": 90,
+    "center": false
+  },
+  {
+    "key": "Props_MaintenanceToolCart_06",
+    "asset": "Props_MaintenanceToolCart",
+    "floor": "B4",
+    "room": "Room04_ControlDeck",
+    "pos": [
+      -4.8,
+      0,
+      4.5
+    ],
+    "max": [
+      1.3,
+      1.0,
+      1.0
+    ],
+    "yaw": 0,
+    "center": false
+  },
+  {
+    "key": "Props_GasCylinderRack_07",
+    "asset": "Props_GasCylinderRack",
+    "floor": "B3",
+    "room": "Room06_DecontaminationAirlock",
+    "pos": [
+      -4.8,
+      0,
+      -7.0
+    ],
+    "max": [
+      1.5,
+      2.3,
+      1.2
+    ],
+    "yaw": 180,
+    "center": false
+  },
+  {
+    "key": "Props_ExhaustFan_08",
+    "asset": "Props_ExhaustFan",
+    "floor": "B4",
+    "room": "Room04_ControlDeck",
+    "pos": [
+      5.72,
+      4.6,
+      -0.4
+    ],
+    "max": [
+      0.4,
+      1.0,
+      1.0
+    ],
+    "yaw": 90,
+    "center": true
+  },
+  {
+    "key": "Env_LoadingShutterWall_13",
+    "asset": "Env_LoadingShutterWall",
+    "floor": "1F",
+    "room": "Exterior_ExitLanding_Draft",
+    "pos": [
+      -4.5,
+      0,
+      -0.2
+    ],
+    "max": [
+      4.5,
+      3,
+      3.2
+    ],
+    "yaw": 90,
+    "center": false
+  },
+  {
+    "key": "Env_ExteriorCorner_14",
+    "asset": "Env_ExteriorCorner",
+    "floor": "1F",
+    "room": "Exterior_ExitLanding_Draft",
+    "pos": [
+      4.8,
+      0,
+      -0.3
+    ],
+    "max": [
+      2.4,
+      2.7,
+      2.4
+    ],
+    "yaw": 180,
+    "center": false,
+    "note": "Closed service backdrop beyond east exterior gate, unreachable; original exit silhouette and center opening preserved"
+  },
+  {
+    "key": "StructuralColumn_0",
+    "asset": "Env_SteelColumn",
+    "floor": "B2",
+    "room": "Room07_CentrifugeHall",
+    "pos": [
+      -5.85,
+      0,
+      5.85
+    ],
+    "max": [
+      0.24,
+      3.98,
+      0.24
+    ],
+    "yaw": 0,
+    "center": false,
+    "exact": true
+  },
+  {
+    "key": "StructuralColumn_1",
+    "asset": "Env_SteelColumn",
+    "floor": "B2",
+    "room": "Room07_CentrifugeHall",
+    "pos": [
+      5.85,
+      0,
+      5.85
+    ],
+    "max": [
+      0.24,
+      3.98,
+      0.24
+    ],
+    "yaw": 0,
+    "center": false,
+    "exact": true
+  },
+  {
+    "key": "StructuralColumn_2",
+    "asset": "Env_SteelColumn",
+    "floor": "B2",
+    "room": "Room07_CentrifugeHall",
+    "pos": [
+      -5.85,
+      0,
+      -9.85
+    ],
+    "max": [
+      0.24,
+      3.98,
+      0.24
+    ],
+    "yaw": 0,
+    "center": false,
+    "exact": true
+  },
+  {
+    "key": "StructuralColumn_3",
+    "asset": "Env_SteelColumn",
+    "floor": "B2",
+    "room": "Room07_CentrifugeHall",
+    "pos": [
+      5.85,
+      0,
+      -9.85
+    ],
+    "max": [
+      0.24,
+      3.98,
+      0.24
+    ],
+    "yaw": 0,
+    "center": false,
+    "exact": true
+  },
+  {
+    "key": "LoadingBay_CrossBeam",
+    "asset": "Env_SteelIBeam",
+    "floor": "1F",
+    "room": "Exterior_ExitLanding_Draft",
+    "pos": [
+      -4.5,
+      3.15,
+      -0.2
+    ],
+    "max": [
+      3.8,
+      0.95,
+      3.8
+    ],
+    "yaw": 0,
+    "center": true
+  },
+  {
+    "key": "PitBottomGrating",
+    "asset": "Env_SteelGrating",
+    "floor": "B2",
+    "room": "Room07_CentrifugeHall",
+    "pos": [
+      0,
+      -3.4,
+      -1.5
+    ],
+    "max": [
+      4,
+      2,
+      4
+    ],
+    "yaw": 0,
+    "center": true,
+    "top": -2.94
+  }
+]

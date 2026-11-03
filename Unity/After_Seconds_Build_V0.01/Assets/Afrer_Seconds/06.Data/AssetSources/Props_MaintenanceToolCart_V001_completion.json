@@ -1,0 +1,345 @@
+{
+  "name": "Props_MaintenanceToolCart",
+  "sourcePath": "Original GLB preserved locally; SHA256 identifies source",
+  "sourceSha256": "901203f2a923cc6b652e236a5e2d96fbd230a357103ae46541bfbb50f9058dd7",
+  "fbx": "Assets/Afrer_Seconds/05.Model/Props/B4/Props_MaintenanceToolCart.fbx",
+  "fbxSha256": "8dec447935e2aeda8cb58ead1729646bd6f88b48039fd66fde284988affe49df",
+  "blenderBoundsMin": [
+    -0.49996986985206604,
+    -0.28666576743125916,
+    0.0
+  ],
+  "blenderBoundsMax": [
+    0.49996986985206604,
+    0.28666576743125916,
+    0.99701178073883057
+  ],
+  "blenderSizeXYZ": [
+    0.99993973970413208,
+    0.57333153486251831,
+    0.99701178073883057
+  ],
+  "unitySizeXYZ": [
+    0.99993973970413208,
+    0.99701178073883057,
+    0.57333153486251831
+  ],
+  "triangles": 71988,
+  "meshes": [
+    {
+      "name": "texture_mapping",
+      "source": {
+        "triangles": 500000,
+        "vertices": 249986,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "zeroAreaFaces": 0
+      },
+      "attempts": [
+        {
+          "triangles": 48000,
+          "vertices": 23986,
+          "boundaryEdges": 0,
+          "overusedEdges": 0,
+          "zeroAreaFaces": 0,
+          "strictCrossingPairs": 11,
+          "crossingPairsSample": [
+            [
+              1444,
+              1451
+            ],
+            [
+              26715,
+              44298
+            ],
+            [
+              26350,
+              26497
+            ],
+            [
+              22821,
+              22855
+            ],
+            [
+              10119,
+              10123
+            ],
+            [
+              10119,
+              10120
+            ],
+            [
+              20900,
+              20958
+            ],
+            [
+              20680,
+              20884
+            ],
+            [
+              20675,
+              20872
+            ],
+            [
+              11435,
+              31463
+            ],
+            [
+              30714,
+              31280
+            ]
+          ],
+          "crossingPairs": [
+            [
+              1444,
+              1451
+            ],
+            [
+              26715,
+              44298
+            ],
+            [
+              26350,
+              26497
+            ],
+            [
+              22821,
+              22855
+            ],
+            [
+              10119,
+              10123
+            ],
+            [
+              10119,
+              10120
+            ],
+            [
+              20900,
+              20958
+            ],
+            [
+              20680,
+              20884
+            ],
+            [
+              20675,
+              20872
+            ],
+            [
+              11435,
+              31463
+            ],
+            [
+              30714,
+              31280
+            ]
+          ]
+        },
+        {
+          "triangles": 72000,
+          "vertices": 35986,
+          "boundaryEdges": 0,
+          "overusedEdges": 0,
+          "zeroAreaFaces": 0,
+          "strictCrossingPairs": 3,
+          "crossingPairsSample": [
+            [
+              30933,
+              31240
+            ],
+            [
+              30485,
+              30488
+            ],
+            [
+              34681,
+              36495
+            ]
+          ],
+          "crossingPairs": [
+            [
+              30933,
+              31240
+            ],
+            [
+              30485,
+              30488
+            ],
+            [
+              34681,
+              36495
+            ]
+          ]
+        },
+        {
+          "triangles": 96000,
+          "vertices": 47986,
+          "boundaryEdges": 0,
+          "overusedEdges": 0,
+          "zeroAreaFaces": 0,
+          "strictCrossingPairs": 8,
+          "crossingPairsSample": [
+            [
+              23732,
+              41117
+            ],
+            [
+              41406,
+              41812
+            ],
+            [
+              16719,
+              16726
+            ],
+            [
+              53691,
+              87800
+            ],
+            [
+              53690,
+              87800
+            ],
+            [
+              52166,
+              52475
+            ],
+            [
+              23423,
+              41281
+            ],
+            [
+              41853,
+              42091
+            ]
+          ],
+          "crossingPairs": [
+            [
+              23732,
+              41117
+            ],
+            [
+              41406,
+              41812
+            ],
+            [
+              16719,
+              16726
+            ],
+            [
+              53691,
+              87800
+            ],
+            [
+              53690,
+              87800
+            ],
+            [
+              52166,
+              52475
+            ],
+            [
+              23423,
+              41281
+            ],
+            [
+              41853,
+              42091
+            ]
+          ]
+        }
+      ],
+      "final": {
+        "triangles": 71988,
+        "vertices": 35984,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "zeroAreaFaces": 0,
+        "strictCrossingPairs": 0,
+        "crossingPairsSample": [],
+        "crossingPairs": []
+      }
+    }
+  ],
+  "materials": [
+    {
+      "name": "Props_MaintenanceToolCart_Material",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 1.0,
+      "BaseColor": "Assets/Afrer_Seconds/05.Model/Props/B4/Textures/Props_MaintenanceToolCart_BaseColor.png",
+      "Normal": "Assets/Afrer_Seconds/05.Model/Props/B4/Textures/Props_MaintenanceToolCart_Normal.png"
+    }
+  ],
+  "textures": [
+    {
+      "semantic": "BaseColor",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/B4/Textures/Props_MaintenanceToolCart_BaseColor.png",
+      "width": 2048,
+      "height": 2048,
+      "colorSpace": "sRGB",
+      "assetPath": "Assets/Afrer_Seconds/05.Model/Props/B4/Textures/Props_MaintenanceToolCart_BaseColor.png"
+    },
+    {
+      "semantic": "Normal",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/B4/Textures/Props_MaintenanceToolCart_Normal.png",
+      "width": 2048,
+      "height": 2048,
+      "colorSpace": "linear",
+      "assetPath": "Assets/Afrer_Seconds/05.Model/Props/B4/Textures/Props_MaintenanceToolCart_Normal.png"
+    }
+  ],
+  "pivot": "bottom-center",
+  "sourceFlowId": "3ace28ca-d501-4921-b5a8-0875b2468245",
+  "visualOnly": true,
+  "preparation": "UV-preserving collapse with adaptive density, 40 degree sharp edges and weighted normals",
+  "exportRepair": [
+    {
+      "attempt": 0,
+      "measurements": [
+        {
+          "triangles": 71992,
+          "vertices": 35984,
+          "boundaryEdges": 0,
+          "overusedEdges": 0,
+          "zeroAreaFaces": 0,
+          "strictCrossingPairs": 1,
+          "crossingPairsSample": [
+            [
+              39447,
+              39674
+            ]
+          ],
+          "crossingPairs": [
+            [
+              39447,
+              39674
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "attempt": 1,
+      "measurements": [
+        {
+          "triangles": 71988,
+          "vertices": 35984,
+          "boundaryEdges": 0,
+          "overusedEdges": 0,
+          "zeroAreaFaces": 0,
+          "strictCrossingPairs": 0,
+          "crossingPairsSample": [],
+          "crossingPairs": []
+        }
+      ]
+    }
+  ],
+  "modelAssetPath": "Assets/Afrer_Seconds/05.Model/Props/B4/Props_MaintenanceToolCart.fbx",
+  "prefabAssetPath": "Assets/Afrer_Seconds/05.Model/Props/B4/Props_MaintenanceToolCart.prefab"
+}

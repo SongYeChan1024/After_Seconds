@@ -1,0 +1,300 @@
+{
+  "name": "Env_SteelIBeam",
+  "sourcePath": "Original GLB preserved locally; SHA256 identifies source",
+  "sourceSha256": "496398627d417a9aa987837e27206b335b66572b8ddc45be7c97f00dbc47081b",
+  "fbx": "Assets/Afrer_Seconds/05.Model/Environment/Common/Env_SteelIBeam.fbx",
+  "fbxSha256": "0922fd16c96103cd2a5868ee2f6afd1d699358b558fe89814ce1d8373d3dc051",
+  "blenderBoundsMin": [
+    -0.49623090028762817,
+    -0.492864191532135,
+    0.0
+  ],
+  "blenderBoundsMax": [
+    0.49623090028762817,
+    0.492864191532135,
+    0.24559378623962402
+  ],
+  "blenderSizeXYZ": [
+    0.99246180057525635,
+    0.98572838306427,
+    0.24559378623962402
+  ],
+  "unitySizeXYZ": [
+    0.99246180057525635,
+    0.24559378623962402,
+    0.98572838306427
+  ],
+  "triangles": 63998,
+  "meshes": [
+    {
+      "name": "texture_mapping",
+      "source": {
+        "triangles": 500000,
+        "vertices": 249982,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "zeroAreaFaces": 0
+      },
+      "attempts": [
+        {
+          "triangles": 32000,
+          "vertices": 15982,
+          "boundaryEdges": 0,
+          "overusedEdges": 0,
+          "zeroAreaFaces": 0,
+          "strictCrossingPairs": 6,
+          "crossingPairsSample": [
+            [
+              12323,
+              12349
+            ],
+            [
+              4965,
+              5920
+            ],
+            [
+              6657,
+              28573
+            ],
+            [
+              6656,
+              28573
+            ],
+            [
+              1821,
+              4587
+            ],
+            [
+              14834,
+              15248
+            ]
+          ],
+          "crossingPairs": [
+            [
+              12323,
+              12349
+            ],
+            [
+              4965,
+              5920
+            ],
+            [
+              6657,
+              28573
+            ],
+            [
+              6656,
+              28573
+            ],
+            [
+              1821,
+              4587
+            ],
+            [
+              14834,
+              15248
+            ]
+          ]
+        },
+        {
+          "triangles": 48000,
+          "vertices": 23982,
+          "boundaryEdges": 0,
+          "overusedEdges": 0,
+          "zeroAreaFaces": 0,
+          "strictCrossingPairs": 9,
+          "crossingPairsSample": [
+            [
+              6690,
+              7276
+            ],
+            [
+              6690,
+              7341
+            ],
+            [
+              6690,
+              7282
+            ],
+            [
+              6691,
+              7348
+            ],
+            [
+              6691,
+              7349
+            ],
+            [
+              6691,
+              7346
+            ],
+            [
+              6691,
+              7347
+            ],
+            [
+              6691,
+              7343
+            ],
+            [
+              2645,
+              6747
+            ]
+          ],
+          "crossingPairs": [
+            [
+              6690,
+              7276
+            ],
+            [
+              6690,
+              7341
+            ],
+            [
+              6690,
+              7282
+            ],
+            [
+              6691,
+              7348
+            ],
+            [
+              6691,
+              7349
+            ],
+            [
+              6691,
+              7346
+            ],
+            [
+              6691,
+              7347
+            ],
+            [
+              6691,
+              7343
+            ],
+            [
+              2645,
+              6747
+            ]
+          ]
+        },
+        {
+          "triangles": 64000,
+          "vertices": 31982,
+          "boundaryEdges": 0,
+          "overusedEdges": 0,
+          "zeroAreaFaces": 0,
+          "strictCrossingPairs": 5,
+          "crossingPairsSample": [
+            [
+              8937,
+              9758
+            ],
+            [
+              8937,
+              9678
+            ],
+            [
+              8937,
+              9757
+            ],
+            [
+              8937,
+              9679
+            ],
+            [
+              8937,
+              9685
+            ]
+          ],
+          "crossingPairs": [
+            [
+              8937,
+              9758
+            ],
+            [
+              8937,
+              9678
+            ],
+            [
+              8937,
+              9757
+            ],
+            [
+              8937,
+              9679
+            ],
+            [
+              8937,
+              9685
+            ]
+          ]
+        }
+      ],
+      "final": {
+        "triangles": 63998,
+        "vertices": 31981,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "zeroAreaFaces": 0,
+        "strictCrossingPairs": 0,
+        "crossingPairsSample": [],
+        "crossingPairs": [],
+        "patchSteps": [
+          {
+            "iteration": 0,
+            "removedFaces": 14,
+            "rebuiltFaces": 14
+          },
+          {
+            "iteration": 1,
+            "removedFaces": 10,
+            "rebuiltFaces": 8
+          }
+        ],
+        "relativeVolumeChange": 1.2681235135342011E-06
+      }
+    }
+  ],
+  "materials": [
+    {
+      "name": "Env_SteelIBeam_Material",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 1.0,
+      "BaseColor": "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/Env_SteelIBeam_BaseColor.png",
+      "Normal": "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/Env_SteelIBeam_Normal.png"
+    }
+  ],
+  "textures": [
+    {
+      "semantic": "BaseColor",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/Env_SteelIBeam_BaseColor.png",
+      "width": 2048,
+      "height": 2048,
+      "colorSpace": "sRGB",
+      "assetPath": "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/Env_SteelIBeam_BaseColor.png"
+    },
+    {
+      "semantic": "Normal",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/Env_SteelIBeam_Normal.png",
+      "width": 2048,
+      "height": 2048,
+      "colorSpace": "linear",
+      "assetPath": "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/Env_SteelIBeam_Normal.png"
+    }
+  ],
+  "pivot": "bottom-center",
+  "sourceFlowId": "3ace28ca-d501-4921-b5a8-0875b2468245",
+  "visualOnly": true,
+  "preparation": "UV-preserving collapse with adaptive density, 40 degree sharp edges and weighted normals",
+  "modelAssetPath": "Assets/Afrer_Seconds/05.Model/Environment/Common/Env_SteelIBeam.fbx",
+  "prefabAssetPath": "Assets/Afrer_Seconds/05.Model/Environment/Common/Env_SteelIBeam.prefab"
+}

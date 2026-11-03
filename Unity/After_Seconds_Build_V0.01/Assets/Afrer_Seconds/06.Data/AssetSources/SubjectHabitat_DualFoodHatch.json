@@ -1,0 +1,1266 @@
+{
+  "name": "DualFoodHatch",
+  "author": "송예찬",
+  "date": "2026-11-03",
+  "sourceBlend": "SourceAssets/SubjectHabitat/DualFoodHatch.blend",
+  "exports": {
+    "shellVisual": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatShell.fbx",
+    "shellCollision": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatCollision.fbx",
+    "hatchVisual": "Assets/Afrer_Seconds/05.Model/Environment/B5/DualFoodHatch_Visual.fbx",
+    "hatchCollision": "Assets/Afrer_Seconds/05.Model/Environment/B5/DualFoodHatch_Collision.fbx"
+  },
+  "sha256": {
+    "shellVisual": "420eada5f9c2f971fc76e626f8662b0199577bf1ca805e2f6cd608ea84c55ba7",
+    "shellCollision": "9b1969f3d2af7ec12ad5542edebe3e02a175c931e9dd6e1c827774e004674d96",
+    "hatchVisual": "5c41217e107a0e1d6b091fd53e8de09aece163cbd1c0e8626d3727456a8a5a46",
+    "hatchCollision": "b95a3de8d851b1b31eac3b3556525b4265a871280a6c7ba669e2b60ea6bf7a27"
+  },
+  "podUnityRootPosition": [
+    0,
+    0,
+    10.32
+  ],
+  "podUnityRootScale": [
+    3,
+    2,
+    3
+  ],
+  "fbxModelChildYawUnity": 180,
+  "alignment": "All four FBXs use original pod coordinates and the SAME original FBX axes. Parent under existing ObservationPod root, local position zero, local rotation(0,180,0), local scale one. Keep root scale(3,2,3). Hatch geometry is inverse-scaled already; do not apply another inverse scale. Source Blender forward -Y becomes Unity +Z before existing child yaw180, then world front -Z.",
+  "worldHatchCenterRelativePod": [
+    0,
+    1.05,
+    -3.975
+  ],
+  "worldHatchCenterInRoom": [
+    0,
+    1.05,
+    6.345
+  ],
+  "physicalDimensions": {
+    "outerFrameWidth": 1.0,
+    "outerFrameHeight": 0.75,
+    "doorWidth": 0.72,
+    "doorHeight": 0.45,
+    "tunnelDepth": 0.42,
+    "wallOpeningWidth": 0.78,
+    "wallOpeningHeight": 0.51
+  },
+  "doorPivots": [
+    {
+      "name": "DualFoodHatch_DoorExterior_Pivot",
+      "physicalPivot": [
+        -0.36,
+        -4.19,
+        1.05
+      ],
+      "sourcePivot": [
+        -0.12,
+        -1.3966666666666667,
+        0.525
+      ],
+      "hingeAxisUnity": "Y",
+      "physicalDoorSize": [
+        0.72,
+        0.45,
+        0.027
+      ],
+      "openPreviewAngle": -105
+    },
+    {
+      "name": "DualFoodHatch_DoorInterior_Pivot",
+      "physicalPivot": [
+        0.36,
+        -3.7600000000000002,
+        1.05
+      ],
+      "sourcePivot": [
+        0.12,
+        -1.2533333333333334,
+        0.525
+      ],
+      "hingeAxisUnity": "Y",
+      "physicalDoorSize": [
+        0.72,
+        0.45,
+        0.027
+      ],
+      "openPreviewAngle": 105
+    }
+  ],
+  "affectedShellCollisionPanels": [
+    "ObservationPod_CollisionSegment_15",
+    "ObservationPod_CollisionSegment_16",
+    "ObservationPod_CollisionSegment_17",
+    "ObservationPod_CollisionSegment_18",
+    "ObservationPod_CollisionSegment_19",
+    "ObservationPod_CollisionSegment_20"
+  ],
+  "materials": [
+    {
+      "name": "OP_ClinicalWhite",
+      "baseColor": [
+        0.77999997138977051,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ]
+    },
+    {
+      "name": "OP_BlackFrame",
+      "baseColor": [
+        0.017999999225139618,
+        0.02500000037252903,
+        0.029999999329447746,
+        1.0
+      ]
+    },
+    {
+      "name": "OP_BrushedSteel",
+      "baseColor": [
+        0.34000000357627869,
+        0.38999998569488525,
+        0.43000000715255737,
+        1.0
+      ]
+    },
+    {
+      "name": "OP_ClearGlass",
+      "baseColor": [
+        0.92000001668930054,
+        0.97000002861022949,
+        0.99000000953674316,
+        0.15000000596046448
+      ]
+    },
+    {
+      "name": "OP_CoolWhiteLED",
+      "baseColor": [
+        0.56000000238418579,
+        0.85000002384185791,
+        0.95999997854232788,
+        1.0
+      ]
+    },
+    {
+      "name": "OP_HatchSeal",
+      "baseColor": [
+        0.00800000037997961,
+        0.012000000104308128,
+        0.014999999664723873,
+        1.0
+      ]
+    }
+  ],
+  "topology": {
+    "ObservationPod_Visual": [
+      {
+        "name": "ObservationPod_GlassShell",
+        "triangles": 12884,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.45274481129744232,
+        "materials": [
+          "OP_ClearGlass",
+          "OP_ClinicalWhite"
+        ]
+      },
+      {
+        "name": "ObservationPod_WhiteBase",
+        "triangles": 1792,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.11566141178173026,
+        "materials": [
+          "OP_ClinicalWhite"
+        ]
+      },
+      {
+        "name": "ObservationPod_BlackFoot",
+        "triangles": 1280,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.01302091013114114,
+        "materials": [
+          "OP_BlackFrame"
+        ]
+      },
+      {
+        "name": "ObservationPod_BaseSeal",
+        "triangles": 2048,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.0034226981069143611,
+        "materials": [
+          "OP_BlackFrame"
+        ]
+      },
+      {
+        "name": "ObservationPod_EquatorFrame",
+        "triangles": 2048,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.0060984414163675095,
+        "materials": [
+          "OP_BlackFrame"
+        ]
+      },
+      {
+        "name": "ObservationPod_BaseLED",
+        "triangles": 2048,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.0015644038532417503,
+        "materials": [
+          "OP_CoolWhiteLED"
+        ]
+      },
+      {
+        "name": "ObservationPod_InteriorLED",
+        "triangles": 2048,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.00083073482082900185,
+        "materials": [
+          "OP_CoolWhiteLED"
+        ]
+      },
+      {
+        "name": "ObservationPod_MeridianFrame_00",
+        "triangles": 444,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.0014885066251960322,
+        "materials": [
+          "OP_BlackFrame"
+        ]
+      },
+      {
+        "name": "ObservationPod_MeridianFrame_01",
+        "triangles": 444,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.0014944977872188927,
+        "materials": [
+          "OP_BlackFrame"
+        ]
+      },
+      {
+        "name": "ObservationPod_MeridianFrame_02",
+        "triangles": 444,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.001494499929531858,
+        "materials": [
+          "OP_BlackFrame"
+        ]
+      },
+      {
+        "name": "ObservationPod_MeridianFrame_03",
+        "triangles": 444,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.0014944977875940096,
+        "materials": [
+          "OP_BlackFrame"
+        ]
+      },
+      {
+        "name": "ObservationPod_MeridianFrame_04",
+        "triangles": 444,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.0014800308128359563,
+        "materials": [
+          "OP_BlackFrame"
+        ]
+      },
+      {
+        "name": "ObservationPod_MeridianFrame_05",
+        "triangles": 444,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.0014740354443759248,
+        "materials": [
+          "OP_BlackFrame"
+        ]
+      },
+      {
+        "name": "ObservationPod_MeridianFrame_07",
+        "triangles": 444,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.0014800287262107224,
+        "materials": [
+          "OP_BlackFrame"
+        ]
+      },
+      {
+        "name": "ObservationPod_Crown",
+        "triangles": 384,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.0037076357204969888,
+        "materials": [
+          "OP_BrushedSteel"
+        ]
+      },
+      {
+        "name": "ObservationPod_CrownLED",
+        "triangles": 2048,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 4.6898135558312456E-05,
+        "materials": [
+          "OP_CoolWhiteLED"
+        ]
+      },
+      {
+        "name": "ObservationPod_MeridianFrame_06",
+        "triangles": 504,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.0013701774426071191,
+        "materials": [
+          "OP_BlackFrame",
+          "OP_ClinicalWhite"
+        ]
+      }
+    ],
+    "ObservationPod_Collision": [
+      {
+        "name": "ObservationPod_CollisionSegment_00",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316049442717102,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_01",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316033438149517,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_02",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316033958670137,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_03",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316033634048492,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_04",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316033156737707,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_05",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316049641341021,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_06",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316049442717022,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_07",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316033438149517,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_08",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316033958670137,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_09",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316033634048492,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_10",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316033156737707,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_11",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316049641341049,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_12",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.02431604944271705,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_13",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316033438149517,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_14",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316033958670137,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_15",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316033634048492,
+        "materials": [
+          "OP_CollisionOnly",
+          "OP_ClinicalWhite"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_16",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316033156737707,
+        "materials": [
+          "OP_CollisionOnly",
+          "OP_ClinicalWhite"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_17",
+        "triangles": 420,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.02371848632428665,
+        "materials": [
+          "OP_CollisionOnly",
+          "OP_ClinicalWhite"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_18",
+        "triangles": 420,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.023718492281473436,
+        "materials": [
+          "OP_CollisionOnly",
+          "OP_ClinicalWhite"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_19",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316033438149517,
+        "materials": [
+          "OP_CollisionOnly",
+          "OP_ClinicalWhite"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_20",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316033958670137,
+        "materials": [
+          "OP_CollisionOnly",
+          "OP_ClinicalWhite"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_21",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316033634048492,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_22",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316033156737707,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_23",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316049641340782,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      }
+    ],
+    "DualFoodHatch_Visual": [
+      {
+        "name": "DualFoodHatch_StaticTunnelAndFrames",
+        "triangles": 2592,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.0027384818254409279,
+        "materials": [
+          "OP_BrushedSteel",
+          "OP_ClinicalWhite",
+          "OP_HatchSeal",
+          "OP_BlackFrame",
+          "OP_CoolWhiteLED"
+        ]
+      },
+      {
+        "name": "DualFoodHatch_DoorExterior_Pivot",
+        "triangles": 1284,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.00072721823453428291,
+        "materials": [
+          "OP_ClinicalWhite",
+          "OP_BrushedSteel",
+          "OP_BlackFrame"
+        ]
+      },
+      {
+        "name": "DualFoodHatch_DoorInterior_Pivot",
+        "triangles": 1284,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.00072719254411463311,
+        "materials": [
+          "OP_ClinicalWhite",
+          "OP_BrushedSteel",
+          "OP_BlackFrame"
+        ]
+      }
+    ],
+    "DualFoodHatch_Collision": [
+      {
+        "name": "DualFoodHatch_DoorExterior_Collider",
+        "triangles": 12,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.00048600990700865246,
+        "materials": [
+          "OP_ClinicalWhite"
+        ]
+      },
+      {
+        "name": "DualFoodHatch_DoorInterior_Collider",
+        "triangles": 12,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.00048599703240350528,
+        "materials": [
+          "OP_ClinicalWhite"
+        ]
+      },
+      {
+        "name": "DualFoodHatch_TunnelSideCollider",
+        "triangles": 12,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.00023799974425636538,
+        "materials": [
+          "OP_ClinicalWhite"
+        ]
+      },
+      {
+        "name": "DualFoodHatch_TunnelSideCollider.001",
+        "triangles": 12,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.00023799974425636538,
+        "materials": [
+          "OP_ClinicalWhite"
+        ]
+      },
+      {
+        "name": "DualFoodHatch_TunnelCapCollider",
+        "triangles": 12,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.00037333295861881571,
+        "materials": [
+          "OP_ClinicalWhite"
+        ]
+      },
+      {
+        "name": "DualFoodHatch_TunnelCapCollider.001",
+        "triangles": 12,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.00037333295861881571,
+        "materials": [
+          "OP_ClinicalWhite"
+        ]
+      }
+    ]
+  },
+  "notes": [
+    "Old white-backed decorative hatch was removed from new shell visual.",
+    "Glass and matching collision panels have actual openings.",
+    "New front meridian frame has only the hatch-sized cutout.",
+    "Tunnel is hollow between two identical opposing doors.",
+    "Both doors are exported closed with independent vertical hinges.",
+    "Separate simple door Collider objects must be parented to corresponding door pivots before future animation; no game code is included.",
+    "Root must preserve original old FBXs/prefab as backup; these are replacement derivatives.",
+    "V0.02: each of the two doors is finished on BOTH faces. Original front geometry, mesh/node IDs, pivots and material order preserved. Interior pull handles leave 0.314m clear tunnel depth between their tips."
+  ],
+  "version": "V0.02",
+  "fourFaceFinish": {
+    "doors": [
+      {
+        "door": "DualFoodHatch_DoorExterior_Pivot",
+        "meshName": "Cube.030",
+        "materialOrder": [
+          "OP_ClinicalWhite",
+          "OP_BrushedSteel",
+          "OP_BlackFrame"
+        ],
+        "originalVerticesPreserved": 364,
+        "oldPolygonsPreserved": 696,
+        "maxOriginalVertexError": 0.0,
+        "sourcePivot": [
+          -0.12000000476837158,
+          -1.3966667652130127,
+          0.52499997615814209
+        ],
+        "finishedFaces": 2,
+        "partsPerDoor": {
+          "leaf": 1,
+          "steelInsets": 2,
+          "pullHandles": 2,
+          "handleMounts": 4,
+          "hingeKnuckles": 4,
+          "latchCovers": 2
+        }
+      },
+      {
+        "door": "DualFoodHatch_DoorInterior_Pivot",
+        "meshName": "Cube.036",
+        "materialOrder": [
+          "OP_ClinicalWhite",
+          "OP_BrushedSteel",
+          "OP_BlackFrame"
+        ],
+        "originalVerticesPreserved": 364,
+        "oldPolygonsPreserved": 696,
+        "maxOriginalVertexError": 0.0,
+        "sourcePivot": [
+          0.12000000476837158,
+          -1.2533333301544189,
+          0.52499997615814209
+        ],
+        "finishedFaces": 2,
+        "partsPerDoor": {
+          "leaf": 1,
+          "steelInsets": 2,
+          "pullHandles": 2,
+          "handleMounts": 4,
+          "hingeKnuckles": 4,
+          "latchCovers": 2
+        }
+      }
+    ],
+    "allFourVisibleFacesFinished": true,
+    "frontFaceGeometryUnchanged": true,
+    "materialOrderPreserved": true,
+    "fbxObjectGeometryMaterialIdsPreserved": true,
+    "fbxIdMap": {
+      "Geometry:Cube.030": 580568716,
+      "Geometry:Cube.036": 105307570,
+      "Geometry:Cube.006": 273366837,
+      "Model:DualFoodHatch_DoorExterior_Pivot": 838729078,
+      "Model:DualFoodHatch_DoorInterior_Pivot": 103873124,
+      "Model:DualFoodHatch_StaticTunnelAndFrames": 149095236,
+      "Material:OP_ClinicalWhite": 898385180,
+      "Material:OP_BrushedSteel": 805412834,
+      "Material:OP_BlackFrame": 418350644,
+      "Material:OP_HatchSeal": 69569129,
+      "Material:OP_CoolWhiteLED": 772264802
+    },
+    "innerBackHandleProjectionFromDoorCenter": 0.058,
+    "minimumEmptyTunnelDepth": 0.314,
+    "preservedOtherFbxHashes": {
+      "shellVisual": "420eada5f9c2f971fc76e626f8662b0199577bf1ca805e2f6cd608ea84c55ba7",
+      "shellCollision": "9b1969f3d2af7ec12ad5542edebe3e02a175c931e9dd6e1c827774e004674d96",
+      "hatchCollision": "b95a3de8d851b1b31eac3b3556525b4265a871280a6c7ba669e2b60ea6bf7a27"
+    },
+    "materialIndexValidation": [
+      {
+        "name": "DualFoodHatch_DoorExterior_Pivot",
+        "components": 15,
+        "counts": {
+          "0": 1,
+          "1": 6,
+          "2": 8
+        },
+        "parts": [
+          {
+            "kind": "Leaf",
+            "material": "OP_ClinicalWhite",
+            "centerPhysical": [
+              0.0,
+              -4.190000057220459,
+              1.0499999523162842
+            ],
+            "dimensionsPhysical": [
+              0.72000002861022949,
+              0.02700042724609375,
+              0.45000004768371582
+            ]
+          },
+          {
+            "kind": "SteelInset",
+            "material": "OP_BrushedSteel",
+            "centerPhysical": [
+              0.0,
+              -4.2069997787475586,
+              1.0499999523162842
+            ],
+            "dimensionsPhysical": [
+              0.62999999523162842,
+              0.0080008506774902344,
+              0.35500001907348633
+            ]
+          },
+          {
+            "kind": "PullMountOrLatch",
+            "material": "OP_BlackFrame",
+            "centerPhysical": [
+              0.25200003385543823,
+              -4.2140002250671387,
+              1.1349999904632568
+            ],
+            "dimensionsPhysical": [
+              0.050000041723251343,
+              0.015000343322753906,
+              0.045000076293945313
+            ]
+          },
+          {
+            "kind": "PullMountOrLatch",
+            "material": "OP_BlackFrame",
+            "centerPhysical": [
+              0.25200003385543823,
+              -4.2140002250671387,
+              0.9649999737739563
+            ],
+            "dimensionsPhysical": [
+              0.050000041723251343,
+              0.015000343322753906,
+              0.044999957084655762
+            ]
+          },
+          {
+            "kind": "PullMountOrLatch",
+            "material": "OP_BlackFrame",
+            "centerPhysical": [
+              0.25200003385543823,
+              -4.2502470016479492,
+              1.0499999523162842
+            ],
+            "dimensionsPhysical": [
+              0.023999959230422974,
+              0.062493801116943359,
+              0.1940000057220459
+            ]
+          },
+          {
+            "kind": "HingeKnuckle",
+            "material": "OP_BrushedSteel",
+            "centerPhysical": [
+              -0.36000001430511475,
+              -4.2090005874633789,
+              0.91500002145767212
+            ],
+            "dimensionsPhysical": [
+              0.041999995708465576,
+              0.04199981689453125,
+              0.085000038146972656
+            ]
+          },
+          {
+            "kind": "HingeKnuckle",
+            "material": "OP_BrushedSteel",
+            "centerPhysical": [
+              -0.36000001430511475,
+              -4.2090005874633789,
+              1.184999942779541
+            ],
+            "dimensionsPhysical": [
+              0.041999995708465576,
+              0.04199981689453125,
+              0.085000038146972656
+            ]
+          },
+          {
+            "kind": "PullMountOrLatch",
+            "material": "OP_BlackFrame",
+            "centerPhysical": [
+              0.3312000036239624,
+              -4.2179999351501465,
+              1.0499999523162842
+            ],
+            "dimensionsPhysical": [
+              0.059999942779541016,
+              0.024999618530273438,
+              0.065000057220458984
+            ]
+          },
+          {
+            "kind": "SteelInset",
+            "material": "OP_BrushedSteel",
+            "centerPhysical": [
+              0.0,
+              -4.1729998588562012,
+              1.0499999523162842
+            ],
+            "dimensionsPhysical": [
+              0.62999999523162842,
+              0.0080003738403320313,
+              0.35500001907348633
+            ]
+          },
+          {
+            "kind": "PullMountOrLatch",
+            "material": "OP_BlackFrame",
+            "centerPhysical": [
+              0.25200003385543823,
+              -4.1659998893737793,
+              1.1349999904632568
+            ],
+            "dimensionsPhysical": [
+              0.050000041723251343,
+              0.015000343322753906,
+              0.045000076293945313
+            ]
+          },
+          {
+            "kind": "PullMountOrLatch",
+            "material": "OP_BlackFrame",
+            "centerPhysical": [
+              0.25200003385543823,
+              -4.1659998893737793,
+              0.9649999737739563
+            ],
+            "dimensionsPhysical": [
+              0.050000041723251343,
+              0.015000343322753906,
+              0.044999957084655762
+            ]
+          },
+          {
+            "kind": "PullMountOrLatch",
+            "material": "OP_BlackFrame",
+            "centerPhysical": [
+              0.25200000405311584,
+              -4.1465311050415039,
+              1.0499999523162842
+            ],
+            "dimensionsPhysical": [
+              0.020000040531158447,
+              0.028937816619873047,
+              0.18999999761581421
+            ]
+          },
+          {
+            "kind": "HingeKnuckle",
+            "material": "OP_BrushedSteel",
+            "centerPhysical": [
+              -0.36000001430511475,
+              -4.1710004806518555,
+              0.91500002145767212
+            ],
+            "dimensionsPhysical": [
+              0.041999995708465576,
+              0.04199981689453125,
+              0.085000038146972656
+            ]
+          },
+          {
+            "kind": "HingeKnuckle",
+            "material": "OP_BrushedSteel",
+            "centerPhysical": [
+              -0.36000001430511475,
+              -4.1710004806518555,
+              1.184999942779541
+            ],
+            "dimensionsPhysical": [
+              0.041999995708465576,
+              0.04199981689453125,
+              0.085000038146972656
+            ]
+          },
+          {
+            "kind": "PullMountOrLatch",
+            "material": "OP_BlackFrame",
+            "centerPhysical": [
+              0.3312000036239624,
+              -4.1620001792907715,
+              1.0499999523162842
+            ],
+            "dimensionsPhysical": [
+              0.060000032186508179,
+              0.024999618530273438,
+              0.065000057220458984
+            ]
+          }
+        ]
+      },
+      {
+        "name": "DualFoodHatch_DoorInterior_Pivot",
+        "components": 15,
+        "counts": {
+          "0": 1,
+          "1": 6,
+          "2": 8
+        },
+        "parts": [
+          {
+            "kind": "Leaf",
+            "material": "OP_ClinicalWhite",
+            "centerPhysical": [
+              0.0,
+              -3.7600002288818359,
+              1.0499999523162842
+            ],
+            "dimensionsPhysical": [
+              0.72000002861022949,
+              0.026999711990356445,
+              0.45000004768371582
+            ]
+          },
+          {
+            "kind": "SteelInset",
+            "material": "OP_BrushedSteel",
+            "centerPhysical": [
+              0.0,
+              -3.7430000305175781,
+              1.0499999523162842
+            ],
+            "dimensionsPhysical": [
+              0.62999999523162842,
+              0.00800013542175293,
+              0.35500001907348633
+            ]
+          },
+          {
+            "kind": "PullMountOrLatch",
+            "material": "OP_BlackFrame",
+            "centerPhysical": [
+              -0.25200003385543823,
+              -3.7360000610351563,
+              1.1349999904632568
+            ],
+            "dimensionsPhysical": [
+              0.050000041723251343,
+              0.015000104904174805,
+              0.045000076293945313
+            ]
+          },
+          {
+            "kind": "PullMountOrLatch",
+            "material": "OP_BlackFrame",
+            "centerPhysical": [
+              -0.25200003385543823,
+              -3.7360000610351563,
+              0.9649999737739563
+            ],
+            "dimensionsPhysical": [
+              0.050000041723251343,
+              0.015000104904174805,
+              0.044999957084655762
+            ]
+          },
+          {
+            "kind": "PullMountOrLatch",
+            "material": "OP_BlackFrame",
+            "centerPhysical": [
+              -0.25200003385543823,
+              -3.6997530460357666,
+              1.0499999523162842
+            ],
+            "dimensionsPhysical": [
+              0.023999959230422974,
+              0.062493801116943359,
+              0.1940000057220459
+            ]
+          },
+          {
+            "kind": "HingeKnuckle",
+            "material": "OP_BrushedSteel",
+            "centerPhysical": [
+              0.36000001430511475,
+              -3.7409999370574951,
+              0.91500002145767212
+            ],
+            "dimensionsPhysical": [
+              0.041999995708465576,
+              0.04199981689453125,
+              0.085000038146972656
+            ]
+          },
+          {
+            "kind": "HingeKnuckle",
+            "material": "OP_BrushedSteel",
+            "centerPhysical": [
+              0.36000001430511475,
+              -3.7409999370574951,
+              1.184999942779541
+            ],
+            "dimensionsPhysical": [
+              0.041999995708465576,
+              0.04199981689453125,
+              0.085000038146972656
+            ]
+          },
+          {
+            "kind": "PullMountOrLatch",
+            "material": "OP_BlackFrame",
+            "centerPhysical": [
+              -0.3312000036239624,
+              -3.7320003509521484,
+              1.0499999523162842
+            ],
+            "dimensionsPhysical": [
+              0.059999942779541016,
+              0.025000333786010742,
+              0.065000057220458984
+            ]
+          },
+          {
+            "kind": "SteelInset",
+            "material": "OP_BrushedSteel",
+            "centerPhysical": [
+              0.0,
+              -3.7769999504089355,
+              1.0499999523162842
+            ],
+            "dimensionsPhysical": [
+              0.62999999523162842,
+              0.0079996585845947266,
+              0.35500001907348633
+            ]
+          },
+          {
+            "kind": "PullMountOrLatch",
+            "material": "OP_BlackFrame",
+            "centerPhysical": [
+              -0.25200003385543823,
+              -3.7839999198913574,
+              1.1349999904632568
+            ],
+            "dimensionsPhysical": [
+              0.050000041723251343,
+              0.014999628067016602,
+              0.045000076293945313
+            ]
+          },
+          {
+            "kind": "PullMountOrLatch",
+            "material": "OP_BlackFrame",
+            "centerPhysical": [
+              -0.25200003385543823,
+              -3.7839999198913574,
+              0.9649999737739563
+            ],
+            "dimensionsPhysical": [
+              0.050000041723251343,
+              0.014999628067016602,
+              0.044999957084655762
+            ]
+          },
+          {
+            "kind": "PullMountOrLatch",
+            "material": "OP_BlackFrame",
+            "centerPhysical": [
+              -0.25200000405311584,
+              -3.803469181060791,
+              1.0499999523162842
+            ],
+            "dimensionsPhysical": [
+              0.020000040531158447,
+              0.028938531875610352,
+              0.18999999761581421
+            ]
+          },
+          {
+            "kind": "HingeKnuckle",
+            "material": "OP_BrushedSteel",
+            "centerPhysical": [
+              0.36000001430511475,
+              -3.7790000438690186,
+              0.91500002145767212
+            ],
+            "dimensionsPhysical": [
+              0.041999995708465576,
+              0.04199981689453125,
+              0.085000038146972656
+            ]
+          },
+          {
+            "kind": "HingeKnuckle",
+            "material": "OP_BrushedSteel",
+            "centerPhysical": [
+              0.36000001430511475,
+              -3.7790000438690186,
+              1.184999942779541
+            ],
+            "dimensionsPhysical": [
+              0.041999995708465576,
+              0.04199981689453125,
+              0.085000038146972656
+            ]
+          },
+          {
+            "kind": "PullMountOrLatch",
+            "material": "OP_BlackFrame",
+            "centerPhysical": [
+              -0.3312000036239624,
+              -3.7880003452301025,
+              1.0499999523162842
+            ],
+            "dimensionsPhysical": [
+              0.060000032186508179,
+              0.025000095367431641,
+              0.065000057220458984
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

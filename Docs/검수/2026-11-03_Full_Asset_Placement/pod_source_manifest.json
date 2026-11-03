@@ -1,0 +1,728 @@
+{
+  "name": "ObservationPod",
+  "author": "송예찬",
+  "date": "2026-11-03",
+  "approval": "User explicitly requested actual dome construction in this session.",
+  "sourceBlend": "C:\\GitHubProjects\\After_Seconds\\SourceAssets\\ObservationPod\\ObservationPod.blend",
+  "visualFbx": "C:\\GitHubProjects\\After_Seconds\\tmp\\Asset_Placement_20261103\\ObservationPod\\ObservationPod_Visual.fbx",
+  "collisionFbx": "C:\\GitHubProjects\\After_Seconds\\tmp\\Asset_Placement_20261103\\ObservationPod\\ObservationPod_Collision.fbx",
+  "visualSha256": "e358bda59609e62637208bc3f84dd7fb517c45921b867c62993e47f05fea5b66",
+  "collisionSha256": "6b25b0569b2ba3fd20347fdcc93c196dbae611e3adae7516b2ec49b684873073",
+  "recommendedRoom01LocalPositionUnity": [
+    0,
+    0,
+    10.45
+  ],
+  "recommendedScale": [
+    1,
+    1,
+    1
+  ],
+  "orientation": "After importing, derive horizontal direction from root to ObservationPod_FoodHatch_Closed renderer center, and rotate whole visual/collision pair together so that hatch points Unity -Z toward guard. Root pivot is floor center.",
+  "dimensionsMetres": {
+    "baseOuterDiameter": 2.81,
+    "glassOuterDiameter": 2.66,
+    "glassInnerDiameter": 2.624,
+    "cylinderEquatorHeight": 1.86,
+    "glassTop": 3.19,
+    "overallHeight": 3.221,
+    "baseHeight": 0.14,
+    "glassThickness": 0.018
+  },
+  "existingCellInteriorUnity": {
+    "x": [
+      -1.4,
+      1.4
+    ],
+    "z": [
+      8.9,
+      12.0
+    ],
+    "oldCeiling": 2.6,
+    "roomCeiling": 4
+  },
+  "playerSpawnUnity": [
+    0,
+    0.65,
+    10.8
+  ],
+  "existingCameraHeightApprox": 1.825,
+  "spawnClearance": {
+    "horizontalRadiusFromPodCentre": 0.35,
+    "existingControllerHeight": 1.8,
+    "existingControllerRadius": 0.28,
+    "existingControllerCentreY": 0.3,
+    "existingSkinWidth": 0.08,
+    "radialClearanceAfterControllerAndSkin": 0.602,
+    "headClearanceAtSpawnMetresApprox": 1.28
+  },
+  "materials": {
+    "OP_ClinicalWhite": {
+      "urp": "Lit",
+      "baseColor": [
+        0.78,
+        0.8,
+        0.8,
+        1
+      ],
+      "metallic": 0.15,
+      "smoothness": 0.72
+    },
+    "OP_BlackFrame": {
+      "urp": "Lit",
+      "baseColor": [
+        0.018,
+        0.025,
+        0.03,
+        1
+      ],
+      "metallic": 0.72,
+      "smoothness": 0.76
+    },
+    "OP_BrushedSteel": {
+      "urp": "Lit",
+      "baseColor": [
+        0.34,
+        0.39,
+        0.43,
+        1
+      ],
+      "metallic": 0.82,
+      "smoothness": 0.78
+    },
+    "OP_ClearGlass": {
+      "urp": "Lit Transparent",
+      "baseColor": [
+        0.7,
+        0.88,
+        0.96,
+        0.12
+      ],
+      "metallic": 0,
+      "smoothness": 0.94,
+      "cull": "Back; shell already contains inward and outward surfaces",
+      "zWrite": false,
+      "castShadows": false
+    },
+    "OP_CoolWhiteLED": {
+      "urp": "Lit",
+      "baseColor": [
+        0.56,
+        0.85,
+        0.96,
+        1
+      ],
+      "emission": [
+        0.54,
+        0.84,
+        1.0
+      ],
+      "emissionIntensity": 2
+    },
+    "OP_HatchSeal": {
+      "urp": "Lit",
+      "baseColor": [
+        0.008,
+        0.012,
+        0.015,
+        1
+      ],
+      "metallic": 0.1,
+      "smoothness": 0.45
+    }
+  },
+  "collision": {
+    "segments": 24,
+    "type": "Static non-convex MeshCollider on each independently closed surface segment; no renderer; no Rigidbody. Not a floor plate.",
+    "boundsBaseRadius": 1.4,
+    "boundsTop": 3.19,
+    "noGameplayOpening": true,
+    "topologyAudit": [
+      {
+        "name": "ObservationPod_CollisionSegment_00",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316049442717102,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_01",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316033438149517,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_02",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316033958670137,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_03",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.02431603363404849,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_04",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316033156737707,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_05",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.02431604964134102,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_06",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316049442717022,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_07",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316033438149517,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_08",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316033958670137,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_09",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.02431603363404849,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_10",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316033156737707,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_11",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.02431604964134105,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_12",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.02431604944271705,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_13",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316033438149517,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_14",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316033958670137,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_15",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.02431603363404849,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_16",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316033156737707,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_17",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.02431604964134088,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_18",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316049442717022,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_19",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316033438149517,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_20",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316033958670137,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_21",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.02431603363404849,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_22",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316033156737707,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_23",
+        "triangles": 380,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "signedVolume": 0.024316049641340782,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      }
+    ]
+  },
+  "oldObjectsToDisableAndPreserve": [
+    "Room01_Isolation/Geometry/Cell_Wall_Left (Renderer + BoxCollider)",
+    "Room01_Isolation/Geometry/Cell_Wall_Right (Renderer + BoxCollider)",
+    "Room01_Isolation/Geometry/Cell_Wall_Rear (Renderer + BoxCollider)",
+    "Room01_Isolation/Geometry/Cell_Ceiling (Renderer + BoxCollider)",
+    "Room01_Isolation/Geometry/Cell_FrontBars/* (all Renderer + BoxCollider; preserve objects)",
+    "Room01_Isolation/Decoration/Cell_Bench (Renderer + BoxCollider)",
+    "Room01_Isolation/Decoration/Cell_Bench_LegA (Renderer + BoxCollider)",
+    "Room01_Isolation/Decoration/Cell_Bench_LegB (Renderer + BoxCollider)",
+    "Room01_Isolation/Lighting/Cell_Lamp (move above outside pod or disable lamp + its decorative Renderer; old y2.55 penetrates cap)"
+  ],
+  "objectsToRelocateAndPreserve": [
+    "P01_IsolationBunk_0 currently at (.8,0,10.8) must move outside circular pod because its rectangular footprint crosses glass.",
+    "Room01_Isolation/Decoration/Sign_S-03 should be relocated to the front/lower structure; previous y3.02/z8.74 floats in front of dome."
+  ],
+  "objectsToKeep": [
+    "Room01 floor and its collider",
+    "Player root/capsule/camera/Animator and current spawn",
+    "Other Room01 walls/ceilings, original ceiling orientation",
+    "Guard A at (0,7.4), existing puzzle coordinates"
+  ],
+  "visualTopologyAudit": [
+    {
+      "name": "ObservationPod_GlassShell",
+      "triangles": 12800,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaFaces": 0,
+      "signedVolume": 0.4539396805059162,
+      "materials": [
+        "OP_ClearGlass"
+      ]
+    },
+    {
+      "name": "ObservationPod_WhiteBase",
+      "triangles": 1792,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaFaces": 0,
+      "signedVolume": 0.11566141178173026,
+      "materials": [
+        "OP_ClinicalWhite"
+      ]
+    },
+    {
+      "name": "ObservationPod_BlackFoot",
+      "triangles": 1280,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaFaces": 0,
+      "signedVolume": 0.01302091013114114,
+      "materials": [
+        "OP_BlackFrame"
+      ]
+    },
+    {
+      "name": "ObservationPod_BaseSeal",
+      "triangles": 2048,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaFaces": 0,
+      "signedVolume": 0.003422698106914361,
+      "materials": [
+        "OP_BlackFrame"
+      ]
+    },
+    {
+      "name": "ObservationPod_EquatorFrame",
+      "triangles": 2048,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaFaces": 0,
+      "signedVolume": 0.0060984414163675095,
+      "materials": [
+        "OP_BlackFrame"
+      ]
+    },
+    {
+      "name": "ObservationPod_BaseLED",
+      "triangles": 2048,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaFaces": 0,
+      "signedVolume": 0.0015644038532417503,
+      "materials": [
+        "OP_CoolWhiteLED"
+      ]
+    },
+    {
+      "name": "ObservationPod_InteriorLED",
+      "triangles": 2048,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaFaces": 0,
+      "signedVolume": 0.0008307348208290018,
+      "materials": [
+        "OP_CoolWhiteLED"
+      ]
+    },
+    {
+      "name": "ObservationPod_MeridianFrame_00",
+      "triangles": 444,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaFaces": 0,
+      "signedVolume": 0.0014885066251960322,
+      "materials": [
+        "OP_BlackFrame"
+      ]
+    },
+    {
+      "name": "ObservationPod_MeridianFrame_01",
+      "triangles": 444,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaFaces": 0,
+      "signedVolume": 0.0014944977872188927,
+      "materials": [
+        "OP_BlackFrame"
+      ]
+    },
+    {
+      "name": "ObservationPod_MeridianFrame_02",
+      "triangles": 444,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaFaces": 0,
+      "signedVolume": 0.001494499929531858,
+      "materials": [
+        "OP_BlackFrame"
+      ]
+    },
+    {
+      "name": "ObservationPod_MeridianFrame_03",
+      "triangles": 444,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaFaces": 0,
+      "signedVolume": 0.0014944977875940096,
+      "materials": [
+        "OP_BlackFrame"
+      ]
+    },
+    {
+      "name": "ObservationPod_MeridianFrame_04",
+      "triangles": 444,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaFaces": 0,
+      "signedVolume": 0.0014800308128359563,
+      "materials": [
+        "OP_BlackFrame"
+      ]
+    },
+    {
+      "name": "ObservationPod_MeridianFrame_05",
+      "triangles": 444,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaFaces": 0,
+      "signedVolume": 0.0014740354443759248,
+      "materials": [
+        "OP_BlackFrame"
+      ]
+    },
+    {
+      "name": "ObservationPod_MeridianFrame_06",
+      "triangles": 444,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaFaces": 0,
+      "signedVolume": 0.0010341595675009176,
+      "materials": [
+        "OP_BlackFrame"
+      ]
+    },
+    {
+      "name": "ObservationPod_MeridianFrame_07",
+      "triangles": 444,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaFaces": 0,
+      "signedVolume": 0.0014800287262107224,
+      "materials": [
+        "OP_BlackFrame"
+      ]
+    },
+    {
+      "name": "ObservationPod_Crown",
+      "triangles": 384,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaFaces": 0,
+      "signedVolume": 0.003707635720496989,
+      "materials": [
+        "OP_BrushedSteel"
+      ]
+    },
+    {
+      "name": "ObservationPod_CrownLED",
+      "triangles": 2048,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaFaces": 0,
+      "signedVolume": 4.6898135558312456e-05,
+      "materials": [
+        "OP_CoolWhiteLED"
+      ]
+    },
+    {
+      "name": "ObservationPod_HatchBacking",
+      "triangles": 108,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaFaces": 0,
+      "signedVolume": 0.028244790042257484,
+      "materials": [
+        "OP_ClinicalWhite"
+      ]
+    },
+    {
+      "name": "ObservationPod_HatchSeal",
+      "triangles": 108,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaFaces": 0,
+      "signedVolume": 0.0020246199626412047,
+      "materials": [
+        "OP_HatchSeal"
+      ]
+    },
+    {
+      "name": "ObservationPod_FoodHatch_Closed",
+      "triangles": 108,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaFaces": 0,
+      "signedVolume": 0.0018590547844215116,
+      "materials": [
+        "OP_BrushedSteel"
+      ]
+    },
+    {
+      "name": "ObservationPod_HatchHandle",
+      "triangles": 108,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaFaces": 0,
+      "signedVolume": 3.9474392691780374e-05,
+      "materials": [
+        "OP_BlackFrame"
+      ]
+    },
+    {
+      "name": "ObservationPod_HatchStatusLED",
+      "triangles": 108,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaFaces": 0,
+      "signedVolume": 1.851552850686909e-05,
+      "materials": [
+        "OP_CoolWhiteLED"
+      ]
+    },
+    {
+      "name": "ObservationPod_HatchFastener",
+      "triangles": 48,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaFaces": 0,
+      "signedVolume": 8.832803394120435e-06,
+      "materials": [
+        "OP_BrushedSteel"
+      ]
+    },
+    {
+      "name": "ObservationPod_HatchFastener.001",
+      "triangles": 48,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaFaces": 0,
+      "signedVolume": 8.832803394120435e-06,
+      "materials": [
+        "OP_BrushedSteel"
+      ]
+    },
+    {
+      "name": "ObservationPod_HatchFastener.002",
+      "triangles": 48,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaFaces": 0,
+      "signedVolume": 8.832803394120435e-06,
+      "materials": [
+        "OP_BrushedSteel"
+      ]
+    },
+    {
+      "name": "ObservationPod_HatchFastener.003",
+      "triangles": 48,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaFaces": 0,
+      "signedVolume": 8.832803394120435e-06,
+      "materials": [
+        "OP_BrushedSteel"
+      ]
+    }
+  ],
+  "visualTriangles": 30780,
+  "collisionTriangles": 9120,
+  "unimplemented": "No hatch opening, crawling, escape interaction, door, gun, swap or story mechanics. Glass shell remains closed.",
+  "qa": {
+    "renders": [
+      "pod_oblique.png",
+      "pod_front.png",
+      "pod_interior.png"
+    ],
+    "roundtrip": "fbx_roundtrip_verification.json",
+    "renderNote": "Blender Cycles geometry/material preview. URP transparent material must be configured and inspected in Unity separately."
+  }
+}

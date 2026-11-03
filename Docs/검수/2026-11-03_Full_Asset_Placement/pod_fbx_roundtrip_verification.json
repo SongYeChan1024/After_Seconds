@@ -1,0 +1,544 @@
+[
+  {
+    "file": "ObservationPod_Visual.fbx",
+    "meshCount": 26,
+    "blenderBoundsMin": [
+      -1.4049999713897705,
+      -1.4049999713897705,
+      -2.2890353079674242e-07
+    ],
+    "blenderBoundsMax": [
+      1.4049999713897705,
+      1.4049999713897705,
+      3.2209999561309814
+    ],
+    "dimensionsXYZ": [
+      2.809999942779541,
+      2.809999942779541,
+      3.2210001850345122
+    ],
+    "objects": [
+      {
+        "name": "ObservationPod_BaseLED",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 2048,
+        "materials": [
+          "OP_CoolWhiteLED"
+        ]
+      },
+      {
+        "name": "ObservationPod_BaseSeal",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 2048,
+        "materials": [
+          "OP_BlackFrame"
+        ]
+      },
+      {
+        "name": "ObservationPod_BlackFoot",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 1280,
+        "materials": [
+          "OP_BlackFrame"
+        ]
+      },
+      {
+        "name": "ObservationPod_Crown",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 384,
+        "materials": [
+          "OP_BrushedSteel"
+        ]
+      },
+      {
+        "name": "ObservationPod_CrownLED",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 2048,
+        "materials": [
+          "OP_CoolWhiteLED"
+        ]
+      },
+      {
+        "name": "ObservationPod_EquatorFrame",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 2048,
+        "materials": [
+          "OP_BlackFrame"
+        ]
+      },
+      {
+        "name": "ObservationPod_FoodHatch_Closed",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 108,
+        "materials": [
+          "OP_BrushedSteel"
+        ]
+      },
+      {
+        "name": "ObservationPod_GlassShell",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 12800,
+        "materials": [
+          "OP_ClearGlass"
+        ]
+      },
+      {
+        "name": "ObservationPod_HatchBacking",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 108,
+        "materials": [
+          "OP_ClinicalWhite"
+        ]
+      },
+      {
+        "name": "ObservationPod_HatchFastener",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 48,
+        "materials": [
+          "OP_BrushedSteel"
+        ]
+      },
+      {
+        "name": "ObservationPod_HatchFastener.001",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 48,
+        "materials": [
+          "OP_BrushedSteel"
+        ]
+      },
+      {
+        "name": "ObservationPod_HatchFastener.002",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 48,
+        "materials": [
+          "OP_BrushedSteel"
+        ]
+      },
+      {
+        "name": "ObservationPod_HatchFastener.003",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 48,
+        "materials": [
+          "OP_BrushedSteel"
+        ]
+      },
+      {
+        "name": "ObservationPod_HatchHandle",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 108,
+        "materials": [
+          "OP_BlackFrame"
+        ]
+      },
+      {
+        "name": "ObservationPod_HatchSeal",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 108,
+        "materials": [
+          "OP_HatchSeal"
+        ]
+      },
+      {
+        "name": "ObservationPod_HatchStatusLED",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 108,
+        "materials": [
+          "OP_CoolWhiteLED"
+        ]
+      },
+      {
+        "name": "ObservationPod_InteriorLED",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 2048,
+        "materials": [
+          "OP_CoolWhiteLED"
+        ]
+      },
+      {
+        "name": "ObservationPod_MeridianFrame_00",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 444,
+        "materials": [
+          "OP_BlackFrame"
+        ]
+      },
+      {
+        "name": "ObservationPod_MeridianFrame_01",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 444,
+        "materials": [
+          "OP_BlackFrame"
+        ]
+      },
+      {
+        "name": "ObservationPod_MeridianFrame_02",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 444,
+        "materials": [
+          "OP_BlackFrame"
+        ]
+      },
+      {
+        "name": "ObservationPod_MeridianFrame_03",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 444,
+        "materials": [
+          "OP_BlackFrame"
+        ]
+      },
+      {
+        "name": "ObservationPod_MeridianFrame_04",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 444,
+        "materials": [
+          "OP_BlackFrame"
+        ]
+      },
+      {
+        "name": "ObservationPod_MeridianFrame_05",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 444,
+        "materials": [
+          "OP_BlackFrame"
+        ]
+      },
+      {
+        "name": "ObservationPod_MeridianFrame_06",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 444,
+        "materials": [
+          "OP_BlackFrame"
+        ]
+      },
+      {
+        "name": "ObservationPod_MeridianFrame_07",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 444,
+        "materials": [
+          "OP_BlackFrame"
+        ]
+      },
+      {
+        "name": "ObservationPod_WhiteBase",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 1792,
+        "materials": [
+          "OP_ClinicalWhite"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "ObservationPod_Collision.fbx",
+    "meshCount": 24,
+    "blenderBoundsMin": [
+      -1.399999976158142,
+      -1.399999976158142,
+      -2.280889361827576e-07
+    ],
+    "blenderBoundsMax": [
+      1.399999976158142,
+      1.4000004529953003,
+      3.190000295639038
+    ],
+    "dimensionsXYZ": [
+      2.799999952316284,
+      2.8000004291534424,
+      3.1900005237279743
+    ],
+    "objects": [
+      {
+        "name": "ObservationPod_CollisionSegment_00",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 380,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_01",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 380,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_02",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 380,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_03",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 380,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_04",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 380,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_05",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 380,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_06",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 380,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_07",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 380,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_08",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 380,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_09",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 380,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_10",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 380,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_11",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 380,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_12",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 380,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_13",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 380,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_14",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 380,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_15",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 380,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_16",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 380,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_17",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 380,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_18",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 380,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_19",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 380,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_20",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 380,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_21",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 380,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_22",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 380,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      },
+      {
+        "name": "ObservationPod_CollisionSegment_23",
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0,
+        "triangles": 380,
+        "materials": [
+          "OP_CollisionOnly"
+        ]
+      }
+    ]
+  }
+]

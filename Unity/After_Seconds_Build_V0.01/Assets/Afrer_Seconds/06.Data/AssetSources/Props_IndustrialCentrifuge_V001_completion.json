@@ -1,0 +1,199 @@
+{
+  "name": "Props_IndustrialCentrifuge",
+  "sourcePath": "Original GLB preserved locally; SHA256 identifies source",
+  "sourceSha256": "53778a6359b8d0b5778ff7ed52d473c89391a480bbc31b7a87d559879e6ed4bb",
+  "fbx": "Assets/Afrer_Seconds/05.Model/Props/B2/Props_IndustrialCentrifuge.fbx",
+  "fbxSha256": "4d2b67e25054b4a986537ef629a8b32f49dfe6840b2d8699233d9822feb4f78f",
+  "blenderBoundsMin": [
+    -0.38464856147766113,
+    -0.43753266334533691,
+    0.0
+  ],
+  "blenderBoundsMax": [
+    0.38464856147766113,
+    0.43753266334533691,
+    0.99532711505889893
+  ],
+  "blenderSizeXYZ": [
+    0.76929712295532227,
+    0.87506532669067383,
+    0.99532711505889893
+  ],
+  "unitySizeXYZ": [
+    0.76929712295532227,
+    0.99532711505889893,
+    0.87506532669067383
+  ],
+  "triangles": 72000,
+  "meshes": [
+    {
+      "name": "texture_mapping",
+      "source": {
+        "triangles": 500000,
+        "vertices": 249934,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "zeroAreaFaces": 0
+      },
+      "attempts": [
+        {
+          "triangles": 47998,
+          "vertices": 23931,
+          "boundaryEdges": 0,
+          "overusedEdges": 0,
+          "zeroAreaFaces": 0,
+          "strictCrossingPairs": 4,
+          "crossingPairsSample": [
+            [
+              25416,
+              27393
+            ],
+            [
+              8827,
+              8979
+            ],
+            [
+              27932,
+              30425
+            ],
+            [
+              30372,
+              30375
+            ]
+          ],
+          "crossingPairs": [
+            [
+              25416,
+              27393
+            ],
+            [
+              8827,
+              8979
+            ],
+            [
+              27932,
+              30425
+            ],
+            [
+              30372,
+              30375
+            ]
+          ]
+        },
+        {
+          "triangles": 72000,
+          "vertices": 35934,
+          "boundaryEdges": 0,
+          "overusedEdges": 0,
+          "zeroAreaFaces": 0,
+          "strictCrossingPairs": 1,
+          "crossingPairsSample": [
+            [
+              55361,
+              55384
+            ]
+          ],
+          "crossingPairs": [
+            [
+              55361,
+              55384
+            ]
+          ]
+        },
+        {
+          "triangles": 96000,
+          "vertices": 47934,
+          "boundaryEdges": 0,
+          "overusedEdges": 0,
+          "zeroAreaFaces": 0,
+          "strictCrossingPairs": 3,
+          "crossingPairsSample": [
+            [
+              28904,
+              28932
+            ],
+            [
+              47991,
+              48608
+            ],
+            [
+              46937,
+              47991
+            ]
+          ],
+          "crossingPairs": [
+            [
+              28904,
+              28932
+            ],
+            [
+              47991,
+              48608
+            ],
+            [
+              46937,
+              47991
+            ]
+          ]
+        }
+      ],
+      "final": {
+        "triangles": 72000,
+        "vertices": 35934,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "zeroAreaFaces": 0,
+        "strictCrossingPairs": 0,
+        "crossingPairsSample": [],
+        "crossingPairs": [],
+        "patchSteps": [
+          {
+            "iteration": 0,
+            "removedFaces": 8,
+            "rebuiltFaces": 8
+          }
+        ],
+        "relativeVolumeChange": 4.2317133046250309E-08
+      }
+    }
+  ],
+  "materials": [
+    {
+      "name": "Props_IndustrialCentrifuge_Material",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 1.0,
+      "BaseColor": "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/Props_IndustrialCentrifuge_BaseColor.png",
+      "Normal": "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/Props_IndustrialCentrifuge_Normal.png"
+    }
+  ],
+  "textures": [
+    {
+      "semantic": "BaseColor",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/Props_IndustrialCentrifuge_BaseColor.png",
+      "width": 2048,
+      "height": 2048,
+      "colorSpace": "sRGB",
+      "assetPath": "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/Props_IndustrialCentrifuge_BaseColor.png"
+    },
+    {
+      "semantic": "Normal",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/Props_IndustrialCentrifuge_Normal.png",
+      "width": 2048,
+      "height": 2048,
+      "colorSpace": "linear",
+      "assetPath": "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/Props_IndustrialCentrifuge_Normal.png"
+    }
+  ],
+  "pivot": "bottom-center",
+  "sourceFlowId": "3ace28ca-d501-4921-b5a8-0875b2468245",
+  "visualOnly": true,
+  "preparation": "UV-preserving collapse with adaptive density, 40 degree sharp edges and weighted normals",
+  "modelAssetPath": "Assets/Afrer_Seconds/05.Model/Props/B2/Props_IndustrialCentrifuge.fbx",
+  "prefabAssetPath": "Assets/Afrer_Seconds/05.Model/Props/B2/Props_IndustrialCentrifuge.prefab"
+}

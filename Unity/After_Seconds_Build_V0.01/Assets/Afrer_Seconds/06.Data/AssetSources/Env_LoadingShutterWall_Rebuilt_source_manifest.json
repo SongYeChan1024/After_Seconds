@@ -1,0 +1,133 @@
+{
+  "name": "Env_LoadingShutterWall",
+  "version": "V0.01",
+  "author": "송예찬",
+  "sourceBlend": "C:\\GitHubProjects\\After_Seconds\\SourceAssets\\1F_Facades_Rebuilt\\Env_LoadingShutterWall_Rebuilt.blend",
+  "fbx": "C:\\GitHubProjects\\After_Seconds\\tmp\\1F_Facades_20261104\\model\\Env_LoadingShutterWall_Rebuilt.fbx",
+  "fbxSha256": "a6c21c94ab1e62fff5e0986b0de39bbebe91e4030bbc744e02a4db448055843a",
+  "blenderBoundsMin": [
+    -0.27765339612960815,
+    -0.49320521950721741,
+    0.0
+  ],
+  "blenderBoundsMax": [
+    0.27765339612960815,
+    0.49320521950721741,
+    0.77034050226211548
+  ],
+  "blenderSizeXYZ": [
+    0.55530679225921631,
+    0.98641043901443481,
+    0.77034050226211548
+  ],
+  "unitySizeXYZ": [
+    0.55530679225921631,
+    0.77034050226211548,
+    0.98641043901443481
+  ],
+  "pivot": "bottom-center at (0,0,0)",
+  "orientation": {
+    "blenderFront": [
+      1,
+      0,
+      0
+    ],
+    "unityFront": [
+      1,
+      0,
+      0
+    ],
+    "sceneYawDegrees": 90
+  },
+  "export": {
+    "axisForward": "-Z",
+    "axisUp": "Y",
+    "bakeSpaceTransform": true,
+    "globalScale": 1
+  },
+  "materials": [
+    {
+      "name": "White",
+      "baseColor": [
+        0.39,
+        0.43,
+        0.44,
+        1
+      ],
+      "metallic": 0.14,
+      "roughness": 0.52
+    },
+    {
+      "name": "Metal",
+      "baseColor": [
+        0.17,
+        0.205,
+        0.22,
+        1
+      ],
+      "metallic": 0.72,
+      "roughness": 0.35
+    },
+    {
+      "name": "Black",
+      "baseColor": [
+        0.025,
+        0.033,
+        0.038,
+        1
+      ],
+      "metallic": 0.35,
+      "roughness": 0.46
+    },
+    {
+      "name": "Warning",
+      "baseColor": [
+        1.0,
+        0.39,
+        0.035,
+        1
+      ],
+      "metallic": 0.15,
+      "roughness": 0.3
+    }
+  ],
+  "topology": {
+    "vertices": 2048,
+    "triangles": 3736,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 0,
+    "degenerateFaces": 0,
+    "finiteNormals": true
+  },
+  "scope": "Background visual only. No colliders, scene edits or gameplay changes.",
+  "fbxRoundtrip": {
+    "triangles": 3736,
+    "vertices": 2048,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 0,
+    "degenerateFaces": 0,
+    "finiteNormals": true,
+    "boundsMaxAbsoluteError": 5.9604644775390625E-08,
+    "materials": [
+      "White",
+      "Metal",
+      "Black",
+      "Warning"
+    ]
+  },
+  "fbxRoundtripBlenderBoundsMin": [
+    -0.27765339612960815,
+    -0.49320521950721741,
+    -3.6807097814062217E-08
+  ],
+  "fbxRoundtripBlenderBoundsMax": [
+    0.27765339612960815,
+    0.49320527911186218,
+    0.77034056186676025
+  ],
+  "modelAssetPath": "Assets/Afrer_Seconds/05.Model/Environment/1F/Env_LoadingShutterWall_Rebuilt.fbx",
+  "prefabAssetPath": "Assets/Afrer_Seconds/05.Model/Environment/1F/Env_LoadingShutterWall.prefab",
+  "prefabGuidPreserved": "716dd8fef56345746b2e41bcac06a912",
+  "originalModelPreserved": true,
+  "sceneInstancesUnmoved": true
+}

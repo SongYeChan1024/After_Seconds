@@ -1,0 +1,1664 @@
+{
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+  "dirty": true,
+  "backupSaved": true,
+  "pod": {
+    "pos": [
+      0.0,
+      0.0,
+      10.32
+    ],
+    "localPos": [
+      0.0,
+      0.0,
+      10.32
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      3.0,
+      2.0,
+      3.0
+    ],
+    "boundsCenter": [
+      0.0,
+      3.22099948,
+      10.32
+    ],
+    "boundsSize": [
+      8.43,
+      6.44199944,
+      8.43
+    ]
+  },
+  "geometry": [
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Floor_Room01",
+      "pos": [
+        0.0,
+        -0.15,
+        7.5
+      ],
+      "scale": [
+        12.0,
+        0.3,
+        11.0
+      ],
+      "bounds": {
+        "center": [
+          0.0,
+          -0.15,
+          7.5
+        ],
+        "size": [
+          12.0,
+          0.3,
+          11.0
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Wall_West",
+      "pos": [
+        -6.12,
+        2.0,
+        7.5
+      ],
+      "scale": [
+        0.24,
+        4.0,
+        11.48
+      ],
+      "bounds": {
+        "center": [
+          -6.12,
+          2.0,
+          7.5
+        ],
+        "size": [
+          0.24,
+          4.0,
+          11.48
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Wall_East",
+      "pos": [
+        6.12,
+        2.0,
+        7.5
+      ],
+      "scale": [
+        0.24,
+        4.0,
+        11.48
+      ],
+      "bounds": {
+        "center": [
+          6.12,
+          2.0,
+          7.5
+        ],
+        "size": [
+          0.24,
+          4.0,
+          11.48
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Wall_North_Left",
+      "pos": [
+        -3.5,
+        2.0,
+        1.88
+      ],
+      "scale": [
+        5.0,
+        4.0,
+        0.24
+      ],
+      "bounds": {
+        "center": [
+          -3.5,
+          2.0,
+          1.88
+        ],
+        "size": [
+          5.0,
+          4.0,
+          0.240000024
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Wall_North_Right",
+      "pos": [
+        3.5,
+        2.0,
+        1.88
+      ],
+      "scale": [
+        5.0,
+        4.0,
+        0.24
+      ],
+      "bounds": {
+        "center": [
+          3.5,
+          2.0,
+          1.88
+        ],
+        "size": [
+          5.0,
+          4.0,
+          0.240000024
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Wall_North_AboveDoor",
+      "pos": [
+        0.0,
+        3.4,
+        1.88
+      ],
+      "scale": [
+        2.0,
+        1.2,
+        0.24
+      ],
+      "bounds": {
+        "center": [
+          0.0,
+          3.4,
+          1.88
+        ],
+        "size": [
+          2.0,
+          1.19999981,
+          0.240000024
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Wall_South",
+      "pos": [
+        0.0,
+        2.0,
+        13.12
+      ],
+      "scale": [
+        12.0,
+        4.0,
+        0.24
+      ],
+      "bounds": {
+        "center": [
+          0.0,
+          2.0,
+          13.12
+        ],
+        "size": [
+          12.0,
+          4.0,
+          0.239999786
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Ceiling_Main",
+      "pos": [
+        0.0,
+        4.12,
+        7.5
+      ],
+      "scale": [
+        12.48,
+        0.24,
+        11.48
+      ],
+      "bounds": {
+        "center": [
+          0.0,
+          4.12,
+          7.5
+        ],
+        "size": [
+          12.48,
+          0.24,
+          11.48
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_Wall_Left",
+      "pos": [
+        -1.5,
+        1.3,
+        10.45
+      ],
+      "scale": [
+        0.2,
+        2.6,
+        3.1
+      ],
+      "bounds": {
+        "center": [
+          -1.5,
+          1.3,
+          10.45
+        ],
+        "size": [
+          0.200000048,
+          2.6,
+          3.10000062
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_Wall_Right",
+      "pos": [
+        1.5,
+        1.3,
+        10.45
+      ],
+      "scale": [
+        0.2,
+        2.6,
+        3.1
+      ],
+      "bounds": {
+        "center": [
+          1.5,
+          1.3,
+          10.45
+        ],
+        "size": [
+          0.200000048,
+          2.6,
+          3.10000062
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_Wall_Rear",
+      "pos": [
+        0.0,
+        1.3,
+        12.1
+      ],
+      "scale": [
+        3.2,
+        2.6,
+        0.2
+      ],
+      "bounds": {
+        "center": [
+          0.0,
+          1.3,
+          12.1
+        ],
+        "size": [
+          3.2,
+          2.6,
+          0.200000763
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_Ceiling",
+      "pos": [
+        0.0,
+        2.7,
+        10.45
+      ],
+      "scale": [
+        3.2,
+        0.2,
+        3.3
+      ],
+      "bounds": {
+        "center": [
+          0.0,
+          2.7,
+          10.45
+        ],
+        "size": [
+          3.2,
+          0.2,
+          3.3
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Bar_00",
+      "pos": [
+        -1.26,
+        1.3,
+        8.9
+      ],
+      "scale": [
+        0.06,
+        2.6,
+        0.06
+      ],
+      "bounds": {
+        "center": [
+          -1.26,
+          1.3,
+          8.9
+        ],
+        "size": [
+          0.06,
+          2.6,
+          0.06
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Bar_01",
+      "pos": [
+        -0.9,
+        1.3,
+        8.9
+      ],
+      "scale": [
+        0.06,
+        2.6,
+        0.06
+      ],
+      "bounds": {
+        "center": [
+          -0.9,
+          1.3,
+          8.9
+        ],
+        "size": [
+          0.06,
+          2.6,
+          0.06
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Bar_02",
+      "pos": [
+        -0.539999962,
+        1.3,
+        8.9
+      ],
+      "scale": [
+        0.06,
+        2.6,
+        0.06
+      ],
+      "bounds": {
+        "center": [
+          -0.539999962,
+          1.3,
+          8.9
+        ],
+        "size": [
+          0.06,
+          2.6,
+          0.06
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Bar_03",
+      "pos": [
+        -0.179999948,
+        1.3,
+        8.9
+      ],
+      "scale": [
+        0.06,
+        2.6,
+        0.06
+      ],
+      "bounds": {
+        "center": [
+          -0.179999948,
+          1.3,
+          8.9
+        ],
+        "size": [
+          0.06,
+          2.6,
+          0.06
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Bar_04",
+      "pos": [
+        0.180000067,
+        1.3,
+        8.9
+      ],
+      "scale": [
+        0.06,
+        2.6,
+        0.06
+      ],
+      "bounds": {
+        "center": [
+          0.180000067,
+          1.3,
+          8.9
+        ],
+        "size": [
+          0.06,
+          2.6,
+          0.06
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Bar_05",
+      "pos": [
+        0.5400001,
+        1.3,
+        8.9
+      ],
+      "scale": [
+        0.06,
+        2.6,
+        0.06
+      ],
+      "bounds": {
+        "center": [
+          0.5400001,
+          1.3,
+          8.9
+        ],
+        "size": [
+          0.06,
+          2.6,
+          0.06
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Bar_06",
+      "pos": [
+        0.9000001,
+        1.3,
+        8.9
+      ],
+      "scale": [
+        0.06,
+        2.6,
+        0.06
+      ],
+      "bounds": {
+        "center": [
+          0.9000001,
+          1.3,
+          8.9
+        ],
+        "size": [
+          0.06,
+          2.6,
+          0.06
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Bar_07",
+      "pos": [
+        1.26000011,
+        1.3,
+        8.9
+      ],
+      "scale": [
+        0.06,
+        2.6,
+        0.06
+      ],
+      "bounds": {
+        "center": [
+          1.26000011,
+          1.3,
+          8.9
+        ],
+        "size": [
+          0.06,
+          2.6,
+          0.06
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Cell_FrontFrame_Top",
+      "pos": [
+        0.0,
+        2.55,
+        8.9
+      ],
+      "scale": [
+        2.9,
+        0.1,
+        0.1
+      ],
+      "bounds": {
+        "center": [
+          0.0,
+          2.55,
+          8.9
+        ],
+        "size": [
+          2.9,
+          0.1,
+          0.1
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Cell_FrontFrame_Base",
+      "pos": [
+        0.0,
+        0.04,
+        8.9
+      ],
+      "scale": [
+        2.9,
+        0.08,
+        0.1
+      ],
+      "bounds": {
+        "center": [
+          0.0,
+          0.04,
+          8.9
+        ],
+        "size": [
+          2.9,
+          0.08,
+          0.1
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Door01_To_Airlock/Frame_Left",
+      "pos": [
+        -1.1,
+        1.4,
+        2.0
+      ],
+      "scale": [
+        0.2,
+        2.8,
+        0.38
+      ],
+      "bounds": {
+        "center": [
+          -1.1,
+          1.4,
+          2.0
+        ],
+        "size": [
+          0.2,
+          2.8,
+          0.38
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Door01_To_Airlock/Frame_Right",
+      "pos": [
+        1.1,
+        1.4,
+        2.0
+      ],
+      "scale": [
+        0.2,
+        2.8,
+        0.38
+      ],
+      "bounds": {
+        "center": [
+          1.1,
+          1.4,
+          2.0
+        ],
+        "size": [
+          0.2,
+          2.8,
+          0.38
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Door01_To_Airlock/Frame_Top",
+      "pos": [
+        0.0,
+        2.9,
+        2.0
+      ],
+      "scale": [
+        2.4,
+        0.2,
+        0.38
+      ],
+      "bounds": {
+        "center": [
+          0.0,
+          2.9,
+          2.0
+        ],
+        "size": [
+          2.4,
+          0.2,
+          0.38
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Decoration/Cell_Bench",
+      "pos": [
+        -0.95,
+        0.39,
+        11.3
+      ],
+      "scale": [
+        0.55,
+        0.13,
+        1.1
+      ],
+      "bounds": {
+        "center": [
+          -0.95,
+          0.39,
+          11.3
+        ],
+        "size": [
+          0.55,
+          0.13,
+          1.1
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Decoration/Cell_Bench_LegA",
+      "pos": [
+        -0.95,
+        0.17,
+        10.96
+      ],
+      "scale": [
+        0.38,
+        0.34,
+        0.08
+      ],
+      "bounds": {
+        "center": [
+          -0.95,
+          0.17,
+          10.96
+        ],
+        "size": [
+          0.38,
+          0.34,
+          0.08
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Decoration/Cell_Bench_LegB",
+      "pos": [
+        -0.95,
+        0.17,
+        11.64
+      ],
+      "scale": [
+        0.38,
+        0.34,
+        0.08
+      ],
+      "bounds": {
+        "center": [
+          -0.95,
+          0.17,
+          11.64
+        ],
+        "size": [
+          0.38,
+          0.34,
+          0.08
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Lighting",
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": null
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Lighting/Light_01A",
+      "pos": [
+        -3.0,
+        3.78,
+        4.4
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": null
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Lighting/Light_01B",
+      "pos": [
+        3.0,
+        3.78,
+        4.4
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": null
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Lighting/Light_01C",
+      "pos": [
+        -3.0,
+        3.78,
+        9.8
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": null
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Lighting/Light_01D",
+      "pos": [
+        3.0,
+        3.78,
+        9.8
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": null
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Lighting/Cell_Lamp",
+      "pos": [
+        0.0,
+        3.7,
+        10.45
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": null
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Actors/Guard_A_Local_0_7.4",
+      "pos": [
+        0.0,
+        0.0,
+        5.064
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": null
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Actors/LightBox_A_Placeholder",
+      "pos": [
+        -3.2,
+        0.3,
+        3.4
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": null
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Actors/LightBox_A_Placeholder/LightCrate_0.6m_Placeholder",
+      "pos": [
+        -3.2,
+        0.3,
+        3.4
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "bounds": {
+        "center": [
+          -3.2,
+          0.3,
+          3.4
+        ],
+        "size": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Actors/LightBox_A_Placeholder/LightCrate_0.6m_Placeholder/LightCrate_AssetVisual",
+      "pos": [
+        -3.2,
+        0.0,
+        3.4
+      ],
+      "scale": [
+        1.63333333,
+        1.63333333,
+        1.63333333
+      ],
+      "bounds": null
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Actors/LightBox_A_Placeholder/LightThrowBox_NotAS01_NoInteractionYet",
+      "pos": [
+        -3.2,
+        0.3,
+        3.4
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": null
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Actors/LightBox_B_Placeholder",
+      "pos": [
+        -2.2,
+        0.3,
+        3.4
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": null
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Actors/LightBox_B_Placeholder/LightCrate_0.6m_Placeholder",
+      "pos": [
+        -2.2,
+        0.3,
+        3.4
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "bounds": {
+        "center": [
+          -2.2,
+          0.3,
+          3.4
+        ],
+        "size": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Actors/LightBox_B_Placeholder/LightCrate_0.6m_Placeholder/LightCrate_AssetVisual",
+      "pos": [
+        -2.2,
+        0.0,
+        3.4
+      ],
+      "scale": [
+        1.63333333,
+        1.63333333,
+        1.63333333
+      ],
+      "bounds": null
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Actors/LightBox_B_Placeholder/LightThrowBox_NotAS01_NoInteractionYet",
+      "pos": [
+        -2.2,
+        0.3,
+        3.4
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": null
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Actors/LightBox_C_Placeholder",
+      "pos": [
+        3.2,
+        0.3,
+        3.4
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": null
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Actors/LightBox_C_Placeholder/LightCrate_0.6m_Placeholder",
+      "pos": [
+        3.2,
+        0.3,
+        3.4
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "bounds": {
+        "center": [
+          3.2,
+          0.3,
+          3.4
+        ],
+        "size": [
+          0.6,
+          0.6,
+          0.6
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Actors/LightBox_C_Placeholder/LightCrate_0.6m_Placeholder/LightCrate_AssetVisual",
+      "pos": [
+        3.2,
+        0.0,
+        3.4
+      ],
+      "scale": [
+        1.63333333,
+        1.63333333,
+        1.63333333
+      ],
+      "bounds": null
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Actors/LightBox_C_Placeholder/LightThrowBox_NotAS01_NoInteractionYet",
+      "pos": [
+        3.2,
+        0.3,
+        3.4
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bounds": null
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_East_02_ObservationRecess/CeilingLightDiffuser",
+      "pos": [
+        6.62,
+        2.9,
+        8.0
+      ],
+      "scale": [
+        0.9,
+        0.035,
+        0.12
+      ],
+      "bounds": {
+        "center": [
+          6.62,
+          2.9,
+          8.0
+        ],
+        "size": [
+          0.120000333,
+          0.035,
+          0.900000155
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_00",
+      "pos": [
+        0.0,
+        0.0,
+        10.32
+      ],
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "bounds": {
+        "center": [
+          2.1,
+          3.18999982,
+          10.86352
+        ],
+        "size": [
+          4.2,
+          6.37999964,
+          1.08704138
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_01",
+      "pos": [
+        0.0,
+        0.0,
+        10.32
+      ],
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "bounds": {
+        "center": [
+          2.02844429,
+          3.18999982,
+          11.37
+        ],
+        "size": [
+          4.05688858,
+          6.37999964,
+          2.100001
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_02",
+      "pos": [
+        0.0,
+        0.0,
+        10.32
+      ],
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "bounds": {
+        "center": [
+          1.81865346,
+          3.18999982,
+          11.804924
+        ],
+        "size": [
+          3.637307,
+          6.37999964,
+          2.96984935
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_03",
+      "pos": [
+        0.0,
+        0.0,
+        10.32
+      ],
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "bounds": {
+        "center": [
+          1.4849242,
+          3.18999958,
+          12.1386538
+        ],
+        "size": [
+          2.96984839,
+          6.38,
+          3.637308
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_04",
+      "pos": [
+        0.0,
+        0.0,
+        10.32
+      ],
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "bounds": {
+        "center": [
+          1.05000007,
+          3.18999958,
+          12.348444
+        ],
+        "size": [
+          2.10000014,
+          6.38,
+          4.056889
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_05",
+      "pos": [
+        0.0,
+        0.0,
+        10.32
+      ],
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "bounds": {
+        "center": [
+          0.543520153,
+          3.18999958,
+          12.42
+        ],
+        "size": [
+          1.08704031,
+          6.38,
+          4.20000029
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_06",
+      "pos": [
+        0.0,
+        0.0,
+        10.32
+      ],
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "bounds": {
+        "center": [
+          -0.5435198,
+          3.18999958,
+          12.42
+        ],
+        "size": [
+          1.08704031,
+          6.38,
+          4.20000029
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_07",
+      "pos": [
+        0.0,
+        0.0,
+        10.32
+      ],
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "bounds": {
+        "center": [
+          -1.04999983,
+          3.18999958,
+          12.348444
+        ],
+        "size": [
+          2.10000014,
+          6.38,
+          4.056889
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_08",
+      "pos": [
+        0.0,
+        0.0,
+        10.32
+      ],
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "bounds": {
+        "center": [
+          -1.484924,
+          3.18999958,
+          12.1386538
+        ],
+        "size": [
+          2.96984839,
+          6.38,
+          3.637308
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_09",
+      "pos": [
+        0.0,
+        0.0,
+        10.32
+      ],
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "bounds": {
+        "center": [
+          -1.81865323,
+          3.18999982,
+          11.804924
+        ],
+        "size": [
+          3.637307,
+          6.37999964,
+          2.96984935
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_10",
+      "pos": [
+        0.0,
+        0.0,
+        10.32
+      ],
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "bounds": {
+        "center": [
+          -2.02844429,
+          3.18999982,
+          11.37
+        ],
+        "size": [
+          4.05688858,
+          6.37999964,
+          2.100001
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_11",
+      "pos": [
+        0.0,
+        0.0,
+        10.32
+      ],
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "bounds": {
+        "center": [
+          -2.1,
+          3.18999982,
+          10.8635206
+        ],
+        "size": [
+          4.2,
+          6.37999964,
+          1.08704138
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_12",
+      "pos": [
+        0.0,
+        0.0,
+        10.32
+      ],
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "bounds": {
+        "center": [
+          -2.1,
+          3.18999982,
+          9.776481
+        ],
+        "size": [
+          4.2,
+          6.37999964,
+          1.08704138
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_13",
+      "pos": [
+        0.0,
+        0.0,
+        10.32
+      ],
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "bounds": {
+        "center": [
+          -2.02844429,
+          3.18999982,
+          9.27
+        ],
+        "size": [
+          4.05688858,
+          6.37999964,
+          2.100001
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_14",
+      "pos": [
+        0.0,
+        0.0,
+        10.32
+      ],
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "bounds": {
+        "center": [
+          -1.81865346,
+          3.18999982,
+          8.835076
+        ],
+        "size": [
+          3.637307,
+          6.37999964,
+          2.96984935
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_15",
+      "pos": [
+        0.0,
+        0.0,
+        10.32
+      ],
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "bounds": {
+        "center": [
+          -1.4849242,
+          3.19,
+          8.501348
+        ],
+        "size": [
+          2.96984839,
+          6.38,
+          3.637308
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_16",
+      "pos": [
+        0.0,
+        0.0,
+        10.32
+      ],
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "bounds": {
+        "center": [
+          -1.05000007,
+          3.19,
+          8.291556
+        ],
+        "size": [
+          2.10000014,
+          6.38,
+          4.056889
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_17",
+      "pos": [
+        0.0,
+        0.0,
+        10.32
+      ],
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "bounds": {
+        "center": [
+          -0.543520153,
+          3.19,
+          8.22
+        ],
+        "size": [
+          1.08704031,
+          6.38,
+          4.20000029
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_18",
+      "pos": [
+        0.0,
+        0.0,
+        10.32
+      ],
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "bounds": {
+        "center": [
+          0.5435198,
+          3.19,
+          8.22
+        ],
+        "size": [
+          1.08704031,
+          6.38,
+          4.20000029
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_19",
+      "pos": [
+        0.0,
+        0.0,
+        10.32
+      ],
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "bounds": {
+        "center": [
+          1.04999983,
+          3.19,
+          8.291556
+        ],
+        "size": [
+          2.10000014,
+          6.38,
+          4.056889
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_20",
+      "pos": [
+        0.0,
+        0.0,
+        10.32
+      ],
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "bounds": {
+        "center": [
+          1.484924,
+          3.19,
+          8.501347
+        ],
+        "size": [
+          2.96984839,
+          6.38,
+          3.637308
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_21",
+      "pos": [
+        0.0,
+        0.0,
+        10.32
+      ],
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "bounds": {
+        "center": [
+          1.81865323,
+          3.18999982,
+          8.835076
+        ],
+        "size": [
+          3.637307,
+          6.37999964,
+          2.96984935
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_22",
+      "pos": [
+        0.0,
+        0.0,
+        10.32
+      ],
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "bounds": {
+        "center": [
+          2.02844429,
+          3.18999982,
+          9.27
+        ],
+        "size": [
+          4.05688858,
+          6.37999964,
+          2.100001
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_23",
+      "pos": [
+        0.0,
+        0.0,
+        10.32
+      ],
+      "scale": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "bounds": {
+        "center": [
+          2.1,
+          3.18999982,
+          9.77648
+        ],
+        "size": [
+          4.2,
+          6.37999964,
+          1.08704138
+        ]
+      }
+    }
+  ]
+}

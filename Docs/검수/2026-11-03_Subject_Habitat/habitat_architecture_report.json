@@ -1,0 +1,926 @@
+{
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "room": "B5_Level_V0.01/Room01_Isolation",
+    "status": "applied_unsaved",
+    "note": "Room01-only visual/collision envelope expansion. Scene remains unsaved for caller review.",
+    "touchedOriginalPaths": [
+        {
+            "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Floor_Room01",
+            "action": "approved structure expansion",
+            "before": {
+                "localPosition": {
+                    "x": 0.0,
+                    "y": -0.15000000596046449,
+                    "z": 7.5
+                },
+                "localRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "localScale": {
+                    "x": 12.0,
+                    "y": 0.30000001192092898,
+                    "z": 11.0
+                }
+            },
+            "after": {
+                "localPosition": {
+                    "x": 0.0,
+                    "y": -0.15000000596046449,
+                    "z": 9.0
+                },
+                "localRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "localScale": {
+                    "x": 12.0,
+                    "y": 0.30000001192092898,
+                    "z": 14.0
+                }
+            },
+            "note": "Original rotation and BoxCollider parameters retained; transform updates collision envelope."
+        },
+        {
+            "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Wall_West",
+            "action": "approved structure expansion",
+            "before": {
+                "localPosition": {
+                    "x": -6.119999885559082,
+                    "y": 2.0,
+                    "z": 7.5
+                },
+                "localRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "localScale": {
+                    "x": 0.23999999463558198,
+                    "y": 4.0,
+                    "z": 11.479999542236329
+                }
+            },
+            "after": {
+                "localPosition": {
+                    "x": -6.119999885559082,
+                    "y": 3.5999999046325685,
+                    "z": 9.0
+                },
+                "localRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "localScale": {
+                    "x": 0.23999999463558198,
+                    "y": 7.199999809265137,
+                    "z": 14.479999542236329
+                }
+            },
+            "note": "Original rotation and BoxCollider parameters retained; transform updates collision envelope."
+        },
+        {
+            "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Wall_East",
+            "action": "approved structure expansion",
+            "before": {
+                "localPosition": {
+                    "x": 6.119999885559082,
+                    "y": 2.0,
+                    "z": 7.5
+                },
+                "localRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "localScale": {
+                    "x": 0.23999999463558198,
+                    "y": 4.0,
+                    "z": 11.479999542236329
+                }
+            },
+            "after": {
+                "localPosition": {
+                    "x": 6.119999885559082,
+                    "y": 3.5999999046325685,
+                    "z": 9.0
+                },
+                "localRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "localScale": {
+                    "x": 0.23999999463558198,
+                    "y": 7.199999809265137,
+                    "z": 14.479999542236329
+                }
+            },
+            "note": "Original rotation and BoxCollider parameters retained; transform updates collision envelope."
+        },
+        {
+            "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Wall_South",
+            "action": "approved structure expansion",
+            "before": {
+                "localPosition": {
+                    "x": 0.0,
+                    "y": 2.0,
+                    "z": 13.119999885559082
+                },
+                "localRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "localScale": {
+                    "x": 12.0,
+                    "y": 4.0,
+                    "z": 0.23999999463558198
+                }
+            },
+            "after": {
+                "localPosition": {
+                    "x": 0.0,
+                    "y": 3.5999999046325685,
+                    "z": 16.1200008392334
+                },
+                "localRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "localScale": {
+                    "x": 12.0,
+                    "y": 7.199999809265137,
+                    "z": 0.23999999463558198
+                }
+            },
+            "note": "Original rotation and BoxCollider parameters retained; transform updates collision envelope."
+        },
+        {
+            "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Wall_North_Left",
+            "action": "approved structure expansion",
+            "before": {
+                "localPosition": {
+                    "x": -3.5,
+                    "y": 2.0,
+                    "z": 1.8799999952316285
+                },
+                "localRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "localScale": {
+                    "x": 5.0,
+                    "y": 4.0,
+                    "z": 0.23999999463558198
+                }
+            },
+            "after": {
+                "localPosition": {
+                    "x": -3.5,
+                    "y": 3.5999999046325685,
+                    "z": 1.8799999952316285
+                },
+                "localRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "localScale": {
+                    "x": 5.0,
+                    "y": 7.199999809265137,
+                    "z": 0.23999999463558198
+                }
+            },
+            "note": "Original rotation and BoxCollider parameters retained; transform updates collision envelope."
+        },
+        {
+            "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Wall_North_Right",
+            "action": "approved structure expansion",
+            "before": {
+                "localPosition": {
+                    "x": 3.5,
+                    "y": 2.0,
+                    "z": 1.8799999952316285
+                },
+                "localRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "localScale": {
+                    "x": 5.0,
+                    "y": 4.0,
+                    "z": 0.23999999463558198
+                }
+            },
+            "after": {
+                "localPosition": {
+                    "x": 3.5,
+                    "y": 3.5999999046325685,
+                    "z": 1.8799999952316285
+                },
+                "localRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "localScale": {
+                    "x": 5.0,
+                    "y": 7.199999809265137,
+                    "z": 0.23999999463558198
+                }
+            },
+            "note": "Original rotation and BoxCollider parameters retained; transform updates collision envelope."
+        },
+        {
+            "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Wall_North_AboveDoor",
+            "action": "approved structure expansion",
+            "before": {
+                "localPosition": {
+                    "x": 0.0,
+                    "y": 3.4000000953674318,
+                    "z": 1.8799999952316285
+                },
+                "localRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "localScale": {
+                    "x": 2.0,
+                    "y": 1.2000000476837159,
+                    "z": 0.23999999463558198
+                }
+            },
+            "after": {
+                "localPosition": {
+                    "x": 0.0,
+                    "y": 5.0,
+                    "z": 1.8799999952316285
+                },
+                "localRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "localScale": {
+                    "x": 2.0,
+                    "y": 4.400000095367432,
+                    "z": 0.23999999463558198
+                }
+            },
+            "note": "Original rotation and BoxCollider parameters retained; transform updates collision envelope."
+        },
+        {
+            "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Ceiling_Main",
+            "action": "approved structure expansion",
+            "before": {
+                "localPosition": {
+                    "x": 0.0,
+                    "y": 4.119999885559082,
+                    "z": 7.5
+                },
+                "localRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "localScale": {
+                    "x": 12.479999542236329,
+                    "y": 0.23999999463558198,
+                    "z": 11.479999542236329
+                }
+            },
+            "after": {
+                "localPosition": {
+                    "x": 0.0,
+                    "y": 7.320000171661377,
+                    "z": 9.0
+                },
+                "localRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "localScale": {
+                    "x": 12.479999542236329,
+                    "y": 0.23999999463558198,
+                    "z": 14.479999542236329
+                }
+            },
+            "note": "Original rotation and BoxCollider parameters retained; transform updates collision envelope."
+        },
+        {
+            "path": "B5_Level_V0.01/Room01_Isolation/Lighting/Light_01A",
+            "action": "raise existing ceiling light fixture",
+            "before": {
+                "localPosition": {
+                    "x": -3.0,
+                    "y": 3.7799999713897707,
+                    "z": 4.400000095367432
+                },
+                "localRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "localScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            },
+            "after": {
+                "localPosition": {
+                    "x": -3.0,
+                    "y": 6.849999904632568,
+                    "z": 4.400000095367432
+                },
+                "localRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "localScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            },
+            "note": "X/Z, rotation, scale and authored fixture details retained."
+        },
+        {
+            "path": "B5_Level_V0.01/Room01_Isolation/Lighting/Light_01B",
+            "action": "raise existing ceiling light fixture",
+            "before": {
+                "localPosition": {
+                    "x": 3.0,
+                    "y": 3.7799999713897707,
+                    "z": 4.400000095367432
+                },
+                "localRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "localScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            },
+            "after": {
+                "localPosition": {
+                    "x": 3.0,
+                    "y": 6.849999904632568,
+                    "z": 4.400000095367432
+                },
+                "localRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "localScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            },
+            "note": "X/Z, rotation, scale and authored fixture details retained."
+        },
+        {
+            "path": "B5_Level_V0.01/Room01_Isolation/Lighting/Light_01C",
+            "action": "raise existing ceiling light fixture",
+            "before": {
+                "localPosition": {
+                    "x": -3.0,
+                    "y": 3.7799999713897707,
+                    "z": 9.800000190734864
+                },
+                "localRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "localScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            },
+            "after": {
+                "localPosition": {
+                    "x": -3.0,
+                    "y": 6.849999904632568,
+                    "z": 9.800000190734864
+                },
+                "localRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "localScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            },
+            "note": "X/Z, rotation, scale and authored fixture details retained."
+        },
+        {
+            "path": "B5_Level_V0.01/Room01_Isolation/Lighting/Light_01D",
+            "action": "raise existing ceiling light fixture",
+            "before": {
+                "localPosition": {
+                    "x": 3.0,
+                    "y": 3.7799999713897707,
+                    "z": 9.800000190734864
+                },
+                "localRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "localScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            },
+            "after": {
+                "localPosition": {
+                    "x": 3.0,
+                    "y": 6.849999904632568,
+                    "z": 9.800000190734864
+                },
+                "localRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "localScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            },
+            "note": "X/Z, rotation, scale and authored fixture details retained."
+        },
+        {
+            "path": "B5_Level_V0.01/Room01_Isolation/Lighting/Cell_Lamp",
+            "action": "raise existing ceiling light fixture",
+            "before": {
+                "localPosition": {
+                    "x": 0.0,
+                    "y": 3.700000047683716,
+                    "z": 10.449999809265137
+                },
+                "localRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "localScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            },
+            "after": {
+                "localPosition": {
+                    "x": 0.0,
+                    "y": 6.849999904632568,
+                    "z": 10.449999809265137
+                },
+                "localRotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "localScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            },
+            "note": "X/Z, rotation, scale and authored fixture details retained."
+        }
+    ],
+    "hiddenRendererPaths": [
+        "B5_Level_V0.01/Room01_Isolation/Geometry/Wall_South",
+        "B5_Level_V0.01/Room01_Isolation/Geometry/Wall_North_Left",
+        "B5_Level_V0.01/Room01_Isolation/Geometry/Wall_North_Right",
+        "B5_Level_V0.01/Room01_Isolation/Geometry/Wall_North_AboveDoor",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_West_01/RebuiltArchitectureVisual/Env_ConcreteWall_4m_Rebuilt",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_West_02/RebuiltArchitectureVisual/Env_MetalWall_4m_Rebuilt",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_West_03/RebuiltArchitectureVisual/Env_ConcreteWall_4m_Rebuilt",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_East_01/RebuiltArchitectureVisual/Env_ConcreteWall_4m_Rebuilt",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_East_02/RebuiltArchitectureVisual/Env_ObservationWall_4m_Rebuilt/Env_ObservationWall_4m_Opaque",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_East_02/RebuiltArchitectureVisual/Env_ObservationWall_4m_Rebuilt/Separate_Glass",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_East_03/RebuiltArchitectureVisual/Env_MetalWall_4m_Rebuilt",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_Floor_01/RebuiltArchitectureVisual/Env_FloorSlab_4m_Rebuilt",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_Floor_02/RebuiltArchitectureVisual/Env_FloorSlab_4m_Rebuilt",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_Floor_03/RebuiltArchitectureVisual/Env_FloorSlab_4m_Rebuilt",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_Floor_04/RebuiltArchitectureVisual/Env_FloorSlab_4m_Rebuilt",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_Floor_05/RebuiltArchitectureVisual/Env_FloorSlab_4m_Rebuilt",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_Floor_06/RebuiltArchitectureVisual/Env_FloorSlab_4m_Rebuilt",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_Floor_07/RebuiltArchitectureVisual/Env_FloorSlab_4m_Rebuilt",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_Floor_08/RebuiltArchitectureVisual/Env_FloorSlab_4m_Rebuilt",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_Floor_09/RebuiltArchitectureVisual/Env_FloorSlab_4m_Rebuilt",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_Ceiling_01/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_Ceiling_02/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_Ceiling_03/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_Ceiling_04/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_Ceiling_05/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_Ceiling_06/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_Ceiling_07/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_Ceiling_08/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_Ceiling_09/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_East_02_ObservationRecess/BackWall",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_East_02_ObservationRecess/SideLeft",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_East_02_ObservationRecess/SideRight",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_East_02_ObservationRecess/Floor",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_East_02_ObservationRecess/Ceiling",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_East_02_ObservationRecess/BackEquipmentPanel",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_East_02_ObservationRecess/InsetReadoutA",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_East_02_ObservationRecess/InsetReadoutB",
+        "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_East_02_ObservationRecess/CeilingLightDiffuser"
+    ],
+    "surfaces": [
+        {
+            "name": "Floor",
+            "sourcePrefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_FloorSlab_4m.prefab",
+            "tiles": 12,
+            "requestedRoomBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": -0.057999998331069949,
+                    "z": 9.0
+                },
+                "m_Extent": {
+                    "x": 6.0,
+                    "y": 0.05999999865889549,
+                    "z": 7.0
+                }
+            },
+            "actualWorldBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": -0.05800000578165054,
+                    "z": 9.0
+                },
+                "m_Extent": {
+                    "x": 6.0,
+                    "y": 0.059999994933605197,
+                    "z": 7.0
+                }
+            },
+            "worldBoundsError": 1.4901161193847657e-8
+        },
+        {
+            "name": "Ceiling",
+            "sourcePrefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_CeilingPanel_4m.prefab",
+            "tiles": 12,
+            "requestedRoomBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 7.275000095367432,
+                    "z": 9.0
+                },
+                "m_Extent": {
+                    "x": 6.239999771118164,
+                    "y": 0.07500000298023224,
+                    "z": 7.239999771118164
+                }
+            },
+            "actualWorldBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 7.275000095367432,
+                    "z": 9.0
+                },
+                "m_Extent": {
+                    "x": 6.239999771118164,
+                    "y": 0.07499980926513672,
+                    "z": 7.239999771118164
+                }
+            },
+            "worldBoundsError": 0.0
+        },
+        {
+            "name": "Wall_West",
+            "sourcePrefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_ConcreteWall_4m.prefab",
+            "tiles": 8,
+            "requestedRoomBounds": {
+                "m_Center": {
+                    "x": -6.119999885559082,
+                    "y": 3.5999999046325685,
+                    "z": 9.0
+                },
+                "m_Extent": {
+                    "x": 0.11999999731779099,
+                    "y": 3.5999999046325685,
+                    "z": 7.239999771118164
+                }
+            },
+            "actualWorldBounds": {
+                "m_Center": {
+                    "x": -6.119999885559082,
+                    "y": 3.5999999046325685,
+                    "z": 9.0
+                },
+                "m_Extent": {
+                    "x": 0.11999988555908203,
+                    "y": 3.5999999046325685,
+                    "z": 7.239999771118164
+                }
+            },
+            "worldBoundsError": 0.0
+        },
+        {
+            "name": "Wall_East",
+            "sourcePrefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_ConcreteWall_4m.prefab",
+            "tiles": 8,
+            "requestedRoomBounds": {
+                "m_Center": {
+                    "x": 6.119999885559082,
+                    "y": 3.5999999046325685,
+                    "z": 9.0
+                },
+                "m_Extent": {
+                    "x": 0.11999999731779099,
+                    "y": 3.5999999046325685,
+                    "z": 7.239999771118164
+                }
+            },
+            "actualWorldBounds": {
+                "m_Center": {
+                    "x": 6.119999885559082,
+                    "y": 3.5999999046325685,
+                    "z": 9.0
+                },
+                "m_Extent": {
+                    "x": 0.11999988555908203,
+                    "y": 3.5999999046325685,
+                    "z": 7.239999771118164
+                }
+            },
+            "worldBoundsError": 0.0
+        },
+        {
+            "name": "Wall_South",
+            "sourcePrefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_ConcreteWall_4m.prefab",
+            "tiles": 6,
+            "requestedRoomBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 3.5999999046325685,
+                    "z": 16.1200008392334
+                },
+                "m_Extent": {
+                    "x": 6.0,
+                    "y": 3.5999999046325685,
+                    "z": 0.11999999731779099
+                }
+            },
+            "actualWorldBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 3.5999999046325685,
+                    "z": 16.1200008392334
+                },
+                "m_Extent": {
+                    "x": 6.0,
+                    "y": 3.5999999046325685,
+                    "z": 0.12000083923339844
+                }
+            },
+            "worldBoundsError": 0.0
+        },
+        {
+            "name": "Wall_North_Left",
+            "sourcePrefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_ConcreteWall_4m.prefab",
+            "tiles": 4,
+            "requestedRoomBounds": {
+                "m_Center": {
+                    "x": -3.5,
+                    "y": 3.5999999046325685,
+                    "z": 1.8799999952316285
+                },
+                "m_Extent": {
+                    "x": 2.5,
+                    "y": 3.5999999046325685,
+                    "z": 0.11999999731779099
+                }
+            },
+            "actualWorldBounds": {
+                "m_Center": {
+                    "x": -3.5,
+                    "y": 3.5999999046325685,
+                    "z": 1.8799999952316285
+                },
+                "m_Extent": {
+                    "x": 2.5,
+                    "y": 3.5999999046325685,
+                    "z": 0.12000000476837158
+                }
+            },
+            "worldBoundsError": 0.0
+        },
+        {
+            "name": "Wall_North_Right",
+            "sourcePrefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_ConcreteWall_4m.prefab",
+            "tiles": 4,
+            "requestedRoomBounds": {
+                "m_Center": {
+                    "x": 3.5,
+                    "y": 3.5999999046325685,
+                    "z": 1.8799999952316285
+                },
+                "m_Extent": {
+                    "x": 2.5,
+                    "y": 3.5999999046325685,
+                    "z": 0.11999999731779099
+                }
+            },
+            "actualWorldBounds": {
+                "m_Center": {
+                    "x": 3.5,
+                    "y": 3.5999999046325685,
+                    "z": 1.8799999952316285
+                },
+                "m_Extent": {
+                    "x": 2.5,
+                    "y": 3.5999999046325685,
+                    "z": 0.12000000476837158
+                }
+            },
+            "worldBoundsError": 0.0
+        },
+        {
+            "name": "Wall_North_AboveDoor",
+            "sourcePrefab": "Existing unit Cube mesh + shared Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/Architecture_Rebuilt_AS_Concrete.mat",
+            "tiles": 1,
+            "requestedRoomBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 5.0,
+                    "z": 1.8799999952316285
+                },
+                "m_Extent": {
+                    "x": 1.0,
+                    "y": 2.200000047683716,
+                    "z": 0.11999999731779099
+                }
+            },
+            "actualWorldBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 5.0,
+                    "z": 1.8799999952316285
+                },
+                "m_Extent": {
+                    "x": 1.0,
+                    "y": 2.200000047683716,
+                    "z": 0.11999999731779099
+                }
+            },
+            "worldBoundsError": 2.384185791015625e-7
+        }
+    ],
+    "lights": [
+        {
+            "path": "B5_Level_V0.01/Room01_Isolation/Lighting/Light_01A/Illumination",
+            "rangeBefore": 7.0,
+            "rangeAfter": 13.0,
+            "intensityBefore": 2.0,
+            "intensityAfter": 4.199999809265137,
+            "colorBefore": {
+                "r": 0.800000011920929,
+                "g": 0.8899999856948853,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "colorAfter": {
+                "r": 0.800000011920929,
+                "g": 0.8899999856948853,
+                "b": 1.0,
+                "a": 1.0
+            }
+        },
+        {
+            "path": "B5_Level_V0.01/Room01_Isolation/Lighting/Light_01B/Illumination",
+            "rangeBefore": 7.0,
+            "rangeAfter": 13.0,
+            "intensityBefore": 2.0,
+            "intensityAfter": 4.199999809265137,
+            "colorBefore": {
+                "r": 0.800000011920929,
+                "g": 0.8899999856948853,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "colorAfter": {
+                "r": 0.800000011920929,
+                "g": 0.8899999856948853,
+                "b": 1.0,
+                "a": 1.0
+            }
+        },
+        {
+            "path": "B5_Level_V0.01/Room01_Isolation/Lighting/Light_01C/Illumination",
+            "rangeBefore": 7.0,
+            "rangeAfter": 13.0,
+            "intensityBefore": 2.0,
+            "intensityAfter": 4.199999809265137,
+            "colorBefore": {
+                "r": 0.800000011920929,
+                "g": 0.8899999856948853,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "colorAfter": {
+                "r": 0.800000011920929,
+                "g": 0.8899999856948853,
+                "b": 1.0,
+                "a": 1.0
+            }
+        },
+        {
+            "path": "B5_Level_V0.01/Room01_Isolation/Lighting/Light_01D/Illumination",
+            "rangeBefore": 7.0,
+            "rangeAfter": 13.0,
+            "intensityBefore": 2.0,
+            "intensityAfter": 4.199999809265137,
+            "colorBefore": {
+                "r": 0.800000011920929,
+                "g": 0.8899999856948853,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "colorAfter": {
+                "r": 0.800000011920929,
+                "g": 0.8899999856948853,
+                "b": 1.0,
+                "a": 1.0
+            }
+        },
+        {
+            "path": "B5_Level_V0.01/Room01_Isolation/Lighting/Cell_Lamp/Illumination",
+            "rangeBefore": 4.0,
+            "rangeAfter": 11.0,
+            "intensityBefore": 1.2000000476837159,
+            "intensityAfter": 2.4000000953674318,
+            "colorBefore": {
+                "r": 0.800000011920929,
+                "g": 0.8899999856948853,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "colorAfter": {
+                "r": 0.800000011920929,
+                "g": 0.8899999856948853,
+                "b": 1.0,
+                "a": 1.0
+            }
+        }
+    ],
+    "newTiles": 55,
+    "newColliders": 0,
+    "newRuntimeScripts": 0,
+    "hiddenSourceInstances": 25,
+    "preservedLegacyFloorRotations": 9,
+    "preservedLegacyCeilingRotations": 9
+}

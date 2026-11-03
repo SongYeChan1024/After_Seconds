@@ -1,0 +1,308 @@
+{
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+  "dirty": false,
+  "pod": {
+    "pos": [
+      0.0,
+      0.0,
+      10.32
+    ],
+    "scale": [
+      3.0,
+      2.0,
+      3.0
+    ]
+  },
+  "lights": [
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Door01_To_Airlock/Status_Lamp",
+      "pos": [
+        0.0,
+        2.91,
+        2.21
+      ],
+      "localPos": [
+        0.0,
+        2.91,
+        0.21
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.7,
+        0.055,
+        0.035
+      ],
+      "light": null,
+      "children": []
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Lighting/Light_01A/Illumination",
+      "pos": [
+        -3.0,
+        6.54999971,
+        4.4
+      ],
+      "localPos": [
+        0.0,
+        -0.3,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "light": {
+        "type": "Point",
+        "intensity": 4.2,
+        "range": 13.0
+      },
+      "children": []
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Lighting/Light_01B/Illumination",
+      "pos": [
+        3.0,
+        6.54999971,
+        4.4
+      ],
+      "localPos": [
+        0.0,
+        -0.3,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "light": {
+        "type": "Point",
+        "intensity": 4.2,
+        "range": 13.0
+      },
+      "children": []
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Lighting/Light_01C/Illumination",
+      "pos": [
+        -3.0,
+        6.54999971,
+        9.8
+      ],
+      "localPos": [
+        0.0,
+        -0.3,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "light": {
+        "type": "Point",
+        "intensity": 4.2,
+        "range": 13.0
+      },
+      "children": []
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Lighting/Light_01D/Illumination",
+      "pos": [
+        3.0,
+        6.54999971,
+        9.8
+      ],
+      "localPos": [
+        0.0,
+        -0.3,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "light": {
+        "type": "Point",
+        "intensity": 4.2,
+        "range": 13.0
+      },
+      "children": []
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Lighting/Cell_Lamp",
+      "pos": [
+        0.0,
+        6.85,
+        10.45
+      ],
+      "localPos": [
+        0.0,
+        6.85,
+        10.45
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "light": null,
+      "children": [
+        {
+          "name": "Housing",
+          "pos": [
+            0.0,
+            6.85,
+            10.45
+          ],
+          "hasRenderer": true
+        },
+        {
+          "name": "Diffuser",
+          "pos": [
+            0.0,
+            6.79,
+            10.45
+          ],
+          "hasRenderer": true
+        },
+        {
+          "name": "Illumination",
+          "pos": [
+            0.0,
+            6.54999971,
+            10.45
+          ],
+          "hasRenderer": false
+        }
+      ]
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Lighting/Cell_Lamp/Illumination",
+      "pos": [
+        0.0,
+        6.54999971,
+        10.45
+      ],
+      "localPos": [
+        0.0,
+        -0.3,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "light": {
+        "type": "Point",
+        "intensity": 2.4,
+        "range": 11.0
+      },
+      "children": []
+    }
+  ],
+  "nearbyRenderers": [
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Lighting/Cell_Lamp/Housing",
+      "center": [
+        0.0,
+        6.85,
+        10.45
+      ],
+      "size": [
+        1.9,
+        0.1,
+        0.48
+      ]
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Lighting/Cell_Lamp/Diffuser",
+      "center": [
+        0.0,
+        6.79,
+        10.45
+      ],
+      "size": [
+        1.7,
+        0.035,
+        0.32
+      ]
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/HabitatShell_Visual/ObservationPod_Crown",
+      "center": [
+        1.00031792E-13,
+        6.398999,
+        10.3200006
+      ],
+      "size": [
+        1.0200001,
+        0.08599989,
+        1.02
+      ]
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/HabitatShell_Visual/ObservationPod_CrownLED",
+      "center": [
+        1.00297544E-13,
+        6.41599941,
+        10.3200006
+      ],
+      "size": [
+        1.014,
+        0.015999455,
+        1.01399994
+      ]
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Habitat_Architecture_Visuals/Ceiling/Ceiling_1_0_2/Env_CeilingPanel_4m/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+      "center": [
+        0.0,
+        7.275,
+        10.8099995
+      ],
+      "size": [
+        4.16,
+        0.15,
+        3.62000012
+      ]
+    }
+  ]
+}

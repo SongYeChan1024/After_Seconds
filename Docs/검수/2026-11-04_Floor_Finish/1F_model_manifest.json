@@ -1,0 +1,258 @@
+[
+  {
+    "name": "Env_ExteriorCorner",
+    "version": "V0.01",
+    "author": "송예찬",
+    "sourceBlend": "C:\\GitHubProjects\\After_Seconds\\SourceAssets\\1F_Facades_Rebuilt\\Env_ExteriorCorner_Rebuilt.blend",
+    "fbx": "C:\\GitHubProjects\\After_Seconds\\tmp\\1F_Facades_20261104\\model\\Env_ExteriorCorner_Rebuilt.fbx",
+    "fbxSha256": "9b57201f9e6283ded860f3100306e890854d266dcbac90d80ce01b40e52ff6b7",
+    "blenderBoundsMin": [
+      -0.497506320476532,
+      -0.4801081120967865,
+      0.0
+    ],
+    "blenderBoundsMax": [
+      0.497506320476532,
+      0.4801081120967865,
+      0.8775805830955505
+    ],
+    "blenderSizeXYZ": [
+      0.995012640953064,
+      0.960216224193573,
+      0.8775805830955505
+    ],
+    "unitySizeXYZ": [
+      0.995012640953064,
+      0.8775805830955505,
+      0.960216224193573
+    ],
+    "pivot": "bottom-center at (0,0,0)",
+    "orientation": {
+      "blenderFront": [
+        1,
+        0,
+        0
+      ],
+      "unityFront": [
+        1,
+        0,
+        0
+      ],
+      "sceneYawDegrees": 180
+    },
+    "export": {
+      "axisForward": "-Z",
+      "axisUp": "Y",
+      "bakeSpaceTransform": true,
+      "globalScale": 1
+    },
+    "materials": [
+      {
+        "name": "White",
+        "baseColor": [
+          0.39,
+          0.43,
+          0.44,
+          1
+        ],
+        "metallic": 0.14,
+        "roughness": 0.52
+      },
+      {
+        "name": "Metal",
+        "baseColor": [
+          0.17,
+          0.205,
+          0.22,
+          1
+        ],
+        "metallic": 0.72,
+        "roughness": 0.35
+      },
+      {
+        "name": "Black",
+        "baseColor": [
+          0.025,
+          0.033,
+          0.038,
+          1
+        ],
+        "metallic": 0.35,
+        "roughness": 0.46
+      },
+      {
+        "name": "Warning",
+        "baseColor": [
+          1.0,
+          0.39,
+          0.035,
+          1
+        ],
+        "metallic": 0.15,
+        "roughness": 0.3
+      }
+    ],
+    "topology": {
+      "vertices": 1480,
+      "triangles": 2676,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "degenerateFaces": 0,
+      "finiteNormals": true
+    },
+    "scope": "Background visual only. No colliders, scene edits or gameplay changes.",
+    "fbxRoundtrip": {
+      "triangles": 2676,
+      "vertices": 1480,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "degenerateFaces": 0,
+      "finiteNormals": true,
+      "boundsMaxAbsoluteError": 5.960464477539063e-08,
+      "materials": [
+        "White",
+        "Metal",
+        "Black",
+        "Warning"
+      ]
+    },
+    "fbxRoundtripBlenderBoundsMin": [
+      -0.497506320476532,
+      -0.4801081120967865,
+      -3.5193082226214756e-08
+    ],
+    "fbxRoundtripBlenderBoundsMax": [
+      0.497506320476532,
+      0.4801081717014313,
+      0.8775805830955505
+    ]
+  },
+  {
+    "name": "Env_LoadingShutterWall",
+    "version": "V0.01",
+    "author": "송예찬",
+    "sourceBlend": "C:\\GitHubProjects\\After_Seconds\\SourceAssets\\1F_Facades_Rebuilt\\Env_LoadingShutterWall_Rebuilt.blend",
+    "fbx": "C:\\GitHubProjects\\After_Seconds\\tmp\\1F_Facades_20261104\\model\\Env_LoadingShutterWall_Rebuilt.fbx",
+    "fbxSha256": "a6c21c94ab1e62fff5e0986b0de39bbebe91e4030bbc744e02a4db448055843a",
+    "blenderBoundsMin": [
+      -0.27765339612960815,
+      -0.4932052195072174,
+      0.0
+    ],
+    "blenderBoundsMax": [
+      0.27765339612960815,
+      0.4932052195072174,
+      0.7703405022621155
+    ],
+    "blenderSizeXYZ": [
+      0.5553067922592163,
+      0.9864104390144348,
+      0.7703405022621155
+    ],
+    "unitySizeXYZ": [
+      0.5553067922592163,
+      0.7703405022621155,
+      0.9864104390144348
+    ],
+    "pivot": "bottom-center at (0,0,0)",
+    "orientation": {
+      "blenderFront": [
+        1,
+        0,
+        0
+      ],
+      "unityFront": [
+        1,
+        0,
+        0
+      ],
+      "sceneYawDegrees": 90
+    },
+    "export": {
+      "axisForward": "-Z",
+      "axisUp": "Y",
+      "bakeSpaceTransform": true,
+      "globalScale": 1
+    },
+    "materials": [
+      {
+        "name": "White",
+        "baseColor": [
+          0.39,
+          0.43,
+          0.44,
+          1
+        ],
+        "metallic": 0.14,
+        "roughness": 0.52
+      },
+      {
+        "name": "Metal",
+        "baseColor": [
+          0.17,
+          0.205,
+          0.22,
+          1
+        ],
+        "metallic": 0.72,
+        "roughness": 0.35
+      },
+      {
+        "name": "Black",
+        "baseColor": [
+          0.025,
+          0.033,
+          0.038,
+          1
+        ],
+        "metallic": 0.35,
+        "roughness": 0.46
+      },
+      {
+        "name": "Warning",
+        "baseColor": [
+          1.0,
+          0.39,
+          0.035,
+          1
+        ],
+        "metallic": 0.15,
+        "roughness": 0.3
+      }
+    ],
+    "topology": {
+      "vertices": 2048,
+      "triangles": 3736,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "degenerateFaces": 0,
+      "finiteNormals": true
+    },
+    "scope": "Background visual only. No colliders, scene edits or gameplay changes.",
+    "fbxRoundtrip": {
+      "triangles": 3736,
+      "vertices": 2048,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "degenerateFaces": 0,
+      "finiteNormals": true,
+      "boundsMaxAbsoluteError": 5.960464477539063e-08,
+      "materials": [
+        "White",
+        "Metal",
+        "Black",
+        "Warning"
+      ]
+    },
+    "fbxRoundtripBlenderBoundsMin": [
+      -0.27765339612960815,
+      -0.4932052195072174,
+      -3.680709781406222e-08
+    ],
+    "fbxRoundtripBlenderBoundsMax": [
+      0.27765339612960815,
+      0.4932052791118622,
+      0.7703405618667603
+    ]
+  }
+]

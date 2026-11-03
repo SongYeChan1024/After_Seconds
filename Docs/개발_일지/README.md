@@ -1,8 +1,11 @@
-# 개발 일지
+# 개발 일지 V0.01
 
 작업 나열보다 문제를 어떻게 발견하고 해결했는지 기록합니다. 매일의 학습 과정은 공개 「데일리 로그」로, 프로젝트의 구현 문제와 해결 과정은 별도의 기술 글로 작성합니다.
 
-**현재 게시 저장소는 [Kasil_DevLog](https://github.com/SongYeChan1024/Kasil_DevLog)이며 `_posts/YYYY-MM-DD-영문-슬러그.md`에서 관리합니다.** 로컬 저장소는 학원 PC 기준 `C:/Users/503-26/Desktop/Projects/02.Kasil_DevLog`입니다. 이 폴더에는 블로그 본문을 복제하지 않고 공개 글 링크와 기존 기록·노션 링크를 보관합니다. 이어하기 상태는 [세션 인수인계](../이어하기_2026-10-26.md)에 기록합니다.
+**현재 게시 저장소는 [Kasil_DevLog](https://github.com/SongYeChan1024/Kasil_DevLog)이며 `_posts/YYYY-MM-DD-영문-슬러그.md`에서 관리합니다.** 로컬 저장소는 학원 PC 기준 `C:/Users/503-26/Desktop/Projects/02.Kasil_DevLog`, 집 기준 `C:/GitHubProjects/Kasil_DevLog`입니다. 이 폴더에는 블로그 본문을 복제하지 않고 공개 글 링크와 기존 기록·노션 링크를 보관합니다. 현재 상태와 다음 작업은 [2026-11-04 세션 인수인계](../이어하기_2026-11-04.md)에 기록합니다.
+
+- [2026-11-04 일일개발일지 — B2 배관 연결과 1층 외장 교체](https://songyechan1024.github.io/Kasil_DevLog/posts/after-seconds-b2-pipes-and-1f-facades/)
+- [2026-11-04 데일리로그 — 에셋을 쓴 것과 공간을 완성한 것](https://songyechan1024.github.io/Kasil_DevLog/posts/daily-log-assets-and-connections/)
 
 - [2026-10-28 데일리 로그 — 의사코드로 배우는 과정](https://songyechan1024.github.io/Kasil_DevLog/posts/daily-log-learning-through-pseudocode/)
 - [2026-10-28 기술 기록 — After Seconds 1인칭 플레이어 컨트롤러](https://songyechan1024.github.io/Kasil_DevLog/posts/after-seconds-first-person-player-controller/)

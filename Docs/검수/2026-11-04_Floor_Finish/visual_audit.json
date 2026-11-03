@@ -1,0 +1,175 @@
+{
+  "title": "전층 시각 검수 사전 조사 — 기존 검수 이미지 기준",
+  "author": "송예찬",
+  "date": "2026-11-04",
+  "status": "preliminary_existing_evidence_only",
+  "scope": {
+    "floors": ["B5", "B4", "B3", "B2", "B1", "1F"],
+    "method": "2026-11-03 검수 렌더, 소스 접촉표, 반입 메타데이터, 프리팹 참조를 읽기 전용으로 비교",
+    "newSixFloorRendersReviewed": false,
+    "liveUnitySceneInspection": false,
+    "fbxTopologyRecomputed": false,
+    "assetsScenesOrEditorModified": false,
+    "completionClaim": "에셋 종류 사용 여부와 층 전체의 아트 배치 완성 여부는 다르다. 전층 아트 완료로 판정하지 않는다.",
+    "todayScope": "B2 배관 연결과 1F 셔터·외장 코너 교체까지. 전층 재검수, 추가 프랍, 게임 기능, 플레이 테스트, 난이도 조정은 다음 작업이다."
+  },
+  "evidenceFreshness": {
+    "sixFloorImages": "Docs/검수/2026-11-03_Full_Asset_Placement",
+    "b5LatestHabitatImages": "Docs/검수/2026-11-03_Subject_Habitat",
+    "b5LatestPendantImages": "Docs/검수/2026-11-03_Dome_Interior_Light/after_interior.png",
+    "sourceComparisonImages": "Docs/검수/2026-11-03_VARCO_V002_Batch02",
+    "historicalActiveRendererReport": "tmp/VARCO_Status_20261103/active_coverage.json",
+    "warning": "오늘의 배관·1F 수정 이후 상태는 이 과거 이미지들로 판정할 수 없다. 수정 후 새 렌더로 별도 확인한다."
+  },
+  "assetCoverage": {
+    "catalogKinds": 48,
+    "historicalActiveKinds": 48,
+    "source": "tmp/VARCO_Status_20261103/active_coverage.json",
+    "meaning": "저장된 6층에서 48종 각각에 활성 Renderer가 있었다는 기록이다. 모든 면의 품질, 장비의 연결, 공간의 밀도, 플레이 동선 완성을 보장하지 않는다.",
+    "closeupLimit": "이번 조사는 기존 카메라에서 보이는 면과 소스 접촉표에 한정된다. 모든 모델의 전·후·좌·우 면을 새로 렌더한 전수 통과 판정이 아니다."
+  },
+  "findings": [
+    {
+      "id": "VA01",
+      "asset": "Env_LoadingShutterWall",
+      "prefab": "Assets/Afrer_Seconds/05.Model/Environment/1F/Env_LoadingShutterWall.prefab",
+      "floors": ["1F"],
+      "category": "generated_surface_deformation",
+      "severity": "high",
+      "status": "confirmed_in_old_render_replacement_in_progress",
+      "view": "외부 출구 랜딩 위 사선 시점, 셔터 앞·측면",
+      "evidence": ["Docs/검수/2026-11-03_Full_Asset_Placement/1F_exterior_assets.png", "Docs/검수/2026-11-03_Full_Asset_Placement/asset_contact_sheet.png"],
+      "observation": "셔터 면에 불규칙한 울퉁불퉁한 띠와 찌그러진 세로 부재가 보인다. 단순 평벽이 아닌 깊은 서비스 베이 형태라 외벽 위에 얹은 듯한 인상도 생긴다.",
+      "distinction": "누락 참조가 아니라 원본 형태와 표면 품질 문제이다. 열린 베이 내부 공간 자체를 메시 구멍이라고 단정하지 않는다.",
+      "nextCheck": "오늘 새 셔터의 전면 평탄도, 측면 이음, 중심 탈출구 폭을 수정 후 렌더에서 확인한다."
+    },
+    {
+      "id": "VA02",
+      "asset": "Env_ExteriorCorner",
+      "prefab": "Assets/Afrer_Seconds/05.Model/Environment/1F/Env_ExteriorCorner.prefab",
+      "floors": ["1F"],
+      "category": "generated_surface_deformation_and_architecture_fit",
+      "severity": "high",
+      "status": "confirmed_in_old_render_replacement_in_progress",
+      "view": "외부 출구 랜딩 위 사선 시점, 코너 외판과 상부 단면",
+      "evidence": ["Docs/검수/2026-11-03_Full_Asset_Placement/1F_exterior_assets.png", "Docs/검수/2026-11-03_Full_Asset_Placement/asset_contact_sheet.png"],
+      "observation": "외판 세로선이 녹아내린 듯 굴곡지고, 작은 U자형 독립 부스가 큰 시설 벽 앞에 놓인 인상이다.",
+      "distinction": "표면·형태의 품질 문제이며 모델이 통째로 사라진 상태가 아니다.",
+      "nextCheck": "오늘 교체 코너의 벽면 평탄도와 인접 외벽 접합을 새 렌더에서 확인한다."
+    },
+    {
+      "id": "VA03",
+      "asset": "U01/U02/U03 B2 기존 배관 묶음",
+      "floors": ["B2"],
+      "category": "placement_disconnected_network",
+      "severity": "high",
+      "status": "confirmed_in_old_render_route_fix_in_progress",
+      "view": "Room07에서 벽 상단 배관을 바라보는 시점",
+      "evidence": ["Docs/검수/2026-11-03_VARCO_V002_Batch02/B2_scene_applied.png"],
+      "observation": "직관 몇 개, 위로 향한 엘보, 아래에 떨어진 밸브가 서로 끊겨 떠 있다. 배관 종류를 한 번씩 둔 상태이며 완성된 설비 노선은 아니다.",
+      "distinction": "이 사진에서 가장 큰 문제는 메시 파손보다 회전·높이·연결 배치다.",
+      "nextCheck": "오늘 수정 노선의 모든 접속, 밸브 삽입, 끝단 처리와 퍼즐의 구덩이·빈 공간 보존을 확인한다."
+    },
+    {
+      "id": "VA04",
+      "asset": "Props_LaboratoryWorkbench",
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/Common/Props_LaboratoryWorkbench.prefab",
+      "floors": ["B5", "B3", "B1"],
+      "historicalActiveInstances": {"B5": 1, "B3": 1, "B1": 1},
+      "category": "surface_fold_or_baked_shading",
+      "severity": "medium",
+      "status": "visible_surface_problem_cause_requires_closeup",
+      "view": "B1 작업대 오른쪽 옆판·상판, 소스 정면 사선",
+      "evidence": ["Docs/검수/2026-11-03_Full_Asset_Placement/B1_interior.png", "tmp/Asset_Placement_20261103/prepared/Props_LaboratoryWorkbench/preview.png"],
+      "observation": "넓은 상판이 큰 삼각형 띠로 접히거나 솟아 보이며, 옆판도 삼각형 음영이 드러난다. 동일한 이상 형태가 소스 프리뷰에도 있어 장면 배치만의 문제는 아니다.",
+      "technicalEvidence": "기존 fbx_verification.json에서 48000tri, boundary/overused/zeroArea/crossing/invalidUV 모두 0이었다. 이 결과는 울퉁불퉁한 표면이나 베이크 음영의 시각 품질 통과를 뜻하지 않는다.",
+      "confidence": "표면이 접혀 보이는 현상은 높음. 실제 정점 변형과 BaseColor/Normal 베이크의 기여 비율은 미확인.",
+      "nextCheck": "내일 3개 작업대의 플레이어 눈높이 근접 렌더를 찍고 무재질·Normal 끈 화면을 비교한다. 상판·옆판을 평면 보수할지 원본을 재활용할지 이 비교 뒤 정한다."
+    },
+    {
+      "id": "VA05",
+      "asset": "U04_DuctStraight",
+      "prefab": "Assets/Afrer_Seconds/05.Model/Environment/Common/U04_DuctStraight.prefab",
+      "floors": ["B4", "B1", "1F"],
+      "historicalActiveInstances": {"B4": 3, "B1": 3, "1F": 3},
+      "category": "retopology_shape_loss_candidate",
+      "severity": "review_priority_high",
+      "status": "source_comparison_candidate_not_confirmed_scene_defect",
+      "view": "U04 HIGH와 REMESH 소스 비교, 덕트 넓은 옆면과 플랜지",
+      "evidence": ["Docs/검수/2026-11-03_VARCO_V002_Batch02/U04_mesh_review.png"],
+      "observation": "HIGH의 평평한 넓은 면과 직선 테두리가 REMESH에서 물결치고 모서리가 눌린다.",
+      "technicalEvidence": "source_manifest는 현 FBX가 U04_retopo.glb에서 온 2476tri임을 명시한다. 현재 프리팹 source guid ed4f1355ea8ae294dab51e440494e459는 해당 U04_DuctStraight.fbx.meta에 연결된다.",
+      "distinction": "원본 비교에서 형태 손실은 보이지만 실제 장면의 거리·조명에서 눈에 띄는 파손인지 이번 자료로 확정하지 않는다.",
+      "nextCheck": "내일 B4·B1·1F 덕트 9개 중 눈높이에서 가장 크게 보이는 1개부터 근접 점검한다. 필요할 경우 직사각 몸체와 플랜지를 단순 모델로 보수한다."
+    },
+    {
+      "id": "VA06",
+      "asset": "P08_BenchtopInstrument",
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/B1/P08_BenchtopInstrument.prefab",
+      "floors": ["B1"],
+      "category": "retopology_shape_loss_candidate",
+      "severity": "review_priority_medium",
+      "status": "source_comparison_candidate_not_confirmed_scene_defect",
+      "evidence": ["Docs/검수/2026-11-03_VARCO_V002_Batch02/P08_mesh_review.png"],
+      "observation": "REMESH의 상판 테두리와 루버가 HIGH보다 녹은 듯 뭉개진다.",
+      "nextCheck": "정상 플레이 거리에서 루버가 찢겨 보이는 경우만 선별 보수한다. 원본 전체를 고폴리로 바꾸는 조치는 하지 않는다."
+    },
+    {
+      "id": "VA07",
+      "asset": "P13_LogisticsTote / P02_WallStorageCabinet / U02_PipeElbow90 / U03_HandwheelValve",
+      "floors": ["B5", "B4", "B3", "B2", "B1", "1F"],
+      "category": "retopology_soft_edges_candidate",
+      "severity": "review_priority_low",
+      "status": "source_comparison_candidate_not_confirmed_scene_defect",
+      "evidence": ["Docs/검수/2026-11-03_VARCO_V002_Batch02/P13_mesh_review.png", "Docs/검수/2026-11-03_VARCO_V002_Batch02/P02_mesh_review.png", "Docs/검수/2026-11-03_VARCO_V002_Batch02/batch02_mesh_contact_sheet.png"],
+      "observation": "저밀도 모델의 직선 테두리·볼트·손잡이가 HIGH보다 둥글고 들쭉날쭉하다. 사진에 보인 물체의 작은 화면 크기에서는 즉시 교체가 필요한 파손으로 단정할 수 없다.",
+      "distinction": "모서리 둔화와 실제 geometry hole, 뒤집힌 normal, UV 좌표 오류는 다른 문제다.",
+      "nextCheck": "새로운 배관과 근접 상호작용 오브젝트를 우선 보고, 작게 보이는 비상호작용 장식은 후순위로 둔다."
+    },
+    {
+      "id": "VA08",
+      "asset": "벽·천장 타일 접합 및 B5 잔여 접촉면",
+      "floors": ["B5", "B4", "B3", "B2", "B1", "1F"],
+      "category": "surface_seam_or_coplanar_candidate",
+      "severity": "review_priority_medium",
+      "status": "cause_unconfirmed_requires_movement_or_depth_check",
+      "evidence": ["Docs/검수/2026-11-03_Full_Asset_Placement/B4_interior.png", "Docs/검수/2026-11-03_Full_Asset_Placement/B3_interior.png", "Docs/검수/2026-11-03_Dome_Interior_Light/after_interior.png", "Docs/검수/2026-11-03_B5_Clinical_Tone/surface_overlap_audit.json"],
+      "observation": "일부 타일 이음에 검은 점·가는 선이 보인다. 기존 B5 검사에는 접촉 후보 26개가 있으나 외부에 숨은 접촉도 포함한다.",
+      "distinction": "리벳·텍스처 디테일, 틈, 깊이 충돌을 정지 이미지 하나로 구별할 수 없다. 26개를 모두 눈에 보이는 Z-fighting 결함으로 세지 않는다.",
+      "nextCheck": "Airlock과 계단·냉각조 가장자리에서 카메라를 조금씩 움직여 실제 깜박이는 접합만 고친다. 사용자가 뒤집은 천장 회전은 유지한다."
+    }
+  ],
+  "sparseZones": [
+    {"floor": "B5", "zone": "Room01 돔 밖 관찰 공간 및 연결부", "state": "생활·실험용 5종과 안쪽 펜던트가 추가되어 과거 B5_overview는 최신 밀도를 반영하지 않는다.", "tomorrow": "최신 돔 크기를 유지한 채 관찰자 작업 흔적, 벽부 설비, 안전 안내 같은 작은 묶음을 검토한다. 돔 안 경비 배치는 금지한다."},
+    {"floor": "B4", "zone": "관측실 빈 벽과 데크 하부", "state": "모니터와 캐비닛 몇 개에 비해 넓은 면이 비어 있다.", "tomorrow": "모니터 뒤 케이블·벽부 박스·기록 작업 흔적을 기존 프랍으로 먼저 묶는다. 데크와 낙차 퍼즐 시인성은 유지한다."},
+    {"floor": "B3", "zone": "샘플 보관실 중앙 및 연결 통로", "state": "작업대·트롤리와 벽 사이 큰 여백이 남는다.", "tomorrow": "샘플 캐니스터·보관함·작업대 소품을 역할별로 묶는다. 중앙 이동 및 교환 시야를 막는 장식은 피한다."},
+    {"floor": "B2", "zone": "기계실 벽 상단과 설비 사이", "state": "기계 종류는 있으나 배관이 끊겨 장비의 관계가 읽히지 않았다.", "tomorrow": "오늘 배관 후 모습부터 확인한다. 필요하면 케이블 지지대·배관 종단·바닥 정비 흔적을 보강한다. 구덩이 건너편 교환 대상처럼 보이는 물건과 다리는 추가하지 않는다."},
+    {"floor": "B1", "zone": "실험실 긴 벽과 작업대 주변", "state": "패널과 작업대가 모인 한쪽 외에는 넓은 면이 비어 있다.", "tomorrow": "장비 점검 구역과 기록 구역을 분명히 하고 작은 실험용 소품을 검토한다. 큰 상판 결함을 먼저 확인한다."},
+    {"floor": "1F", "zone": "검문소 벽·대기 공간·출구 랜딩", "state": "출구 외형은 오늘 교체 중이며 나머지 부분은 블록아웃과 개별 프랍 위주다.", "tomorrow": "스캐너·운송 상자·팔레트를 기능별 묶음으로 정돈하고 안내·통제 설비를 검토한다. 중심 탈출구는 비운다."}
+  ],
+  "notNewDefects": [
+    "검수용 B2 카메라와 플레이어가 겹쳐 생겼던 검은 삼각형 화면은 환경 메시 파손으로 세지 않는다.",
+    "B4 RecordsCabinet의 과거 떠 있는 위치는 이미 수정되었다는 인수인계가 있어 새 렌더 확인 전 재발 결함으로 세지 않는다.",
+    "B5 최신 생활 소품의 과거 FBX 축 오류는 수정된 상태이므로 오래된 눕힌 이미지로 다시 결함 판정을 하지 않는다.",
+    "배식구의 현재 양면 손잡이·안팎 동일 문짝과 실제 구멍 구조는 이전 흰색 뒷면 장식과 구별한다.",
+    "정적 T 포즈 경비, 단순 난간·플랫폼·사다리·문 같은 블록아웃은 완성 기능도 아니고 자동으로 손상된 모델도 아니다.",
+    "Env_SteelGrating의 격자 구멍, 서비스 베이의 열린 내부는 설계된 빈 공간이다. 이번 렌더에서 추가로 확정한 geometry hole은 없다.",
+    "유효 UV 검사 0오류는 텍스처 왜곡이나 표면 품질이 완벽하다는 의미가 아니다. 이번 자료만으로 UV 좌표 오류는 확정하지 않는다."
+  ],
+  "preserve": [
+    "SampleScene 및 Player.unity 독립 테스트 씬",
+    "B5 ObservationPod 위치 (0,0,10.32), 스케일 (3,2,3), Room01 높이 7.2m",
+    "돔 안 펜던트와 꺼진 구형 중앙 등, 돔 밖 경비",
+    "양면 배식구·정적 곡면 충돌·문 피벗",
+    "Player v0.3 리깅/Animator 및 사용자 천장 회전",
+    "원본 FBX·프리팹 GUID와 SourceHierarchy04 프리팹 원본"
+  ],
+  "tomorrowPriority": [
+    "1. 오늘 B2 배관 및 1F 두 모델 수정 후 렌더를 확인하고 연결·입구·퍼즐 제약을 재검증한다.",
+    "2. 6층을 플레이어 눈높이와 구역별 근접 시점으로 다시 촬영한다. 오래된 overview만으로 완료 판정하지 않는다.",
+    "3. Common 작업대 3개, U04 덕트 9개, B5 잔여 접촉면을 선별 점검한다. 필요 시 정상 재질과 무재질·Normal 끈 화면을 비교한다.",
+    "4. 기존 프랍 재사용으로 공간별 기능 묶음을 만들고 부족한 프랍의 수량·크기·용도를 목록화한다. 유료 생성은 구체적인 목록 승인 뒤 진행한다.",
+    "5. 환경 배치 뒤 플레이어·경비 기능을 구현·연결하고 실제 플레이 테스트를 진행한다.",
+    "6. 플레이 결과로 시간·실패 원인·퍼즐 이해도 등을 기록한 뒤 난이도 곡선을 조정한다. 현재는 난이도 검증 완료 상태가 아니다."
+  ]
+}

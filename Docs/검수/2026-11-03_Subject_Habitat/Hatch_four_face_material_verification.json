@@ -1,0 +1,591 @@
+{
+  "accepted": true,
+  "version": "V0.02",
+  "doors": [
+    {
+      "name": "DualFoodHatch_DoorExterior_Pivot",
+      "materialSlots": [
+        "OP_ClinicalWhite",
+        "OP_BrushedSteel",
+        "OP_BlackFrame"
+      ],
+      "parts": [
+        {
+          "side": "Shared",
+          "part": "SharedLeaf",
+          "expected": "OP_ClinicalWhite",
+          "actual": [
+            "OP_ClinicalWhite"
+          ],
+          "centerPhysical": [
+            2.9802322387695312e-08,
+            -4.189999580383301,
+            1.0499999523162842
+          ],
+          "sizePhysical": [
+            0.7200000286102295,
+            0.02700042724609375,
+            0.4500000476837158
+          ]
+        },
+        {
+          "side": "Front",
+          "part": "Inset",
+          "expected": "OP_BrushedSteel",
+          "actual": [
+            "OP_BrushedSteel"
+          ],
+          "centerPhysical": [
+            1.4901161193847656e-08,
+            -4.206999778747559,
+            1.0499999523162842
+          ],
+          "sizePhysical": [
+            0.6299999952316284,
+            0.008000850677490234,
+            0.35500001907348633
+          ]
+        },
+        {
+          "side": "Front",
+          "part": "MountOrLatch",
+          "expected": "OP_BlackFrame",
+          "actual": [
+            "OP_BlackFrame"
+          ],
+          "centerPhysical": [
+            0.25200003385543823,
+            -4.214000225067139,
+            1.1349999904632568
+          ],
+          "sizePhysical": [
+            0.05000004172325134,
+            0.015000343322753906,
+            0.04500007629394531
+          ]
+        },
+        {
+          "side": "Front",
+          "part": "MountOrLatch",
+          "expected": "OP_BlackFrame",
+          "actual": [
+            "OP_BlackFrame"
+          ],
+          "centerPhysical": [
+            0.25200003385543823,
+            -4.214000225067139,
+            0.9649999737739563
+          ],
+          "sizePhysical": [
+            0.05000004172325134,
+            0.015000343322753906,
+            0.04499995708465576
+          ]
+        },
+        {
+          "side": "Front",
+          "part": "Pull",
+          "expected": "OP_BlackFrame",
+          "actual": [
+            "OP_BlackFrame"
+          ],
+          "centerPhysical": [
+            0.25200003385543823,
+            -4.250246524810791,
+            1.0499999523162842
+          ],
+          "sizePhysical": [
+            0.023999959230422974,
+            0.062493324279785156,
+            0.1940000057220459
+          ]
+        },
+        {
+          "side": "Front",
+          "part": "Hinge",
+          "expected": "OP_BrushedSteel",
+          "actual": [
+            "OP_BrushedSteel"
+          ],
+          "centerPhysical": [
+            -0.36000001430511475,
+            -4.209000110626221,
+            0.9150000214576721
+          ],
+          "sizePhysical": [
+            0.042000025510787964,
+            0.04199981689453125,
+            0.08500003814697266
+          ]
+        },
+        {
+          "side": "Front",
+          "part": "Hinge",
+          "expected": "OP_BrushedSteel",
+          "actual": [
+            "OP_BrushedSteel"
+          ],
+          "centerPhysical": [
+            -0.36000001430511475,
+            -4.209000110626221,
+            1.184999942779541
+          ],
+          "sizePhysical": [
+            0.042000025510787964,
+            0.04199981689453125,
+            0.08500003814697266
+          ]
+        },
+        {
+          "side": "Front",
+          "part": "MountOrLatch",
+          "expected": "OP_BlackFrame",
+          "actual": [
+            "OP_BlackFrame"
+          ],
+          "centerPhysical": [
+            0.3312000334262848,
+            -4.217999458312988,
+            1.0499999523162842
+          ],
+          "sizePhysical": [
+            0.059999942779541016,
+            0.024999618530273438,
+            0.06500005722045898
+          ]
+        },
+        {
+          "side": "Back",
+          "part": "Inset",
+          "expected": "OP_BrushedSteel",
+          "actual": [
+            "OP_BrushedSteel"
+          ],
+          "centerPhysical": [
+            1.4901161193847656e-08,
+            -4.172999382019043,
+            1.0499999523162842
+          ],
+          "sizePhysical": [
+            0.6299999952316284,
+            0.008000850677490234,
+            0.35500001907348633
+          ]
+        },
+        {
+          "side": "Back",
+          "part": "MountOrLatch",
+          "expected": "OP_BlackFrame",
+          "actual": [
+            "OP_BlackFrame"
+          ],
+          "centerPhysical": [
+            0.25200003385543823,
+            -4.165999412536621,
+            1.1349999904632568
+          ],
+          "sizePhysical": [
+            0.05000004172325134,
+            0.015000343322753906,
+            0.04500007629394531
+          ]
+        },
+        {
+          "side": "Back",
+          "part": "MountOrLatch",
+          "expected": "OP_BlackFrame",
+          "actual": [
+            "OP_BlackFrame"
+          ],
+          "centerPhysical": [
+            0.25200003385543823,
+            -4.165999412536621,
+            0.9649999737739563
+          ],
+          "sizePhysical": [
+            0.05000004172325134,
+            0.015000343322753906,
+            0.04499995708465576
+          ]
+        },
+        {
+          "side": "Back",
+          "part": "Pull",
+          "expected": "OP_BlackFrame",
+          "actual": [
+            "OP_BlackFrame"
+          ],
+          "centerPhysical": [
+            0.25200003385543823,
+            -4.146530628204346,
+            1.0499999523162842
+          ],
+          "sizePhysical": [
+            0.02000001072883606,
+            0.028937339782714844,
+            0.1899999976158142
+          ]
+        },
+        {
+          "side": "Back",
+          "part": "Hinge",
+          "expected": "OP_BrushedSteel",
+          "actual": [
+            "OP_BrushedSteel"
+          ],
+          "centerPhysical": [
+            -0.36000001430511475,
+            -4.171000003814697,
+            0.9150000214576721
+          ],
+          "sizePhysical": [
+            0.042000025510787964,
+            0.04199981689453125,
+            0.08500003814697266
+          ]
+        },
+        {
+          "side": "Back",
+          "part": "Hinge",
+          "expected": "OP_BrushedSteel",
+          "actual": [
+            "OP_BrushedSteel"
+          ],
+          "centerPhysical": [
+            -0.36000001430511475,
+            -4.171000003814697,
+            1.184999942779541
+          ],
+          "sizePhysical": [
+            0.042000025510787964,
+            0.04199981689453125,
+            0.08500003814697266
+          ]
+        },
+        {
+          "side": "Back",
+          "part": "MountOrLatch",
+          "expected": "OP_BlackFrame",
+          "actual": [
+            "OP_BlackFrame"
+          ],
+          "centerPhysical": [
+            0.3312000632286072,
+            -4.161999702453613,
+            1.0499999523162842
+          ],
+          "sizePhysical": [
+            0.06000003218650818,
+            0.024999618530273438,
+            0.06500005722045898
+          ]
+        }
+      ],
+      "counts": {
+        "Front": {
+          "steel": 3,
+          "black": 4
+        },
+        "Back": {
+          "steel": 3,
+          "black": 4
+        }
+      },
+      "accepted": true
+    },
+    {
+      "name": "DualFoodHatch_DoorInterior_Pivot",
+      "materialSlots": [
+        "OP_ClinicalWhite",
+        "OP_BrushedSteel",
+        "OP_BlackFrame"
+      ],
+      "parts": [
+        {
+          "side": "Shared",
+          "part": "SharedLeaf",
+          "expected": "OP_ClinicalWhite",
+          "actual": [
+            "OP_ClinicalWhite"
+          ],
+          "centerPhysical": [
+            -2.9802322387695312e-08,
+            -3.760000228881836,
+            1.0499999523162842
+          ],
+          "sizePhysical": [
+            0.7200000286102295,
+            0.026999711990356445,
+            0.4500000476837158
+          ]
+        },
+        {
+          "side": "Front",
+          "part": "Inset",
+          "expected": "OP_BrushedSteel",
+          "actual": [
+            "OP_BrushedSteel"
+          ],
+          "centerPhysical": [
+            -1.4901161193847656e-08,
+            -3.743000030517578,
+            1.0499999523162842
+          ],
+          "sizePhysical": [
+            0.6299999952316284,
+            0.00800013542175293,
+            0.35500001907348633
+          ]
+        },
+        {
+          "side": "Front",
+          "part": "MountOrLatch",
+          "expected": "OP_BlackFrame",
+          "actual": [
+            "OP_BlackFrame"
+          ],
+          "centerPhysical": [
+            -0.25200003385543823,
+            -3.7360000610351562,
+            1.1349999904632568
+          ],
+          "sizePhysical": [
+            0.05000004172325134,
+            0.015000104904174805,
+            0.04500007629394531
+          ]
+        },
+        {
+          "side": "Front",
+          "part": "MountOrLatch",
+          "expected": "OP_BlackFrame",
+          "actual": [
+            "OP_BlackFrame"
+          ],
+          "centerPhysical": [
+            -0.25200003385543823,
+            -3.7360000610351562,
+            0.9649999737739563
+          ],
+          "sizePhysical": [
+            0.05000004172325134,
+            0.015000104904174805,
+            0.04499995708465576
+          ]
+        },
+        {
+          "side": "Front",
+          "part": "Pull",
+          "expected": "OP_BlackFrame",
+          "actual": [
+            "OP_BlackFrame"
+          ],
+          "centerPhysical": [
+            -0.25200003385543823,
+            -3.6997530460357666,
+            1.0499999523162842
+          ],
+          "sizePhysical": [
+            0.023999959230422974,
+            0.06249380111694336,
+            0.1940000057220459
+          ]
+        },
+        {
+          "side": "Front",
+          "part": "Hinge",
+          "expected": "OP_BrushedSteel",
+          "actual": [
+            "OP_BrushedSteel"
+          ],
+          "centerPhysical": [
+            0.36000001430511475,
+            -3.740999937057495,
+            0.9150000214576721
+          ],
+          "sizePhysical": [
+            0.042000025510787964,
+            0.04199981689453125,
+            0.08500003814697266
+          ]
+        },
+        {
+          "side": "Front",
+          "part": "Hinge",
+          "expected": "OP_BrushedSteel",
+          "actual": [
+            "OP_BrushedSteel"
+          ],
+          "centerPhysical": [
+            0.36000001430511475,
+            -3.740999937057495,
+            1.184999942779541
+          ],
+          "sizePhysical": [
+            0.042000025510787964,
+            0.04199981689453125,
+            0.08500003814697266
+          ]
+        },
+        {
+          "side": "Front",
+          "part": "MountOrLatch",
+          "expected": "OP_BlackFrame",
+          "actual": [
+            "OP_BlackFrame"
+          ],
+          "centerPhysical": [
+            -0.3312000334262848,
+            -3.7320003509521484,
+            1.0499999523162842
+          ],
+          "sizePhysical": [
+            0.059999942779541016,
+            0.025000333786010742,
+            0.06500005722045898
+          ]
+        },
+        {
+          "side": "Back",
+          "part": "Inset",
+          "expected": "OP_BrushedSteel",
+          "actual": [
+            "OP_BrushedSteel"
+          ],
+          "centerPhysical": [
+            -1.4901161193847656e-08,
+            -3.7769999504089355,
+            1.0499999523162842
+          ],
+          "sizePhysical": [
+            0.6299999952316284,
+            0.007999658584594727,
+            0.35500001907348633
+          ]
+        },
+        {
+          "side": "Back",
+          "part": "MountOrLatch",
+          "expected": "OP_BlackFrame",
+          "actual": [
+            "OP_BlackFrame"
+          ],
+          "centerPhysical": [
+            -0.25200003385543823,
+            -3.7839999198913574,
+            1.1349999904632568
+          ],
+          "sizePhysical": [
+            0.05000004172325134,
+            0.014999628067016602,
+            0.04500007629394531
+          ]
+        },
+        {
+          "side": "Back",
+          "part": "MountOrLatch",
+          "expected": "OP_BlackFrame",
+          "actual": [
+            "OP_BlackFrame"
+          ],
+          "centerPhysical": [
+            -0.25200003385543823,
+            -3.7839999198913574,
+            0.9649999737739563
+          ],
+          "sizePhysical": [
+            0.05000004172325134,
+            0.014999628067016602,
+            0.04499995708465576
+          ]
+        },
+        {
+          "side": "Back",
+          "part": "Pull",
+          "expected": "OP_BlackFrame",
+          "actual": [
+            "OP_BlackFrame"
+          ],
+          "centerPhysical": [
+            -0.25200003385543823,
+            -3.803469181060791,
+            1.0499999523162842
+          ],
+          "sizePhysical": [
+            0.02000001072883606,
+            0.02893853187561035,
+            0.1899999976158142
+          ]
+        },
+        {
+          "side": "Back",
+          "part": "Hinge",
+          "expected": "OP_BrushedSteel",
+          "actual": [
+            "OP_BrushedSteel"
+          ],
+          "centerPhysical": [
+            0.36000001430511475,
+            -3.7790000438690186,
+            0.9150000214576721
+          ],
+          "sizePhysical": [
+            0.042000025510787964,
+            0.04199981689453125,
+            0.08500003814697266
+          ]
+        },
+        {
+          "side": "Back",
+          "part": "Hinge",
+          "expected": "OP_BrushedSteel",
+          "actual": [
+            "OP_BrushedSteel"
+          ],
+          "centerPhysical": [
+            0.36000001430511475,
+            -3.7790000438690186,
+            1.184999942779541
+          ],
+          "sizePhysical": [
+            0.042000025510787964,
+            0.04199981689453125,
+            0.08500003814697266
+          ]
+        },
+        {
+          "side": "Back",
+          "part": "MountOrLatch",
+          "expected": "OP_BlackFrame",
+          "actual": [
+            "OP_BlackFrame"
+          ],
+          "centerPhysical": [
+            -0.3312000632286072,
+            -3.7880003452301025,
+            1.0499999523162842
+          ],
+          "sizePhysical": [
+            0.06000003218650818,
+            0.02500009536743164,
+            0.06500005722045898
+          ]
+        }
+      ],
+      "counts": {
+        "Front": {
+          "steel": 3,
+          "black": 4
+        },
+        "Back": {
+          "steel": 3,
+          "black": 4
+        }
+      },
+      "accepted": true
+    }
+  ],
+  "actualEmptyDepthBetweenInwardHandles": 0.31412339210510254,
+  "fourFacesUseMatchingMaterials": true,
+  "note": "Directly reimported final FBX, not inferred from source material slot existence."
+}

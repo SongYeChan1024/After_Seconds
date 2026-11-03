@@ -1,0 +1,96 @@
+{
+  "name": "DomePendantLight",
+  "author": "송예찬",
+  "version": "V0.01",
+  "sourceBlend": "SourceAssets/SubjectHabitat/DomePendantLight.blend",
+  "fbx": "C:\\GitHubProjects\\After_Seconds\\tmp\\DomeLight_20261103\\model\\DomePendantLight.fbx",
+  "sha256": "dd0967ceafd443b689bdc320b2aeec8d558489f58b6f6ff5bbce587ff10edf5c",
+  "pivot": "top-mount center, keep origin; never bottom-center normalize",
+  "blenderBoundsMin": [
+    -0.7020000219345093,
+    -0.7020000219345093,
+    -1.2009999752044678
+  ],
+  "blenderBoundsMax": [
+    0.7020000219345093,
+    0.7020000219345093,
+    0.029999999329447746
+  ],
+  "unitySizeXYZ": [
+    1.4040000438690186,
+    1.2309999745339155,
+    1.4040000438690186
+  ],
+  "materials": {
+    "DP_ClinicalWhite": {
+      "baseColor": [
+        0.75,
+        0.79,
+        0.8,
+        1
+      ],
+      "metallic": 0.12,
+      "smoothness": 0.55,
+      "emission": 0
+    },
+    "DP_DarkFrame": {
+      "baseColor": [
+        0.022,
+        0.03,
+        0.035,
+        1
+      ],
+      "metallic": 0.65,
+      "smoothness": 0.52,
+      "emission": 0
+    },
+    "DP_BrushedSteel": {
+      "baseColor": [
+        0.3,
+        0.36,
+        0.4,
+        1
+      ],
+      "metallic": 0.8,
+      "smoothness": 0.65,
+      "emission": 0
+    },
+    "DP_CoolDiffuser": {
+      "baseColor": [
+        0.82,
+        0.92,
+        1,
+        1
+      ],
+      "metallic": 0,
+      "smoothness": 0.35,
+      "emission": 1.5
+    }
+  },
+  "meshAudit": {
+    "triangles": 3348,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 0,
+    "zeroAreaFaces": 0
+  },
+  "anchors": {
+    "topMount": {
+      "name": "DP_TopMountAnchor",
+      "unityLocalPosition": [
+        0,
+        0.03,
+        0
+      ]
+    },
+    "downwardLight": {
+      "name": "DP_DownwardLightAnchor",
+      "unityLocalPosition": [
+        0,
+        -1.212,
+        0
+      ]
+    }
+  },
+  "alignment": "FBX -Z forward/Y up. Preserve imported root rotation; rotationally symmetric about vertical axis. Place topMount anchor just under interior dome crown. Geometry is actual meters, not subject to pod scale.",
+  "collision": "Visual model only; fixture remains high overhead and adds no gameplay Collider."
+}

@@ -1,0 +1,37 @@
+// 의사코드
+// 저장 후 다시 연 B2 프리팹의 메시, 금지 공간, 닫힌 단면과 원래 예시 렌더 상태를 검사한다.
+// 코딩
+var s=UnityEngine.SceneManagement.SceneManager.GetActiveScene();
+if(!s.path.EndsWith("/Level_B2_Machinery.unity"))throw new System.Exception("B2 scene required");
+var all=s.GetRootGameObjects().SelectMany(g=>g.GetComponentsInChildren<UnityEngine.Transform>(true)).ToArray();
+var root=all.Single(t=>t.name=="B2_CompletePipeNetwork_20261104");
+var groups=root.Cast<UnityEngine.Transform>().ToDictionary(t=>t.name.StartsWith("Room07")?"R07":"R08",t=>t);
+System.Func<float,float,float,UnityEngine.Vector3> V=(x,y,z)=>new UnityEngine.Vector3(x,y,z);
+System.Func<UnityEngine.Vector3,float[]> vf=p=>new[]{p.x,p.y,p.z};
+var zones=new[]{
+ new{id="R07_Pit_NoBridge",room="R07",min=V(-6,-3,-5),max=V(6,3.15f,2)},
+ new{id="R07_ThrowLane",room="R07",min=V(-2,0,2),max=V(2,3.15f,6)},
+ new{id="R07_FarDeck_NoTargets",room="R07",min=V(-6,0,-10),max=V(6,3.15f,-5)},
+ new{id="R08_RearThrowAisle",room="R08",min=V(-6,0,-9),max=V(6,4.25f,-7)},
+ new{id="R08_HatchVertical",room="R08",min=V(-1.15f,2.4f,-7.15f),max=V(1.15f,6.5f,-4.85f)},
+ new{id="R08_WestWalking",room="R08",min=V(-6,0,-7),max=V(-3.15f,3.25f,6)},
+ new{id="R08_EastWalking",room="R08",min=V(3.15f,0,-7),max=V(6,3.25f,6)}
+};
+var points=groups.ToDictionary(k=>k.Key,k=>k.Value.GetComponentsInChildren<UnityEngine.MeshFilter>(true).Where(m=>m.sharedMesh!=null).SelectMany(m=>m.sharedMesh.vertices.Select(p=>k.Value.InverseTransformPoint(m.transform.TransformPoint(p)))).ToArray());
+var clearances=zones.Select(z=>new{z.id,verticesInside=points[z.room].Count(p=>p.x>z.min.x&&p.x<z.max.x&&p.y>z.min.y&&p.y<z.max.y&&p.z>z.min.z&&p.z<z.max.z)}).ToArray();
+var meshChecks=new System.Collections.Generic.List<object>();int allBoundary=0,allOverused=0;
+foreach(var mf in root.GetComponentsInChildren<UnityEngine.MeshFilter>(true).Where(m=>m.sharedMesh!=null&&UnityEditor.AssetDatabase.GetAssetPath(m.sharedMesh).Contains("B2_"))){
+ var mesh=mf.sharedMesh;var tri=mesh.triangles;var edges=new System.Collections.Generic.Dictionary<long,int>();
+ for(int i=0;i<tri.Length;i+=3)for(int j=0;j<3;j++){int a=tri[i+j],b=tri[i+(j+1)%3];int lo=System.Math.Min(a,b),hi=System.Math.Max(a,b);long key=((long)lo<<32)|(uint)hi;if(!edges.ContainsKey(key))edges[key]=0;edges[key]++;}
+ int boundary=edges.Values.Count(v=>v==1),overused=edges.Values.Count(v=>v>2);allBoundary+=boundary;allOverused+=overused;
+ meshChecks.Add(new{name=mf.name,asset=UnityEditor.AssetDatabase.GetAssetPath(mesh),vertices=mesh.vertexCount,triangles=tri.Length/3,boundaryEdges=boundary,overusedEdges=overused});
+}
+var room07=all.Single(t=>t.name=="Room07_CentrifugeHall");
+var old=all.Where(t=>t.parent!=null&&t.parent.name=="VARCO_Batch02_Visuals"&&t.IsChildOf(room07)&&(t.name.StartsWith("U01_")||t.name.StartsWith("U02_")||t.name.StartsWith("U03_")||t.name.StartsWith("U07_"))).ToArray();
+var report=new{scene=s.path,dirty=s.isDirty,prefab=UnityEditor.PrefabUtility.GetPrefabAssetPathOfNearestInstanceRoot(root.gameObject),newColliders=root.GetComponentsInChildren<UnityEngine.Collider>(true).Length,newRuntimeBehaviours=root.GetComponentsInChildren<UnityEngine.MonoBehaviour>(true).Length,protectedSpaceViolations=clearances.Sum(c=>c.verticesInside),clearances,meshes=meshChecks,proceduralBoundaryEdges=allBoundary,proceduralOverusedEdges=allOverused,legacyCount=old.Length,legacyEnabledRenderers=old.Sum(t=>t.GetComponentsInChildren<UnityEngine.Renderer>(true).Count(r=>r.enabled)),roofClearances=points.Select(k=>new{room=k.Key,topY=k.Value.Max(p=>p.y),ceilingY=k.Key=="R07"?4f:6f}).ToArray(),clones=root.GetComponentsInChildren<UnityEngine.Transform>(true).Where(t=>t.name.StartsWith("Connected_")).Select(t=>new{t.name,world=vf(t.position)}).ToArray()};
+string json=Newtonsoft.Json.JsonConvert.SerializeObject(report,Newtonsoft.Json.Formatting.Indented);string dest=System.IO.Path.GetFullPath(System.IO.Path.Combine(UnityEngine.Application.dataPath,"../../../tmp/B2_Pipes_20261104/verify_report.json"));System.IO.File.WriteAllText(dest,json,new System.Text.UTF8Encoding(false));
+if(report.newColliders!=0||report.newRuntimeBehaviours!=0||report.protectedSpaceViolations!=0||report.legacyEnabledRenderers!=0||allBoundary!=0||allOverused!=0)throw new System.Exception("B2 pipe verification failed. See "+dest);
+return report;
+// 주석
+// 원래 모든 Transform/Collider의 보존 증명은 build_report와 마감 공통 baseline을 함께 사용한다.
+// boundaryEdges=0은 각 튜브의 단면이 닫혀 있음을 검사한다. 가지와 본관 접점은 겹침으로 봉합한 외형이다.

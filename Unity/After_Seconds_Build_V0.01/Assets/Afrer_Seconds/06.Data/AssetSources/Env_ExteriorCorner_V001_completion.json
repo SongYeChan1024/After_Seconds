@@ -1,0 +1,213 @@
+{
+  "name": "Env_ExteriorCorner",
+  "sourcePath": "Original GLB preserved locally; SHA256 identifies source",
+  "sourceSha256": "42a98acfa1b19627ce12e8e6503ca7cf462ede4885c21bf83b3e4f4dbc9c924f",
+  "fbx": "Assets/Afrer_Seconds/05.Model/Environment/1F/Env_ExteriorCorner.fbx",
+  "fbxSha256": "d8410c9e42b98826005bc85feb9c93224e4455691c67fe781b6fbd46ab811e94",
+  "blenderBoundsMin": [
+    -0.497506320476532,
+    -0.4801081120967865,
+    0.0
+  ],
+  "blenderBoundsMax": [
+    0.497506320476532,
+    0.4801081120967865,
+    0.87758058309555054
+  ],
+  "blenderSizeXYZ": [
+    0.995012640953064,
+    0.960216224193573,
+    0.87758058309555054
+  ],
+  "unitySizeXYZ": [
+    0.995012640953064,
+    0.87758058309555054,
+    0.960216224193573
+  ],
+  "triangles": 47986,
+  "meshes": [
+    {
+      "name": "texture_mapping",
+      "source": {
+        "triangles": 500000,
+        "vertices": 249938,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "zeroAreaFaces": 0
+      },
+      "attempts": [
+        {
+          "triangles": 31999,
+          "vertices": 15938,
+          "boundaryEdges": 3,
+          "overusedEdges": 0,
+          "zeroAreaFaces": 0,
+          "strictCrossingPairs": 6,
+          "crossingPairsSample": [
+            [
+              1157,
+              7784
+            ],
+            [
+              1155,
+              7784
+            ],
+            [
+              14351,
+              29092
+            ],
+            [
+              9602,
+              9621
+            ],
+            [
+              9599,
+              9621
+            ],
+            [
+              16373,
+              29831
+            ]
+          ]
+        },
+        {
+          "triangles": 48000,
+          "vertices": 23938,
+          "boundaryEdges": 0,
+          "overusedEdges": 0,
+          "zeroAreaFaces": 0,
+          "strictCrossingPairs": 3,
+          "crossingPairsSample": [
+            [
+              13337,
+              13649
+            ],
+            [
+              22213,
+              41661
+            ],
+            [
+              24513,
+              44641
+            ]
+          ]
+        },
+        {
+          "triangles": 64000,
+          "vertices": 31938,
+          "boundaryEdges": 0,
+          "overusedEdges": 0,
+          "zeroAreaFaces": 0,
+          "strictCrossingPairs": 11,
+          "crossingPairsSample": [
+            [
+              27710,
+              29881
+            ],
+            [
+              27709,
+              29881
+            ],
+            [
+              27706,
+              29880
+            ],
+            [
+              27705,
+              29880
+            ],
+            [
+              27705,
+              29881
+            ],
+            [
+              27703,
+              29880
+            ],
+            [
+              27702,
+              29880
+            ],
+            [
+              28434,
+              29881
+            ],
+            [
+              27708,
+              29880
+            ],
+            [
+              27707,
+              29880
+            ],
+            [
+              27707,
+              29881
+            ]
+          ]
+        }
+      ],
+      "final": {
+        "triangles": 47986,
+        "vertices": 23933,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "zeroAreaFaces": 0,
+        "strictCrossingPairs": 0,
+        "crossingPairsSample": [],
+        "patchSteps": [
+          {
+            "iteration": 0,
+            "removedFaces": 24,
+            "rebuiltFaces": 16
+          },
+          {
+            "iteration": 1,
+            "removedFaces": 11,
+            "rebuiltFaces": 5
+          }
+        ],
+        "relativeVolumeChange": 3.0809751316599944E-06
+      }
+    }
+  ],
+  "materials": [
+    {
+      "name": "Env_ExteriorCorner_Material",
+      "baseColorFactor": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 1.0,
+      "BaseColor": "Assets/Afrer_Seconds/05.Model/Environment/1F/Textures/Env_ExteriorCorner_BaseColor.png",
+      "Normal": "Assets/Afrer_Seconds/05.Model/Environment/1F/Textures/Env_ExteriorCorner_Normal.png"
+    }
+  ],
+  "textures": [
+    {
+      "semantic": "BaseColor",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/Textures/Env_ExteriorCorner_BaseColor.png",
+      "width": 2048,
+      "height": 2048,
+      "colorSpace": "sRGB",
+      "assetPath": "Assets/Afrer_Seconds/05.Model/Environment/1F/Textures/Env_ExteriorCorner_BaseColor.png"
+    },
+    {
+      "semantic": "Normal",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/Textures/Env_ExteriorCorner_Normal.png",
+      "width": 2048,
+      "height": 2048,
+      "colorSpace": "linear",
+      "assetPath": "Assets/Afrer_Seconds/05.Model/Environment/1F/Textures/Env_ExteriorCorner_Normal.png"
+    }
+  ],
+  "pivot": "bottom-center",
+  "sourceFlowId": "3ace28ca-d501-4921-b5a8-0875b2468245",
+  "visualOnly": true,
+  "preparation": "UV-preserving collapse with adaptive density, 40 degree sharp edges and weighted normals",
+  "modelAssetPath": "Assets/Afrer_Seconds/05.Model/Environment/1F/Env_ExteriorCorner.fbx",
+  "prefabAssetPath": "Assets/Afrer_Seconds/05.Model/Environment/1F/Env_ExteriorCorner.prefab"
+}

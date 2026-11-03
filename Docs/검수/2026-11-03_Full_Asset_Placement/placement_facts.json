@@ -1,0 +1,542 @@
+[
+  {
+    "floor": "1F",
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_1F_Checkpoint.unity",
+    "newModels": [
+      {
+        "name": "Props_PalletStorageRack_05",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Props/1F/Props_PalletStorageRack.prefab",
+        "room": "1F_Checkpoint_Draft/Room10_ExitCheckpoint",
+        "center": [
+          -5.7,
+          0.658338666,
+          -0.6
+        ],
+        "size": [
+          0.534316,
+          1.31667733,
+          1.2
+        ],
+        "top": 1.31667733,
+        "bottom": 0.0
+      },
+      {
+        "name": "Env_LoadingShutterWall_13",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Environment/1F/Env_LoadingShutterWall.prefab",
+        "room": "1F_Checkpoint_Draft/Exterior_ExitLanding_Draft",
+        "center": [
+          -4.5,
+          1.5,
+          -25.2
+        ],
+        "size": [
+          3.84145951,
+          3.0,
+          2.16257739
+        ],
+        "top": 3.0,
+        "bottom": 0.0
+      },
+      {
+        "name": "Env_ExteriorCorner_14",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Environment/1F/Env_ExteriorCorner.prefab",
+        "room": "1F_Checkpoint_Draft/Exterior_ExitLanding_Draft",
+        "center": [
+          4.8,
+          1.058375,
+          -25.3
+        ],
+        "size": [
+          2.4,
+          2.11675,
+          2.31607
+        ],
+        "top": 2.11675,
+        "bottom": 0.0
+      },
+      {
+        "name": "LoadingBay_CrossBeam",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Environment/Common/Env_SteelIBeam.prefab",
+        "room": "1F_Checkpoint_Draft/Exterior_ExitLanding_Draft",
+        "center": [
+          -4.5,
+          3.15,
+          -25.2
+        ],
+        "size": [
+          3.8,
+          0.9403449,
+          3.7742188
+        ],
+        "top": 3.6201725,
+        "bottom": 2.67982769
+      }
+    ],
+    "lightCrateVisuals": 2,
+    "provisionalInstancesRemoved": 0
+  },
+  {
+    "floor": "B1",
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B1_Experiment.unity",
+    "newModels": [
+      {
+        "name": "Props_LaboratoryWorkbench_04",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Props/Common/Props_LaboratoryWorkbench.prefab",
+        "room": "B1_Experiment_Draft/Room09_SubjectChamber",
+        "center": [
+          -4.3,
+          0.8909702,
+          6.5
+        ],
+        "size": [
+          1.8,
+          1.78194034,
+          0.7413979
+        ],
+        "top": 1.78194034,
+        "bottom": 0.0
+      }
+    ],
+    "lightCrateVisuals": 1,
+    "provisionalInstancesRemoved": 0
+  },
+  {
+    "floor": "B2",
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B2_Machinery.unity",
+    "newModels": [
+      {
+        "name": "Props_IndustrialCentrifuge_00",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Props/B2/Props_IndustrialCentrifuge.prefab",
+        "room": "B2_Machinery_Draft/Room07_CentrifugeHall",
+        "center": [
+          -4.6,
+          0.8530739,
+          5.0
+        ],
+        "size": [
+          1.31869662,
+          1.70614779,
+          1.5
+        ],
+        "top": 1.70614779,
+        "bottom": 0.0
+      },
+      {
+        "name": "Props_ReactorTank_01",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Props/B2/Props_ReactorTank.prefab",
+        "room": "B2_Machinery_Draft/Room07_CentrifugeHall",
+        "center": [
+          4.6,
+          1.32715166,
+          5.0
+        ],
+        "size": [
+          1.32557833,
+          2.65430331,
+          1.49999988
+        ],
+        "top": 2.65430331,
+        "bottom": 0.0
+      },
+      {
+        "name": "StructuralColumn_0",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Environment/Common/Env_SteelColumn.prefab",
+        "room": "B2_Machinery_Draft/Room07_CentrifugeHall",
+        "center": [
+          -5.85,
+          1.99000037,
+          5.85
+        ],
+        "size": [
+          0.240000024,
+          3.98000073,
+          0.240000024
+        ],
+        "top": 3.98000073,
+        "bottom": 0.0
+      },
+      {
+        "name": "StructuralColumn_1",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Environment/Common/Env_SteelColumn.prefab",
+        "room": "B2_Machinery_Draft/Room07_CentrifugeHall",
+        "center": [
+          5.85,
+          1.99000037,
+          5.85
+        ],
+        "size": [
+          0.240000024,
+          3.98000073,
+          0.240000024
+        ],
+        "top": 3.98000073,
+        "bottom": 0.0
+      },
+      {
+        "name": "StructuralColumn_2",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Environment/Common/Env_SteelColumn.prefab",
+        "room": "B2_Machinery_Draft/Room07_CentrifugeHall",
+        "center": [
+          -5.85,
+          1.99000037,
+          -9.85
+        ],
+        "size": [
+          0.240000024,
+          3.98000073,
+          0.240000024
+        ],
+        "top": 3.98000073,
+        "bottom": 0.0
+      },
+      {
+        "name": "StructuralColumn_3",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Environment/Common/Env_SteelColumn.prefab",
+        "room": "B2_Machinery_Draft/Room07_CentrifugeHall",
+        "center": [
+          5.85,
+          1.99000037,
+          -9.85
+        ],
+        "size": [
+          0.240000024,
+          3.98000073,
+          0.240000024
+        ],
+        "top": 3.98000073,
+        "bottom": 0.0
+      },
+      {
+        "name": "PitBottomGrating",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Environment/B2/Env_SteelGrating.prefab",
+        "room": "B2_Machinery_Draft/Room07_CentrifugeHall",
+        "center": [
+          0.0,
+          -3.447362,
+          -1.5
+        ],
+        "size": [
+          4.0,
+          1.01472378,
+          3.993896
+        ],
+        "top": -2.94,
+        "bottom": -3.95472383
+      },
+      {
+        "name": "RoofPanel_0_0",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Environment/B2/Env_RoofPanel.prefab",
+        "room": "B2_Machinery_Draft/Room07_CentrifugeHall",
+        "center": [
+          -4.2,
+          4.15,
+          -8.225
+        ],
+        "size": [
+          4.20000029,
+          0.3000002,
+          4.15
+        ],
+        "top": 4.3,
+        "bottom": 4.0
+      },
+      {
+        "name": "RoofPanel_0_1",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Environment/B2/Env_RoofPanel.prefab",
+        "room": "B2_Machinery_Draft/Room07_CentrifugeHall",
+        "center": [
+          -4.2,
+          4.15,
+          -4.075
+        ],
+        "size": [
+          4.20000029,
+          0.3000002,
+          4.15
+        ],
+        "top": 4.3,
+        "bottom": 4.0
+      },
+      {
+        "name": "RoofPanel_0_2",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Environment/B2/Env_RoofPanel.prefab",
+        "room": "B2_Machinery_Draft/Room07_CentrifugeHall",
+        "center": [
+          -4.2,
+          4.15,
+          0.07500005
+        ],
+        "size": [
+          4.20000029,
+          0.3000002,
+          4.15
+        ],
+        "top": 4.3,
+        "bottom": 4.0
+      },
+      {
+        "name": "RoofPanel_0_3",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Environment/B2/Env_RoofPanel.prefab",
+        "room": "B2_Machinery_Draft/Room07_CentrifugeHall",
+        "center": [
+          -4.2,
+          4.15,
+          4.22500038
+        ],
+        "size": [
+          4.20000029,
+          0.3000002,
+          4.15
+        ],
+        "top": 4.3,
+        "bottom": 4.0
+      },
+      {
+        "name": "RoofPanel_1_0",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Environment/B2/Env_RoofPanel.prefab",
+        "room": "B2_Machinery_Draft/Room07_CentrifugeHall",
+        "center": [
+          2.38418579E-07,
+          4.15,
+          -8.225
+        ],
+        "size": [
+          4.20000029,
+          0.3000002,
+          4.15
+        ],
+        "top": 4.3,
+        "bottom": 4.0
+      },
+      {
+        "name": "RoofPanel_1_1",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Environment/B2/Env_RoofPanel.prefab",
+        "room": "B2_Machinery_Draft/Room07_CentrifugeHall",
+        "center": [
+          2.38418579E-07,
+          4.15,
+          -4.075
+        ],
+        "size": [
+          4.20000029,
+          0.3000002,
+          4.15
+        ],
+        "top": 4.3,
+        "bottom": 4.0
+      },
+      {
+        "name": "RoofPanel_1_2",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Environment/B2/Env_RoofPanel.prefab",
+        "room": "B2_Machinery_Draft/Room07_CentrifugeHall",
+        "center": [
+          2.38418579E-07,
+          4.15,
+          0.07500005
+        ],
+        "size": [
+          4.20000029,
+          0.3000002,
+          4.15
+        ],
+        "top": 4.3,
+        "bottom": 4.0
+      },
+      {
+        "name": "RoofPanel_1_3",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Environment/B2/Env_RoofPanel.prefab",
+        "room": "B2_Machinery_Draft/Room07_CentrifugeHall",
+        "center": [
+          2.38418579E-07,
+          4.15,
+          4.22500038
+        ],
+        "size": [
+          4.20000029,
+          0.3000002,
+          4.15
+        ],
+        "top": 4.3,
+        "bottom": 4.0
+      },
+      {
+        "name": "RoofPanel_2_0",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Environment/B2/Env_RoofPanel.prefab",
+        "room": "B2_Machinery_Draft/Room07_CentrifugeHall",
+        "center": [
+          4.200001,
+          4.15,
+          -8.225
+        ],
+        "size": [
+          4.20000029,
+          0.3000002,
+          4.15
+        ],
+        "top": 4.3,
+        "bottom": 4.0
+      },
+      {
+        "name": "RoofPanel_2_1",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Environment/B2/Env_RoofPanel.prefab",
+        "room": "B2_Machinery_Draft/Room07_CentrifugeHall",
+        "center": [
+          4.200001,
+          4.15,
+          -4.075
+        ],
+        "size": [
+          4.20000029,
+          0.3000002,
+          4.15
+        ],
+        "top": 4.3,
+        "bottom": 4.0
+      },
+      {
+        "name": "RoofPanel_2_2",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Environment/B2/Env_RoofPanel.prefab",
+        "room": "B2_Machinery_Draft/Room07_CentrifugeHall",
+        "center": [
+          4.200001,
+          4.15,
+          0.07500005
+        ],
+        "size": [
+          4.20000029,
+          0.3000002,
+          4.15
+        ],
+        "top": 4.3,
+        "bottom": 4.0
+      },
+      {
+        "name": "RoofPanel_2_3",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Environment/B2/Env_RoofPanel.prefab",
+        "room": "B2_Machinery_Draft/Room07_CentrifugeHall",
+        "center": [
+          4.200001,
+          4.15,
+          4.22500038
+        ],
+        "size": [
+          4.20000029,
+          0.3000002,
+          4.15
+        ],
+        "top": 4.3,
+        "bottom": 4.0
+      },
+      {
+        "name": "Props_HVACUnit_02",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Props/B2/Props_HVACUnit.prefab",
+        "room": "B2_Machinery_Draft/Room08_CentralControl",
+        "center": [
+          -5.55,
+          4.5,
+          -23.7
+        ],
+        "size": [
+          0.65,
+          0.682567,
+          0.9666923
+        ],
+        "top": 4.84128332,
+        "bottom": 4.15871668
+      }
+    ],
+    "lightCrateVisuals": 4,
+    "provisionalInstancesRemoved": 0
+  },
+  {
+    "floor": "B3",
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B3_SampleStorage.unity",
+    "newModels": [
+      {
+        "name": "Props_LaboratoryWorkbench_03",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Props/Common/Props_LaboratoryWorkbench.prefab",
+        "room": "B3_SampleLayer_Draft/Room05_SampleStorage",
+        "center": [
+          -5.1,
+          0.925,
+          -2.7
+        ],
+        "size": [
+          0.76971513,
+          1.85,
+          1.86874962
+        ],
+        "top": 1.85,
+        "bottom": 0.0
+      },
+      {
+        "name": "Props_GasCylinderRack_07",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Props/B3/Props_GasCylinderRack.prefab",
+        "room": "B3_SampleLayer_Draft/Room06_DecontaminationAirlock",
+        "center": [
+          -7.8,
+          0.9798959,
+          -23.0
+        ],
+        "size": [
+          1.5,
+          1.95979178,
+          0.8271544
+        ],
+        "top": 1.95979178,
+        "bottom": 0.0
+      }
+    ],
+    "lightCrateVisuals": 1,
+    "provisionalInstancesRemoved": 0
+  },
+  {
+    "floor": "B4",
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B4_Observation.unity",
+    "newModels": [
+      {
+        "name": "Props_MaintenanceToolCart_06",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Props/B4/Props_MaintenanceToolCart.prefab",
+        "room": "B4_Observation_Draft/Room04_ControlDeck",
+        "center": [
+          -4.8,
+          0.50000006,
+          -15.5
+        ],
+        "size": [
+          1.00293684,
+          1.00000012,
+          0.57505
+        ],
+        "top": 1.00000012,
+        "bottom": 0.0
+      },
+      {
+        "name": "Props_ExhaustFan_08",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Props/B4/Props_ExhaustFan.prefab",
+        "room": "B4_Observation_Draft/Room04_ControlDeck",
+        "center": [
+          5.72,
+          4.6,
+          -20.4
+        ],
+        "size": [
+          0.4,
+          0.379749984,
+          0.26362
+        ],
+        "top": 4.789875,
+        "bottom": 4.410125
+      }
+    ],
+    "lightCrateVisuals": 4,
+    "provisionalInstancesRemoved": 0
+  },
+  {
+    "floor": "B5",
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "newModels": [],
+    "lightCrateVisuals": 3,
+    "provisionalInstancesRemoved": 0
+  }
+]

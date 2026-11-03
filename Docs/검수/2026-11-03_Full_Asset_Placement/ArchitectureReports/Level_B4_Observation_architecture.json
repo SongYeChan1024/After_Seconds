@@ -1,0 +1,1332 @@
+{
+    "scene": "Level_B4_Observation",
+    "scenePath": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B4_Observation.unity",
+    "generatedAtUtc": "2026-11-03T12:40:05.1823145Z",
+    "note": "Visual-only dressing. No source asset or collider modifications. Scene is not saved by this utility.",
+    "appliedSurfaces": 20,
+    "newTiles": 76,
+    "skippedSurfaces": 0,
+    "failedSurfaces": 0,
+    "entries": [
+        {
+            "path": "B4_Observation_Draft/Room03_ObservationCorridor/Floor",
+            "category": "Floor",
+            "sourcePrefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_FloorSlab_4m.prefab",
+            "status": "applied",
+            "reason": "",
+            "tiles": 10,
+            "originalLocalPosition": {
+                "x": 0.0,
+                "y": -0.15000000596046449,
+                "z": 0.0
+            },
+            "originalLocalScale": {
+                "x": 8.0,
+                "y": 0.30000001192092898,
+                "z": 20.0
+            },
+            "originalLocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "originalWorldSize": {
+                "x": 8.0,
+                "y": 0.30000001192092898,
+                "z": 20.0
+            },
+            "originalGeometryLocalBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                }
+            },
+            "originalRendererWorldBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": -0.15000000596046449,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 4.0,
+                    "y": 0.15000000596046449,
+                    "z": 10.0
+                }
+            },
+            "newRendererWorldBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": -0.1499999761581421,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 4.0,
+                    "y": 0.15000000596046449,
+                    "z": 10.0
+                }
+            },
+            "maxWorldBoundsError": 2.9802322387695315e-8
+        },
+        {
+            "path": "B4_Observation_Draft/Room03_ObservationCorridor/Wall_W",
+            "category": "ConcreteWall",
+            "sourcePrefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_ConcreteWall_4m.prefab",
+            "status": "applied",
+            "reason": "",
+            "tiles": 5,
+            "originalLocalPosition": {
+                "x": -4.150000095367432,
+                "y": 2.0,
+                "z": 0.0
+            },
+            "originalLocalScale": {
+                "x": 0.30000001192092898,
+                "y": 4.0,
+                "z": 20.600000381469728
+            },
+            "originalLocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "originalWorldSize": {
+                "x": 0.30000001192092898,
+                "y": 4.0,
+                "z": 20.600000381469728
+            },
+            "originalGeometryLocalBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                }
+            },
+            "originalRendererWorldBounds": {
+                "m_Center": {
+                    "x": -4.150000095367432,
+                    "y": 2.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.15000000596046449,
+                    "y": 2.0,
+                    "z": 10.300000190734864
+                }
+            },
+            "newRendererWorldBounds": {
+                "m_Center": {
+                    "x": -4.150001049041748,
+                    "y": 2.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.15000009536743165,
+                    "y": 2.0,
+                    "z": 10.30000114440918
+                }
+            },
+            "maxWorldBoundsError": 9.5367431640625e-7
+        },
+        {
+            "path": "B4_Observation_Draft/Room03_ObservationCorridor/Wall_E",
+            "category": "ConcreteWall",
+            "sourcePrefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_ConcreteWall_4m.prefab",
+            "status": "applied",
+            "reason": "",
+            "tiles": 5,
+            "originalLocalPosition": {
+                "x": 4.150000095367432,
+                "y": 2.0,
+                "z": 0.0
+            },
+            "originalLocalScale": {
+                "x": 0.30000001192092898,
+                "y": 4.0,
+                "z": 20.600000381469728
+            },
+            "originalLocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "originalWorldSize": {
+                "x": 0.30000001192092898,
+                "y": 4.0,
+                "z": 20.600000381469728
+            },
+            "originalGeometryLocalBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                }
+            },
+            "originalRendererWorldBounds": {
+                "m_Center": {
+                    "x": 4.150000095367432,
+                    "y": 2.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.15000000596046449,
+                    "y": 2.0,
+                    "z": 10.300000190734864
+                }
+            },
+            "newRendererWorldBounds": {
+                "m_Center": {
+                    "x": 4.149998188018799,
+                    "y": 2.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.15000009536743165,
+                    "y": 2.0,
+                    "z": 10.30000114440918
+                }
+            },
+            "maxWorldBoundsError": 0.0000019073486328125
+        },
+        {
+            "path": "B4_Observation_Draft/Room03_ObservationCorridor/Wall_S",
+            "category": "ConcreteWall",
+            "sourcePrefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_ConcreteWall_4m.prefab",
+            "status": "applied",
+            "reason": "",
+            "tiles": 1,
+            "originalLocalPosition": {
+                "x": -2.5,
+                "y": 2.0,
+                "z": 10.149999618530274
+            },
+            "originalLocalScale": {
+                "x": 3.0,
+                "y": 4.0,
+                "z": 0.30000001192092898
+            },
+            "originalLocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "originalWorldSize": {
+                "x": 3.0,
+                "y": 4.0,
+                "z": 0.30000001192092898
+            },
+            "originalGeometryLocalBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                }
+            },
+            "originalRendererWorldBounds": {
+                "m_Center": {
+                    "x": -2.5,
+                    "y": 2.0,
+                    "z": 10.149999618530274
+                },
+                "m_Extent": {
+                    "x": 1.5,
+                    "y": 2.0,
+                    "z": 0.15000000596046449
+                }
+            },
+            "newRendererWorldBounds": {
+                "m_Center": {
+                    "x": -2.5,
+                    "y": 2.0,
+                    "z": 10.149999618530274
+                },
+                "m_Extent": {
+                    "x": 1.5,
+                    "y": 2.0,
+                    "z": 0.15000000596046449
+                }
+            },
+            "maxWorldBoundsError": 0.0
+        },
+        {
+            "path": "B4_Observation_Draft/Room03_ObservationCorridor/Wall_N",
+            "category": "ConcreteWall",
+            "sourcePrefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_ConcreteWall_4m.prefab",
+            "status": "applied",
+            "reason": "",
+            "tiles": 1,
+            "originalLocalPosition": {
+                "x": -2.5,
+                "y": 2.0,
+                "z": -10.149999618530274
+            },
+            "originalLocalScale": {
+                "x": 3.0,
+                "y": 4.0,
+                "z": 0.30000001192092898
+            },
+            "originalLocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "originalWorldSize": {
+                "x": 3.0,
+                "y": 4.0,
+                "z": 0.30000001192092898
+            },
+            "originalGeometryLocalBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                }
+            },
+            "originalRendererWorldBounds": {
+                "m_Center": {
+                    "x": -2.5,
+                    "y": 2.0,
+                    "z": -10.149999618530274
+                },
+                "m_Extent": {
+                    "x": 1.5,
+                    "y": 2.0,
+                    "z": 0.15000000596046449
+                }
+            },
+            "newRendererWorldBounds": {
+                "m_Center": {
+                    "x": -2.5,
+                    "y": 2.0,
+                    "z": -10.150001525878907
+                },
+                "m_Extent": {
+                    "x": 1.5,
+                    "y": 2.0,
+                    "z": 0.15000000596046449
+                }
+            },
+            "maxWorldBoundsError": 0.0000019073486328125
+        },
+        {
+            "path": "B4_Observation_Draft/Room03_ObservationCorridor/Wall_S",
+            "category": "ConcreteWall",
+            "sourcePrefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_ConcreteWall_4m.prefab",
+            "status": "applied",
+            "reason": "",
+            "tiles": 1,
+            "originalLocalPosition": {
+                "x": 2.5,
+                "y": 2.0,
+                "z": 10.149999618530274
+            },
+            "originalLocalScale": {
+                "x": 3.0,
+                "y": 4.0,
+                "z": 0.30000001192092898
+            },
+            "originalLocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "originalWorldSize": {
+                "x": 3.0,
+                "y": 4.0,
+                "z": 0.30000001192092898
+            },
+            "originalGeometryLocalBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                }
+            },
+            "originalRendererWorldBounds": {
+                "m_Center": {
+                    "x": 2.5,
+                    "y": 2.0,
+                    "z": 10.149999618530274
+                },
+                "m_Extent": {
+                    "x": 1.5,
+                    "y": 2.0,
+                    "z": 0.15000000596046449
+                }
+            },
+            "newRendererWorldBounds": {
+                "m_Center": {
+                    "x": 2.5,
+                    "y": 2.0,
+                    "z": 10.149999618530274
+                },
+                "m_Extent": {
+                    "x": 1.5,
+                    "y": 2.0,
+                    "z": 0.15000000596046449
+                }
+            },
+            "maxWorldBoundsError": 0.0
+        },
+        {
+            "path": "B4_Observation_Draft/Room03_ObservationCorridor/Wall_N",
+            "category": "ConcreteWall",
+            "sourcePrefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_ConcreteWall_4m.prefab",
+            "status": "applied",
+            "reason": "",
+            "tiles": 1,
+            "originalLocalPosition": {
+                "x": 2.5,
+                "y": 2.0,
+                "z": -10.149999618530274
+            },
+            "originalLocalScale": {
+                "x": 3.0,
+                "y": 4.0,
+                "z": 0.30000001192092898
+            },
+            "originalLocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "originalWorldSize": {
+                "x": 3.0,
+                "y": 4.0,
+                "z": 0.30000001192092898
+            },
+            "originalGeometryLocalBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                }
+            },
+            "originalRendererWorldBounds": {
+                "m_Center": {
+                    "x": 2.5,
+                    "y": 2.0,
+                    "z": -10.149999618530274
+                },
+                "m_Extent": {
+                    "x": 1.5,
+                    "y": 2.0,
+                    "z": 0.15000000596046449
+                }
+            },
+            "newRendererWorldBounds": {
+                "m_Center": {
+                    "x": 2.5,
+                    "y": 2.0,
+                    "z": -10.150001525878907
+                },
+                "m_Extent": {
+                    "x": 1.5,
+                    "y": 2.0,
+                    "z": 0.15000000596046449
+                }
+            },
+            "maxWorldBoundsError": 0.0000019073486328125
+        },
+        {
+            "path": "B4_Observation_Draft/Room03_ObservationCorridor/Ceiling",
+            "category": "Ceiling",
+            "sourcePrefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_CeilingPanel_4m.prefab",
+            "status": "applied",
+            "reason": "",
+            "tiles": 10,
+            "originalLocalPosition": {
+                "x": 0.0,
+                "y": 4.150000095367432,
+                "z": 0.0
+            },
+            "originalLocalScale": {
+                "x": 8.600000381469727,
+                "y": 0.30000001192092898,
+                "z": 20.600000381469728
+            },
+            "originalLocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "originalWorldSize": {
+                "x": 8.600000381469727,
+                "y": 0.30000001192092898,
+                "z": 20.600000381469728
+            },
+            "originalGeometryLocalBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                }
+            },
+            "originalRendererWorldBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 4.150000095367432,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 4.300000190734863,
+                    "y": 0.15000000596046449,
+                    "z": 10.300000190734864
+                }
+            },
+            "newRendererWorldBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 4.149998664855957,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 4.300000190734863,
+                    "y": 0.15000009536743165,
+                    "z": 10.300000190734864
+                }
+            },
+            "maxWorldBoundsError": 0.000001430511474609375
+        },
+        {
+            "path": "B4_Observation_Draft/Connector_Lightlock_Draft/Floor",
+            "category": "Floor",
+            "sourcePrefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_FloorSlab_4m.prefab",
+            "status": "applied",
+            "reason": "",
+            "tiles": 1,
+            "originalLocalPosition": {
+                "x": 0.0,
+                "y": -0.15000000596046449,
+                "z": 0.0
+            },
+            "originalLocalScale": {
+                "x": 2.0,
+                "y": 0.30000001192092898,
+                "z": 4.0
+            },
+            "originalLocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "originalWorldSize": {
+                "x": 2.0,
+                "y": 0.30000001192092898,
+                "z": 4.0
+            },
+            "originalGeometryLocalBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                }
+            },
+            "originalRendererWorldBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": -0.15000000596046449,
+                    "z": -12.0
+                },
+                "m_Extent": {
+                    "x": 1.0,
+                    "y": 0.15000000596046449,
+                    "z": 2.0
+                }
+            },
+            "newRendererWorldBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": -0.1499999761581421,
+                    "z": -12.0
+                },
+                "m_Extent": {
+                    "x": 1.0,
+                    "y": 0.15000000596046449,
+                    "z": 2.0
+                }
+            },
+            "maxWorldBoundsError": 2.9802322387695315e-8
+        },
+        {
+            "path": "B4_Observation_Draft/Connector_Lightlock_Draft/Wall",
+            "category": "ConcreteWall",
+            "sourcePrefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_ConcreteWall_4m.prefab",
+            "status": "applied",
+            "reason": "",
+            "tiles": 1,
+            "originalLocalPosition": {
+                "x": -1.149999976158142,
+                "y": 2.0,
+                "z": 0.0
+            },
+            "originalLocalScale": {
+                "x": 0.30000001192092898,
+                "y": 4.0,
+                "z": 4.0
+            },
+            "originalLocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "originalWorldSize": {
+                "x": 0.30000001192092898,
+                "y": 4.0,
+                "z": 4.0
+            },
+            "originalGeometryLocalBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                }
+            },
+            "originalRendererWorldBounds": {
+                "m_Center": {
+                    "x": -1.149999976158142,
+                    "y": 2.0,
+                    "z": -12.0
+                },
+                "m_Extent": {
+                    "x": 0.15000000596046449,
+                    "y": 2.0,
+                    "z": 2.0
+                }
+            },
+            "newRendererWorldBounds": {
+                "m_Center": {
+                    "x": -1.149999976158142,
+                    "y": 2.0,
+                    "z": -12.0
+                },
+                "m_Extent": {
+                    "x": 0.15000000596046449,
+                    "y": 2.0,
+                    "z": 2.0
+                }
+            },
+            "maxWorldBoundsError": 0.0
+        },
+        {
+            "path": "B4_Observation_Draft/Connector_Lightlock_Draft/Wall",
+            "category": "ConcreteWall",
+            "sourcePrefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_ConcreteWall_4m.prefab",
+            "status": "applied",
+            "reason": "",
+            "tiles": 1,
+            "originalLocalPosition": {
+                "x": 1.149999976158142,
+                "y": 2.0,
+                "z": 0.0
+            },
+            "originalLocalScale": {
+                "x": 0.30000001192092898,
+                "y": 4.0,
+                "z": 4.0
+            },
+            "originalLocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "originalWorldSize": {
+                "x": 0.30000001192092898,
+                "y": 4.0,
+                "z": 4.0
+            },
+            "originalGeometryLocalBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                }
+            },
+            "originalRendererWorldBounds": {
+                "m_Center": {
+                    "x": 1.149999976158142,
+                    "y": 2.0,
+                    "z": -12.0
+                },
+                "m_Extent": {
+                    "x": 0.15000000596046449,
+                    "y": 2.0,
+                    "z": 2.0
+                }
+            },
+            "newRendererWorldBounds": {
+                "m_Center": {
+                    "x": 1.1500002145767213,
+                    "y": 2.0,
+                    "z": -12.0
+                },
+                "m_Extent": {
+                    "x": 0.15000000596046449,
+                    "y": 2.0,
+                    "z": 2.0
+                }
+            },
+            "maxWorldBoundsError": 2.384185791015625e-7
+        },
+        {
+            "path": "B4_Observation_Draft/Connector_Lightlock_Draft/Ceiling",
+            "category": "Ceiling",
+            "sourcePrefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_CeilingPanel_4m.prefab",
+            "status": "applied",
+            "reason": "",
+            "tiles": 1,
+            "originalLocalPosition": {
+                "x": 0.0,
+                "y": 4.150000095367432,
+                "z": 0.0
+            },
+            "originalLocalScale": {
+                "x": 2.5999999046325685,
+                "y": 0.30000001192092898,
+                "z": 4.0
+            },
+            "originalLocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "originalWorldSize": {
+                "x": 2.5999999046325685,
+                "y": 0.30000001192092898,
+                "z": 4.0
+            },
+            "originalGeometryLocalBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                }
+            },
+            "originalRendererWorldBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 4.150000095367432,
+                    "z": -12.0
+                },
+                "m_Extent": {
+                    "x": 1.2999999523162842,
+                    "y": 0.15000000596046449,
+                    "z": 2.0
+                }
+            },
+            "newRendererWorldBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 4.149998664855957,
+                    "z": -12.0
+                },
+                "m_Extent": {
+                    "x": 1.2999999523162842,
+                    "y": 0.15000000596046449,
+                    "z": 2.0
+                }
+            },
+            "maxWorldBoundsError": 0.000001430511474609375
+        },
+        {
+            "path": "B4_Observation_Draft/Room04_ControlDeck/Floor",
+            "category": "Floor",
+            "sourcePrefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_FloorSlab_4m.prefab",
+            "status": "applied",
+            "reason": "",
+            "tiles": 9,
+            "originalLocalPosition": {
+                "x": 0.0,
+                "y": -0.15000000596046449,
+                "z": -0.5
+            },
+            "originalLocalScale": {
+                "x": 12.0,
+                "y": 0.30000001192092898,
+                "z": 13.0
+            },
+            "originalLocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "originalWorldSize": {
+                "x": 12.0,
+                "y": 0.30000001192092898,
+                "z": 13.0
+            },
+            "originalGeometryLocalBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                }
+            },
+            "originalRendererWorldBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": -0.15000000596046449,
+                    "z": -20.5
+                },
+                "m_Extent": {
+                    "x": 6.0,
+                    "y": 0.15000000596046449,
+                    "z": 6.5
+                }
+            },
+            "newRendererWorldBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": -0.1499999761581421,
+                    "z": -20.5
+                },
+                "m_Extent": {
+                    "x": 6.0,
+                    "y": 0.15000000596046449,
+                    "z": 6.5
+                }
+            },
+            "maxWorldBoundsError": 2.9802322387695315e-8
+        },
+        {
+            "path": "B4_Observation_Draft/Room04_ControlDeck/Wall_W",
+            "category": "ConcreteWall",
+            "sourcePrefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_ConcreteWall_4m.prefab",
+            "status": "applied",
+            "reason": "",
+            "tiles": 6,
+            "originalLocalPosition": {
+                "x": -6.150000095367432,
+                "y": 3.0,
+                "z": -0.5
+            },
+            "originalLocalScale": {
+                "x": 0.30000001192092898,
+                "y": 6.0,
+                "z": 13.600000381469727
+            },
+            "originalLocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "originalWorldSize": {
+                "x": 0.30000001192092898,
+                "y": 6.0,
+                "z": 13.600000381469727
+            },
+            "originalGeometryLocalBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                }
+            },
+            "originalRendererWorldBounds": {
+                "m_Center": {
+                    "x": -6.150000095367432,
+                    "y": 3.0,
+                    "z": -20.5
+                },
+                "m_Extent": {
+                    "x": 0.15000000596046449,
+                    "y": 3.0,
+                    "z": 6.800000190734863
+                }
+            },
+            "newRendererWorldBounds": {
+                "m_Center": {
+                    "x": -6.1500020027160648,
+                    "y": 3.0,
+                    "z": -20.5
+                },
+                "m_Extent": {
+                    "x": 0.15000009536743165,
+                    "y": 3.0,
+                    "z": 6.799999713897705
+                }
+            },
+            "maxWorldBoundsError": 0.0000019073486328125
+        },
+        {
+            "path": "B4_Observation_Draft/Room04_ControlDeck/Wall_E",
+            "category": "ConcreteWall",
+            "sourcePrefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_ConcreteWall_4m.prefab",
+            "status": "applied",
+            "reason": "",
+            "tiles": 6,
+            "originalLocalPosition": {
+                "x": 6.150000095367432,
+                "y": 3.0,
+                "z": -0.5
+            },
+            "originalLocalScale": {
+                "x": 0.30000001192092898,
+                "y": 6.0,
+                "z": 13.600000381469727
+            },
+            "originalLocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "originalWorldSize": {
+                "x": 0.30000001192092898,
+                "y": 6.0,
+                "z": 13.600000381469727
+            },
+            "originalGeometryLocalBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                }
+            },
+            "originalRendererWorldBounds": {
+                "m_Center": {
+                    "x": 6.150000095367432,
+                    "y": 3.0,
+                    "z": -20.5
+                },
+                "m_Extent": {
+                    "x": 0.15000000596046449,
+                    "y": 3.0,
+                    "z": 6.800000190734863
+                }
+            },
+            "newRendererWorldBounds": {
+                "m_Center": {
+                    "x": 6.149999141693115,
+                    "y": 3.0,
+                    "z": -20.5
+                },
+                "m_Extent": {
+                    "x": 0.15000009536743165,
+                    "y": 3.0,
+                    "z": 6.799999713897705
+                }
+            },
+            "maxWorldBoundsError": 9.5367431640625e-7
+        },
+        {
+            "path": "B4_Observation_Draft/Room04_ControlDeck/Wall_S",
+            "category": "ConcreteWall",
+            "sourcePrefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_ConcreteWall_4m.prefab",
+            "status": "applied",
+            "reason": "",
+            "tiles": 2,
+            "originalLocalPosition": {
+                "x": -3.5,
+                "y": 3.0,
+                "z": 6.150000095367432
+            },
+            "originalLocalScale": {
+                "x": 5.0,
+                "y": 6.0,
+                "z": 0.30000001192092898
+            },
+            "originalLocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "originalWorldSize": {
+                "x": 5.0,
+                "y": 6.0,
+                "z": 0.30000001192092898
+            },
+            "originalGeometryLocalBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                }
+            },
+            "originalRendererWorldBounds": {
+                "m_Center": {
+                    "x": -3.5,
+                    "y": 3.0,
+                    "z": -13.850000381469727
+                },
+                "m_Extent": {
+                    "x": 2.5,
+                    "y": 3.0,
+                    "z": 0.15000000596046449
+                }
+            },
+            "newRendererWorldBounds": {
+                "m_Center": {
+                    "x": -3.5,
+                    "y": 3.0,
+                    "z": -13.85000228881836
+                },
+                "m_Extent": {
+                    "x": 2.5,
+                    "y": 3.0,
+                    "z": 0.14999961853027345
+                }
+            },
+            "maxWorldBoundsError": 0.0000019073486328125
+        },
+        {
+            "path": "B4_Observation_Draft/Room04_ControlDeck/Wall_N",
+            "category": "ConcreteWall",
+            "sourcePrefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_ConcreteWall_4m.prefab",
+            "status": "applied",
+            "reason": "",
+            "tiles": 2,
+            "originalLocalPosition": {
+                "x": -3.5,
+                "y": 3.0,
+                "z": -7.150000095367432
+            },
+            "originalLocalScale": {
+                "x": 5.0,
+                "y": 6.0,
+                "z": 0.30000001192092898
+            },
+            "originalLocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "originalWorldSize": {
+                "x": 5.0,
+                "y": 6.0,
+                "z": 0.30000001192092898
+            },
+            "originalGeometryLocalBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                }
+            },
+            "originalRendererWorldBounds": {
+                "m_Center": {
+                    "x": -3.5,
+                    "y": 3.0,
+                    "z": -27.149999618530275
+                },
+                "m_Extent": {
+                    "x": 2.5,
+                    "y": 3.0,
+                    "z": 0.15000000596046449
+                }
+            },
+            "newRendererWorldBounds": {
+                "m_Center": {
+                    "x": -3.5,
+                    "y": 3.0,
+                    "z": -27.150001525878908
+                },
+                "m_Extent": {
+                    "x": 2.5,
+                    "y": 3.0,
+                    "z": 0.14999961853027345
+                }
+            },
+            "maxWorldBoundsError": 0.0000019073486328125
+        },
+        {
+            "path": "B4_Observation_Draft/Room04_ControlDeck/Wall_S",
+            "category": "ConcreteWall",
+            "sourcePrefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_ConcreteWall_4m.prefab",
+            "status": "applied",
+            "reason": "",
+            "tiles": 2,
+            "originalLocalPosition": {
+                "x": 3.5,
+                "y": 3.0,
+                "z": 6.150000095367432
+            },
+            "originalLocalScale": {
+                "x": 5.0,
+                "y": 6.0,
+                "z": 0.30000001192092898
+            },
+            "originalLocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "originalWorldSize": {
+                "x": 5.0,
+                "y": 6.0,
+                "z": 0.30000001192092898
+            },
+            "originalGeometryLocalBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                }
+            },
+            "originalRendererWorldBounds": {
+                "m_Center": {
+                    "x": 3.5,
+                    "y": 3.0,
+                    "z": -13.850000381469727
+                },
+                "m_Extent": {
+                    "x": 2.5,
+                    "y": 3.0,
+                    "z": 0.15000000596046449
+                }
+            },
+            "newRendererWorldBounds": {
+                "m_Center": {
+                    "x": 3.499999761581421,
+                    "y": 3.0,
+                    "z": -13.85000228881836
+                },
+                "m_Extent": {
+                    "x": 2.5,
+                    "y": 3.0,
+                    "z": 0.14999961853027345
+                }
+            },
+            "maxWorldBoundsError": 0.0000019073486328125
+        },
+        {
+            "path": "B4_Observation_Draft/Room04_ControlDeck/Wall_N",
+            "category": "ConcreteWall",
+            "sourcePrefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_ConcreteWall_4m.prefab",
+            "status": "applied",
+            "reason": "",
+            "tiles": 2,
+            "originalLocalPosition": {
+                "x": 3.5,
+                "y": 3.0,
+                "z": -7.150000095367432
+            },
+            "originalLocalScale": {
+                "x": 5.0,
+                "y": 6.0,
+                "z": 0.30000001192092898
+            },
+            "originalLocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "originalWorldSize": {
+                "x": 5.0,
+                "y": 6.0,
+                "z": 0.30000001192092898
+            },
+            "originalGeometryLocalBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                }
+            },
+            "originalRendererWorldBounds": {
+                "m_Center": {
+                    "x": 3.5,
+                    "y": 3.0,
+                    "z": -27.149999618530275
+                },
+                "m_Extent": {
+                    "x": 2.5,
+                    "y": 3.0,
+                    "z": 0.15000000596046449
+                }
+            },
+            "newRendererWorldBounds": {
+                "m_Center": {
+                    "x": 3.499999761581421,
+                    "y": 3.0,
+                    "z": -27.150001525878908
+                },
+                "m_Extent": {
+                    "x": 2.5,
+                    "y": 3.0,
+                    "z": 0.14999961853027345
+                }
+            },
+            "maxWorldBoundsError": 0.0000019073486328125
+        },
+        {
+            "path": "B4_Observation_Draft/Room04_ControlDeck/Ceiling",
+            "category": "Ceiling",
+            "sourcePrefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_CeilingPanel_4m.prefab",
+            "status": "applied",
+            "reason": "",
+            "tiles": 9,
+            "originalLocalPosition": {
+                "x": 0.0,
+                "y": 6.150000095367432,
+                "z": -0.5
+            },
+            "originalLocalScale": {
+                "x": 12.600000381469727,
+                "y": 0.30000001192092898,
+                "z": 13.600000381469727
+            },
+            "originalLocalRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "originalWorldSize": {
+                "x": 12.600000381469727,
+                "y": 0.30000001192092898,
+                "z": 13.600000381469727
+            },
+            "originalGeometryLocalBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                }
+            },
+            "originalRendererWorldBounds": {
+                "m_Center": {
+                    "x": 0.0,
+                    "y": 6.150000095367432,
+                    "z": -20.5
+                },
+                "m_Extent": {
+                    "x": 6.300000190734863,
+                    "y": 0.15000000596046449,
+                    "z": 6.800000190734863
+                }
+            },
+            "newRendererWorldBounds": {
+                "m_Center": {
+                    "x": 4.76837158203125e-7,
+                    "y": 6.149999618530273,
+                    "z": -20.5
+                },
+                "m_Extent": {
+                    "x": 6.3000006675720219,
+                    "y": 0.15000009536743165,
+                    "z": 6.800000190734863
+                }
+            },
+            "maxWorldBoundsError": 9.5367431640625e-7
+        }
+    ]
+}

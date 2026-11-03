@@ -1,0 +1,980 @@
+{
+  "author": "송예찬",
+  "date": "2026-11-04",
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B2_Machinery.unity",
+  "prefab": "Assets/Afrer_Seconds/05.Model/Environment/B2/B2_CompletePipeNetwork_20261104.prefab",
+  "source": "Procedural sealed tube meshes, rounded elbows, flanges, wall clamps. Existing VARCO U03/U07 prefabs referenced without modifying shared source assets.",
+  "visualOnly": true,
+  "newColliders": 0,
+  "originalColliderCount": 41,
+  "originalColliderChanges": [],
+  "originalTransformCount": 753,
+  "originalTransformChanges": [],
+  "legacy": [
+    {
+      "path": "B2_Machinery_Draft/Room07_CentrifugeHall/VARCO_Batch02_Visuals/U01_PipeStraight_9",
+      "renderers": [
+        {
+          "name": "U01_PipeStraight",
+          "wasEnabled": true
+        }
+      ]
+    },
+    {
+      "path": "B2_Machinery_Draft/Room07_CentrifugeHall/VARCO_Batch02_Visuals/U01_PipeStraight_10",
+      "renderers": [
+        {
+          "name": "U01_PipeStraight",
+          "wasEnabled": true
+        }
+      ]
+    },
+    {
+      "path": "B2_Machinery_Draft/Room07_CentrifugeHall/VARCO_Batch02_Visuals/U01_PipeStraight_11",
+      "renderers": [
+        {
+          "name": "U01_PipeStraight",
+          "wasEnabled": true
+        }
+      ]
+    },
+    {
+      "path": "B2_Machinery_Draft/Room07_CentrifugeHall/VARCO_Batch02_Visuals/U02_PipeElbow90_12",
+      "renderers": [
+        {
+          "name": "U02_PipeElbow90",
+          "wasEnabled": true
+        }
+      ]
+    },
+    {
+      "path": "B2_Machinery_Draft/Room07_CentrifugeHall/VARCO_Batch02_Visuals/U03_HandwheelValve_13",
+      "renderers": [
+        {
+          "name": "U03_HandwheelValve",
+          "wasEnabled": true
+        }
+      ]
+    },
+    {
+      "path": "B2_Machinery_Draft/Room07_CentrifugeHall/VARCO_Batch02_Visuals/U07_PressureGauge_14",
+      "renderers": [
+        {
+          "name": "U07_PressureGauge",
+          "wasEnabled": true
+        }
+      ]
+    }
+  ],
+  "networks": [
+    {
+      "id": "Supply_WallLoop",
+      "room": "R07",
+      "closed": true,
+      "length": 51.36,
+      "centerlineCorners": [
+        [
+          -5.42,
+          3.38,
+          5.42
+        ],
+        [
+          -5.42,
+          3.38,
+          -9.42
+        ],
+        [
+          5.42,
+          3.38,
+          -9.42
+        ],
+        [
+          5.42,
+          3.38,
+          5.42
+        ]
+      ],
+      "start": [
+        -5.42,
+        3.38,
+        5.42
+      ],
+      "end": [
+        5.42,
+        3.38,
+        5.42
+      ],
+      "endCaps": false,
+      "pipeRadius": 0.105,
+      "flangeRadius": 0.158
+    },
+    {
+      "id": "Return_WallLoop",
+      "room": "R07",
+      "closed": true,
+      "length": 51.36,
+      "centerlineCorners": [
+        [
+          -5.42,
+          3.78,
+          5.42
+        ],
+        [
+          -5.42,
+          3.78,
+          -9.42
+        ],
+        [
+          5.42,
+          3.78,
+          -9.42
+        ],
+        [
+          5.42,
+          3.78,
+          5.42
+        ]
+      ],
+      "start": [
+        -5.42,
+        3.78,
+        5.42
+      ],
+      "end": [
+        5.42,
+        3.78,
+        5.42
+      ],
+      "endCaps": false,
+      "pipeRadius": 0.105,
+      "flangeRadius": 0.158
+    },
+    {
+      "id": "Supply_Reactor",
+      "room": "R07",
+      "closed": false,
+      "length": 1.60000014,
+      "centerlineCorners": [
+        [
+          5.42,
+          3.38,
+          4.95
+        ],
+        [
+          5.42,
+          2.3,
+          4.95
+        ],
+        [
+          4.9,
+          2.3,
+          4.95
+        ]
+      ],
+      "start": [
+        5.42,
+        3.38,
+        4.95
+      ],
+      "end": [
+        4.9,
+        2.3,
+        4.95
+      ],
+      "endCaps": true,
+      "pipeRadius": 0.105,
+      "flangeRadius": 0.158
+    },
+    {
+      "id": "Return_Reactor",
+      "room": "R07",
+      "closed": false,
+      "length": 2.22,
+      "centerlineCorners": [
+        [
+          5.42,
+          3.78,
+          4.55
+        ],
+        [
+          5.42,
+          2.08,
+          4.55
+        ],
+        [
+          4.9,
+          2.08,
+          4.55
+        ]
+      ],
+      "start": [
+        5.42,
+        3.78,
+        4.55
+      ],
+      "end": [
+        4.9,
+        2.08,
+        4.55
+      ],
+      "endCaps": true,
+      "pipeRadius": 0.105,
+      "flangeRadius": 0.158
+    },
+    {
+      "id": "Supply_Centrifuge",
+      "room": "R07",
+      "closed": false,
+      "length": 2.55000019,
+      "centerlineCorners": [
+        [
+          -5.42,
+          3.38,
+          4.95
+        ],
+        [
+          -5.42,
+          1.35,
+          4.95
+        ],
+        [
+          -4.9,
+          1.35,
+          4.95
+        ]
+      ],
+      "start": [
+        -5.42,
+        3.38,
+        4.95
+      ],
+      "end": [
+        -4.9,
+        1.35,
+        4.95
+      ],
+      "endCaps": true,
+      "pipeRadius": 0.105,
+      "flangeRadius": 0.158
+    },
+    {
+      "id": "Return_Centrifuge",
+      "room": "R07",
+      "closed": false,
+      "length": 3.19999981,
+      "centerlineCorners": [
+        [
+          -5.42,
+          3.78,
+          4.55
+        ],
+        [
+          -5.42,
+          1.1,
+          4.55
+        ],
+        [
+          -4.9,
+          1.1,
+          4.55
+        ]
+      ],
+      "start": [
+        -5.42,
+        3.78,
+        4.55
+      ],
+      "end": [
+        -4.9,
+        1.1,
+        4.55
+      ],
+      "endCaps": true,
+      "pipeRadius": 0.105,
+      "flangeRadius": 0.158
+    },
+    {
+      "id": "Supply_WallService",
+      "room": "R08",
+      "closed": false,
+      "length": 39.920002,
+      "centerlineCorners": [
+        [
+          -5.42,
+          5.05,
+          -9.12
+        ],
+        [
+          -5.42,
+          5.05,
+          5.42
+        ],
+        [
+          5.42,
+          5.05,
+          5.42
+        ],
+        [
+          5.42,
+          5.05,
+          -9.12
+        ]
+      ],
+      "start": [
+        -5.42,
+        5.05,
+        -9.12
+      ],
+      "end": [
+        5.42,
+        5.05,
+        -9.12
+      ],
+      "endCaps": true,
+      "pipeRadius": 0.105,
+      "flangeRadius": 0.158
+    },
+    {
+      "id": "Return_WallService",
+      "room": "R08",
+      "closed": false,
+      "length": 39.920002,
+      "centerlineCorners": [
+        [
+          -5.42,
+          5.5,
+          -9.12
+        ],
+        [
+          -5.42,
+          5.5,
+          5.42
+        ],
+        [
+          5.42,
+          5.5,
+          5.42
+        ],
+        [
+          5.42,
+          5.5,
+          -9.12
+        ]
+      ],
+      "start": [
+        -5.42,
+        5.5,
+        -9.12
+      ],
+      "end": [
+        5.42,
+        5.5,
+        -9.12
+      ],
+      "endCaps": true,
+      "pipeRadius": 0.105,
+      "flangeRadius": 0.158
+    },
+    {
+      "id": "Supply_HVAC",
+      "room": "R08",
+      "closed": false,
+      "length": 1.79000044,
+      "centerlineCorners": [
+        [
+          -5.42,
+          5.05,
+          -4.4
+        ],
+        [
+          -5.0,
+          5.05,
+          -4.4
+        ],
+        [
+          -5.0,
+          4.55,
+          -4.4
+        ],
+        [
+          -5.0,
+          4.55,
+          -3.85
+        ],
+        [
+          -5.32,
+          4.55,
+          -3.85
+        ]
+      ],
+      "start": [
+        -5.42,
+        5.05,
+        -4.4
+      ],
+      "end": [
+        -5.32,
+        4.55,
+        -3.85
+      ],
+      "endCaps": true,
+      "pipeRadius": 0.105,
+      "flangeRadius": 0.158
+    },
+    {
+      "id": "Return_HVAC",
+      "room": "R08",
+      "closed": false,
+      "length": 2.49,
+      "centerlineCorners": [
+        [
+          -5.42,
+          5.5,
+          -3.0
+        ],
+        [
+          -5.0,
+          5.5,
+          -3.0
+        ],
+        [
+          -5.0,
+          4.3,
+          -3.0
+        ],
+        [
+          -5.0,
+          4.3,
+          -3.55
+        ],
+        [
+          -5.32,
+          4.3,
+          -3.55
+        ]
+      ],
+      "start": [
+        -5.42,
+        5.5,
+        -3.0
+      ],
+      "end": [
+        -5.32,
+        4.3,
+        -3.55
+      ],
+      "endCaps": true,
+      "pipeRadius": 0.105,
+      "flangeRadius": 0.158
+    }
+  ],
+  "joints": [
+    {
+      "id": "Supply_Reactor",
+      "trunk": [
+        5.42,
+        3.38,
+        4.95
+      ],
+      "sealedEquipmentEnd": [
+        4.9,
+        2.3,
+        4.95
+      ],
+      "joint": "capped branch overlaps sealed main at centreline; equipment end inside opaque casing"
+    },
+    {
+      "id": "Return_Reactor",
+      "trunk": [
+        5.42,
+        3.78,
+        4.55
+      ],
+      "sealedEquipmentEnd": [
+        4.9,
+        2.08,
+        4.55
+      ],
+      "joint": "capped branch overlaps sealed main at centreline; equipment end inside opaque casing"
+    },
+    {
+      "id": "Supply_Centrifuge",
+      "trunk": [
+        -5.42,
+        3.38,
+        4.95
+      ],
+      "sealedEquipmentEnd": [
+        -4.9,
+        1.35,
+        4.95
+      ],
+      "joint": "capped branch overlaps sealed main at centreline; equipment end inside opaque casing"
+    },
+    {
+      "id": "Return_Centrifuge",
+      "trunk": [
+        -5.42,
+        3.78,
+        4.55
+      ],
+      "sealedEquipmentEnd": [
+        -4.9,
+        1.1,
+        4.55
+      ],
+      "joint": "capped branch overlaps sealed main at centreline; equipment end inside opaque casing"
+    },
+    {
+      "id": "R08_Supply_WallEnd",
+      "sealedWallEnd": [
+        -5.42,
+        5.05,
+        -9.12
+      ],
+      "wallInnerFaceZ": -8.85,
+      "capBehindWall": 0.27
+    },
+    {
+      "id": "R08_Supply_WallEnd",
+      "sealedWallEnd": [
+        5.42,
+        5.05,
+        -9.12
+      ],
+      "wallInnerFaceZ": -8.85,
+      "capBehindWall": 0.27
+    },
+    {
+      "id": "R08_Return_WallEnd",
+      "sealedWallEnd": [
+        -5.42,
+        5.5,
+        -9.12
+      ],
+      "wallInnerFaceZ": -8.85,
+      "capBehindWall": 0.27
+    },
+    {
+      "id": "R08_Return_WallEnd",
+      "sealedWallEnd": [
+        5.42,
+        5.5,
+        -9.12
+      ],
+      "wallInnerFaceZ": -8.85,
+      "capBehindWall": 0.27
+    },
+    {
+      "id": "HVAC",
+      "sealedEquipmentEnd": [
+        -5.32,
+        4.55,
+        -3.85
+      ],
+      "machineInnerFaceX": -5.225,
+      "insertion": 0.095
+    },
+    {
+      "id": "HVAC",
+      "sealedEquipmentEnd": [
+        -5.32,
+        4.3,
+        -3.55
+      ],
+      "machineInnerFaceX": -5.225,
+      "insertion": 0.095
+    }
+  ],
+  "clones": [
+    {
+      "name": "Connected_Valve_Reactor",
+      "source": "Assets/Afrer_Seconds/05.Model/Environment/Common/U03_HandwheelValve.prefab",
+      "centreline": [
+        5.42,
+        2.66,
+        4.95
+      ],
+      "sourceCapCentre": [
+        7.450581E-09,
+        0.122349359,
+        -0.000100672245
+      ],
+      "sourceLength": 0.496739745,
+      "axis": "vertical Y, handwheel inward"
+    },
+    {
+      "name": "Connected_Gauge_Reactor",
+      "source": "Assets/Afrer_Seconds/05.Model/Environment/Common/U07_PressureGauge.prefab",
+      "stemRoot": [
+        5.34500027,
+        3.1,
+        4.95
+      ],
+      "axis": "stem localY points inward, dial faces local+Z"
+    },
+    {
+      "name": "Connected_Valve_Centrifuge",
+      "source": "Assets/Afrer_Seconds/05.Model/Environment/Common/U03_HandwheelValve.prefab",
+      "centreline": [
+        -5.42,
+        2.12,
+        4.95
+      ],
+      "sourceCapCentre": [
+        7.450581E-09,
+        0.122349359,
+        -0.000100672245
+      ],
+      "sourceLength": 0.496739745,
+      "axis": "vertical Y, handwheel inward"
+    },
+    {
+      "name": "Connected_Gauge_Centrifuge",
+      "source": "Assets/Afrer_Seconds/05.Model/Environment/Common/U07_PressureGauge.prefab",
+      "stemRoot": [
+        -5.34500027,
+        2.72,
+        4.95
+      ],
+      "axis": "stem localY points inward, dial faces local+Z"
+    }
+  ],
+  "meshes": [
+    {
+      "key": "R07_Supply",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B2/B2_R07_Supply_PipeMesh_20261104.asset",
+      "vertices": 932,
+      "triangles": 1856,
+      "room": "R07",
+      "material": "Supply",
+      "boundsCenter": [
+        0.0,
+        2.36500025,
+        -1.99999976
+      ],
+      "boundsSize": [
+        11.05,
+        2.24000025,
+        15.0499992
+      ]
+    },
+    {
+      "key": "R07_Fittings",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B2/B2_R07_Fittings_PipeMesh_20261104.asset",
+      "vertices": 16354,
+      "triangles": 30784,
+      "room": "R07",
+      "material": "Fittings",
+      "boundsCenter": [
+        0.0,
+        2.445,
+        -2.0
+      ],
+      "boundsSize": [
+        11.156,
+        2.986,
+        15.156
+      ]
+    },
+    {
+      "key": "R07_SupplyBand",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B2/B2_R07_SupplyBand_PipeMesh_20261104.asset",
+      "vertices": 816,
+      "triangles": 1536,
+      "room": "R07",
+      "material": "SupplyBand",
+      "boundsCenter": [
+        0.0,
+        3.38,
+        -2.0
+      ],
+      "boundsSize": [
+        11.0580006,
+        0.217999935,
+        15.0580006
+      ]
+    },
+    {
+      "key": "R07_Support",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B2/B2_R07_Support_PipeMesh_20261104.asset",
+      "vertices": 2176,
+      "triangles": 4096,
+      "room": "R07",
+      "material": "Support",
+      "boundsCenter": [
+        0.0,
+        3.58,
+        -2.0
+      ],
+      "boundsSize": [
+        11.708,
+        0.5799997,
+        15.708
+      ]
+    },
+    {
+      "key": "R07_Return",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B2/B2_R07_Return_PipeMesh_20261104.asset",
+      "vertices": 932,
+      "triangles": 1856,
+      "room": "R07",
+      "material": "Return",
+      "boundsCenter": [
+        0.0,
+        2.44,
+        -1.99999976
+      ],
+      "boundsSize": [
+        11.05,
+        2.89,
+        15.0499992
+      ]
+    },
+    {
+      "key": "R07_ReturnBand",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B2/B2_R07_ReturnBand_PipeMesh_20261104.asset",
+      "vertices": 850,
+      "triangles": 1600,
+      "room": "R07",
+      "material": "ReturnBand",
+      "boundsCenter": [
+        0.0,
+        3.20200014,
+        -2.0
+      ],
+      "boundsSize": [
+        11.0580006,
+        1.37399983,
+        15.0580006
+      ]
+    },
+    {
+      "key": "R08_Supply",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B2/B2_R08_Supply_PipeMesh_20261104.asset",
+      "vertices": 788,
+      "triangles": 1568,
+      "room": "R08",
+      "material": "Supply",
+      "boundsCenter": [
+        0.0,
+        4.8,
+        -1.79756808
+      ],
+      "boundsSize": [
+        11.05,
+        0.710000038,
+        14.6451359
+      ]
+    },
+    {
+      "key": "R08_Fittings",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B2/B2_R08_Fittings_PipeMesh_20261104.asset",
+      "vertices": 12716,
+      "triangles": 23936,
+      "room": "R08",
+      "material": "Fittings",
+      "boundsCenter": [
+        0.0,
+        4.925,
+        -1.645
+      ],
+      "boundsSize": [
+        11.22,
+        1.52999973,
+        14.446
+      ]
+    },
+    {
+      "key": "R08_SupplyBand",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B2/B2_R08_SupplyBand_PipeMesh_20261104.asset",
+      "vertices": 578,
+      "triangles": 1088,
+      "room": "R08",
+      "material": "SupplyBand",
+      "boundsCenter": [
+        0.0,
+        5.05,
+        -0.8219285
+      ],
+      "boundsSize": [
+        11.0580006,
+        0.218000412,
+        12.7018576
+      ]
+    },
+    {
+      "key": "R08_Support",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B2/B2_R08_Support_PipeMesh_20261104.asset",
+      "vertices": 1904,
+      "triangles": 3584,
+      "room": "R08",
+      "material": "Support",
+      "boundsCenter": [
+        0.0,
+        5.275,
+        -1.118
+      ],
+      "boundsSize": [
+        11.708,
+        0.6300001,
+        13.944
+      ]
+    },
+    {
+      "key": "R08_Return",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B2/B2_R08_Return_PipeMesh_20261104.asset",
+      "vertices": 788,
+      "triangles": 1568,
+      "room": "R08",
+      "material": "Return",
+      "boundsCenter": [
+        0.0,
+        4.9,
+        -1.79756808
+      ],
+      "boundsSize": [
+        11.05,
+        1.40999985,
+        14.6451359
+      ]
+    },
+    {
+      "key": "R08_ReturnBand",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B2/B2_R08_ReturnBand_PipeMesh_20261104.asset",
+      "vertices": 578,
+      "triangles": 1088,
+      "room": "R08",
+      "material": "ReturnBand",
+      "boundsCenter": [
+        0.0,
+        5.5,
+        -0.8219285
+      ],
+      "boundsSize": [
+        11.0580006,
+        0.218000412,
+        12.7018576
+      ]
+    }
+  ],
+  "clearances": [
+    {
+      "id": "R07_Pit_NoBridge",
+      "verticesInside": 0,
+      "min": [
+        -6.0,
+        -3.0,
+        -5.0
+      ],
+      "max": [
+        6.0,
+        3.15,
+        2.0
+      ]
+    },
+    {
+      "id": "R07_ThrowLane",
+      "verticesInside": 0,
+      "min": [
+        -2.0,
+        0.0,
+        2.0
+      ],
+      "max": [
+        2.0,
+        3.15,
+        6.0
+      ]
+    },
+    {
+      "id": "R07_FarDeck_NoTargets",
+      "verticesInside": 0,
+      "min": [
+        -6.0,
+        0.0,
+        -10.0
+      ],
+      "max": [
+        6.0,
+        3.15,
+        -5.0
+      ]
+    },
+    {
+      "id": "R08_RearThrowAisle",
+      "verticesInside": 0,
+      "min": [
+        -6.0,
+        0.0,
+        -9.0
+      ],
+      "max": [
+        6.0,
+        4.25,
+        -7.0
+      ]
+    },
+    {
+      "id": "R08_HatchVertical",
+      "verticesInside": 0,
+      "min": [
+        -1.15,
+        2.4,
+        -7.15
+      ],
+      "max": [
+        1.15,
+        6.5,
+        -4.85
+      ]
+    },
+    {
+      "id": "R08_WestWalking",
+      "verticesInside": 0,
+      "min": [
+        -6.0,
+        0.0,
+        -7.0
+      ],
+      "max": [
+        -3.15,
+        3.25,
+        6.0
+      ]
+    },
+    {
+      "id": "R08_EastWalking",
+      "verticesInside": 0,
+      "min": [
+        3.15,
+        0.0,
+        -7.0
+      ],
+      "max": [
+        6.0,
+        3.25,
+        6.0
+      ]
+    },
+    {
+      "id": "R07_Roof",
+      "highestVertexY": 3.938,
+      "ceilingY": 4.0,
+      "clearance": 0.0620000362
+    },
+    {
+      "id": "R08_Roof",
+      "highestVertexY": 5.69,
+      "ceilingY": 6.0,
+      "clearance": 0.309999943
+    }
+  ],
+  "protectedSpaceViolations": 0,
+  "notes": [
+    "Room07 supply/return are continuous sealed loops; equipment branches are individually capped inside opaque machine casings.",
+    "Room08 U-shaped service mains terminate with closed caps .27m behind rear wall; there is no free-floating connection across the inter-room corridor.",
+    "All old U01/U02/U03/U07 GameObjects and transforms are preserved; only their renderers are disabled.",
+    "Pipe geometry adds no collider, script, audio or puzzle behavior. No runtime C# file is modified."
+  ]
+}

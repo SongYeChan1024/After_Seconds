@@ -1,0 +1,107 @@
+{
+  "name": "Props_LaboratoryWorkbench",
+  "sourcePath": "Original GLB preserved locally; SHA256 identifies source",
+  "sourceSha256": "366e77ea25526af5404e09d750174636108c9f81e9b2952c066cd1bae652cc48",
+  "fbx": "Assets/Afrer_Seconds/05.Model/Props/Common/Props_LaboratoryWorkbench.fbx",
+  "fbxSha256": "b989e5fe3ba4b0ad375eb018d049a6a0e3004f1a3a1b641c25d522b8f30218ea",
+  "blenderBoundsMin": [
+    -0.49987602233886719,
+    -0.20589277148246765,
+    0.0
+  ],
+  "blenderBoundsMax": [
+    0.49987602233886719,
+    0.20589277148246765,
+    0.98972153663635254
+  ],
+  "blenderSizeXYZ": [
+    0.99975204467773438,
+    0.4117855429649353,
+    0.98972153663635254
+  ],
+  "unitySizeXYZ": [
+    0.99975204467773438,
+    0.98972153663635254,
+    0.4117855429649353
+  ],
+  "triangles": 48000,
+  "meshes": [
+    {
+      "name": "texture_mapping",
+      "source": {
+        "triangles": 500000,
+        "vertices": 249970,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "zeroAreaFaces": 0
+      },
+      "attempts": [
+        {
+          "triangles": 48000,
+          "vertices": 23970,
+          "boundaryEdges": 0,
+          "overusedEdges": 0,
+          "zeroAreaFaces": 0,
+          "strictCrossingPairs": 0,
+          "crossingPairsSample": [],
+          "crossingPairs": []
+        }
+      ],
+      "final": {
+        "triangles": 48000,
+        "vertices": 23970,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "zeroAreaFaces": 0,
+        "strictCrossingPairs": 0,
+        "crossingPairsSample": [],
+        "crossingPairs": [],
+        "patchSteps": [],
+        "relativeVolumeChange": 0.0
+      }
+    }
+  ],
+  "materials": [
+    {
+      "name": "Props_LaboratoryWorkbench_Material",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 1.0,
+      "BaseColor": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/Props_LaboratoryWorkbench_BaseColor.png",
+      "Normal": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/Props_LaboratoryWorkbench_Normal.png"
+    }
+  ],
+  "textures": [
+    {
+      "semantic": "BaseColor",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/Props_LaboratoryWorkbench_BaseColor.png",
+      "width": 2048,
+      "height": 2048,
+      "colorSpace": "sRGB",
+      "assetPath": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/Props_LaboratoryWorkbench_BaseColor.png"
+    },
+    {
+      "semantic": "Normal",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/Props_LaboratoryWorkbench_Normal.png",
+      "width": 2048,
+      "height": 2048,
+      "colorSpace": "linear",
+      "assetPath": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/Props_LaboratoryWorkbench_Normal.png"
+    }
+  ],
+  "pivot": "bottom-center",
+  "sourceFlowId": "3ace28ca-d501-4921-b5a8-0875b2468245",
+  "visualOnly": true,
+  "preparation": "UV-preserving collapse with adaptive density, 40 degree sharp edges and weighted normals",
+  "sourceNodeId": "cc651bca-8d47-41a7-b482-19392eea7f3d",
+  "sourceTaskId": "7a941999-8f06-4bae-958c-d11351988140",
+  "accepted": true,
+  "fbxVerificationPath": "C:\\GitHubProjects\\After_Seconds\\tmp\\Asset_Placement_20261103\\prepared\\Props_LaboratoryWorkbench\\fbx_verification.json",
+  "modelAssetPath": "Assets/Afrer_Seconds/05.Model/Props/Common/Props_LaboratoryWorkbench.fbx",
+  "prefabAssetPath": "Assets/Afrer_Seconds/05.Model/Props/Common/Props_LaboratoryWorkbench.prefab"
+}

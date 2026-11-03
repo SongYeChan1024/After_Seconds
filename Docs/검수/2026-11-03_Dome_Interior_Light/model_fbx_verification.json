@@ -1,0 +1,38 @@
+{
+  "name": "DomePendantLight",
+  "accepted": true,
+  "sha256": "dd0967ceafd443b689bdc320b2aeec8d558489f58b6f6ff5bbce587ff10edf5c",
+  "unitySizeXYZ": [
+    1.4040000438690186,
+    1.2310002073645592,
+    1.4040002226829529
+  ],
+  "anchorUnityPositions": {
+    "DP_TopMountAnchor": [
+      0.0,
+      0.029999999329447746,
+      -4.887620086435618e-09
+    ],
+    "DP_DownwardLightAnchor": [
+      0.0,
+      -1.2120000123977661,
+      1.9745985468944127e-07
+    ]
+  },
+  "meshes": [
+    {
+      "name": "DomePendantLight_Fixture",
+      "triangles": 3348,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "zeroAreaFaces": 0,
+      "finiteVertices": true,
+      "materials": [
+        "DP_ClinicalWhite",
+        "DP_DarkFrame",
+        "DP_CoolDiffuser",
+        "DP_BrushedSteel"
+      ]
+    }
+  ]
+}

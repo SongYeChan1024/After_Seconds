@@ -1,0 +1,664 @@
+{
+  "name": "Props_HVACUnit",
+  "sourcePath": "Original GLB preserved locally; SHA256 identifies source",
+  "sourceSha256": "b811d6b093ce6ed5666794640a5bd30a1ea4cc6107f660bee055994acedbee1f",
+  "fbx": "Assets/Afrer_Seconds/05.Model/Props/B2/Props_HVACUnit.fbx",
+  "fbxSha256": "75c1e6aa40a486fe019e5f7844e544a1c56d4304d62fbd345e6cbbb4e5bd47fd",
+  "blenderBoundsMin": [
+    -0.49795085191726685,
+    -0.33482009172439575,
+    0.0
+  ],
+  "blenderBoundsMax": [
+    0.49795085191726685,
+    0.33482009172439575,
+    0.70319145917892456
+  ],
+  "blenderSizeXYZ": [
+    0.99590170383453369,
+    0.6696401834487915,
+    0.70319145917892456
+  ],
+  "unitySizeXYZ": [
+    0.99590170383453369,
+    0.70319145917892456,
+    0.6696401834487915
+  ],
+  "triangles": 95964,
+  "meshes": [
+    {
+      "name": "texture_mapping",
+      "source": {
+        "triangles": 500000,
+        "vertices": 249644,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "zeroAreaFaces": 0
+      },
+      "attempts": [
+        {
+          "triangles": 47990,
+          "vertices": 23629,
+          "boundaryEdges": 0,
+          "overusedEdges": 0,
+          "zeroAreaFaces": 0,
+          "strictCrossingPairs": 29,
+          "crossingPairsSample": [
+            [
+              1653,
+              2728
+            ],
+            [
+              1610,
+              1639
+            ],
+            [
+              1610,
+              1638
+            ],
+            [
+              2715,
+              3202
+            ],
+            [
+              5987,
+              7888
+            ],
+            [
+              9292,
+              41295
+            ],
+            [
+              7896,
+              7905
+            ],
+            [
+              25078,
+              25982
+            ],
+            [
+              18342,
+              18469
+            ],
+            [
+              20233,
+              20243
+            ],
+            [
+              24786,
+              26602
+            ],
+            [
+              21001,
+              21007
+            ],
+            [
+              20854,
+              21129
+            ],
+            [
+              22716,
+              23489
+            ],
+            [
+              11903,
+              13651
+            ],
+            [
+              12094,
+              17037
+            ],
+            [
+              33680,
+              33695
+            ],
+            [
+              29047,
+              31493
+            ],
+            [
+              30114,
+              30120
+            ],
+            [
+              30112,
+              30120
+            ]
+          ],
+          "crossingPairs": [
+            [
+              1653,
+              2728
+            ],
+            [
+              1610,
+              1639
+            ],
+            [
+              1610,
+              1638
+            ],
+            [
+              2715,
+              3202
+            ],
+            [
+              5987,
+              7888
+            ],
+            [
+              9292,
+              41295
+            ],
+            [
+              7896,
+              7905
+            ],
+            [
+              25078,
+              25982
+            ],
+            [
+              18342,
+              18469
+            ],
+            [
+              20233,
+              20243
+            ],
+            [
+              24786,
+              26602
+            ],
+            [
+              21001,
+              21007
+            ],
+            [
+              20854,
+              21129
+            ],
+            [
+              22716,
+              23489
+            ],
+            [
+              11903,
+              13651
+            ],
+            [
+              12094,
+              17037
+            ],
+            [
+              33680,
+              33695
+            ],
+            [
+              29047,
+              31493
+            ],
+            [
+              30114,
+              30120
+            ],
+            [
+              30112,
+              30120
+            ],
+            [
+              32932,
+              47680
+            ],
+            [
+              32196,
+              32619
+            ],
+            [
+              34558,
+              34610
+            ],
+            [
+              34558,
+              34609
+            ],
+            [
+              34609,
+              35503
+            ],
+            [
+              35590,
+              36226
+            ],
+            [
+              32478,
+              40362
+            ],
+            [
+              31959,
+              46543
+            ],
+            [
+              31462,
+              46543
+            ]
+          ]
+        },
+        {
+          "triangles": 72000,
+          "vertices": 35644,
+          "boundaryEdges": 0,
+          "overusedEdges": 0,
+          "zeroAreaFaces": 0,
+          "strictCrossingPairs": 26,
+          "crossingPairsSample": [
+            [
+              21478,
+              22076
+            ],
+            [
+              2469,
+              4005
+            ],
+            [
+              2469,
+              4004
+            ],
+            [
+              2485,
+              4005
+            ],
+            [
+              2485,
+              4004
+            ],
+            [
+              2485,
+              4003
+            ],
+            [
+              11898,
+              11907
+            ],
+            [
+              15747,
+              20630
+            ],
+            [
+              11717,
+              11729
+            ],
+            [
+              27503,
+              27708
+            ],
+            [
+              24128,
+              24209
+            ],
+            [
+              28003,
+              30416
+            ],
+            [
+              29767,
+              29907
+            ],
+            [
+              28082,
+              28232
+            ],
+            [
+              28082,
+              28230
+            ],
+            [
+              28082,
+              28231
+            ],
+            [
+              34275,
+              35026
+            ],
+            [
+              34275,
+              35025
+            ],
+            [
+              34119,
+              35300
+            ],
+            [
+              37550,
+              68960
+            ]
+          ],
+          "crossingPairs": [
+            [
+              21478,
+              22076
+            ],
+            [
+              2469,
+              4005
+            ],
+            [
+              2469,
+              4004
+            ],
+            [
+              2485,
+              4005
+            ],
+            [
+              2485,
+              4004
+            ],
+            [
+              2485,
+              4003
+            ],
+            [
+              11898,
+              11907
+            ],
+            [
+              15747,
+              20630
+            ],
+            [
+              11717,
+              11729
+            ],
+            [
+              27503,
+              27708
+            ],
+            [
+              24128,
+              24209
+            ],
+            [
+              28003,
+              30416
+            ],
+            [
+              29767,
+              29907
+            ],
+            [
+              28082,
+              28232
+            ],
+            [
+              28082,
+              28230
+            ],
+            [
+              28082,
+              28231
+            ],
+            [
+              34275,
+              35026
+            ],
+            [
+              34275,
+              35025
+            ],
+            [
+              34119,
+              35300
+            ],
+            [
+              37550,
+              68960
+            ],
+            [
+              54343,
+              55283
+            ],
+            [
+              54343,
+              55282
+            ],
+            [
+              47631,
+              69854
+            ],
+            [
+              55558,
+              55592
+            ],
+            [
+              54115,
+              54119
+            ],
+            [
+              51934,
+              52006
+            ]
+          ]
+        },
+        {
+          "triangles": 96000,
+          "vertices": 47644,
+          "boundaryEdges": 0,
+          "overusedEdges": 0,
+          "zeroAreaFaces": 0,
+          "strictCrossingPairs": 18,
+          "crossingPairsSample": [
+            [
+              29423,
+              29432
+            ],
+            [
+              9741,
+              13813
+            ],
+            [
+              11328,
+              14889
+            ],
+            [
+              37477,
+              37667
+            ],
+            [
+              37477,
+              37669
+            ],
+            [
+              24110,
+              39894
+            ],
+            [
+              52362,
+              52364
+            ],
+            [
+              50160,
+              92005
+            ],
+            [
+              56025,
+              80025
+            ],
+            [
+              63677,
+              93165
+            ],
+            [
+              58362,
+              60643
+            ],
+            [
+              76581,
+              78001
+            ],
+            [
+              76581,
+              77737
+            ],
+            [
+              72820,
+              73409
+            ],
+            [
+              69326,
+              69416
+            ],
+            [
+              69326,
+              69414
+            ],
+            [
+              69414,
+              71170
+            ],
+            [
+              72235,
+              72244
+            ]
+          ],
+          "crossingPairs": [
+            [
+              29423,
+              29432
+            ],
+            [
+              9741,
+              13813
+            ],
+            [
+              11328,
+              14889
+            ],
+            [
+              37477,
+              37667
+            ],
+            [
+              37477,
+              37669
+            ],
+            [
+              24110,
+              39894
+            ],
+            [
+              52362,
+              52364
+            ],
+            [
+              50160,
+              92005
+            ],
+            [
+              56025,
+              80025
+            ],
+            [
+              63677,
+              93165
+            ],
+            [
+              58362,
+              60643
+            ],
+            [
+              76581,
+              78001
+            ],
+            [
+              76581,
+              77737
+            ],
+            [
+              72820,
+              73409
+            ],
+            [
+              69326,
+              69416
+            ],
+            [
+              69326,
+              69414
+            ],
+            [
+              69414,
+              71170
+            ],
+            [
+              72235,
+              72244
+            ]
+          ]
+        }
+      ],
+      "final": {
+        "triangles": 95964,
+        "vertices": 47632,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "zeroAreaFaces": 0,
+        "strictCrossingPairs": 0,
+        "crossingPairsSample": [],
+        "crossingPairs": [],
+        "patchSteps": [
+          {
+            "iteration": 0,
+            "removedFaces": 137,
+            "rebuiltFaces": 109
+          },
+          {
+            "iteration": 1,
+            "removedFaces": 17,
+            "rebuiltFaces": 9
+          }
+        ],
+        "relativeVolumeChange": 4.8116439516708515E-06
+      }
+    }
+  ],
+  "materials": [
+    {
+      "name": "Props_HVACUnit_Material",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 1.0,
+      "BaseColor": "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/Props_HVACUnit_BaseColor.png",
+      "Normal": "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/Props_HVACUnit_Normal.png"
+    }
+  ],
+  "textures": [
+    {
+      "semantic": "BaseColor",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/Props_HVACUnit_BaseColor.png",
+      "width": 2048,
+      "height": 2048,
+      "colorSpace": "sRGB",
+      "assetPath": "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/Props_HVACUnit_BaseColor.png"
+    },
+    {
+      "semantic": "Normal",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/Props_HVACUnit_Normal.png",
+      "width": 2048,
+      "height": 2048,
+      "colorSpace": "linear",
+      "assetPath": "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/Props_HVACUnit_Normal.png"
+    }
+  ],
+  "pivot": "bottom-center",
+  "sourceFlowId": "3ace28ca-d501-4921-b5a8-0875b2468245",
+  "visualOnly": true,
+  "preparation": "UV-preserving collapse with adaptive density, 40 degree sharp edges and weighted normals",
+  "modelAssetPath": "Assets/Afrer_Seconds/05.Model/Props/B2/Props_HVACUnit.fbx",
+  "prefabAssetPath": "Assets/Afrer_Seconds/05.Model/Props/B2/Props_HVACUnit.prefab"
+}

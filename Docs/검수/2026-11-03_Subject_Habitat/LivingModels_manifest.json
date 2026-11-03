@@ -1,0 +1,670 @@
+[
+  {
+    "name": "LivingDesk",
+    "fbx": "C:\\GitHubProjects\\After_Seconds\\tmp\\Habitat_20261103\\LivingModels\\LivingDesk.fbx",
+    "sha256": "3f491be150767e7c40435036e0f8514722af89da7cc16feb6403d1f4f549bfc8",
+    "pivot": "bottom-center",
+    "frontMarker": "HM_FrontMarker",
+    "frontBlender": [
+      0,
+      -1,
+      0
+    ],
+    "blenderBoundsMin": [
+      -0.550000011920929,
+      -0.5125000476837158,
+      0.0
+    ],
+    "blenderBoundsMax": [
+      0.550000011920929,
+      0.512499988079071,
+      0.762499988079071
+    ],
+    "unitySizeXYZ": [
+      1.100000023841858,
+      0.762499988079071,
+      1.0250000357627869
+    ],
+    "triangles": 2532,
+    "meshAudit": [
+      {
+        "mesh": "LivingDesk_Body",
+        "triangles": 1392,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0
+      },
+      {
+        "mesh": "LivingDesk_FixedStool",
+        "triangles": 1140,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0
+      }
+    ],
+    "anchorsBlender": {
+      "MealSurface": [
+        0.0,
+        0.23749998211860657,
+        0.765999972820282
+      ],
+      "SeatTop": [
+        0.0,
+        -0.3225000202655792,
+        0.4650000035762787
+      ]
+    },
+    "materials": {
+      "HM_ClinicalWhite": {
+        "baseColor": [
+          0.72,
+          0.76,
+          0.77,
+          1
+        ],
+        "metallic": 0.12,
+        "smoothness": 0.52,
+        "emission": 0
+      },
+      "HM_BlackFrame": {
+        "baseColor": [
+          0.025,
+          0.035,
+          0.04,
+          1
+        ],
+        "metallic": 0.65,
+        "smoothness": 0.63,
+        "emission": 0
+      },
+      "HM_BrushedSteel": {
+        "baseColor": [
+          0.39,
+          0.45,
+          0.48,
+          1
+        ],
+        "metallic": 0.85,
+        "smoothness": 0.6599999999999999,
+        "emission": 0
+      },
+      "HM_Linen": {
+        "baseColor": [
+          0.63,
+          0.7,
+          0.68,
+          1
+        ],
+        "metallic": 0,
+        "smoothness": 0.19999999999999996,
+        "emission": 0
+      },
+      "HM_BlueLED": {
+        "baseColor": [
+          0.12,
+          0.65,
+          0.85,
+          1
+        ],
+        "metallic": 0.12,
+        "smoothness": 0.6799999999999999,
+        "emission": 0.8
+      },
+      "HM_FoodNeutral": {
+        "baseColor": [
+          0.42,
+          0.34,
+          0.2,
+          1
+        ],
+        "metallic": 0,
+        "smoothness": 0.17000000000000004,
+        "emission": 0
+      },
+      "HM_Screen": {
+        "baseColor": [
+          0.012,
+          0.032,
+          0.04,
+          1
+        ],
+        "metallic": 0.05,
+        "smoothness": 0.6599999999999999,
+        "emission": 0
+      },
+      "HM_PaleLabel": {
+        "baseColor": [
+          0.72,
+          0.86,
+          0.87,
+          1
+        ],
+        "metallic": 0.05,
+        "smoothness": 0.45999999999999996,
+        "emission": 0
+      }
+    },
+    "visualOnly": true,
+    "note": "Disconnected manufactured pieces have intentional joint intersections; closed surfaces and area audited. No Collider or runtime behavior."
+  },
+  {
+    "name": "MealTraySet",
+    "fbx": "C:\\GitHubProjects\\After_Seconds\\tmp\\Habitat_20261103\\LivingModels\\MealTraySet.fbx",
+    "sha256": "77c30d3a9ce1c1b0511a472c3677958d097ef4e751272cc1927055e99ed18783",
+    "pivot": "bottom-center",
+    "frontMarker": "HM_FrontMarker.001",
+    "frontBlender": [
+      0,
+      -1,
+      0
+    ],
+    "blenderBoundsMin": [
+      -0.22499999403953552,
+      -0.15000002086162567,
+      1.0332579236660422e-09
+    ],
+    "blenderBoundsMax": [
+      0.22499997913837433,
+      0.15000000596046448,
+      0.11200004070997238
+    ],
+    "unitySizeXYZ": [
+      0.44999997317790985,
+      0.11200003967671446,
+      0.30000002682209015
+    ],
+    "triangles": 2944,
+    "meshAudit": [
+      {
+        "mesh": "MealTraySet_Body",
+        "triangles": 2944,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0
+      }
+    ],
+    "anchorsBlender": {},
+    "materials": {
+      "HM_ClinicalWhite": {
+        "baseColor": [
+          0.72,
+          0.76,
+          0.77,
+          1
+        ],
+        "metallic": 0.12,
+        "smoothness": 0.52,
+        "emission": 0
+      },
+      "HM_BlackFrame": {
+        "baseColor": [
+          0.025,
+          0.035,
+          0.04,
+          1
+        ],
+        "metallic": 0.65,
+        "smoothness": 0.63,
+        "emission": 0
+      },
+      "HM_BrushedSteel": {
+        "baseColor": [
+          0.39,
+          0.45,
+          0.48,
+          1
+        ],
+        "metallic": 0.85,
+        "smoothness": 0.6599999999999999,
+        "emission": 0
+      },
+      "HM_Linen": {
+        "baseColor": [
+          0.63,
+          0.7,
+          0.68,
+          1
+        ],
+        "metallic": 0,
+        "smoothness": 0.19999999999999996,
+        "emission": 0
+      },
+      "HM_BlueLED": {
+        "baseColor": [
+          0.12,
+          0.65,
+          0.85,
+          1
+        ],
+        "metallic": 0.12,
+        "smoothness": 0.6799999999999999,
+        "emission": 0.8
+      },
+      "HM_FoodNeutral": {
+        "baseColor": [
+          0.42,
+          0.34,
+          0.2,
+          1
+        ],
+        "metallic": 0,
+        "smoothness": 0.17000000000000004,
+        "emission": 0
+      },
+      "HM_Screen": {
+        "baseColor": [
+          0.012,
+          0.032,
+          0.04,
+          1
+        ],
+        "metallic": 0.05,
+        "smoothness": 0.6599999999999999,
+        "emission": 0
+      },
+      "HM_PaleLabel": {
+        "baseColor": [
+          0.72,
+          0.86,
+          0.87,
+          1
+        ],
+        "metallic": 0.05,
+        "smoothness": 0.45999999999999996,
+        "emission": 0
+      }
+    },
+    "visualOnly": true,
+    "note": "Disconnected manufactured pieces have intentional joint intersections; closed surfaces and area audited. No Collider or runtime behavior."
+  },
+  {
+    "name": "BedLinen",
+    "fbx": "C:\\GitHubProjects\\After_Seconds\\tmp\\Habitat_20261103\\LivingModels\\BedLinen.fbx",
+    "sha256": "bba008d2e5b25aa4352d358accd6c0b5bcab522db388f80f9105982ac32c0af4",
+    "pivot": "bottom-center",
+    "frontMarker": "HM_FrontMarker.002",
+    "frontBlender": [
+      0,
+      -1,
+      0
+    ],
+    "blenderBoundsMin": [
+      -0.33500000834465027,
+      -0.7224999666213989,
+      0.0
+    ],
+    "blenderBoundsMax": [
+      0.33500000834465027,
+      0.7225000858306885,
+      0.1340000033378601
+    ],
+    "unitySizeXYZ": [
+      0.6700000166893005,
+      0.1340000033378601,
+      1.4450000524520874
+    ],
+    "triangles": 768,
+    "meshAudit": [
+      {
+        "mesh": "BedLinen_Body",
+        "triangles": 768,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0
+      }
+    ],
+    "anchorsBlender": {},
+    "materials": {
+      "HM_ClinicalWhite": {
+        "baseColor": [
+          0.72,
+          0.76,
+          0.77,
+          1
+        ],
+        "metallic": 0.12,
+        "smoothness": 0.52,
+        "emission": 0
+      },
+      "HM_BlackFrame": {
+        "baseColor": [
+          0.025,
+          0.035,
+          0.04,
+          1
+        ],
+        "metallic": 0.65,
+        "smoothness": 0.63,
+        "emission": 0
+      },
+      "HM_BrushedSteel": {
+        "baseColor": [
+          0.39,
+          0.45,
+          0.48,
+          1
+        ],
+        "metallic": 0.85,
+        "smoothness": 0.6599999999999999,
+        "emission": 0
+      },
+      "HM_Linen": {
+        "baseColor": [
+          0.63,
+          0.7,
+          0.68,
+          1
+        ],
+        "metallic": 0,
+        "smoothness": 0.19999999999999996,
+        "emission": 0
+      },
+      "HM_BlueLED": {
+        "baseColor": [
+          0.12,
+          0.65,
+          0.85,
+          1
+        ],
+        "metallic": 0.12,
+        "smoothness": 0.6799999999999999,
+        "emission": 0.8
+      },
+      "HM_FoodNeutral": {
+        "baseColor": [
+          0.42,
+          0.34,
+          0.2,
+          1
+        ],
+        "metallic": 0,
+        "smoothness": 0.17000000000000004,
+        "emission": 0
+      },
+      "HM_Screen": {
+        "baseColor": [
+          0.012,
+          0.032,
+          0.04,
+          1
+        ],
+        "metallic": 0.05,
+        "smoothness": 0.6599999999999999,
+        "emission": 0
+      },
+      "HM_PaleLabel": {
+        "baseColor": [
+          0.72,
+          0.86,
+          0.87,
+          1
+        ],
+        "metallic": 0.05,
+        "smoothness": 0.45999999999999996,
+        "emission": 0
+      }
+    },
+    "visualOnly": true,
+    "note": "Disconnected manufactured pieces have intentional joint intersections; closed surfaces and area audited. No Collider or runtime behavior."
+  },
+  {
+    "name": "HygieneStation",
+    "fbx": "C:\\GitHubProjects\\After_Seconds\\tmp\\Habitat_20261103\\LivingModels\\HygieneStation.fbx",
+    "sha256": "a1ca871d8b1d54fc4cb725bf129c91b6bd719ab166df1bc5eb370aacef771fbc",
+    "pivot": "bottom-center",
+    "frontMarker": "HM_FrontMarker.003",
+    "frontBlender": [
+      0,
+      -1,
+      0
+    ],
+    "blenderBoundsMin": [
+      -0.8029999732971191,
+      -0.5572599768638611,
+      0.0
+    ],
+    "blenderBoundsMax": [
+      0.8029999732971191,
+      0.5572599768638611,
+      1.409999966621399
+    ],
+    "unitySizeXYZ": [
+      1.6059999465942383,
+      1.409999966621399,
+      1.1145199537277222
+    ],
+    "triangles": 4572,
+    "meshAudit": [
+      {
+        "mesh": "HygieneStation_Body",
+        "triangles": 4572,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0
+      }
+    ],
+    "anchorsBlender": {},
+    "materials": {
+      "HM_ClinicalWhite": {
+        "baseColor": [
+          0.72,
+          0.76,
+          0.77,
+          1
+        ],
+        "metallic": 0.12,
+        "smoothness": 0.52,
+        "emission": 0
+      },
+      "HM_BlackFrame": {
+        "baseColor": [
+          0.025,
+          0.035,
+          0.04,
+          1
+        ],
+        "metallic": 0.65,
+        "smoothness": 0.63,
+        "emission": 0
+      },
+      "HM_BrushedSteel": {
+        "baseColor": [
+          0.39,
+          0.45,
+          0.48,
+          1
+        ],
+        "metallic": 0.85,
+        "smoothness": 0.6599999999999999,
+        "emission": 0
+      },
+      "HM_Linen": {
+        "baseColor": [
+          0.63,
+          0.7,
+          0.68,
+          1
+        ],
+        "metallic": 0,
+        "smoothness": 0.19999999999999996,
+        "emission": 0
+      },
+      "HM_BlueLED": {
+        "baseColor": [
+          0.12,
+          0.65,
+          0.85,
+          1
+        ],
+        "metallic": 0.12,
+        "smoothness": 0.6799999999999999,
+        "emission": 0.8
+      },
+      "HM_FoodNeutral": {
+        "baseColor": [
+          0.42,
+          0.34,
+          0.2,
+          1
+        ],
+        "metallic": 0,
+        "smoothness": 0.17000000000000004,
+        "emission": 0
+      },
+      "HM_Screen": {
+        "baseColor": [
+          0.012,
+          0.032,
+          0.04,
+          1
+        ],
+        "metallic": 0.05,
+        "smoothness": 0.6599999999999999,
+        "emission": 0
+      },
+      "HM_PaleLabel": {
+        "baseColor": [
+          0.72,
+          0.86,
+          0.87,
+          1
+        ],
+        "metallic": 0.05,
+        "smoothness": 0.45999999999999996,
+        "emission": 0
+      }
+    },
+    "visualOnly": true,
+    "note": "Disconnected manufactured pieces have intentional joint intersections; closed surfaces and area audited. No Collider or runtime behavior."
+  },
+  {
+    "name": "TestMonitorStand",
+    "fbx": "C:\\GitHubProjects\\After_Seconds\\tmp\\Habitat_20261103\\LivingModels\\TestMonitorStand.fbx",
+    "sha256": "c6c8d1f177c79de75e957f0ab0e59273a9f64431be34dd06c41e64503fb69a6c",
+    "pivot": "bottom-center",
+    "frontMarker": "HM_FrontMarker.004",
+    "frontBlender": [
+      0,
+      -1,
+      0
+    ],
+    "blenderBoundsMin": [
+      -0.27000001072883606,
+      -0.1899999976158142,
+      0.0
+    ],
+    "blenderBoundsMax": [
+      0.27000004053115845,
+      0.1899999976158142,
+      1.5199999809265137
+    ],
+    "unitySizeXYZ": [
+      0.5400000512599945,
+      1.5199999809265137,
+      0.3799999952316284
+    ],
+    "triangles": 3056,
+    "meshAudit": [
+      {
+        "mesh": "TestMonitorStand_Body",
+        "triangles": 3056,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0,
+        "zeroAreaFaces": 0
+      }
+    ],
+    "anchorsBlender": {},
+    "materials": {
+      "HM_ClinicalWhite": {
+        "baseColor": [
+          0.72,
+          0.76,
+          0.77,
+          1
+        ],
+        "metallic": 0.12,
+        "smoothness": 0.52,
+        "emission": 0
+      },
+      "HM_BlackFrame": {
+        "baseColor": [
+          0.025,
+          0.035,
+          0.04,
+          1
+        ],
+        "metallic": 0.65,
+        "smoothness": 0.63,
+        "emission": 0
+      },
+      "HM_BrushedSteel": {
+        "baseColor": [
+          0.39,
+          0.45,
+          0.48,
+          1
+        ],
+        "metallic": 0.85,
+        "smoothness": 0.6599999999999999,
+        "emission": 0
+      },
+      "HM_Linen": {
+        "baseColor": [
+          0.63,
+          0.7,
+          0.68,
+          1
+        ],
+        "metallic": 0,
+        "smoothness": 0.19999999999999996,
+        "emission": 0
+      },
+      "HM_BlueLED": {
+        "baseColor": [
+          0.12,
+          0.65,
+          0.85,
+          1
+        ],
+        "metallic": 0.12,
+        "smoothness": 0.6799999999999999,
+        "emission": 0.8
+      },
+      "HM_FoodNeutral": {
+        "baseColor": [
+          0.42,
+          0.34,
+          0.2,
+          1
+        ],
+        "metallic": 0,
+        "smoothness": 0.17000000000000004,
+        "emission": 0
+      },
+      "HM_Screen": {
+        "baseColor": [
+          0.012,
+          0.032,
+          0.04,
+          1
+        ],
+        "metallic": 0.05,
+        "smoothness": 0.6599999999999999,
+        "emission": 0
+      },
+      "HM_PaleLabel": {
+        "baseColor": [
+          0.72,
+          0.86,
+          0.87,
+          1
+        ],
+        "metallic": 0.05,
+        "smoothness": 0.45999999999999996,
+        "emission": 0
+      }
+    },
+    "visualOnly": true,
+    "note": "Disconnected manufactured pieces have intentional joint intersections; closed surfaces and area audited. No Collider or runtime behavior."
+  }
+]

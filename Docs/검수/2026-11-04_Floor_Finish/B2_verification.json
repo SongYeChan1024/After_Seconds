@@ -1,0 +1,186 @@
+{
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B2_Machinery.unity",
+  "dirty": false,
+  "prefab": "Assets/Afrer_Seconds/05.Model/Environment/B2/B2_CompletePipeNetwork_20261104.prefab",
+  "newColliders": 0,
+  "newRuntimeBehaviours": 0,
+  "protectedSpaceViolations": 0,
+  "clearances": [
+    {
+      "id": "R07_Pit_NoBridge",
+      "verticesInside": 0
+    },
+    {
+      "id": "R07_ThrowLane",
+      "verticesInside": 0
+    },
+    {
+      "id": "R07_FarDeck_NoTargets",
+      "verticesInside": 0
+    },
+    {
+      "id": "R08_RearThrowAisle",
+      "verticesInside": 0
+    },
+    {
+      "id": "R08_HatchVertical",
+      "verticesInside": 0
+    },
+    {
+      "id": "R08_WestWalking",
+      "verticesInside": 0
+    },
+    {
+      "id": "R08_EastWalking",
+      "verticesInside": 0
+    }
+  ],
+  "meshes": [
+    {
+      "name": "R07_Supply",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/B2_R07_Supply_PipeMesh_20261104.asset",
+      "vertices": 932,
+      "triangles": 1856,
+      "boundaryEdges": 0,
+      "overusedEdges": 0
+    },
+    {
+      "name": "R07_Fittings",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/B2_R07_Fittings_PipeMesh_20261104.asset",
+      "vertices": 17748,
+      "triangles": 33408,
+      "boundaryEdges": 0,
+      "overusedEdges": 0
+    },
+    {
+      "name": "R07_SupplyBand",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/B2_R07_SupplyBand_PipeMesh_20261104.asset",
+      "vertices": 816,
+      "triangles": 1536,
+      "boundaryEdges": 0,
+      "overusedEdges": 0
+    },
+    {
+      "name": "R07_Support",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/B2_R07_Support_PipeMesh_20261104.asset",
+      "vertices": 2176,
+      "triangles": 4096,
+      "boundaryEdges": 0,
+      "overusedEdges": 0
+    },
+    {
+      "name": "R07_Return",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/B2_R07_Return_PipeMesh_20261104.asset",
+      "vertices": 932,
+      "triangles": 1856,
+      "boundaryEdges": 0,
+      "overusedEdges": 0
+    },
+    {
+      "name": "R07_ReturnBand",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/B2_R07_ReturnBand_PipeMesh_20261104.asset",
+      "vertices": 884,
+      "triangles": 1664,
+      "boundaryEdges": 0,
+      "overusedEdges": 0
+    },
+    {
+      "name": "R08_Supply",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/B2_R08_Supply_PipeMesh_20261104.asset",
+      "vertices": 788,
+      "triangles": 1568,
+      "boundaryEdges": 0,
+      "overusedEdges": 0
+    },
+    {
+      "name": "R08_Fittings",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/B2_R08_Fittings_PipeMesh_20261104.asset",
+      "vertices": 12716,
+      "triangles": 23936,
+      "boundaryEdges": 0,
+      "overusedEdges": 0
+    },
+    {
+      "name": "R08_SupplyBand",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/B2_R08_SupplyBand_PipeMesh_20261104.asset",
+      "vertices": 578,
+      "triangles": 1088,
+      "boundaryEdges": 0,
+      "overusedEdges": 0
+    },
+    {
+      "name": "R08_Support",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/B2_R08_Support_PipeMesh_20261104.asset",
+      "vertices": 1904,
+      "triangles": 3584,
+      "boundaryEdges": 0,
+      "overusedEdges": 0
+    },
+    {
+      "name": "R08_Return",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/B2_R08_Return_PipeMesh_20261104.asset",
+      "vertices": 788,
+      "triangles": 1568,
+      "boundaryEdges": 0,
+      "overusedEdges": 0
+    },
+    {
+      "name": "R08_ReturnBand",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/B2_R08_ReturnBand_PipeMesh_20261104.asset",
+      "vertices": 578,
+      "triangles": 1088,
+      "boundaryEdges": 0,
+      "overusedEdges": 0
+    }
+  ],
+  "proceduralBoundaryEdges": 0,
+  "proceduralOverusedEdges": 0,
+  "legacyCount": 6,
+  "legacyEnabledRenderers": 0,
+  "roofClearances": [
+    {
+      "room": "R07",
+      "topY": 3.938,
+      "ceilingY": 4.0
+    },
+    {
+      "room": "R08",
+      "topY": 5.69,
+      "ceilingY": 6.0
+    }
+  ],
+  "clones": [
+    {
+      "name": "Connected_Valve_Reactor",
+      "world": [
+        5.54234934,
+        2.66,
+        4.949899
+      ]
+    },
+    {
+      "name": "Connected_Gauge_Reactor",
+      "world": [
+        5.34500027,
+        3.1,
+        4.95
+      ]
+    },
+    {
+      "name": "Connected_Valve_Centrifuge",
+      "world": [
+        -5.54234934,
+        2.12,
+        4.95010042
+      ]
+    },
+    {
+      "name": "Connected_Gauge_Centrifuge",
+      "world": [
+        -5.34500027,
+        2.72,
+        4.95
+      ]
+    }
+  ]
+}

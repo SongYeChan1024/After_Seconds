@@ -1,0 +1,305 @@
+{
+  "name": "Env_RoofPanel",
+  "sourcePath": "Original GLB preserved locally; SHA256 identifies source",
+  "sourceSha256": "fc4d61b24e0e32204505daf39892395be46e6cc88d3dae544cae8f5fe38f165c",
+  "fbx": "Assets/Afrer_Seconds/05.Model/Environment/B2/Env_RoofPanel.fbx",
+  "fbxSha256": "0f6940e745f699c45a76e4e276a34cd5174197adefadb7b506614d749e5f089e",
+  "blenderBoundsMin": [
+    -0.50073182582855225,
+    -0.48829203844070435,
+    0.0
+  ],
+  "blenderBoundsMax": [
+    0.50073182582855225,
+    0.48829203844070435,
+    0.15897874534130096
+  ],
+  "blenderSizeXYZ": [
+    1.0014636516571045,
+    0.97658407688140869,
+    0.15897874534130096
+  ],
+  "unitySizeXYZ": [
+    1.0014636516571045,
+    0.15897874534130096,
+    0.97658407688140869
+  ],
+  "triangles": 63958,
+  "meshes": [
+    {
+      "name": "texture_mapping",
+      "source": {
+        "triangles": 500000,
+        "vertices": 249752,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "zeroAreaFaces": 0
+      },
+      "attempts": [
+        {
+          "triangles": 31998,
+          "vertices": 15749,
+          "boundaryEdges": 0,
+          "overusedEdges": 0,
+          "zeroAreaFaces": 0,
+          "strictCrossingPairs": 16,
+          "crossingPairsSample": [
+            [
+              10316,
+              10839
+            ],
+            [
+              10464,
+              10472
+            ],
+            [
+              6307,
+              26214
+            ],
+            [
+              13082,
+              28725
+            ],
+            [
+              11018,
+              11286
+            ],
+            [
+              8683,
+              27015
+            ],
+            [
+              16845,
+              29429
+            ],
+            [
+              29425,
+              29429
+            ],
+            [
+              16703,
+              29624
+            ],
+            [
+              16704,
+              29624
+            ],
+            [
+              16794,
+              29624
+            ],
+            [
+              16512,
+              29624
+            ],
+            [
+              24108,
+              24312
+            ],
+            [
+              21546,
+              21882
+            ],
+            [
+              23871,
+              24755
+            ],
+            [
+              23094,
+              31908
+            ]
+          ]
+        },
+        {
+          "triangles": 48000,
+          "vertices": 23752,
+          "boundaryEdges": 0,
+          "overusedEdges": 0,
+          "zeroAreaFaces": 0,
+          "strictCrossingPairs": 14,
+          "crossingPairsSample": [
+            [
+              15115,
+              38912
+            ],
+            [
+              13664,
+              41082
+            ],
+            [
+              39951,
+              40214
+            ],
+            [
+              25428,
+              44193
+            ],
+            [
+              25426,
+              44193
+            ],
+            [
+              19493,
+              19502
+            ],
+            [
+              20350,
+              43299
+            ],
+            [
+              15979,
+              41786
+            ],
+            [
+              25211,
+              44484
+            ],
+            [
+              25213,
+              44484
+            ],
+            [
+              25212,
+              44484
+            ],
+            [
+              16675,
+              17047
+            ],
+            [
+              36038,
+              37374
+            ],
+            [
+              36899,
+              37102
+            ]
+          ]
+        },
+        {
+          "triangles": 64000,
+          "vertices": 31752,
+          "boundaryEdges": 0,
+          "overusedEdges": 0,
+          "zeroAreaFaces": 0,
+          "strictCrossingPairs": 13,
+          "crossingPairsSample": [
+            [
+              11419,
+              12147
+            ],
+            [
+              10661,
+              12834
+            ],
+            [
+              53360,
+              53708
+            ],
+            [
+              28175,
+              28302
+            ],
+            [
+              57425,
+              57620
+            ],
+            [
+              57424,
+              57620
+            ],
+            [
+              25343,
+              56959
+            ],
+            [
+              22345,
+              22817
+            ],
+            [
+              27513,
+              28617
+            ],
+            [
+              27513,
+              28618
+            ],
+            [
+              46724,
+              63776
+            ],
+            [
+              48152,
+              49931
+            ],
+            [
+              48152,
+              49930
+            ]
+          ]
+        }
+      ],
+      "final": {
+        "triangles": 63958,
+        "vertices": 31737,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "zeroAreaFaces": 0,
+        "strictCrossingPairs": 0,
+        "crossingPairsSample": [],
+        "patchSteps": [
+          {
+            "iteration": 0,
+            "removedFaces": 98,
+            "rebuiltFaces": 74
+          },
+          {
+            "iteration": 1,
+            "removedFaces": 40,
+            "rebuiltFaces": 22
+          }
+        ],
+        "relativeVolumeChange": 7.78444347296663E-05
+      }
+    }
+  ],
+  "materials": [
+    {
+      "name": "Env_RoofPanel_Material",
+      "baseColorFactor": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 1.0,
+      "BaseColor": "Assets/Afrer_Seconds/05.Model/Environment/B2/Textures/Env_RoofPanel_BaseColor.png",
+      "Normal": "Assets/Afrer_Seconds/05.Model/Environment/B2/Textures/Env_RoofPanel_Normal.png"
+    }
+  ],
+  "textures": [
+    {
+      "semantic": "BaseColor",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B2/Textures/Env_RoofPanel_BaseColor.png",
+      "width": 2048,
+      "height": 2048,
+      "colorSpace": "sRGB",
+      "assetPath": "Assets/Afrer_Seconds/05.Model/Environment/B2/Textures/Env_RoofPanel_BaseColor.png"
+    },
+    {
+      "semantic": "Normal",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B2/Textures/Env_RoofPanel_Normal.png",
+      "width": 2048,
+      "height": 2048,
+      "colorSpace": "linear",
+      "assetPath": "Assets/Afrer_Seconds/05.Model/Environment/B2/Textures/Env_RoofPanel_Normal.png"
+    }
+  ],
+  "pivot": "bottom-center",
+  "sourceFlowId": "3ace28ca-d501-4921-b5a8-0875b2468245",
+  "visualOnly": true,
+  "preparation": "UV-preserving collapse with adaptive density, 40 degree sharp edges and weighted normals",
+  "modelAssetPath": "Assets/Afrer_Seconds/05.Model/Environment/B2/Env_RoofPanel.fbx",
+  "prefabAssetPath": "Assets/Afrer_Seconds/05.Model/Environment/B2/Env_RoofPanel.prefab"
+}

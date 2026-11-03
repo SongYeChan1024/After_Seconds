@@ -1,0 +1,251 @@
+{
+  "name": "Env_SteelColumn",
+  "sourcePath": "Original GLB preserved locally; SHA256 identifies source",
+  "sourceSha256": "eb0a860069f50c39dcc7424e34c8f388107d2db979d2f968ab12cb1171eefa64",
+  "fbx": "Assets/Afrer_Seconds/05.Model/Environment/Common/Env_SteelColumn.fbx",
+  "fbxSha256": "c484c5f760e00a29f3709c8fe2a84d2b657f437ca8be0743cb25f586aa846dd2",
+  "blenderBoundsMin": [
+    -0.15081223845481873,
+    -0.15123565495014191,
+    0.0
+  ],
+  "blenderBoundsMax": [
+    0.15081223845481873,
+    0.15123565495014191,
+    0.98971426486968994
+  ],
+  "blenderSizeXYZ": [
+    0.30162447690963745,
+    0.30247130990028381,
+    0.98971426486968994
+  ],
+  "unitySizeXYZ": [
+    0.30162447690963745,
+    0.98971426486968994,
+    0.30247130990028381
+  ],
+  "triangles": 47982,
+  "meshes": [
+    {
+      "name": "texture_mapping",
+      "source": {
+        "triangles": 500000,
+        "vertices": 249980,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "zeroAreaFaces": 0
+      },
+      "attempts": [
+        {
+          "triangles": 31998,
+          "vertices": 15977,
+          "boundaryEdges": 0,
+          "overusedEdges": 0,
+          "zeroAreaFaces": 0,
+          "strictCrossingPairs": 12,
+          "crossingPairsSample": [
+            [
+              939,
+              947
+            ],
+            [
+              668,
+              939
+            ],
+            [
+              671,
+              939
+            ],
+            [
+              23880,
+              23962
+            ],
+            [
+              17529,
+              27649
+            ],
+            [
+              17529,
+              27650
+            ],
+            [
+              17533,
+              27656
+            ],
+            [
+              17533,
+              27655
+            ],
+            [
+              6383,
+              9062
+            ],
+            [
+              6383,
+              6404
+            ],
+            [
+              817,
+              836
+            ],
+            [
+              10065,
+              29498
+            ]
+          ]
+        },
+        {
+          "triangles": 47998,
+          "vertices": 23977,
+          "boundaryEdges": 0,
+          "overusedEdges": 0,
+          "zeroAreaFaces": 0,
+          "strictCrossingPairs": 4,
+          "crossingPairsSample": [
+            [
+              9609,
+              13559
+            ],
+            [
+              9609,
+              9639
+            ],
+            [
+              31455,
+              31878
+            ],
+            [
+              21116,
+              21214
+            ]
+          ]
+        },
+        {
+          "triangles": 63998,
+          "vertices": 31977,
+          "boundaryEdges": 0,
+          "overusedEdges": 0,
+          "zeroAreaFaces": 0,
+          "strictCrossingPairs": 4,
+          "crossingPairsSample": [
+            [
+              27821,
+              27826
+            ],
+            [
+              28662,
+              29408
+            ],
+            [
+              28661,
+              29408
+            ],
+            [
+              30124,
+              30171
+            ]
+          ]
+        }
+      ],
+      "final": {
+        "triangles": 47982,
+        "vertices": 23973,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "zeroAreaFaces": 0,
+        "strictCrossingPairs": 0,
+        "crossingPairsSample": [],
+        "crossingPairs": []
+      }
+    }
+  ],
+  "materials": [
+    {
+      "name": "Env_SteelColumn_Material",
+      "baseColorFactor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 1.0,
+      "BaseColor": "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/Env_SteelColumn_BaseColor.png",
+      "Normal": "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/Env_SteelColumn_Normal.png"
+    }
+  ],
+  "textures": [
+    {
+      "semantic": "BaseColor",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/Env_SteelColumn_BaseColor.png",
+      "width": 2048,
+      "height": 2048,
+      "colorSpace": "sRGB",
+      "assetPath": "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/Env_SteelColumn_BaseColor.png"
+    },
+    {
+      "semantic": "Normal",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/Env_SteelColumn_Normal.png",
+      "width": 2048,
+      "height": 2048,
+      "colorSpace": "linear",
+      "assetPath": "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/Env_SteelColumn_Normal.png"
+    }
+  ],
+  "pivot": "bottom-center",
+  "sourceFlowId": "3ace28ca-d501-4921-b5a8-0875b2468245",
+  "visualOnly": true,
+  "preparation": "UV-preserving collapse with adaptive density, 40 degree sharp edges and weighted normals",
+  "exportRepair": [
+    {
+      "attempt": 0,
+      "measurements": [
+        {
+          "triangles": 47988,
+          "vertices": 23972,
+          "boundaryEdges": 0,
+          "overusedEdges": 0,
+          "zeroAreaFaces": 0,
+          "strictCrossingPairs": 2,
+          "crossingPairsSample": [
+            [
+              27702,
+              32220
+            ],
+            [
+              17510,
+              21002
+            ]
+          ],
+          "crossingPairs": [
+            [
+              27702,
+              32220
+            ],
+            [
+              17510,
+              21002
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "attempt": 1,
+      "measurements": [
+        {
+          "triangles": 47982,
+          "vertices": 23973,
+          "boundaryEdges": 0,
+          "overusedEdges": 0,
+          "zeroAreaFaces": 0,
+          "strictCrossingPairs": 0,
+          "crossingPairsSample": [],
+          "crossingPairs": []
+        }
+      ]
+    }
+  ],
+  "modelAssetPath": "Assets/Afrer_Seconds/05.Model/Environment/Common/Env_SteelColumn.fbx",
+  "prefabAssetPath": "Assets/Afrer_Seconds/05.Model/Environment/Common/Env_SteelColumn.prefab"
+}

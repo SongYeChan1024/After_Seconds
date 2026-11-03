@@ -1,0 +1,114 @@
+{
+  "baselineFiles": 2410,
+  "changedExistingFiles": [
+    "AGENTS.md",
+    "CLAUDE.md",
+    "Docs/AfterSeconds_메인기획서.md",
+    "Docs/이어하기_2026-11-03.md",
+    "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "Unity/README.md"
+  ],
+  "removedExistingFiles": [],
+  "protectedFiles": 1396,
+  "unexpectedProtectedChanges": [],
+  "newSourceAssets": [
+    "SourceAssets/SubjectHabitat/DualFoodHatch.blend",
+    "SourceAssets/SubjectHabitat/SubjectHabitat.blend"
+  ],
+  "unexpectedNewSourceAssets": [],
+  "modelFolderViolations": [],
+  "duplicateAssetGuids": [],
+  "missingReachableGuids": {},
+  "livingModels": [
+    {
+      "name": "LivingDesk",
+      "fbxShaMatchesManifest": true,
+      "correctedPrefabBoundsMatch": true,
+      "maximumBoundsError": 1.1615814199394947e-07,
+      "prefabUsedBySavedScene": true,
+      "prefabInstancesInSavedScene": 1,
+      "prefabDirectSceneGuidReferences": 17,
+      "trianglesMatch": true
+    },
+    {
+      "name": "MealTraySet",
+      "fbxShaMatchesManifest": true,
+      "correctedPrefabBoundsMatch": true,
+      "maximumBoundsError": 4.4822090150553606e-08,
+      "prefabUsedBySavedScene": true,
+      "prefabInstancesInSavedScene": 1,
+      "prefabDirectSceneGuidReferences": 13,
+      "trianglesMatch": true
+    },
+    {
+      "name": "BedLinen",
+      "fbxShaMatchesManifest": true,
+      "correctedPrefabBoundsMatch": true,
+      "maximumBoundsError": 1.6366213989593703e-07,
+      "prefabUsedBySavedScene": true,
+      "prefabInstancesInSavedScene": 1,
+      "prefabDirectSceneGuidReferences": 13,
+      "trianglesMatch": true
+    },
+    {
+      "name": "HygieneStation",
+      "fbxShaMatchesManifest": true,
+      "correctedPrefabBoundsMatch": true,
+      "maximumBoundsError": 2.3627227774269954e-07,
+      "prefabUsedBySavedScene": true,
+      "prefabInstancesInSavedScene": 1,
+      "prefabDirectSceneGuidReferences": 15,
+      "trianglesMatch": true
+    },
+    {
+      "name": "TestMonitorStand",
+      "fbxShaMatchesManifest": true,
+      "correctedPrefabBoundsMatch": true,
+      "maximumBoundsError": 3.0476837159509884e-07,
+      "prefabUsedBySavedScene": true,
+      "prefabInstancesInSavedScene": 1,
+      "prefabDirectSceneGuidReferences": 15,
+      "trianglesMatch": true
+    }
+  ],
+  "savedPodRootOverrides": {
+    "m_LocalScale.x": 3.0,
+    "m_LocalScale.y": 2.0,
+    "m_LocalScale.z": 3.0,
+    "m_LocalPosition.x": 0.0,
+    "m_LocalPosition.y": 0.0,
+    "m_LocalPosition.z": 10.32
+  },
+  "savedUserScaleAndPositionMatch": true,
+  "savedGuardRootOverrides": {
+    "m_LocalPosition.x": 0.0,
+    "m_LocalPosition.y": 0.0,
+    "m_LocalPosition.z": 5.064
+  },
+  "guardRootRadialDistanceFromPodCenter": 5.256,
+  "guardOutsidePod": true,
+  "hmSharedMaterialCount": 8,
+  "hmSharedMaterialPaths": [
+    "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/HM_BlackFrame.mat",
+    "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/HM_BlueLED.mat",
+    "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/HM_BrushedSteel.mat",
+    "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/HM_ClinicalWhite.mat",
+    "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/HM_FoodNeutral.mat",
+    "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/HM_Linen.mat",
+    "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/HM_PaleLabel.mat",
+    "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/HM_Screen.mat"
+  ],
+  "newAssetFiles": 54,
+  "temporaryEditorFolderExists": false,
+  "allowedDocumentationUpdates": [
+    "Unity/README.md"
+  ],
+  "hatchFbxShaMatchesManifest": {
+    "shellVisual": true,
+    "shellCollision": true,
+    "hatchVisual": true,
+    "hatchCollision": true
+  },
+  "hatchFourFaceMaterialAudit": true,
+  "pass": true
+}

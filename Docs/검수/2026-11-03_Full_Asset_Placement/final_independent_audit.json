@@ -1,0 +1,711 @@
+{
+  "scope": "Independent read-only files/GUID/SHA/folder audit. No Unity execution or visual/layout judgment.",
+  "approvedSourceAssetCounts": {
+    "originalV001Eight": 8,
+    "V002": 26,
+    "newV001Fourteen": 14,
+    "total": 48,
+    "covered": 48
+  },
+  "approved48Coverage": [
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_CeilingPanel_4m.prefab",
+      "guid": "b18e40ea3b10b354aa1207d61cc8ff21",
+      "dependency_scene_instances": {
+        "Level_1F_Checkpoint": 32,
+        "Level_B1_Experiment": 15,
+        "Level_B2_Machinery": 13,
+        "Level_B3_SampleStorage": 23,
+        "Level_B4_Observation": 20,
+        "Level_B5_Isolation": 21
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_ConcreteWall_4m.prefab",
+      "guid": "ec8e11c3cec907a4f9182232f8037b28",
+      "dependency_scene_instances": {
+        "Level_B1_Experiment": 14,
+        "Level_B3_SampleStorage": 24,
+        "Level_B4_Observation": 36,
+        "Level_B5_Isolation": 6
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_FireDoorWall_3m.prefab",
+      "guid": "c356e5498ffa12d4e811a7be459fe023",
+      "dependency_scene_instances": {
+        "Level_B5_Isolation": 1
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_FloorSlab_4m.prefab",
+      "guid": "47f78a9c89316c64c866d6c46b452485",
+      "dependency_scene_instances": {
+        "Level_1F_Checkpoint": 23,
+        "Level_B2_Machinery": 13,
+        "Level_B3_SampleStorage": 21,
+        "Level_B4_Observation": 20,
+        "Level_B5_Isolation": 18
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_MetalWall_4m.prefab",
+      "guid": "d6e1ee7442acf904fa62e734428e1114",
+      "dependency_scene_instances": {
+        "Level_1F_Checkpoint": 24,
+        "Level_B2_Machinery": 40,
+        "Level_B5_Isolation": 6
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_ObservationWall_4m.prefab",
+      "guid": "9ae252edfa3daef41a33d71239a33487",
+      "dependency_scene_instances": {
+        "Level_B5_Isolation": 2
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Environment/Common/U01_PipeStraight.prefab",
+      "guid": "efc2b96c9c3bf3e4584f906b7d655de7",
+      "dependency_scene_instances": {
+        "Level_B2_Machinery": 3,
+        "Level_B5_Isolation": 3
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Environment/Common/U02_PipeElbow90.prefab",
+      "guid": "26aad1384a5dc6945b3b5c0bcf9ed319",
+      "dependency_scene_instances": {
+        "Level_B2_Machinery": 1,
+        "Level_B5_Isolation": 1
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Environment/Common/U03_HandwheelValve.prefab",
+      "guid": "1bb5d38ed6b65c746a70f6382089e43f",
+      "dependency_scene_instances": {
+        "Level_B2_Machinery": 1,
+        "Level_B5_Isolation": 1
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Environment/Common/U04_DuctStraight.prefab",
+      "guid": "c76792474be538a42b3e055fa4ec4493",
+      "dependency_scene_instances": {
+        "Level_1F_Checkpoint": 3,
+        "Level_B1_Experiment": 3,
+        "Level_B4_Observation": 3
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Environment/Common/U05_CableTrayStraight.prefab",
+      "guid": "d5d3fc1d39cd1144b8618ab99d486e08",
+      "dependency_scene_instances": {
+        "Level_B2_Machinery": 2,
+        "Level_B3_SampleStorage": 2
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Environment/Common/U06_WallVentGrille.prefab",
+      "guid": "dfdc04b437470c245a9bb9448916f06e",
+      "dependency_scene_instances": {
+        "Level_1F_Checkpoint": 1,
+        "Level_B1_Experiment": 1,
+        "Level_B2_Machinery": 1,
+        "Level_B3_SampleStorage": 1,
+        "Level_B4_Observation": 1,
+        "Level_B5_Isolation": 1
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Environment/Common/U07_PressureGauge.prefab",
+      "guid": "f6dc22ddd377e6b439f85b1e8ce4a76a",
+      "dependency_scene_instances": {
+        "Level_B2_Machinery": 1,
+        "Level_B5_Isolation": 1
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/1F/1F_SecurityInspectionCounter.prefab",
+      "guid": "37ae82208f5197a4d986dbe65071e2d6",
+      "dependency_scene_instances": {
+        "Level_1F_Checkpoint": 1
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/1F/P10_CargoInspectionScanner.prefab",
+      "guid": "8214463a164360847971918a116953c2",
+      "dependency_scene_instances": {
+        "Level_1F_Checkpoint": 1
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/1F/P11_CargoHandTruck.prefab",
+      "guid": "4b2dbad7b6ac8e242bf6315e1e8071e2",
+      "dependency_scene_instances": {
+        "Level_1F_Checkpoint": 1
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/1F/P12_SteelPallet.prefab",
+      "guid": "6897068c7ee14b44d9f73e8ccf2ef26c",
+      "dependency_scene_instances": {
+        "Level_1F_Checkpoint": 3
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/B1/B1_ExperimentServicePanel.prefab",
+      "guid": "8764b35b3ea78a14b98c88c845df0449",
+      "dependency_scene_instances": {
+        "Level_B1_Experiment": 1
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/B1/P08_BenchtopInstrument.prefab",
+      "guid": "8fccf308486de1c4ab771361b0295835",
+      "dependency_scene_instances": {
+        "Level_B1_Experiment": 1
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/B2/B2_ControlDeskIsland.prefab",
+      "guid": "ea18a7ff50ea09943bafe02cad193ef1",
+      "dependency_scene_instances": {
+        "Level_B2_Machinery": 2
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/B3/B3_DecontaminationColumn.prefab",
+      "guid": "3817bdd81cc341946a5cf3dec3c499e3",
+      "dependency_scene_instances": {
+        "Level_B3_SampleStorage": 2
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/B3/P06_SampleFreezer.prefab",
+      "guid": "3a9274ab077ff4f44b00fc90d04c46a7",
+      "dependency_scene_instances": {
+        "Level_B3_SampleStorage": 1
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/B4/B4_ObservationMonitorBank.prefab",
+      "guid": "d62aadf8e3e54074cbf2d9cbcc093d5f",
+      "dependency_scene_instances": {
+        "Level_B4_Observation": 2
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/B5/B5_IsolationMonitoringConsole.prefab",
+      "guid": "1d562770992e2394a937b0b1e6fa76ff",
+      "dependency_scene_instances": {
+        "Level_B5_Isolation": 2
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/B5/P01_IsolationBunk.prefab",
+      "guid": "61faa0b482eb0d046b015b2479697158",
+      "dependency_scene_instances": {
+        "Level_B5_Isolation": 1
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/B5/Props_CoolingPump.prefab",
+      "guid": "562a9094c44d7f341b717d68ad9c8156",
+      "dependency_scene_instances": {
+        "Level_B5_Isolation": 2
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/B5/Props_ElectricalCabinet.prefab",
+      "guid": "0eb817da9e255a14fb6a6553f52ab263",
+      "dependency_scene_instances": {
+        "Level_B5_Isolation": 2
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/Common/P02_WallStorageCabinet.prefab",
+      "guid": "b0094822bf7a7f24a95645f34e81274a",
+      "dependency_scene_instances": {
+        "Level_B2_Machinery": 1,
+        "Level_B3_SampleStorage": 1,
+        "Level_B5_Isolation": 1
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/Common/P03_SecurityCamera.prefab",
+      "guid": "a8374500e227ebd498e7e636cade5c9b",
+      "dependency_scene_instances": {
+        "Level_1F_Checkpoint": 2,
+        "Level_B3_SampleStorage": 1,
+        "Level_B4_Observation": 1,
+        "Level_B5_Isolation": 1
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/Common/P04_RecordsCabinet.prefab",
+      "guid": "5ea462722e1b4c24a9f049abe07d60f2",
+      "dependency_scene_instances": {
+        "Level_B1_Experiment": 1,
+        "Level_B4_Observation": 1
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/Common/P05_SampleCanister.prefab",
+      "guid": "dba21bd6d506b6145ad0489583b0f75a",
+      "dependency_scene_instances": {
+        "Level_B3_SampleStorage": 4
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/Common/P07_SealedWasteBin.prefab",
+      "guid": "51f4e7dfd3c206345bd4267f725e6f51",
+      "dependency_scene_instances": {
+        "Level_B1_Experiment": 1,
+        "Level_B3_SampleStorage": 1
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/Common/P09_LaboratoryTrolley.prefab",
+      "guid": "0b51ee75413570941be2faec3258fe57",
+      "dependency_scene_instances": {
+        "Level_B1_Experiment": 1,
+        "Level_B3_SampleStorage": 1
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/Common/P13_LogisticsTote.prefab",
+      "guid": "dce731da464d03242b03c91379df6dbd",
+      "dependency_scene_instances": {
+        "Level_1F_Checkpoint": 5,
+        "Level_B1_Experiment": 1,
+        "Level_B2_Machinery": 4,
+        "Level_B3_SampleStorage": 1,
+        "Level_B4_Observation": 4,
+        "Level_B5_Isolation": 3
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Environment/1F/Env_ExteriorCorner.prefab",
+      "guid": "44b9d2130593ce449bd8db6a7cf14cbd",
+      "dependency_scene_instances": {
+        "Level_1F_Checkpoint": 1
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Environment/B2/Env_RoofPanel.prefab",
+      "guid": "4aca79815bfb3fc4bb6188d509a82a4f",
+      "dependency_scene_instances": {
+        "Level_B2_Machinery": 12
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Environment/Common/Env_SteelColumn.prefab",
+      "guid": "6569c98b363eb924da36f9b3880ef053",
+      "dependency_scene_instances": {
+        "Level_B2_Machinery": 4
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/B2/Props_HVACUnit.prefab",
+      "guid": "95c6c87f2974f9c46861320aa8adf539",
+      "dependency_scene_instances": {
+        "Level_B2_Machinery": 1
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/B2/Props_ReactorTank.prefab",
+      "guid": "d69e15df6bbe2c046a16408e76e0076a",
+      "dependency_scene_instances": {
+        "Level_B2_Machinery": 1
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Environment/1F/Env_LoadingShutterWall.prefab",
+      "guid": "716dd8fef56345746b2e41bcac06a912",
+      "dependency_scene_instances": {
+        "Level_1F_Checkpoint": 1
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Environment/Common/Env_SteelIBeam.prefab",
+      "guid": "95477d6fff3085a40a04c92c8e7f1982",
+      "dependency_scene_instances": {
+        "Level_1F_Checkpoint": 1
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/B4/Props_ExhaustFan.prefab",
+      "guid": "0cc6dad7c8415d347a9dd7c19f5bd54b",
+      "dependency_scene_instances": {
+        "Level_B4_Observation": 1
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/B2/Props_IndustrialCentrifuge.prefab",
+      "guid": "a50f346090cba424fabe7bc05eb8d55c",
+      "dependency_scene_instances": {
+        "Level_B2_Machinery": 1
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/Common/Props_LaboratoryWorkbench.prefab",
+      "guid": "60253afb983715d4492913ad23d4748e",
+      "dependency_scene_instances": {
+        "Level_B1_Experiment": 1,
+        "Level_B3_SampleStorage": 1
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/B4/Props_MaintenanceToolCart.prefab",
+      "guid": "72e8a2acd8d6c974db22e33579a8f7cf",
+      "dependency_scene_instances": {
+        "Level_B4_Observation": 1
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/1F/Props_PalletStorageRack.prefab",
+      "guid": "caf27f5bba523e34cbd315ec3439e2f9",
+      "dependency_scene_instances": {
+        "Level_1F_Checkpoint": 1
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Environment/B2/Env_SteelGrating.prefab",
+      "guid": "208137d54cbfefb4bb0b3e8f89b5e688",
+      "dependency_scene_instances": {
+        "Level_B2_Machinery": 1
+      }
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/B3/Props_GasCylinderRack.prefab",
+      "guid": "c09255a442075594a808bf0436f73f50",
+      "dependency_scene_instances": {
+        "Level_B3_SampleStorage": 1
+      }
+    }
+  ],
+  "uncoveredSourceAssets": [],
+  "new14Consistency": [
+    {
+      "name": "Env_ExteriorCorner",
+      "prefab": "Assets/Afrer_Seconds/05.Model/Environment/1F/Env_ExteriorCorner.prefab",
+      "model": "Assets/Afrer_Seconds/05.Model/Environment/1F/Env_ExteriorCorner.fbx",
+      "manifest": "Assets/Afrer_Seconds/06.Data/AssetSources/Env_ExteriorCorner_V001_completion.json",
+      "manifestModelPathMatches": true,
+      "actualModelSha256": "d8410c9e42b98826005bc85feb9c93224e4455691c67fe781b6fbd46ab811e94",
+      "unityFactsShaMatches": true,
+      "manifestShaMatches": true,
+      "factInstances": 1,
+      "directStagePrefabInstances": 1,
+      "sceneInstances": {
+        "Level_1F_Checkpoint": 1
+      },
+      "countsMatch": true
+    },
+    {
+      "name": "Env_RoofPanel",
+      "prefab": "Assets/Afrer_Seconds/05.Model/Environment/B2/Env_RoofPanel.prefab",
+      "model": "Assets/Afrer_Seconds/05.Model/Environment/B2/Env_RoofPanel.fbx",
+      "manifest": "Assets/Afrer_Seconds/06.Data/AssetSources/Env_RoofPanel_V001_completion.json",
+      "manifestModelPathMatches": true,
+      "actualModelSha256": "0f6940e745f699c45a76e4e276a34cd5174197adefadb7b506614d749e5f089e",
+      "unityFactsShaMatches": true,
+      "manifestShaMatches": true,
+      "factInstances": 12,
+      "directStagePrefabInstances": 12,
+      "sceneInstances": {
+        "Level_B2_Machinery": 12
+      },
+      "countsMatch": true
+    },
+    {
+      "name": "Env_SteelColumn",
+      "prefab": "Assets/Afrer_Seconds/05.Model/Environment/Common/Env_SteelColumn.prefab",
+      "model": "Assets/Afrer_Seconds/05.Model/Environment/Common/Env_SteelColumn.fbx",
+      "manifest": "Assets/Afrer_Seconds/06.Data/AssetSources/Env_SteelColumn_V001_completion.json",
+      "manifestModelPathMatches": true,
+      "actualModelSha256": "c484c5f760e00a29f3709c8fe2a84d2b657f437ca8be0743cb25f586aa846dd2",
+      "unityFactsShaMatches": true,
+      "manifestShaMatches": true,
+      "factInstances": 4,
+      "directStagePrefabInstances": 4,
+      "sceneInstances": {
+        "Level_B2_Machinery": 4
+      },
+      "countsMatch": true
+    },
+    {
+      "name": "Props_HVACUnit",
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/B2/Props_HVACUnit.prefab",
+      "model": "Assets/Afrer_Seconds/05.Model/Props/B2/Props_HVACUnit.fbx",
+      "manifest": "Assets/Afrer_Seconds/06.Data/AssetSources/Props_HVACUnit_V001_completion.json",
+      "manifestModelPathMatches": true,
+      "actualModelSha256": "75c1e6aa40a486fe019e5f7844e544a1c56d4304d62fbd345e6cbbb4e5bd47fd",
+      "unityFactsShaMatches": true,
+      "manifestShaMatches": true,
+      "factInstances": 1,
+      "directStagePrefabInstances": 1,
+      "sceneInstances": {
+        "Level_B2_Machinery": 1
+      },
+      "countsMatch": true
+    },
+    {
+      "name": "Props_ReactorTank",
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/B2/Props_ReactorTank.prefab",
+      "model": "Assets/Afrer_Seconds/05.Model/Props/B2/Props_ReactorTank.fbx",
+      "manifest": "Assets/Afrer_Seconds/06.Data/AssetSources/Props_ReactorTank_V001_completion.json",
+      "manifestModelPathMatches": true,
+      "actualModelSha256": "ffe0fe7a5ffd492cbeb823926700e7282312f72ca382d6054855142dd2f2adf4",
+      "unityFactsShaMatches": true,
+      "manifestShaMatches": true,
+      "factInstances": 1,
+      "directStagePrefabInstances": 1,
+      "sceneInstances": {
+        "Level_B2_Machinery": 1
+      },
+      "countsMatch": true
+    },
+    {
+      "name": "Env_LoadingShutterWall",
+      "prefab": "Assets/Afrer_Seconds/05.Model/Environment/1F/Env_LoadingShutterWall.prefab",
+      "model": "Assets/Afrer_Seconds/05.Model/Environment/1F/Env_LoadingShutterWall.fbx",
+      "manifest": "Assets/Afrer_Seconds/06.Data/AssetSources/Env_LoadingShutterWall_V001_completion.json",
+      "manifestModelPathMatches": true,
+      "actualModelSha256": "a956a8381899ef6fea3af7208dfd8fa7ea353f06bfebcdc9c358e7c02fa486f4",
+      "unityFactsShaMatches": true,
+      "manifestShaMatches": true,
+      "factInstances": 1,
+      "directStagePrefabInstances": 1,
+      "sceneInstances": {
+        "Level_1F_Checkpoint": 1
+      },
+      "countsMatch": true
+    },
+    {
+      "name": "Env_SteelIBeam",
+      "prefab": "Assets/Afrer_Seconds/05.Model/Environment/Common/Env_SteelIBeam.prefab",
+      "model": "Assets/Afrer_Seconds/05.Model/Environment/Common/Env_SteelIBeam.fbx",
+      "manifest": "Assets/Afrer_Seconds/06.Data/AssetSources/Env_SteelIBeam_V001_completion.json",
+      "manifestModelPathMatches": true,
+      "actualModelSha256": "0922fd16c96103cd2a5868ee2f6afd1d699358b558fe89814ce1d8373d3dc051",
+      "unityFactsShaMatches": true,
+      "manifestShaMatches": true,
+      "factInstances": 1,
+      "directStagePrefabInstances": 1,
+      "sceneInstances": {
+        "Level_1F_Checkpoint": 1
+      },
+      "countsMatch": true
+    },
+    {
+      "name": "Props_ExhaustFan",
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/B4/Props_ExhaustFan.prefab",
+      "model": "Assets/Afrer_Seconds/05.Model/Props/B4/Props_ExhaustFan.fbx",
+      "manifest": "Assets/Afrer_Seconds/06.Data/AssetSources/Props_ExhaustFan_V001_completion.json",
+      "manifestModelPathMatches": true,
+      "actualModelSha256": "3272c79d56f3a2530d1178ced114af6340844f8a9a908788c9ab047b0c4beae6",
+      "unityFactsShaMatches": true,
+      "manifestShaMatches": true,
+      "factInstances": 1,
+      "directStagePrefabInstances": 1,
+      "sceneInstances": {
+        "Level_B4_Observation": 1
+      },
+      "countsMatch": true
+    },
+    {
+      "name": "Props_IndustrialCentrifuge",
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/B2/Props_IndustrialCentrifuge.prefab",
+      "model": "Assets/Afrer_Seconds/05.Model/Props/B2/Props_IndustrialCentrifuge.fbx",
+      "manifest": "Assets/Afrer_Seconds/06.Data/AssetSources/Props_IndustrialCentrifuge_V001_completion.json",
+      "manifestModelPathMatches": true,
+      "actualModelSha256": "4d2b67e25054b4a986537ef629a8b32f49dfe6840b2d8699233d9822feb4f78f",
+      "unityFactsShaMatches": true,
+      "manifestShaMatches": true,
+      "factInstances": 1,
+      "directStagePrefabInstances": 1,
+      "sceneInstances": {
+        "Level_B2_Machinery": 1
+      },
+      "countsMatch": true
+    },
+    {
+      "name": "Props_LaboratoryWorkbench",
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/Common/Props_LaboratoryWorkbench.prefab",
+      "model": "Assets/Afrer_Seconds/05.Model/Props/Common/Props_LaboratoryWorkbench.fbx",
+      "manifest": "Assets/Afrer_Seconds/06.Data/AssetSources/Props_LaboratoryWorkbench_V001_completion.json",
+      "manifestModelPathMatches": true,
+      "actualModelSha256": "b989e5fe3ba4b0ad375eb018d049a6a0e3004f1a3a1b641c25d522b8f30218ea",
+      "unityFactsShaMatches": true,
+      "manifestShaMatches": true,
+      "factInstances": 2,
+      "directStagePrefabInstances": 2,
+      "sceneInstances": {
+        "Level_B1_Experiment": 1,
+        "Level_B3_SampleStorage": 1
+      },
+      "countsMatch": true
+    },
+    {
+      "name": "Props_MaintenanceToolCart",
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/B4/Props_MaintenanceToolCart.prefab",
+      "model": "Assets/Afrer_Seconds/05.Model/Props/B4/Props_MaintenanceToolCart.fbx",
+      "manifest": "Assets/Afrer_Seconds/06.Data/AssetSources/Props_MaintenanceToolCart_V001_completion.json",
+      "manifestModelPathMatches": true,
+      "actualModelSha256": "8dec447935e2aeda8cb58ead1729646bd6f88b48039fd66fde284988affe49df",
+      "unityFactsShaMatches": true,
+      "manifestShaMatches": true,
+      "factInstances": 1,
+      "directStagePrefabInstances": 1,
+      "sceneInstances": {
+        "Level_B4_Observation": 1
+      },
+      "countsMatch": true
+    },
+    {
+      "name": "Props_PalletStorageRack",
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/1F/Props_PalletStorageRack.prefab",
+      "model": "Assets/Afrer_Seconds/05.Model/Props/1F/Props_PalletStorageRack.fbx",
+      "manifest": "Assets/Afrer_Seconds/06.Data/AssetSources/Props_PalletStorageRack_V001_completion.json",
+      "manifestModelPathMatches": true,
+      "actualModelSha256": "7d3bd67ead925587c1955406ac18fc6b41e87ede3ac6afb9624ce062e3e7ef9b",
+      "unityFactsShaMatches": true,
+      "manifestShaMatches": true,
+      "factInstances": 1,
+      "directStagePrefabInstances": 1,
+      "sceneInstances": {
+        "Level_1F_Checkpoint": 1
+      },
+      "countsMatch": true
+    },
+    {
+      "name": "Env_SteelGrating",
+      "prefab": "Assets/Afrer_Seconds/05.Model/Environment/B2/Env_SteelGrating.prefab",
+      "model": "Assets/Afrer_Seconds/05.Model/Environment/B2/Env_SteelGrating.fbx",
+      "manifest": "Assets/Afrer_Seconds/06.Data/AssetSources/Env_SteelGrating_V001_completion.json",
+      "manifestModelPathMatches": true,
+      "actualModelSha256": "5b457112be19cdde0af5d6054fe04a75939e27bc45607b26295993a63e5ff6db",
+      "unityFactsShaMatches": true,
+      "manifestShaMatches": true,
+      "factInstances": 1,
+      "directStagePrefabInstances": 1,
+      "sceneInstances": {
+        "Level_B2_Machinery": 1
+      },
+      "countsMatch": true
+    },
+    {
+      "name": "Props_GasCylinderRack",
+      "prefab": "Assets/Afrer_Seconds/05.Model/Props/B3/Props_GasCylinderRack.prefab",
+      "model": "Assets/Afrer_Seconds/05.Model/Props/B3/Props_GasCylinderRack.fbx",
+      "manifest": "Assets/Afrer_Seconds/06.Data/AssetSources/Props_GasCylinderRack_V001_completion.json",
+      "manifestModelPathMatches": true,
+      "actualModelSha256": "e26c39eab09eee5b7238676e83d4dfc06f15541be5d93496ec286fc53b0509ec",
+      "unityFactsShaMatches": true,
+      "manifestShaMatches": true,
+      "factInstances": 1,
+      "directStagePrefabInstances": 1,
+      "sceneInstances": {
+        "Level_B3_SampleStorage": 1
+      },
+      "countsMatch": true
+    }
+  ],
+  "factsTotalNewInstances": 29,
+  "factsCountsByFloor": {
+    "1F": 4,
+    "B1": 1,
+    "B2": 20,
+    "B3": 2,
+    "B4": 2,
+    "B5": 0
+  },
+  "verificationCountsByFloor": {
+    "1F": 4,
+    "B1": 1,
+    "B2": 20,
+    "B3": 2,
+    "B4": 2,
+    "B5": 0
+  },
+  "verificationMatchesFinalFacts": true,
+  "podPrefab": {
+    "path": "Assets/Afrer_Seconds/04.Prefabs/Environment/ObservationPod.prefab",
+    "sceneUsage": {
+      "Level_B5_Isolation": 1
+    },
+    "newCollidersFromPlacementFacts": 24,
+    "runtimeScriptsAdded": 0
+  },
+  "protectedBaseline": {
+    "enemyModels": {
+      "baselineFiles": 13,
+      "unchanged": true
+    },
+    "playerModels": {
+      "baselineFiles": 33,
+      "unchanged": true
+    },
+    "playerScene": {
+      "baselineFiles": 2,
+      "unchanged": true
+    },
+    "runtimeScripts": {
+      "baselineFiles": 36,
+      "unchanged": true
+    },
+    "animator": {
+      "baselineFiles": 43,
+      "unchanged": true
+    },
+    "packages": {
+      "baselineFiles": 3,
+      "unchanged": true
+    },
+    "projectSettings": {
+      "baselineFiles": 25,
+      "unchanged": true
+    }
+  },
+  "protectedChanges": [],
+  "modelFolderViolations": [],
+  "missingReachableStagePrefabGuids": [],
+  "duplicateProjectGuids": [],
+  "intentionalUnusedHelpers": [
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Block_1m.prefab",
+      "sceneUsage": {},
+      "intentionalUnused": true,
+      "reason": "Original built-in Cube/Cylinder construction helpers; not a distinct source art model."
+    },
+    {
+      "prefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Pipe_1m.prefab",
+      "sceneUsage": {},
+      "intentionalUnused": true,
+      "reason": "Original built-in Cube/Cylinder construction helpers; not a distinct source art model."
+    }
+  ],
+  "changedStageScenes": [
+    "Level_1F_Checkpoint.unity",
+    "Level_B1_Experiment.unity",
+    "Level_B2_Machinery.unity",
+    "Level_B3_SampleStorage.unity",
+    "Level_B4_Observation.unity",
+    "Level_B5_Isolation.unity"
+  ],
+  "existingSourceAssetChanges": [],
+  "newSourceAssetFiles": [
+    "SourceAssets/ObservationPod/ObservationPod.blend"
+  ],
+  "unityVerification": {
+    "allProtectedCollidersMatchApprovedBaseline": true,
+    "allOriginalCeilingPosesPreserved": true,
+    "missingScripts": 0,
+    "missingMeshes": [],
+    "badMaterials": [],
+    "newVisualColliders": 0
+  },
+  "pass": true
+}

@@ -1,0 +1,1846 @@
+{
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+  "reason": "User requested actual dome construction",
+  "changes": [
+    {
+      "before": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Decoration/Cell_Bench",
+        "type": "BoxCollider",
+        "pos": [
+          -0.95,
+          0.39,
+          11.3
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          0.55,
+          0.13,
+          1.1
+        ],
+        "enabled": true,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "after": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Decoration/Cell_Bench",
+        "type": "BoxCollider",
+        "pos": [
+          -0.95,
+          0.39,
+          11.3
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          0.55,
+          0.13,
+          1.1
+        ],
+        "enabled": false,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "before": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Decoration/Cell_Bench_LegA",
+        "type": "BoxCollider",
+        "pos": [
+          -0.95,
+          0.17,
+          10.96
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          0.38,
+          0.34,
+          0.08
+        ],
+        "enabled": true,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "after": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Decoration/Cell_Bench_LegA",
+        "type": "BoxCollider",
+        "pos": [
+          -0.95,
+          0.17,
+          10.96
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          0.38,
+          0.34,
+          0.08
+        ],
+        "enabled": false,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "before": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Decoration/Cell_Bench_LegB",
+        "type": "BoxCollider",
+        "pos": [
+          -0.95,
+          0.17,
+          11.64
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          0.38,
+          0.34,
+          0.08
+        ],
+        "enabled": true,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "after": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Decoration/Cell_Bench_LegB",
+        "type": "BoxCollider",
+        "pos": [
+          -0.95,
+          0.17,
+          11.64
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          0.38,
+          0.34,
+          0.08
+        ],
+        "enabled": false,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "before": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_Ceiling",
+        "type": "BoxCollider",
+        "pos": [
+          0.0,
+          2.7,
+          10.45
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          3.2,
+          0.2,
+          3.3
+        ],
+        "enabled": true,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "after": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_Ceiling",
+        "type": "BoxCollider",
+        "pos": [
+          0.0,
+          2.7,
+          10.45
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          3.2,
+          0.2,
+          3.3
+        ],
+        "enabled": false,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "before": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Bar_00",
+        "type": "BoxCollider",
+        "pos": [
+          -1.26,
+          1.3,
+          8.9
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          0.06,
+          2.6,
+          0.06
+        ],
+        "enabled": true,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "after": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Bar_00",
+        "type": "BoxCollider",
+        "pos": [
+          -1.26,
+          1.3,
+          8.9
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          0.06,
+          2.6,
+          0.06
+        ],
+        "enabled": false,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "before": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Bar_01",
+        "type": "BoxCollider",
+        "pos": [
+          -0.9,
+          1.3,
+          8.9
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          0.06,
+          2.6,
+          0.06
+        ],
+        "enabled": true,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "after": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Bar_01",
+        "type": "BoxCollider",
+        "pos": [
+          -0.9,
+          1.3,
+          8.9
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          0.06,
+          2.6,
+          0.06
+        ],
+        "enabled": false,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "before": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Bar_02",
+        "type": "BoxCollider",
+        "pos": [
+          -0.539999962,
+          1.3,
+          8.9
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          0.06,
+          2.6,
+          0.06
+        ],
+        "enabled": true,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "after": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Bar_02",
+        "type": "BoxCollider",
+        "pos": [
+          -0.539999962,
+          1.3,
+          8.9
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          0.06,
+          2.6,
+          0.06
+        ],
+        "enabled": false,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "before": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Bar_03",
+        "type": "BoxCollider",
+        "pos": [
+          -0.179999948,
+          1.3,
+          8.9
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          0.06,
+          2.6,
+          0.06
+        ],
+        "enabled": true,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "after": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Bar_03",
+        "type": "BoxCollider",
+        "pos": [
+          -0.179999948,
+          1.3,
+          8.9
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          0.06,
+          2.6,
+          0.06
+        ],
+        "enabled": false,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "before": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Bar_04",
+        "type": "BoxCollider",
+        "pos": [
+          0.180000067,
+          1.3,
+          8.9
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          0.06,
+          2.6,
+          0.06
+        ],
+        "enabled": true,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "after": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Bar_04",
+        "type": "BoxCollider",
+        "pos": [
+          0.180000067,
+          1.3,
+          8.9
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          0.06,
+          2.6,
+          0.06
+        ],
+        "enabled": false,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "before": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Bar_05",
+        "type": "BoxCollider",
+        "pos": [
+          0.5400001,
+          1.3,
+          8.9
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          0.06,
+          2.6,
+          0.06
+        ],
+        "enabled": true,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "after": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Bar_05",
+        "type": "BoxCollider",
+        "pos": [
+          0.5400001,
+          1.3,
+          8.9
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          0.06,
+          2.6,
+          0.06
+        ],
+        "enabled": false,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "before": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Bar_06",
+        "type": "BoxCollider",
+        "pos": [
+          0.9000001,
+          1.3,
+          8.9
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          0.06,
+          2.6,
+          0.06
+        ],
+        "enabled": true,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "after": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Bar_06",
+        "type": "BoxCollider",
+        "pos": [
+          0.9000001,
+          1.3,
+          8.9
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          0.06,
+          2.6,
+          0.06
+        ],
+        "enabled": false,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "before": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Bar_07",
+        "type": "BoxCollider",
+        "pos": [
+          1.26000011,
+          1.3,
+          8.9
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          0.06,
+          2.6,
+          0.06
+        ],
+        "enabled": true,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "after": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Bar_07",
+        "type": "BoxCollider",
+        "pos": [
+          1.26000011,
+          1.3,
+          8.9
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          0.06,
+          2.6,
+          0.06
+        ],
+        "enabled": false,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "before": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Cell_FrontFrame_Base",
+        "type": "BoxCollider",
+        "pos": [
+          0.0,
+          0.04,
+          8.9
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          2.9,
+          0.08,
+          0.1
+        ],
+        "enabled": true,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "after": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Cell_FrontFrame_Base",
+        "type": "BoxCollider",
+        "pos": [
+          0.0,
+          0.04,
+          8.9
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          2.9,
+          0.08,
+          0.1
+        ],
+        "enabled": false,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "before": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Cell_FrontFrame_Top",
+        "type": "BoxCollider",
+        "pos": [
+          0.0,
+          2.55,
+          8.9
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          2.9,
+          0.1,
+          0.1
+        ],
+        "enabled": true,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "after": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Cell_FrontFrame_Top",
+        "type": "BoxCollider",
+        "pos": [
+          0.0,
+          2.55,
+          8.9
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          2.9,
+          0.1,
+          0.1
+        ],
+        "enabled": false,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "before": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_Wall_Left",
+        "type": "BoxCollider",
+        "pos": [
+          -1.5,
+          1.3,
+          10.45
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          0.2,
+          2.6,
+          3.1
+        ],
+        "enabled": true,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "after": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_Wall_Left",
+        "type": "BoxCollider",
+        "pos": [
+          -1.5,
+          1.3,
+          10.45
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          0.2,
+          2.6,
+          3.1
+        ],
+        "enabled": false,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "before": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_Wall_Rear",
+        "type": "BoxCollider",
+        "pos": [
+          0.0,
+          1.3,
+          12.1
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          3.2,
+          2.6,
+          0.2
+        ],
+        "enabled": true,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "after": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_Wall_Rear",
+        "type": "BoxCollider",
+        "pos": [
+          0.0,
+          1.3,
+          12.1
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          3.2,
+          2.6,
+          0.2
+        ],
+        "enabled": false,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "before": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_Wall_Right",
+        "type": "BoxCollider",
+        "pos": [
+          1.5,
+          1.3,
+          10.45
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          0.2,
+          2.6,
+          3.1
+        ],
+        "enabled": true,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "after": {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_Wall_Right",
+        "type": "BoxCollider",
+        "pos": [
+          1.5,
+          1.3,
+          10.45
+        ],
+        "rot": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          0.2,
+          2.6,
+          3.1
+        ],
+        "enabled": false,
+        "trigger": false,
+        "shape": {
+          "center": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    }
+  ],
+  "added": [
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_00",
+      "type": "MeshCollider",
+      "pos": [
+        0.0,
+        0.0,
+        10.45
+      ],
+      "rot": [
+        3.090862E-08,
+        0.7071067,
+        0.7071068,
+        -3.09086161E-08
+      ],
+      "scale": [
+        100.0,
+        99.9999847,
+        99.9999847
+      ],
+      "enabled": true,
+      "trigger": false,
+      "shape": {
+        "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+        "name": "ObservationPod_CollisionSegment_00",
+        "convex": false
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_01",
+      "type": "MeshCollider",
+      "pos": [
+        0.0,
+        0.0,
+        10.45
+      ],
+      "rot": [
+        3.090862E-08,
+        0.7071067,
+        0.7071068,
+        -3.09086161E-08
+      ],
+      "scale": [
+        100.0,
+        99.9999847,
+        99.9999847
+      ],
+      "enabled": true,
+      "trigger": false,
+      "shape": {
+        "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+        "name": "ObservationPod_CollisionSegment_01",
+        "convex": false
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_02",
+      "type": "MeshCollider",
+      "pos": [
+        0.0,
+        0.0,
+        10.45
+      ],
+      "rot": [
+        3.090862E-08,
+        0.7071067,
+        0.7071068,
+        -3.09086161E-08
+      ],
+      "scale": [
+        100.0,
+        99.9999847,
+        99.9999847
+      ],
+      "enabled": true,
+      "trigger": false,
+      "shape": {
+        "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+        "name": "ObservationPod_CollisionSegment_02",
+        "convex": false
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_03",
+      "type": "MeshCollider",
+      "pos": [
+        0.0,
+        0.0,
+        10.45
+      ],
+      "rot": [
+        3.090862E-08,
+        0.7071067,
+        0.7071068,
+        -3.09086161E-08
+      ],
+      "scale": [
+        100.0,
+        99.9999847,
+        99.9999847
+      ],
+      "enabled": true,
+      "trigger": false,
+      "shape": {
+        "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+        "name": "ObservationPod_CollisionSegment_03",
+        "convex": false
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_04",
+      "type": "MeshCollider",
+      "pos": [
+        0.0,
+        0.0,
+        10.45
+      ],
+      "rot": [
+        3.090862E-08,
+        0.7071067,
+        0.7071068,
+        -3.09086161E-08
+      ],
+      "scale": [
+        100.0,
+        99.9999847,
+        99.9999847
+      ],
+      "enabled": true,
+      "trigger": false,
+      "shape": {
+        "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+        "name": "ObservationPod_CollisionSegment_04",
+        "convex": false
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_05",
+      "type": "MeshCollider",
+      "pos": [
+        0.0,
+        0.0,
+        10.45
+      ],
+      "rot": [
+        3.090862E-08,
+        0.7071067,
+        0.7071068,
+        -3.09086161E-08
+      ],
+      "scale": [
+        100.0,
+        99.9999847,
+        99.9999847
+      ],
+      "enabled": true,
+      "trigger": false,
+      "shape": {
+        "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+        "name": "ObservationPod_CollisionSegment_05",
+        "convex": false
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_06",
+      "type": "MeshCollider",
+      "pos": [
+        0.0,
+        0.0,
+        10.45
+      ],
+      "rot": [
+        3.090862E-08,
+        0.7071067,
+        0.7071068,
+        -3.09086161E-08
+      ],
+      "scale": [
+        100.0,
+        99.9999847,
+        99.9999847
+      ],
+      "enabled": true,
+      "trigger": false,
+      "shape": {
+        "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+        "name": "ObservationPod_CollisionSegment_06",
+        "convex": false
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_07",
+      "type": "MeshCollider",
+      "pos": [
+        0.0,
+        0.0,
+        10.45
+      ],
+      "rot": [
+        3.090862E-08,
+        0.7071067,
+        0.7071068,
+        -3.09086161E-08
+      ],
+      "scale": [
+        100.0,
+        99.9999847,
+        99.9999847
+      ],
+      "enabled": true,
+      "trigger": false,
+      "shape": {
+        "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+        "name": "ObservationPod_CollisionSegment_07",
+        "convex": false
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_08",
+      "type": "MeshCollider",
+      "pos": [
+        0.0,
+        0.0,
+        10.45
+      ],
+      "rot": [
+        3.090862E-08,
+        0.7071067,
+        0.7071068,
+        -3.09086161E-08
+      ],
+      "scale": [
+        100.0,
+        99.9999847,
+        99.9999847
+      ],
+      "enabled": true,
+      "trigger": false,
+      "shape": {
+        "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+        "name": "ObservationPod_CollisionSegment_08",
+        "convex": false
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_09",
+      "type": "MeshCollider",
+      "pos": [
+        0.0,
+        0.0,
+        10.45
+      ],
+      "rot": [
+        3.090862E-08,
+        0.7071067,
+        0.7071068,
+        -3.09086161E-08
+      ],
+      "scale": [
+        100.0,
+        99.9999847,
+        99.9999847
+      ],
+      "enabled": true,
+      "trigger": false,
+      "shape": {
+        "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+        "name": "ObservationPod_CollisionSegment_09",
+        "convex": false
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_10",
+      "type": "MeshCollider",
+      "pos": [
+        0.0,
+        0.0,
+        10.45
+      ],
+      "rot": [
+        3.090862E-08,
+        0.7071067,
+        0.7071068,
+        -3.09086161E-08
+      ],
+      "scale": [
+        100.0,
+        99.9999847,
+        99.9999847
+      ],
+      "enabled": true,
+      "trigger": false,
+      "shape": {
+        "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+        "name": "ObservationPod_CollisionSegment_10",
+        "convex": false
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_11",
+      "type": "MeshCollider",
+      "pos": [
+        0.0,
+        0.0,
+        10.45
+      ],
+      "rot": [
+        3.090862E-08,
+        0.7071067,
+        0.7071068,
+        -3.09086161E-08
+      ],
+      "scale": [
+        100.0,
+        99.9999847,
+        99.9999847
+      ],
+      "enabled": true,
+      "trigger": false,
+      "shape": {
+        "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+        "name": "ObservationPod_CollisionSegment_11",
+        "convex": false
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_12",
+      "type": "MeshCollider",
+      "pos": [
+        0.0,
+        0.0,
+        10.45
+      ],
+      "rot": [
+        3.090862E-08,
+        0.7071067,
+        0.7071068,
+        -3.09086161E-08
+      ],
+      "scale": [
+        100.0,
+        99.9999847,
+        99.9999847
+      ],
+      "enabled": true,
+      "trigger": false,
+      "shape": {
+        "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+        "name": "ObservationPod_CollisionSegment_12",
+        "convex": false
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_13",
+      "type": "MeshCollider",
+      "pos": [
+        0.0,
+        0.0,
+        10.45
+      ],
+      "rot": [
+        3.090862E-08,
+        0.7071067,
+        0.7071068,
+        -3.09086161E-08
+      ],
+      "scale": [
+        100.0,
+        99.9999847,
+        99.9999847
+      ],
+      "enabled": true,
+      "trigger": false,
+      "shape": {
+        "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+        "name": "ObservationPod_CollisionSegment_13",
+        "convex": false
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_14",
+      "type": "MeshCollider",
+      "pos": [
+        0.0,
+        0.0,
+        10.45
+      ],
+      "rot": [
+        3.090862E-08,
+        0.7071067,
+        0.7071068,
+        -3.09086161E-08
+      ],
+      "scale": [
+        100.0,
+        99.9999847,
+        99.9999847
+      ],
+      "enabled": true,
+      "trigger": false,
+      "shape": {
+        "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+        "name": "ObservationPod_CollisionSegment_14",
+        "convex": false
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_15",
+      "type": "MeshCollider",
+      "pos": [
+        0.0,
+        0.0,
+        10.45
+      ],
+      "rot": [
+        3.090862E-08,
+        0.7071067,
+        0.7071068,
+        -3.09086161E-08
+      ],
+      "scale": [
+        100.0,
+        99.9999847,
+        99.9999847
+      ],
+      "enabled": true,
+      "trigger": false,
+      "shape": {
+        "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+        "name": "ObservationPod_CollisionSegment_15",
+        "convex": false
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_16",
+      "type": "MeshCollider",
+      "pos": [
+        0.0,
+        0.0,
+        10.45
+      ],
+      "rot": [
+        3.090862E-08,
+        0.7071067,
+        0.7071068,
+        -3.09086161E-08
+      ],
+      "scale": [
+        100.0,
+        99.9999847,
+        99.9999847
+      ],
+      "enabled": true,
+      "trigger": false,
+      "shape": {
+        "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+        "name": "ObservationPod_CollisionSegment_16",
+        "convex": false
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_17",
+      "type": "MeshCollider",
+      "pos": [
+        0.0,
+        0.0,
+        10.45
+      ],
+      "rot": [
+        3.090862E-08,
+        0.7071067,
+        0.7071068,
+        -3.09086161E-08
+      ],
+      "scale": [
+        100.0,
+        99.9999847,
+        99.9999847
+      ],
+      "enabled": true,
+      "trigger": false,
+      "shape": {
+        "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+        "name": "ObservationPod_CollisionSegment_17",
+        "convex": false
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_18",
+      "type": "MeshCollider",
+      "pos": [
+        0.0,
+        0.0,
+        10.45
+      ],
+      "rot": [
+        3.090862E-08,
+        0.7071067,
+        0.7071068,
+        -3.09086161E-08
+      ],
+      "scale": [
+        100.0,
+        99.9999847,
+        99.9999847
+      ],
+      "enabled": true,
+      "trigger": false,
+      "shape": {
+        "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+        "name": "ObservationPod_CollisionSegment_18",
+        "convex": false
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_19",
+      "type": "MeshCollider",
+      "pos": [
+        0.0,
+        0.0,
+        10.45
+      ],
+      "rot": [
+        3.090862E-08,
+        0.7071067,
+        0.7071068,
+        -3.09086161E-08
+      ],
+      "scale": [
+        100.0,
+        99.9999847,
+        99.9999847
+      ],
+      "enabled": true,
+      "trigger": false,
+      "shape": {
+        "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+        "name": "ObservationPod_CollisionSegment_19",
+        "convex": false
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_20",
+      "type": "MeshCollider",
+      "pos": [
+        0.0,
+        0.0,
+        10.45
+      ],
+      "rot": [
+        3.090862E-08,
+        0.7071067,
+        0.7071068,
+        -3.09086161E-08
+      ],
+      "scale": [
+        100.0,
+        99.9999847,
+        99.9999847
+      ],
+      "enabled": true,
+      "trigger": false,
+      "shape": {
+        "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+        "name": "ObservationPod_CollisionSegment_20",
+        "convex": false
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_21",
+      "type": "MeshCollider",
+      "pos": [
+        0.0,
+        0.0,
+        10.45
+      ],
+      "rot": [
+        3.090862E-08,
+        0.7071067,
+        0.7071068,
+        -3.09086161E-08
+      ],
+      "scale": [
+        100.0,
+        99.9999847,
+        99.9999847
+      ],
+      "enabled": true,
+      "trigger": false,
+      "shape": {
+        "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+        "name": "ObservationPod_CollisionSegment_21",
+        "convex": false
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_22",
+      "type": "MeshCollider",
+      "pos": [
+        0.0,
+        0.0,
+        10.45
+      ],
+      "rot": [
+        3.090862E-08,
+        0.7071067,
+        0.7071068,
+        -3.09086161E-08
+      ],
+      "scale": [
+        100.0,
+        99.9999847,
+        99.9999847
+      ],
+      "enabled": true,
+      "trigger": false,
+      "shape": {
+        "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+        "name": "ObservationPod_CollisionSegment_22",
+        "convex": false
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/ObservationPod/ObservationPod_Collision/ObservationPod_CollisionSegment_23",
+      "type": "MeshCollider",
+      "pos": [
+        0.0,
+        0.0,
+        10.45
+      ],
+      "rot": [
+        3.090862E-08,
+        0.7071067,
+        0.7071068,
+        -3.09086161E-08
+      ],
+      "scale": [
+        100.0,
+        99.9999847,
+        99.9999847
+      ],
+      "enabled": true,
+      "trigger": false,
+      "shape": {
+        "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+        "name": "ObservationPod_CollisionSegment_23",
+        "convex": false
+      }
+    }
+  ]
+}
