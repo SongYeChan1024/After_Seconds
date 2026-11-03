@@ -1,0 +1,49 @@
+{
+  "id": "U03",
+  "name": "HandwheelValve",
+  "ko": "수동 밸브",
+  "category": "Environment",
+  "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+  "sourceHighNode": "603886a2-9134-48d0-ab79-449323abae3d",
+  "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/U03_retopo.glb",
+  "sourceSha256": "8ca7270d6d86359a48d9be42be959f1633e2747f539ca69354f42c46b48ff021",
+  "modelPath": "Assets/Afrer_Seconds/05.Model/Environment/Common/U03_HandwheelValve.fbx",
+  "modelSha256": "afb3c2859a21d91756972419a6c56b97aacfd0617e050558dc9362c319c8f785",
+  "baseMap": "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/U03_HandwheelValve_BaseColor.png",
+  "normalMap": "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/U03_HandwheelValve_Normal.png",
+  "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/U03_HandwheelValve_MetallicSmoothness.png",
+  "occlusionMap": "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/U03_HandwheelValve_Occlusion.png",
+  "blenderSizeXYZ": [
+    0.4967397451400757,
+    0.29933464527130127,
+    0.5500000715255737
+  ],
+  "candidateDimensionRule": {
+    "mode": "height",
+    "value": 0.55
+  },
+  "triangles": 5876,
+  "visualOnly": true,
+  "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+  "pbrPacking": {
+    "metallic": "R",
+    "smoothness": "A=1-source G",
+    "occlusion": "G=source R"
+  },
+  "normalStrength": 0.35,
+  "materialPath": "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/U03_HandwheelValve_URP.mat",
+  "prefabPath": "Assets/Afrer_Seconds/05.Model/Environment/Common/U03_HandwheelValve.prefab",
+  "placementCount": 2,
+  "finalFbxVerification": {
+    "boundaryEdges": 0,
+    "overusedEdges": 0,
+    "zeroAreaFaces": 0,
+    "nonFiniteUVs": 0,
+    "strictEdgeTriangleCrossings": 0
+  },
+  "folderCleanup20261103": {
+    "previousPath": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U03_HandwheelValve/source_manifest.json",
+    "currentPath": "Assets/Afrer_Seconds/06.Data/AssetSources/Environment_VARCO_V002_Batch02_U03_HandwheelValve_source_manifest.json",
+    "mapping": "Docs/검수/2026-11-03_ModelFolderCleanup/move_plan.json"
+  }
+}

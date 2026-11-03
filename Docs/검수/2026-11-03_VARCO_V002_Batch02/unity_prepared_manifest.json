@@ -1,0 +1,894 @@
+[
+  {
+    "id": "U01",
+    "name": "PipeStraight",
+    "ko": "직선 배관",
+    "category": "Environment",
+    "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+    "sourceHighNode": "7d946494-d1ca-4af4-be30-210172d62033",
+    "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/U01_retopo.glb",
+    "sourceSha256": "322c08170694a6a9867896efde084b48f0e0c12766dfe705a4e8ae7f26dbd7d1",
+    "modelPath": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U01_PipeStraight/Models/U01_PipeStraight.fbx",
+    "modelSha256": "9a45f2f0c8f7c02a219d68303755457d4e8d6d9ace4ba70780780c95b309123a",
+    "baseMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U01_PipeStraight/Textures/BaseColor.png",
+    "normalMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U01_PipeStraight/Textures/Normal.png",
+    "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U01_PipeStraight/Textures/MetallicSmoothness.png",
+    "occlusionMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U01_PipeStraight/Textures/Occlusion.png",
+    "blenderSizeXYZ": [
+      1.0,
+      0.3213769197463989,
+      0.3177909553050995
+    ],
+    "candidateDimensionRule": {
+      "mode": "lengthX",
+      "value": 1.0
+    },
+    "triangles": 3000,
+    "visualOnly": true,
+    "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+    "pbrPacking": {
+      "metallic": "R",
+      "smoothness": "A=1-source G",
+      "occlusion": "G=source R"
+    },
+    "normalStrength": 0.35,
+    "materialPath": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U01_PipeStraight/Materials/U01_PipeStraight_URP.mat",
+    "prefabPath": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U01_PipeStraight/Prefabs/U01_PipeStraight.prefab",
+    "placementCount": 6,
+    "finalFbxVerification": {
+      "boundaryEdges": 0,
+      "overusedEdges": 0,
+      "zeroAreaFaces": 0,
+      "nonFiniteUVs": 0,
+      "strictEdgeTriangleCrossings": 0
+    }
+  },
+  {
+    "id": "U02",
+    "name": "PipeElbow90",
+    "ko": "90도 엘보 배관",
+    "category": "Environment",
+    "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+    "sourceHighNode": "0de64e91-9492-4d7a-9b79-a87f5bcf7c7e",
+    "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/U02_retopo.glb",
+    "sourceSha256": "4f1cc48c8d064c32e24297a4e8589c47422678662b3902da4e6c26c6e15f22ee",
+    "modelPath": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U02_PipeElbow90/Models/U02_PipeElbow90.fbx",
+    "modelSha256": "546163550baf07d6e4c0f6b1d1f189d22230a9ace07247922f22aa83dc757443",
+    "baseMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U02_PipeElbow90/Textures/BaseColor.png",
+    "normalMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U02_PipeElbow90/Textures/Normal.png",
+    "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U02_PipeElbow90/Textures/MetallicSmoothness.png",
+    "occlusionMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U02_PipeElbow90/Textures/Occlusion.png",
+    "blenderSizeXYZ": [
+      0.320000022649765,
+      0.4891919493675232,
+      0.493020236492157
+    ],
+    "candidateDimensionRule": {
+      "mode": "minExtent",
+      "value": 0.32
+    },
+    "triangles": 4972,
+    "visualOnly": true,
+    "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+    "pbrPacking": {
+      "metallic": "R",
+      "smoothness": "A=1-source G",
+      "occlusion": "G=source R"
+    },
+    "normalStrength": 0.35,
+    "materialPath": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U02_PipeElbow90/Materials/U02_PipeElbow90_URP.mat",
+    "prefabPath": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U02_PipeElbow90/Prefabs/U02_PipeElbow90.prefab",
+    "placementCount": 2,
+    "finalFbxVerification": {
+      "boundaryEdges": 0,
+      "overusedEdges": 0,
+      "zeroAreaFaces": 0,
+      "nonFiniteUVs": 0,
+      "strictEdgeTriangleCrossings": 0
+    }
+  },
+  {
+    "id": "U03",
+    "name": "HandwheelValve",
+    "ko": "수동 밸브",
+    "category": "Environment",
+    "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+    "sourceHighNode": "603886a2-9134-48d0-ab79-449323abae3d",
+    "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/U03_retopo.glb",
+    "sourceSha256": "8ca7270d6d86359a48d9be42be959f1633e2747f539ca69354f42c46b48ff021",
+    "modelPath": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U03_HandwheelValve/Models/U03_HandwheelValve.fbx",
+    "modelSha256": "afb3c2859a21d91756972419a6c56b97aacfd0617e050558dc9362c319c8f785",
+    "baseMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U03_HandwheelValve/Textures/BaseColor.png",
+    "normalMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U03_HandwheelValve/Textures/Normal.png",
+    "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U03_HandwheelValve/Textures/MetallicSmoothness.png",
+    "occlusionMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U03_HandwheelValve/Textures/Occlusion.png",
+    "blenderSizeXYZ": [
+      0.4967397451400757,
+      0.29933464527130127,
+      0.5500000715255737
+    ],
+    "candidateDimensionRule": {
+      "mode": "height",
+      "value": 0.55
+    },
+    "triangles": 5876,
+    "visualOnly": true,
+    "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+    "pbrPacking": {
+      "metallic": "R",
+      "smoothness": "A=1-source G",
+      "occlusion": "G=source R"
+    },
+    "normalStrength": 0.35,
+    "materialPath": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U03_HandwheelValve/Materials/U03_HandwheelValve_URP.mat",
+    "prefabPath": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U03_HandwheelValve/Prefabs/U03_HandwheelValve.prefab",
+    "placementCount": 2,
+    "finalFbxVerification": {
+      "boundaryEdges": 0,
+      "overusedEdges": 0,
+      "zeroAreaFaces": 0,
+      "nonFiniteUVs": 0,
+      "strictEdgeTriangleCrossings": 0
+    }
+  },
+  {
+    "id": "U04",
+    "name": "DuctStraight",
+    "ko": "직선 덕트",
+    "category": "Environment",
+    "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+    "sourceHighNode": "9992a1ea-33d0-49ed-b016-373824ac2356",
+    "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/U04_retopo.glb",
+    "sourceSha256": "68fbd6ca805854f5abaaca9ab223327ee71f60ecf20266d9337b6c72b6e5131d",
+    "modelPath": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U04_DuctStraight/Models/U04_DuctStraight.fbx",
+    "modelSha256": "0d7497440e5d6f940df7c587221a2b1439a64d87bb46de366f11287f32f03460",
+    "baseMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U04_DuctStraight/Textures/BaseColor.png",
+    "normalMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U04_DuctStraight/Textures/Normal.png",
+    "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U04_DuctStraight/Textures/MetallicSmoothness.png",
+    "occlusionMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U04_DuctStraight/Textures/Occlusion.png",
+    "blenderSizeXYZ": [
+      1.5,
+      0.5706074237823486,
+      0.5695968866348267
+    ],
+    "candidateDimensionRule": {
+      "mode": "lengthX",
+      "value": 1.5
+    },
+    "triangles": 2476,
+    "visualOnly": true,
+    "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+    "pbrPacking": {
+      "metallic": "R",
+      "smoothness": "A=1-source G",
+      "occlusion": "G=source R"
+    },
+    "normalStrength": 0.35,
+    "materialPath": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U04_DuctStraight/Materials/U04_DuctStraight_URP.mat",
+    "prefabPath": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U04_DuctStraight/Prefabs/U04_DuctStraight.prefab",
+    "placementCount": 9,
+    "finalFbxVerification": {
+      "boundaryEdges": 0,
+      "overusedEdges": 0,
+      "zeroAreaFaces": 0,
+      "nonFiniteUVs": 0,
+      "strictEdgeTriangleCrossings": 0
+    }
+  },
+  {
+    "id": "U05",
+    "name": "CableTrayStraight",
+    "ko": "케이블 트레이",
+    "category": "Environment",
+    "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+    "sourceHighNode": "5c6dc8c5-46e7-4dbc-97f7-e62e8c954237",
+    "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/U05_retopo.glb",
+    "sourceSha256": "36ad5b9321adbcf98721ebc4b6fd0a79c694b0d19049dfa860580ff569f33a6a",
+    "modelPath": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U05_CableTrayStraight/Models/U05_CableTrayStraight.fbx",
+    "modelSha256": "68da4592e1f365b420f7a555f2b550989302ed417df5aef56a8426c6464fa5c6",
+    "baseMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U05_CableTrayStraight/Textures/BaseColor.png",
+    "normalMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U05_CableTrayStraight/Textures/Normal.png",
+    "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U05_CableTrayStraight/Textures/MetallicSmoothness.png",
+    "occlusionMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U05_CableTrayStraight/Textures/Occlusion.png",
+    "blenderSizeXYZ": [
+      1.0,
+      0.49839577078819275,
+      0.13562484085559845
+    ],
+    "candidateDimensionRule": {
+      "mode": "lengthX",
+      "value": 1.0
+    },
+    "triangles": 5000,
+    "visualOnly": true,
+    "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+    "pbrPacking": {
+      "metallic": "R",
+      "smoothness": "A=1-source G",
+      "occlusion": "G=source R"
+    },
+    "normalStrength": 0.35,
+    "materialPath": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U05_CableTrayStraight/Materials/U05_CableTrayStraight_URP.mat",
+    "prefabPath": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U05_CableTrayStraight/Prefabs/U05_CableTrayStraight.prefab",
+    "placementCount": 4,
+    "finalFbxVerification": {
+      "boundaryEdges": 0,
+      "overusedEdges": 0,
+      "zeroAreaFaces": 0,
+      "nonFiniteUVs": 0,
+      "strictEdgeTriangleCrossings": 0
+    }
+  },
+  {
+    "id": "U06",
+    "name": "WallVentGrille",
+    "ko": "벽 환기구",
+    "category": "Environment",
+    "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+    "sourceHighNode": "4f0a68f9-e4e8-4630-88db-009972dd4114",
+    "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/U06_retopo.glb",
+    "sourceSha256": "bedbc71f7cb9e3e6225d0f388baa105a9cf64c87fac059611728c68786ad885b",
+    "modelPath": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U06_WallVentGrille/Models/U06_WallVentGrille.fbx",
+    "modelSha256": "81d7d9d9ae368b890bf016f67cc903b4a4118557bbe55098496da9d04152ad0c",
+    "baseMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U06_WallVentGrille/Textures/BaseColor.png",
+    "normalMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U06_WallVentGrille/Textures/Normal.png",
+    "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U06_WallVentGrille/Textures/MetallicSmoothness.png",
+    "occlusionMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U06_WallVentGrille/Textures/Occlusion.png",
+    "blenderSizeXYZ": [
+      0.7000000476837158,
+      0.17450837790966034,
+      0.6999624967575073
+    ],
+    "candidateDimensionRule": {
+      "mode": "maxExtent",
+      "value": 0.7
+    },
+    "triangles": 2980,
+    "visualOnly": true,
+    "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+    "pbrPacking": {
+      "metallic": "R",
+      "smoothness": "A=1-source G",
+      "occlusion": "G=source R"
+    },
+    "normalStrength": 0.35,
+    "materialPath": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U06_WallVentGrille/Materials/U06_WallVentGrille_URP.mat",
+    "prefabPath": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U06_WallVentGrille/Prefabs/U06_WallVentGrille.prefab",
+    "placementCount": 6,
+    "finalFbxVerification": {
+      "boundaryEdges": 0,
+      "overusedEdges": 0,
+      "zeroAreaFaces": 0,
+      "nonFiniteUVs": 0,
+      "strictEdgeTriangleCrossings": 0
+    }
+  },
+  {
+    "id": "U07",
+    "name": "PressureGauge",
+    "ko": "압력계",
+    "category": "Environment",
+    "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+    "sourceHighNode": "2f2628e2-b92c-437a-827c-65bfa9403f12",
+    "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/U07_retopo.glb",
+    "sourceSha256": "ee1b9e417add1cf934c6d6dabb440a4aa66537927096af6233ade9b7825069bf",
+    "modelPath": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U07_PressureGauge/Models/U07_PressureGauge.fbx",
+    "modelSha256": "5c02cd431e8a9db0694b04a32cc6ac98a5074034f802763ff8072d235731cfc5",
+    "baseMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U07_PressureGauge/Textures/BaseColor.png",
+    "normalMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U07_PressureGauge/Textures/Normal.png",
+    "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U07_PressureGauge/Textures/MetallicSmoothness.png",
+    "occlusionMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U07_PressureGauge/Textures/Occlusion.png",
+    "blenderSizeXYZ": [
+      0.2148778736591339,
+      0.090054452419281,
+      0.2799999713897705
+    ],
+    "candidateDimensionRule": {
+      "mode": "height",
+      "value": 0.28
+    },
+    "triangles": 3796,
+    "visualOnly": true,
+    "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+    "pbrPacking": {
+      "metallic": "R",
+      "smoothness": "A=1-source G",
+      "occlusion": "G=source R"
+    },
+    "normalStrength": 0.35,
+    "materialPath": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U07_PressureGauge/Materials/U07_PressureGauge_URP.mat",
+    "prefabPath": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U07_PressureGauge/Prefabs/U07_PressureGauge.prefab",
+    "placementCount": 2,
+    "finalFbxVerification": {
+      "boundaryEdges": 0,
+      "overusedEdges": 0,
+      "zeroAreaFaces": 0,
+      "nonFiniteUVs": 0,
+      "strictEdgeTriangleCrossings": 0
+    }
+  },
+  {
+    "id": "P01",
+    "name": "IsolationBunk",
+    "ko": "격리실 침상",
+    "category": "Props",
+    "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+    "sourceHighNode": "1cdb117e-c26d-4b48-b4f1-0db24e5779f5",
+    "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/P01_retopo.glb",
+    "sourceSha256": "9000d2d58e2d9622171d02680e842130829034f0547bff2884d0730d04a5d402",
+    "modelPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P01_IsolationBunk/Models/P01_IsolationBunk.fbx",
+    "modelSha256": "4802ebf6e3df9330f3ca8a00795f7254fdaa028ff82240ef4fdd9b080ac3d5c4",
+    "baseMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P01_IsolationBunk/Textures/BaseColor.png",
+    "normalMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P01_IsolationBunk/Textures/Normal.png",
+    "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P01_IsolationBunk/Textures/MetallicSmoothness.png",
+    "occlusionMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P01_IsolationBunk/Textures/Occlusion.png",
+    "blenderSizeXYZ": [
+      0.800000011920929,
+      1.8999998569488525,
+      0.6499999761581421
+    ],
+    "candidateDimensionRule": {
+      "mode": "exact",
+      "value": [
+        0.8,
+        1.9,
+        0.65
+      ]
+    },
+    "triangles": 7966,
+    "visualOnly": true,
+    "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+    "pbrPacking": {
+      "metallic": "R",
+      "smoothness": "A=1-source G",
+      "occlusion": "G=source R"
+    },
+    "normalStrength": 0.35,
+    "materialPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P01_IsolationBunk/Materials/P01_IsolationBunk_URP.mat",
+    "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P01_IsolationBunk/Prefabs/P01_IsolationBunk.prefab",
+    "placementCount": 1,
+    "finalFbxVerification": {
+      "boundaryEdges": 0,
+      "overusedEdges": 0,
+      "zeroAreaFaces": 0,
+      "nonFiniteUVs": 0,
+      "strictEdgeTriangleCrossings": 0
+    }
+  },
+  {
+    "id": "P02",
+    "name": "WallStorageCabinet",
+    "ko": "벽부 수납함",
+    "category": "Props",
+    "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+    "sourceHighNode": "c2418999-b85e-4eda-b947-6f208a749269",
+    "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/P02_retopo.glb",
+    "sourceSha256": "14a7c8502e7a9bcbd78f5fe3fbef984e514a1e91a7aae254a63bf11410a9d58b",
+    "modelPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P02_WallStorageCabinet/Models/P02_WallStorageCabinet.fbx",
+    "modelSha256": "0e37df6ac774e8ef727e9bb8a07e1c367a7edffc4f75efef57c575de0b2fa17e",
+    "baseMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P02_WallStorageCabinet/Textures/BaseColor.png",
+    "normalMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P02_WallStorageCabinet/Textures/Normal.png",
+    "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P02_WallStorageCabinet/Textures/MetallicSmoothness.png",
+    "occlusionMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P02_WallStorageCabinet/Textures/Occlusion.png",
+    "blenderSizeXYZ": [
+      0.7679554224014282,
+      0.2930145561695099,
+      0.75
+    ],
+    "candidateDimensionRule": {
+      "mode": "height",
+      "value": 0.75
+    },
+    "triangles": 5998,
+    "visualOnly": true,
+    "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+    "pbrPacking": {
+      "metallic": "R",
+      "smoothness": "A=1-source G",
+      "occlusion": "G=source R"
+    },
+    "normalStrength": 0.35,
+    "materialPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P02_WallStorageCabinet/Materials/P02_WallStorageCabinet_URP.mat",
+    "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P02_WallStorageCabinet/Prefabs/P02_WallStorageCabinet.prefab",
+    "placementCount": 3,
+    "finalFbxVerification": {
+      "boundaryEdges": 0,
+      "overusedEdges": 0,
+      "zeroAreaFaces": 0,
+      "nonFiniteUVs": 0,
+      "strictEdgeTriangleCrossings": 0
+    }
+  },
+  {
+    "id": "P03",
+    "name": "SecurityCamera",
+    "ko": "감시 카메라",
+    "category": "Props",
+    "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+    "sourceHighNode": "a0809a78-9590-4aa2-a688-91d28364ccab",
+    "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/P03_retopo.glb",
+    "sourceSha256": "9e4d4cad63467eaa804c921bfff6c1979f1592132aead5712e0e60c4e09837e2",
+    "modelPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P03_SecurityCamera/Models/P03_SecurityCamera.fbx",
+    "modelSha256": "74469d849b17056007ddc577e1f3e3366d55abd2266dfda45a5ca2115c0bcda2",
+    "baseMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P03_SecurityCamera/Textures/BaseColor.png",
+    "normalMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P03_SecurityCamera/Textures/Normal.png",
+    "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P03_SecurityCamera/Textures/MetallicSmoothness.png",
+    "occlusionMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P03_SecurityCamera/Textures/Occlusion.png",
+    "blenderSizeXYZ": [
+      0.18551191687583923,
+      0.5499999523162842,
+      0.4344056248664856
+    ],
+    "candidateDimensionRule": {
+      "mode": "maxExtent",
+      "value": 0.55
+    },
+    "triangles": 5958,
+    "visualOnly": true,
+    "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+    "pbrPacking": {
+      "metallic": "R",
+      "smoothness": "A=1-source G",
+      "occlusion": "G=source R"
+    },
+    "normalStrength": 0.35,
+    "materialPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P03_SecurityCamera/Materials/P03_SecurityCamera_URP.mat",
+    "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P03_SecurityCamera/Prefabs/P03_SecurityCamera.prefab",
+    "placementCount": 5,
+    "finalFbxVerification": {
+      "boundaryEdges": 0,
+      "overusedEdges": 0,
+      "zeroAreaFaces": 0,
+      "nonFiniteUVs": 0,
+      "strictEdgeTriangleCrossings": 0
+    }
+  },
+  {
+    "id": "P04",
+    "name": "RecordsCabinet",
+    "ko": "기록 캐비닛",
+    "category": "Props",
+    "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+    "sourceHighNode": "afa49752-8933-4dc4-bffa-c1f82582b911",
+    "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/P04_retopo.glb",
+    "sourceSha256": "6447d2a397690988c94da294678044e8e341a708434dd3a7b3b2b4fd85dc352d",
+    "modelPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P04_RecordsCabinet/Models/P04_RecordsCabinet.fbx",
+    "modelSha256": "36b5a617536bf528c0291cdf9bbc02a235541db720d052b009d8314fc9f637bd",
+    "baseMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P04_RecordsCabinet/Textures/BaseColor.png",
+    "normalMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P04_RecordsCabinet/Textures/Normal.png",
+    "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P04_RecordsCabinet/Textures/MetallicSmoothness.png",
+    "occlusionMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P04_RecordsCabinet/Textures/Occlusion.png",
+    "blenderSizeXYZ": [
+      0.6522973775863647,
+      0.729276180267334,
+      1.4000000953674316
+    ],
+    "candidateDimensionRule": {
+      "mode": "height",
+      "value": 1.4
+    },
+    "triangles": 6002,
+    "visualOnly": true,
+    "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+    "pbrPacking": {
+      "metallic": "R",
+      "smoothness": "A=1-source G",
+      "occlusion": "G=source R"
+    },
+    "normalStrength": 0.35,
+    "materialPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P04_RecordsCabinet/Materials/P04_RecordsCabinet_URP.mat",
+    "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P04_RecordsCabinet/Prefabs/P04_RecordsCabinet.prefab",
+    "placementCount": 2,
+    "finalFbxVerification": {
+      "boundaryEdges": 0,
+      "overusedEdges": 0,
+      "zeroAreaFaces": 0,
+      "nonFiniteUVs": 0,
+      "strictEdgeTriangleCrossings": 0
+    }
+  },
+  {
+    "id": "P05",
+    "name": "SampleCanister",
+    "ko": "시료 보관 용기",
+    "category": "Props",
+    "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+    "sourceHighNode": "502b6501-4ecf-4188-a6c7-0ee280156dd0",
+    "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/P05_retopo.glb",
+    "sourceSha256": "9cacd33023473f8d6cc684853cbae93ec0372eb6892e93a2f72d670ca5bffc57",
+    "modelPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P05_SampleCanister/Models/P05_SampleCanister.fbx",
+    "modelSha256": "8a40641c03e8483810c8014e34c6e612c18c7036d10536a15b5aa90838a96e49",
+    "baseMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P05_SampleCanister/Textures/BaseColor.png",
+    "normalMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P05_SampleCanister/Textures/Normal.png",
+    "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P05_SampleCanister/Textures/MetallicSmoothness.png",
+    "occlusionMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P05_SampleCanister/Textures/Occlusion.png",
+    "blenderSizeXYZ": [
+      0.20693346858024597,
+      0.20732298493385315,
+      0.2199999988079071
+    ],
+    "candidateDimensionRule": {
+      "mode": "height",
+      "value": 0.22
+    },
+    "triangles": 1686,
+    "visualOnly": true,
+    "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+    "pbrPacking": {
+      "metallic": "R",
+      "smoothness": "A=1-source G",
+      "occlusion": "G=source R"
+    },
+    "normalStrength": 0.35,
+    "materialPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P05_SampleCanister/Materials/P05_SampleCanister_URP.mat",
+    "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P05_SampleCanister/Prefabs/P05_SampleCanister.prefab",
+    "placementCount": 4,
+    "finalFbxVerification": {
+      "boundaryEdges": 0,
+      "overusedEdges": 0,
+      "zeroAreaFaces": 0,
+      "nonFiniteUVs": 0,
+      "strictEdgeTriangleCrossings": 0
+    }
+  },
+  {
+    "id": "P06",
+    "name": "SampleFreezer",
+    "ko": "냉동 보관함",
+    "category": "Props",
+    "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+    "sourceHighNode": "eab4c157-1b53-46c7-b2ad-59bbeacc3db1",
+    "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/P06_retopo.glb",
+    "sourceSha256": "fde23b48110d011e76a32fa86bc95cb972c0c3dd27c86fcd12f9ca2c2f7a6e02",
+    "modelPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P06_SampleFreezer/Models/P06_SampleFreezer.fbx",
+    "modelSha256": "69947b6e2f7edc4dbf8317fe5cc54fb6dae27c8077897263690807ee790cbbf3",
+    "baseMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P06_SampleFreezer/Textures/BaseColor.png",
+    "normalMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P06_SampleFreezer/Textures/Normal.png",
+    "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P06_SampleFreezer/Textures/MetallicSmoothness.png",
+    "occlusionMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P06_SampleFreezer/Textures/Occlusion.png",
+    "blenderSizeXYZ": [
+      0.9709550142288208,
+      0.9962040781974792,
+      1.9000000953674316
+    ],
+    "candidateDimensionRule": {
+      "mode": "height",
+      "value": 1.9
+    },
+    "triangles": 7906,
+    "visualOnly": true,
+    "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+    "pbrPacking": {
+      "metallic": "R",
+      "smoothness": "A=1-source G",
+      "occlusion": "G=source R"
+    },
+    "normalStrength": 0.35,
+    "materialPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P06_SampleFreezer/Materials/P06_SampleFreezer_URP.mat",
+    "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P06_SampleFreezer/Prefabs/P06_SampleFreezer.prefab",
+    "placementCount": 1,
+    "finalFbxVerification": {
+      "boundaryEdges": 0,
+      "overusedEdges": 0,
+      "zeroAreaFaces": 0,
+      "nonFiniteUVs": 0,
+      "strictEdgeTriangleCrossings": 0
+    }
+  },
+  {
+    "id": "P07",
+    "name": "SealedWasteBin",
+    "ko": "밀폐 폐기물 통",
+    "category": "Props",
+    "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+    "sourceHighNode": "c869de4e-634a-41fc-b306-22f6cd1d7bbb",
+    "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/P07_retopo.glb",
+    "sourceSha256": "095763e2418fc02ea4135758ac2200c324c18290a5b16ab665cabd00e735316b",
+    "modelPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P07_SealedWasteBin/Models/P07_SealedWasteBin.fbx",
+    "modelSha256": "8e7db76f92c2d1c3000de1b42875ecf1fbf3ea7565841b1a8cfa9fe41a9157a1",
+    "baseMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P07_SealedWasteBin/Textures/BaseColor.png",
+    "normalMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P07_SealedWasteBin/Textures/Normal.png",
+    "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P07_SealedWasteBin/Textures/MetallicSmoothness.png",
+    "occlusionMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P07_SealedWasteBin/Textures/Occlusion.png",
+    "blenderSizeXYZ": [
+      0.5342568755149841,
+      0.5632898807525635,
+      0.6500000357627869
+    ],
+    "candidateDimensionRule": {
+      "mode": "height",
+      "value": 0.65
+    },
+    "triangles": 3948,
+    "visualOnly": true,
+    "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+    "pbrPacking": {
+      "metallic": "R",
+      "smoothness": "A=1-source G",
+      "occlusion": "G=source R"
+    },
+    "normalStrength": 0.35,
+    "materialPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P07_SealedWasteBin/Materials/P07_SealedWasteBin_URP.mat",
+    "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P07_SealedWasteBin/Prefabs/P07_SealedWasteBin.prefab",
+    "placementCount": 2,
+    "finalFbxVerification": {
+      "boundaryEdges": 0,
+      "overusedEdges": 0,
+      "zeroAreaFaces": 0,
+      "nonFiniteUVs": 0,
+      "strictEdgeTriangleCrossings": 0
+    }
+  },
+  {
+    "id": "P08",
+    "name": "BenchtopInstrument",
+    "ko": "탁상 계측 장비",
+    "category": "Props",
+    "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+    "sourceHighNode": "95f8157d-7777-40d2-a98a-50fec928a231",
+    "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/P08_retopo.glb",
+    "sourceSha256": "299fd6455b11dd04111785956c768ed4b42917f8e4949b7f7145b199851d25c4",
+    "modelPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P08_BenchtopInstrument/Models/P08_BenchtopInstrument.fbx",
+    "modelSha256": "0e8e4b9e2917920e8078199d9b62803c55d64477b58de98141aabe53d3582a54",
+    "baseMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P08_BenchtopInstrument/Textures/BaseColor.png",
+    "normalMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P08_BenchtopInstrument/Textures/Normal.png",
+    "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P08_BenchtopInstrument/Textures/MetallicSmoothness.png",
+    "occlusionMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P08_BenchtopInstrument/Textures/Occlusion.png",
+    "blenderSizeXYZ": [
+      0.4000000059604645,
+      0.36237215995788574,
+      0.29206663370132446
+    ],
+    "candidateDimensionRule": {
+      "mode": "width",
+      "value": 0.4
+    },
+    "triangles": 9826,
+    "visualOnly": true,
+    "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+    "pbrPacking": {
+      "metallic": "R",
+      "smoothness": "A=1-source G",
+      "occlusion": "G=source R"
+    },
+    "normalStrength": 0.35,
+    "materialPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P08_BenchtopInstrument/Materials/P08_BenchtopInstrument_URP.mat",
+    "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P08_BenchtopInstrument/Prefabs/P08_BenchtopInstrument.prefab",
+    "placementCount": 1,
+    "finalFbxVerification": {
+      "boundaryEdges": 0,
+      "overusedEdges": 0,
+      "zeroAreaFaces": 0,
+      "nonFiniteUVs": 0,
+      "strictEdgeTriangleCrossings": 0
+    }
+  },
+  {
+    "id": "P09",
+    "name": "LaboratoryTrolley",
+    "ko": "실험용 운반 카트",
+    "category": "Props",
+    "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+    "sourceHighNode": "ba0724ae-46e5-4d07-9d1d-dbc34d6e3225",
+    "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/P09_retopo.glb",
+    "sourceSha256": "bb3c10114218d2d1e7bba529ddf625bc94d4ed5019d59cf1e62ad95055137478",
+    "modelPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P09_LaboratoryTrolley/Models/P09_LaboratoryTrolley.fbx",
+    "modelSha256": "6505f88e30669ed3a8e1aaae1ee031ffb3dc9f73d864ccc64abb7932921d97ca",
+    "baseMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P09_LaboratoryTrolley/Textures/BaseColor.png",
+    "normalMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P09_LaboratoryTrolley/Textures/Normal.png",
+    "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P09_LaboratoryTrolley/Textures/MetallicSmoothness.png",
+    "occlusionMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P09_LaboratoryTrolley/Textures/Occlusion.png",
+    "blenderSizeXYZ": [
+      1.0764622688293457,
+      0.5589170455932617,
+      0.9499999284744263
+    ],
+    "candidateDimensionRule": {
+      "mode": "height",
+      "value": 0.95
+    },
+    "triangles": 7976,
+    "visualOnly": true,
+    "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+    "pbrPacking": {
+      "metallic": "R",
+      "smoothness": "A=1-source G",
+      "occlusion": "G=source R"
+    },
+    "normalStrength": 0.35,
+    "materialPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P09_LaboratoryTrolley/Materials/P09_LaboratoryTrolley_URP.mat",
+    "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P09_LaboratoryTrolley/Prefabs/P09_LaboratoryTrolley.prefab",
+    "placementCount": 2,
+    "finalFbxVerification": {
+      "boundaryEdges": 0,
+      "overusedEdges": 0,
+      "zeroAreaFaces": 0,
+      "nonFiniteUVs": 0,
+      "strictEdgeTriangleCrossings": 0
+    }
+  },
+  {
+    "id": "P10",
+    "name": "CargoInspectionScanner",
+    "ko": "화물 검색대",
+    "category": "Props",
+    "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+    "sourceHighNode": "b6371270-0c16-4e0d-a04a-85246c9839c1",
+    "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/P10_retopo.glb",
+    "sourceSha256": "67944398542b65844373b4dd1c9941dbf05c90771ac649c390c0756ae6c419ec",
+    "modelPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P10_CargoInspectionScanner/Models/P10_CargoInspectionScanner.fbx",
+    "modelSha256": "505831b1c5fd7be32b73dae25eb7fb80dbe89d8eb103327978cfca051f7377e5",
+    "baseMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P10_CargoInspectionScanner/Textures/BaseColor.png",
+    "normalMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P10_CargoInspectionScanner/Textures/Normal.png",
+    "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P10_CargoInspectionScanner/Textures/MetallicSmoothness.png",
+    "occlusionMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P10_CargoInspectionScanner/Textures/Occlusion.png",
+    "blenderSizeXYZ": [
+      2.3098397254943848,
+      1.2776541709899902,
+      1.6499998569488525
+    ],
+    "candidateDimensionRule": {
+      "mode": "height",
+      "value": 1.65
+    },
+    "triangles": 11910,
+    "visualOnly": true,
+    "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+    "pbrPacking": {
+      "metallic": "R",
+      "smoothness": "A=1-source G",
+      "occlusion": "G=source R"
+    },
+    "normalStrength": 0.35,
+    "materialPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P10_CargoInspectionScanner/Materials/P10_CargoInspectionScanner_URP.mat",
+    "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P10_CargoInspectionScanner/Prefabs/P10_CargoInspectionScanner.prefab",
+    "placementCount": 1,
+    "finalFbxVerification": {
+      "boundaryEdges": 0,
+      "overusedEdges": 0,
+      "zeroAreaFaces": 0,
+      "nonFiniteUVs": 0,
+      "strictEdgeTriangleCrossings": 0
+    }
+  },
+  {
+    "id": "P11",
+    "name": "CargoHandTruck",
+    "ko": "화물 운반차",
+    "category": "Props",
+    "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+    "sourceHighNode": "05281bf4-93ab-4b03-b7c9-96889caf5b59",
+    "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/P11_retopo.glb",
+    "sourceSha256": "0720350d9017261f4e1672c3ac6f46b39b124a381d33a56b3e0d39aef5ee6520",
+    "modelPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P11_CargoHandTruck/Models/P11_CargoHandTruck.fbx",
+    "modelSha256": "d44f68ae0bb87c763a95665d77d1be678dc559d42cd2755541ce63632fc38685",
+    "baseMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P11_CargoHandTruck/Textures/BaseColor.png",
+    "normalMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P11_CargoHandTruck/Textures/Normal.png",
+    "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P11_CargoHandTruck/Textures/MetallicSmoothness.png",
+    "occlusionMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P11_CargoHandTruck/Textures/Occlusion.png",
+    "blenderSizeXYZ": [
+      0.734615683555603,
+      0.6566278338432312,
+      1.25
+    ],
+    "candidateDimensionRule": {
+      "mode": "height",
+      "value": 1.25
+    },
+    "triangles": 6000,
+    "visualOnly": true,
+    "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+    "pbrPacking": {
+      "metallic": "R",
+      "smoothness": "A=1-source G",
+      "occlusion": "G=source R"
+    },
+    "normalStrength": 0.35,
+    "materialPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P11_CargoHandTruck/Materials/P11_CargoHandTruck_URP.mat",
+    "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P11_CargoHandTruck/Prefabs/P11_CargoHandTruck.prefab",
+    "placementCount": 1,
+    "finalFbxVerification": {
+      "boundaryEdges": 0,
+      "overusedEdges": 0,
+      "zeroAreaFaces": 0,
+      "nonFiniteUVs": 0,
+      "strictEdgeTriangleCrossings": 0
+    }
+  },
+  {
+    "id": "P12",
+    "name": "SteelPallet",
+    "ko": "금속 팔레트",
+    "category": "Props",
+    "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+    "sourceHighNode": "4dfa7f37-1a5f-4f44-bc7f-839d7af661b1",
+    "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/P12_retopo.glb",
+    "sourceSha256": "00f1f12d2c3792c584e5a921ae523210fa49b683ce1d06f7a91cb3684b17351b",
+    "modelPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P12_SteelPallet/Models/P12_SteelPallet.fbx",
+    "modelSha256": "ae275f0717a776b7a63e4a8bb9f43d2fa2e257958f0a55c08077fd8fa75347ab",
+    "baseMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P12_SteelPallet/Textures/BaseColor.png",
+    "normalMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P12_SteelPallet/Textures/Normal.png",
+    "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P12_SteelPallet/Textures/MetallicSmoothness.png",
+    "occlusionMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P12_SteelPallet/Textures/Occlusion.png",
+    "blenderSizeXYZ": [
+      1.2000000476837158,
+      0.9999999403953552,
+      0.14999999105930328
+    ],
+    "candidateDimensionRule": {
+      "mode": "exact",
+      "value": [
+        1.2,
+        1.0,
+        0.15
+      ]
+    },
+    "triangles": 2000,
+    "visualOnly": true,
+    "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+    "pbrPacking": {
+      "metallic": "R",
+      "smoothness": "A=1-source G",
+      "occlusion": "G=source R"
+    },
+    "normalStrength": 0.35,
+    "materialPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P12_SteelPallet/Materials/P12_SteelPallet_URP.mat",
+    "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P12_SteelPallet/Prefabs/P12_SteelPallet.prefab",
+    "placementCount": 3,
+    "finalFbxVerification": {
+      "boundaryEdges": 0,
+      "overusedEdges": 0,
+      "zeroAreaFaces": 0,
+      "nonFiniteUVs": 0,
+      "strictEdgeTriangleCrossings": 0
+    }
+  },
+  {
+    "id": "P13",
+    "name": "LogisticsTote",
+    "ko": "물류 용기",
+    "category": "Props",
+    "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+    "sourceHighNode": "62f431e0-4c8d-4a4f-9c61-eb4baca982cc",
+    "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/P13_retopo.glb",
+    "sourceSha256": "7ac0bf93ca4a5a16fa472c0f69b2d2e78f0fa4c91f0442fdc4061aaed1dfa7fe",
+    "modelPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P13_LogisticsTote/Models/P13_LogisticsTote.fbx",
+    "modelSha256": "a7afbd2415817aa839055485deaa4b42a7b2a718645483c0e7ee20a46509ff1f",
+    "baseMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P13_LogisticsTote/Textures/BaseColor.png",
+    "normalMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P13_LogisticsTote/Textures/Normal.png",
+    "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P13_LogisticsTote/Textures/MetallicSmoothness.png",
+    "occlusionMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P13_LogisticsTote/Textures/Occlusion.png",
+    "blenderSizeXYZ": [
+      0.6000000238418579,
+      0.45000001788139343,
+      0.3999999761581421
+    ],
+    "candidateDimensionRule": {
+      "mode": "exact",
+      "value": [
+        0.6,
+        0.45,
+        0.4
+      ]
+    },
+    "triangles": 2998,
+    "visualOnly": true,
+    "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+    "pbrPacking": {
+      "metallic": "R",
+      "smoothness": "A=1-source G",
+      "occlusion": "G=source R"
+    },
+    "normalStrength": 0.35,
+    "materialPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P13_LogisticsTote/Materials/P13_LogisticsTote_URP.mat",
+    "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P13_LogisticsTote/Prefabs/P13_LogisticsTote.prefab",
+    "placementCount": 3,
+    "finalFbxVerification": {
+      "boundaryEdges": 0,
+      "overusedEdges": 0,
+      "zeroAreaFaces": 0,
+      "nonFiniteUVs": 0,
+      "strictEdgeTriangleCrossings": 0
+    }
+  }
+]

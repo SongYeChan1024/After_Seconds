@@ -1,0 +1,49 @@
+{
+  "id": "P02",
+  "name": "WallStorageCabinet",
+  "ko": "벽부 수납함",
+  "category": "Props",
+  "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+  "sourceHighNode": "c2418999-b85e-4eda-b947-6f208a749269",
+  "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/P02_retopo.glb",
+  "sourceSha256": "14a7c8502e7a9bcbd78f5fe3fbef984e514a1e91a7aae254a63bf11410a9d58b",
+  "modelPath": "Assets/Afrer_Seconds/05.Model/Props/Common/P02_WallStorageCabinet.fbx",
+  "modelSha256": "0e37df6ac774e8ef727e9bb8a07e1c367a7edffc4f75efef57c575de0b2fa17e",
+  "baseMap": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/P02_WallStorageCabinet_BaseColor.png",
+  "normalMap": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/P02_WallStorageCabinet_Normal.png",
+  "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/P02_WallStorageCabinet_MetallicSmoothness.png",
+  "occlusionMap": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/P02_WallStorageCabinet_Occlusion.png",
+  "blenderSizeXYZ": [
+    0.7679554224014282,
+    0.2930145561695099,
+    0.75
+  ],
+  "candidateDimensionRule": {
+    "mode": "height",
+    "value": 0.75
+  },
+  "triangles": 5998,
+  "visualOnly": true,
+  "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+  "pbrPacking": {
+    "metallic": "R",
+    "smoothness": "A=1-source G",
+    "occlusion": "G=source R"
+  },
+  "normalStrength": 0.35,
+  "materialPath": "Assets/Afrer_Seconds/05.Model/Props/Common/Materials/P02_WallStorageCabinet_URP.mat",
+  "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/Common/P02_WallStorageCabinet.prefab",
+  "placementCount": 3,
+  "finalFbxVerification": {
+    "boundaryEdges": 0,
+    "overusedEdges": 0,
+    "zeroAreaFaces": 0,
+    "nonFiniteUVs": 0,
+    "strictEdgeTriangleCrossings": 0
+  },
+  "folderCleanup20261103": {
+    "previousPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P02_WallStorageCabinet/source_manifest.json",
+    "currentPath": "Assets/Afrer_Seconds/06.Data/AssetSources/Props_VARCO_V002_Batch02_P02_WallStorageCabinet_source_manifest.json",
+    "mapping": "Docs/검수/2026-11-03_ModelFolderCleanup/move_plan.json"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "P11",
+  "name": "CargoHandTruck",
+  "ko": "화물 운반차",
+  "category": "Props",
+  "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+  "sourceHighNode": "05281bf4-93ab-4b03-b7c9-96889caf5b59",
+  "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/P11_retopo.glb",
+  "sourceSha256": "0720350d9017261f4e1672c3ac6f46b39b124a381d33a56b3e0d39aef5ee6520",
+  "modelPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P11_CargoHandTruck/Models/P11_CargoHandTruck.fbx",
+  "modelSha256": "d44f68ae0bb87c763a95665d77d1be678dc559d42cd2755541ce63632fc38685",
+  "baseMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P11_CargoHandTruck/Textures/BaseColor.png",
+  "normalMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P11_CargoHandTruck/Textures/Normal.png",
+  "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P11_CargoHandTruck/Textures/MetallicSmoothness.png",
+  "occlusionMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P11_CargoHandTruck/Textures/Occlusion.png",
+  "blenderSizeXYZ": [
+    0.734615683555603,
+    0.6566278338432312,
+    1.25
+  ],
+  "candidateDimensionRule": {
+    "mode": "height",
+    "value": 1.25
+  },
+  "triangles": 6000,
+  "visualOnly": true,
+  "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+  "pbrPacking": {
+    "metallic": "R",
+    "smoothness": "A=1-source G",
+    "occlusion": "G=source R"
+  },
+  "normalStrength": 0.35,
+  "materialPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P11_CargoHandTruck/Materials/P11_CargoHandTruck_URP.mat",
+  "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P11_CargoHandTruck/Prefabs/P11_CargoHandTruck.prefab",
+  "placementCount": 1,
+  "finalFbxVerification": {
+    "boundaryEdges": 0,
+    "overusedEdges": 0,
+    "zeroAreaFaces": 0,
+    "nonFiniteUVs": 0,
+    "strictEdgeTriangleCrossings": 0
+  }
+}

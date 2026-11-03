@@ -1,0 +1,602 @@
+[
+  {
+    "floor": "B5",
+    "name": "IsolationMonitoringConsole",
+    "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+    "sourceRetopoFile": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\tmp\\VARCO_V002_20261103\\B5_retopo.glb",
+    "sourceSha256": "74f1dbcebe70c3968ca20e4507d8008711a15797bc6ce2b8906090c9275ee36c",
+    "modelPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B5_IsolationMonitoringConsole/Models/B5_IsolationMonitoringConsole.fbx",
+    "modelSha256": "c54038417dc4a5ad280186796b443d54f08201727c7283079b39b506e005994b",
+    "blenderSizeXYZ": [
+      0.65112653374671936,
+      0.48549923300743103,
+      0.65000000596046448
+    ],
+    "targetHeightMeters": 0.65,
+    "triangles": 7980,
+    "materialSources": [
+      {
+        "name": "material_0",
+        "maps": [
+          {
+            "kind": "baseColor",
+            "path": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B5_IsolationMonitoringConsole/Textures/00_00_baseColor_00.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "colorspace": "sRGB",
+            "links": [
+              {
+                "node": "BSDF_PRINCIPLED",
+                "socket": "Base Color"
+              }
+            ]
+          },
+          {
+            "kind": "packed",
+            "path": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B5_IsolationMonitoringConsole/Textures/00_00_packed_01.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "colorspace": "Non-Color",
+            "links": [
+              {
+                "node": "SEPARATE_COLOR",
+                "socket": "Color"
+              }
+            ]
+          },
+          {
+            "kind": "normal",
+            "path": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B5_IsolationMonitoringConsole/Textures/00_00_normal_02.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "colorspace": "Non-Color",
+            "links": [
+              {
+                "node": "NORMAL_MAP",
+                "socket": "Color"
+              }
+            ]
+          },
+          {
+            "kind": "packed",
+            "path": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B5_IsolationMonitoringConsole/Textures/00_00_packed_03.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "colorspace": "Non-Color",
+            "links": [
+              {
+                "node": "SEPARATE_COLOR",
+                "socket": "Color"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "b5DisplayReorientedForWallMount": true,
+    "status": "Applied visual prefab to floor scene; existing collider snapshot preserved",
+    "visualOnly": true,
+    "unityMetallicSmoothness": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B5_IsolationMonitoringConsole/Textures/Unity_MetallicSmoothness.png",
+    "unityOcclusion": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B5_IsolationMonitoringConsole/Textures/Unity_Occlusion.png",
+    "pbrPacking": {
+      "metallic": "R",
+      "smoothness": "A=1-roughness",
+      "occlusion": "G=source occlusion",
+      "sourceRoughnessChannel": 1,
+      "sourceMetallicChannel": 2,
+      "sourceOcclusionChannel": 0
+    },
+    "materialPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B5_IsolationMonitoringConsole/Materials/B5_IsolationMonitoringConsole_URP.mat",
+    "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B5_IsolationMonitoringConsole/Prefabs/B5_IsolationMonitoringConsole.prefab",
+    "scenePath": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "placementCount": 2
+  },
+  {
+    "floor": "B4",
+    "name": "ObservationMonitorBank",
+    "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+    "sourceRetopoFile": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\tmp\\VARCO_V002_20261103\\B4_retopo.glb",
+    "sourceSha256": "d9f0fc12d6dd4a322e2ab5c9f916e951c4d6a9f0f8db8b65d746b334f77cf9b3",
+    "modelPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B4_ObservationMonitorBank/Models/B4_ObservationMonitorBank.fbx",
+    "modelSha256": "705c63fe4f7230d8f69133c634fe460462298dbecda736729044584173fe69f5",
+    "blenderSizeXYZ": [
+      2.2936391830444336,
+      0.60346931219100952,
+      1.0499999523162842
+    ],
+    "targetHeightMeters": 1.05,
+    "triangles": 11688,
+    "materialSources": [
+      {
+        "name": "material_0.001",
+        "maps": [
+          {
+            "kind": "baseColor",
+            "path": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B4_ObservationMonitorBank/Textures/00_00_baseColor_00.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "colorspace": "sRGB",
+            "links": [
+              {
+                "node": "BSDF_PRINCIPLED",
+                "socket": "Base Color"
+              }
+            ]
+          },
+          {
+            "kind": "packed",
+            "path": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B4_ObservationMonitorBank/Textures/00_00_packed_01.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "colorspace": "Non-Color",
+            "links": [
+              {
+                "node": "SEPARATE_COLOR",
+                "socket": "Color"
+              }
+            ]
+          },
+          {
+            "kind": "normal",
+            "path": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B4_ObservationMonitorBank/Textures/00_00_normal_02.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "colorspace": "Non-Color",
+            "links": [
+              {
+                "node": "NORMAL_MAP",
+                "socket": "Color"
+              }
+            ]
+          },
+          {
+            "kind": "packed",
+            "path": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B4_ObservationMonitorBank/Textures/00_00_packed_03.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "colorspace": "Non-Color",
+            "links": [
+              {
+                "node": "SEPARATE_COLOR",
+                "socket": "Color"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "b5DisplayReorientedForWallMount": false,
+    "status": "Applied visual prefab to floor scene; existing collider snapshot preserved",
+    "visualOnly": true,
+    "unityMetallicSmoothness": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B4_ObservationMonitorBank/Textures/Unity_MetallicSmoothness.png",
+    "unityOcclusion": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B4_ObservationMonitorBank/Textures/Unity_Occlusion.png",
+    "pbrPacking": {
+      "metallic": "R",
+      "smoothness": "A=1-roughness",
+      "occlusion": "G=source occlusion",
+      "sourceRoughnessChannel": 1,
+      "sourceMetallicChannel": 2,
+      "sourceOcclusionChannel": 0
+    },
+    "materialPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B4_ObservationMonitorBank/Materials/B4_ObservationMonitorBank_URP.mat",
+    "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B4_ObservationMonitorBank/Prefabs/B4_ObservationMonitorBank.prefab",
+    "scenePath": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B4_Observation.unity",
+    "placementCount": 2
+  },
+  {
+    "floor": "B3",
+    "name": "DecontaminationColumn",
+    "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+    "sourceRetopoFile": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\tmp\\VARCO_V002_20261103\\B3_retopo.glb",
+    "sourceSha256": "3dbc1ce88e0e4dfef2e308301408a8ef55481c4eff81bbeaa3080f40b22dbbb5",
+    "modelPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B3_DecontaminationColumn/Models/B3_DecontaminationColumn.fbx",
+    "modelSha256": "f659234a938e6bd3712ce5f45632d409b4396a18bfcdcf5e4d88ece3a386df59",
+    "blenderSizeXYZ": [
+      1.0607701539993286,
+      0.86000385880470276,
+      2.1999998092651367
+    ],
+    "targetHeightMeters": 2.2,
+    "triangles": 7972,
+    "materialSources": [
+      {
+        "name": "material_0.002",
+        "maps": [
+          {
+            "kind": "baseColor",
+            "path": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B3_DecontaminationColumn/Textures/00_00_baseColor_00.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "colorspace": "sRGB",
+            "links": [
+              {
+                "node": "BSDF_PRINCIPLED",
+                "socket": "Base Color"
+              }
+            ]
+          },
+          {
+            "kind": "packed",
+            "path": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B3_DecontaminationColumn/Textures/00_00_packed_01.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "colorspace": "Non-Color",
+            "links": [
+              {
+                "node": "SEPARATE_COLOR",
+                "socket": "Color"
+              }
+            ]
+          },
+          {
+            "kind": "normal",
+            "path": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B3_DecontaminationColumn/Textures/00_00_normal_02.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "colorspace": "Non-Color",
+            "links": [
+              {
+                "node": "NORMAL_MAP",
+                "socket": "Color"
+              }
+            ]
+          },
+          {
+            "kind": "packed",
+            "path": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B3_DecontaminationColumn/Textures/00_00_packed_03.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "colorspace": "Non-Color",
+            "links": [
+              {
+                "node": "SEPARATE_COLOR",
+                "socket": "Color"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "b5DisplayReorientedForWallMount": false,
+    "status": "Applied visual prefab to floor scene; existing collider snapshot preserved",
+    "visualOnly": true,
+    "unityMetallicSmoothness": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B3_DecontaminationColumn/Textures/Unity_MetallicSmoothness.png",
+    "unityOcclusion": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B3_DecontaminationColumn/Textures/Unity_Occlusion.png",
+    "pbrPacking": {
+      "metallic": "R",
+      "smoothness": "A=1-roughness",
+      "occlusion": "G=source occlusion",
+      "sourceRoughnessChannel": 1,
+      "sourceMetallicChannel": 2,
+      "sourceOcclusionChannel": 0
+    },
+    "materialPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B3_DecontaminationColumn/Materials/B3_DecontaminationColumn_URP.mat",
+    "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B3_DecontaminationColumn/Prefabs/B3_DecontaminationColumn.prefab",
+    "scenePath": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B3_SampleStorage.unity",
+    "placementCount": 2
+  },
+  {
+    "floor": "B2",
+    "name": "ControlDeskIsland",
+    "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+    "sourceRetopoFile": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\tmp\\VARCO_V002_20261103\\B2_retopo.glb",
+    "sourceSha256": "3844349e959d59322c10e8cf04a68015711215cdbafff6f8405f760803e359a3",
+    "modelPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B2_ControlDeskIsland/Models/B2_ControlDeskIsland.fbx",
+    "modelSha256": "ff9cd931ed61d25e24f487bbe10517e41a320e082b5904d2e291dde62e0f79c6",
+    "blenderSizeXYZ": [
+      1.3870854377746582,
+      1.2330699563026428,
+      1.4500000476837158
+    ],
+    "targetHeightMeters": 1.45,
+    "triangles": 15166,
+    "materialSources": [
+      {
+        "name": "material_0.003",
+        "maps": [
+          {
+            "kind": "baseColor",
+            "path": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B2_ControlDeskIsland/Textures/00_00_baseColor_00.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "colorspace": "sRGB",
+            "links": [
+              {
+                "node": "BSDF_PRINCIPLED",
+                "socket": "Base Color"
+              }
+            ]
+          },
+          {
+            "kind": "packed",
+            "path": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B2_ControlDeskIsland/Textures/00_00_packed_01.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "colorspace": "Non-Color",
+            "links": [
+              {
+                "node": "SEPARATE_COLOR",
+                "socket": "Color"
+              }
+            ]
+          },
+          {
+            "kind": "normal",
+            "path": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B2_ControlDeskIsland/Textures/00_00_normal_02.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "colorspace": "Non-Color",
+            "links": [
+              {
+                "node": "NORMAL_MAP",
+                "socket": "Color"
+              }
+            ]
+          },
+          {
+            "kind": "packed",
+            "path": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B2_ControlDeskIsland/Textures/00_00_packed_03.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "colorspace": "Non-Color",
+            "links": [
+              {
+                "node": "SEPARATE_COLOR",
+                "socket": "Color"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "b5DisplayReorientedForWallMount": false,
+    "status": "Applied visual prefab to floor scene; existing collider snapshot preserved",
+    "visualOnly": true,
+    "unityMetallicSmoothness": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B2_ControlDeskIsland/Textures/Unity_MetallicSmoothness.png",
+    "unityOcclusion": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B2_ControlDeskIsland/Textures/Unity_Occlusion.png",
+    "pbrPacking": {
+      "metallic": "R",
+      "smoothness": "A=1-roughness",
+      "occlusion": "G=source occlusion",
+      "sourceRoughnessChannel": 1,
+      "sourceMetallicChannel": 2,
+      "sourceOcclusionChannel": 0
+    },
+    "materialPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B2_ControlDeskIsland/Materials/B2_ControlDeskIsland_URP.mat",
+    "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B2_ControlDeskIsland/Prefabs/B2_ControlDeskIsland.prefab",
+    "scenePath": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B2_Machinery.unity",
+    "placementCount": 2
+  },
+  {
+    "floor": "B1",
+    "name": "ExperimentServicePanel",
+    "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+    "sourceRetopoFile": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\tmp\\VARCO_V002_20261103\\B1_retopo.glb",
+    "sourceSha256": "a9b7ade91876f2910c27e0dab43cfc2a8e9efa60dfedb73ba4c4d84ddda83178",
+    "modelPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B1_ExperimentServicePanel/Models/B1_ExperimentServicePanel.fbx",
+    "modelSha256": "1da5d279335a734d11faffe4d35bc6549d0eb6a8fa3a06dca443864653b2f67a",
+    "blenderSizeXYZ": [
+      1.1989237070083618,
+      0.41560988128185272,
+      1.2000000476837158
+    ],
+    "targetHeightMeters": 1.2,
+    "triangles": 7978,
+    "materialSources": [
+      {
+        "name": "material_0.004",
+        "maps": [
+          {
+            "kind": "baseColor",
+            "path": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B1_ExperimentServicePanel/Textures/00_00_baseColor_00.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "colorspace": "sRGB",
+            "links": [
+              {
+                "node": "BSDF_PRINCIPLED",
+                "socket": "Base Color"
+              }
+            ]
+          },
+          {
+            "kind": "packed",
+            "path": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B1_ExperimentServicePanel/Textures/00_00_packed_01.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "colorspace": "Non-Color",
+            "links": [
+              {
+                "node": "SEPARATE_COLOR",
+                "socket": "Color"
+              }
+            ]
+          },
+          {
+            "kind": "normal",
+            "path": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B1_ExperimentServicePanel/Textures/00_00_normal_02.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "colorspace": "Non-Color",
+            "links": [
+              {
+                "node": "NORMAL_MAP",
+                "socket": "Color"
+              }
+            ]
+          },
+          {
+            "kind": "packed",
+            "path": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B1_ExperimentServicePanel/Textures/00_00_packed_03.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "colorspace": "Non-Color",
+            "links": [
+              {
+                "node": "SEPARATE_COLOR",
+                "socket": "Color"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "b5DisplayReorientedForWallMount": false,
+    "status": "Applied visual prefab to floor scene; existing collider snapshot preserved",
+    "visualOnly": true,
+    "unityMetallicSmoothness": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B1_ExperimentServicePanel/Textures/Unity_MetallicSmoothness.png",
+    "unityOcclusion": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B1_ExperimentServicePanel/Textures/Unity_Occlusion.png",
+    "pbrPacking": {
+      "metallic": "R",
+      "smoothness": "A=1-roughness",
+      "occlusion": "G=source occlusion",
+      "sourceRoughnessChannel": 1,
+      "sourceMetallicChannel": 2,
+      "sourceOcclusionChannel": 0
+    },
+    "materialPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B1_ExperimentServicePanel/Materials/B1_ExperimentServicePanel_URP.mat",
+    "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B1_ExperimentServicePanel/Prefabs/B1_ExperimentServicePanel.prefab",
+    "scenePath": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B1_Experiment.unity",
+    "placementCount": 1
+  },
+  {
+    "floor": "1F",
+    "name": "SecurityInspectionCounter",
+    "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+    "sourceRetopoFile": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\tmp\\VARCO_V002_20261103\\1F_retopo.glb",
+    "sourceSha256": "a15df709dccaff2bf0d6e52bb6a2e4eab230abddffd766954927eb334b468fc3",
+    "modelPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/1F_SecurityInspectionCounter/Models/1F_SecurityInspectionCounter.fbx",
+    "modelSha256": "a6363d32f6a707a67e301c25773c9f76bfffd9f830a4f8513c1640cb2220945a",
+    "blenderSizeXYZ": [
+      1.3372212648391724,
+      0.82826623320579529,
+      1.25
+    ],
+    "targetHeightMeters": 1.25,
+    "triangles": 11962,
+    "materialSources": [
+      {
+        "name": "material_0.005",
+        "maps": [
+          {
+            "kind": "baseColor",
+            "path": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/1F_SecurityInspectionCounter/Textures/00_00_baseColor_00.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "colorspace": "sRGB",
+            "links": [
+              {
+                "node": "BSDF_PRINCIPLED",
+                "socket": "Base Color"
+              }
+            ]
+          },
+          {
+            "kind": "packed",
+            "path": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/1F_SecurityInspectionCounter/Textures/00_00_packed_01.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "colorspace": "Non-Color",
+            "links": [
+              {
+                "node": "SEPARATE_COLOR",
+                "socket": "Color"
+              }
+            ]
+          },
+          {
+            "kind": "normal",
+            "path": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/1F_SecurityInspectionCounter/Textures/00_00_normal_02.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "colorspace": "Non-Color",
+            "links": [
+              {
+                "node": "NORMAL_MAP",
+                "socket": "Color"
+              }
+            ]
+          },
+          {
+            "kind": "packed",
+            "path": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/1F_SecurityInspectionCounter/Textures/00_00_packed_03.png",
+            "size": [
+              2048,
+              2048
+            ],
+            "colorspace": "Non-Color",
+            "links": [
+              {
+                "node": "SEPARATE_COLOR",
+                "socket": "Color"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "b5DisplayReorientedForWallMount": false,
+    "status": "Applied visual prefab to floor scene; existing collider snapshot preserved",
+    "visualOnly": true,
+    "unityMetallicSmoothness": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/1F_SecurityInspectionCounter/Textures/Unity_MetallicSmoothness.png",
+    "unityOcclusion": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/1F_SecurityInspectionCounter/Textures/Unity_Occlusion.png",
+    "pbrPacking": {
+      "metallic": "R",
+      "smoothness": "A=1-roughness",
+      "occlusion": "G=source occlusion",
+      "sourceRoughnessChannel": 1,
+      "sourceMetallicChannel": 2,
+      "sourceOcclusionChannel": 0
+    },
+    "materialPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/1F_SecurityInspectionCounter/Materials/1F_SecurityInspectionCounter_URP.mat",
+    "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/1F_SecurityInspectionCounter/Prefabs/1F_SecurityInspectionCounter.prefab",
+    "scenePath": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_1F_Checkpoint.unity",
+    "placementCount": 1
+  }
+]

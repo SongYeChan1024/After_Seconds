@@ -1,0 +1,44 @@
+{
+  "id": "P09",
+  "name": "LaboratoryTrolley",
+  "ko": "실험용 운반 카트",
+  "category": "Props",
+  "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+  "sourceHighNode": "ba0724ae-46e5-4d07-9d1d-dbc34d6e3225",
+  "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/P09_retopo.glb",
+  "sourceSha256": "bb3c10114218d2d1e7bba529ddf625bc94d4ed5019d59cf1e62ad95055137478",
+  "modelPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P09_LaboratoryTrolley/Models/P09_LaboratoryTrolley.fbx",
+  "modelSha256": "6505f88e30669ed3a8e1aaae1ee031ffb3dc9f73d864ccc64abb7932921d97ca",
+  "baseMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P09_LaboratoryTrolley/Textures/BaseColor.png",
+  "normalMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P09_LaboratoryTrolley/Textures/Normal.png",
+  "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P09_LaboratoryTrolley/Textures/MetallicSmoothness.png",
+  "occlusionMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P09_LaboratoryTrolley/Textures/Occlusion.png",
+  "blenderSizeXYZ": [
+    1.0764622688293457,
+    0.5589170455932617,
+    0.9499999284744263
+  ],
+  "candidateDimensionRule": {
+    "mode": "height",
+    "value": 0.95
+  },
+  "triangles": 7976,
+  "visualOnly": true,
+  "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+  "pbrPacking": {
+    "metallic": "R",
+    "smoothness": "A=1-source G",
+    "occlusion": "G=source R"
+  },
+  "normalStrength": 0.35,
+  "materialPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P09_LaboratoryTrolley/Materials/P09_LaboratoryTrolley_URP.mat",
+  "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P09_LaboratoryTrolley/Prefabs/P09_LaboratoryTrolley.prefab",
+  "placementCount": 2,
+  "finalFbxVerification": {
+    "boundaryEdges": 0,
+    "overusedEdges": 0,
+    "zeroAreaFaces": 0,
+    "nonFiniteUVs": 0,
+    "strictEdgeTriangleCrossings": 0
+  }
+}

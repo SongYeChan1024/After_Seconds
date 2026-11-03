@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-03",
+  "author": "송예찬",
+  "scope": "Asset import and source curve/settings preservation; no Animator or scene connection or visual retargeting test",
+  "clips": [
+    {
+      "path": "Assets/Afrer_Seconds/07.Animator/Player/Clips/Invector_Basic/Invector_Walk.anim",
+      "length": 1.0,
+      "frameRate": 30.0,
+      "humanMotion": true,
+      "isLooping": true,
+      "curveBindings": 130,
+      "curvesEqual": true,
+      "settingsEqual": true,
+      "dependencies": [
+        "Assets/Afrer_Seconds/07.Animator/Player/Clips/Invector_Basic/Invector_Walk.anim"
+      ],
+      "guid": "bbe576aba42c42f46a5c65741d689647",
+      "passed": true
+    },
+    {
+      "path": "Assets/Afrer_Seconds/07.Animator/Player/Clips/Invector_Basic/Invector_Run.anim",
+      "length": 0.659999967,
+      "frameRate": 30.0,
+      "humanMotion": true,
+      "isLooping": true,
+      "curveBindings": 130,
+      "curvesEqual": true,
+      "settingsEqual": true,
+      "dependencies": [
+        "Assets/Afrer_Seconds/07.Animator/Player/Clips/Invector_Basic/Invector_Run.anim"
+      ],
+      "guid": "c1b7d28ddbf458844bf188872310644c",
+      "passed": true
+    },
+    {
+      "path": "Assets/Afrer_Seconds/07.Animator/Player/Clips/Invector_Basic/Invector_Sprint.anim",
+      "length": 0.520000041,
+      "frameRate": 30.0,
+      "humanMotion": true,
+      "isLooping": true,
+      "curveBindings": 130,
+      "curvesEqual": true,
+      "settingsEqual": true,
+      "dependencies": [
+        "Assets/Afrer_Seconds/07.Animator/Player/Clips/Invector_Basic/Invector_Sprint.anim"
+      ],
+      "guid": "d8cd24bc8e81c204c9b38e6541351db2",
+      "passed": true
+    }
+  ],
+  "scene": "",
+  "sceneDirty": false,
+  "play": false
+}

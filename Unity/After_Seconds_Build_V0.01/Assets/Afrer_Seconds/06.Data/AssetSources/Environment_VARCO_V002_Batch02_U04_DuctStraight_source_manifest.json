@@ -1,0 +1,49 @@
+{
+  "id": "U04",
+  "name": "DuctStraight",
+  "ko": "직선 덕트",
+  "category": "Environment",
+  "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+  "sourceHighNode": "9992a1ea-33d0-49ed-b016-373824ac2356",
+  "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/U04_retopo.glb",
+  "sourceSha256": "68fbd6ca805854f5abaaca9ab223327ee71f60ecf20266d9337b6c72b6e5131d",
+  "modelPath": "Assets/Afrer_Seconds/05.Model/Environment/Common/U04_DuctStraight.fbx",
+  "modelSha256": "0d7497440e5d6f940df7c587221a2b1439a64d87bb46de366f11287f32f03460",
+  "baseMap": "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/U04_DuctStraight_BaseColor.png",
+  "normalMap": "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/U04_DuctStraight_Normal.png",
+  "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/U04_DuctStraight_MetallicSmoothness.png",
+  "occlusionMap": "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/U04_DuctStraight_Occlusion.png",
+  "blenderSizeXYZ": [
+    1.5,
+    0.5706074237823486,
+    0.5695968866348267
+  ],
+  "candidateDimensionRule": {
+    "mode": "lengthX",
+    "value": 1.5
+  },
+  "triangles": 2476,
+  "visualOnly": true,
+  "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+  "pbrPacking": {
+    "metallic": "R",
+    "smoothness": "A=1-source G",
+    "occlusion": "G=source R"
+  },
+  "normalStrength": 0.35,
+  "materialPath": "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/U04_DuctStraight_URP.mat",
+  "prefabPath": "Assets/Afrer_Seconds/05.Model/Environment/Common/U04_DuctStraight.prefab",
+  "placementCount": 9,
+  "finalFbxVerification": {
+    "boundaryEdges": 0,
+    "overusedEdges": 0,
+    "zeroAreaFaces": 0,
+    "nonFiniteUVs": 0,
+    "strictEdgeTriangleCrossings": 0
+  },
+  "folderCleanup20261103": {
+    "previousPath": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U04_DuctStraight/source_manifest.json",
+    "currentPath": "Assets/Afrer_Seconds/06.Data/AssetSources/Environment_VARCO_V002_Batch02_U04_DuctStraight_source_manifest.json",
+    "mapping": "Docs/검수/2026-11-03_ModelFolderCleanup/move_plan.json"
+  }
+}

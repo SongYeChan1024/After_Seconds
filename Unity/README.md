@@ -1,6 +1,40 @@
-# After Seconds Unity 프로젝트 안내 V0.11
+# After Seconds Unity 프로젝트 안내 V0.22
 
-2026-11-02 · 작성자 송예찬 · 실제 저장된 폴더 구조 기준
+## 2026-11-03 퇴근 전 저장 및 다음 시작점
+
+최신 이어하기는 `Docs/이어하기_2026-11-03.md`를 먼저 읽는다. B5 일반 벽 24개를 공용 PBR 재질 1개로 정리하고 겹친 일반 벽의 접합면을 잘랐다. 흰색·회색·검은색 대비와 천장 조명 18개의 옅은 청백색을 적용했다. 사용자가 뒤집은 천장 Transform과 Collider는 유지했다. 전체 표면 추가 검사에서 천장·데크 접합 후보 26쌍이 남아 다음 검수 대상으로 기록했다. 상세는 `Docs/검수/2026-11-03_B5_Clinical_Tone/검수결과.md`를 따른다.
+
+시작 감방을 유리 돔 관찰 포드와 배식구로 바꾸는 구상은 **레퍼런스만 제작**했다. 실제 돔 모델과 탈출 기능은 만들지 않았다. 이미지는 `Docs/Reference/GlassObservationPod_Concept.png`에 있다.
+
+
+## 2026-11-03 모델 폴더 단순화 완료
+
+사용자 요청에 따라 `05.Model`은 Player·Enemy·Props·Environment 네 분류로 정리했다. Props와 Environment는 B5/B4/B3/B2/B1/1F/Common으로 나누고, 각 분류/층 폴더에 모델·프리팹·메시를 바로 보관한다. 하위 폴더는 Materials와 Textures만 사용한다. 여러 층에서 쓰는 에셋은 Common 한 곳을 참조하며 복제하지 않는다. 기존 VARCO·Batch02·Models·Prefabs·Meshes·Repaired 중간 폴더는 제거했다.
+
+상자·시료 용기·물류 용기는 `Props/Common`, 플레이어 모델은 `Player`, 경비 모델은 `Enemy`에 있다. 기존 03.Art/Candidates의 3D 모델 3종도 해당 분류로 이동했다. 제작 출처·반입 기록은 `06.Data/AssetSources`에 모았고 동작 FBX·Animator 자료는 기존 `07.Animator`에 유지했다. 414개 파일을 AssetDatabase로 이동해 대상 443개 GUID, 6개 층 의존 참조, 53개 FBX 내부 ID와 40개 프리팹 참조를 확인했다. 이동 전후 경로표와 검수는 `Docs/검수/2026-11-03_ModelFolderCleanup/정리결과.md`를 따른다. 과거 검수 스크립트의 반입 경로를 그대로 재실행하면 옛 폴더가 생길 수 있으므로 새 경로표를 적용한다.
+
+
+## 2026-11-03 B5 일반 벽 텍스처 시범 적용
+
+B5 격리실 일반 벽 7개에 신규 공용 머티리얼 1개와 PBR 텍스처 3개를 적용했다. 상단 도장 콘크리트·하단 회녹색 보호 도장을 미터 기준 UV로 매핑했다. 위치·형상·대상 벽의 Collider는 유지했고, 다른 층은 아직 확장하지 않았다. 반입 위치는 `05.Model/Environment/Common/Materials`와 `Common/Textures`, 벽 UV 메시는 `Environment/B5`이며 전후 비교와 재현 스크립트는 `Docs/검수/2026-11-03_WallTexture_Pilot/검수결과.md`에 있다. 벽을 이동·크기 변경하면 해당 UV 재계산이 필요하다.
+
+
+## 2026-11-03 건축 모듈 재제작·재적용 완료
+
+남아 있던 원본 형상 문제를 해결하려고 벽·관찰창·바닥·천장 6종을 Blender에서 재제작하고 고해상도 모델→감량·토폴로지 정리→최종 FBX 재검사→Unity 반입을 완료했다. B5 기존 54개 인스턴스에 적용했으며 관통 볼트 구멍·비뚤어진 외곽·관찰창의 불투명막을 제거했다. 관찰창 뒤에는 얕은 관찰실 외형 2개를 추가했다. 바닥 18개는 시각 오브젝트만 +2mm 보정해 경계 틈을 막았다. 기존 Collider와 게임 코드는 유지했다.
+
+반입 폴더는 `05.Model/Environment/B5`, Blender 원본은 저장소의 `SourceAssets/Architecture_Rebuilt`다. 검수 자료는 `Docs/검수/2026-11-03_Architecture_Rebuild/검수결과.md`에 있다. 아래 이전 기록의 '원본 형상 재제작 필요' 항목은 이번 결과로 해결했다. 유료 VARCO 재생성은 사용하지 않았다.
+
+
+## 2026-11-03 추가 20종 반입·적용 및 기존 메시 복구
+
+- Batch02 20종을 500k 원본에서 감량·국소 리토폴로지 후 Unity 반입 완료. 6층에 60개 시각 인스턴스 적용. 기존 Collider·게임 로직 보존, 저장 씬 재열기·참조·겹침 검사 통과.
+- 기존 V0.01 환경·프랍 8종은 고해상도 원본에서 복구. 원본 FBX·.meta를 보존하고 기존 프리팹에 Repaired/Models의 .asset 메시 연결. 최종 FBX 열린 경계·엄격한 면 관통 모두 0건. 천장만 31,218 triangles로 상향.
+- 관찰창 원본의 불투명막, 벽 원본의 관통 볼트 구멍·불규칙한 외곽/모듈 경계 틈은 별도 재제작 대상으로 남음. 모든 외형 문제까지 해결한 상태는 아님.
+- 검수: `Docs/검수/2026-11-03_Existing_VARCO_Repair/검수결과.md`, `Docs/검수/2026-11-03_VARCO_V002_Batch02/반입_적용결과.md`. 아래 이전 리토폴로지·반입 대기 기록은 이 결과로 갱신됨.
+
+
+2026-11-03 · 작성자 송예찬 · 실제 저장된 폴더 구조 기준
 
 ## 프로젝트 열기
 
@@ -19,13 +53,50 @@ Hub에 등록할 실제 경로는 저장소 안의 **`Unity/After_Seconds_Build_
 
 ## B5 격리층 씬
 
-`Assets/Afrer_Seconds/01.Scenes/Level_B5_Isolation.unity`를 열면 B5층 외형을 확인할 수 있다. `Room01_Isolation`, `Connector_Airlock`, `Room02_CoolingPool`, `Exit_StairVestibule`로 나누며 기존 SampleScene은 이동·걷기 검증용으로 보존한다. 다른 층은 아직 만들지 않는다.
+`Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity`를 열면 B5층 외형을 확인할 수 있다. `Room01_Isolation`, `Connector_Airlock`, `Room02_CoolingPool`, `Exit_StairVestibule`로 나누며 이동·걷기 검증 씬은 현재 `Player.unity`로 관리한다. B4 추가 제작은 아래 2026-11-03 기록을 따른다.
 
-VARCO의 기존 모델 8종을 반입해 외형 58개를 배치했다. 환경은 `05.Model/Environment/VARCO`, 소품은 `05.Model/Props/VARCO`에 보관하며 각 `source_manifest.json`에 출처·실측·프리팹 경로를 기록한다. 원본은 로컬 `tmp`에 보존하고 프로젝트에는 8천~1만6천 삼각형 파생 FBX와 최대 2K 텍스처를 넣었다.
+VARCO의 기존 모델 8종을 반입해 외형 58개를 배치했다. 환경은 `05.Model/Environment/B5`, 소품은 `05.Model/Props/B5`에 보관하며 각 `source_manifest.json`에 출처·실측·프리팹 경로를 기록한다. 원본은 로컬 `tmp`에 보존하고 프로젝트에는 8천~1만6천 삼각형 파생 FBX와 최대 2K 텍스처를 넣었다.
 
 새 씬은 기존 플레이어·카메라 연결을 복제하고 시작 위치·방향만 B5에 맞춘다. 기존 코드·프리팹·모델·Animator·이동 설정은 수정하지 않았다. 통로·계단·부모 오프셋은 제작 가안이다. [배치와 검수 결과](../Docs/B5_레벨_구성.md)를 참고한다.
 
 사격·교환·경비 AI·문 작동·체크포인트·층 전환은 아직 없다. 감방 탈출·냉각조 횡단은 해당 기능을 구현한 뒤 진행한다. Build Settings는 기존 SampleScene만 유지하며, B5는 Editor에서 씬을 열어 실행한다.
+
+## B4 관찰층 추가 초안 · 2026-11-03
+
+추가 스테이지 제작 요청으로 `Assets/Afrer_Seconds/01.Scenes/Stage/Level_B4_Observation.unity`를 구성했다. 3번 관찰 복도와 4번 관제 데크의 도면 치수·가림벽·2.5m 단상·정적 경비·상자·B3행 계단 연결부를 포함한다. 기존 `Player.unity`의 플레이어와 카메라 연결을 복제했으므로 **B4 씬 하나를 열어** 확인한다. Player 씬과 함께 로드하면 플레이어·카메라가 중복될 수 있다.
+
+새 환경 재질·표지·계단 충돌 메시지는 `05.Model/Environment/B4/`에 보관한다. 기존 B5·Player·코드·프리팹·모델·Animator·ProjectSettings는 보존했다. 사격·교환·제압·경비 AI·자동문·체크포인트·층 전환은 추가하지 않았다. 상세 좌표·검수·미완료 범위는 [B4 레벨 구성](../Docs/B4_레벨_구성.md)을 따른다. 아래 과거 폴더 구조의 SampleScene·B5 위치는 사용자 변경 전 기록이며, 현재 Player·Stage 분류를 우선한다.
+
+## B3 시료층 추가 초안 · 2026-11-03
+
+`Assets/Afrer_Seconds/01.Scenes/Stage/Level_B3_SampleStorage.unity`에 5번 시료 저장고·6번 오염 제거 에어록을 구성했다. 1.5m 발판·가림벽·2.5m 선반·무거운 궤짝과, 2.4m 폭·1.2m 깊이 피트·닫힌 셔터·정적 경비·B2행 화물 리프트 외형을 포함한다. **B3 씬 하나만 열어** 확인한다.
+
+공간·충돌·조명 초안이며 발판·셔터·교환·경비·엘리베이터 작동은 아직 없다. 닫힌 셔터 뒤의 구역은 Scene View로 확인할 수 있다. 새 환경 재질은 `05.Model/Environment/B3`, 2D 표지는 `03.Art/Environment/B3/Signs`에 분류했다. 기존 파일과 Build Settings는 보존했다. 치수·검수·제약은 [B3 레벨 구성](../Docs/B3_레벨_구성.md)을 따른다.
+
+B3에는 후속 요청으로 노출·Bloom·궤짝 조명·측면 증기를 추가하고 표지 아틀라스·광원/그림자 정리·오클루전 베이크를 적용했다. 새 Volume은 `06.Data/Rendering/B3`, 공유 표지 UV 메시는 `05.Model/Environment/B3/Meshes`, 아틀라스·증기 이미지는 `03.Art/Environment/B3`에 있다. Collider·게임 로직은 유지했다. [조명·최적화 결과와 LOD 방안](../Docs/B3_조명과_최적화.md)을 참고한다.
+
+## 남은 B2·B1·1F 초안 · 2026-11-03
+
+`01.Scenes/Stage/`에 `Level_B2_Machinery.unity`, `Level_B1_Experiment.unity`, `Level_1F_Checkpoint.unity`를 추가했다. 각각 방 7·8, 방 9, 방 10의 기존 설계에 따른 공간·충돌·정적 경비·조명 초안이다. 이로써 B5~1F의 층별 씬이 모두 있으나 교환·AI·문·층 전환은 아직 연결하지 않았다. 각 씬에는 독립 검수용 플레이어·카메라가 있어 하나씩 열어 확인한다.
+
+새 환경 재질·표지 UV 메시·계단 충돌 메시는 `05.Model/Environment`, 2D 표지 아틀라스는 `03.Art/Environment/UpperFloors`, Volume은 `06.Data/Rendering/UpperFloors`에 분류했다. 층별 오클루전을 베이크하고 방과 통로의 벽 두께를 반영해 접합부 중첩을 검사했다. 상세 좌표·이미지·검수·미완료 범위는 [상층부 레벨 구성](../Docs/상층부_레벨_구성.md)을 따른다.
+
+## VARCO V0.02 설비 6종 적용 · 2026-11-03
+
+리토폴로지한 설비 6종을 `Assets/Afrer_Seconds/05.Model/Props/`에 반입하고 각 층에 총 10개 외형을 배치했다. 현재 모델·프리팹은 각 층 폴더에 바로 있고, Textures·Materials만 하위 분리한다. source_manifest 등의 제작 기록은 06.Data/AssetSources에 있다. 해당 방의 `VARCO_V002_Visuals`에서 배치를 찾을 수 있다.
+
+| 층 | 반입 에셋 | 배치 |
+| --- | --- | --- |
+| B5 | IsolationMonitoringConsole | 격리실 서쪽 벽·냉각조 동쪽 벽에 2개 |
+| B4 | ObservationMonitorBank | 관찰 복도·관제 데크 벽에 2개 |
+| B3 | DecontaminationColumn | 에어록 양옆에 2개 |
+| B2 | ControlDeskIsland | 관제 섬 위에 2개, 사다리 중앙 공간 유지 |
+| B1 | ExperimentServicePanel | 남쪽 데크 서쪽 벽에 1개, 부스 내부에는 추가하지 않음 |
+| 1F | SecurityInspectionCounter | 검문소 동쪽 벽 쪽에 1개 |
+
+배치 높이·크기는 💡 외형 제작 가안이다. 6개 씬을 저장 후 다시 열어 메시·재질·프리팹 참조와 누락 스크립트 없음, 기존 Collider 기록 동일, 신규 외형 Collider 없음, 기존 충돌체와 신규 외형 bounds 겹침 없음을 확인했다. B3 가운데 기존 노즐 2개는 새 기둥과 중복돼 Renderer만 끄고 오브젝트를 보존했다. 기존 기획 치수·게임 코드·Player 씬·Animator·ProjectSettings·오클루전 데이터를 변경하지 않았다. 신규 외형은 정적 차폐물로 베이크하지 않으며 기존 조명·오클루전 베이크도 다시 만들지 않았다.
+
+glTF의 금속·거칠기·AO 채널을 URP용 Metallic/Smoothness와 Occlusion으로 변환했고, 노멀 강도는 💡 0.35다. 신규 외형에는 그림자 투사를 끄고 기존 조명으로 확인했다. 저장된 6개 씬의 검수 렌더·참조 검증·파일 보존 기록은 [VARCO 검수 폴더](../Docs/검수/2026-11-03_VARCO_V002/)에 있다. 실제 퍼즐 완주·사격·교환·장치 동작 검증을 뜻하지 않는다. B5의 기존 벽·천장 생성 메시 깨짐은 별도 문제로 남아 있다.
 
 ## 현재 폴더 구조
 
@@ -34,8 +105,14 @@ VARCO의 기존 모델 8종을 반입해 외형 58개를 배치했다. 환경은
 ```text
 Assets/Afrer_Seconds/
   01.Scenes/
-    SampleScene.unity
-    Level_B5_Isolation.unity          # B5층 전용
+    Player.unity                     # 기존 이동·걷기 검증 씬
+    Stage/
+      Level_B5_Isolation.unity        # B5층 전용
+      Level_B4_Observation.unity      # B4층 초안, 독립 검수용 플레이어 포함
+      Level_B3_SampleStorage.unity    # B3층 초안, 독립 검수용 플레이어 포함
+      Level_B2_Machinery.unity        # 방 7·8, 독립 검수용 플레이어 포함
+      Level_B1_Experiment.unity       # 방 9, 독립 검수용 플레이어 포함
+      Level_1F_Checkpoint.unity       # 방 10, 독립 검수용 플레이어 포함
   02.Scripts/
     A.Define/DefineAD.asmdef
     B.Simulator/SimulatorAD.asmdef
@@ -55,36 +132,34 @@ Assets/Afrer_Seconds/
       PresenterAD.asmdef
       Player/PlayerPresenter.cs
   03.Art/
-    Candidates/VARCO/
-      AS01_Crate/{Models,Textures,Materials}/
-      AS05_PlayerDummy/{Models,Textures,Materials}/
-      AS06_GuardDummy/{Models,Textures,Materials}/
-      README.md
-      source_manifest.json
-      varco-import-facts.json
+    Environment/                    # 2D 표지·아틀라스 등
   04.Prefabs/                         # 현재 비어 있음
   05.Model/
-    Player/
-      Player_Dummy_V0.1.prefab
-      Rigged/
-        Models/
-          PlayerDummy_Rigged_V0.2.fbx  # 사용자 변경 이름, 기존 모델 유지
-          PlayerDummy_Rigged_V0.3.fbx  # 별도 하체·스킨 보정 후보
-        README.md
-        source_manifest.json
-        unity-import-facts.json
-        motion-preview-validation.json
-        v03-skin-repair.json
-        v03-unity-import-facts.json
-        v03-motion-preview-validation.json
-    Enemy/Enemy_Guard_V0.1.prefab
+    Player/                         # 기준 모델·모델 단계 프리팹
+      Materials/
+      Textures/
+    Enemy/
+      Materials/
+      Textures/
     Props/
-      Props_Crate_V0.1.prefab
-      VARCO/                         # 냉각 펌프·전기함
+      Common/                       # 상자·시료 용기·공용 설비
+      B5/                           # 각 폴더에 모델·프리팹을 바로 보관
+      B4/
+      B3/
+      B2/
+      B1/
+      1F/
     Environment/
-      B5/{Materials,Modules,Labels}/ # 기본 구조·충돌 경사면·고정 표지
-      VARCO/                         # 벽·문·바닥·천장 6종
+      Common/                       # 여러 층에서 쓰는 배관·덕트·공용 재질
+      B5/
+      B4/
+      B3/
+      B2/
+      B1/
+      1F/
+    # Props·Environment의 층/Common 폴더에도 Materials·Textures만 하위 분리
   06.Data/
+    AssetSources/                   # 제작 출처·반입·검수 JSON/안내
     PlayerMotorSettings.asset
     PlayerLookSettings.asset
   07.Animator/
@@ -103,6 +178,7 @@ Assets/Afrer_Seconds/
           Player_Jump.fbx
           Player_Land.fbx
           Player_Pickup.fbx
+        Invector_Basic/               # 전방 Walk·Run·Sprint 독립 .anim 비교 후보
       Controllers/
         Player_Animator.controller   # 기존 상태 구성 유지, V0.3 Motion 6개 연결
 ```
@@ -113,9 +189,9 @@ Assets/Afrer_Seconds/
 | --- | --- | --- |
 | `01.Scenes` | 맵과 레벨, 층별 별도 씬 | SampleScene 보존, B5 격리층 별도 구성 |
 | `02.Scripts` | 책임에 따라 분리한 게임 코드와 AD | 6개 AD와 입력·이동·시야·Presenter 코드 |
-| `03.Art` | **2D 이미지 전용. UI·컷씬 등 종류별 하위 폴더로 분류** | 과거 반입한 VARCO 모델·텍스처·재질·검수 기록이 아직 남아 있음 |
+| `03.Art` | **2D 이미지 전용. UI·컷씬 등 종류별 하위 폴더로 분류** | 2D 표지·아틀라스·증기 이미지. 과거 VARCO 모델은 05.Model로 정리 완료 |
 | `04.Prefabs` | **스크립트와 결합해 기능이 완성된 게임 에셋** | 완성 에셋은 아직 없음 |
-| `05.Model` | **기준 리깅 모델·부속 재질과 조립 중인 외형 에셋** | Player·Enemy·Props·Environment로 분류하며 플레이어 기준 모델과 반입 기록은 Player/Rigged에 보관함 |
+| `05.Model` | **기준 리깅 모델·부속 재질과 조립 중인 외형 에셋** | Player·Enemy는 직접 분류, Props·Environment는 층별/Common으로 분류. 하위는 Materials·Textures만 사용하고 제작 기록은 06.Data/AssetSources에 보관함 |
 | `06.Data` | ScriptableObject 설정 에셋 | 이동·시야 설정 |
 | `07.Animator` | **동작 FBX·클립 및 AnimatorController·AnimatorOverrideController·AvatarMask** | Player/Clips에 기존 동작 6종을 유지하며 Rigged_V0.3에 신규 6종을 분리함. Controller는 Player/Controllers에서 관리함 |
 
@@ -146,13 +222,17 @@ Assets/Afrer_Seconds/
 | --- | --- | --- |
 | 회색 플레이어 더미 | [05.Model/Player/Player_Dummy_V0.1.prefab](After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Player/Player_Dummy_V0.1.prefab) | V0.3 외형·Animator를 기준 프리팹에도 적용, WASD와 Idle·Walk 연결 |
 | 주황 경비 더미 | [05.Model/Enemy/Enemy_Guard_V0.1.prefab](After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Enemy/Enemy_Guard_V0.1.prefab) | 정적 T포즈, 높이 💡 1.8m |
-| 시료 궤짝 | [05.Model/Props/Props_Crate_V0.1.prefab](After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/Props_Crate_V0.1.prefab) | 높이 💡 1m |
+| 시료 궤짝 | [05.Model/Props/Common/Props_Crate_V0.1.prefab](After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/Common/Props_Crate_V0.1.prefab) | 높이 💡 1m |
 
-위 높이와 충돌체 치수는 테스트용 가안이다. 경비 더미는 정적 T포즈이며 플레이어는 V0.3 외형·Animator와 WASD에 따른 Idle·Walk를 연결했다. 이동·시야 회전은 현재 SampleScene에서 확인했으며, 사격·경비 행동·교환 규칙은 아직이다. 세 후보 모두 8,000 triangles이며 색상·노멀 텍스처를 URP 재질에 연결했다. 자세한 상태와 출처는 [VARCO 에셋 반입 안내](After_Seconds_Build_V0.01/Assets/Afrer_Seconds/03.Art/Candidates/VARCO/README.md)를 참고한다.
+위 높이와 충돌체 치수는 테스트용 가안이다. 경비 더미는 정적 T포즈이며 플레이어는 V0.3 외형·Animator와 WASD에 따른 Idle·Walk를 연결했다. 이동·시야 회전은 현재 SampleScene에서 확인했으며, 사격·경비 행동·교환 규칙은 아직이다. 세 후보 모두 8,000 triangles이며 색상·노멀 텍스처를 URP 재질에 연결했다. 자세한 상태와 출처는 [VARCO 에셋 반입 안내](After_Seconds_Build_V0.01/Assets/Afrer_Seconds/06.Data/AssetSources/Candidates_VARCO_README.md)를 참고한다.
 
-2026-10-29의 기존 반입 모델은 현재 `05.Model/Player/Rigged/Models/PlayerDummy_Rigged_V0.2.fbx`, 기존 동작 FBX 6종은 `07.Animator/Player/Clips/`에 있다. 걷기는 사용자가 선택한 **좌발 전방걷기**다. 당시 Humanoid Avatar와 단위 변환을 확인했지만, 이후 하체 관절 오배치와 스킨 변형 문제가 확인되어 완성 리그로 판정하지 않는다.
+2026-10-29의 기존 반입 모델은 현재 `05.Model/Player/PlayerDummy_Rigged_V0.2.fbx`, 기존 동작 FBX 6종은 `07.Animator/Player/Clips/`에 있다. 걷기는 사용자가 선택한 **좌발 전방걷기**다. 당시 Humanoid Avatar와 단위 변환을 확인했지만, 이후 하체 관절 오배치와 스킨 변형 문제가 확인되어 완성 리그로 판정하지 않는다.
 
-손가락 본 30개를 보존한 별도 편집 리그에서 하체 관절을 바로잡고 동작 6종을 다시 적용한 V0.3 후보를 반입했다. 신규 기준 모델은 `05.Model/Player/Rigged/Models/PlayerDummy_Rigged_V0.3.fbx`, 신규 동작은 `07.Animator/Player/Clips/Rigged_V0.3/Player_*.fbx`로 분리했다. 웹 편집 저장본의 스킨 인덱스 불일치는 로컬에서 재매핑했으며, 웹 원본을 그대로 다시 받는 방식으로 대체하지 않는다. 새 7개 모두 유효한 Humanoid Avatar·매핑 52개(몸 22·손가락 30)·본과 bindpose 53개를 확인했다. 동작 6종을 임시 PreviewScene에서 9개 시점씩 총 54개 샘플로 확인했으며, 반입 검수 당시에는 기존 보호 파일 116개의 SHA-256과 사용자 씬·연결 상태를 유지했다. 이후 추가 승인으로 진행한 씬 연결은 아래 항목과 구분한다. 미세 찝힘·접지·루프·손 쥐기 품질은 추가 검수 대상이다. 파일별 출처·검증 상태·독립 발가락과 손가락의 제한은 [플레이어 리깅·애니메이션 안내](After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Player/Rigged/README.md)를 따른다.
+손가락 본 30개를 보존한 별도 편집 리그에서 하체 관절을 바로잡고 동작 6종을 다시 적용한 V0.3 후보를 반입했다. 신규 기준 모델은 `05.Model/Player/PlayerDummy_Rigged_V0.3.fbx`, 신규 동작은 `07.Animator/Player/Clips/Rigged_V0.3/Player_*.fbx`로 분리했다. 웹 편집 저장본의 스킨 인덱스 불일치는 로컬에서 재매핑했으며, 웹 원본을 그대로 다시 받는 방식으로 대체하지 않는다. 새 7개 모두 유효한 Humanoid Avatar·매핑 52개(몸 22·손가락 30)·본과 bindpose 53개를 확인했다. 동작 6종을 임시 PreviewScene에서 9개 시점씩 총 54개 샘플로 확인했으며, 반입 검수 당시에는 기존 보호 파일 116개의 SHA-256과 사용자 씬·연결 상태를 유지했다. 이후 추가 승인으로 진행한 씬 연결은 아래 항목과 구분한다. 미세 찝힘·접지·루프·손 쥐기 품질은 추가 검수 대상이다. 파일별 출처·검증 상태·독립 발가락과 손가락의 제한은 [플레이어 리깅·애니메이션 안내](After_Seconds_Build_V0.01/Assets/Afrer_Seconds/06.Data/AssetSources/Player_Rigged_README.md)를 따른다.
+
+## Invector 이동 애니메이션 보관
+
+실습 프로젝트에서 사용 중인 전방 Walk·Run·Sprint를 독립 Humanoid `.anim`으로 추출해 `07.Animator/Player/Clips/Invector_Basic/`에 비교 후보로 보관했다. 원본 곡선·반복·루트 설정과 출처를 유지하며, 기존 `Rigged_V0.3` 동작·Animator·플레이어·씬에는 연결하지 않았다. 파일별 길이·출처·검수 범위는 [보관 안내](After_Seconds_Build_V0.01/Assets/Afrer_Seconds/07.Animator/Player/Clips/Invector_Basic/README.md)를 따른다.
 
 ## 현재 플레이어 연결
 

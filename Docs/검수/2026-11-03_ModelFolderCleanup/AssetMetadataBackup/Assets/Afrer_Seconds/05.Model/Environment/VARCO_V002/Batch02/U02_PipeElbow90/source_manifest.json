@@ -1,0 +1,44 @@
+{
+  "id": "U02",
+  "name": "PipeElbow90",
+  "ko": "90도 엘보 배관",
+  "category": "Environment",
+  "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+  "sourceHighNode": "0de64e91-9492-4d7a-9b79-a87f5bcf7c7e",
+  "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/U02_retopo.glb",
+  "sourceSha256": "4f1cc48c8d064c32e24297a4e8589c47422678662b3902da4e6c26c6e15f22ee",
+  "modelPath": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U02_PipeElbow90/Models/U02_PipeElbow90.fbx",
+  "modelSha256": "546163550baf07d6e4c0f6b1d1f189d22230a9ace07247922f22aa83dc757443",
+  "baseMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U02_PipeElbow90/Textures/BaseColor.png",
+  "normalMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U02_PipeElbow90/Textures/Normal.png",
+  "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U02_PipeElbow90/Textures/MetallicSmoothness.png",
+  "occlusionMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U02_PipeElbow90/Textures/Occlusion.png",
+  "blenderSizeXYZ": [
+    0.320000022649765,
+    0.4891919493675232,
+    0.493020236492157
+  ],
+  "candidateDimensionRule": {
+    "mode": "minExtent",
+    "value": 0.32
+  },
+  "triangles": 4972,
+  "visualOnly": true,
+  "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+  "pbrPacking": {
+    "metallic": "R",
+    "smoothness": "A=1-source G",
+    "occlusion": "G=source R"
+  },
+  "normalStrength": 0.35,
+  "materialPath": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U02_PipeElbow90/Materials/U02_PipeElbow90_URP.mat",
+  "prefabPath": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U02_PipeElbow90/Prefabs/U02_PipeElbow90.prefab",
+  "placementCount": 2,
+  "finalFbxVerification": {
+    "boundaryEdges": 0,
+    "overusedEdges": 0,
+    "zeroAreaFaces": 0,
+    "nonFiniteUVs": 0,
+    "strictEdgeTriangleCrossings": 0
+  }
+}

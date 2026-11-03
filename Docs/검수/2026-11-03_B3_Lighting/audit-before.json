@@ -1,0 +1,442 @@
+{
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B3_SampleStorage.unity",
+  "quality": "PC",
+  "pipeline": "Assets/Settings/PC_RPAsset.asset",
+  "renderer": "UniversalRenderer",
+  "pipeProps": {
+    "m_RequireDepthTexture": true,
+    "m_RequireOpaqueTexture": true,
+    "m_SupportsHDR": true,
+    "m_MSAA": 1,
+    "m_RenderScale": 1.0,
+    "m_AdditionalLightsPerObjectLimit": 4,
+    "m_MainLightShadowsSupported": true,
+    "m_MainLightShadowmapResolution": 2048,
+    "m_AdditionalLightShadowsSupported": true,
+    "m_ShadowDistance": 50.0,
+    "m_ShadowCascadeCount": 4,
+    "m_UseSRPBatcher": true,
+    "m_RendererDataList": 1
+  },
+  "counts": {
+    "objects": 303,
+    "renderers": 150,
+    "shadowCastingRenderers": 150,
+    "distinctMaterials": 15,
+    "distinctShaders": 2,
+    "instancedMeshTriangles": 33702,
+    "lights": 18,
+    "pointLights": 17,
+    "spotLights": 0,
+    "shadowLights": 1,
+    "cameras": 1,
+    "particles": 0,
+    "colliders": 50,
+    "lodGroups": 0
+  },
+  "lights": [
+    {
+      "name": "Fixture_Point",
+      "type": "Point",
+      "intensity": 7.0,
+      "range": 7.0,
+      "shadows": "None",
+      "position": [
+        -5.4,
+        3.4,
+        -4.5
+      ]
+    },
+    {
+      "name": "Fixture_Point",
+      "type": "Point",
+      "intensity": 7.0,
+      "range": 7.0,
+      "shadows": "None",
+      "position": [
+        5.4,
+        3.4,
+        -4.5
+      ]
+    },
+    {
+      "name": "Fixture_Point",
+      "type": "Point",
+      "intensity": 7.0,
+      "range": 7.0,
+      "shadows": "None",
+      "position": [
+        -5.4,
+        3.4,
+        -0.5
+      ]
+    },
+    {
+      "name": "Fixture_Point",
+      "type": "Point",
+      "intensity": 7.0,
+      "range": 7.0,
+      "shadows": "None",
+      "position": [
+        5.4,
+        3.4,
+        -0.5
+      ]
+    },
+    {
+      "name": "Fixture_Point",
+      "type": "Point",
+      "intensity": 7.0,
+      "range": 7.0,
+      "shadows": "None",
+      "position": [
+        -5.4,
+        3.4,
+        3.5
+      ]
+    },
+    {
+      "name": "Fixture_Point",
+      "type": "Point",
+      "intensity": 7.0,
+      "range": 7.0,
+      "shadows": "None",
+      "position": [
+        5.4,
+        3.4,
+        3.5
+      ]
+    },
+    {
+      "name": "Fixture_Point",
+      "type": "Point",
+      "intensity": 7.0,
+      "range": 7.0,
+      "shadows": "None",
+      "position": [
+        -3.0,
+        3.4,
+        -8.0
+      ]
+    },
+    {
+      "name": "Fixture_Point",
+      "type": "Point",
+      "intensity": 7.0,
+      "range": 7.0,
+      "shadows": "None",
+      "position": [
+        -8.4,
+        3.4,
+        -22.5
+      ]
+    },
+    {
+      "name": "Fixture_Point",
+      "type": "Point",
+      "intensity": 7.0,
+      "range": 7.0,
+      "shadows": "None",
+      "position": [
+        2.4,
+        3.4,
+        -22.5
+      ]
+    },
+    {
+      "name": "Fixture_Point",
+      "type": "Point",
+      "intensity": 7.0,
+      "range": 7.0,
+      "shadows": "None",
+      "position": [
+        -8.4,
+        3.4,
+        -18.5
+      ]
+    },
+    {
+      "name": "Fixture_Point",
+      "type": "Point",
+      "intensity": 7.0,
+      "range": 7.0,
+      "shadows": "None",
+      "position": [
+        2.4,
+        3.4,
+        -18.5
+      ]
+    },
+    {
+      "name": "Fixture_Point",
+      "type": "Point",
+      "intensity": 7.0,
+      "range": 7.0,
+      "shadows": "None",
+      "position": [
+        -8.4,
+        3.4,
+        -14.5
+      ]
+    },
+    {
+      "name": "Fixture_Point",
+      "type": "Point",
+      "intensity": 7.0,
+      "range": 7.0,
+      "shadows": "None",
+      "position": [
+        2.4,
+        3.4,
+        -14.5
+      ]
+    },
+    {
+      "name": "Fixture_Point",
+      "type": "Point",
+      "intensity": 7.0,
+      "range": 7.0,
+      "shadows": "None",
+      "position": [
+        -8.4,
+        3.4,
+        -10.5
+      ]
+    },
+    {
+      "name": "Fixture_Point",
+      "type": "Point",
+      "intensity": 7.0,
+      "range": 7.0,
+      "shadows": "None",
+      "position": [
+        2.4,
+        3.4,
+        -10.5
+      ]
+    },
+    {
+      "name": "Fixture_Point",
+      "type": "Point",
+      "intensity": 3.0,
+      "range": 5.0,
+      "shadows": "None",
+      "position": [
+        -3.0,
+        1.0,
+        -13.0
+      ]
+    },
+    {
+      "name": "Fixture_Point",
+      "type": "Point",
+      "intensity": 7.0,
+      "range": 7.0,
+      "shadows": "None",
+      "position": [
+        1.0,
+        3.4,
+        -26.0
+      ]
+    },
+    {
+      "name": "Inspection_Fill",
+      "type": "Directional",
+      "intensity": 0.5,
+      "range": 10.0,
+      "shadows": "Soft",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "volumes": [],
+  "textures": [
+    {
+      "name": "base_color",
+      "path": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS05_PlayerDummy/Textures/base_color.png",
+      "width": 1024,
+      "height": 1024,
+      "runtimeBytes": 1420624
+    },
+    {
+      "name": "normal",
+      "path": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS05_PlayerDummy/Textures/normal.png",
+      "width": 2048,
+      "height": 2048,
+      "runtimeBytes": 11229192
+    },
+    {
+      "name": "base_color",
+      "path": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS01_Crate/Textures/base_color.png",
+      "width": 1024,
+      "height": 1024,
+      "runtimeBytes": 1420864
+    },
+    {
+      "name": "normal",
+      "path": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS01_Crate/Textures/normal.png",
+      "width": 2048,
+      "height": 2048,
+      "runtimeBytes": 11229432
+    },
+    {
+      "name": "Storage",
+      "path": "Assets/Afrer_Seconds/03.Art/Environment/B3/Signs/Storage.png",
+      "width": 1024,
+      "height": 256,
+      "runtimeBytes": 372304
+    },
+    {
+      "name": "Weight",
+      "path": "Assets/Afrer_Seconds/03.Art/Environment/B3/Signs/Weight.png",
+      "width": 1024,
+      "height": 256,
+      "runtimeBytes": 372304
+    },
+    {
+      "name": "base_color",
+      "path": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS06_GuardDummy/Textures/base_color.png",
+      "width": 1024,
+      "height": 1024,
+      "runtimeBytes": 1420864
+    },
+    {
+      "name": "normal",
+      "path": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS06_GuardDummy/Textures/normal.png",
+      "width": 2048,
+      "height": 2048,
+      "runtimeBytes": 11229432
+    },
+    {
+      "name": "Airlock",
+      "path": "Assets/Afrer_Seconds/03.Art/Environment/B3/Signs/Airlock.png",
+      "width": 1024,
+      "height": 256,
+      "runtimeBytes": 372304
+    },
+    {
+      "name": "Pit",
+      "path": "Assets/Afrer_Seconds/03.Art/Environment/B3/Signs/Pit.png",
+      "width": 1024,
+      "height": 256,
+      "runtimeBytes": 372304
+    },
+    {
+      "name": "Lift",
+      "path": "Assets/Afrer_Seconds/03.Art/Environment/B3/Signs/Lift.png",
+      "width": 1024,
+      "height": 256,
+      "runtimeBytes": 372304
+    }
+  ],
+  "materials": [
+    {
+      "name": "AS05_PlayerDummy_00_URP_Lit",
+      "path": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS05_PlayerDummy/Materials/AS05_PlayerDummy_00_URP_Lit.mat",
+      "shader": "Universal Render Pipeline/Lit",
+      "queue": 2000,
+      "instancing": false
+    },
+    {
+      "name": "B3_Floor",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B3/Materials/B3_Floor.mat",
+      "shader": "Universal Render Pipeline/Lit",
+      "queue": 2000,
+      "instancing": false
+    },
+    {
+      "name": "B3_Enamel",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B3/Materials/B3_Enamel.mat",
+      "shader": "Universal Render Pipeline/Lit",
+      "queue": 2000,
+      "instancing": false
+    },
+    {
+      "name": "B3_Frame",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B3/Materials/B3_Frame.mat",
+      "shader": "Universal Render Pipeline/Lit",
+      "queue": 2000,
+      "instancing": false
+    },
+    {
+      "name": "B3_Lamp",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B3/Materials/B3_Lamp.mat",
+      "shader": "Universal Render Pipeline/Lit",
+      "queue": 2000,
+      "instancing": false
+    },
+    {
+      "name": "B3_MintBand",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B3/Materials/B3_MintBand.mat",
+      "shader": "Universal Render Pipeline/Lit",
+      "queue": 2000,
+      "instancing": false
+    },
+    {
+      "name": "B3_Amber",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B3/Materials/B3_Amber.mat",
+      "shader": "Universal Render Pipeline/Lit",
+      "queue": 2000,
+      "instancing": false
+    },
+    {
+      "name": "B3_PlateInactive",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B3/Materials/B3_PlateInactive.mat",
+      "shader": "Universal Render Pipeline/Lit",
+      "queue": 2000,
+      "instancing": false
+    },
+    {
+      "name": "AS01_Crate_00_URP_Lit",
+      "path": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS01_Crate/Materials/AS01_Crate_00_URP_Lit.mat",
+      "shader": "Universal Render Pipeline/Lit",
+      "queue": 2000,
+      "instancing": false
+    },
+    {
+      "name": "Sign_Storage",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B3/Materials/Sign_Storage.mat",
+      "shader": "Universal Render Pipeline/Unlit",
+      "queue": 2000,
+      "instancing": false
+    },
+    {
+      "name": "Sign_Weight",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B3/Materials/Sign_Weight.mat",
+      "shader": "Universal Render Pipeline/Unlit",
+      "queue": 2000,
+      "instancing": false
+    },
+    {
+      "name": "AS06_GuardDummy_00_URP_Lit",
+      "path": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS06_GuardDummy/Materials/AS06_GuardDummy_00_URP_Lit.mat",
+      "shader": "Universal Render Pipeline/Lit",
+      "queue": 2000,
+      "instancing": false
+    },
+    {
+      "name": "Sign_Airlock",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B3/Materials/Sign_Airlock.mat",
+      "shader": "Universal Render Pipeline/Unlit",
+      "queue": 2000,
+      "instancing": false
+    },
+    {
+      "name": "Sign_Pit",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B3/Materials/Sign_Pit.mat",
+      "shader": "Universal Render Pipeline/Unlit",
+      "queue": 2000,
+      "instancing": false
+    },
+    {
+      "name": "Sign_Lift",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B3/Materials/Sign_Lift.mat",
+      "shader": "Universal Render Pipeline/Unlit",
+      "queue": 2000,
+      "instancing": false
+    }
+  ]
+}

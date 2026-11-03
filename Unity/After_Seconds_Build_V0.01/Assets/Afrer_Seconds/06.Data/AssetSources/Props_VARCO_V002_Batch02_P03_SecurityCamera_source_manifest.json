@@ -1,0 +1,49 @@
+{
+  "id": "P03",
+  "name": "SecurityCamera",
+  "ko": "감시 카메라",
+  "category": "Props",
+  "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+  "sourceHighNode": "a0809a78-9590-4aa2-a688-91d28364ccab",
+  "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/P03_retopo.glb",
+  "sourceSha256": "9e4d4cad63467eaa804c921bfff6c1979f1592132aead5712e0e60c4e09837e2",
+  "modelPath": "Assets/Afrer_Seconds/05.Model/Props/Common/P03_SecurityCamera.fbx",
+  "modelSha256": "74469d849b17056007ddc577e1f3e3366d55abd2266dfda45a5ca2115c0bcda2",
+  "baseMap": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/P03_SecurityCamera_BaseColor.png",
+  "normalMap": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/P03_SecurityCamera_Normal.png",
+  "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/P03_SecurityCamera_MetallicSmoothness.png",
+  "occlusionMap": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/P03_SecurityCamera_Occlusion.png",
+  "blenderSizeXYZ": [
+    0.18551191687583923,
+    0.5499999523162842,
+    0.4344056248664856
+  ],
+  "candidateDimensionRule": {
+    "mode": "maxExtent",
+    "value": 0.55
+  },
+  "triangles": 5958,
+  "visualOnly": true,
+  "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+  "pbrPacking": {
+    "metallic": "R",
+    "smoothness": "A=1-source G",
+    "occlusion": "G=source R"
+  },
+  "normalStrength": 0.35,
+  "materialPath": "Assets/Afrer_Seconds/05.Model/Props/Common/Materials/P03_SecurityCamera_URP.mat",
+  "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/Common/P03_SecurityCamera.prefab",
+  "placementCount": 5,
+  "finalFbxVerification": {
+    "boundaryEdges": 0,
+    "overusedEdges": 0,
+    "zeroAreaFaces": 0,
+    "nonFiniteUVs": 0,
+    "strictEdgeTriangleCrossings": 0
+  },
+  "folderCleanup20261103": {
+    "previousPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P03_SecurityCamera/source_manifest.json",
+    "currentPath": "Assets/Afrer_Seconds/06.Data/AssetSources/Props_VARCO_V002_Batch02_P03_SecurityCamera_source_manifest.json",
+    "mapping": "Docs/검수/2026-11-03_ModelFolderCleanup/move_plan.json"
+  }
+}

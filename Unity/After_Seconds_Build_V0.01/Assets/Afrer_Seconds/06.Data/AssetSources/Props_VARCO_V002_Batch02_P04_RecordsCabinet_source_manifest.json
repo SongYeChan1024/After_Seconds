@@ -1,0 +1,49 @@
+{
+  "id": "P04",
+  "name": "RecordsCabinet",
+  "ko": "기록 캐비닛",
+  "category": "Props",
+  "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+  "sourceHighNode": "afa49752-8933-4dc4-bffa-c1f82582b911",
+  "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/P04_retopo.glb",
+  "sourceSha256": "6447d2a397690988c94da294678044e8e341a708434dd3a7b3b2b4fd85dc352d",
+  "modelPath": "Assets/Afrer_Seconds/05.Model/Props/Common/P04_RecordsCabinet.fbx",
+  "modelSha256": "36b5a617536bf528c0291cdf9bbc02a235541db720d052b009d8314fc9f637bd",
+  "baseMap": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/P04_RecordsCabinet_BaseColor.png",
+  "normalMap": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/P04_RecordsCabinet_Normal.png",
+  "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/P04_RecordsCabinet_MetallicSmoothness.png",
+  "occlusionMap": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/P04_RecordsCabinet_Occlusion.png",
+  "blenderSizeXYZ": [
+    0.6522973775863647,
+    0.729276180267334,
+    1.4000000953674316
+  ],
+  "candidateDimensionRule": {
+    "mode": "height",
+    "value": 1.4
+  },
+  "triangles": 6002,
+  "visualOnly": true,
+  "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+  "pbrPacking": {
+    "metallic": "R",
+    "smoothness": "A=1-source G",
+    "occlusion": "G=source R"
+  },
+  "normalStrength": 0.35,
+  "materialPath": "Assets/Afrer_Seconds/05.Model/Props/Common/Materials/P04_RecordsCabinet_URP.mat",
+  "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/Common/P04_RecordsCabinet.prefab",
+  "placementCount": 2,
+  "finalFbxVerification": {
+    "boundaryEdges": 0,
+    "overusedEdges": 0,
+    "zeroAreaFaces": 0,
+    "nonFiniteUVs": 0,
+    "strictEdgeTriangleCrossings": 0
+  },
+  "folderCleanup20261103": {
+    "previousPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P04_RecordsCabinet/source_manifest.json",
+    "currentPath": "Assets/Afrer_Seconds/06.Data/AssetSources/Props_VARCO_V002_Batch02_P04_RecordsCabinet_source_manifest.json",
+    "mapping": "Docs/검수/2026-11-03_ModelFolderCleanup/move_plan.json"
+  }
+}

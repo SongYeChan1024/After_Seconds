@@ -1,0 +1,102 @@
+﻿{
+    "floor":  "B4",
+    "name":  "ObservationMonitorBank",
+    "sourceFlowId":  "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+    "sourceRetopoFile":  "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\tmp\\VARCO_V002_20261103\\B4_retopo.glb",
+    "sourceSha256":  "d9f0fc12d6dd4a322e2ab5c9f916e951c4d6a9f0f8db8b65d746b334f77cf9b3",
+    "modelPath":  "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B4_ObservationMonitorBank/Models/B4_ObservationMonitorBank.fbx",
+    "modelSha256":  "705c63fe4f7230d8f69133c634fe460462298dbecda736729044584173fe69f5",
+    "blenderSizeXYZ":  [
+                           2.2936391830444336,
+                           0.60346931219100952,
+                           1.0499999523162842
+                       ],
+    "targetHeightMeters":  1.05,
+    "triangles":  11688,
+    "materialSources":  [
+                            {
+                                "name":  "material_0.001",
+                                "maps":  [
+                                             {
+                                                 "kind":  "baseColor",
+                                                 "path":  "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B4_ObservationMonitorBank/Textures/00_00_baseColor_00.png",
+                                                 "size":  [
+                                                              2048,
+                                                              2048
+                                                          ],
+                                                 "colorspace":  "sRGB",
+                                                 "links":  [
+                                                               {
+                                                                   "node":  "BSDF_PRINCIPLED",
+                                                                   "socket":  "Base Color"
+                                                               }
+                                                           ]
+                                             },
+                                             {
+                                                 "kind":  "packed",
+                                                 "path":  "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B4_ObservationMonitorBank/Textures/00_00_packed_01.png",
+                                                 "size":  [
+                                                              2048,
+                                                              2048
+                                                          ],
+                                                 "colorspace":  "Non-Color",
+                                                 "links":  [
+                                                               {
+                                                                   "node":  "SEPARATE_COLOR",
+                                                                   "socket":  "Color"
+                                                               }
+                                                           ]
+                                             },
+                                             {
+                                                 "kind":  "normal",
+                                                 "path":  "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B4_ObservationMonitorBank/Textures/00_00_normal_02.png",
+                                                 "size":  [
+                                                              2048,
+                                                              2048
+                                                          ],
+                                                 "colorspace":  "Non-Color",
+                                                 "links":  [
+                                                               {
+                                                                   "node":  "NORMAL_MAP",
+                                                                   "socket":  "Color"
+                                                               }
+                                                           ]
+                                             },
+                                             {
+                                                 "kind":  "packed",
+                                                 "path":  "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B4_ObservationMonitorBank/Textures/00_00_packed_03.png",
+                                                 "size":  [
+                                                              2048,
+                                                              2048
+                                                          ],
+                                                 "colorspace":  "Non-Color",
+                                                 "links":  [
+                                                               {
+                                                                   "node":  "SEPARATE_COLOR",
+                                                                   "socket":  "Color"
+                                                               }
+                                                           ]
+                                             }
+                                         ]
+                            }
+                        ],
+    "b5DisplayReorientedForWallMount":  false,
+    "status":  "Applied visual prefab to floor scene; existing collider snapshot preserved",
+    "visualOnly":  true,
+    "unityMetallicSmoothness":  "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B4_ObservationMonitorBank/Textures/Unity_MetallicSmoothness.png",
+    "unityOcclusion":  "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B4_ObservationMonitorBank/Textures/Unity_Occlusion.png",
+    "pbrPacking":  {
+                       "metallic":  "R",
+                       "smoothness":  "A=1-roughness",
+                       "occlusion":  "G=source occlusion",
+                       "sourceRoughnessChannel":  1,
+                       "sourceMetallicChannel":  2,
+                       "sourceOcclusionChannel":  0
+                   },
+    "materialPath":  "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B4_ObservationMonitorBank/Materials/B4_ObservationMonitorBank_URP.mat",
+    "prefabPath":  "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B4_ObservationMonitorBank/Prefabs/B4_ObservationMonitorBank.prefab",
+    "scenePath":  "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B4_Observation.unity",
+    "placementCount":  2,
+    "normalStrength":  0.35,
+    "unityForward":  "-Z via VisualRoot Y=180"
+}

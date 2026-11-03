@@ -1,0 +1,675 @@
+﻿{
+    "flowId":  "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+    "batch":  "02",
+    "date":  "2026-11-03",
+    "assets":  [
+                   {
+                       "id":  "U01",
+                       "name":  "PipeStraight",
+                       "ko":  "직선 배관",
+                       "zone":  "공통/B2·B5",
+                       "budget":  3000,
+                       "refs":  [
+                                    "pump",
+                                    "cabinet"
+                                ],
+                       "desc":  "one straight orange-painted industrial utility pipe module, approximately one meter long, circular open bore visible at both ends, identical gray steel bolt flanges at both ends, no elbows, no valve, no support frame; show its full length and both connector faces",
+                       "prompt":  "After Seconds — asset U01, PipeStraight. Create exactly ONE isolated production game asset: one straight orange-painted industrial utility pipe module, approximately one meter long, circular open bore visible at both ends, identical gray steel bolt flanges at both ends, no elbows, no valve, no support frame; show its full length and both connector faces. Match the attached V0.01 factory laboratory asset references for style, material roughness, construction detail density and human-scale proportions only; do not copy their object shapes or add their props. Grounded Korean industrial research facility, gray powder-coated steel and galvanized metal, brushed stainless steel and restrained off-white enamel, dark gray plastic where appropriate. Orange paint is confined to utility pipes or functional fittings; yellow is limited to safety guards. Mild edge wear and small localized grime, maintained working equipment. Sturdy readable shapes and physically plausible thickness. Complete object centered, clear elevated three-quarter product view, generous white margin, neutral white studio background and even soft lighting, subtle contact shadow. No scene, no floor slab, no surrounding wall, no people, no logos, no readable text, no loose extras, no neon, no holograms, no excessive rust or damage. Single asset only, not a sheet or collection. Image-to-3D source.",
+                       "note":  "dfaa90fc-6ac5-48f7-a9a0-654f236770ee",
+                       "text":  "a041fac3-4c9f-4603-9182-779ea4157201",
+                       "image":  "baeda0a1-4671-4e3c-bb84-376f14587a9f",
+                       "mesh":  "7d946494-d1ca-4af4-be30-210172d62033",
+                       "remesh":  "ef081453-823d-4ca7-8934-744b6f61c860",
+                       "highTriangles":  500000,
+                       "remeshActualTriangles":  3000,
+                       "highSha256":  "d41251d19face30138c632e223288385d295508d155c55b5988af2392a0ed30d",
+                       "lowSha256":  "cdc8b08dec5ae3d0ce09db9d7aa49eb18915fe7064830dfefc1843d6539d002b",
+                       "qualityStatus":  "Candidate; inspect edges/UVs/connectors and retopologize before game use"
+                   },
+                   {
+                       "id":  "U02",
+                       "name":  "PipeElbow90",
+                       "ko":  "90도 엘보 배관",
+                       "zone":  "공통/B2·B5",
+                       "budget":  3000,
+                       "refs":  [
+                                    "pump",
+                                    "cabinet"
+                                ],
+                       "desc":  "one orange-painted 90-degree industrial pipe elbow module, matching a 150-mm nominal utility pipe, equal circular open bores and identical gray steel bolt flanges at the two ends, no straight extensions and no extra fittings",
+                       "prompt":  "After Seconds — asset U02, PipeElbow90. Create exactly ONE isolated production game asset: one orange-painted 90-degree industrial pipe elbow module, matching a 150-mm nominal utility pipe, equal circular open bores and identical gray steel bolt flanges at the two ends, no straight extensions and no extra fittings. Match the attached V0.01 factory laboratory asset references for style, material roughness, construction detail density and human-scale proportions only; do not copy their object shapes or add their props. Grounded Korean industrial research facility, gray powder-coated steel and galvanized metal, brushed stainless steel and restrained off-white enamel, dark gray plastic where appropriate. Orange paint is confined to utility pipes or functional fittings; yellow is limited to safety guards. Mild edge wear and small localized grime, maintained working equipment. Sturdy readable shapes and physically plausible thickness. Complete object centered, clear elevated three-quarter product view, generous white margin, neutral white studio background and even soft lighting, subtle contact shadow. No scene, no floor slab, no surrounding wall, no people, no logos, no readable text, no loose extras, no neon, no holograms, no excessive rust or damage. Single asset only, not a sheet or collection. Image-to-3D source.",
+                       "note":  "78c3f8f7-3c7d-448c-a382-e0d0df888d4e",
+                       "text":  "9ed2adf1-84f8-4e7b-b09f-013185043828",
+                       "image":  "a8dacc02-7399-45ab-9f6f-0b11275b7622",
+                       "mesh":  "0de64e91-9492-4d7a-9b79-a87f5bcf7c7e",
+                       "remesh":  "e7ed1751-3ed4-467e-9f0a-36fb83ec3803",
+                       "highTriangles":  500000,
+                       "remeshActualTriangles":  3000,
+                       "highSha256":  "a6dcf2ec453a063566e281a394c409dc580e3239a447d966d4c697ee130f2ff9",
+                       "lowSha256":  "9dac89e5a0fa3faa0545ff4e22ba9bef75bdaba0116f8aa06a4f00d4c5572e14",
+                       "qualityStatus":  "Candidate; inspect edges/UVs/connectors and retopologize before game use"
+                   },
+                   {
+                       "id":  "U03",
+                       "name":  "HandwheelValve",
+                       "ko":  "수동 밸브",
+                       "zone":  "공통/B2·B5",
+                       "budget":  6000,
+                       "refs":  [
+                                    "pump",
+                                    "cabinet"
+                                ],
+                       "desc":  "one compact industrial handwheel gate valve, gray cast steel body with two opposing circular pipe flanges and one red handwheel, believable valve stem and bolts, capped short connectors, no attached pipe network and no pedestal",
+                       "prompt":  "After Seconds — asset U03, HandwheelValve. Create exactly ONE isolated production game asset: one compact industrial handwheel gate valve, gray cast steel body with two opposing circular pipe flanges and one red handwheel, believable valve stem and bolts, capped short connectors, no attached pipe network and no pedestal. Match the attached V0.01 factory laboratory asset references for style, material roughness, construction detail density and human-scale proportions only; do not copy their object shapes or add their props. Grounded Korean industrial research facility, gray powder-coated steel and galvanized metal, brushed stainless steel and restrained off-white enamel, dark gray plastic where appropriate. Orange paint is confined to utility pipes or functional fittings; yellow is limited to safety guards. Mild edge wear and small localized grime, maintained working equipment. Sturdy readable shapes and physically plausible thickness. Complete object centered, clear elevated three-quarter product view, generous white margin, neutral white studio background and even soft lighting, subtle contact shadow. No scene, no floor slab, no surrounding wall, no people, no logos, no readable text, no loose extras, no neon, no holograms, no excessive rust or damage. Single asset only, not a sheet or collection. Image-to-3D source.",
+                       "note":  "465881e6-f2c1-47cf-8099-719e8301f15a",
+                       "text":  "5d6c6c9e-553c-41c8-9f98-361f7f93267b",
+                       "image":  "b8eea570-0dbf-4a04-a3a5-8837792f60d0",
+                       "mesh":  "603886a2-9134-48d0-ab79-449323abae3d",
+                       "remesh":  "57e33011-2fbd-4888-a035-24f0111857da",
+                       "highTriangles":  500000,
+                       "remeshActualTriangles":  6000,
+                       "highSha256":  "5a224fde8fd43dbe086e94612bc84a28414d825552c46ceb8cbf3901609018a3",
+                       "lowSha256":  "63e1baa0f295339929c249e8ad562350075407ea37cb3d6b7f1c51259ee9b321",
+                       "qualityStatus":  "Candidate; inspect edges/UVs/connectors and retopologize before game use"
+                   },
+                   {
+                       "id":  "U04",
+                       "name":  "DuctStraight",
+                       "ko":  "직선 덕트",
+                       "zone":  "공통",
+                       "budget":  2500,
+                       "refs":  [
+                                    "cabinet",
+                                    "pump"
+                                ],
+                       "desc":  "one straight rectangular galvanized ventilation duct module, approximately one meter long, matching rectangular openings at both ends, folded sheet-metal seams and reinforced end flanges, simple clean exterior, no elbow and no fan",
+                       "prompt":  "After Seconds — asset U04, DuctStraight. Create exactly ONE isolated production game asset: one straight rectangular galvanized ventilation duct module, approximately one meter long, matching rectangular openings at both ends, folded sheet-metal seams and reinforced end flanges, simple clean exterior, no elbow and no fan. Match the attached V0.01 factory laboratory asset references for style, material roughness, construction detail density and human-scale proportions only; do not copy their object shapes or add their props. Grounded Korean industrial research facility, gray powder-coated steel and galvanized metal, brushed stainless steel and restrained off-white enamel, dark gray plastic where appropriate. Orange paint is confined to utility pipes or functional fittings; yellow is limited to safety guards. Mild edge wear and small localized grime, maintained working equipment. Sturdy readable shapes and physically plausible thickness. Complete object centered, clear elevated three-quarter product view, generous white margin, neutral white studio background and even soft lighting, subtle contact shadow. No scene, no floor slab, no surrounding wall, no people, no logos, no readable text, no loose extras, no neon, no holograms, no excessive rust or damage. Single asset only, not a sheet or collection. Image-to-3D source.",
+                       "note":  "d0f86197-d06d-42a7-8380-aea5f768b1e5",
+                       "text":  "5792cd51-f792-464e-9c3c-8b996bf34484",
+                       "image":  "bb760bfa-5769-4607-bca9-91cce0ab51b4",
+                       "mesh":  "9992a1ea-33d0-49ed-b016-373824ac2356",
+                       "remesh":  "7f022053-1777-42c4-9d8d-99a38a945e12",
+                       "highTriangles":  500000,
+                       "remeshActualTriangles":  2500,
+                       "highSha256":  "1686a651d3b6282627697fdea7378c64301650716b94012e1353e7e4a187f3de",
+                       "lowSha256":  "69611ca01f3d1e39b3f4426d3f59e3520bfd05451119ece950efd18ffee4662d",
+                       "qualityStatus":  "Candidate; inspect edges/UVs/connectors and retopologize before game use"
+                   },
+                   {
+                       "id":  "U05",
+                       "name":  "CableTrayStraight",
+                       "ko":  "케이블 트레이",
+                       "zone":  "공통",
+                       "budget":  3000,
+                       "refs":  [
+                                    "cabinet",
+                                    "pump"
+                                ],
+                       "desc":  "one straight industrial cable tray module, approximately one meter long, shallow U-shaped galvanized steel channel, perforated side rails and simple solid slotted base, sturdy thick metal, short end connector tabs, empty tray without cables and without wall supports",
+                       "prompt":  "After Seconds — asset U05, CableTrayStraight. Create exactly ONE isolated production game asset: one straight industrial cable tray module, approximately one meter long, shallow U-shaped galvanized steel channel, perforated side rails and simple solid slotted base, sturdy thick metal, short end connector tabs, empty tray without cables and without wall supports. Match the attached V0.01 factory laboratory asset references for style, material roughness, construction detail density and human-scale proportions only; do not copy their object shapes or add their props. Grounded Korean industrial research facility, gray powder-coated steel and galvanized metal, brushed stainless steel and restrained off-white enamel, dark gray plastic where appropriate. Orange paint is confined to utility pipes or functional fittings; yellow is limited to safety guards. Mild edge wear and small localized grime, maintained working equipment. Sturdy readable shapes and physically plausible thickness. Complete object centered, clear elevated three-quarter product view, generous white margin, neutral white studio background and even soft lighting, subtle contact shadow. No scene, no floor slab, no surrounding wall, no people, no logos, no readable text, no loose extras, no neon, no holograms, no excessive rust or damage. Single asset only, not a sheet or collection. Image-to-3D source.",
+                       "note":  "c04a1e03-ddcc-4caf-8d5c-9ed0fbca79bc",
+                       "text":  "0cc33fbc-cd41-4380-aff9-9f5b882b5eb4",
+                       "image":  "b99798f4-82be-4638-9267-df3f6d61b09b",
+                       "mesh":  "5c6dc8c5-46e7-4dbc-97f7-e62e8c954237",
+                       "remesh":  "dd3e96cf-0a29-4830-aa5b-5f91d72fe606",
+                       "highTriangles":  500000,
+                       "remeshActualTriangles":  3180,
+                       "highSha256":  "a95367ae0b0b3ee70893d79cc12c4de069ced0166b5b9d8aabbe09cfb84091d8",
+                       "lowSha256":  "16f0df3b48d17ffd5ab9c376161ca47fa0d859f5143c8abbac77de0a21415dd7",
+                       "qualityStatus":  "Candidate; inspect edges/UVs/connectors and retopologize before game use"
+                   },
+                   {
+                       "id":  "U06",
+                       "name":  "WallVentGrille",
+                       "ko":  "벽 환기구",
+                       "zone":  "공통",
+                       "budget":  3000,
+                       "refs":  [
+                                    "cabinet",
+                                    "bench"
+                                ],
+                       "desc":  "one rectangular wall ventilation grille, gray powder-coated steel outer frame, six thick horizontal louvers, shallow enclosed mounting sleeve, four recessed screw mounts; no fan, no surrounding wall, no duct extending away",
+                       "prompt":  "After Seconds — asset U06, WallVentGrille. Create exactly ONE isolated production game asset: one rectangular wall ventilation grille, gray powder-coated steel outer frame, six thick horizontal louvers, shallow enclosed mounting sleeve, four recessed screw mounts; no fan, no surrounding wall, no duct extending away. Match the attached V0.01 factory laboratory asset references for style, material roughness, construction detail density and human-scale proportions only; do not copy their object shapes or add their props. Grounded Korean industrial research facility, gray powder-coated steel and galvanized metal, brushed stainless steel and restrained off-white enamel, dark gray plastic where appropriate. Orange paint is confined to utility pipes or functional fittings; yellow is limited to safety guards. Mild edge wear and small localized grime, maintained working equipment. Sturdy readable shapes and physically plausible thickness. Complete object centered, clear elevated three-quarter product view, generous white margin, neutral white studio background and even soft lighting, subtle contact shadow. No scene, no floor slab, no surrounding wall, no people, no logos, no readable text, no loose extras, no neon, no holograms, no excessive rust or damage. Single asset only, not a sheet or collection. Image-to-3D source.",
+                       "note":  "343e8e87-20d4-4d3c-92cb-c24095263896",
+                       "text":  "93f52255-3041-4323-a469-b11e542f07ce",
+                       "image":  "4385f571-1562-4725-ba90-036e161d0ffb",
+                       "mesh":  "4f0a68f9-e4e8-4630-88db-009972dd4114",
+                       "remesh":  "afadef3b-f480-43f6-b285-5f9372ecbcb6",
+                       "highTriangles":  500000,
+                       "remeshActualTriangles":  3000,
+                       "highSha256":  "9434c62c22e1598604e841d2eaac0f589f91447ffc98c9db5aab0d8ee516e340",
+                       "lowSha256":  "501bcf889a0232bf4dab38f2d31d683c566e340df6ba598d6708b61cc1bdf897",
+                       "qualityStatus":  "Candidate; inspect edges/UVs/connectors and retopologize before game use"
+                   },
+                   {
+                       "id":  "U07",
+                       "name":  "PressureGauge",
+                       "ko":  "압력계",
+                       "zone":  "공통/B2",
+                       "budget":  3000,
+                       "refs":  [
+                                    "pump",
+                                    "bench"
+                                ],
+                       "desc":  "one compact industrial analog pressure gauge, circular stainless steel casing, off-white dial with abstract tick marks but no numbers or letters, single dark needle, short bottom threaded fitting, visible case thickness, no mounting wall and no extra instruments",
+                       "prompt":  "After Seconds — asset U07, PressureGauge. Create exactly ONE isolated production game asset: one compact industrial analog pressure gauge, circular stainless steel casing, off-white dial with abstract tick marks but no numbers or letters, single dark needle, short bottom threaded fitting, visible case thickness, no mounting wall and no extra instruments. Match the attached V0.01 factory laboratory asset references for style, material roughness, construction detail density and human-scale proportions only; do not copy their object shapes or add their props. Grounded Korean industrial research facility, gray powder-coated steel and galvanized metal, brushed stainless steel and restrained off-white enamel, dark gray plastic where appropriate. Orange paint is confined to utility pipes or functional fittings; yellow is limited to safety guards. Mild edge wear and small localized grime, maintained working equipment. Sturdy readable shapes and physically plausible thickness. Complete object centered, clear elevated three-quarter product view, generous white margin, neutral white studio background and even soft lighting, subtle contact shadow. No scene, no floor slab, no surrounding wall, no people, no logos, no readable text, no loose extras, no neon, no holograms, no excessive rust or damage. Single asset only, not a sheet or collection. Image-to-3D source.",
+                       "note":  "92a65f1d-c7a6-403d-bdcc-a661cd672118",
+                       "text":  "b4cae843-bff2-48f4-9335-f570385593ca",
+                       "image":  "560d40a1-4774-408e-af43-0a0962a9aaed",
+                       "mesh":  "2f2628e2-b92c-437a-827c-65bfa9403f12",
+                       "remesh":  "66f07844-065a-426b-a28a-58eca348ad74",
+                       "highTriangles":  500000,
+                       "remeshActualTriangles":  3122,
+                       "highSha256":  "7ba4348ebe00c18e030e06dce52d364c7df1fe6e7569450308dccf02fcc5f8dc",
+                       "lowSha256":  "2736d457e9fd12f2d764bf50c78b4ee5fc8a7edfac9f5b81d44fe0c1dc4f506a",
+                       "qualityStatus":  "Candidate; inspect edges/UVs/connectors and retopologize before game use"
+                   },
+                   {
+                       "id":  "P01",
+                       "name":  "IsolationBunk",
+                       "ko":  "격리실 침상",
+                       "zone":  "B5",
+                       "budget":  8000,
+                       "refs":  [
+                                    "cabinet",
+                                    "bench"
+                                ],
+                       "desc":  "one minimal institutional isolation-room single bunk, heavy gray steel frame with four short fixed legs, one thin muted gray-green mattress, plain low headboard, closed smooth frame sections, no bedding accessories, no restraints, no person and no surrounding cell",
+                       "prompt":  "After Seconds — asset P01, IsolationBunk. Create exactly ONE isolated production game asset: one minimal institutional isolation-room single bunk, heavy gray steel frame with four short fixed legs, one thin muted gray-green mattress, plain low headboard, closed smooth frame sections, no bedding accessories, no restraints, no person and no surrounding cell. Match the attached V0.01 factory laboratory asset references for style, material roughness, construction detail density and human-scale proportions only; do not copy their object shapes or add their props. Grounded Korean industrial research facility, gray powder-coated steel and galvanized metal, brushed stainless steel and restrained off-white enamel, dark gray plastic where appropriate. Orange paint is confined to utility pipes or functional fittings; yellow is limited to safety guards. Mild edge wear and small localized grime, maintained working equipment. Sturdy readable shapes and physically plausible thickness. Complete object centered, clear elevated three-quarter product view, generous white margin, neutral white studio background and even soft lighting, subtle contact shadow. No scene, no floor slab, no surrounding wall, no people, no logos, no readable text, no loose extras, no neon, no holograms, no excessive rust or damage. Single asset only, not a sheet or collection. Image-to-3D source.",
+                       "note":  "4437d158-6ba4-441f-9eda-69b2c7f07c84",
+                       "text":  "3e1dbfc2-7e70-470a-90b4-dd4b182d6e94",
+                       "image":  "57aa264c-4ed2-4e00-bc7f-ea1321deb18a",
+                       "mesh":  "1cdb117e-c26d-4b48-b4f1-0db24e5779f5",
+                       "remesh":  "36ebd5e1-0175-4f8e-9ae9-06d6e75fda63",
+                       "highTriangles":  500000,
+                       "remeshActualTriangles":  8000,
+                       "highSha256":  "83f7af114cd77368c364bfdd794e86fcff8dee8a07523435be8b1c00f6f667fd",
+                       "lowSha256":  "baa81e86f002fca52b65300e899a83128e39325eb38822c6efc17be689db2ca7",
+                       "qualityStatus":  "Candidate; inspect edges/UVs/connectors and retopologize before game use"
+                   },
+                   {
+                       "id":  "P02",
+                       "name":  "WallStorageCabinet",
+                       "ko":  "벽부 수납함",
+                       "zone":  "B5/공통",
+                       "budget":  6000,
+                       "refs":  [
+                                    "cabinet",
+                                    "bench"
+                                ],
+                       "desc":  "one compact wall-mounted utility storage cabinet, gray powder-coated steel housing, two plain closed doors with small handles, recessed hinges, shallow sturdy enclosure and rear mounting lip, no wall and no shelves or contents outside",
+                       "prompt":  "After Seconds — asset P02, WallStorageCabinet. Create exactly ONE isolated production game asset: one compact wall-mounted utility storage cabinet, gray powder-coated steel housing, two plain closed doors with small handles, recessed hinges, shallow sturdy enclosure and rear mounting lip, no wall and no shelves or contents outside. Match the attached V0.01 factory laboratory asset references for style, material roughness, construction detail density and human-scale proportions only; do not copy their object shapes or add their props. Grounded Korean industrial research facility, gray powder-coated steel and galvanized metal, brushed stainless steel and restrained off-white enamel, dark gray plastic where appropriate. Orange paint is confined to utility pipes or functional fittings; yellow is limited to safety guards. Mild edge wear and small localized grime, maintained working equipment. Sturdy readable shapes and physically plausible thickness. Complete object centered, clear elevated three-quarter product view, generous white margin, neutral white studio background and even soft lighting, subtle contact shadow. No scene, no floor slab, no surrounding wall, no people, no logos, no readable text, no loose extras, no neon, no holograms, no excessive rust or damage. Single asset only, not a sheet or collection. Image-to-3D source.",
+                       "note":  "25c981aa-8c4f-4864-a749-cfeccf308c56",
+                       "text":  "06ea24c3-0c2e-4bdc-a3e6-8de084369406",
+                       "image":  "1bdb2e83-48e2-4da8-a5f5-f793f30dc710",
+                       "mesh":  "c2418999-b85e-4eda-b947-6f208a749269",
+                       "remesh":  "9c805b55-b22c-46b4-bf9f-9e109be25a4e",
+                       "highTriangles":  500000,
+                       "remeshActualTriangles":  6000,
+                       "highSha256":  "21401399b8b23649a1b037c26fe6c2198be41b43cc62b898e3118439ce15ce22",
+                       "lowSha256":  "29894de3d65a1d8721c0b1c648847b1191caee3e47a5ba8915c2d348b393f2dd",
+                       "qualityStatus":  "Candidate; inspect edges/UVs/connectors and retopologize before game use"
+                   },
+                   {
+                       "id":  "P03",
+                       "name":  "SecurityCamera",
+                       "ko":  "감시 카메라",
+                       "zone":  "B5/1F",
+                       "budget":  4000,
+                       "refs":  [
+                                    "cabinet",
+                                    "bench"
+                                ],
+                       "desc":  "one fixed industrial security surveillance camera, rectangular gray metal weatherproof housing with dark recessed lens, short sun hood, single thick articulated wall bracket and square mounting plate, one compact contained cable gland; no people and no surrounding wall",
+                       "prompt":  "After Seconds — asset P03, SecurityCamera. Create exactly ONE isolated production game asset: one fixed industrial security surveillance camera, rectangular gray metal weatherproof housing with dark recessed lens, short sun hood, single thick articulated wall bracket and square mounting plate, one compact contained cable gland; no people and no surrounding wall. Match the attached V0.01 factory laboratory asset references for style, material roughness, construction detail density and human-scale proportions only; do not copy their object shapes or add their props. Grounded Korean industrial research facility, gray powder-coated steel and galvanized metal, brushed stainless steel and restrained off-white enamel, dark gray plastic where appropriate. Orange paint is confined to utility pipes or functional fittings; yellow is limited to safety guards. Mild edge wear and small localized grime, maintained working equipment. Sturdy readable shapes and physically plausible thickness. Complete object centered, clear elevated three-quarter product view, generous white margin, neutral white studio background and even soft lighting, subtle contact shadow. No scene, no floor slab, no surrounding wall, no people, no logos, no readable text, no loose extras, no neon, no holograms, no excessive rust or damage. Single asset only, not a sheet or collection. Image-to-3D source.",
+                       "note":  "47db22db-f5af-48d6-bf42-77ed38103bcb",
+                       "text":  "174719aa-338a-4059-9cd4-b840ca3a1ff2",
+                       "image":  "fd56328c-fb30-4563-9be0-43e44702f96e",
+                       "mesh":  "a0809a78-9590-4aa2-a688-91d28364ccab",
+                       "remesh":  "1c6e8133-023c-4dc1-ad2f-25c247cfaae9",
+                       "highTriangles":  500000,
+                       "remeshActualTriangles":  4000,
+                       "highSha256":  "c073678be8d9eb4d1de482d55afce77f44a3e20a3a9c3e2625ced6fbda71905f",
+                       "lowSha256":  "31f3453357a0750bfdea44d59b861f0e4e7bd68bf102c7e4131b2e47e78c9e58",
+                       "qualityStatus":  "Candidate; inspect edges/UVs/connectors and retopologize before game use"
+                   },
+                   {
+                       "id":  "P04",
+                       "name":  "RecordsCabinet",
+                       "ko":  "기록 캐비닛",
+                       "zone":  "B4·B1",
+                       "budget":  6000,
+                       "refs":  [
+                                    "cabinet",
+                                    "bench"
+                                ],
+                       "desc":  "one freestanding narrow research records cabinet, gray powder-coated steel, four closed equal-height drawers with recessed handles, tiny blank label holders, short plinth base, sturdy rectangular silhouette, no loose documents and no readable labels",
+                       "prompt":  "After Seconds — asset P04, RecordsCabinet. Create exactly ONE isolated production game asset: one freestanding narrow research records cabinet, gray powder-coated steel, four closed equal-height drawers with recessed handles, tiny blank label holders, short plinth base, sturdy rectangular silhouette, no loose documents and no readable labels. Match the attached V0.01 factory laboratory asset references for style, material roughness, construction detail density and human-scale proportions only; do not copy their object shapes or add their props. Grounded Korean industrial research facility, gray powder-coated steel and galvanized metal, brushed stainless steel and restrained off-white enamel, dark gray plastic where appropriate. Orange paint is confined to utility pipes or functional fittings; yellow is limited to safety guards. Mild edge wear and small localized grime, maintained working equipment. Sturdy readable shapes and physically plausible thickness. Complete object centered, clear elevated three-quarter product view, generous white margin, neutral white studio background and even soft lighting, subtle contact shadow. No scene, no floor slab, no surrounding wall, no people, no logos, no readable text, no loose extras, no neon, no holograms, no excessive rust or damage. Single asset only, not a sheet or collection. Image-to-3D source.",
+                       "note":  "585a04c8-3082-41ac-9fe5-344f12f9df3f",
+                       "text":  "c8f2297a-8cfd-4cb7-8dd5-efe5c54bed4e",
+                       "image":  "4612f8b9-76f4-430b-9008-42689162b7de",
+                       "mesh":  "afa49752-8933-4dc4-bffa-c1f82582b911",
+                       "remesh":  "9e724f78-4f86-46b9-9fba-11c8a09797d3",
+                       "highTriangles":  500000,
+                       "remeshActualTriangles":  6000,
+                       "highSha256":  "141146273ef19ca5177597a45a6e76e0e18fdc316809aba6b00bfa9ee6e08eca",
+                       "lowSha256":  "bd80dca40d2a498a2b9941893219826e2aedde1fce522dd9b89513b6f3421534",
+                       "qualityStatus":  "Candidate; inspect edges/UVs/connectors and retopologize before game use"
+                   },
+                   {
+                       "id":  "P05",
+                       "name":  "SampleCanister",
+                       "ko":  "시료 보관 용기",
+                       "zone":  "B3",
+                       "budget":  2000,
+                       "refs":  [
+                                    "bench",
+                                    "pump"
+                                ],
+                       "desc":  "one sealed reusable laboratory sample transport canister, compact cylindrical brushed stainless steel body, thick dark gray protective base ring, closed screw-top lid with two sturdy integral grip tabs, a restrained orange alignment detail, no transparent contents and no additional containers",
+                       "prompt":  "After Seconds — asset P05, SampleCanister. Create exactly ONE isolated production game asset: one sealed reusable laboratory sample transport canister, compact cylindrical brushed stainless steel body, thick dark gray protective base ring, closed screw-top lid with two sturdy integral grip tabs, a restrained orange alignment detail, no transparent contents and no additional containers. Match the attached V0.01 factory laboratory asset references for style, material roughness, construction detail density and human-scale proportions only; do not copy their object shapes or add their props. Grounded Korean industrial research facility, gray powder-coated steel and galvanized metal, brushed stainless steel and restrained off-white enamel, dark gray plastic where appropriate. Orange paint is confined to utility pipes or functional fittings; yellow is limited to safety guards. Mild edge wear and small localized grime, maintained working equipment. Sturdy readable shapes and physically plausible thickness. Complete object centered, clear elevated three-quarter product view, generous white margin, neutral white studio background and even soft lighting, subtle contact shadow. No scene, no floor slab, no surrounding wall, no people, no logos, no readable text, no loose extras, no neon, no holograms, no excessive rust or damage. Single asset only, not a sheet or collection. Image-to-3D source.",
+                       "note":  "eb8806d0-b11e-440f-8d39-1e701115e438",
+                       "text":  "ba4abad4-be65-49f0-8485-f6a183fd25b3",
+                       "image":  "c9eba8e2-4404-48b7-b83d-bcef4699d71f",
+                       "mesh":  "502b6501-4ecf-4188-a6c7-0ee280156dd0",
+                       "remesh":  "86db8b9e-44f8-48e1-871b-22706529af33",
+                       "highTriangles":  500000,
+                       "remeshActualTriangles":  2000,
+                       "highSha256":  "7aa19dcaf84aa7d0578acd04c738ebe6f81e037ada4689a18a973d721aa8c247",
+                       "lowSha256":  "fd155b7ec554628a08419c81d36aa0f70613111041b0d266a434c4a985148520",
+                       "qualityStatus":  "Candidate; inspect edges/UVs/connectors and retopologize before game use"
+                   },
+                   {
+                       "id":  "P06",
+                       "name":  "SampleFreezer",
+                       "ko":  "냉동 보관함",
+                       "zone":  "B3",
+                       "budget":  8000,
+                       "refs":  [
+                                    "bench",
+                                    "cabinet"
+                                ],
+                       "desc":  "one upright laboratory sample freezer, off-white enamel insulated cabinet, single closed thick door, heavy gray door handle and hinges, small blank dark temperature display, lower ventilation grille and sturdy leveling feet, no contents and no surrounding room",
+                       "prompt":  "After Seconds — asset P06, SampleFreezer. Create exactly ONE isolated production game asset: one upright laboratory sample freezer, off-white enamel insulated cabinet, single closed thick door, heavy gray door handle and hinges, small blank dark temperature display, lower ventilation grille and sturdy leveling feet, no contents and no surrounding room. Match the attached V0.01 factory laboratory asset references for style, material roughness, construction detail density and human-scale proportions only; do not copy their object shapes or add their props. Grounded Korean industrial research facility, gray powder-coated steel and galvanized metal, brushed stainless steel and restrained off-white enamel, dark gray plastic where appropriate. Orange paint is confined to utility pipes or functional fittings; yellow is limited to safety guards. Mild edge wear and small localized grime, maintained working equipment. Sturdy readable shapes and physically plausible thickness. Complete object centered, clear elevated three-quarter product view, generous white margin, neutral white studio background and even soft lighting, subtle contact shadow. No scene, no floor slab, no surrounding wall, no people, no logos, no readable text, no loose extras, no neon, no holograms, no excessive rust or damage. Single asset only, not a sheet or collection. Image-to-3D source.",
+                       "note":  "c244e532-351a-4979-9795-b89974ddb523",
+                       "text":  "1cf7ce21-47d8-4928-bdaa-de84f6c4390d",
+                       "image":  "8f544b45-1951-48ca-86fb-b57583a7421d",
+                       "mesh":  "eab4c157-1b53-46c7-b2ad-59bbeacc3db1",
+                       "remesh":  "02f04df6-1d4a-401f-a3f2-692dbd061129",
+                       "highTriangles":  500000,
+                       "remeshActualTriangles":  8000,
+                       "highSha256":  "e75a054bac5b6f08558030d586eafc9ffa170ba295d00c791469fa4e4f620f9e",
+                       "lowSha256":  "87c9c8806f3e5023f4c1ffcd7f140317ea52e69f8aa18ecc21bf4746a52e9fb6",
+                       "qualityStatus":  "Candidate; inspect edges/UVs/connectors and retopologize before game use"
+                   },
+                   {
+                       "id":  "P07",
+                       "name":  "SealedWasteBin",
+                       "ko":  "밀폐 폐기물 통",
+                       "zone":  "B3",
+                       "budget":  4000,
+                       "refs":  [
+                                    "bench",
+                                    "cabinet"
+                                ],
+                       "desc":  "one sealed industrial laboratory waste bin, dull stainless steel rectangular body, closed gray hinged lid, integrated foot pedal, compact side carry handles, yellow protective corner details, no trash, no hazard labels and no biohazard text",
+                       "prompt":  "After Seconds — asset P07, SealedWasteBin. Create exactly ONE isolated production game asset: one sealed industrial laboratory waste bin, dull stainless steel rectangular body, closed gray hinged lid, integrated foot pedal, compact side carry handles, yellow protective corner details, no trash, no hazard labels and no biohazard text. Match the attached V0.01 factory laboratory asset references for style, material roughness, construction detail density and human-scale proportions only; do not copy their object shapes or add their props. Grounded Korean industrial research facility, gray powder-coated steel and galvanized metal, brushed stainless steel and restrained off-white enamel, dark gray plastic where appropriate. Orange paint is confined to utility pipes or functional fittings; yellow is limited to safety guards. Mild edge wear and small localized grime, maintained working equipment. Sturdy readable shapes and physically plausible thickness. Complete object centered, clear elevated three-quarter product view, generous white margin, neutral white studio background and even soft lighting, subtle contact shadow. No scene, no floor slab, no surrounding wall, no people, no logos, no readable text, no loose extras, no neon, no holograms, no excessive rust or damage. Single asset only, not a sheet or collection. Image-to-3D source.",
+                       "note":  "77863f16-366c-4208-950d-d7fa735c4e69",
+                       "text":  "15639caa-0e49-4ce9-bd55-edaad9c84eba",
+                       "image":  "b0a264b2-2dbd-488c-9f98-0fbd80ca0102",
+                       "mesh":  "c869de4e-634a-41fc-b306-22f6cd1d7bbb",
+                       "remesh":  "19d0df79-6225-46db-be35-735136e467ca",
+                       "highTriangles":  500000,
+                       "remeshActualTriangles":  4000,
+                       "highSha256":  "00ca901cc9c5fe1f3981f6e7ba8be31ca6c5b614d01eb312ac3d0d120bb242d9",
+                       "lowSha256":  "9586351904d5cae5289f1a49b11a9d2729c69ad7e54fb24ade3fa8fb1ace897b",
+                       "qualityStatus":  "Candidate; inspect edges/UVs/connectors and retopologize before game use"
+                   },
+                   {
+                       "id":  "P08",
+                       "name":  "BenchtopInstrument",
+                       "ko":  "탁상 계측 장비",
+                       "zone":  "B1",
+                       "budget":  6000,
+                       "refs":  [
+                                    "bench",
+                                    "cabinet"
+                                ],
+                       "desc":  "one grounded industrial benchtop measurement instrument, compact off-white enamel rectangular housing, one recessed blank dark screen, three robust rotary knobs, four short capped signal connectors and thick rubber feet, gray side vents, no loose probes or wires and no holograms",
+                       "prompt":  "After Seconds — asset P08, BenchtopInstrument. Create exactly ONE isolated production game asset: one grounded industrial benchtop measurement instrument, compact off-white enamel rectangular housing, one recessed blank dark screen, three robust rotary knobs, four short capped signal connectors and thick rubber feet, gray side vents, no loose probes or wires and no holograms. Match the attached V0.01 factory laboratory asset references for style, material roughness, construction detail density and human-scale proportions only; do not copy their object shapes or add their props. Grounded Korean industrial research facility, gray powder-coated steel and galvanized metal, brushed stainless steel and restrained off-white enamel, dark gray plastic where appropriate. Orange paint is confined to utility pipes or functional fittings; yellow is limited to safety guards. Mild edge wear and small localized grime, maintained working equipment. Sturdy readable shapes and physically plausible thickness. Complete object centered, clear elevated three-quarter product view, generous white margin, neutral white studio background and even soft lighting, subtle contact shadow. No scene, no floor slab, no surrounding wall, no people, no logos, no readable text, no loose extras, no neon, no holograms, no excessive rust or damage. Single asset only, not a sheet or collection. Image-to-3D source.",
+                       "note":  "9c796025-1926-4b0e-92e2-5473d033e422",
+                       "text":  "271afce9-4174-4e89-91b2-4662f6b61343",
+                       "image":  "e054efdb-5f0d-47f2-b85a-92a78352bbf3",
+                       "mesh":  "95f8157d-7777-40d2-a98a-50fec928a231",
+                       "remesh":  "f5a382b9-4b9d-4e5f-8731-94e2de8b2418",
+                       "highTriangles":  500000,
+                       "remeshActualTriangles":  6000,
+                       "highSha256":  "10c8a2435dfd4e6725a7984b9ece59b4dde7a354091b3dd1d41463962d085ed7",
+                       "lowSha256":  "a01df23ec7b3f620c2bec90b8c24f91bbffe2fdfb69be00b8a5e13ab8183968c",
+                       "qualityStatus":  "Candidate; inspect edges/UVs/connectors and retopologize before game use"
+                   },
+                   {
+                       "id":  "P09",
+                       "name":  "LaboratoryTrolley",
+                       "ko":  "실험용 운반 카트",
+                       "zone":  "B1·B3",
+                       "budget":  8000,
+                       "refs":  [
+                                    "bench",
+                                    "rack"
+                                ],
+                       "desc":  "one stainless steel laboratory transport trolley, two solid shallow tray shelves, thick square tubular frame, four sturdy caster wheels with visible tires and forks, one simple push handle, empty trays, no drawers and no loose laboratory items",
+                       "prompt":  "After Seconds — asset P09, LaboratoryTrolley. Create exactly ONE isolated production game asset: one stainless steel laboratory transport trolley, two solid shallow tray shelves, thick square tubular frame, four sturdy caster wheels with visible tires and forks, one simple push handle, empty trays, no drawers and no loose laboratory items. Match the attached V0.01 factory laboratory asset references for style, material roughness, construction detail density and human-scale proportions only; do not copy their object shapes or add their props. Grounded Korean industrial research facility, gray powder-coated steel and galvanized metal, brushed stainless steel and restrained off-white enamel, dark gray plastic where appropriate. Orange paint is confined to utility pipes or functional fittings; yellow is limited to safety guards. Mild edge wear and small localized grime, maintained working equipment. Sturdy readable shapes and physically plausible thickness. Complete object centered, clear elevated three-quarter product view, generous white margin, neutral white studio background and even soft lighting, subtle contact shadow. No scene, no floor slab, no surrounding wall, no people, no logos, no readable text, no loose extras, no neon, no holograms, no excessive rust or damage. Single asset only, not a sheet or collection. Image-to-3D source.",
+                       "note":  "70fa6f6e-e8da-4ed8-abb8-d0174af7c02c",
+                       "text":  "a9c45fd4-78e1-4fe4-be59-555e85bfabea",
+                       "image":  "3d7a4b9e-dfad-4416-8bf0-deabaaf21f05",
+                       "mesh":  "ba0724ae-46e5-4d07-9d1d-dbc34d6e3225",
+                       "remesh":  "07277382-f16e-471f-aca8-d3747980a8af",
+                       "highTriangles":  500000,
+                       "remeshActualTriangles":  8000,
+                       "highSha256":  "fa95ed10568d3ef88379a797965f1e35b50f9f47a820f0ddefaae803241ad54a",
+                       "lowSha256":  "646b5bcea980b32452d5c9ee5891bb4a601a4d5c8fbddd8c002b7ea678016857",
+                       "qualityStatus":  "Candidate; inspect edges/UVs/connectors and retopologize before game use"
+                   },
+                   {
+                       "id":  "P10",
+                       "name":  "CargoInspectionScanner",
+                       "ko":  "화물 검색대",
+                       "zone":  "1F",
+                       "budget":  12000,
+                       "refs":  [
+                                    "cabinet",
+                                    "rack"
+                                ],
+                       "desc":  "one compact industrial cargo inspection scanner, gray rectangular enclosed scanning tunnel with dark rubber entrance and exit curtains, short integrated conveyor deck projecting only slightly at both ends, robust closed cabinet base, small built-in blank control panel and yellow protective corners, no cargo, no people and no separate operator desk",
+                       "prompt":  "After Seconds — asset P10, CargoInspectionScanner. Create exactly ONE isolated production game asset: one compact industrial cargo inspection scanner, gray rectangular enclosed scanning tunnel with dark rubber entrance and exit curtains, short integrated conveyor deck projecting only slightly at both ends, robust closed cabinet base, small built-in blank control panel and yellow protective corners, no cargo, no people and no separate operator desk. Match the attached V0.01 factory laboratory asset references for style, material roughness, construction detail density and human-scale proportions only; do not copy their object shapes or add their props. Grounded Korean industrial research facility, gray powder-coated steel and galvanized metal, brushed stainless steel and restrained off-white enamel, dark gray plastic where appropriate. Orange paint is confined to utility pipes or functional fittings; yellow is limited to safety guards. Mild edge wear and small localized grime, maintained working equipment. Sturdy readable shapes and physically plausible thickness. Complete object centered, clear elevated three-quarter product view, generous white margin, neutral white studio background and even soft lighting, subtle contact shadow. No scene, no floor slab, no surrounding wall, no people, no logos, no readable text, no loose extras, no neon, no holograms, no excessive rust or damage. Single asset only, not a sheet or collection. Image-to-3D source.",
+                       "note":  "35b3642f-22a1-4d0d-b25b-52921829d26d",
+                       "text":  "a71682eb-f74a-4ba7-a15f-d68f3c72a1c9",
+                       "image":  "4d5ddd32-4ebc-4677-85cd-3ab292adf860",
+                       "mesh":  "b6371270-0c16-4e0d-a04a-85246c9839c1",
+                       "remesh":  "4d98a656-adca-47f0-a46f-007b603e313b",
+                       "highTriangles":  500000,
+                       "remeshActualTriangles":  12000,
+                       "highSha256":  "65a375ff84e88d33efede2809af575b6bfc991468b8ed1e808c140750fea0f37",
+                       "lowSha256":  "f5502c1a8497044f06210971030a735d6e7542366a297de18168c3af7999da10",
+                       "qualityStatus":  "Candidate; inspect edges/UVs/connectors and retopologize before game use"
+                   },
+                   {
+                       "id":  "P11",
+                       "name":  "CargoHandTruck",
+                       "ko":  "화물 운반차",
+                       "zone":  "1F",
+                       "budget":  6000,
+                       "refs":  [
+                                    "rack",
+                                    "cabinet"
+                                ],
+                       "desc":  "one sturdy industrial two-wheel hand truck, thick gray steel tubular upright frame, two large black rubber wheels, one broad steel toe plate, top loop handle, small yellow axle guards, empty and standing upright, no cargo and no extra props",
+                       "prompt":  "After Seconds — asset P11, CargoHandTruck. Create exactly ONE isolated production game asset: one sturdy industrial two-wheel hand truck, thick gray steel tubular upright frame, two large black rubber wheels, one broad steel toe plate, top loop handle, small yellow axle guards, empty and standing upright, no cargo and no extra props. Match the attached V0.01 factory laboratory asset references for style, material roughness, construction detail density and human-scale proportions only; do not copy their object shapes or add their props. Grounded Korean industrial research facility, gray powder-coated steel and galvanized metal, brushed stainless steel and restrained off-white enamel, dark gray plastic where appropriate. Orange paint is confined to utility pipes or functional fittings; yellow is limited to safety guards. Mild edge wear and small localized grime, maintained working equipment. Sturdy readable shapes and physically plausible thickness. Complete object centered, clear elevated three-quarter product view, generous white margin, neutral white studio background and even soft lighting, subtle contact shadow. No scene, no floor slab, no surrounding wall, no people, no logos, no readable text, no loose extras, no neon, no holograms, no excessive rust or damage. Single asset only, not a sheet or collection. Image-to-3D source.",
+                       "note":  "ee4798f7-c160-447f-b3cc-733ce0a1b372",
+                       "text":  "b0fedc28-427f-4239-ada6-4e546e5677e7",
+                       "image":  "ba2fdece-c80e-463c-bd16-21d772452aee",
+                       "mesh":  "05281bf4-93ab-4b03-b7c9-96889caf5b59",
+                       "remesh":  "0537f392-1006-482d-afb2-afc860f71b2c",
+                       "highTriangles":  500000,
+                       "remeshActualTriangles":  6000,
+                       "highSha256":  "fce50d3af9b82a83dcbcf8bc715291c743ff0325b02d08df52a6fe92877d8dfd",
+                       "lowSha256":  "703bf4cbfe96b12968e28443a3b367d8f850bbed0512905dd5eec7eb38d26832",
+                       "qualityStatus":  "Candidate; inspect edges/UVs/connectors and retopologize before game use"
+                   },
+                   {
+                       "id":  "P12",
+                       "name":  "SteelPallet",
+                       "ko":  "금속 팔레트",
+                       "zone":  "1F/공통",
+                       "budget":  2000,
+                       "refs":  [
+                                    "rack",
+                                    "cabinet"
+                                ],
+                       "desc":  "one reusable low-profile industrial steel pallet, gray galvanized steel rectangular slatted deck, three robust underside runners with forklift pockets, realistic thick slats and welded corners, restrained yellow corner paint, no cargo and no stack of pallets",
+                       "prompt":  "After Seconds — asset P12, SteelPallet. Create exactly ONE isolated production game asset: one reusable low-profile industrial steel pallet, gray galvanized steel rectangular slatted deck, three robust underside runners with forklift pockets, realistic thick slats and welded corners, restrained yellow corner paint, no cargo and no stack of pallets. Match the attached V0.01 factory laboratory asset references for style, material roughness, construction detail density and human-scale proportions only; do not copy their object shapes or add their props. Grounded Korean industrial research facility, gray powder-coated steel and galvanized metal, brushed stainless steel and restrained off-white enamel, dark gray plastic where appropriate. Orange paint is confined to utility pipes or functional fittings; yellow is limited to safety guards. Mild edge wear and small localized grime, maintained working equipment. Sturdy readable shapes and physically plausible thickness. Complete object centered, clear elevated three-quarter product view, generous white margin, neutral white studio background and even soft lighting, subtle contact shadow. No scene, no floor slab, no surrounding wall, no people, no logos, no readable text, no loose extras, no neon, no holograms, no excessive rust or damage. Single asset only, not a sheet or collection. Image-to-3D source.",
+                       "note":  "4d9445a8-007e-449f-ab5e-1e2dd64bc517",
+                       "text":  "e37c459f-7ae1-4ee9-b013-fcac0ea319e3",
+                       "image":  "ef33b1ca-e4ad-49b3-b82f-a983cd8b175f",
+                       "mesh":  "4dfa7f37-1a5f-4f44-bc7f-839d7af661b1",
+                       "remesh":  "5ac8e25c-6bf2-41ff-9dd6-47338fbf5164",
+                       "highTriangles":  500000,
+                       "remeshActualTriangles":  2072,
+                       "highSha256":  "861390fb1c4c789bfa04ebf1240a65d2c6979d887e02d6ee379fbc5fe897848d",
+                       "lowSha256":  "8f923f444fe8d4a07afcbf4a02ca3abcd7a16750353e07d544cb644729784941",
+                       "qualityStatus":  "Candidate; inspect edges/UVs/connectors and retopologize before game use"
+                   },
+                   {
+                       "id":  "P13",
+                       "name":  "LogisticsTote",
+                       "ko":  "물류 용기",
+                       "zone":  "1F/공통",
+                       "budget":  3000,
+                       "refs":  [
+                                    "rack",
+                                    "cabinet"
+                                ],
+                       "desc":  "one closed reusable industrial logistics tote, dark muted gray rigid plastic rectangular container, robust ribbed sides, recessed integral carry handles, closed fitted lid with two orange latches, stackable flat base, no cargo and no labels",
+                       "prompt":  "After Seconds — asset P13, LogisticsTote. Create exactly ONE isolated production game asset: one closed reusable industrial logistics tote, dark muted gray rigid plastic rectangular container, robust ribbed sides, recessed integral carry handles, closed fitted lid with two orange latches, stackable flat base, no cargo and no labels. Match the attached V0.01 factory laboratory asset references for style, material roughness, construction detail density and human-scale proportions only; do not copy their object shapes or add their props. Grounded Korean industrial research facility, gray powder-coated steel and galvanized metal, brushed stainless steel and restrained off-white enamel, dark gray plastic where appropriate. Orange paint is confined to utility pipes or functional fittings; yellow is limited to safety guards. Mild edge wear and small localized grime, maintained working equipment. Sturdy readable shapes and physically plausible thickness. Complete object centered, clear elevated three-quarter product view, generous white margin, neutral white studio background and even soft lighting, subtle contact shadow. No scene, no floor slab, no surrounding wall, no people, no logos, no readable text, no loose extras, no neon, no holograms, no excessive rust or damage. Single asset only, not a sheet or collection. Image-to-3D source.",
+                       "note":  "544e6d87-babe-4e1b-a8c7-25b76704afa1",
+                       "text":  "c2b9e549-e06e-4cc7-9486-001ce645d108",
+                       "image":  "722c7a53-5932-4032-adef-5c8490f6b5ca",
+                       "mesh":  "62f431e0-4c8d-4a4f-9c61-eb4baca982cc",
+                       "remesh":  "dd55e097-6142-4e54-a306-3a91560c30cc",
+                       "highTriangles":  500000,
+                       "remeshActualTriangles":  3000,
+                       "highSha256":  "3503d58d2e7f8512286d9638bc747910751d103194337e45d088004c4d679661",
+                       "lowSha256":  "edb9152925934bb872e91e209e1b997997889ba962fc5ad83675860096fdf22a",
+                       "qualityStatus":  "Candidate; inspect edges/UVs/connectors and retopologize before game use"
+                   }
+               ],
+    "styleReferences":  {
+                            "cabinet":  {
+                                            "node":  "4ad133a3-2b34-4086-9ccd-3bc00cfacdb9",
+                                            "url":  "/api/objects/0b59fefb37d6d62a9e098881d57a90f9.png"
+                                        },
+                            "pump":  {
+                                         "node":  "bb52c305-88ab-4039-afa9-9ea723d768b2",
+                                         "url":  "/api/objects/72994509880d43c4e09dcb4db6ed6a4a.png"
+                                     },
+                            "bench":  {
+                                          "node":  "3c076932-8cb2-4a52-b277-32bc08489af2",
+                                          "url":  "/api/objects/82ed8c23c6109c777e765511cb0f3594.png"
+                                      },
+                            "rack":  {
+                                         "url":  "/api/objects/c9c0f2bb7ffde84695b89376808f76c4.png",
+                                         "node":  "d7746b0e-40fd-4dfb-bda7-a4efd5c19352"
+                                     }
+                        },
+    "existingReusable":  [
+                             {
+                                 "mesh":  "0ce530cd-f586-4f0c-92db-0741adeebd44",
+                                 "status":  "success",
+                                 "image":  "8137f73b-8284-4aff-8527-fb4a02688ec3",
+                                 "prompt":  "Create one single asset only: a tall stainless steel vertical industrial reactor tank for the referenced Korean factory laboratory, cylindrical vessel on four legs, top motor agitator, side inspection hatch, orange inlet and outlet pipes, pressure gauge, small yellow access platform and ladder. Centered full object, realistic 3/4 front view, camera slightly above eye level so top and two sides are visible, complete silhouette with generous empty margin, neutral white background, soft shadow directly underneath, no environment, no extra objects, no people, no labels, no text, production-ready image-to-3D reference."
+                             },
+                             {
+                                 "mesh":  "2ee2220e-bfdd-4843-9e5f-5575819938a2",
+                                 "status":  "success",
+                                 "image":  "10b2af5a-4242-4038-a3db-d8dd675bea44",
+                                 "prompt":  "Create one single asset only: a grounded industrial centrifugal pump skid for the referenced factory laboratory, electric motor coupled to a steel pump on a rectangular base frame, orange inlet and outlet flanges, pressure gauge, protective coupling guard, realistic bolts and service access. Centered full object in clean 3/4 front view showing top and both sides, complete silhouette, neutral white background, soft contact shadow, no pipes leaving the object, no environment, no extra props, no people, no labels, no text, production-ready image-to-3D source."
+                             },
+                             {
+                                 "mesh":  "2136c0b7-a040-45d9-86db-2742c523411c",
+                                 "status":  "success",
+                                 "image":  "e5e3ebd0-ddc4-4a23-8661-56d91c020304",
+                                 "prompt":  "Create one single asset only: a large rooftop industrial HVAC air handling unit matching the referenced research facility, rectangular galvanized steel cabinet, segmented service panels, top fans, side intake louvers, short orange utility connections, lifting eyes and mounting feet. Centered complete object in a clear elevated 3/4 front view with top and two sides visible, neutral white background, soft contact shadow, no roof, no ducts extending away, no environment, no people, no labels, no text, clean image-to-3D reference."
+                             },
+                             {
+                                 "mesh":  "fb32aade-642f-467d-8184-2267d70c6a86",
+                                 "status":  "success",
+                                 "image":  "cfa49b73-7590-4bcf-9c8c-931b18f987db",
+                                 "prompt":  "Create one single asset only: a freestanding industrial electrical control cabinet for the referenced factory laboratory, gray powder-coated steel enclosure, double doors, side vents, emergency stop button, indicator lamps without text, cable gland base, sturdy feet, mild realistic wear. Centered full object, clean 3/4 front product view with top and both sides visible, neutral white background, soft contact shadow, no wall, no loose cables, no environment, no people, no labels, no readable text, image-to-3D source."
+                             },
+                             {
+                                 "mesh":  "cc651bca-8d47-41a7-b482-19392eea7f3d",
+                                 "status":  "success",
+                                 "image":  "713cbe2e-5428-4390-8346-de7b4670bddd",
+                                 "prompt":  "Create one single asset only: a realistic stainless laboratory workbench matching the referenced industrial research facility, heavy metal frame, white chemical-resistant worktop, lower cabinets, small integrated sink, overhead shelf, articulated task light, compact monitor with blank screen. Centered full object in 3/4 front view, all legs and surfaces visible, neutral white background, soft contact shadow, no room, no extra loose props, no people, no logos, no labels, no text, production-ready image-to-3D reference."
+                             },
+                             {
+                                 "mesh":  "a1adb07c-c263-405e-b1d8-0d43615d33f2",
+                                 "status":  "success",
+                                 "image":  "ed05c965-9f88-4478-9f00-28ffb0049dd3",
+                                 "prompt":  "Create one single asset only: a heavy-duty industrial pallet storage rack for the referenced factory laboratory, galvanized and dark gray steel frame with yellow protective feet, three shelf levels, a few simple unbranded metal crates arranged neatly, realistic braces and bolts. Centered entire rack in a clean 3/4 front view showing depth and side structure, neutral white background, soft contact shadow, no warehouse, no neighboring racks, no people, no labels, no text, image-to-3D source."
+                             },
+                             {
+                                 "mesh":  "c9e4491a-bfec-4dc3-a77d-7384e854bfd1",
+                                 "status":  "success",
+                                 "image":  "c2c43a51-57d7-40be-82da-0098d0622645",
+                                 "prompt":  "Create one single asset only: a floor-mounted industrial axial exhaust fan unit matching the referenced factory research facility, large circular fan housing inside a square galvanized frame, protective grille, electric motor, mounting feet, short rectangular duct collar, subtle realistic wear. Centered full object in an elevated 3/4 front view showing front, side and top, white background, soft contact shadow, no wall or connected ductwork, no people, no text, clean image-to-3D reference."
+                             },
+                             {
+                                 "mesh":  "ee652c51-d18d-411c-b2a6-da6bd1988c08",
+                                 "status":  "success",
+                                 "image":  "e5324f5e-edc8-4b9d-bd7a-52a5e9909f6d",
+                                 "prompt":  "Create one single asset only: a compact floor-standing industrial centrifuge for the referenced laboratory factory, cylindrical stainless chamber on a stable gray base cabinet, hinged sealed lid, small control panel with blank indicators, ventilation slots and rubber feet. Centered full object in clean 3/4 front product view with top and both sides visible, neutral white background, soft contact shadow, no room, no extra props, no people, no labels, no readable text, production-ready image-to-3D source."
+                             },
+                             {
+                                 "mesh":  "704fc905-9a62-44d7-9aaf-5db3751e4080",
+                                 "status":  "success",
+                                 "image":  "aa961262-0cd2-4b64-9331-f38a396bdfcc",
+                                 "prompt":  "Create one single asset only: a rugged rolling industrial maintenance tool cart matching the referenced facility, gray steel body, yellow corner guards, four caster wheels, stacked drawers, side handle, a few integrated tool slots but no loose tools, subtle scratches and grease wear. Centered complete object in clear 3/4 front view showing top and two sides, neutral white background, soft contact shadow, no workshop, no people, no logos, no labels, no text, image-to-3D reference."
+                             },
+                             {
+                                 "mesh":  "6a04cdfe-11f3-4268-a8a4-8ed49370a5d1",
+                                 "status":  "success",
+                                 "image":  "096d4852-794f-42d9-92cf-41039daf9ab8",
+                                 "prompt":  "Create one single asset only: a secure industrial gas cylinder rack for the referenced factory laboratory, six unbranded steel cylinders held by a galvanized frame, protective top bar, chain restraints, pressure manifold and short orange hoses contained within the rack, yellow base guards. Centered full object in a clean 3/4 front view showing depth and top, neutral white background, soft contact shadow, no wall, no room, no people, no hazard labels, no text, production-ready image-to-3D source."
+                             },
+                             {
+                                 "mesh":  "bd3ea3eb-7ae3-41a2-8022-3163fd44f4c4",
+                                 "status":  "success",
+                                 "image":  "e540571c-2df5-44c4-81cd-d0df8db67b34",
+                                 "prompt":  "Create one single modular building asset only: a straight exterior factory wall panel, 4 meters wide and 4 meters tall, thick insulated corrugated galvanized gray metal cladding on a steel subframe, subtle weathering, matching the referenced Korean industrial research facility. Centered complete object in an elevated 3/4 orthographic product view showing front face, side thickness, top and rear framing. Neutral white background, soft contact shadow, no building, no floor, no attached props, no pipes, no people, no text, production-ready image-to-3D reference."
+                             },
+                             {
+                                 "mesh":  "a925be18-76e0-4976-b8de-3e7125880967",
+                                 "status":  "success",
+                                 "image":  "a6fa152c-8329-428c-81f1-279117261994",
+                                 "prompt":  "Create one single modular building asset only: a straight reinforced concrete exterior wall section, 4 meters wide and 4 meters tall, realistic thick slab with recessed base joint, anchor points and subtle industrial wear, matching the referenced factory research facility. Centered complete object in elevated 3/4 orthographic view showing front, side thickness, top and rear surface. White studio background, soft contact shadow, no room, no floor, no props, no pipes, no people, no labels, no text, image-to-3D source."
+                             },
+                             {
+                                 "mesh":  "8f50a4b3-32f9-4e7a-b1e2-c58fe0e1e992",
+                                 "status":  "success",
+                                 "image":  "266c4823-3f3b-4e1f-acca-fe486e3c69fe",
+                                 "prompt":  "Create one single modular building asset only: an L-shaped 90-degree exterior corner wall module, 4 meters tall, insulated gray corrugated metal cladding over steel framing, equal 2-meter wings, realistic corner flashing and base trim, matching the referenced Korean factory. Centered complete object in elevated 3/4 orthographic view clearly showing both exterior faces, interior backs, thickness and top. Neutral white background, no building or floor, no extra objects, no text, image-to-3D reference."
+                             },
+                             {
+                                 "mesh":  "14bf2df9-aa2d-4c63-8217-36d6f8aa2461",
+                                 "status":  "success",
+                                 "image":  "0d1d66c1-68be-42bd-8fdc-09b339fc9805",
+                                 "prompt":  "Create one single modular building asset only: an industrial observation-window exterior wall module, 4 meters wide and 4 meters tall, gray insulated metal wall with one large reinforced dark glass window, thick frame, sill and visible panel thickness, matching the referenced research facility. Centered complete object in elevated 3/4 orthographic view showing front, side, top and back framing. White background, no room interior, no props, no people, no text, image-to-3D source."
+                             },
+                             {
+                                 "mesh":  "e0ad8293-78ff-4077-92fc-588f3f50d685",
+                                 "status":  "success",
+                                 "image":  "e110729b-cc9e-443f-828a-0e4ba71f61c4",
+                                 "prompt":  "Create one single modular building asset only: a factory loading-bay wall module with a large closed steel roller shutter, 6 meters wide and 4.5 meters tall, gray corrugated cladding, reinforced frame, bottom bumper and subtle yellow-black edge markings, matching the referenced facility. Centered full object in elevated 3/4 orthographic view showing thickness, top and rear framing. White background, no dock floor, no props, no people, no text, image-to-3D reference."
+                             },
+                             {
+                                 "mesh":  "a582cc93-53fb-4c86-aebe-b4ad2419de6f",
+                                 "status":  "success",
+                                 "image":  "1a239db6-116a-46cd-98ef-b3e385e98c38",
+                                 "prompt":  "Create one single modular building asset only: a personnel fire-door wall module, 3 meters wide and 4 meters tall, gray industrial metal wall with one heavy steel door, narrow reinforced window, push bar, hinges and frame, no signage, matching the referenced factory laboratory. Centered complete object in elevated 3/4 orthographic view showing wall thickness and rear side. White background, no floor, no props, no people, no labels, no text, image-to-3D source."
+                             },
+                             {
+                                 "mesh":  "52405ce3-b02e-4aac-9cf4-dab2bcc0d2a7",
+                                 "status":  "success",
+                                 "image":  "d0e30919-eab4-4503-9587-100e414928e4",
+                                 "prompt":  "Create one single modular building asset only: a square reinforced concrete floor slab tile, 4 by 4 meters, realistic structural thickness, smooth sealed industrial top surface, subtle expansion joints, exposed underside and edge connectors, matching the referenced factory laboratory. Centered complete object floating slightly above a neutral white background in elevated 3/4 orthographic view showing top, two edges and underside. No walls, no props, no markings, no text, image-to-3D reference."
+                             },
+                             {
+                                 "mesh":  "f76cdb37-b627-488e-b40b-e5d8bc2be912",
+                                 "status":  "success",
+                                 "image":  "e74a42ed-57c1-4456-9cad-46e62cbba402",
+                                 "prompt":  "Create one single modular building asset only: a square industrial steel grating floor tile, 2 by 2 meters, galvanized open mesh supported by a dark steel perimeter frame and underside cross braces, matching the referenced factory facility. Centered complete object in elevated 3/4 orthographic view showing top grid, side thickness and underside. Neutral white background, no railings, no stairs, no props, no text, clean image-to-3D reference."
+                             },
+                             {
+                                 "mesh":  "384fb947-611c-4e58-9dea-c92a39e37f72",
+                                 "status":  "success",
+                                 "image":  "5ad24ed9-fc34-440e-8952-b1105399baa4",
+                                 "prompt":  "Create one single modular building asset only: a square suspended industrial ceiling panel module, 4 by 4 meters, light gray metal acoustic panels inside a steel grid, integrated recessed strip lights without glow, visible upper suspension frame and service cavity, matching the referenced laboratory. Centered complete object in low elevated 3/4 orthographic view showing underside, side thickness and top framework. White background, no walls, no ducts, no text, image-to-3D reference."
+                             },
+                             {
+                                 "mesh":  "8e18c46a-4c0a-4747-adc4-a8b19448f33f",
+                                 "status":  "success",
+                                 "image":  "7a021610-ea99-42bc-b8f3-8b6d81181436",
+                                 "prompt":  "Create one single modular building asset only: a flat industrial roof panel module, 4 by 4 meters, thick insulated metal deck with gray waterproof membrane, drainage lip, edge flashing and visible corrugated underside, matching the referenced factory roof. Centered complete object in elevated 3/4 orthographic view showing top, two edges and underside. Neutral white background, no HVAC units, no parapet, no building, no props, no text, image-to-3D reference."
+                             },
+                             {
+                                 "mesh":  "b6ca9c1f-455b-4937-a54c-be5159032dd4",
+                                 "status":  "success",
+                                 "image":  "80c8d72e-d861-4216-b892-96ccb53cdcaa",
+                                 "prompt":  "Create one single modular structural asset only: a heavy industrial square steel support column, 4 meters tall, dark galvanized box section with welded base plate, top connection plate, bolts and subtle wear, matching the referenced research factory. Centered complete object standing alone in a clean 3/4 orthographic product view with all sides and connectors visible. White background, no beams, no floor, no props, no labels, no text, image-to-3D source."
+                             },
+                             {
+                                 "mesh":  "d27e4c99-1e14-4e6d-a3a6-c0e8a9804fc2",
+                                 "status":  "success",
+                                 "image":  "1e9b1ebf-ff42-46ca-b51b-3cc864365982",
+                                 "prompt":  "Create one single modular structural asset only: a straight industrial steel I-beam, 6 meters long, dark galvanized finish, end plates with bolt holes, small welded stiffeners and subtle wear, matching the referenced factory construction. Centered complete object isolated horizontally in elevated 3/4 orthographic view showing full length, top flange, side web and both end connections. Neutral white background, no columns, no building, no props, no labels, no text, image-to-3D reference."
+                             }
+                         ],
+    "annotationId":  "1fea45d8-ad0a-4de3-b93d-5c1732f25345",
+    "status":  "Completed: 20 images, 20 high-poly originals, 20 remesh candidates; basic topology and visual comparison reviewed; final production retopology and Unity import pending",
+    "imageRuns":  [
+                      {
+                          "kind":  "runStarted",
+                          "executionId":  "3b980d00-dac4-434a-9e81-57cd9cddb059",
+                          "points":  350
+                      },
+                      {
+                          "kind":  "runStarted",
+                          "executionId":  "c7413240-fca6-4f46-8101-92ca4a7da551",
+                          "points":  350
+                      },
+                      {
+                          "kind":  "runStarted",
+                          "executionId":  "e9112f1c-8cb2-4923-9079-f48e1aaf3c70",
+                          "points":  300
+                      }
+                  ],
+    "meshRuns":  [
+                     {
+                         "kind":  "runStarted",
+                         "executionId":  "4df0bc3e-b474-41ef-bd2e-ec8d26d4a91d",
+                         "points":  1400
+                     },
+                     {
+                         "kind":  "runStarted",
+                         "executionId":  "f7889802-501f-4fc6-a479-7d6c1f1650fc",
+                         "points":  1400
+                     },
+                     {
+                         "kind":  "runStarted",
+                         "executionId":  "a7a21294-61fb-4402-a6a4-a777fe287953",
+                         "points":  1200
+                     }
+                 ],
+    "remeshRuns":  [
+                       {
+                           "kind":  "runStarted",
+                           "executionId":  "12c4ccb0-afea-4062-b5d0-e77f847635da",
+                           "points":  0
+                       },
+                       {
+                           "kind":  "runStarted",
+                           "executionId":  "98b8b338-ed9e-4907-b5c4-8d95794fc198",
+                           "points":  0
+                       },
+                       {
+                           "kind":  "runStarted",
+                           "executionId":  "0de06b4a-dff4-44eb-834d-e114ae1e1cab",
+                           "points":  0
+                       }
+                   ],
+    "confirmedPoints":  5000,
+    "unityApplied":  false,
+    "localStaging":  "tmp/VARCO_V002_Batch02_20261103"
+}

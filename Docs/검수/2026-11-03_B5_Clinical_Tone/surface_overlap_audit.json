@@ -1,0 +1,448 @@
+{
+  "trianglesChecked": 3928,
+  "coplanarRendererPairs": 26,
+  "pairs": [
+    {
+      "a": "B5_Level_V0.01/Connector_Airlock/Geometry/Ceiling_CrossLeg",
+      "b": "B5_Level_V0.01/Connector_Airlock/Geometry/Ceiling_ExitLeg",
+      "overlapSquareMetres": 12.48000024000001,
+      "examples": [
+        {
+          "axis": 1,
+          "plane": 4.2,
+          "area": 1.570909136608265
+        },
+        {
+          "axis": 1,
+          "plane": 4.2,
+          "area": 3.1090909569917367
+        }
+      ]
+    },
+    {
+      "a": "B5_Level_V0.01/Connector_Airlock/Geometry/Ceiling_CrossLeg",
+      "b": "B5_Level_V0.01/Connector_Airlock/Geometry/Ceiling_EntryLeg",
+      "overlapSquareMetres": 7.00000024,
+      "examples": [
+        {
+          "axis": 1,
+          "plane": 4.2,
+          "area": 2.668235361882352
+        },
+        {
+          "axis": 1,
+          "plane": 4.2,
+          "area": 0.6917647533176478
+        }
+      ]
+    },
+    {
+      "a": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Ceiling_Stair",
+      "b": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Ceiling_TopLanding",
+      "overlapSquareMetres": 2.080000000000041,
+      "examples": [
+        {
+          "axis": 0,
+          "plane": 5.2,
+          "area": 0.011428571428581336
+        },
+        {
+          "axis": 0,
+          "plane": 5.2,
+          "area": 0.06493506493508505
+        }
+      ]
+    },
+    {
+      "a": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Pit_Wall_South",
+      "b": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_SouthDeck_01/RebuiltArchitectureVisual/Env_FloorSlab_4m_Rebuilt",
+      "overlapSquareMetres": 1.2199826088000012,
+      "examples": [
+        {
+          "axis": 1,
+          "plane": 0.0,
+          "area": 0.11878787878787911
+        },
+        {
+          "axis": 1,
+          "plane": 0.0,
+          "area": 0.014545454545455527
+        }
+      ]
+    },
+    {
+      "a": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Pit_Wall_South",
+      "b": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_SouthDeck_03/RebuiltArchitectureVisual/Env_FloorSlab_4m_Rebuilt",
+      "overlapSquareMetres": 1.219982608799997,
+      "examples": [
+        {
+          "axis": 1,
+          "plane": 0.0,
+          "area": 0.6400000000000041
+        },
+        {
+          "axis": 1,
+          "plane": 0.0,
+          "area": 0.02666666666666373
+        }
+      ]
+    },
+    {
+      "a": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Pit_Wall_North",
+      "b": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_NorthDeck_06/RebuiltArchitectureVisual/Env_FloorSlab_4m_Rebuilt",
+      "overlapSquareMetres": 1.2199797792009597,
+      "examples": [
+        {
+          "axis": 1,
+          "plane": 0.0,
+          "area": 0.01212136942133668
+        },
+        {
+          "axis": 1,
+          "plane": 0.0,
+          "area": 0.6545446305786626
+        }
+      ]
+    },
+    {
+      "a": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Pit_Wall_North",
+      "b": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_NorthDeck_02/RebuiltArchitectureVisual/Env_FloorSlab_4m_Rebuilt",
+      "overlapSquareMetres": 1.2199797792009413,
+      "examples": [
+        {
+          "axis": 1,
+          "plane": 0.0,
+          "area": 0.13333319999998672
+        },
+        {
+          "axis": 1,
+          "plane": 0.0,
+          "area": 0.026666879999744708
+        }
+      ]
+    },
+    {
+      "a": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Pit_Wall_South",
+      "b": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_SouthDeck_02/RebuiltArchitectureVisual/Env_FloorSlab_4m_Rebuilt",
+      "overlapSquareMetres": 1.1999834400000031,
+      "examples": [
+        {
+          "axis": 1,
+          "plane": 0.0,
+          "area": 0.3763636363636369
+        },
+        {
+          "axis": 1,
+          "plane": 0.0,
+          "area": 0.023636363636367008
+        }
+      ]
+    },
+    {
+      "a": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Pit_Wall_North",
+      "b": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_NorthDeck_04/RebuiltArchitectureVisual/Env_FloorSlab_4m_Rebuilt",
+      "overlapSquareMetres": 1.1999807200000059,
+      "examples": [
+        {
+          "axis": 1,
+          "plane": 0.0,
+          "area": 0.00303038780984366
+        },
+        {
+          "axis": 1,
+          "plane": 0.0,
+          "area": 0.3969692121901627
+        }
+      ]
+    },
+    {
+      "a": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Ceiling_TopLanding",
+      "b": "B5_Level_V0.01/Exit_StairVestibule/VARCO_Visuals/FireDoor_B4_LockedBoundary_VisualOnly/RebuiltArchitectureVisual/Env_FireDoorWall_3m_Rebuilt",
+      "overlapSquareMetres": 0.3288208800000234,
+      "examples": [
+        {
+          "axis": 1,
+          "plane": 5.6,
+          "area": 0.1386262150991442
+        },
+        {
+          "axis": 1,
+          "plane": 5.6,
+          "area": 0.15731244772125308
+        }
+      ]
+    },
+    {
+      "a": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_Ceiling_09/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+      "b": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_East_01/RebuiltArchitectureVisual/Env_ObservationWall_4m_Rebuilt/Env_ObservationWall_4m_Opaque",
+      "overlapSquareMetres": 0.2767260324035625,
+      "examples": [
+        {
+          "axis": 1,
+          "plane": 4.0,
+          "area": 0.2110259592957675
+        },
+        {
+          "axis": 1,
+          "plane": 4.0,
+          "area": 8.709556345820602e-05
+        }
+      ]
+    },
+    {
+      "a": "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_Ceiling_08/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+      "b": "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_East_02/RebuiltArchitectureVisual/Env_ObservationWall_4m_Rebuilt/Env_ObservationWall_4m_Opaque",
+      "overlapSquareMetres": 0.27672298147694185,
+      "examples": [
+        {
+          "axis": 1,
+          "plane": 4.0,
+          "area": 0.21102446631419625
+        },
+        {
+          "axis": 1,
+          "plane": 4.0,
+          "area": 8.709294789710498e-05
+        }
+      ]
+    },
+    {
+      "a": "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_Ceiling_01/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+      "b": "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_West_01/RebuiltArchitectureVisual/Env_ConcreteWall_4m_Rebuilt",
+      "overlapSquareMetres": 0.2120176903588522,
+      "examples": [
+        {
+          "axis": 1,
+          "plane": 4.0,
+          "area": 0.0012080170091799403
+        },
+        {
+          "axis": 1,
+          "plane": 4.0,
+          "area": 0.03451280160169645
+        }
+      ]
+    },
+    {
+      "a": "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_Ceiling_07/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+      "b": "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_East_01/RebuiltArchitectureVisual/Env_ConcreteWall_4m_Rebuilt",
+      "overlapSquareMetres": 0.2120176903096791,
+      "examples": [
+        {
+          "axis": 1,
+          "plane": 4.0,
+          "area": 0.03451226675822827
+        },
+        {
+          "axis": 1,
+          "plane": 4.0,
+          "area": 0.0012079898330874528
+        }
+      ]
+    },
+    {
+      "a": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_Ceiling_02/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+      "b": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_West_02/RebuiltArchitectureVisual/Env_ConcreteWall_4m_Rebuilt",
+      "overlapSquareMetres": 0.21201749956333993,
+      "examples": [
+        {
+          "axis": 1,
+          "plane": 4.0,
+          "area": 0.0012080126846569783
+        },
+        {
+          "axis": 1,
+          "plane": 4.0,
+          "area": 0.034512698165583444
+        }
+      ]
+    },
+    {
+      "a": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_Ceiling_04/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+      "b": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_West_04/RebuiltArchitectureVisual/Env_ConcreteWall_4m_Rebuilt",
+      "overlapSquareMetres": 0.2120174995633386,
+      "examples": [
+        {
+          "axis": 1,
+          "plane": 4.0,
+          "area": 0.0012080126846560901
+        },
+        {
+          "axis": 1,
+          "plane": 4.0,
+          "area": 0.034512698165582556
+        }
+      ]
+    },
+    {
+      "a": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_Ceiling_11/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+      "b": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_East_03/RebuiltArchitectureVisual/Env_ConcreteWall_4m_Rebuilt",
+      "overlapSquareMetres": 0.21201675937042808,
+      "examples": [
+        {
+          "axis": 1,
+          "plane": 4.0,
+          "area": 0.034511648478762424
+        },
+        {
+          "axis": 1,
+          "plane": 4.0,
+          "area": 0.001207968954936689
+        }
+      ]
+    },
+    {
+      "a": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_Ceiling_12/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+      "b": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_East_04/RebuiltArchitectureVisual/Env_MetalWall_4m_Rebuilt",
+      "overlapSquareMetres": 0.21201251759516637,
+      "examples": [
+        {
+          "axis": 1,
+          "plane": 4.0,
+          "area": 0.0345095546683325
+        },
+        {
+          "axis": 1,
+          "plane": 4.0,
+          "area": 0.0012079198245373846
+        }
+      ]
+    },
+    {
+      "a": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_Ceiling_10/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+      "b": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_East_02/RebuiltArchitectureVisual/Env_MetalWall_4m_Rebuilt",
+      "overlapSquareMetres": 0.21201251759515571,
+      "examples": [
+        {
+          "axis": 1,
+          "plane": 4.0,
+          "area": 0.0345095546683325
+        },
+        {
+          "axis": 1,
+          "plane": 4.0,
+          "area": 0.0012079198245373846
+        }
+      ]
+    },
+    {
+      "a": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_Ceiling_03/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+      "b": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_West_03/RebuiltArchitectureVisual/Env_MetalWall_4m_Rebuilt",
+      "overlapSquareMetres": 0.21201141703597326,
+      "examples": [
+        {
+          "axis": 1,
+          "plane": 4.0,
+          "area": 0.0012079426034565799
+        },
+        {
+          "axis": 1,
+          "plane": 4.0,
+          "area": 0.03450985790952199
+        }
+      ]
+    },
+    {
+      "a": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_Ceiling_01/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+      "b": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_West_01/RebuiltArchitectureVisual/Env_MetalWall_4m_Rebuilt",
+      "overlapSquareMetres": 0.2120114170359706,
+      "examples": [
+        {
+          "axis": 1,
+          "plane": 4.0,
+          "area": 0.0012079426034556917
+        },
+        {
+          "axis": 1,
+          "plane": 4.0,
+          "area": 0.0345098579095211
+        }
+      ]
+    },
+    {
+      "a": "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_Ceiling_02/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+      "b": "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_West_02/RebuiltArchitectureVisual/Env_MetalWall_4m_Rebuilt",
+      "overlapSquareMetres": 0.21201141703063975,
+      "examples": [
+        {
+          "axis": 1,
+          "plane": 4.0,
+          "area": 0.0012079425538544797
+        },
+        {
+          "axis": 1,
+          "plane": 4.0,
+          "area": 0.034509814591064725
+        }
+      ]
+    },
+    {
+      "a": "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_Ceiling_03/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+      "b": "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_West_03/RebuiltArchitectureVisual/Env_ConcreteWall_4m_Rebuilt",
+      "overlapSquareMetres": 0.162011970358785,
+      "examples": [
+        {
+          "axis": 1,
+          "plane": 4.0,
+          "area": 0.0009060127550455377
+        },
+        {
+          "axis": 1,
+          "plane": 4.0,
+          "area": 0.025884599595670466
+        }
+      ]
+    },
+    {
+      "a": "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_Ceiling_09/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+      "b": "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_East_03/RebuiltArchitectureVisual/Env_MetalWall_4m_Rebuilt",
+      "overlapSquareMetres": 0.1620071769897269,
+      "examples": [
+        {
+          "axis": 1,
+          "plane": 4.0,
+          "area": 0.025882080001458974
+        },
+        {
+          "axis": 1,
+          "plane": 4.0,
+          "area": 0.0009059397699324734
+        }
+      ]
+    },
+    {
+      "a": "B5_Level_V0.01/Connector_Airlock/Geometry/Wall_West_Outer",
+      "b": "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_Ceiling_04/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+      "overlapSquareMetres": 0.028799999999999937,
+      "examples": [
+        {
+          "axis": 1,
+          "plane": 4.000026,
+          "area": 0.014399999999999968
+        },
+        {
+          "axis": 1,
+          "plane": 4.000026,
+          "area": 0.014399999999999968
+        }
+      ]
+    },
+    {
+      "a": "B5_Level_V0.01/Connector_Airlock/Geometry/Wall_East_Entry",
+      "b": "B5_Level_V0.01/Room01_Isolation/VARCO_Visuals/Room01_Ceiling_04/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+      "overlapSquareMetres": 0.028799999999999937,
+      "examples": [
+        {
+          "axis": 1,
+          "plane": 4.000026,
+          "area": 0.014399999999999968
+        },
+        {
+          "axis": 1,
+          "plane": 4.000026,
+          "area": 0.014399999999999968
+        }
+      ]
+    }
+  ]
+}

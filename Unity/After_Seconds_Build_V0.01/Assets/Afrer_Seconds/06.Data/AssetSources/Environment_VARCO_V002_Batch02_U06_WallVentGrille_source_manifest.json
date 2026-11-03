@@ -1,0 +1,49 @@
+{
+  "id": "U06",
+  "name": "WallVentGrille",
+  "ko": "벽 환기구",
+  "category": "Environment",
+  "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+  "sourceHighNode": "4f0a68f9-e4e8-4630-88db-009972dd4114",
+  "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/U06_retopo.glb",
+  "sourceSha256": "bedbc71f7cb9e3e6225d0f388baa105a9cf64c87fac059611728c68786ad885b",
+  "modelPath": "Assets/Afrer_Seconds/05.Model/Environment/Common/U06_WallVentGrille.fbx",
+  "modelSha256": "81d7d9d9ae368b890bf016f67cc903b4a4118557bbe55098496da9d04152ad0c",
+  "baseMap": "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/U06_WallVentGrille_BaseColor.png",
+  "normalMap": "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/U06_WallVentGrille_Normal.png",
+  "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/U06_WallVentGrille_MetallicSmoothness.png",
+  "occlusionMap": "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/U06_WallVentGrille_Occlusion.png",
+  "blenderSizeXYZ": [
+    0.7000000476837158,
+    0.17450837790966034,
+    0.6999624967575073
+  ],
+  "candidateDimensionRule": {
+    "mode": "maxExtent",
+    "value": 0.7
+  },
+  "triangles": 2980,
+  "visualOnly": true,
+  "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+  "pbrPacking": {
+    "metallic": "R",
+    "smoothness": "A=1-source G",
+    "occlusion": "G=source R"
+  },
+  "normalStrength": 0.35,
+  "materialPath": "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/U06_WallVentGrille_URP.mat",
+  "prefabPath": "Assets/Afrer_Seconds/05.Model/Environment/Common/U06_WallVentGrille.prefab",
+  "placementCount": 6,
+  "finalFbxVerification": {
+    "boundaryEdges": 0,
+    "overusedEdges": 0,
+    "zeroAreaFaces": 0,
+    "nonFiniteUVs": 0,
+    "strictEdgeTriangleCrossings": 0
+  },
+  "folderCleanup20261103": {
+    "previousPath": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U06_WallVentGrille/source_manifest.json",
+    "currentPath": "Assets/Afrer_Seconds/06.Data/AssetSources/Environment_VARCO_V002_Batch02_U06_WallVentGrille_source_manifest.json",
+    "mapping": "Docs/검수/2026-11-03_ModelFolderCleanup/move_plan.json"
+  }
+}

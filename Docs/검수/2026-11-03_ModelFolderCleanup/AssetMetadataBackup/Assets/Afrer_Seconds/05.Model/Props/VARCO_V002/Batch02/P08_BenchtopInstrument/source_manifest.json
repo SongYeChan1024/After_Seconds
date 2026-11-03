@@ -1,0 +1,44 @@
+{
+  "id": "P08",
+  "name": "BenchtopInstrument",
+  "ko": "탁상 계측 장비",
+  "category": "Props",
+  "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+  "sourceHighNode": "95f8157d-7777-40d2-a98a-50fec928a231",
+  "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/P08_retopo.glb",
+  "sourceSha256": "299fd6455b11dd04111785956c768ed4b42917f8e4949b7f7145b199851d25c4",
+  "modelPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P08_BenchtopInstrument/Models/P08_BenchtopInstrument.fbx",
+  "modelSha256": "0e8e4b9e2917920e8078199d9b62803c55d64477b58de98141aabe53d3582a54",
+  "baseMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P08_BenchtopInstrument/Textures/BaseColor.png",
+  "normalMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P08_BenchtopInstrument/Textures/Normal.png",
+  "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P08_BenchtopInstrument/Textures/MetallicSmoothness.png",
+  "occlusionMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P08_BenchtopInstrument/Textures/Occlusion.png",
+  "blenderSizeXYZ": [
+    0.4000000059604645,
+    0.36237215995788574,
+    0.29206663370132446
+  ],
+  "candidateDimensionRule": {
+    "mode": "width",
+    "value": 0.4
+  },
+  "triangles": 9826,
+  "visualOnly": true,
+  "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+  "pbrPacking": {
+    "metallic": "R",
+    "smoothness": "A=1-source G",
+    "occlusion": "G=source R"
+  },
+  "normalStrength": 0.35,
+  "materialPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P08_BenchtopInstrument/Materials/P08_BenchtopInstrument_URP.mat",
+  "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P08_BenchtopInstrument/Prefabs/P08_BenchtopInstrument.prefab",
+  "placementCount": 1,
+  "finalFbxVerification": {
+    "boundaryEdges": 0,
+    "overusedEdges": 0,
+    "zeroAreaFaces": 0,
+    "nonFiniteUVs": 0,
+    "strictEdgeTriangleCrossings": 0
+  }
+}

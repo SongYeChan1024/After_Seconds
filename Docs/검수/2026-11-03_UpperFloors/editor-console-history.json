@@ -1,0 +1,33 @@
+﻿{
+    "entries":  [
+                    {
+                        "seq":  764,
+                        "timestampUtc":  "2026-11-03T05:31:54.8066898Z",
+                        "level":  "error",
+                        "logType":  "Exception",
+                        "message":  "NullReferenceException: Object reference not set to an instance of an object",
+                        "stackTrace":  "UnityEditor.SceneView.DoOnGUI () (at \u003cfa95cb502fe343b2a567dd611b37cd92\u003e:0)\nUnityEditor.SceneView.OnSceneGUI () (at \u003cfa95cb502fe343b2a567dd611b37cd92\u003e:0)\nUnityEngine.UIElements.IMGUIContainer.DoOnGUI (UnityEngine.Event evt, UnityEngine.Matrix4x4 parentTransform, UnityEngine.Rect clippingRect, System.Boolean isComputingLayout, UnityEngine.Rect layoutSize, System.Action onGUIHandler, System.Boolean canAffectFocus) (at \u003c01403715619b4e3a86fe0f0c8dae02fe\u003e:0)\nUnityEngine.UIElements.IMGUIContainer.HandleIMGUIEvent (UnityEngine.Event e, UnityEngine.Matrix4x4 worldTransform, UnityEngine.Rect clippingRect, System.Action onGUIHandler, System.Boolean canAffectFocus) (at \u003c01403715619b4e3a86fe0f0c8dae02fe\u003e:0)\nUnityEngine.UIElements.IMGUIContainer.DoIMGUIRepaint () (at \u003c01403715619b4e3a86fe0f0c8dae02fe\u003e:0)\nUnityEngine.UIElements.UIR.RenderChainCommand.ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams drawParams, System.Single pixelsPerPoint, System.Exception\u0026 immediateException) (at \u003c01403715619b4e3a86fe0f0c8dae02fe\u003e:0)\nRethrow as ImmediateModeException\nUnityEngine.UIElements.UIR.RenderTreeManager.RenderSingleTree (UnityEngine.UIElements.UIR.RenderTree renderTree, UnityEngine.RenderTexture nestedTreeRT, UnityEngine.RectInt nestedTreeViewport, UnityEngine.Rect bounds) (at \u003c01403715619b4e3a86fe0f0c8dae02fe\u003e:0)\nUnityEngine.UIElements.UIR.RenderTreeManager.RenderRootTree () (at \u003c01403715619b4e3a86fe0f0c8dae02fe\u003e:0)\nUnityEngine.UIElements.UIRRepaintUpdater.Render () (at \u003c01403715619b4e3a86fe0f0c8dae02fe\u003e:0)\nUnityEngine.UIElements.BaseVisualElementPanel.Render () (at \u003c01403715619b4e3a86fe0f0c8dae02fe\u003e:0)\nUnityEngine.UIElements.Panel.Render () (at \u003c01403715619b4e3a86fe0f0c8dae02fe\u003e:0)\nUnityEngine.UIElements.UIElementsUtility.DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel panel) (at \u003c01403715619b4e3a86fe0f0c8dae02fe\u003e:0)\nUnityEngine.UIElements.UIElementsUtility.UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (UnityEngine.EntityId entityId, System.IntPtr nativeEventPtr, System.Boolean\u0026 eventHandled) (at \u003c01403715619b4e3a86fe0f0c8dae02fe\u003e:0)\nUnityEngine.UIElements.UIEventRegistration.ProcessEvent (UnityEngine.EntityId entityId, System.IntPtr nativeEventPtr) (at \u003c01403715619b4e3a86fe0f0c8dae02fe\u003e:0)\nUnityEngine.UIElements.UIEventRegistration+\u003c\u003ec.\u003c.cctor\u003eb__1_2 (UnityEngine.EntityId i, System.IntPtr ptr) (at \u003c01403715619b4e3a86fe0f0c8dae02fe\u003e:0)\nUnityEngine.GUIUtility.ProcessEvent (UnityEngine.EntityId entityId, System.IntPtr nativeEventPtr, System.Boolean\u0026 result) (at \u003cb29453ecdf8640e49784090aee50d2bf\u003e:0)\n",
+                        "seeded":  false
+                    }
+                ],
+    "cursor":  765,
+    "session":  "29d6ccaec3d4494a9c1f26e031b9ea86",
+    "returned":  1,
+    "dropped":  false,
+    "reset":  false,
+    "counts":  {
+                   "error":  764,
+                   "warn":  1,
+                   "log":  0
+               },
+    "groundTruth":  {
+                        "sampledUtc":  "2026-11-03T05:34:13.8992386Z",
+                        "ageMs":  264,
+                        "compilationFailed":  false,
+                        "compiling":  false,
+                        "consoleErrors":  0,
+                        "consoleWarnings":  0,
+                        "consoleLogs":  0,
+                        "seeded":  true
+                    }
+}

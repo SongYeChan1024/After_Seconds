@@ -1,0 +1,44 @@
+{
+  "id": "P07",
+  "name": "SealedWasteBin",
+  "ko": "밀폐 폐기물 통",
+  "category": "Props",
+  "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+  "sourceHighNode": "c869de4e-634a-41fc-b306-22f6cd1d7bbb",
+  "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/P07_retopo.glb",
+  "sourceSha256": "095763e2418fc02ea4135758ac2200c324c18290a5b16ab665cabd00e735316b",
+  "modelPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P07_SealedWasteBin/Models/P07_SealedWasteBin.fbx",
+  "modelSha256": "8e7db76f92c2d1c3000de1b42875ecf1fbf3ea7565841b1a8cfa9fe41a9157a1",
+  "baseMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P07_SealedWasteBin/Textures/BaseColor.png",
+  "normalMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P07_SealedWasteBin/Textures/Normal.png",
+  "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P07_SealedWasteBin/Textures/MetallicSmoothness.png",
+  "occlusionMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P07_SealedWasteBin/Textures/Occlusion.png",
+  "blenderSizeXYZ": [
+    0.5342568755149841,
+    0.5632898807525635,
+    0.6500000357627869
+  ],
+  "candidateDimensionRule": {
+    "mode": "height",
+    "value": 0.65
+  },
+  "triangles": 3948,
+  "visualOnly": true,
+  "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+  "pbrPacking": {
+    "metallic": "R",
+    "smoothness": "A=1-source G",
+    "occlusion": "G=source R"
+  },
+  "normalStrength": 0.35,
+  "materialPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P07_SealedWasteBin/Materials/P07_SealedWasteBin_URP.mat",
+  "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P07_SealedWasteBin/Prefabs/P07_SealedWasteBin.prefab",
+  "placementCount": 2,
+  "finalFbxVerification": {
+    "boundaryEdges": 0,
+    "overusedEdges": 0,
+    "zeroAreaFaces": 0,
+    "nonFiniteUVs": 0,
+    "strictEdgeTriangleCrossings": 0
+  }
+}

@@ -1,0 +1,285 @@
+[
+  {
+    "floor": "B5",
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "placements": [
+      {
+        "name": "IsolationConsole_West",
+        "room": "B5_Level_V0.01/Room01_Isolation",
+        "localPosition": [
+          -5.68,
+          1.15,
+          4.35
+        ],
+        "yaw": -90.0,
+        "boundsCenter": [
+          -5.68,
+          1.4749999,
+          4.35
+        ],
+        "boundsSize": [
+          0.485499322,
+          0.65,
+          0.651126564
+        ],
+        "overlappingColliders": [],
+        "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B5_IsolationMonitoringConsole/Prefabs/B5_IsolationMonitoringConsole.prefab"
+      },
+      {
+        "name": "CoolingConsole_East",
+        "room": "B5_Level_V0.01/Room02_CoolingPool",
+        "localPosition": [
+          5.68,
+          1.15,
+          -7.0
+        ],
+        "yaw": 90.0,
+        "boundsCenter": [
+          9.68,
+          1.4749999,
+          -16.0
+        ],
+        "boundsSize": [
+          0.485499442,
+          0.65,
+          0.6511267
+        ],
+        "overlappingColliders": [],
+        "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B5_IsolationMonitoringConsole/Prefabs/B5_IsolationMonitoringConsole.prefab"
+      }
+    ],
+    "collidersPreserved": true,
+    "colliderCount": 88,
+    "missingScripts": false,
+    "hiddenLegacyRenderers": []
+  },
+  {
+    "floor": "B4",
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B4_Observation.unity",
+    "placements": [
+      {
+        "name": "MonitorBank_Corridor",
+        "room": "B4_Observation_Draft/Room03_ObservationCorridor",
+        "localPosition": [
+          -3.65,
+          1.45,
+          1.2
+        ],
+        "yaw": -90.0,
+        "boundsCenter": [
+          -3.65,
+          1.975,
+          1.2
+        ],
+        "boundsSize": [
+          0.603469431,
+          1.05,
+          2.29363942
+        ],
+        "overlappingColliders": [],
+        "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B4_ObservationMonitorBank/Prefabs/B4_ObservationMonitorBank.prefab"
+      },
+      {
+        "name": "MonitorBank_Deck",
+        "room": "B4_Observation_Draft/Room04_ControlDeck",
+        "localPosition": [
+          5.65,
+          3.2,
+          -4.8
+        ],
+        "yaw": 90.0,
+        "boundsCenter": [
+          5.65,
+          3.725,
+          -24.8
+        ],
+        "boundsSize": [
+          0.603469849,
+          1.05,
+          2.29363966
+        ],
+        "overlappingColliders": [],
+        "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B4_ObservationMonitorBank/Prefabs/B4_ObservationMonitorBank.prefab"
+      }
+    ],
+    "collidersPreserved": true,
+    "colliderCount": 43,
+    "missingScripts": false,
+    "hiddenLegacyRenderers": []
+  },
+  {
+    "floor": "B3",
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B3_SampleStorage.unity",
+    "placements": [
+      {
+        "name": "DeconColumn_West",
+        "room": "B3_SampleLayer_Draft/Room06_DecontaminationAirlock",
+        "localPosition": [
+          -5.42,
+          0.0,
+          1.8
+        ],
+        "yaw": -90.0,
+        "boundsCenter": [
+          -8.42,
+          1.0999999,
+          -14.2
+        ],
+        "boundsSize": [
+          0.860004,
+          2.19999981,
+          1.06077027
+        ],
+        "overlappingColliders": [],
+        "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B3_DecontaminationColumn/Prefabs/B3_DecontaminationColumn.prefab"
+      },
+      {
+        "name": "DeconColumn_East",
+        "room": "B3_SampleLayer_Draft/Room06_DecontaminationAirlock",
+        "localPosition": [
+          5.42,
+          0.0,
+          1.8
+        ],
+        "yaw": 90.0,
+        "boundsCenter": [
+          2.42,
+          1.0999999,
+          -14.2
+        ],
+        "boundsSize": [
+          0.8600042,
+          2.19999981,
+          1.06077039
+        ],
+        "overlappingColliders": [],
+        "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B3_DecontaminationColumn/Prefabs/B3_DecontaminationColumn.prefab"
+      }
+    ],
+    "collidersPreserved": true,
+    "colliderCount": 50,
+    "missingScripts": false,
+    "hiddenLegacyRenderers": [
+      "B3_SampleLayer_Draft/Room06_DecontaminationAirlock/Decon_Nozzle_VisualOnly",
+      "B3_SampleLayer_Draft/Room06_DecontaminationAirlock/Decon_Nozzle_VisualOnly"
+    ]
+  },
+  {
+    "floor": "B2",
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B2_Machinery.unity",
+    "placements": [
+      {
+        "name": "ControlDesk_West",
+        "room": "B2_Machinery_Draft/Room08_CentralControl",
+        "localPosition": [
+          -1.5,
+          2.5,
+          -5.5
+        ],
+        "yaw": 180.0,
+        "boundsCenter": [
+          -1.5,
+          3.225,
+          -25.5
+        ],
+        "boundsSize": [
+          1.38708568,
+          1.44999993,
+          1.23307014
+        ],
+        "overlappingColliders": [],
+        "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B2_ControlDeskIsland/Prefabs/B2_ControlDeskIsland.prefab"
+      },
+      {
+        "name": "ControlDesk_East",
+        "room": "B2_Machinery_Draft/Room08_CentralControl",
+        "localPosition": [
+          1.5,
+          2.5,
+          -5.5
+        ],
+        "yaw": 180.0,
+        "boundsCenter": [
+          1.5,
+          3.225,
+          -25.5
+        ],
+        "boundsSize": [
+          1.38708568,
+          1.44999993,
+          1.23307014
+        ],
+        "overlappingColliders": [],
+        "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B2_ControlDeskIsland/Prefabs/B2_ControlDeskIsland.prefab"
+      }
+    ],
+    "collidersPreserved": true,
+    "colliderCount": 41,
+    "missingScripts": false,
+    "hiddenLegacyRenderers": []
+  },
+  {
+    "floor": "B1",
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B1_Experiment.unity",
+    "placements": [
+      {
+        "name": "ExperimentPanel_SouthDeck",
+        "room": "B1_Experiment_Draft/Room09_SubjectChamber",
+        "localPosition": [
+          -5.7,
+          1.15,
+          6.0
+        ],
+        "yaw": -90.0,
+        "boundsCenter": [
+          -5.7,
+          1.75,
+          6.0
+        ],
+        "boundsSize": [
+          0.415609956,
+          1.2,
+          1.19892383
+        ],
+        "overlappingColliders": [],
+        "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B1_ExperimentServicePanel/Prefabs/B1_ExperimentServicePanel.prefab"
+      }
+    ],
+    "collidersPreserved": true,
+    "colliderCount": 33,
+    "missingScripts": false,
+    "hiddenLegacyRenderers": []
+  },
+  {
+    "floor": "1F",
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_1F_Checkpoint.unity",
+    "placements": [
+      {
+        "name": "InspectionCounter_East",
+        "room": "1F_Checkpoint_Draft/Room10_ExitCheckpoint",
+        "localPosition": [
+          6.3,
+          0.0,
+          5.7
+        ],
+        "yaw": 90.0,
+        "boundsCenter": [
+          6.3,
+          0.625,
+          5.7
+        ],
+        "boundsSize": [
+          0.8282667,
+          1.25,
+          1.33722138
+        ],
+        "overlappingColliders": [],
+        "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/1F_SecurityInspectionCounter/Prefabs/1F_SecurityInspectionCounter.prefab"
+      }
+    ],
+    "collidersPreserved": true,
+    "colliderCount": 41,
+    "missingScripts": false,
+    "hiddenLegacyRenderers": []
+  }
+]

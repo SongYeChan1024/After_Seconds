@@ -1,0 +1,79 @@
+{
+  "imageRuns": [
+    {
+      "kind": "runStarted",
+      "executionId": "3b980d00-dac4-434a-9e81-57cd9cddb059",
+      "points": 350
+    },
+    {
+      "kind": "runStarted",
+      "executionId": "c7413240-fca6-4f46-8101-92ca4a7da551",
+      "points": 350
+    },
+    {
+      "kind": "runStarted",
+      "executionId": "e9112f1c-8cb2-4923-9079-f48e1aaf3c70",
+      "points": 300
+    }
+  ],
+  "meshRuns": [
+    {
+      "kind": "runStarted",
+      "executionId": "4df0bc3e-b474-41ef-bd2e-ec8d26d4a91d",
+      "points": 1400
+    },
+    {
+      "kind": "runStarted",
+      "executionId": "f7889802-501f-4fc6-a479-7d6c1f1650fc",
+      "points": 1400
+    },
+    {
+      "kind": "runStarted",
+      "executionId": "a7a21294-61fb-4402-a6a4-a777fe287953",
+      "points": 1200
+    }
+  ],
+  "imageQA": {
+    "reviewed": true,
+    "contactSheet": "batch02_image_contact_sheet.png",
+    "notes": [
+      "20종 모두 독립 단일 에셋·전체 실루엣·기존 산업 연구시설 톤 확인",
+      "P09 이미지는 트레이 3단으로 생성됨: 용도별 외형 후보로 수용",
+      "U03 밸브 끝 연결부 캡과 배관·덕트 연결 치수는 후처리 정규화 검토 필요"
+    ]
+  },
+  "remeshRuns": [
+    {
+      "kind": "runStarted",
+      "executionId": "12c4ccb0-afea-4062-b5d0-e77f847635da",
+      "points": 0
+    },
+    {
+      "kind": "runStarted",
+      "executionId": "98b8b338-ed9e-4907-b5c4-8d95794fc198",
+      "points": 0
+    },
+    {
+      "kind": "runStarted",
+      "executionId": "0de06b4a-dff4-44eb-834d-e114ae1e1cab",
+      "points": 0
+    }
+  ],
+  "finalCounts": {
+    "images": 20,
+    "failed": 0,
+    "remesh": 20,
+    "high": 20
+  },
+  "confirmedPoints": 5000,
+  "localFinalStatus": {
+    "retopologyComplete": true,
+    "unityAssets": 20,
+    "unityInstances": 60,
+    "savedScenesVerified": 6,
+    "finalFbxTopologyPass": true,
+    "legacyAssetsRepaired": 8,
+    "legacySourceDesignIssuesRemain": true,
+    "additionalPaidGenerationThisRepair": false
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "name": "FacilityWall_PaintedConcrete",
+  "author": "SongYeChan1024",
+  "generation": "Deterministic procedural PBR texture set generated with Blender and NumPy",
+  "sourceScript": "Docs/검수/2026-11-03_WallTexture_Pilot/create_wall_maps.py",
+  "scope": "B5 Room01_Isolation general walls only",
+  "spec": {
+    "size": [
+      1024,
+      2048
+    ],
+    "tileMetres": [
+      2,
+      4
+    ],
+    "maps": [
+      "BaseColor",
+      "TangentNormal",
+      "Mask_RMetallic_GOcclusion_ASmoothness"
+    ],
+    "lowerPaintHeightMetres": 1.15,
+    "materialCount": 1,
+    "seed": 71103,
+    "generation": "Deterministic periodic multi-scale procedural noise, shared height-derived normal and roughness; no photographic or AI source"
+  },
+  "application": {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "sharedMaterial": "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/FacilityWall_PaintedConcrete.mat",
+    "newMaterials": 1,
+    "uniquePilotMaterials": 1,
+    "walls": [
+      {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Wall_North_Left",
+        "previousMaterial": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/B5_SteelGray.mat",
+        "material": "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/FacilityWall_PaintedConcrete.mat",
+        "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/Wall_North_Left_MetricUV.asset",
+        "geometryPreserved": true,
+        "uvVertices": 24,
+        "triangles": 12
+      },
+      {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Wall_North_Right",
+        "previousMaterial": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/B5_SteelGray.mat",
+        "material": "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/FacilityWall_PaintedConcrete.mat",
+        "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/Wall_North_Right_MetricUV.asset",
+        "geometryPreserved": true,
+        "uvVertices": 24,
+        "triangles": 12
+      },
+      {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Wall_North_AboveDoor",
+        "previousMaterial": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/B5_SteelGray.mat",
+        "material": "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/FacilityWall_PaintedConcrete.mat",
+        "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/Wall_North_AboveDoor_MetricUV.asset",
+        "geometryPreserved": true,
+        "uvVertices": 24,
+        "triangles": 12
+      },
+      {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Wall_South",
+        "previousMaterial": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/B5_SteelGray.mat",
+        "material": "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/FacilityWall_PaintedConcrete.mat",
+        "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/Wall_South_MetricUV.asset",
+        "geometryPreserved": true,
+        "uvVertices": 24,
+        "triangles": 12
+      },
+      {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_Wall_Left",
+        "previousMaterial": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/B5_WarmIvory.mat",
+        "material": "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/FacilityWall_PaintedConcrete.mat",
+        "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/Cell_Wall_Left_MetricUV.asset",
+        "geometryPreserved": true,
+        "uvVertices": 24,
+        "triangles": 12
+      },
+      {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_Wall_Right",
+        "previousMaterial": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/B5_WarmIvory.mat",
+        "material": "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/FacilityWall_PaintedConcrete.mat",
+        "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/Cell_Wall_Right_MetricUV.asset",
+        "geometryPreserved": true,
+        "uvVertices": 24,
+        "triangles": 12
+      },
+      {
+        "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_Wall_Rear",
+        "previousMaterial": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/B5_WarmIvory.mat",
+        "material": "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/FacilityWall_PaintedConcrete.mat",
+        "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/Cell_Wall_Rear_MetricUV.asset",
+        "geometryPreserved": true,
+        "uvVertices": 24,
+        "triangles": 12
+      }
+    ],
+    "existingCollidersPreserved": true,
+    "texelDensity": 512,
+    "tileMetres": [
+      2,
+      4
+    ]
+  },
+  "verification": {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "savedSceneReloaded": true,
+    "walls": 7,
+    "uniqueWallMaterials": 1,
+    "textureAssets": 3,
+    "sharedPackedMask": true,
+    "finiteMetricUVs": true,
+    "pilotWallCollidersPreserved": true,
+    "applicationColliderSnapshotPreserved": true,
+    "unrelatedSceneEdits": [
+      {
+        "path": "B5_Level_V0.01/Connector_Airlock/Geometry/Wall_East_Outer",
+        "before": {
+          "path": "B5_Level_V0.01/Connector_Airlock/Geometry/Wall_East_Outer",
+          "type": "BoxCollider",
+          "position": [
+            5.13,
+            2.0,
+            -2.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            0.23,
+            4.0,
+            4.24
+          ],
+          "enabled": true,
+          "trigger": false,
+          "boundsCenter": [
+            5.13,
+            2.0,
+            -2.0
+          ],
+          "boundsSize": [
+            0.229999542,
+            4.0,
+            4.24
+          ]
+        },
+        "after": {
+          "path": "B5_Level_V0.01/Connector_Airlock/Geometry/Wall_East_Outer",
+          "type": "BoxCollider",
+          "position": [
+            5.13,
+            2.0,
+            -1.875
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            0.23,
+            4.0,
+            4.24
+          ],
+          "enabled": true,
+          "trigger": false,
+          "boundsCenter": [
+            5.13,
+            2.0,
+            -1.875
+          ],
+          "boundsSize": [
+            0.229999542,
+            4.0,
+            4.24
+          ]
+        }
+      },
+      {
+        "path": "B5_Level_V0.01/Connector_Airlock/Geometry/Wall_West_Exit",
+        "before": {
+          "path": "B5_Level_V0.01/Connector_Airlock/Geometry/Wall_West_Exit",
+          "type": "BoxCollider",
+          "position": [
+            2.89,
+            2.0,
+            -3.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            0.23,
+            4.0,
+            2.0
+          ],
+          "enabled": true,
+          "trigger": false,
+          "boundsCenter": [
+            2.89,
+            2.0,
+            -3.0
+          ],
+          "boundsSize": [
+            0.230000019,
+            4.0,
+            2.0
+          ]
+        },
+        "after": {
+          "path": "B5_Level_V0.01/Connector_Airlock/Geometry/Wall_West_Exit",
+          "type": "BoxCollider",
+          "position": [
+            2.89,
+            2.0,
+            -2.98
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            0.23,
+            4.0,
+            2.0
+          ],
+          "enabled": true,
+          "trigger": false,
+          "boundsCenter": [
+            2.89,
+            2.0,
+            -2.98
+          ],
+          "boundsSize": [
+            0.230000019,
+            4.0,
+            2.0
+          ]
+        }
+      }
+    ],
+    "missingScripts": false
+  },
+  "files": {
+    "Materials/FacilityWall_PaintedConcrete.mat": "424b1666abc06614d5afd474b641a8f3c70dc08f2c6d71d2f958d6aa97fe0980",
+    "Meshes/Cell_Wall_Left_MetricUV.asset": "fc431b0eaa2e0cd9b13bbb37f0cd5f8288d66c6f07d0907f5bbd9edfac3c0c25",
+    "Meshes/Cell_Wall_Rear_MetricUV.asset": "60936b65cc286784fc8feb7ecb5e5578994dd0f5f05704dfbbbcd8226459bf27",
+    "Meshes/Cell_Wall_Right_MetricUV.asset": "a17a0e3c33c71963b15ce680442d28b4cea86f0760c2c44d8d1839dee7b37698",
+    "Meshes/Wall_North_AboveDoor_MetricUV.asset": "6cb0f956e4754277394e94791a9a6dcb1d36d021d86c23796f3ea7aae1f6cf1d",
+    "Meshes/Wall_North_Left_MetricUV.asset": "5e3dabdeb745fe214846928edcfdc0d611a45a6b35dc15cba6cc5bc0a41a06e4",
+    "Meshes/Wall_North_Right_MetricUV.asset": "63e733186d7b5a008c035351bb86b98161be3ee0f244d2c30bd5e89b5422ec36",
+    "Meshes/Wall_South_MetricUV.asset": "7d88e5ac86bed33779f423cf241c8ef3875630fc2c0f8d4dd913042bc9becafb",
+    "Textures/FacilityWall_BaseColor.png": "6a15dc332d0958123d4f3193f5d43392d44690351b0608ec6b32f3d32998a6fb",
+    "Textures/FacilityWall_Mask.png": "9cd152c4732e1f64d33addd0b6774a228f2bb1015bf7748e56108b4ac988ce33",
+    "Textures/FacilityWall_Normal.png": "cea07773bd83118a18b4687aba969efe3b6a7445c6ba15a6383f7d0cef319638"
+  },
+  "folderCleanup20261103": {
+    "previousPath": "Assets/Afrer_Seconds/05.Model/Environment/Shared/FacilityWall/source_manifest.json",
+    "currentPath": "Assets/Afrer_Seconds/06.Data/AssetSources/Environment_Shared_FacilityWall_source_manifest.json",
+    "mapping": "Docs/검수/2026-11-03_ModelFolderCleanup/move_plan.json"
+  }
+}

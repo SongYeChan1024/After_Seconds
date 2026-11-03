@@ -1,0 +1,44 @@
+{
+  "id": "P06",
+  "name": "SampleFreezer",
+  "ko": "냉동 보관함",
+  "category": "Props",
+  "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+  "sourceHighNode": "eab4c157-1b53-46c7-b2ad-59bbeacc3db1",
+  "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/P06_retopo.glb",
+  "sourceSha256": "fde23b48110d011e76a32fa86bc95cb972c0c3dd27c86fcd12f9ca2c2f7a6e02",
+  "modelPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P06_SampleFreezer/Models/P06_SampleFreezer.fbx",
+  "modelSha256": "69947b6e2f7edc4dbf8317fe5cc54fb6dae27c8077897263690807ee790cbbf3",
+  "baseMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P06_SampleFreezer/Textures/BaseColor.png",
+  "normalMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P06_SampleFreezer/Textures/Normal.png",
+  "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P06_SampleFreezer/Textures/MetallicSmoothness.png",
+  "occlusionMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P06_SampleFreezer/Textures/Occlusion.png",
+  "blenderSizeXYZ": [
+    0.9709550142288208,
+    0.9962040781974792,
+    1.9000000953674316
+  ],
+  "candidateDimensionRule": {
+    "mode": "height",
+    "value": 1.9
+  },
+  "triangles": 7906,
+  "visualOnly": true,
+  "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+  "pbrPacking": {
+    "metallic": "R",
+    "smoothness": "A=1-source G",
+    "occlusion": "G=source R"
+  },
+  "normalStrength": 0.35,
+  "materialPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P06_SampleFreezer/Materials/P06_SampleFreezer_URP.mat",
+  "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P06_SampleFreezer/Prefabs/P06_SampleFreezer.prefab",
+  "placementCount": 1,
+  "finalFbxVerification": {
+    "boundaryEdges": 0,
+    "overusedEdges": 0,
+    "zeroAreaFaces": 0,
+    "nonFiniteUVs": 0,
+    "strictEdgeTriangleCrossings": 0
+  }
+}

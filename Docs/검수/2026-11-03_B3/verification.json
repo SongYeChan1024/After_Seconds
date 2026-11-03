@@ -1,0 +1,28 @@
+{
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B3_SampleStorage.unity",
+  "passed": 18,
+  "total": 18,
+  "checks": {
+    "MissingScriptsZero": true,
+    "RendererReferencesValid": true,
+    "OnePlayerAndCamera": true,
+    "SpawnMatchesPlan": true,
+    "ShelfDimensions": true,
+    "BlockerFullHeight": true,
+    "Plate1p5m": true,
+    "HeavyCratePosition": true,
+    "PlateToCrateSightBlocked": true,
+    "WalkwaySamplesClear": true,
+    "PenFootprint": true,
+    "PenDepth1p2_NoBridge": true,
+    "PenSurroundingFloor": true,
+    "AirlockShutterBlocksSight": true,
+    "Room06Offset": true,
+    "GuardGMatchesPlan": true,
+    "NoDynamicTextMesh": true,
+    "SignsHaveSavedTextures": true
+  },
+  "objects": 303,
+  "colliders": 50,
+  "scope": "Edit-time geometry/raycast/sample capsule and actual camera render checks; no puzzle or human playthrough"
+}

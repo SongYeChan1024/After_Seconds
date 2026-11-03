@@ -1,0 +1,70 @@
+{
+  "name": "Env_FloorSlab_4m",
+  "sourceFlowId": "3ace28ca-d501-4921-b5a8-0875b2468245",
+  "sourceNodeId": "52405ce3-b02e-4aac-9cf4-dab2bcc0d2a7",
+  "sourceTaskId": "87de76a7-0060-43b5-b4ad-7f75936d16b3",
+  "modelPath": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_FloorSlab_4m.fbx",
+  "prefabPath": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_FloorSlab_4m.prefab",
+  "sourcePreparedSha256": "56fca3a71878e5ff86e3b7a58ed2affec6dd12099b87e39a1a5300a6463c3e7a",
+  "projectFbxSha256": "56fca3a71878e5ff86e3b7a58ed2affec6dd12099b87e39a1a5300a6463c3e7a",
+  "normalization": "thin-axis alignment, requested module dimensions, bottom-center pivot",
+  "originalBoundsSize": {
+    "x": 1.0054131746292114,
+    "y": 1.0048582553863525,
+    "z": 0.35042476654052734
+  },
+  "canonicalBoundsSize": {
+    "x": 1.0054131746292114,
+    "y": 0.3504249155521393,
+    "z": 1.004858374595642
+  },
+  "normalizedBoundsSize": {
+    "x": 4.0,
+    "y": 0.12000000476837158,
+    "z": 4.0
+  },
+  "normalizedBoundsCenter": {
+    "x": 0.0,
+    "y": 0.06000000238418579,
+    "z": -9.313225746154785e-10
+  },
+  "triangles": 8000,
+  "rendererCount": 1,
+  "embeddedTexturesExtracted": true,
+  "newGenerationPerformed": false,
+  "texturePaths": [
+    "Assets/Afrer_Seconds/05.Model/Environment/B5/Textures/Env_FloorSlab_4m_01_baseColor_base_color.png",
+    "Assets/Afrer_Seconds/05.Model/Environment/B5/Textures/Env_FloorSlab_4m_02_normal_normal.png"
+  ],
+  "repair20261103": {
+    "method": "Weld original 500k source before collapse decimation; local intersection patches rebuilt; isolated export remnants removed; replacement mesh fitted to old local bounds",
+    "repairedModelPath": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_FloorSlab_4m_Repaired.fbx",
+    "repairedMeshPath": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_FloorSlab_4m_Repaired.asset",
+    "triangles": 7994,
+    "boundaryEdges": 0,
+    "strictCrossings": 0,
+    "originalModelAndMetaPreserved": true,
+    "normalStrength": 0.35
+  },
+  "architecturalRemake20261103": {
+    "name": "Env_FloorSlab_4m",
+    "sizeUnity": [
+      4,
+      0.12,
+      4
+    ],
+    "prefabPath": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_FloorSlab_4m.prefab",
+    "modelPath": "Assets/Afrer_Seconds/05.Model/Environment/B5/Env_FloorSlab_4m_Rebuilt.fbx",
+    "highTriangles": 8124,
+    "lowTriangles": 1786,
+    "method": "Exact sealed architectural cage with separate solid details; high bevel model first, collapse retopology and welded triangulation; separate glass shell for observation window",
+    "sha256": "0edaf321d2688f935882c00401f5d76d14aa382ab2f638b92189e471f2191d1a",
+    "status": "Imported and applied to existing B5 prefab instances; saved scene reloaded and collider snapshot preserved",
+    "qa": "Docs/검수/2026-11-03_Architecture_Rebuild/검수결과.md"
+  },
+  "folderCleanup20261103": {
+    "previousPath": "Assets/Afrer_Seconds/05.Model/Environment/VARCO/Env_FloorSlab_4m/source_manifest.json",
+    "currentPath": "Assets/Afrer_Seconds/06.Data/AssetSources/Environment_VARCO_Env_FloorSlab_4m_source_manifest.json",
+    "mapping": "Docs/검수/2026-11-03_ModelFolderCleanup/move_plan.json"
+  }
+}

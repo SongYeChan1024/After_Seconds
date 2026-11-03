@@ -1,0 +1,77 @@
+{
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+  "sharedMaterial": "Assets/Afrer_Seconds/05.Model/Environment/Shared/FacilityWall/Materials/FacilityWall_PaintedConcrete.mat",
+  "newMaterials": 1,
+  "uniquePilotMaterials": 1,
+  "walls": [
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Wall_North_Left",
+      "previousMaterial": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/B5_SteelGray.mat",
+      "material": "Assets/Afrer_Seconds/05.Model/Environment/Shared/FacilityWall/Materials/FacilityWall_PaintedConcrete.mat",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Shared/FacilityWall/Meshes/Wall_North_Left_MetricUV.asset",
+      "geometryPreserved": true,
+      "uvVertices": 24,
+      "triangles": 12
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Wall_North_Right",
+      "previousMaterial": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/B5_SteelGray.mat",
+      "material": "Assets/Afrer_Seconds/05.Model/Environment/Shared/FacilityWall/Materials/FacilityWall_PaintedConcrete.mat",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Shared/FacilityWall/Meshes/Wall_North_Right_MetricUV.asset",
+      "geometryPreserved": true,
+      "uvVertices": 24,
+      "triangles": 12
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Wall_North_AboveDoor",
+      "previousMaterial": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/B5_SteelGray.mat",
+      "material": "Assets/Afrer_Seconds/05.Model/Environment/Shared/FacilityWall/Materials/FacilityWall_PaintedConcrete.mat",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Shared/FacilityWall/Meshes/Wall_North_AboveDoor_MetricUV.asset",
+      "geometryPreserved": true,
+      "uvVertices": 24,
+      "triangles": 12
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Wall_South",
+      "previousMaterial": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/B5_SteelGray.mat",
+      "material": "Assets/Afrer_Seconds/05.Model/Environment/Shared/FacilityWall/Materials/FacilityWall_PaintedConcrete.mat",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Shared/FacilityWall/Meshes/Wall_South_MetricUV.asset",
+      "geometryPreserved": true,
+      "uvVertices": 24,
+      "triangles": 12
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_Wall_Left",
+      "previousMaterial": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/B5_WarmIvory.mat",
+      "material": "Assets/Afrer_Seconds/05.Model/Environment/Shared/FacilityWall/Materials/FacilityWall_PaintedConcrete.mat",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Shared/FacilityWall/Meshes/Cell_Wall_Left_MetricUV.asset",
+      "geometryPreserved": true,
+      "uvVertices": 24,
+      "triangles": 12
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_Wall_Right",
+      "previousMaterial": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/B5_WarmIvory.mat",
+      "material": "Assets/Afrer_Seconds/05.Model/Environment/Shared/FacilityWall/Materials/FacilityWall_PaintedConcrete.mat",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Shared/FacilityWall/Meshes/Cell_Wall_Right_MetricUV.asset",
+      "geometryPreserved": true,
+      "uvVertices": 24,
+      "triangles": 12
+    },
+    {
+      "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_Wall_Rear",
+      "previousMaterial": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/B5_WarmIvory.mat",
+      "material": "Assets/Afrer_Seconds/05.Model/Environment/Shared/FacilityWall/Materials/FacilityWall_PaintedConcrete.mat",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Shared/FacilityWall/Meshes/Cell_Wall_Rear_MetricUV.asset",
+      "geometryPreserved": true,
+      "uvVertices": 24,
+      "triangles": 12
+    }
+  ],
+  "existingCollidersPreserved": true,
+  "texelDensity": 512,
+  "tileMetres": [
+    2,
+    4
+  ]
+}

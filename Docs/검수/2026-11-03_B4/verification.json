@@ -1,0 +1,55 @@
+{
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B4_Observation.unity",
+  "checks": {
+    "MissingScriptsZero": true,
+    "RendererReferencesValid": true,
+    "DividerMatchesDesign": true,
+    "DeckMatchesDesign": true,
+    "Room04Offset": true,
+    "OnePlayer": true,
+    "SpawnMatchesDesignXZ": true,
+    "OneActiveCamera": true,
+    "WalkwaySampleCapsulesClear": true,
+    "DeckFrontBlocksWalking": true,
+    "Room04Floor": true,
+    "DeckTop": true
+  },
+  "passed": 12,
+  "total": 12,
+  "missingScripts": 0,
+  "badRenderers": [],
+  "objects": 293,
+  "colliders": 43,
+  "player": {
+    "position": {
+      "x": 0.0,
+      "y": 0.65,
+      "z": 9.0,
+      "normalized": {
+        "x": 0.0,
+        "y": 0.0720346,
+        "z": 0.9974022,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.00000012
+      },
+      "magnitude": 9.023441,
+      "sqrMagnitude": 81.4225
+    },
+    "center": {
+      "x": 0.0,
+      "y": 0.3,
+      "z": 0.0,
+      "normalized": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
+      },
+      "magnitude": 0.3,
+      "sqrMagnitude": 0.09
+    },
+    "height": 1.8
+  },
+  "limits": "Edit-time geometry and render inspection. No puzzle logic or human playthrough verified."
+}

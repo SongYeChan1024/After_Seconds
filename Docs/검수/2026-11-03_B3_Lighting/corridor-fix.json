@@ -1,0 +1,17 @@
+{
+  "reason": "Room wall thickness is 0.3m. Corridor walls and ceilings previously extended to room interior planes instead of outer wall planes, producing positive-volume and coplanar surface overlap.",
+  "connector": {
+    "wallAndCeilingCount": 3,
+    "zMin": -9.7,
+    "zMax": -6.3,
+    "length": 3.4
+  },
+  "lift": {
+    "wallAndCeilingCount": 3,
+    "zMin": -28.0,
+    "zMax": -24.3,
+    "length": 3.7
+  },
+  "floorAndDoorsUnchanged": true,
+  "wallCollidersTrimmedWithMeshes": true
+}

@@ -1,0 +1,2 @@
+﻿using System.Linq;using UnityEngine.SceneManagement;using UnityEditor;using UnityEditor.SceneManagement;using Newtonsoft.Json;
+public static class SceneStates {public static string Main()=>JsonConvert.SerializeObject(Enumerable.Range(0,SceneManager.sceneCount).Select(i=>SceneManager.GetSceneAt(i)).Select(s=>new{name=s.name,path=s.path,dirty=s.isDirty,preview=EditorSceneManager.IsPreviewScene(s),active=s==SceneManager.GetActiveScene(),loaded=s.isLoaded}));}

@@ -1,0 +1,2730 @@
+[
+  {
+    "path": "Player_Dummy_V0.1",
+    "type": "CharacterController",
+    "position": [
+      0.0,
+      0.65,
+      10.8
+    ],
+    "rotation": [
+      0.0,
+      180.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      0.0,
+      0.95,
+      10.8
+    ],
+    "boundsSize": [
+      0.56,
+      1.8,
+      0.56
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Floor_Room01",
+    "type": "BoxCollider",
+    "position": [
+      0.0,
+      -0.15,
+      7.5
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      12.0,
+      0.3,
+      11.0
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      0.0,
+      -0.15,
+      7.5
+    ],
+    "boundsSize": [
+      12.0,
+      0.3,
+      11.0
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Wall_West",
+    "type": "BoxCollider",
+    "position": [
+      -6.12,
+      2.0,
+      7.5
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.24,
+      4.0,
+      11.48
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      -6.12,
+      2.0,
+      7.5
+    ],
+    "boundsSize": [
+      0.239999771,
+      4.0,
+      11.48
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Wall_East",
+    "type": "BoxCollider",
+    "position": [
+      6.12,
+      2.0,
+      7.5
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.24,
+      4.0,
+      11.48
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      6.12,
+      2.0,
+      7.5
+    ],
+    "boundsSize": [
+      0.239999771,
+      4.0,
+      11.48
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Wall_North_Left",
+    "type": "BoxCollider",
+    "position": [
+      -3.5,
+      2.0,
+      1.88
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      5.0,
+      4.0,
+      0.24
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      -3.5,
+      2.0,
+      1.88
+    ],
+    "boundsSize": [
+      5.0,
+      4.0,
+      0.24000001
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Wall_North_Right",
+    "type": "BoxCollider",
+    "position": [
+      3.5,
+      2.0,
+      1.88
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      5.0,
+      4.0,
+      0.24
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      3.5,
+      2.0,
+      1.88
+    ],
+    "boundsSize": [
+      5.0,
+      4.0,
+      0.24000001
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Wall_North_AboveDoor",
+    "type": "BoxCollider",
+    "position": [
+      0.0,
+      3.4,
+      1.88
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      2.0,
+      1.2,
+      0.24
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      0.0,
+      3.4,
+      1.88
+    ],
+    "boundsSize": [
+      2.0,
+      1.19999981,
+      0.24000001
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Wall_South",
+    "type": "BoxCollider",
+    "position": [
+      0.0,
+      2.0,
+      13.12
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      12.0,
+      4.0,
+      0.24
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      0.0,
+      2.0,
+      13.12
+    ],
+    "boundsSize": [
+      12.0,
+      4.0,
+      0.239999771
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Ceiling_Main",
+    "type": "BoxCollider",
+    "position": [
+      0.0,
+      4.12,
+      7.5
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      12.48,
+      0.24,
+      11.48
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      0.0,
+      4.12,
+      7.5
+    ],
+    "boundsSize": [
+      12.48,
+      0.239999771,
+      11.48
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_Wall_Left",
+    "type": "BoxCollider",
+    "position": [
+      -1.5,
+      1.3,
+      10.45
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.2,
+      2.6,
+      3.1
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      -1.5,
+      1.3,
+      10.45
+    ],
+    "boundsSize": [
+      0.200000048,
+      2.6,
+      3.10000038
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_Wall_Right",
+    "type": "BoxCollider",
+    "position": [
+      1.5,
+      1.3,
+      10.45
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.2,
+      2.6,
+      3.1
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      1.5,
+      1.3,
+      10.45
+    ],
+    "boundsSize": [
+      0.200000048,
+      2.6,
+      3.10000038
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_Wall_Rear",
+    "type": "BoxCollider",
+    "position": [
+      0.0,
+      1.3,
+      12.1
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      3.2,
+      2.6,
+      0.2
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      0.0,
+      1.3,
+      12.1
+    ],
+    "boundsSize": [
+      3.2,
+      2.6,
+      0.200000763
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_Ceiling",
+    "type": "BoxCollider",
+    "position": [
+      0.0,
+      2.7,
+      10.45
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      3.2,
+      0.2,
+      3.3
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      0.0,
+      2.7,
+      10.45
+    ],
+    "boundsSize": [
+      3.2,
+      0.199999809,
+      3.29999924
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Bar_00",
+    "type": "BoxCollider",
+    "position": [
+      -1.26,
+      1.3,
+      8.9
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.06,
+      2.6,
+      0.06
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      -1.26,
+      1.3,
+      8.9
+    ],
+    "boundsSize": [
+      0.0599999428,
+      2.6,
+      0.0599994659
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Bar_01",
+    "type": "BoxCollider",
+    "position": [
+      -0.9,
+      1.3,
+      8.9
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.06,
+      2.6,
+      0.06
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      -0.9,
+      1.3,
+      8.9
+    ],
+    "boundsSize": [
+      0.0599999428,
+      2.6,
+      0.0599994659
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Bar_02",
+    "type": "BoxCollider",
+    "position": [
+      -0.539999962,
+      1.3,
+      8.9
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.06,
+      2.6,
+      0.06
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      -0.539999962,
+      1.3,
+      8.9
+    ],
+    "boundsSize": [
+      0.0599999428,
+      2.6,
+      0.0599994659
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Bar_03",
+    "type": "BoxCollider",
+    "position": [
+      -0.179999948,
+      1.3,
+      8.9
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.06,
+      2.6,
+      0.06
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      -0.179999948,
+      1.3,
+      8.9
+    ],
+    "boundsSize": [
+      0.0600000024,
+      2.6,
+      0.0599994659
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Bar_04",
+    "type": "BoxCollider",
+    "position": [
+      0.180000067,
+      1.3,
+      8.9
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.06,
+      2.6,
+      0.06
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      0.180000067,
+      1.3,
+      8.9
+    ],
+    "boundsSize": [
+      0.0600000024,
+      2.6,
+      0.0599994659
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Bar_05",
+    "type": "BoxCollider",
+    "position": [
+      0.5400001,
+      1.3,
+      8.9
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.06,
+      2.6,
+      0.06
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      0.5400001,
+      1.3,
+      8.9
+    ],
+    "boundsSize": [
+      0.0599999428,
+      2.6,
+      0.0599994659
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Bar_06",
+    "type": "BoxCollider",
+    "position": [
+      0.9000001,
+      1.3,
+      8.9
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.06,
+      2.6,
+      0.06
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      0.9000001,
+      1.3,
+      8.9
+    ],
+    "boundsSize": [
+      0.0599999428,
+      2.6,
+      0.0599994659
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Bar_07",
+    "type": "BoxCollider",
+    "position": [
+      1.26000011,
+      1.3,
+      8.9
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.06,
+      2.6,
+      0.06
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      1.26000011,
+      1.3,
+      8.9
+    ],
+    "boundsSize": [
+      0.0599999428,
+      2.6,
+      0.0599994659
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Cell_FrontFrame_Top",
+    "type": "BoxCollider",
+    "position": [
+      0.0,
+      2.55,
+      8.9
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      2.9,
+      0.1,
+      0.1
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      0.0,
+      2.55,
+      8.9
+    ],
+    "boundsSize": [
+      2.9,
+      0.0999999046,
+      0.100000381
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Cell_FrontBars/Cell_FrontFrame_Base",
+    "type": "BoxCollider",
+    "position": [
+      0.0,
+      0.04,
+      8.9
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      2.9,
+      0.08,
+      0.1
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      0.0,
+      0.04,
+      8.9
+    ],
+    "boundsSize": [
+      2.9,
+      0.08,
+      0.100000381
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Door01_To_Airlock/Frame_Left",
+    "type": "BoxCollider",
+    "position": [
+      -1.1,
+      1.4,
+      2.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.2,
+      2.8,
+      0.38
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      -1.1,
+      1.4,
+      2.0
+    ],
+    "boundsSize": [
+      0.200000048,
+      2.8,
+      0.3800001
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Door01_To_Airlock/Frame_Right",
+    "type": "BoxCollider",
+    "position": [
+      1.1,
+      1.4,
+      2.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.2,
+      2.8,
+      0.38
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      1.1,
+      1.4,
+      2.0
+    ],
+    "boundsSize": [
+      0.200000048,
+      2.8,
+      0.3800001
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room01_Isolation/Geometry/Door01_To_Airlock/Frame_Top",
+    "type": "BoxCollider",
+    "position": [
+      0.0,
+      2.9,
+      2.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      2.4,
+      0.2,
+      0.38
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      0.0,
+      2.9,
+      2.0
+    ],
+    "boundsSize": [
+      2.4,
+      0.199999809,
+      0.3800001
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room01_Isolation/Decoration/Cell_Bench",
+    "type": "BoxCollider",
+    "position": [
+      -0.95,
+      0.39,
+      11.3
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.55,
+      0.13,
+      1.1
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      -0.95,
+      0.39,
+      11.3
+    ],
+    "boundsSize": [
+      0.5500001,
+      0.13,
+      1.10000038
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room01_Isolation/Decoration/Cell_Bench_LegA",
+    "type": "BoxCollider",
+    "position": [
+      -0.95,
+      0.17,
+      10.96
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.38,
+      0.34,
+      0.08
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      -0.95,
+      0.17,
+      10.96
+    ],
+    "boundsSize": [
+      0.38,
+      0.34,
+      0.07999992
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room01_Isolation/Decoration/Cell_Bench_LegB",
+    "type": "BoxCollider",
+    "position": [
+      -0.95,
+      0.17,
+      11.64
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.38,
+      0.34,
+      0.08
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      -0.95,
+      0.17,
+      11.64
+    ],
+    "boundsSize": [
+      0.38,
+      0.34,
+      0.07999992
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room01_Isolation/Actors/Guard_A_Local_0_7.4",
+    "type": "CapsuleCollider",
+    "position": [
+      0.0,
+      0.0,
+      7.4
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      0.0,
+      0.9,
+      7.4
+    ],
+    "boundsSize": [
+      0.5600001,
+      1.80000019,
+      0.5600004
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room01_Isolation/Actors/LightBox_A_Placeholder/LightCrate_0.6m_Placeholder",
+    "type": "BoxCollider",
+    "position": [
+      -3.2,
+      0.3,
+      3.4
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.6,
+      0.6,
+      0.6
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      -3.2,
+      0.3,
+      3.4
+    ],
+    "boundsSize": [
+      0.5999999,
+      0.6,
+      0.5999999
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room01_Isolation/Actors/LightBox_B_Placeholder/LightCrate_0.6m_Placeholder",
+    "type": "BoxCollider",
+    "position": [
+      -2.2,
+      0.3,
+      3.4
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.6,
+      0.6,
+      0.6
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      -2.2,
+      0.3,
+      3.4
+    ],
+    "boundsSize": [
+      0.5999999,
+      0.6,
+      0.5999999
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room01_Isolation/Actors/LightBox_C_Placeholder/LightCrate_0.6m_Placeholder",
+    "type": "BoxCollider",
+    "position": [
+      3.2,
+      0.3,
+      3.4
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.6,
+      0.6,
+      0.6
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      3.2,
+      0.3,
+      3.4
+    ],
+    "boundsSize": [
+      0.5999999,
+      0.6,
+      0.5999999
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Floor_SouthDeck",
+    "type": "BoxCollider",
+    "position": [
+      4.0,
+      -0.18,
+      -5.5
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      12.0,
+      0.36,
+      3.0
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      4.0,
+      -0.18,
+      -5.5
+    ],
+    "boundsSize": [
+      12.0,
+      0.36,
+      3.0
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Floor_NorthDeck",
+    "type": "BoxCollider",
+    "position": [
+      4.0,
+      -0.18,
+      -16.5
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      12.0,
+      0.36,
+      7.0
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      4.0,
+      -0.18,
+      -16.5
+    ],
+    "boundsSize": [
+      12.0,
+      0.36,
+      7.0
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Floor_PitBottom",
+    "type": "BoxCollider",
+    "position": [
+      4.0,
+      -3.7,
+      -10.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      12.0,
+      0.3,
+      6.0
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      4.0,
+      -3.7,
+      -10.0
+    ],
+    "boundsSize": [
+      12.0,
+      0.3000002,
+      6.0
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Pit_Wall_South",
+    "type": "BoxCollider",
+    "position": [
+      4.0,
+      -1.8,
+      -6.9
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      12.0,
+      3.6,
+      0.2
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      4.0,
+      -1.8,
+      -6.9
+    ],
+    "boundsSize": [
+      12.0,
+      3.6,
+      0.199999809
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Pit_Wall_North",
+    "type": "BoxCollider",
+    "position": [
+      4.0,
+      -1.8,
+      -13.1
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      12.0,
+      3.6,
+      0.2
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      4.0,
+      -1.8,
+      -13.1
+    ],
+    "boundsSize": [
+      12.0,
+      3.6,
+      0.200000763
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Wall_West",
+    "type": "BoxCollider",
+    "position": [
+      -2.12,
+      2.0,
+      -12.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.24,
+      4.0,
+      16.48
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      -2.12,
+      2.0,
+      -12.0
+    ],
+    "boundsSize": [
+      0.23999989,
+      4.0,
+      16.48
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Wall_East",
+    "type": "BoxCollider",
+    "position": [
+      10.12,
+      2.0,
+      -12.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.24,
+      4.0,
+      16.48
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      10.12,
+      2.0,
+      -12.0
+    ],
+    "boundsSize": [
+      0.239999771,
+      4.0,
+      16.48
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Wall_North_Left",
+    "type": "BoxCollider",
+    "position": [
+      0.5,
+      2.0,
+      -20.1199989
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      5.0,
+      4.0,
+      0.24
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      0.5,
+      2.0,
+      -20.1199989
+    ],
+    "boundsSize": [
+      5.0,
+      4.0,
+      0.240001678
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Wall_North_Right",
+    "type": "BoxCollider",
+    "position": [
+      7.5,
+      2.0,
+      -20.1199989
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      5.0,
+      4.0,
+      0.24
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      7.5,
+      2.0,
+      -20.1199989
+    ],
+    "boundsSize": [
+      5.0,
+      4.0,
+      0.240001678
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Wall_North_AboveDoor",
+    "type": "BoxCollider",
+    "position": [
+      4.0,
+      3.4,
+      -20.1199989
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      2.0,
+      1.2,
+      0.24
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      4.0,
+      3.4,
+      -20.1199989
+    ],
+    "boundsSize": [
+      2.0,
+      1.19999981,
+      0.240001678
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Wall_South_Left",
+    "type": "BoxCollider",
+    "position": [
+      0.5,
+      2.0,
+      -3.88
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      5.0,
+      4.0,
+      0.24
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      0.5,
+      2.0,
+      -3.88
+    ],
+    "boundsSize": [
+      5.0,
+      4.0,
+      0.239999771
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Wall_South_Right",
+    "type": "BoxCollider",
+    "position": [
+      7.5,
+      2.0,
+      -3.88
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      5.0,
+      4.0,
+      0.24
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      7.5,
+      2.0,
+      -3.88
+    ],
+    "boundsSize": [
+      5.0,
+      4.0,
+      0.239999771
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Wall_South_AboveDoor",
+    "type": "BoxCollider",
+    "position": [
+      4.0,
+      3.4,
+      -3.88
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      2.0,
+      1.2,
+      0.24
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      4.0,
+      3.4,
+      -3.88
+    ],
+    "boundsSize": [
+      2.0,
+      1.19999981,
+      0.239999771
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Ceiling_Main",
+    "type": "BoxCollider",
+    "position": [
+      4.0,
+      4.12,
+      -12.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      12.48,
+      0.24,
+      16.48
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      4.0,
+      4.12,
+      -12.0
+    ],
+    "boundsSize": [
+      12.48,
+      0.239999771,
+      16.48
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Pit_Side_West",
+    "type": "BoxCollider",
+    "position": [
+      -2.15,
+      -1.8,
+      -10.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.3,
+      3.6,
+      6.0
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      -2.15,
+      -1.8,
+      -10.0
+    ],
+    "boundsSize": [
+      0.3000002,
+      3.6,
+      6.0
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Pit_Side_East",
+    "type": "BoxCollider",
+    "position": [
+      10.15,
+      -1.8,
+      -10.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.3,
+      3.6,
+      6.0
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      10.15,
+      -1.8,
+      -10.0
+    ],
+    "boundsSize": [
+      0.299999237,
+      3.6,
+      6.0
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Door02_From_Airlock/Frame_Left",
+    "type": "BoxCollider",
+    "position": [
+      2.9,
+      1.4,
+      -4.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.2,
+      2.8,
+      0.38
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      2.9,
+      1.4,
+      -4.0
+    ],
+    "boundsSize": [
+      0.199999809,
+      2.8,
+      0.3800001
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Door02_From_Airlock/Frame_Right",
+    "type": "BoxCollider",
+    "position": [
+      5.1,
+      1.4,
+      -4.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.2,
+      2.8,
+      0.38
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      5.1,
+      1.4,
+      -4.0
+    ],
+    "boundsSize": [
+      0.199999809,
+      2.8,
+      0.3800001
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Door02_From_Airlock/Frame_Top",
+    "type": "BoxCollider",
+    "position": [
+      4.0,
+      2.9,
+      -4.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      2.4,
+      0.2,
+      0.38
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      4.0,
+      2.9,
+      -4.0
+    ],
+    "boundsSize": [
+      2.39999986,
+      0.199999809,
+      0.3800001
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Door02_To_StairVestibule/Frame_Left",
+    "type": "BoxCollider",
+    "position": [
+      2.9,
+      1.4,
+      -20.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.2,
+      2.8,
+      0.38
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      2.9,
+      1.4,
+      -20.0
+    ],
+    "boundsSize": [
+      0.199999809,
+      2.8,
+      0.380001068
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Door02_To_StairVestibule/Frame_Right",
+    "type": "BoxCollider",
+    "position": [
+      5.1,
+      1.4,
+      -20.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.2,
+      2.8,
+      0.38
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      5.1,
+      1.4,
+      -20.0
+    ],
+    "boundsSize": [
+      0.199999809,
+      2.8,
+      0.380001068
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Door02_To_StairVestibule/Frame_Top",
+    "type": "BoxCollider",
+    "position": [
+      4.0,
+      2.9,
+      -20.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      2.4,
+      0.2,
+      0.38
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      4.0,
+      2.9,
+      -20.0
+    ],
+    "boundsSize": [
+      2.39999986,
+      0.199999809,
+      0.380001068
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room02_CoolingPool/Actors/Guard_B_Local_-4.2_-5.4",
+    "type": "CapsuleCollider",
+    "position": [
+      -0.199999809,
+      0.0,
+      -14.4
+    ],
+    "rotation": [
+      0.0,
+      90.0,
+      0.0
+    ],
+    "scale": [
+      1.00000024,
+      1.0,
+      1.00000024
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      -0.199999809,
+      0.9,
+      -14.4
+    ],
+    "boundsSize": [
+      0.5600001,
+      1.8,
+      0.559999466
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Room02_CoolingPool/Actors/Guard_D_Local_4.5_-8.4",
+    "type": "CapsuleCollider",
+    "position": [
+      8.5,
+      0.0,
+      -17.4
+    ],
+    "rotation": [
+      0.0,
+      270.0,
+      0.0
+    ],
+    "scale": [
+      1.00000024,
+      1.0,
+      1.00000024
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      8.5,
+      0.9,
+      -17.4
+    ],
+    "boundsSize": [
+      0.559999466,
+      1.8,
+      0.5600014
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Connector_Airlock/Geometry/Floor_EntryLeg",
+    "type": "BoxCollider",
+    "position": [
+      0.0,
+      -0.15,
+      1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      2.0,
+      0.3,
+      2.0
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      0.0,
+      -0.15,
+      1.0
+    ],
+    "boundsSize": [
+      2.0,
+      0.3,
+      2.0
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Connector_Airlock/Geometry/Floor_CrossLeg",
+    "type": "BoxCollider",
+    "position": [
+      2.0,
+      -0.15,
+      -1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      6.0,
+      0.3,
+      2.0
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      2.0,
+      -0.15,
+      -1.0
+    ],
+    "boundsSize": [
+      6.0,
+      0.3,
+      2.0
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Connector_Airlock/Geometry/Floor_ExitLeg",
+    "type": "BoxCollider",
+    "position": [
+      4.0,
+      -0.15,
+      -3.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      2.0,
+      0.3,
+      2.0
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      4.0,
+      -0.15,
+      -3.0
+    ],
+    "boundsSize": [
+      2.0,
+      0.3,
+      2.0
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Connector_Airlock/Geometry/Wall_West_Outer",
+    "type": "BoxCollider",
+    "position": [
+      -1.12,
+      2.0,
+      0.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.24,
+      4.0,
+      4.24
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      -1.12,
+      2.0,
+      0.0
+    ],
+    "boundsSize": [
+      0.24000001,
+      4.0,
+      4.24
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Connector_Airlock/Geometry/Wall_East_Entry",
+    "type": "BoxCollider",
+    "position": [
+      1.12,
+      2.0,
+      1.12
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.24,
+      4.0,
+      2.0
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      1.12,
+      2.0,
+      1.11999989
+    ],
+    "boundsSize": [
+      0.24000001,
+      4.0,
+      1.99999988
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Connector_Airlock/Geometry/SightBlock_North_CrossLeg",
+    "type": "BoxCollider",
+    "position": [
+      3.0,
+      2.0,
+      0.12
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      4.24,
+      4.0,
+      0.24
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      3.0,
+      2.0,
+      0.12
+    ],
+    "boundsSize": [
+      4.24,
+      4.0,
+      0.24
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Connector_Airlock/Geometry/Wall_East_Outer",
+    "type": "BoxCollider",
+    "position": [
+      5.13,
+      2.0,
+      -1.875
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.23,
+      4.0,
+      4.24
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      5.13,
+      2.0,
+      -1.875
+    ],
+    "boundsSize": [
+      0.229999542,
+      4.0,
+      4.24
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Connector_Airlock/Geometry/Wall_West_Exit",
+    "type": "BoxCollider",
+    "position": [
+      2.89,
+      2.0,
+      -2.98
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.23,
+      4.0,
+      2.0
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      2.89,
+      2.0,
+      -2.98
+    ],
+    "boundsSize": [
+      0.230000019,
+      4.0,
+      2.0
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Connector_Airlock/Geometry/SightBlock_South_CrossLeg",
+    "type": "BoxCollider",
+    "position": [
+      1.0,
+      2.0,
+      -2.12
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      4.24,
+      4.0,
+      0.24
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      1.0,
+      2.0,
+      -2.12
+    ],
+    "boundsSize": [
+      4.24,
+      4.0,
+      0.23999989
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Connector_Airlock/Geometry/Ceiling_EntryLeg",
+    "type": "BoxCollider",
+    "position": [
+      0.0,
+      4.1,
+      0.5
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      2.4,
+      0.2,
+      3.4
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      0.0,
+      4.1,
+      0.5
+    ],
+    "boundsSize": [
+      2.4,
+      0.199999809,
+      3.4
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Connector_Airlock/Geometry/Ceiling_CrossLeg",
+    "type": "BoxCollider",
+    "position": [
+      2.0,
+      4.1,
+      -1.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      6.4,
+      0.2,
+      2.4
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      1.99999988,
+      4.1,
+      -1.0
+    ],
+    "boundsSize": [
+      6.39999962,
+      0.199999809,
+      2.4
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Connector_Airlock/Geometry/Ceiling_ExitLeg",
+    "type": "BoxCollider",
+    "position": [
+      4.0,
+      4.1,
+      -2.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      2.4,
+      0.2,
+      4.4
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      4.0,
+      4.1,
+      -1.99999988
+    ],
+    "boundsSize": [
+      2.39999986,
+      0.199999809,
+      4.39999962
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Floor_Vestibule",
+    "type": "BoxCollider",
+    "position": [
+      4.0,
+      -0.15,
+      -21.5
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      4.0,
+      0.3,
+      3.0
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      4.0,
+      -0.15,
+      -21.5
+    ],
+    "boundsSize": [
+      4.0,
+      0.3,
+      3.0
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Vestibule_West",
+    "type": "BoxCollider",
+    "position": [
+      1.88,
+      2.0,
+      -21.5
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.24,
+      4.0,
+      3.24
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      1.88,
+      2.0,
+      -21.5
+    ],
+    "boundsSize": [
+      0.24000001,
+      4.0,
+      3.24000168
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Vestibule_East",
+    "type": "BoxCollider",
+    "position": [
+      6.12,
+      2.0,
+      -21.5
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.24,
+      4.0,
+      3.24
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      6.12,
+      2.0,
+      -21.5
+    ],
+    "boundsSize": [
+      0.239999771,
+      4.0,
+      3.24000168
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Vestibule_North_West",
+    "type": "BoxCollider",
+    "position": [
+      2.5,
+      2.0,
+      -23.12
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      4.0,
+      0.24
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      2.5,
+      2.0,
+      -23.12
+    ],
+    "boundsSize": [
+      1.0,
+      4.0,
+      0.240001678
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Vestibule_North_East",
+    "type": "BoxCollider",
+    "position": [
+      5.5,
+      2.0,
+      -23.12
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      4.0,
+      0.24
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      5.5,
+      2.0,
+      -23.12
+    ],
+    "boundsSize": [
+      1.0,
+      4.0,
+      0.240001678
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Ceiling_Vestibule",
+    "type": "BoxCollider",
+    "position": [
+      4.0,
+      4.1,
+      -21.5
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      4.4,
+      0.2,
+      3.4
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      4.0,
+      4.1,
+      -21.5
+    ],
+    "boundsSize": [
+      4.39999962,
+      0.199999809,
+      3.40000153
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Stair_RampCollider",
+    "type": "MeshCollider",
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      4.0,
+      0.7,
+      -25.0
+    ],
+    "boundsSize": [
+      2.0,
+      1.80000007,
+      4.0
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Stair_WestWall",
+    "type": "BoxCollider",
+    "position": [
+      2.88,
+      2.7,
+      -25.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.24,
+      5.4,
+      4.24
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      2.88,
+      2.7,
+      -25.0
+    ],
+    "boundsSize": [
+      0.239999771,
+      5.4,
+      4.239998
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Stair_EastWall",
+    "type": "BoxCollider",
+    "position": [
+      5.12,
+      2.7,
+      -25.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.24,
+      5.4,
+      4.24
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      5.12,
+      2.7,
+      -25.0
+    ],
+    "boundsSize": [
+      0.239999771,
+      5.4,
+      4.239998
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Ceiling_Stair",
+    "type": "BoxCollider",
+    "position": [
+      4.0,
+      5.5,
+      -25.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      2.4,
+      0.2,
+      4.4
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      4.0,
+      5.5,
+      -25.0
+    ],
+    "boundsSize": [
+      2.39999986,
+      0.199999809,
+      4.40000153
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Floor_TopLanding_B5Boundary",
+    "type": "BoxCollider",
+    "position": [
+      4.0,
+      1.45,
+      -27.5
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      2.0,
+      0.3,
+      1.0
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      4.0,
+      1.45,
+      -27.5
+    ],
+    "boundsSize": [
+      2.0,
+      0.299999952,
+      1.0
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Landing_WestWall",
+    "type": "BoxCollider",
+    "position": [
+      2.88,
+      2.7,
+      -27.5
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.24,
+      5.4,
+      1.24
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      2.88,
+      2.7,
+      -27.5
+    ],
+    "boundsSize": [
+      0.239999771,
+      5.4,
+      1.24000168
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Landing_EastWall",
+    "type": "BoxCollider",
+    "position": [
+      5.12,
+      2.7,
+      -27.5
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.24,
+      5.4,
+      1.24
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      5.12,
+      2.7,
+      -27.5
+    ],
+    "boundsSize": [
+      0.239999771,
+      5.4,
+      1.24000168
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Ceiling_TopLanding",
+    "type": "BoxCollider",
+    "position": [
+      4.0,
+      5.5,
+      -27.5
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      2.4,
+      0.2,
+      1.4
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      4.0,
+      5.5,
+      -27.5
+    ],
+    "boundsSize": [
+      2.39999986,
+      0.199999809,
+      1.40000153
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Exit_StairVestibule/Geometry/B4_Link_Locked_NoSceneTransition/Frame_Left",
+    "type": "BoxCollider",
+    "position": [
+      2.9,
+      3.0,
+      -28.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.2,
+      2.8,
+      0.38
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      2.9,
+      3.0,
+      -28.0
+    ],
+    "boundsSize": [
+      0.199999809,
+      2.80000019,
+      0.380001068
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Exit_StairVestibule/Geometry/B4_Link_Locked_NoSceneTransition/Frame_Right",
+    "type": "BoxCollider",
+    "position": [
+      5.1,
+      3.0,
+      -28.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.2,
+      2.8,
+      0.38
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      5.1,
+      3.0,
+      -28.0
+    ],
+    "boundsSize": [
+      0.199999809,
+      2.80000019,
+      0.380001068
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Exit_StairVestibule/Geometry/B4_Link_Locked_NoSceneTransition/Frame_Top",
+    "type": "BoxCollider",
+    "position": [
+      4.0,
+      4.5,
+      -28.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      2.4,
+      0.2,
+      0.38
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      4.0,
+      4.5,
+      -28.0
+    ],
+    "boundsSize": [
+      2.39999986,
+      0.199999809,
+      0.380001068
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Exit_StairVestibule/Geometry/B4_Link_Locked_NoSceneTransition/ClosedLeaf_FixedBoundary",
+    "type": "BoxCollider",
+    "position": [
+      4.0,
+      3.0,
+      -28.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      2.0,
+      2.8,
+      0.16
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      4.0,
+      3.0,
+      -28.0
+    ],
+    "boundsSize": [
+      2.0,
+      2.80000019,
+      0.159999847
+    ]
+  },
+  {
+    "path": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Boundary_EndWall",
+    "type": "BoxCollider",
+    "position": [
+      4.0,
+      4.35,
+      -28.13
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      2.4,
+      1.5,
+      0.24
+    ],
+    "enabled": true,
+    "trigger": false,
+    "boundsCenter": [
+      4.0,
+      4.35,
+      -28.13
+    ],
+    "boundsSize": [
+      2.39999986,
+      1.5,
+      0.240001678
+    ]
+  }
+]

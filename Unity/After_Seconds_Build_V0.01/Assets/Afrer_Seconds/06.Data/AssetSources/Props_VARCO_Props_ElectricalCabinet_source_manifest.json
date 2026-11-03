@@ -1,0 +1,54 @@
+{
+  "name": "Props_ElectricalCabinet",
+  "sourceFlowId": "3ace28ca-d501-4921-b5a8-0875b2468245",
+  "sourceNodeId": "fb32aade-642f-467d-8184-2267d70c6a86",
+  "sourceTaskId": "6813739b-f2c9-4b78-bc62-f06e36d865f0",
+  "modelPath": "Assets/Afrer_Seconds/05.Model/Props/B5/Props_ElectricalCabinet.fbx",
+  "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/B5/Props_ElectricalCabinet.prefab",
+  "sourcePreparedSha256": "c98f3d6c2720a758daf5f25e1422b3b02053af36bda448460c315a45a5af2c6a",
+  "projectFbxSha256": "c98f3d6c2720a758daf5f25e1422b3b02053af36bda448460c315a45a5af2c6a",
+  "normalization": "uniform fit in prop bounds, bottom-center pivot",
+  "originalBoundsSize": {
+    "x": 0.7863011360168457,
+    "y": 0.4758431315422058,
+    "z": 1.000535488128662
+  },
+  "canonicalBoundsSize": {
+    "x": 0.7863011360168457,
+    "y": 0.4758431315422058,
+    "z": 1.000535488128662
+  },
+  "normalizedBoundsSize": {
+    "x": 0.550116240978241,
+    "y": 0.3329119384288788,
+    "z": 0.699999988079071
+  },
+  "normalizedBoundsCenter": {
+    "x": 0.0,
+    "y": 0.1664559543132782,
+    "z": 0.0
+  },
+  "triangles": 12000,
+  "rendererCount": 1,
+  "embeddedTexturesExtracted": true,
+  "newGenerationPerformed": false,
+  "texturePaths": [
+    "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/Props_ElectricalCabinet_01_baseColor_base_color.png",
+    "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/Props_ElectricalCabinet_02_normal_normal.png"
+  ],
+  "repair20261103": {
+    "method": "Weld original 500k source before collapse decimation; local intersection patches rebuilt; isolated export remnants removed; replacement mesh fitted to old local bounds",
+    "repairedModelPath": "Assets/Afrer_Seconds/05.Model/Props/B5/Props_ElectricalCabinet_Repaired.fbx",
+    "repairedMeshPath": "Assets/Afrer_Seconds/05.Model/Props/B5/Props_ElectricalCabinet_Repaired.asset",
+    "triangles": 11956,
+    "boundaryEdges": 0,
+    "strictCrossings": 0,
+    "originalModelAndMetaPreserved": true,
+    "normalStrength": 0.35
+  },
+  "folderCleanup20261103": {
+    "previousPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO/Props_ElectricalCabinet/source_manifest.json",
+    "currentPath": "Assets/Afrer_Seconds/06.Data/AssetSources/Props_VARCO_Props_ElectricalCabinet_source_manifest.json",
+    "mapping": "Docs/검수/2026-11-03_ModelFolderCleanup/move_plan.json"
+  }
+}

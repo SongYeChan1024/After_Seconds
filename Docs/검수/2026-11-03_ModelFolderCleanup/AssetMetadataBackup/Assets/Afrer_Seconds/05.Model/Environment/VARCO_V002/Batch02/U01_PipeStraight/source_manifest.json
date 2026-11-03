@@ -1,0 +1,44 @@
+{
+  "id": "U01",
+  "name": "PipeStraight",
+  "ko": "직선 배관",
+  "category": "Environment",
+  "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+  "sourceHighNode": "7d946494-d1ca-4af4-be30-210172d62033",
+  "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/U01_retopo.glb",
+  "sourceSha256": "322c08170694a6a9867896efde084b48f0e0c12766dfe705a4e8ae7f26dbd7d1",
+  "modelPath": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U01_PipeStraight/Models/U01_PipeStraight.fbx",
+  "modelSha256": "9a45f2f0c8f7c02a219d68303755457d4e8d6d9ace4ba70780780c95b309123a",
+  "baseMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U01_PipeStraight/Textures/BaseColor.png",
+  "normalMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U01_PipeStraight/Textures/Normal.png",
+  "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U01_PipeStraight/Textures/MetallicSmoothness.png",
+  "occlusionMap": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U01_PipeStraight/Textures/Occlusion.png",
+  "blenderSizeXYZ": [
+    1.0,
+    0.3213769197463989,
+    0.3177909553050995
+  ],
+  "candidateDimensionRule": {
+    "mode": "lengthX",
+    "value": 1.0
+  },
+  "triangles": 3000,
+  "visualOnly": true,
+  "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+  "pbrPacking": {
+    "metallic": "R",
+    "smoothness": "A=1-source G",
+    "occlusion": "G=source R"
+  },
+  "normalStrength": 0.35,
+  "materialPath": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U01_PipeStraight/Materials/U01_PipeStraight_URP.mat",
+  "prefabPath": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U01_PipeStraight/Prefabs/U01_PipeStraight.prefab",
+  "placementCount": 6,
+  "finalFbxVerification": {
+    "boundaryEdges": 0,
+    "overusedEdges": 0,
+    "zeroAreaFaces": 0,
+    "nonFiniteUVs": 0,
+    "strictEdgeTriangleCrossings": 0
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "P01",
+  "name": "IsolationBunk",
+  "ko": "격리실 침상",
+  "category": "Props",
+  "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+  "sourceHighNode": "1cdb117e-c26d-4b48-b4f1-0db24e5779f5",
+  "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/P01_retopo.glb",
+  "sourceSha256": "9000d2d58e2d9622171d02680e842130829034f0547bff2884d0730d04a5d402",
+  "modelPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P01_IsolationBunk/Models/P01_IsolationBunk.fbx",
+  "modelSha256": "4802ebf6e3df9330f3ca8a00795f7254fdaa028ff82240ef4fdd9b080ac3d5c4",
+  "baseMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P01_IsolationBunk/Textures/BaseColor.png",
+  "normalMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P01_IsolationBunk/Textures/Normal.png",
+  "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P01_IsolationBunk/Textures/MetallicSmoothness.png",
+  "occlusionMap": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P01_IsolationBunk/Textures/Occlusion.png",
+  "blenderSizeXYZ": [
+    0.800000011920929,
+    1.8999998569488525,
+    0.6499999761581421
+  ],
+  "candidateDimensionRule": {
+    "mode": "exact",
+    "value": [
+      0.8,
+      1.9,
+      0.65
+    ]
+  },
+  "triangles": 7966,
+  "visualOnly": true,
+  "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+  "pbrPacking": {
+    "metallic": "R",
+    "smoothness": "A=1-source G",
+    "occlusion": "G=source R"
+  },
+  "normalStrength": 0.35,
+  "materialPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P01_IsolationBunk/Materials/P01_IsolationBunk_URP.mat",
+  "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P01_IsolationBunk/Prefabs/P01_IsolationBunk.prefab",
+  "placementCount": 1,
+  "finalFbxVerification": {
+    "boundaryEdges": 0,
+    "overusedEdges": 0,
+    "zeroAreaFaces": 0,
+    "nonFiniteUVs": 0,
+    "strictEdgeTriangleCrossings": 0
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "P05",
+  "name": "SampleCanister",
+  "ko": "시료 보관 용기",
+  "category": "Props",
+  "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+  "sourceHighNode": "502b6501-4ecf-4188-a6c7-0ee280156dd0",
+  "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/P05_retopo.glb",
+  "sourceSha256": "9cacd33023473f8d6cc684853cbae93ec0372eb6892e93a2f72d670ca5bffc57",
+  "modelPath": "Assets/Afrer_Seconds/05.Model/Props/Common/P05_SampleCanister.fbx",
+  "modelSha256": "8a40641c03e8483810c8014e34c6e612c18c7036d10536a15b5aa90838a96e49",
+  "baseMap": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/P05_SampleCanister_BaseColor.png",
+  "normalMap": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/P05_SampleCanister_Normal.png",
+  "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/P05_SampleCanister_MetallicSmoothness.png",
+  "occlusionMap": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/P05_SampleCanister_Occlusion.png",
+  "blenderSizeXYZ": [
+    0.20693346858024597,
+    0.20732298493385315,
+    0.2199999988079071
+  ],
+  "candidateDimensionRule": {
+    "mode": "height",
+    "value": 0.22
+  },
+  "triangles": 1686,
+  "visualOnly": true,
+  "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+  "pbrPacking": {
+    "metallic": "R",
+    "smoothness": "A=1-source G",
+    "occlusion": "G=source R"
+  },
+  "normalStrength": 0.35,
+  "materialPath": "Assets/Afrer_Seconds/05.Model/Props/Common/Materials/P05_SampleCanister_URP.mat",
+  "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/Common/P05_SampleCanister.prefab",
+  "placementCount": 4,
+  "finalFbxVerification": {
+    "boundaryEdges": 0,
+    "overusedEdges": 0,
+    "zeroAreaFaces": 0,
+    "nonFiniteUVs": 0,
+    "strictEdgeTriangleCrossings": 0
+  },
+  "folderCleanup20261103": {
+    "previousPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P05_SampleCanister/source_manifest.json",
+    "currentPath": "Assets/Afrer_Seconds/06.Data/AssetSources/Props_VARCO_V002_Batch02_P05_SampleCanister_source_manifest.json",
+    "mapping": "Docs/검수/2026-11-03_ModelFolderCleanup/move_plan.json"
+  }
+}

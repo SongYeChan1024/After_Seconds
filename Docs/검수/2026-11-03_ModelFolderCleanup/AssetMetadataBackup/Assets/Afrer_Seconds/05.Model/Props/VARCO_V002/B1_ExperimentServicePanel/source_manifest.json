@@ -1,0 +1,102 @@
+﻿{
+    "floor":  "B1",
+    "name":  "ExperimentServicePanel",
+    "sourceFlowId":  "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+    "sourceRetopoFile":  "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\tmp\\VARCO_V002_20261103\\B1_retopo.glb",
+    "sourceSha256":  "a9b7ade91876f2910c27e0dab43cfc2a8e9efa60dfedb73ba4c4d84ddda83178",
+    "modelPath":  "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B1_ExperimentServicePanel/Models/B1_ExperimentServicePanel.fbx",
+    "modelSha256":  "1da5d279335a734d11faffe4d35bc6549d0eb6a8fa3a06dca443864653b2f67a",
+    "blenderSizeXYZ":  [
+                           1.1989237070083618,
+                           0.41560988128185272,
+                           1.2000000476837158
+                       ],
+    "targetHeightMeters":  1.2,
+    "triangles":  7978,
+    "materialSources":  [
+                            {
+                                "name":  "material_0.004",
+                                "maps":  [
+                                             {
+                                                 "kind":  "baseColor",
+                                                 "path":  "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B1_ExperimentServicePanel/Textures/00_00_baseColor_00.png",
+                                                 "size":  [
+                                                              2048,
+                                                              2048
+                                                          ],
+                                                 "colorspace":  "sRGB",
+                                                 "links":  [
+                                                               {
+                                                                   "node":  "BSDF_PRINCIPLED",
+                                                                   "socket":  "Base Color"
+                                                               }
+                                                           ]
+                                             },
+                                             {
+                                                 "kind":  "packed",
+                                                 "path":  "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B1_ExperimentServicePanel/Textures/00_00_packed_01.png",
+                                                 "size":  [
+                                                              2048,
+                                                              2048
+                                                          ],
+                                                 "colorspace":  "Non-Color",
+                                                 "links":  [
+                                                               {
+                                                                   "node":  "SEPARATE_COLOR",
+                                                                   "socket":  "Color"
+                                                               }
+                                                           ]
+                                             },
+                                             {
+                                                 "kind":  "normal",
+                                                 "path":  "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B1_ExperimentServicePanel/Textures/00_00_normal_02.png",
+                                                 "size":  [
+                                                              2048,
+                                                              2048
+                                                          ],
+                                                 "colorspace":  "Non-Color",
+                                                 "links":  [
+                                                               {
+                                                                   "node":  "NORMAL_MAP",
+                                                                   "socket":  "Color"
+                                                               }
+                                                           ]
+                                             },
+                                             {
+                                                 "kind":  "packed",
+                                                 "path":  "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B1_ExperimentServicePanel/Textures/00_00_packed_03.png",
+                                                 "size":  [
+                                                              2048,
+                                                              2048
+                                                          ],
+                                                 "colorspace":  "Non-Color",
+                                                 "links":  [
+                                                               {
+                                                                   "node":  "SEPARATE_COLOR",
+                                                                   "socket":  "Color"
+                                                               }
+                                                           ]
+                                             }
+                                         ]
+                            }
+                        ],
+    "b5DisplayReorientedForWallMount":  false,
+    "status":  "Applied visual prefab to floor scene; existing collider snapshot preserved",
+    "visualOnly":  true,
+    "unityMetallicSmoothness":  "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B1_ExperimentServicePanel/Textures/Unity_MetallicSmoothness.png",
+    "unityOcclusion":  "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B1_ExperimentServicePanel/Textures/Unity_Occlusion.png",
+    "pbrPacking":  {
+                       "metallic":  "R",
+                       "smoothness":  "A=1-roughness",
+                       "occlusion":  "G=source occlusion",
+                       "sourceRoughnessChannel":  1,
+                       "sourceMetallicChannel":  2,
+                       "sourceOcclusionChannel":  0
+                   },
+    "materialPath":  "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B1_ExperimentServicePanel/Materials/B1_ExperimentServicePanel_URP.mat",
+    "prefabPath":  "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B1_ExperimentServicePanel/Prefabs/B1_ExperimentServicePanel.prefab",
+    "scenePath":  "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B1_Experiment.unity",
+    "placementCount":  1,
+    "normalStrength":  0.35,
+    "unityForward":  "-Z via VisualRoot Y=180"
+}

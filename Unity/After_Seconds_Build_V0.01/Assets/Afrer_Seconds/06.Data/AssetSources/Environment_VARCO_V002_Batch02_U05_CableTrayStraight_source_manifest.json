@@ -1,0 +1,49 @@
+{
+  "id": "U05",
+  "name": "CableTrayStraight",
+  "ko": "케이블 트레이",
+  "category": "Environment",
+  "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+  "sourceHighNode": "5c6dc8c5-46e7-4dbc-97f7-e62e8c954237",
+  "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/U05_retopo.glb",
+  "sourceSha256": "36ad5b9321adbcf98721ebc4b6fd0a79c694b0d19049dfa860580ff569f33a6a",
+  "modelPath": "Assets/Afrer_Seconds/05.Model/Environment/Common/U05_CableTrayStraight.fbx",
+  "modelSha256": "68da4592e1f365b420f7a555f2b550989302ed417df5aef56a8426c6464fa5c6",
+  "baseMap": "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/U05_CableTrayStraight_BaseColor.png",
+  "normalMap": "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/U05_CableTrayStraight_Normal.png",
+  "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/U05_CableTrayStraight_MetallicSmoothness.png",
+  "occlusionMap": "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/U05_CableTrayStraight_Occlusion.png",
+  "blenderSizeXYZ": [
+    1.0,
+    0.49839577078819275,
+    0.13562484085559845
+  ],
+  "candidateDimensionRule": {
+    "mode": "lengthX",
+    "value": 1.0
+  },
+  "triangles": 5000,
+  "visualOnly": true,
+  "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+  "pbrPacking": {
+    "metallic": "R",
+    "smoothness": "A=1-source G",
+    "occlusion": "G=source R"
+  },
+  "normalStrength": 0.35,
+  "materialPath": "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/U05_CableTrayStraight_URP.mat",
+  "prefabPath": "Assets/Afrer_Seconds/05.Model/Environment/Common/U05_CableTrayStraight.prefab",
+  "placementCount": 4,
+  "finalFbxVerification": {
+    "boundaryEdges": 0,
+    "overusedEdges": 0,
+    "zeroAreaFaces": 0,
+    "nonFiniteUVs": 0,
+    "strictEdgeTriangleCrossings": 0
+  },
+  "folderCleanup20261103": {
+    "previousPath": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U05_CableTrayStraight/source_manifest.json",
+    "currentPath": "Assets/Afrer_Seconds/06.Data/AssetSources/Environment_VARCO_V002_Batch02_U05_CableTrayStraight_source_manifest.json",
+    "mapping": "Docs/검수/2026-11-03_ModelFolderCleanup/move_plan.json"
+  }
+}

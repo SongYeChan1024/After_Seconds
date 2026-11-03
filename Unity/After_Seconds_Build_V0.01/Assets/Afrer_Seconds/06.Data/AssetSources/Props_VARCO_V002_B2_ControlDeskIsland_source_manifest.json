@@ -1,0 +1,107 @@
+{
+  "floor": "B2",
+  "name": "ControlDeskIsland",
+  "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+  "sourceRetopoFile": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\tmp\\VARCO_V002_20261103\\B2_retopo.glb",
+  "sourceSha256": "3844349e959d59322c10e8cf04a68015711215cdbafff6f8405f760803e359a3",
+  "modelPath": "Assets/Afrer_Seconds/05.Model/Props/B2/B2_ControlDeskIsland.fbx",
+  "modelSha256": "ff9cd931ed61d25e24f487bbe10517e41a320e082b5904d2e291dde62e0f79c6",
+  "blenderSizeXYZ": [
+    1.3870854377746582,
+    1.2330699563026428,
+    1.4500000476837158
+  ],
+  "targetHeightMeters": 1.45,
+  "triangles": 15166,
+  "materialSources": [
+    {
+      "name": "material_0.003",
+      "maps": [
+        {
+          "kind": "baseColor",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/B2_ControlDeskIsland_00_00_baseColor_00.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB",
+          "links": [
+            {
+              "node": "BSDF_PRINCIPLED",
+              "socket": "Base Color"
+            }
+          ]
+        },
+        {
+          "kind": "packed",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/B2_ControlDeskIsland_00_00_packed_01.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "links": [
+            {
+              "node": "SEPARATE_COLOR",
+              "socket": "Color"
+            }
+          ]
+        },
+        {
+          "kind": "normal",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/B2_ControlDeskIsland_00_00_normal_02.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "links": [
+            {
+              "node": "NORMAL_MAP",
+              "socket": "Color"
+            }
+          ]
+        },
+        {
+          "kind": "packed",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/B2_ControlDeskIsland_00_00_packed_03.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color",
+          "links": [
+            {
+              "node": "SEPARATE_COLOR",
+              "socket": "Color"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "b5DisplayReorientedForWallMount": false,
+  "status": "Applied visual prefab to floor scene; existing collider snapshot preserved",
+  "visualOnly": true,
+  "unityMetallicSmoothness": "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/B2_ControlDeskIsland_Unity_MetallicSmoothness.png",
+  "unityOcclusion": "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/B2_ControlDeskIsland_Unity_Occlusion.png",
+  "pbrPacking": {
+    "metallic": "R",
+    "smoothness": "A=1-roughness",
+    "occlusion": "G=source occlusion",
+    "sourceRoughnessChannel": 1,
+    "sourceMetallicChannel": 2,
+    "sourceOcclusionChannel": 0
+  },
+  "materialPath": "Assets/Afrer_Seconds/05.Model/Props/B2/Materials/B2_ControlDeskIsland_URP.mat",
+  "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/B2/B2_ControlDeskIsland.prefab",
+  "scenePath": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B2_Machinery.unity",
+  "placementCount": 2,
+  "normalStrength": 0.35,
+  "unityForward": "-Z via VisualRoot Y=180",
+  "folderCleanup20261103": {
+    "previousPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/B2_ControlDeskIsland/source_manifest.json",
+    "currentPath": "Assets/Afrer_Seconds/06.Data/AssetSources/Props_VARCO_V002_B2_ControlDeskIsland_source_manifest.json",
+    "mapping": "Docs/검수/2026-11-03_ModelFolderCleanup/move_plan.json"
+  }
+}

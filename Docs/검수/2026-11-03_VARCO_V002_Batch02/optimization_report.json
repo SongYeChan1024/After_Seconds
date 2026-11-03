@@ -1,0 +1,1976 @@
+[
+  {
+    "floor": "U01",
+    "method": "Blender collapse decimation from welded original; UV loops retained; no voxel remesh",
+    "targetTriangles": 3000,
+    "objects": [
+      {
+        "vertices": 1458,
+        "triangles": 3000,
+        "cleanupBefore": {
+          "vertices": 1458,
+          "faces": 3000
+        },
+        "collapsedRemnantVerticesRemoved": 0,
+        "degenerateOrDuplicateFacesRemoved": 0,
+        "boundaryEdges": 0,
+        "edgesWithMoreThanTwoFaces": 0,
+        "components": [
+          {
+            "vertices": 1458,
+            "min": [
+              -0.16009724140167236,
+              -0.4983454942703247,
+              -0.15805916488170624
+            ],
+            "max": [
+              0.16016104817390442,
+              0.4981735050678253,
+              0.1586255431175232
+            ]
+          }
+        ],
+        "sourceDistanceMaxFractionOfDiagonal": 0.0020691675574764684,
+        "sourceDistanceP95FractionOfDiagonal": 0.0010811728364100025,
+        "nonAdjacentTriangleOverlapCandidateCount": 0,
+        "nonAdjacentTriangleOverlapCandidates": [],
+        "overlapLimit": "BVH overlaps are review candidates; coplanar touches and neighboring UV seams can give false positives."
+      }
+    ]
+  },
+  {
+    "floor": "U02",
+    "method": "Blender collapse decimation from welded original; UV loops retained; no voxel remesh",
+    "targetTriangles": 5000,
+    "objects": [
+      {
+        "vertices": 2490,
+        "triangles": 5000,
+        "cleanupBefore": {
+          "vertices": 2490,
+          "faces": 5000
+        },
+        "collapsedRemnantVerticesRemoved": 0,
+        "degenerateOrDuplicateFacesRemoved": 0,
+        "boundaryEdges": 0,
+        "edgesWithMoreThanTwoFaces": 0,
+        "components": [
+          {
+            "vertices": 2490,
+            "min": [
+              -0.3234187662601471,
+              -0.49404779076576233,
+              -0.4984102249145508
+            ],
+            "max": [
+              0.3234083652496338,
+              0.4947728216648102,
+              0.49814867973327637
+            ]
+          }
+        ],
+        "sourceDistanceMaxFractionOfDiagonal": 0.0017769400024724808,
+        "sourceDistanceP95FractionOfDiagonal": 0.0010385569562544768,
+        "nonAdjacentTriangleOverlapCandidateCount": 2,
+        "nonAdjacentTriangleOverlapCandidates": [
+          [
+            1097,
+            1098
+          ],
+          [
+            1108,
+            3393
+          ]
+        ],
+        "overlapLimit": "BVH overlaps are review candidates; coplanar touches and neighboring UV seams can give false positives."
+      }
+    ]
+  },
+  {
+    "floor": "U03",
+    "method": "Blender collapse decimation from welded original; UV loops retained; no voxel remesh",
+    "targetTriangles": 6000,
+    "objects": [
+      {
+        "vertices": 2930,
+        "triangles": 6000,
+        "cleanupBefore": {
+          "vertices": 2930,
+          "faces": 6000
+        },
+        "collapsedRemnantVerticesRemoved": 0,
+        "degenerateOrDuplicateFacesRemoved": 0,
+        "boundaryEdges": 0,
+        "edgesWithMoreThanTwoFaces": 0,
+        "components": [
+          {
+            "vertices": 2917,
+            "min": [
+              -0.45003050565719604,
+              -0.27137431502342224,
+              -0.49970436096191406
+            ],
+            "max": [
+              0.45092272758483887,
+              0.27153879404067993,
+              0.497848778963089
+            ]
+          },
+          {
+            "vertices": 9,
+            "min": [
+              0.09480219334363937,
+              0.006870991550385952,
+              0.11999759078025818
+            ],
+            "max": [
+              0.11015302687883377,
+              0.012657406739890575,
+              0.12896662950515747
+            ]
+          },
+          {
+            "vertices": 4,
+            "min": [
+              -0.10781058669090271,
+              0.00816067773848772,
+              0.12516580522060394
+            ],
+            "max": [
+              -0.09635574370622635,
+              0.012686670757830143,
+              0.13029929995536804
+            ]
+          }
+        ],
+        "sourceDistanceMaxFractionOfDiagonal": 0.0017831066863630179,
+        "sourceDistanceP95FractionOfDiagonal": 0.0010030343500569427,
+        "nonAdjacentTriangleOverlapCandidateCount": 41,
+        "nonAdjacentTriangleOverlapCandidates": [
+          [
+            3451,
+            3463
+          ],
+          [
+            1140,
+            2713
+          ],
+          [
+            2470,
+            2473
+          ],
+          [
+            2470,
+            2476
+          ],
+          [
+            2470,
+            2487
+          ],
+          [
+            1118,
+            2833
+          ],
+          [
+            2696,
+            2733
+          ],
+          [
+            2696,
+            2735
+          ],
+          [
+            2696,
+            2734
+          ],
+          [
+            2698,
+            2790
+          ],
+          [
+            2785,
+            2790
+          ],
+          [
+            2785,
+            2791
+          ],
+          [
+            2736,
+            2790
+          ],
+          [
+            2736,
+            2791
+          ],
+          [
+            2695,
+            2735
+          ],
+          [
+            891,
+            4869
+          ],
+          [
+            891,
+            4871
+          ],
+          [
+            2735,
+            4881
+          ],
+          [
+            2545,
+            2556
+          ],
+          [
+            2544,
+            2556
+          ],
+          [
+            1108,
+            2736
+          ],
+          [
+            1108,
+            2733
+          ],
+          [
+            1108,
+            2734
+          ],
+          [
+            1108,
+            1111
+          ],
+          [
+            1115,
+            2736
+          ],
+          [
+            852,
+            1027
+          ],
+          [
+            863,
+            1036
+          ],
+          [
+            863,
+            1176
+          ],
+          [
+            862,
+            1036
+          ],
+          [
+            862,
+            1035
+          ]
+        ],
+        "overlapLimit": "BVH overlaps are review candidates; coplanar touches and neighboring UV seams can give false positives."
+      }
+    ]
+  },
+  {
+    "floor": "U04",
+    "method": "Blender collapse decimation from welded original; UV loops retained; no voxel remesh",
+    "targetTriangles": 2500,
+    "objects": [
+      {
+        "vertices": 1206,
+        "triangles": 2500,
+        "cleanupBefore": {
+          "vertices": 1206,
+          "faces": 2500
+        },
+        "collapsedRemnantVerticesRemoved": 0,
+        "degenerateOrDuplicateFacesRemoved": 0,
+        "boundaryEdges": 0,
+        "edgesWithMoreThanTwoFaces": 0,
+        "components": [
+          {
+            "vertices": 1206,
+            "min": [
+              -0.49806085228919983,
+              -0.1892980933189392,
+              -0.18922577798366547
+            ],
+            "max": [
+              0.4980374574661255,
+              0.1896226406097412,
+              0.18902388215065002
+            ]
+          }
+        ],
+        "sourceDistanceMaxFractionOfDiagonal": 0.0026443626232672416,
+        "sourceDistanceP95FractionOfDiagonal": 0.0013005917851417912,
+        "nonAdjacentTriangleOverlapCandidateCount": 6,
+        "nonAdjacentTriangleOverlapCandidates": [
+          [
+            482,
+            574
+          ],
+          [
+            2378,
+            2379
+          ],
+          [
+            1508,
+            2379
+          ],
+          [
+            1904,
+            2025
+          ],
+          [
+            1905,
+            2030
+          ],
+          [
+            1905,
+            2025
+          ]
+        ],
+        "overlapLimit": "BVH overlaps are review candidates; coplanar touches and neighboring UV seams can give false positives."
+      }
+    ]
+  },
+  {
+    "floor": "U05",
+    "method": "Blender collapse decimation from welded original; UV loops retained; no voxel remesh",
+    "targetTriangles": 5000,
+    "objects": [
+      {
+        "vertices": 2366,
+        "triangles": 5000,
+        "cleanupBefore": {
+          "vertices": 2366,
+          "faces": 5000
+        },
+        "collapsedRemnantVerticesRemoved": 0,
+        "degenerateOrDuplicateFacesRemoved": 0,
+        "boundaryEdges": 0,
+        "edgesWithMoreThanTwoFaces": 0,
+        "components": [
+          {
+            "vertices": 2366,
+            "min": [
+              -0.5000228881835938,
+              -0.24913902580738068,
+              -0.06728338450193405
+            ],
+            "max": [
+              0.4995335042476654,
+              0.24903565645217896,
+              0.06828129291534424
+            ]
+          }
+        ],
+        "sourceDistanceMaxFractionOfDiagonal": 0.0015639376759937244,
+        "sourceDistanceP95FractionOfDiagonal": 0.0005904029754845185,
+        "nonAdjacentTriangleOverlapCandidateCount": 0,
+        "nonAdjacentTriangleOverlapCandidates": [],
+        "overlapLimit": "BVH overlaps are review candidates; coplanar touches and neighboring UV seams can give false positives."
+      }
+    ]
+  },
+  {
+    "floor": "U06",
+    "method": "Blender collapse decimation from welded original; UV loops retained; no voxel remesh",
+    "targetTriangles": 3000,
+    "objects": [
+      {
+        "vertices": 1442,
+        "triangles": 3000,
+        "cleanupBefore": {
+          "vertices": 1442,
+          "faces": 3000
+        },
+        "collapsedRemnantVerticesRemoved": 0,
+        "degenerateOrDuplicateFacesRemoved": 0,
+        "boundaryEdges": 0,
+        "edgesWithMoreThanTwoFaces": 0,
+        "components": [
+          {
+            "vertices": 1442,
+            "min": [
+              -0.5002369284629822,
+              -0.12435683608055115,
+              -0.49989622831344604
+            ],
+            "max": [
+              0.49971410632133484,
+              0.12492862343788147,
+              0.5000012516975403
+            ]
+          }
+        ],
+        "sourceDistanceMaxFractionOfDiagonal": 0.00439861770265075,
+        "sourceDistanceP95FractionOfDiagonal": 0.0015166758896448084,
+        "nonAdjacentTriangleOverlapCandidateCount": 11,
+        "nonAdjacentTriangleOverlapCandidates": [
+          [
+            1440,
+            1457
+          ],
+          [
+            1413,
+            1440
+          ],
+          [
+            1025,
+            1028
+          ],
+          [
+            1778,
+            2728
+          ],
+          [
+            670,
+            1644
+          ],
+          [
+            670,
+            1647
+          ],
+          [
+            668,
+            1644
+          ],
+          [
+            571,
+            1644
+          ],
+          [
+            571,
+            1643
+          ],
+          [
+            1052,
+            2577
+          ],
+          [
+            1517,
+            2577
+          ]
+        ],
+        "overlapLimit": "BVH overlaps are review candidates; coplanar touches and neighboring UV seams can give false positives."
+      }
+    ]
+  },
+  {
+    "floor": "U07",
+    "method": "Blender collapse decimation from welded original; UV loops retained; no voxel remesh",
+    "targetTriangles": 4000,
+    "objects": [
+      {
+        "vertices": 1881,
+        "triangles": 3998,
+        "cleanupBefore": {
+          "vertices": 1884,
+          "faces": 4000
+        },
+        "collapsedRemnantVerticesRemoved": 3,
+        "degenerateOrDuplicateFacesRemoved": 1,
+        "boundaryEdges": 0,
+        "edgesWithMoreThanTwoFaces": 0,
+        "components": [
+          {
+            "vertices": 1881,
+            "min": [
+              -0.3840336501598358,
+              -0.1603228747844696,
+              -0.500573992729187
+            ],
+            "max": [
+              0.38411563634872437,
+              0.16160540282726288,
+              0.5003750324249268
+            ]
+          }
+        ],
+        "sourceDistanceMaxFractionOfDiagonal": 0.0025274990111091504,
+        "sourceDistanceP95FractionOfDiagonal": 0.0011838732037258697,
+        "nonAdjacentTriangleOverlapCandidateCount": 78,
+        "nonAdjacentTriangleOverlapCandidates": [
+          [
+            2092,
+            2119
+          ],
+          [
+            2092,
+            3772
+          ],
+          [
+            2093,
+            2119
+          ],
+          [
+            2093,
+            2120
+          ],
+          [
+            2093,
+            3772
+          ],
+          [
+            2093,
+            2121
+          ],
+          [
+            1966,
+            3784
+          ],
+          [
+            1966,
+            3785
+          ],
+          [
+            2029,
+            3788
+          ],
+          [
+            1963,
+            3786
+          ],
+          [
+            1188,
+            1505
+          ],
+          [
+            1188,
+            1504
+          ],
+          [
+            2436,
+            2480
+          ],
+          [
+            2446,
+            2481
+          ],
+          [
+            1202,
+            3708
+          ],
+          [
+            1202,
+            3707
+          ],
+          [
+            850,
+            866
+          ],
+          [
+            19,
+            493
+          ],
+          [
+            643,
+            690
+          ],
+          [
+            644,
+            690
+          ],
+          [
+            644,
+            3153
+          ],
+          [
+            644,
+            3179
+          ],
+          [
+            644,
+            3177
+          ],
+          [
+            2667,
+            2835
+          ],
+          [
+            2749,
+            2841
+          ],
+          [
+            2774,
+            2778
+          ],
+          [
+            2471,
+            2777
+          ],
+          [
+            2497,
+            3945
+          ],
+          [
+            2499,
+            3945
+          ],
+          [
+            2685,
+            3916
+          ]
+        ],
+        "overlapLimit": "BVH overlaps are review candidates; coplanar touches and neighboring UV seams can give false positives."
+      }
+    ]
+  },
+  {
+    "floor": "P01",
+    "method": "Blender collapse decimation from welded original; UV loops retained; no voxel remesh",
+    "targetTriangles": 8000,
+    "objects": [
+      {
+        "vertices": 3992,
+        "triangles": 8000,
+        "cleanupBefore": {
+          "vertices": 3992,
+          "faces": 8000
+        },
+        "collapsedRemnantVerticesRemoved": 0,
+        "degenerateOrDuplicateFacesRemoved": 0,
+        "boundaryEdges": 0,
+        "edgesWithMoreThanTwoFaces": 0,
+        "components": [
+          {
+            "vertices": 3992,
+            "min": [
+              -0.24667133390903473,
+              -0.49966272711753845,
+              -0.21599657833576202
+            ],
+            "max": [
+              0.24666523933410645,
+              0.4996476471424103,
+              0.21610502898693085
+            ]
+          }
+        ],
+        "sourceDistanceMaxFractionOfDiagonal": 0.0006577632683170248,
+        "sourceDistanceP95FractionOfDiagonal": 0.00024160033267153425,
+        "nonAdjacentTriangleOverlapCandidateCount": 8,
+        "nonAdjacentTriangleOverlapCandidates": [
+          [
+            957,
+            5326
+          ],
+          [
+            957,
+            5325
+          ],
+          [
+            5537,
+            5636
+          ],
+          [
+            5533,
+            5636
+          ],
+          [
+            5604,
+            5636
+          ],
+          [
+            5605,
+            5636
+          ],
+          [
+            4415,
+            4796
+          ],
+          [
+            4415,
+            4790
+          ]
+        ],
+        "overlapLimit": "BVH overlaps are review candidates; coplanar touches and neighboring UV seams can give false positives."
+      }
+    ]
+  },
+  {
+    "floor": "P02",
+    "method": "Blender collapse decimation from welded original; UV loops retained; no voxel remesh",
+    "targetTriangles": 6000,
+    "objects": [
+      {
+        "vertices": 3002,
+        "triangles": 6000,
+        "cleanupBefore": {
+          "vertices": 3002,
+          "faces": 6000
+        },
+        "collapsedRemnantVerticesRemoved": 0,
+        "degenerateOrDuplicateFacesRemoved": 0,
+        "boundaryEdges": 0,
+        "edgesWithMoreThanTwoFaces": 0,
+        "components": [
+          {
+            "vertices": 3002,
+            "min": [
+              -0.4969870150089264,
+              -0.19497260451316833,
+              -0.48562294244766235
+            ],
+            "max": [
+              0.49709242582321167,
+              0.18431992828845978,
+              0.48521414399147034
+            ]
+          }
+        ],
+        "sourceDistanceMaxFractionOfDiagonal": 0.0008955552479816601,
+        "sourceDistanceP95FractionOfDiagonal": 0.00036055466273840747,
+        "nonAdjacentTriangleOverlapCandidateCount": 1,
+        "nonAdjacentTriangleOverlapCandidates": [
+          [
+            109,
+            5077
+          ]
+        ],
+        "overlapLimit": "BVH overlaps are review candidates; coplanar touches and neighboring UV seams can give false positives."
+      }
+    ]
+  },
+  {
+    "floor": "P03",
+    "method": "Blender collapse decimation from welded original; UV loops retained; no voxel remesh",
+    "targetTriangles": 6000,
+    "objects": [
+      {
+        "vertices": 2986,
+        "triangles": 6000,
+        "cleanupBefore": {
+          "vertices": 2986,
+          "faces": 6000
+        },
+        "collapsedRemnantVerticesRemoved": 0,
+        "degenerateOrDuplicateFacesRemoved": 0,
+        "boundaryEdges": 0,
+        "edgesWithMoreThanTwoFaces": 0,
+        "components": [
+          {
+            "vertices": 2986,
+            "min": [
+              -0.16842839121818542,
+              -0.5001810789108276,
+              -0.3961459696292877
+            ],
+            "max": [
+              0.16853880882263184,
+              0.49884891510009766,
+              0.39291635155677795
+            ]
+          }
+        ],
+        "sourceDistanceMaxFractionOfDiagonal": 0.0013023297911399204,
+        "sourceDistanceP95FractionOfDiagonal": 0.0007688718995107771,
+        "nonAdjacentTriangleOverlapCandidateCount": 8,
+        "nonAdjacentTriangleOverlapCandidates": [
+          [
+            3987,
+            4159
+          ],
+          [
+            3983,
+            4155
+          ],
+          [
+            5190,
+            5265
+          ],
+          [
+            5391,
+            5681
+          ],
+          [
+            4057,
+            4110
+          ],
+          [
+            292,
+            307
+          ],
+          [
+            288,
+            296
+          ],
+          [
+            3521,
+            5900
+          ]
+        ],
+        "overlapLimit": "BVH overlaps are review candidates; coplanar touches and neighboring UV seams can give false positives."
+      }
+    ]
+  },
+  {
+    "floor": "P04",
+    "method": "Blender collapse decimation from welded original; UV loops retained; no voxel remesh",
+    "targetTriangles": 6000,
+    "objects": [
+      {
+        "vertices": 2994,
+        "triangles": 6000,
+        "cleanupBefore": {
+          "vertices": 2994,
+          "faces": 6000
+        },
+        "collapsedRemnantVerticesRemoved": 0,
+        "degenerateOrDuplicateFacesRemoved": 0,
+        "boundaryEdges": 0,
+        "edgesWithMoreThanTwoFaces": 0,
+        "components": [
+          {
+            "vertices": 2994,
+            "min": [
+              -0.23234128952026367,
+              -0.2593272924423218,
+              -0.4997827708721161
+            ],
+            "max": [
+              0.2334803342819214,
+              0.26146677136421204,
+              0.4999917447566986
+            ]
+          }
+        ],
+        "sourceDistanceMaxFractionOfDiagonal": 0.0009368709103658424,
+        "sourceDistanceP95FractionOfDiagonal": 0.0003432504549263482,
+        "nonAdjacentTriangleOverlapCandidateCount": 1,
+        "nonAdjacentTriangleOverlapCandidates": [
+          [
+            4588,
+            4614
+          ]
+        ],
+        "overlapLimit": "BVH overlaps are review candidates; coplanar touches and neighboring UV seams can give false positives."
+      }
+    ]
+  },
+  {
+    "floor": "P05",
+    "method": "Blender collapse decimation from welded original; UV loops retained; no voxel remesh",
+    "targetTriangles": 2000,
+    "objects": [
+      {
+        "vertices": 934,
+        "triangles": 2000,
+        "cleanupBefore": {
+          "vertices": 934,
+          "faces": 2000
+        },
+        "collapsedRemnantVerticesRemoved": 0,
+        "degenerateOrDuplicateFacesRemoved": 0,
+        "boundaryEdges": 0,
+        "edgesWithMoreThanTwoFaces": 0,
+        "components": [
+          {
+            "vertices": 934,
+            "min": [
+              -0.4696541428565979,
+              -0.47092875838279724,
+              -0.4989929497241974
+            ],
+            "max": [
+              0.47028324007987976,
+              0.47077783942222595,
+              0.5002955198287964
+            ]
+          }
+        ],
+        "sourceDistanceMaxFractionOfDiagonal": 0.0029083401520975907,
+        "sourceDistanceP95FractionOfDiagonal": 0.0015275850326830025,
+        "nonAdjacentTriangleOverlapCandidateCount": 73,
+        "nonAdjacentTriangleOverlapCandidates": [
+          [
+            1086,
+            1611
+          ],
+          [
+            1089,
+            1611
+          ],
+          [
+            1099,
+            1611
+          ],
+          [
+            1099,
+            1610
+          ],
+          [
+            347,
+            1020
+          ],
+          [
+            347,
+            966
+          ],
+          [
+            966,
+            984
+          ],
+          [
+            346,
+            1020
+          ],
+          [
+            396,
+            432
+          ],
+          [
+            415,
+            421
+          ],
+          [
+            416,
+            421
+          ],
+          [
+            417,
+            421
+          ],
+          [
+            412,
+            422
+          ],
+          [
+            412,
+            421
+          ],
+          [
+            412,
+            420
+          ],
+          [
+            411,
+            422
+          ],
+          [
+            411,
+            421
+          ],
+          [
+            411,
+            429
+          ],
+          [
+            413,
+            422
+          ],
+          [
+            413,
+            421
+          ],
+          [
+            413,
+            420
+          ],
+          [
+            410,
+            422
+          ],
+          [
+            410,
+            421
+          ],
+          [
+            410,
+            420
+          ],
+          [
+            410,
+            414
+          ],
+          [
+            410,
+            429
+          ],
+          [
+            320,
+            421
+          ],
+          [
+            246,
+            281
+          ],
+          [
+            246,
+            297
+          ],
+          [
+            644,
+            669
+          ]
+        ],
+        "overlapLimit": "BVH overlaps are review candidates; coplanar touches and neighboring UV seams can give false positives."
+      }
+    ]
+  },
+  {
+    "floor": "P06",
+    "method": "Blender collapse decimation from welded original; UV loops retained; no voxel remesh",
+    "targetTriangles": 8000,
+    "objects": [
+      {
+        "vertices": 3810,
+        "triangles": 7992,
+        "cleanupBefore": {
+          "vertices": 3822,
+          "faces": 8000
+        },
+        "collapsedRemnantVerticesRemoved": 12,
+        "degenerateOrDuplicateFacesRemoved": 4,
+        "boundaryEdges": 0,
+        "edgesWithMoreThanTwoFaces": 0,
+        "components": [
+          {
+            "vertices": 3734,
+            "min": [
+              -0.2596055567264557,
+              -0.2564677894115448,
+              -0.5002139210700989
+            ],
+            "max": [
+              0.25160396099090576,
+              0.2680353820323944,
+              0.5001394748687744
+            ]
+          },
+          {
+            "vertices": 63,
+            "min": [
+              -0.23286035656929016,
+              -0.1715080738067627,
+              -0.5000601410865784
+            ],
+            "max": [
+              -0.18079422414302826,
+              -0.11919248104095459,
+              -0.4884166121482849
+            ]
+          },
+          {
+            "vertices": 8,
+            "min": [
+              -0.047817762941122055,
+              -0.19431670010089874,
+              -0.29411327838897705
+            ],
+            "max": [
+              -0.007339855190366507,
+              -0.19032227993011475,
+              -0.2920553386211395
+            ]
+          },
+          {
+            "vertices": 5,
+            "min": [
+              0.10937466472387314,
+              -0.19411030411720276,
+              -0.2941819727420807
+            ],
+            "max": [
+              0.1512570083141327,
+              -0.18994496762752533,
+              -0.2914524972438812
+            ]
+          }
+        ],
+        "sourceDistanceMaxFractionOfDiagonal": 0.001508481195116994,
+        "sourceDistanceP95FractionOfDiagonal": 0.0007180756035579144,
+        "nonAdjacentTriangleOverlapCandidateCount": 23,
+        "nonAdjacentTriangleOverlapCandidates": [
+          [
+            4607,
+            5471
+          ],
+          [
+            1056,
+            7482
+          ],
+          [
+            1056,
+            7480
+          ],
+          [
+            1056,
+            7481
+          ],
+          [
+            1056,
+            7462
+          ],
+          [
+            5004,
+            5587
+          ],
+          [
+            5004,
+            5588
+          ],
+          [
+            5331,
+            5343
+          ],
+          [
+            5032,
+            5168
+          ],
+          [
+            4934,
+            7551
+          ],
+          [
+            4876,
+            4895
+          ],
+          [
+            2419,
+            3867
+          ],
+          [
+            2419,
+            3889
+          ],
+          [
+            2419,
+            3888
+          ],
+          [
+            2419,
+            3769
+          ],
+          [
+            2243,
+            3325
+          ],
+          [
+            4068,
+            4241
+          ],
+          [
+            494,
+            1737
+          ],
+          [
+            496,
+            1737
+          ],
+          [
+            1373,
+            1376
+          ],
+          [
+            1968,
+            5679
+          ],
+          [
+            1968,
+            4768
+          ],
+          [
+            5411,
+            5434
+          ]
+        ],
+        "overlapLimit": "BVH overlaps are review candidates; coplanar touches and neighboring UV seams can give false positives."
+      }
+    ]
+  },
+  {
+    "floor": "P07",
+    "method": "Blender collapse decimation from welded original; UV loops retained; no voxel remesh",
+    "targetTriangles": 4000,
+    "objects": [
+      {
+        "vertices": 1962,
+        "triangles": 4000,
+        "cleanupBefore": {
+          "vertices": 1962,
+          "faces": 4000
+        },
+        "collapsedRemnantVerticesRemoved": 0,
+        "degenerateOrDuplicateFacesRemoved": 0,
+        "boundaryEdges": 0,
+        "edgesWithMoreThanTwoFaces": 0,
+        "components": [
+          {
+            "vertices": 1962,
+            "min": [
+              -0.4106111228466034,
+              -0.43277671933174133,
+              -0.49973759055137634
+            ],
+            "max": [
+              0.4109521210193634,
+              0.43343260884284973,
+              0.4998118281364441
+            ]
+          }
+        ],
+        "sourceDistanceMaxFractionOfDiagonal": 0.0026301478590834123,
+        "sourceDistanceP95FractionOfDiagonal": 0.0014647552412801943,
+        "nonAdjacentTriangleOverlapCandidateCount": 17,
+        "nonAdjacentTriangleOverlapCandidates": [
+          [
+            1411,
+            1788
+          ],
+          [
+            1408,
+            1788
+          ],
+          [
+            1405,
+            1788
+          ],
+          [
+            1984,
+            3571
+          ],
+          [
+            1952,
+            1992
+          ],
+          [
+            1952,
+            1991
+          ],
+          [
+            1722,
+            1906
+          ],
+          [
+            1714,
+            1721
+          ],
+          [
+            1714,
+            1900
+          ],
+          [
+            59,
+            77
+          ],
+          [
+            59,
+            138
+          ],
+          [
+            59,
+            139
+          ],
+          [
+            58,
+            77
+          ],
+          [
+            63,
+            77
+          ],
+          [
+            0,
+            2746
+          ],
+          [
+            1918,
+            1920
+          ],
+          [
+            1899,
+            1914
+          ]
+        ],
+        "overlapLimit": "BVH overlaps are review candidates; coplanar touches and neighboring UV seams can give false positives."
+      }
+    ]
+  },
+  {
+    "floor": "P08",
+    "method": "Blender collapse decimation from welded original; UV loops retained; no voxel remesh",
+    "targetTriangles": 10000,
+    "objects": [
+      {
+        "vertices": 4840,
+        "triangles": 9960,
+        "cleanupBefore": {
+          "vertices": 4900,
+          "faces": 10000
+        },
+        "collapsedRemnantVerticesRemoved": 60,
+        "degenerateOrDuplicateFacesRemoved": 20,
+        "boundaryEdges": 0,
+        "edgesWithMoreThanTwoFaces": 0,
+        "components": [
+          {
+            "vertices": 4781,
+            "min": [
+              -0.49941781163215637,
+              -0.45199868083000183,
+              -0.36258089542388916
+            ],
+            "max": [
+              0.4982772171497345,
+              0.45184358954429626,
+              0.36590269207954407
+            ]
+          },
+          {
+            "vertices": 13,
+            "min": [
+              0.09333156049251556,
+              -0.4492516815662384,
+              0.1356988400220871
+            ],
+            "max": [
+              0.2670165002346039,
+              -0.4376954436302185,
+              0.1478644162416458
+            ]
+          },
+          {
+            "vertices": 9,
+            "min": [
+              -0.16588044166564941,
+              -0.4439680278301239,
+              0.062297482043504715
+            ],
+            "max": [
+              -0.04541434347629547,
+              -0.43668827414512634,
+              0.07037995755672455
+            ]
+          },
+          {
+            "vertices": 7,
+            "min": [
+              -0.2628961205482483,
+              -0.4483940899372101,
+              -0.006191719323396683
+            ],
+            "max": [
+              -0.19346435368061066,
+              -0.43761131167411804,
+              0.00875683780759573
+            ]
+          },
+          {
+            "vertices": 6,
+            "min": [
+              0.15250059962272644,
+              -0.44800058007240295,
+              -0.005566227249801159
+            ],
+            "max": [
+              0.19106116890907288,
+              -0.44408875703811646,
+              -0.0003444837057031691
+            ]
+          },
+          {
+            "vertices": 5,
+            "min": [
+              -0.23986077308654785,
+              -0.4408893883228302,
+              -0.022619079798460007
+            ],
+            "max": [
+              -0.18843106925487518,
+              -0.4368777573108673,
+              -0.016163883730769157
+            ]
+          },
+          {
+            "vertices": 5,
+            "min": [
+              -0.20426100492477417,
+              0.44105592370033264,
+              0.002107835141941905
+            ],
+            "max": [
+              -0.1469210535287857,
+              0.44331878423690796,
+              0.005301780067384243
+            ]
+          },
+          {
+            "vertices": 5,
+            "min": [
+              0.0628289133310318,
+              -0.44777241349220276,
+              -0.006473457906395197
+            ],
+            "max": [
+              0.10640294849872589,
+              -0.4410972595214844,
+              0.0044356416910886765
+            ]
+          },
+          {
+            "vertices": 5,
+            "min": [
+              0.2555226981639862,
+              -0.4444044232368469,
+              0.061141181737184525
+            ],
+            "max": [
+              0.3141240179538727,
+              -0.43730685114860535,
+              0.06893280148506165
+            ]
+          },
+          {
+            "vertices": 4,
+            "min": [
+              0.1849679797887802,
+              -0.437246710062027,
+              0.14960306882858276
+            ],
+            "max": [
+              0.22269734740257263,
+              -0.43399548530578613,
+              0.15500275790691376
+            ]
+          }
+        ],
+        "sourceDistanceMaxFractionOfDiagonal": 0.0022633746402099565,
+        "sourceDistanceP95FractionOfDiagonal": 0.0009642466709290174,
+        "nonAdjacentTriangleOverlapCandidateCount": 34,
+        "nonAdjacentTriangleOverlapCandidates": [
+          [
+            3344,
+            3346
+          ],
+          [
+            2691,
+            3341
+          ],
+          [
+            2691,
+            3340
+          ],
+          [
+            2690,
+            3341
+          ],
+          [
+            2688,
+            3341
+          ],
+          [
+            3363,
+            4173
+          ],
+          [
+            2756,
+            3262
+          ],
+          [
+            1143,
+            1270
+          ],
+          [
+            153,
+            451
+          ],
+          [
+            3572,
+            3590
+          ],
+          [
+            5779,
+            9564
+          ],
+          [
+            4783,
+            5822
+          ],
+          [
+            5824,
+            6769
+          ],
+          [
+            6720,
+            6732
+          ],
+          [
+            6488,
+            6519
+          ],
+          [
+            4941,
+            5549
+          ],
+          [
+            5039,
+            6297
+          ],
+          [
+            6112,
+            6208
+          ],
+          [
+            4173,
+            4273
+          ],
+          [
+            4943,
+            5549
+          ],
+          [
+            5040,
+            6297
+          ],
+          [
+            3453,
+            4470
+          ],
+          [
+            5217,
+            6503
+          ],
+          [
+            5217,
+            6504
+          ],
+          [
+            4159,
+            9493
+          ],
+          [
+            6744,
+            7098
+          ],
+          [
+            6744,
+            6747
+          ],
+          [
+            6745,
+            7098
+          ],
+          [
+            6814,
+            7308
+          ],
+          [
+            7356,
+            9527
+          ]
+        ],
+        "overlapLimit": "BVH overlaps are review candidates; coplanar touches and neighboring UV seams can give false positives."
+      }
+    ]
+  },
+  {
+    "floor": "P09",
+    "method": "Blender collapse decimation from welded original; UV loops retained; no voxel remesh",
+    "targetTriangles": 8000,
+    "objects": [
+      {
+        "vertices": 3929,
+        "triangles": 7994,
+        "cleanupBefore": {
+          "vertices": 3938,
+          "faces": 8000
+        },
+        "collapsedRemnantVerticesRemoved": 9,
+        "degenerateOrDuplicateFacesRemoved": 3,
+        "boundaryEdges": 0,
+        "edgesWithMoreThanTwoFaces": 0,
+        "components": [
+          {
+            "vertices": 3883,
+            "min": [
+              -0.4994475841522217,
+              -0.2600024938583374,
+              -0.44071099162101746
+            ],
+            "max": [
+              0.5001990795135498,
+              0.2590305507183075,
+              0.4414975941181183
+            ]
+          },
+          {
+            "vertices": 34,
+            "min": [
+              0.3617241382598877,
+              -0.15711787343025208,
+              -0.06953571736812592
+            ],
+            "max": [
+              0.37074336409568787,
+              -0.0008984454907476902,
+              -0.06830574572086334
+            ]
+          },
+          {
+            "vertices": 12,
+            "min": [
+              0.3618295192718506,
+              0.028529033064842224,
+              -0.0693649873137474
+            ],
+            "max": [
+              0.3700181543827057,
+              0.07781466841697693,
+              -0.06857521831989288
+            ]
+          }
+        ],
+        "sourceDistanceMaxFractionOfDiagonal": 0.001893073807448855,
+        "sourceDistanceP95FractionOfDiagonal": 0.000820497204158612,
+        "nonAdjacentTriangleOverlapCandidateCount": 9,
+        "nonAdjacentTriangleOverlapCandidates": [
+          [
+            1312,
+            1377
+          ],
+          [
+            1299,
+            1312
+          ],
+          [
+            1299,
+            1310
+          ],
+          [
+            616,
+            5854
+          ],
+          [
+            616,
+            5855
+          ],
+          [
+            25,
+            5854
+          ],
+          [
+            1340,
+            1346
+          ],
+          [
+            286,
+            533
+          ],
+          [
+            4549,
+            5164
+          ]
+        ],
+        "overlapLimit": "BVH overlaps are review candidates; coplanar touches and neighboring UV seams can give false positives."
+      }
+    ]
+  },
+  {
+    "floor": "P10",
+    "method": "Blender collapse decimation from welded original; UV loops retained; no voxel remesh",
+    "targetTriangles": 12000,
+    "objects": [
+      {
+        "vertices": 5886,
+        "triangles": 12000,
+        "cleanupBefore": {
+          "vertices": 5886,
+          "faces": 12000
+        },
+        "collapsedRemnantVerticesRemoved": 0,
+        "degenerateOrDuplicateFacesRemoved": 0,
+        "boundaryEdges": 0,
+        "edgesWithMoreThanTwoFaces": 0,
+        "components": [
+          {
+            "vertices": 5886,
+            "min": [
+              -0.49865207076072693,
+              -0.2760133147239685,
+              -0.3565756678581238
+            ],
+            "max": [
+              0.49923184514045715,
+              0.2759515941143036,
+              0.3562479317188263
+            ]
+          }
+        ],
+        "sourceDistanceMaxFractionOfDiagonal": 0.0017546591853669885,
+        "sourceDistanceP95FractionOfDiagonal": 0.0006967446502846443,
+        "nonAdjacentTriangleOverlapCandidateCount": 35,
+        "nonAdjacentTriangleOverlapCandidates": [
+          [
+            3457,
+            4437
+          ],
+          [
+            3455,
+            4437
+          ],
+          [
+            2986,
+            3265
+          ],
+          [
+            2983,
+            3265
+          ],
+          [
+            1182,
+            1204
+          ],
+          [
+            1178,
+            1182
+          ],
+          [
+            1166,
+            1200
+          ],
+          [
+            1146,
+            1182
+          ],
+          [
+            1174,
+            1182
+          ],
+          [
+            1174,
+            1198
+          ],
+          [
+            1200,
+            1204
+          ],
+          [
+            378,
+            459
+          ],
+          [
+            738,
+            954
+          ],
+          [
+            738,
+            995
+          ],
+          [
+            738,
+            953
+          ],
+          [
+            737,
+            953
+          ],
+          [
+            952,
+            10488
+          ],
+          [
+            1161,
+            1188
+          ],
+          [
+            6348,
+            7213
+          ],
+          [
+            5407,
+            5428
+          ],
+          [
+            5407,
+            5426
+          ],
+          [
+            5405,
+            5428
+          ],
+          [
+            5405,
+            5426
+          ],
+          [
+            5404,
+            5428
+          ],
+          [
+            5404,
+            5426
+          ],
+          [
+            5506,
+            5524
+          ],
+          [
+            4227,
+            4849
+          ],
+          [
+            4651,
+            4688
+          ],
+          [
+            7429,
+            11679
+          ],
+          [
+            9529,
+            11867
+          ]
+        ],
+        "overlapLimit": "BVH overlaps are review candidates; coplanar touches and neighboring UV seams can give false positives."
+      }
+    ]
+  },
+  {
+    "floor": "P11",
+    "method": "Blender collapse decimation from welded original; UV loops retained; no voxel remesh",
+    "targetTriangles": 6000,
+    "objects": [
+      {
+        "vertices": 2954,
+        "triangles": 6000,
+        "cleanupBefore": {
+          "vertices": 2954,
+          "faces": 6000
+        },
+        "collapsedRemnantVerticesRemoved": 0,
+        "degenerateOrDuplicateFacesRemoved": 0,
+        "boundaryEdges": 0,
+        "edgesWithMoreThanTwoFaces": 0,
+        "components": [
+          {
+            "vertices": 2954,
+            "min": [
+              -0.29386594891548157,
+              -0.26304012537002563,
+              -0.5000386834144592
+            ],
+            "max": [
+              0.29405322670936584,
+              0.262464702129364,
+              0.5003469586372375
+            ]
+          }
+        ],
+        "sourceDistanceMaxFractionOfDiagonal": 0.0014267537402002553,
+        "sourceDistanceP95FractionOfDiagonal": 0.0006509082756767333,
+        "nonAdjacentTriangleOverlapCandidateCount": 2,
+        "nonAdjacentTriangleOverlapCandidates": [
+          [
+            1193,
+            4320
+          ],
+          [
+            3666,
+            5903
+          ]
+        ],
+        "overlapLimit": "BVH overlaps are review candidates; coplanar touches and neighboring UV seams can give false positives."
+      }
+    ]
+  },
+  {
+    "floor": "P12",
+    "method": "Blender collapse decimation from welded original; UV loops retained; no voxel remesh",
+    "targetTriangles": 2000,
+    "objects": [
+      {
+        "vertices": 962,
+        "triangles": 2000,
+        "cleanupBefore": {
+          "vertices": 962,
+          "faces": 2000
+        },
+        "collapsedRemnantVerticesRemoved": 0,
+        "degenerateOrDuplicateFacesRemoved": 0,
+        "boundaryEdges": 0,
+        "edgesWithMoreThanTwoFaces": 0,
+        "components": [
+          {
+            "vertices": 962,
+            "min": [
+              -0.45005983114242554,
+              -0.497908353805542,
+              -0.08793599158525467
+            ],
+            "max": [
+              0.45032355189323425,
+              0.4981123208999634,
+              0.08828108012676239
+            ]
+          }
+        ],
+        "sourceDistanceMaxFractionOfDiagonal": 0.0019034453187239913,
+        "sourceDistanceP95FractionOfDiagonal": 0.0011428701371888905,
+        "nonAdjacentTriangleOverlapCandidateCount": 3,
+        "nonAdjacentTriangleOverlapCandidates": [
+          [
+            599,
+            1735
+          ],
+          [
+            271,
+            1735
+          ],
+          [
+            272,
+            1735
+          ]
+        ],
+        "overlapLimit": "BVH overlaps are review candidates; coplanar touches and neighboring UV seams can give false positives."
+      }
+    ]
+  },
+  {
+    "floor": "P13",
+    "method": "Blender collapse decimation from welded original; UV loops retained; no voxel remesh",
+    "targetTriangles": 3000,
+    "objects": [
+      {
+        "vertices": 1498,
+        "triangles": 3000,
+        "cleanupBefore": {
+          "vertices": 1498,
+          "faces": 3000
+        },
+        "collapsedRemnantVerticesRemoved": 0,
+        "degenerateOrDuplicateFacesRemoved": 0,
+        "boundaryEdges": 0,
+        "edgesWithMoreThanTwoFaces": 0,
+        "components": [
+          {
+            "vertices": 1498,
+            "min": [
+              -0.3779926002025604,
+              -0.4994649291038513,
+              -0.3984742760658264
+            ],
+            "max": [
+              0.3782658576965332,
+              0.4989560544490814,
+              0.3983443081378937
+            ]
+          }
+        ],
+        "sourceDistanceMaxFractionOfDiagonal": 0.004052607408715143,
+        "sourceDistanceP95FractionOfDiagonal": 0.0021235687518959038,
+        "nonAdjacentTriangleOverlapCandidateCount": 1,
+        "nonAdjacentTriangleOverlapCandidates": [
+          [
+            19,
+            108
+          ]
+        ],
+        "overlapLimit": "BVH overlaps are review candidates; coplanar touches and neighboring UV seams can give false positives."
+      }
+    ]
+  }
+]

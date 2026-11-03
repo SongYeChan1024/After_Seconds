@@ -1,0 +1,53 @@
+{
+  "id": "P13",
+  "name": "LogisticsTote",
+  "ko": "물류 용기",
+  "category": "Props",
+  "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+  "sourceHighNode": "62f431e0-4c8d-4a4f-9c61-eb4baca982cc",
+  "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/P13_retopo.glb",
+  "sourceSha256": "7ac0bf93ca4a5a16fa472c0f69b2d2e78f0fa4c91f0442fdc4061aaed1dfa7fe",
+  "modelPath": "Assets/Afrer_Seconds/05.Model/Props/Common/P13_LogisticsTote.fbx",
+  "modelSha256": "a7afbd2415817aa839055485deaa4b42a7b2a718645483c0e7ee20a46509ff1f",
+  "baseMap": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/P13_LogisticsTote_BaseColor.png",
+  "normalMap": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/P13_LogisticsTote_Normal.png",
+  "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/P13_LogisticsTote_MetallicSmoothness.png",
+  "occlusionMap": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/P13_LogisticsTote_Occlusion.png",
+  "blenderSizeXYZ": [
+    0.6000000238418579,
+    0.45000001788139343,
+    0.3999999761581421
+  ],
+  "candidateDimensionRule": {
+    "mode": "exact",
+    "value": [
+      0.6,
+      0.45,
+      0.4
+    ]
+  },
+  "triangles": 2998,
+  "visualOnly": true,
+  "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+  "pbrPacking": {
+    "metallic": "R",
+    "smoothness": "A=1-source G",
+    "occlusion": "G=source R"
+  },
+  "normalStrength": 0.35,
+  "materialPath": "Assets/Afrer_Seconds/05.Model/Props/Common/Materials/P13_LogisticsTote_URP.mat",
+  "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/Common/P13_LogisticsTote.prefab",
+  "placementCount": 3,
+  "finalFbxVerification": {
+    "boundaryEdges": 0,
+    "overusedEdges": 0,
+    "zeroAreaFaces": 0,
+    "nonFiniteUVs": 0,
+    "strictEdgeTriangleCrossings": 0
+  },
+  "folderCleanup20261103": {
+    "previousPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P13_LogisticsTote/source_manifest.json",
+    "currentPath": "Assets/Afrer_Seconds/06.Data/AssetSources/Props_VARCO_V002_Batch02_P13_LogisticsTote_source_manifest.json",
+    "mapping": "Docs/검수/2026-11-03_ModelFolderCleanup/move_plan.json"
+  }
+}

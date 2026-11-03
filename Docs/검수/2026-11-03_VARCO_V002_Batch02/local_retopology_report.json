@@ -1,0 +1,728 @@
+[
+  {
+    "floor": "U01",
+    "method": "Local intersection patches removed and retriangulated; nearest-source UV interpolation; surrounding original topology preserved",
+    "objects": [
+      {
+        "initialCrossings": 0,
+        "remainingCrossings": 0,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "triangles": 3000,
+        "vertices": 1458,
+        "relativeVolumeChange": 0.0,
+        "steps": []
+      }
+    ],
+    "accepted": true
+  },
+  {
+    "floor": "U02",
+    "method": "Local intersection patches removed and retriangulated; nearest-source UV interpolation; surrounding original topology preserved",
+    "objects": [
+      {
+        "initialCrossings": 2,
+        "remainingCrossings": 0,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "triangles": 4972,
+        "vertices": 2480,
+        "relativeVolumeChange": 0.0004050863425638705,
+        "steps": [
+          {
+            "iteration": 0,
+            "crossingPairs": 2,
+            "junctionEdges": 0,
+            "removedFaces": 20,
+            "splitPatchDiagonals": 1,
+            "rebuiltTriangles": 14,
+            "remainingCrossings": 15
+          },
+          {
+            "iteration": 1,
+            "crossingPairs": 15,
+            "junctionEdges": 0,
+            "removedFaces": 41,
+            "splitPatchDiagonals": 1,
+            "rebuiltTriangles": 19,
+            "remainingCrossings": 3
+          },
+          {
+            "iteration": 2,
+            "crossingPairs": 3,
+            "junctionEdges": 0,
+            "removedFaces": 12,
+            "splitPatchDiagonals": 1,
+            "rebuiltTriangles": 12,
+            "remainingCrossings": 0
+          }
+        ]
+      }
+    ],
+    "accepted": true
+  },
+  {
+    "floor": "U03",
+    "method": "Local intersection patches removed and retriangulated; nearest-source UV interpolation; surrounding original topology preserved",
+    "objects": [
+      {
+        "initialCrossings": 41,
+        "remainingCrossings": 0,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "triangles": 5876,
+        "vertices": 2890,
+        "relativeVolumeChange": 0.00014828405591480717,
+        "steps": [
+          {
+            "iteration": 0,
+            "crossingPairs": 41,
+            "junctionEdges": 0,
+            "removedFaces": 208,
+            "splitPatchDiagonals": 5,
+            "rebuiltTriangles": 92,
+            "remainingCrossings": 1
+          },
+          {
+            "iteration": 1,
+            "crossingPairs": 1,
+            "junctionEdges": 0,
+            "removedFaces": 8,
+            "splitPatchDiagonals": 0,
+            "rebuiltTriangles": 2,
+            "remainingCrossings": 0
+          }
+        ]
+      }
+    ],
+    "accepted": true
+  },
+  {
+    "floor": "U04",
+    "method": "Local intersection patches removed and retriangulated; nearest-source UV interpolation; surrounding original topology preserved",
+    "objects": [
+      {
+        "initialCrossings": 6,
+        "remainingCrossings": 0,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "triangles": 2476,
+        "vertices": 1202,
+        "relativeVolumeChange": 0.00023060854881272366,
+        "steps": [
+          {
+            "iteration": 0,
+            "crossingPairs": 6,
+            "junctionEdges": 0,
+            "removedFaces": 49,
+            "splitPatchDiagonals": 4,
+            "rebuiltTriangles": 33,
+            "remainingCrossings": 5
+          },
+          {
+            "iteration": 1,
+            "crossingPairs": 5,
+            "junctionEdges": 0,
+            "removedFaces": 22,
+            "splitPatchDiagonals": 1,
+            "rebuiltTriangles": 15,
+            "remainingCrossings": 0
+          }
+        ]
+      }
+    ],
+    "accepted": true
+  },
+  {
+    "floor": "U05",
+    "method": "Local intersection patches removed and retriangulated; nearest-source UV interpolation; surrounding original topology preserved",
+    "objects": [
+      {
+        "initialCrossings": 0,
+        "remainingCrossings": 0,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "triangles": 5000,
+        "vertices": 2366,
+        "relativeVolumeChange": 0.0,
+        "steps": []
+      }
+    ],
+    "accepted": true
+  },
+  {
+    "floor": "U06",
+    "method": "Local intersection patches removed and retriangulated; nearest-source UV interpolation; surrounding original topology preserved",
+    "objects": [
+      {
+        "initialCrossings": 11,
+        "remainingCrossings": 0,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "triangles": 2980,
+        "vertices": 1440,
+        "relativeVolumeChange": 0.00034784700234004193,
+        "steps": [
+          {
+            "iteration": 0,
+            "crossingPairs": 11,
+            "junctionEdges": 0,
+            "removedFaces": 67,
+            "splitPatchDiagonals": 5,
+            "rebuiltTriangles": 47,
+            "remainingCrossings": 0
+          }
+        ]
+      }
+    ],
+    "accepted": true
+  },
+  {
+    "floor": "U07",
+    "method": "Local intersection patches removed and retriangulated; nearest-source UV interpolation; surrounding original topology preserved",
+    "objects": [
+      {
+        "initialCrossings": 78,
+        "remainingCrossings": 0,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "triangles": 3796,
+        "vertices": 1838,
+        "relativeVolumeChange": 0.00012734240464418281,
+        "steps": [
+          {
+            "iteration": 0,
+            "crossingPairs": 78,
+            "junctionEdges": 0,
+            "removedFaces": 359,
+            "splitPatchDiagonals": 15,
+            "rebuiltTriangles": 177,
+            "remainingCrossings": 11
+          },
+          {
+            "iteration": 1,
+            "crossingPairs": 11,
+            "junctionEdges": 0,
+            "removedFaces": 65,
+            "splitPatchDiagonals": 4,
+            "rebuiltTriangles": 45,
+            "remainingCrossings": 0
+          }
+        ]
+      }
+    ],
+    "accepted": true
+  },
+  {
+    "floor": "P01",
+    "method": "Local intersection patches removed and retriangulated; nearest-source UV interpolation; surrounding original topology preserved",
+    "objects": [
+      {
+        "initialCrossings": 7,
+        "remainingCrossings": 0,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "triangles": 7982,
+        "vertices": 3989,
+        "relativeVolumeChange": 6.424156414117224e-06,
+        "steps": [
+          {
+            "iteration": 0,
+            "crossingPairs": 7,
+            "junctionEdges": 0,
+            "removedFaces": 42,
+            "splitPatchDiagonals": 4,
+            "rebuiltTriangles": 36,
+            "remainingCrossings": 8
+          },
+          {
+            "iteration": 1,
+            "crossingPairs": 8,
+            "junctionEdges": 0,
+            "removedFaces": 38,
+            "splitPatchDiagonals": 3,
+            "rebuiltTriangles": 25,
+            "remainingCrossings": 1
+          },
+          {
+            "iteration": 2,
+            "crossingPairs": 1,
+            "junctionEdges": 0,
+            "removedFaces": 8,
+            "splitPatchDiagonals": 2,
+            "rebuiltTriangles": 11,
+            "remainingCrossings": 0
+          }
+        ]
+      }
+    ],
+    "accepted": true
+  },
+  {
+    "floor": "P02",
+    "method": "Local intersection patches removed and retriangulated; nearest-source UV interpolation; surrounding original topology preserved",
+    "objects": [
+      {
+        "initialCrossings": 1,
+        "remainingCrossings": 0,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "triangles": 5998,
+        "vertices": 3001,
+        "relativeVolumeChange": 6.566809732854417e-07,
+        "steps": [
+          {
+            "iteration": 0,
+            "crossingPairs": 1,
+            "junctionEdges": 0,
+            "removedFaces": 8,
+            "splitPatchDiagonals": 0,
+            "rebuiltTriangles": 6,
+            "remainingCrossings": 0
+          }
+        ]
+      }
+    ],
+    "accepted": true
+  },
+  {
+    "floor": "P03",
+    "method": "Local intersection patches removed and retriangulated; nearest-source UV interpolation; surrounding original topology preserved",
+    "objects": [
+      {
+        "initialCrossings": 8,
+        "remainingCrossings": 0,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "triangles": 5958,
+        "vertices": 2973,
+        "relativeVolumeChange": 6.80075734723604e-05,
+        "steps": [
+          {
+            "iteration": 0,
+            "crossingPairs": 8,
+            "junctionEdges": 0,
+            "removedFaces": 94,
+            "splitPatchDiagonals": 5,
+            "rebuiltTriangles": 52,
+            "remainingCrossings": 0
+          }
+        ]
+      }
+    ],
+    "accepted": true
+  },
+  {
+    "floor": "P04",
+    "method": "Local intersection patches removed and retriangulated; nearest-source UV interpolation; surrounding original topology preserved",
+    "objects": [
+      {
+        "initialCrossings": 1,
+        "remainingCrossings": 0,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "triangles": 6002,
+        "vertices": 2995,
+        "relativeVolumeChange": 1.0349219524406444e-09,
+        "steps": [
+          {
+            "iteration": 0,
+            "crossingPairs": 1,
+            "junctionEdges": 0,
+            "removedFaces": 8,
+            "splitPatchDiagonals": 2,
+            "rebuiltTriangles": 10,
+            "remainingCrossings": 0
+          }
+        ]
+      }
+    ],
+    "accepted": true
+  },
+  {
+    "floor": "P05",
+    "method": "Local intersection patches removed and retriangulated; nearest-source UV interpolation; surrounding original topology preserved",
+    "objects": [
+      {
+        "initialCrossings": 73,
+        "remainingCrossings": 0,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "triangles": 1688,
+        "vertices": 854,
+        "relativeVolumeChange": 0.0003126210265642609,
+        "steps": [
+          {
+            "iteration": 0,
+            "crossingPairs": 73,
+            "junctionEdges": 0,
+            "removedFaces": 391,
+            "splitPatchDiagonals": 13,
+            "rebuiltTriangles": 119,
+            "remainingCrossings": 15
+          },
+          {
+            "iteration": 1,
+            "crossingPairs": 15,
+            "junctionEdges": 0,
+            "removedFaces": 64,
+            "splitPatchDiagonals": 6,
+            "rebuiltTriangles": 37,
+            "remainingCrossings": 9
+          },
+          {
+            "iteration": 2,
+            "crossingPairs": 9,
+            "junctionEdges": 0,
+            "removedFaces": 28,
+            "splitPatchDiagonals": 3,
+            "rebuiltTriangles": 19,
+            "remainingCrossings": 0
+          }
+        ]
+      }
+    ],
+    "accepted": true
+  },
+  {
+    "floor": "P06",
+    "method": "Local intersection patches removed and retriangulated; nearest-source UV interpolation; surrounding original topology preserved",
+    "objects": [
+      {
+        "initialCrossings": 23,
+        "remainingCrossings": 0,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "triangles": 7906,
+        "vertices": 3791,
+        "relativeVolumeChange": 8.008670584365843e-06,
+        "steps": [
+          {
+            "iteration": 0,
+            "crossingPairs": 23,
+            "junctionEdges": 0,
+            "removedFaces": 179,
+            "splitPatchDiagonals": 14,
+            "rebuiltTriangles": 135,
+            "remainingCrossings": 10
+          },
+          {
+            "iteration": 1,
+            "crossingPairs": 10,
+            "junctionEdges": 0,
+            "removedFaces": 57,
+            "splitPatchDiagonals": 2,
+            "rebuiltTriangles": 27,
+            "remainingCrossings": 0
+          },
+          {
+            "iteration": 2,
+            "crossingPairs": 0,
+            "junctionEdges": 1,
+            "removedFaces": 13,
+            "splitPatchDiagonals": 0,
+            "rebuiltTriangles": 3,
+            "remainingCrossings": 0
+          }
+        ]
+      }
+    ],
+    "accepted": true
+  },
+  {
+    "floor": "P07",
+    "method": "Local intersection patches removed and retriangulated; nearest-source UV interpolation; surrounding original topology preserved",
+    "objects": [
+      {
+        "initialCrossings": 17,
+        "remainingCrossings": 0,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "triangles": 3948,
+        "vertices": 1948,
+        "relativeVolumeChange": 5.512116071025687e-07,
+        "steps": [
+          {
+            "iteration": 0,
+            "crossingPairs": 17,
+            "junctionEdges": 0,
+            "removedFaces": 96,
+            "splitPatchDiagonals": 3,
+            "rebuiltTriangles": 54,
+            "remainingCrossings": 6
+          },
+          {
+            "iteration": 1,
+            "crossingPairs": 6,
+            "junctionEdges": 0,
+            "removedFaces": 21,
+            "splitPatchDiagonals": 1,
+            "rebuiltTriangles": 11,
+            "remainingCrossings": 0
+          }
+        ]
+      }
+    ],
+    "accepted": true
+  },
+  {
+    "floor": "P08",
+    "method": "Local intersection patches removed and retriangulated; nearest-source UV interpolation; surrounding original topology preserved",
+    "objects": [
+      {
+        "initialCrossings": 33,
+        "remainingCrossings": 0,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "triangles": 9826,
+        "vertices": 4819,
+        "relativeVolumeChange": 6.0519359869870836e-05,
+        "steps": [
+          {
+            "iteration": 0,
+            "crossingPairs": 33,
+            "junctionEdges": 0,
+            "removedFaces": 273,
+            "splitPatchDiagonals": 15,
+            "rebuiltTriangles": 165,
+            "remainingCrossings": 13
+          },
+          {
+            "iteration": 1,
+            "crossingPairs": 13,
+            "junctionEdges": 0,
+            "removedFaces": 58,
+            "splitPatchDiagonals": 6,
+            "rebuiltTriangles": 45,
+            "remainingCrossings": 14
+          },
+          {
+            "iteration": 2,
+            "crossingPairs": 14,
+            "junctionEdges": 0,
+            "removedFaces": 20,
+            "splitPatchDiagonals": 0,
+            "rebuiltTriangles": 8,
+            "remainingCrossings": 0
+          }
+        ]
+      }
+    ],
+    "accepted": true
+  },
+  {
+    "floor": "P09",
+    "method": "Local intersection patches removed and retriangulated; nearest-source UV interpolation; surrounding original topology preserved",
+    "objects": [
+      {
+        "initialCrossings": 9,
+        "remainingCrossings": 0,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "triangles": 7976,
+        "vertices": 3930,
+        "relativeVolumeChange": 2.541689312900686e-06,
+        "steps": [
+          {
+            "iteration": 0,
+            "crossingPairs": 9,
+            "junctionEdges": 0,
+            "removedFaces": 46,
+            "splitPatchDiagonals": 2,
+            "rebuiltTriangles": 28,
+            "remainingCrossings": 0
+          }
+        ]
+      }
+    ],
+    "accepted": true
+  },
+  {
+    "floor": "P10",
+    "method": "Local intersection patches removed and retriangulated; nearest-source UV interpolation; surrounding original topology preserved",
+    "objects": [
+      {
+        "initialCrossings": 35,
+        "remainingCrossings": 0,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "triangles": 11910,
+        "vertices": 5865,
+        "relativeVolumeChange": 7.634940447811257e-06,
+        "steps": [
+          {
+            "iteration": 0,
+            "crossingPairs": 35,
+            "junctionEdges": 0,
+            "removedFaces": 222,
+            "splitPatchDiagonals": 9,
+            "rebuiltTriangles": 148,
+            "remainingCrossings": 5
+          },
+          {
+            "iteration": 1,
+            "crossingPairs": 5,
+            "junctionEdges": 0,
+            "removedFaces": 29,
+            "splitPatchDiagonals": 1,
+            "rebuiltTriangles": 18,
+            "remainingCrossings": 1
+          },
+          {
+            "iteration": 2,
+            "crossingPairs": 1,
+            "junctionEdges": 0,
+            "removedFaces": 8,
+            "splitPatchDiagonals": 0,
+            "rebuiltTriangles": 4,
+            "remainingCrossings": 0
+          }
+        ]
+      }
+    ],
+    "accepted": true
+  },
+  {
+    "floor": "P11",
+    "method": "Local intersection patches removed and retriangulated; nearest-source UV interpolation; surrounding original topology preserved",
+    "objects": [
+      {
+        "initialCrossings": 2,
+        "remainingCrossings": 0,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "triangles": 6000,
+        "vertices": 2954,
+        "relativeVolumeChange": 0.0006434077203485513,
+        "steps": [
+          {
+            "iteration": 0,
+            "crossingPairs": 2,
+            "junctionEdges": 0,
+            "removedFaces": 16,
+            "splitPatchDiagonals": 1,
+            "rebuiltTriangles": 16,
+            "remainingCrossings": 0
+          }
+        ]
+      }
+    ],
+    "accepted": true
+  },
+  {
+    "floor": "P12",
+    "method": "Local intersection patches removed and retriangulated; nearest-source UV interpolation; surrounding original topology preserved",
+    "objects": [
+      {
+        "initialCrossings": 3,
+        "remainingCrossings": 0,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "triangles": 2000,
+        "vertices": 962,
+        "relativeVolumeChange": 0.0029364810931243076,
+        "steps": [
+          {
+            "iteration": 0,
+            "crossingPairs": 3,
+            "junctionEdges": 0,
+            "removedFaces": 12,
+            "splitPatchDiagonals": 0,
+            "rebuiltTriangles": 12,
+            "remainingCrossings": 0
+          }
+        ]
+      }
+    ],
+    "accepted": true
+  },
+  {
+    "floor": "P13",
+    "method": "Local intersection patches removed and retriangulated; nearest-source UV interpolation; surrounding original topology preserved",
+    "objects": [
+      {
+        "initialCrossings": 1,
+        "remainingCrossings": 0,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "triangles": 2998,
+        "vertices": 1497,
+        "relativeVolumeChange": 2.248885814557272e-05,
+        "steps": [
+          {
+            "iteration": 0,
+            "crossingPairs": 1,
+            "junctionEdges": 0,
+            "removedFaces": 8,
+            "splitPatchDiagonals": 0,
+            "rebuiltTriangles": 6,
+            "remainingCrossings": 0
+          }
+        ]
+      }
+    ],
+    "accepted": true
+  },
+  {
+    "floor": "P01_fbx",
+    "method": "Local intersection patches removed and retriangulated; nearest-source UV interpolation; surrounding original topology preserved",
+    "objects": [
+      {
+        "initialCrossings": 2,
+        "remainingCrossings": 0,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "triangles": 7966,
+        "vertices": 3983,
+        "relativeVolumeChange": 1.0403432329374584e-07,
+        "steps": [
+          {
+            "iteration": 0,
+            "crossingPairs": 2,
+            "junctionEdges": 0,
+            "removedFaces": 10,
+            "splitPatchDiagonals": 2,
+            "rebuiltTriangles": 10,
+            "remainingCrossings": 6
+          },
+          {
+            "iteration": 1,
+            "crossingPairs": 6,
+            "junctionEdges": 0,
+            "removedFaces": 19,
+            "splitPatchDiagonals": 1,
+            "rebuiltTriangles": 10,
+            "remainingCrossings": 1
+          },
+          {
+            "iteration": 2,
+            "crossingPairs": 1,
+            "junctionEdges": 0,
+            "removedFaces": 8,
+            "splitPatchDiagonals": 0,
+            "rebuiltTriangles": 2,
+            "remainingCrossings": 0
+          }
+        ]
+      }
+    ],
+    "accepted": true
+  },
+  {
+    "floor": "P05_fbx",
+    "method": "Local intersection patches removed and retriangulated; nearest-source UV interpolation; surrounding original topology preserved",
+    "objects": [
+      {
+        "initialCrossings": 0,
+        "remainingCrossings": 0,
+        "boundaryEdges": 0,
+        "overusedEdges": 0,
+        "triangles": 1686,
+        "vertices": 853,
+        "relativeVolumeChange": 0.0,
+        "steps": []
+      }
+    ],
+    "accepted": true
+  }
+]

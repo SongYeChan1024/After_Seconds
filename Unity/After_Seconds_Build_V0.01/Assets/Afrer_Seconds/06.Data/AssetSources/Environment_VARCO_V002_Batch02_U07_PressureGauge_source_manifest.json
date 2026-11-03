@@ -1,0 +1,49 @@
+{
+  "id": "U07",
+  "name": "PressureGauge",
+  "ko": "압력계",
+  "category": "Environment",
+  "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+  "sourceHighNode": "2f2628e2-b92c-437a-827c-65bfa9403f12",
+  "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/U07_retopo.glb",
+  "sourceSha256": "ee1b9e417add1cf934c6d6dabb440a4aa66537927096af6233ade9b7825069bf",
+  "modelPath": "Assets/Afrer_Seconds/05.Model/Environment/Common/U07_PressureGauge.fbx",
+  "modelSha256": "5c02cd431e8a9db0694b04a32cc6ac98a5074034f802763ff8072d235731cfc5",
+  "baseMap": "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/U07_PressureGauge_BaseColor.png",
+  "normalMap": "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/U07_PressureGauge_Normal.png",
+  "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/U07_PressureGauge_MetallicSmoothness.png",
+  "occlusionMap": "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/U07_PressureGauge_Occlusion.png",
+  "blenderSizeXYZ": [
+    0.2148778736591339,
+    0.090054452419281,
+    0.2799999713897705
+  ],
+  "candidateDimensionRule": {
+    "mode": "height",
+    "value": 0.28
+  },
+  "triangles": 3796,
+  "visualOnly": true,
+  "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+  "pbrPacking": {
+    "metallic": "R",
+    "smoothness": "A=1-source G",
+    "occlusion": "G=source R"
+  },
+  "normalStrength": 0.35,
+  "materialPath": "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/U07_PressureGauge_URP.mat",
+  "prefabPath": "Assets/Afrer_Seconds/05.Model/Environment/Common/U07_PressureGauge.prefab",
+  "placementCount": 2,
+  "finalFbxVerification": {
+    "boundaryEdges": 0,
+    "overusedEdges": 0,
+    "zeroAreaFaces": 0,
+    "nonFiniteUVs": 0,
+    "strictEdgeTriangleCrossings": 0
+  },
+  "folderCleanup20261103": {
+    "previousPath": "Assets/Afrer_Seconds/05.Model/Environment/VARCO_V002/Batch02/U07_PressureGauge/source_manifest.json",
+    "currentPath": "Assets/Afrer_Seconds/06.Data/AssetSources/Environment_VARCO_V002_Batch02_U07_PressureGauge_source_manifest.json",
+    "mapping": "Docs/검수/2026-11-03_ModelFolderCleanup/move_plan.json"
+  }
+}

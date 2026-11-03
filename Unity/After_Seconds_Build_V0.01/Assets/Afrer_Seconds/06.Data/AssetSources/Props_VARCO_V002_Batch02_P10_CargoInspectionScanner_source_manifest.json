@@ -1,0 +1,49 @@
+{
+  "id": "P10",
+  "name": "CargoInspectionScanner",
+  "ko": "화물 검색대",
+  "category": "Props",
+  "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+  "sourceHighNode": "b6371270-0c16-4e0d-a04a-85246c9839c1",
+  "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/P10_retopo.glb",
+  "sourceSha256": "67944398542b65844373b4dd1c9941dbf05c90771ac649c390c0756ae6c419ec",
+  "modelPath": "Assets/Afrer_Seconds/05.Model/Props/1F/P10_CargoInspectionScanner.fbx",
+  "modelSha256": "505831b1c5fd7be32b73dae25eb7fb80dbe89d8eb103327978cfca051f7377e5",
+  "baseMap": "Assets/Afrer_Seconds/05.Model/Props/1F/Textures/P10_CargoInspectionScanner_BaseColor.png",
+  "normalMap": "Assets/Afrer_Seconds/05.Model/Props/1F/Textures/P10_CargoInspectionScanner_Normal.png",
+  "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Props/1F/Textures/P10_CargoInspectionScanner_MetallicSmoothness.png",
+  "occlusionMap": "Assets/Afrer_Seconds/05.Model/Props/1F/Textures/P10_CargoInspectionScanner_Occlusion.png",
+  "blenderSizeXYZ": [
+    2.3098397254943848,
+    1.2776541709899902,
+    1.6499998569488525
+  ],
+  "candidateDimensionRule": {
+    "mode": "height",
+    "value": 1.65
+  },
+  "triangles": 11910,
+  "visualOnly": true,
+  "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+  "pbrPacking": {
+    "metallic": "R",
+    "smoothness": "A=1-source G",
+    "occlusion": "G=source R"
+  },
+  "normalStrength": 0.35,
+  "materialPath": "Assets/Afrer_Seconds/05.Model/Props/1F/Materials/P10_CargoInspectionScanner_URP.mat",
+  "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/1F/P10_CargoInspectionScanner.prefab",
+  "placementCount": 1,
+  "finalFbxVerification": {
+    "boundaryEdges": 0,
+    "overusedEdges": 0,
+    "zeroAreaFaces": 0,
+    "nonFiniteUVs": 0,
+    "strictEdgeTriangleCrossings": 0
+  },
+  "folderCleanup20261103": {
+    "previousPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P10_CargoInspectionScanner/source_manifest.json",
+    "currentPath": "Assets/Afrer_Seconds/06.Data/AssetSources/Props_VARCO_V002_Batch02_P10_CargoInspectionScanner_source_manifest.json",
+    "mapping": "Docs/검수/2026-11-03_ModelFolderCleanup/move_plan.json"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+  "savedSceneReloaded": true,
+  "walls": 7,
+  "uniqueWallMaterials": 1,
+  "textureAssets": 3,
+  "sharedPackedMask": true,
+  "finiteMetricUVs": true,
+  "pilotWallCollidersPreserved": true,
+  "applicationColliderSnapshotPreserved": true,
+  "unrelatedSceneEdits": [
+    {
+      "path": "B5_Level_V0.01/Connector_Airlock/Geometry/Wall_East_Outer",
+      "before": {
+        "path": "B5_Level_V0.01/Connector_Airlock/Geometry/Wall_East_Outer",
+        "type": "BoxCollider",
+        "position": [
+          5.13,
+          2.0,
+          -2.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.23,
+          4.0,
+          4.24
+        ],
+        "enabled": true,
+        "trigger": false,
+        "boundsCenter": [
+          5.13,
+          2.0,
+          -2.0
+        ],
+        "boundsSize": [
+          0.229999542,
+          4.0,
+          4.24
+        ]
+      },
+      "after": {
+        "path": "B5_Level_V0.01/Connector_Airlock/Geometry/Wall_East_Outer",
+        "type": "BoxCollider",
+        "position": [
+          5.13,
+          2.0,
+          -1.875
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.23,
+          4.0,
+          4.24
+        ],
+        "enabled": true,
+        "trigger": false,
+        "boundsCenter": [
+          5.13,
+          2.0,
+          -1.875
+        ],
+        "boundsSize": [
+          0.229999542,
+          4.0,
+          4.24
+        ]
+      }
+    },
+    {
+      "path": "B5_Level_V0.01/Connector_Airlock/Geometry/Wall_West_Exit",
+      "before": {
+        "path": "B5_Level_V0.01/Connector_Airlock/Geometry/Wall_West_Exit",
+        "type": "BoxCollider",
+        "position": [
+          2.89,
+          2.0,
+          -3.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.23,
+          4.0,
+          2.0
+        ],
+        "enabled": true,
+        "trigger": false,
+        "boundsCenter": [
+          2.89,
+          2.0,
+          -3.0
+        ],
+        "boundsSize": [
+          0.230000019,
+          4.0,
+          2.0
+        ]
+      },
+      "after": {
+        "path": "B5_Level_V0.01/Connector_Airlock/Geometry/Wall_West_Exit",
+        "type": "BoxCollider",
+        "position": [
+          2.89,
+          2.0,
+          -2.98
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.23,
+          4.0,
+          2.0
+        ],
+        "enabled": true,
+        "trigger": false,
+        "boundsCenter": [
+          2.89,
+          2.0,
+          -2.98
+        ],
+        "boundsSize": [
+          0.230000019,
+          4.0,
+          2.0
+        ]
+      }
+    }
+  ],
+  "missingScripts": false
+}

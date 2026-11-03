@@ -1,0 +1,53 @@
+{
+  "id": "P12",
+  "name": "SteelPallet",
+  "ko": "금속 팔레트",
+  "category": "Props",
+  "sourceFlowId": "f86f4f34-c6fe-45de-8f9b-3ed1303cab0b",
+  "sourceHighNode": "4dfa7f37-1a5f-4f44-bc7f-839d7af661b1",
+  "sourceRetopoFile": "tmp/VARCO_V002_Batch02_20261103/P12_retopo.glb",
+  "sourceSha256": "00f1f12d2c3792c584e5a921ae523210fa49b683ce1d06f7a91cb3684b17351b",
+  "modelPath": "Assets/Afrer_Seconds/05.Model/Props/1F/P12_SteelPallet.fbx",
+  "modelSha256": "ae275f0717a776b7a63e4a8bb9f43d2fa2e257958f0a55c08077fd8fa75347ab",
+  "baseMap": "Assets/Afrer_Seconds/05.Model/Props/1F/Textures/P12_SteelPallet_BaseColor.png",
+  "normalMap": "Assets/Afrer_Seconds/05.Model/Props/1F/Textures/P12_SteelPallet_Normal.png",
+  "metallicSmoothnessMap": "Assets/Afrer_Seconds/05.Model/Props/1F/Textures/P12_SteelPallet_MetallicSmoothness.png",
+  "occlusionMap": "Assets/Afrer_Seconds/05.Model/Props/1F/Textures/P12_SteelPallet_Occlusion.png",
+  "blenderSizeXYZ": [
+    1.2000000476837158,
+    0.9999999403953552,
+    0.14999999105930328
+  ],
+  "candidateDimensionRule": {
+    "mode": "exact",
+    "value": [
+      1.2,
+      1.0,
+      0.15
+    ]
+  },
+  "triangles": 2000,
+  "visualOnly": true,
+  "status": "Applied and reloaded across floor scenes; collider snapshot and references verified",
+  "pbrPacking": {
+    "metallic": "R",
+    "smoothness": "A=1-source G",
+    "occlusion": "G=source R"
+  },
+  "normalStrength": 0.35,
+  "materialPath": "Assets/Afrer_Seconds/05.Model/Props/1F/Materials/P12_SteelPallet_URP.mat",
+  "prefabPath": "Assets/Afrer_Seconds/05.Model/Props/1F/P12_SteelPallet.prefab",
+  "placementCount": 3,
+  "finalFbxVerification": {
+    "boundaryEdges": 0,
+    "overusedEdges": 0,
+    "zeroAreaFaces": 0,
+    "nonFiniteUVs": 0,
+    "strictEdgeTriangleCrossings": 0
+  },
+  "folderCleanup20261103": {
+    "previousPath": "Assets/Afrer_Seconds/05.Model/Props/VARCO_V002/Batch02/P12_SteelPallet/source_manifest.json",
+    "currentPath": "Assets/Afrer_Seconds/06.Data/AssetSources/Props_VARCO_V002_Batch02_P12_SteelPallet_source_manifest.json",
+    "mapping": "Docs/검수/2026-11-03_ModelFolderCleanup/move_plan.json"
+  }
+}

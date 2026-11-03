@@ -1,0 +1,346 @@
+{
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B3_SampleStorage.unity",
+  "quality": "PC",
+  "pipeline": "Assets/Settings/PC_RPAsset.asset",
+  "renderer": "UniversalRenderer",
+  "pipeProps": {
+    "m_RequireDepthTexture": true,
+    "m_RequireOpaqueTexture": true,
+    "m_SupportsHDR": true,
+    "m_MSAA": 1,
+    "m_RenderScale": 1.0,
+    "m_AdditionalLightsPerObjectLimit": 4,
+    "m_MainLightShadowsSupported": true,
+    "m_MainLightShadowmapResolution": 2048,
+    "m_AdditionalLightShadowsSupported": true,
+    "m_ShadowDistance": 50.0,
+    "m_ShadowCascadeCount": 4,
+    "m_UseSRPBatcher": true,
+    "m_RendererDataList": 1
+  },
+  "counts": {
+    "objects": 303,
+    "renderers": 154,
+    "shadowCastingRenderers": 51,
+    "distinctMaterials": 12,
+    "distinctShaders": 3,
+    "instancedMeshTriangles": 33738,
+    "lights": 12,
+    "pointLights": 10,
+    "spotLights": 1,
+    "shadowLights": 1,
+    "cameras": 1,
+    "particles": 1,
+    "colliders": 50,
+    "lodGroups": 0
+  },
+  "lights": [
+    {
+      "name": "CeilingFill_Grouped",
+      "type": "Point",
+      "intensity": 9.0,
+      "range": 8.0,
+      "shadows": "None",
+      "position": [
+        0.0,
+        3.35,
+        -4.5
+      ]
+    },
+    {
+      "name": "CeilingFill_Grouped",
+      "type": "Point",
+      "intensity": 9.0,
+      "range": 8.0,
+      "shadows": "None",
+      "position": [
+        0.0,
+        3.35,
+        -0.5
+      ]
+    },
+    {
+      "name": "CeilingFill_Grouped",
+      "type": "Point",
+      "intensity": 9.0,
+      "range": 8.0,
+      "shadows": "None",
+      "position": [
+        0.0,
+        3.35,
+        3.5
+      ]
+    },
+    {
+      "name": "Fixture_Point",
+      "type": "Point",
+      "intensity": 7.0,
+      "range": 7.0,
+      "shadows": "None",
+      "position": [
+        -3.0,
+        3.4,
+        -8.0
+      ]
+    },
+    {
+      "name": "CeilingFill_Grouped",
+      "type": "Point",
+      "intensity": 9.0,
+      "range": 8.0,
+      "shadows": "None",
+      "position": [
+        -3.0,
+        3.35,
+        -22.5
+      ]
+    },
+    {
+      "name": "CeilingFill_Grouped",
+      "type": "Point",
+      "intensity": 9.0,
+      "range": 8.0,
+      "shadows": "None",
+      "position": [
+        -3.0,
+        3.35,
+        -18.5
+      ]
+    },
+    {
+      "name": "CeilingFill_Grouped",
+      "type": "Point",
+      "intensity": 9.0,
+      "range": 8.0,
+      "shadows": "None",
+      "position": [
+        -3.0,
+        3.35,
+        -14.5
+      ]
+    },
+    {
+      "name": "CeilingFill_Grouped",
+      "type": "Point",
+      "intensity": 9.0,
+      "range": 8.0,
+      "shadows": "None",
+      "position": [
+        -3.0,
+        3.35,
+        -10.5
+      ]
+    },
+    {
+      "name": "Fixture_Point",
+      "type": "Point",
+      "intensity": 3.0,
+      "range": 5.0,
+      "shadows": "None",
+      "position": [
+        -3.0,
+        1.0,
+        -13.0
+      ]
+    },
+    {
+      "name": "Fixture_Point",
+      "type": "Point",
+      "intensity": 7.0,
+      "range": 7.0,
+      "shadows": "None",
+      "position": [
+        1.0,
+        3.4,
+        -26.0
+      ]
+    },
+    {
+      "name": "Inspection_Fill",
+      "type": "Directional",
+      "intensity": 0.5,
+      "range": 10.0,
+      "shadows": "Soft",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Crate_ReadingLight_NoShadow",
+      "type": "Spot",
+      "intensity": 16.0,
+      "range": 4.5,
+      "shadows": "None",
+      "position": [
+        1.2,
+        3.7,
+        -3.0
+      ]
+    }
+  ],
+  "volumes": [
+    {
+      "name": "B3_LightingAndAtmosphere",
+      "global": true,
+      "weight": 1.0,
+      "priority": 20.0,
+      "profile": "Assets/Afrer_Seconds/06.Data/Rendering/B3/B3_ReadabilityVolume.asset",
+      "components": [
+        {
+          "type": "ColorAdjustments",
+          "active": true
+        },
+        {
+          "type": "Bloom",
+          "active": true
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "base_color",
+      "path": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS05_PlayerDummy/Textures/base_color.png",
+      "width": 1024,
+      "height": 1024,
+      "runtimeBytes": 1420624
+    },
+    {
+      "name": "normal",
+      "path": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS05_PlayerDummy/Textures/normal.png",
+      "width": 2048,
+      "height": 2048,
+      "runtimeBytes": 11229192
+    },
+    {
+      "name": "base_color",
+      "path": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS01_Crate/Textures/base_color.png",
+      "width": 1024,
+      "height": 1024,
+      "runtimeBytes": 1420864
+    },
+    {
+      "name": "normal",
+      "path": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS01_Crate/Textures/normal.png",
+      "width": 2048,
+      "height": 2048,
+      "runtimeBytes": 11229432
+    },
+    {
+      "name": "B3_Signs_Atlas",
+      "path": "Assets/Afrer_Seconds/03.Art/Environment/B3/Signs/B3_Signs_Atlas.png",
+      "width": 1024,
+      "height": 512,
+      "runtimeBytes": 1420888
+    },
+    {
+      "name": "base_color",
+      "path": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS06_GuardDummy/Textures/base_color.png",
+      "width": 1024,
+      "height": 1024,
+      "runtimeBytes": 1420864
+    },
+    {
+      "name": "normal",
+      "path": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS06_GuardDummy/Textures/normal.png",
+      "width": 2048,
+      "height": 2048,
+      "runtimeBytes": 11229432
+    },
+    {
+      "name": "SteamSoft",
+      "path": "Assets/Afrer_Seconds/03.Art/Environment/B3/FX/SteamSoft.png",
+      "width": 64,
+      "height": 64,
+      "runtimeBytes": 9096
+    }
+  ],
+  "materials": [
+    {
+      "name": "AS05_PlayerDummy_00_URP_Lit",
+      "path": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS05_PlayerDummy/Materials/AS05_PlayerDummy_00_URP_Lit.mat",
+      "shader": "Universal Render Pipeline/Lit",
+      "queue": 2000,
+      "instancing": false
+    },
+    {
+      "name": "B3_Floor",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B3/Materials/B3_Floor.mat",
+      "shader": "Universal Render Pipeline/Lit",
+      "queue": 2000,
+      "instancing": false
+    },
+    {
+      "name": "B3_Enamel",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B3/Materials/B3_Enamel.mat",
+      "shader": "Universal Render Pipeline/Lit",
+      "queue": 2000,
+      "instancing": false
+    },
+    {
+      "name": "B3_Frame",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B3/Materials/B3_Frame.mat",
+      "shader": "Universal Render Pipeline/Lit",
+      "queue": 2000,
+      "instancing": false
+    },
+    {
+      "name": "B3_Lamp",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B3/Materials/B3_Lamp.mat",
+      "shader": "Universal Render Pipeline/Lit",
+      "queue": 2000,
+      "instancing": false
+    },
+    {
+      "name": "B3_MintBand",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B3/Materials/B3_MintBand.mat",
+      "shader": "Universal Render Pipeline/Lit",
+      "queue": 2000,
+      "instancing": false
+    },
+    {
+      "name": "B3_Amber",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B3/Materials/B3_Amber.mat",
+      "shader": "Universal Render Pipeline/Lit",
+      "queue": 2000,
+      "instancing": false
+    },
+    {
+      "name": "B3_PlateInactive",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B3/Materials/B3_PlateInactive.mat",
+      "shader": "Universal Render Pipeline/Lit",
+      "queue": 2000,
+      "instancing": false
+    },
+    {
+      "name": "AS01_Crate_00_URP_Lit",
+      "path": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS01_Crate/Materials/AS01_Crate_00_URP_Lit.mat",
+      "shader": "Universal Render Pipeline/Lit",
+      "queue": 2000,
+      "instancing": false
+    },
+    {
+      "name": "B3_Signs_Shared",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B3/Materials/B3_Signs_Shared.mat",
+      "shader": "Universal Render Pipeline/Unlit",
+      "queue": 2000,
+      "instancing": false
+    },
+    {
+      "name": "AS06_GuardDummy_00_URP_Lit",
+      "path": "Assets/Afrer_Seconds/03.Art/Candidates/VARCO/AS06_GuardDummy/Materials/AS06_GuardDummy_00_URP_Lit.mat",
+      "shader": "Universal Render Pipeline/Lit",
+      "queue": 2000,
+      "instancing": false
+    },
+    {
+      "name": "B3_Steam_Unlit",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B3/Materials/B3_Steam_Unlit.mat",
+      "shader": "Universal Render Pipeline/Particles/Unlit",
+      "queue": 3000,
+      "instancing": false
+    }
+  ]
+}

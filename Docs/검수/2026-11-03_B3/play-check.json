@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "walkPass": true,
+  "pitPass": true,
+  "escapeBlocked": true,
+  "start": [
+    0.0,
+    0.65,
+    5.0
+  ],
+  "walked": [
+    -1.96701251E-07,
+    0.679999948,
+    2.74999976
+  ],
+  "pitRest": [
+    -3.0,
+    -0.5200001,
+    -13.0
+  ],
+  "blocked": [
+    -3.0,
+    -0.5200001,
+    -13.8400011
+  ],
+  "scope": "Explicit fixed-dt calls to existing PlayerMotor.Move in Play Mode. Pit test uses temporary teleport. Not keyboard events, jumping/climbing, puzzle, or human playthrough."
+}
