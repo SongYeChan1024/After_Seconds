@@ -118,8 +118,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: ed4f1355ea8ae294dab51e440494e459, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
-      value: 
+      value:
       objectReference: {fileID: 2100000, guid: 0640e47e1530f8245964c8d528779aa7, type: 2}
+    - target: {fileID: -5754084199372789682, guid: ed4f1355ea8ae294dab51e440494e459, type: 3}
+      propertyPath: m_Mesh
+      value:
+      objectReference: {fileID: 4300000, guid: c07e695fad60c1540a073be5dc2c3ff8, type: 2}
     - target: {fileID: 919132149155446097, guid: ed4f1355ea8ae294dab51e440494e459, type: 3}
       propertyPath: m_Name
       value: U04_DuctStraight

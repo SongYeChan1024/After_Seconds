@@ -118,8 +118,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 0added4859f70bf4cb3fab998e18f1dc, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
-      value: 
+      value:
       objectReference: {fileID: 2100000, guid: 2e2a265b4491cc24fb15544b060734a0, type: 2}
+    - target: {fileID: -5754084199372789682, guid: 0added4859f70bf4cb3fab998e18f1dc, type: 3}
+      propertyPath: m_Mesh
+      value:
+      objectReference: {fileID: 4300000, guid: 92ce10a59302819408b4f7e056c6bbe7, type: 2}
     - target: {fileID: 919132149155446097, guid: 0added4859f70bf4cb3fab998e18f1dc, type: 3}
       propertyPath: m_Name
       value: P11_CargoHandTruck

@@ -1,4 +1,24 @@
-# After Seconds Unity 프로젝트 안내 V0.26
+# After Seconds Unity 프로젝트 안내 V0.30
+
+## 2026-11-04 건축 마감 전층 적용 완료
+
+기둥·수평 레일·표지판 하우징·닫힌 단면 벽 패널을 원본6층 씬에 적용·저장했다. 벽/부스/칸막이237곳(패널3,747장)·표지30·레일16·기둥16·문틀12곳이다. 원래 배치와 충돌체·스크립트 구성·문구를 저장 후 재검증했다. 게임 기능은 추가하지 않았다.
+
+공용 FBX·외형 프리팹은 `05.Model/Environment/Common/AD_{pillar,reveal,sign,panel}_Manufactured.*`, 층별 배치 패널은 `Environment/{층}/AD_WallPanels_*.asset`, 제작 원본은 `SourceAssets/ArchitectureDetail/ArchitectureDetail_Clean.blend`다. 최종 패널208tri·내부 공면 겹침0쌍이며 PC RP MSAA4와6개 카메라 SMAA High를 반영했다. 28시점 최종 렌더와 보호 범위는 [건축 마감 최종 검수](../Docs/검수/2026-11-04_Architecture_Detail/검수결과.md)에 있다. 실제 이동·FPS 검증은 아직이다. VARCO750점은 앞선 시안 제작 비용이며 이번 재개 때 추가 생성은 없다.
+
+이전 검증 사본과 `_after`/`probe` 이미지는 최종 결과가 아니다. 현재 원본 씬에 이전 제작·Apply를 그대로 재실행하지 않는다. Unity 버전과 사용자 B5·소품/WF 보수·Packages AI Assistant 상태를 유지한다.
+
+## 2026-11-04 전층 벽·문틀 보수
+
+6층의 활성 건축 시각 메시614개를 검사해 같은 방향의 공면 겹침72쌍을 찾았다. B5 문틀·복도·계단·냉각조, B4 천장 접합, B3 포획 구역의 시각 메시81개를 해당 층 `05.Model/Environment/{층}/WF_*_SeamFixed.asset`로 교체했다. 위치를 옮기지 않고 중복 면만 잘라 맞췄으며 UV·UV2·원래 tangent를 보간했다. 저장 후 같은 검사 기준의 잔여 겹침은0쌍이다.
+
+B2·B1·1F 씬은 파일까지 동일하다. 기존 모델·프리팹·meta·소품 마감과 Packages·ProjectSettings의 보호 파일1237개는 변경하지 않았다. B3·B4·B5 씬도 시각 메시 참조만 바뀌었으며 사용자 저장 B5 내용과 전층 Transform·Collider·Behaviour를 보존했다. 전후 사진·수치·검사의 한계는 [검수 결과](../Docs/검수/2026-11-04_Wall_Frame_Repair/검수결과.md)를 따른다. 실제 키보드 플레이 테스트는 아직이다.
+
+## 2026-11-04 후속 소품 마감
+
+가구·소품·설비35개 메시 파트에 작은 베벨을 추가하고 기존 베벨6개를 유지했다. 41개 모두60도 기준 스무스·가중 노멀을 적용했으며 같은 모델 폴더의 `_BevelSmooth.asset`를 기존 프리팹에 연결했다. 6층 배치110곳에서 새 참조를 확인했고 원본 FBX·기존 meta·Collider·Transform은 유지했다. 벽·바닥·천장에는 베벨을 추가하지 않았다.
+
+공용 작업대의 큰 삼각형 색 얼룩은 기존 UV로 판재29곳을 재베이크한 `Props/Common/Textures/Props_LaboratoryWorkbench_BaseColor_Corrected.png`로 보정했다. 원본 색·노멀 텍스처를 보존한다. 당시 벽·문틀은 진단까지만 진행했으며 이후 보수는 위 전층 벽·문틀 항목을 따른다. 소품 전후 사진과 저장 후 검증은 [소품 마감·벽 문틀 진단](../Docs/검수/2026-11-04_Prop_Finish/검수결과.md)에 있다.
 
 ## 2026-11-04 마감 상태와 다음 작업
 

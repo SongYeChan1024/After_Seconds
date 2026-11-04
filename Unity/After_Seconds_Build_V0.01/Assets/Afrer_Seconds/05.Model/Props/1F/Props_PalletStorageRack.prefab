@@ -82,8 +82,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: ad203582e2618cc4f9339d313da77dbd, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
-      value: 
+      value:
       objectReference: {fileID: 2100000, guid: 750812ed8811c7945a6464a099111fc3, type: 2}
+    - target: {fileID: -5754084199372789682, guid: ad203582e2618cc4f9339d313da77dbd, type: 3}
+      propertyPath: m_Mesh
+      value:
+      objectReference: {fileID: 4300000, guid: 79b0f6ff1b4a4aa4fae55d350756ec86, type: 2}
     - target: {fileID: 919132149155446097, guid: ad203582e2618cc4f9339d313da77dbd, type: 3}
       propertyPath: m_Name
       value: Props_PalletStorageRack

@@ -1,0 +1,303 @@
+#region 스크립트 안내 — 역할과 호출 관계
+// 역할: Unity 6000.4.0f1 Editor에서 저장된 6층의 메시 참조·수치와 새 검수 렌더를 수집한다.
+// 진입점: -executeMethod MeshReviewReadOnly20261104.Run (임시 Editor 사본만 컴파일).
+// 호출 관계: EditorSceneManager → 읽기 전용 메시 검사 → 임시 카메라 렌더 → JSON/PNG.
+// 저장 경계: Assets·씬·프리팹·머티리얼을 저장하지 않는다. Docs 검수 폴더만 출력한다.
+#endregion
+using System;
+using System.IO;
+using System.Linq;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.Rendering.Universal;
+using UnityEditor;
+using UnityEditor.SceneManagement;
+using Newtonsoft.Json;
+
+public static class MeshReviewReadOnly20261104
+{
+    const string Root = "Assets/Afrer_Seconds/";
+    static string Output => Path.GetFullPath(Path.Combine(Application.dataPath, "../../../Docs/검수/2026-11-04_Mesh_Review"));
+    static readonly List<object> Photos = new List<object>();
+    static readonly List<object> Scenes = new List<object>();
+    static readonly Dictionary<string, object> Meshes = new Dictionary<string, object>();
+    static readonly List<string> Errors = new List<string>();
+    static bool DataOnly;
+    // 연속 정점의 모서리 키는 기본 long 해시가 충돌하기 쉬워 비트를 섞는다.
+    sealed class EdgeComparer : IEqualityComparer<long>
+    {
+        public bool Equals(long a, long b) => a == b;
+        public int GetHashCode(long key)
+        {
+            unchecked { ulong x = (ulong)key; x ^= x >> 33; x *= 0xff51afd7ed558ccdUL; x ^= x >> 33; x *= 0xc4ceb9fe1a85ec53UL; x ^= x >> 33; return (int)x; }
+        }
+    }
+    static float[] V(Vector3 v) => new[] { v.x, v.y, v.z };
+    static string P(Transform t) => t.parent ? P(t.parent) + "/" + t.name : t.name;
+    static Transform[] All(Scene s) => s.GetRootGameObjects().SelectMany(g => g.GetComponentsInChildren<Transform>(true)).ToArray();
+    static bool Fin(float f) => !float.IsNaN(f) && !float.IsInfinity(f);
+    static bool Visible(Renderer r) => r && r.enabled && r.gameObject.activeInHierarchy;
+    static bool IsRoom(Transform t) => System.Text.RegularExpressions.Regex.IsMatch(t.name, @"^Room\d{2}_(Isolation|CoolingPool|ObservationCorridor|ControlDeck|SampleStorage|DecontaminationAirlock|CentrifugeHall|CentralControl|SubjectChamber|ExitCheckpoint)$");
+    static string Key(Mesh m)
+    {
+        string guid; long local;
+        AssetDatabase.TryGetGUIDAndLocalFileIdentifier(m, out guid, out local);
+        return AssetDatabase.GetAssetPath(m) + "|" + local + "|" + m.name;
+    }
+    static Bounds BoundsOf(Transform t)
+    {
+        var renderers = t.GetComponentsInChildren<Renderer>(true).Where(Visible).ToArray();
+        if (renderers.Length == 0) return new Bounds(t.position, Vector3.one);
+        var b = renderers[0].bounds;
+        foreach (var r in renderers.Skip(1)) b.Encapsulate(r.bounds);
+        return b;
+    }
+    static object Audit(Mesh mesh)
+    {
+        try
+        {
+            var vv = mesh.vertices; var tt = mesh.triangles; var uv = mesh.uv; var nn = mesh.normals;
+            // 같은 위치를 묶은 임시 인덱스로만 계산하며 원본 메시를 변경하지 않는다.
+            double epsilon = Math.Max(1e-7, mesh.bounds.size.magnitude * 1e-7);
+            var positions = new Dictionary<string, int>(); var welded = new int[vv.Length];
+            int invalidPositions = 0;
+            for (int i = 0; i < vv.Length; i++)
+            {
+                var v = vv[i];
+                if (!Fin(v.x) || !Fin(v.y) || !Fin(v.z)) { invalidPositions++; welded[i] = -i - 1; continue; }
+                string k = Math.Round(v.x / epsilon) + "," + Math.Round(v.y / epsilon) + "," + Math.Round(v.z / epsilon);
+                int index; if (!positions.TryGetValue(k, out index)) { index = positions.Count; positions[k] = index; }
+                welded[i] = index;
+            }
+            var edges = new Dictionary<long, int>(new EdgeComparer()); var faces = new HashSet<string>();
+            int exactZeroArea = 0, nearZeroArea = 0, invalidIndices = 0, duplicateFaces = 0;
+            // FBX 내부 단위(일부 1/100) 때문에 고정 면적 임계값으로 판정하지 않는다.
+            double relativeCrossSquaredLimit = Math.Pow(mesh.bounds.size.magnitude, 4) * 1e-24;
+            for (int i = 0; i + 2 < tt.Length; i += 3)
+            {
+                int a = tt[i], b = tt[i + 1], c = tt[i + 2];
+                if (a < 0 || b < 0 || c < 0 || a >= vv.Length || b >= vv.Length || c >= vv.Length) { invalidIndices++; continue; }
+                double ux = (double)vv[b].x - vv[a].x, uy = (double)vv[b].y - vv[a].y, uz = (double)vv[b].z - vv[a].z;
+                double vx = (double)vv[c].x - vv[a].x, vy = (double)vv[c].y - vv[a].y, vz = (double)vv[c].z - vv[a].z;
+                double cx = uy * vz - uz * vy, cy = uz * vx - ux * vz, cz = ux * vy - uy * vx;
+                double crossSquared = cx * cx + cy * cy + cz * cz;
+                if (crossSquared == 0) exactZeroArea++;
+                else if (crossSquared < relativeCrossSquaredLimit) nearZeroArea++;
+                var ids = new[] { welded[a], welded[b], welded[c] };
+                for (int j = 0; j < 3; j++)
+                {
+                    int lo = Math.Min(ids[j], ids[(j + 1) % 3]), hi = Math.Max(ids[j], ids[(j + 1) % 3]);
+                    if (lo == hi) continue;
+                    long k = ((long)lo << 32) | (uint)hi;
+                    int n; edges.TryGetValue(k, out n); edges[k] = n + 1;
+                }
+                Array.Sort(ids);
+                if (!faces.Add(string.Join(",", ids))) duplicateFaces++;
+            }
+            return new {
+                asset = AssetDatabase.GetAssetPath(mesh), mesh.name, vertices = vv.Length, triangles = tt.Length / 3,
+                subMeshes = mesh.subMeshCount, boundsSize = V(mesh.bounds.size), weldEpsilon = epsilon,
+                invalidPositions, invalidIndices, exactDegenerateTriangles = exactZeroArea,
+                nearDegenerateTriangleCandidates = nearZeroArea, relativeCrossSquaredLimit,
+                invalidUVs = uv.Count(v => !Fin(v.x) || !Fin(v.y)), uvCount = uv.Length,
+                invalidNormals = nn.Count(n => !Fin(n.x) || !Fin(n.y) || !Fin(n.z)), normalCount = nn.Length,
+                weldedBoundaryEdges = edges.Values.Count(n => n == 1),
+                weldedOverusedEdges = edges.Values.Count(n => n > 2), coincidentTriangleCandidates = duplicateFaces,
+                note = "Boundary/overused/coincident counts are candidates, not automatic defects. No self-intersection or visual UV distortion proof."
+            };
+        }
+        catch (Exception ex) { Errors.Add("Mesh " + mesh.name + ": " + ex.Message); return new { mesh.name, error = ex.Message }; }
+    }
+    static string Protected(Scene s)
+    {
+        return JsonConvert.SerializeObject(All(s).Select(t => new {
+            path = P(t), position = V(t.localPosition), rotation = new[] { t.localRotation.x, t.localRotation.y, t.localRotation.z, t.localRotation.w }, scale = V(t.localScale),
+            colliders = t.GetComponents<Collider>().Select(c => new { type = c.GetType().Name, c.enabled, c.isTrigger, state = EditorJsonUtility.ToJson(c) }).ToArray()
+        }).ToArray());
+    }
+    static void Render(Scene scene, string name, Vector3 eye, Vector3 target, Transform subject = null, string mode = "original", bool cutaway = false)
+    {
+        var hidden = new List<Renderer>(); var originals = new Dictionary<Renderer, Material[]>(); var clones = new List<Material>();
+        foreach (var controller in All(scene).SelectMany(t => t.GetComponents<CharacterController>()))
+            foreach (var r in controller.GetComponentsInChildren<Renderer>(true).Where(Visible)) { r.enabled = false; hidden.Add(r); }
+        if (cutaway)
+            foreach (var t in All(scene).Where(t => t.name.IndexOf("Ceiling", StringComparison.OrdinalIgnoreCase) >= 0 || t.name.IndexOf("RoofPanel", StringComparison.OrdinalIgnoreCase) >= 0))
+                foreach (var r in t.GetComponentsInChildren<Renderer>(true).Where(Visible)) { r.enabled = false; hidden.Add(r); }
+        if (subject && mode != "original")
+        {
+            foreach (var r in subject.GetComponentsInChildren<Renderer>(true).Where(Visible))
+            {
+                originals[r] = r.sharedMaterials;
+                r.sharedMaterials = r.sharedMaterials.Select(m => {
+                    Material material;
+                    if (mode == "clay")
+                    {
+                        material = new Material(Shader.Find("Universal Render Pipeline/Lit"));
+                        material.SetColor("_BaseColor", new Color(.65f, .65f, .65f));
+                        material.SetFloat("_Smoothness", .25f);
+                    }
+                    else if (mode == "base_off")
+                    {
+                        material = m ? new Material(m) : new Material(Shader.Find("Universal Render Pipeline/Lit"));
+                        if (material.HasProperty("_BaseMap")) material.SetTexture("_BaseMap", Texture2D.whiteTexture);
+                        if (material.HasProperty("_MainTex")) material.SetTexture("_MainTex", Texture2D.whiteTexture);
+                    }
+                    else
+                    {
+                        material = m ? new Material(m) : new Material(Shader.Find("Universal Render Pipeline/Lit"));
+                        material.DisableKeyword("_NORMALMAP"); material.DisableKeyword("_DETAIL_MULX2"); material.DisableKeyword("_DETAIL_SCALED");
+                        if (material.HasProperty("_BumpScale")) material.SetFloat("_BumpScale", 0);
+                        if (material.HasProperty("_BumpMap")) material.SetTexture("_BumpMap", null);
+                    }
+                    clones.Add(material); return material;
+                }).ToArray();
+            }
+        }
+        var go = new GameObject("Temporary_ReadOnly_MeshReview_Camera"); go.hideFlags = HideFlags.HideAndDontSave;
+        var c = go.AddComponent<Camera>(); c.enabled = false; c.transform.SetPositionAndRotation(eye, Quaternion.LookRotation(target - eye));
+        c.fieldOfView = 62; c.nearClipPlane = .035f; c.farClipPlane = 200; c.useOcclusionCulling = false; c.allowHDR = true;
+        var extra = c.GetUniversalAdditionalCameraData(); extra.renderPostProcessing = true; extra.volumeLayerMask = ~0;
+        var rt = new RenderTexture(1280, 800, 24); var previous = RenderTexture.active;
+        try
+        {
+            c.targetTexture = rt; c.Render(); c.Render(); c.Render(); RenderTexture.active = rt;
+            var image = new Texture2D(1280, 800, TextureFormat.RGB24, false);
+            image.ReadPixels(new Rect(0, 0, 1280, 800), 0, 0); image.Apply();
+            File.WriteAllBytes(Path.Combine(Output, name + ".png"), image.EncodeToPNG()); UnityEngine.Object.DestroyImmediate(image);
+            Photos.Add(new { file = name + ".png", scene = scene.path, eye = V(eye), target = V(target), mode, subject = subject ? P(subject) : null, cutaway });
+            Debug.Log("MESH_REVIEW_PHOTO " + name);
+        }
+        finally
+        {
+            c.targetTexture = null; RenderTexture.active = previous; rt.Release(); UnityEngine.Object.DestroyImmediate(rt); UnityEngine.Object.DestroyImmediate(go);
+            foreach (var pair in originals) pair.Key.sharedMaterials = pair.Value;
+            foreach (var material in clones) UnityEngine.Object.DestroyImmediate(material);
+            foreach (var r in hidden) r.enabled = true;
+        }
+    }
+    static Transform RoomOf(Transform t)
+    {
+        for (var p = t; p; p = p.parent) if (IsRoom(p)) return p;
+        return t.root;
+    }
+    static void SubjectViews(Scene scene, string floor, Transform t, string label)
+    {
+        if (DataOnly) return;
+        var b = BoundsOf(t); var room = RoomOf(t); var rb = BoundsOf(room);
+        Vector3 inward = rb.center - b.center; inward.y = 0;
+        if (inward.sqrMagnitude < .1f) inward = new Vector3(1, 0, 1);
+        inward.Normalize();
+        float distance = Mathf.Clamp(Mathf.Max(b.size.x, b.size.z) * 1.05f, 1.5f, 4.4f);
+        var eye = b.center + inward * distance; eye.y = room.position.y + 1.65f;
+        var look = b.center; look.y = Mathf.Clamp(look.y, room.position.y + .5f, room.position.y + 3);
+        var side = Vector3.Cross(Vector3.up, inward) * .24f;
+        Render(scene, floor + "_" + label + "_original", eye, look, t);
+        Render(scene, floor + "_" + label + "_normal_off", eye, look, t, "normal_off");
+        Render(scene, floor + "_" + label + "_clay", eye, look, t, "clay");
+        Render(scene, floor + "_" + label + "_angle", eye + side, look, t);
+        if (label == "Workbench") Render(scene, floor + "_" + label + "_base_off", eye, look, t, "base_off");
+    }
+    #region 의사코드 — MeshReviewReadOnly20261104.Run
+    // 1. 한 번에 씬 하나를 열고 Transform·Collider 기준을 기록한다.
+    // 2. 활성 시각 메시의 참조와 유한 수치, 용접 후 모서리 통계를 읽는다.
+    // 3. B5/B4/B3/B1 방별 새 렌더와 작업대·덕트·계측기 비교 렌더를 만든다.
+    // 4. B5 접합은 인접 두 시점에서 추가 촬영하고 결함 여부는 화면으로 판정한다.
+    // 5. 임시 렌더 상태를 복원하고 기준과 대조한다. 씬을 저장하지 않는다.
+    // 6. 검수 자료만 출력하고 종료한다.
+    #endregion
+    #region 실제 C# 코드 — MeshReviewReadOnly20261104.Run
+    public static void RunDataOnly() { DataOnly = true; Run(); }
+    public static void RunDeckSupplement()
+    {
+        try
+        {
+            var scene = EditorSceneManager.OpenScene(Root + "01.Scenes/Stage/Level_B4_Observation.unity", OpenSceneMode.Single);
+            string before = Protected(scene);
+            Physics.SyncTransforms();
+            RaycastHit hit;
+            var eye = new Vector3(2.0f, 4.15f, -25f);
+            bool floorHit = Physics.Raycast(new Vector3(eye.x, 5.5f, eye.z), Vector3.down, out hit, 10);
+            if (floorHit) eye.y = hit.point.y + 1.65f;
+            Render(scene, "B4_Room04_ControlDeck_reverse", eye, new Vector3(0, 1.8f, -17.5f));
+            var manifestPath = Path.Combine(Output, "photos.json");
+            var manifest = Newtonsoft.Json.Linq.JArray.Parse(File.ReadAllText(manifestPath));
+            var old = manifest.First(p => (string)p["file"] == "B4_Room04_ControlDeck_reverse.png");
+            old.Replace(Newtonsoft.Json.Linq.JObject.FromObject(Photos.Last()));
+            File.WriteAllText(manifestPath, manifest.ToString());
+            File.WriteAllText(Path.Combine(Output, "deck_supplement.json"), JsonConvert.SerializeObject(new { floorHit, floorY = floorHit ? hit.point.y : 2.4f, eye = V(eye), transformsAndCollidersPreserved = before == Protected(scene), saved = false }, Formatting.Indented));
+            EditorApplication.Exit(0);
+        }
+        catch (Exception ex) { Debug.LogException(ex); EditorApplication.Exit(3); }
+    }
+    public static void Run()
+    {
+        Directory.CreateDirectory(Output);
+        try
+        {
+            var paths = AssetDatabase.FindAssets("t:Scene", new[] { Root + "01.Scenes/Stage" }).Select(AssetDatabase.GUIDToAssetPath).OrderBy(p => p).ToArray();
+            foreach (var path in paths)
+            {
+                Debug.Log("MESH_REVIEW_SCENE " + path);
+                var scene = EditorSceneManager.OpenScene(path, OpenSceneMode.Single); var all = All(scene); var before = Protected(scene);
+                string floor = path.Contains("B5") ? "B5" : path.Contains("B4") ? "B4" : path.Contains("B3") ? "B3" : path.Contains("B2") ? "B2" : path.Contains("B1") ? "B1" : "1F";
+                var renderers = all.SelectMany(t => t.GetComponents<Renderer>()).Where(Visible).ToArray();
+                var missingMeshes = all.SelectMany(t => t.GetComponents<MeshFilter>()).Where(m => Visible(m.GetComponent<MeshRenderer>()) && !m.sharedMesh).Select(m => P(m.transform)).ToArray();
+                var references = new List<object>();
+                foreach (var mf in all.SelectMany(t => t.GetComponents<MeshFilter>()).Where(m => Visible(m.GetComponent<MeshRenderer>()) && m.sharedMesh))
+                {
+                    var key = Key(mf.sharedMesh);
+                    if (!Meshes.ContainsKey(key)) { Debug.Log("MESH_REVIEW_MESH " + key); Meshes[key] = Audit(mf.sharedMesh); }
+                    references.Add(new { path = P(mf.transform), meshKey = key, negativeScale = mf.transform.localToWorldMatrix.determinant < 0 });
+                }
+                var rooms = all.Where(IsRoom).ToArray();
+                if (!DataOnly && floor != "B2" && floor != "1F")
+                {
+                    foreach (var room in rooms)
+                    {
+                        var b = BoundsOf(room); float y = room.position.y + 1.65f;
+                        var target = b.center; target.y = room.position.y + 1.45f;
+                        var eye = new Vector3(b.center.x - b.extents.x * .55f, y, b.center.z + b.extents.z * .6f);
+                        Render(scene, floor + "_" + room.name + "_eye", eye, target);
+                        eye = new Vector3(b.center.x + b.extents.x * .55f, y, b.center.z - b.extents.z * .6f);
+                        Render(scene, floor + "_" + room.name + "_reverse", eye, target);
+                    }
+                }
+                foreach (var t in all.Where(t => t.name.StartsWith("Props_LaboratoryWorkbench") && t.GetComponentsInChildren<Renderer>().Any(Visible) && (t.parent == null || !t.parent.name.StartsWith("Props_LaboratoryWorkbench"))).Take(1))
+                    SubjectViews(scene, floor, t, "Workbench");
+                var ducts = all.Where(t => t.name.StartsWith("U04_DuctStraight") && t.GetComponentsInChildren<Renderer>().Any(Visible) && (t.parent == null || !t.parent.name.StartsWith("U04_DuctStraight"))).ToArray();
+                if (ducts.Length > 0) SubjectViews(scene, floor, ducts[0], "Duct");
+                var instrument = all.FirstOrDefault(t => t.name.StartsWith("P08_BenchtopInstrument") && t.GetComponentsInChildren<Renderer>().Any(Visible));
+                if (instrument) SubjectViews(scene, floor, instrument, "Instrument");
+                if (!DataOnly && floor == "B5")
+                {
+                    foreach (var t in all.Where(t => t.name == "Connector_Airlock" || t.name == "Exit_StairVestibule"))
+                    {
+                        var b = BoundsOf(t); var eye = new Vector3(b.center.x, t.position.y + 1.65f, b.center.z);
+                        var look = new Vector3(b.center.x + 1, b.max.y - .15f, b.center.z - 1);
+                        Render(scene, floor + "_" + t.name + "_seam_A", eye, look);
+                        Render(scene, floor + "_" + t.name + "_seam_B", eye + Vector3.right * .1f, look);
+                    }
+                }
+                var after = Protected(scene);
+                Scenes.Add(new { floor, scene = path, activeRendererCount = renderers.Length, meshInstances = references, missingMeshes,
+                    missingMaterialSlots = renderers.SelectMany(r => r.sharedMaterials.Select((m, i) => new { renderer = P(r.transform), slot = i, missing = !m })).Where(x => x.missing).ToArray(),
+                    errorShaders = renderers.Where(r => r.sharedMaterials.Any(m => m && (!m.shader || m.shader.name.Contains("InternalError")))).Select(r => P(r.transform)).ToArray(),
+                    rooms = rooms.Select(t => new { t.name, position = V(t.position), center = V(BoundsOf(t).center), size = V(BoundsOf(t).size) }).ToArray(),
+                    transformsAndCollidersPreserved = before == after,
+                    saved = false
+                });
+                if (before != after) Errors.Add("Transform/Collider preservation mismatch: " + path);
+                Write();
+            }
+            Write(); Debug.Log("MESH_REVIEW_DONE"); EditorApplication.Exit(Errors.Count == 0 ? 0 : 2);
+        }
+        catch (Exception ex) { Errors.Add(ex.ToString()); Write(); Debug.LogException(ex); EditorApplication.Exit(3); }
+    }
+    #endregion
+    static void Write()
+    {
+        File.WriteAllText(Path.Combine(Output, "mesh_audit.json"), JsonConvert.SerializeObject(new { unity = Application.unityVersion, scenes = Scenes, uniqueMeshes = Meshes, errors = Errors }, Formatting.Indented));
+        if (!DataOnly) File.WriteAllText(Path.Combine(Output, "photos.json"), JsonConvert.SerializeObject(Photos, Formatting.Indented));
+    }
+}

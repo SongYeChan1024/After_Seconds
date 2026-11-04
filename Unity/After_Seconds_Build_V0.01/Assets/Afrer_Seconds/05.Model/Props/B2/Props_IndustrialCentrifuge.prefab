@@ -82,8 +82,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 7f14cd11af96e504695b145cb6536140, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
-      value: 
+      value:
       objectReference: {fileID: 2100000, guid: c787fa6a5ce39564b82b142988c7bd9d, type: 2}
+    - target: {fileID: -5754084199372789682, guid: 7f14cd11af96e504695b145cb6536140, type: 3}
+      propertyPath: m_Mesh
+      value:
+      objectReference: {fileID: 4300000, guid: 48e8429765b494d4c9e938f041fe0774, type: 2}
     - target: {fileID: 919132149155446097, guid: 7f14cd11af96e504695b145cb6536140, type: 3}
       propertyPath: m_Name
       value: Props_IndustrialCentrifuge

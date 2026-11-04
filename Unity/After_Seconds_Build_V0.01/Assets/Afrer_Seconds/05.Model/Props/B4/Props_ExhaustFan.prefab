@@ -82,8 +82,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: a27ad70b2cfecfc4782c38e85e591f0e, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
-      value: 
+      value:
       objectReference: {fileID: 2100000, guid: c7019c3c74fe62f4aba31cd28d29fc0d, type: 2}
+    - target: {fileID: -5754084199372789682, guid: a27ad70b2cfecfc4782c38e85e591f0e, type: 3}
+      propertyPath: m_Mesh
+      value:
+      objectReference: {fileID: 4300000, guid: 2d1b84c48eadd674a868a6b0e583b270, type: 2}
     - target: {fileID: 919132149155446097, guid: a27ad70b2cfecfc4782c38e85e591f0e, type: 3}
       propertyPath: m_Name
       value: Props_ExhaustFan

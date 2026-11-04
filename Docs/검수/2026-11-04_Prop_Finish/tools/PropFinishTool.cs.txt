@@ -1,0 +1,200 @@
+#region 스크립트 안내 — 역할과 호출 관계
+// 역할: 소품 메시의 원본 좌표·UV를 내보내고 베벨/스무스 결과를 별도 Mesh 에셋으로 반입한다.
+// 진입점: Export, Apply. Unity Editor 배치 실행 전용이며 런타임 코드를 변경하지 않는다.
+// 호출 관계: AssetDatabase → Blender 자료 → 새 Mesh 에셋 → 기존 모델 프리팹의 MeshFilter 오버라이드.
+// 저장 경계: 원본 FBX·씬·Transform·Collider를 보존하고, 승인된 소품 프리팹과 작업대 재질만 갱신한다.
+#endregion
+using System;
+using System.IO;
+using System.Linq;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
+using UnityEngine.SceneManagement;
+using UnityEditor;
+using UnityEditor.SceneManagement;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+
+public static class PropFinishTool
+{
+    const string Root="Assets/Afrer_Seconds/";
+    const string OldTexture=Root+"05.Model/Props/Common/Textures/Props_LaboratoryWorkbench_BaseColor.png";
+    const string NewTexture=Root+"05.Model/Props/Common/Textures/Props_LaboratoryWorkbench_BaseColor_Corrected.png";
+    const string WorkMat=Root+"05.Model/Props/Common/Materials/Props_LaboratoryWorkbench_Material_URP.mat";
+    static string Repo=>Path.GetFullPath(Path.Combine(Application.dataPath,"../../.."));
+    static string Temp=>Path.Combine(Repo,"tmp/PropEdgeFinish_20261104");
+    static string Output=>Path.Combine(Repo,"Docs/검수/2026-11-04_Prop_Finish");
+    static float[] V(Vector3 v)=>new[]{v.x,v.y,v.z};
+    static string P(Transform t)=>t.parent?P(t.parent)+"/"+t.name:t.name;
+    static Transform[] All(Scene s)=>s.GetRootGameObjects().SelectMany(g=>g.GetComponentsInChildren<Transform>(true)).ToArray();
+    static string[] Stages()=>AssetDatabase.FindAssets("t:Scene",new[]{Root+"01.Scenes/Stage"}).Select(AssetDatabase.GUIDToAssetPath).OrderBy(p=>p).ToArray();
+    static string Floor(string s)=>s.Contains("B5")?"B5":s.Contains("B4")?"B4":s.Contains("B3")?"B3":s.Contains("B2")?"B2":s.Contains("B1")?"B1":"1F";
+    static string Key(Mesh m)=>AssetDatabase.GetAssetPath(m)+"|"+m.name;
+    static bool IsPropAsset(string path)=>path.StartsWith(Root+"05.Model/Props/")||System.Text.RegularExpressions.Regex.IsMatch(Path.GetFileName(path),@"^U\d{2}_");
+    static void Save(string path,object obj)=>File.WriteAllText(path,JsonConvert.SerializeObject(obj,Formatting.Indented));
+    static float Scale(Transform t){var s=t.lossyScale;return Mathf.Pow(Mathf.Abs(s.x*s.y*s.z),1f/3);}
+    public static void Render(Scene scene,string name,Vector3 eye,Vector3 target)
+    {
+        var hidden=new List<Renderer>();
+        foreach(var cc in All(scene).SelectMany(t=>t.GetComponents<CharacterController>())) foreach(var r in cc.GetComponentsInChildren<Renderer>(true)) if(r.enabled){r.enabled=false;hidden.Add(r);}
+        var g=new GameObject("Temporary_PropFinishCamera");g.hideFlags=HideFlags.HideAndDontSave;
+        var c=g.AddComponent<Camera>();c.enabled=false;c.transform.SetPositionAndRotation(eye,Quaternion.LookRotation(target-eye));c.fieldOfView=62;c.nearClipPlane=.035f;c.farClipPlane=200;c.useOcclusionCulling=false;c.allowHDR=true;
+        c.GetUniversalAdditionalCameraData().renderPostProcessing=true;c.GetUniversalAdditionalCameraData().volumeLayerMask=~0;
+        var rt=new RenderTexture(1280,800,24);var prev=RenderTexture.active;
+        try{c.targetTexture=rt;c.Render();c.Render();c.Render();RenderTexture.active=rt;var img=new Texture2D(1280,800,TextureFormat.RGB24,false);img.ReadPixels(new Rect(0,0,1280,800),0,0);img.Apply();File.WriteAllBytes(Path.Combine(Output,name+".png"),img.EncodeToPNG());UnityEngine.Object.DestroyImmediate(img);}
+        finally{c.targetTexture=null;RenderTexture.active=prev;rt.Release();UnityEngine.Object.DestroyImmediate(rt);UnityEngine.Object.DestroyImmediate(g);foreach(var r in hidden)r.enabled=true;}
+    }
+    static void ImportTexture()
+    {
+        AssetDatabase.ImportAsset(NewTexture,ImportAssetOptions.ForceSynchronousImport);
+        var src=(TextureImporter)AssetImporter.GetAtPath(OldTexture);var dst=(TextureImporter)AssetImporter.GetAtPath(NewTexture);
+        var settings=new TextureImporterSettings();src.ReadTextureSettings(settings);dst.SetTextureSettings(settings);dst.maxTextureSize=src.maxTextureSize;dst.textureCompression=src.textureCompression;dst.SaveAndReimport();
+    }
+    #region 의사코드 — PropFinishTool.Export
+    // 1. 소품만의 활성 메시와 실제 배치 스케일을 읽는다.
+    // 2. 원본 로컬 정점·삼각형·UV를 내보내 축과 피벗을 바꾸지 않는다.
+    // 3. 벽·문틀의 축정렬 삼각형을 별도로 내보내 공면 중첩 후보를 찾는다.
+    // 4. 보정 텍스처를 임시 재질로 미리 보고 복원한다. 씬은 저장하지 않는다.
+    #endregion
+    public static void VerifySaved()
+    {
+        try{
+            AssetDatabase.ImportAsset(Root+"06.Data/AssetSources/PropEdgeFinish_20261104.json",ImportAssetOptions.ForceSynchronousImport);
+            var application=JObject.Parse(File.ReadAllText(Path.Combine(Output,"application.json")));var checks=new List<object>();int invalid=0;
+            foreach(var item in application["assets"]){var mesh=AssetDatabase.LoadAssetAtPath<Mesh>((string)item["asset"]);if(!mesh)throw new Exception("Missing saved mesh");int bad=mesh.vertices.Count(v=>!float.IsFinite(v.x)||!float.IsFinite(v.y)||!float.IsFinite(v.z))+mesh.normals.Count(v=>!float.IsFinite(v.x)||!float.IsFinite(v.y)||!float.IsFinite(v.z))+mesh.uv.Count(v=>!float.IsFinite(v.x)||!float.IsFinite(v.y));invalid+=bad;checks.Add(new{asset=(string)item["asset"],mesh.vertexCount,badValues=bad,uvCount=mesh.uv.Length,normalCount=mesh.normals.Length});}
+            var scenes=new List<object>();foreach(var path in Stages()){var scene=EditorSceneManager.OpenScene(path,OpenSceneMode.Single);var all=All(scene);int missing=all.SelectMany(t=>t.GetComponents<MeshFilter>()).Count(m=>!m.sharedMesh)+all.SelectMany(t=>t.GetComponents<Renderer>()).Sum(r=>r.sharedMaterials.Count(m=>!m));invalid+=missing;scenes.Add(new{path,missingReferences=missing,saved=false});}
+            Save(Path.Combine(Output,"saved_asset_verification.json"),new{unity=Application.unityVersion,invalid,meshes=checks,scenes});Debug.Log("PROP_VERIFY_DONE "+invalid);EditorApplication.Exit(invalid==0?0:4);
+        }catch(Exception ex){Debug.LogException(ex);EditorApplication.Exit(3);}
+    }
+    public static void PreviewAndInspect()
+    {
+        try{
+            ImportTexture();var old=JArray.Parse(File.ReadAllText(Path.Combine(Temp,"review_photos.json")));
+            foreach(var path in Stages()){
+                var shots=old.Where(s=>(string)s["scene"]==path&&(string)s["file"]==Floor(path)+"_Workbench_original.png").ToArray();if(shots.Length==0)continue;
+                var scene=EditorSceneManager.OpenScene(path,OpenSceneMode.Single);var rr=All(scene).SelectMany(t=>t.GetComponents<Renderer>()).Where(r=>r.sharedMaterials.Any(m=>m&&AssetDatabase.GetAssetPath(m)==WorkMat)).ToArray();
+                var saved=rr.ToDictionary(r=>r,r=>r.sharedMaterials);var clones=new List<Material>();
+                foreach(var r in rr)r.sharedMaterials=r.sharedMaterials.Select(m=>{if(!m||AssetDatabase.GetAssetPath(m)!=WorkMat)return m;var c=new Material(m);c.SetTexture("_BaseMap",AssetDatabase.LoadAssetAtPath<Texture2D>(NewTexture));clones.Add(c);return c;}).ToArray();
+                foreach(var s in shots){var e=s["eye"].ToObject<float[]>();var t=s["target"].ToObject<float[]>();Render(scene,Floor(path)+"_texture_rebake_preview",new Vector3(e[0],e[1],e[2]),new Vector3(t[0],t[1],t[2]));}
+                foreach(var pair in saved)pair.Key.sharedMaterials=pair.Value;foreach(var m in clones)UnityEngine.Object.DestroyImmediate(m);
+            }
+            var candidates=JArray.Parse(File.ReadAllText(Path.Combine(Temp,"overlap_candidates.json")));var selected=new List<JToken>();
+            selected.AddRange(candidates.Where(c=>((string)c["a"]+" "+(string)c["b"]).Contains("/Frame_")).Take(3));
+            foreach(var floor in new[]{"B4","B3","B1"}){var c=candidates.FirstOrDefault(x=>((string)x["scene"]).Contains("Level_"+floor));if(c!=null)selected.Add(c);}
+            var records=new List<object>();int index=0;
+            foreach(var item in selected){var scene=EditorSceneManager.OpenScene((string)item["scene"],OpenSceneMode.Single);var all=All(scene);var ta=all.FirstOrDefault(t=>P(t)==(string)item["a"]);var tb=all.FirstOrDefault(t=>P(t)==(string)item["b"]);if(!ta||!tb)continue;var ra=ta.GetComponent<Renderer>();var rb=tb.GetComponent<Renderer>();if(!ra||!rb)continue;
+                var ex=item["examples"].OrderByDescending(x=>(float)x["area"]).First();var center=ex["center"].ToObject<float[]>();var normal=ex["normal"].ToObject<float[]>();var target=new Vector3(center[0],center[1],center[2]);var eye=target+new Vector3(normal[0],normal[1],normal[2])*1.2f;
+                string name="Overlap_"+(index++).ToString("D2")+"_"+Floor(scene.path);bool ea=ra.enabled,eb=rb.enabled;
+                try{Render(scene,name+"_both",eye,target);ra.enabled=false;Render(scene,name+"_A_hidden",eye,target);ra.enabled=ea;rb.enabled=false;Render(scene,name+"_B_hidden",eye,target);}finally{ra.enabled=ea;rb.enabled=eb;}
+                records.Add(new{scene=scene.path,a=(string)item["a"],b=(string)item["b"],overlapArea=(float)item["area"],eye=V(eye),target=V(target),files=new[]{name+"_both.png",name+"_A_hidden.png",name+"_B_hidden.png"},saved=false});
+            }
+            Save(Path.Combine(Output,"overlap_diagnostics.json"),records);Debug.Log("PROP_PREVIEW_DONE");EditorApplication.Exit(0);
+        }catch(Exception ex){Debug.LogException(ex);EditorApplication.Exit(3);}
+    }
+    #region 실제 C# 코드 — PropFinishTool.Export
+    public static void Export()
+    {
+        try{
+            Directory.CreateDirectory(Output);Directory.CreateDirectory(Path.Combine(Temp,"input"));ImportTexture();
+            var meshes=new Dictionary<string,Mesh>();var scales=new Dictionary<string,List<float>>();var planes=new List<object>();var instances=new List<object>();
+            var photos=JArray.Parse(File.ReadAllText(Path.Combine(Temp,"review_photos.json")));
+            foreach(var path in Stages()){
+                var scene=EditorSceneManager.OpenScene(path,OpenSceneMode.Single);var all=All(scene);
+                foreach(var mf in all.SelectMany(t=>t.GetComponents<MeshFilter>())){
+                    var r=mf.GetComponent<Renderer>();if(!r||!r.enabled||!r.gameObject.activeInHierarchy||!mf.sharedMesh)continue;
+                    var mesh=mf.sharedMesh;var asset=AssetDatabase.GetAssetPath(mesh);var key=Key(mesh);
+                    if(IsPropAsset(asset)&&asset.EndsWith(".fbx")){
+                        meshes[key]=mesh;if(!scales.ContainsKey(key))scales[key]=new List<float>();scales[key].Add(Scale(mf.transform));
+                        instances.Add(new{scene=path,path=P(mf.transform),key,scale=Scale(mf.transform)});
+                    }
+                    string p=P(mf.transform);
+                    if(!(p.Contains("/Geometry/")||p.Contains("RebuiltArchitectureVisual")||p.IndexOf("Door",StringComparison.OrdinalIgnoreCase)>=0||p.IndexOf("Wall",StringComparison.OrdinalIgnoreCase)>=0))continue;
+                    if(r.sharedMaterials.Any(m=>m&&m.HasProperty("_Surface")&&m.GetFloat("_Surface")>0))continue;
+                    var vv=mesh.vertices.Select(v=>mf.transform.TransformPoint(v)).ToArray();var tt=mesh.triangles;
+                    for(int i=0;i<tt.Length;i+=3){var a=vv[tt[i]];var b=vv[tt[i+1]];var c=vv[tt[i+2]];var cross=Vector3.Cross(b-a,c-a);if(cross.magnitude*.5f<.005f)continue;var n=cross.normalized;int axis=0;if(Mathf.Abs(n.y)>Mathf.Abs(n.x))axis=1;if(Mathf.Abs(n.z)>Mathf.Abs(n[axis]))axis=2;if(Mathf.Abs(n[axis])<.9999f)continue;planes.Add(new{scene=path,path=p,axis,sign=n[axis]>0?1:-1,plane=(a[axis]+b[axis]+c[axis])/3,vertices=new[]{V(a),V(b),V(c)}});}
+                }
+                foreach(var shot in photos.Where(p=>(string)p["scene"]==path&&(string)p["file"]==Floor(path)+"_Workbench_original.png")){
+                    var rr=all.SelectMany(t=>t.GetComponents<Renderer>()).Where(r=>r.sharedMaterials.Any(m=>m&&AssetDatabase.GetAssetPath(m)==WorkMat)).ToArray();
+                    var saved=rr.ToDictionary(r=>r,r=>r.sharedMaterials);var temp=new List<Material>();
+                    foreach(var r in rr)r.sharedMaterials=r.sharedMaterials.Select(m=>{if(!m||AssetDatabase.GetAssetPath(m)!=WorkMat)return m;var clone=new Material(m);clone.SetTexture("_BaseMap",AssetDatabase.LoadAssetAtPath<Texture2D>(NewTexture));temp.Add(clone);return clone;}).ToArray();
+                    Render(scene,Floor(path)+"_texture_preview",new Vector3((float)shot["eye"][0],(float)shot["eye"][1],(float)shot["eye"][2]),new Vector3((float)shot["target"][0],(float)shot["target"][1],(float)shot["target"][2]));
+                    foreach(var pair in saved)pair.Key.sharedMaterials=pair.Value;foreach(var m in temp)UnityEngine.Object.DestroyImmediate(m);
+                }
+            }
+            var list=new List<object>();int index=0;
+            foreach(var pair in meshes){var m=pair.Value;var key=pair.Key;string source=AssetDatabase.GetAssetPath(m);string id=(index++).ToString("D2")+"_"+m.name.Replace(" ","_");var sorted=scales[key].OrderBy(x=>x).ToArray();float median=sorted[sorted.Length/2];
+                var data=new{key,id,source,name=m.name,metersPerLocalUnit=median,vertices=m.vertices.Select(V).ToArray(),uv=m.uv.Select(v=>new[]{v.x,v.y}).ToArray(),submeshes=Enumerable.Range(0,m.subMeshCount).Select(m.GetTriangles).ToArray(),boundsMin=V(m.bounds.min),boundsMax=V(m.bounds.max)};
+                Save(Path.Combine(Temp,"input",id+".json"),data);list.Add(new{key,id,source,name=m.name,metersPerLocalUnit=median,triangles=m.triangles.Length/3});
+            }
+            Save(Path.Combine(Temp,"inventory.json"),list);Save(Path.Combine(Temp,"instances.json"),instances);Save(Path.Combine(Temp,"architecture_triangles.json"),planes);
+            Debug.Log("PROP_EXPORT_DONE "+meshes.Count);EditorApplication.Exit(0);
+        }catch(Exception ex){Debug.LogException(ex);EditorApplication.Exit(3);}
+    }
+    #endregion
+    static string Guard(GameObject root)=>JsonConvert.SerializeObject(root.GetComponentsInChildren<Transform>(true).Select(t=>new{path=P(t),position=V(t.localPosition),rotation=new[]{t.localRotation.x,t.localRotation.y,t.localRotation.z,t.localRotation.w},scale=V(t.localScale),colliders=t.GetComponents<Collider>().Select(c=>EditorJsonUtility.ToJson(c)).ToArray()}));
+    static void CaptureProps(string phase,JArray shots)
+    {
+        foreach(var path in Stages()){
+            var scene=EditorSceneManager.OpenScene(path,OpenSceneMode.Single);string floor=Floor(path);var all=All(scene);
+            if(phase=="before"){
+                var old=JArray.Parse(File.ReadAllText(Path.Combine(Temp,"review_photos.json")));
+                foreach(var s in old.Where(s=>(string)s["scene"]==path&&(string)s["file"]==floor+"_Workbench_original.png"))shots.Add(new JObject{["scene"]=path,["name"]=floor+"_Workbench",["eye"]=s["eye"].DeepClone(),["target"]=s["target"].DeepClone()});
+                string needle=floor=="1F"?"SecurityInspectionCounter":floor=="B1"?"P04_RecordsCabinet":floor=="B2"?"Props_HVACUnit":floor=="B3"?"P06_SampleFreezer":floor=="B4"?"U04_DuctStraight":"LivingDesk";
+                var mf=all.SelectMany(t=>t.GetComponents<MeshFilter>()).FirstOrDefault(m=>m.sharedMesh&&AssetDatabase.GetAssetPath(m.sharedMesh).Contains(needle)&&m.GetComponent<Renderer>()&&m.GetComponent<Renderer>().enabled);
+                if(mf){var b=mf.GetComponent<Renderer>().bounds;Transform room=mf.transform;while(room.parent&&!System.Text.RegularExpressions.Regex.IsMatch(room.name,@"^Room\d{2}_"))room=room.parent;var direction=room.position-b.center;direction.y=0;if(direction.sqrMagnitude<.1f)direction=new Vector3(1,0,1);direction.Normalize();var eye=b.center+direction*Mathf.Clamp(b.size.magnitude*1.2f,1.0f,4f);eye.y=Mathf.Max(room.position.y+1.65f,b.min.y+.65f);shots.Add(JObject.FromObject(new{scene=path,name=floor+"_"+needle,eye=V(eye),target=V(b.center)}));}
+            }
+            foreach(var s in shots.Where(s=>(string)s["scene"]==path)){var e=s["eye"].ToObject<float[]>();var t=s["target"].ToObject<float[]>();Render(scene,(string)s["name"]+"_"+phase,new Vector3(e[0],e[1],e[2]),new Vector3(t[0],t[1],t[2]));}
+        }
+    }
+    #region 의사코드 — PropFinishTool.Apply
+    // 1. 적용 전 사진과 원본 모델 프리팹의 Transform·충돌 기준을 보관한다.
+    // 2. Blender 결과를 원래 로컬 좌표의 새 Mesh 에셋으로 만든다.
+    // 3. 해당 소품 프리팹의 MeshFilter만 교체하고 GUID·재질·충돌을 보존한다.
+    // 4. 승인한 색 보정본을 공용 작업대 재질에 연결한다.
+    // 5. 6층을 다시 열어 참조와 전후 화면을 확인한다. 씬은 저장하지 않는다.
+    #endregion
+    #region 실제 C# 코드 — PropFinishTool.Apply
+    public static void Apply()
+    {
+        try{
+            if(!File.Exists(Path.Combine(Temp,"texture-approved.flag")))throw new Exception("Texture preview must be reviewed before applying");
+            var shots=new JArray();CaptureProps("before",shots);Save(Path.Combine(Output,"before_after_photos.json"),shots);
+            var manifest=JArray.Parse(File.ReadAllText(Path.Combine(Temp,"finish_manifest.json")));
+            var replacements=new Dictionary<string,Mesh>();var assetRecords=new List<object>();
+            foreach(var entry in manifest){string id=(string)entry["id"],source=(string)entry["source"],name=(string)entry["name"],key=(string)entry["key"];
+                var data=JObject.Parse(File.ReadAllText(Path.Combine(Temp,"output",id+".json")));var vv=data["vertices"].ToObject<float[][]>();var nn=data["normals"].ToObject<float[][]>();var uv=data["uv"].ToObject<float[][]>();var sub=data["submeshes"].ToObject<int[][]>();
+                var mesh=new Mesh();mesh.name=name+"_BevelSmooth";if(vv.Length>65535)mesh.indexFormat=IndexFormat.UInt32;
+                mesh.vertices=vv.Select(v=>new Vector3(v[0],v[1],v[2])).ToArray();mesh.normals=nn.Select(v=>new Vector3(v[0],v[1],v[2])).ToArray();mesh.uv=uv.Select(v=>new Vector2(v[0],v[1])).ToArray();mesh.subMeshCount=sub.Length;for(int i=0;i<sub.Length;i++)mesh.SetTriangles(sub[i],i);mesh.RecalculateBounds();mesh.RecalculateTangents();
+                var old=AssetDatabase.LoadAllAssetsAtPath(source).OfType<Mesh>().Single(m=>m.name==name);
+                float allowed=(float)entry["bevelWidthMeters"]/Mathf.Max(.0001f,(float)entry["metersPerLocalUnit"])*2+1e-6f;
+                float delta=Mathf.Max((mesh.bounds.min-old.bounds.min).magnitude,(mesh.bounds.max-old.bounds.max).magnitude);if(delta>allowed)throw new Exception("Bounds change beyond bevel width: "+key+" "+delta);
+                string stem=Path.GetFileNameWithoutExtension(source);bool multi=manifest.Count(m=>(string)m["source"]==source)>1;
+                string asset=Path.GetDirectoryName(source).Replace('\\','/')+"/"+stem+(multi?"_"+name:"")+"_BevelSmooth.asset";
+                if(AssetDatabase.LoadAssetAtPath<Mesh>(asset))throw new Exception("Derived asset already exists: "+asset);
+                AssetDatabase.CreateAsset(mesh,asset);replacements[key]=mesh;assetRecords.Add(new{key,asset,vertices=mesh.vertexCount,triangles=sub.Sum(s=>s.Length/3),boundsDelta=delta});
+                Debug.Log("PROP_IMPORT "+asset);
+            }
+            var changed=new List<object>();
+            foreach(var prefab in AssetDatabase.FindAssets("t:Prefab",new[]{Root+"05.Model"}).Select(AssetDatabase.GUIDToAssetPath).Where(p=>p.EndsWith(".prefab"))){
+                var contents=PrefabUtility.LoadPrefabContents(prefab);try{string before=Guard(contents);string guid=AssetDatabase.AssetPathToGUID(prefab);int count=0;
+                    foreach(var mf in contents.GetComponentsInChildren<MeshFilter>(true)){if(!mf.sharedMesh)continue;Mesh replacement;if(replacements.TryGetValue(Key(mf.sharedMesh),out replacement)){mf.sharedMesh=replacement;count++;}}
+                    if(count>0){if(before!=Guard(contents))throw new Exception("Protected prefab structure changed: "+prefab);PrefabUtility.SaveAsPrefabAsset(contents,prefab);if(guid!=AssetDatabase.AssetPathToGUID(prefab))throw new Exception("Prefab GUID changed");changed.Add(new{prefab,count,guid,transformsAndCollidersPreserved=true});}
+                }finally{PrefabUtility.UnloadPrefabContents(contents);}
+            }
+            var mat=AssetDatabase.LoadAssetAtPath<Material>(WorkMat);var tex=AssetDatabase.LoadAssetAtPath<Texture2D>(NewTexture);mat.SetTexture("_BaseMap",tex);if(mat.HasProperty("_MainTex"))mat.SetTexture("_MainTex",tex);EditorUtility.SetDirty(mat);AssetDatabase.SaveAssets();
+            var checks=new List<object>();
+            foreach(var path in Stages()){
+                var scene=EditorSceneManager.OpenScene(path,OpenSceneMode.Single);var all=All(scene);var refs=all.SelectMany(t=>t.GetComponents<MeshFilter>()).Where(m=>m.sharedMesh).ToArray();
+                var remaining=refs.Where(m=>replacements.ContainsKey(Key(m.sharedMesh))).Select(m=>P(m.transform)).ToArray();
+                var modified=refs.Where(m=>AssetDatabase.GetAssetPath(m.sharedMesh).EndsWith("_BevelSmooth.asset")).Select(m=>new{path=P(m.transform),mesh=AssetDatabase.GetAssetPath(m.sharedMesh)}).ToArray();
+                checks.Add(new{scene=path,modified,remainingOriginalPropMeshes=remaining,missingMeshes=all.SelectMany(t=>t.GetComponents<MeshFilter>()).Count(m=>!m.sharedMesh),missingMaterials=all.SelectMany(t=>t.GetComponents<Renderer>()).Sum(r=>r.sharedMaterials.Count(m=>!m)),saved=false});
+            }
+            Save(Path.Combine(Output,"application.json"),new{assets=assetRecords,prefabs=changed,scenes=checks,texture=NewTexture});
+            CaptureProps("after",shots);Save(Path.Combine(Output,"before_after_photos.json"),shots);
+            Debug.Log("PROP_APPLY_DONE");EditorApplication.Exit(0);
+        }catch(Exception ex){Debug.LogException(ex);EditorApplication.Exit(3);}
+    }
+    #endregion
+}

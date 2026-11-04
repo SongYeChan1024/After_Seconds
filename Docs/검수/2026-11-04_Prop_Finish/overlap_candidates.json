@@ -1,0 +1,4323 @@
+[
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Connector_Airlock/Geometry/Ceiling_CrossLeg",
+    "b": "B5_Level_V0.01/Connector_Airlock/Geometry/Ceiling_ExitLeg",
+    "area": 12.480000240000008,
+    "examples": [
+      {
+        "area": 0.2400000000000011,
+        "center": [
+          4.3999999999999995,
+          4.133333333333334,
+          0.200000048
+        ],
+        "normal": [
+          0,
+          0,
+          1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.15000000000000124,
+        "center": [
+          3.6,
+          4.091666666666667,
+          0.200000048
+        ],
+        "normal": [
+          0,
+          0,
+          1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.08999999999999986,
+        "center": [
+          3.6,
+          4.0249999999999995,
+          0.200000048
+        ],
+        "normal": [
+          0,
+          0,
+          1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 1.5709091366082646,
+        "center": [
+          4.763636359669422,
+          4.2,
+          -1.399999984
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Connector_Airlock/Geometry/Ceiling_CrossLeg",
+    "b": "B5_Level_V0.01/Connector_Airlock/Geometry/Ceiling_EntryLeg",
+    "area": 7.000000240000002,
+    "examples": [
+      {
+        "area": 2.6682353618823527,
+        "center": [
+          0.24705883200000012,
+          4.2,
+          -0.49999997599999996
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.6917647533176479,
+        "center": [
+          -0.870588224,
+          4.2,
+          -0.2666666346666666
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.5717647380536477,
+        "center": [
+          0.8329411599359999,
+          4.0,
+          -0.20499995707599988
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.5082352835463524,
+        "center": [
+          -0.08941178675200027,
+          4.0,
+          -0.03999995276799989
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B3_SampleStorage.unity",
+    "a": "B3_SampleLayer_Draft/Room06_DecontaminationAirlock/Floor_BesidePen/AS_CurrentArchitecture_VisualOnly/Tile_0_0_0/Env_FloorSlab_4m/RebuiltArchitectureVisual/Env_FloorSlab_4m_Rebuilt",
+    "b": "B3_SampleLayer_Draft/Room06_DecontaminationAirlock/Pen_RetainingWall",
+    "area": 2.7735137178550526,
+    "examples": [
+      {
+        "area": 0.06274250210427501,
+        "center": [
+          -4.328870781583752,
+          -0.17200275716499322,
+          -11.8
+        ],
+        "normal": [
+          0,
+          0,
+          1
+        ],
+        "planeGap": 8.000000004670937e-07
+      },
+      {
+        "area": 0.0013360549393918175,
+        "center": [
+          -4.313242295708752,
+          -0.29703064416499325,
+          -11.8
+        ],
+        "normal": [
+          0,
+          0,
+          1
+        ],
+        "planeGap": 8.000000004670937e-07
+      },
+      {
+        "area": 0.009929957214474913,
+        "center": [
+          -4.478870781583751,
+          -0.16809563569624322,
+          -11.8
+        ],
+        "normal": [
+          0,
+          0,
+          1
+        ],
+        "planeGap": 8.000000004670937e-07
+      },
+      {
+        "area": 0.001008217941858236,
+        "center": [
+          -4.463242295708752,
+          -0.2931235226962432,
+          -11.8
+        ],
+        "normal": [
+          0,
+          0,
+          1
+        ],
+        "planeGap": 8.000000004670937e-07
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Ceiling_Stair",
+    "b": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Ceiling_TopLanding",
+    "area": 2.080000000000041,
+    "examples": [
+      {
+        "area": 0.13714285714285523,
+        "center": [
+          4.971428571428572,
+          5.6,
+          -27.066666666666666
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.7792207792207648,
+        "center": [
+          3.8831168831168834,
+          5.6,
+          -27.0
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.043636363636359476,
+        "center": [
+          2.8727272727272726,
+          5.6,
+          -26.933333333333334
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.04363636363635237,
+        "center": [
+          5.127272727272728,
+          5.4,
+          -26.933333333333334
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B4_Observation.unity",
+    "a": "B4_Observation_Draft/Connector_Lightlock_Draft/Ceiling/AS_CurrentArchitecture_VisualOnly/Tile_0_0_0/Env_CeilingPanel_4m/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+    "b": "B4_Observation_Draft/Room03_ObservationCorridor/Ceiling/AS_CurrentArchitecture_VisualOnly/Tile_0_0_0/Env_CeilingPanel_4m/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+    "area": 1.4148291775128417,
+    "examples": [
+      {
+        "area": 0.046966022951327346,
+        "center": [
+          -0.10436893989183789,
+          4.29999876,
+          -10.1
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.31378397704867456,
+        "center": [
+          -0.6795267049188783,
+          4.29999876,
+          -10.15
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 4.800000006355276e-07
+      },
+      {
+        "area": 0.02925000000000022,
+        "center": [
+          -1.2349999999999999,
+          4.29999828,
+          -10.200000000000001
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.39000000000000057,
+        "center": [
+          -0.65,
+          4.059956,
+          -10.15
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "wall_ceiling_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B4_Observation.unity",
+    "a": "B4_Observation_Draft/Connector_Lightlock_Draft/Ceiling/AS_CurrentArchitecture_VisualOnly/Tile_0_0_0/Env_CeilingPanel_4m/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+    "b": "B4_Observation_Draft/Room03_ObservationCorridor/Ceiling/AS_CurrentArchitecture_VisualOnly/Tile_1_0_0/Env_CeilingPanel_4m/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+    "area": 1.4148287137149675,
+    "examples": [
+      {
+        "area": 0.39000000000000057,
+        "center": [
+          0.65,
+          4.29999876,
+          -10.15
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 4.800000006355276e-07
+      },
+      {
+        "area": 0.046966022951327346,
+        "center": [
+          0.10436893989183789,
+          4.059956,
+          -10.1
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.31378397704867456,
+        "center": [
+          0.6795267049188783,
+          4.059956,
+          -10.15
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.02925000000000022,
+        "center": [
+          1.2349999999999999,
+          4.059956,
+          -10.200000000000001
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "wall_ceiling_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B4_Observation.unity",
+    "a": "B4_Observation_Draft/Exit_B3_StairVestibule_Draft/Stair_Wall",
+    "b": "B4_Observation_Draft/Room04_ControlDeck/Wall_N/AS_CurrentArchitecture_VisualOnly/Tile_0_1_0/Env_ConcreteWall_4m/RebuiltArchitectureVisual/Env_ConcreteWall_4m_Rebuilt",
+    "area": 1.4000748759879684,
+    "examples": [
+      {
+        "area": 0.35001714399724193,
+        "center": [
+          -1.0,
+          3.9999998399999996,
+          -27.1111068
+        ],
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.3500202939967423,
+        "center": [
+          -1.0,
+          4.999999679999999,
+          -27.1888891
+        ],
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.35001714399724193,
+        "center": [
+          1.0,
+          3.999999839999998,
+          -27.1888891
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.3500202939967423,
+        "center": [
+          1.0,
+          4.999999680000001,
+          -27.111107500000003
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B3_SampleStorage.unity",
+    "a": "B3_SampleLayer_Draft/Room06_DecontaminationAirlock/Floor_SouthOfPen/AS_CurrentArchitecture_VisualOnly/Tile_1_0_0/Env_FloorSlab_4m/RebuiltArchitectureVisual/Env_FloorSlab_4m_Rebuilt",
+    "b": "B3_SampleLayer_Draft/Room06_DecontaminationAirlock/Pen_RetainingWall",
+    "area": 1.2809635490387985,
+    "examples": [
+      {
+        "area": 0.2539273703246767,
+        "center": [
+          -2.388190017926418,
+          0.0,
+          -11.68145122411977
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 3.94384051e-06
+      },
+      {
+        "area": 0.05825781847473621,
+        "center": [
+          -3.4664871812704265,
+          0.0,
+          -11.753781222242138
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 3.93390656e-06
+      },
+      {
+        "area": 0.016181119138664712,
+        "center": [
+          -3.102689775206262,
+          0.0,
+          -11.708306546484117
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 3.91900539e-06
+      },
+      {
+        "area": 0.08649218397614256,
+        "center": [
+          -2.584254761220816,
+          0.0,
+          -11.549015877987737
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 3.94384051e-06
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B3_SampleStorage.unity",
+    "a": "B3_SampleLayer_Draft/Room06_DecontaminationAirlock/Floor_NorthOfPen/AS_CurrentArchitecture_VisualOnly/Tile_1_0_1/Env_FloorSlab_4m/RebuiltArchitectureVisual/Env_FloorSlab_4m_Rebuilt",
+    "b": "B3_SampleLayer_Draft/Room06_DecontaminationAirlock/Pen_RetainingWall",
+    "area": 1.237907317607139,
+    "examples": [
+      {
+        "area": 0.2911426600476969,
+        "center": [
+          -2.91790907682619,
+          -0.11602855638690504,
+          -14.2
+        ],
+        "normal": [
+          0,
+          0,
+          1
+        ],
+        "planeGap": 1.0999999986438525e-06
+      },
+      {
+        "area": 0.22148579630163776,
+        "center": [
+          -2.79288118982619,
+          -0.241056443386905,
+          -14.2
+        ],
+        "normal": [
+          0,
+          0,
+          1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.008924268752303163,
+        "center": [
+          -4.117909076826191,
+          -0.07852019028690498,
+          -14.2
+        ],
+        "normal": [
+          0,
+          0,
+          1
+        ],
+        "planeGap": 1.0999999986438525e-06
+      },
+      {
+        "area": 0.07858113249836202,
+        "center": [
+          -3.9928811898261904,
+          -0.20354807728690502,
+          -14.2
+        ],
+        "normal": [
+          0,
+          0,
+          1
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Pit_Wall_South",
+    "b": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_SouthDeck_01/RebuiltArchitectureVisual/Env_FloorSlab_4m_Rebuilt",
+    "area": 1.219982608800006,
+    "examples": [
+      {
+        "area": 0.19876183341524306,
+        "center": [
+          0.5279894924873035,
+          -0.05845880537059374,
+          -7.0
+        ],
+        "normal": [
+          0,
+          0,
+          -1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.00128220577232184,
+        "center": [
+          -1.7863353701633684,
+          -0.09743134228432292,
+          -7.0
+        ],
+        "normal": [
+          0,
+          0,
+          -1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.18455631988952434,
+        "center": [
+          -0.5644573569656052,
+          -0.03076743561765623,
+          -7.0
+        ],
+        "normal": [
+          0,
+          0,
+          -1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.01538308092291081,
+        "center": [
+          -1.897441881274479,
+          -0.06409938895098956,
+          -7.0
+        ],
+        "normal": [
+          0,
+          0,
+          -1
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "wall_ceiling_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Pit_Wall_North",
+    "b": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_NorthDeck_06/RebuiltArchitectureVisual/Env_FloorSlab_4m_Rebuilt",
+    "area": 1.2199797792009515,
+    "examples": [
+      {
+        "area": 0.019059780420279768,
+        "center": [
+          10.0,
+          -0.0413264908865328,
+          -13.081270887462978
+        ],
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0002777518364216469,
+        "center": [
+          10.0,
+          -0.06666358696305573,
+          -13.001852764460992
+        ],
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0006615269442481336,
+        "center": [
+          10.0,
+          -0.0022138871811763585,
+          -13.133599047977304
+        ],
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0012821920146572907,
+        "center": [
+          9.786336386142212,
+          -0.09743087749066932,
+          -13.0
+        ],
+        "normal": [
+          0,
+          0,
+          1
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "wall_ceiling_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Pit_Wall_South",
+    "b": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_SouthDeck_03/RebuiltArchitectureVisual/Env_FloorSlab_4m_Rebuilt",
+    "area": 1.2199472492824786,
+    "examples": [
+      {
+        "area": 0.0006314531762465769,
+        "center": [
+          10.0,
+          -0.09783085950153643,
+          -6.870249939231567
+        ],
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.019089961020800905,
+        "center": [
+          10.0,
+          -0.048374187403939374,
+          -6.901298623466886
+        ],
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.00024239508541978871,
+        "center": [
+          10.0,
+          -0.06227619689265506,
+          -6.8017314979558465
+        ],
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.20004403918756486,
+        "center": [
+          8.999738393231656,
+          -0.049997929999999996,
+          -7.0
+        ],
+        "normal": [
+          0,
+          0,
+          -1
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "wall_ceiling_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Pit_Wall_North",
+    "b": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_NorthDeck_02/RebuiltArchitectureVisual/Env_FloorSlab_4m_Rebuilt",
+    "area": 1.2199444196886564,
+    "examples": [
+      {
+        "area": 0.0006314593318222927,
+        "center": [
+          -2.0,
+          -0.09837164352324325,
+          -13.097313460361978
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.01908984785987411,
+        "center": [
+          -2.0,
+          -0.048373945745383055,
+          -13.098702284127477
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.00024239249697932674,
+        "center": [
+          -2.0,
+          -0.06227589551790382,
+          -13.19826931216997
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.2000437940663588,
+        "center": [
+          -0.9997348174167705,
+          -0.04999769,
+          -13.0
+        ],
+        "normal": [
+          0,
+          0,
+          1
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "wall_ceiling_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Pit_Wall_South",
+    "b": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_SouthDeck_02/RebuiltArchitectureVisual/Env_FloorSlab_4m_Rebuilt",
+    "area": 1.1999834400000053,
+    "examples": [
+      {
+        "area": 0.20004403918756497,
+        "center": [
+          4.999738393231656,
+          -0.049997929999999996,
+          -7.0
+        ],
+        "normal": [
+          0,
+          0,
+          -1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.19993940081243516,
+        "center": [
+          3.332984524308874,
+          -0.03333195333333333,
+          -7.0
+        ],
+        "normal": [
+          0,
+          0,
+          -1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.3763636363636387,
+        "center": [
+          3.91060606060606,
+          2.62856483e-05,
+          -6.849621212121212
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 2.62856483e-05
+      },
+      {
+        "area": 0.3969696969696992,
+        "center": [
+          3.9772727272727275,
+          2.62856483e-05,
+          -6.949621212121212
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 2.62856483e-05
+      }
+    ],
+    "classification": "wall_ceiling_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Pit_Wall_North",
+    "b": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_NorthDeck_04/RebuiltArchitectureVisual/Env_FloorSlab_4m_Rebuilt",
+    "area": 1.1999807200000057,
+    "examples": [
+      {
+        "area": 0.20004379406635886,
+        "center": [
+          3.0002651825832296,
+          -0.04999769,
+          -13.0
+        ],
+        "normal": [
+          0,
+          0,
+          1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.19993772593364117,
+        "center": [
+          4.667020243444306,
+          -0.03333179333333333,
+          -13.0
+        ],
+        "normal": [
+          0,
+          0,
+          1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.00303038780984366,
+        "center": [
+          2.0227279237258875,
+          2.62856483e-05,
+          -13.033713092794414
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 2.62856483e-05
+      },
+      {
+        "area": 0.023636492189917035,
+        "center": [
+          2.0893945237258875,
+          2.62856483e-05,
+          -13.133712992794415
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 2.62856483e-05
+      }
+    ],
+    "classification": "wall_ceiling_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Stair_EastWall",
+    "b": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Vestibule_North_East",
+    "area": 1.0176072080000067,
+    "examples": [
+      {
+        "area": 0.479244708754909,
+        "center": [
+          5.0,
+          2.079576224847691,
+          -23.06248256588072
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.4074028484498209,
+        "center": [
+          5.0,
+          1.5413225223009117,
+          -23.163310654507626
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0007586912450932015,
+        "center": [
+          5.0,
+          0.10610163313025534,
+          -23.003309521174298
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.07260055155018463,
+        "center": [
+          5.0,
+          0.15599189172568542,
+          -23.12248299088072
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Stair_WestWall",
+    "b": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Vestibule_North_West",
+    "area": 1.0175579925533427,
+    "examples": [
+      {
+        "area": 0.4800034000000011,
+        "center": [
+          3.0,
+          2.6666666666666665,
+          -23.160001133333335
+        ],
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.4800034000000011,
+        "center": [
+          3.0,
+          1.3333333333333355,
+          -23.080000566666666
+        ],
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.00321119513512258,
+        "center": [
+          2.993275919669548,
+          -2.38418579e-07,
+          -23.11879459506897
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 2.38418579e-07
+      },
+      {
+        "area": 0.04747712195256781,
+        "center": [
+          2.8732760346695483,
+          -2.38418579e-07,
+          -23.104394506869067
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 2.38418579e-07
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Connector_Airlock/Geometry/Wall_West_Outer",
+    "b": "B5_Level_V0.01/Room01_Isolation/Geometry/Door01_To_Airlock/Frame_Left",
+    "area": 0.8920000000000008,
+    "examples": [
+      {
+        "area": 0.03173107532868302,
+        "center": [
+          -1.0,
+          2.7317610649921384,
+          1.9133332374285779
+        ],
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.48221629309237013,
+        "center": [
+          -1.0,
+          2.0958987442584407,
+          1.9959999424571468
+        ],
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.3540526315789476,
+        "center": [
+          -1.0,
+          0.7614035087719303,
+          2.016666666666667
+        ],
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.010520833333333313,
+        "center": [
+          -1.0572916666666667,
+          0.0,
+          2.0438541666666667
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Connector_Airlock/Geometry/Wall_East_Entry",
+    "b": "B5_Level_V0.01/Room01_Isolation/Geometry/Door01_To_Airlock/Frame_Right",
+    "area": 0.8920000000000003,
+    "examples": [
+      {
+        "area": 0.3540526315789476,
+        "center": [
+          1.0,
+          2.0385964912280694,
+          2.016666666666667
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.44667736368812766,
+        "center": [
+          1.0,
+          0.9374473760548024,
+          1.965
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.06727000473292505,
+        "center": [
+          1.0,
+          0.14466667684500004,
+          1.9133333333333333
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.008020833333333366,
+        "center": [
+          1.1447916666666667,
+          0.0,
+          2.0348958333333336
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Exit_StairVestibule/Geometry/B4_Link_Locked_NoSceneTransition/Frame_Left",
+    "b": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Landing_WestWall",
+    "area": 0.7800000000000011,
+    "examples": [
+      {
+        "area": 0.1494812030075252,
+        "center": [
+          3.0,
+          3.1052631578947363,
+          -28.052857142857146
+        ],
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.10743809696395346,
+        "center": [
+          3.0,
+          4.049947907228369,
+          -27.930364212590437
+        ],
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.009133331607465323,
+        "center": [
+          3.0,
+          3.666597209637826,
+          -27.940009426311054
+        ],
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.47051879699247934,
+        "center": [
+          3.0,
+          2.503157894736842,
+          -27.955714285714286
+        ],
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Exit_StairVestibule/Geometry/B4_Link_Locked_NoSceneTransition/Frame_Right",
+    "b": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Landing_EastWall",
+    "area": 0.779999999999994,
+    "examples": [
+      {
+        "area": 0.16774359872170663,
+        "center": [
+          5.0,
+          3.2531233306527834,
+          -27.936502412874145
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.10368497270686206,
+        "center": [
+          5.0,
+          2.470831107537047,
+          -27.888193693356
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.1599999999999966,
+        "center": [
+          5.0,
+          4.0,
+          -27.91
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.005236222456503015,
+        "center": [
+          5.0,
+          3.509497389640723,
+          -28.082003217165525
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Door02_From_Airlock/Frame_Right",
+    "b": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Wall_South_Right",
+    "area": 0.5699999999999998,
+    "examples": [
+      {
+        "area": 0.0007259130565042682,
+        "center": [
+          5.149383984148698,
+          0.0,
+          -3.996429572182526
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.027774086943495035,
+        "center": [
+          5.124383984148698,
+          0.0,
+          -3.9014295721825256
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.00023408602349483942,
+        "center": [
+          5.065845312198263,
+          0.0,
+          -3.9984394265100343
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.009265913976506113,
+        "center": [
+          5.032511978864931,
+          0.0,
+          -3.9351060931767012
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Door02_To_StairVestibule/Frame_Left",
+    "b": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Wall_North_Left",
+    "area": 0.5699957999999992,
+    "examples": [
+      {
+        "area": 0.00926584380020401,
+        "center": [
+          2.9674880278058122,
+          0.0,
+          -20.064893441331986
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0002340861998000321,
+        "center": [
+          2.934154694472479,
+          0.0,
+          -20.00156057466532
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.027773876199798764,
+        "center": [
+          2.875616020854359,
+          0.0,
+          -20.09856973099899
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0007259138002062571,
+        "center": [
+          2.850616020854359,
+          0.0,
+          -20.00357043099899
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Door02_To_StairVestibule/Frame_Right",
+    "b": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Wall_North_Right",
+    "area": 0.5699957999999938,
+    "examples": [
+      {
+        "area": 0.009499930000004042,
+        "center": [
+          5.166666666666667,
+          0.0,
+          -20.063332866666666
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.028499789999997915,
+        "center": [
+          5.075,
+          0.0,
+          -20.094999299999998
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.13299901999999797,
+        "center": [
+          5.0,
+          2.3333333333333335,
+          -20.063332866666666
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.1884168156991901,
+        "center": [
+          5.0,
+          1.604162620937224,
+          -20.094999299999998
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Connector_Airlock/Geometry/Wall_West_Outer",
+    "b": "B5_Level_V0.01/Room01_Isolation/Habitat_Architecture_Visuals/Wall_North_Left/Wall_North_Left_1_0_0/Env_ConcreteWall_4m/RebuiltArchitectureVisual/Env_ConcreteWall_4m_Rebuilt",
+    "area": 0.5226955153779276,
+    "examples": [
+      {
+        "area": 0.00500035677074484,
+        "center": [
+          -1.0,
+          2.743625006686747,
+          1.9509315146548476
+        ],
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.024585867766646174,
+        "center": [
+          -1.0,
+          2.712805686050372,
+          1.857592997246921
+        ],
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.3144244995365874,
+        "center": [
+          -1.0,
+          1.0748999306905023,
+          1.9077074589186143
+        ],
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.1786847913039491,
+        "center": [
+          -1.0,
+          1.3128055910503718,
+          1.8212950373514558
+        ],
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Connector_Airlock/Geometry/Wall_East_Entry",
+    "b": "B5_Level_V0.01/Room01_Isolation/Habitat_Architecture_Visuals/Wall_North_Right/Wall_North_Right_0_0_0/Env_ConcreteWall_4m/RebuiltArchitectureVisual/Env_ConcreteWall_4m_Rebuilt",
+    "area": 0.5226955153779256,
+    "examples": [
+      {
+        "area": 0.2578808397454797,
+        "center": [
+          1.0,
+          1.572015995166515,
+          1.840834493304154
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.2020920765427688,
+        "center": [
+          1.0,
+          1.5066790604407687,
+          1.934172992721573
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.06154401775180407,
+        "center": [
+          1.0,
+          0.13761272147431652,
+          1.8777071688205893
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0011785813378729082,
+        "center": [
+          1.0,
+          0.14223862282286756,
+          1.9695148924427217
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Room01_Isolation/Geometry/Door01_To_Airlock/Frame_Right",
+    "b": "B5_Level_V0.01/Room01_Isolation/Habitat_Architecture_Visuals/Wall_North_Right/Wall_North_Right_0_0_0/Env_ConcreteWall_4m/RebuiltArchitectureVisual/Env_ConcreteWall_4m_Rebuilt",
+    "area": 0.49002433746483803,
+    "examples": [
+      {
+        "area": 0.0019636714769726282,
+        "center": [
+          1.0,
+          2.7278639357990024,
+          1.8258391770456275
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.2521216956939529,
+        "center": [
+          1.0,
+          1.0767183628205064,
+          1.862542930656367
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.09633243340271758,
+        "center": [
+          1.0,
+          2.4450059184074484,
+          1.9035500190687829
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.10693819689119533,
+        "center": [
+          1.0,
+          1.393341226778439,
+          1.9286842576215093
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Room01_Isolation/Geometry/Door01_To_Airlock/Frame_Left",
+    "b": "B5_Level_V0.01/Room01_Isolation/Habitat_Architecture_Visuals/Wall_North_Left/Wall_North_Left_1_0_0/Env_ConcreteWall_4m/RebuiltArchitectureVisual/Env_ConcreteWall_4m_Rebuilt",
+    "area": 0.490024337464837,
+    "examples": [
+      {
+        "area": 0.21587781539301498,
+        "center": [
+          -1.0,
+          1.450716206600698,
+          1.8997080060988936
+        ],
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.09829647817515005,
+        "center": [
+          -1.0,
+          0.30089217583671757,
+          1.9091716089931885
+        ],
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.14318170389667229,
+        "center": [
+          -1.0,
+          2.016670778787381,
+          1.850619136322053
+        ],
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.006755685989666582,
+        "center": [
+          -1.0275728161258124,
+          -2.23517449e-09,
+          1.916835583972377
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 2.23517449e-09
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Room01_Isolation/Geometry/Door01_To_Airlock/Frame_Top",
+    "b": "B5_Level_V0.01/Room01_Isolation/Habitat_Architecture_Visuals/Wall_North_AboveDoor_FlatPanel",
+    "area": 0.3799999999999998,
+    "examples": [
+      {
+        "area": 0.0450349301397206,
+        "center": [
+          0.810379241516966,
+          2.8,
+          1.924467731204258
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 1.9000000017754815e-07
+      },
+      {
+        "area": 0.10538173652694593,
+        "center": [
+          0.46195109780439136,
+          2.8,
+          1.8483507984031937
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 1.9000000017754815e-07
+      },
+      {
+        "area": 0.03413173652694612,
+        "center": [
+          0.4770459081836326,
+          2.8,
+          1.977245508982036
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 1.9000000017754815e-07
+      },
+      {
+        "area": 0.19545159680638713,
+        "center": [
+          -0.4304391217564869,
+          2.8,
+          1.9103473053892217
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 1.9000000017754815e-07
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Door02_To_StairVestibule/Frame_Top",
+    "b": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Wall_North_AboveDoor",
+    "area": 0.37999719999999115,
+    "examples": [
+      {
+        "area": 0.045034455236688586,
+        "center": [
+          4.810379843907527,
+          2.80000019,
+          -20.075531807619985
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.03413162809664527,
+        "center": [
+          4.477046510574192,
+          2.80000019,
+          -20.022754418731097
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.10537999477146798,
+        "center": [
+          4.461954466263981,
+          2.80000019,
+          -20.151648155714987
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.19545112189518932,
+        "center": [
+          3.5695635730111825,
+          2.80000019,
+          -20.089652091238655
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Door02_From_Airlock/Frame_Top",
+    "b": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Wall_South_AboveDoor",
+    "area": 0.37904999999999944,
+    "examples": [
+      {
+        "area": 0.19516985229237438,
+        "center": [
+          4.430956752695812,
+          2.80000019,
+          -3.9103962295804804
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.10550316854095865,
+        "center": [
+          3.5411959408697653,
+          2.80000019,
+          -3.848609870308934
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.033839378918555596,
+        "center": [
+          3.525135749969967,
+          2.80000019,
+          -3.9773270493008006
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.04453760024811082,
+        "center": [
+          3.193469083303301,
+          2.80000019,
+          -3.9248131604119116
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Ceiling_TopLanding",
+    "b": "B5_Level_V0.01/Exit_StairVestibule/VARCO_Visuals/FireDoor_B4_LockedBoundary_VisualOnly/RebuiltArchitectureVisual/Env_FireDoorWall_3m_Rebuilt",
+    "area": 0.3288208800000234,
+    "examples": [
+      {
+        "area": 0.1386262150991442,
+        "center": [
+          4.108066956656306,
+          5.6,
+          -28.09778762445049
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.02578422490086041,
+        "center": [
+          2.9080669566563055,
+          5.6,
+          -28.070385884450488
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.15731244772125308,
+        "center": [
+          4.16678497094202,
+          5.6,
+          -28.02928327445049
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.00709799227876573,
+        "center": [
+          2.9667849709420193,
+          5.6,
+          -28.00188153445049
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_Ceiling_09/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+    "b": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_East_01/RebuiltArchitectureVisual/Env_ObservationWall_4m_Rebuilt/Env_ObservationWall_4m_Opaque",
+    "area": 0.27652235968521666,
+    "examples": [
+      {
+        "area": 0.00029737922730532773,
+        "center": [
+          9.936411599345464,
+          3.921259083508939,
+          -16.0
+        ],
+        "normal": [
+          0,
+          0,
+          1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.007470489822495097,
+        "center": [
+          9.968625699509097,
+          3.940454717538549,
+          -16.0
+        ],
+        "normal": [
+          0,
+          0,
+          1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.007769586198861589,
+        "center": [
+          9.973719496474873,
+          3.9516156686434245,
+          -20.0
+        ],
+        "normal": [
+          0,
+          0,
+          -1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.2110259592957675,
+        "center": [
+          9.961372971915532,
+          4.0000267,
+          -18.06824930194693
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 2.6700000000268176e-05
+      }
+    ],
+    "classification": "wall_ceiling_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B4_Observation.unity",
+    "a": "B4_Observation_Draft/Exit_B3_StairVestibule_Draft/Stair_Wall",
+    "b": "B4_Observation_Draft/Room04_ControlDeck/Wall_N/AS_CurrentArchitecture_VisualOnly/Tile_0_0_0/Env_ConcreteWall_4m/RebuiltArchitectureVisual/Env_ConcreteWall_4m_Rebuilt",
+    "area": 0.23334650098731657,
+    "examples": [
+      {
+        "area": 0.009722682888060774,
+        "center": [
+          -1.0,
+          2.6666665066666666,
+          -27.04628878962912
+        ],
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.10695056760559396,
+        "center": [
+          -1.0,
+          2.7499997599999997,
+          -27.15972125472191
+        ],
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.004258652967678245,
+        "center": [
+          1.0,
+          2.779313260877857,
+          -27.25786083131678
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.08908016869942514,
+        "center": [
+          1.0,
+          2.7955937132505277,
+          -27.14339025487579
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B4_Observation.unity",
+    "a": "B4_Observation_Draft/Connector_Lightlock_Draft/Wall/AS_CurrentArchitecture_VisualOnly/Tile_0_0_0/Env_ConcreteWall_4m/RebuiltArchitectureVisual/Env_ConcreteWall_4m_Rebuilt",
+    "b": "B4_Observation_Draft/Room03_ObservationCorridor/Wall_N/AS_CurrentArchitecture_VisualOnly/Tile_0_0_0/Env_ConcreteWall_4m/RebuiltArchitectureVisual/Env_ConcreteWall_4m_Rebuilt",
+    "area": 0.21759748013873104,
+    "examples": [
+      {
+        "area": 0.001989372672607459,
+        "center": [
+          -1.2619942337920098,
+          0.0,
+          -10.16030814233379
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.04973843792126331,
+        "center": [
+          -1.1453214757701797,
+          0.0,
+          -10.155770622126644
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0026699439061887986,
+        "center": [
+          -1.1487245948550684,
+          0.0,
+          -10.039097622126645
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.002673137523840907,
+        "center": [
+          -1.1577197259825225,
+          4.0,
+          -10.260540368913503
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "wall_ceiling_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_Ceiling_02/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+    "b": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_West_02/RebuiltArchitectureVisual/Env_ConcreteWall_4m_Rebuilt",
+    "area": 0.21190751421981746,
+    "examples": [
+      {
+        "area": 0.0059642259218182225,
+        "center": [
+          -1.9798196640217243,
+          3.9517075883827744,
+          -12.0
+        ],
+        "normal": [
+          0,
+          0,
+          1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.00024598688599963836,
+        "center": [
+          -1.951378510703788,
+          3.9209623284897486,
+          -16.0
+        ],
+        "normal": [
+          0,
+          0,
+          -1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.00571688409789628,
+        "center": [
+          -1.9760352465086086,
+          3.9403466409558523,
+          -16.0
+        ],
+        "normal": [
+          0,
+          0,
+          -1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0012080126846569783,
+        "center": [
+          -1.9672264311409051,
+          4.0000267,
+          -12.016104932192428
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 2.6700000000268176e-05
+      }
+    ],
+    "classification": "wall_ceiling_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_Ceiling_04/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+    "b": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_West_04/RebuiltArchitectureVisual/Env_ConcreteWall_4m_Rebuilt",
+    "area": 0.21190751421981613,
+    "examples": [
+      {
+        "area": 0.0059642259218182225,
+        "center": [
+          -1.9798196640217243,
+          3.9517075883827744,
+          -4.0
+        ],
+        "normal": [
+          0,
+          0,
+          1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.00024598688599963836,
+        "center": [
+          -1.951378510703788,
+          3.9209623284897486,
+          -8.0
+        ],
+        "normal": [
+          0,
+          0,
+          -1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.00571688409789628,
+        "center": [
+          -1.9760352465086086,
+          3.9403466409558523,
+          -8.0
+        ],
+        "normal": [
+          0,
+          0,
+          -1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0012080126846560901,
+        "center": [
+          -1.9672264311409051,
+          4.0000267,
+          -4.0161049321924285
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 2.6700000000268176e-05
+      }
+    ],
+    "classification": "wall_ceiling_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_Ceiling_11/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+    "b": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_East_03/RebuiltArchitectureVisual/Env_ConcreteWall_4m_Rebuilt",
+    "area": 0.21190674151545963,
+    "examples": [
+      {
+        "area": 0.0002459858832928319,
+        "center": [
+          9.951377940430083,
+          3.9209626617573696,
+          -8.0
+        ],
+        "normal": [
+          0,
+          0,
+          1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.005716928315905534,
+        "center": [
+          9.976034962728418,
+          3.940346885900494,
+          -8.0
+        ],
+        "normal": [
+          0,
+          0,
+          1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.005964108686377756,
+        "center": [
+          9.979824690401419,
+          3.9517072623926284,
+          -12.0
+        ],
+        "normal": [
+          0,
+          0,
+          -1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.034511648478762424,
+        "center": [
+          9.983895357731795,
+          4.0000267,
+          -11.50768141334373
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 2.6700000000268176e-05
+      }
+    ],
+    "classification": "wall_ceiling_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_Ceiling_12/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+    "b": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_East_04/RebuiltArchitectureVisual/Env_MetalWall_4m_Rebuilt",
+    "area": 0.21190250362048602,
+    "examples": [
+      {
+        "area": 0.0002459909361753887,
+        "center": [
+          9.951378988256966,
+          3.9209626403188427,
+          -4.0
+        ],
+        "normal": [
+          0,
+          0,
+          1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.005716803014195193,
+        "center": [
+          9.976035491192725,
+          3.940346877545113,
+          -4.0
+        ],
+        "normal": [
+          0,
+          0,
+          1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.005963990166129918,
+        "center": [
+          9.979825090401423,
+          3.9517072683936605,
+          -8.0
+        ],
+        "normal": [
+          0,
+          0,
+          -1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0345095546683325,
+        "center": [
+          9.98389569068422,
+          4.0000267,
+          -7.507700793037696
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 2.6700000000268176e-05
+      }
+    ],
+    "classification": "wall_ceiling_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_Ceiling_10/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+    "b": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_East_02/RebuiltArchitectureVisual/Env_MetalWall_4m_Rebuilt",
+    "area": 0.21190250362047536,
+    "examples": [
+      {
+        "area": 0.0002459909361753887,
+        "center": [
+          9.951378988256966,
+          3.9209626403188427,
+          -12.0
+        ],
+        "normal": [
+          0,
+          0,
+          1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.005716803014195193,
+        "center": [
+          9.976035491192725,
+          3.940346877545113,
+          -12.0
+        ],
+        "normal": [
+          0,
+          0,
+          1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.005963990166129918,
+        "center": [
+          9.979825090401423,
+          3.9517072683936605,
+          -16.0
+        ],
+        "normal": [
+          0,
+          0,
+          -1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0345095546683325,
+        "center": [
+          9.98389569068422,
+          4.0000267,
+          -15.507700793037698
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 2.6700000000268176e-05
+      }
+    ],
+    "classification": "wall_ceiling_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_Ceiling_03/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+    "b": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_West_03/RebuiltArchitectureVisual/Env_MetalWall_4m_Rebuilt",
+    "area": 0.21190143732721678,
+    "examples": [
+      {
+        "area": 0.0059640573013695075,
+        "center": [
+          -1.9798202331064967,
+          3.9517075969632045,
+          -8.0
+        ],
+        "normal": [
+          0,
+          0,
+          1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0002459930081908368,
+        "center": [
+          -1.9513799741765248,
+          3.9209622989804918,
+          -12.0
+        ],
+        "normal": [
+          0,
+          0,
+          -1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0057167082742082265,
+        "center": [
+          -1.976035988038285,
+          3.940346629507993,
+          -12.0
+        ],
+        "normal": [
+          0,
+          0,
+          -1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0012079426034565799,
+        "center": [
+          -1.9672273815800543,
+          4.0000267,
+          -8.016104458419946
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 2.6700000000268176e-05
+      }
+    ],
+    "classification": "wall_ceiling_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_Ceiling_01/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+    "b": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_West_01/RebuiltArchitectureVisual/Env_MetalWall_4m_Rebuilt",
+    "area": 0.21190143732721323,
+    "examples": [
+      {
+        "area": 0.0059640573013695075,
+        "center": [
+          -1.9798202331064967,
+          3.9517075969632045,
+          -16.0
+        ],
+        "normal": [
+          0,
+          0,
+          1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0002459930081908368,
+        "center": [
+          -1.9513799741765248,
+          3.9209622989804918,
+          -20.0
+        ],
+        "normal": [
+          0,
+          0,
+          -1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0057167082742082265,
+        "center": [
+          -1.976035988038285,
+          3.940346629507993,
+          -20.0
+        ],
+        "normal": [
+          0,
+          0,
+          -1
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0012079426034556917,
+        "center": [
+          -1.9672273815800543,
+          4.0000267,
+          -16.016104458419946
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 2.6700000000268176e-05
+      }
+    ],
+    "classification": "wall_ceiling_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Vestibule_West",
+    "b": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Wall_North_Left",
+    "area": 0.11520000000000508,
+    "examples": [
+      {
+        "area": 0.0030592264540914016,
+        "center": [
+          1.992020470426139,
+          4.0,
+          -20.09572364924712
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0012074402125783479,
+        "center": [
+          1.9875760259816948,
+          4.0,
+          -20.21572364924712
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.041638373545907825,
+        "center": [
+          1.8720204704261392,
+          4.0,
+          -20.092843649247122
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.011694959787423187,
+        "center": [
+          1.8675760259816947,
+          4.0,
+          -20.21284364924712
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Vestibule_East",
+    "b": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Wall_North_Right",
+    "area": 0.11519999999995889,
+    "examples": [
+      {
+        "area": 0.0006560462946580969,
+        "center": [
+          6.234465111701605,
+          4.0,
+          -20.029600992028342
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0036106203720009944,
+        "center": [
+          6.23002066725716,
+          4.0,
+          -20.149600992028343
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.012246353705343438,
+        "center": [
+          6.114465111701604,
+          4.0,
+          -20.026720992028345
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.041086979627976916,
+        "center": [
+          6.11002066725716,
+          4.0,
+          -20.146720992028342
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Door02_To_StairVestibule/ParkedLeaf_Left_VisualOnly",
+    "b": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Wall_North_Left",
+    "area": 0.11400000000000787,
+    "examples": [
+      {
+        "area": 0.05552053140096902,
+        "center": [
+          2.4429951690821294,
+          0.0,
+          -20.072536231884058
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0014794685990331402,
+        "center": [
+          1.9989935587761725,
+          0.0,
+          -20.043381642512077
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.056437801932375464,
+        "center": [
+          2.1325785024154595,
+          0.0,
+          -20.106036231884058
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0005621980676302485,
+        "center": [
+          1.9017713365539464,
+          0.0,
+          -20.048048309178743
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Door02_To_StairVestibule/ParkedLeaf_Right_VisualOnly",
+    "b": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Wall_North_Right",
+    "area": 0.11400000000000432,
+    "examples": [
+      {
+        "area": 0.05700000000000216,
+        "center": [
+          5.808333333333334,
+          0.0,
+          -20.08
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.05700000000000216,
+        "center": [
+          5.491666666666667,
+          0.0,
+          -20.12
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Room01_Isolation/Geometry/Door01_To_Airlock/ParkedLeaf_Left_VisualOnly",
+    "b": "B5_Level_V0.01/Room01_Isolation/Habitat_Architecture_Visuals/Wall_North_Left/Wall_North_Left_1_0_0/Env_ConcreteWall_4m/RebuiltArchitectureVisual/Env_ConcreteWall_4m_Rebuilt",
+    "area": 0.11400000000000077,
+    "examples": [
+      {
+        "area": 0.03598676290400693,
+        "center": [
+          -1.3255233796236534,
+          -2.23517449e-09,
+          1.9188974671541073
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 2.23517449e-09
+      },
+      {
+        "area": 0.04457816378820123,
+        "center": [
+          -1.7996049483033496,
+          -2.23517449e-09,
+          1.8712317454041074
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 2.23517449e-09
+      },
+      {
+        "area": 0.02101323709599323,
+        "center": [
+          -1.692364506164871,
+          2.23517449e-09,
+          1.9451966228721431
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 2.23517449e-09
+      },
+      {
+        "area": 0.012421836211799375,
+        "center": [
+          -2.0078065977377997,
+          2.23517449e-09,
+          1.9216423272054763
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 2.23517449e-09
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Room01_Isolation/Geometry/Door01_To_Airlock/ParkedLeaf_Right_VisualOnly",
+    "b": "B5_Level_V0.01/Room01_Isolation/Habitat_Architecture_Visuals/Wall_North_Right/Wall_North_Right_0_0_0/Env_ConcreteWall_4m/RebuiltArchitectureVisual/Env_ConcreteWall_4m_Rebuilt",
+    "area": 0.1140000000000001,
+    "examples": [
+      {
+        "area": 0.002339991979192657,
+        "center": [
+          2.0741351875339853,
+          -2.23517449e-09,
+          1.856648171276409
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 2.23517449e-09
+      },
+      {
+        "area": 0.003958416889669802,
+        "center": [
+          1.9372255789551112,
+          -2.23517449e-09,
+          1.8464250289430755
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 2.23517449e-09
+      },
+      {
+        "area": 0.05466000802080706,
+        "center": [
+          1.8493513906504893,
+          2.23517449e-09,
+          1.9124861284573067
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 2.23517449e-09
+      },
+      {
+        "area": 0.05304158311033058,
+        "center": [
+          1.5091691842163333,
+          2.23517449e-09,
+          1.8748187717073068
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 2.23517449e-09
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Connector_Airlock/Geometry/SightBlock_South_CrossLeg",
+    "b": "B5_Level_V0.01/Connector_Airlock/Geometry/Wall_West_Exit",
+    "area": 0.10901411503404779,
+    "examples": [
+      {
+        "area": 0.046864477751211275,
+        "center": [
+          2.8969565455352964,
+          4.0,
+          -2.126509807430314
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.00417441387347095,
+        "center": [
+          2.7844565455352965,
+          4.0,
+          -2.129693768317752
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.002888313743168336,
+        "center": [
+          2.889372279348499,
+          4.0,
+          -2.006509862430314
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0010869344161976713,
+        "center": [
+          3.0023290910295817,
+          0.0,
+          -2.1166653881939235
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B4_Observation.unity",
+    "a": "B4_Observation_Draft/Connector_Lightlock_Draft/Wall/AS_CurrentArchitecture_VisualOnly/Tile_0_0_0/Env_ConcreteWall_4m/RebuiltArchitectureVisual/Env_ConcreteWall_4m_Rebuilt",
+    "b": "B4_Observation_Draft/Room04_ControlDeck/Wall_S/AS_CurrentArchitecture_VisualOnly/Tile_0_0_0/Env_ConcreteWall_4m/RebuiltArchitectureVisual/Env_ConcreteWall_4m_Rebuilt",
+    "area": 0.10884268524524465,
+    "examples": [
+      {
+        "area": 0.050804766867205586,
+        "center": [
+          -1.154338432300431,
+          0.0,
+          -13.853677626262604
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0020122353700413598,
+        "center": [
+          -1.0376656237873492,
+          0.0,
+          -13.850955102468525
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.001603783947872195,
+        "center": [
+          -1.1577415629066639,
+          0.0,
+          -13.737004176262605
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0016050061502763668,
+        "center": [
+          1.1488520754723355,
+          0.0,
+          -13.963201776090246
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "wall_ceiling_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Door02_From_Airlock/Frame_Left",
+    "b": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Wall_South_Left",
+    "area": 0.09399999999999942,
+    "examples": [
+      {
+        "area": 0.028500000000000192,
+        "center": [
+          2.925,
+          0.0,
+          -3.9050000000000002
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.009500000000000064,
+        "center": [
+          2.8333333333333335,
+          0.0,
+          -3.936666666666667
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.020611109740355182,
+        "center": [
+          3.0,
+          2.1194444430516985,
+          -3.992361111639412
+        ],
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0059152060491172165,
+        "center": [
+          3.0,
+          2.1562865483148563,
+          -3.9823611116394124
+        ],
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Connector_Airlock/Geometry/SightBlock_North_CrossLeg",
+    "b": "B5_Level_V0.01/Connector_Airlock/Geometry/Wall_East_Entry",
+    "area": 0.05759999760000004,
+    "examples": [
+      {
+        "area": 0.0010536584519928588,
+        "center": [
+          1.2341463416894707,
+          4.0,
+          0.2000000016666664
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.02774634034800714,
+        "center": [
+          1.115609756267103,
+          4.0,
+          0.1800000025
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.003136765946595968,
+        "center": [
+          1.1284979571355598,
+          0.0,
+          0.23297503775492093
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.00012361013029968393,
+        "center": [
+          1.00849795713556,
+          0.0,
+          0.23637126425011495
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Exit_StairVestibule/Geometry/B4_Link_Locked_NoSceneTransition/Frame_Right",
+    "b": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Boundary_EndWall",
+    "area": 0.055999999999997385,
+    "examples": [
+      {
+        "area": 0.0005025641025682148,
+        "center": [
+          5.2,
+          4.364102564102561,
+          -28.186888888888888
+        ],
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.05549743589742917,
+        "center": [
+          5.2,
+          4.058461538461537,
+          -28.160133333333334
+        ],
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Exit_StairVestibule/Geometry/B4_Link_Locked_NoSceneTransition/Frame_Left",
+    "b": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Boundary_EndWall",
+    "area": 0.055995469255670116,
+    "examples": [
+      {
+        "area": 0.01804810083462627,
+        "center": [
+          2.80000019,
+          4.267654573326517,
+          -28.15437216828479
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 1.9000000017754815e-07
+      },
+      {
+        "area": 0.009685232498718221,
+        "center": [
+          2.80000019,
+          3.956872764435356,
+          -28.142718446601943
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 1.9000000017754815e-07
+      },
+      {
+        "area": 0.028262135922325626,
+        "center": [
+          2.80000019,
+          3.9966019417475693,
+          -28.172038834951458
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 1.9000000017754815e-07
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Background_LockedSupportAreas/UTILITY_LockedBackground/Locked_Facade/Closed_Door",
+    "b": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_West_02/RebuiltArchitectureVisual/Env_ConcreteWall_4m_Rebuilt",
+    "area": 0.05400806799705826,
+    "examples": [
+      {
+        "area": 0.005439095019264428,
+        "center": [
+          -1.963801450899792,
+          0.0,
+          -15.868873037380302
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 2.48352716e-09
+      },
+      {
+        "area": 0.005394060594076322,
+        "center": [
+          -1.9545837288733303,
+          0.0,
+          -15.607704812495045
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 2.48352716e-09
+      },
+      {
+        "area": 0.017423674076573192,
+        "center": [
+          -1.98035256562894,
+          0.0,
+          -15.615912958376832
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 2.48352716e-09
+      },
+      {
+        "area": 0.02575123830714432,
+        "center": [
+          -1.968750166769628,
+          0.0,
+          -14.996029431770314
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 2.48352716e-09
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Connector_Airlock/Geometry/SightBlock_North_CrossLeg",
+    "b": "B5_Level_V0.01/Connector_Airlock/Geometry/Wall_East_Outer",
+    "area": 0.05039712702256953,
+    "examples": [
+      {
+        "area": 0.0248878921115053,
+        "center": [
+          5.067500170000001,
+          0.0,
+          0.12148584428032652
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0003120262884944626,
+        "center": [
+          5.0500002266666675,
+          0.0,
+          0.0019811257071020165
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.023167753641453223,
+        "center": [
+          5.071174257495075,
+          4.0,
+          0.11852302028774261
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0003093165110642504,
+        "center": [
+          5.0503047525576505,
+          4.0,
+          0.23803069371699012
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B4_Observation.unity",
+    "a": "B4_Observation_Draft/Room03_ObservationCorridor/Wall_N/AS_CurrentArchitecture_VisualOnly/Tile_0_0_0/Env_ConcreteWall_4m/RebuiltArchitectureVisual/Env_ConcreteWall_4m_Rebuilt",
+    "b": "B4_Observation_Draft/Room03_ObservationCorridor/Wall_Reveal",
+    "area": 0.04666915333079835,
+    "examples": [
+      {
+        "area": 0.001226695475275541,
+        "center": [
+          -4.0,
+          1.2461812920901214,
+          -10.186305468474472
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0008567615435151055,
+        "center": [
+          -4.0,
+          1.2440978477282545,
+          -10.069632468005697
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.015107507898822092,
+        "center": [
+          -4.0,
+          1.1961813420901215,
+          -10.184847046182895
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.006143611747786437,
+        "center": [
+          -4.0,
+          1.1940978977282546,
+          -10.068174045714121
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "wall_ceiling_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B4_Observation.unity",
+    "a": "B4_Observation_Draft/Room04_ControlDeck/Wall_N/AS_CurrentArchitecture_VisualOnly/Tile_0_0_0/Env_ConcreteWall_4m/RebuiltArchitectureVisual/Env_ConcreteWall_4m_Rebuilt",
+    "b": "B4_Observation_Draft/Room04_ControlDeck/Wall_Reveal",
+    "area": 0.04666908133089542,
+    "examples": [
+      {
+        "area": 0.0009826280456550762,
+        "center": [
+          -6.0,
+          1.2463970872689947,
+          -27.19842433403934
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0011008297447645532,
+        "center": [
+          -6.0,
+          1.244313645855412,
+          -27.08175149737258
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.013018044071342771,
+        "center": [
+          -6.0,
+          1.1963971372689945,
+          -27.196479760672787
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.008233038803684423,
+        "center": [
+          -6.0,
+          1.1943136958554121,
+          -27.079806941506007
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "wall_ceiling_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Vestibule_East",
+    "b": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_Ceiling_09/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+    "area": 0.043199355936025086,
+    "examples": [
+      {
+        "area": 0.0005333333333368273,
+        "center": [
+          6.237037037037037,
+          4.0,
+          -19.959999999999997
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 2.6000000000081513e-05
+      },
+      {
+        "area": 0.028266666666681317,
+        "center": [
+          6.1177777777777775,
+          4.0,
+          -19.939999999999998
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 2.6000000000081513e-05
+      },
+      {
+        "area": 0.00021292755277357855,
+        "center": [
+          6.0,
+          3.9988084650666664,
+          -19.91971115963629
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.014186428383233363,
+        "center": [
+          6.0,
+          3.9512872259200003,
+          -19.951826695781772
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Vestibule_West",
+    "b": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_Ceiling_01/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+    "area": 0.043154578056192605,
+    "examples": [
+      {
+        "area": 0.0004965517241366513,
+        "center": [
+          1.9972413793103447,
+          4.0,
+          -19.957241379310343
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 2.6700000000268176e-05
+      },
+      {
+        "area": 0.006703448275864332,
+        "center": [
+          1.9572413793103445,
+          4.0,
+          -19.917241379310344
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 2.6700000000268176e-05
+      },
+      {
+        "area": 0.021563218390802774,
+        "center": [
+          1.876567049808429,
+          4.0,
+          -19.950344827586207
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 2.6000000000081513e-05
+      },
+      {
+        "area": 0.008559881478539921,
+        "center": [
+          2.0,
+          3.9401780041108205,
+          -19.964156902070236
+        ],
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Connector_Airlock/Geometry/SightBlock_South_CrossLeg",
+    "b": "B5_Level_V0.01/Connector_Airlock/Geometry/Wall_West_Outer",
+    "area": 0.02880000239997349,
+    "examples": [
+      {
+        "area": 0.0004453617154643874,
+        "center": [
+          -1.0024742292783506,
+          4.0,
+          -2.03999992
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.013954639484522358,
+        "center": [
+          -1.061855616958763,
+          4.0,
+          -2.05999994
+        ],
+        "normal": [
+          0,
+          1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0004075462464229185,
+        "center": [
+          -1.0399999633333332,
+          0.0,
+          -2.002264027888929
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.013992454953563827,
+        "center": [
+          -1.059999945,
+          0.0,
+          -2.061698050916697
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Exit_StairVestibule/Geometry/B4_Link_Locked_NoSceneTransition/Frame_Top",
+    "b": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Boundary_EndWall",
+    "area": 0.027973416289583497,
+    "examples": [
+      {
+        "area": 0.001289473684209952,
+        "center": [
+          2.80000019,
+          4.587719298245614,
+          -28.143333333333334
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 1.9000000017754815e-07
+      },
+      {
+        "area": 0.012707962213220014,
+        "center": [
+          2.80000019,
+          4.474170040485833,
+          -28.16186666666667
+        ],
+        "normal": [
+          -1,
+          0,
+          0
+        ],
+        "planeGap": 1.9000000017754815e-07
+      },
+      {
+        "area": 0.003575980392177769,
+        "center": [
+          5.2,
+          4.501286764705883,
+          -28.180888480392156
+        ],
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.009134545923615178,
+        "center": [
+          5.2,
+          4.510497291021672,
+          -28.14588848039216
+        ],
+        "normal": [
+          1,
+          0,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Exit_StairVestibule/Geometry/B4_Link_Locked_NoSceneTransition/Frame_Right",
+    "b": "B5_Level_V0.01/Exit_StairVestibule/VARCO_Visuals/FireDoor_B4_LockedBoundary_VisualOnly/RebuiltArchitectureVisual/Env_FireDoorWall_3m_Rebuilt",
+    "area": 0.027401740000044583,
+    "examples": [
+      {
+        "area": 0.007781343286538345,
+        "center": [
+          5.168162837787442,
+          1.6,
+          -28.06793433429614
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.015966831380154645,
+        "center": [
+          5.068162837787441,
+          1.6,
+          -28.070217812629473
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.001592975847586331,
+        "center": [
+          5.150135377261126,
+          1.6,
+          -27.99942998429614
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.002060589485765263,
+        "center": [
+          5.0501353772611255,
+          1.6,
+          -28.001713462629475
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Exit_StairVestibule/Geometry/B4_Link_Locked_NoSceneTransition/Frame_Left",
+    "b": "B5_Level_V0.01/Exit_StairVestibule/VARCO_Visuals/FireDoor_B4_LockedBoundary_VisualOnly/RebuiltArchitectureVisual/Env_FireDoorWall_3m_Rebuilt",
+    "area": 0.02740174000000195,
+    "examples": [
+      {
+        "area": 0.0008323692115936865,
+        "center": [
+          2.9810726669264653,
+          1.6,
+          -28.11758127132695
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0028211961217436965,
+        "center": [
+          2.8810726669264657,
+          1.6,
+          -28.119864749660284
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.008541949922502567,
+        "center": [
+          2.9630452064001496,
+          1.6,
+          -28.04907692132695
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.015206224744162,
+        "center": [
+          2.86304520640015,
+          1.6,
+          -28.051360399660286
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Vestibule_West",
+    "b": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Door02_To_StairVestibule/ParkedLeaf_Left_VisualOnly",
+    "area": 0.015000000000000568,
+    "examples": [
+      {
+        "area": 0.0009868421052630083,
+        "center": [
+          1.9583333333333333,
+          0.0,
+          -20.045263157894738
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.01401315789473756,
+        "center": [
+          1.9375,
+          0.0,
+          -20.103947368421053
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Vestibule_East",
+    "b": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Door02_To_StairVestibule/ParkedLeaf_Right_VisualOnly",
+    "area": 0.015000000000000568,
+    "examples": [
+      {
+        "area": 0.012351434255990057,
+        "center": [
+          6.070401963356509,
+          0.0,
+          -20.096676505312868
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.000693010188463461,
+        "center": [
+          6.05516558077164,
+          0.0,
+          -20.15556867375049
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0016617236387546086,
+        "center": [
+          6.007901963356509,
+          0.0,
+          -20.092729136891816
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      },
+      {
+        "area": 0.0002938319167924419,
+        "center": [
+          6.010124185578731,
+          0.0,
+          -20.152729136891814
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Background_LockedSupportAreas/UTILITY_LockedBackground/Locked_Facade/Closed_Door",
+    "b": "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_West_01/RebuiltArchitectureVisual/Env_MetalWall_4m_Rebuilt",
+    "area": 0.014001934115441372,
+    "examples": [
+      {
+        "area": 0.011840173372794638,
+        "center": [
+          -1.9669091126397058,
+          0.0,
+          -16.175
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 2.48352716e-09
+      },
+      {
+        "area": 0.0021617607426467345,
+        "center": [
+          -1.98588245754902,
+          0.0,
+          -16.116666666666667
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 2.48352716e-09
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Door02_To_StairVestibule/Frame_Left",
+    "b": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Door02_To_StairVestibule/ParkedLeaf_Left_VisualOnly",
+    "area": 0.0029605263157925776,
+    "examples": [
+      {
+        "area": 0.0029605263157925776,
+        "center": [
+          2.8125,
+          0.0,
+          -20.09921052631579
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Room01_Isolation/Geometry/Door01_To_Airlock/Frame_Left",
+    "b": "B5_Level_V0.01/Room01_Isolation/Geometry/Door01_To_Airlock/ParkedLeaf_Left_VisualOnly",
+    "area": 0.002960526315789469,
+    "examples": [
+      {
+        "area": 0.002960526315789469,
+        "center": [
+          -1.1875,
+          0.0,
+          1.9007894736842106
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Room01_Isolation/Geometry/Door01_To_Airlock/Frame_Right",
+    "b": "B5_Level_V0.01/Room01_Isolation/Geometry/Door01_To_Airlock/ParkedLeaf_Right_VisualOnly",
+    "area": 0.002879934210526347,
+    "examples": [
+      {
+        "area": 0.002879934210526347,
+        "center": [
+          1.186842105263158,
+          0.0,
+          1.8908684210526316
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Door02_To_StairVestibule/Frame_Right",
+    "b": "B5_Level_V0.01/Room02_CoolingPool/Geometry/Door02_To_StairVestibule/ParkedLeaf_Right_VisualOnly",
+    "area": 0.002879923945272367,
+    "examples": [
+      {
+        "area": 0.002879923945272367,
+        "center": [
+          5.186842229363796,
+          0.0,
+          -20.109131368947367
+        ],
+        "normal": [
+          0,
+          -1,
+          0
+        ],
+        "planeGap": 0.0
+      }
+    ],
+    "classification": "door_frame_contact_candidate"
+  }
+]

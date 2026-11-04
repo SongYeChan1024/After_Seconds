@@ -118,8 +118,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 9992b6bb4d1ed9e4ab4af78ee29f958b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
-      value: 
+      value:
       objectReference: {fileID: 2100000, guid: 353dc24ef7ca66d4398caee822b20ca7, type: 2}
+    - target: {fileID: -5754084199372789682, guid: 9992b6bb4d1ed9e4ab4af78ee29f958b, type: 3}
+      propertyPath: m_Mesh
+      value:
+      objectReference: {fileID: 4300000, guid: a2588fe24e3b9bb4389c843450e5b173, type: 2}
     - target: {fileID: 919132149155446097, guid: 9992b6bb4d1ed9e4ab4af78ee29f958b, type: 3}
       propertyPath: m_Name
       value: P07_SealedWasteBin

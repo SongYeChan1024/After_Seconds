@@ -1,0 +1,92 @@
+[
+  {
+    "role": "pillar",
+    "source": "AD_Pillar_VARCO.glb",
+    "vertices": 6397,
+    "triangles": 8000,
+    "bounds": {
+      "min": [
+        -0.1484936624765396,
+        -0.06675784289836884,
+        -0.5011864304542542
+      ],
+      "max": [
+        0.14794166386127472,
+        0.06907705217599869,
+        0.5023507475852966
+      ]
+    },
+    "materials": [
+      {
+        "slot": 0,
+        "name": "material_0",
+        "textures": {
+          "BaseColor": "AD_Pillar_VARCO_0_BaseColor.png",
+          "Normal": "AD_Pillar_VARCO_0_Normal.png",
+          "MetallicSmoothness": "AD_Pillar_VARCO_0_MetallicSmoothness.png",
+          "Occlusion": "AD_Pillar_VARCO_0_Occlusion.png"
+        }
+      }
+    ]
+  },
+  {
+    "role": "reveal",
+    "source": "AD_Reveal_VARCO.glb",
+    "vertices": 4575,
+    "triangles": 5000,
+    "bounds": {
+      "min": [
+        -0.32948705554008484,
+        -0.2245895117521286,
+        -0.5001615285873413
+      ],
+      "max": [
+        0.3301924467086792,
+        0.2258462905883789,
+        0.5031397938728333
+      ]
+    },
+    "materials": [
+      {
+        "slot": 0,
+        "name": "material_0",
+        "textures": {
+          "BaseColor": "AD_Reveal_VARCO_0_BaseColor.png",
+          "Normal": "AD_Reveal_VARCO_0_Normal.png",
+          "MetallicSmoothness": "AD_Reveal_VARCO_0_MetallicSmoothness.png",
+          "Occlusion": "AD_Reveal_VARCO_0_Occlusion.png"
+        }
+      }
+    ]
+  },
+  {
+    "role": "sign",
+    "source": "AD_Wayfinding_VARCO.glb",
+    "vertices": 4812,
+    "triangles": 5092,
+    "bounds": {
+      "min": [
+        -0.4995509386062622,
+        -0.5007154941558838,
+        -0.21890391409397125
+      ],
+      "max": [
+        0.498990923166275,
+        0.5008049607276917,
+        0.2197449505329132
+      ]
+    },
+    "materials": [
+      {
+        "slot": 0,
+        "name": "material_0",
+        "textures": {
+          "BaseColor": "AD_Wayfinding_VARCO_0_BaseColor.png",
+          "Normal": "AD_Wayfinding_VARCO_0_Normal.png",
+          "MetallicSmoothness": "AD_Wayfinding_VARCO_0_MetallicSmoothness.png",
+          "Occlusion": "AD_Wayfinding_VARCO_0_Occlusion.png"
+        }
+      }
+    ]
+  }
+]

@@ -82,12 +82,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7146209933166237333, guid: 224afe16a48e3e54d8d04ae2d598929a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
-      value: 
+      value:
       objectReference: {fileID: 2100000, guid: aaf0cb06ac34fc544a15014be539b288, type: 2}
     - target: {fileID: -7146209933166237333, guid: 224afe16a48e3e54d8d04ae2d598929a, type: 3}
       propertyPath: 'm_Materials.Array.data[1]'
-      value: 
+      value:
       objectReference: {fileID: 2100000, guid: 97492ebe96e64744f9d2353a1ef0e9ec, type: 2}
+    - target: {fileID: -4083273107686232113, guid: 224afe16a48e3e54d8d04ae2d598929a, type: 3}
+      propertyPath: m_Mesh
+      value:
+      objectReference: {fileID: 4300000, guid: 2d7215904894b1c49a694f02ca42cfa1, type: 2}
     - target: {fileID: 919132149155446097, guid: 224afe16a48e3e54d8d04ae2d598929a, type: 3}
       propertyPath: m_Name
       value: BedLinen

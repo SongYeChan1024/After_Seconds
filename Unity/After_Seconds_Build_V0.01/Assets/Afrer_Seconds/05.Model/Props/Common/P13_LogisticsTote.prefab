@@ -118,8 +118,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 366c2404a3b46784ab19786e3e727458, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
-      value: 
+      value:
       objectReference: {fileID: 2100000, guid: 50c2ca5a6f2a52d4f8524eb23b6c4e4c, type: 2}
+    - target: {fileID: -5754084199372789682, guid: 366c2404a3b46784ab19786e3e727458, type: 3}
+      propertyPath: m_Mesh
+      value:
+      objectReference: {fileID: 4300000, guid: fb1b8338f17abc04cae20d34a2941de5, type: 2}
     - target: {fileID: 919132149155446097, guid: 366c2404a3b46784ab19786e3e727458, type: 3}
       propertyPath: m_Name
       value: P13_LogisticsTote

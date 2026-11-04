@@ -1,0 +1,25 @@
+param([string]$Root)
+$ErrorActionPreference='Stop'
+Add-Type -AssemblyName System.Drawing
+function Make-Sheet([string]$Name,[string[]]$Files,[int]$Columns=2) {
+    if($Files.Count -eq 0){return}
+    $width=480;$height=300;$label=27;$rows=[int][math]::Ceiling($Files.Count/[double]$Columns)
+    $bitmap=New-Object System.Drawing.Bitmap ($width*$Columns),(($height+$label)*$rows)
+    $g=[System.Drawing.Graphics]::FromImage($bitmap);$g.Clear([System.Drawing.Color]::FromArgb(28,28,28))
+    $font=New-Object System.Drawing.Font 'Segoe UI',10
+    try{
+        for($i=0;$i -lt $Files.Count;$i++){
+            $image=[System.Drawing.Image]::FromFile((Join-Path $Root $Files[$i]))
+            try{$x=($i%$Columns)*$width;$y=[int][math]::Floor($i/[double]$Columns)*($height+$label);$g.DrawImage($image,$x,($y+$label),$width,$height);$g.DrawString([IO.Path]::GetFileNameWithoutExtension($Files[$i]),$font,[System.Drawing.Brushes]::White,($x+4),($y+4))}finally{$image.Dispose()}
+        }
+        $bitmap.Save((Join-Path $Root ($Name+'.jpg')),[System.Drawing.Imaging.ImageFormat]::Jpeg)
+    }finally{$font.Dispose();$g.Dispose();$bitmap.Dispose()}
+}
+$photos=Get-Content (Join-Path $Root 'before_after_photos.json') -Raw -Encoding UTF8 | ConvertFrom-Json
+$work=@();$other=@()
+foreach($p in $photos){if($p.name -like '*Workbench'){$work+=($p.name+'_before.png');$work+=($p.name+'_after.png')}else{$other+=($p.name+'_before.png');$other+=($p.name+'_after.png')}}
+Make-Sheet 'Workbench_BeforeAfter' $work 2
+Make-Sheet 'Props_BevelSmooth_BeforeAfter' $other 2
+$diagnostics=Get-Content (Join-Path $Root 'overlap_diagnostics.json') -Raw -Encoding UTF8 | ConvertFrom-Json
+$frames=@();foreach($d in $diagnostics){$frames+=@($d.files)}
+Make-Sheet 'WallFrame_Overlap_Comparison' $frames 3

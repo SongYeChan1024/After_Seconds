@@ -1,0 +1,51 @@
+{
+  "method": "Hand-authored procedural Blender assembly based on VARCO image references; raw generated meshes rejected for construction distortion",
+  "roles": [
+    {
+      "role": "pillar",
+      "triangles": 8108,
+      "physicalSizeBlender": [
+        0.15999984741210938,
+        0.15049999952316284,
+        3.5999999046325684
+      ]
+    },
+    {
+      "role": "reveal",
+      "triangles": 3204,
+      "physicalSizeBlender": [
+        2.8000001907348633,
+        0.07940000295639038,
+        0.09999990463256836
+      ]
+    },
+    {
+      "role": "sign",
+      "triangles": 4740,
+      "physicalSizeBlender": [
+        1.8000001907348633,
+        0.09399999678134918,
+        0.44999992847442627
+      ]
+    },
+    {
+      "role": "panel",
+      "triangles": 208,
+      "physicalSizeBlender": [
+        1.0,
+        0.017600059509277344,
+        1.2000001668930054
+      ],
+      "construction": "Closed stepped profile with four fixings"
+    }
+  ],
+  "atlasResolution": 2048,
+  "textures": [
+    "AD_Manufactured_BaseColor.png",
+    "AD_Manufactured_Normal.png",
+    "AD_Manufactured_MetallicSmoothness.png",
+    "AD_Manufactured_Occlusion.png",
+    "AD_Manufactured_Emission.png"
+  ],
+  "panelInternalCoplanarOverlaps": 0
+}

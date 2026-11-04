@@ -118,8 +118,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 416dc03bea4afc043a136e86c2ec350a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
-      value: 
+      value:
       objectReference: {fileID: 2100000, guid: dbf6cd402af32a74b85e62fb77aa8c10, type: 2}
+    - target: {fileID: -5754084199372789682, guid: 416dc03bea4afc043a136e86c2ec350a, type: 3}
+      propertyPath: m_Mesh
+      value:
+      objectReference: {fileID: 4300000, guid: 94fe9b799b83d9c498808fc41c35f34e, type: 2}
     - target: {fileID: 919132149155446097, guid: 416dc03bea4afc043a136e86c2ec350a, type: 3}
       propertyPath: m_Name
       value: B4_ObservationMonitorBank

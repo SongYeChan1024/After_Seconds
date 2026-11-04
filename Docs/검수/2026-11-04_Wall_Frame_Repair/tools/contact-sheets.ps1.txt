@@ -1,0 +1,17 @@
+param([string]$Root,[string]$Phase='after')
+$ErrorActionPreference='Stop'
+Add-Type -AssemblyName System.Drawing
+function Make-Sheet([string]$Name,[string[]]$Files,[int]$Columns=3) {
+ $w=480;$h=300;$label=26;$rows=[int][math]::Ceiling($Files.Count/[double]$Columns)
+ $bitmap=New-Object System.Drawing.Bitmap ($w*$Columns),(($h+$label)*$rows)
+ $g=[Drawing.Graphics]::FromImage($bitmap);$g.Clear([Drawing.Color]::FromArgb(28,28,28));$font=New-Object Drawing.Font 'Segoe UI',10
+ try {for($i=0;$i -lt $Files.Count;$i++){$im=[Drawing.Image]::FromFile((Join-Path $Root $Files[$i]));try{$x=($i%$Columns)*$w;$y=[int][math]::Floor($i/[double]$Columns)*($h+$label);$g.DrawImage($im,$x,($y+$label),$w,$h);$g.DrawString([IO.Path]::GetFileNameWithoutExtension($Files[$i]),$font,[Drawing.Brushes]::White,($x+4),($y+4))}finally{$im.Dispose()}};$bitmap.Save((Join-Path $Root ($Name+'.jpg')),[Drawing.Imaging.ImageFormat]::Jpeg)}finally{$font.Dispose();$g.Dispose();$bitmap.Dispose()}
+}
+$shots=Get-Content (Join-Path $Root 'photos.json') -Raw -Encoding UTF8 | ConvertFrom-Json
+foreach($floor in @('B5','B4','B3','B2','B1','1F')){
+ $files=@($shots | Where-Object { $_.name.StartsWith($floor+'_') } | ForEach-Object {$_.name+'_'+$Phase+'.png'})
+ for($i=0;$i -lt $files.Count;$i+=12){Make-Sheet ($floor+'_'+$Phase+'_Review_'+([int]($i/12)).ToString('D2')) @($files[$i..([math]::Min($i+11,$files.Count-1))]) 3}
+}
+if($Phase -eq 'after'){
+ $critical=@($shots | Where-Object kind -eq 'critical');for($i=0;$i -lt $critical.Count;$i+=3){$files=@();foreach($p in $critical[$i..([math]::Min($i+2,$critical.Count-1))]){$files+=($p.name+'_before.png');$files+=($p.name+'_after.png')};Make-Sheet ('Critical_BeforeAfter_'+([int]($i/3)).ToString('D2')) $files 2}
+}

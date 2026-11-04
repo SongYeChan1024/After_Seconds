@@ -1,6 +1,10 @@
-# After Seconds 프로젝트 안내 V0.13
+# After Seconds 프로젝트 안내 V0.14
 
 맞힌 대상과 3초 뒤 위치를 바꾸며 연구 시설을 탈출하는 1인칭 퍼즐 액션 게임.
+
+## 현재 상태와 다음 작업
+
+2026-11-04 마감: 소품 모서리·작업대 색·벽 공면 겹침을 보수하고 B5~1F 6개 층에 건축 마감과 AA 설정을 저장했다. 집에서 시작할 순서와 할 일은 **[최신 이어하기](Docs/이어하기_2026-11-04.md)**를 먼저 읽는다. 다음은 실제 이동 중 외형 확인과 FPS 측정이다. 아래 날짜별 설명과 설치 절차는 이전 작업 이력이며 최신 상태는 이어하기를 우선한다.
 
 ## 프로젝트 구성
 
@@ -20,7 +24,7 @@ Unity 작업 루트는 `Assets/Afrer_Seconds/`다. 앞으로 `03.Art`에는 2D �
 신규 모델은 `05.Model/Player/Rigged/Models/PlayerDummy_Rigged_V0.3.fbx`, 동작은 `07.Animator/Player/Clips/Rigged_V0.3/`에 분리. 
 새 7개 파일의 유효한 Humanoid Avatar와 동작 54개 시점의 임시 미리보기를 확인했으며, 반입 단계에서는 기존 V0.2·동작 6종·보호 대상 파일 116개를 보존. 
 **웹 재생성 원본에는 스킨 인덱스 오류가 남아 있으므로 프로젝트의 보정 FBX를 기준으로 한다.** 미세 변형·접지·루프·독립 발가락·손 쥐기 품질은 추가 검수 대상. 
-파일별 출처와 확인 범위는 [리깅·애니메이션 안내](Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Player/Rigged/README.md)를 따름.
+파일별 출처와 확인 범위는 [리깅·애니메이션 안내](Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/06.Data/AssetSources/Player_Rigged_README.md)를 따름.
 
 현재 SampleScene과 사용자가 적용한 기준 플레이어 프리팹에 V0.3 외형과 `Player_Animator`의 동작 6종을 연결했다. 사용자 코드가 `PlayerPresenter → PlayerAnimationSystem.isMove → Animator.IsMoving`으로 이동 입력 여부를 전달해 WASD에 따라 Idle·Walk가 전환된다. Walk는 원본 FBX를 보존한 채 importer의 프레임 `124–160`만 사용하며, 클립 약 `1.2초`·State `1.5배`로 한 보행 주기 약 `0.8초`를 반복한다. 실제 이동 속도는 `1.5m/s`, 높이 오프셋은 `0.227`이며 Root Motion은 껐다. 다음은 점프·스프린트·상호작용과 관련 애니메이션을 의사코드부터 분석하고 사용자가 직접 구현하는 단계다.
 
@@ -36,8 +40,9 @@ Unity Hub의 프로젝트 경로도 `Unity/After_Seconds_Build_V0.01`로 등록�
 ## 주요 문서
 
 - [프로젝트 공통 작업 규칙](CLAUDE.md) · [Codex 작업 안내](AGENTS.md)
-- [집에서 이어하기 — 2026-10-26](Docs/이어하기_2026-10-26.md)
-- [메인 기획서 V0.10](Docs/AfterSeconds_메인기획서.md)
+- [집에서 이어하기와 할 일 — 2026-11-04](Docs/이어하기_2026-11-04.md)
+- [이전 이어하기 — 2026-10-26](Docs/이어하기_2026-10-26.md)
+- [메인 기획서 V0.13](Docs/AfterSeconds_메인기획서.md)
 - [B5 격리층 레벨 구성](Docs/B5_레벨_구성.md)
 - [Unity 계층 설계와 학습 순서](Docs/Unity_계층_설계와_학습_순서.md)
 - [Unity 프로젝트 안내](Unity/README.md)
@@ -72,7 +77,7 @@ git pull --ff-only
 ```
 
 Git으로 이어지는 것은 커밋·푸시한 프로젝트 파일과 기록. 
-채팅 원문 전체가 Git으로 자동 동기화되지는 않으므로 [이어하기 기록](Docs/이어하기_2026-10-26.md)도 읽을 것.
+채팅 원문 전체가 Git으로 자동 동기화되지는 않으므로 [최신 이어하기 기록](Docs/이어하기_2026-11-04.md)도 읽을 것.
 
 ### 2. 집 PC에 CLI 설치하고 로그인하기
 

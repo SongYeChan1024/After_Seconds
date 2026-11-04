@@ -1,6 +1,10 @@
-# After Seconds — Codex 작업 안내 V0.09
+# After Seconds — Codex 작업 안내 V0.13
 
 이 저장소의 공통 작업 규칙은 [CLAUDE.md](CLAUDE.md)를 따릅니다. 작업 전에 해당 문서를 읽습니다.
+
+건축 마감4종을 원본6층 씬에 적용·저장했다. 벽/부스/칸막이237곳(패널3,747장), 표지30곳, 레일16곳, 기둥16곳, 문틀12곳이다. 최종 패널은208tri 닫힌 단면이며 PC MSAA4·6개 카메라 SMAA High를 반영했다. [건축 마감 최종 검수](Docs/검수/2026-11-04_Architecture_Detail/검수결과.md)를 읽는다. 기존 Transform·Collider·게임 코드·문구와 소품/WF 보수·사용자 B5 변경을 보존했다. 이전 검증 사본이나 제작/Apply 도구를 현재 씬에 그대로 재실행하지 않는다. 실제 이동·FPS 검수는 남는다. Unity AI Assistant의 Packages 상태도 보존한다.
+
+2026-11-04 후속으로 가구·소품·설비의 파생 `_BevelSmooth.asset`와 공용 작업대 색 보정본을 적용했다. [소품 마감](Docs/검수/2026-11-04_Prop_Finish/검수결과.md)과 [전층 벽·문틀 보수](Docs/검수/2026-11-04_Wall_Frame_Repair/검수결과.md)를 읽는다. B3·B4·B5의 시각 메시81개는 `WF_*_SeamFixed.asset`로 공면 겹침을 보수했다. 파생 메시를 원본 FBX로 되돌리지 않는다. 건축 베벨은 범위 밖이다. 사용자 저장 B5 변경과 Collider·Transform을 보존한다.
 
 에셋을 가져올 때는 `CLAUDE.md`의 **에셋 반입·정리** 규칙과 [Unity 프로젝트 안내의 폴더별 사용 기준](Unity/README.md#폴더별-사용-기준)을 읽고, 반입과 용도별 폴더 정리까지 수행합니다.
 

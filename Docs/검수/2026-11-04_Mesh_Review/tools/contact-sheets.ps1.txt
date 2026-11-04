@@ -1,0 +1,36 @@
+param([string]$Root)
+$ErrorActionPreference='Stop'
+Add-Type -AssemblyName System.Drawing
+function Make-Sheet([string]$Name,[string[]]$Files,[int]$Columns=3) {
+    if($Files.Count -eq 0) { return }
+    $width=480; $height=300; $label=27
+    $rows=[int][math]::Ceiling($Files.Count/[double]$Columns)
+    $bitmap=New-Object System.Drawing.Bitmap ($width*$Columns), (($height+$label)*$rows)
+    $graphics=[System.Drawing.Graphics]::FromImage($bitmap)
+    $graphics.Clear([System.Drawing.Color]::FromArgb(28,28,28))
+    $font=New-Object System.Drawing.Font 'Segoe UI',10
+    try {
+        for($i=0;$i -lt $Files.Count;$i++) {
+            $file=$Files[$i]; $img=[System.Drawing.Image]::FromFile((Join-Path $Root $file))
+            try {
+                $x=($i%$Columns)*$width; $y=[int][math]::Floor($i/[double]$Columns)*($height+$label)
+                $graphics.DrawImage($img,$x,($y+$label),$width,$height)
+                $graphics.DrawString([System.IO.Path]::GetFileNameWithoutExtension($file),$font,[System.Drawing.Brushes]::White,($x+4),($y+4))
+            } finally { $img.Dispose() }
+        }
+        $bitmap.Save((Join-Path $Root ($Name+'.jpg')),[System.Drawing.Imaging.ImageFormat]::Jpeg)
+    } finally { $font.Dispose(); $graphics.Dispose(); $bitmap.Dispose() }
+}
+$photos=Get-Content (Join-Path $Root 'photos.json') -Raw -Encoding UTF8 | ConvertFrom-Json
+$rooms=@($photos | Where-Object { $_.file -match '_Room\d+_' } | ForEach-Object file)
+for($i=0;$i -lt $rooms.Count;$i+=8) { Make-Sheet ('Rooms_'+([int]($i/8)+1)) @($rooms[$i..([math]::Min($i+7,$rooms.Count-1))]) 2 }
+foreach($type in @('Workbench','Duct','Instrument')) {
+    if($type -eq 'Workbench') {
+        $files=@(); foreach($floor in @('B1','B3','B5')) { foreach($mode in @('original','normal_off','base_off','clay')) { $files+=($floor+'_Workbench_'+$mode+'.png') } }
+        Make-Sheet 'Workbench_Comparison' $files 4
+        continue
+    }
+    $files=@($photos | Where-Object { $_.file -match ('_'+$type+'_(original|normal_off|clay)\.png$') } | ForEach-Object file)
+    Make-Sheet ($type+'_Comparison') $files 3
+}
+Make-Sheet 'B5_Seams' @($photos | Where-Object { $_.file -match '_seam_' } | ForEach-Object file) 2

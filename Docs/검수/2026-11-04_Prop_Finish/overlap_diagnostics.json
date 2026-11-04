@@ -1,0 +1,112 @@
+[
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Connector_Airlock/Geometry/Wall_West_Outer",
+    "b": "B5_Level_V0.01/Room01_Isolation/Geometry/Door01_To_Airlock/Frame_Left",
+    "overlapArea": 0.892,
+    "eye": [
+      0.200000048,
+      2.09589863,
+      1.99599993
+    ],
+    "target": [
+      -1.0,
+      2.09589863,
+      1.99599993
+    ],
+    "files": [
+      "Overlap_00_B5_both.png",
+      "Overlap_00_B5_A_hidden.png",
+      "Overlap_00_B5_B_hidden.png"
+    ],
+    "saved": false
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Connector_Airlock/Geometry/Wall_East_Entry",
+    "b": "B5_Level_V0.01/Room01_Isolation/Geometry/Door01_To_Airlock/Frame_Right",
+    "overlapArea": 0.892,
+    "eye": [
+      -0.200000048,
+      0.937447369,
+      1.965
+    ],
+    "target": [
+      1.0,
+      0.937447369,
+      1.965
+    ],
+    "files": [
+      "Overlap_01_B5_both.png",
+      "Overlap_01_B5_A_hidden.png",
+      "Overlap_01_B5_B_hidden.png"
+    ],
+    "saved": false
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "a": "B5_Level_V0.01/Exit_StairVestibule/Geometry/B4_Link_Locked_NoSceneTransition/Frame_Left",
+    "b": "B5_Level_V0.01/Exit_StairVestibule/Geometry/Landing_WestWall",
+    "overlapArea": 0.78,
+    "eye": [
+      4.2,
+      2.50315785,
+      -27.9557152
+    ],
+    "target": [
+      3.0,
+      2.50315785,
+      -27.9557152
+    ],
+    "files": [
+      "Overlap_02_B5_both.png",
+      "Overlap_02_B5_A_hidden.png",
+      "Overlap_02_B5_B_hidden.png"
+    ],
+    "saved": false
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B4_Observation.unity",
+    "a": "B4_Observation_Draft/Connector_Lightlock_Draft/Ceiling/AS_CurrentArchitecture_VisualOnly/Tile_0_0_0/Env_CeilingPanel_4m/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+    "b": "B4_Observation_Draft/Room03_ObservationCorridor/Ceiling/AS_CurrentArchitecture_VisualOnly/Tile_0_0_0/Env_CeilingPanel_4m/RebuiltArchitectureVisual/Env_CeilingPanel_4m_Rebuilt",
+    "overlapArea": 1.41482913,
+    "eye": [
+      -0.65,
+      2.859956,
+      -10.15
+    ],
+    "target": [
+      -0.65,
+      4.059956,
+      -10.15
+    ],
+    "files": [
+      "Overlap_03_B4_both.png",
+      "Overlap_03_B4_A_hidden.png",
+      "Overlap_03_B4_B_hidden.png"
+    ],
+    "saved": false
+  },
+  {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B3_SampleStorage.unity",
+    "a": "B3_SampleLayer_Draft/Room06_DecontaminationAirlock/Floor_BesidePen/AS_CurrentArchitecture_VisualOnly/Tile_0_0_0/Env_FloorSlab_4m/RebuiltArchitectureVisual/Env_FloorSlab_4m_Rebuilt",
+    "b": "B3_SampleLayer_Draft/Room06_DecontaminationAirlock/Pen_RetainingWall",
+    "overlapArea": 2.77351379,
+    "eye": [
+      -4.328871,
+      -0.172002763,
+      -10.6
+    ],
+    "target": [
+      -4.328871,
+      -0.172002763,
+      -11.8
+    ],
+    "files": [
+      "Overlap_04_B3_both.png",
+      "Overlap_04_B3_A_hidden.png",
+      "Overlap_04_B3_B_hidden.png"
+    ],
+    "saved": false
+  }
+]
