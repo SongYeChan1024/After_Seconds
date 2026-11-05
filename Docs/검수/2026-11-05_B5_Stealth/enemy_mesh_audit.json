@@ -1,0 +1,54 @@
+{
+  "title": "Enemy Mesh Audit V0.01",
+  "author": "송예찬",
+  "models": [
+    {
+      "role": "Guard",
+      "source": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\SourceAssets\\B5_StealthLayout\\NPC\\AS_V03_Guard.blend",
+      "vertices": 17840,
+      "sourceTriangles": 24000,
+      "evaluatedTriangles": 28643,
+      "bones": 53,
+      "weightedBoneGroups": 53,
+      "maxInfluences": 4,
+      "unweightedVertices": 0,
+      "weightSumsOutsideTolerance": 0,
+      "weightExamples": [],
+      "nonFinitePositions": 0,
+      "UVLayers": 1,
+      "invalidUVLoops": 0,
+      "topologyAfterTemporarySeamWeld": {
+        "boundaryEdges": 0,
+        "nonManifoldNonBoundaryEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0,
+        "duplicateFaces": 0
+      },
+      "note": "Open boundaries may be intentional clothing/detail; this audit does not alter source or prove animation quality."
+    },
+    {
+      "role": "Researcher",
+      "source": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\SourceAssets\\B5_StealthLayout\\NPC\\AS_V03_Researcher.blend",
+      "vertices": 16198,
+      "sourceTriangles": 24000,
+      "evaluatedTriangles": 25921,
+      "bones": 53,
+      "weightedBoneGroups": 53,
+      "maxInfluences": 4,
+      "unweightedVertices": 0,
+      "weightSumsOutsideTolerance": 0,
+      "weightExamples": [],
+      "nonFinitePositions": 0,
+      "UVLayers": 1,
+      "invalidUVLoops": 0,
+      "topologyAfterTemporarySeamWeld": {
+        "boundaryEdges": 0,
+        "nonManifoldNonBoundaryEdges": 0,
+        "looseVertices": 0,
+        "degenerateFaces": 0,
+        "duplicateFaces": 0
+      },
+      "note": "Open boundaries may be intentional clothing/detail; this audit does not alter source or prove animation quality."
+    }
+  ]
+}

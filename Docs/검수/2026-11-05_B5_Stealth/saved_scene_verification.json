@@ -1,0 +1,58 @@
+{
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Stealth.unity",
+  "dirty": false,
+  "preserved": [
+    {
+      "name": "ObservationPod",
+      "position": "(0.00000, 0.00000, 10.32000)",
+      "scale": "(3.00000, 2.00000, 3.00000)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "match": true
+    },
+    {
+      "name": "Habitat_LivingArea",
+      "position": "(0.00000, 0.00000, 0.00000)",
+      "scale": "(1.00000, 1.00000, 1.00000)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "match": true
+    },
+    {
+      "name": "Habitat_StaffEquipment",
+      "position": "(0.00000, 0.00000, 0.00000)",
+      "scale": "(1.00000, 1.00000, 1.00000)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)",
+      "match": true
+    }
+  ],
+  "spawn": "(-7.00, 0.89, -6.00)",
+  "routeRenderers": 0,
+  "roomUI": 0,
+  "missingScripts": 0,
+  "actors": [
+    {
+      "name": "G0_Initial_Guard_Visual",
+      "enabled": false,
+      "isHuman": true,
+      "controller": "none"
+    },
+    {
+      "name": "G1_South_Guard_Visual",
+      "enabled": false,
+      "isHuman": true,
+      "controller": "none"
+    },
+    {
+      "name": "G2_CoolingNorth_Guard_Visual",
+      "enabled": false,
+      "isHuman": true,
+      "controller": "none"
+    },
+    {
+      "name": "R1_Monitoring_Researcher_Visual",
+      "enabled": false,
+      "isHuman": true,
+      "controller": "none"
+    }
+  ],
+  "background": false
+}

@@ -1,0 +1,43 @@
+{
+  "frame": 2210,
+  "controller": {
+    "height": 1.8,
+    "radius": 0.28,
+    "stepOffset": 0.3
+  },
+  "method": "CharacterController.Move at 0.055m horizontal + gravity per step; static collision verification, no AI or frame-time benchmark",
+  "reports": [
+    {
+      "name": "A",
+      "moves": 873,
+      "failures": [],
+      "final": "(17.122, 0.680, 10.088)",
+      "feetY": 0.07999992,
+      "grounded": true
+    },
+    {
+      "name": "B",
+      "moves": 1430,
+      "failures": [],
+      "final": "(17.122, 0.680, 10.088)",
+      "feetY": 0.07999992,
+      "grounded": true
+    },
+    {
+      "name": "C",
+      "moves": 450,
+      "failures": [],
+      "final": "(-10.345, 0.680, 13.624)",
+      "feetY": 0.07999992,
+      "grounded": true
+    },
+    {
+      "name": "StairA_full_climb",
+      "moves": 371,
+      "failures": [],
+      "final": "(16.300, 8.480, 12.216)",
+      "feetY": 7.87999964,
+      "grounded": true
+    }
+  ]
+}

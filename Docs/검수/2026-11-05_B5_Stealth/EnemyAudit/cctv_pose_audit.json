@@ -1,0 +1,60 @@
+{
+  "title": "CCTV art pivot audit V0.01",
+  "gameScripts": 0,
+  "states": [
+    {
+      "name": "Neutral",
+      "yaw": 0.0,
+      "pitch": 10.0,
+      "fixedBaseUnchanged": true,
+      "headMaxY": -0.3335808,
+      "panPosition": "(0.00, -0.16, 0.00)",
+      "headPosition": "(0.00, -0.30, 0.04)"
+    },
+    {
+      "name": "Yaw_Left",
+      "yaw": -90.0,
+      "pitch": 10.0,
+      "fixedBaseUnchanged": true,
+      "headMaxY": -0.3335808,
+      "panPosition": "(0.00, -0.16, 0.00)",
+      "headPosition": "(0.00, -0.30, 0.04)"
+    },
+    {
+      "name": "Yaw_Right",
+      "yaw": 90.0,
+      "pitch": 10.0,
+      "fixedBaseUnchanged": true,
+      "headMaxY": -0.3335808,
+      "panPosition": "(0.00, -0.16, 0.00)",
+      "headPosition": "(0.00, -0.30, 0.04)"
+    },
+    {
+      "name": "Tilt_Up",
+      "yaw": 0.0,
+      "pitch": -25.0,
+      "fixedBaseUnchanged": true,
+      "headMaxY": -0.193219244,
+      "panPosition": "(0.00, -0.16, 0.00)",
+      "headPosition": "(0.00, -0.30, 0.04)"
+    },
+    {
+      "name": "Tilt_Down",
+      "yaw": 0.0,
+      "pitch": 25.0,
+      "fixedBaseUnchanged": true,
+      "headMaxY": -0.3200047,
+      "panPosition": "(0.00, -0.16, 0.00)",
+      "headPosition": "(0.00, -0.30, 0.04)"
+    },
+    {
+      "name": "Combined",
+      "yaw": -90.0,
+      "pitch": -25.0,
+      "fixedBaseUnchanged": true,
+      "headMaxY": -0.193219244,
+      "panPosition": "(0.00, -0.16, 0.00)",
+      "headPosition": "(0.00, -0.30, 0.04)"
+    }
+  ]
+}

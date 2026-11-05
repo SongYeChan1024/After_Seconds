@@ -1,0 +1,54 @@
+{
+  "title": "B5 mesh optimization V0.02",
+  "beforeTriangles": 2439679,
+  "afterLOD0Triangles": 949363,
+  "afterLOD1Triangles": 767553,
+  "reductionPercent": 61.08656097789914,
+  "allLODAssetInstanceTriangles": 1172001,
+  "uniqueTriangles": 748066,
+  "referencedMeshMemoryMB": 93.223396301269531,
+  "lodGroups": 25,
+  "groups": [
+    {
+      "group": "Retained_Pod_and_Habitat",
+      "trianglesAllLOD": 217164,
+      "trianglesLOD0": 217164,
+      "trianglesLOD1": 217164,
+      "instances": 114,
+      "uniqueMemoryMB": 20.921852111816406
+    },
+    {
+      "group": "Room_Furnishings_VARCO",
+      "trianglesAllLOD": 627086,
+      "trianglesLOD0": 404448,
+      "trianglesLOD1": 222638,
+      "instances": 50,
+      "uniqueMemoryMB": 31.208650588989258
+    },
+    {
+      "group": "Actors_Visual_Placements",
+      "trianglesAllLOD": 121559,
+      "trianglesLOD0": 121559,
+      "trianglesLOD1": 121559,
+      "instances": 15,
+      "uniqueMemoryMB": 7.3275585174560547
+    },
+    {
+      "group": "Fixture_Details_Blender_Bevelled",
+      "trianglesAllLOD": 752,
+      "trianglesLOD0": 752,
+      "trianglesLOD1": 752,
+      "instances": 4,
+      "uniqueMemoryMB": 0.065826416015625
+    },
+    {
+      "group": "Architecture_Blender_Bevelled",
+      "trianglesAllLOD": 205440,
+      "trianglesLOD0": 205440,
+      "trianglesLOD1": 205440,
+      "instances": 150,
+      "uniqueMemoryMB": 33.699508666992188
+    }
+  ],
+  "meaning": "Full-detail instance geometry before camera/occlusion culling; LOD1 alternative geometry excluded from LOD0 sum. Memory counts scene-referenced meshes only, not total Editor/process/GPU memory. No FPS guarantee."
+}

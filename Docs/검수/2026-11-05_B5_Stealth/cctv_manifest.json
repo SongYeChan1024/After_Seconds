@@ -1,0 +1,192 @@
+{
+  "title": "Articulated CCTV V0.01",
+  "author": "송예찬",
+  "pivots": {
+    "Fixed": [
+      0,
+      0,
+      0
+    ],
+    "Pan": [
+      0,
+      -0.16,
+      0
+    ],
+    "Head": [
+      0,
+      -0.46,
+      0.035
+    ]
+  },
+  "panAxis": "Unity local Y",
+  "tiltAxis": "Unity local X",
+  "reviewPanRange": [
+    -90,
+    90
+  ],
+  "reviewTiltRange": [
+    -25,
+    25
+  ],
+  "bevels": [
+    {
+      "name": "Ceiling_Base",
+      "width_m": 0.006,
+      "segments": 3
+    },
+    {
+      "name": "Ceiling_Gasket",
+      "width_m": 0.002,
+      "segments": 3
+    },
+    {
+      "name": "Mount_Screw",
+      "width_m": 0.001,
+      "segments": 3
+    },
+    {
+      "name": "Mount_Screw.001",
+      "width_m": 0.001,
+      "segments": 3
+    },
+    {
+      "name": "Mount_Screw.002",
+      "width_m": 0.001,
+      "segments": 3
+    },
+    {
+      "name": "Mount_Screw.003",
+      "width_m": 0.001,
+      "segments": 3
+    },
+    {
+      "name": "Fixed_Stem",
+      "width_m": 0.002,
+      "segments": 3
+    },
+    {
+      "name": "Pan_Bearing_Rotor",
+      "width_m": 0.002,
+      "segments": 3
+    },
+    {
+      "name": "Pan_Bearing_Seal",
+      "width_m": 0.001,
+      "segments": 3
+    },
+    {
+      "name": "Pan_Neck",
+      "width_m": 0.002,
+      "segments": 3
+    },
+    {
+      "name": "Yoke_Crossbar",
+      "width_m": 0.005,
+      "segments": 3
+    },
+    {
+      "name": "Yoke_Shoulder",
+      "width_m": 0.004,
+      "segments": 3
+    },
+    {
+      "name": "Yoke_Arm",
+      "width_m": 0.004,
+      "segments": 3
+    },
+    {
+      "name": "Tilt_Axle",
+      "width_m": 0.002,
+      "segments": 3
+    },
+    {
+      "name": "Tilt_Axle_Cap",
+      "width_m": 0.002,
+      "segments": 3
+    },
+    {
+      "name": "Yoke_Shoulder.001",
+      "width_m": 0.004,
+      "segments": 3
+    },
+    {
+      "name": "Yoke_Arm.001",
+      "width_m": 0.004,
+      "segments": 3
+    },
+    {
+      "name": "Tilt_Axle.001",
+      "width_m": 0.002,
+      "segments": 3
+    },
+    {
+      "name": "Tilt_Axle_Cap.001",
+      "width_m": 0.002,
+      "segments": 3
+    },
+    {
+      "name": "Camera_Housing",
+      "width_m": 0.012,
+      "segments": 3
+    },
+    {
+      "name": "Camera_Rear_Gasket",
+      "width_m": 0.003,
+      "segments": 3
+    },
+    {
+      "name": "Camera_Front_Bezel",
+      "width_m": 0.007,
+      "segments": 3
+    },
+    {
+      "name": "Sunshade",
+      "width_m": 0.005,
+      "segments": 3
+    },
+    {
+      "name": "Lens_Outer",
+      "width_m": 0.003,
+      "segments": 3
+    },
+    {
+      "name": "Lens_Rubber",
+      "width_m": 0.002,
+      "segments": 3
+    },
+    {
+      "name": "Lens_Glass",
+      "width_m": 0.002,
+      "segments": 3
+    },
+    {
+      "name": "Status_LED",
+      "width_m": 0.001,
+      "segments": 3
+    },
+    {
+      "name": "Head_Screw",
+      "width_m": 0.001,
+      "segments": 3
+    },
+    {
+      "name": "Head_Screw.001",
+      "width_m": 0.001,
+      "segments": 3
+    },
+    {
+      "name": "Head_Screw.002",
+      "width_m": 0.001,
+      "segments": 3
+    },
+    {
+      "name": "Head_Screw.003",
+      "width_m": 0.001,
+      "segments": 3
+    }
+  ],
+  "triangles": 9796,
+  "model": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Enemy\\CCTV_SecurityCamera_Articulated.fbx",
+  "source": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\SourceAssets\\B5_StealthLayout\\CCTV\\CCTV_SecurityCamera_Articulated.blend",
+  "gameScripts": 0
+}

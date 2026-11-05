@@ -1,0 +1,72 @@
+{
+    "title":  "B5 wall finishes and exposed metal V0.01",
+    "author":  "송예찬",
+    "date":  "2026-11-05",
+    "scene":  "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Stealth.unity",
+    "tool":  "Blender 5.2.2 LTS",
+    "source":  "SourceAssets/B5_StealthLayout/B5_StealthLayout_WallVariants.blend",
+    "generator":  "SourceAssets/B5_StealthLayout/build_b5_wall_variants.py",
+    "pbrNodes":  "SourceAssets/B5_StealthLayout/wall_material_nodes.py",
+    "model":  "05.Model/Environment/B5/B5_Stealth_WallVariants.fbx",
+    "manifest":  "SourceAssets/B5_StealthLayout/wall_variants_manifest.json",
+    "geometry":  {
+                     "title":  "B5 wall variants mesh budget V0.01",
+                     "beforeWallChangeTriangles":  949363,
+                     "afterWallChangeTriangles":  959687,
+                     "beforeArchitectureTriangles":  205440,
+                     "afterArchitectureTriangles":  215764,
+                     "architectureRenderersBefore":  150,
+                     "architectureRenderersAfter":  249,
+                     "referencedMeshMemoryMiB":  87.603546142578125,
+                     "meaning":  "B5 level root, highest LOD, includes inactive preserved meshes; excludes player. More material/sector batches, so triangle reduction is not an FPS result."
+                 },
+    "bevel":  {
+                  "trimSegments":  3,
+                  "trimParts":  600,
+                  "zeroWidthParts":  0,
+                  "sourceParts":  2871,
+                  "trimWidth_m":  [
+                                      0.003,
+                                      0.006
+                                  ],
+                  "otherSegments":  1
+              },
+    "materials":  {
+                      "resolution":  1024,
+                      "uvTiling":  4,
+                      "trim":  "Materials/WV_WallTrim.mat",
+                      "maps":  [
+                                   "WV_Trim_Base.png",
+                                   "WV_Trim_Normal.png",
+                                   "WV_Trim_MetallicSmoothness.png"
+                               ],
+                      "normalStrength":  0.32,
+                      "smoothnessMultiplier":  1,
+                      "metallicMask":  0.96,
+                      "smoothnessMaskAlpha":  0.62,
+                      "sourceModelRemaps":  16
+                  },
+    "lighting":  {
+                     "innerSpotAngle":  90,
+                     "spotAngle":  140,
+                     "static128pxReflectionCubes":  7,
+                     "mode":  "Custom pre-baked texture",
+                     "cubeFormat":  "BC6H HDR",
+                     "actorsExcludedFromBake":  true,
+                     "realtimeCaptures":  0,
+                     "newLights":  0,
+                     "existingFixtureConesChanged":  79,
+                     "reflectionMapMemoryMiB":  2.194976806640625
+                 },
+    "preservation":  {
+                         "originalScenes":  6,
+                         "routeSamples":  817,
+                         "gameCSharpAddedOrChanged":  0,
+                         "routeBlocked":  0,
+                         "protectedFiles":  19,
+                         "colliders":  260,
+                         "allHashesMatch":  true
+                     },
+    "review":  "Docs/검수/2026-11-05_B5_WallVariants/검수결과.md",
+    "scope":  "Level and art only. No game C#, enemy behavior, animation controller, UI or minimap."
+}

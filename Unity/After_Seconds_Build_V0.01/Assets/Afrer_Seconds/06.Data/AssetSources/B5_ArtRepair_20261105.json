@@ -1,0 +1,65 @@
+{
+    "title":  "B5 asset geometry repair V0.02",
+    "author":  "송예찬",
+    "date":  "2026-11-05",
+    "scene":  "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Stealth.unity",
+    "architecture":  {
+                         "triangles":  195416,
+                         "source":  "SourceAssets/B5_StealthLayout/B5_StealthLayout_ArtRepair.blend",
+                         "renderers":  261,
+                         "model":  "05.Model/Environment/B5/B5_Stealth_ArtRepair.fbx",
+                         "generator":  "SourceAssets/B5_StealthLayout/build_b5_art_repair.py",
+                         "originalCollisionDefinitionsPreserved":  true
+                     },
+    "guard":  {
+                  "prefab":  "05.Model/Enemy/AS_V03_Guard_HeadRepaired.prefab",
+                  "source":  "SourceAssets/B5_StealthLayout/NPC/AS_V03_Guard_HeadRepaired.blend",
+                  "triangles":  37317,
+                  "skinnedParts":  4,
+                  "instances":  3,
+                  "lensThickness_m":  0.0015,
+                  "faceGeometryFrom":  "AS_V03_Researcher.blend",
+                  "bones":  53,
+                  "model":  "05.Model/Enemy/AS_V03_Guard_HeadRepaired.fbx",
+                  "generator":  "SourceAssets/B5_StealthLayout/repair_guard_head.py",
+                  "binding":  "Face/frame/visor Head; neck closure Neck-\u003eHead blend; body weights retained"
+              },
+    "pump":  {
+                 "portsMeasuredFromMeshUV":  true,
+                 "bottomY":  0,
+                 "visualRotationX":  -90,
+                 "rootYawSouth":  0,
+                 "rootYawNorth":  180
+             },
+    "connections":  {
+                        "railPosts":  18,
+                        "zeroTubeUVFaces":  0,
+                        "pipeJoints":  12,
+                        "bodyIntersectionPairs":  0,
+                        "continuousCircuits":  2
+                    },
+    "validation":  {
+                       "highestLOD0Triangles":  965421,
+                       "changedPumpColliders":  2,
+                       "routeSamples":  817,
+                       "gameCSharpAddedOrChanged":  0,
+                       "colliders":  262,
+                       "otherExistingCollidersUnchanged":  258,
+                       "beforeTriangles":  959687,
+                       "addedReturnPipeColliders":  2,
+                       "routeBlocked":  0,
+                       "preservedFiles":  44
+                   },
+    "review":  "Docs/검수/2026-11-05_B5_AssetRepair/검수결과.md",
+    "scope":  "Level/mesh/material/collider only. No runtime game C#, AI, animation controller or UI.",
+    "polygonImportFix":  {
+                             "generatorVersion":  "V0.03",
+                             "bodyTriangles":  32365,
+                             "guardTriangles":  37317,
+                             "allExportPolygonsTriangulated":  true,
+                             "zeroAreaTriangles":  0,
+                             "forcedReimportWarnings":  0,
+                             "metaGUIDPreserved":  true,
+                             "review":  "Docs/검수/2026-11-05_B5_AssetRepair/PolygonFix/검수결과.md"
+                         }
+}

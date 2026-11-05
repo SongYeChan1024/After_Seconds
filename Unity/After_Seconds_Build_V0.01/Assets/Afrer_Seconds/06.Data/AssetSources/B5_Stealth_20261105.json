@@ -1,0 +1,202 @@
+{
+    "title":  "B5 Stealth Level asset sources V0.05",
+    "author":  "송예찬",
+    "date":  "2026-11-05",
+    "scene":  "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Stealth.unity",
+    "sourcePlan":  "Docs/도면/잠입_탐색/layout.json",
+    "sourcePlanSHA256":  "5e8bf77d0e2d8555354329ae78ce5680d07518730ac74086fcf7b05b5bcedc1c",
+    "coordinates":  "Unity X=u-24,Y=height,Z=v-16",
+    "flow":  {
+                 "name":  "After_Second_Env_and_Props_Ver0.03",
+                 "id":  "8f7100a4-a7df-488b-81ee-0c2ac6ae60d8",
+                 "url":  "https://3d.varco.ai/flow/8f7100a4-a7df-488b-81ee-0c2ac6ae60d8",
+                 "estimatedPoints":  500,
+                 "license":  "PRIVATE",
+                 "workflow":  "2 branches: TextInput -\u003e GenerateImage -\u003e Generate3D -\u003e Rig",
+                 "outputs":  [
+                                 {
+                                     "nodeId":  "dfc29e63-4e80-4201-9482-f34c19d59e52",
+                                     "outputIndex":  0,
+                                     "type":  "3d",
+                                     "taskId":  "7901957d-880c-45d6-a80a-98558bf0e7d3",
+                                     "exportType":  "glb",
+                                     "url":  "https://3d.varco.ai/api/objects/de9cd237bcd198f4fbd4f6e5f8ccc2d7.glb",
+                                     "error":  null
+                                 },
+                                 {
+                                     "nodeId":  "e7bc82fb-d550-46db-a728-fc4d630a9ad2",
+                                     "outputIndex":  0,
+                                     "type":  "image",
+                                     "url":  "/api/objects/752cfec0878b94ba13b8aa190133c6dc.png",
+                                     "taskId":  null,
+                                     "exportType":  null,
+                                     "error":  null
+                                 },
+                                 {
+                                     "nodeId":  "dbe34637-893a-47f2-97e9-74bf8d01421b",
+                                     "outputIndex":  0,
+                                     "type":  "3d",
+                                     "taskId":  "eea36c42-8bf7-46cc-be69-51a14b6c45b4",
+                                     "exportType":  "glb",
+                                     "url":  "https://3d.varco.ai/api/objects/e8d09bbde66cec19ed51c5146d1b4909.glb",
+                                     "error":  null
+                                 },
+                                 {
+                                     "nodeId":  "2a754022-d925-4a7c-bb8c-298ef0edadaa",
+                                     "outputIndex":  0,
+                                     "type":  "image",
+                                     "url":  "/api/objects/b110fd6d98777c79af72f66db371a4a4.png",
+                                     "taskId":  null,
+                                     "exportType":  null,
+                                     "error":  null
+                                 },
+                                 {
+                                     "nodeId":  "153c5b27-175e-4e2b-a6e0-cedc5279e320",
+                                     "outputIndex":  0,
+                                     "type":  "3d",
+                                     "taskId":  "34d188c6-803a-4913-ab98-807fef2a510a",
+                                     "exportType":  "glb",
+                                     "url":  "https://3d.varco.ai/api/objects/1efcaac0f87d0bf484adc53857cc1083.glb",
+                                     "error":  null
+                                 },
+                                 {
+                                     "nodeId":  "b5e4c304-f438-4893-97f8-e05032003b96",
+                                     "outputIndex":  0,
+                                     "type":  "3d",
+                                     "taskId":  "4838631d-f39c-455a-85cc-8d2f519eee6e",
+                                     "exportType":  "glb",
+                                     "url":  "https://3d.varco.ai/api/objects/6f83279cd57269aa7d4ae42f09328352.glb",
+                                     "error":  null
+                                 }
+                             ]
+             },
+    "architecture":  {
+                         "model":  "05.Model/Environment/B5/B5_Stealth_ArtRepair.fbx",
+                         "source":  "SourceAssets/B5_StealthLayout/B5_StealthLayout_ArtRepair.blend",
+                         "generator":  "SourceAssets/B5_StealthLayout/build_b5_art_repair.py",
+                         "sourceObjects":  2706,
+                         "exportMeshes":  261,
+                         "triangles":  195416,
+                         "bevel":  "Continuous pipe/rail 1.5mm / 2 segments; shallow mitred trim uses scale appropriate bevels; source art_repair_manifest.json",
+                         "pitDepth":  3,
+                         "stairRise":  7.8,
+                         "stairRisers":  40,
+                         "stairRiseStatus":  "tentative B5 review section; B4 elevation/transition not implemented"
+                     },
+    "npc":  {
+                "models":  [
+                               "05.Model/Enemy/AS_V03_Guard_HeadRepaired.fbx",
+                               "05.Model/Enemy/AS_V03_Researcher.fbx"
+                           ],
+                "prefabs":  [
+                                "05.Model/Enemy/AS_V03_Guard_HeadRepaired.prefab",
+                                "05.Model/Enemy/AS_V03_Researcher.prefab"
+                            ],
+                "sources":  "SourceAssets/B5_StealthLayout/NPC",
+                "preparation":  "SourceAssets/B5_StealthLayout/prepare_npcs.py",
+                "height":  1.8,
+                "rig":  "humanoid-fingers, Unity human/valid",
+                "bevel":  "1mm, 2 segments, angle \u003e=65 degrees; smooth organic surfaces",
+                "state":  "static art poses, Animator disabled, no controller or AI"
+            },
+    "reused":  "Existing bevel-finished VARCO furniture, pumps, HVAC, monitor banks, cabinets, CCTV; retained pod/living/staff groups",
+    "preserved":  "Original six scenes and meta, JC meshes and original floor plans; see preservation.json",
+    "validation":  "Docs/검수/2026-11-05_B5_AssetRepair/검수결과.md",
+    "limitations":  [
+                        "No AI/patrol/chase/detection/alert",
+                        "No swap/pod escape",
+                        "No NPC animation controller",
+                        "No scene transition to B4",
+                        "No minimap/UI/route lines",
+                        "Other five revised floors not built",
+                        "Original B5 pool warp points away from staircase goal; direction remains under review",
+                        "No full stealth completion/difficulty/FPS benchmark"
+                    ],
+    "optimization":  {
+                         "title":  "B5 art repair geometry budget V0.01",
+                         "beforeWallRepairTriangles":  959687,
+                         "afterLOD0Triangles":  965421,
+                         "architectureTriangles":  195416,
+                         "guardTriangles":  37317,
+                         "meaning":  "B5 level root highest LOD, includes inactive preserved geometry, excludes player. Not FPS/total RAM."
+                     },
+    "cctv":  {
+                 "model":  "05.Model/Enemy/CCTV_SecurityCamera_Articulated.fbx",
+                 "prefab":  "05.Model/Enemy/CCTV_SecurityCamera_Articulated.prefab",
+                 "source":  "SourceAssets/B5_StealthLayout/CCTV/CCTV_SecurityCamera_Articulated.blend",
+                 "triangles":  9796,
+                 "pan":  "Pan_Yaw local Y",
+                 "tilt":  "Pan_Yaw/Head_Tilt local X",
+                 "gameScripts":  0,
+                 "clearance":  "CCTV/clearance_audit.json"
+             },
+    "enemyAudit":  "SourceAssets/B5_StealthLayout/NPC/mesh_audit.json; Docs/검수/2026-11-05_B5_Stealth/EnemyAudit/pose_audit.json",
+    "userScope":  "Level and art only. User writes runtime game C# by asking questions. No AI, automatic rotation, detection, chase, swap or Animator Controller added.",
+    "preWallOptimization":  {
+                                "title":  "B5 mesh optimization V0.02",
+                                "beforeTriangles":  2439679,
+                                "afterLOD0Triangles":  949363,
+                                "afterLOD1Triangles":  767553,
+                                "reductionPercent":  61.08656097789914,
+                                "allLODAssetInstanceTriangles":  1172001,
+                                "uniqueTriangles":  748066,
+                                "referencedMeshMemoryMB":  93.223396301269531,
+                                "lodGroups":  25,
+                                "groups":  [
+                                               {
+                                                   "group":  "Retained_Pod_and_Habitat",
+                                                   "trianglesAllLOD":  217164,
+                                                   "trianglesLOD0":  217164,
+                                                   "trianglesLOD1":  217164,
+                                                   "instances":  114,
+                                                   "uniqueMemoryMB":  20.921852111816406
+                                               },
+                                               {
+                                                   "group":  "Room_Furnishings_VARCO",
+                                                   "trianglesAllLOD":  627086,
+                                                   "trianglesLOD0":  404448,
+                                                   "trianglesLOD1":  222638,
+                                                   "instances":  50,
+                                                   "uniqueMemoryMB":  31.208650588989258
+                                               },
+                                               {
+                                                   "group":  "Actors_Visual_Placements",
+                                                   "trianglesAllLOD":  121559,
+                                                   "trianglesLOD0":  121559,
+                                                   "trianglesLOD1":  121559,
+                                                   "instances":  15,
+                                                   "uniqueMemoryMB":  7.3275585174560547
+                                               },
+                                               {
+                                                   "group":  "Fixture_Details_Blender_Bevelled",
+                                                   "trianglesAllLOD":  752,
+                                                   "trianglesLOD0":  752,
+                                                   "trianglesLOD1":  752,
+                                                   "instances":  4,
+                                                   "uniqueMemoryMB":  0.065826416015625
+                                               },
+                                               {
+                                                   "group":  "Architecture_Blender_Bevelled",
+                                                   "trianglesAllLOD":  205440,
+                                                   "trianglesLOD0":  205440,
+                                                   "trianglesLOD1":  205440,
+                                                   "instances":  150,
+                                                   "uniqueMemoryMB":  33.699508666992188
+                                               }
+                                           ],
+                                "meaning":  "Full-detail instance geometry before camera/occlusion culling; LOD1 alternative geometry excluded from LOD0 sum. Memory counts scene-referenced meshes only, not total Editor/process/GPU memory. No FPS guarantee."
+                            },
+    "wallVariants":  "06.Data/AssetSources/B5_WallVariants_20261105.json",
+    "preArtRepairOptimization":  {
+                                     "title":  "B5 wall variants mesh budget V0.01",
+                                     "beforeWallChangeTriangles":  949363,
+                                     "afterWallChangeTriangles":  959687,
+                                     "beforeArchitectureTriangles":  205440,
+                                     "afterArchitectureTriangles":  215764,
+                                     "architectureRenderersBefore":  150,
+                                     "architectureRenderersAfter":  249,
+                                     "referencedMeshMemoryMiB":  87.603546142578125,
+                                     "meaning":  "B5 level root, highest LOD, includes inactive preserved meshes; excludes player. More material/sector batches, so triangle reduction is not an FPS result."
+                                 },
+    "artRepair":  "06.Data/AssetSources/B5_ArtRepair_20261105.json"
+}

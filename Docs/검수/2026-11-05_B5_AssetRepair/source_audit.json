@@ -1,0 +1,74 @@
+{
+  "title": "B5 repaired art source audit V0.01",
+  "supplyReturnIntersectingTrianglePairs": 0,
+  "continuousParts": [
+    {
+      "name": "Cooling_Supply_ContinuousPipe",
+      "vertices": 760,
+      "faces": 742,
+      "zeroUVFaces": 0,
+      "bevelWidth_m": 0.001500000013038516
+    },
+    {
+      "name": "Cooling_Return_ContinuousPipe",
+      "vertices": 1480,
+      "faces": 1462,
+      "zeroUVFaces": 0,
+      "bevelWidth_m": 0.001500000013038516
+    },
+    {
+      "name": "StairA_Outer_ContinuousRail",
+      "vertices": 1040,
+      "faces": 1026,
+      "zeroUVFaces": 0,
+      "bevelWidth_m": 0.001500000013038516
+    },
+    {
+      "name": "StairA_Inner_ContinuousRail",
+      "vertices": 2768,
+      "faces": 2754,
+      "zeroUVFaces": 0,
+      "bevelWidth_m": 0.001500000013038516
+    }
+  ],
+  "guardBoneCount": 53,
+  "skin": [
+    {
+      "name": "AS_V03_Guard",
+      "vertices": 19935,
+      "unweighted": 0,
+      "invalidWeightSum": 0,
+      "materials": [
+        "AS_V03_Guard_PBR"
+      ]
+    },
+    {
+      "name": "AS_Guard_RealFace",
+      "vertices": 1410,
+      "unweighted": 0,
+      "invalidWeightSum": 0,
+      "materials": [
+        "AS_Guard_RealSkin"
+      ]
+    },
+    {
+      "name": "AS_Guard_VisorFrame",
+      "vertices": 212,
+      "unweighted": 0,
+      "invalidWeightSum": 0,
+      "materials": [
+        "AS_Guard_VisorFrame"
+      ]
+    },
+    {
+      "name": "AS_Guard_ClearVisor",
+      "vertices": 169,
+      "unweighted": 0,
+      "invalidWeightSum": 0,
+      "materials": [
+        "AS_Guard_ClearVisor"
+      ]
+    }
+  ],
+  "note": "Tube body to body intersection only. Flanges, supports and pipe sockets intentionally intersect mating pieces. Open helmet/neck boundaries are assembly seams backed by other parts."
+}

@@ -1,0 +1,50 @@
+{
+  "title": "집 작업 인수인계 Git 파일 검증 V0.01",
+  "author": "송예찬",
+  "date": "2026-11-05",
+  "branch": "main",
+  "baseCommit": "3e57dc5012326210902d31c31a536cebd9382dbf",
+  "unityVersion": "6000.4.0f1",
+  "stageScenes": [
+    "Assets/Afrer_Seconds/01.Scenes/Stage/Level_1F_Checkpoint.unity",
+    "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B1_Experiment.unity",
+    "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B2_Machinery.unity",
+    "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B3_SampleStorage.unity",
+    "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B4_Observation.unity",
+    "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Stealth.unity"
+  ],
+  "unityDependencyCount": 987,
+  "allDependenciesAndMetaInGitIndex": true,
+  "openScenes": [
+    {
+      "path": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Stealth.unity",
+      "isDirty": false
+    }
+  ],
+  "blenderSourceCount": 10,
+  "allBlenderImagesPackedOrRepoRelative": true,
+  "externalBlenderLibraries": 0,
+  "stagedFilesBeforeThisReport": 521,
+  "addedAssetsWithMeta": 126,
+  "filesOver50MiB": [
+    {
+      "path": "SourceAssets/B5_StealthLayout/Optimized_Props/B5_Optimized_Props.blend",
+      "bytes": 54260524
+    }
+  ],
+  "checks": {
+    "missingMeta": [],
+    "orphanMeta": [],
+    "missingIndexedDependencies": [],
+    "nonportableBlendImages": [],
+    "oversizeFiles": [],
+    "runtimeOrPackageChanges": [],
+    "jsonErrors": [],
+    "credentialPatternMatches": [],
+    "missingDocumentLinks": [],
+    "unsavedScenes": [],
+    "editorMissing": []
+  },
+  "scope": "파일 이관과 기존 검증 결과의 인수인계. 새 플레이 테스트나 FPS 측정을 뜻하지 않음."
+}

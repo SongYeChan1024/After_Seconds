@@ -1,0 +1,271 @@
+{
+  "title": "B5 optimized props V0.02",
+  "author": "송예찬",
+  "method": "Weld coincident geometric vertices (1e-6m), retain per-loop UV atlas/material slots, collapse decimation and weighted normals. Workbench uses planar dissolve to preserve countertop/sink instead of aggressive collapse. Original geometry and editable modifiers retained.",
+  "meshes": [
+    {
+      "id": "B5Lite_0",
+      "source": "Assets/Afrer_Seconds/05.Model/Props/B5/B5_IsolationMonitoringConsole_BevelSmooth.asset",
+      "name": "B5_IsolationMonitoringConsole_BevelSmooth",
+      "originalTriangles": 16626,
+      "levels": [
+        {
+          "level": 0,
+          "triangles": 9767,
+          "vertices": 4866,
+          "maxBoundsDelta": 2.575073242416792e-07,
+          "fbx": "Assets/Afrer_Seconds/05.Model/Props/B5/B5_IsolationMonitoringConsole_B5_L0.fbx",
+          "mesh": "B5_IsolationMonitoringConsole_B5_L0"
+        },
+        {
+          "level": 1,
+          "triangles": 3907,
+          "vertices": 1936,
+          "maxBoundsDelta": 0.00023910386264036632,
+          "fbx": "Assets/Afrer_Seconds/05.Model/Props/B5/B5_IsolationMonitoringConsole_B5_L1.fbx",
+          "mesh": "B5_IsolationMonitoringConsole_B5_L1"
+        }
+      ]
+    },
+    {
+      "id": "B5Lite_1",
+      "source": "Assets/Afrer_Seconds/05.Model/Props/Common/P02_WallStorageCabinet_BevelSmooth.asset",
+      "name": "P02_WallStorageCabinet_BevelSmooth",
+      "originalTriangles": 10002,
+      "levels": [
+        {
+          "level": 0,
+          "triangles": 6914,
+          "vertices": 3453,
+          "maxBoundsDelta": 3.9839170851152517e-10,
+          "fbx": "Assets/Afrer_Seconds/05.Model/Props/Common/P02_WallStorageCabinet_B5_L0.fbx",
+          "mesh": "P02_WallStorageCabinet_B5_L0"
+        },
+        {
+          "level": 1,
+          "triangles": 2764,
+          "vertices": 1378,
+          "maxBoundsDelta": 0.0001163482666015625,
+          "fbx": "Assets/Afrer_Seconds/05.Model/Props/Common/P02_WallStorageCabinet_B5_L1.fbx",
+          "mesh": "P02_WallStorageCabinet_B5_L1"
+        }
+      ]
+    },
+    {
+      "id": "B5Lite_2",
+      "source": "Assets/Afrer_Seconds/05.Model/Props/Common/P07_SealedWasteBin_BevelSmooth.asset",
+      "name": "P07_SealedWasteBin_BevelSmooth",
+      "originalTriangles": 11116,
+      "levels": [
+        {
+          "level": 0,
+          "triangles": 6992,
+          "vertices": 3470,
+          "maxBoundsDelta": 6.8354779662908024e-06,
+          "fbx": "Assets/Afrer_Seconds/05.Model/Props/Common/P07_SealedWasteBin_B5_L0.fbx",
+          "mesh": "P07_SealedWasteBin_B5_L0"
+        },
+        {
+          "level": 1,
+          "triangles": 2796,
+          "vertices": 1372,
+          "maxBoundsDelta": 0.00029113912991335367,
+          "fbx": "Assets/Afrer_Seconds/05.Model/Props/Common/P07_SealedWasteBin_B5_L1.fbx",
+          "mesh": "P07_SealedWasteBin_B5_L1"
+        }
+      ]
+    },
+    {
+      "id": "B5Lite_3",
+      "source": "Assets/Afrer_Seconds/05.Model/Props/B5/Props_CoolingPump_Repaired.asset",
+      "name": "Props_CoolingPump_Repaired",
+      "originalTriangles": 15936,
+      "levels": [
+        {
+          "level": 0,
+          "triangles": 10000,
+          "vertices": 4914,
+          "maxBoundsDelta": 0.0005221964336242779,
+          "fbx": "Assets/Afrer_Seconds/05.Model/Props/B5/Props_CoolingPump_B5_L0.fbx",
+          "mesh": "Props_CoolingPump_B5_L0"
+        },
+        {
+          "level": 1,
+          "triangles": 4000,
+          "vertices": 1914,
+          "maxBoundsDelta": 0.0021690010910033752,
+          "fbx": "Assets/Afrer_Seconds/05.Model/Props/B5/Props_CoolingPump_B5_L1.fbx",
+          "mesh": "Props_CoolingPump_B5_L1"
+        }
+      ]
+    },
+    {
+      "id": "B5Lite_4",
+      "source": "Assets/Afrer_Seconds/05.Model/Props/Common/P09_LaboratoryTrolley_BevelSmooth.asset",
+      "name": "P09_LaboratoryTrolley_BevelSmooth",
+      "originalTriangles": 21016,
+      "levels": [
+        {
+          "level": 0,
+          "triangles": 9986,
+          "vertices": 4935,
+          "maxBoundsDelta": 2.8474426261304586e-08,
+          "fbx": "Assets/Afrer_Seconds/05.Model/Props/Common/P09_LaboratoryTrolley_B5_L0.fbx",
+          "mesh": "P09_LaboratoryTrolley_B5_L0"
+        },
+        {
+          "level": 1,
+          "triangles": 3994,
+          "vertices": 1939,
+          "maxBoundsDelta": 0.0009695891712341309,
+          "fbx": "Assets/Afrer_Seconds/05.Model/Props/Common/P09_LaboratoryTrolley_B5_L1.fbx",
+          "mesh": "P09_LaboratoryTrolley_B5_L1"
+        }
+      ]
+    },
+    {
+      "id": "B5Lite_5",
+      "source": "Assets/Afrer_Seconds/05.Model/Props/Common/Props_LaboratoryWorkbench_BevelSmooth.asset",
+      "name": "Props_LaboratoryWorkbench_BevelSmooth",
+      "originalTriangles": 70258,
+      "levels": [
+        {
+          "level": 0,
+          "triangles": 66940,
+          "vertices": 33428,
+          "maxBoundsDelta": 2.29682922681107e-08,
+          "fbx": "Assets/Afrer_Seconds/05.Model/Props/Common/Props_LaboratoryWorkbench_B5_L0.fbx",
+          "mesh": "Props_LaboratoryWorkbench_B5_L0"
+        },
+        {
+          "level": 1,
+          "triangles": 57209,
+          "vertices": 28565,
+          "maxBoundsDelta": 2.29682922681107e-08,
+          "fbx": "Assets/Afrer_Seconds/05.Model/Props/Common/Props_LaboratoryWorkbench_B5_L1.fbx",
+          "mesh": "Props_LaboratoryWorkbench_B5_L1"
+        }
+      ]
+    },
+    {
+      "id": "B5Lite_6",
+      "source": "Assets/Afrer_Seconds/05.Model/Props/Common/P04_RecordsCabinet_BevelSmooth.asset",
+      "name": "P04_RecordsCabinet_BevelSmooth",
+      "originalTriangles": 9666,
+      "levels": [
+        {
+          "level": 0,
+          "triangles": 7464,
+          "vertices": 3722,
+          "maxBoundsDelta": 1.1206817640552202e-08,
+          "fbx": "Assets/Afrer_Seconds/05.Model/Props/Common/P04_RecordsCabinet_B5_L0.fbx",
+          "mesh": "P04_RecordsCabinet_B5_L0"
+        },
+        {
+          "level": 1,
+          "triangles": 2986,
+          "vertices": 1483,
+          "maxBoundsDelta": 0.00029821324462891985,
+          "fbx": "Assets/Afrer_Seconds/05.Model/Props/Common/P04_RecordsCabinet_B5_L1.fbx",
+          "mesh": "P04_RecordsCabinet_B5_L1"
+        }
+      ]
+    },
+    {
+      "id": "B5Lite_7",
+      "source": "Assets/Afrer_Seconds/05.Model/Props/Common/P13_LogisticsTote_BevelSmooth.asset",
+      "name": "P13_LogisticsTote_BevelSmooth",
+      "originalTriangles": 10098,
+      "levels": [
+        {
+          "level": 0,
+          "triangles": 6498,
+          "vertices": 3247,
+          "maxBoundsDelta": 5.960464483090178e-09,
+          "fbx": "Assets/Afrer_Seconds/05.Model/Props/Common/P13_LogisticsTote_B5_L0.fbx",
+          "mesh": "P13_LogisticsTote_B5_L0"
+        },
+        {
+          "level": 1,
+          "triangles": 2598,
+          "vertices": 1297,
+          "maxBoundsDelta": 0.00019623935222626288,
+          "fbx": "Assets/Afrer_Seconds/05.Model/Props/Common/P13_LogisticsTote_B5_L1.fbx",
+          "mesh": "P13_LogisticsTote_B5_L1"
+        }
+      ]
+    },
+    {
+      "id": "B5Lite_8",
+      "source": "Assets/Afrer_Seconds/05.Model/Props/B4/B4_ObservationMonitorBank_BevelSmooth.asset",
+      "name": "B4_ObservationMonitorBank_BevelSmooth",
+      "originalTriangles": 36342,
+      "levels": [
+        {
+          "level": 0,
+          "triangles": 15996,
+          "vertices": 7844,
+          "maxBoundsDelta": 2.7090761703485455e-05,
+          "fbx": "Assets/Afrer_Seconds/05.Model/Props/B4/B4_ObservationMonitorBank_B5_L0.fbx",
+          "mesh": "B4_ObservationMonitorBank_B5_L0"
+        },
+        {
+          "level": 1,
+          "triangles": 6398,
+          "vertices": 3045,
+          "maxBoundsDelta": 0.00044732093811039597,
+          "fbx": "Assets/Afrer_Seconds/05.Model/Props/B4/B4_ObservationMonitorBank_B5_L1.fbx",
+          "mesh": "B4_ObservationMonitorBank_B5_L1"
+        }
+      ]
+    },
+    {
+      "id": "B5Lite_9",
+      "source": "Assets/Afrer_Seconds/05.Model/Props/B2/Props_HVACUnit_BevelSmooth.asset",
+      "name": "Props_HVACUnit_BevelSmooth",
+      "originalTriangles": 195450,
+      "levels": [
+        {
+          "level": 0,
+          "triangles": 23980,
+          "vertices": 11630,
+          "maxBoundsDelta": 0.0005290506481018253,
+          "fbx": "Assets/Afrer_Seconds/05.Model/Props/B2/Props_HVACUnit_B5_L0.fbx",
+          "mesh": "Props_HVACUnit_B5_L0"
+        },
+        {
+          "level": 1,
+          "triangles": 9592,
+          "vertices": 4436,
+          "maxBoundsDelta": 0.0024713872073974796,
+          "fbx": "Assets/Afrer_Seconds/05.Model/Props/B2/Props_HVACUnit_B5_L1.fbx",
+          "mesh": "Props_HVACUnit_B5_L1"
+        }
+      ]
+    },
+    {
+      "id": "B5Lite_10",
+      "source": "Assets/Afrer_Seconds/05.Model/Props/Common/P03_SecurityCamera_BevelSmooth.asset",
+      "name": "P03_SecurityCamera_BevelSmooth",
+      "originalTriangles": 14626,
+      "levels": [
+        {
+          "level": 0,
+          "triangles": 7980,
+          "vertices": 3984,
+          "maxBoundsDelta": 5.7984683609069165e-06,
+          "fbx": "Assets/Afrer_Seconds/05.Model/Props/Common/P03_SecurityCamera_B5_L0.fbx",
+          "mesh": "P03_SecurityCamera_B5_L0"
+        },
+        {
+          "level": 1,
+          "triangles": 3192,
+          "vertices": 1590,
+          "maxBoundsDelta": 6.868662830700838e-05,
+          "fbx": "Assets/Afrer_Seconds/05.Model/Props/Common/P03_SecurityCamera_B5_L1.fbx",
+          "mesh": "P03_SecurityCamera_B5_L1"
+        }
+      ]
+    }
+  ]
+}

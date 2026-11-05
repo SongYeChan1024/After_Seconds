@@ -1,0 +1,49 @@
+{
+  "title": "CCTV Rotation Clearance V0.01",
+  "author": "송예찬",
+  "method": "Evaluated bevel meshes, triangle BVH overlap; intentional axle contact excluded; finite sampled angles, not continuous collision proof",
+  "states": [
+    {
+      "yaw": 0,
+      "tilt": 10,
+      "ceilingClearance": 0.33444905281066895,
+      "collisions": []
+    },
+    {
+      "yaw": -90,
+      "tilt": 10,
+      "ceilingClearance": 0.33444905281066895,
+      "collisions": []
+    },
+    {
+      "yaw": 90,
+      "tilt": 10,
+      "ceilingClearance": 0.33444905281066895,
+      "collisions": []
+    },
+    {
+      "yaw": 0,
+      "tilt": -25,
+      "ceilingClearance": 0.19488263130187988,
+      "collisions": []
+    },
+    {
+      "yaw": 0,
+      "tilt": 25,
+      "ceilingClearance": 0.3216680884361267,
+      "collisions": []
+    },
+    {
+      "yaw": -90,
+      "tilt": -25,
+      "ceilingClearance": 0.19488263130187988,
+      "collisions": []
+    },
+    {
+      "yaw": 90,
+      "tilt": 25,
+      "ceilingClearance": 0.3216680884361267,
+      "collisions": []
+    }
+  ]
+}

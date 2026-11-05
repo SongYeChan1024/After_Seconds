@@ -1,0 +1,59 @@
+{
+  "title": "Guard real face / clear visor V0.03",
+  "author": "송예찬",
+  "removedOpaqueVisorFaces": 766,
+  "faceSource": "AS_V03_Researcher.blend, actual head geometry / preserved UV",
+  "newParts": [
+    "AS_Guard_RealFace",
+    "AS_Guard_VisorFrame",
+    "AS_Guard_ClearVisor"
+  ],
+  "skinBinding": "Head weights on face/lens/frame; neck closure blends Neck and Head; original guard body weights retained",
+  "bones": 53,
+  "faceTriangles": 1932,
+  "lensThickness_m": 0.0015,
+  "noAnimationController": true,
+  "exportChecks": [
+    {
+      "mesh": "AS_V03_Guard",
+      "triangles": 32365,
+      "inputZeroAreaTriangles": 4,
+      "outputZeroAreaTriangles": 0,
+      "nonTriangles": 0,
+      "removedDegenerateFaces": 4,
+      "uvLayers": 1,
+      "weightsValid": true
+    },
+    {
+      "mesh": "AS_Guard_RealFace",
+      "triangles": 1932,
+      "inputZeroAreaTriangles": 0,
+      "outputZeroAreaTriangles": 0,
+      "nonTriangles": 0,
+      "removedDegenerateFaces": 0,
+      "uvLayers": 1,
+      "weightsValid": true
+    },
+    {
+      "mesh": "AS_Guard_VisorFrame",
+      "triangles": 2068,
+      "inputZeroAreaTriangles": 0,
+      "outputZeroAreaTriangles": 0,
+      "nonTriangles": 0,
+      "removedDegenerateFaces": 0,
+      "uvLayers": 1,
+      "weightsValid": true
+    },
+    {
+      "mesh": "AS_Guard_ClearVisor",
+      "triangles": 952,
+      "inputZeroAreaTriangles": 0,
+      "outputZeroAreaTriangles": 0,
+      "nonTriangles": 0,
+      "removedDegenerateFaces": 0,
+      "uvLayers": 1,
+      "weightsValid": true
+    }
+  ],
+  "editableSources": "Editable_Modifier_Sources hidden collection; bevel widths and segments preserved"
+}

@@ -1,0 +1,126 @@
+{
+  "title": "B5 art repair final scene audit V0.01",
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Stealth.unity",
+  "isDirty": false,
+  "changedPreservedTransforms": [],
+  "missingPreservedTransforms": [],
+  "changedExistingColliders": [
+    "B5_Stealth_Level_V0.01/Room_Furnishings_VARCO/Cooling_Pump_North/Prop_Bounds_Collision",
+    "B5_Stealth_Level_V0.01/Room_Furnishings_VARCO/Cooling_Pump_South/Prop_Bounds_Collision"
+  ],
+  "colliderCount": 262,
+  "expectedPumpColliderChanges": 2,
+  "addedReturnPipeColliders": 2,
+  "missingScripts": 0,
+  "badMeshes": [],
+  "badMaterials": [],
+  "levelHighestLOD0Triangles": 965361,
+  "architectureTriangles": 195416,
+  "guards": [
+    {
+      "name": "G0_Initial_Guard_Visual",
+      "valid": true,
+      "human": true,
+      "enabled": false,
+      "controller": false,
+      "triangles": 37297,
+      "parts": [
+        {
+          "name": "AS_Guard_ClearVisor",
+          "bones": 53,
+          "triangles": 952,
+          "missingBone": false
+        },
+        {
+          "name": "AS_Guard_RealFace",
+          "bones": 53,
+          "triangles": 1932,
+          "missingBone": false
+        },
+        {
+          "name": "AS_Guard_VisorFrame",
+          "bones": 53,
+          "triangles": 2068,
+          "missingBone": false
+        },
+        {
+          "name": "AS_V03_Guard",
+          "bones": 53,
+          "triangles": 32345,
+          "missingBone": false
+        }
+      ]
+    },
+    {
+      "name": "G1_South_Guard_Visual",
+      "valid": true,
+      "human": true,
+      "enabled": false,
+      "controller": false,
+      "triangles": 37297,
+      "parts": [
+        {
+          "name": "AS_Guard_ClearVisor",
+          "bones": 53,
+          "triangles": 952,
+          "missingBone": false
+        },
+        {
+          "name": "AS_Guard_RealFace",
+          "bones": 53,
+          "triangles": 1932,
+          "missingBone": false
+        },
+        {
+          "name": "AS_Guard_VisorFrame",
+          "bones": 53,
+          "triangles": 2068,
+          "missingBone": false
+        },
+        {
+          "name": "AS_V03_Guard",
+          "bones": 53,
+          "triangles": 32345,
+          "missingBone": false
+        }
+      ]
+    },
+    {
+      "name": "G2_CoolingNorth_Guard_Visual",
+      "valid": true,
+      "human": true,
+      "enabled": false,
+      "controller": false,
+      "triangles": 37297,
+      "parts": [
+        {
+          "name": "AS_Guard_ClearVisor",
+          "bones": 53,
+          "triangles": 952,
+          "missingBone": false
+        },
+        {
+          "name": "AS_Guard_RealFace",
+          "bones": 53,
+          "triangles": 1932,
+          "missingBone": false
+        },
+        {
+          "name": "AS_Guard_VisorFrame",
+          "bones": 53,
+          "triangles": 2068,
+          "missingBone": false
+        },
+        {
+          "name": "AS_V03_Guard",
+          "bones": 53,
+          "triangles": 32345,
+          "missingBone": false
+        }
+      ]
+    }
+  ],
+  "staticReflectionProbes": 7,
+  "realtimeProbes": 0,
+  "temporary": []
+}

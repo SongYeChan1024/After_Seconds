@@ -1,0 +1,236 @@
+{
+  "title": "B5 Stealth Level V0.01",
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Stealth.unity",
+  "coordinates": "X=u-24,Y=height,Z=v-16",
+  "reviewSpawn": "E: after pod escape",
+  "retained": [
+    {
+      "name": "ObservationPod",
+      "position": "(0.00000, 0.00000, 10.32000)",
+      "scale": "(3.00000, 2.00000, 3.00000)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)"
+    },
+    {
+      "name": "Habitat_LivingArea",
+      "position": "(0.00000, 0.00000, 0.00000)",
+      "scale": "(1.00000, 1.00000, 1.00000)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)"
+    },
+    {
+      "name": "Habitat_StaffEquipment",
+      "position": "(0.00000, 0.00000, 0.00000)",
+      "scale": "(1.00000, 1.00000, 1.00000)",
+      "rotation": "(0.00000, 0.00000, 0.00000, 1.00000)"
+    }
+  ],
+  "npcs": [
+    {
+      "role": "Researcher",
+      "human": true,
+      "valid": true
+    },
+    {
+      "role": "Guard",
+      "human": true,
+      "valid": true
+    }
+  ],
+  "actors": [
+    {
+      "id": "G0_Initial",
+      "role": "Guard",
+      "position": "(-8.300, 0.000, -6.000)",
+      "human": true
+    },
+    {
+      "id": "G1_South",
+      "role": "Guard",
+      "position": "(-19.875, 0.000, 9.625)",
+      "human": true
+    },
+    {
+      "id": "G2_CoolingNorth",
+      "role": "Guard",
+      "position": "(1.125, 0.000, -6.875)",
+      "human": true
+    },
+    {
+      "id": "R1_Monitoring",
+      "role": "Researcher",
+      "position": "(-1.500, 0.000, 13.500)",
+      "human": true
+    }
+  ],
+  "props": [
+    {
+      "name": "Isolation_MonitorConsole_0",
+      "path": "Props/B5/B5_IsolationMonitoringConsole.prefab",
+      "position": "(-18.350, 0.000, -9.500)",
+      "size": "(0.912, 0.910, 0.680)"
+    },
+    {
+      "name": "Isolation_MonitorConsole_1",
+      "path": "Props/B5/B5_IsolationMonitoringConsole.prefab",
+      "position": "(-17.300, 0.000, -9.500)",
+      "size": "(0.912, 0.910, 0.680)"
+    },
+    {
+      "name": "Isolation_MonitorConsole_2",
+      "path": "Props/B5/B5_IsolationMonitoringConsole.prefab",
+      "position": "(-16.250, 0.000, -9.500)",
+      "size": "(0.912, 0.910, 0.680)"
+    },
+    {
+      "name": "Isolation_MonitorConsole_3",
+      "path": "Props/B5/B5_IsolationMonitoringConsole.prefab",
+      "position": "(-15.200, 0.000, -9.500)",
+      "size": "(0.912, 0.910, 0.680)"
+    },
+    {
+      "name": "Isolation_Storage",
+      "path": "Props/Common/P02_WallStorageCabinet.prefab",
+      "position": "(-6.200, 0.000, -1.000)",
+      "size": "(0.381, 0.975, 0.998)"
+    },
+    {
+      "name": "Isolation_Waste",
+      "path": "Props/Common/P07_SealedWasteBin.prefab",
+      "position": "(-6.600, 0.000, 6.000)",
+      "size": "(0.641, 0.780, 0.676)"
+    },
+    {
+      "name": "Cooling_Pump_North",
+      "path": "Props/B5/Props_CoolingPump.prefab",
+      "position": "(6.000, 0.000, -10.200)",
+      "size": "(2.400, 1.164, 1.276)"
+    },
+    {
+      "name": "Cooling_Pump_South",
+      "path": "Props/B5/Props_CoolingPump.prefab",
+      "position": "(6.000, 0.000, 6.200)",
+      "size": "(2.400, 1.164, 1.276)"
+    },
+    {
+      "name": "Cooling_ServiceTrolley",
+      "path": "Props/Common/P09_LaboratoryTrolley.prefab",
+      "position": "(10.200, 0.000, 6.000)",
+      "size": "(0.559, 0.950, 1.076)"
+    },
+    {
+      "name": "Cooling_ServiceCabinet",
+      "path": "Props/Common/P02_WallStorageCabinet.prefab",
+      "position": "(-0.800, 0.000, 6.500)",
+      "size": "(0.998, 0.975, 0.381)"
+    },
+    {
+      "name": "Guard_Desk",
+      "path": "Props/Common/Props_LaboratoryWorkbench.prefab",
+      "position": "(-20.600, 0.000, 14.600)",
+      "size": "(1.700, 1.683, 0.700)"
+    },
+    {
+      "name": "Guard_Records",
+      "path": "Props/Common/P04_RecordsCabinet.prefab",
+      "position": "(-22.800, 0.000, 12.400)",
+      "size": "(0.802, 1.540, 0.718)"
+    },
+    {
+      "name": "Guard_Supplies",
+      "path": "Props/Common/P13_LogisticsTote.prefab",
+      "position": "(-16.800, 0.000, 14.600)",
+      "size": "(0.720, 0.480, 0.540)"
+    },
+    {
+      "name": "Vestibule_CheckDesk",
+      "path": "Props/Common/Props_LaboratoryWorkbench.prefab",
+      "position": "(-12.500, 0.000, 14.600)",
+      "size": "(1.500, 1.485, 0.618)"
+    },
+    {
+      "name": "Vestibule_Storage",
+      "path": "Props/Common/P02_WallStorageCabinet.prefab",
+      "position": "(-7.500, 0.000, 14.600)",
+      "size": "(0.922, 0.900, 0.352)"
+    },
+    {
+      "name": "Vestibule_Waste",
+      "path": "Props/Common/P07_SealedWasteBin.prefab",
+      "position": "(-7.200, 0.000, 11.900)",
+      "size": "(0.534, 0.650, 0.563)"
+    },
+    {
+      "name": "Monitoring_Bank_0",
+      "path": "Props/B4/B4_ObservationMonitorBank.prefab",
+      "position": "(-3.200, 0.000, 14.850)",
+      "size": "(2.638, 1.208, 0.694)"
+    },
+    {
+      "name": "Monitoring_Bank_1",
+      "path": "Props/B4/B4_ObservationMonitorBank.prefab",
+      "position": "(-0.200, 0.000, 14.850)",
+      "size": "(2.638, 1.208, 0.694)"
+    },
+    {
+      "name": "Monitoring_Records",
+      "path": "Props/Common/P04_RecordsCabinet.prefab",
+      "position": "(1.800, 0.000, 12.200)",
+      "size": "(0.729, 1.400, 0.652)"
+    },
+    {
+      "name": "Utility_HVAC_1",
+      "path": "Props/B2/Props_HVACUnit.prefab",
+      "position": "(5.000, 0.000, 14.500)",
+      "size": "(1.494, 1.055, 1.004)"
+    },
+    {
+      "name": "Utility_HVAC_2",
+      "path": "Props/B2/Props_HVACUnit.prefab",
+      "position": "(9.500, 0.000, 14.500)",
+      "size": "(1.494, 1.055, 1.004)"
+    },
+    {
+      "name": "Utility_Trolley",
+      "path": "Props/Common/P09_LaboratoryTrolley.prefab",
+      "position": "(4.300, 0.000, 12.000)",
+      "size": "(0.559, 0.950, 1.076)"
+    },
+    {
+      "name": "Locked_HVAC_1",
+      "path": "Props/B2/Props_HVACUnit.prefab",
+      "position": "(18.000, 0.000, -13.800)",
+      "size": "(2.191, 1.547, 1.473)"
+    },
+    {
+      "name": "Locked_HVAC_2",
+      "path": "Props/B2/Props_HVACUnit.prefab",
+      "position": "(22.000, 0.000, -13.800)",
+      "size": "(2.191, 1.547, 1.473)"
+    },
+    {
+      "name": "Lift_Equipment",
+      "path": "Props/Common/P04_RecordsCabinet.prefab",
+      "position": "(22.500, 0.000, -8.800)",
+      "size": "(0.848, 1.820, 0.948)"
+    },
+    {
+      "name": "C1_CCTV_Visual_Placement",
+      "path": "Props/Common/P03_SecurityCamera.prefab",
+      "position": "(13.500, 3.150, 9.000)",
+      "size": "(0.297, 0.695, 0.880)"
+    }
+  ],
+  "architectureMeshes": 150,
+  "colliders": 168,
+  "fixtureLights": 79,
+  "stairRise": 7.8,
+  "pending": [
+    "AI detection/patrol/chase",
+    "researcher alert",
+    "CCTV guard call",
+    "pod escape",
+    "swap timing",
+    "floor transition",
+    "B4 elevation",
+    "minimap/UI"
+  ]
+}

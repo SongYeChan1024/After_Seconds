@@ -1,0 +1,59 @@
+﻿{
+    "scene":  "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+    "edits":  [
+                  {
+                      "path":  "B5_Level_V0.01/Connector_Airlock/Geometry/Ceiling_EntryLeg",
+                      "oldMesh":  "Assets/Afrer_Seconds/05.Model/Environment/B5/WF_0579_SeamFixed.asset",
+                      "newMesh":  "Assets/Afrer_Seconds/05.Model/Environment/B5/JC_Ceiling_EntryLeg_Flush.asset",
+                      "sourceSHA256":  "9D9941D4764D431D710BD6CF8CB391294919451BA753287DD93A1A17A2A8449F"
+                  },
+                  {
+                      "path":  "B5_Level_V0.01/Connector_Airlock/Geometry/Wall_West_Outer",
+                      "oldMesh":  "Assets/Afrer_Seconds/05.Model/Environment/B5/WF_0573_SeamFixed.asset",
+                      "newMesh":  "Assets/Afrer_Seconds/05.Model/Environment/B5/JC_Wall_West_Outer_Flush.asset",
+                      "sourceSHA256":  "D1DBD58C10095762270929C15FCBDE8AC612300864BCDA7EFEA25BAA00B6540A"
+                  },
+                  {
+                      "path":  "B5_Level_V0.01/Connector_Airlock/Geometry/Wall_East_Entry",
+                      "oldMesh":  "Assets/Afrer_Seconds/05.Model/Environment/B5/WF_0574_SeamFixed.asset",
+                      "newMesh":  "Assets/Afrer_Seconds/05.Model/Environment/B5/JC_Wall_East_Entry_Flush.asset",
+                      "sourceSHA256":  "2D97C80B188F4847E41B22F8FEAEDCC809919893B5EE1CB84CA73BFDFC268CE4"
+                  },
+                  {
+                      "path":  "B5_Level_V0.01/Connector_Airlock/Geometry/Ceiling_ExitLeg",
+                      "oldMesh":  "Assets/Afrer_Seconds/05.Model/Environment/B5/WF_0581_SeamFixed.asset",
+                      "newMesh":  "Assets/Afrer_Seconds/05.Model/Environment/B5/JC_Ceiling_ExitLeg_Flush.asset",
+                      "sourceSHA256":  "3C2C06BC1F0E8DD6733F51827A504DA14D24E15BB0682266BB83B488BBFA1958"
+                  },
+                  {
+                      "path":  "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_West_01/RebuiltArchitectureVisual/Env_MetalWall_4m_Rebuilt/_ASArt_WallPanels",
+                      "oldMesh":  "Assets/Afrer_Seconds/05.Model/Environment/B5/AD_WallPanels_0281.asset",
+                      "newMesh":  "Assets/Afrer_Seconds/05.Model/Environment/B5/JC_Room02_West_01_InteriorPanels.asset",
+                      "sourceSHA256":  "D3575166FA453E5AA978D9D4A5709146D093908CBB5317CA9ABB4359680418FE"
+                  },
+                  {
+                      "path":  "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_West_02/RebuiltArchitectureVisual/Env_ConcreteWall_4m_Rebuilt/_ASArt_WallPanels",
+                      "oldMesh":  "Assets/Afrer_Seconds/05.Model/Environment/B5/AD_WallPanels_0282.asset",
+                      "newMesh":  "Assets/Afrer_Seconds/05.Model/Environment/B5/JC_Room02_West_02_InteriorPanels.asset",
+                      "sourceSHA256":  "DB70729BC001F182FEF7B8A25A279056D658BFDB65296FE35E563009805B3E93"
+                  },
+                  {
+                      "path":  "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_West_03/RebuiltArchitectureVisual/Env_MetalWall_4m_Rebuilt/_ASArt_WallPanels",
+                      "oldMesh":  "Assets/Afrer_Seconds/05.Model/Environment/B5/AD_WallPanels_0283.asset",
+                      "newMesh":  "Assets/Afrer_Seconds/05.Model/Environment/B5/JC_Room02_West_03_InteriorPanels.asset",
+                      "sourceSHA256":  "40F2C81E997D53EEA850662997D18C9E70D33C2771E94B1BBDDEDB4A924190D1"
+                  },
+                  {
+                      "path":  "B5_Level_V0.01/Room02_CoolingPool/VARCO_Visuals/Room02_West_04/RebuiltArchitectureVisual/Env_ConcreteWall_4m_Rebuilt/_ASArt_WallPanels",
+                      "oldMesh":  "Assets/Afrer_Seconds/05.Model/Environment/B5/AD_WallPanels_0284.asset",
+                      "newMesh":  "Assets/Afrer_Seconds/05.Model/Environment/B5/JC_Room02_West_04_InteriorPanels.asset",
+                      "sourceSHA256":  "039A55123D4A1500CB58A69CF086EAFFF97E6D3830FADB763873F82FF0258ACA"
+                  }
+              ],
+    "preservedComponents":  3109,
+    "unexpectedChanges":  [
+
+                          ],
+    "dirty":  false,
+    "method":  "Entry walls trimmed behind room boundary z\u003c=1.74; ceiling union partitioned at z=0.2 and -2.2 with underside y=4; exit ends z=-4; west wall panels reflected in world x=-2.02. Transform/Collider preserved."
+}

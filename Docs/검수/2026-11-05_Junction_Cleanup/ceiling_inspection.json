@@ -1,0 +1,223 @@
+{
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Isolation.unity",
+  "ceilings": [
+    {
+      "path": "B5_Level_V0.01/Connector_Airlock/Geometry/Ceiling_EntryLeg",
+      "position": [
+        0.0,
+        4.1,
+        0.5
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        2.4,
+        0.2,
+        3.4
+      ],
+      "active": true,
+      "boundsMin": [
+        -1.19999993,
+        4.0,
+        0.2000001
+      ],
+      "boundsMax": [
+        1.19999993,
+        4.2,
+        1.74
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/JC_Ceiling_EntryLeg_Flush.asset",
+      "colliders": [
+        {
+          "type": "BoxCollider",
+          "enabled": true,
+          "isTrigger": false
+        }
+      ]
+    },
+    {
+      "path": "B5_Level_V0.01/Connector_Airlock/Geometry/Ceiling_CrossLeg",
+      "position": [
+        2.0,
+        4.1,
+        -1.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        6.4,
+        0.2,
+        2.4
+      ],
+      "active": true,
+      "boundsMin": [
+        -1.2,
+        4.0,
+        -2.2
+      ],
+      "boundsMax": [
+        5.2,
+        4.2,
+        0.200000048
+      ],
+      "mesh": "Library/unity default resources",
+      "colliders": [
+        {
+          "type": "BoxCollider",
+          "enabled": true,
+          "isTrigger": false
+        }
+      ]
+    },
+    {
+      "path": "B5_Level_V0.01/Connector_Airlock/Geometry/Ceiling_ExitLeg",
+      "position": [
+        4.0,
+        4.1,
+        -2.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        2.4,
+        0.2,
+        4.4
+      ],
+      "active": true,
+      "boundsMin": [
+        2.80000019,
+        4.0,
+        -4.0
+      ],
+      "boundsMax": [
+        5.2,
+        4.2,
+        -2.19999981
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/JC_Ceiling_ExitLeg_Flush.asset",
+      "colliders": [
+        {
+          "type": "BoxCollider",
+          "enabled": true,
+          "isTrigger": false
+        }
+      ]
+    }
+  ],
+  "camera": {
+    "path": "Camera/Main Camera",
+    "position": [
+      -2.88495166E-08,
+      2.06,
+      10.47
+    ],
+    "forward": [
+      -8.742278E-08,
+      0.0,
+      -1.0
+    ]
+  },
+  "shots": [
+    {
+      "name": "B5_CurrentStartCamera",
+      "eye": [
+        -2.88495166E-08,
+        2.06,
+        10.47
+      ],
+      "target": [
+        -9.030773E-07,
+        2.06,
+        0.470000267
+      ]
+    },
+    {
+      "name": "B5_PodTowardEntryCeiling",
+      "eye": [
+        0.0,
+        1.65,
+        10.32
+      ],
+      "target": [
+        0.0,
+        4.1,
+        2.0
+      ]
+    },
+    {
+      "name": "B5_EntryCeiling_Close",
+      "eye": [
+        0.0,
+        2.5,
+        4.0
+      ],
+      "target": [
+        0.0,
+        4.1,
+        2.1
+      ]
+    },
+    {
+      "name": "B5_EntryCeiling_Top",
+      "eye": [
+        2.8,
+        5.2,
+        3.6
+      ],
+      "target": [
+        0.0,
+        4.1,
+        0.5
+      ]
+    },
+    {
+      "name": "B5_EntryInside",
+      "eye": [
+        0.0,
+        1.65,
+        1.0
+      ],
+      "target": [
+        0.0,
+        2.6,
+        3.0
+      ]
+    },
+    {
+      "name": "B5_CoolingEntry",
+      "eye": [
+        4.0,
+        1.65,
+        -6.0
+      ],
+      "target": [
+        4.0,
+        3.2,
+        -3.0
+      ]
+    },
+    {
+      "name": "B5_WestPanels",
+      "eye": [
+        1.0,
+        2.0,
+        -8.0
+      ],
+      "target": [
+        -2.02,
+        2.0,
+        -10.0
+      ]
+    }
+  ],
+  "dirty": false
+}

@@ -1,0 +1,28 @@
+{
+  "material": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/WV_WallTrim.mat",
+  "metallic": 0.55,
+  "smoothness": 0.4,
+  "normalScale": 0.16,
+  "maps": [
+    {
+      "slot": "_BaseMap",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B5/Textures/WV_Steel_Base.png"
+    },
+    {
+      "slot": "_BumpMap",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B5/Textures/WV_Steel_Normal.png"
+    },
+    {
+      "slot": "_MetallicGlossMap",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B5/Textures/WV_Steel_MetallicSmoothness.png"
+    }
+  ],
+  "sceneTrimRenderers": 22,
+  "sourceModelMaterialImport": "None",
+  "sourcePreviewMaterials": [
+    "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat"
+  ],
+  "reflectionProbes": [],
+  "skybox": "none",
+  "reflectionMode": "Skybox"
+}

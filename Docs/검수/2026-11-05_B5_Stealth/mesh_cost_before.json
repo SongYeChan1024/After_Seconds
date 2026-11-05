@@ -1,0 +1,2547 @@
+{
+  "title": "B5 mesh cost before optimization V0.01",
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Stealth.unity",
+  "instanceTriangles": 2439679,
+  "uniqueTriangles": 1439761,
+  "groups": [
+    {
+      "group": "Retained_Pod_and_Habitat",
+      "instances": 114,
+      "triangles": 217164,
+      "uniqueMeshes": 113,
+      "uniqueMemoryMB": 20.921852111816406
+    },
+    {
+      "group": "Architecture_Blender_Bevelled",
+      "instances": 150,
+      "triangles": 868256,
+      "uniqueMeshes": 150,
+      "uniqueMemoryMB": 83.687026977539063
+    },
+    {
+      "group": "Room_Furnishings_VARCO",
+      "instances": 26,
+      "triangles": 1241368,
+      "uniqueMeshes": 11,
+      "uniqueMemoryMB": 41.366912841796875
+    },
+    {
+      "group": "Actors_Visual_Placements",
+      "instances": 4,
+      "triangles": 111763,
+      "uniqueMeshes": 2,
+      "uniqueMemoryMB": 6.4194240570068359
+    },
+    {
+      "group": "Fixture_Details_Blender_Bevelled",
+      "instances": 6,
+      "triangles": 1128,
+      "uniqueMeshes": 6,
+      "uniqueMemoryMB": 0.0987396240234375
+    }
+  ],
+  "heaviest": [
+    {
+      "name": "Props_HVACUnit_BevelSmooth",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/B2/Props_HVACUnit_BevelSmooth.asset",
+      "instances": 4,
+      "triangles": 195450,
+      "totalTriangles": 781800,
+      "vertices": 172998,
+      "memoryMB": 20.313423156738281
+    },
+    {
+      "name": "Props_LaboratoryWorkbench_BevelSmooth",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/Common/Props_LaboratoryWorkbench_BevelSmooth.asset",
+      "instances": 3,
+      "triangles": 70258,
+      "totalTriangles": 210774,
+      "vertices": 60264,
+      "memoryMB": 6.3228607177734375
+    },
+    {
+      "name": "AS_V03_Guard",
+      "path": "Assets/Afrer_Seconds/05.Model/Enemy/AS_V03_Guard.fbx",
+      "instances": 3,
+      "triangles": 28623,
+      "totalTriangles": 85869,
+      "vertices": 20543,
+      "memoryMB": 3.4683322906494141
+    },
+    {
+      "name": "B4_ObservationMonitorBank_BevelSmooth",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/B4/B4_ObservationMonitorBank_BevelSmooth.asset",
+      "instances": 2,
+      "triangles": 36342,
+      "totalTriangles": 72684,
+      "vertices": 37226,
+      "memoryMB": 3.825531005859375
+    },
+    {
+      "name": "B5_IsolationMonitoringConsole_BevelSmooth",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/B5/B5_IsolationMonitoringConsole_BevelSmooth.asset",
+      "instances": 4,
+      "triangles": 16626,
+      "totalTriangles": 66504,
+      "vertices": 14516,
+      "memoryMB": 1.5207366943359375
+    },
+    {
+      "name": "P09_LaboratoryTrolley_BevelSmooth",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/Common/P09_LaboratoryTrolley_BevelSmooth.asset",
+      "instances": 3,
+      "triangles": 21016,
+      "totalTriangles": 63048,
+      "vertices": 19212,
+      "memoryMB": 2.0009078979492188
+    },
+    {
+      "name": "SL_Panel_4_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 47000,
+      "totalTriangles": 47000,
+      "vertices": 43500,
+      "memoryMB": 4.5219039916992188
+    },
+    {
+      "name": "SL_Panel_5_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 40796,
+      "totalTriangles": 40796,
+      "vertices": 37758,
+      "memoryMB": 3.9252090454101563
+    },
+    {
+      "name": "P04_RecordsCabinet_BevelSmooth",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/Common/P04_RecordsCabinet_BevelSmooth.asset",
+      "instances": 4,
+      "triangles": 9666,
+      "totalTriangles": 38664,
+      "vertices": 8727,
+      "memoryMB": 0.9110870361328125
+    },
+    {
+      "name": "SL_Panel_0_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 33464,
+      "totalTriangles": 33464,
+      "vertices": 30972,
+      "memoryMB": 3.2200241088867188
+    },
+    {
+      "name": "SL_Panel_4_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 33464,
+      "totalTriangles": 33464,
+      "vertices": 30972,
+      "memoryMB": 3.2200241088867188
+    },
+    {
+      "name": "P07_SealedWasteBin_BevelSmooth",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/Common/P07_SealedWasteBin_BevelSmooth.asset",
+      "instances": 3,
+      "triangles": 11116,
+      "totalTriangles": 33348,
+      "vertices": 9977,
+      "memoryMB": 1.0421218872070313
+    },
+    {
+      "name": "SL_Panel_5_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 32900,
+      "totalTriangles": 32900,
+      "vertices": 30450,
+      "memoryMB": 3.1657791137695313
+    },
+    {
+      "name": "SL_Panel_4_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 32524,
+      "totalTriangles": 32524,
+      "vertices": 30098,
+      "memoryMB": 3.1292495727539063
+    },
+    {
+      "name": "Props_CoolingPump_Repaired",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Props_CoolingPump_Repaired.asset",
+      "instances": 2,
+      "triangles": 15936,
+      "totalTriangles": 31872,
+      "vertices": 20957,
+      "memoryMB": 2.1025314331054688
+    },
+    {
+      "name": "SL_Panel_1_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 30268,
+      "totalTriangles": 30268,
+      "vertices": 28008,
+      "memoryMB": 2.9120864868164063
+    },
+    {
+      "name": "P02_WallStorageCabinet_BevelSmooth",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/Common/P02_WallStorageCabinet_BevelSmooth.asset",
+      "instances": 3,
+      "triangles": 10002,
+      "totalTriangles": 30006,
+      "vertices": 9005,
+      "memoryMB": 0.9403839111328125
+    },
+    {
+      "name": "SL_Panel_0_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 29516,
+      "totalTriangles": 29516,
+      "vertices": 27318,
+      "memoryMB": 2.8403091430664063
+    },
+    {
+      "name": "SL_Panel_2_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 28200,
+      "totalTriangles": 28200,
+      "vertices": 26100,
+      "memoryMB": 2.7137374877929688
+    },
+    {
+      "name": "SL_Panel_2_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 28012,
+      "totalTriangles": 28012,
+      "vertices": 25926,
+      "memoryMB": 2.6956558227539063
+    },
+    {
+      "name": "SL_Panel_3_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 26508,
+      "totalTriangles": 26508,
+      "vertices": 24528,
+      "memoryMB": 2.5504531860351563
+    },
+    {
+      "name": "AS_V03_Researcher",
+      "path": "Assets/Afrer_Seconds/05.Model/Enemy/AS_V03_Researcher.fbx",
+      "instances": 1,
+      "triangles": 25894,
+      "totalTriangles": 25894,
+      "vertices": 17358,
+      "memoryMB": 2.9510917663574219
+    },
+    {
+      "name": "SL_Panel_0_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 25380,
+      "totalTriangles": 25380,
+      "vertices": 23490,
+      "memoryMB": 2.4425125122070313
+    },
+    {
+      "name": "SL_Panel_2_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 25380,
+      "totalTriangles": 25380,
+      "vertices": 23490,
+      "memoryMB": 2.4425125122070313
+    },
+    {
+      "name": "SL_Panel_1_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 22748,
+      "totalTriangles": 22748,
+      "vertices": 21048,
+      "memoryMB": 2.1888198852539063
+    },
+    {
+      "name": "SL_Panel_5_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 22560,
+      "totalTriangles": 22560,
+      "vertices": 20880,
+      "memoryMB": 2.1712875366210938
+    },
+    {
+      "name": "SL_Panel_2_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 20680,
+      "totalTriangles": 20680,
+      "vertices": 19140,
+      "memoryMB": 1.9904708862304688
+    },
+    {
+      "name": "SL_Panel_4_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 20492,
+      "totalTriangles": 20492,
+      "vertices": 18966,
+      "memoryMB": 1.9723892211914063
+    },
+    {
+      "name": "SL_Panel_0_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 20304,
+      "totalTriangles": 20304,
+      "vertices": 18792,
+      "memoryMB": 1.9543075561523438
+    },
+    {
+      "name": "SL_Panel_3_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 16732,
+      "totalTriangles": 16732,
+      "vertices": 15480,
+      "memoryMB": 1.6102066040039063
+    },
+    {
+      "name": "P03_SecurityCamera_BevelSmooth",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/Common/P03_SecurityCamera_BevelSmooth.asset",
+      "instances": 1,
+      "triangles": 14626,
+      "totalTriangles": 14626,
+      "vertices": 13898,
+      "memoryMB": 1.4412689208984375
+    },
+    {
+      "name": "ObservationPod_GlassShell",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatShell.fbx",
+      "instances": 1,
+      "triangles": 12884,
+      "totalTriangles": 12884,
+      "vertices": 7082,
+      "memoryMB": 0.90537261962890625
+    },
+    {
+      "name": "ObservationPod_GlassShell",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Visual.fbx",
+      "instances": 1,
+      "triangles": 12800,
+      "totalTriangles": 12800,
+      "vertices": 7042,
+      "memoryMB": 0.79268646240234375
+    },
+    {
+      "name": "SL_Metal_4_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 11472,
+      "totalTriangles": 11472,
+      "vertices": 9424,
+      "memoryMB": 0.99556732177734375
+    },
+    {
+      "name": "P13_LogisticsTote_BevelSmooth",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/Common/P13_LogisticsTote_BevelSmooth.asset",
+      "instances": 1,
+      "triangles": 10098,
+      "totalTriangles": 10098,
+      "vertices": 9055,
+      "memoryMB": 0.9460601806640625
+    },
+    {
+      "name": "SL_Floor_5_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 9400,
+      "totalTriangles": 9400,
+      "vertices": 8732,
+      "memoryMB": 0.90850067138671875
+    },
+    {
+      "name": "SL_Panel_5_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 9024,
+      "totalTriangles": 9024,
+      "vertices": 8352,
+      "memoryMB": 0.86940765380859375
+    },
+    {
+      "name": "SL_Floor_5_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 7332,
+      "totalTriangles": 7332,
+      "vertices": 6818,
+      "memoryMB": 0.70960235595703125
+    },
+    {
+      "name": "SL_Metal_4_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 7332,
+      "totalTriangles": 7332,
+      "vertices": 6738,
+      "memoryMB": 0.70227813720703125
+    },
+    {
+      "name": "SL_Panel_1_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 6768,
+      "totalTriangles": 6768,
+      "vertices": 6264,
+      "memoryMB": 0.65242767333984375
+    },
+    {
+      "name": "SL_Metal_2_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 6580,
+      "totalTriangles": 6580,
+      "vertices": 6036,
+      "memoryMB": 0.62940216064453125
+    },
+    {
+      "name": "SL_Metal_0_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 6392,
+      "totalTriangles": 6392,
+      "vertices": 5880,
+      "memoryMB": 0.61296844482421875
+    },
+    {
+      "name": "SL_Metal_3_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 5828,
+      "totalTriangles": 5828,
+      "vertices": 5364,
+      "memoryMB": 0.55927276611328125
+    },
+    {
+      "name": "SL_Metal_4_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 5328,
+      "totalTriangles": 5328,
+      "vertices": 4872,
+      "memoryMB": 0.50850677490234375
+    },
+    {
+      "name": "SL_Metal_1_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 5264,
+      "totalTriangles": 5264,
+      "vertices": 4836,
+      "memoryMB": 0.50447845458984375
+    },
+    {
+      "name": "SL_Metal_2_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 5264,
+      "totalTriangles": 5264,
+      "vertices": 4848,
+      "memoryMB": 0.50557708740234375
+    },
+    {
+      "name": "HygieneStation_BevelSmooth",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/B5/HygieneStation_BevelSmooth.asset",
+      "instances": 1,
+      "triangles": 4572,
+      "totalTriangles": 4572,
+      "vertices": 3262,
+      "memoryMB": 0.35272979736328125
+    },
+    {
+      "name": "SL_Ceiling_5_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 4512,
+      "totalTriangles": 4512,
+      "vertices": 4208,
+      "memoryMB": 0.43837738037109375
+    },
+    {
+      "name": "SL_Metal_2_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 4512,
+      "totalTriangles": 4512,
+      "vertices": 4140,
+      "memoryMB": 0.43215179443359375
+    },
+    {
+      "name": "SL_Metal_4_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 4512,
+      "totalTriangles": 4512,
+      "vertices": 4140,
+      "memoryMB": 0.43215179443359375
+    },
+    {
+      "name": "SL_Panel_3_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 4512,
+      "totalTriangles": 4512,
+      "vertices": 4176,
+      "memoryMB": 0.43544769287109375
+    },
+    {
+      "name": "SL_Ceiling_2_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 4324,
+      "totalTriangles": 4324,
+      "vertices": 4028,
+      "memoryMB": 0.41974639892578125
+    },
+    {
+      "name": "SL_Ceiling_5_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 4324,
+      "totalTriangles": 4324,
+      "vertices": 4034,
+      "memoryMB": 0.42029571533203125
+    },
+    {
+      "name": "SL_Floor_2_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 4324,
+      "totalTriangles": 4324,
+      "vertices": 4028,
+      "memoryMB": 0.41974639892578125
+    },
+    {
+      "name": "SL_Metal_0_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 4324,
+      "totalTriangles": 4324,
+      "vertices": 3984,
+      "memoryMB": 0.41571807861328125
+    },
+    {
+      "name": "SL_Metal_5_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 4076,
+      "totalTriangles": 4076,
+      "vertices": 3684,
+      "memoryMB": 0.38541412353515625
+    },
+    {
+      "name": "SL_Ceiling_4_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3948,
+      "totalTriangles": 3948,
+      "vertices": 3676,
+      "memoryMB": 0.38321685791015625
+    },
+    {
+      "name": "SL_Floor_4_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3948,
+      "totalTriangles": 3948,
+      "vertices": 3676,
+      "memoryMB": 0.38321685791015625
+    },
+    {
+      "name": "SL_Metal_5_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3824,
+      "totalTriangles": 3824,
+      "vertices": 3474,
+      "memoryMB": 0.36330413818359375
+    },
+    {
+      "name": "SL_Ceiling_0_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3760,
+      "totalTriangles": 3760,
+      "vertices": 3504,
+      "memoryMB": 0.36531829833984375
+    },
+    {
+      "name": "SL_Ceiling_1_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3760,
+      "totalTriangles": 3760,
+      "vertices": 3502,
+      "memoryMB": 0.36513519287109375
+    },
+    {
+      "name": "SL_Ceiling_2_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3760,
+      "totalTriangles": 3760,
+      "vertices": 3512,
+      "memoryMB": 0.36605072021484375
+    },
+    {
+      "name": "SL_Ceiling_2_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3760,
+      "totalTriangles": 3760,
+      "vertices": 3512,
+      "memoryMB": 0.36605072021484375
+    },
+    {
+      "name": "SL_Ceiling_3_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3760,
+      "totalTriangles": 3760,
+      "vertices": 3502,
+      "memoryMB": 0.36513519287109375
+    },
+    {
+      "name": "SL_Ceiling_5_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3760,
+      "totalTriangles": 3760,
+      "vertices": 3512,
+      "memoryMB": 0.36605072021484375
+    },
+    {
+      "name": "SL_Ceiling_5_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3760,
+      "totalTriangles": 3760,
+      "vertices": 3512,
+      "memoryMB": 0.36605072021484375
+    },
+    {
+      "name": "SL_Floor_0_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3760,
+      "totalTriangles": 3760,
+      "vertices": 3504,
+      "memoryMB": 0.36531829833984375
+    },
+    {
+      "name": "SL_Floor_1_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3760,
+      "totalTriangles": 3760,
+      "vertices": 3502,
+      "memoryMB": 0.36513519287109375
+    },
+    {
+      "name": "SL_Floor_2_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3760,
+      "totalTriangles": 3760,
+      "vertices": 3510,
+      "memoryMB": 0.36586761474609375
+    },
+    {
+      "name": "SL_Floor_3_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3760,
+      "totalTriangles": 3760,
+      "vertices": 3502,
+      "memoryMB": 0.36513519287109375
+    },
+    {
+      "name": "SL_Floor_5_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3760,
+      "totalTriangles": 3760,
+      "vertices": 3512,
+      "memoryMB": 0.36605072021484375
+    },
+    {
+      "name": "SL_Floor_5_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3760,
+      "totalTriangles": 3760,
+      "vertices": 3512,
+      "memoryMB": 0.36605072021484375
+    },
+    {
+      "name": "SL_Ceiling_2_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3384,
+      "totalTriangles": 3384,
+      "vertices": 3164,
+      "memoryMB": 0.32988739013671875
+    },
+    {
+      "name": "SL_Floor_2_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3384,
+      "totalTriangles": 3384,
+      "vertices": 3164,
+      "memoryMB": 0.32988739013671875
+    },
+    {
+      "name": "SL_Floor_2_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3384,
+      "totalTriangles": 3384,
+      "vertices": 3160,
+      "memoryMB": 0.32952117919921875
+    },
+    {
+      "name": "DomePendantLight_Fixture",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/DomePendantLight.fbx",
+      "instances": 1,
+      "triangles": 3348,
+      "totalTriangles": 3348,
+      "vertices": 2296,
+      "memoryMB": 0.18021392822265625
+    },
+    {
+      "name": "SL_Metal_2_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3196,
+      "totalTriangles": 3196,
+      "vertices": 2928,
+      "memoryMB": 0.30612945556640625
+    },
+    {
+      "name": "TestMonitorStand_BevelSmooth",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/B5/TestMonitorStand_BevelSmooth.asset",
+      "instances": 1,
+      "triangles": 3056,
+      "totalTriangles": 3056,
+      "vertices": 2746,
+      "memoryMB": 0.28841400146484375
+    },
+    {
+      "name": "SL_Ceiling_0_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3008,
+      "totalTriangles": 3008,
+      "vertices": 2812,
+      "memoryMB": 0.29335784912109375
+    },
+    {
+      "name": "SL_Ceiling_0_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3008,
+      "totalTriangles": 3008,
+      "vertices": 2808,
+      "memoryMB": 0.29299163818359375
+    },
+    {
+      "name": "SL_Ceiling_0_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3008,
+      "totalTriangles": 3008,
+      "vertices": 2808,
+      "memoryMB": 0.29299163818359375
+    },
+    {
+      "name": "SL_Ceiling_1_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3008,
+      "totalTriangles": 3008,
+      "vertices": 2816,
+      "memoryMB": 0.29372406005859375
+    },
+    {
+      "name": "SL_Ceiling_1_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3008,
+      "totalTriangles": 3008,
+      "vertices": 2816,
+      "memoryMB": 0.29372406005859375
+    },
+    {
+      "name": "SL_Ceiling_1_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3008,
+      "totalTriangles": 3008,
+      "vertices": 2816,
+      "memoryMB": 0.29372406005859375
+    },
+    {
+      "name": "SL_Ceiling_3_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3008,
+      "totalTriangles": 3008,
+      "vertices": 2816,
+      "memoryMB": 0.29372406005859375
+    },
+    {
+      "name": "SL_Ceiling_3_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3008,
+      "totalTriangles": 3008,
+      "vertices": 2816,
+      "memoryMB": 0.29372406005859375
+    },
+    {
+      "name": "SL_Ceiling_3_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3008,
+      "totalTriangles": 3008,
+      "vertices": 2816,
+      "memoryMB": 0.29372406005859375
+    },
+    {
+      "name": "SL_Ceiling_4_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3008,
+      "totalTriangles": 3008,
+      "vertices": 2808,
+      "memoryMB": 0.29299163818359375
+    },
+    {
+      "name": "SL_Ceiling_4_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3008,
+      "totalTriangles": 3008,
+      "vertices": 2808,
+      "memoryMB": 0.29299163818359375
+    },
+    {
+      "name": "SL_Ceiling_4_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3008,
+      "totalTriangles": 3008,
+      "vertices": 2808,
+      "memoryMB": 0.29299163818359375
+    },
+    {
+      "name": "SL_Floor_0_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3008,
+      "totalTriangles": 3008,
+      "vertices": 2812,
+      "memoryMB": 0.29335784912109375
+    },
+    {
+      "name": "SL_Floor_0_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3008,
+      "totalTriangles": 3008,
+      "vertices": 2808,
+      "memoryMB": 0.29299163818359375
+    },
+    {
+      "name": "SL_Floor_0_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3008,
+      "totalTriangles": 3008,
+      "vertices": 2808,
+      "memoryMB": 0.29299163818359375
+    },
+    {
+      "name": "SL_Floor_1_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3008,
+      "totalTriangles": 3008,
+      "vertices": 2816,
+      "memoryMB": 0.29372406005859375
+    },
+    {
+      "name": "SL_Floor_1_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3008,
+      "totalTriangles": 3008,
+      "vertices": 2816,
+      "memoryMB": 0.29372406005859375
+    },
+    {
+      "name": "SL_Floor_1_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3008,
+      "totalTriangles": 3008,
+      "vertices": 2816,
+      "memoryMB": 0.29372406005859375
+    },
+    {
+      "name": "SL_Floor_3_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3008,
+      "totalTriangles": 3008,
+      "vertices": 2816,
+      "memoryMB": 0.29372406005859375
+    },
+    {
+      "name": "SL_Floor_3_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3008,
+      "totalTriangles": 3008,
+      "vertices": 2808,
+      "memoryMB": 0.29299163818359375
+    },
+    {
+      "name": "SL_Floor_4_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3008,
+      "totalTriangles": 3008,
+      "vertices": 2808,
+      "memoryMB": 0.29299163818359375
+    },
+    {
+      "name": "SL_Floor_4_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3008,
+      "totalTriangles": 3008,
+      "vertices": 2804,
+      "memoryMB": 0.29262542724609375
+    },
+    {
+      "name": "SL_Metal_5_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 3008,
+      "totalTriangles": 3008,
+      "vertices": 2784,
+      "memoryMB": 0.29079437255859375
+    },
+    {
+      "name": "MealTraySet_BevelSmooth",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/B5/MealTraySet_BevelSmooth.asset",
+      "instances": 1,
+      "triangles": 2944,
+      "totalTriangles": 2944,
+      "vertices": 2085,
+      "memoryMB": 0.22634124755859375
+    },
+    {
+      "name": "SL_Metal_3_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 2632,
+      "totalTriangles": 2632,
+      "vertices": 2436,
+      "memoryMB": 0.25463104248046875
+    },
+    {
+      "name": "P05_SampleCanister_BevelSmooth",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/Common/P05_SampleCanister_BevelSmooth.asset",
+      "instances": 1,
+      "triangles": 2596,
+      "totalTriangles": 2596,
+      "vertices": 2700,
+      "memoryMB": 0.27838897705078125
+    },
+    {
+      "name": "DualFoodHatch_StaticTunnelAndFrames",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/DualFoodHatch_Visual.fbx",
+      "instances": 1,
+      "triangles": 2592,
+      "totalTriangles": 2592,
+      "vertices": 6520,
+      "memoryMB": 0.62844085693359375
+    },
+    {
+      "name": "SL_Floor_4_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 2256,
+      "totalTriangles": 2256,
+      "vertices": 2104,
+      "memoryMB": 0.21993255615234375
+    },
+    {
+      "name": "SL_Metal_0_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 2256,
+      "totalTriangles": 2256,
+      "vertices": 2088,
+      "memoryMB": 0.21846771240234375
+    },
+    {
+      "name": "ObservationPod_BaseLED",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Visual.fbx",
+      "instances": 1,
+      "triangles": 2048,
+      "totalTriangles": 2048,
+      "vertices": 1560,
+      "memoryMB": 0.16774749755859375
+    },
+    {
+      "name": "ObservationPod_BaseSeal",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Visual.fbx",
+      "instances": 1,
+      "triangles": 2048,
+      "totalTriangles": 2048,
+      "vertices": 1560,
+      "memoryMB": 0.16774749755859375
+    },
+    {
+      "name": "ObservationPod_CrownLED",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Visual.fbx",
+      "instances": 1,
+      "triangles": 2048,
+      "totalTriangles": 2048,
+      "vertices": 1560,
+      "memoryMB": 0.16774749755859375
+    },
+    {
+      "name": "ObservationPod_EquatorFrame",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Visual.fbx",
+      "instances": 1,
+      "triangles": 2048,
+      "totalTriangles": 2048,
+      "vertices": 1560,
+      "memoryMB": 0.16774749755859375
+    },
+    {
+      "name": "ObservationPod_InteriorLED",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Visual.fbx",
+      "instances": 1,
+      "triangles": 2048,
+      "totalTriangles": 2048,
+      "vertices": 1560,
+      "memoryMB": 0.16774749755859375
+    },
+    {
+      "name": "ObservationPod_BaseLED",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatShell.fbx",
+      "instances": 1,
+      "triangles": 2048,
+      "totalTriangles": 2048,
+      "vertices": 1560,
+      "memoryMB": 0.16774749755859375
+    },
+    {
+      "name": "ObservationPod_BaseSeal",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatShell.fbx",
+      "instances": 1,
+      "triangles": 2048,
+      "totalTriangles": 2048,
+      "vertices": 1560,
+      "memoryMB": 0.16774749755859375
+    },
+    {
+      "name": "ObservationPod_CrownLED",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatShell.fbx",
+      "instances": 1,
+      "triangles": 2048,
+      "totalTriangles": 2048,
+      "vertices": 1560,
+      "memoryMB": 0.16774749755859375
+    },
+    {
+      "name": "ObservationPod_EquatorFrame",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatShell.fbx",
+      "instances": 1,
+      "triangles": 2048,
+      "totalTriangles": 2048,
+      "vertices": 1560,
+      "memoryMB": 0.16774749755859375
+    },
+    {
+      "name": "ObservationPod_InteriorLED",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatShell.fbx",
+      "instances": 1,
+      "triangles": 2048,
+      "totalTriangles": 2048,
+      "vertices": 1560,
+      "memoryMB": 0.16774749755859375
+    },
+    {
+      "name": "SL_Core_2_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 1880,
+      "totalTriangles": 1880,
+      "vertices": 1740,
+      "memoryMB": 0.18230438232421875
+    },
+    {
+      "name": "SL_Core_4_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 1880,
+      "totalTriangles": 1880,
+      "vertices": 1740,
+      "memoryMB": 0.18230438232421875
+    },
+    {
+      "name": "SL_Metal_3_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 1880,
+      "totalTriangles": 1880,
+      "vertices": 1740,
+      "memoryMB": 0.18230438232421875
+    },
+    {
+      "name": "ObservationPod_WhiteBase",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Visual.fbx",
+      "instances": 1,
+      "triangles": 1792,
+      "totalTriangles": 1792,
+      "vertices": 1436,
+      "memoryMB": 0.15346527099609375
+    },
+    {
+      "name": "ObservationPod_WhiteBase",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatShell.fbx",
+      "instances": 1,
+      "triangles": 1792,
+      "totalTriangles": 1792,
+      "vertices": 1436,
+      "memoryMB": 0.15346527099609375
+    },
+    {
+      "name": "SL_Core_0_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 1692,
+      "totalTriangles": 1692,
+      "vertices": 1566,
+      "memoryMB": 0.16422271728515625
+    },
+    {
+      "name": "SL_Core_4_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 1692,
+      "totalTriangles": 1692,
+      "vertices": 1566,
+      "memoryMB": 0.16422271728515625
+    },
+    {
+      "name": "SL_Metal_0_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 1692,
+      "totalTriangles": 1692,
+      "vertices": 1548,
+      "memoryMB": 0.16257476806640625
+    },
+    {
+      "name": "SL_Core_3_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 1504,
+      "totalTriangles": 1504,
+      "vertices": 1392,
+      "memoryMB": 0.14614105224609375
+    },
+    {
+      "name": "SL_Floor_3_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 1504,
+      "totalTriangles": 1504,
+      "vertices": 1408,
+      "memoryMB": 0.14760589599609375
+    },
+    {
+      "name": "SL_Hazard_3_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 1504,
+      "totalTriangles": 1504,
+      "vertices": 1392,
+      "memoryMB": 0.14614105224609375
+    },
+    {
+      "name": "SL_Hazard_3_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 1504,
+      "totalTriangles": 1504,
+      "vertices": 1392,
+      "memoryMB": 0.14614105224609375
+    },
+    {
+      "name": "SL_Metal_3_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 1504,
+      "totalTriangles": 1504,
+      "vertices": 1392,
+      "memoryMB": 0.14614105224609375
+    },
+    {
+      "name": "SL_Metal_5_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 1504,
+      "totalTriangles": 1504,
+      "vertices": 1392,
+      "memoryMB": 0.14614105224609375
+    },
+    {
+      "name": "LivingDesk_LivingDesk_Body_BevelSmooth",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/B5/LivingDesk_LivingDesk_Body_BevelSmooth.asset",
+      "instances": 1,
+      "triangles": 1392,
+      "totalTriangles": 1392,
+      "vertices": 948,
+      "memoryMB": 0.10439300537109375
+    },
+    {
+      "name": "SL_Core_1_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 1316,
+      "totalTriangles": 1316,
+      "vertices": 1218,
+      "memoryMB": 0.12805938720703125
+    },
+    {
+      "name": "SL_Light_4_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 1316,
+      "totalTriangles": 1316,
+      "vertices": 1218,
+      "memoryMB": 0.12805938720703125
+    },
+    {
+      "name": "SL_Metal_1_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 1316,
+      "totalTriangles": 1316,
+      "vertices": 1218,
+      "memoryMB": 0.12805938720703125
+    },
+    {
+      "name": "DualFoodHatch_DoorExterior_Pivot",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/DualFoodHatch_Visual.fbx",
+      "instances": 1,
+      "triangles": 1284,
+      "totalTriangles": 1284,
+      "vertices": 2890,
+      "memoryMB": 0.32505035400390625
+    },
+    {
+      "name": "DualFoodHatch_DoorInterior_Pivot",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/DualFoodHatch_Visual.fbx",
+      "instances": 1,
+      "triangles": 1284,
+      "totalTriangles": 1284,
+      "vertices": 2894,
+      "memoryMB": 0.32547760009765625
+    },
+    {
+      "name": "ObservationPod_BlackFoot",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Visual.fbx",
+      "instances": 1,
+      "triangles": 1280,
+      "totalTriangles": 1280,
+      "vertices": 1168,
+      "memoryMB": 0.12306976318359375
+    },
+    {
+      "name": "ObservationPod_BlackFoot",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatShell.fbx",
+      "instances": 1,
+      "triangles": 1280,
+      "totalTriangles": 1280,
+      "vertices": 1168,
+      "memoryMB": 0.12306976318359375
+    },
+    {
+      "name": "LivingDesk_LivingDesk_FixedStool_BevelSmooth",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/B5/LivingDesk_LivingDesk_FixedStool_BevelSmooth.asset",
+      "instances": 1,
+      "triangles": 1140,
+      "totalTriangles": 1140,
+      "vertices": 780,
+      "memoryMB": 0.08603668212890625
+    },
+    {
+      "name": "SL_Core_2_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 1128,
+      "totalTriangles": 1128,
+      "vertices": 1044,
+      "memoryMB": 0.10997772216796875
+    },
+    {
+      "name": "SL_Core_4_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 1128,
+      "totalTriangles": 1128,
+      "vertices": 1044,
+      "memoryMB": 0.10997772216796875
+    },
+    {
+      "name": "SL_Light_0_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 1128,
+      "totalTriangles": 1128,
+      "vertices": 1044,
+      "memoryMB": 0.10997772216796875
+    },
+    {
+      "name": "SL_Light_1_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 1128,
+      "totalTriangles": 1128,
+      "vertices": 1044,
+      "memoryMB": 0.10997772216796875
+    },
+    {
+      "name": "SL_Light_2_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 1128,
+      "totalTriangles": 1128,
+      "vertices": 1044,
+      "memoryMB": 0.10997772216796875
+    },
+    {
+      "name": "SL_Light_3_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 1128,
+      "totalTriangles": 1128,
+      "vertices": 1044,
+      "memoryMB": 0.10997772216796875
+    },
+    {
+      "name": "SL_Metal_1_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 1128,
+      "totalTriangles": 1128,
+      "vertices": 1044,
+      "memoryMB": 0.10997772216796875
+    },
+    {
+      "name": "SL_Core_0_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 940,
+      "totalTriangles": 940,
+      "vertices": 870,
+      "memoryMB": 0.09189605712890625
+    },
+    {
+      "name": "SL_Core_2_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 940,
+      "totalTriangles": 940,
+      "vertices": 870,
+      "memoryMB": 0.09189605712890625
+    },
+    {
+      "name": "SL_Core_4_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 940,
+      "totalTriangles": 940,
+      "vertices": 870,
+      "memoryMB": 0.09189605712890625
+    },
+    {
+      "name": "SL_Light_0_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 940,
+      "totalTriangles": 940,
+      "vertices": 870,
+      "memoryMB": 0.09189605712890625
+    },
+    {
+      "name": "SL_Light_2_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 940,
+      "totalTriangles": 940,
+      "vertices": 870,
+      "memoryMB": 0.09189605712890625
+    },
+    {
+      "name": "SL_Light_2_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 940,
+      "totalTriangles": 940,
+      "vertices": 870,
+      "memoryMB": 0.09189605712890625
+    },
+    {
+      "name": "SL_Light_4_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 940,
+      "totalTriangles": 940,
+      "vertices": 870,
+      "memoryMB": 0.09189605712890625
+    },
+    {
+      "name": "SubjectHabitat_FloorCollision",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/SubjectHabitat_FloorCollision.asset",
+      "instances": 2,
+      "triangles": 384,
+      "totalTriangles": 768,
+      "vertices": 194,
+      "memoryMB": 0.01476287841796875
+    },
+    {
+      "name": "BedLinen_BevelSmooth",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/B5/BedLinen_BevelSmooth.asset",
+      "instances": 1,
+      "triangles": 768,
+      "totalTriangles": 768,
+      "vertices": 527,
+      "memoryMB": 0.05861663818359375
+    },
+    {
+      "name": "SL_Core_2_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 752,
+      "totalTriangles": 752,
+      "vertices": 696,
+      "memoryMB": 0.07381439208984375
+    },
+    {
+      "name": "SL_Core_5_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 752,
+      "totalTriangles": 752,
+      "vertices": 696,
+      "memoryMB": 0.07381439208984375
+    },
+    {
+      "name": "SL_Core_5_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 752,
+      "totalTriangles": 752,
+      "vertices": 696,
+      "memoryMB": 0.07381439208984375
+    },
+    {
+      "name": "SL_Hazard_4_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 752,
+      "totalTriangles": 752,
+      "vertices": 696,
+      "memoryMB": 0.07381439208984375
+    },
+    {
+      "name": "SL_Hazard_4_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 752,
+      "totalTriangles": 752,
+      "vertices": 696,
+      "memoryMB": 0.07381439208984375
+    },
+    {
+      "name": "SL_Light_0_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 752,
+      "totalTriangles": 752,
+      "vertices": 696,
+      "memoryMB": 0.07381439208984375
+    },
+    {
+      "name": "SL_Light_1_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 752,
+      "totalTriangles": 752,
+      "vertices": 696,
+      "memoryMB": 0.07381439208984375
+    },
+    {
+      "name": "SL_Light_2_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 752,
+      "totalTriangles": 752,
+      "vertices": 696,
+      "memoryMB": 0.07381439208984375
+    },
+    {
+      "name": "SL_Light_3_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 752,
+      "totalTriangles": 752,
+      "vertices": 696,
+      "memoryMB": 0.07381439208984375
+    },
+    {
+      "name": "SL_Light_3_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 752,
+      "totalTriangles": 752,
+      "vertices": 696,
+      "memoryMB": 0.07381439208984375
+    },
+    {
+      "name": "SL_Light_4_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 752,
+      "totalTriangles": 752,
+      "vertices": 696,
+      "memoryMB": 0.07381439208984375
+    },
+    {
+      "name": "SL_Light_5_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 752,
+      "totalTriangles": 752,
+      "vertices": 696,
+      "memoryMB": 0.07381439208984375
+    },
+    {
+      "name": "SL_Light_5_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 752,
+      "totalTriangles": 752,
+      "vertices": 696,
+      "memoryMB": 0.07381439208984375
+    },
+    {
+      "name": "SL_Core_5_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 564,
+      "totalTriangles": 564,
+      "vertices": 522,
+      "memoryMB": 0.05573272705078125
+    },
+    {
+      "name": "SL_Light_0_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 564,
+      "totalTriangles": 564,
+      "vertices": 522,
+      "memoryMB": 0.05573272705078125
+    },
+    {
+      "name": "SL_Light_1_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 564,
+      "totalTriangles": 564,
+      "vertices": 522,
+      "memoryMB": 0.05573272705078125
+    },
+    {
+      "name": "SL_Light_4_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 564,
+      "totalTriangles": 564,
+      "vertices": 522,
+      "memoryMB": 0.05573272705078125
+    },
+    {
+      "name": "SL_Light_5_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 564,
+      "totalTriangles": 564,
+      "vertices": 522,
+      "memoryMB": 0.05573272705078125
+    },
+    {
+      "name": "SL_Light_5_3",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 564,
+      "totalTriangles": 564,
+      "vertices": 522,
+      "memoryMB": 0.05573272705078125
+    },
+    {
+      "name": "ObservationPod_MeridianFrame_06",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatShell.fbx",
+      "instances": 1,
+      "triangles": 504,
+      "totalTriangles": 504,
+      "vertices": 430,
+      "memoryMB": 0.05318450927734375
+    },
+    {
+      "name": "ObservationPod_MeridianFrame_00",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Visual.fbx",
+      "instances": 1,
+      "triangles": 444,
+      "totalTriangles": 444,
+      "vertices": 366,
+      "memoryMB": 0.04007720947265625
+    },
+    {
+      "name": "ObservationPod_MeridianFrame_01",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Visual.fbx",
+      "instances": 1,
+      "triangles": 444,
+      "totalTriangles": 444,
+      "vertices": 381,
+      "memoryMB": 0.04145050048828125
+    },
+    {
+      "name": "ObservationPod_MeridianFrame_02",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Visual.fbx",
+      "instances": 1,
+      "triangles": 444,
+      "totalTriangles": 444,
+      "vertices": 358,
+      "memoryMB": 0.03934478759765625
+    },
+    {
+      "name": "ObservationPod_MeridianFrame_03",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Visual.fbx",
+      "instances": 1,
+      "triangles": 444,
+      "totalTriangles": 444,
+      "vertices": 378,
+      "memoryMB": 0.04117584228515625
+    },
+    {
+      "name": "ObservationPod_MeridianFrame_04",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Visual.fbx",
+      "instances": 1,
+      "triangles": 444,
+      "totalTriangles": 444,
+      "vertices": 374,
+      "memoryMB": 0.04080963134765625
+    },
+    {
+      "name": "ObservationPod_MeridianFrame_05",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Visual.fbx",
+      "instances": 1,
+      "triangles": 444,
+      "totalTriangles": 444,
+      "vertices": 393,
+      "memoryMB": 0.04254913330078125
+    },
+    {
+      "name": "ObservationPod_MeridianFrame_06",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Visual.fbx",
+      "instances": 1,
+      "triangles": 444,
+      "totalTriangles": 444,
+      "vertices": 374,
+      "memoryMB": 0.04080963134765625
+    },
+    {
+      "name": "ObservationPod_MeridianFrame_07",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Visual.fbx",
+      "instances": 1,
+      "triangles": 444,
+      "totalTriangles": 444,
+      "vertices": 394,
+      "memoryMB": 0.04264068603515625
+    },
+    {
+      "name": "ObservationPod_MeridianFrame_00",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatShell.fbx",
+      "instances": 1,
+      "triangles": 444,
+      "totalTriangles": 444,
+      "vertices": 366,
+      "memoryMB": 0.04007720947265625
+    },
+    {
+      "name": "ObservationPod_MeridianFrame_01",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatShell.fbx",
+      "instances": 1,
+      "triangles": 444,
+      "totalTriangles": 444,
+      "vertices": 381,
+      "memoryMB": 0.04145050048828125
+    },
+    {
+      "name": "ObservationPod_MeridianFrame_02",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatShell.fbx",
+      "instances": 1,
+      "triangles": 444,
+      "totalTriangles": 444,
+      "vertices": 358,
+      "memoryMB": 0.03934478759765625
+    },
+    {
+      "name": "ObservationPod_MeridianFrame_03",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatShell.fbx",
+      "instances": 1,
+      "triangles": 444,
+      "totalTriangles": 444,
+      "vertices": 378,
+      "memoryMB": 0.04117584228515625
+    },
+    {
+      "name": "ObservationPod_MeridianFrame_04",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatShell.fbx",
+      "instances": 1,
+      "triangles": 444,
+      "totalTriangles": 444,
+      "vertices": 374,
+      "memoryMB": 0.04080963134765625
+    },
+    {
+      "name": "ObservationPod_MeridianFrame_05",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatShell.fbx",
+      "instances": 1,
+      "triangles": 444,
+      "totalTriangles": 444,
+      "vertices": 393,
+      "memoryMB": 0.04254913330078125
+    },
+    {
+      "name": "ObservationPod_MeridianFrame_07",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatShell.fbx",
+      "instances": 1,
+      "triangles": 444,
+      "totalTriangles": 444,
+      "vertices": 394,
+      "memoryMB": 0.04264068603515625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_17",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatCollision.fbx",
+      "instances": 1,
+      "triangles": 420,
+      "totalTriangles": 420,
+      "vertices": 650,
+      "memoryMB": 0.07572174072265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_18",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatCollision.fbx",
+      "instances": 1,
+      "triangles": 420,
+      "totalTriangles": 420,
+      "vertices": 650,
+      "memoryMB": 0.07572174072265625
+    },
+    {
+      "name": "ObservationPod_Crown",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Visual.fbx",
+      "instances": 1,
+      "triangles": 384,
+      "totalTriangles": 384,
+      "vertices": 330,
+      "memoryMB": 0.03609466552734375
+    },
+    {
+      "name": "ObservationPod_Crown",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatShell.fbx",
+      "instances": 1,
+      "triangles": 384,
+      "totalTriangles": 384,
+      "vertices": 330,
+      "memoryMB": 0.03609466552734375
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_00",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 582,
+      "memoryMB": 0.05912017822265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_01",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 582,
+      "memoryMB": 0.05912017822265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_02",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 582,
+      "memoryMB": 0.05912017822265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_03",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 582,
+      "memoryMB": 0.05912017822265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_04",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 590,
+      "memoryMB": 0.05985260009765625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_05",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 598,
+      "memoryMB": 0.06058502197265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_06",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 598,
+      "memoryMB": 0.06058502197265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_07",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 590,
+      "memoryMB": 0.05985260009765625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_08",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 582,
+      "memoryMB": 0.05912017822265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_09",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 582,
+      "memoryMB": 0.05912017822265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_10",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 582,
+      "memoryMB": 0.05912017822265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_11",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 582,
+      "memoryMB": 0.05912017822265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_12",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 582,
+      "memoryMB": 0.05912017822265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_13",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 582,
+      "memoryMB": 0.05912017822265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_14",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 582,
+      "memoryMB": 0.05912017822265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_15",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 582,
+      "memoryMB": 0.05912017822265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_16",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 590,
+      "memoryMB": 0.05985260009765625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_17",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 598,
+      "memoryMB": 0.06058502197265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_18",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 598,
+      "memoryMB": 0.06058502197265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_19",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 590,
+      "memoryMB": 0.05985260009765625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_20",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 582,
+      "memoryMB": 0.05912017822265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_21",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 582,
+      "memoryMB": 0.05912017822265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_22",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 582,
+      "memoryMB": 0.05912017822265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_23",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Collision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 582,
+      "memoryMB": 0.05912017822265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_00",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatCollision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 582,
+      "memoryMB": 0.05912017822265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_01",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatCollision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 582,
+      "memoryMB": 0.05912017822265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_02",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatCollision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 582,
+      "memoryMB": 0.05912017822265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_03",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatCollision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 582,
+      "memoryMB": 0.05912017822265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_04",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatCollision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 590,
+      "memoryMB": 0.05985260009765625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_05",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatCollision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 598,
+      "memoryMB": 0.06058502197265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_06",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatCollision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 598,
+      "memoryMB": 0.06058502197265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_07",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatCollision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 590,
+      "memoryMB": 0.05985260009765625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_08",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatCollision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 582,
+      "memoryMB": 0.05912017822265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_09",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatCollision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 582,
+      "memoryMB": 0.05912017822265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_10",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatCollision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 582,
+      "memoryMB": 0.05912017822265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_11",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatCollision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 582,
+      "memoryMB": 0.05912017822265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_12",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatCollision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 582,
+      "memoryMB": 0.05912017822265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_13",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatCollision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 582,
+      "memoryMB": 0.05912017822265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_14",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatCollision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 582,
+      "memoryMB": 0.05912017822265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_15",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatCollision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 582,
+      "memoryMB": 0.06800079345703125
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_16",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatCollision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 582,
+      "memoryMB": 0.06800079345703125
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_19",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatCollision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 590,
+      "memoryMB": 0.06885528564453125
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_20",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatCollision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 582,
+      "memoryMB": 0.06800079345703125
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_21",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatCollision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 582,
+      "memoryMB": 0.05912017822265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_22",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatCollision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 582,
+      "memoryMB": 0.05912017822265625
+    },
+    {
+      "name": "ObservationPod_CollisionSegment_23",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_HabitatCollision.fbx",
+      "instances": 1,
+      "triangles": 380,
+      "totalTriangles": 380,
+      "vertices": 582,
+      "memoryMB": 0.05912017822265625
+    },
+    {
+      "name": "SL_Core_0_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 376,
+      "totalTriangles": 376,
+      "vertices": 348,
+      "memoryMB": 0.03765106201171875
+    },
+    {
+      "name": "SL_Core_3_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 376,
+      "totalTriangles": 376,
+      "vertices": 348,
+      "memoryMB": 0.03765106201171875
+    },
+    {
+      "name": "SL_Hazard_2_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 376,
+      "totalTriangles": 376,
+      "vertices": 348,
+      "memoryMB": 0.03765106201171875
+    },
+    {
+      "name": "SL_Hazard_2_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 376,
+      "totalTriangles": 376,
+      "vertices": 348,
+      "memoryMB": 0.03765106201171875
+    },
+    {
+      "name": "SL_Light_1_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 376,
+      "totalTriangles": 376,
+      "vertices": 348,
+      "memoryMB": 0.03765106201171875
+    },
+    {
+      "name": "SL_Light_3_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 376,
+      "totalTriangles": 376,
+      "vertices": 348,
+      "memoryMB": 0.03765106201171875
+    },
+    {
+      "name": "SL_Metal_1_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 376,
+      "totalTriangles": 376,
+      "vertices": 348,
+      "memoryMB": 0.03765106201171875
+    },
+    {
+      "name": "SL_Accent_4_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 188,
+      "totalTriangles": 188,
+      "vertices": 174,
+      "memoryMB": 0.01956939697265625
+    },
+    {
+      "name": "SL_Accent_4_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 188,
+      "totalTriangles": 188,
+      "vertices": 174,
+      "memoryMB": 0.01956939697265625
+    },
+    {
+      "name": "SL_Accent_5_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 188,
+      "totalTriangles": 188,
+      "vertices": 174,
+      "memoryMB": 0.01956939697265625
+    },
+    {
+      "name": "SL_Core_0_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 188,
+      "totalTriangles": 188,
+      "vertices": 174,
+      "memoryMB": 0.01956939697265625
+    },
+    {
+      "name": "SL_Core_1_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 188,
+      "totalTriangles": 188,
+      "vertices": 174,
+      "memoryMB": 0.01956939697265625
+    },
+    {
+      "name": "SL_Core_3_0",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 188,
+      "totalTriangles": 188,
+      "vertices": 174,
+      "memoryMB": 0.01956939697265625
+    },
+    {
+      "name": "SL_Core_3_2",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 188,
+      "totalTriangles": 188,
+      "vertices": 174,
+      "memoryMB": 0.01956939697265625
+    },
+    {
+      "name": "SL_Core_5_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 188,
+      "totalTriangles": 188,
+      "vertices": 174,
+      "memoryMB": 0.01956939697265625
+    },
+    {
+      "name": "SL_Water_3_1",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Stealth_Architecture.fbx",
+      "instances": 1,
+      "triangles": 188,
+      "totalTriangles": 188,
+      "vertices": 174,
+      "memoryMB": 0.01956939697265625
+    },
+    {
+      "name": "SL_Light_StairA_LampLower_Lens",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Fixture_Details.fbx",
+      "instances": 1,
+      "triangles": 188,
+      "totalTriangles": 188,
+      "vertices": 140,
+      "memoryMB": 0.01645660400390625
+    },
+    {
+      "name": "SL_Light_StairA_LampUpper_Lens",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Fixture_Details.fbx",
+      "instances": 1,
+      "triangles": 188,
+      "totalTriangles": 188,
+      "vertices": 140,
+      "memoryMB": 0.01645660400390625
+    },
+    {
+      "name": "SL_Metal_C1_MountPlate",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Fixture_Details.fbx",
+      "instances": 1,
+      "triangles": 188,
+      "totalTriangles": 188,
+      "vertices": 140,
+      "memoryMB": 0.01645660400390625
+    },
+    {
+      "name": "SL_Metal_C1_MountPost",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Fixture_Details.fbx",
+      "instances": 1,
+      "triangles": 188,
+      "totalTriangles": 188,
+      "vertices": 140,
+      "memoryMB": 0.01645660400390625
+    },
+    {
+      "name": "SL_Metal_StairA_LampLower_Body",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Fixture_Details.fbx",
+      "instances": 1,
+      "triangles": 188,
+      "totalTriangles": 188,
+      "vertices": 140,
+      "memoryMB": 0.01645660400390625
+    },
+    {
+      "name": "SL_Metal_StairA_LampUpper_Body",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/B5_Fixture_Details.fbx",
+      "instances": 1,
+      "triangles": 188,
+      "totalTriangles": 188,
+      "vertices": 140,
+      "memoryMB": 0.01645660400390625
+    },
+    {
+      "name": "ObservationPod_FoodHatch_Closed",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Visual.fbx",
+      "instances": 1,
+      "triangles": 108,
+      "totalTriangles": 108,
+      "vertices": 216,
+      "memoryMB": 0.02249908447265625
+    },
+    {
+      "name": "ObservationPod_HatchBacking",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Visual.fbx",
+      "instances": 1,
+      "triangles": 108,
+      "totalTriangles": 108,
+      "vertices": 216,
+      "memoryMB": 0.02249908447265625
+    },
+    {
+      "name": "ObservationPod_HatchHandle",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Visual.fbx",
+      "instances": 1,
+      "triangles": 108,
+      "totalTriangles": 108,
+      "vertices": 216,
+      "memoryMB": 0.02249908447265625
+    },
+    {
+      "name": "ObservationPod_HatchSeal",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Visual.fbx",
+      "instances": 1,
+      "triangles": 108,
+      "totalTriangles": 108,
+      "vertices": 216,
+      "memoryMB": 0.02249908447265625
+    },
+    {
+      "name": "ObservationPod_HatchStatusLED",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Visual.fbx",
+      "instances": 1,
+      "triangles": 108,
+      "totalTriangles": 108,
+      "vertices": 216,
+      "memoryMB": 0.02249908447265625
+    },
+    {
+      "name": "ObservationPod_HatchFastener",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Visual.fbx",
+      "instances": 1,
+      "triangles": 48,
+      "totalTriangles": 48,
+      "vertices": 112,
+      "memoryMB": 0.01229095458984375
+    },
+    {
+      "name": "ObservationPod_HatchFastener.001",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Visual.fbx",
+      "instances": 1,
+      "triangles": 48,
+      "totalTriangles": 48,
+      "vertices": 112,
+      "memoryMB": 0.01229095458984375
+    },
+    {
+      "name": "ObservationPod_HatchFastener.002",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Visual.fbx",
+      "instances": 1,
+      "triangles": 48,
+      "totalTriangles": 48,
+      "vertices": 112,
+      "memoryMB": 0.01229095458984375
+    },
+    {
+      "name": "ObservationPod_HatchFastener.003",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/ObservationPod_Visual.fbx",
+      "instances": 1,
+      "triangles": 48,
+      "totalTriangles": 48,
+      "vertices": 112,
+      "memoryMB": 0.01229095458984375
+    },
+    {
+      "name": "DualFoodHatch_DoorExterior_Collider",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/DualFoodHatch_Collision.fbx",
+      "instances": 1,
+      "triangles": 12,
+      "totalTriangles": 12,
+      "vertices": 24,
+      "memoryMB": 0.00382232666015625
+    },
+    {
+      "name": "DualFoodHatch_DoorInterior_Collider",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/DualFoodHatch_Collision.fbx",
+      "instances": 1,
+      "triangles": 12,
+      "totalTriangles": 12,
+      "vertices": 24,
+      "memoryMB": 0.00382232666015625
+    },
+    {
+      "name": "DualFoodHatch_TunnelCapCollider",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/DualFoodHatch_Collision.fbx",
+      "instances": 1,
+      "triangles": 12,
+      "totalTriangles": 12,
+      "vertices": 24,
+      "memoryMB": 0.00382232666015625
+    },
+    {
+      "name": "DualFoodHatch_TunnelCapCollider.001",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/DualFoodHatch_Collision.fbx",
+      "instances": 1,
+      "triangles": 12,
+      "totalTriangles": 12,
+      "vertices": 24,
+      "memoryMB": 0.00382232666015625
+    },
+    {
+      "name": "DualFoodHatch_TunnelSideCollider",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/DualFoodHatch_Collision.fbx",
+      "instances": 1,
+      "triangles": 12,
+      "totalTriangles": 12,
+      "vertices": 24,
+      "memoryMB": 0.00382232666015625
+    },
+    {
+      "name": "DualFoodHatch_TunnelSideCollider.001",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/DualFoodHatch_Collision.fbx",
+      "instances": 1,
+      "triangles": 12,
+      "totalTriangles": 12,
+      "vertices": 24,
+      "memoryMB": 0.00382232666015625
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "levelHighestLOD0Triangles": 965421,
+  "title": "Repaired guard FBX verification V0.01",
+  "asset": "Assets/Afrer_Seconds/05.Model/Enemy/AS_V03_Guard_HeadRepaired.fbx",
+  "guid": "fbb89d3ad027725448ab80bd96f28be0",
+  "avatarValid": true,
+  "human": true,
+  "parts": [
+    {
+      "name": "AS_Guard_ClearVisor",
+      "triangles": 952,
+      "bones": 53,
+      "missingBones": 0,
+      "uvCount": 598,
+      "vertices": 598,
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Enemy/Materials/AS_Guard_ClearVisor.mat"
+      ]
+    },
+    {
+      "name": "AS_Guard_RealFace",
+      "triangles": 1932,
+      "bones": 53,
+      "missingBones": 0,
+      "uvCount": 1420,
+      "vertices": 1420,
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Enemy/Materials/AS_Guard_RealSkin.mat"
+      ]
+    },
+    {
+      "name": "AS_Guard_VisorFrame",
+      "triangles": 2068,
+      "bones": 53,
+      "missingBones": 0,
+      "uvCount": 1457,
+      "vertices": 1457,
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Enemy/Materials/AS_Guard_VisorFrame.mat"
+      ]
+    },
+    {
+      "name": "AS_V03_Guard",
+      "triangles": 32365,
+      "bones": 53,
+      "missingBones": 0,
+      "uvCount": 22645,
+      "vertices": 22645,
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Enemy/Materials/AS_V03_Guard.mat"
+      ]
+    }
+  ],
+  "guardTriangles": 37317,
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Stealth.unity",
+  "isDirty": false,
+  "instances": [
+    {
+      "name": "G0_Initial_Guard_Visual",
+      "valid": true,
+      "human": true,
+      "enabled": false,
+      "controller": false,
+      "parts": 4,
+      "head": "(-8.28594, 1.03132, -6.00118)"
+    },
+    {
+      "name": "G1_South_Guard_Visual",
+      "valid": true,
+      "human": true,
+      "enabled": false,
+      "controller": false,
+      "parts": 4,
+      "head": "(-19.88906, 1.55632, 9.62618)"
+    },
+    {
+      "name": "G2_CoolingNorth_Guard_Visual",
+      "valid": true,
+      "human": true,
+      "enabled": false,
+      "controller": false,
+      "parts": 4,
+      "head": "(1.11094, 1.55632, -6.87382)"
+    }
+  ]
+}
