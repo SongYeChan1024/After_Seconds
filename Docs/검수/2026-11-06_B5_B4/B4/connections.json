@@ -1,0 +1,225 @@
+{
+  "doors": [
+    {
+      "a": "N",
+      "b": "W",
+      "expectedOpen": true,
+      "blockedSamples": 0,
+      "passed": true
+    },
+    {
+      "a": "N",
+      "b": "M",
+      "expectedOpen": true,
+      "blockedSamples": 0,
+      "passed": true
+    },
+    {
+      "a": "N",
+      "b": "EN",
+      "expectedOpen": true,
+      "blockedSamples": 0,
+      "passed": true
+    },
+    {
+      "a": "W",
+      "b": "S",
+      "expectedOpen": true,
+      "blockedSamples": 0,
+      "passed": true
+    },
+    {
+      "a": "M",
+      "b": "S",
+      "expectedOpen": true,
+      "blockedSamples": 0,
+      "passed": true
+    },
+    {
+      "a": "S",
+      "b": "ES",
+      "expectedOpen": true,
+      "blockedSamples": 0,
+      "passed": true
+    },
+    {
+      "a": "N",
+      "b": "HVAC",
+      "expectedOpen": false,
+      "blockedSamples": 3,
+      "passed": true
+    },
+    {
+      "a": "EN",
+      "b": "LIFT",
+      "expectedOpen": true,
+      "blockedSamples": 0,
+      "passed": true
+    },
+    {
+      "a": "ES",
+      "b": "STA",
+      "expectedOpen": true,
+      "blockedSamples": 0,
+      "passed": true
+    },
+    {
+      "a": "LIFT",
+      "b": "STB",
+      "expectedOpen": true,
+      "blockedSamples": 0,
+      "passed": true
+    },
+    {
+      "a": "W",
+      "b": "AN",
+      "expectedOpen": true,
+      "blockedSamples": 0,
+      "passed": true
+    },
+    {
+      "a": "AN",
+      "b": "A",
+      "expectedOpen": true,
+      "blockedSamples": 0,
+      "passed": true
+    },
+    {
+      "a": "W",
+      "b": "AS",
+      "expectedOpen": true,
+      "blockedSamples": 0,
+      "passed": true
+    },
+    {
+      "a": "AS",
+      "b": "A",
+      "expectedOpen": true,
+      "blockedSamples": 0,
+      "passed": true
+    },
+    {
+      "a": "A",
+      "b": "M",
+      "expectedOpen": true,
+      "blockedSamples": 0,
+      "passed": true
+    },
+    {
+      "a": "A",
+      "b": "M",
+      "expectedOpen": true,
+      "blockedSamples": 0,
+      "passed": true
+    },
+    {
+      "a": "M",
+      "b": "B",
+      "expectedOpen": true,
+      "blockedSamples": 0,
+      "passed": true
+    },
+    {
+      "a": "B",
+      "b": "EN",
+      "expectedOpen": true,
+      "blockedSamples": 0,
+      "passed": true
+    },
+    {
+      "a": "M",
+      "b": "D",
+      "expectedOpen": true,
+      "blockedSamples": 0,
+      "passed": true
+    },
+    {
+      "a": "D",
+      "b": "ES",
+      "expectedOpen": true,
+      "blockedSamples": 0,
+      "passed": true
+    },
+    {
+      "a": "B",
+      "b": "D",
+      "expectedOpen": true,
+      "blockedSamples": 0,
+      "passed": true
+    },
+    {
+      "a": "S",
+      "b": "SUP1",
+      "expectedOpen": true,
+      "blockedSamples": 0,
+      "passed": true
+    },
+    {
+      "a": "S",
+      "b": "SUP2",
+      "expectedOpen": true,
+      "blockedSamples": 0,
+      "passed": true
+    },
+    {
+      "a": "S",
+      "b": "SUP3",
+      "expectedOpen": true,
+      "blockedSamples": 0,
+      "passed": true
+    },
+    {
+      "a": "S",
+      "b": "SUP4",
+      "expectedOpen": true,
+      "blockedSamples": 0,
+      "passed": true
+    },
+    {
+      "a": "SUP1",
+      "b": "SUP2",
+      "expectedOpen": true,
+      "blockedSamples": 0,
+      "passed": true
+    },
+    {
+      "a": "SUP3",
+      "b": "SUP4",
+      "expectedOpen": true,
+      "blockedSamples": 0,
+      "passed": true
+    },
+    {
+      "a": "SUP4",
+      "b": "ES",
+      "expectedOpen": true,
+      "blockedSamples": 0,
+      "passed": true
+    }
+  ],
+  "windows": [
+    {
+      "v": 6.45,
+      "fromLeft": true,
+      "fromRight": true
+    },
+    {
+      "v": 11.6,
+      "fromLeft": true,
+      "fromRight": true
+    },
+    {
+      "v": 16.45,
+      "fromLeft": true,
+      "fromRight": true
+    },
+    {
+      "v": 21.6,
+      "fromLeft": true,
+      "fromRight": true
+    }
+  ],
+  "dependencies": 114,
+  "missingDependencies": [],
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B4_Stealth.unity"
+}

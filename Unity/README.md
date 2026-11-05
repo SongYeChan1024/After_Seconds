@@ -1,4 +1,6 @@
-# After Seconds Unity 프로젝트 안내 V0.38
+# After Seconds Unity 프로젝트 안내 V0.39
+
+2026-11-06 최신: 새 `Assets/Afrer_Seconds/01.Scenes/Stage/Level_B4_Stealth.unity`에 최신 잠입 평면의 관찰실·관찰창·분석실·데크·지원실·계단B를 제작했다. 모델/재질/반사는 `05.Model/Environment/B4/`, 원본은 `SourceAssets/B4_StealthLayout/`다. 새 바닥은 기존 `B4_Floor.mat`와 분리한 `B4SL_Floor.mat`를 쓴다. 최고LOD867,081tri·Collider259·소품LOD30, 경로/계단/실제 입력 검사를 통과했다. 층간 전환·NPC 동작·게임 C# 추가는 없다. [최신 이어하기](../Docs/이어하기_2026-11-06.md)와 [검수/사진](../Docs/검수/2026-11-06_B5_B4/검수결과.md)을 우선한다. 아래는 이전 작업 이력이다.
 
 경비 FBX 후속 반입 보수: 베벨 이후의 다각형을 검증한 삼각형으로 출력해 자기 교차 경고를 수정했다. 강제 재반입 경고0건, 최신 경비37,317tri·B5 최고 LOD965,421tri다. [보수 검수](../Docs/검수/2026-11-05_B5_AssetRepair/PolygonFix/검수결과.md)를 우선한다. 씬 배치·충돌·게임 C#은 변경하지 않았다.
 

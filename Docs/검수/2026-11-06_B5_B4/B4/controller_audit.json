@@ -1,0 +1,75 @@
+{
+  "mode": "Temporary CharacterController.Move in Editor; no input/AI gameplay",
+  "settings": {
+    "radius": 0.28,
+    "height": 1.8,
+    "stepOffset": 0.3,
+    "skinWidth": 0.08,
+    "slopeLimit": 45
+  },
+  "results": [
+    {
+      "name": "Route_A",
+      "moves": 2297,
+      "failures": [],
+      "finalPosition": "(22.125, 0.080, 8.080)",
+      "expectedHeight": 0.0,
+      "heightError": 0.07999986,
+      "passed": true
+    },
+    {
+      "name": "Route_B",
+      "moves": 3669,
+      "failures": [],
+      "finalPosition": "(22.125, 0.080, 8.080)",
+      "expectedHeight": 0.0,
+      "heightError": 0.07999986,
+      "passed": true
+    },
+    {
+      "name": "Route_C",
+      "moves": 1320,
+      "failures": [],
+      "finalPosition": "(-16.430, 0.080, -6.875)",
+      "expectedHeight": 0.0,
+      "heightError": 0.07999986,
+      "passed": true
+    },
+    {
+      "name": "Deck_Up",
+      "moves": 195,
+      "failures": [],
+      "finalPosition": "(6.055, 2.580, 3.399)",
+      "expectedHeight": 2.5,
+      "heightError": 0.07999992,
+      "passed": true
+    },
+    {
+      "name": "Deck_Down",
+      "moves": 195,
+      "failures": [],
+      "finalPosition": "(4.200, 0.080, -1.570)",
+      "expectedHeight": 0.0,
+      "heightError": 0.0799998641,
+      "passed": true
+    },
+    {
+      "name": "StairB_Up",
+      "moves": 431,
+      "failures": [],
+      "finalPosition": "(20.750, 6.480, 7.629)",
+      "expectedHeight": 6.4,
+      "heightError": 0.07999945,
+      "passed": true
+    },
+    {
+      "name": "StairB_Down",
+      "moves": 431,
+      "failures": [],
+      "finalPosition": "(22.650, 0.080, 8.539)",
+      "expectedHeight": 0.0,
+      "heightError": 0.0799998641,
+      "passed": true
+    }
+  ]
+}
