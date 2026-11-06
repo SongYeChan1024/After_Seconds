@@ -1,0 +1,24 @@
+{
+  "name": "LinenHamper",
+  "dimensions": [
+    0.5297726516851782,
+    0.95,
+    0.6304660292267741
+  ],
+  "triangles": [
+    9954,
+    3980,
+    1194
+  ],
+  "materials": [
+    {
+      "name": "CFD_LinenHamper",
+      "Albedo": "CFD_LinenHamper_Albedo.png",
+      "ORM": "CFD_LinenHamper_ORM.png",
+      "MetallicSmoothness": "CFD_LinenHamper_MetallicSmoothness.png",
+      "Normal": "CFD_LinenHamper_Normal.png"
+    }
+  ],
+  "degenerateRemoved": 0,
+  "source": "VARCO remesh + Blender bevel/LOD"
+}

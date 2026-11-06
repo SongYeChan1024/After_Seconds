@@ -1,0 +1,25 @@
+{
+    "version":  "V0.01",
+    "author":  "송예찬",
+    "date":  "2026-11-06",
+    "scope":  "B5/B4 stair sections and B3 specimen stealth floor; static art only",
+    "sources":  [
+                    "SourceAssets/LevelContinuation",
+                    "SourceAssets/B3_StealthLayout"
+                ],
+    "models":  [
+                   "Environment/B5/LC_B5_Architecture.fbx",
+                   "Environment/B4/LC_B4_Architecture.fbx",
+                   "Environment/B3/LC_B3_Architecture.fbx"
+               ],
+    "bevel":  "Existing bevel retained. New geometry 1-12 mm, two segments, weighted normals, explicit triangles.",
+    "coordinates":  "Unity x=u-24, y=height, z=v-16",
+    "floorElevations":  {
+                            "B5":  0,
+                            "B3":  14.2,
+                            "B4":  7.8
+                        },
+    "runtimeCodeAdded":  false,
+    "originalModelsPreserved":  true,
+    "report":  "Docs/검수/2026-11-06_LevelContinuation/검수결과.md"
+}

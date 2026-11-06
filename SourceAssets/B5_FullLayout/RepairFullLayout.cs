@@ -1,0 +1,12 @@
+using System;using System.IO;using System.Linq;using System.Collections.Generic;using UnityEngine;using UnityEditor;using UnityEditor.SceneManagement;using UnityEngine.SceneManagement;using Newtonsoft.Json;
+public static class RepairFullLayout {
+ static string R=>Path.GetFullPath(Path.Combine(Application.dataPath,"../../.."));
+ public static object Run(){var s=SceneManager.GetActiveScene();if(Application.isPlaying||s.isDirty)throw new Exception("Saved edit scene required");var root=s.GetRootGameObjects().Single(g=>g.name.StartsWith("B5_Circular")).transform;var old=root.Find("B5_Art_C01_T01");
+ foreach(var key in new[]{"CD-029","CD-030","CD-031"}){var t=old.Cast<Transform>().Single(t=>t.name.StartsWith(key));t.localPosition=new Vector3(-23.23f,t.localPosition.y,-5.25f);t.localRotation=Quaternion.Euler(0,120,0);}
+ var emergency=old.Cast<Transform>().Single(t=>t.name.StartsWith("CD-040"));emergency.localPosition=new Vector3(-22.7f,0,-7.5f);emergency.localRotation=Quaternion.Euler(0,108,0);
+ var transfer=old.Cast<Transform>().Single(t=>t.name.StartsWith("CD-038"));transfer.localPosition=new Vector3(-21.8f,0,-16);transfer.localRotation=Quaternion.Euler(0,48,0);
+ var clinical=root.Find("C01_Experiment_Art/C01_Clinical_Stations");var records=clinical.Find("Trial_Records_Cabinet");records.localPosition=new Vector3(-4.5f,0,-7.2f);records.localRotation=Quaternion.Euler(0,32,0);
+ Physics.SyncTransforms();EditorSceneManager.SaveScene(s);return new{relocatedFittings=6,reason="Keep T11 and C01 circulation clear"};}
+ public static object Props(){var s=SceneManager.GetActiveScene();var root=s.GetRootGameObjects().Single(g=>g.name.StartsWith("B5_Circular")).transform;Physics.SyncTransforms();var overlap=new List<object>();foreach(var box in root.Find("C01_Experiment_Art/C01_Clinical_Stations").GetComponentsInChildren<BoxCollider>()){if(!box.enabled)continue;foreach(var c in Physics.OverlapBox(box.bounds.center,box.bounds.extents,Quaternion.identity,~0,QueryTriggerInteraction.Ignore).Where(c=>c!=box&&!c.transform.IsChildOf(box.transform)&&c.transform.IsChildOf(root)&&!c.name.Contains("Floor"))){Vector3 direction;float depth;if(Physics.ComputePenetration(box,box.transform.position,box.transform.rotation,c,c.transform.position,c.transform.rotation,out direction,out depth)&&depth>.035f)overlap.Add(new{box=box.name,other=c.name,depth});}}
+ File.WriteAllText(R+"/Docs/검수/2026-11-06_B5_FullLayout/clinical_prop_check.json",JsonConvert.SerializeObject(overlap,Formatting.Indented));return overlap;}
+}

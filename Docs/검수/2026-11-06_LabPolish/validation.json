@@ -1,0 +1,631 @@
+[
+  {
+    "floor": "B5",
+    "trianglesHighestLOD": 1084917,
+    "missingScripts": 0,
+    "materialErrors": [],
+    "colliders": 315,
+    "lights": 84,
+    "routes": [
+      {
+        "variant": "A",
+        "samples": 210,
+        "blocked": []
+      },
+      {
+        "variant": "B",
+        "samples": 330,
+        "blocked": []
+      },
+      {
+        "variant": "C",
+        "samples": 108,
+        "blocked": []
+      }
+    ],
+    "doors": [
+      {
+        "name": "Door_00_N_W",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_01_N_M",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_02_N_EN",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_03_W_S",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_04_M_S",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_05_S_ES",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_06_N_HVAC",
+        "open": false,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": [
+          "B5_Stealth_Level_V0.01/Lab_Doors/Door_06_N_HVAC/Leaf_Left",
+          "B5_Stealth_Level_V0.01/Lab_Doors/Door_06_N_HVAC/Leaf_Right"
+        ]
+      },
+      {
+        "name": "Door_07_EN_LIFT",
+        "open": false,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": [
+          "B5_Stealth_Level_V0.01/Lab_Doors/Door_07_EN_LIFT/Leaf_Left",
+          "B5_Stealth_Level_V0.01/Lab_Doors/Door_07_EN_LIFT/Leaf_Right"
+        ]
+      },
+      {
+        "name": "Door_08_ES_STA",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_09_LIFT_STB",
+        "open": false,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": [
+          "B5_Stealth_Level_V0.01/Lab_Doors/Door_09_LIFT_STB/Leaf_Left",
+          "B5_Stealth_Level_V0.01/Lab_Doors/Door_09_LIFT_STB/Leaf_Right"
+        ]
+      },
+      {
+        "name": "Door_10_W_A",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_11_A_M",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_12_A_M",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_13_M_B",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_14_M_B",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_15_B_EN",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_16_B_ES",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_17_S_SUP1",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_18_S_SUP2",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_19_S_SUP3",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_20_S_SUP4",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_21_SUP1_SUP2",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_22_SUP2_SUP3",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_23_SUP3_SUP4",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_24_SUP4_ES",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      }
+    ],
+    "props": [
+      {
+        "name": "Isolation_ColdSamples",
+        "position": [
+          -5.75,
+          0.0,
+          -10.7
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "Isolation_Analyzer",
+        "position": [
+          -6.049999,
+          0.0,
+          -3.80000019
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "Isolation_SampleCart",
+        "position": [
+          -19.4,
+          0.0,
+          5.700001
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "Vestibule_ColdSamples",
+        "position": [
+          -13.95,
+          0.0,
+          15.15
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "Monitoring_Analyzer",
+        "position": [
+          1.89999962,
+          0.0,
+          14.9
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "Utility_SampleCart",
+        "position": [
+          9.799999,
+          0.0,
+          12.0
+        ],
+        "overlaps": []
+      }
+    ]
+  },
+  {
+    "floor": "B4",
+    "trianglesHighestLOD": 1062101,
+    "missingScripts": 0,
+    "materialErrors": [],
+    "colliders": 324,
+    "lights": 96,
+    "routes": [
+      {
+        "variant": "A",
+        "samples": 341,
+        "blocked": []
+      },
+      {
+        "variant": "B",
+        "samples": 545,
+        "blocked": []
+      },
+      {
+        "variant": "C",
+        "samples": 191,
+        "blocked": []
+      }
+    ],
+    "doors": [
+      {
+        "name": "Door_00_N_W",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_01_N_M",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_02_N_EN",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_03_W_S",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_04_M_S",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_05_S_ES",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_06_N_HVAC",
+        "open": false,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": [
+          "B4_Stealth_Level_V0.01/Lab_Doors/Door_06_N_HVAC/Leaf_Left",
+          "B4_Stealth_Level_V0.01/Lab_Doors/Door_06_N_HVAC/Leaf_Right"
+        ]
+      },
+      {
+        "name": "Door_07_EN_LIFT",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_08_ES_STA",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_09_LIFT_STB",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_10_W_AN",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_11_AN_A",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_12_W_AS",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_13_AS_A",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_14_A_M",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_15_A_M",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_16_M_B",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_17_B_EN",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_18_M_D",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_19_D_ES",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_20_B_D",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_21_S_SUP1",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_22_S_SUP2",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_23_S_SUP3",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_24_S_SUP4",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_25_SUP1_SUP2",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_26_SUP3_SUP4",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_27_SUP4_ES",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      }
+    ],
+    "props": [
+      {
+        "name": "AN_ColdSamples",
+        "position": [
+          -20.35,
+          0.0,
+          -11.1
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "AN_Analyzer",
+        "position": [
+          -13.05,
+          0.0,
+          -11.0
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "AN_SampleCart",
+        "position": [
+          -13.3,
+          0.0,
+          -5.0
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "AS_ColdSamples",
+        "position": [
+          -20.35,
+          0.0,
+          -1.10000038
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "AS_Analyzer",
+        "position": [
+          -13.1,
+          0.0,
+          -1.10000038
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "AS_SampleCart",
+        "position": [
+          -13.6,
+          0.0,
+          5.10000038
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "Data_Analyzer",
+        "position": [
+          10.9000015,
+          0.0,
+          -10.9
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "Preparation_ColdSamples",
+        "position": [
+          -6.75,
+          0.0,
+          12.0
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "Support_SampleCart",
+        "position": [
+          -16.8,
+          0.0,
+          15.0
+        ],
+        "overlaps": []
+      }
+    ]
+  }
+]

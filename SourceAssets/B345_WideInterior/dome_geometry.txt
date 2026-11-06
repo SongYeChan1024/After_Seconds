@@ -1,0 +1,58 @@
+def dome_y(room,x,z):
+ roof=room['roof'];rx=room['w']/2-.16;rz=room['h']/2-.16
+ return roof['spring']+(roof['crown']-roof['spring'])*math.sqrt(max(0,1-(x/rx)**2)*max(0,1-(z/rz)**2))
+def dome_panel(name,room,u,v,x,z,w,d,drop,thick,mat):
+ vs=[];fs=[];nx=6;nz=8
+ for side in (0,1):
+  for iz in range(nz+1):
+   for ix in range(nx+1):
+    a=x-w/2+w*ix/nx;b=z-d/2+d*iz/nz;vs.append(world(u+a,dome_y(room,a,b)-drop+side*thick,v+b))
+ layer=(nx+1)*(nz+1)
+ for side in (0,1):
+  for iz in range(nz):
+   for ix in range(nx):
+    a=side*layer+iz*(nx+1)+ix;face=(a,a+1,a+nx+2,a+nx+1);fs.append(face if side else tuple(reversed(face)))
+ per=list(range(nx+1))+[i*(nx+1)+nx for i in range(1,nz+1)]+list(range(nz*(nx+1)+nx-1,nz*(nx+1)-1,-1))+[i*(nx+1) for i in range(nz-1,0,-1)]
+ for a,b in zip(per,per[1:]+per[:1]):fs.append((a,b,b+layer,a+layer))
+ mesh(name,vs,fs,mat,.003)
+def dome(room,rows):
+ u=room['x']+room['w']/2;v=room['y']+room['h']/2;rx=room['w']/2-.16;rz=room['h']/2-.16;nx=32;nz=40;vs=[];fs=[];rid=room['id']
+ for skin in (0,1):
+  for iz in range(nz+1):
+   z=rz*math.sin(-math.pi/2+math.pi*iz/nz)
+   for ix in range(nx+1):
+    x=rx*math.sin(-math.pi/2+math.pi*ix/nx);vs.append(world(u+x,dome_y(room,x,z)+skin*.13,v+z))
+ layer=(nx+1)*(nz+1)
+ for skin in (0,1):
+  off=skin*layer
+  for iz in range(nz):
+   for ix in range(nx):
+    a=off+iz*(nx+1)+ix;face=(a,a+1,a+nx+2,a+nx+1);fs.append(face if skin else tuple(reversed(face)))
+ per=list(range(nx+1))+[i*(nx+1)+nx for i in range(1,nz+1)]+list(range(nz*(nx+1)+nx-1,nz*(nx+1)-1,-1))+[i*(nx+1) for i in range(nz-1,0,-1)]
+ for a,b in zip(per,per[1:]+per[:1]):fs.append((a,b,b+layer,a+layer))
+ mesh(rid+'_DomeShell',vs,fs,'Shell',.004)
+ for axis,rad in ((0,rx),(1,rz)):
+  path=[]
+  for j in range(49):
+   a=rad*math.sin(-math.pi/2+math.pi*j/48);yy=dome_y(room,a if axis==0 else 0,0 if axis==0 else a)-.08;path.append((a,yy))
+  mapper=(lambda a,h,b:world(u+a,h,v+b)) if axis==0 else (lambda a,h,b:world(u+b,h,v+a))
+  band(rid+'_Dome_Rib_'+str(axis),path,mapper,.22,.16)
+ # New room lights sit against the dome itself; old flat-ceiling lights are removed.
+ nxlight=2; nzlight=3 if room['h']>=12 else 2
+ for ix in range(nxlight):
+  for iz in range(nzlight):
+   x=rx*(-.42+.84*ix);z=rz*(-.55+1.1*iz/max(1,nzlight-1));y=dome_y(room,x,z)
+   dome_panel(rid+'_Dome_LampFrame_'+str(ix)+'_'+str(iz),room,u,v,x,z,.76,1.14,.05,.03,'Shell')
+   dome_panel(rid+'_Dome_Lens_'+str(ix)+'_'+str(iz),room,u,v,x,z,.68,1.00,.072,.012,'Diffuser')
+   rows['lights'].append({'name':rid+'_DomeLight_'+str(ix)+'_'+str(iz),'position':[u+x-24,y-.20,v+z-16],'range':max(6.5,y+2),'intensity':22.0,'angle':115})
+ rows.setdefault('domes',[]).append({'room':rid,**room['roof']})
+ # Cover sub-millimetre floor panel gaps without covering pit openings.
+ pits=[b for b in plan['blocks'] if b.get('kind')=='pit' and b['x']<room['x']+room['w'] and b['x']+b['w']>room['x'] and b['y']<room['y']+room['h'] and b['y']+b['h']>room['y']]
+ xs=sorted(set([room['x'],room['x']+room['w']]+[max(room['x'],min(room['x']+room['w'],x)) for b in pits for x in (b['x'],b['x']+b['w'])]))
+ zs=sorted(set([room['y'],room['y']+room['h']]+[max(room['y'],min(room['y']+room['h'],z)) for b in pits for z in (b['y'],b['y']+b['h'])]))
+ for a,b in zip(xs,xs[1:]):
+  for c,d in zip(zs,zs[1:]):
+   x=(a+b)/2;z=(c+d)/2
+   if any(p['x']<x<p['x']+p['w'] and p['y']<z<p['y']+p['h'] for p in pits):continue
+   box(rid+'_Floor_SeamBacking',x,-.20,z,b-a,.05,d-c,'Floor',.003)
+

@@ -1,0 +1,24 @@
+{
+  "name": "SpecimenCase",
+  "dimensions": [
+    0.62,
+    0.415,
+    0.68
+  ],
+  "triangles": [
+    5203,
+    2081,
+    624
+  ],
+  "materials": [
+    {
+      "name": "SD_SpecimenCase",
+      "Albedo": "SD_SpecimenCase_Albedo.png",
+      "ORM": "SD_SpecimenCase_ORM.png",
+      "MetallicSmoothness": "SD_SpecimenCase_MetallicSmoothness.png",
+      "Normal": "SD_SpecimenCase_Normal.png"
+    }
+  ],
+  "degenerateRemoved": 0,
+  "source": "VARCO remesh + Blender bevel/LOD"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "DiagnosticCart",
+  "dimensions": [
+    0.65,
+    1.45,
+    0.6
+  ],
+  "triangles": [
+    12447,
+    4977,
+    1493
+  ],
+  "materials": [
+    {
+      "name": "SD_DiagnosticCart",
+      "Albedo": "SD_DiagnosticCart_Albedo.png",
+      "ORM": "SD_DiagnosticCart_ORM.png",
+      "MetallicSmoothness": "SD_DiagnosticCart_MetallicSmoothness.png",
+      "Normal": "SD_DiagnosticCart_Normal.png"
+    }
+  ],
+  "degenerateRemoved": 0,
+  "source": "VARCO remesh + Blender bevel/LOD"
+}

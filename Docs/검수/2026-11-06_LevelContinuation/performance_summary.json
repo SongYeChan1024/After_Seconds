@@ -1,0 +1,179 @@
+{
+    "mode":  "Final Editor Play, three 8-second views with 2-second warmup each; distinct frame sampling; W input for 1 second",
+    "limits":  "Editor diagnostics, not standalone benchmark. GPU/frame timing is FrameTimingManager data, not isolated shadow pass profiling.",
+    "floors":  [
+                   {
+                       "floor":  "B5",
+                       "frames":  2614,
+                       "samples":  1974,
+                       "walkMetres":  1.494,
+                       "newWarningsErrors":  0,
+                       "hardware":  {
+                                        "cpu":  "11th Gen Intel(R) Core(TM) i5-11400F @ 2.60GHz",
+                                        "gpu":  "NVIDIA GeForce RTX 3070",
+                                        "api":  "Direct3D12",
+                                        "memoryMB":  32617
+                                    },
+                       "resolution":  {
+                                          "width":  1920,
+                                          "height":  1080,
+                                          "scale":  1.0
+                                      },
+                       "quality":  "PC",
+                       "vsync":  0,
+                       "targetFPS":  -1
+                   },
+                   {
+                       "floor":  "B4",
+                       "frames":  2804,
+                       "samples":  2117,
+                       "walkMetres":  1.507,
+                       "newWarningsErrors":  0,
+                       "hardware":  {
+                                        "cpu":  "11th Gen Intel(R) Core(TM) i5-11400F @ 2.60GHz",
+                                        "gpu":  "NVIDIA GeForce RTX 3070",
+                                        "api":  "Direct3D12",
+                                        "memoryMB":  32617
+                                    },
+                       "resolution":  {
+                                          "width":  1920,
+                                          "height":  1080,
+                                          "scale":  1.0
+                                      },
+                       "quality":  "PC",
+                       "vsync":  0,
+                       "targetFPS":  -1
+                   },
+                   {
+                       "floor":  "B3",
+                       "frames":  2995,
+                       "samples":  2267,
+                       "walkMetres":  1.498,
+                       "newWarningsErrors":  0,
+                       "hardware":  {
+                                        "cpu":  "11th Gen Intel(R) Core(TM) i5-11400F @ 2.60GHz",
+                                        "gpu":  "NVIDIA GeForce RTX 3070",
+                                        "api":  "Direct3D12",
+                                        "memoryMB":  32617
+                                    },
+                       "resolution":  {
+                                          "width":  1920,
+                                          "height":  1080,
+                                          "scale":  1.0
+                                      },
+                       "quality":  "PC",
+                       "vsync":  0,
+                       "targetFPS":  -1
+                   }
+               ],
+    "views":  [
+                  {
+                      "floor":  "B5",
+                      "view":  0,
+                      "samples":  642,
+                      "medianMs":  9.186,
+                      "p95Ms":  10.364,
+                      "cpuFrameAvgMs":  9.343,
+                      "mainAvgMs":  2.991,
+                      "gpuAvgMs":  1.479,
+                      "drawCallsAvg":  2428,
+                      "focusedSamples":  642
+                  },
+                  {
+                      "floor":  "B5",
+                      "view":  1,
+                      "samples":  676,
+                      "medianMs":  8.797,
+                      "p95Ms":  9.708,
+                      "cpuFrameAvgMs":  8.875,
+                      "mainAvgMs":  2.641,
+                      "gpuAvgMs":  1.457,
+                      "drawCallsAvg":  1699,
+                      "focusedSamples":  676
+                  },
+                  {
+                      "floor":  "B5",
+                      "view":  2,
+                      "samples":  656,
+                      "medianMs":  8.885,
+                      "p95Ms":  11.013,
+                      "cpuFrameAvgMs":  9.142,
+                      "mainAvgMs":  2.741,
+                      "gpuAvgMs":  1.466,
+                      "drawCallsAvg":  1597,
+                      "focusedSamples":  656
+                  },
+                  {
+                      "floor":  "B4",
+                      "view":  0,
+                      "samples":  694,
+                      "medianMs":  8.458,
+                      "p95Ms":  10.001,
+                      "cpuFrameAvgMs":  8.649,
+                      "mainAvgMs":  2.722,
+                      "gpuAvgMs":  1.173,
+                      "drawCallsAvg":  1918,
+                      "focusedSamples":  694
+                  },
+                  {
+                      "floor":  "B4",
+                      "view":  1,
+                      "samples":  690,
+                      "medianMs":  8.441,
+                      "p95Ms":  10.223,
+                      "cpuFrameAvgMs":  8.706,
+                      "mainAvgMs":  2.761,
+                      "gpuAvgMs":  1.161,
+                      "drawCallsAvg":  2249,
+                      "focusedSamples":  690
+                  },
+                  {
+                      "floor":  "B4",
+                      "view":  2,
+                      "samples":  733,
+                      "medianMs":  8.127,
+                      "p95Ms":  8.782,
+                      "cpuFrameAvgMs":  8.189,
+                      "mainAvgMs":  2.499,
+                      "gpuAvgMs":  1.143,
+                      "drawCallsAvg":  1279,
+                      "focusedSamples":  733
+                  },
+                  {
+                      "floor":  "B3",
+                      "view":  0,
+                      "samples":  760,
+                      "medianMs":  7.784,
+                      "p95Ms":  8.658,
+                      "cpuFrameAvgMs":  7.894,
+                      "mainAvgMs":  2.413,
+                      "gpuAvgMs":  0.927,
+                      "drawCallsAvg":  1570,
+                      "focusedSamples":  760
+                  },
+                  {
+                      "floor":  "B3",
+                      "view":  1,
+                      "samples":  767,
+                      "medianMs":  7.701,
+                      "p95Ms":  8.853,
+                      "cpuFrameAvgMs":  7.827,
+                      "mainAvgMs":  2.307,
+                      "gpuAvgMs":  0.902,
+                      "drawCallsAvg":  1285,
+                      "focusedSamples":  767
+                  },
+                  {
+                      "floor":  "B3",
+                      "view":  2,
+                      "samples":  740,
+                      "medianMs":  7.867,
+                      "p95Ms":  9.409,
+                      "cpuFrameAvgMs":  8.114,
+                      "mainAvgMs":  2.456,
+                      "gpuAvgMs":  0.916,
+                      "drawCallsAvg":  1667,
+                      "focusedSamples":  740
+                  }
+              ]
+}

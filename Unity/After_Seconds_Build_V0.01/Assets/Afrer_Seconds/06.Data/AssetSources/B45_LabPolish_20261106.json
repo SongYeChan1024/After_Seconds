@@ -1,0 +1,86 @@
+{
+    "title":  "B5 B4 Lab Polish 반입 기록 V0.01",
+    "author":  "송예찬",
+    "date":  "2026-11-06",
+    "source":  "Blender 5.2.2 LTS, SourceAssets/B45_LabPolish",
+    "scope":  "B5 B4 level art only; no runtime C# or Animator",
+    "review":  "Docs/검수/2026-11-06_LabPolish/검수결과.md",
+    "doors":  53,
+    "keypads":  106,
+    "props":  15,
+    "taskLights":  5,
+    "assets":  [
+                   {
+                       "asset":  "LP_DoubleSlidingDoor",
+                       "triangles":  2116,
+                       "parts":  [
+                                     "Fixed_Frame",
+                                     "Leaf_L",
+                                     "Leaf_R"
+                                 ],
+                       "source":  "SourceAssets\\B45_LabPolish\\LP_DoubleSlidingDoor.blend",
+                       "fbx":  "Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Props\\Common\\LP_DoubleSlidingDoor.fbx"
+                   },
+                   {
+                       "asset":  "LP_SampleTrolley",
+                       "triangles":  4016,
+                       "parts":  [
+                                     "Body"
+                                 ],
+                       "source":  "SourceAssets\\B45_LabPolish\\LP_SampleTrolley.blend",
+                       "fbx":  "Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Props\\Common\\LP_SampleTrolley.fbx"
+                   },
+                   {
+                       "asset":  "LP_SampleColdCabinet",
+                       "triangles":  1688,
+                       "parts":  [
+                                     "Body"
+                                 ],
+                       "source":  "SourceAssets\\B45_LabPolish\\LP_SampleColdCabinet.blend",
+                       "fbx":  "Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Props\\Common\\LP_SampleColdCabinet.fbx"
+                   },
+                   {
+                       "asset":  "LP_BenchAnalyzer",
+                       "triangles":  1920,
+                       "parts":  [
+                                     "Body"
+                                 ],
+                       "source":  "SourceAssets\\B45_LabPolish\\LP_BenchAnalyzer.blend",
+                       "fbx":  "Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Props\\Common\\LP_BenchAnalyzer.fbx"
+                   },
+                   {
+                       "asset":  "LP_B5_Architecture",
+                       "removedDoorVisualParts":  106,
+                       "preservedSourceMeshes":  2600,
+                       "exportMeshes":  252,
+                       "triangles":  190752,
+                       "source":  "SourceAssets\\B5_StealthLayout\\B5_StealthLayout_ArtRepair.blend"
+                   },
+                   {
+                       "asset":  "LP_B4_Architecture",
+                       "removedDoorVisualParts":  113,
+                       "preservedSourceMeshes":  3449,
+                       "exportMeshes":  194,
+                       "triangles":  164044,
+                       "source":  "SourceAssets\\B4_StealthLayout\\B4_Stealth_Architecture.blend"
+                   },
+                   {
+                       "asset":  "LP_WorkLight",
+                       "triangles":  784,
+                       "parts":  [
+                                     "Body"
+                                 ],
+                       "source":  "SourceAssets\\B45_LabPolish\\LP_WorkLight.blend",
+                       "fbx":  "Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Props\\Common\\LP_WorkLight.fbx"
+                   },
+                   {
+                       "asset":  "LP_Keypad",
+                       "triangles":  1920,
+                       "parts":  [
+                                     "Keypad"
+                                 ],
+                       "source":  "SourceAssets\\B45_LabPolish\\LP_Keypad.blend",
+                       "fbx":  "Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Props\\Common\\LP_Keypad.fbx"
+                   }
+               ]
+}

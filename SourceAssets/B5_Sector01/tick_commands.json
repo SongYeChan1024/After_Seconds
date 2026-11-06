@@ -1,0 +1,120 @@
+﻿{
+  "success": true,
+  "command": "command",
+  "data": {
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+    },
+    "server": {
+      "version": "0.0.1",
+      "port": 7800
+    },
+    "commands": [
+      {
+        "command": "editor set_auto_tick",
+        "name": "set_auto_tick",
+        "group": "editor",
+        "description": "Keep the editor ticking while unfocused by forcing EditorApplication.SignalTick at a throttled rate",
+        "tags": [
+          "editor"
+        ],
+        "package": "Unity.Pipeline.Editor",
+        "mainThreadRequired": true,
+        "parameters": [
+          {
+            "name": "enable",
+            "description": "Enable (true) or disable (false) auto-tick mode",
+            "type": "Boolean",
+            "required": false,
+            "defaultValue": true
+          },
+          {
+            "name": "interval_ms",
+            "description": "Minimum milliseconds between forced ticks. 0 = every update (max rate, pegs a CPU core). Default 16 (~60Hz).",
+            "type": "Int32",
+            "required": false,
+            "defaultValue": 16
+          },
+          {
+            "name": "persist",
+            "description": "Persist this choice to SessionState so it survives a domain reload. Set false for a one-off/expensive setting (e.g. interval_ms=0) that should revert to the last persisted choice (or the default) after the next recompile instead of sticking for the rest of the session.",
+            "type": "Boolean",
+            "required": false,
+            "defaultValue": true
+          }
+        ],
+        "schema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "title": "editor set_auto_tick",
+          "description": "Keep the editor ticking while unfocused by forcing EditorApplication.SignalTick at a throttled rate",
+          "properties": {
+            "enable": {
+              "type": "boolean",
+              "description": "Enable (true) or disable (false) auto-tick mode",
+              "default": true
+            },
+            "interval_ms": {
+              "type": "integer",
+              "description": "Minimum milliseconds between forced ticks. 0 = every update (max rate, pegs a CPU core). Default 16 (~60Hz).",
+              "default": 16
+            },
+            "persist": {
+              "type": "boolean",
+              "description": "Persist this choice to SessionState so it survives a domain reload. Set false for a one-off/expensive setting (e.g. interval_ms=0) that should revert to the last persisted choice (or the default) after the next recompile instead of sticking for the rest of the session.",
+              "default": true
+            }
+          },
+          "required": [],
+          "additionalProperties": false,
+          "x-command-metadata": {
+            "mainThreadRequired": true,
+            "methodName": "Unity.Pipeline.Editor.Commands.AutoTickCommand.SetAutoTick"
+          }
+        }
+      }
+    ],
+    "count": 1,
+    "total": 1,
+    "offset": 0,
+    "limit": null,
+    "search": {
+      "pattern": "auto_tick",
+      "count": 1,
+      "matches": [
+        {
+          "kind": "pipeline",
+          "name": "editor set_auto_tick",
+          "path": "editor set_auto_tick",
+          "description": "Keep the editor ticking while unfocused by forcing EditorApplication.SignalTick at a throttled rate",
+          "matchedOn": "name",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command editor set_auto_tick"
+        }
+      ],
+      "hint": "",
+      "items": [
+        {
+          "kind": "pipeline",
+          "name": "editor set_auto_tick",
+          "path": "editor set_auto_tick",
+          "description": "Keep the editor ticking while unfocused by forcing EditorApplication.SignalTick at a throttled rate",
+          "matchedOn": "name",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command editor set_auto_tick"
+        }
+      ],
+      "total": 1,
+      "nextPage": null,
+      "partial": false
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

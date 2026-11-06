@@ -1,0 +1,24 @@
+{
+  "name": "VitalMonitor",
+  "dimensions": [
+    0.5868888833066421,
+    1.4799999667682897,
+    0.659895795304827
+  ],
+  "triangles": [
+    18554,
+    7421,
+    2226
+  ],
+  "materials": [
+    {
+      "name": "S1_VitalMonitor",
+      "Albedo": "S1_VitalMonitor_Albedo.png",
+      "ORM": "S1_VitalMonitor_ORM.png",
+      "MetallicSmoothness": "S1_VitalMonitor_MetallicSmoothness.png",
+      "Normal": "S1_VitalMonitor_Normal.png"
+    }
+  ],
+  "degenerateRemoved": 0,
+  "source": "VARCO remesh + Blender bevel/LOD"
+}

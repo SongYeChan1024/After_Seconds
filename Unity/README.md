@@ -1,4 +1,18 @@
-# After Seconds Unity 프로젝트 안내 V0.39
+# After Seconds Unity 프로젝트 안내 V0.45
+
+2026-11-06 최신: Stage의 현재 레벨은 Level_B5_Circular와 Level_B2_MezzaninePreview다. 이전9개 레벨과 Player 테스트 씬은 Stage/Old에 보관하며 GUID·내용을 보존했다. 빌드 설정의 Player 참조 경로도 Old로 갱신했고 활성 여부는 유지했다. B5 C01·T01에는 CFD_ 환경11개 모델·프랍3개 모델로42개를 배치했다. 모델은 05.Model/Environment/Common 및 Props/Common, 출처는 06.Data/AssetSources/CircularDressing_20261106.json이다. [최신 검수](../Docs/검수/2026-11-06_CircularDressing/검수결과.md)를 따른다.
+
+2026-11-06 원형 레벨 첫 제작: 시작 씬은 `Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Circular.unity`, B2 한 공동 구조 검토는 `Level_B2_MezzaninePreview.unity`다. [수정 도면](../Docs/도면/원형공동/README.md)과 [검수 결과](../Docs/검수/2026-11-06_CircularFacility/검수결과.md)를 따른다. 새 CF 건축·메자닌·문·배관 모델은 `05.Model/Environment/{B5,B2,Common}`에 있으며 제작 원본은 `SourceAssets/CircularFacility`다. 기존 씬·모델·메타·게임 코드를 보존했다. B3 소등/점등은 설계 데이터 단계이며 스위치 동작은 사용자 직접 구현 범위다. 아래는 이전 제작 이력이다.
+
+2026-11-06 최신: 사용자 요청에 따라 B5/B4/B3의 큰 복도 차폐벽12개를 제거하고 벽면 설비 엄폐12개로 대체했다. 도면V0.04와 단면 기준을 다시 작성해 복도4.2m·북측4.8m, 연속 반원 터널, 주요실 돔10곳, 문 접합부·리브·조명·충돌을 맞췄다. 기존 복도 조명은 정리하고 곡면 밀착등16개/층을 사용한다. 벽·상자 패턴은 장식 문양이 아닌 불규칙한 먼지·닦임·사용 흔적이며 상자309개에6마감을 혼합했다. [최신 검수](../Docs/검수/2026-11-06_B345_WideInterior/검수결과.md)와 [이어하기](../Docs/이어하기_2026-11-06.md)를 우선한다. 활성 모델은 WC 건축/벽, WA 터널·돔이다. SourceAssets/B345_WideInterior가 최신 제작 원본이다. 정적 경로2,783표본·열린 문74곳·프랍113개·Controller19검사를 통과했다. 게임 C#·AI·문/키패드 동작·UI·미니맵은 사용자 직접 작성 범위이며 추가하지 않았다. 실제 키보드 Play/FPS 재검사는 남는다. 로컬 저장 상태이며 커밋/push하지 않았다.
+
+아래 날짜별 문단은 이전 작업 이력이다.
+
+2026-11-06 프랍 보강 최신: 새 잠입 B5/B4/B3의 `Dressing_Props`에30/33/38개를 추가했다. B3 `Specimen_Cases_6Patterns`에는 디테일과 패턴을 보강한288개 상자가 있다. VARCO V0.03 생성·리메시→Blender 치수/베벨/LOD/PBR 정리를 거쳤고, 공용6종과 상자6마감은 `05.Model/Props/Common/SD_*`다. B3의 활성 건축만 `05.Model/Environment/B3/SD_B3_Architecture.fbx`로 교체했으며 원본 LC와 랙 충돌은 보존했다. [프랍 검수](../Docs/검수/2026-11-06_B345_Dressing/검수결과.md), [이어하기 V0.07](../Docs/이어하기_2026-11-06.md)를 우선한다. 게임 C# 추가 없이 로컬 저장했으며 커밋/push하지 않았다.
+
+2026-11-06 후속 최신: B5/B4 계단A·B의 문/참·높이를 정합하고 내려가는 계단을 이어 만들었다. 새 `Level_B3_Stealth.unity`에17구역·27일반 문·시료 랙·세척 피트·정적 리프트와 프랍18개를 제작했다. 활성 건축은 각 층의 `LC_B5_Architecture.fbx`, `LC_B4_Architecture.fbx`, `LC_B3_Architecture.fbx`다. [후속 검수·실제 성능](../Docs/검수/2026-11-06_LevelContinuation/검수결과.md), [이어하기 V0.06](../Docs/이어하기_2026-11-06.md), [회사 작업 목록 V0.05](../Docs/회사_작업목록_2026-11-06.md)를 우선한다. 일반 경로2,627표본·Controller19검사를 통과했다. 게임 C#·Animator·원본6씬 보존, 층 전환/문/키패드·AI는 미구현이다. 로컬 저장 상태이며 커밋/push하지 않았다. 다음은 B3 사용자 길 찾기·B2 단면/새 레벨이다. 아래 문단은 이전 이력이다.
+
+2026-11-06 회사 후속 최신: B5·B4에 `LP_*` 문/문틀·키패드·프랍·공용 PBR와 조명을 적용했다. 활성 건축은 `05.Model/Environment/{B5,B4}/LP_B5_Architecture.fbx`, `LP_B4_Architecture.fbx`이고 공용 문/장비6종은 `05.Model/Props/Common/`이다. 최고LOD는 B5 1,084,917tri / B4 1,062,101tri, 전체 Collider는315/324(플레이어 포함)다. 소스는 `SourceAssets/B45_LabPolish/`, [최신 검수](../Docs/검수/2026-11-06_LabPolish/검수결과.md)를 우선한다. 원본 에셋·게임 C# 보존, 문 개폐/키패드 입력은 미구현이다. 아래는 이전 제작 이력이다.
 
 2026-11-06 최신: 새 `Assets/Afrer_Seconds/01.Scenes/Stage/Level_B4_Stealth.unity`에 최신 잠입 평면의 관찰실·관찰창·분석실·데크·지원실·계단B를 제작했다. 모델/재질/반사는 `05.Model/Environment/B4/`, 원본은 `SourceAssets/B4_StealthLayout/`다. 새 바닥은 기존 `B4_Floor.mat`와 분리한 `B4SL_Floor.mat`를 쓴다. 최고LOD867,081tri·Collider259·소품LOD30, 경로/계단/실제 입력 검사를 통과했다. 층간 전환·NPC 동작·게임 C# 추가는 없다. [최신 이어하기](../Docs/이어하기_2026-11-06.md)와 [검수/사진](../Docs/검수/2026-11-06_B5_B4/검수결과.md)을 우선한다. 아래는 이전 작업 이력이다.
 

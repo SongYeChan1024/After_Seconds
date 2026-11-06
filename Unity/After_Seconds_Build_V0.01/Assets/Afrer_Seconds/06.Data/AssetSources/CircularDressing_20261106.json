@@ -1,0 +1,179 @@
+{
+  "version": "V0.01",
+  "author": "송예찬",
+  "date": "2026-11-06",
+  "scope": "B5 C01 및 T01 기준 구간 1차 제작. 전층 배치 수량은 미확정.",
+  "environmentModels": [
+    "CFD_TunnelRib",
+    "CFD_CovePanel",
+    "CFD_ServiceBackplate",
+    "CFD_SealedLight",
+    "CFD_Vent",
+    "CFD_CableTray",
+    "CFD_PipeClamp",
+    "CFD_ServicePipe",
+    "CFD_InspectionBox",
+    "CFD_PipeReturnStart",
+    "CFD_PipeReturnEnd"
+  ],
+  "props": [
+    "CFD_TransferCabinet",
+    "CFD_LinenHamper",
+    "CFD_EmergencyCabinet"
+  ],
+  "varco": {
+    "flowId": "8f7100a4-a7df-488b-81ee-0c2ac6ae60d8",
+    "nodes": [
+      {
+        "code": "P146",
+        "name": "CFD_TransferCabinet",
+        "text": {
+          "kind": "nodeCreated",
+          "nodeId": "380f9598-d81a-49f0-8223-2dfbd6a49962"
+        },
+        "image": "543efc84-4e09-4d63-a15c-6fe34bfe52ec",
+        "mesh": "21d46ac0-2b58-4e32-a2c9-d32a95f31090",
+        "remesh": "def4ac0b-ea3b-4c4a-98ca-c5285fd9cda4"
+      },
+      {
+        "code": "P128",
+        "name": "CFD_LinenHamper",
+        "text": {
+          "kind": "nodeCreated",
+          "nodeId": "674e44e7-8693-4970-ba85-aa3bf4d7cba4"
+        },
+        "image": "fbefa28e-a7ad-4add-a5e6-1d58603ba767",
+        "mesh": "5154aa27-f4c5-4653-b5ef-dfeb5e90d66c",
+        "remesh": "5a6bad0f-0879-4b1d-81b1-73602ba59519"
+      },
+      {
+        "code": "P147",
+        "name": "CFD_EmergencyCabinet",
+        "text": {
+          "kind": "nodeCreated",
+          "nodeId": "13b9b482-abaa-47d4-bddf-956e7dfa1ebd"
+        },
+        "image": "821cc71c-1158-4877-94ca-080c467c06e2",
+        "mesh": "650302ee-c9c7-4c29-8b37-78f584b5b310",
+        "remesh": "649a62be-a209-4a48-924f-e428b493fbcb"
+      }
+    ],
+    "downloads": [
+      {
+        "name": "CFD_LinenHamper",
+        "code": "P128",
+        "result": {
+          "kind": "outputDownloads",
+          "downloads": [
+            {
+              "nodeId": "5a6bad0f-0879-4b1d-81b1-73602ba59519",
+              "outputIndex": 0,
+              "type": "3d",
+              "taskId": "7baf3171-7ae4-46a7-9e5d-735aa7cc6e77",
+              "exportType": "glb",
+              "url": "https://3d.varco.ai/api/objects/ba67c23fc26d2da30c38df4a438c704a.glb",
+              "error": null
+            }
+          ]
+        }
+      },
+      {
+        "name": "CFD_EmergencyCabinet",
+        "code": "P147",
+        "result": {
+          "kind": "outputDownloads",
+          "downloads": [
+            {
+              "nodeId": "649a62be-a209-4a48-924f-e428b493fbcb",
+              "outputIndex": 0,
+              "type": "3d",
+              "taskId": "224f1e6e-de89-40ae-979b-fab952288f31",
+              "exportType": "glb",
+              "url": "https://3d.varco.ai/api/objects/117a7e77480289c76eeb700f66d491e1.glb",
+              "error": null
+            }
+          ]
+        }
+      }
+    ],
+    "generationFailure": "CFD_TransferCabinet Generate3D task 1c71d516-f0f9-416c-8d99-2c7afe572ec8 failed; Blender fallback"
+  },
+  "placementCount": 42,
+  "checks": {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Circular.unity",
+    "placements": 42,
+    "routeSamples": 690,
+    "blocked": [],
+    "propOverlaps": [],
+    "missingMeshes": [],
+    "missingMaterials": [],
+    "lods": [
+      {
+        "name": "CD-039_CFD_LinenHamper",
+        "levels": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "name": "CD-040_CFD_EmergencyCabinet",
+        "levels": [
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "trianglesAllLods": 133701,
+    "newLights": 4
+  },
+  "sceneArchive": {
+    "moved": [
+      {
+        "from": "Assets/Afrer_Seconds/01.Scenes/Player.unity",
+        "to": "Assets/Afrer_Seconds/01.Scenes/Stage/Old/Player.unity",
+        "guid": "99c9720ab356a0642a771bea13969a05"
+      },
+      {
+        "from": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_1F_Checkpoint.unity",
+        "to": "Assets/Afrer_Seconds/01.Scenes/Stage/Old/Level_1F_Checkpoint.unity",
+        "guid": "ce800d256c0c51e4ebe3285779bb00d3"
+      },
+      {
+        "from": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B1_Experiment.unity",
+        "to": "Assets/Afrer_Seconds/01.Scenes/Stage/Old/Level_B1_Experiment.unity",
+        "guid": "e18154ffed080f148a751f4b87a97539"
+      },
+      {
+        "from": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B2_Machinery.unity",
+        "to": "Assets/Afrer_Seconds/01.Scenes/Stage/Old/Level_B2_Machinery.unity",
+        "guid": "fd2d6effafabb324ca4c16f17d958086"
+      },
+      {
+        "from": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B3_Stealth.unity",
+        "to": "Assets/Afrer_Seconds/01.Scenes/Stage/Old/Level_B3_Stealth.unity",
+        "guid": "76bf83ce01742ad49b417c27344fd79e"
+      },
+      {
+        "from": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B4_Stealth.unity",
+        "to": "Assets/Afrer_Seconds/01.Scenes/Stage/Old/Level_B4_Stealth.unity",
+        "guid": "4428f10ad6f09b94b94ebfeca20b09bf"
+      },
+      {
+        "from": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Stealth.unity",
+        "to": "Assets/Afrer_Seconds/01.Scenes/Stage/Old/Level_B5_Stealth.unity",
+        "guid": "12aa3db7a9ff1ee4f9823e9f566e0e5d"
+      }
+    ],
+    "build": [
+      {
+        "path": "Assets/Afrer_Seconds/01.Scenes/Stage/Old/Player.unity",
+        "enabled": true
+      }
+    ],
+    "active": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Circular.unity"
+  },
+  "sourceFolder": "SourceAssets/CircularDressing",
+  "workbook": "Docs/도면/원형공동/AfterSeconds_프랍환경_제작목록.xlsx"
+}

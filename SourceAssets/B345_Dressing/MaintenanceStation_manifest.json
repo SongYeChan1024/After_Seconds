@@ -1,0 +1,24 @@
+{
+  "name": "MaintenanceStation",
+  "dimensions": [
+    0.85,
+    1.1,
+    0.5
+  ],
+  "triangles": [
+    15174,
+    6068,
+    1820
+  ],
+  "materials": [
+    {
+      "name": "SD_MaintenanceStation",
+      "Albedo": "SD_MaintenanceStation_Albedo.png",
+      "ORM": "SD_MaintenanceStation_ORM.png",
+      "MetallicSmoothness": "SD_MaintenanceStation_MetallicSmoothness.png",
+      "Normal": "SD_MaintenanceStation_Normal.png"
+    }
+  ],
+  "degenerateRemoved": 0,
+  "source": "VARCO remesh + Blender bevel/LOD"
+}

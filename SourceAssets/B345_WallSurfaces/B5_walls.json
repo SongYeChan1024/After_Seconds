@@ -1,0 +1,3428 @@
+{
+  "floor": "B5",
+  "sourceObjects": 558,
+  "triangles": 32744,
+  "renderers": 52,
+  "oldBatches": [
+    "LC_B5_LP_WallSteel_4_2",
+    "LC_B5_LP_WallSteel_4_3",
+    "LC_B5_SL_Panel_1_0",
+    "LC_B5_SL_Panel_1_3",
+    "LC_B5_SL_Panel_3_0",
+    "LC_B5_SL_Panel_3_3",
+    "LC_B5_WV_WallConcrete_0_0",
+    "LC_B5_WV_WallConcrete_0_1",
+    "LC_B5_WV_WallConcrete_0_2",
+    "LC_B5_WV_WallConcrete_0_3",
+    "LC_B5_WV_WallConcrete_1_0",
+    "LC_B5_WV_WallConcrete_1_3",
+    "LC_B5_WV_WallConcrete_2_0",
+    "LC_B5_WV_WallConcrete_2_1",
+    "LC_B5_WV_WallConcrete_2_2",
+    "LC_B5_WV_WallConcrete_2_3",
+    "LC_B5_WV_WallConcrete_3_0",
+    "LC_B5_WV_WallConcrete_3_3",
+    "LC_B5_WV_WallConcrete_4_0",
+    "LC_B5_WV_WallConcrete_4_1",
+    "LC_B5_WV_WallConcrete_4_2",
+    "LC_B5_WV_WallConcrete_4_3",
+    "LC_B5_WV_WallConcrete_5_0",
+    "LC_B5_WV_WallConcrete_5_1",
+    "LC_B5_WV_WallConcrete_5_2",
+    "LC_B5_WV_WallConcrete_5_3",
+    "LC_B5_WV_WallStaff_0_3",
+    "LC_B5_WV_WallStaff_1_3",
+    "LC_B5_WV_WallStaff_2_3",
+    "LC_B5_WV_WallStaff_3_3",
+    "LC_B5_WV_WallSteel_0_0",
+    "LC_B5_WV_WallSteel_0_2",
+    "LC_B5_WV_WallSteel_0_3",
+    "LC_B5_WV_WallSteel_1_0",
+    "LC_B5_WV_WallSteel_1_2",
+    "LC_B5_WV_WallSteel_1_3",
+    "LC_B5_WV_WallSteel_2_0",
+    "LC_B5_WV_WallSteel_2_1",
+    "LC_B5_WV_WallSteel_2_2",
+    "LC_B5_WV_WallSteel_3_0",
+    "LC_B5_WV_WallSteel_3_2",
+    "LC_B5_WV_WallSteel_3_3",
+    "LC_B5_WV_WallSteel_4_0",
+    "LC_B5_WV_WallSteel_4_1",
+    "LC_B5_WV_WallSteel_4_2",
+    "LC_B5_WV_WallSteel_4_3",
+    "LC_B5_WV_WallSteel_5_0",
+    "LC_B5_WV_WallSterile_0_0",
+    "LC_B5_WV_WallSterile_0_1",
+    "LC_B5_WV_WallSterile_0_2",
+    "LC_B5_WV_WallSterile_1_0",
+    "LC_B5_WV_WallSterile_1_2",
+    "LC_B5_WV_WallSterile_2_0",
+    "LC_B5_WV_WallSterile_2_1",
+    "LC_B5_WV_WallSterile_2_2"
+  ],
+  "variants": {
+    "Steel_0": 143,
+    "Steel_3": 60,
+    "Steel_1": 10,
+    "Steel_2": 4,
+    "Concrete_1": 101,
+    "Concrete_0": 59,
+    "Concrete_2": 52,
+    "Clean_0": 50,
+    "Clean_3": 35,
+    "Concrete_3": 13,
+    "Staff_0": 15,
+    "Staff_3": 13,
+    "Clean_2": 3
+  },
+  "panels": [
+    {
+      "object": "LC_WallFacing",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.001",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.002",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.003",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.004",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.005",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.006",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 1
+    },
+    {
+      "object": "LC_WallFacing.007",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.008",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.009",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.010",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.011",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.012",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 1
+    },
+    {
+      "object": "LC_WallFacing.013",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.014",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.015",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.016",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.017",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.018",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 2
+    },
+    {
+      "object": "LC_WallFacing.019",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.020",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.021",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.022",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.023",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.024",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.025",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.026",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.027",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.028",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.029",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.030",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.031",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.032",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.033",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.034",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.035",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.036",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.037",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.038",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.039",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.040",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.041",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.042",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 2
+    },
+    {
+      "object": "LC_WallFacing.043",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.044",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.045",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.046",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.047",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.048",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 1
+    },
+    {
+      "object": "LC_WallFacing.049",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.050",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.051",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.052",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.053",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.054",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 1
+    },
+    {
+      "object": "LC_WallFacing.055",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.056",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.057",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.058",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.059",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.060",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.061",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.062",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.063",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.064",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.065",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.066",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.067",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.068",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.069",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.070",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 1
+    },
+    {
+      "object": "LC_WallFacing.071",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.072",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.073",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.074",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.075",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.076",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 1
+    },
+    {
+      "object": "LC_WallFacing.077",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.078",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.079",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.080",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.081",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.082",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 2
+    },
+    {
+      "object": "LC_WallFacing.083",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.084",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.085",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.086",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.087",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.088",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 2
+    },
+    {
+      "object": "LC_WallFacing.089",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.090",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.091",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.092",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.093",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.094",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 1
+    },
+    {
+      "object": "LC_WallFacing.095",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.096",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.097",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.098",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 1
+    },
+    {
+      "object": "LC_WallFacing.099",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.100",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.101",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.102",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.103",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.104",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.105",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.106",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.107",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.108",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.109",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.110",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 1
+    },
+    {
+      "object": "LC_WallFacing.111",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.112",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.113",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.114",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.115",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.116",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 1
+    },
+    {
+      "object": "LC_WallFacing.117",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.118",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.119",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.120",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.121",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.122",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.123",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.124",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "LC_WallFacing.125",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.126",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "LC_WallFacing.127",
+      "sourceMaterial": "LP_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.001",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.002",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.003",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.004",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.005",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.006",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.007",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.008",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.009",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.010",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.011",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.012",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.013",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.014",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.015",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.016",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.017",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.018",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.019",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.020",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Closed_Service_Panel",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.021",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.022",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "WallFacing.031",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.032",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "WallFacing.033",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.034",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Closed_Vent_Backplate",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "Cast_Concrete_Facing.023",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.024",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.025",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.026",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.027",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.028",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.029",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.030",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.031",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.032",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.033",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Closed_Service_Panel.001",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.001",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Tall_Sanitary_Panel.002",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Tall_Sanitary_Panel.003",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.004",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.005",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Tall_Sanitary_Panel.006",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.007",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.008",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Tall_Sanitary_Panel.009",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.010",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.011",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.012",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Tall_Sanitary_Panel.013",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Tall_Sanitary_Panel.014",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.015",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.016",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Tall_Sanitary_Panel.017",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Closed_Service_Panel.002",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.034",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.035",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.036",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 3
+    },
+    {
+      "object": "Cast_Concrete_Facing.037",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.038",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.039",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.040",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.041",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.042",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.043",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Closed_Service_Panel.003",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.064",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.065",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "WallFacing.066",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.067",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.068",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "Closed_Vent_Backplate.001",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "Cast_Concrete_Facing.044",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.045",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.046",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 3
+    },
+    {
+      "object": "Cast_Concrete_Facing.047",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.048",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.049",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.050",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.051",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.052",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.053",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.054",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.055",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.056",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.057",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.058",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.059",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.060",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.061",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.062",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.063",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Closed_Service_Panel.004",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.064",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.065",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.066",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.067",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Continuous_Plaster_Facing",
+      "sourceMaterial": "WV_WallStaff",
+      "family": "Staff",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.068",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "WallFacing.097",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.069",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 3
+    },
+    {
+      "object": "WallFacing.098",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.070",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "WallFacing.101",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "Cast_Concrete_Facing.071",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "WallFacing.104",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "Cast_Concrete_Facing.072",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.073",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.074",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.075",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.076",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.077",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.078",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.079",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.080",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.101",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.102",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.103",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.104",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.105",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.106",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.018",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.019",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.020",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.021",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Tall_Sanitary_Panel.022",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Tall_Sanitary_Panel.023",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Tall_Sanitary_Panel.024",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.025",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.026",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.027",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.028",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.029",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Tall_Sanitary_Panel.030",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.031",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.032",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.033",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Tall_Sanitary_Panel.034",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Tall_Sanitary_Panel.035",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Closed_Service_Panel.007",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.107",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.108",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.109",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.110",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.111",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Closed_Service_Panel.008",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "Cast_Concrete_Facing.112",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.113",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.114",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.115",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.116",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.117",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "WallFacing.146",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.147",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.148",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.149",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.150",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Closed_Vent_Backplate.002",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.118",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.119",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.120",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.121",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Closed_Service_Panel.009",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.122",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.123",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Tall_Sanitary_Panel.036",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.037",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Tall_Sanitary_Panel.038",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.039",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.040",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.041",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Closed_Service_Panel.010",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "Cast_Concrete_Facing.124",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.042",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.043",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Cast_Concrete_Facing.125",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.126",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.127",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.128",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Closed_Service_Panel.011",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.044",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Tall_Sanitary_Panel.045",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.046",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Tall_Sanitary_Panel.047",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.048",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Tall_Sanitary_Panel.049",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Tall_Sanitary_Panel.050",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.051",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.052",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Tall_Sanitary_Panel.053",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.054",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.055",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Tall_Sanitary_Panel.056",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Tall_Sanitary_Panel.057",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.058",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.059",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Closed_Service_Panel.012",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.060",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Tall_Sanitary_Panel.061",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.062",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.063",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Tall_Sanitary_Panel.064",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Tall_Sanitary_Panel.065",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Closed_Service_Panel.013",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.129",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.130",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Tall_Sanitary_Panel.066",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Tall_Sanitary_Panel.067",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.131",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 3
+    },
+    {
+      "object": "Tall_Sanitary_Panel.068",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.069",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Tall_Sanitary_Panel.070",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.071",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Tall_Sanitary_Panel.072",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Tall_Sanitary_Panel.073",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.074",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.075",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.076",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Tall_Sanitary_Panel.077",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Closed_Service_Panel.014",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.132",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.133",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.134",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Closed_Service_Panel.015",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "Tall_Sanitary_Panel.078",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.079",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Cast_Concrete_Facing.135",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.080",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.081",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.082",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 0
+    },
+    {
+      "object": "Tall_Sanitary_Panel.083",
+      "sourceMaterial": "WV_WallSterile",
+      "family": "Clean",
+      "variant": 3
+    },
+    {
+      "object": "Cast_Concrete_Facing.136",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.137",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "WallFacing.188",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.189",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.138",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.190",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.139",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.140",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.141",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Closed_Service_Panel.016",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.198",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "WallFacing.199",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.200",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.201",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Closed_Vent_Backplate.003",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.142",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.202",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.143",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "WallFacing.206",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "WallFacing.207",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.144",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.145",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "WallFacing.212",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.213",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "Cast_Concrete_Facing.146",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "WallFacing.215",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.147",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 3
+    },
+    {
+      "object": "WallFacing.218",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "WallFacing.219",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "Closed_Vent_Backplate.004",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.148",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.149",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.224",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.225",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Closed_Vent_Backplate.005",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.150",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.151",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "WallFacing.228",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.152",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.231",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.232",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.153",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.154",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.155",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.156",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.157",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.158",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.159",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "WallFacing.239",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.160",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.241",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.161",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.243",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.162",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Continuous_Plaster_Facing.001",
+      "sourceMaterial": "WV_WallStaff",
+      "family": "Staff",
+      "variant": 0
+    },
+    {
+      "object": "Closed_Service_Panel.017",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "Cast_Concrete_Facing.163",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.164",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Continuous_Plaster_Facing.002",
+      "sourceMaterial": "WV_WallStaff",
+      "family": "Staff",
+      "variant": 3
+    },
+    {
+      "object": "Closed_Service_Panel.018",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "Cast_Concrete_Facing.165",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.166",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Continuous_Plaster_Facing.003",
+      "sourceMaterial": "WV_WallStaff",
+      "family": "Staff",
+      "variant": 0
+    },
+    {
+      "object": "Closed_Service_Panel.019",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.167",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.168",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "WallFacing.270",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.271",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.272",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.273",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Closed_Vent_Backplate.006",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.169",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.170",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.171",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.172",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.173",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.174",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.175",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 3
+    },
+    {
+      "object": "Cast_Concrete_Facing.176",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.177",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 3
+    },
+    {
+      "object": "Cast_Concrete_Facing.178",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.179",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.180",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.181",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.182",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Continuous_Plaster_Facing.004",
+      "sourceMaterial": "WV_WallStaff",
+      "family": "Staff",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.183",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Continuous_Plaster_Facing.005",
+      "sourceMaterial": "WV_WallStaff",
+      "family": "Staff",
+      "variant": 3
+    },
+    {
+      "object": "Cast_Concrete_Facing.184",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.185",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Continuous_Plaster_Facing.006",
+      "sourceMaterial": "WV_WallStaff",
+      "family": "Staff",
+      "variant": 3
+    },
+    {
+      "object": "Cast_Concrete_Facing.186",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.187",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Continuous_Plaster_Facing.007",
+      "sourceMaterial": "WV_WallStaff",
+      "family": "Staff",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.188",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Continuous_Plaster_Facing.008",
+      "sourceMaterial": "WV_WallStaff",
+      "family": "Staff",
+      "variant": 3
+    },
+    {
+      "object": "Cast_Concrete_Facing.189",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.190",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Continuous_Plaster_Facing.009",
+      "sourceMaterial": "WV_WallStaff",
+      "family": "Staff",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.191",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.192",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Continuous_Plaster_Facing.010",
+      "sourceMaterial": "WV_WallStaff",
+      "family": "Staff",
+      "variant": 3
+    },
+    {
+      "object": "Cast_Concrete_Facing.193",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 3
+    },
+    {
+      "object": "Continuous_Plaster_Facing.011",
+      "sourceMaterial": "WV_WallStaff",
+      "family": "Staff",
+      "variant": 3
+    },
+    {
+      "object": "Cast_Concrete_Facing.194",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.195",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Continuous_Plaster_Facing.012",
+      "sourceMaterial": "WV_WallStaff",
+      "family": "Staff",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.196",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.197",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "WallFacing.315",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.316",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "Closed_Vent_Backplate.007",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.198",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.317",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.199",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.200",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "WallFacing.322",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.323",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Closed_Vent_Backplate.008",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.328",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "WallFacing.329",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "WallFacing.330",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.331",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Closed_Vent_Backplate.009",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "Cast_Concrete_Facing.201",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.202",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "WallFacing.338",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.339",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.340",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "Closed_Vent_Backplate.010",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.203",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.204",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.205",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.206",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.207",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.208",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.209",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.210",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.211",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.212",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.213",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.214",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.215",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.216",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.217",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.218",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.219",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.220",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.221",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.222",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.223",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.224",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.225",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.226",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 3
+    },
+    {
+      "object": "Cast_Concrete_Facing.227",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.228",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.229",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.230",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 3
+    },
+    {
+      "object": "Cast_Concrete_Facing.231",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 3
+    },
+    {
+      "object": "Cast_Concrete_Facing.232",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.233",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 3
+    },
+    {
+      "object": "Cast_Concrete_Facing.234",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.235",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.236",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.237",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 3
+    },
+    {
+      "object": "Cast_Concrete_Facing.238",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.239",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.240",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 0
+    },
+    {
+      "object": "Cast_Concrete_Facing.241",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Cast_Concrete_Facing.242",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.243",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 2
+    },
+    {
+      "object": "Cast_Concrete_Facing.244",
+      "sourceMaterial": "WV_WallConcrete",
+      "family": "Concrete",
+      "variant": 1
+    },
+    {
+      "object": "Continuous_Plaster_Facing.013",
+      "sourceMaterial": "WV_WallStaff",
+      "family": "Staff",
+      "variant": 0
+    },
+    {
+      "object": "Continuous_Plaster_Facing.014",
+      "sourceMaterial": "WV_WallStaff",
+      "family": "Staff",
+      "variant": 0
+    },
+    {
+      "object": "Continuous_Plaster_Facing.015",
+      "sourceMaterial": "WV_WallStaff",
+      "family": "Staff",
+      "variant": 0
+    },
+    {
+      "object": "Continuous_Plaster_Facing.016",
+      "sourceMaterial": "WV_WallStaff",
+      "family": "Staff",
+      "variant": 0
+    },
+    {
+      "object": "Continuous_Plaster_Facing.017",
+      "sourceMaterial": "WV_WallStaff",
+      "family": "Staff",
+      "variant": 3
+    },
+    {
+      "object": "Continuous_Plaster_Facing.018",
+      "sourceMaterial": "WV_WallStaff",
+      "family": "Staff",
+      "variant": 0
+    },
+    {
+      "object": "Continuous_Plaster_Facing.019",
+      "sourceMaterial": "WV_WallStaff",
+      "family": "Staff",
+      "variant": 3
+    },
+    {
+      "object": "Continuous_Plaster_Facing.020",
+      "sourceMaterial": "WV_WallStaff",
+      "family": "Staff",
+      "variant": 0
+    },
+    {
+      "object": "Continuous_Plaster_Facing.021",
+      "sourceMaterial": "WV_WallStaff",
+      "family": "Staff",
+      "variant": 3
+    },
+    {
+      "object": "Continuous_Plaster_Facing.022",
+      "sourceMaterial": "WV_WallStaff",
+      "family": "Staff",
+      "variant": 3
+    },
+    {
+      "object": "Continuous_Plaster_Facing.023",
+      "sourceMaterial": "WV_WallStaff",
+      "family": "Staff",
+      "variant": 3
+    },
+    {
+      "object": "Continuous_Plaster_Facing.024",
+      "sourceMaterial": "WV_WallStaff",
+      "family": "Staff",
+      "variant": 3
+    },
+    {
+      "object": "Continuous_Plaster_Facing.025",
+      "sourceMaterial": "WV_WallStaff",
+      "family": "Staff",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.385",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Continuous_Plaster_Facing.026",
+      "sourceMaterial": "WV_WallStaff",
+      "family": "Staff",
+      "variant": 0
+    },
+    {
+      "object": "WallFacing.386",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 0
+    },
+    {
+      "object": "Continuous_Plaster_Facing.027",
+      "sourceMaterial": "WV_WallStaff",
+      "family": "Staff",
+      "variant": 3
+    },
+    {
+      "object": "WallFacing.389",
+      "sourceMaterial": "WV_WallSteel",
+      "family": "Steel",
+      "variant": 3
+    },
+    {
+      "object": "CorridorScreen",
+      "sourceMaterial": "SL_Panel",
+      "family": "Clean",
+      "variant": 2
+    },
+    {
+      "object": "CorridorScreen.001",
+      "sourceMaterial": "SL_Panel",
+      "family": "Clean",
+      "variant": 2
+    },
+    {
+      "object": "CorridorScreen.002",
+      "sourceMaterial": "SL_Panel",
+      "family": "Clean",
+      "variant": 2
+    },
+    {
+      "object": "CorridorScreen.003",
+      "sourceMaterial": "SL_Panel",
+      "family": "Clean",
+      "variant": 0
+    }
+  ]
+}

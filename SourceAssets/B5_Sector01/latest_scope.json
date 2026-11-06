@@ -1,0 +1,18 @@
+{
+  "version": "V0.04",
+  "decision": "2026-11-06 Unity 반영: 조감도의 B5 일반 공동12개·이동 코어3개·연결 복도19개 전체 평면 구조를 Level_B5_Circular 씬에 제작·저장했다. 문38세트, C01의 T01·T03·T11 출입 연결, 실험 계측 포드·관찰 콘솔·곡면 벽 패널을 반영했다. C01 생활 배치는 비활성 보관하고 W01·W02에 생활 가구 각4모듈을 배치했다. 복도4854표본 막힘·바닥 누락0, CharacterController 왕복38회 및 문38세트 검수 통과. Play 두 구간 실제 이동·프레임 진행·새 경고/오류0을 확인했다. 전체 기본 구조 반영과 아트 완성은 구분한다. 외곽 프랍24배치의 에셋, 층간 계단·승강로, C01 세부 마감이 남아 아트 완료는0/34다. 최신 기록은 Docs/검수/2026-11-06_B5_FullLayout/검수결과.md, 제작 원본은 SourceAssets/B5_FullLayout이다.",
+  "C01_role": "실험·일시 격리",
+  "living_facility": [
+    "W01",
+    "W02"
+  ],
+  "dome_target": 12,
+  "includes_cores": false,
+  "vertical_cores": 3,
+  "corridors": 19,
+  "work_units": 34,
+  "complete": false,
+  "next": "B5-C01",
+  "scene_role_update_pending": false,
+  "basic_structure_implemented": true
+}

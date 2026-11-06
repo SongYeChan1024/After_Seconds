@@ -1,0 +1,198 @@
+{
+  "mode": "Temporary CharacterController.Move in Editor, not player/AI gameplay",
+  "settings": {
+    "radius": 0.28,
+    "height": 1.8,
+    "stepOffset": 0.3,
+    "skinWidth": 0.08,
+    "slopeLimit": 45
+  },
+  "reports": [
+    {
+      "floor": "B5",
+      "results": [
+        {
+          "name": "Route_A",
+          "moves": 1432,
+          "failures": [],
+          "finalPosition": "(17.124, 0.080, 12.316)",
+          "expectedHeight": 0.0,
+          "heightError": 0.07999986,
+          "passed": true
+        },
+        {
+          "name": "Route_B",
+          "moves": 2307,
+          "failures": [],
+          "finalPosition": "(17.124, 0.080, 12.316)",
+          "expectedHeight": 0.0,
+          "heightError": 0.07999986,
+          "passed": true
+        },
+        {
+          "name": "Route_C",
+          "moves": 705,
+          "failures": [],
+          "finalPosition": "(-10.333, 0.080, 13.620)",
+          "expectedHeight": 0.0,
+          "heightError": 0.07999986,
+          "passed": true
+        },
+        {
+          "name": "StairA_Up",
+          "moves": 532,
+          "failures": [],
+          "finalPosition": "(16.300, 7.880, 12.211)",
+          "expectedHeight": 7.8,
+          "heightError": 0.07999849,
+          "passed": true
+        },
+        {
+          "name": "StairA_Down",
+          "moves": 532,
+          "failures": [],
+          "finalPosition": "(18.300, 0.080, 10.951)",
+          "expectedHeight": 0.0,
+          "heightError": 0.0799998641,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "floor": "B4",
+      "results": [
+        {
+          "name": "Route_A",
+          "moves": 2348,
+          "failures": [],
+          "finalPosition": "(22.125, 0.080, 7.590)",
+          "expectedHeight": 0.0,
+          "heightError": 0.07999986,
+          "passed": true
+        },
+        {
+          "name": "Route_B",
+          "moves": 3548,
+          "failures": [],
+          "finalPosition": "(22.125, 0.080, 7.590)",
+          "expectedHeight": 0.0,
+          "heightError": 0.07999986,
+          "passed": true
+        },
+        {
+          "name": "Route_C",
+          "moves": 1320,
+          "failures": [],
+          "finalPosition": "(-16.430, 0.080, -6.875)",
+          "expectedHeight": 0.0,
+          "heightError": 0.07999986,
+          "passed": true
+        },
+        {
+          "name": "StairA_Up",
+          "moves": 532,
+          "failures": [],
+          "finalPosition": "(16.300, 0.080, 12.211)",
+          "expectedHeight": 0.0,
+          "heightError": 0.0799998641,
+          "passed": true
+        },
+        {
+          "name": "StairA_Down",
+          "moves": 532,
+          "failures": [],
+          "finalPosition": "(18.300, -7.720, 10.951)",
+          "expectedHeight": -7.8,
+          "heightError": 0.07999945,
+          "passed": true
+        },
+        {
+          "name": "StairB_Up",
+          "moves": 433,
+          "failures": [],
+          "finalPosition": "(20.750, 6.480, 7.559)",
+          "expectedHeight": 6.4,
+          "heightError": 0.07999945,
+          "passed": true
+        },
+        {
+          "name": "StairB_Down",
+          "moves": 434,
+          "failures": [],
+          "finalPosition": "(22.650, 0.080, 8.540)",
+          "expectedHeight": 0.0,
+          "heightError": 0.0799998641,
+          "passed": true
+        },
+        {
+          "name": "Deck_Up",
+          "moves": 195,
+          "failures": [],
+          "finalPosition": "(6.055, 2.580, 3.399)",
+          "expectedHeight": 2.5,
+          "heightError": 0.07999992,
+          "passed": true
+        },
+        {
+          "name": "Deck_Down",
+          "moves": 195,
+          "failures": [],
+          "finalPosition": "(4.200, 0.080, -1.570)",
+          "expectedHeight": 0.0,
+          "heightError": 0.0799998641,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "floor": "B3",
+      "results": [
+        {
+          "name": "Route_A",
+          "moves": 1734,
+          "failures": [],
+          "finalPosition": "(19.624, 0.080, -4.924)",
+          "expectedHeight": 0.0,
+          "heightError": 0.07999986,
+          "passed": true
+        },
+        {
+          "name": "Route_B",
+          "moves": 3382,
+          "failures": [],
+          "finalPosition": "(19.624, 0.080, -4.924)",
+          "expectedHeight": 0.0,
+          "heightError": 0.07999986,
+          "passed": true
+        },
+        {
+          "name": "Route_C",
+          "moves": 819,
+          "failures": [],
+          "finalPosition": "(-15.874, 0.080, -2.334)",
+          "expectedHeight": 0.0,
+          "heightError": 0.07999986,
+          "passed": true
+        },
+        {
+          "name": "StairB_Up",
+          "moves": 433,
+          "failures": [],
+          "finalPosition": "(20.750, 0.080, 7.559)",
+          "expectedHeight": 0.0,
+          "heightError": 0.0799998641,
+          "passed": true
+        },
+        {
+          "name": "StairB_Down",
+          "moves": 434,
+          "failures": [],
+          "finalPosition": "(22.650, -6.320, 8.540)",
+          "expectedHeight": -6.4,
+          "heightError": 0.07999945,
+          "passed": true
+        }
+      ]
+    }
+  ]
+}

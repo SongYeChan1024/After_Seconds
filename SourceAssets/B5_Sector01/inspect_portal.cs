@@ -1,0 +1,2 @@
+var r=UnityEngine.SceneManagement.SceneManager.GetActiveScene().GetRootGameObjects().Single(g=>g.name.StartsWith("B5_Circular")).transform;
+return r.GetComponentsInChildren<UnityEngine.Renderer>().Where(x=>x.name.Contains("Door")||x.name.Contains("Frame")||x.name.Contains("Pod_")||x.name.Contains("Hatch")).Where(x=>UnityEngine.Vector3.Distance(x.bounds.center,new UnityEngine.Vector3(-15,-80,-10))<13).Select(x=>new{x.name,path=x.transform.parent.name,center=x.bounds.center.ToString(),size=x.bounds.size.ToString()}).ToArray();

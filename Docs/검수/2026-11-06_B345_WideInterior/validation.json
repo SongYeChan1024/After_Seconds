@@ -1,0 +1,1765 @@
+[
+  {
+    "floor": "B5",
+    "trianglesHighestLOD": 1811020,
+    "missingScripts": 0,
+    "materialErrors": [],
+    "colliders": 459,
+    "lights": 114,
+    "routes": [
+      {
+        "variant": "A",
+        "samples": 235,
+        "blocked": []
+      },
+      {
+        "variant": "B",
+        "samples": 360,
+        "blocked": []
+      },
+      {
+        "variant": "C",
+        "samples": 117,
+        "blocked": []
+      }
+    ],
+    "doors": [
+      {
+        "name": "Door_00_N_W",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_01_N_M",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_02_N_EN",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_03_W_S",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_04_M_S",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_05_S_ES",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_06_N_HVAC",
+        "open": false,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": [
+          "B5_Stealth_Level_V0.01/Lab_Doors/Door_06_N_HVAC/Leaf_Right",
+          "B5_Stealth_Level_V0.01/Lab_Doors/Door_06_N_HVAC/Leaf_Left"
+        ]
+      },
+      {
+        "name": "Door_07_EN_LIFT",
+        "open": false,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": [
+          "B5_Stealth_Level_V0.01/Lab_Doors/Door_07_EN_LIFT/Leaf_Right",
+          "B5_Stealth_Level_V0.01/Lab_Doors/Door_07_EN_LIFT/Leaf_Left"
+        ]
+      },
+      {
+        "name": "Door_08_ES_STA",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_09_LIFT_STB",
+        "open": false,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": [
+          "B5_Stealth_Level_V0.01/Lab_Doors/Door_09_LIFT_STB/Leaf_Right",
+          "B5_Stealth_Level_V0.01/Lab_Doors/Door_09_LIFT_STB/Leaf_Left"
+        ]
+      },
+      {
+        "name": "Door_10_W_A",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_11_A_M",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_12_A_M",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_13_M_B",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_14_M_B",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_15_B_EN",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_16_B_ES",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_17_S_SUP1",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_18_S_SUP2",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_19_S_SUP3",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_20_S_SUP4",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_21_SUP1_SUP2",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_22_SUP2_SUP3",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_23_SUP3_SUP4",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_24_SUP4_ES",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      }
+    ],
+    "props": [
+      {
+        "name": "A_PPEStation_00",
+        "position": [
+          -18.8,
+          0.0,
+          -10.0999994
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "A_DiagnosticCart_01",
+        "position": [
+          -8.3,
+          0.0,
+          -7.2
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "A_CylinderTrolley_02",
+        "position": [
+          -5.0,
+          0.0,
+          -6.14999962
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "A_CentrifugeBench_03",
+        "position": [
+          -4.89999962,
+          0.0,
+          2.79999924
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "A_MaintenanceStation_04",
+        "position": [
+          -17.8,
+          0.0,
+          2.79999924
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "A_SpecimenCase_05",
+        "position": [
+          -5.199999,
+          0.0,
+          5.84999847
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "A_SpecimenCase_06",
+        "position": [
+          -6.0,
+          0.0,
+          5.84999847
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "B_CylinderTrolley_07",
+        "position": [
+          3.39999962,
+          0.0,
+          -10.0999994
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "B_MaintenanceStation_08",
+        "position": [
+          13.1000023,
+          0.0,
+          -6.3
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "B_DiagnosticCart_09",
+        "position": [
+          2.39999962,
+          0.0,
+          -5.5
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "B_CylinderTrolley_10",
+        "position": [
+          6.39999962,
+          0.0,
+          7.5
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "B_PPEStation_11",
+        "position": [
+          13.4000015,
+          0.0,
+          6.59999847
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "B_SpecimenCase_12",
+        "position": [
+          10.2999992,
+          0.0,
+          7.699999
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "SUP1_PPEStation_13",
+        "position": [
+          -15.000001,
+          0.0,
+          14.2000008
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "SUP1_SpecimenCase_14",
+        "position": [
+          -16.5999985,
+          0.0,
+          17.2
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "SUP2_PPEStation_15",
+        "position": [
+          -8.8,
+          0.0,
+          17.3
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "SUP2_DiagnosticCart_16",
+        "position": [
+          -12.6,
+          0.0,
+          14.4
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "SUP2_CylinderTrolley_17",
+        "position": [
+          -7.799999,
+          0.0,
+          14.1
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "SUP3_DiagnosticCart_18",
+        "position": [
+          -3.79999924,
+          0.0,
+          16.6999969
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "SUP3_SpecimenCase_19",
+        "position": [
+          3.94999886,
+          0.0,
+          14.6500015
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "SUP4_CylinderTrolley_20",
+        "position": [
+          9.799999,
+          0.0,
+          17.2
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "SUP4_MaintenanceStation_21",
+        "position": [
+          10.8500023,
+          0.0,
+          14.1
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "SUP4_PPEStation_22",
+        "position": [
+          13.6000023,
+          0.0,
+          16.8
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "HVAC_MaintenanceStation_23",
+        "position": [
+          19.6999969,
+          0.0,
+          -14.45
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "HVAC_CylinderTrolley_24",
+        "position": [
+          23.5999985,
+          0.0,
+          -14.0999994
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "HVAC_SpecimenCase_25",
+        "position": [
+          26.3,
+          0.0,
+          -10.4
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "LIFT_PPEStation_26",
+        "position": [
+          19.5999985,
+          0.0,
+          -7.89999962
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "LIFT_MaintenanceStation_27",
+        "position": [
+          26.3999977,
+          0.0,
+          0.6000004
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "LIFT_SpecimenCase_28",
+        "position": [
+          19.8,
+          0.0,
+          1.39999962
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "LIFT_SpecimenCase_29",
+        "position": [
+          20.5999985,
+          0.0,
+          1.39999962
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "EQ1_Wall_Service_Cover",
+        "position": [
+          -10.15,
+          0.0,
+          -15.58
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "EQ2_Wall_Service_Cover",
+        "position": [
+          3.54999924,
+          0.0,
+          -11.62
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "EQ3_Wall_Service_Cover",
+        "position": [
+          -11.65,
+          0.0,
+          9.219999
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "EQ4_Wall_Service_Cover",
+        "position": [
+          4.549999,
+          0.0,
+          12.58
+        ],
+        "overlaps": []
+      }
+    ]
+  },
+  {
+    "floor": "B4",
+    "trianglesHighestLOD": 1931889,
+    "missingScripts": 0,
+    "materialErrors": [],
+    "colliders": 518,
+    "lights": 140,
+    "routes": [
+      {
+        "variant": "A",
+        "samples": 363,
+        "blocked": []
+      },
+      {
+        "variant": "B",
+        "samples": 565,
+        "blocked": []
+      },
+      {
+        "variant": "C",
+        "samples": 204,
+        "blocked": []
+      }
+    ],
+    "doors": [
+      {
+        "name": "Door_00_N_W",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_01_N_M",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_02_N_EN",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_03_W_S",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_04_M_S",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_05_S_ES",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_06_N_HVAC",
+        "open": false,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": [
+          "B4_Stealth_Level_V0.01/Lab_Doors/Door_06_N_HVAC/Leaf_Right",
+          "B4_Stealth_Level_V0.01/Lab_Doors/Door_06_N_HVAC/Leaf_Left"
+        ]
+      },
+      {
+        "name": "Door_07_EN_LIFT",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_08_ES_STA",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_09_LIFT_STB",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_10_W_AN",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_11_AN_A",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_12_W_AS",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_13_AS_A",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_14_A_M",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_15_A_M",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_16_M_B",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_17_B_EN",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_18_M_D",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_19_D_ES",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_20_B_D",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_21_S_SUP1",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_22_S_SUP2",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_23_S_SUP3",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_24_S_SUP4",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_25_SUP1_SUP2",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_26_SUP3_SUP4",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_27_SUP4_ES",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      }
+    ],
+    "props": [
+      {
+        "name": "AN_DiagnosticCart_00",
+        "position": [
+          -15.3,
+          0.0,
+          -7.59999943
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "AN_PPEStation_01",
+        "position": [
+          -18.7,
+          0.0,
+          -7.14999962
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "AN_CylinderTrolley_02",
+        "position": [
+          -18.5999985,
+          0.0,
+          -4.39999962
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "AN_CentrifugeBench_03",
+        "position": [
+          -14.8,
+          0.0,
+          -10.3
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "AS_DiagnosticCart_04",
+        "position": [
+          -15.3,
+          0.0,
+          2.5
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "AS_PPEStation_05",
+        "position": [
+          -18.7,
+          0.0,
+          2.84999847
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "AS_CylinderTrolley_06",
+        "position": [
+          -13.0,
+          0.0,
+          7.950001
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "AS_CentrifugeBench_07",
+        "position": [
+          -15.000001,
+          0.0,
+          -0.300001144
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "A_DiagnosticCart_08",
+        "position": [
+          -4.89999962,
+          0.0,
+          2.29999924
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "A_PPEStation_09",
+        "position": [
+          -4.34999847,
+          0.0,
+          6.049999
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "B_CentrifugeBench_10",
+        "position": [
+          8.299999,
+          0.0,
+          -10.3
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "B_DiagnosticCart_11",
+        "position": [
+          8.900002,
+          0.0,
+          -4.39999962
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "B_PPEStation_12",
+        "position": [
+          1.39999962,
+          0.0,
+          -10.0
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "B_SpecimenCase_13",
+        "position": [
+          1.39999962,
+          0.0,
+          -5.90000057
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "D_DiagnosticCart_14",
+        "position": [
+          1.60000038,
+          0.0,
+          2.5
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "D_MaintenanceStation_15",
+        "position": [
+          13.2000008,
+          0.0,
+          7.39999962
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "D_CylinderTrolley_16",
+        "position": [
+          6.799999,
+          0.0,
+          7.59999847
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "SUP1_PPEStation_17",
+        "position": [
+          -22.3,
+          0.0,
+          16.5999985
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "SUP1_CentrifugeBench_18",
+        "position": [
+          -19.4000015,
+          0.0,
+          14.0
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "SUP1_SpecimenCase_19",
+        "position": [
+          -15.2,
+          0.0,
+          14.2000008
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "SUP2_DiagnosticCart_20",
+        "position": [
+          -10.8,
+          0.0,
+          16.8
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "SUP2_CylinderTrolley_21",
+        "position": [
+          -8.1,
+          0.0,
+          14.0
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "SUP2_MaintenanceStation_22",
+        "position": [
+          -6.199999,
+          0.0,
+          16.3499985
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "SUP3_SpecimenCase_23",
+        "position": [
+          -1.20000076,
+          0.0,
+          17.0999985
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "SUP3_SpecimenCase_24",
+        "position": [
+          0.399999619,
+          0.0,
+          17.0999985
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "SUP4_MaintenanceStation_25",
+        "position": [
+          9.200001,
+          0.0,
+          16.9000015
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "SUP4_CylinderTrolley_26",
+        "position": [
+          11.4000015,
+          0.0,
+          14.0
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "SUP4_PPEStation_27",
+        "position": [
+          6.5,
+          0.0,
+          14.4
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "HVAC_MaintenanceStation_28",
+        "position": [
+          19.8,
+          0.0,
+          -14.0999994
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "HVAC_CylinderTrolley_29",
+        "position": [
+          22.8999977,
+          0.0,
+          -14.0999994
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "LIFT_PPEStation_30",
+        "position": [
+          26.5,
+          0.0,
+          -7.8
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "LIFT_MaintenanceStation_31",
+        "position": [
+          26.3999977,
+          0.0,
+          0.6000004
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "LIFT_SpecimenCase_32",
+        "position": [
+          20.5999985,
+          0.0,
+          -3.09999943
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "EQ1_Wall_Service_Cover",
+        "position": [
+          -10.15,
+          0.0,
+          -15.58
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "EQ2_Wall_Service_Cover",
+        "position": [
+          3.54999924,
+          0.0,
+          -11.62
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "EQ3_Wall_Service_Cover",
+        "position": [
+          -11.65,
+          0.0,
+          9.219999
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "EQ4_Wall_Service_Cover",
+        "position": [
+          4.549999,
+          0.0,
+          12.58
+        ],
+        "overlaps": []
+      }
+    ]
+  },
+  {
+    "floor": "B3",
+    "trianglesHighestLOD": 3098827,
+    "missingScripts": 0,
+    "materialErrors": [],
+    "colliders": 715,
+    "lights": 101,
+    "routes": [
+      {
+        "variant": "A",
+        "samples": 274,
+        "blocked": []
+      },
+      {
+        "variant": "B",
+        "samples": 536,
+        "blocked": []
+      },
+      {
+        "variant": "C",
+        "samples": 129,
+        "blocked": []
+      }
+    ],
+    "doors": [
+      {
+        "name": "Door_00_N_W",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_01_N_M",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_02_N_EN",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_03_W_S",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_04_M_S",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_05_S_ES",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_06_N_HVAC",
+        "open": false,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": [
+          "B3_Stealth_Level_V0.01/Lab_Doors/Door_06_N_HVAC/Leaf_Left",
+          "B3_Stealth_Level_V0.01/Lab_Doors/Door_06_N_HVAC/Leaf_Right",
+          "B3_Stealth_Level_V0.01/Props/Service_Storage"
+        ]
+      },
+      {
+        "name": "Door_07_EN_LIFT",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_08_ES_STA",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_09_LIFT_STB",
+        "open": false,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": [
+          "B3_Stealth_Level_V0.01/Lab_Doors/Door_09_LIFT_STB/Leaf_Right",
+          "B3_Stealth_Level_V0.01/Lab_Doors/Door_09_LIFT_STB/Leaf_Left"
+        ]
+      },
+      {
+        "name": "Door_10_STA_STB",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_11_W_A",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_12_A_M",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_13_A_M",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_14_M_B",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_15_B_EN",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_16_M_D",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_17_D_ES",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_18_B_D",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_19_B_D",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_20_S_SUP1",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_21_S_SUP2",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_22_S_SUP3",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_23_S_SUP4",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_24_SUP1_SUP2",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_25_SUP3_SUP4",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      },
+      {
+        "name": "Door_26_SUP4_ES",
+        "open": true,
+        "keypadCount": 2,
+        "correctAnchors": true,
+        "colliders": 2,
+        "clearanceHits": []
+      }
+    ],
+    "props": [
+      {
+        "name": "A_PPEStation_00",
+        "position": [
+          -15.3,
+          0.0,
+          -10.0
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "A_DiagnosticCart_01",
+        "position": [
+          -10.0,
+          0.0,
+          -10.0
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "A_MaintenanceStation_02",
+        "position": [
+          -18.7,
+          0.0,
+          7.39999962
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "A_CylinderTrolley_03",
+        "position": [
+          -9.7,
+          0.0,
+          7.59999847
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "A_SpecimenCase_04",
+        "position": [
+          -7.60000038,
+          0.0,
+          7.59999847
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "B_PPEStation_05",
+        "position": [
+          1.39999962,
+          0.0,
+          -8.45
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "B_CylinderTrolley_06",
+        "position": [
+          3.5,
+          0.0,
+          -10.2
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "B_MaintenanceStation_07",
+        "position": [
+          2.39999962,
+          0.0,
+          -2.39999962
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "B_CentrifugeBench_08",
+        "position": [
+          11.1000023,
+          0.0,
+          -10.3
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "B_DiagnosticCart_09",
+        "position": [
+          13.2000008,
+          0.0,
+          -2.94999981
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "B_SpecimenCase_10",
+        "position": [
+          10.2000008,
+          0.0,
+          -2.30000019
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "D_CentrifugeBench_11",
+        "position": [
+          10.2999992,
+          0.0,
+          -0.200000763
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "D_PPEStation_12",
+        "position": [
+          1.39999962,
+          0.0,
+          0.100000381
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "D_DiagnosticCart_13",
+        "position": [
+          4.39999962,
+          0.0,
+          7.699999
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "D_CylinderTrolley_14",
+        "position": [
+          11.4000015,
+          0.0,
+          7.59999847
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "D_MaintenanceStation_15",
+        "position": [
+          13.1000023,
+          0.0,
+          3.5
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "D_SpecimenCase_16",
+        "position": [
+          7.10000038,
+          0.94,
+          4.299999
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "SUP1_CylinderTrolley_17",
+        "position": [
+          -22.4,
+          0.0,
+          14.2999992
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "SUP1_DiagnosticCart_18",
+        "position": [
+          -15.000001,
+          0.0,
+          14.4
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "SUP1_SpecimenCase_19",
+        "position": [
+          -16.5999985,
+          0.0,
+          17.0999985
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "SUP2_CentrifugeBench_20",
+        "position": [
+          -10.4000006,
+          0.0,
+          17.0
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "SUP2_PPEStation_21",
+        "position": [
+          -7.39999962,
+          0.0,
+          14.0
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "SUP2_DiagnosticCart_22",
+        "position": [
+          -6.09999847,
+          0.0,
+          15.1
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "SUP3_MaintenanceStation_23",
+        "position": [
+          -3.26000214,
+          0.0,
+          14.2000008
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "SUP3_SpecimenCase_24",
+        "position": [
+          2.19999886,
+          0.0,
+          17.2
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "SUP3_PPEStation_25",
+        "position": [
+          4.199999,
+          0.0,
+          14.2000008
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "SUP4_PPEStation_26",
+        "position": [
+          12.2000008,
+          0.0,
+          17.2
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "SUP4_PPEStation_27",
+        "position": [
+          10.1000023,
+          0.0,
+          17.2
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "SUP4_MaintenanceStation_28",
+        "position": [
+          6.60000038,
+          0.0,
+          14.2999992
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "HVAC_CylinderTrolley_29",
+        "position": [
+          22.5999985,
+          0.0,
+          -14.0999994
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "HVAC_MaintenanceStation_30",
+        "position": [
+          26.1999969,
+          0.0,
+          -10.4
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "LIFT_DiagnosticCart_31",
+        "position": [
+          19.8,
+          0.0,
+          -7.89999962
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "LIFT_MaintenanceStation_32",
+        "position": [
+          26.1999969,
+          0.0,
+          0.0499992371
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "LIFT_SpecimenCase_33",
+        "position": [
+          26.1999969,
+          0.0,
+          -7.7
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "LIFT_SpecimenCase_34",
+        "position": [
+          26.1999969,
+          0.0,
+          -6.8
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "LIFT_PPEStation_35",
+        "position": [
+          19.6999969,
+          0.0,
+          -2.59999943
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "STA_PPEStation_36",
+        "position": [
+          19.8,
+          0.0,
+          15.6999989
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "STA_SpecimenCase_37",
+        "position": [
+          21.8999977,
+          0.0,
+          15.6999989
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "EQ1_Wall_Service_Cover",
+        "position": [
+          -10.15,
+          0.0,
+          -15.58
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "EQ2_Wall_Service_Cover",
+        "position": [
+          3.54999924,
+          0.0,
+          -11.62
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "EQ3_Wall_Service_Cover",
+        "position": [
+          -11.65,
+          0.0,
+          9.219999
+        ],
+        "overlaps": []
+      },
+      {
+        "name": "EQ4_Wall_Service_Cover",
+        "position": [
+          4.549999,
+          0.0,
+          12.58
+        ],
+        "overlaps": []
+      }
+    ]
+  }
+]

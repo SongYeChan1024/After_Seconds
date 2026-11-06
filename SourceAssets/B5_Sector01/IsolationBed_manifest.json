@@ -1,0 +1,24 @@
+{
+  "name": "IsolationBed",
+  "dimensions": [
+    1.133728354870982,
+    1.1010853723604441,
+    2.0500000025748477
+  ],
+  "triangles": [
+    18419,
+    7367,
+    2210
+  ],
+  "materials": [
+    {
+      "name": "S1_IsolationBed",
+      "Albedo": "S1_IsolationBed_Albedo.png",
+      "ORM": "S1_IsolationBed_ORM.png",
+      "MetallicSmoothness": "S1_IsolationBed_MetallicSmoothness.png",
+      "Normal": "S1_IsolationBed_Normal.png"
+    }
+  ],
+  "degenerateRemoved": 0,
+  "source": "VARCO remesh + Blender bevel/LOD"
+}

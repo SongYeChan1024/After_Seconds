@@ -1,0 +1,32 @@
+{
+  "protected_files": 1824,
+  "changed_protected": [],
+  "source_files_changed": [],
+  "scenes": [
+    "Assets\\Afrer_Seconds\\01.Scenes\\Stage\\Level_B5_Circular.unity",
+    "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B2_MezzaninePreview.unity"
+  ],
+  "navigation": [
+    {
+      "floor": "B5",
+      "samples": 690,
+      "triangles": 545429,
+      "blocked": 0
+    },
+    {
+      "floor": "B2",
+      "samples": 105,
+      "triangles": 547316,
+      "blocked": 0
+    }
+  ],
+  "doors": {
+    "count": 14,
+    "failed": 0
+  },
+  "stairs": {
+    "runs": 4,
+    "failed": 0
+  },
+  "scope": "B5 static route capsules; B2 upper deck capsules plus CharacterController stairs. No runtime AI, light switches, complete vertical traversal, keyboard Play or FPS verification."
+}

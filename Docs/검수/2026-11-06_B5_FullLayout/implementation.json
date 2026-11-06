@@ -1,0 +1,128 @@
+{
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Circular.unity",
+  "caverns": 12,
+  "cores": 3,
+  "tunnels": 19,
+  "addedDoors": 24,
+  "totalDoors": 38,
+  "livingModules": 8,
+  "missingOuterPropAssets": [
+    "B5-34 P66",
+    "B5-35 P88",
+    "B5-41 P66",
+    "B5-42 P88",
+    "B5-46 P84",
+    "B5-47 P86",
+    "B5-49 P89",
+    "B5-50 P138",
+    "B5-51 P138",
+    "B5-52 P138",
+    "B5-55 P129",
+    "B5-56 P99",
+    "B5-57 P60",
+    "B5-58 P121",
+    "B5-59 P123",
+    "B5-60 P140",
+    "B5-61 P120",
+    "B5-63 P141",
+    "B5-64 P31",
+    "B5-65 P33",
+    "B5-71 P42",
+    "B5-72 P47",
+    "B5-73 P48",
+    "B5-74 P49"
+  ],
+  "placed": [
+    {
+      "name": "Observation_Console_A",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/B5/B5_IsolationMonitoringConsole_B5_Lite.prefab",
+      "position": "(-20.40, -82.00, -4.90)",
+      "size": "(2.30, 1.60, 1.15)"
+    },
+    {
+      "name": "Observation_Console_B",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/B5/B5_IsolationMonitoringConsole_B5_Lite.prefab",
+      "position": "(-9.60, -82.00, -14.90)",
+      "size": "(2.30, 1.60, 1.15)"
+    },
+    {
+      "name": "Trial_Records_Cabinet",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/Common/P04_RecordsCabinet_B5_Lite.prefab",
+      "position": "(-21.30, -82.00, -14.50)",
+      "size": "(1.00, 1.80, 0.55)"
+    },
+    {
+      "name": "Clinical_SealedWaste",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/Common/P07_SealedWasteBin_B5_Lite.prefab",
+      "position": "(-10.70, -82.00, -16.00)",
+      "size": "(0.55, 0.90, 0.55)"
+    },
+    {
+      "name": "W01_B5-33_P50",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/B5/S1_VitalMonitor.prefab",
+      "position": "(-88.00, -82.00, 30.15)",
+      "size": "(1.10, 1.60, 0.70)"
+    },
+    {
+      "name": "W02_B5-40_P50",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/B5/S1_VitalMonitor.prefab",
+      "position": "(-116.34, -82.00, 3.58)",
+      "size": "(1.10, 1.60, 0.70)"
+    },
+    {
+      "name": "W03_B5-43_P51",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/B5/S1_IsolationBed.prefab",
+      "position": "(-90.85, -82.00, -32.45)",
+      "size": "(2.20, 0.80, 1.00)"
+    },
+    {
+      "name": "W03_B5-44_P51",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/B5/S1_IsolationBed.prefab",
+      "position": "(-94.00, -82.00, -33.29)",
+      "size": "(2.20, 0.80, 1.00)"
+    },
+    {
+      "name": "W03_B5-45_P50",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/B5/S1_VitalMonitor.prefab",
+      "position": "(-97.42, -82.00, -32.93)",
+      "size": "(1.10, 1.60, 0.70)"
+    },
+    {
+      "name": "W03_B5-48_P09",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/Common/SD_DiagnosticCart.prefab",
+      "position": "(-100.05, -82.00, -30.49)",
+      "size": "(0.80, 1.40, 0.65)"
+    },
+    {
+      "name": "E01_B5-53_P118",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/B5/S1_PersonalLocker.prefab",
+      "position": "(93.89, -82.00, 36.42)",
+      "size": "(0.60, 1.80, 0.55)"
+    },
+    {
+      "name": "E01_B5-54_P128",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/Common/CFD_LinenHamper.prefab",
+      "position": "(88.00, -82.00, 31.92)",
+      "size": "(0.60, 0.90, 0.60)"
+    },
+    {
+      "name": "E03_B5-66_P37",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/B3/B3_DecontaminationColumn.prefab",
+      "position": "(99.73, -82.00, -33.54)",
+      "size": "(0.80, 2.10, 0.80)"
+    },
+    {
+      "name": "E03_B5-67_P12",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/Common/P07_SealedWasteBin_B5_Lite.prefab",
+      "position": "(98.27, -82.00, -36.27)",
+      "size": "(0.65, 0.95, 0.65)"
+    },
+    {
+      "name": "S01_B5-75_P51",
+      "path": "Assets/Afrer_Seconds/05.Model/Props/B5/S1_IsolationBed.prefab",
+      "position": "(3.65, -82.00, -82.32)",
+      "size": "(2.20, 0.80, 1.00)"
+    }
+  ],
+  "runtimeCodeAdded": false
+}

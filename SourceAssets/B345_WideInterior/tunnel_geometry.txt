@@ -1,0 +1,48 @@
+def tunnel_height(x,z,width,h,doors):
+ r=width/2-.16;cy=h-.045-r
+ y=cy+math.sqrt(max(0,r*r-x*x))
+ for along,side in doors:
+  # A groin/lunette over the door and its pocket; keep the 2.8m portal unobstructed.
+  d=abs(z-along)
+  if d>=2.55:continue
+  hood=2.92
+  if d<1.25:hood=max(hood,2.10+math.sqrt(1.25**2-d*d))
+  fade=min(1,(2.55-d)/.45)
+  hood=cy+(hood-cy)*fade-max(0,r-side*x)*.12
+  y=max(y,hood)
+ return y
+def tunnel(room,h,plan):
+ u,v,w,d=(room[k] for k in ('x','y','w','h'));rid=room['id'];horizontal=w>d
+ length=w if horizontal else d;width=d if horizontal else w;start=u if horizontal else v;cross=v+d/2 if horizontal else u+w/2
+ mapper=(lambda x,y,z:world(z,y,cross+x)) if horizontal else (lambda x,y,z:world(cross+x,y,z))
+ doors=[]
+ for door in plan['doors']:
+  if door['a']!=rid and door['b']!=rid:continue
+  along=door['x'] if horizontal else door['y'];sidecoord=door['y'] if horizontal else door['x']
+  if abs(sidecoord-cross)>width*.35:doors.append((along,1 if sidecoord>cross else -1))
+ radius=width/2-.16;panels=math.ceil(length/2.7);span=length/panels;na=40;nz=8
+ for k in range(panels):
+  lo=start+k*span+.002;hi=start+(k+1)*span-.002;vs=[];fs=[]
+  for skin in (0,1):
+   for iz in range(nz+1):
+    z=lo+(hi-lo)*iz/nz
+    for ia in range(na+1):
+     angle=-math.pi/2+math.pi*ia/na;x=radius*math.sin(angle)
+     y=tunnel_height(x,z,width,h,doors)+skin*.13
+     vs.append(mapper(x,y,z))
+  layer=(na+1)*(nz+1)
+  for skin in (0,1):
+   off=skin*layer
+   for iz in range(nz):
+    for ia in range(na):
+     a=off+iz*(na+1)+ia;face=(a,a+1,a+na+2,a+na+1);fs.append(face if skin else tuple(reversed(face)))
+  perimeter=list(range(na+1))+[i*(na+1)+na for i in range(1,nz+1)]+list(range(nz*(na+1)+na-1,nz*(na+1)-1,-1))+[i*(na+1) for i in range(nz-1,0,-1)]
+  for a,b in zip(perimeter,perimeter[1:]+perimeter[:1]):fs.append((a,b,b+layer,a+layer))
+  mesh(rid+'_TunnelVault_'+str(k),vs,fs,'Shell',.003)
+ # Crown-mounted diffusers follow the vault curvature, rather than a flat roof.
+ for i in range(max(1,int(length/8))):
+  z=start+(i+.5)*length/max(1,int(length/8));center_mapper=lambda x,y,a,z=z:mapper(x,y,z+a)
+  def crown(half,drop):return [(x,tunnel_height(x,z,width,h,[])-drop) for x in [-half+j*(2*half)/12 for j in range(13)]]
+  band(rid+'_Tunnel_LightFrame_'+str(i),crown(.51,.030),center_mapper,1.70,.035,'Shell')
+  band(rid+'_Tunnel_Diffuser_'+str(i),crown(.435,.058),center_mapper,1.55,.014,'Diffuser')
+

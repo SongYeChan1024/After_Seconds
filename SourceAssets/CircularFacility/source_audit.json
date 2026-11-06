@@ -1,0 +1,257 @@
+{
+  "source": "C:\\Users\\503-26\\Documents\\Codex\\2026-11-06\\dl\\outputs\\after_seconds_multilevel",
+  "source_hashes": {
+    "AfterSeconds_시설생활_프랍배치.xlsx": "724f518da71e4c1b466bbdddee23818203cc1d4b1abef782f2599de515b09150",
+    "AfterSeconds_층별원형공동_설계도면.pdf": "d152ef2562535f425700509dca17a2eac1b88bd0c498b476f201da12440882e3",
+    "AfterSeconds_폐공장지하_분위기참고.png": "b3cd2af02660c0177f95fcd7c9100e6a65cb682b1e53dbebb5eb37c1e836567b",
+    "먼저읽기.txt": "1bb907666121eda91536e97d32684b006dc6f69b5fb8e62a9ac10bcdf1d7c07b",
+    "분위기참고_생성지시문.txt": "c41576325e88207a62eb5905597d214f22ccbdfcd27a989d17b054e351b4f37c",
+    "원형공동_설계데이터.json": "5499fa7522fd03b86cd9f94770aca6b7b6330940abca14c683a09d4ed680d27e"
+  },
+  "pdf_pages": 20,
+  "counts": {
+    "floors": 6,
+    "rooms": 86,
+    "tunnels": 113,
+    "vertical": 5,
+    "placements": 3264,
+    "catalog": 145,
+    "activity_program": 27
+  },
+  "workbook": {
+    "설계안내": {
+      "rows": 54,
+      "columns": 8
+    },
+    "생활동선": {
+      "rows": 32,
+      "columns": 7
+    },
+    "공간프로그램": {
+      "rows": 91,
+      "columns": 15
+    },
+    "연결계획": {
+      "rows": 125,
+      "columns": 17
+    },
+    "프랍제작목록": {
+      "rows": 150,
+      "columns": 15
+    },
+    "배치구성목록": {
+      "rows": 3269,
+      "columns": 21
+    },
+    "조립세트": {
+      "rows": 440,
+      "columns": 11
+    }
+  },
+  "roles": {
+    "독립 배치": 331,
+    "조립 기준": 63,
+    "연결·설비": 907,
+    "구성 부품": 1775,
+    "공간 비품 가안": 188
+  },
+  "missing_terms": {
+    "메자닌": true,
+    "그레이팅": true,
+    "인수인계 기록": false,
+    "바닥 안내선": true,
+    "조명 스위치": true
+  },
+  "asset_candidates": [
+    {
+      "code": "P01",
+      "asset": "Assets/Afrer_Seconds/04.Prefabs/Environment/ObservationPod.prefab",
+      "exists": true
+    },
+    {
+      "code": "P02",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/P01_IsolationBunk.prefab",
+      "exists": true
+    },
+    {
+      "code": "P03",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/LivingDesk.prefab",
+      "exists": true
+    },
+    {
+      "code": "P04",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/HygieneStation.prefab",
+      "exists": true
+    },
+    {
+      "code": "P05",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/B5_IsolationMonitoringConsole_B5_Lite.prefab",
+      "exists": true
+    },
+    {
+      "code": "P06",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B3/P06_SampleFreezer.prefab",
+      "exists": true
+    },
+    {
+      "code": "P07",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/Common/Props_LaboratoryWorkbench_B5_Lite.prefab",
+      "exists": true
+    },
+    {
+      "code": "P08",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/Common/SD_CentrifugeBench.prefab",
+      "exists": true
+    },
+    {
+      "code": "P09",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/Common/SD_DiagnosticCart.prefab",
+      "exists": true
+    },
+    {
+      "code": "P10",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/Common/SD_CylinderTrolley.prefab",
+      "exists": true
+    },
+    {
+      "code": "P11",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/Common/SD_PPEStation.prefab",
+      "exists": true
+    },
+    {
+      "code": "P12",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/Common/P07_SealedWasteBin_B5_Lite.prefab",
+      "exists": true
+    },
+    {
+      "code": "P13",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/Common/P02_WallStorageCabinet_B5_Lite.prefab",
+      "exists": true
+    },
+    {
+      "code": "P14",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/Common/P04_RecordsCabinet_B5_Lite.prefab",
+      "exists": true
+    },
+    {
+      "code": "P15",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/Common/LP_SampleTrolley.prefab",
+      "exists": true
+    },
+    {
+      "code": "P16",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/B4_ObservationMonitorBank_B5_Lite.prefab",
+      "exists": true
+    },
+    {
+      "code": "P17",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/Props_ElectricalCabinet.prefab",
+      "exists": true
+    },
+    {
+      "code": "P18",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/Props_HVACUnit_B5_Lite.prefab",
+      "exists": true
+    },
+    {
+      "code": "P19",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/Props_CoolingPump_B5_Lite.prefab",
+      "exists": true
+    },
+    {
+      "code": "P20",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/Props_ReactorTank.prefab",
+      "exists": true
+    },
+    {
+      "code": "P21",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/Props_IndustrialCentrifuge.prefab",
+      "exists": true
+    },
+    {
+      "code": "P22",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/Props_PalletStorageRack.prefab",
+      "exists": true
+    },
+    {
+      "code": "P23",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/Common/SD_SpecimenCase.prefab",
+      "exists": true
+    },
+    {
+      "code": "P24",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/Common/Props_Crate_V0.1.prefab",
+      "exists": true
+    },
+    {
+      "code": "P25",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/P12_SteelPallet.prefab",
+      "exists": true
+    },
+    {
+      "code": "P26",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/P11_CargoHandTruck.prefab",
+      "exists": true
+    },
+    {
+      "code": "P27",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/P10_CargoInspectionScanner.prefab",
+      "exists": true
+    },
+    {
+      "code": "P28",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/1F_SecurityInspectionCounter.prefab",
+      "exists": true
+    },
+    {
+      "code": "P29",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/Common/SD_MaintenanceStation.prefab",
+      "exists": true
+    },
+    {
+      "code": "P34",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/Common/LP_BenchAnalyzer.prefab",
+      "exists": true
+    },
+    {
+      "code": "P35",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/B2_ControlDeskIsland.prefab",
+      "exists": true
+    },
+    {
+      "code": "P36",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/B1_ExperimentServicePanel.prefab",
+      "exists": true
+    },
+    {
+      "code": "P37",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B3/B3_DecontaminationColumn.prefab",
+      "exists": true
+    },
+    {
+      "code": "P38",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/Common/P03_SecurityCamera_B5_Lite.prefab",
+      "exists": true
+    },
+    {
+      "code": "P39",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/Common/LP_WorkLight.prefab",
+      "exists": true
+    },
+    {
+      "code": "P40",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/Common/LP_DoubleSlidingDoor.prefab",
+      "exists": true
+    },
+    {
+      "code": "P41",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/Common/LP_Keypad.prefab",
+      "exists": true
+    },
+    {
+      "code": "P46",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/Common/LP_SampleColdCabinet.prefab",
+      "exists": true
+    }
+  ]
+}

@@ -1,0 +1,744 @@
+{
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Circular.unity",
+  "routeSamples": 690,
+  "blocks": [],
+  "overlaps": [],
+  "missing": [],
+  "matMissing": [],
+  "items": [
+    {
+      "name": "S1_VaultRibs_00",
+      "position": "(0.00, 0.00, 0.00)",
+      "rotation": "(0.00, 0.00, 0.00)",
+      "bounds": [
+        {
+          "name": "S1_VaultRibs_00",
+          "center": "(-15.66, -77.04, -10.66)",
+          "size": "(18.68, 9.93, 18.68)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_VaultRibs.fbx"
+        }
+      ],
+      "colliders": [
+        {
+          "name": "S1_VaultRibs_00",
+          "type": "MeshCollider",
+          "center": "(-15.66, -77.04, -10.66)",
+          "size": "(18.68, 9.93, 18.68)"
+        }
+      ]
+    },
+    {
+      "name": "S1_CoveRing_01",
+      "position": "(0.00, 0.00, 0.00)",
+      "rotation": "(0.00, 0.00, 0.00)",
+      "bounds": [
+        {
+          "name": "S1_CoveRing_01",
+          "center": "(-15.08, -81.35, -10.00)",
+          "size": "(19.78, 1.25, 19.93)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_CoveRing.fbx"
+        }
+      ],
+      "colliders": [
+        {
+          "name": "S1_CoveRing_01",
+          "type": "MeshCollider",
+          "center": "(-15.08, -81.35, -10.00)",
+          "size": "(19.78, 1.25, 19.93)"
+        }
+      ]
+    },
+    {
+      "name": "S1_FloorFinish_02",
+      "position": "(0.00, 0.00, 0.00)",
+      "rotation": "(0.00, 0.00, 0.00)",
+      "bounds": [
+        {
+          "name": "S1_FloorFinish_02",
+          "center": "(-15.00, -82.00, -10.00)",
+          "size": "(19.92, 0.02, 19.92)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_FloorFinish.fbx"
+        }
+      ],
+      "colliders": []
+    },
+    {
+      "name": "S1_WallTaskLight_03",
+      "position": "(7.15, 3.18, 6.00)",
+      "rotation": "(0.00, 230.00, 0.00)",
+      "bounds": [
+        {
+          "name": "S1_WallTaskLight_03",
+          "center": "(-8.18, -78.82, -4.27)",
+          "size": "(1.58, 0.34, 1.61)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_WallTaskLight.fbx"
+        }
+      ],
+      "colliders": [
+        {
+          "name": "S1_WallTaskLight_03",
+          "type": "MeshCollider",
+          "center": "(-8.18, -78.82, -4.27)",
+          "size": "(1.58, 0.34, 1.61)"
+        }
+      ]
+    },
+    {
+      "name": "S1_WallTaskLight_04",
+      "position": "(-7.15, 3.18, 6.00)",
+      "rotation": "(0.00, 130.00, 0.00)",
+      "bounds": [
+        {
+          "name": "S1_WallTaskLight_04",
+          "center": "(-21.82, -78.82, -4.27)",
+          "size": "(1.58, 0.34, 1.61)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_WallTaskLight.fbx"
+        }
+      ],
+      "colliders": [
+        {
+          "name": "S1_WallTaskLight_04",
+          "type": "MeshCollider",
+          "center": "(-21.82, -78.82, -4.27)",
+          "size": "(1.58, 0.34, 1.61)"
+        }
+      ]
+    },
+    {
+      "name": "S1_WallTaskLight_05",
+      "position": "(-7.15, 3.18, -6.00)",
+      "rotation": "(0.00, 50.00, 0.00)",
+      "bounds": [
+        {
+          "name": "S1_WallTaskLight_05",
+          "center": "(-21.82, -78.82, -15.73)",
+          "size": "(1.58, 0.34, 1.61)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_WallTaskLight.fbx"
+        }
+      ],
+      "colliders": [
+        {
+          "name": "S1_WallTaskLight_05",
+          "type": "MeshCollider",
+          "center": "(-21.82, -78.82, -15.73)",
+          "size": "(1.58, 0.34, 1.61)"
+        }
+      ]
+    },
+    {
+      "name": "S1_WallTaskLight_06",
+      "position": "(7.15, 3.18, -6.00)",
+      "rotation": "(0.00, 310.00, 0.00)",
+      "bounds": [
+        {
+          "name": "S1_WallTaskLight_06",
+          "center": "(-8.18, -78.82, -15.73)",
+          "size": "(1.58, 0.34, 1.61)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_WallTaskLight.fbx"
+        }
+      ],
+      "colliders": [
+        {
+          "name": "S1_WallTaskLight_06",
+          "type": "MeshCollider",
+          "center": "(-8.18, -78.82, -15.73)",
+          "size": "(1.58, 0.34, 1.61)"
+        }
+      ]
+    },
+    {
+      "name": "S1_IsolationBed_07",
+      "position": "(-2.28, 0.00, -0.45)",
+      "rotation": "(0.00, 0.00, 0.00)",
+      "bounds": [
+        {
+          "name": "S1_IsolationBed_LOD0",
+          "center": "(-17.28, -81.45, -10.45)",
+          "size": "(1.13, 1.10, 2.05)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/S1_IsolationBed.fbx"
+        }
+      ],
+      "colliders": [
+        {
+          "name": "S1_IsolationBed_07",
+          "type": "BoxCollider",
+          "center": "(-17.28, -81.45, -10.45)",
+          "size": "(1.13, 1.10, 2.05)"
+        }
+      ]
+    },
+    {
+      "name": "S1_SanitaryUnit_08",
+      "position": "(-0.52, 0.00, 2.68)",
+      "rotation": "(0.00, 180.00, 0.00)",
+      "bounds": [
+        {
+          "name": "S1_SanitaryUnit_LOD0",
+          "center": "(-15.52, -81.53, -7.32)",
+          "size": "(0.57, 0.95, 0.90)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/S1_SanitaryUnit.fbx"
+        }
+      ],
+      "colliders": [
+        {
+          "name": "S1_SanitaryUnit_08",
+          "type": "BoxCollider",
+          "center": "(-15.52, -81.53, -7.32)",
+          "size": "(0.57, 0.95, 0.90)"
+        }
+      ]
+    },
+    {
+      "name": "S1_PrivacyScreen_09",
+      "position": "(-0.68, 0.00, 1.48)",
+      "rotation": "(0.00, 180.00, 0.00)",
+      "bounds": [
+        {
+          "name": "S1_PrivacyScreen_09",
+          "center": "(-15.68, -81.18, -8.20)",
+          "size": "(1.46, 1.65, 0.88)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_PrivacyScreen.fbx"
+        }
+      ],
+      "colliders": [
+        {
+          "name": "S1_PrivacyScreen_09",
+          "type": "MeshCollider",
+          "center": "(-15.68, -81.18, -8.20)",
+          "size": "(1.46, 1.65, 0.88)"
+        }
+      ]
+    },
+    {
+      "name": "S1_PersonalLocker_10",
+      "position": "(1.82, 0.00, 1.85)",
+      "rotation": "(0.00, 220.00, 0.00)",
+      "bounds": [
+        {
+          "name": "S1_PersonalLocker_10",
+          "center": "(-13.20, -81.15, -8.18)",
+          "size": "(0.80, 1.70, 0.80)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/S1_PersonalLocker.fbx"
+        }
+      ],
+      "colliders": [
+        {
+          "name": "S1_PersonalLocker_10",
+          "type": "MeshCollider",
+          "center": "(-13.20, -81.15, -8.18)",
+          "size": "(0.80, 1.70, 0.80)"
+        }
+      ]
+    },
+    {
+      "name": "S1_TabletopKit_11",
+      "position": "(2.55, 0.77, -0.75)",
+      "rotation": "(0.00, 270.00, 0.00)",
+      "bounds": [
+        {
+          "name": "S1_TabletopKit_11",
+          "center": "(-12.39, -81.14, -10.77)",
+          "size": "(0.59, 0.18, 0.46)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/S1_TabletopKit.fbx"
+        }
+      ],
+      "colliders": []
+    },
+    {
+      "name": "S1_Slippers_12",
+      "position": "(-1.45, 0.01, -0.80)",
+      "rotation": "(0.00, 15.00, 0.00)",
+      "bounds": [
+        {
+          "name": "S1_Slippers_12",
+          "center": "(-16.46, -81.95, -10.81)",
+          "size": "(0.32, 0.07, 0.33)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/S1_Slippers.fbx"
+        }
+      ],
+      "colliders": []
+    },
+    {
+      "name": "S1_PersonalBox_13",
+      "position": "(-2.15, 0.01, -1.88)",
+      "rotation": "(0.00, 0.00, 0.00)",
+      "bounds": [
+        {
+          "name": "S1_PersonalBox_13",
+          "center": "(-17.15, -81.87, -11.87)",
+          "size": "(0.42, 0.23, 0.34)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/S1_PersonalBox.fbx"
+        }
+      ],
+      "colliders": [
+        {
+          "name": "S1_PersonalBox_13",
+          "type": "MeshCollider",
+          "center": "(-17.15, -81.87, -11.87)",
+          "size": "(0.42, 0.23, 0.34)"
+        }
+      ]
+    },
+    {
+      "name": "S1_HygieneKit_14",
+      "position": "(0.36, 0.96, 2.60)",
+      "rotation": "(0.00, 180.00, 0.00)",
+      "bounds": [
+        {
+          "name": "S1_HygieneKit_14",
+          "center": "(-14.64, -80.95, -7.40)",
+          "size": "(0.53, 0.18, 0.20)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/S1_HygieneKit.fbx"
+        }
+      ],
+      "colliders": []
+    },
+    {
+      "name": "S1_Mirror_15",
+      "position": "(0.03, 0.83, 1.92)",
+      "rotation": "(0.00, 270.00, 0.00)",
+      "bounds": [
+        {
+          "name": "S1_Mirror_15",
+          "center": "(-14.98, -80.87, -8.08)",
+          "size": "(0.06, 0.64, 0.44)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_Mirror.fbx"
+        }
+      ],
+      "colliders": [
+        {
+          "name": "S1_Mirror_15",
+          "type": "MeshCollider",
+          "center": "(-14.98, -80.87, -8.08)",
+          "size": "(0.06, 0.64, 0.44)"
+        }
+      ]
+    },
+    {
+      "name": "S1_CallPanel_16",
+      "position": "(-0.68, 0.88, 1.44)",
+      "rotation": "(0.00, 180.00, 0.00)",
+      "bounds": [
+        {
+          "name": "S1_CallPanel_16",
+          "center": "(-15.68, -80.99, -8.57)",
+          "size": "(0.18, 0.26, 0.09)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_CallPanel.fbx"
+        }
+      ],
+      "colliders": [
+        {
+          "name": "S1_CallPanel_16",
+          "type": "MeshCollider",
+          "center": "(-15.68, -80.99, -8.57)",
+          "size": "(0.18, 0.26, 0.08)"
+        }
+      ]
+    },
+    {
+      "name": "S1_SpecimenPlate_17",
+      "position": "(0.64, 0.84, -4.01)",
+      "rotation": "(0.00, 180.00, 0.00)",
+      "bounds": [
+        {
+          "name": "S1_SpecimenPlate_17",
+          "center": "(-14.36, -81.01, -14.02)",
+          "size": "(0.25, 0.33, 0.04)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_SpecimenPlate.fbx"
+        }
+      ],
+      "colliders": [
+        {
+          "name": "S1_SpecimenPlate_17",
+          "type": "MeshCollider",
+          "center": "(-14.36, -81.01, -14.02)",
+          "size": "(0.25, 0.33, 0.04)"
+        }
+      ]
+    },
+    {
+      "name": "S1_VitalMonitor_18",
+      "position": "(-2.70, 0.00, -5.55)",
+      "rotation": "(0.00, 335.00, 0.00)",
+      "bounds": [
+        {
+          "name": "S1_VitalMonitor_LOD0",
+          "center": "(-17.70, -81.26, -15.55)",
+          "size": "(0.81, 1.48, 0.85)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/S1_VitalMonitor.fbx"
+        }
+      ],
+      "colliders": [
+        {
+          "name": "S1_VitalMonitor_18",
+          "type": "BoxCollider",
+          "center": "(-17.70, -81.26, -15.55)",
+          "size": "(0.81, 1.48, 0.85)"
+        }
+      ]
+    },
+    {
+      "name": "S1_RecordBoard_19",
+      "position": "(-0.23, 1.25, -8.70)",
+      "rotation": "(0.00, 0.00, 0.00)",
+      "bounds": [
+        {
+          "name": "S1_RecordBoard_19",
+          "center": "(-15.23, -80.57, -18.69)",
+          "size": "(0.25, 0.36, 0.05)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_RecordBoard.fbx"
+        }
+      ],
+      "colliders": [
+        {
+          "name": "S1_RecordBoard_19",
+          "type": "MeshCollider",
+          "center": "(-15.23, -80.57, -18.69)",
+          "size": "(0.25, 0.36, 0.05)"
+        }
+      ]
+    },
+    {
+      "name": "S1_Clock_20",
+      "position": "(-0.02, 1.72, -8.70)",
+      "rotation": "(0.00, 0.00, 0.00)",
+      "bounds": [
+        {
+          "name": "S1_Clock_20",
+          "center": "(-15.02, -80.10, -18.66)",
+          "size": "(0.36, 0.36, 0.07)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_Clock.fbx"
+        }
+      ],
+      "colliders": [
+        {
+          "name": "S1_Clock_20",
+          "type": "MeshCollider",
+          "center": "(-15.02, -80.10, -18.66)",
+          "size": "(0.36, 0.36, 0.07)"
+        }
+      ]
+    },
+    {
+      "name": "Pod_Interior_Task",
+      "position": "(0.00, 5.90, 0.00)",
+      "rotation": "(0.00, 0.00, 0.00)",
+      "bounds": [],
+      "colliders": []
+    },
+    {
+      "name": "Living_Indirect",
+      "position": "(-1.00, 2.80, 0.30)",
+      "rotation": "(0.00, 0.00, 0.00)",
+      "bounds": [],
+      "colliders": []
+    },
+    {
+      "name": "S1_CCTV_Static",
+      "position": "(4.27, 2.88, 7.10)",
+      "rotation": "(0.00, 215.00, 0.00)",
+      "bounds": [
+        {
+          "name": "CCTV_Fixed_Housing",
+          "center": "(-10.73, -79.14, -2.90)",
+          "size": "(0.31, 0.04, 0.31)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Enemy/CCTV_SecurityCamera_Articulated.fbx"
+        },
+        {
+          "name": "CCTV_Fixed_Metal",
+          "center": "(-10.73, -79.21, -2.90)",
+          "size": "(0.25, 0.11, 0.25)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Enemy/CCTV_SecurityCamera_Articulated.fbx"
+        },
+        {
+          "name": "CCTV_Fixed_Rubber",
+          "center": "(-10.73, -79.12, -2.90)",
+          "size": "(0.28, 0.01, 0.28)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Enemy/CCTV_SecurityCamera_Articulated.fbx"
+        },
+        {
+          "name": "CCTV_Head_Housing",
+          "center": "(-10.82, -79.55, -3.04)",
+          "size": "(0.48, 0.26, 0.52)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Enemy/CCTV_SecurityCamera_Articulated.fbx"
+        },
+        {
+          "name": "CCTV_Head_LED",
+          "center": "(-10.99, -79.64, -3.14)",
+          "size": "(0.02, 0.01, 0.01)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Enemy/CCTV_SecurityCamera_Articulated.fbx"
+        },
+        {
+          "name": "CCTV_Head_Lens",
+          "center": "(-10.95, -79.61, -3.23)",
+          "size": "(0.07, 0.07, 0.06)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Enemy/CCTV_SecurityCamera_Articulated.fbx"
+        },
+        {
+          "name": "CCTV_Head_Metal",
+          "center": "(-10.93, -79.61, -3.20)",
+          "size": "(0.18, 0.12, 0.15)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Enemy/CCTV_SecurityCamera_Articulated.fbx"
+        },
+        {
+          "name": "CCTV_Head_Rubber",
+          "center": "(-10.83, -79.57, -3.04)",
+          "size": "(0.45, 0.23, 0.51)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Enemy/CCTV_SecurityCamera_Articulated.fbx"
+        },
+        {
+          "name": "CCTV_Pan_Housing",
+          "center": "(-10.72, -79.41, -2.89)",
+          "size": "(0.40, 0.28, 0.35)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Enemy/CCTV_SecurityCamera_Articulated.fbx"
+        },
+        {
+          "name": "CCTV_Pan_Metal",
+          "center": "(-10.73, -79.40, -2.91)",
+          "size": "(0.39, 0.33, 0.31)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Enemy/CCTV_SecurityCamera_Articulated.fbx"
+        },
+        {
+          "name": "CCTV_Pan_Rubber",
+          "center": "(-10.73, -79.30, -2.90)",
+          "size": "(0.11, 0.01, 0.11)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Enemy/CCTV_SecurityCamera_Articulated.fbx"
+        }
+      ],
+      "colliders": [
+        {
+          "name": "Head_Tilt",
+          "type": "BoxCollider",
+          "center": "(-10.81, -79.57, -3.02)",
+          "size": "(0.41, 0.22, 0.46)"
+        }
+      ]
+    },
+    {
+      "name": "S1_ServiceRiser_22",
+      "position": "(4.70, 0.02, 6.80)",
+      "rotation": "(0.00, 215.00, 0.00)",
+      "bounds": [
+        {
+          "name": "S1_ServiceRiser_22",
+          "center": "(-10.50, -80.53, -3.06)",
+          "size": "(0.73, 2.90, 0.61)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_ServiceRiser.fbx"
+        }
+      ],
+      "colliders": [
+        {
+          "name": "S1_ServiceRiser_22",
+          "type": "MeshCollider",
+          "center": "(-10.50, -80.53, -3.06)",
+          "size": "(0.73, 2.90, 0.61)"
+        }
+      ]
+    },
+    {
+      "name": "S1_ServiceBackboard_Support",
+      "position": "(0.00, 0.00, -8.76)",
+      "rotation": "(0.00, 0.00, 0.00)",
+      "bounds": [
+        {
+          "name": "S1_ServiceBackboard_Support",
+          "center": "(-15.00, -80.81, -18.76)",
+          "size": "(1.38, 2.38, 0.30)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_ServiceBackboard.fbx"
+        }
+      ],
+      "colliders": [
+        {
+          "name": "S1_ServiceBackboard_Support",
+          "type": "MeshCollider",
+          "center": "(-15.00, -80.81, -18.76)",
+          "size": "(1.38, 2.38, 0.30)"
+        }
+      ]
+    },
+    {
+      "name": "S1_HygieneShelf_Support",
+      "position": "(0.36, 0.00, 2.60)",
+      "rotation": "(0.00, 0.00, 0.00)",
+      "bounds": [
+        {
+          "name": "S1_HygieneShelf_Support",
+          "center": "(-14.64, -81.52, -7.40)",
+          "size": "(0.58, 0.96, 0.38)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/S1_HygieneShelf.fbx"
+        }
+      ],
+      "colliders": [
+        {
+          "name": "S1_HygieneShelf_Support",
+          "type": "MeshCollider",
+          "center": "(-14.64, -81.52, -7.40)",
+          "size": "(0.58, 0.96, 0.38)"
+        }
+      ]
+    },
+    {
+      "name": "S1_LivingDesk",
+      "position": "(2.55, 0.00, -0.75)",
+      "rotation": "(0.00, 270.00, 0.00)",
+      "bounds": [
+        {
+          "name": "S1_LivingDesk",
+          "center": "(-12.75, -81.62, -10.75)",
+          "size": "(1.22, 0.77, 1.20)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/S1_LivingDesk.fbx"
+        }
+      ],
+      "colliders": [
+        {
+          "name": "S1_LivingDesk",
+          "type": "MeshCollider",
+          "center": "(-12.75, -81.62, -10.75)",
+          "size": "(1.22, 0.77, 1.20)"
+        }
+      ]
+    },
+    {
+      "name": "S1_PortalCollars",
+      "position": "(0.00, 0.00, 0.00)",
+      "rotation": "(0.00, 0.00, 0.00)",
+      "bounds": [
+        {
+          "name": "S1_PortalCollars",
+          "center": "(-12.41, -79.51, -5.80)",
+          "size": "(14.45, 2.38, 11.36)",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_PortalCollars.fbx"
+        }
+      ],
+      "colliders": [
+        {
+          "name": "S1_PortalCollars",
+          "type": "MeshCollider",
+          "center": "(-12.41, -79.51, -5.80)",
+          "size": "(14.45, 2.38, 11.36)"
+        }
+      ]
+    }
+  ],
+  "lights": [
+    {
+      "path": "B5_Circular_Core_V0.03/Lighting/C01_Work_0",
+      "type": "Point",
+      "enabled": false,
+      "intensity": 3.74,
+      "range": 8.5,
+      "pos": "(-9.80, -78.80, -10.00)",
+      "forward": "(0.00, 0.00, 1.00)"
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Lighting/C01_Work_1",
+      "type": "Point",
+      "enabled": false,
+      "intensity": 3.74,
+      "range": 8.5,
+      "pos": "(-15.00, -78.80, -15.20)",
+      "forward": "(0.00, 0.00, 1.00)"
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Lighting/C01_Work_2",
+      "type": "Point",
+      "enabled": false,
+      "intensity": 3.74,
+      "range": 8.5,
+      "pos": "(-20.20, -78.80, -10.00)",
+      "forward": "(0.00, 0.00, 1.00)"
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Lighting/C01_Work_3",
+      "type": "Point",
+      "enabled": false,
+      "intensity": 3.74,
+      "range": 8.5,
+      "pos": "(-15.00, -78.80, -4.80)",
+      "forward": "(0.00, 0.00, 1.00)"
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Sector01_CompletedArt/S1_WallTaskLight_03/Wall_Worklight",
+      "type": "Spot",
+      "enabled": true,
+      "intensity": 20.0,
+      "range": 11.0,
+      "pos": "(-8.48, -78.98, -4.53)",
+      "forward": "(-0.53, -0.72, -0.45)"
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Sector01_CompletedArt/S1_WallTaskLight_04/Wall_Worklight",
+      "type": "Spot",
+      "enabled": true,
+      "intensity": 20.0,
+      "range": 11.0,
+      "pos": "(-21.52, -78.98, -4.53)",
+      "forward": "(0.53, -0.72, -0.45)"
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Sector01_CompletedArt/S1_WallTaskLight_05/Wall_Worklight",
+      "type": "Spot",
+      "enabled": true,
+      "intensity": 20.0,
+      "range": 11.0,
+      "pos": "(-21.52, -78.98, -15.47)",
+      "forward": "(0.53, -0.72, 0.45)"
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Sector01_CompletedArt/S1_WallTaskLight_06/Wall_Worklight",
+      "type": "Spot",
+      "enabled": true,
+      "intensity": 20.0,
+      "range": 11.0,
+      "pos": "(-8.48, -78.98, -15.47)",
+      "forward": "(-0.53, -0.72, 0.45)"
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Sector01_CompletedArt/Pod_Interior_Task",
+      "type": "Point",
+      "enabled": true,
+      "intensity": 16.0,
+      "range": 12.0,
+      "pos": "(-15.00, -76.10, -10.00)",
+      "forward": "(0.00, 0.00, 1.00)"
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Sector01_CompletedArt/Living_Indirect",
+      "type": "Point",
+      "enabled": true,
+      "intensity": 1.5,
+      "range": 6.0,
+      "pos": "(-16.00, -79.20, -9.70)",
+      "forward": "(0.00, 0.00, 1.00)"
+    }
+  ],
+  "lods": [
+    {
+      "name": "S1_IsolationBed_07",
+      "levels": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "S1_SanitaryUnit_08",
+      "levels": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "S1_VitalMonitor_18",
+      "levels": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "trianglesLod0": 167917,
+  "pipeline": "PC_RPAsset",
+  "pixelLightCount": 2
+}

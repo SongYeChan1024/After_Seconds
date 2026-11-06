@@ -1,0 +1,24 @@
+{
+  "name": "CylinderTrolley",
+  "dimensions": [
+    0.65,
+    1.4,
+    0.55
+  ],
+  "triangles": [
+    12210,
+    4884,
+    1465
+  ],
+  "materials": [
+    {
+      "name": "SD_CylinderTrolley",
+      "Albedo": "SD_CylinderTrolley_Albedo.png",
+      "ORM": "SD_CylinderTrolley_ORM.png",
+      "MetallicSmoothness": "SD_CylinderTrolley_MetallicSmoothness.png",
+      "Normal": "SD_CylinderTrolley_Normal.png"
+    }
+  ],
+  "degenerateRemoved": 0,
+  "source": "VARCO remesh + Blender bevel/LOD"
+}

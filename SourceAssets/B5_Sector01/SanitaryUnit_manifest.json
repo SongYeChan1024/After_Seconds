@@ -1,0 +1,24 @@
+{
+  "name": "SanitaryUnit",
+  "dimensions": [
+    0.5667124147150453,
+    0.9500000218325511,
+    0.899197259047888
+  ],
+  "triangles": [
+    11304,
+    4521,
+    1356
+  ],
+  "materials": [
+    {
+      "name": "S1_SanitaryUnit",
+      "Albedo": "S1_SanitaryUnit_Albedo.png",
+      "ORM": "S1_SanitaryUnit_ORM.png",
+      "MetallicSmoothness": "S1_SanitaryUnit_MetallicSmoothness.png",
+      "Normal": "S1_SanitaryUnit_Normal.png"
+    }
+  ],
+  "degenerateRemoved": 0,
+  "source": "VARCO remesh + Blender bevel/LOD"
+}

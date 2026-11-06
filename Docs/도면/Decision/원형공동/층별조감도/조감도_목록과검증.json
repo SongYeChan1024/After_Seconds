@@ -1,0 +1,524 @@
+{
+  "version": "V0.01",
+  "pages": 32,
+  "rooms": 67,
+  "floors": 6,
+  "source_sha256": "2666eeb162293fccad4e033848c6eb3007d6ccb1270c4984817dae3a9ccabcf5",
+  "source_version": "V0.03",
+  "source_placement_rows": 3264,
+  "room_index": [
+    {
+      "floor": "B5",
+      "room": "C01",
+      "name": "피험체 격리 공동",
+      "pdf_page": 4,
+      "file": "공간별상세/B5_C01.svg"
+    },
+    {
+      "floor": "B5",
+      "room": "C02",
+      "name": "경비·모니터링 공동",
+      "pdf_page": 4,
+      "file": "공간별상세/B5_C02.svg"
+    },
+    {
+      "floor": "B5",
+      "room": "C03",
+      "name": "냉각 공동",
+      "pdf_page": 4,
+      "file": "공간별상세/B5_C03.svg"
+    },
+    {
+      "floor": "B5",
+      "room": "C04",
+      "name": "유틸리티 공동",
+      "pdf_page": 4,
+      "file": "공간별상세/B5_C04.svg"
+    },
+    {
+      "floor": "B5",
+      "room": "W01",
+      "name": "일반 실험체 생활·격리",
+      "pdf_page": 5,
+      "file": "공간별상세/B5_W01.svg"
+    },
+    {
+      "floor": "B5",
+      "room": "W02",
+      "name": "추가 실험체 생활·격리",
+      "pdf_page": 5,
+      "file": "공간별상세/B5_W02.svg"
+    },
+    {
+      "floor": "B5",
+      "room": "W03",
+      "name": "검사·의료 안정 공동",
+      "pdf_page": 5,
+      "file": "공간별상세/B5_W03.svg"
+    },
+    {
+      "floor": "B5",
+      "room": "E01",
+      "name": "격리 생활물품·리넨",
+      "pdf_page": 5,
+      "file": "공간별상세/B5_E01.svg"
+    },
+    {
+      "floor": "B5",
+      "room": "E02",
+      "name": "격리 배식·생활 지원",
+      "pdf_page": 6,
+      "file": "공간별상세/B5_E02.svg"
+    },
+    {
+      "floor": "B5",
+      "room": "E03",
+      "name": "격리 제염 공동",
+      "pdf_page": 6,
+      "file": "공간별상세/B5_E03.svg"
+    },
+    {
+      "floor": "B5",
+      "room": "N01",
+      "name": "중앙 격리 관제",
+      "pdf_page": 6,
+      "file": "공간별상세/B5_N01.svg"
+    },
+    {
+      "floor": "B5",
+      "room": "S01",
+      "name": "폐쇄된 시험 공동",
+      "pdf_page": 6,
+      "file": "공간별상세/B5_S01.svg"
+    },
+    {
+      "floor": "B4",
+      "room": "C01",
+      "name": "중앙 관찰 공동",
+      "pdf_page": 9,
+      "file": "공간별상세/B4_C01.svg"
+    },
+    {
+      "floor": "B4",
+      "room": "C02",
+      "name": "진단 공동",
+      "pdf_page": 9,
+      "file": "공간별상세/B4_C02.svg"
+    },
+    {
+      "floor": "B4",
+      "room": "C03",
+      "name": "관찰 지원 공동",
+      "pdf_page": 9,
+      "file": "공간별상세/B4_C03.svg"
+    },
+    {
+      "floor": "B4",
+      "room": "C04",
+      "name": "분석 공동",
+      "pdf_page": 9,
+      "file": "공간별상세/B4_C04.svg"
+    },
+    {
+      "floor": "B4",
+      "room": "C05",
+      "name": "기록 공동",
+      "pdf_page": 10,
+      "file": "공간별상세/B4_C05.svg"
+    },
+    {
+      "floor": "B4",
+      "room": "W01",
+      "name": "투척 지연 측정실",
+      "pdf_page": 10,
+      "file": "공간별상세/B4_W01.svg"
+    },
+    {
+      "floor": "B4",
+      "room": "W02",
+      "name": "궤적 추적실",
+      "pdf_page": 10,
+      "file": "공간별상세/B4_W02.svg"
+    },
+    {
+      "floor": "B4",
+      "room": "W03",
+      "name": "반응시간 측정실",
+      "pdf_page": 10,
+      "file": "공간별상세/B4_W03.svg"
+    },
+    {
+      "floor": "B4",
+      "room": "E01",
+      "name": "영상 판독실",
+      "pdf_page": 11,
+      "file": "공간별상세/B4_E01.svg"
+    },
+    {
+      "floor": "B4",
+      "room": "E02",
+      "name": "연구원 작업실",
+      "pdf_page": 11,
+      "file": "공간별상세/B4_E02.svg"
+    },
+    {
+      "floor": "B4",
+      "room": "E03",
+      "name": "진단·회복 공동",
+      "pdf_page": 11,
+      "file": "공간별상세/B4_E03.svg"
+    },
+    {
+      "floor": "B4",
+      "room": "N01",
+      "name": "통합 관찰 관제",
+      "pdf_page": 11,
+      "file": "공간별상세/B4_N01.svg"
+    },
+    {
+      "floor": "B4",
+      "room": "S01",
+      "name": "차폐 실험 공동",
+      "pdf_page": 12,
+      "file": "공간별상세/B4_S01.svg"
+    },
+    {
+      "floor": "B3",
+      "room": "C01",
+      "name": "중앙 시료 공동",
+      "pdf_page": 15,
+      "file": "공간별상세/B3_C01.svg"
+    },
+    {
+      "floor": "B3",
+      "room": "C02",
+      "name": "저온 보관 공동",
+      "pdf_page": 15,
+      "file": "공간별상세/B3_C02.svg"
+    },
+    {
+      "floor": "B3",
+      "room": "C03",
+      "name": "폐기·환복 공동",
+      "pdf_page": 15,
+      "file": "공간별상세/B3_C03.svg"
+    },
+    {
+      "floor": "B3",
+      "room": "C04",
+      "name": "제염 공동",
+      "pdf_page": 15,
+      "file": "공간별상세/B3_C04.svg"
+    },
+    {
+      "floor": "B3",
+      "room": "C05",
+      "name": "시료 준비 공동",
+      "pdf_page": 16,
+      "file": "공간별상세/B3_C05.svg"
+    },
+    {
+      "floor": "B3",
+      "room": "W01",
+      "name": "원시료 보관 공동",
+      "pdf_page": 16,
+      "file": "공간별상세/B3_W01.svg"
+    },
+    {
+      "floor": "B3",
+      "room": "W02",
+      "name": "장기 저온 저장",
+      "pdf_page": 16,
+      "file": "공간별상세/B3_W02.svg"
+    },
+    {
+      "floor": "B3",
+      "room": "W03",
+      "name": "밀폐 폐기물 보관",
+      "pdf_page": 16,
+      "file": "공간별상세/B3_W03.svg"
+    },
+    {
+      "floor": "B3",
+      "room": "E01",
+      "name": "생체신호 분석실",
+      "pdf_page": 17,
+      "file": "공간별상세/B3_E01.svg"
+    },
+    {
+      "floor": "B3",
+      "room": "E02",
+      "name": "주 서버·관측 데이터",
+      "pdf_page": 17,
+      "file": "공간별상세/B3_E02.svg"
+    },
+    {
+      "floor": "B3",
+      "room": "E03",
+      "name": "소모품 보관 공동",
+      "pdf_page": 17,
+      "file": "공간별상세/B3_E03.svg"
+    },
+    {
+      "floor": "B3",
+      "room": "N01",
+      "name": "시료 검수·분류",
+      "pdf_page": 17,
+      "file": "공간별상세/B3_N01.svg"
+    },
+    {
+      "floor": "B3",
+      "room": "S01",
+      "name": "세척·멸균 공동",
+      "pdf_page": 18,
+      "file": "공간별상세/B3_S01.svg"
+    },
+    {
+      "floor": "B2",
+      "room": "C01",
+      "name": "원심분리 공동",
+      "pdf_page": 21,
+      "file": "공간별상세/B2_C01.svg"
+    },
+    {
+      "floor": "B2",
+      "room": "C02",
+      "name": "냉각·펌프 공동",
+      "pdf_page": 21,
+      "file": "공간별상세/B2_C02.svg"
+    },
+    {
+      "floor": "B2",
+      "room": "C03",
+      "name": "배전 공동",
+      "pdf_page": 21,
+      "file": "공간별상세/B2_C03.svg"
+    },
+    {
+      "floor": "B2",
+      "room": "C04",
+      "name": "관제 공동",
+      "pdf_page": 21,
+      "file": "공간별상세/B2_C04.svg"
+    },
+    {
+      "floor": "B2",
+      "room": "W01",
+      "name": "주 전력 공동",
+      "pdf_page": 22,
+      "file": "공간별상세/B2_W01.svg"
+    },
+    {
+      "floor": "B2",
+      "room": "W02",
+      "name": "예비 전력 공동",
+      "pdf_page": 22,
+      "file": "공간별상세/B2_W02.svg"
+    },
+    {
+      "floor": "B2",
+      "room": "W03",
+      "name": "정비·부품 창고",
+      "pdf_page": 22,
+      "file": "공간별상세/B2_W03.svg"
+    },
+    {
+      "floor": "B2",
+      "room": "E01",
+      "name": "급수·펌프 공동",
+      "pdf_page": 22,
+      "file": "공간별상세/B2_E01.svg"
+    },
+    {
+      "floor": "B2",
+      "room": "E02",
+      "name": "공조 필터 공동",
+      "pdf_page": 23,
+      "file": "공간별상세/B2_E02.svg"
+    },
+    {
+      "floor": "B2",
+      "room": "E03",
+      "name": "폐수·폐기물 설비",
+      "pdf_page": 23,
+      "file": "공간별상세/B2_E03.svg"
+    },
+    {
+      "floor": "B2",
+      "room": "N01",
+      "name": "주 공조·환기 공동",
+      "pdf_page": 23,
+      "file": "공간별상세/B2_N01.svg"
+    },
+    {
+      "floor": "B2",
+      "room": "S01",
+      "name": "설비 감시·정비",
+      "pdf_page": 23,
+      "file": "공간별상세/B2_S01.svg"
+    },
+    {
+      "floor": "B1",
+      "room": "C01",
+      "name": "중앙 피험 챔버",
+      "pdf_page": 26,
+      "file": "공간별상세/B1_C01.svg"
+    },
+    {
+      "floor": "B1",
+      "room": "C02",
+      "name": "실험 준비 공동",
+      "pdf_page": 26,
+      "file": "공간별상세/B1_C02.svg"
+    },
+    {
+      "floor": "B1",
+      "room": "C03",
+      "name": "기록 공동",
+      "pdf_page": 26,
+      "file": "공간별상세/B1_C03.svg"
+    },
+    {
+      "floor": "B1",
+      "room": "C04",
+      "name": "의료 지원 공동",
+      "pdf_page": 26,
+      "file": "공간별상세/B1_C04.svg"
+    },
+    {
+      "floor": "B1",
+      "room": "C05",
+      "name": "관찰 공동",
+      "pdf_page": 27,
+      "file": "공간별상세/B1_C05.svg"
+    },
+    {
+      "floor": "B1",
+      "room": "W01",
+      "name": "연구원 작업·회의",
+      "pdf_page": 27,
+      "file": "공간별상세/B1_W01.svg"
+    },
+    {
+      "floor": "B1",
+      "room": "W02",
+      "name": "직원 식당·휴게·조리",
+      "pdf_page": 27,
+      "file": "공간별상세/B1_W02.svg"
+    },
+    {
+      "floor": "B1",
+      "room": "W03",
+      "name": "연구원·지원인력 생활",
+      "pdf_page": 27,
+      "file": "공간별상세/B1_W03.svg"
+    },
+    {
+      "floor": "B1",
+      "room": "E01",
+      "name": "중앙 감독·보안 관제",
+      "pdf_page": 28,
+      "file": "공간별상세/B1_E01.svg"
+    },
+    {
+      "floor": "B1",
+      "room": "E02",
+      "name": "책임자·기밀 기록",
+      "pdf_page": 28,
+      "file": "공간별상세/B1_E02.svg"
+    },
+    {
+      "floor": "B1",
+      "room": "E03",
+      "name": "경비 숙소·교대 대기",
+      "pdf_page": 28,
+      "file": "공간별상세/B1_E03.svg"
+    },
+    {
+      "floor": "B1",
+      "room": "N01",
+      "name": "미래시 연구 시험 공동",
+      "pdf_page": 28,
+      "file": "공간별상세/B1_N01.svg"
+    },
+    {
+      "floor": "B1",
+      "room": "S01",
+      "name": "백업 서버·기록 대조",
+      "pdf_page": 29,
+      "file": "공간별상세/B1_S01.svg"
+    },
+    {
+      "floor": "1F",
+      "room": "C01",
+      "name": "폐생산동",
+      "pdf_page": 32,
+      "file": "공간별상세/1F_C01.svg"
+    },
+    {
+      "floor": "1F",
+      "room": "C02",
+      "name": "폐하역장·승강기 전실",
+      "pdf_page": 32,
+      "file": "공간별상세/1F_C02.svg"
+    },
+    {
+      "floor": "1F",
+      "room": "C03",
+      "name": "출구 검문 구역",
+      "pdf_page": 32,
+      "file": "공간별상세/1F_C03.svg"
+    },
+    {
+      "floor": "1F",
+      "room": "C04",
+      "name": "옛 사무동·직원 구역",
+      "pdf_page": 32,
+      "file": "공간별상세/1F_C04.svg"
+    }
+  ],
+  "page_index": [
+    "00_읽는순서",
+    "B5_분위기",
+    "B5_좌표전체",
+    "B5_공간확대_01",
+    "B5_공간확대_02",
+    "B5_공간확대_03",
+    "B4_분위기",
+    "B4_좌표전체",
+    "B4_공간확대_01",
+    "B4_공간확대_02",
+    "B4_공간확대_03",
+    "B4_공간확대_04",
+    "B3_분위기",
+    "B3_좌표전체",
+    "B3_공간확대_01",
+    "B3_공간확대_02",
+    "B3_공간확대_03",
+    "B3_공간확대_04",
+    "B2_분위기",
+    "B2_좌표전체",
+    "B2_공간확대_01",
+    "B2_공간확대_02",
+    "B2_공간확대_03",
+    "B1_분위기",
+    "B1_좌표전체",
+    "B1_공간확대_01",
+    "B1_공간확대_02",
+    "B1_공간확대_03",
+    "B1_공간확대_04",
+    "1F_분위기",
+    "1F_좌표전체",
+    "1F_공간확대_01"
+  ],
+  "checks": [
+    "전 층 및 비코어 실내 공간 포함",
+    "원본 좌표·품목 참조 유지",
+    "PDF 텍스트 페이지 경계 검사"
+  ],
+  "limits": [
+    "단순 형상은 실제 모델 외형·충돌 검증 아님",
+    "생성 그림의 개별 소품 개수·위치 차이는 좌표 도식·엑셀 기준",
+    "층별 전체 그림에서 작은 부품은 축척상 식별이 제한되므로 공간별 SVG 확대 사용"
+  ]
+}

@@ -1,0 +1,4 @@
+ static float Linear(float x,float[] a,float[] b){for(int i=1;i<a.Length;i++)if(x<=a[i])return b[i-1]+(x-a[i-1])*(b[i]-b[i-1])/(a[i]-a[i-1]);return x+b[b.Length-1]-a[a.Length-1];}
+ static float WideX(float u){float d=0;foreach(float a in new[]{0f,19f,36f}){if(u<a)return u+d;if(u<=a+3)return Linear(u,new[]{a,a+.75f,a+2.25f,a+3},new[]{a+d,a+d+1.35f,a+d+2.85f,a+d+4.2f});d+=1.2f;}return u+d;}
+ static float WideY(float v,bool core=false)=>core?v+.8f:Linear(v,new[]{0f,.75f,3.25f,4,24,24.75f,26.25f,27},new[]{0f,1.15f,3.65f,4.8f,24.8f,26.15f,27.65f,29});
+ static Vector3 Map(Vector3 p)=>new Vector3(WideX(p.x+24)-24,p.y,WideY(p.z+16,p.x+24>=38.99f)-16);

@@ -1,0 +1,372 @@
+{
+  "title": "B5 기존 Unity 구역과 재편 상태 V0.03",
+  "author": "송예찬",
+  "date": "2026-11-06",
+  "scope": "현재 Unity에 있는 돔 7개 + 복도 구역(7개 터널). 외곽 계획 8실은 이번 구분 밖이며 삭제하지 않음.",
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Circular.unity",
+  "coordinate": "X 동쪽, v 남쪽. Unity Z=-v, B5 루트 Y=-82m. 위쪽은 북쪽(+Z).",
+  "sectors": [
+    {
+      "id": "B5-S01",
+      "number": 1,
+      "room_id": "C01",
+      "name": "피험체 격리",
+      "x": -15,
+      "v": 10,
+      "radius": 10,
+      "focus": "포드 · 침상 · 생활 구획 · 배식·위생 · 관찰 시야",
+      "status": "실험용 격리 공동으로 재설계·아트 재작업",
+      "complete": false,
+      "checks": {
+        "구조·문 접합": false,
+        "프랍·설비": false,
+        "재질·생활 흔적": false,
+        "조명·시야": false,
+        "이동·충돌·성능 검수": false
+      },
+      "evidence": "Docs/검수/2026-11-06_B5_Sector01/검수결과.md",
+      "review_note": "이전 기술 검사 결과는 생활시설 배치 초안의 이력이며 완성도 미달로 완료 판정을 철회함."
+    },
+    {
+      "id": "B5-S02",
+      "number": 2,
+      "room_id": "C02",
+      "name": "경비·모니터링",
+      "x": -22,
+      "v": -18,
+      "radius": 7,
+      "focus": "관제 데스크 · 기록 · 보안 설비 · 감시와 우회",
+      "status": "기본 구조 / 미완료",
+      "complete": false,
+      "checks": {
+        "구조·문 접합": false,
+        "프랍·설비": false,
+        "재질·생활 흔적": false,
+        "조명·시야": false,
+        "이동·충돌·성능 검수": false
+      }
+    },
+    {
+      "id": "B5-S03",
+      "number": 3,
+      "room_id": "C03",
+      "name": "냉각",
+      "x": 17,
+      "v": 7,
+      "radius": 10,
+      "focus": "펌프 · 탱크 · 연결 배관 · 정비 통로 · 엄폐",
+      "status": "기본 구조 / 미완료",
+      "complete": false,
+      "checks": {
+        "구조·문 접합": false,
+        "프랍·설비": false,
+        "재질·생활 흔적": false,
+        "조명·시야": false,
+        "이동·충돌·성능 검수": false
+      }
+    },
+    {
+      "id": "B5-S04",
+      "number": 4,
+      "room_id": "C04",
+      "name": "유틸리티",
+      "x": 16,
+      "v": -20,
+      "radius": 6,
+      "focus": "배전 · 공조 · 점검 장비 · 배관·케이블 접속",
+      "status": "기본 구조 / 미완료",
+      "complete": false,
+      "checks": {
+        "구조·문 접합": false,
+        "프랍·설비": false,
+        "재질·생활 흔적": false,
+        "조명·시야": false,
+        "이동·충돌·성능 검수": false
+      }
+    },
+    {
+      "id": "B5-S05",
+      "number": 5,
+      "room_id": "VA",
+      "name": "계단 A",
+      "x": -44,
+      "v": -28,
+      "radius": 5,
+      "focus": "계단 · 참 · 난간 · 방화 구획 · 상층 접점",
+      "status": "외피 / 계단·참 미완료",
+      "complete": false,
+      "checks": {
+        "구조·문 접합": false,
+        "프랍·설비": false,
+        "재질·생활 흔적": false,
+        "조명·시야": false,
+        "이동·충돌·성능 검수": false
+      }
+    },
+    {
+      "id": "B5-S06",
+      "number": 6,
+      "room_id": "VB",
+      "name": "계단 B",
+      "x": 44,
+      "v": 28,
+      "radius": 5,
+      "focus": "계단 · 참 · 난간 · 우회 동선 · 상층 접점",
+      "status": "외피 / 계단·참 미완료",
+      "complete": false,
+      "checks": {
+        "구조·문 접합": false,
+        "프랍·설비": false,
+        "재질·생활 흔적": false,
+        "조명·시야": false,
+        "이동·충돌·성능 검수": false
+      }
+    },
+    {
+      "id": "B5-S07",
+      "number": 7,
+      "room_id": "VL",
+      "name": "화물 승강기",
+      "x": 44,
+      "v": -28,
+      "radius": 5,
+      "focus": "화물 출입 · 승강로 · 문 수납 · 적재 여유",
+      "status": "외피 / 승강로 미완료",
+      "complete": false,
+      "checks": {
+        "구조·문 접합": false,
+        "프랍·설비": false,
+        "재질·생활 흔적": false,
+        "조명·시야": false,
+        "이동·충돌·성능 검수": false
+      }
+    }
+  ],
+  "corridor_area": {
+    "id": "B5-COR",
+    "name": "복도 구역",
+    "segments": [
+      {
+        "id": "B5-T01",
+        "from_sector": 1,
+        "to_sector": 2,
+        "p": [
+          -17.231327750334263,
+          1.074688998662948
+        ],
+        "q": [
+          -20.496279124774734,
+          -11.985116499098943
+        ],
+        "length": 13.46,
+        "width": 4.2,
+        "height": 3.4,
+        "status": "부분 마감 / 재검수",
+        "complete": false,
+        "checks": {
+          "구조·문 접합": false,
+          "프랍·설비": false,
+          "재질·생활 흔적": false,
+          "조명·시야": false,
+          "이동·충돌·성능 검수": false
+        }
+      },
+      {
+        "id": "B5-T02",
+        "from_sector": 2,
+        "to_sector": 5,
+        "p": [
+          -27.644272160268148,
+          -20.56557825466734
+        ],
+        "q": [
+          -40.17646079465706,
+          -26.262027633935027
+        ],
+        "length": 13.77,
+        "width": 4.2,
+        "height": 3.4,
+        "status": "기본 구조·문 / 미완료",
+        "complete": false,
+        "checks": {
+          "구조·문 접합": false,
+          "프랍·설비": false,
+          "재질·생활 흔적": false,
+          "조명·시야": false,
+          "이동·충돌·성능 검수": false
+        }
+      },
+      {
+        "id": "B5-T03",
+        "from_sector": 1,
+        "to_sector": 3,
+        "p": [
+          -5.84016512025455,
+          9.141265480023865
+        ],
+        "q": [
+          7.84016512025455,
+          7.858734519976136
+        ],
+        "length": 13.74,
+        "width": 4.2,
+        "height": 3.4,
+        "status": "기본 구조·문 / 미완료",
+        "complete": false,
+        "checks": {
+          "구조·문 접합": false,
+          "프랍·설비": false,
+          "재질·생활 흔적": false,
+          "조명·시야": false,
+          "이동·충돌·성능 검수": false
+        }
+      },
+      {
+        "id": "B5-T04",
+        "from_sector": 3,
+        "to_sector": 4,
+        "p": [
+          16.6594927233091,
+          -2.193696470654256
+        ],
+        "q": [
+          16.19246063465138,
+          -14.803562864412811
+        ],
+        "length": 12.62,
+        "width": 4.2,
+        "height": 3.4,
+        "status": "기본 구조·문 / 미완료",
+        "complete": false,
+        "checks": {
+          "구조·문 접합": false,
+          "프랍·설비": false,
+          "재질·생활 흔적": false,
+          "조명·시야": false,
+          "이동·충돌·성능 검수": false
+        }
+      },
+      {
+        "id": "B5-T05",
+        "from_sector": 4,
+        "to_sector": 2,
+        "p": [
+          10.80718728747095,
+          -19.726694067761628
+        ],
+        "q": [
+          -15.80856945813844,
+          -18.325864765361136
+        ],
+        "length": 26.65,
+        "width": 4.2,
+        "height": 3.4,
+        "status": "기본 구조·문 / 미완료",
+        "complete": false,
+        "checks": {
+          "구조·문 접합": false,
+          "프랍·설비": false,
+          "재질·생활 흔적": false,
+          "조명·시야": false,
+          "이동·충돌·성능 검수": false
+        }
+      },
+      {
+        "id": "B5-T06",
+        "from_sector": 4,
+        "to_sector": 7,
+        "p": [
+          20.999924527732283,
+          -21.428549865066365
+        ],
+        "q": [
+          39.961599419908545,
+          -26.846171262831014
+        ],
+        "length": 19.72,
+        "width": 4.2,
+        "height": 3.4,
+        "status": "기본 구조·문 / 미완료",
+        "complete": false,
+        "checks": {
+          "구조·문 접합": false,
+          "프랍·설비": false,
+          "재질·생활 흔적": false,
+          "조명·시야": false,
+          "이동·충돌·성능 검수": false
+        }
+      },
+      {
+        "id": "B5-T07",
+        "from_sector": 3,
+        "to_sector": 6,
+        "p": [
+          24.2620403998622,
+          12.648253644337267
+        ],
+        "q": [
+          40.68472068701943,
+          25.421449423237334
+        ],
+        "length": 20.81,
+        "width": 4.2,
+        "height": 3.4,
+        "status": "기본 구조·문 / 미완료",
+        "complete": false,
+        "checks": {
+          "구조·문 접합": false,
+          "프랍·설비": false,
+          "재질·생활 흔적": false,
+          "조명·시야": false,
+          "이동·충돌·성능 검수": false
+        }
+      }
+    ],
+    "owns": [
+      "터널 외피·바닥",
+      "리브·문 접합 칼라",
+      "양 끝 문틀·문짝·수납 포켓",
+      "양면 키패드",
+      "복도 조명·배관·트레이",
+      "안내선·벽측 엄폐"
+    ],
+    "boundary": "도면 p/q 문 경계에서 인접 돔과 함께 접합 검사. 복도 1개는 단독 작업 단위로 검수."
+  },
+  "completion_stages": [
+    "구조·문 접합",
+    "프랍·설비",
+    "재질·생활 흔적",
+    "조명·시야",
+    "이동·충돌·성능 검수"
+  ],
+  "work_sequence": [
+    "B5-S01",
+    "B5-T01",
+    "B5-S02",
+    "B5-T02",
+    "B5-S05",
+    "B5-T03",
+    "B5-S03",
+    "B5-T04",
+    "B5-S04",
+    "B5-T05",
+    "B5-T06",
+    "B5-S07",
+    "B5-T07",
+    "B5-S06",
+    "B5-INTEGRATION"
+  ],
+  "next": "B5-C01",
+  "numbering_rule": "공간 코드 C01~C04, VA/VB/VL 순서. 번호는 작업 우선순위·플레이 이동 순서와 별개.",
+  "completion_rule": "5단계 검사와 증빙이 모두 끝난 단위만 완료. 기본 구조/파일 존재/일부 배치를 완료로 계산하지 않음.",
+  "runtime_scope": "AI·문·스위치 동작·미니맵은 사용자 직접 구현. 이번 번호는 제작 관리용 도면 표기.",
+  "source_layout_sha256": "2666eeb162293fccad4e033848c6eb3007d6ccb1270c4984817dae3a9ccabcf5",
+  "latest_decision": "2026-11-06 최신 사용자 변경: 층별조감도의 외형·공간 구성을 제작 기준으로 삼는다. C01 피험체 격리 공동은 실험·일시 격리 공간이며 생활실이 아니다. 침상·개인 책상·수납·세면 등 생활시설은 별도의 격리 생활 공동에 둔다. 전체 돔은 11개로 재편하되 계단 A/B·승강기 코어의 포함 여부는 확인 중이다. 조감도의 공간 코드를 섹터 코드로 쓰고, 이전 Unity 기준 1~7 번호는 이력으로 보관한다. C01의 완료 보고는 철회한다. 현재는 기존 생활 배치 초안과 기술 검사만 있는 상태이며 아트·실험실 배치 재작업이 필요하다.",
+  "pending_revision": {
+    "target_domes": 11,
+    "includes_vertical_cores": null,
+    "reference": "층별조감도/B5_실내조감도.png",
+    "status": "코어 포함 여부 확인 후 상세 통합안 작성",
+    "previous_numbering_obsolete": true
+  }
+}

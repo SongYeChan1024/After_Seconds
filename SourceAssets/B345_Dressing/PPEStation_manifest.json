@@ -1,0 +1,24 @@
+{
+  "name": "PPEStation",
+  "dimensions": [
+    0.95,
+    1.65,
+    0.45
+  ],
+  "triangles": [
+    11889,
+    4754,
+    1426
+  ],
+  "materials": [
+    {
+      "name": "SD_PPEStation",
+      "Albedo": "SD_PPEStation_Albedo.png",
+      "ORM": "SD_PPEStation_ORM.png",
+      "MetallicSmoothness": "SD_PPEStation_MetallicSmoothness.png",
+      "Normal": "SD_PPEStation_Normal.png"
+    }
+  ],
+  "degenerateRemoved": 0,
+  "source": "VARCO remesh + Blender bevel/LOD"
+}

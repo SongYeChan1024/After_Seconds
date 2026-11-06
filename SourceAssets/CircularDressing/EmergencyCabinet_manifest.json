@@ -1,0 +1,24 @@
+{
+  "name": "EmergencyCabinet",
+  "dimensions": [
+    0.8055795551977099,
+    1.4,
+    0.49339462312264004
+  ],
+  "triangles": [
+    8236,
+    3293,
+    988
+  ],
+  "materials": [
+    {
+      "name": "CFD_EmergencyCabinet",
+      "Albedo": "CFD_EmergencyCabinet_Albedo.png",
+      "ORM": "CFD_EmergencyCabinet_ORM.png",
+      "MetallicSmoothness": "CFD_EmergencyCabinet_MetallicSmoothness.png",
+      "Normal": "CFD_EmergencyCabinet_Normal.png"
+    }
+  ],
+  "degenerateRemoved": 0,
+  "source": "VARCO remesh + Blender bevel/LOD"
+}

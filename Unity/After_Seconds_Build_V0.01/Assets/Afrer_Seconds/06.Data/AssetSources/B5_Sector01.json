@@ -1,0 +1,811 @@
+{
+  "version": "V0.01",
+  "author": "송예찬",
+  "sector": "B5 C01",
+  "decision": "사용자 확인: 새 Decision 전체 조감도는 참고용이다. C01 내부 배치는 현재 Unity의 포드 내부 생활시설·외부 관찰/진료 구획을 유지한다.",
+  "varco": {
+    "flow": "8f7100a4-a7df-488b-81ee-0c2ac6ae60d8",
+    "run": {
+      "kind": "runStarted",
+      "executionId": "e5ca598c-9bbf-4c61-bead-95e3f51339db",
+      "points": 750
+    },
+    "jobs": [
+      {
+        "name": "IsolationBed",
+        "height": 0.8,
+        "axis": "length",
+        "target": 2.05,
+        "poly": 14000,
+        "prompt": "After Seconds B5 isolation laboratory, one realistic adult single institutional bed, 205 cm long and 85 cm wide, four sturdy feet, restrained pale blue painted steel tubular frame, rounded manufactured edges, thin grey-blue mattress with sewn seam, one pale pillow, rumpled off-white bedsheet and folded desaturated blue blanket, subtle contact wear and use, believable real laboratory furnishing not futuristic glowing furniture. Full complete object including feet. Three-quarter product view on plain neutral grey background, no room, no people, no text, no other furniture. Clean detailed game-ready reference, physically based materials, real proportions.",
+        "text": "05892fea-de86-4f59-b3e0-01f687414e42",
+        "image": "949a7e24-c612-4908-addf-d1971ee9702e",
+        "mesh": "90df3a1c-699e-47d1-8ac5-b36a8bc3cd06",
+        "remesh": "e78550f6-894f-4a53-841a-cfe6bcddda75",
+        "downloads": {
+          "kind": "outputDownloads",
+          "downloads": [
+            {
+              "nodeId": "e78550f6-894f-4a53-841a-cfe6bcddda75",
+              "outputIndex": 0,
+              "type": "3d",
+              "taskId": "d7014edd-2e02-4f68-a333-79f92e576793",
+              "exportType": "glb",
+              "url": "https://3d.varco.ai/api/objects/441dc1eea843732cb45dffb9f3679bcc.glb",
+              "error": null
+            }
+          ]
+        }
+      },
+      {
+        "name": "SanitaryUnit",
+        "height": 0.95,
+        "axis": "height",
+        "target": 0.95,
+        "poly": 10000,
+        "prompt": "After Seconds B5 isolation laboratory single compact stainless steel institutional toilet and washbasin combination fixture. Floor standing prison hospital sanitary unit, smoothly rounded brushed steel toilet bowl projecting from lower front, physically hollow dark bowl cavity, small wash basin and short faucet on upper back cabinet, flush button, welded joints, side service panel and screws. Width about 55cm depth 75cm height95cm. Subtle water stains near basin and worn steel contact points, no exaggerated rust, realistic rounded edges. One complete standalone object, three-quarter product view on plain neutral grey background, no room, no people, no letters, no other props. Detailed PBR reference.",
+        "text": "87887d07-506a-4503-8e12-40a4c4ebd589",
+        "image": "67fba7eb-07fe-4e7f-a6a3-02d08cf9a789",
+        "mesh": "232fb16c-9bc2-4518-b4c8-02e7d010a280",
+        "remesh": "114afd6d-fe00-4d77-895a-a878e202a28c",
+        "downloads": {
+          "kind": "outputDownloads",
+          "downloads": [
+            {
+              "nodeId": "114afd6d-fe00-4d77-895a-a878e202a28c",
+              "outputIndex": 0,
+              "type": "3d",
+              "taskId": "30cd257a-9b1b-4004-ac42-56f11957d0c2",
+              "exportType": "glb",
+              "url": "https://3d.varco.ai/api/objects/a247127eed32b614092f39522ac54fe9.glb",
+              "error": null
+            }
+          ]
+        }
+      },
+      {
+        "name": "VitalMonitor",
+        "height": 1.48,
+        "axis": "height",
+        "target": 1.48,
+        "poly": 12000,
+        "prompt": "After Seconds B5 clinical isolation laboratory single bedside vital signs monitor on a compact rolling trolley. Four small wheels, stable low H-shaped foot, metal upright column, one modest landscape dark screen in a pale grey-blue injection molded housing with buttons and recessed connectors, coiled sensor leads hanging neatly from a hook, small tray below screen. Height1.48m and width0.55m, realistic human scale. Worn painted metal, brushed stainless, black rubber tires, restrained unlit display. No flashy glowing symbols. Rounded manufactured edges and seams. Entire object including wheels visible, three-quarter product view on plain neutral grey background, no people, no environment, no text captions.",
+        "text": "4b9fe322-d168-4174-ab3d-4be536dc1d76",
+        "image": "2637c346-74ba-4079-a6db-de88a6c316fe",
+        "mesh": "4c6bb2c3-1623-4581-a94c-9f3c3f95436f",
+        "remesh": "ba2d1cd9-bf4f-42a3-b6e8-83137102ff18",
+        "downloads": {
+          "kind": "outputDownloads",
+          "downloads": [
+            {
+              "nodeId": "ba2d1cd9-bf4f-42a3-b6e8-83137102ff18",
+              "outputIndex": 0,
+              "type": "3d",
+              "taskId": "da8c8ea0-3b12-4976-9404-c0fe19768ac0",
+              "exportType": "glb",
+              "url": "https://3d.varco.ai/api/objects/4c6cbb88138047baf69a7e9f750a1e85.glb",
+              "error": null
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "blender": {
+    "S1_VaultRibs": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Environment\\B5\\S1_VaultRibs.fbx",
+      "parts": 153,
+      "beveled_parts": 153,
+      "triangles": 43164,
+      "props": false,
+      "collide": true
+    },
+    "S1_CoveRing": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Environment\\B5\\S1_CoveRing.fbx",
+      "parts": 30,
+      "beveled_parts": 30,
+      "triangles": 17760,
+      "props": false,
+      "collide": true
+    },
+    "S1_FloorFinish": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Environment\\B5\\S1_FloorFinish.fbx",
+      "parts": 19,
+      "beveled_parts": 1,
+      "triangles": 2516,
+      "props": false,
+      "collide": false
+    },
+    "S1_WallTaskLight": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Environment\\B5\\S1_WallTaskLight.fbx",
+      "parts": 8,
+      "beveled_parts": 8,
+      "triangles": 1456,
+      "props": false,
+      "collide": true
+    },
+    "S1_PrivacyScreen": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Environment\\B5\\S1_PrivacyScreen.fbx",
+      "parts": 8,
+      "beveled_parts": 8,
+      "triangles": 1600,
+      "props": false,
+      "collide": true
+    },
+    "S1_PersonalLocker": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\S1_PersonalLocker.fbx",
+      "parts": 16,
+      "beveled_parts": 16,
+      "triangles": 3296,
+      "props": true,
+      "collide": true
+    },
+    "S1_TabletopKit": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\S1_TabletopKit.fbx",
+      "parts": 13,
+      "beveled_parts": 13,
+      "triangles": 2780,
+      "props": true,
+      "collide": false
+    },
+    "S1_HygieneKit": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\S1_HygieneKit.fbx",
+      "parts": 8,
+      "beveled_parts": 8,
+      "triangles": 1752,
+      "props": true,
+      "collide": false
+    },
+    "S1_Slippers": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\S1_Slippers.fbx",
+      "parts": 4,
+      "beveled_parts": 4,
+      "triangles": 752,
+      "props": true,
+      "collide": false
+    },
+    "S1_PersonalBox": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\S1_PersonalBox.fbx",
+      "parts": 6,
+      "beveled_parts": 6,
+      "triangles": 1176,
+      "props": true,
+      "collide": true
+    },
+    "S1_Mirror": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Environment\\B5\\S1_Mirror.fbx",
+      "parts": 2,
+      "beveled_parts": 2,
+      "triangles": 376,
+      "props": false,
+      "collide": true
+    },
+    "S1_CallPanel": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Environment\\B5\\S1_CallPanel.fbx",
+      "parts": 7,
+      "beveled_parts": 7,
+      "triangles": 1412,
+      "props": false,
+      "collide": true
+    },
+    "S1_Clock": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Environment\\B5\\S1_Clock.fbx",
+      "parts": 16,
+      "beveled_parts": 16,
+      "triangles": 3824,
+      "props": false,
+      "collide": true
+    },
+    "S1_RecordBoard": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Environment\\B5\\S1_RecordBoard.fbx",
+      "parts": 9,
+      "beveled_parts": 9,
+      "triangles": 1692,
+      "props": false,
+      "collide": true
+    },
+    "S1_SpecimenPlate": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Environment\\B5\\S1_SpecimenPlate.fbx",
+      "parts": 20,
+      "beveled_parts": 19,
+      "triangles": 5036,
+      "props": false,
+      "collide": true
+    },
+    "S1_ServiceRiser": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Environment\\B5\\S1_ServiceRiser.fbx",
+      "parts": 13,
+      "beveled_parts": 13,
+      "triangles": 2304,
+      "props": false,
+      "collide": true
+    },
+    "S1_ServiceBackboard": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Environment\\B5\\S1_ServiceBackboard.fbx",
+      "parts": 9,
+      "beveled_parts": 9,
+      "triangles": 1596,
+      "props": false,
+      "collide": true
+    },
+    "S1_HygieneShelf": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\S1_HygieneShelf.fbx",
+      "parts": 11,
+      "beveled_parts": 11,
+      "triangles": 2548,
+      "props": true,
+      "collide": true
+    },
+    "S1_LivingDesk": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\S1_LivingDesk.fbx",
+      "parts": 28,
+      "beveled_parts": 28,
+      "triangles": 6032,
+      "props": true,
+      "collide": true
+    },
+    "S1_PortalCollars": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Environment\\B5\\S1_PortalCollars.fbx",
+      "parts": 2,
+      "beveled_parts": 2,
+      "triangles": 4408,
+      "props": false,
+      "collide": true
+    }
+  },
+  "placements": [
+    {
+      "name": "S1_VaultRibs_00",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_VaultRibs.prefab",
+      "position": [
+        -15.0,
+        -82.0,
+        -10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "S1_CoveRing_01",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_CoveRing.prefab",
+      "position": [
+        -15.0,
+        -82.0,
+        -10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "S1_FloorFinish_02",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_FloorFinish.prefab",
+      "position": [
+        -15.0,
+        -82.0,
+        -10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "S1_WallTaskLight_03",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_WallTaskLight.prefab",
+      "position": [
+        -7.84514475,
+        -78.82,
+        -3.996364
+      ],
+      "rotation": [
+        0.0,
+        230.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "S1_WallTaskLight_04",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_WallTaskLight.prefab",
+      "position": [
+        -22.1548557,
+        -78.82,
+        -3.99636316
+      ],
+      "rotation": [
+        0.0,
+        130.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "S1_WallTaskLight_05",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_WallTaskLight.prefab",
+      "position": [
+        -22.1548557,
+        -78.82,
+        -16.0036354
+      ],
+      "rotation": [
+        0.0,
+        50.0000076,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "S1_WallTaskLight_06",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_WallTaskLight.prefab",
+      "position": [
+        -7.845146,
+        -78.82,
+        -16.0036373
+      ],
+      "rotation": [
+        0.0,
+        310.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "S1_IsolationBed_07",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/S1_IsolationBed.prefab",
+      "position": [
+        -17.28,
+        -82.0,
+        -10.45
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "S1_SanitaryUnit_08",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/S1_SanitaryUnit.prefab",
+      "position": [
+        -15.52,
+        -82.0,
+        -7.31999969
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "S1_PrivacyScreen_09",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_PrivacyScreen.prefab",
+      "position": [
+        -15.68,
+        -82.0,
+        -8.52
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "S1_PersonalLocker_10",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/S1_PersonalLocker.prefab",
+      "position": [
+        -13.18,
+        -82.0,
+        -8.15
+      ],
+      "rotation": [
+        0.0,
+        220.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "S1_TabletopKit_11",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/S1_TabletopKit.prefab",
+      "position": [
+        -12.45,
+        -81.231,
+        -10.75
+      ],
+      "rotation": [
+        0.0,
+        270.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "S1_Slippers_12",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/S1_Slippers.prefab",
+      "position": [
+        -16.45,
+        -81.993,
+        -10.8
+      ],
+      "rotation": [
+        0.0,
+        15.000001,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "S1_PersonalBox_13",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/S1_PersonalBox.prefab",
+      "position": [
+        -17.15,
+        -81.99,
+        -11.88
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "S1_HygieneKit_14",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/S1_HygieneKit.prefab",
+      "position": [
+        -14.64,
+        -81.038,
+        -7.4
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "S1_Mirror_15",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_Mirror.prefab",
+      "position": [
+        -14.975,
+        -81.17,
+        -8.08
+      ],
+      "rotation": [
+        0.0,
+        270.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "S1_CallPanel_16",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_CallPanel.prefab",
+      "position": [
+        -15.68,
+        -81.12,
+        -8.562
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "S1_SpecimenPlate_17",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_SpecimenPlate.prefab",
+      "position": [
+        -14.36,
+        -81.16,
+        -14.01
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "S1_VitalMonitor_18",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/S1_VitalMonitor.prefab",
+      "position": [
+        -17.7,
+        -82.0,
+        -15.55
+      ],
+      "rotation": [
+        0.0,
+        335.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "S1_RecordBoard_19",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_RecordBoard.prefab",
+      "position": [
+        -15.23,
+        -80.75,
+        -18.7
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "S1_Clock_20",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_Clock.prefab",
+      "position": [
+        -15.02,
+        -80.28,
+        -18.7
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Pod_Interior_Task",
+      "asset": "",
+      "position": [
+        -15.0,
+        -76.1,
+        -10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Living_Indirect",
+      "asset": "",
+      "position": [
+        -16.0,
+        -79.2,
+        -9.7
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "S1_CCTV_Static",
+      "asset": "Assets/Afrer_Seconds/05.Model/Enemy/CCTV_SecurityCamera_Articulated.prefab",
+      "position": [
+        -10.72596,
+        -79.12,
+        -2.90174
+      ],
+      "rotation": [
+        0.0,
+        215.0,
+        0.0
+      ],
+      "scale": [
+        0.898432434,
+        0.898432434,
+        0.898432434
+      ]
+    },
+    {
+      "name": "S1_ServiceRiser_22",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_ServiceRiser.prefab",
+      "position": [
+        -10.3,
+        -81.98,
+        -3.19999981
+      ],
+      "rotation": [
+        0.0,
+        215.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "S1_ServiceBackboard_Support",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_ServiceBackboard.prefab",
+      "position": [
+        -15.0,
+        -82.0,
+        -18.76
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "S1_HygieneShelf_Support",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/S1_HygieneShelf.prefab",
+      "position": [
+        -14.64,
+        -82.0,
+        -7.4
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "S1_LivingDesk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/S1_LivingDesk.prefab",
+      "position": [
+        -12.45,
+        -82.0,
+        -10.75
+      ],
+      "rotation": [
+        0.0,
+        270.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "S1_PortalCollars",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_PortalCollars.prefab",
+      "position": [
+        -15.0,
+        -82.0,
+        -10.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Circular.unity",
+  "runtime_code_added": false
+}

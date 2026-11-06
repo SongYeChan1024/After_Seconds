@@ -27,3 +27,8 @@ tmp/
 
 # Blender automatic backup files (editable .blend originals remain tracked)
 *.blend[1-9]
+
+# Python caches and temporary Unity capture folder metadata
+__pycache__/
+*.pyc
+**/Assets/Temp.meta

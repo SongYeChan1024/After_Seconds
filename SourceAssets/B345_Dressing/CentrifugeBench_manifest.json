@@ -1,0 +1,24 @@
+{
+  "name": "CentrifugeBench",
+  "dimensions": [
+    1.4,
+    1.1,
+    0.65
+  ],
+  "triangles": [
+    10737,
+    4294,
+    1288
+  ],
+  "materials": [
+    {
+      "name": "SD_CentrifugeBench",
+      "Albedo": "SD_CentrifugeBench_Albedo.png",
+      "ORM": "SD_CentrifugeBench_ORM.png",
+      "MetallicSmoothness": "SD_CentrifugeBench_MetallicSmoothness.png",
+      "Normal": "SD_CentrifugeBench_Normal.png"
+    }
+  ],
+  "degenerateRemoved": 0,
+  "source": "VARCO remesh + Blender bevel/LOD"
+}

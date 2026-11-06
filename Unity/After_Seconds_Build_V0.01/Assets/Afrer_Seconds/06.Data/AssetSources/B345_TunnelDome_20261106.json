@@ -1,0 +1,27 @@
+{
+  "title": "B345 Tunnel Dome and Surface Wear V0.01",
+  "author": "송예찬",
+  "date": "2026-11-06",
+  "reference": "Docs/Reference/Reference_004.jpg",
+  "floors": [
+    "B5",
+    "B4",
+    "B3"
+  ],
+  "planVersion": "V0.04",
+  "models": [
+    "WC_<floor>_Architecture.fbx",
+    "WC_<floor>_Walls.fbx",
+    "WA_<floor>_Interior.fbx"
+  ],
+  "sources": "SourceAssets/B345_WideInterior",
+  "originalAssetsPreserved": true,
+  "removedLargeBaffles": 12,
+  "newWallEquipment": 12,
+  "reusedEquipmentPrefab": "SD_PPEStation.prefab",
+  "equipmentOrigin": "Existing VARCO V0.03 + Blender asset",
+  "newRuntimeScripts": 0,
+  "wallWear": "WS Clean/Staff/Steel/Concrete, dust/wipes/contact marks",
+  "caseWear": "SW six irregular use-wear materials, all LODs",
+  "validation": "Docs/검수/2026-11-06_B345_WideInterior/검수결과.md"
+}
