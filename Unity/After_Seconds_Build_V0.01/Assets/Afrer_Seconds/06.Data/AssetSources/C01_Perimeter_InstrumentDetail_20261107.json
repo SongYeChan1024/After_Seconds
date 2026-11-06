@@ -1,0 +1,339 @@
+{
+  "author": "송예찬",
+  "date": "2026-11-07",
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Circular.unity",
+  "sources": [
+    "SourceAssets/C01_Perimeter",
+    "SourceAssets/C01_InstrumentDetail"
+  ],
+  "originalVital": "SourceAssets/B5_Sector01/S1_VitalMonitor.blend",
+  "acceptedStations": 30,
+  "newInstrumentAndStorageTypes": 21,
+  "lcdTextures": 13,
+  "labelTextures": 6,
+  "staticVisualsOnly": true,
+  "newRuntimeScripts": 0,
+  "paidGeneration": false,
+  "models": {
+    "ID_BinocularMicroscope": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\ID_BinocularMicroscope.fbx",
+      "parts": 24,
+      "beveled_parts": 23,
+      "triangles": 4582,
+      "props": true,
+      "collide": true
+    },
+    "ID_ThermalCycler": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\ID_ThermalCycler.fbx",
+      "parts": 36,
+      "beveled_parts": 32,
+      "triangles": 4650,
+      "props": true,
+      "collide": true
+    },
+    "ID_PipetteWorkstation": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\ID_PipetteWorkstation.fbx",
+      "parts": 94,
+      "beveled_parts": 88,
+      "triangles": 17654,
+      "props": true,
+      "collide": true
+    },
+    "ID_FlowCytometer": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\ID_FlowCytometer.fbx",
+      "parts": 46,
+      "beveled_parts": 37,
+      "triangles": 4842,
+      "props": true,
+      "collide": true
+    },
+    "ID_PrecisionBalance": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\ID_PrecisionBalance.fbx",
+      "parts": 41,
+      "beveled_parts": 33,
+      "triangles": 5278,
+      "props": true,
+      "collide": true
+    },
+    "ID_DualMagneticStirrer": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\ID_DualMagneticStirrer.fbx",
+      "parts": 33,
+      "beveled_parts": 29,
+      "triangles": 5134,
+      "props": true,
+      "collide": true
+    },
+    "ID_ChromatographyStack": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\ID_ChromatographyStack.fbx",
+      "parts": 57,
+      "beveled_parts": 44,
+      "triangles": 6022,
+      "props": true,
+      "collide": true
+    },
+    "ID_UltrasonicBath": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\ID_UltrasonicBath.fbx",
+      "parts": 44,
+      "beveled_parts": 40,
+      "triangles": 6394,
+      "props": true,
+      "collide": true
+    },
+    "ID_GlasswareDryingRack": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\ID_GlasswareDryingRack.fbx",
+      "parts": 18,
+      "beveled_parts": 18,
+      "triangles": 2776,
+      "props": true,
+      "collide": true
+    },
+    "ID_BenchAutoclave": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\ID_BenchAutoclave.fbx",
+      "parts": 33,
+      "beveled_parts": 28,
+      "triangles": 5234,
+      "props": true,
+      "collide": true
+    },
+    "ID_SlideScanner": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\ID_SlideScanner.fbx",
+      "parts": 36,
+      "beveled_parts": 32,
+      "triangles": 4194,
+      "props": true,
+      "collide": true
+    },
+    "ID_DualVortexMixer": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\ID_DualVortexMixer.fbx",
+      "parts": 35,
+      "beveled_parts": 29,
+      "triangles": 4390,
+      "props": true,
+      "collide": true
+    },
+    "ID_MicroplateHandler": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\ID_MicroplateHandler.fbx",
+      "parts": 134,
+      "beveled_parts": 130,
+      "triangles": 31626,
+      "props": true,
+      "collide": true
+    },
+    "ID_TubeRotator": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\ID_TubeRotator.fbx",
+      "parts": 44,
+      "beveled_parts": 40,
+      "triangles": 6130,
+      "props": true,
+      "collide": true
+    },
+    "ID_SterileSealer": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\ID_SterileSealer.fbx",
+      "parts": 39,
+      "beveled_parts": 32,
+      "triangles": 4558,
+      "props": true,
+      "collide": true
+    },
+    "ID_LabelPrinter": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\ID_LabelPrinter.fbx",
+      "parts": 35,
+      "beveled_parts": 30,
+      "triangles": 3692,
+      "props": true,
+      "collide": true
+    },
+    "ID_CryoDrawerBank": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\ID_CryoDrawerBank.fbx",
+      "parts": 45,
+      "beveled_parts": 37,
+      "triangles": 6542,
+      "props": true,
+      "collide": true
+    },
+    "ID_GlassSpecimenCabinet": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\ID_GlassSpecimenCabinet.fbx",
+      "parts": 64,
+      "beveled_parts": 47,
+      "triangles": 5270,
+      "props": true,
+      "collide": true
+    },
+    "ID_MixedSupplyShelf": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\ID_MixedSupplyShelf.fbx",
+      "parts": 30,
+      "beveled_parts": 23,
+      "triangles": 2720,
+      "props": true,
+      "collide": true
+    },
+    "ID_LiftUpUpperCabinet": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\ID_LiftUpUpperCabinet.fbx",
+      "parts": 11,
+      "beveled_parts": 10,
+      "triangles": 2090,
+      "props": true,
+      "collide": true
+    },
+    "ID_IndexedDrawerBench": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\ID_IndexedDrawerBench.fbx",
+      "parts": 25,
+      "beveled_parts": 22,
+      "triangles": 3894,
+      "props": true,
+      "collide": true
+    }
+  },
+  "perimeterModels": {
+    "CP_LabBench": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\CP_LabBench.fbx",
+      "parts": 14,
+      "beveled_parts": 14,
+      "triangles": 2520,
+      "props": true,
+      "collide": true
+    },
+    "CP_DrawerBench": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\CP_DrawerBench.fbx",
+      "parts": 18,
+      "beveled_parts": 18,
+      "triangles": 3456,
+      "props": true,
+      "collide": true
+    },
+    "CP_UpperCabinet": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\CP_UpperCabinet.fbx",
+      "parts": 10,
+      "beveled_parts": 10,
+      "triangles": 2088,
+      "props": true,
+      "collide": true
+    },
+    "CP_ReagentShelf": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\CP_ReagentShelf.fbx",
+      "parts": 51,
+      "beveled_parts": 33,
+      "triangles": 4356,
+      "props": true,
+      "collide": true
+    },
+    "CP_ServicePanel": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\CP_ServicePanel.fbx",
+      "parts": 20,
+      "beveled_parts": 12,
+      "triangles": 1456,
+      "props": true,
+      "collide": true
+    },
+    "CP_WashBench": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\CP_WashBench.fbx",
+      "parts": 33,
+      "beveled_parts": 33,
+      "triangles": 5260,
+      "props": true,
+      "collide": true
+    },
+    "CP_ColdStorage": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\CP_ColdStorage.fbx",
+      "parts": 28,
+      "beveled_parts": 24,
+      "triangles": 2674,
+      "props": true,
+      "collide": true
+    },
+    "CP_OpticalAnalyzer": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\CP_OpticalAnalyzer.fbx",
+      "parts": 55,
+      "beveled_parts": 43,
+      "triangles": 6182,
+      "props": true,
+      "collide": true
+    },
+    "CP_Centrifuge": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\CP_Centrifuge.fbx",
+      "parts": 16,
+      "beveled_parts": 12,
+      "triangles": 2090,
+      "props": true,
+      "collide": true
+    },
+    "CP_PreparationKit": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\CP_PreparationKit.fbx",
+      "parts": 29,
+      "beveled_parts": 22,
+      "triangles": 2780,
+      "props": true,
+      "collide": true
+    },
+    "CP_ObservationConsole": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\CP_ObservationConsole.fbx",
+      "parts": 76,
+      "beveled_parts": 69,
+      "triangles": 8990,
+      "props": true,
+      "collide": true
+    },
+    "CP_PPEStation": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\CP_PPEStation.fbx",
+      "parts": 28,
+      "beveled_parts": 28,
+      "triangles": 3968,
+      "props": true,
+      "collide": true
+    },
+    "CP_EmergencyCabinet": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\CP_EmergencyCabinet.fbx",
+      "parts": 71,
+      "beveled_parts": 62,
+      "triangles": 8260,
+      "props": true,
+      "collide": true
+    },
+    "CP_EmergencyGlass": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\CP_EmergencyGlass.fbx",
+      "parts": 2,
+      "beveled_parts": 2,
+      "triangles": 216,
+      "props": true,
+      "collide": true
+    },
+    "CP_PerimeterServiceRuns": {
+      "asset": "Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\CP_PerimeterServiceRuns.fbx",
+      "parts": 65,
+      "beveled_parts": 65,
+      "triangles": 7836,
+      "props": true,
+      "collide": true
+    }
+  },
+  "vitalRepair": {
+    "before": {
+      "vertices": 10622,
+      "faces": 12000,
+      "boundary": 8186
+    },
+    "weldedOriginal": {
+      "vertices": 5790,
+      "faces": 12000,
+      "boundary": 0,
+      "nonmanifold": 0
+    },
+    "boundaryLoopsBeforeFill": [],
+    "smallLoopsFilled": 0,
+    "triangles": [
+      18748,
+      11552,
+      5576
+    ],
+    "housingUVPreserved": true,
+    "rebuilt": [
+      "stand",
+      "tray",
+      "four double casters",
+      "sensor cables",
+      "sealed face controls",
+      "display"
+    ],
+    "originalSourceUnchanged": true
+  }
+}

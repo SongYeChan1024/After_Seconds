@@ -1,0 +1,279 @@
+{
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Circular.unity",
+  "dirty": true,
+  "playing": false,
+  "roots": [
+    "Player_Dummy_V0.1",
+    "Camera",
+    "B5_Circular_Core_V0.03"
+  ],
+  "details": [
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art",
+      "pos": "(-15.0000, -82.0000, -10.0000)",
+      "local": "(-15.0000, 0.0000, -10.0000)",
+      "rotation": "(0.0000, 0.0000, 0.0000)",
+      "scale": "(1.0000, 1.0000, 1.0000)",
+      "active": true,
+      "meshes": [
+        {
+          "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/AF_C01_CurvedLining",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/AF_C01_CurvedLining.fbx",
+          "verts": 85525,
+          "bounds": "Center: (-15.08, -77.33, -10.00), Extents: (9.88, 4.63, 9.96)",
+          "materials": [
+            {
+              "name": "S1_Coat",
+              "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/S1_Coat.mat",
+              "color": "RGBA(0.880, 0.930, 0.970, 1.000)",
+              "metal": 0.04,
+              "smooth": 1.0
+            }
+          ]
+        },
+        {
+          "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/AF_C01_ThreePortalRibs",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/AF_C01_ThreePortalRibs.fbx",
+          "verts": 38996,
+          "bounds": "Center: (-15.00, -77.02, -10.00), Extents: (9.79, 4.98, 9.79)",
+          "materials": [
+            {
+              "name": "AF_C01_RibMetal",
+              "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/AF_C01_RibMetal.mat",
+              "color": "RGBA(0.470, 0.550, 0.600, 1.000)",
+              "metal": 0.64,
+              "smooth": 0.43
+            },
+            {
+              "name": "AF_C01_RibJoint",
+              "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/AF_C01_RibJoint.mat",
+              "color": "RGBA(0.320, 0.400, 0.450, 1.000)",
+              "metal": 0.68,
+              "smooth": 0.5
+            },
+            {
+              "name": "AF_C01_RibAnchor",
+              "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/AF_C01_RibAnchor.mat",
+              "color": "RGBA(0.570, 0.630, 0.670, 1.000)",
+              "metal": 0.8,
+              "smooth": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/AF_C01_CurvedLining",
+      "pos": "(-15.0000, -82.0000, -10.0000)",
+      "local": "(0.0000, 0.0000, 0.0000)",
+      "rotation": "(0.0000, 0.0000, 0.0000)",
+      "scale": "(1.0000, 1.0000, 1.0000)",
+      "active": true,
+      "meshes": [
+        {
+          "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/AF_C01_CurvedLining",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/AF_C01_CurvedLining.fbx",
+          "verts": 85525,
+          "bounds": "Center: (-15.08, -77.33, -10.00), Extents: (9.88, 4.63, 9.96)",
+          "materials": [
+            {
+              "name": "S1_Coat",
+              "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/S1_Coat.mat",
+              "color": "RGBA(0.880, 0.930, 0.970, 1.000)",
+              "metal": 0.04,
+              "smooth": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/AF_C01_ThreePortalRibs",
+      "pos": "(-15.0000, -82.0000, -10.0000)",
+      "local": "(0.0000, 0.0000, 0.0000)",
+      "rotation": "(0.0000, 0.0000, 0.0000)",
+      "scale": "(1.0000, 1.0000, 1.0000)",
+      "active": true,
+      "meshes": [
+        {
+          "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/AF_C01_ThreePortalRibs",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/AF_C01_ThreePortalRibs.fbx",
+          "verts": 38996,
+          "bounds": "Center: (-15.00, -77.02, -10.00), Extents: (9.79, 4.98, 9.79)",
+          "materials": [
+            {
+              "name": "AF_C01_RibMetal",
+              "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/AF_C01_RibMetal.mat",
+              "color": "RGBA(0.470, 0.550, 0.600, 1.000)",
+              "metal": 0.64,
+              "smooth": 0.43
+            },
+            {
+              "name": "AF_C01_RibJoint",
+              "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/AF_C01_RibJoint.mat",
+              "color": "RGBA(0.320, 0.400, 0.450, 1.000)",
+              "metal": 0.68,
+              "smooth": 0.5
+            },
+            {
+              "name": "AF_C01_RibAnchor",
+              "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/AF_C01_RibAnchor.mat",
+              "color": "RGBA(0.570, 0.630, 0.670, 1.000)",
+              "metal": 0.8,
+              "smooth": 0.6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/AF_B5_PortalCollars",
+      "pos": "(0.0000, -82.0000, 0.0000)",
+      "local": "(0.0000, 0.0000, 0.0000)",
+      "rotation": "(0.0000, 0.0000, 0.0000)",
+      "scale": "(1.0000, 1.0000, 1.0000)",
+      "active": true,
+      "meshes": [
+        {
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/AF_B5_PortalCollars",
+          "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/AF_B5_PortalCollars.fbx",
+          "verts": 57442,
+          "bounds": "Center: (0.79, -79.54, -1.55), Extents: (119.66, 1.16, 72.09)",
+          "materials": [
+            {
+              "name": "S1_Coat",
+              "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/S1_Coat.mat",
+              "color": "RGBA(0.880, 0.930, 0.970, 1.000)",
+              "metal": 0.04,
+              "smooth": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "name": "S1_VaultRibs_00",
+      "pos": "(0.000, 0.000, 0.000)",
+      "active": false
+    },
+    {
+      "name": "S1_CoveRing_01",
+      "pos": "(0.000, 0.000, 0.000)",
+      "active": false
+    },
+    {
+      "name": "S1_FloorFinish_02",
+      "pos": "(0.000, 0.000, 0.000)",
+      "active": true
+    },
+    {
+      "name": "S1_WallTaskLight_03",
+      "pos": "(7.155, 3.180, 6.004)",
+      "active": true
+    },
+    {
+      "name": "S1_WallTaskLight_04",
+      "pos": "(-7.155, 3.180, 6.004)",
+      "active": true
+    },
+    {
+      "name": "S1_WallTaskLight_05",
+      "pos": "(-7.155, 3.180, -6.004)",
+      "active": true
+    },
+    {
+      "name": "S1_WallTaskLight_06",
+      "pos": "(7.155, 3.180, -6.004)",
+      "active": true
+    },
+    {
+      "name": "S1_SpecimenPlate_17",
+      "pos": "(0.640, 0.840, -4.010)",
+      "active": true
+    },
+    {
+      "name": "S1_VitalMonitor_18",
+      "pos": "(-2.700, 0.000, -5.550)",
+      "active": true
+    },
+    {
+      "name": "S1_RecordBoard_19",
+      "pos": "(-0.230, 1.250, -8.700)",
+      "active": true
+    },
+    {
+      "name": "S1_Clock_20",
+      "pos": "(-0.020, 1.720, -8.700)",
+      "active": true
+    },
+    {
+      "name": "Pod_Interior_Task",
+      "pos": "(0.000, 5.900, 0.000)",
+      "active": true
+    },
+    {
+      "name": "Measurement_Indirect",
+      "pos": "(-1.000, 2.800, 0.300)",
+      "active": true
+    },
+    {
+      "name": "S1_CCTV_Static",
+      "pos": "(4.274, 2.880, 7.098)",
+      "active": true
+    },
+    {
+      "name": "S1_ServiceRiser_22",
+      "pos": "(4.700, 0.020, 6.800)",
+      "active": true
+    },
+    {
+      "name": "S1_ServiceBackboard_Support",
+      "pos": "(0.000, 0.000, -8.760)",
+      "active": true
+    },
+    {
+      "name": "S1_PortalCollars",
+      "pos": "(0.000, 0.000, 0.000)",
+      "active": false
+    },
+    {
+      "name": "AF_C01_CurvedLining",
+      "pos": "(0.000, 0.000, 0.000)",
+      "active": true
+    },
+    {
+      "name": "AF_C01_ThreePortalRibs",
+      "pos": "(0.000, 0.000, 0.000)",
+      "active": true
+    },
+    {
+      "name": "AF_C01_MeasurementRig",
+      "pos": "(0.000, 0.000, 0.000)",
+      "active": true
+    },
+    {
+      "name": "C01_Clinical_Stations",
+      "pos": "(0.000, 0.000, 0.000)",
+      "active": true
+    },
+    {
+      "name": "AF_C01_ConsoleConnections",
+      "pos": "(0.000, 0.000, 0.000)",
+      "active": true
+    },
+    {
+      "name": "C01_Finish_Props",
+      "pos": "(0.000, 0.000, 0.000)",
+      "active": true
+    }
+  ],
+  "player": [
+    {
+      "name": "Player_Dummy_V0.1",
+      "pos": "(-9.2000, -81.3600, -10.0000)",
+      "rotation": "(0.0000, 0.0000, 0.0000)"
+    }
+  ]
+}

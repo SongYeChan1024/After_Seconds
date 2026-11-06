@@ -1,0 +1,449 @@
+{
+  "isDirty": false,
+  "lights": [
+    {
+      "path": "B5_Circular_Core_V0.03/Lighting/C01_Work_0",
+      "pos": "(-9.800, -78.800, -10.000)",
+      "type": 2,
+      "intensity": 3.74,
+      "range": 8.5,
+      "spotAngle": 30.0,
+      "shadows": 2
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Lighting/C01_Work_1",
+      "pos": "(-15.000, -78.800, -15.200)",
+      "type": 2,
+      "intensity": 3.74,
+      "range": 8.5,
+      "spotAngle": 30.0,
+      "shadows": 0
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Lighting/C01_Work_2",
+      "pos": "(-20.200, -78.800, -10.000)",
+      "type": 2,
+      "intensity": 3.74,
+      "range": 8.5,
+      "spotAngle": 30.0,
+      "shadows": 0
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Lighting/C01_Work_3",
+      "pos": "(-15.000, -78.800, -4.800)",
+      "type": 2,
+      "intensity": 3.74,
+      "range": 8.5,
+      "spotAngle": 30.0,
+      "shadows": 0
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Lighting/B5-T01_0",
+      "pos": "(-18.048, -79.150, 2.190)",
+      "type": 2,
+      "intensity": 2.04,
+      "range": 5.0,
+      "spotAngle": 30.0,
+      "shadows": 0
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Lighting/B5-T03_0",
+      "pos": "(-2.420, -79.150, -8.821)",
+      "type": 2,
+      "intensity": 2.04,
+      "range": 5.0,
+      "spotAngle": 30.0,
+      "shadows": 0
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/B5_Art_C01_T01/CD-002_CFD_SealedLight/TaskLight",
+      "pos": "(-17.789, -78.950, 1.157)",
+      "type": 2,
+      "intensity": 0.92,
+      "range": 5.0,
+      "spotAngle": 30.0,
+      "shadows": 0
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/S1_WallTaskLight_03/Wall_Worklight",
+      "pos": "(-8.481, -78.980, -4.530)",
+      "type": 0,
+      "intensity": 20.0,
+      "range": 11.0,
+      "spotAngle": 118.0,
+      "shadows": 2
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/S1_WallTaskLight_04/Wall_Worklight",
+      "pos": "(-21.519, -78.980, -4.530)",
+      "type": 0,
+      "intensity": 20.0,
+      "range": 11.0,
+      "spotAngle": 118.0,
+      "shadows": 2
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/S1_WallTaskLight_05/Wall_Worklight",
+      "pos": "(-21.519, -78.980, -15.470)",
+      "type": 0,
+      "intensity": 20.0,
+      "range": 11.0,
+      "spotAngle": 118.0,
+      "shadows": 2
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/S1_WallTaskLight_06/Wall_Worklight",
+      "pos": "(-8.481, -78.980, -15.470)",
+      "type": 0,
+      "intensity": 20.0,
+      "range": 11.0,
+      "spotAngle": 118.0,
+      "shadows": 2
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/Pod_Interior_Task",
+      "pos": "(-15.000, -76.100, -10.000)",
+      "type": 2,
+      "intensity": 16.0,
+      "range": 12.0,
+      "spotAngle": 30.0,
+      "shadows": 0
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/Measurement_Indirect",
+      "pos": "(-16.000, -79.200, -9.700)",
+      "type": 2,
+      "intensity": 1.5,
+      "range": 6.0,
+      "spotAngle": 30.0,
+      "shadows": 0
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T11/CFD_SealedLight/TaskLight",
+      "pos": "(-26.812, -78.990, -12.542)",
+      "type": 2,
+      "intensity": 3.2,
+      "range": 6.2,
+      "spotAngle": 30.0,
+      "shadows": 0
+    }
+  ],
+  "stations": [
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/C01_Clinical_Stations/Observation_Console_A",
+      "local": "(-5.400, 0.000, 5.100)",
+      "rot": "(0.000, 135.000, 0.000)",
+      "colliders": [
+        {
+          "center": "(-20.400, -81.230, -4.900)",
+          "size": "(1.904, 1.540, 1.904)",
+          "localcenter": "(0.000, 0.770, 0.000)",
+          "localsize": "(1.543, 1.540, 1.150)"
+        }
+      ],
+      "meshes": [
+        {
+          "name": "Visual_L0",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/B5_IsolationMonitoringConsole_B5_L0.fbx",
+          "bounds": "Center: (-20.40, -81.23, -4.90), Extents: (0.95, 0.77, 0.95)"
+        },
+        {
+          "name": "Visual_L1",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/B5_IsolationMonitoringConsole_B5_L1.fbx",
+          "bounds": "Center: (-20.40, -81.23, -4.90), Extents: (0.95, 0.77, 0.95)"
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/C01_Clinical_Stations/Observation_Console_B",
+      "local": "(5.400, 0.000, -4.900)",
+      "rot": "(0.000, 315.000, 0.000)",
+      "colliders": [
+        {
+          "center": "(-9.600, -81.230, -14.900)",
+          "size": "(1.904, 1.540, 1.904)",
+          "localcenter": "(0.000, 0.770, 0.000)",
+          "localsize": "(1.543, 1.540, 1.150)"
+        }
+      ],
+      "meshes": [
+        {
+          "name": "Visual_L0",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/B5_IsolationMonitoringConsole_B5_L0.fbx",
+          "bounds": "Center: (-9.60, -81.23, -14.90), Extents: (0.95, 0.77, 0.95)"
+        },
+        {
+          "name": "Visual_L1",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/B5_IsolationMonitoringConsole_B5_L1.fbx",
+          "bounds": "Center: (-9.60, -81.23, -14.90), Extents: (0.95, 0.77, 0.95)"
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/C01_Clinical_Stations/Trial_Records_Cabinet",
+      "local": "(-4.500, 0.000, -7.200)",
+      "rot": "(0.000, 32.000, 0.000)",
+      "colliders": [
+        {
+          "center": "(-19.500, -81.472, -17.200)",
+          "size": "(0.709, 1.056, 0.727)",
+          "localcenter": "(0.000, 0.528, 0.000)",
+          "localsize": "(0.492, 1.056, 0.550)"
+        }
+      ],
+      "meshes": [
+        {
+          "name": "Visual_L0",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/Common/P04_RecordsCabinet_B5_L0.fbx",
+          "bounds": "Center: (-19.50, -81.47, -17.20), Extents: (0.35, 0.53, 0.36)"
+        },
+        {
+          "name": "Visual_L1",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/Common/P04_RecordsCabinet_B5_L1.fbx",
+          "bounds": "Center: (-19.50, -81.47, -17.20), Extents: (0.35, 0.53, 0.36)"
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/C01_Clinical_Stations/Clinical_SealedWaste",
+      "local": "(4.300, 0.000, -6.000)",
+      "rot": "(0.000, 0.000, 0.000)",
+      "colliders": [
+        {
+          "center": "(-10.700, -81.683, -16.000)",
+          "size": "(0.522, 0.635, 0.550)",
+          "localcenter": "(0.000, 0.317, 0.000)",
+          "localsize": "(0.522, 0.635, 0.550)"
+        }
+      ],
+      "meshes": [
+        {
+          "name": "Visual_L0",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/Common/P07_SealedWasteBin_B5_L0.fbx",
+          "bounds": "Center: (-10.70, -81.68, -16.00), Extents: (0.26, 0.32, 0.27)"
+        },
+        {
+          "name": "Visual_L1",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/Common/P07_SealedWasteBin_B5_L1.fbx",
+          "bounds": "Center: (-10.70, -81.68, -16.00), Extents: (0.26, 0.32, 0.27)"
+        }
+      ]
+    }
+  ],
+  "nearby": [],
+  "doors": [
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T01_0",
+      "pos": "(-17.231, -82.000, -1.075)",
+      "rot": "(0.000, 345.964, 0.000)",
+      "meshes": [
+        {
+          "name": "Header.001",
+          "bounds": "Center: (-17.23, -79.03, -1.07), Extents: (2.60, 0.11, 0.87)"
+        },
+        {
+          "name": "Jamb_-1.001",
+          "bounds": "Center: (-18.42, -80.57, -1.37), Extents: (0.10, 1.43, 0.24)"
+        },
+        {
+          "name": "Jamb_1.001",
+          "bounds": "Center: (-16.04, -80.57, -0.78), Extents: (0.10, 1.43, 0.24)"
+        },
+        {
+          "name": "Leaf_Left.001",
+          "bounds": "Center: (-19.00, -80.61, -1.52), Extents: (0.59, 1.39, 0.19)"
+        },
+        {
+          "name": "Leaf_Right.001",
+          "bounds": "Center: (-15.46, -80.61, -0.63), Extents: (0.59, 1.39, 0.19)"
+        },
+        {
+          "name": "Pocket_-1_-0.001",
+          "bounds": "Center: (-19.12, -80.52, -1.35), Extents: (0.69, 1.48, 0.20)"
+        },
+        {
+          "name": "Pocket_-1_0.001",
+          "bounds": "Center: (-19.03, -80.52, -1.72), Extents: (0.69, 1.48, 0.20)"
+        },
+        {
+          "name": "Pocket_1_-0.001",
+          "bounds": "Center: (-15.43, -80.52, -0.43), Extents: (0.69, 1.48, 0.20)"
+        },
+        {
+          "name": "Pocket_1_0.001",
+          "bounds": "Center: (-15.34, -80.52, -0.80), Extents: (0.69, 1.48, 0.20)"
+        },
+        {
+          "name": "PocketEnd_-1.001",
+          "bounds": "Center: (-19.74, -80.52, -1.70), Extents: (0.09, 1.48, 0.22)"
+        },
+        {
+          "name": "PocketEnd_1.001",
+          "bounds": "Center: (-14.72, -80.52, -0.45), Extents: (0.09, 1.48, 0.22)"
+        },
+        {
+          "name": "Seal_-1.001",
+          "bounds": "Center: (-18.41, -80.61, -1.43), Extents: (0.01, 1.38, 0.01)"
+        },
+        {
+          "name": "Seal_1.001",
+          "bounds": "Center: (-16.02, -80.61, -0.83), Extents: (0.01, 1.38, 0.01)"
+        },
+        {
+          "name": "Threshold.001",
+          "bounds": "Center: (-17.23, -81.99, -1.07), Extents: (1.21, 0.01, 0.49)"
+        },
+        {
+          "name": "LP_Keypad",
+          "bounds": "Center: (-15.82, -80.75, -1.02), Extents: (0.08, 0.14, 0.06)"
+        },
+        {
+          "name": "LP_Keypad",
+          "bounds": "Center: (-15.96, -80.75, -0.46), Extents: (0.08, 0.14, 0.06)"
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T03_4",
+      "pos": "(-5.840, -82.000, -9.141)",
+      "rot": "(0.000, 84.644, 0.000)",
+      "meshes": [
+        {
+          "name": "Header.001",
+          "bounds": "Center: (-5.84, -79.03, -9.14), Extents: (0.48, 0.11, 2.63)"
+        },
+        {
+          "name": "Jamb_-1.001",
+          "bounds": "Center: (-5.95, -80.57, -7.92), Extents: (0.24, 1.43, 0.06)"
+        },
+        {
+          "name": "Jamb_1.001",
+          "bounds": "Center: (-5.73, -80.57, -10.37), Extents: (0.24, 1.43, 0.06)"
+        },
+        {
+          "name": "Leaf_Left.001",
+          "bounds": "Center: (-6.01, -80.61, -7.33), Extents: (0.11, 1.39, 0.60)"
+        },
+        {
+          "name": "Leaf_Right.001",
+          "bounds": "Center: (-5.67, -80.61, -10.96), Extents: (0.11, 1.39, 0.60)"
+        },
+        {
+          "name": "Pocket_-1_-0.001",
+          "bounds": "Center: (-5.83, -80.52, -7.23), Extents: (0.10, 1.48, 0.70)"
+        },
+        {
+          "name": "Pocket_-1_0.001",
+          "bounds": "Center: (-6.21, -80.52, -7.27), Extents: (0.10, 1.48, 0.70)"
+        },
+        {
+          "name": "Pocket_1_-0.001",
+          "bounds": "Center: (-5.47, -80.52, -11.02), Extents: (0.10, 1.48, 0.70)"
+        },
+        {
+          "name": "Pocket_1_0.001",
+          "bounds": "Center: (-5.85, -80.52, -11.05), Extents: (0.10, 1.48, 0.70)"
+        },
+        {
+          "name": "PocketEnd_-1.001",
+          "bounds": "Center: (-6.08, -80.52, -6.56), Extents: (0.22, 1.48, 0.06)"
+        },
+        {
+          "name": "PocketEnd_1.001",
+          "bounds": "Center: (-5.60, -80.52, -11.72), Extents: (0.22, 1.48, 0.06)"
+        },
+        {
+          "name": "Seal_-1.001",
+          "bounds": "Center: (-6.01, -80.61, -7.92), Extents: (0.01, 1.38, 0.01)"
+        },
+        {
+          "name": "Seal_1.001",
+          "bounds": "Center: (-5.78, -80.61, -10.37), Extents: (0.01, 1.38, 0.01)"
+        },
+        {
+          "name": "Threshold.001",
+          "bounds": "Center: (-5.84, -81.99, -9.14), Extents: (0.31, 0.01, 1.21)"
+        },
+        {
+          "name": "LP_Keypad",
+          "bounds": "Center: (-6.00, -80.75, -10.54), Extents: (0.05, 0.14, 0.08)"
+        },
+        {
+          "name": "LP_Keypad",
+          "bounds": "Center: (-5.43, -80.75, -10.49), Extents: (0.05, 0.14, 0.08)"
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T11_q",
+      "pos": "(-23.994, -82.000, -11.935)",
+      "rot": "(0.000, 77.856, 0.000)",
+      "meshes": [
+        {
+          "name": "Header.001",
+          "bounds": "Center: (-23.99, -79.03, -11.94), Extents: (0.79, 0.11, 2.61)"
+        },
+        {
+          "name": "Jamb_-1.001",
+          "bounds": "Center: (-24.25, -80.57, -10.73), Extents: (0.24, 1.43, 0.09)"
+        },
+        {
+          "name": "Jamb_1.001",
+          "bounds": "Center: (-23.74, -80.57, -13.14), Extents: (0.24, 1.43, 0.09)"
+        },
+        {
+          "name": "Leaf_Left.001",
+          "bounds": "Center: (-24.38, -80.61, -10.15), Extents: (0.17, 1.39, 0.60)"
+        },
+        {
+          "name": "Leaf_Right.001",
+          "bounds": "Center: (-23.61, -80.61, -13.72), Extents: (0.17, 1.39, 0.60)"
+        },
+        {
+          "name": "Pocket_-1_-0.001",
+          "bounds": "Center: (-24.21, -80.52, -10.04), Extents: (0.18, 1.48, 0.69)"
+        },
+        {
+          "name": "Pocket_-1_0.001",
+          "bounds": "Center: (-24.58, -80.52, -10.12), Extents: (0.18, 1.48, 0.69)"
+        },
+        {
+          "name": "Pocket_1_-0.001",
+          "bounds": "Center: (-23.41, -80.52, -13.75), Extents: (0.18, 1.48, 0.69)"
+        },
+        {
+          "name": "Pocket_1_0.001",
+          "bounds": "Center: (-23.78, -80.52, -13.83), Extents: (0.18, 1.48, 0.69)"
+        },
+        {
+          "name": "PocketEnd_-1.001",
+          "bounds": "Center: (-24.54, -80.52, -9.40), Extents: (0.22, 1.48, 0.09)"
+        },
+        {
+          "name": "PocketEnd_1.001",
+          "bounds": "Center: (-23.45, -80.52, -14.47), Extents: (0.22, 1.48, 0.09)"
+        },
+        {
+          "name": "Seal_-1.001",
+          "bounds": "Center: (-24.31, -80.61, -10.74), Extents: (0.01, 1.38, 0.01)"
+        },
+        {
+          "name": "Seal_1.001",
+          "bounds": "Center: (-23.79, -80.61, -13.15), Extents: (0.01, 1.38, 0.01)"
+        },
+        {
+          "name": "Threshold.001",
+          "bounds": "Center: (-23.99, -81.99, -11.94), Extents: (0.45, 0.01, 1.22)"
+        },
+        {
+          "name": "LP_Keypad",
+          "bounds": "Center: (-23.98, -80.75, -13.34), Extents: (0.06, 0.14, 0.08)"
+        },
+        {
+          "name": "LP_Keypad",
+          "bounds": "Center: (-23.42, -80.75, -13.22), Extents: (0.06, 0.14, 0.08)"
+        }
+      ]
+    }
+  ]
+}

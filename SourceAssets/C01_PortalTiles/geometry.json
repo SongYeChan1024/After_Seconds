@@ -1,0 +1,208 @@
+{
+  "author": "송예찬",
+  "portals": [
+    {
+      "id": "B5-T01",
+      "angle": 104.03624346792648
+    },
+    {
+      "id": "B5-T03",
+      "angle": 5.35582504285519
+    },
+    {
+      "id": "B5-T11",
+      "angle": 192.144278049567
+    }
+  ],
+  "panels": [
+    {
+      "name": "CutToArch_Tile_15_0.04",
+      "lo": 0.04,
+      "hi": 1.27,
+      "angle": 15,
+      "portals": [
+        "B5-T03"
+      ]
+    },
+    {
+      "name": "CutToArch_Tile_95_0.04",
+      "lo": 0.04,
+      "hi": 1.27,
+      "angle": 95,
+      "portals": [
+        "B5-T01"
+      ]
+    },
+    {
+      "name": "CutToArch_Tile_115_0.04",
+      "lo": 0.04,
+      "hi": 1.27,
+      "angle": 115,
+      "portals": [
+        "B5-T01"
+      ]
+    },
+    {
+      "name": "CutToArch_Tile_205_0.04",
+      "lo": 0.04,
+      "hi": 1.27,
+      "angle": 205,
+      "portals": [
+        "B5-T11"
+      ]
+    },
+    {
+      "name": "CutToArch_Tile_355_0.04",
+      "lo": 0.04,
+      "hi": 1.27,
+      "angle": 355,
+      "portals": [
+        "B5-T03"
+      ]
+    },
+    {
+      "name": "CutToArch_Tile_15_1.3",
+      "lo": 1.3,
+      "hi": 2.6,
+      "angle": 15,
+      "portals": [
+        "B5-T03"
+      ]
+    },
+    {
+      "name": "CutToArch_Tile_95_1.3",
+      "lo": 1.3,
+      "hi": 2.6,
+      "angle": 95,
+      "portals": [
+        "B5-T01"
+      ]
+    },
+    {
+      "name": "CutToArch_Tile_115_1.3",
+      "lo": 1.3,
+      "hi": 2.6,
+      "angle": 115,
+      "portals": [
+        "B5-T01"
+      ]
+    },
+    {
+      "name": "CutToArch_Tile_185_1.3",
+      "lo": 1.3,
+      "hi": 2.6,
+      "angle": 185,
+      "portals": [
+        "B5-T11"
+      ]
+    },
+    {
+      "name": "CutToArch_Tile_205_1.3",
+      "lo": 1.3,
+      "hi": 2.6,
+      "angle": 205,
+      "portals": [
+        "B5-T11"
+      ]
+    },
+    {
+      "name": "CutToArch_Tile_355_1.3",
+      "lo": 1.3,
+      "hi": 2.6,
+      "angle": 355,
+      "portals": [
+        "B5-T03"
+      ]
+    },
+    {
+      "name": "CutToArch_Tile_5_2.63",
+      "lo": 2.63,
+      "hi": 3.98,
+      "angle": 5,
+      "portals": [
+        "B5-T03"
+      ]
+    },
+    {
+      "name": "CutToArch_Tile_15_2.63",
+      "lo": 2.63,
+      "hi": 3.98,
+      "angle": 15,
+      "portals": [
+        "B5-T03"
+      ]
+    },
+    {
+      "name": "CutToArch_Tile_95_2.63",
+      "lo": 2.63,
+      "hi": 3.98,
+      "angle": 95,
+      "portals": [
+        "B5-T01"
+      ]
+    },
+    {
+      "name": "CutToArch_Tile_105_2.63",
+      "lo": 2.63,
+      "hi": 3.98,
+      "angle": 105,
+      "portals": [
+        "B5-T01"
+      ]
+    },
+    {
+      "name": "CutToArch_Tile_115_2.63",
+      "lo": 2.63,
+      "hi": 3.98,
+      "angle": 115,
+      "portals": [
+        "B5-T01"
+      ]
+    },
+    {
+      "name": "CutToArch_Tile_185_2.63",
+      "lo": 2.63,
+      "hi": 3.98,
+      "angle": 185,
+      "portals": [
+        "B5-T11"
+      ]
+    },
+    {
+      "name": "CutToArch_Tile_195_2.63",
+      "lo": 2.63,
+      "hi": 3.98,
+      "angle": 195,
+      "portals": [
+        "B5-T11"
+      ]
+    },
+    {
+      "name": "CutToArch_Tile_205_2.63",
+      "lo": 2.63,
+      "hi": 3.98,
+      "angle": 205,
+      "portals": [
+        "B5-T11"
+      ]
+    },
+    {
+      "name": "CutToArch_Tile_355_2.63",
+      "lo": 2.63,
+      "hi": 3.98,
+      "angle": 355,
+      "portals": [
+        "B5-T03"
+      ]
+    }
+  ],
+  "model": {
+    "asset": "Assets\\Afrer_Seconds\\05.Model\\Environment\\B5\\AF_C01_PortalTileInfill.fbx",
+    "parts": 20,
+    "beveled_parts": 20,
+    "triangles": 14337,
+    "props": false,
+    "collide": true
+  },
+  "existingWallUnchanged": true
+}

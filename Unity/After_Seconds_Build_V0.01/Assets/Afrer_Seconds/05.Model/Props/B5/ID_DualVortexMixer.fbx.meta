@@ -1,0 +1,365 @@
+fileFormatVersion: 2
+guid: 05e96a790f1ed154fac2185e1de1221b
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CP_Amber
+    second: {fileID: 2100000, guid: a5d14827402f2464083d412b5b7ad73a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CP_Blue
+    second: {fileID: 2100000, guid: 36d43c567c738094f8d51153715a6efe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CP_Coat
+    second: {fileID: 2100000, guid: 075a58327908e5849aee3116b185a2a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CP_Dark
+    second: {fileID: 2100000, guid: 688de8d11d747a3438a60f95c4da2877, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CP_Glass
+    second: {fileID: 2100000, guid: eb0b3c9d1be9cd747b13bc758e7bbc6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CP_Paper
+    second: {fileID: 2100000, guid: 3760deb34b0b84a40873c33650a7bf64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CP_Rubber
+    second: {fileID: 2100000, guid: f1b24d071ce8f97409fa771abf42d400, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CP_Screen
+    second: {fileID: 2100000, guid: 11a21971d1fb71f46a0491569d551568, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CP_Steel
+    second: {fileID: 2100000, guid: e4a4b3bd28424684894623dd77567297, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CP_Trace
+    second: {fileID: 2100000, guid: 3587c15c8f41bf440bcaa09af09a267b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ID_DisplayGlass
+    second: {fileID: 2100000, guid: ebb8a36306062614f99ec0375e5facf4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ID_LCD_Assay
+    second: {fileID: 2100000, guid: f7e11036961f1a349b95be52205781e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ID_LCD_Balance
+    second: {fileID: 2100000, guid: 4bba5f969fc7b1640b13f932be1d6594, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ID_LCD_Bath
+    second: {fileID: 2100000, guid: c8b0c4253cbc2a441b25be98ac08906a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ID_LCD_Centrifuge
+    second: {fileID: 2100000, guid: d9b94a5e08ed3c340b333202daf1eb68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ID_LCD_Chromatography
+    second: {fileID: 2100000, guid: c69b7b6a5ae42ea4dbabb67c4a161025, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ID_LCD_Cold
+    second: {fileID: 2100000, guid: d7fd0c3fa0eff4a418f8bc02c227389a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ID_LCD_ObservationA
+    second: {fileID: 2100000, guid: 1747e683c76b64d46b0d2f360255281d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ID_LCD_ObservationB
+    second: {fileID: 2100000, guid: 7989cb64024f86d4d909530b7ae7b49e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ID_LCD_PCR
+    second: {fileID: 2100000, guid: 2e741cf7270a62c4ebcb4e2cbcf7d253, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ID_LCD_Plate
+    second: {fileID: 2100000, guid: 33e518501f661494ba440dbd4c4dd302, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ID_LCD_Printer
+    second: {fileID: 2100000, guid: 25c34e5c9782fed4c8cad57e16fe8efc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ID_LCD_Sterilizer
+    second: {fileID: 2100000, guid: 9a83c3641b9b5fc47b8e46b3edbfffb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ID_LCD_Vital
+    second: {fileID: 2100000, guid: bb3c8070635e7184f887d4b574d54bf1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ID_Label_Fluidics
+    second: {fileID: 2100000, guid: 07fe0d6abaa827745b38099f52701af5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ID_Label_Optics
+    second: {fileID: 2100000, guid: 4564183acc689e9469d06a708b2fdd03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ID_Label_Prep
+    second: {fileID: 2100000, guid: a38ad3e9ee8a31f4fb5368ce424b3fc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ID_Label_Storage
+    second: {fileID: 2100000, guid: dbe828751fda47446b5892a0864aeffa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ID_Label_Thermal
+    second: {fileID: 2100000, guid: bedc5c6aea86f1e40b1885660d89adb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ID_Label_Wash
+    second: {fileID: 2100000, guid: 43fe71c9c0c2f7f43a8181900a536b33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PF_Decal_Barcode
+    second: {fileID: 2100000, guid: f8e9e2c479224ab4d8ccd654ad9d9e98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PF_Decal_Centrifuge
+    second: {fileID: 2100000, guid: 9b35e2cf2692fa843b125b6d67ba79be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PF_Decal_Gauge
+    second: {fileID: 2100000, guid: 30d15351000585249b140f368b84602e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PF_Decal_Glove
+    second: {fileID: 2100000, guid: 8834105f5f962cd4c9e3700198264f69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PF_Decal_Mask
+    second: {fileID: 2100000, guid: f207810b88a7fac479190c88bf5563ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PF_Decal_Microscope
+    second: {fileID: 2100000, guid: 30970d8d43e4b6145b9c32af2d1d2f2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PF_Decal_PCR
+    second: {fileID: 2100000, guid: b8934cec18fe25b4f9eb234a38de05b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PF_Decal_Pipette
+    second: {fileID: 2100000, guid: d41a3d67fedaca04c925a1a10fe786a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PF_Decal_Sealer
+    second: {fileID: 2100000, guid: 7056f23ab29d75e47af5239a3e7bbf69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PF_Decal_Sterilizer
+    second: {fileID: 2100000, guid: 37aa09a38643bdb4ea68dfe0f7220c39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PF_Decal_Vial
+    second: {fileID: 2100000, guid: 1998f7c26ab9c194d95ef9f6d2afda34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PF_Decal_Wash
+    second: {fileID: 2100000, guid: 3985001cec36f1946bf8f12f2cce5f98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PF_Glass
+    second: {fileID: 2100000, guid: d5f5b42c4a2f60a468808da326f5eaf8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PF_Liquid
+    second: {fileID: 2100000, guid: 0efbac4f7bc4f22429f95b59da5765c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_Label_Pouch
+    second: {fileID: 2100000, guid: 6249f876d5b8a9140920d458e4ddee9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_Label_Reagent
+    second: {fileID: 2100000, guid: 10168e9969d7fcd4ab1a52a21fc74dec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_Label_SpecimenA
+    second: {fileID: 2100000, guid: 32e5010615ed3644994ee2713b2df819, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_Label_SpecimenB
+    second: {fileID: 2100000, guid: 14764316bf7d76b44ad9dcbd2468f2ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_Polymer
+    second: {fileID: 2100000, guid: 201f29ef2fa5e3c4e966268a9c15fa26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_SampleFluid
+    second: {fileID: 2100000, guid: 1c6a091ceaccd684ca35b6ae3295b9b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PR_VialGlass
+    second: {fileID: 2100000, guid: 25b5f25d1eb647f40a1f6786600f9456, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

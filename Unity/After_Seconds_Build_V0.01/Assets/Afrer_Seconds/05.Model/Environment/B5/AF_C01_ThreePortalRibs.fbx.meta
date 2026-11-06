@@ -3,7 +3,22 @@ guid: 1b72cc5d34657f74f8f2cb5906a24199
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AF_C01_RibAnchor
+    second: {fileID: 2100000, guid: 328c13a6d1ef4af47938a357a7505be1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AF_C01_RibJoint
+    second: {fileID: 2100000, guid: c4137d163bc12f340815c5a9a7a277f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AF_C01_RibMetal
+    second: {fileID: 2100000, guid: 50da2f429b075d44ebdad7313fccac39, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

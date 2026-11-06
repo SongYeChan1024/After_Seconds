@@ -1,4 +1,6 @@
-# B5 전체 평면 제작 원본 V0.01
+# B5 전체 평면 제작 원본 V0.02
+
+2026-11-07: `AF_C01_ThreePortalRibs.blend`/FBX는 [C01 전용 보수 도구](../C01_Finish/README.md)의 연속 리브8개 버전이다. `build_layout.py`도 리브 생성만 새 원본으로 위임한다. 이 문서의 나머지 전체 Apply/Repair를 현재 씬에 재실행하지 않는다.
 
 작성자 송예찬 · 2026-11-06
 

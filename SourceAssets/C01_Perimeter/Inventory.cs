@@ -1,0 +1,11 @@
+using System;using System.IO;using System.Linq;using UnityEngine;using UnityEditor;using UnityEngine.SceneManagement;using Newtonsoft.Json;
+public static class PerimeterInventory {
+ static string PathOf(Transform t)=>t.parent?PathOf(t.parent)+"/"+t.name:t.name;
+ static object V(Vector3 v)=>new[]{v.x,v.y,v.z};
+ public static object Run(){var s=SceneManager.GetActiveScene();var root=s.GetRootGameObjects().Single(g=>g.name.StartsWith("B5_Circular")).transform;var center=new Vector3(-15,-82,-10);var all=root.GetComponentsInChildren<Transform>(true);
+ var boxes=root.GetComponentsInChildren<Collider>().Where(c=>c.enabled&&Vector3.Distance(c.bounds.center,center)<12&&c.bounds.size.magnitude<7).Select(c=>new{path=PathOf(c.transform),type=c.GetType().Name,center=V(c.bounds.center-center),size=V(c.bounds.size)}).ToArray();
+ var direct=all.Where(t=>t.parent&&t.GetComponentsInChildren<Renderer>().Length>0&&Vector3.Distance(t.position,center)<12&&(t.name.StartsWith("CD-")||t.name.Contains("Console")||t.name.Contains("S1_")||t.parent.name=="C01_Finish_Props")).Select(t=>new{path=PathOf(t),localToRoom=V(t.position-center),rotation=V(t.eulerAngles),active=t.gameObject.activeInHierarchy}).ToArray();
+ var cabinet=all.Single(t=>t.name=="CD-040_CFD_EmergencyCabinet");
+ var cabinetMeshes=cabinet.GetComponentsInChildren<MeshFilter>(true).Select(m=>new{path=PathOf(m.transform),mesh=AssetDatabase.GetAssetPath(m.sharedMesh),verts=m.sharedMesh.vertexCount,submeshes=m.sharedMesh.subMeshCount,position=V(m.transform.position),rotation=V(m.transform.eulerAngles),scale=V(m.transform.lossyScale),materials=m.GetComponent<Renderer>().sharedMaterials.Select(a=>new{a.name,path=AssetDatabase.GetAssetPath(a),shader=a.shader.name,color=a.HasProperty("_BaseColor")?a.GetColor("_BaseColor").ToString():"",surface=a.HasProperty("_Surface")?a.GetFloat("_Surface"):-1,renderFace=a.HasProperty("_Cull")?a.GetFloat("_Cull"):-1,queue=a.renderQueue})}).ToArray();
+ var result=new{scene=s.path,s.isDirty,boxes,direct,cabinetMeshes};string dir=Path.GetFullPath(Path.Combine(Application.dataPath,"../../../SourceAssets/C01_Perimeter/"));File.WriteAllText(dir+"inventory.json",JsonConvert.SerializeObject(result,Formatting.Indented));return new{s.isDirty,boxes=boxes.Length,groups=direct.Length,cabinetMeshes};}
+}

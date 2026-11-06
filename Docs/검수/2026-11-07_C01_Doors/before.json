@@ -1,0 +1,849 @@
+{
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Circular.unity",
+  "dirty": false,
+  "room": "(-15.00000, -82.00000, -10.00000)",
+  "tunnels": [
+    {
+      "id": "B5-T01",
+      "floor": "B5",
+      "a": "C01",
+      "b": "C02",
+      "p": [
+        -17.231327750334263,
+        1.074688998662948
+      ],
+      "q": [
+        -20.496279124774734,
+        -11.985116499098943
+      ],
+      "w": 4.2,
+      "h": 3.4,
+      "length": 13.46,
+      "type": "터널",
+      "role": "동층 연결",
+      "state": "개방 가안"
+    },
+    {
+      "id": "B5-T03",
+      "floor": "B5",
+      "a": "C01",
+      "b": "C03",
+      "p": [
+        -5.84016512025455,
+        9.1412654800238649
+      ],
+      "q": [
+        7.84016512025455,
+        7.858734519976136
+      ],
+      "w": 4.2,
+      "h": 3.4,
+      "length": 13.74,
+      "type": "터널",
+      "role": "동층 연결",
+      "state": "개방 가안"
+    },
+    {
+      "id": "B5-T11",
+      "floor": "B5",
+      "a": "W03",
+      "b": "C01",
+      "p": [
+        -85.983508193217673,
+        25.274932142844307
+      ],
+      "q": [
+        -23.994112758828958,
+        11.935441986077118
+      ],
+      "w": 4.2,
+      "h": 3.4,
+      "length": 63.41,
+      "type": "터널",
+      "role": "동층 연결",
+      "state": "개방 가안"
+    }
+  ],
+  "doors": [
+    {
+      "name": "Door_B5-T01_0",
+      "p": "(-17.23133, -82.00000, -1.07469)",
+      "rot": "(0.00000, 345.96370, 0.00000)",
+      "children": [
+        {
+          "name": "Header.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(0.00000, 2.97000, 0.00000)",
+          "size": "(5.24000, 0.22000, 0.48000)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Steel.mat"
+          ]
+        },
+        {
+          "name": "Jamb_-1.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(-1.23000, 1.43000, 0.00000)",
+          "size": "(0.08000, 2.86000, 0.48000)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Steel.mat"
+          ]
+        },
+        {
+          "name": "Jamb_1.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(1.23000, 1.43000, 0.00000)",
+          "size": "(0.08000, 2.86000, 0.48000)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Steel.mat"
+          ]
+        },
+        {
+          "name": "Leaf_Left.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(-1.82200, 1.39000, 0.00000)",
+          "size": "(1.19800, 2.78000, 0.10000)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Shell.mat"
+          ]
+        },
+        {
+          "name": "Leaf_Right.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(1.82200, 1.39000, 0.00000)",
+          "size": "(1.19800, 2.78000, 0.10000)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Shell.mat"
+          ]
+        },
+        {
+          "name": "Pocket_-1_-0.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(-1.90000, 1.48000, 0.19000)",
+          "size": "(1.40000, 2.96000, 0.06500)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Steel.mat"
+          ]
+        },
+        {
+          "name": "Pocket_-1_0.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(-1.90000, 1.48000, -0.19000)",
+          "size": "(1.40000, 2.96000, 0.06500)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Steel.mat"
+          ]
+        },
+        {
+          "name": "Pocket_1_-0.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(1.90000, 1.48000, 0.19000)",
+          "size": "(1.40000, 2.96000, 0.06500)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Steel.mat"
+          ]
+        },
+        {
+          "name": "Pocket_1_0.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(1.90000, 1.48000, -0.19000)",
+          "size": "(1.40000, 2.96000, 0.06500)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Steel.mat"
+          ]
+        },
+        {
+          "name": "PocketEnd_-1.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(-2.59000, 1.48000, 0.00000)",
+          "size": "(0.08000, 2.96000, 0.44000)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Steel.mat"
+          ]
+        },
+        {
+          "name": "PocketEnd_1.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(2.59000, 1.48000, 0.00000)",
+          "size": "(0.08000, 2.96000, 0.44000)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Steel.mat"
+          ]
+        },
+        {
+          "name": "Seal_-1.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(-1.23300, 1.39000, -0.05500)",
+          "size": "(0.01800, 2.76000, 0.01400)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Inset.mat"
+          ]
+        },
+        {
+          "name": "Seal_1.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(1.23300, 1.39000, -0.05500)",
+          "size": "(0.01800, 2.76000, 0.01400)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Inset.mat"
+          ]
+        },
+        {
+          "name": "Threshold.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(0.00000, 0.01200, 0.00000)",
+          "size": "(2.40000, 0.02400, 0.40000)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Steel.mat"
+          ]
+        },
+        {
+          "name": "LP_Keypad",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/Common/LP_Keypad.fbx",
+          "localCenter": "(1.38000, 1.25000, -0.28548)",
+          "size": "(0.15500, 0.28500, 0.07995)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Rubber.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Graphite.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Stainless.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Screen.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Indicator.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Legend.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Amber.mat"
+          ]
+        },
+        {
+          "name": "LP_Keypad",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/Common/LP_Keypad.fbx",
+          "localCenter": "(1.38000, 1.25000, 0.28548)",
+          "size": "(0.15500, 0.28500, 0.07995)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Rubber.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Graphite.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Stainless.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Screen.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Indicator.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Legend.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Amber.mat"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Door_B5-T03_4",
+      "p": "(-5.84017, -82.00000, -9.14127)",
+      "rot": "(0.00000, 84.64417, 0.00000)",
+      "children": [
+        {
+          "name": "Header.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(0.00000, 2.97000, 0.00000)",
+          "size": "(5.24000, 0.22000, 0.48000)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Steel.mat"
+          ]
+        },
+        {
+          "name": "Jamb_-1.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(-1.23000, 1.43000, 0.00000)",
+          "size": "(0.08000, 2.86000, 0.48000)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Steel.mat"
+          ]
+        },
+        {
+          "name": "Jamb_1.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(1.23000, 1.43000, 0.00000)",
+          "size": "(0.08000, 2.86000, 0.48000)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Steel.mat"
+          ]
+        },
+        {
+          "name": "Leaf_Left.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(-1.82200, 1.39000, 0.00000)",
+          "size": "(1.19800, 2.78000, 0.10000)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Shell.mat"
+          ]
+        },
+        {
+          "name": "Leaf_Right.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(1.82200, 1.39000, 0.00000)",
+          "size": "(1.19800, 2.78000, 0.10000)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Shell.mat"
+          ]
+        },
+        {
+          "name": "Pocket_-1_-0.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(-1.90000, 1.48000, 0.19000)",
+          "size": "(1.40000, 2.96000, 0.06500)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Steel.mat"
+          ]
+        },
+        {
+          "name": "Pocket_-1_0.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(-1.90000, 1.48000, -0.19000)",
+          "size": "(1.40000, 2.96000, 0.06500)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Steel.mat"
+          ]
+        },
+        {
+          "name": "Pocket_1_-0.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(1.90000, 1.48000, 0.19000)",
+          "size": "(1.40000, 2.96000, 0.06500)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Steel.mat"
+          ]
+        },
+        {
+          "name": "Pocket_1_0.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(1.90000, 1.48000, -0.19000)",
+          "size": "(1.40000, 2.96000, 0.06500)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Steel.mat"
+          ]
+        },
+        {
+          "name": "PocketEnd_-1.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(-2.59000, 1.48000, 0.00000)",
+          "size": "(0.08000, 2.96000, 0.44000)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Steel.mat"
+          ]
+        },
+        {
+          "name": "PocketEnd_1.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(2.59000, 1.48000, 0.00000)",
+          "size": "(0.08000, 2.96000, 0.44000)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Steel.mat"
+          ]
+        },
+        {
+          "name": "Seal_-1.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(-1.23300, 1.39000, -0.05500)",
+          "size": "(0.01800, 2.76000, 0.01400)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Inset.mat"
+          ]
+        },
+        {
+          "name": "Seal_1.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(1.23300, 1.39000, -0.05500)",
+          "size": "(0.01800, 2.76000, 0.01400)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Inset.mat"
+          ]
+        },
+        {
+          "name": "Threshold.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(0.00000, 0.01200, 0.00000)",
+          "size": "(2.40000, 0.02400, 0.40000)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Steel.mat"
+          ]
+        },
+        {
+          "name": "LP_Keypad",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/Common/LP_Keypad.fbx",
+          "localCenter": "(1.38000, 1.25000, -0.28548)",
+          "size": "(0.15500, 0.28500, 0.07995)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Rubber.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Graphite.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Stainless.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Screen.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Indicator.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Legend.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Amber.mat"
+          ]
+        },
+        {
+          "name": "LP_Keypad",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/Common/LP_Keypad.fbx",
+          "localCenter": "(1.38000, 1.25000, 0.28548)",
+          "size": "(0.15500, 0.28500, 0.07995)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Rubber.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Graphite.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Stainless.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Screen.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Indicator.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Legend.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Amber.mat"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Door_B5-T11_q",
+      "p": "(-23.99411, -82.00000, -11.93544)",
+      "rot": "(0.00000, 77.85573, 0.00000)",
+      "children": [
+        {
+          "name": "Header.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(0.00000, 2.97000, 0.00000)",
+          "size": "(5.24000, 0.22000, 0.48000)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Steel.mat"
+          ]
+        },
+        {
+          "name": "Jamb_-1.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(-1.23000, 1.43000, 0.00000)",
+          "size": "(0.08000, 2.86000, 0.48000)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Steel.mat"
+          ]
+        },
+        {
+          "name": "Jamb_1.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(1.23000, 1.43000, 0.00000)",
+          "size": "(0.08000, 2.86000, 0.48000)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Steel.mat"
+          ]
+        },
+        {
+          "name": "Leaf_Left.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(-1.82200, 1.39000, 0.00000)",
+          "size": "(1.19800, 2.78000, 0.10000)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Shell.mat"
+          ]
+        },
+        {
+          "name": "Leaf_Right.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(1.82200, 1.39000, 0.00000)",
+          "size": "(1.19800, 2.78000, 0.10000)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Shell.mat"
+          ]
+        },
+        {
+          "name": "Pocket_-1_-0.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(-1.90000, 1.48000, 0.19000)",
+          "size": "(1.40000, 2.96000, 0.06500)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Steel.mat"
+          ]
+        },
+        {
+          "name": "Pocket_-1_0.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(-1.90000, 1.48000, -0.19000)",
+          "size": "(1.40000, 2.96000, 0.06500)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Steel.mat"
+          ]
+        },
+        {
+          "name": "Pocket_1_-0.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(1.90000, 1.48000, 0.19000)",
+          "size": "(1.40000, 2.96000, 0.06500)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Steel.mat"
+          ]
+        },
+        {
+          "name": "Pocket_1_0.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(1.90000, 1.48000, -0.19000)",
+          "size": "(1.40000, 2.96000, 0.06500)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Steel.mat"
+          ]
+        },
+        {
+          "name": "PocketEnd_-1.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(-2.59000, 1.48000, 0.00000)",
+          "size": "(0.08000, 2.96000, 0.44000)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Steel.mat"
+          ]
+        },
+        {
+          "name": "PocketEnd_1.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(2.59000, 1.48000, 0.00000)",
+          "size": "(0.08000, 2.96000, 0.44000)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Steel.mat"
+          ]
+        },
+        {
+          "name": "Seal_-1.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(-1.23300, 1.39000, -0.05500)",
+          "size": "(0.01800, 2.76000, 0.01400)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Inset.mat"
+          ]
+        },
+        {
+          "name": "Seal_1.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(1.23300, 1.39000, -0.05500)",
+          "size": "(0.01800, 2.76000, 0.01400)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Inset.mat"
+          ]
+        },
+        {
+          "name": "Threshold.001",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+          "localCenter": "(0.00000, 0.01200, 0.00000)",
+          "size": "(2.40000, 0.02400, 0.40000)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CF_B5_Steel.mat"
+          ]
+        },
+        {
+          "name": "LP_Keypad",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/Common/LP_Keypad.fbx",
+          "localCenter": "(1.38000, 1.25000, -0.28548)",
+          "size": "(0.15500, 0.28500, 0.07995)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Rubber.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Graphite.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Stainless.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Screen.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Indicator.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Legend.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Amber.mat"
+          ]
+        },
+        {
+          "name": "LP_Keypad",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/Common/LP_Keypad.fbx",
+          "localCenter": "(1.38000, 1.25000, 0.28548)",
+          "size": "(0.15500, 0.28500, 0.07995)",
+          "scale": "(1.00000, 1.00000, 1.00000)",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Rubber.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Graphite.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Stainless.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Screen.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Indicator.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Legend.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/LP_Amber.mat"
+          ]
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "name": "Station_32",
+      "p": "(7.462823, 0.000000, 4.663290)",
+      "r": "(0.000000, 238.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Station_40",
+      "p": "(6.741191, 0.000000, 5.656531)",
+      "r": "(0.000000, 230.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Station_48",
+      "p": "(5.888349, 0.000000, 6.539675)",
+      "r": "(0.000000, 222.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Station_56",
+      "p": "(4.920897, 0.000000, 7.295531)",
+      "r": "(0.000000, 214.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Station_64",
+      "p": "(3.857666, 0.000000, 7.909388)",
+      "r": "(0.000000, 206.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Station_72",
+      "p": "(2.719349, 0.000000, 8.369298)",
+      "r": "(0.000000, 198.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Station_80",
+      "p": "(1.528104, 0.000000, 8.666308)",
+      "r": "(0.000000, 190.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Station_128",
+      "p": "(-5.417821, 0.000000, 6.934495)",
+      "r": "(0.000000, 142.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Station_136",
+      "p": "(-6.330190, 0.000000, 6.112995)",
+      "r": "(0.000000, 134.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Station_144",
+      "p": "(-7.119350, 0.000000, 5.172510)",
+      "r": "(0.000000, 126.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Station_152",
+      "p": "(-7.769939, 0.000000, 4.131350)",
+      "r": "(0.000000, 118.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Station_160",
+      "p": "(-8.269295, 0.000000, 3.009778)",
+      "r": "(0.000000, 110.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Station_168",
+      "p": "(-8.607699, 0.000000, 1.829622)",
+      "r": "(0.000000, 102.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Station_216",
+      "p": "(-7.119350, 0.000000, -5.172509)",
+      "r": "(0.000000, 54.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Station_224",
+      "p": "(-6.330190, 0.000000, -6.112994)",
+      "r": "(0.000000, 46.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Station_232",
+      "p": "(-5.417821, 0.000000, -6.934494)",
+      "r": "(0.000000, 38.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Station_240",
+      "p": "(-4.399999, 0.000000, -7.621024)",
+      "r": "(0.000000, 30.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Station_248",
+      "p": "(-3.296540, 0.000000, -8.159218)",
+      "r": "(0.000000, 22.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Station_256",
+      "p": "(-2.128913, 0.000000, -8.538603)",
+      "r": "(0.000000, 14.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Station_264",
+      "p": "(-0.919849, 0.000000, -8.751793)",
+      "r": "(0.000000, 6.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Station_272",
+      "p": "(0.307114, 0.000000, -8.794640)",
+      "r": "(0.000000, 358.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Station_280",
+      "p": "(1.528104, 0.000000, -8.666308)",
+      "r": "(0.000000, 350.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Station_288",
+      "p": "(2.719351, 0.000000, -8.369297)",
+      "r": "(0.000000, 342.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Station_296",
+      "p": "(3.857665, 0.000000, -7.909389)",
+      "r": "(0.000000, 334.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Station_304",
+      "p": "(4.920897, 0.000000, -7.295531)",
+      "r": "(0.000000, 326.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Station_312",
+      "p": "(5.888350, 0.000000, -6.539674)",
+      "r": "(0.000000, 318.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Station_320",
+      "p": "(6.741190, 0.000000, -5.656532)",
+      "r": "(0.000000, 310.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Station_328",
+      "p": "(7.462823, 0.000000, -4.663290)",
+      "r": "(0.000000, 302.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Station_336",
+      "p": "(8.039201, 0.000000, -3.579281)",
+      "r": "(0.000000, 294.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Station_344",
+      "p": "(8.459103, 0.000000, -2.425610)",
+      "r": "(0.000000, 286.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Vent_44",
+      "p": "(6.617926, 2.600000, 6.390857)",
+      "r": "(0.000000, 226.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Vent_76",
+      "p": "(2.225682, 2.600000, 8.926721)",
+      "r": "(0.000000, 194.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Vent_132",
+      "p": "(-6.156002, 2.600000, 6.836932)",
+      "r": "(0.000000, 138.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Vent_228",
+      "p": "(-6.156002, 2.600000, -6.836932)",
+      "r": "(0.000000, 42.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Vent_276",
+      "p": "(0.961661, 2.600000, -9.149601)",
+      "r": "(0.000000, 354.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Vent_308",
+      "p": "(5.664086, 2.600000, -7.249699)",
+      "r": "(0.000000, 322.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "CP_PerimeterServiceRuns",
+      "p": "(0.000000, 0.000000, 0.000000)",
+      "r": "(0.000000, 0.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Integrated_Worklights",
+      "p": "(0.000000, 0.000000, 0.000000)",
+      "r": "(0.000000, 0.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    },
+    {
+      "name": "Instrument_Detail_Applied",
+      "p": "(0.000000, 0.000000, 0.000000)",
+      "r": "(0.000000, 0.000000, 0.000000)",
+      "s": "(1.000000, 1.000000, 1.000000)"
+    }
+  ],
+  "player": [
+    {
+      "name": "Player_Dummy_V0.1",
+      "p": "(-9.200000, -81.360000, -10.000000)",
+      "r": "(0.000000, 0.000000, 0.000000)"
+    }
+  ]
+}

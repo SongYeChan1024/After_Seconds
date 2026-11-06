@@ -1,0 +1,4 @@
+using System;using System.IO;using System.Linq;using UnityEngine;using UnityEditor;using UnityEngine.SceneManagement;using Newtonsoft.Json;
+public static class PortalTileInspect{
+ public static object Run(){var s=SceneManager.GetActiveScene();var root=s.GetRootGameObjects().Single(g=>g.name.StartsWith("B5_Circular")).transform;var lining=root.Find("C01_Experiment_Art/AF_C01_CurvedLining");return new{scene=s.path,dirty=s.isDirty,playing=Application.isPlaying,selected=Selection.activeGameObject?Selection.activeGameObject.name:null,lining=lining.name,position=lining.localPosition.ToString(),rotation=lining.localEulerAngles.ToString(),scale=lining.localScale.ToString(),meshes=lining.GetComponentsInChildren<MeshFilter>().Select(m=>new{m.name,model=AssetDatabase.GetAssetPath(m.sharedMesh),materials=m.GetComponent<Renderer>().sharedMaterials.Select(x=>new{x.name,path=AssetDatabase.GetAssetPath(x)}).ToArray()}).ToArray()};}
+}

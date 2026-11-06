@@ -1,0 +1,178 @@
+[
+  {
+    "n": "S1_VitalMonitor_18",
+    "pos": "(-17.700, -82.000, -15.550)",
+    "rotation": "(0.000, 335.000, 0.000)",
+    "children": [
+      {
+        "name": "S1_VitalMonitor_LOD0",
+        "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/S1_VitalMonitor.fbx",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Props/B5/S1_VitalMonitor.prefab",
+        "vertices": 15460,
+        "bounds": "Center: (0.00, 0.74, 0.00), Extents: (0.29, 0.74, 0.33)",
+        "localPos": "(0.00, 0.00, 0.00)",
+        "localRot": "(0.00, 0.00, 0.00)",
+        "scale": "(1.00, 1.00, 1.00)",
+        "mats": [
+          {
+            "name": "S1_VitalMonitor",
+            "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/S1_VitalMonitor.mat"
+          }
+        ]
+      },
+      {
+        "name": "S1_VitalMonitor_LOD1",
+        "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/S1_VitalMonitor.fbx",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Props/B5/S1_VitalMonitor.prefab",
+        "vertices": 7970,
+        "bounds": "Center: (0.00, 0.74, 0.00), Extents: (0.29, 0.74, 0.33)",
+        "localPos": "(0.00, 0.00, 0.00)",
+        "localRot": "(0.00, 0.00, 0.00)",
+        "scale": "(1.00, 1.00, 1.00)",
+        "mats": [
+          {
+            "name": "S1_VitalMonitor",
+            "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/S1_VitalMonitor.mat"
+          }
+        ]
+      },
+      {
+        "name": "S1_VitalMonitor_LOD2",
+        "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/S1_VitalMonitor.fbx",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Props/B5/S1_VitalMonitor.prefab",
+        "vertices": 3051,
+        "bounds": "Center: (0.00, 0.73, 0.00), Extents: (0.30, 0.74, 0.33)",
+        "localPos": "(0.00, 0.00, 0.00)",
+        "localRot": "(0.00, 0.00, 0.00)",
+        "scale": "(1.00, 1.00, 1.00)",
+        "mats": [
+          {
+            "name": "S1_VitalMonitor",
+            "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/S1_VitalMonitor.mat"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "n": "Clinical_PPE_Station",
+    "pos": "(-8.200, -82.000, -5.100)",
+    "rotation": "(0.000, 230.000, 0.000)",
+    "children": [
+      {
+        "name": "SD_PPEStation_LOD0",
+        "mesh": "Assets/Afrer_Seconds/05.Model/Props/Common/SD_PPEStation.fbx",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Props/Common/SD_PPEStation.prefab",
+        "vertices": 9027,
+        "bounds": "Center: (0.00, 0.83, 0.00), Extents: (0.48, 0.83, 0.23)",
+        "localPos": "(0.00, 0.00, 0.00)",
+        "localRot": "(0.00, 0.00, 0.00)",
+        "scale": "(0.84, 0.84, 0.84)",
+        "mats": [
+          {
+            "name": "SD_PPEStation",
+            "path": "Assets/Afrer_Seconds/05.Model/Props/Common/Materials/SD_PPEStation.mat"
+          }
+        ]
+      },
+      {
+        "name": "SD_PPEStation_LOD1",
+        "mesh": "Assets/Afrer_Seconds/05.Model/Props/Common/SD_PPEStation.fbx",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Props/Common/SD_PPEStation.prefab",
+        "vertices": 4574,
+        "bounds": "Center: (0.00, 0.83, 0.00), Extents: (0.48, 0.82, 0.23)",
+        "localPos": "(0.00, 0.00, 0.00)",
+        "localRot": "(0.00, 0.00, 0.00)",
+        "scale": "(0.84, 0.84, 0.84)",
+        "mats": [
+          {
+            "name": "SD_PPEStation",
+            "path": "Assets/Afrer_Seconds/05.Model/Props/Common/Materials/SD_PPEStation.mat"
+          }
+        ]
+      },
+      {
+        "name": "SD_PPEStation_LOD2",
+        "mesh": "Assets/Afrer_Seconds/05.Model/Props/Common/SD_PPEStation.fbx",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Props/Common/SD_PPEStation.prefab",
+        "vertices": 1792,
+        "bounds": "Center: (0.00, 0.82, 0.00), Extents: (0.48, 0.83, 0.23)",
+        "localPos": "(0.00, 0.00, 0.00)",
+        "localRot": "(0.00, 0.00, 0.00)",
+        "scale": "(0.84, 0.84, 0.84)",
+        "mats": [
+          {
+            "name": "SD_PPEStation",
+            "path": "Assets/Afrer_Seconds/05.Model/Props/Common/Materials/SD_PPEStation.mat"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "n": "S1_ServiceBackboard_Support",
+    "pos": "(-15.000, -82.000, -18.760)",
+    "rotation": "(0.000, 0.000, 0.000)",
+    "children": [
+      {
+        "name": "S1_ServiceBackboard_Support",
+        "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_ServiceBackboard.fbx",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_ServiceBackboard.prefab",
+        "vertices": 3744,
+        "bounds": "Center: (0.00, 1.19, 0.00), Extents: (0.69, 1.19, 0.15)",
+        "localPos": "(0.00, 0.00, -8.76)",
+        "localRot": "(0.00, 0.00, 0.00)",
+        "scale": "(1.00, 1.00, 1.00)",
+        "mats": [
+          {
+            "name": "S1_Coat",
+            "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/S1_Coat.mat"
+          },
+          {
+            "name": "S1_Steel",
+            "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/S1_Steel.mat"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "n": "Observation_Console_A",
+    "pos": "(-20.400, -82.000, -4.900)",
+    "rotation": "(0.000, 135.000, 0.000)",
+    "children": [
+      {
+        "name": "Visual_L0",
+        "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/B5_IsolationMonitoringConsole_B5_L0.fbx",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Props/B5/B5_IsolationMonitoringConsole_B5_L0.fbx",
+        "vertices": 10423,
+        "bounds": "Center: (0.00, 0.32, 0.00), Extents: (0.33, 0.32, 0.24)",
+        "localPos": "(0.00, 0.00, 0.00)",
+        "localRot": "(0.00, 0.00, 0.00)",
+        "scale": "(2.37, 2.37, 2.37)",
+        "mats": [
+          {
+            "name": "B5_IsolationMonitoringConsole_URP",
+            "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/B5_IsolationMonitoringConsole_URP.mat"
+          }
+        ]
+      },
+      {
+        "name": "Visual_L1",
+        "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/B5_IsolationMonitoringConsole_B5_L1.fbx",
+        "prefab": "Assets/Afrer_Seconds/05.Model/Props/B5/B5_IsolationMonitoringConsole_B5_L1.fbx",
+        "vertices": 4864,
+        "bounds": "Center: (0.00, 0.32, 0.00), Extents: (0.33, 0.33, 0.24)",
+        "localPos": "(0.00, 0.00, 0.00)",
+        "localRot": "(0.00, 0.00, 0.00)",
+        "scale": "(2.37, 2.37, 2.37)",
+        "mats": [
+          {
+            "name": "B5_IsolationMonitoringConsole_URP",
+            "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/B5_IsolationMonitoringConsole_URP.mat"
+          }
+        ]
+      }
+    ]
+  }
+]

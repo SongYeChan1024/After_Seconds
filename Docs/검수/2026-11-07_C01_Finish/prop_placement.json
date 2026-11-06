@@ -1,0 +1,62 @@
+{
+  "placed": [
+    {
+      "name": "Sample_Trolley_A",
+      "asset": "LP_SampleTrolley",
+      "position": "(-4.000, 0.000, 6.800)",
+      "size": "(0.800, 1.013, 0.492)",
+      "attempts": [
+        {
+          "position": "(-4.00, 0.00, 6.80)",
+          "hits": []
+        }
+      ]
+    },
+    {
+      "name": "Sample_Trolley_B",
+      "asset": "LP_SampleTrolley",
+      "position": "(6.700, 0.000, -3.500)",
+      "size": "(0.800, 1.013, 0.492)",
+      "attempts": [
+        {
+          "position": "(6.70, 0.00, -3.50)",
+          "hits": []
+        }
+      ]
+    },
+    {
+      "name": "Sample_Analyzer",
+      "asset": "LP_BenchAnalyzer",
+      "position": "(-5.900, 0.000, -6.700)",
+      "size": "(1.052, 1.407, 0.700)",
+      "attempts": [
+        {
+          "position": "(-6.80, 0.00, -5.80)",
+          "hits": [
+            "CD-038_CFD_TransferCabinet:0.597"
+          ]
+        },
+        {
+          "position": "(-5.90, 0.00, -6.70)",
+          "hits": []
+        }
+      ]
+    },
+    {
+      "name": "Clinical_PPE_Station",
+      "asset": "SD_PPEStation",
+      "position": "(6.800, 0.000, 4.900)",
+      "size": "(0.800, 1.387, 0.380)",
+      "attempts": [
+        {
+          "position": "(6.80, 0.00, 4.90)",
+          "hits": []
+        }
+      ]
+    }
+  ],
+  "consoleConnectionPairs": 2,
+  "cables": 6,
+  "taskLightBefore": 16.0,
+  "taskLightAfter": 12.0
+}

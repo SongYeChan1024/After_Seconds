@@ -69,19 +69,11 @@ for lo,hi in [(0.04,1.27),(1.30,2.60),(2.63,3.98),(4.01,5.4),(5.43,6.8),(6.83,8.
         mesh2('Curved_Clinical_Panel',vs,fs,'Coat',.003,True)
 export2('AF_C01_CurvedLining')
 reset2()
-for deg in range(0,360,30):
-    if near_portal(deg):continue
-    a=math.radians(deg);ca,sa=math.cos(a),math.sin(a)
-    for seg in range(8):
-        vs=[]
-        for tangent in [-.10,.10]:
-            for radius in [9.78,9.94]:
-                for j in range(9):
-                    p=math.radians(seg*10.7+.10+(10.5*j/8));rr=radius*math.cos(p);vs.append((ca*rr-sa*tangent,radius*math.sin(p),sa*rr+ca*tangent))
-        fs=[];k=9
-        for j in range(8):fs.extend([(j,j+1,k+j+1,k+j),(2*k+j,3*k+j,3*k+j+1,2*k+j+1),(j,2*k+j,2*k+j+1,j+1),(k+j,k+j+1,3*k+j+1,3*k+j)])
-        fs.extend([(0,k,3*k,2*k),(k-1,3*k-1,4*k-1,2*k-1)]);mesh2('Vault_Rib',vs,fs,'Coat',.006,True)
-export2('AF_C01_ThreePortalRibs')
+# C01 ribs now use continuous, eight-way symmetric geometry.
+# The targeted tool also preserves the original AF model name and output path.
+import runpy
+runpy.run_path(str(R/'SourceAssets/C01_Finish/build_ribs.py'),run_name='__main__')
+de['manifest']['AF_C01_ThreePortalRibs']=json.loads((R/'SourceAssets/C01_Finish/rib_geometry.json').read_text('utf-8'))
 reset2()
 # A low, flush measurement ring and four sensor posts inside the observation pod.
 for deg in range(0,360,5):

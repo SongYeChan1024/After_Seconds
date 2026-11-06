@@ -1,0 +1,3072 @@
+{
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Circular.unity",
+  "dirty": false,
+  "playing": false,
+  "selected": null,
+  "ambientMode": "Trilight",
+  "ambientIntensity": 1.0,
+  "lights": [
+    {
+      "path": "B5_Circular_Core_V0.03/Lighting/C01_Work_0",
+      "name": "C01_Work_0",
+      "enabled": false,
+      "active": true,
+      "type": "Point",
+      "position": "(-9.80000, -78.80000, -10.00000)",
+      "localPosition": "(-9.80000, 3.20000, -10.00000)",
+      "rotation": "(0.00000, 0.00000, 0.00000)",
+      "forward": "(0.00000, 0.00000, 1.00000)",
+      "intensity": 3.74,
+      "range": 8.5,
+      "spotAngle": 30.0,
+      "innerSpotAngle": 21.80208,
+      "shadows": "Soft",
+      "shadowBias": 0.025,
+      "shadowNormalBias": 0.12,
+      "cullingMask": -1,
+      "bakeType": "Realtime",
+      "color": "RGBA(0.76078, 0.86667, 1.00000, 1.00000)"
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Lighting/C01_Work_1",
+      "name": "C01_Work_1",
+      "enabled": false,
+      "active": true,
+      "type": "Point",
+      "position": "(-15.00000, -78.80000, -15.20000)",
+      "localPosition": "(-15.00000, 3.20000, -15.20000)",
+      "rotation": "(0.00000, 0.00000, 0.00000)",
+      "forward": "(0.00000, 0.00000, 1.00000)",
+      "intensity": 3.74,
+      "range": 8.5,
+      "spotAngle": 30.0,
+      "innerSpotAngle": 21.80208,
+      "shadows": "None",
+      "shadowBias": 0.025,
+      "shadowNormalBias": 0.12,
+      "cullingMask": -1,
+      "bakeType": "Realtime",
+      "color": "RGBA(0.76078, 0.86667, 1.00000, 1.00000)"
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Lighting/C01_Work_2",
+      "name": "C01_Work_2",
+      "enabled": false,
+      "active": true,
+      "type": "Point",
+      "position": "(-20.20000, -78.80000, -10.00000)",
+      "localPosition": "(-20.20000, 3.20000, -10.00000)",
+      "rotation": "(0.00000, 0.00000, 0.00000)",
+      "forward": "(0.00000, 0.00000, 1.00000)",
+      "intensity": 3.74,
+      "range": 8.5,
+      "spotAngle": 30.0,
+      "innerSpotAngle": 21.80208,
+      "shadows": "None",
+      "shadowBias": 0.025,
+      "shadowNormalBias": 0.12,
+      "cullingMask": -1,
+      "bakeType": "Realtime",
+      "color": "RGBA(0.76078, 0.86667, 1.00000, 1.00000)"
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Lighting/C01_Work_3",
+      "name": "C01_Work_3",
+      "enabled": false,
+      "active": true,
+      "type": "Point",
+      "position": "(-15.00000, -78.80000, -4.80000)",
+      "localPosition": "(-15.00000, 3.20000, -4.80000)",
+      "rotation": "(0.00000, 0.00000, 0.00000)",
+      "forward": "(0.00000, 0.00000, 1.00000)",
+      "intensity": 3.74,
+      "range": 8.5,
+      "spotAngle": 30.0,
+      "innerSpotAngle": 21.80208,
+      "shadows": "None",
+      "shadowBias": 0.025,
+      "shadowNormalBias": 0.12,
+      "cullingMask": -1,
+      "bakeType": "Realtime",
+      "color": "RGBA(0.76078, 0.86667, 1.00000, 1.00000)"
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Lighting/B5-T01_0",
+      "name": "B5-T01_0",
+      "enabled": false,
+      "active": true,
+      "type": "Point",
+      "position": "(-18.04757, -79.15000, 2.19026)",
+      "localPosition": "(-18.04757, 2.85000, 2.19026)",
+      "rotation": "(0.00000, 0.00000, 0.00000)",
+      "forward": "(0.00000, 0.00000, 1.00000)",
+      "intensity": 2.04,
+      "range": 5.0,
+      "spotAngle": 30.0,
+      "innerSpotAngle": 21.80208,
+      "shadows": "None",
+      "shadowBias": 0.025,
+      "shadowNormalBias": 0.12,
+      "cullingMask": -1,
+      "bakeType": "Realtime",
+      "color": "RGBA(0.76078, 0.86667, 1.00000, 1.00000)"
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Lighting/B5-T03_0",
+      "name": "B5-T03_0",
+      "enabled": true,
+      "active": true,
+      "type": "Point",
+      "position": "(-2.42008, -79.15000, -8.82063)",
+      "localPosition": "(-2.42008, 2.85000, -8.82063)",
+      "rotation": "(0.00000, 0.00000, 0.00000)",
+      "forward": "(0.00000, 0.00000, 1.00000)",
+      "intensity": 2.04,
+      "range": 5.0,
+      "spotAngle": 30.0,
+      "innerSpotAngle": 21.80208,
+      "shadows": "None",
+      "shadowBias": 0.025,
+      "shadowNormalBias": 0.12,
+      "cullingMask": -1,
+      "bakeType": "Realtime",
+      "color": "RGBA(0.76078, 0.86667, 1.00000, 1.00000)"
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/B5_Art_C01_T01/CD-002_CFD_SealedLight/TaskLight",
+      "name": "TaskLight",
+      "enabled": true,
+      "active": true,
+      "type": "Point",
+      "position": "(-17.78916, -78.95000, 1.15664)",
+      "localPosition": "(0.00000, -0.14000, 0.00000)",
+      "rotation": "(0.00000, 345.96370, 0.00000)",
+      "forward": "(-0.24254, 0.00000, 0.97014)",
+      "intensity": 0.92,
+      "range": 5.0,
+      "spotAngle": 30.0,
+      "innerSpotAngle": 21.80208,
+      "shadows": "None",
+      "shadowBias": 0.05,
+      "shadowNormalBias": 0.4,
+      "cullingMask": -1,
+      "bakeType": "Realtime",
+      "color": "RGBA(0.75686, 0.83529, 0.89412, 1.00000)"
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/B5_Art_C01_T01/CD-004_CFD_SealedLight/TaskLight",
+      "name": "TaskLight",
+      "enabled": true,
+      "active": true,
+      "type": "Point",
+      "position": "(-18.50464, -78.95000, 4.01856)",
+      "localPosition": "(0.00000, -0.14000, 0.00000)",
+      "rotation": "(0.00000, 345.96370, 0.00000)",
+      "forward": "(-0.24254, 0.00000, 0.97014)",
+      "intensity": 0.92,
+      "range": 5.0,
+      "spotAngle": 30.0,
+      "innerSpotAngle": 21.80208,
+      "shadows": "None",
+      "shadowBias": 0.05,
+      "shadowNormalBias": 0.4,
+      "cullingMask": -1,
+      "bakeType": "Realtime",
+      "color": "RGBA(0.75686, 0.83529, 0.89412, 1.00000)"
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/S1_WallTaskLight_03/Wall_Worklight",
+      "name": "Wall_Worklight",
+      "enabled": true,
+      "active": true,
+      "type": "Spot",
+      "position": "(-8.48096, -78.98000, -4.52988)",
+      "localPosition": "(0.00000, -0.16000, 0.83000)",
+      "rotation": "(45.80694, 230.00000, 0.00000)",
+      "forward": "(-0.53399, -0.71700, -0.44807)",
+      "intensity": 20.0,
+      "range": 11.0,
+      "spotAngle": 118.0,
+      "innerSpotAngle": 70.0,
+      "shadows": "Soft",
+      "shadowBias": 0.02,
+      "shadowNormalBias": 0.08,
+      "cullingMask": -1,
+      "bakeType": "Realtime",
+      "color": "RGBA(0.80784, 0.86667, 0.90196, 1.00000)"
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/S1_WallTaskLight_04/Wall_Worklight",
+      "name": "Wall_Worklight",
+      "enabled": true,
+      "active": true,
+      "type": "Spot",
+      "position": "(-21.51904, -78.98000, -4.52988)",
+      "localPosition": "(0.00000, -0.16000, 0.83000)",
+      "rotation": "(45.80694, 130.00000, 0.00000)",
+      "forward": "(0.53399, -0.71700, -0.44807)",
+      "intensity": 20.0,
+      "range": 11.0,
+      "spotAngle": 118.0,
+      "innerSpotAngle": 70.0,
+      "shadows": "Soft",
+      "shadowBias": 0.02,
+      "shadowNormalBias": 0.08,
+      "cullingMask": -1,
+      "bakeType": "Realtime",
+      "color": "RGBA(0.80784, 0.86667, 0.90196, 1.00000)"
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/S1_WallTaskLight_05/Wall_Worklight",
+      "name": "Wall_Worklight",
+      "enabled": true,
+      "active": true,
+      "type": "Spot",
+      "position": "(-21.51904, -78.98000, -15.47012)",
+      "localPosition": "(0.00000, -0.16000, 0.83000)",
+      "rotation": "(45.80694, 50.00001, 0.00000)",
+      "forward": "(0.53399, -0.71700, 0.44807)",
+      "intensity": 20.0,
+      "range": 11.0,
+      "spotAngle": 118.0,
+      "innerSpotAngle": 70.0,
+      "shadows": "Soft",
+      "shadowBias": 0.02,
+      "shadowNormalBias": 0.08,
+      "cullingMask": -1,
+      "bakeType": "Realtime",
+      "color": "RGBA(0.80784, 0.86667, 0.90196, 1.00000)"
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/S1_WallTaskLight_06/Wall_Worklight",
+      "name": "Wall_Worklight",
+      "enabled": true,
+      "active": true,
+      "type": "Spot",
+      "position": "(-8.48096, -78.98000, -15.47012)",
+      "localPosition": "(0.00000, -0.16000, 0.83000)",
+      "rotation": "(45.80693, 310.00000, 0.00000)",
+      "forward": "(-0.53399, -0.71699, 0.44807)",
+      "intensity": 20.0,
+      "range": 11.0,
+      "spotAngle": 118.0,
+      "innerSpotAngle": 70.0,
+      "shadows": "Soft",
+      "shadowBias": 0.02,
+      "shadowNormalBias": 0.08,
+      "cullingMask": -1,
+      "bakeType": "Realtime",
+      "color": "RGBA(0.80784, 0.86667, 0.90196, 1.00000)"
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/Pod_Interior_Task",
+      "name": "Pod_Interior_Task",
+      "enabled": true,
+      "active": true,
+      "type": "Point",
+      "position": "(-15.00000, -76.10000, -10.00000)",
+      "localPosition": "(0.00000, 5.90000, 0.00000)",
+      "rotation": "(0.00000, 0.00000, 0.00000)",
+      "forward": "(0.00000, 0.00000, 1.00000)",
+      "intensity": 12.0,
+      "range": 12.0,
+      "spotAngle": 30.0,
+      "innerSpotAngle": 21.80208,
+      "shadows": "None",
+      "shadowBias": 0.02,
+      "shadowNormalBias": 0.12,
+      "cullingMask": -1,
+      "bakeType": "Realtime",
+      "color": "RGBA(0.80784, 0.86667, 0.90196, 1.00000)"
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/Measurement_Indirect",
+      "name": "Measurement_Indirect",
+      "enabled": true,
+      "active": true,
+      "type": "Point",
+      "position": "(-16.00000, -79.20000, -9.70000)",
+      "localPosition": "(-1.00000, 2.80000, 0.30000)",
+      "rotation": "(0.00000, 0.00000, 0.00000)",
+      "forward": "(0.00000, 0.00000, 1.00000)",
+      "intensity": 1.5,
+      "range": 6.0,
+      "spotAngle": 30.0,
+      "innerSpotAngle": 21.80208,
+      "shadows": "None",
+      "shadowBias": 0.02,
+      "shadowNormalBias": 0.12,
+      "cullingMask": -1,
+      "bakeType": "Realtime",
+      "color": "RGBA(0.80784, 0.86667, 0.90196, 1.00000)"
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/C01_Perimeter_Lab/Integrated_Worklights/Worklight_52",
+      "name": "Worklight_52",
+      "enabled": true,
+      "active": true,
+      "type": "Spot",
+      "position": "(-8.31500, -78.98900, -4.00000)",
+      "localPosition": "(6.68500, 3.01100, 6.00000)",
+      "rotation": "(67.97060, 38.00005, 0.00000)",
+      "forward": "(0.23092, -0.92699, 0.29557)",
+      "intensity": 3.2,
+      "range": 4.5,
+      "spotAngle": 120.0,
+      "innerSpotAngle": 70.0,
+      "shadows": "None",
+      "shadowBias": 0.05,
+      "shadowNormalBias": 0.4,
+      "cullingMask": -1,
+      "bakeType": "Realtime",
+      "color": "RGBA(0.79000, 0.89000, 0.93000, 1.00000)"
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/C01_Perimeter_Lab/Integrated_Worklights/Worklight_144",
+      "name": "Worklight_144",
+      "enabled": true,
+      "active": true,
+      "type": "Spot",
+      "position": "(-21.43169, -79.35000, -5.32711)",
+      "localPosition": "(-6.43169, 2.65000, 4.67289)",
+      "rotation": "(67.97063, 306.00000, 0.00000)",
+      "forward": "(-0.30345, -0.92699, 0.22047)",
+      "intensity": 3.2,
+      "range": 4.5,
+      "spotAngle": 120.0,
+      "innerSpotAngle": 70.0,
+      "shadows": "None",
+      "shadowBias": 0.05,
+      "shadowNormalBias": 0.4,
+      "cullingMask": -1,
+      "bakeType": "Realtime",
+      "color": "RGBA(0.79000, 0.89000, 0.93000, 1.00000)"
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/C01_Perimeter_Lab/Integrated_Worklights/Worklight_232",
+      "name": "Worklight_232",
+      "enabled": true,
+      "active": true,
+      "type": "Spot",
+      "position": "(-19.89451, -79.35000, -16.26468)",
+      "localPosition": "(-4.89451, 2.65000, -6.26469)",
+      "rotation": "(67.97060, 218.00000, 0.00000)",
+      "forward": "(-0.23092, -0.92699, -0.29557)",
+      "intensity": 3.2,
+      "range": 4.5,
+      "spotAngle": 120.0,
+      "innerSpotAngle": 70.0,
+      "shadows": "None",
+      "shadowBias": 0.05,
+      "shadowNormalBias": 0.4,
+      "cullingMask": -1,
+      "bakeType": "Realtime",
+      "color": "RGBA(0.79000, 0.89000, 0.93000, 1.00000)"
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/C01_Perimeter_Lab/Integrated_Worklights/Worklight_280",
+      "name": "Worklight_280",
+      "enabled": true,
+      "active": true,
+      "type": "Spot",
+      "position": "(-13.61950, -79.35000, -17.82922)",
+      "localPosition": "(1.38050, 2.65000, -7.82922)",
+      "rotation": "(67.97067, 170.00000, 0.00000)",
+      "forward": "(0.06513, -0.92699, -0.36938)",
+      "intensity": 3.2,
+      "range": 4.5,
+      "spotAngle": 120.0,
+      "innerSpotAngle": 70.0,
+      "shadows": "None",
+      "shadowBias": 0.05,
+      "shadowNormalBias": 0.4,
+      "cullingMask": -1,
+      "bakeType": "Realtime",
+      "color": "RGBA(0.79000, 0.89000, 0.93000, 1.00000)"
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/C01_Perimeter_Lab/Integrated_Worklights/Worklight_328",
+      "name": "Worklight_328",
+      "enabled": true,
+      "active": true,
+      "type": "Spot",
+      "position": "(-8.25802, -79.35000, -14.21286)",
+      "localPosition": "(6.74198, 2.65000, -4.21286)",
+      "rotation": "(67.97060, 121.99990, -0.00001)",
+      "forward": "(0.31809, -0.92699, -0.19876)",
+      "intensity": 3.2,
+      "range": 4.5,
+      "spotAngle": 120.0,
+      "innerSpotAngle": 70.0,
+      "shadows": "None",
+      "shadowBias": 0.05,
+      "shadowNormalBias": 0.4,
+      "cullingMask": -1,
+      "bakeType": "Realtime",
+      "color": "RGBA(0.79000, 0.89000, 0.93000, 1.00000)"
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T11/CFD_SealedLight/TaskLight",
+      "name": "TaskLight",
+      "enabled": true,
+      "active": true,
+      "type": "Point",
+      "position": "(-26.81181, -78.99000, -12.54178)",
+      "localPosition": "(0.00000, -0.18000, 0.00000)",
+      "rotation": "(0.00000, 77.85573, 0.00000)",
+      "forward": "(0.97762, 0.00000, 0.21037)",
+      "intensity": 3.2,
+      "range": 6.2,
+      "spotAngle": 30.0,
+      "innerSpotAngle": 21.80208,
+      "shadows": "None",
+      "shadowBias": 0.05,
+      "shadowNormalBias": 0.4,
+      "cullingMask": -1,
+      "bakeType": "Realtime",
+      "color": "RGBA(0.79000, 0.87000, 0.95000, 1.00000)"
+    }
+  ],
+  "emissiveRenderers": [
+    {
+      "path": "B5_Circular_Core_V0.03/B5_Art_C01_T01/CD-002_CFD_SealedLight",
+      "bounds": "Center: (-17.7909, -78.7400, 1.1634), Extents: (0.6056, 0.0900, 0.2396)",
+      "position": "(-17.78916, -78.81000, 1.15664)",
+      "rotation": "(0.00000, 345.96370, 0.00000)",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CFD_SealedLight.fbx",
+      "mats": [
+        {
+          "name": "CFD_Steel",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CFD_Steel.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CFD_Lamp",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CFD_Lamp.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.22922, 0.26765, 0.29373, 0.35000)",
+          "emissionMap": ""
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/B5_Art_C01_T01/CD-004_CFD_SealedLight",
+      "bounds": "Center: (-18.5063, -78.7400, 4.0254), Extents: (0.6056, 0.0900, 0.2396)",
+      "position": "(-18.50464, -78.81000, 4.01856)",
+      "rotation": "(0.00000, 345.96370, 0.00000)",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CFD_SealedLight.fbx",
+      "mats": [
+        {
+          "name": "CFD_Steel",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CFD_Steel.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CFD_Lamp",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CFD_Lamp.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.22922, 0.26765, 0.29373, 0.35000)",
+          "emissionMap": ""
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/S1_WallTaskLight_03",
+      "bounds": "Center: (-8.1765, -78.8200, -4.2744), Extents: (0.7905, 0.1700, 0.8050)",
+      "position": "(-7.84515, -78.82000, -3.99636)",
+      "rotation": "(0.00000, 230.00000, 0.00000)",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_WallTaskLight.fbx",
+      "mats": [
+        {
+          "name": "S1_Steel",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/S1_Steel.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "S1_Coat",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/S1_Coat.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "S1_Lamp",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/S1_Lamp.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.91000, 1.12000, 1.26000, 1.40000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "S1_Dark",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/S1_Dark.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/S1_WallTaskLight_04",
+      "bounds": "Center: (-21.8235, -78.8200, -4.2744), Extents: (0.7905, 0.1700, 0.8050)",
+      "position": "(-22.15486, -78.82000, -3.99636)",
+      "rotation": "(0.00000, 130.00000, 0.00000)",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_WallTaskLight.fbx",
+      "mats": [
+        {
+          "name": "S1_Steel",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/S1_Steel.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "S1_Coat",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/S1_Coat.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "S1_Lamp",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/S1_Lamp.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.91000, 1.12000, 1.26000, 1.40000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "S1_Dark",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/S1_Dark.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/S1_WallTaskLight_05",
+      "bounds": "Center: (-21.8235, -78.8200, -15.7256), Extents: (0.7905, 0.1700, 0.8050)",
+      "position": "(-22.15486, -78.82000, -16.00364)",
+      "rotation": "(0.00000, 50.00001, 0.00000)",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_WallTaskLight.fbx",
+      "mats": [
+        {
+          "name": "S1_Steel",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/S1_Steel.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "S1_Coat",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/S1_Coat.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "S1_Lamp",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/S1_Lamp.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.91000, 1.12000, 1.26000, 1.40000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "S1_Dark",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/S1_Dark.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/S1_WallTaskLight_06",
+      "bounds": "Center: (-8.1765, -78.8200, -15.7256), Extents: (0.7905, 0.1700, 0.8050)",
+      "position": "(-7.84515, -78.82000, -16.00364)",
+      "rotation": "(0.00000, 310.00000, 0.00000)",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/S1_WallTaskLight.fbx",
+      "mats": [
+        {
+          "name": "S1_Steel",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/S1_Steel.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "S1_Coat",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/S1_Coat.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "S1_Lamp",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/S1_Lamp.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.91000, 1.12000, 1.26000, 1.40000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "S1_Dark",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/S1_Dark.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/S1_VitalMonitor_18/CP_VitalMonitor_Repaired/CP_VitalMonitor_LOD0",
+      "bounds": "Center: (-18.2440, -81.2600, -16.6511), Extents: (0.3929, 0.7400, 0.3925)",
+      "position": "(-18.24395, -82.00000, -16.65108)",
+      "rotation": "(0.00000, 335.00000, 0.00000)",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/CP_VitalMonitor_Repaired.fbx",
+      "mats": [
+        {
+          "name": "S1_VitalMonitor",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/S1_VitalMonitor.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Coat",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Coat.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Steel",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Steel.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Rubber",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Rubber.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Dark",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Dark.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_LCD_Vital",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_LCD_Vital.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": true,
+          "emission": "RGBA(0.80000, 0.80000, 0.80000, 1.00000)",
+          "emissionMap": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/ID_LCD_Vital.png"
+        },
+        {
+          "name": "ID_DisplayGlass",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_DisplayGlass.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Trace",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Trace.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.13200, 0.43200, 0.40800, 0.60000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Blue",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Blue.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/S1_VitalMonitor_18/CP_VitalMonitor_Repaired/CP_VitalMonitor_LOD1",
+      "bounds": "Center: (-18.2440, -81.2599, -16.6511), Extents: (0.3928, 0.7399, 0.3923)",
+      "position": "(-18.24395, -82.00000, -16.65108)",
+      "rotation": "(0.00000, 335.00000, 0.00000)",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/CP_VitalMonitor_Repaired.fbx",
+      "mats": [
+        {
+          "name": "S1_VitalMonitor",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/S1_VitalMonitor.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Coat",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Coat.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Steel",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Steel.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Rubber",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Rubber.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Dark",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Dark.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Blue",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Blue.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Trace",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Trace.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.13200, 0.43200, 0.40800, 0.60000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_LCD_Vital",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_LCD_Vital.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": true,
+          "emission": "RGBA(0.80000, 0.80000, 0.80000, 1.00000)",
+          "emissionMap": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/ID_LCD_Vital.png"
+        },
+        {
+          "name": "ID_DisplayGlass",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_DisplayGlass.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/S1_VitalMonitor_18/CP_VitalMonitor_Repaired/CP_VitalMonitor_LOD2",
+      "bounds": "Center: (-18.2440, -81.2597, -16.6511), Extents: (0.3924, 0.7399, 0.3919)",
+      "position": "(-18.24395, -82.00000, -16.65108)",
+      "rotation": "(0.00000, 335.00000, 0.00000)",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/CP_VitalMonitor_Repaired.fbx",
+      "mats": [
+        {
+          "name": "S1_VitalMonitor",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/S1_VitalMonitor.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Coat",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Coat.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Steel",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Steel.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Rubber",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Rubber.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Dark",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Dark.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Trace",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Trace.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.13200, 0.43200, 0.40800, 0.60000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_LCD_Vital",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_LCD_Vital.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": true,
+          "emission": "RGBA(0.80000, 0.80000, 0.80000, 1.00000)",
+          "emissionMap": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/ID_LCD_Vital.png"
+        },
+        {
+          "name": "ID_DisplayGlass",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_DisplayGlass.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Blue",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Blue.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/C01_Clinical_Stations/Observation_Console_A/CP_ObservationConsole",
+      "bounds": "Center: (-20.4000, -81.2569, -4.9000), Extents: (0.9122, 0.7431, 0.9122)",
+      "position": "(-20.40000, -82.00000, -4.90000)",
+      "rotation": "(0.00000, 135.00000, 0.00000)",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/CP_ObservationConsole.fbx",
+      "mats": [
+        {
+          "name": "CP_Dark",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Dark.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Coat",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Coat.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Blue",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Blue.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Steel",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Steel.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_LCD_ObservationB",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_LCD_ObservationB.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": true,
+          "emission": "RGBA(0.80000, 0.80000, 0.80000, 1.00000)",
+          "emissionMap": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/ID_LCD_ObservationB.png"
+        },
+        {
+          "name": "ID_DisplayGlass",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_DisplayGlass.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Trace",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Trace.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.13200, 0.43200, 0.40800, 0.60000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_LCD_ObservationA",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_LCD_ObservationA.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": true,
+          "emission": "RGBA(0.80000, 0.80000, 0.80000, 1.00000)",
+          "emissionMap": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/ID_LCD_ObservationA.png"
+        },
+        {
+          "name": "ID_Label_Prep",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_Label_Prep.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/C01_Clinical_Stations/Observation_Console_B/CP_ObservationConsole",
+      "bounds": "Center: (-9.6000, -81.2569, -14.9000), Extents: (0.9122, 0.7431, 0.9122)",
+      "position": "(-9.60000, -82.00000, -14.90000)",
+      "rotation": "(0.00000, 315.00000, 0.00000)",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/CP_ObservationConsole.fbx",
+      "mats": [
+        {
+          "name": "CP_Dark",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Dark.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Coat",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Coat.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Blue",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Blue.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Steel",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Steel.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_LCD_ObservationB",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_LCD_ObservationB.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": true,
+          "emission": "RGBA(0.80000, 0.80000, 0.80000, 1.00000)",
+          "emissionMap": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/ID_LCD_ObservationB.png"
+        },
+        {
+          "name": "ID_DisplayGlass",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_DisplayGlass.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Trace",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Trace.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.13200, 0.43200, 0.40800, 0.60000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_LCD_ObservationA",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_LCD_ObservationA.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": true,
+          "emission": "RGBA(0.80000, 0.80000, 0.80000, 1.00000)",
+          "emissionMap": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/ID_LCD_ObservationA.png"
+        },
+        {
+          "name": "ID_Label_Prep",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_Label_Prep.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/C01_Perimeter_Lab/Station_40/CP_PreparationKit",
+      "bounds": "Center: (-8.2818, -80.9500, -4.3628), Extents: (0.5347, 0.0950, 0.5642)",
+      "position": "(-8.28179, -81.04500, -4.36275)",
+      "rotation": "(0.00000, 230.00000, 0.00000)",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/CP_PreparationKit.fbx",
+      "mats": [
+        {
+          "name": "CP_Blue",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Blue.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Paper",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Paper.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Dark",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Dark.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PR_VialGlass",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PR_VialGlass.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PR_SampleFluid",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PR_SampleFluid.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PR_Polymer",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PR_Polymer.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PR_Label_SpecimenA",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PR_Label_SpecimenA.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PR_Label_SpecimenB",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PR_Label_SpecimenB.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PR_Label_Reagent",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PR_Label_Reagent.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Steel",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Steel.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PR_Label_Pouch",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PR_Label_Pouch.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_LCD_Printer",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_LCD_Printer.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": true,
+          "emission": "RGBA(0.80000, 0.80000, 0.80000, 1.00000)",
+          "emissionMap": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/ID_LCD_Printer.png"
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/C01_Perimeter_Lab/Station_48/CP_OpticalAnalyzer",
+      "bounds": "Center: (-9.1334, -80.7010, -3.4845), Extents: (0.5807, 0.3460, 0.5668)",
+      "position": "(-9.12838, -81.04500, -3.47890)",
+      "rotation": "(0.00000, 222.00000, 0.00000)",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/CP_OpticalAnalyzer.fbx",
+      "mats": [
+        {
+          "name": "CP_Dark",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Dark.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Coat",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Coat.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Blue",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Blue.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Paper",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Paper.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_LCD_Assay",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_LCD_Assay.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": true,
+          "emission": "RGBA(0.80000, 0.80000, 0.80000, 1.00000)",
+          "emissionMap": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/ID_LCD_Assay.png"
+        },
+        {
+          "name": "ID_DisplayGlass",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_DisplayGlass.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Trace",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Trace.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.13200, 0.43200, 0.40800, 0.60000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Amber",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Amber.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_Label_Optics",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_Label_Optics.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Rubber",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Rubber.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Steel",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Steel.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PF_Decal_Vial",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PF_Decal_Vial.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PR_VialGlass",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PR_VialGlass.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PR_SampleFluid",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PR_SampleFluid.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PR_Polymer",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PR_Polymer.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PR_Label_SpecimenA",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PR_Label_SpecimenA.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PR_Label_SpecimenB",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PR_Label_SpecimenB.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/C01_Perimeter_Lab/Station_56/CP_Centrifuge",
+      "bounds": "Center: (-9.9760, -80.8165, -2.8199), Extents: (0.4500, 0.2285, 0.4427)",
+      "position": "(-9.96314, -81.04500, -2.80078)",
+      "rotation": "(0.00000, 214.00000, 0.00000)",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/CP_Centrifuge.fbx",
+      "mats": [
+        {
+          "name": "CP_Dark",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Dark.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Coat",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Coat.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_LCD_Centrifuge",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_LCD_Centrifuge.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": true,
+          "emission": "RGBA(0.80000, 0.80000, 0.80000, 1.00000)",
+          "emissionMap": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/ID_LCD_Centrifuge.png"
+        },
+        {
+          "name": "ID_DisplayGlass",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_DisplayGlass.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Trace",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Trace.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.13200, 0.43200, 0.40800, 0.60000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Steel",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Steel.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Blue",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Blue.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Paper",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Paper.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Rubber",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Rubber.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PF_Glass",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PF_Glass.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PF_Decal_Centrifuge",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PF_Decal_Centrifuge.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/C01_Perimeter_Lab/Station_72/ID_ThermalCycler",
+      "bounds": "Center: (-12.2844, -80.6469, -1.6340), Extents: (0.4464, 0.3981, 0.4510)",
+      "position": "(-12.28838, -81.04500, -1.65448)",
+      "rotation": "(0.00000, 198.00000, 0.00000)",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/ID_ThermalCycler.fbx",
+      "mats": [
+        {
+          "name": "CP_Rubber",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Rubber.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Coat",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Coat.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Blue",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Blue.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Steel",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Steel.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Dark",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Dark.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_LCD_PCR",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_LCD_PCR.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": true,
+          "emission": "RGBA(0.80000, 0.80000, 0.80000, 1.00000)",
+          "emissionMap": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/ID_LCD_PCR.png"
+        },
+        {
+          "name": "ID_DisplayGlass",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_DisplayGlass.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Trace",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Trace.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.13200, 0.43200, 0.40800, 0.60000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PF_Decal_PCR",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PF_Decal_PCR.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/C01_Perimeter_Lab/Station_128/ID_FlowCytometer",
+      "bounds": "Center: (-20.3567, -80.6019, -3.1478), Extents: (0.5955, 0.4431, 0.5766)",
+      "position": "(-20.40243, -81.04500, -3.08521)",
+      "rotation": "(0.00000, 142.00000, 0.00000)",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/ID_FlowCytometer.fbx",
+      "mats": [
+        {
+          "name": "CP_Rubber",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Rubber.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Coat",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Coat.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Blue",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Blue.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Steel",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Steel.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Dark",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Dark.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_Label_Fluidics",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_Label_Fluidics.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_LCD_Plate",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_LCD_Plate.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": true,
+          "emission": "RGBA(0.80000, 0.80000, 0.80000, 1.00000)",
+          "emissionMap": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/ID_LCD_Plate.png"
+        },
+        {
+          "name": "ID_DisplayGlass",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_DisplayGlass.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Trace",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Trace.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.13200, 0.43200, 0.40800, 0.60000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Paper",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Paper.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PF_Decal_Vial",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PF_Decal_Vial.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PR_VialGlass",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PR_VialGlass.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PR_SampleFluid",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PR_SampleFluid.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PR_Polymer",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PR_Polymer.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PR_Label_SpecimenA",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PR_Label_SpecimenA.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PR_Label_SpecimenB",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PR_Label_SpecimenB.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PR_Label_Reagent",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PR_Label_Reagent.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/C01_Perimeter_Lab/Station_136/ID_PrecisionBalance",
+      "bounds": "Center: (-21.2974, -80.7465, -3.9221), Extents: (0.4068, 0.2985, 0.4070)",
+      "position": "(-21.31221, -81.04500, -3.90437)",
+      "rotation": "(0.00000, 134.00000, 0.00000)",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/ID_PrecisionBalance.fbx",
+      "mats": [
+        {
+          "name": "CP_Rubber",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Rubber.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Coat",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Coat.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Blue",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Blue.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Steel",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Steel.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Dark",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Dark.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_Label_Optics",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_Label_Optics.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_LCD_Balance",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_LCD_Balance.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": true,
+          "emission": "RGBA(0.80000, 0.80000, 0.80000, 1.00000)",
+          "emissionMap": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/ID_LCD_Balance.png"
+        },
+        {
+          "name": "ID_DisplayGlass",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_DisplayGlass.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Trace",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Trace.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.13200, 0.43200, 0.40800, 0.60000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PF_Liquid",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PF_Liquid.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Paper",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Paper.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/C01_Perimeter_Lab/Station_144/ID_DualMagneticStirrer",
+      "bounds": "Center: (-22.0804, -80.8275, -4.8589), Extents: (0.4245, 0.2175, 0.4450)",
+      "position": "(-22.09912, -81.04500, -4.84219)",
+      "rotation": "(0.00000, 126.00000, 0.00000)",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/ID_DualMagneticStirrer.fbx",
+      "mats": [
+        {
+          "name": "CP_Rubber",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Rubber.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Coat",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Coat.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Blue",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Blue.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Steel",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Steel.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Dark",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Dark.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_Label_Prep",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_Label_Prep.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Paper",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Paper.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_LCD_Bath",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_LCD_Bath.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": true,
+          "emission": "RGBA(0.80000, 0.80000, 0.80000, 1.00000)",
+          "emissionMap": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/ID_LCD_Bath.png"
+        },
+        {
+          "name": "ID_DisplayGlass",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_DisplayGlass.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Trace",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Trace.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.13200, 0.43200, 0.40800, 0.60000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PF_Glass",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PF_Glass.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PF_Liquid",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PF_Liquid.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/C01_Perimeter_Lab/Station_160/ID_ChromatographyStack",
+      "bounds": "Center: (-23.1996, -80.5357, -6.9582), Extents: (0.3982, 0.5093, 0.4457)",
+      "position": "(-23.24580, -81.04500, -6.99877)",
+      "rotation": "(0.00000, 110.00000, 0.00000)",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/ID_ChromatographyStack.fbx",
+      "mats": [
+        {
+          "name": "CP_Rubber",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Rubber.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Coat",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Coat.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Dark",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Dark.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_LCD_Chromatography",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_LCD_Chromatography.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": true,
+          "emission": "RGBA(0.80000, 0.80000, 0.80000, 1.00000)",
+          "emissionMap": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/ID_LCD_Chromatography.png"
+        },
+        {
+          "name": "ID_DisplayGlass",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_DisplayGlass.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Trace",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Trace.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.13200, 0.43200, 0.40800, 0.60000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Steel",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Steel.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Amber",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Amber.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_Label_Fluidics",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_Label_Fluidics.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PR_Polymer",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PR_Polymer.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Blue",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Blue.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PR_Label_Reagent",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PR_Label_Reagent.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/C01_Perimeter_Lab/Station_216/ID_UltrasonicBath",
+      "bounds": "Center: (-22.0774, -80.8432, -15.1451), Extents: (0.4536, 0.2018, 0.4718)",
+      "position": "(-22.09912, -81.04500, -15.15781)",
+      "rotation": "(0.00000, 54.00000, 0.00000)",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/ID_UltrasonicBath.fbx",
+      "mats": [
+        {
+          "name": "CP_Rubber",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Rubber.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Coat",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Coat.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Blue",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Blue.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Steel",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Steel.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Dark",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Dark.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_LCD_Bath",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_LCD_Bath.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": true,
+          "emission": "RGBA(0.80000, 0.80000, 0.80000, 1.00000)",
+          "emissionMap": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/ID_LCD_Bath.png"
+        },
+        {
+          "name": "ID_DisplayGlass",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_DisplayGlass.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Trace",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Trace.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.13200, 0.43200, 0.40800, 0.60000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PF_Decal_Wash",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PF_Decal_Wash.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/C01_Perimeter_Lab/Station_248/ID_BenchAutoclave",
+      "bounds": "Center: (-18.2686, -80.7550, -18.0967), Extents: (0.5167, 0.2900, 0.4869)",
+      "position": "(-18.28717, -81.04500, -18.13604)",
+      "rotation": "(0.00000, 22.00000, 0.00000)",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/ID_BenchAutoclave.fbx",
+      "mats": [
+        {
+          "name": "CP_Rubber",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Rubber.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Coat",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Coat.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Blue",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Blue.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Steel",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Steel.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Dark",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Dark.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_DisplayGlass",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_DisplayGlass.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_LCD_Sterilizer",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_LCD_Sterilizer.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": true,
+          "emission": "RGBA(0.80000, 0.80000, 0.80000, 1.00000)",
+          "emissionMap": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/ID_LCD_Sterilizer.png"
+        },
+        {
+          "name": "CP_Trace",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Trace.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.13200, 0.43200, 0.40800, 0.60000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Paper",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Paper.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PF_Decal_Gauge",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PF_Decal_Gauge.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PF_Decal_Sterilizer",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PF_Decal_Sterilizer.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/C01_Perimeter_Lab/Station_256/CP_ColdStorage",
+      "bounds": "Center: (-17.1186, -80.8900, -18.4974), Extents: (0.5874, 1.1100, 0.4945)",
+      "position": "(-17.12891, -82.00000, -18.53860)",
+      "rotation": "(0.00000, 14.00000, 0.00000)",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/CP_ColdStorage.fbx",
+      "mats": [
+        {
+          "name": "CP_Dark",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Dark.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Coat",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Coat.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Blue",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Blue.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Steel",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Steel.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_LCD_Cold",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_LCD_Cold.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": true,
+          "emission": "RGBA(0.80000, 0.80000, 0.80000, 1.00000)",
+          "emissionMap": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/ID_LCD_Cold.png"
+        },
+        {
+          "name": "ID_DisplayGlass",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_DisplayGlass.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Trace",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Trace.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.13200, 0.43200, 0.40800, 0.60000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_Label_Storage",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_Label_Storage.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/C01_Perimeter_Lab/Station_264/ID_CryoDrawerBank",
+      "bounds": "Center: (-15.9149, -80.8900, -18.7043), Extents: (0.5477, 1.1100, 0.4389)",
+      "position": "(-15.91985, -82.00000, -18.75179)",
+      "rotation": "(0.00000, 6.00000, 0.00000)",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/ID_CryoDrawerBank.fbx",
+      "mats": [
+        {
+          "name": "CP_Dark",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Dark.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Coat",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Coat.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Blue",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Blue.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Steel",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Steel.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_Label_Storage",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_Label_Storage.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_LCD_Cold",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_LCD_Cold.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": true,
+          "emission": "RGBA(0.80000, 0.80000, 0.80000, 1.00000)",
+          "emissionMap": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/ID_LCD_Cold.png"
+        },
+        {
+          "name": "ID_DisplayGlass",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_DisplayGlass.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Trace",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Trace.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.13200, 0.43200, 0.40800, 0.60000)",
+          "emissionMap": ""
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/C01_Perimeter_Lab/Station_280/ID_SlideScanner",
+      "bounds": "Center: (-13.4780, -80.7300, -18.6171), Extents: (0.5315, 0.3150, 0.4034)",
+      "position": "(-13.47624, -81.04500, -18.64169)",
+      "rotation": "(0.00000, 350.00000, 0.00000)",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/ID_SlideScanner.fbx",
+      "mats": [
+        {
+          "name": "CP_Rubber",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Rubber.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Coat",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Coat.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Blue",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Blue.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Steel",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Steel.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Dark",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Dark.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_Label_Optics",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_Label_Optics.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Paper",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Paper.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_LCD_Assay",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_LCD_Assay.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": true,
+          "emission": "RGBA(0.80000, 0.80000, 0.80000, 1.00000)",
+          "emissionMap": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/ID_LCD_Assay.png"
+        },
+        {
+          "name": "ID_DisplayGlass",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_DisplayGlass.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Trace",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Trace.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.13200, 0.43200, 0.40800, 0.60000)",
+          "emissionMap": ""
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/C01_Perimeter_Lab/Station_288/ID_DualVortexMixer",
+      "bounds": "Center: (-12.2936, -80.8555, -18.3215), Extents: (0.3235, 0.1895, 0.3216)",
+      "position": "(-12.28837, -81.04500, -18.34552)",
+      "rotation": "(0.00000, 342.00000, 0.00000)",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/ID_DualVortexMixer.fbx",
+      "mats": [
+        {
+          "name": "CP_Rubber",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Rubber.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Coat",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Coat.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Blue",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Blue.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Steel",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Steel.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Dark",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Dark.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_Label_Prep",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_Label_Prep.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_LCD_Centrifuge",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_LCD_Centrifuge.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": true,
+          "emission": "RGBA(0.80000, 0.80000, 0.80000, 1.00000)",
+          "emissionMap": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/ID_LCD_Centrifuge.png"
+        },
+        {
+          "name": "ID_DisplayGlass",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_DisplayGlass.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Trace",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Trace.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.13200, 0.43200, 0.40800, 0.60000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PR_VialGlass",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PR_VialGlass.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PR_SampleFluid",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PR_SampleFluid.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PR_Polymer",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PR_Polymer.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PR_Label_SpecimenA",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PR_Label_SpecimenA.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PR_Label_SpecimenB",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PR_Label_SpecimenB.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/C01_Perimeter_Lab/Station_296/ID_MicroplateHandler",
+      "bounds": "Center: (-11.1618, -80.6450, -17.8638), Extents: (0.5334, 0.4000, 0.4722)",
+      "position": "(-11.15329, -81.04500, -17.88692)",
+      "rotation": "(0.00000, 334.00000, 0.00000)",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/ID_MicroplateHandler.fbx",
+      "mats": [
+        {
+          "name": "CP_Rubber",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Rubber.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Coat",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Coat.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Blue",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Blue.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Steel",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Steel.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Dark",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Dark.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_Label_Prep",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_Label_Prep.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_LCD_Plate",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_LCD_Plate.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": true,
+          "emission": "RGBA(0.80000, 0.80000, 0.80000, 1.00000)",
+          "emissionMap": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/ID_LCD_Plate.png"
+        },
+        {
+          "name": "ID_DisplayGlass",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_DisplayGlass.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Trace",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Trace.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.13200, 0.43200, 0.40800, 0.60000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Paper",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Paper.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/C01_Perimeter_Lab/Station_304/CP_OpticalAnalyzer",
+      "bounds": "Center: (-10.0973, -80.7010, -17.2686), Extents: (0.5893, 0.3460, 0.5387)",
+      "position": "(-10.09308, -81.04500, -17.27481)",
+      "rotation": "(0.00000, 326.00000, 0.00000)",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/CP_OpticalAnalyzer.fbx",
+      "mats": [
+        {
+          "name": "CP_Dark",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Dark.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Coat",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Coat.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Blue",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Blue.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Paper",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Paper.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_LCD_Assay",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_LCD_Assay.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": true,
+          "emission": "RGBA(0.80000, 0.80000, 0.80000, 1.00000)",
+          "emissionMap": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/ID_LCD_Assay.png"
+        },
+        {
+          "name": "ID_DisplayGlass",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_DisplayGlass.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Trace",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Trace.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.13200, 0.43200, 0.40800, 0.60000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Amber",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Amber.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_Label_Optics",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_Label_Optics.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Rubber",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Rubber.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Steel",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Steel.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PF_Decal_Vial",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PF_Decal_Vial.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PR_VialGlass",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PR_VialGlass.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PR_SampleFluid",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PR_SampleFluid.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PR_Polymer",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PR_Polymer.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PR_Label_SpecimenA",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PR_Label_SpecimenA.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PR_Label_SpecimenB",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PR_Label_SpecimenB.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/C01_Perimeter_Lab/Station_312/ID_TubeRotator",
+      "bounds": "Center: (-9.1432, -80.8130, -16.5008), Extents: (0.4497, 0.2320, 0.4436)",
+      "position": "(-9.12838, -81.04500, -16.52110)",
+      "rotation": "(0.00000, 318.00000, 0.00000)",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/ID_TubeRotator.fbx",
+      "mats": [
+        {
+          "name": "CP_Rubber",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Rubber.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Coat",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Coat.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Blue",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Blue.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Steel",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Steel.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Dark",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Dark.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_Label_Prep",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_Label_Prep.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Paper",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Paper.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_LCD_Centrifuge",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_LCD_Centrifuge.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": true,
+          "emission": "RGBA(0.80000, 0.80000, 0.80000, 1.00000)",
+          "emissionMap": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/ID_LCD_Centrifuge.png"
+        },
+        {
+          "name": "ID_DisplayGlass",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_DisplayGlass.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Trace",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Trace.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.13200, 0.43200, 0.40800, 0.60000)",
+          "emissionMap": ""
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/C01_Perimeter_Lab/Station_320/ID_CryoDrawerBank",
+      "bounds": "Center: (-8.2954, -80.8900, -15.6259), Extents: (0.6248, 1.1100, 0.6399)",
+      "position": "(-8.25881, -82.00000, -15.65653)",
+      "rotation": "(0.00000, 310.00000, 0.00000)",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/ID_CryoDrawerBank.fbx",
+      "mats": [
+        {
+          "name": "CP_Dark",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Dark.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Coat",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Coat.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Blue",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Blue.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Steel",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Steel.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_Label_Storage",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_Label_Storage.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_LCD_Cold",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_LCD_Cold.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": true,
+          "emission": "RGBA(0.80000, 0.80000, 0.80000, 1.00000)",
+          "emissionMap": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/ID_LCD_Cold.png"
+        },
+        {
+          "name": "ID_DisplayGlass",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_DisplayGlass.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Trace",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Trace.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.13200, 0.43200, 0.40800, 0.60000)",
+          "emissionMap": ""
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/C01_Perimeter_Lab/Station_336/ID_SterileSealer",
+      "bounds": "Center: (-7.0055, -80.8697, -13.5567), Extents: (0.4139, 0.1753, 0.4938)",
+      "position": "(-6.98364, -81.04500, -13.56911)",
+      "rotation": "(0.00000, 294.00000, 0.00000)",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/ID_SterileSealer.fbx",
+      "mats": [
+        {
+          "name": "CP_Rubber",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Rubber.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Coat",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Coat.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Blue",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Blue.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Steel",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Steel.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Dark",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Dark.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_Label_Prep",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_Label_Prep.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_LCD_Sterilizer",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_LCD_Sterilizer.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": true,
+          "emission": "RGBA(0.80000, 0.80000, 0.80000, 1.00000)",
+          "emissionMap": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/ID_LCD_Sterilizer.png"
+        },
+        {
+          "name": "ID_DisplayGlass",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_DisplayGlass.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Trace",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Trace.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.13200, 0.43200, 0.40800, 0.60000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Paper",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Paper.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PR_Label_Pouch",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PR_Label_Pouch.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/C01_Experiment_Art/C01_Perimeter_Lab/Station_344/ID_LabelPrinter",
+      "bounds": "Center: (-6.5659, -80.7875, -12.3092), Extents: (0.3783, 0.2575, 0.4305)",
+      "position": "(-6.56493, -81.04500, -12.41872)",
+      "rotation": "(0.00000, 286.00000, 0.00000)",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Props/B5/ID_LabelPrinter.fbx",
+      "mats": [
+        {
+          "name": "CP_Rubber",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Rubber.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Coat",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Coat.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Blue",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Blue.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Steel",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Steel.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Dark",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Dark.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_Label_Prep",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_Label_Prep.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "ID_LCD_Printer",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_LCD_Printer.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": true,
+          "emission": "RGBA(0.80000, 0.80000, 0.80000, 1.00000)",
+          "emissionMap": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/ID_LCD_Printer.png"
+        },
+        {
+          "name": "ID_DisplayGlass",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/ID_DisplayGlass.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CP_Trace",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/CP_Trace.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.13200, 0.43200, 0.40800, 0.60000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "PF_Decal_Barcode",
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PF_Decal_Barcode.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T11/CFD_SealedLight",
+      "bounds": "Center: (-26.8050, -78.7400, -12.5403), Extents: (0.2211, 0.0900, 0.6070)",
+      "position": "(-26.81181, -78.81000, -12.54178)",
+      "rotation": "(0.00000, 77.85573, 0.00000)",
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CFD_SealedLight.fbx",
+      "mats": [
+        {
+          "name": "CFD_Steel",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CFD_Steel.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.00000, 0.00000, 0.00000, 1.00000)",
+          "emissionMap": ""
+        },
+        {
+          "name": "CFD_Lamp",
+          "path": "Assets/Afrer_Seconds/05.Model/Environment/Common/Materials/CFD_Lamp.mat",
+          "shader": "Universal Render Pipeline/Lit",
+          "emissionKeyword": false,
+          "emission": "RGBA(0.22922, 0.26765, 0.29373, 0.35000)",
+          "emissionMap": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+using System;using System.IO;using UnityEngine;using UnityEditor;using UnityEngine.SceneManagement;using Newtonsoft.Json;
+public static class LabDoorFinalize{
+ public static object Run(){if(Application.isPlaying)throw new Exception("Edit mode required");var p="Assets/Afrer_Seconds/05.Model/Props/B5/Materials/PF_Decal_Sealer.mat";var m=AssetDatabase.LoadAssetAtPath<Material>(p);m.doubleSidedGI=false;m.SetTexture("_MainTex",null);EditorUtility.SetDirty(m);AssetDatabase.SaveAssetIfDirty(m);string provenance="Assets/Afrer_Seconds/06.Data/AssetSources/C01_Doors_20261107.json";AssetDatabase.ImportAsset(provenance,ImportAssetOptions.ForceSynchronousImport);var s=SceneManager.GetActiveScene();return new{scene=s.path,dirty=s.isDirty,playing=Application.isPlaying,background=Application.runInBackground,provenanceGuid=AssetDatabase.AssetPathToGUID(provenance)};}
+}
