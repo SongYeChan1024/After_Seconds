@@ -1,0 +1,75 @@
+{
+  "title": "C02 보안관제동 밀도·모니터 보강 V0.01",
+  "author": "송예찬",
+  "date": "2026-11-08",
+  "source": "SourceAssets/C02_SecurityRefine",
+  "baseSource": "SourceAssets/C02_Security",
+  "method": "Local beveled Blender models, reused TC PBR maps, scene captures and geometry-derived static map",
+  "models": {
+    "SR_AVServiceRack": {
+      "triangles": 17250,
+      "parts": 97,
+      "beveled_parts": 77,
+      "asset": "C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\SR_AVServiceRack.fbx",
+      "category": "Props"
+    },
+    "SR_CredentialStation": {
+      "triangles": 12556,
+      "parts": 72,
+      "beveled_parts": 68,
+      "asset": "C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\SR_CredentialStation.fbx",
+      "category": "Props"
+    },
+    "SR_EvidenceCabinet": {
+      "triangles": 11790,
+      "parts": 67,
+      "beveled_parts": 58,
+      "asset": "C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\SR_EvidenceCabinet.fbx",
+      "category": "Props"
+    },
+    "SR_ShiftEquipment": {
+      "triangles": 8434,
+      "parts": 45,
+      "beveled_parts": 30,
+      "asset": "C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Props\\B5\\SR_ShiftEquipment.fbx",
+      "category": "Props"
+    },
+    "SR_NorthAirReturn": {
+      "triangles": 10054,
+      "parts": 56,
+      "beveled_parts": 55,
+      "asset": "C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B5\\SR_NorthAirReturn.fbx",
+      "category": "Environment"
+    },
+    "SR_WallServices": {
+      "triangles": 1980,
+      "parts": 17,
+      "beveled_parts": 0,
+      "asset": "C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B5\\SR_WallServices.fbx",
+      "category": "Environment"
+    }
+  },
+  "upgradedModels": [
+    "SC_OperatorDesk_A",
+    "SC_OperatorDesk_B",
+    "SC_VideoWall",
+    "SC_IncidentReview",
+    "SC_RadioDutyStation",
+    "SC_NetworkRack",
+    "SC_RecorderRack",
+    "SC_UPSRack"
+  ],
+  "textureUpdates": [
+    "SC_Display_01",
+    "SC_Display_02",
+    "SC_Display_03",
+    "SC_Display_04",
+    "SC_Display_05"
+  ],
+  "newTexture": "SR_EquipmentPrint",
+  "newMaterial": "SC_EquipmentPrint",
+  "placementReport": "Docs/검수/2026-11-08_C02_Refine/apply.json",
+  "validation": "Docs/검수/2026-11-08_C02_Refine/검수결과.md",
+  "map": "SourceAssets/C02_SecurityRefine/map_manifest.json",
+  "runtimeBehaviourAdded": false
+}

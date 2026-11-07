@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "command": "command",
+  "data": {
+    "command": "script run",
+    "parameters": {
+      "entry": "RemainingPlay.Cooling",
+      "file": "C:\\GitHubProjects\\After_Seconds\\SourceAssets\\B5_RemainingDomes\\Play.cs"
+    },
+    "result": {
+      "diagnostics": [],
+      "compileMs": 112,
+      "executeMs": 15,
+      "assemblyName": "PipelineRunScript_Play_d0d6551a9ce04510b0c85381a684b8fe",
+      "success": true,
+      "result": {
+        "id": "cooling",
+        "frame": 2933,
+        "from": "(17.00, -81.32, -7.00)"
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

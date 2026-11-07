@@ -1,0 +1,703 @@
+{
+  "author": "송예찬",
+  "date": "2026-11-08",
+  "source": "Local editable Blender construction and locally drawn texture maps",
+  "externalGeneration": false,
+  "paidGeneration": false,
+  "unityScene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Circular.unity",
+  "sourceFolder": "SourceAssets/B5_OperationalDetail",
+  "previousSources": [
+    "B5_SpatialRefinement",
+    "B5_RemainingDomes",
+    "C02_Security",
+    "CircularDressing"
+  ],
+  "assetPolicy": "New OD_ variants; original assets retained; superseded instances inactive",
+  "models": [
+    {
+      "name": "OD_WarehouseRack_0",
+      "category": "Props",
+      "triangles": 23296,
+      "parts": 176,
+      "beveledParts": 122,
+      "source": "SourceAssets/B5_OperationalDetail/OD_WarehouseRack_0.blend",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/OD_WarehouseRack_0.fbx"
+    },
+    {
+      "name": "OD_WarehouseRack_1",
+      "category": "Props",
+      "triangles": 31888,
+      "parts": 188,
+      "beveledParts": 170,
+      "source": "SourceAssets/B5_OperationalDetail/OD_WarehouseRack_1.blend",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/OD_WarehouseRack_1.fbx"
+    },
+    {
+      "name": "OD_WarehouseRack_2",
+      "category": "Props",
+      "triangles": 32512,
+      "parts": 176,
+      "beveledParts": 146,
+      "source": "SourceAssets/B5_OperationalDetail/OD_WarehouseRack_2.blend",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/OD_WarehouseRack_2.fbx"
+    },
+    {
+      "name": "OD_WarehouseRack_3",
+      "category": "Props",
+      "triangles": 35680,
+      "parts": 200,
+      "beveledParts": 182,
+      "source": "SourceAssets/B5_OperationalDetail/OD_WarehouseRack_3.blend",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/OD_WarehouseRack_3.fbx"
+    },
+    {
+      "name": "OD_PalletLoad_0",
+      "category": "Props",
+      "triangles": 3612,
+      "parts": 42,
+      "beveledParts": 18,
+      "source": "SourceAssets/B5_OperationalDetail/OD_PalletLoad_0.blend",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/OD_PalletLoad_0.fbx"
+    },
+    {
+      "name": "OD_PalletLoad_1",
+      "category": "Props",
+      "triangles": 7908,
+      "parts": 48,
+      "beveledParts": 42,
+      "source": "SourceAssets/B5_OperationalDetail/OD_PalletLoad_1.blend",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/OD_PalletLoad_1.fbx"
+    },
+    {
+      "name": "OD_PalletTruck",
+      "category": "Props",
+      "triangles": 2010,
+      "parts": 11,
+      "beveledParts": 8,
+      "source": "SourceAssets/B5_OperationalDetail/OD_PalletTruck.blend",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/OD_PalletTruck.fbx"
+    },
+    {
+      "name": "OD_ReceivingInspection",
+      "category": "Props",
+      "triangles": 13582,
+      "parts": 97,
+      "beveledParts": 65,
+      "source": "SourceAssets/B5_OperationalDetail/OD_ReceivingInspection.blend",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/OD_ReceivingInspection.fbx"
+    },
+    {
+      "name": "OD_InstrumentedTestRig",
+      "category": "Props",
+      "triangles": 26598,
+      "parts": 115,
+      "beveledParts": 63,
+      "source": "SourceAssets/B5_OperationalDetail/OD_InstrumentedTestRig.blend",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/OD_InstrumentedTestRig.fbx"
+    },
+    {
+      "name": "OD_ExchangeControl",
+      "category": "Props",
+      "triangles": 26684,
+      "parts": 167,
+      "beveledParts": 131,
+      "source": "SourceAssets/B5_OperationalDetail/OD_ExchangeControl.blend",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/OD_ExchangeControl.fbx"
+    },
+    {
+      "name": "OD_SealedMealInspection",
+      "category": "Props",
+      "triangles": 16462,
+      "parts": 114,
+      "beveledParts": 81,
+      "source": "SourceAssets/B5_OperationalDetail/OD_SealedMealInspection.blend",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/OD_SealedMealInspection.fbx"
+    },
+    {
+      "name": "OD_MealRegenerationCabinet",
+      "category": "Props",
+      "triangles": 15674,
+      "parts": 84,
+      "beveledParts": 74,
+      "source": "SourceAssets/B5_OperationalDetail/OD_MealRegenerationCabinet.blend",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/OD_MealRegenerationCabinet.fbx"
+    },
+    {
+      "name": "OD_SealedMealCart",
+      "category": "Props",
+      "triangles": 17896,
+      "parts": 119,
+      "beveledParts": 95,
+      "source": "SourceAssets/B5_OperationalDetail/OD_SealedMealCart.blend",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/OD_SealedMealCart.fbx"
+    },
+    {
+      "name": "OD_ControlledNutritionBank",
+      "category": "Props",
+      "triangles": 22030,
+      "parts": 146,
+      "beveledParts": 101,
+      "source": "SourceAssets/B5_OperationalDetail/OD_ControlledNutritionBank.blend",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/OD_ControlledNutritionBank.fbx"
+    },
+    {
+      "name": "OD_NutritionTransferCart",
+      "category": "Props",
+      "triangles": 13866,
+      "parts": 68,
+      "beveledParts": 55,
+      "source": "SourceAssets/B5_OperationalDetail/OD_NutritionTransferCart.blend",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/OD_NutritionTransferCart.fbx"
+    },
+    {
+      "name": "OD_ClosedPPEReturn",
+      "category": "Props",
+      "triangles": 4760,
+      "parts": 29,
+      "beveledParts": 24,
+      "source": "SourceAssets/B5_OperationalDetail/OD_ClosedPPEReturn.blend",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/OD_ClosedPPEReturn.fbx"
+    },
+    {
+      "name": "OD_ContaminatedBagSealer",
+      "category": "Props",
+      "triangles": 12426,
+      "parts": 60,
+      "beveledParts": 58,
+      "source": "SourceAssets/B5_OperationalDetail/OD_ContaminatedBagSealer.blend",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/OD_ContaminatedBagSealer.fbx"
+    },
+    {
+      "name": "OD_BootSoleWasher",
+      "category": "Props",
+      "triangles": 3910,
+      "parts": 24,
+      "beveledParts": 20,
+      "source": "SourceAssets/B5_OperationalDetail/OD_BootSoleWasher.blend",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/OD_BootSoleWasher.fbx"
+    },
+    {
+      "name": "OD_CleanPPEDispenser",
+      "category": "Props",
+      "triangles": 12120,
+      "parts": 66,
+      "beveledParts": 56,
+      "source": "SourceAssets/B5_OperationalDetail/OD_CleanPPEDispenser.blend",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/OD_CleanPPEDispenser.fbx"
+    },
+    {
+      "name": "OD_DeconExitCheck",
+      "category": "Props",
+      "triangles": 9132,
+      "parts": 69,
+      "beveledParts": 40,
+      "source": "SourceAssets/B5_OperationalDetail/OD_DeconExitCheck.blend",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/OD_DeconExitCheck.fbx"
+    },
+    {
+      "name": "OD_PipedDeconShower",
+      "category": "Props",
+      "triangles": 18052,
+      "parts": 96,
+      "beveledParts": 82,
+      "source": "SourceAssets/B5_OperationalDetail/OD_PipedDeconShower.blend",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/OD_PipedDeconShower.fbx"
+    },
+    {
+      "name": "OD_ElectricalSwitchgear",
+      "category": "Props",
+      "triangles": 39974,
+      "parts": 232,
+      "beveledParts": 177,
+      "source": "SourceAssets/B5_OperationalDetail/OD_ElectricalSwitchgear.blend",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/OD_ElectricalSwitchgear.fbx"
+    },
+    {
+      "name": "OD_ProcessControlBay",
+      "category": "Props",
+      "triangles": 33722,
+      "parts": 218,
+      "beveledParts": 147,
+      "source": "SourceAssets/B5_OperationalDetail/OD_ProcessControlBay.blend",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/OD_ProcessControlBay.fbx"
+    },
+    {
+      "name": "OD_VL_FreightHoist",
+      "category": "Environment",
+      "triangles": 101924,
+      "parts": 503,
+      "beveledParts": 481,
+      "source": "SourceAssets/B5_OperationalDetail/OD_VL_FreightHoist.blend",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B5/OD_VL_FreightHoist.fbx"
+    },
+    {
+      "name": "OD_E03_WorkflowFloor",
+      "category": "Environment",
+      "triangles": 6,
+      "parts": 3,
+      "beveledParts": 0,
+      "source": "SourceAssets/B5_OperationalDetail/OD_E03_WorkflowFloor.blend",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B5/OD_E03_WorkflowFloor.fbx"
+    }
+  ],
+  "placements": [
+    {
+      "room": "E01",
+      "model": "OD_WarehouseRack_0",
+      "position": [
+        -2.5,
+        0,
+        -0.7
+      ],
+      "yaw": 90,
+      "id": "E01_OD_000_WarehouseRack_0"
+    },
+    {
+      "room": "E01",
+      "model": "OD_WarehouseRack_1",
+      "position": [
+        -2.5,
+        0,
+        1.2
+      ],
+      "yaw": 90,
+      "id": "E01_OD_001_WarehouseRack_1"
+    },
+    {
+      "room": "E01",
+      "model": "OD_WarehouseRack_2",
+      "position": [
+        -2.5,
+        0,
+        3.1
+      ],
+      "yaw": 90,
+      "id": "E01_OD_002_WarehouseRack_2"
+    },
+    {
+      "room": "E01",
+      "model": "OD_WarehouseRack_1",
+      "position": [
+        2.5,
+        0,
+        -0.7
+      ],
+      "yaw": 270,
+      "id": "E01_OD_003_WarehouseRack_1"
+    },
+    {
+      "room": "E01",
+      "model": "OD_WarehouseRack_2",
+      "position": [
+        2.5,
+        0,
+        1.2
+      ],
+      "yaw": 270,
+      "id": "E01_OD_004_WarehouseRack_2"
+    },
+    {
+      "room": "E01",
+      "model": "OD_WarehouseRack_3",
+      "position": [
+        2.5,
+        0,
+        3.1
+      ],
+      "yaw": 270,
+      "id": "E01_OD_005_WarehouseRack_3"
+    },
+    {
+      "room": "E01",
+      "model": "OD_WarehouseRack_0",
+      "position": [
+        -3.324999999999999,
+        0,
+        -5.759068935166518
+      ],
+      "yaw": 30,
+      "id": "E01_OD_006_WarehouseRack_0"
+    },
+    {
+      "room": "E01",
+      "model": "OD_WarehouseRack_1",
+      "position": [
+        4.0719506071649494e-16,
+        0,
+        -6.65
+      ],
+      "yaw": 0,
+      "id": "E01_OD_007_WarehouseRack_1"
+    },
+    {
+      "room": "E01",
+      "model": "OD_WarehouseRack_2",
+      "position": [
+        6.65,
+        0,
+        0.0
+      ],
+      "yaw": -90,
+      "id": "E01_OD_008_WarehouseRack_2"
+    },
+    {
+      "room": "E01",
+      "model": "OD_WarehouseRack_3",
+      "position": [
+        5.759068935166518,
+        0,
+        3.3249999999999997
+      ],
+      "yaw": -120,
+      "id": "E01_OD_009_WarehouseRack_3"
+    },
+    {
+      "room": "E01",
+      "model": "OD_WarehouseRack_0",
+      "position": [
+        3.325000000000001,
+        0,
+        5.759068935166517
+      ],
+      "yaw": -150,
+      "id": "E01_OD_010_WarehouseRack_0"
+    },
+    {
+      "room": "E01",
+      "model": "OD_WarehouseRack_1",
+      "position": [
+        4.0719506071649494e-16,
+        0,
+        6.65
+      ],
+      "yaw": -180,
+      "id": "E01_OD_011_WarehouseRack_1"
+    },
+    {
+      "room": "E01",
+      "model": "OD_WarehouseRack_2",
+      "position": [
+        -3.324999999999999,
+        0,
+        5.759068935166518
+      ],
+      "yaw": -210,
+      "id": "E01_OD_012_WarehouseRack_2"
+    },
+    {
+      "room": "E01",
+      "model": "OD_WarehouseRack_3",
+      "position": [
+        -5.759068935166518,
+        0,
+        3.3249999999999997
+      ],
+      "yaw": -240,
+      "id": "E01_OD_013_WarehouseRack_3"
+    },
+    {
+      "room": "E01",
+      "model": "OD_ReceivingInspection",
+      "position": [
+        0,
+        0,
+        -3.55
+      ],
+      "yaw": 180,
+      "id": "E01_OD_014_ReceivingInspection"
+    },
+    {
+      "room": "E01",
+      "model": "OD_PalletLoad_0",
+      "position": [
+        -4.5,
+        0,
+        -2.65
+      ],
+      "yaw": 15,
+      "id": "E01_OD_015_PalletLoad_0"
+    },
+    {
+      "room": "E01",
+      "model": "OD_PalletLoad_1",
+      "position": [
+        4.5,
+        0,
+        -0.9
+      ],
+      "yaw": 15,
+      "id": "E01_OD_016_PalletLoad_1"
+    },
+    {
+      "room": "E01",
+      "model": "OD_PalletTruck",
+      "position": [
+        0.3,
+        0,
+        2.8
+      ],
+      "yaw": 0,
+      "id": "E01_OD_017_PalletTruck"
+    },
+    {
+      "room": "E02",
+      "model": "OD_SealedMealInspection",
+      "position": [
+        0,
+        0,
+        0.2
+      ],
+      "yaw": 0,
+      "id": "E02_OD_018_SealedMealInspection"
+    },
+    {
+      "room": "E02",
+      "model": "OD_MealRegenerationCabinet",
+      "position": [
+        -3.4,
+        0,
+        2.7
+      ],
+      "yaw": 90,
+      "id": "E02_OD_019_MealRegenerationCabinet"
+    },
+    {
+      "room": "E02",
+      "model": "OD_SealedMealCart",
+      "position": [
+        -3.5,
+        0,
+        -2.6
+      ],
+      "yaw": 90,
+      "id": "E02_OD_020_SealedMealCart"
+    },
+    {
+      "room": "E02",
+      "model": "OD_SealedMealCart",
+      "position": [
+        -0.6,
+        0,
+        -3.4
+      ],
+      "yaw": 0,
+      "id": "E02_OD_021_SealedMealCart"
+    },
+    {
+      "room": "E02",
+      "model": "OD_ControlledNutritionBank",
+      "position": [
+        6,
+        0,
+        1.9
+      ],
+      "yaw": 270,
+      "id": "E02_OD_022_ControlledNutritionBank"
+    },
+    {
+      "room": "E02",
+      "model": "OD_NutritionTransferCart",
+      "position": [
+        5.4,
+        0,
+        -2.7
+      ],
+      "yaw": 270,
+      "id": "E02_OD_023_NutritionTransferCart"
+    },
+    {
+      "room": "E03",
+      "model": "OD_ClosedPPEReturn",
+      "position": [
+        -3.1,
+        0,
+        -4.25
+      ],
+      "yaw": 0,
+      "id": "E03_OD_024_ClosedPPEReturn"
+    },
+    {
+      "room": "E03",
+      "model": "OD_ContaminatedBagSealer",
+      "position": [
+        -5.0,
+        0,
+        -3.4
+      ],
+      "yaw": 90,
+      "id": "E03_OD_025_ContaminatedBagSealer"
+    },
+    {
+      "room": "E03",
+      "model": "OD_BootSoleWasher",
+      "position": [
+        3.2,
+        0,
+        -3.7
+      ],
+      "yaw": 180,
+      "id": "E03_OD_026_BootSoleWasher"
+    },
+    {
+      "room": "E03",
+      "model": "OD_CleanPPEDispenser",
+      "position": [
+        -2.7,
+        0,
+        4.7
+      ],
+      "yaw": 180,
+      "id": "E03_OD_027_CleanPPEDispenser"
+    },
+    {
+      "room": "E03",
+      "model": "OD_DeconExitCheck",
+      "position": [
+        1.7,
+        0,
+        4.45
+      ],
+      "yaw": 180,
+      "id": "E03_OD_028_DeconExitCheck"
+    },
+    {
+      "room": "E03",
+      "model": "OD_PipedDeconShower",
+      "position": [
+        -3.35,
+        0,
+        0
+      ],
+      "yaw": 90,
+      "id": "E03_OD_029_PipedDeconShower"
+    },
+    {
+      "room": "E03",
+      "model": "OD_PipedDeconShower",
+      "position": [
+        3.35,
+        0,
+        0
+      ],
+      "yaw": 270,
+      "id": "E03_OD_030_PipedDeconShower"
+    },
+    {
+      "room": "C03",
+      "model": "OD_ProcessControlBay",
+      "position": [
+        0,
+        0,
+        6.0
+      ],
+      "yaw": 180,
+      "id": "C03_OD_031_ProcessControlBay"
+    },
+    {
+      "room": "C03",
+      "model": "OD_ElectricalSwitchgear",
+      "position": [
+        8.210369523457079,
+        0,
+        -2.1999618833714334
+      ],
+      "yaw": -434.99999999999994,
+      "id": "C03_OD_032_ElectricalSwitchgear"
+    },
+    {
+      "room": "C04",
+      "model": "OD_ElectricalSwitchgear",
+      "position": [
+        -2.9,
+        0,
+        1.7
+      ],
+      "yaw": 90,
+      "id": "C04_OD_033_ElectricalSwitchgear"
+    },
+    {
+      "room": "C04",
+      "model": "OD_ElectricalSwitchgear",
+      "position": [
+        -2.9,
+        0,
+        -0.3
+      ],
+      "yaw": 90,
+      "id": "C04_OD_034_ElectricalSwitchgear"
+    },
+    {
+      "room": "C04",
+      "model": "OD_ProcessControlBay",
+      "position": [
+        2.8,
+        0,
+        -1.1
+      ],
+      "yaw": 270,
+      "id": "C04_OD_035_ProcessControlBay"
+    },
+    {
+      "room": "S01",
+      "model": "OD_InstrumentedTestRig",
+      "position": [
+        0,
+        0,
+        1.1
+      ],
+      "yaw": 0,
+      "id": "S01_OD_036_InstrumentedTestRig"
+    },
+    {
+      "room": "S01",
+      "model": "OD_ExchangeControl",
+      "position": [
+        -5.2,
+        0,
+        1.0
+      ],
+      "yaw": 180,
+      "id": "S01_OD_037_ExchangeControl"
+    },
+    {
+      "room": "S01",
+      "model": "OD_ElectricalSwitchgear",
+      "position": [
+        2.2258437878816784,
+        0,
+        8.306962106085987
+      ],
+      "yaw": -165.0,
+      "id": "S01_OD_038_ElectricalSwitchgear"
+    },
+    {
+      "room": "VL",
+      "model": "OD_VL_FreightHoist",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "yaw": 0,
+      "id": "VL_OD_039_VL_FreightHoist"
+    },
+    {
+      "room": "E03",
+      "model": "OD_E03_WorkflowFloor",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "yaw": 0,
+      "id": "E03_OD_040_E03_WorkflowFloor"
+    }
+  ],
+  "textures": {
+    "pbrMaps": 9,
+    "printedAtlas": 1,
+    "staticScreens": 7
+  },
+  "runtime": "Static art; no gameplay C#, Animator, door logic or lift travel added",
+  "review": "User inspection pending"
+}

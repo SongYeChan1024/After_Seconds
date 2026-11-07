@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "command": "command",
+  "data": {
+    "command": "script run",
+    "parameters": {
+      "entry": "SpatialPlay.Lift",
+      "file": "C:\\GitHubProjects\\After_Seconds\\SourceAssets\\B5_SpatialRefinement\\Play.cs"
+    },
+    "result": {
+      "diagnostics": [],
+      "compileMs": 125,
+      "executeMs": 16,
+      "assemblyName": "PipelineRunScript_Play_dec1963444e24fce95cf6f7e78a1d3f3",
+      "success": true,
+      "result": {
+        "id": "lift",
+        "frame": 13192,
+        "from": "(44.00, -81.32, 25.20)"
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

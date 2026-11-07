@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "command": "command",
+  "data": {
+    "command": "script run",
+    "parameters": {
+      "entry": "SpatialPlay.Living",
+      "file": "C:\\GitHubProjects\\After_Seconds\\SourceAssets\\B5_SpatialRefinement\\Play.cs"
+    },
+    "result": {
+      "diagnostics": [],
+      "compileMs": 126,
+      "executeMs": 16,
+      "assemblyName": "PipelineRunScript_Play_be33f1e80a2849638a69823297a15765",
+      "success": true,
+      "result": {
+        "id": "living",
+        "frame": 1065,
+        "from": "(-88.00, -81.32, 40.20)"
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

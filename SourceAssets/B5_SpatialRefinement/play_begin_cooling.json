@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "command": "command",
+  "data": {
+    "command": "script run",
+    "parameters": {
+      "entry": "SpatialPlay.Cooling",
+      "file": "C:\\GitHubProjects\\After_Seconds\\SourceAssets\\B5_SpatialRefinement\\Play.cs"
+    },
+    "result": {
+      "diagnostics": [],
+      "compileMs": 2710,
+      "executeMs": 24,
+      "assemblyName": "PipelineRunScript_Play_9df0c32ce9ce4d20bb08b857703fdd41",
+      "success": true,
+      "result": {
+        "id": "cooling",
+        "frame": 95,
+        "from": "(17.00, -81.32, -11.80)"
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

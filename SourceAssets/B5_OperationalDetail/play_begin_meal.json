@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "command": "command",
+  "data": {
+    "command": "script run",
+    "parameters": {
+      "entry": "OperationalPlay.Meal",
+      "file": "C:\\GitHubProjects\\After_Seconds\\SourceAssets\\B5_OperationalDetail\\Play.cs"
+    },
+    "result": {
+      "diagnostics": [],
+      "compileMs": 108,
+      "executeMs": 13,
+      "assemblyName": "PipelineRunScript_Play_fcbd73bdecbd42f9bc773ac431dede36",
+      "success": true,
+      "result": {
+        "id": "meal",
+        "frame": 2256,
+        "from": "(122.20, -81.32, 2.00)"
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

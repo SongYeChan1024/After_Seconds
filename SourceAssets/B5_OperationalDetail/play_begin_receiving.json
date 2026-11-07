@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "command": "command",
+  "data": {
+    "command": "script run",
+    "parameters": {
+      "entry": "OperationalPlay.Receiving",
+      "file": "C:\\GitHubProjects\\After_Seconds\\SourceAssets\\B5_OperationalDetail\\Play.cs"
+    },
+    "result": {
+      "diagnostics": [],
+      "compileMs": 113,
+      "executeMs": 13,
+      "assemblyName": "PipelineRunScript_Play_a78011d3660c4873a6f91dbcb0a473fb",
+      "success": true,
+      "result": {
+        "id": "receiving",
+        "frame": 1181,
+        "from": "(88.00, -81.32, 36.00)"
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

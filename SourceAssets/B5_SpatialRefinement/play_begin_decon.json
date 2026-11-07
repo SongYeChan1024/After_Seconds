@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "command": "command",
+  "data": {
+    "command": "script run",
+    "parameters": {
+      "entry": "SpatialPlay.Decon",
+      "file": "C:\\GitHubProjects\\After_Seconds\\SourceAssets\\B5_SpatialRefinement\\Play.cs"
+    },
+    "result": {
+      "diagnostics": [],
+      "compileMs": 130,
+      "executeMs": 18,
+      "assemblyName": "PipelineRunScript_Play_e5fe807ff67149a59219a459be7a0e9b",
+      "success": true,
+      "result": {
+        "id": "decon",
+        "frame": 8699,
+        "from": "(94.00, -81.32, -33.70)"
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

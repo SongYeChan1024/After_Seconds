@@ -1,0 +1,534 @@
+{
+  "pairs": [
+    {
+      "a": "C01_FromVA",
+      "b": "VA_FromC01",
+      "lineClearance": 0.2199719726597603,
+      "markerClearance": 0.11997197265976028
+    },
+    {
+      "a": "C01_FromVA",
+      "b": "C02_FromC01",
+      "lineClearance": 0.5386924823548447,
+      "markerClearance": 0.43869248235484465
+    },
+    {
+      "a": "C01_FromVA",
+      "b": "C04_FromC01",
+      "lineClearance": 0.8299795955610887,
+      "markerClearance": 0.7299795955610886
+    },
+    {
+      "a": "C01_FromVA",
+      "b": "C02_FromVA",
+      "lineClearance": 0.5399962992404144,
+      "markerClearance": 0.43999629924041433
+    },
+    {
+      "a": "C01_FromVA",
+      "b": "C02_FromC04",
+      "lineClearance": 2.00097529477794,
+      "markerClearance": 1.90097529477794
+    },
+    {
+      "a": "VA_FromC01",
+      "b": "C02_FromC01",
+      "lineClearance": 0.219574305852441,
+      "markerClearance": 0.119574305852441
+    },
+    {
+      "a": "VA_FromC01",
+      "b": "C04_FromC01",
+      "lineClearance": 0.5399442722608929,
+      "markerClearance": 0.4399442722608929
+    },
+    {
+      "a": "VA_FromC01",
+      "b": "C02_FromVA",
+      "lineClearance": 0.21999927091980429,
+      "markerClearance": 0.11999927091980428
+    },
+    {
+      "a": "VA_FromC01",
+      "b": "C02_FromC04",
+      "lineClearance": 1.6809898251469757,
+      "markerClearance": 1.5809898251469758
+    },
+    {
+      "a": "C02_FromC01",
+      "b": "C04_FromC01",
+      "lineClearance": 0.21996791217229142,
+      "markerClearance": 0.11996791217229141
+    },
+    {
+      "a": "C04_FromC01",
+      "b": "C02_FromVA",
+      "lineClearance": 2.178292893461563,
+      "markerClearance": 2.0782928934615628
+    },
+    {
+      "a": "C04_FromC01",
+      "b": "C02_FromC04",
+      "lineClearance": 0.21999925214443808,
+      "markerClearance": 0.11999925214443807
+    }
+  ],
+  "labelChecks": [
+    {
+      "route": "C01_FromVA",
+      "label": "CW_R1_FloorCodes",
+      "clearance": 8.563787791097802
+    },
+    {
+      "route": "C01_FromVA",
+      "label": "CW_R1_FloorCodes",
+      "clearance": 1.1604615538302627
+    },
+    {
+      "route": "C01_FromVA",
+      "label": "CW_S1_FloorCodes",
+      "clearance": 8.968623986047112
+    },
+    {
+      "route": "C01_FromVA",
+      "label": "CW_S1_FloorCodes",
+      "clearance": 3.5234636225000457
+    },
+    {
+      "route": "C01_FromVA",
+      "label": "CW_M1_FloorCodes",
+      "clearance": 3.776707563778714
+    },
+    {
+      "route": "C01_FromVA",
+      "label": "T01_C02_departure",
+      "clearance": 1.2300002238835752
+    },
+    {
+      "route": "C01_FromVA",
+      "label": "T01_C02_arrival",
+      "clearance": 1.2299998558039436
+    },
+    {
+      "route": "C01_FromVA",
+      "label": "T01_C01_departure",
+      "clearance": 0.2699983723165834
+    },
+    {
+      "route": "C01_FromVA",
+      "label": "T01_C01_arrival",
+      "clearance": 0.2699982213508729
+    },
+    {
+      "route": "C01_FromVA",
+      "label": "SC_Destination_C01",
+      "clearance": 0.2700003013174681
+    },
+    {
+      "route": "C01_FromVA",
+      "label": "SC_Destination_VA",
+      "clearance": 1.229999135101561
+    },
+    {
+      "route": "C01_FromVA",
+      "label": "SC_Destination_C04",
+      "clearance": 3.1455423200909256
+    },
+    {
+      "route": "C01_FromVA",
+      "label": "DestinationLegend",
+      "clearance": 1.2288747643851683
+    },
+    {
+      "route": "C01_FromVA",
+      "label": "LabLegend",
+      "clearance": 1.0463412231970894
+    },
+    {
+      "route": "VA_FromC01",
+      "label": "CW_R1_FloorCodes",
+      "clearance": 8.895756055268883
+    },
+    {
+      "route": "VA_FromC01",
+      "label": "CW_R1_FloorCodes",
+      "clearance": 1.2684685269762601
+    },
+    {
+      "route": "VA_FromC01",
+      "label": "CW_S1_FloorCodes",
+      "clearance": 10.392254662081454
+    },
+    {
+      "route": "VA_FromC01",
+      "label": "CW_S1_FloorCodes",
+      "clearance": 4.958156826484342
+    },
+    {
+      "route": "VA_FromC01",
+      "label": "CW_M1_FloorCodes",
+      "clearance": 4.096706654414712
+    },
+    {
+      "route": "VA_FromC01",
+      "label": "T01_C02_departure",
+      "clearance": 0.9100001643570595
+    },
+    {
+      "route": "VA_FromC01",
+      "label": "T01_C02_arrival",
+      "clearance": 0.909999560120715
+    },
+    {
+      "route": "VA_FromC01",
+      "label": "T01_C01_departure",
+      "clearance": 0.5899979139775201
+    },
+    {
+      "route": "VA_FromC01",
+      "label": "T01_C01_arrival",
+      "clearance": 0.5899982952649084
+    },
+    {
+      "route": "VA_FromC01",
+      "label": "SC_Destination_C01",
+      "clearance": 0.5900003470098236
+    },
+    {
+      "route": "VA_FromC01",
+      "label": "SC_Destination_VA",
+      "clearance": 0.9099991359986176
+    },
+    {
+      "route": "VA_FromC01",
+      "label": "SC_Destination_C04",
+      "clearance": 2.825543973816869
+    },
+    {
+      "route": "VA_FromC01",
+      "label": "DestinationLegend",
+      "clearance": 0.908874791323755
+    },
+    {
+      "route": "VA_FromC01",
+      "label": "LabLegend",
+      "clearance": 2.07188916174882
+    },
+    {
+      "route": "C02_FromC01",
+      "label": "CW_R1_FloorCodes",
+      "clearance": 9.208842535494838
+    },
+    {
+      "route": "C02_FromC01",
+      "label": "CW_R1_FloorCodes",
+      "clearance": 0.9589523767680294
+    },
+    {
+      "route": "C02_FromC01",
+      "label": "CW_S1_FloorCodes",
+      "clearance": 10.304398534134398
+    },
+    {
+      "route": "C02_FromC01",
+      "label": "CW_S1_FloorCodes",
+      "clearance": 4.848579284084004
+    },
+    {
+      "route": "C02_FromC01",
+      "label": "CW_M1_FloorCodes",
+      "clearance": 4.416705313435905
+    },
+    {
+      "route": "C02_FromC01",
+      "label": "T01_C02_departure",
+      "clearance": 0.5900001380325447
+    },
+    {
+      "route": "C02_FromC01",
+      "label": "T01_C02_arrival",
+      "clearance": 0.589999694272765
+    },
+    {
+      "route": "C02_FromC01",
+      "label": "T01_C01_departure",
+      "clearance": 0.9099983359892329
+    },
+    {
+      "route": "C02_FromC01",
+      "label": "T01_C01_arrival",
+      "clearance": 0.909998554945232
+    },
+    {
+      "route": "C02_FromC01",
+      "label": "SC_Destination_C01",
+      "clearance": 0.9100001570836426
+    },
+    {
+      "route": "C02_FromC01",
+      "label": "SC_Destination_VA",
+      "clearance": 2.315941070479743
+    },
+    {
+      "route": "C02_FromC01",
+      "label": "SC_Destination_C04",
+      "clearance": 2.5055454298094535
+    },
+    {
+      "route": "C02_FromC01",
+      "label": "DestinationLegend",
+      "clearance": 0.5888744208619473
+    },
+    {
+      "route": "C02_FromC01",
+      "label": "LabLegend",
+      "clearance": 1.8212349999999993
+    },
+    {
+      "route": "C04_FromC01",
+      "label": "CW_R1_FloorCodes",
+      "clearance": 9.522383862471562
+    },
+    {
+      "route": "C04_FromC01",
+      "label": "CW_R1_FloorCodes",
+      "clearance": 0.6581910475498494
+    },
+    {
+      "route": "C04_FromC01",
+      "label": "CW_S1_FloorCodes",
+      "clearance": 10.225715922957109
+    },
+    {
+      "route": "C04_FromC01",
+      "label": "CW_S1_FloorCodes",
+      "clearance": 4.757645816833969
+    },
+    {
+      "route": "C04_FromC01",
+      "label": "CW_M1_FloorCodes",
+      "clearance": 4.736704706387578
+    },
+    {
+      "route": "C04_FromC01",
+      "label": "T01_C02_departure",
+      "clearance": 0.27000030997429403
+    },
+    {
+      "route": "C04_FromC01",
+      "label": "T01_C02_arrival",
+      "clearance": 0.269999710431543
+    },
+    {
+      "route": "C04_FromC01",
+      "label": "T01_C01_departure",
+      "clearance": 1.2299981658684502
+    },
+    {
+      "route": "C04_FromC01",
+      "label": "T01_C01_arrival",
+      "clearance": 1.2299983794559262
+    },
+    {
+      "route": "C04_FromC01",
+      "label": "SC_Destination_C01",
+      "clearance": 1.2300002027759978
+    },
+    {
+      "route": "C04_FromC01",
+      "label": "SC_Destination_VA",
+      "clearance": 4.583732853916231
+    },
+    {
+      "route": "C04_FromC01",
+      "label": "SC_Destination_C04",
+      "clearance": 0.5899977511340527
+    },
+    {
+      "route": "C04_FromC01",
+      "label": "DestinationLegend",
+      "clearance": 0.26887493694322007
+    },
+    {
+      "route": "C04_FromC01",
+      "label": "LabLegend",
+      "clearance": 1.5710009999999985
+    },
+    {
+      "route": "C02_FromVA",
+      "label": "CW_R1_FloorCodes",
+      "clearance": 29.609343593161977
+    },
+    {
+      "route": "C02_FromVA",
+      "label": "CW_R1_FloorCodes",
+      "clearance": 22.79360851185957
+    },
+    {
+      "route": "C02_FromVA",
+      "label": "CW_S1_FloorCodes",
+      "clearance": 32.28243553466761
+    },
+    {
+      "route": "C02_FromVA",
+      "label": "CW_S1_FloorCodes",
+      "clearance": 27.220811956602972
+    },
+    {
+      "route": "C02_FromVA",
+      "label": "CW_M1_FloorCodes",
+      "clearance": 24.94296861086281
+    },
+    {
+      "route": "C02_FromVA",
+      "label": "T01_C02_departure",
+      "clearance": 17.781210893083024
+    },
+    {
+      "route": "C02_FromVA",
+      "label": "T01_C02_arrival",
+      "clearance": 9.322223622729714
+    },
+    {
+      "route": "C02_FromVA",
+      "label": "T01_C01_departure",
+      "clearance": 9.269754585458065
+    },
+    {
+      "route": "C02_FromVA",
+      "label": "T01_C01_arrival",
+      "clearance": 17.73148710101886
+    },
+    {
+      "route": "C02_FromVA",
+      "label": "SC_Destination_C01",
+      "clearance": 4.369768382155736
+    },
+    {
+      "route": "C02_FromVA",
+      "label": "SC_Destination_VA",
+      "clearance": 0.5899991368956758
+    },
+    {
+      "route": "C02_FromVA",
+      "label": "SC_Destination_C04",
+      "clearance": 3.596058552693992
+    },
+    {
+      "route": "C02_FromVA",
+      "label": "DestinationLegend",
+      "clearance": 3.0717660695580955
+    },
+    {
+      "route": "C02_FromVA",
+      "label": "LabLegend",
+      "clearance": 22.976561702298717
+    },
+    {
+      "route": "C02_FromC04",
+      "label": "CW_R1_FloorCodes",
+      "clearance": 28.93898186122397
+    },
+    {
+      "route": "C02_FromC04",
+      "label": "CW_R1_FloorCodes",
+      "clearance": 20.761068039251914
+    },
+    {
+      "route": "C02_FromC04",
+      "label": "CW_S1_FloorCodes",
+      "clearance": 28.43815228217213
+    },
+    {
+      "route": "C02_FromC04",
+      "label": "CW_S1_FloorCodes",
+      "clearance": 24.461998246589967
+    },
+    {
+      "route": "C02_FromC04",
+      "label": "CW_M1_FloorCodes",
+      "clearance": 24.026056811743704
+    },
+    {
+      "route": "C02_FromC04",
+      "label": "T01_C02_departure",
+      "clearance": 15.94074651602414
+    },
+    {
+      "route": "C02_FromC04",
+      "label": "T01_C02_arrival",
+      "clearance": 7.63513508051147
+    },
+    {
+      "route": "C02_FromC04",
+      "label": "T01_C01_departure",
+      "clearance": 8.178367783238365
+    },
+    {
+      "route": "C02_FromC04",
+      "label": "T01_C01_arrival",
+      "clearance": 16.380532494299167
+    },
+    {
+      "route": "C02_FromC04",
+      "label": "SC_Destination_C01",
+      "clearance": 3.9435197169440808
+    },
+    {
+      "route": "C02_FromC04",
+      "label": "SC_Destination_VA",
+      "clearance": 2.5249549120343953
+    },
+    {
+      "route": "C02_FromC04",
+      "label": "SC_Destination_C04",
+      "clearance": 0.9099978190104382
+    },
+    {
+      "route": "C02_FromC04",
+      "label": "DestinationLegend",
+      "clearance": 1.4648960000000009
+    },
+    {
+      "route": "C02_FromC04",
+      "label": "LabLegend",
+      "clearance": 20.746629114218074
+    }
+  ],
+  "retainedRouteChecks": [
+    {
+      "route": "C01_FromVA",
+      "label": "retained S1",
+      "clearance": 0.15273372131324717
+    },
+    {
+      "route": "VA_FromC01",
+      "label": "retained S1",
+      "clearance": 1.5605202277739225
+    },
+    {
+      "route": "C02_FromC01",
+      "label": "retained S1",
+      "clearance": 1.433730486088267
+    },
+    {
+      "route": "C04_FromC01",
+      "label": "retained S1",
+      "clearance": 1.365225198255867
+    },
+    {
+      "route": "C02_FromVA",
+      "label": "retained S1",
+      "clearance": 24.742404649868032
+    },
+    {
+      "route": "C02_FromC04",
+      "label": "retained S1",
+      "clearance": 22.757938089081296
+    }
+  ],
+  "minLineClearance": 0.219574305852441,
+  "minMarkerClearance": 0.119574305852441,
+  "minLabelClearance": 0.26887493694322007,
+  "minS1Clearance": 0.15273372131324717
+}

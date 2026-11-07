@@ -1,0 +1,2 @@
+using System;using UnityEngine;using UnityEditor;using UnityEditor.SceneManagement;using UnityEngine.SceneManagement;
+public static class C01WayfindingRestoreAfterPlay {public static object Run(){if(Application.isPlaying)throw new Exception("Stop Play first");var s=SceneManager.GetActiveScene();if(!s.path.EndsWith("Level_B5_Circular.unity"))throw new Exception("B5 required");EditorSceneManager.OpenScene(s.path);return new{dirty=SceneManager.GetActiveScene().isDirty,playing=Application.isPlaying};}}

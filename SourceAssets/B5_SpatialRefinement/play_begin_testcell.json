@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "command": "command",
+  "data": {
+    "command": "script run",
+    "parameters": {
+      "entry": "SpatialPlay.TestCell",
+      "file": "C:\\GitHubProjects\\After_Seconds\\SourceAssets\\B5_SpatialRefinement\\Play.cs"
+    },
+    "result": {
+      "diagnostics": [],
+      "compileMs": 128,
+      "executeMs": 14,
+      "assemblyName": "PipelineRunScript_Play_51046fdb435b4c39a04c8b4e42db7eec",
+      "success": true,
+      "result": {
+        "id": "testcell",
+        "frame": 10665,
+        "from": "(0.00, -81.32, -79.30)"
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

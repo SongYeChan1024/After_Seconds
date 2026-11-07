@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "command": "command",
+  "data": {
+    "command": "script run",
+    "parameters": {
+      "entry": "OperationalPlay.Decon",
+      "file": "C:\\GitHubProjects\\After_Seconds\\SourceAssets\\B5_OperationalDetail\\Play.cs"
+    },
+    "result": {
+      "diagnostics": [],
+      "compileMs": 111,
+      "executeMs": 14,
+      "assemblyName": "PipelineRunScript_Play_aeebb0a83181461790820b0abcb42b85",
+      "success": true,
+      "result": {
+        "id": "decon",
+        "frame": 3461,
+        "from": "(94.00, -81.32, -33.70)"
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

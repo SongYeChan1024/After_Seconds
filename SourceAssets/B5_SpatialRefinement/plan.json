@@ -1,0 +1,3112 @@
+{
+  "author": "송예찬",
+  "scope": "C01 protected; 11 other domes + 3 cores",
+  "rooms": {
+    "C01": {
+      "id": "C01",
+      "name": "피험체 격리 공동",
+      "x": -15,
+      "v": 10,
+      "r": 10,
+      "kind": "cavern",
+      "zones": [
+        "주 작업 구역",
+        "벽면 장비·보관",
+        "터널 출입 여유"
+      ],
+      "position": [
+        -15,
+        -82,
+        -10
+      ],
+      "doors": [
+        {
+          "id": "B5-T01",
+          "angle": 104.03624346792648,
+          "position": [
+            -17.231327750334263,
+            -1.074688998662948
+          ]
+        },
+        {
+          "id": "B5-T03",
+          "angle": 5.355825042855185,
+          "position": [
+            -5.84016512025455,
+            -9.141265480023865
+          ]
+        },
+        {
+          "id": "B5-T11",
+          "angle": -167.855721950433,
+          "position": [
+            -23.994112758828958,
+            -11.935441986077118
+          ]
+        }
+      ]
+    },
+    "C02": {
+      "id": "C02",
+      "name": "경비·모니터링 공동",
+      "x": -22,
+      "v": -18,
+      "r": 7,
+      "kind": "cavern",
+      "zones": [
+        "주 작업 구역",
+        "벽면 장비·보관",
+        "터널 출입 여유"
+      ],
+      "position": [
+        -22,
+        -82,
+        18
+      ],
+      "doors": [
+        {
+          "id": "B5-T01",
+          "angle": -75.9637565320735,
+          "position": [
+            -20.496279124774734,
+            11.985116499098943
+          ]
+        },
+        {
+          "id": "B5-T02",
+          "angle": 155.55604521958347,
+          "position": [
+            -27.644272160268148,
+            20.56557825466734
+          ]
+        },
+        {
+          "id": "B5-T05",
+          "angle": 3.012787504183347,
+          "position": [
+            -15.80856945813844,
+            18.325864765361136
+          ]
+        }
+      ]
+    },
+    "C03": {
+      "id": "C03",
+      "name": "냉각 공동",
+      "x": 17,
+      "v": 7,
+      "r": 10,
+      "kind": "cavern",
+      "zones": [
+        "주 작업 구역",
+        "벽면 장비·보관",
+        "터널 출입 여유"
+      ],
+      "position": [
+        17,
+        -82,
+        -7
+      ],
+      "doors": [
+        {
+          "id": "B5-T03",
+          "angle": -174.64417495714483,
+          "position": [
+            7.84016512025455,
+            -7.858734519976136
+          ]
+        },
+        {
+          "id": "B5-T04",
+          "angle": 92.12109639666147,
+          "position": [
+            16.6594927233091,
+            2.193696470654256
+          ]
+        },
+        {
+          "id": "B5-T07",
+          "angle": -37.8749836510982,
+          "position": [
+            24.2620403998622,
+            -12.648253644337267
+          ]
+        }
+      ]
+    },
+    "C04": {
+      "id": "C04",
+      "name": "유틸리티 공동",
+      "x": 16,
+      "v": -20,
+      "r": 6,
+      "kind": "cavern",
+      "zones": [
+        "주 작업 구역",
+        "벽면 장비·보관",
+        "터널 출입 여유"
+      ],
+      "position": [
+        16,
+        -82,
+        20
+      ],
+      "doors": [
+        {
+          "id": "B5-T04",
+          "angle": -87.87890360333853,
+          "position": [
+            16.19246063465138,
+            14.803562864412811
+          ]
+        },
+        {
+          "id": "B5-T05",
+          "angle": -176.98721249581664,
+          "position": [
+            10.80718728747095,
+            19.726694067761628
+          ]
+        },
+        {
+          "id": "B5-T06",
+          "angle": 15.945395900922845,
+          "position": [
+            20.999924527732283,
+            21.428549865066365
+          ]
+        }
+      ]
+    },
+    "VA": {
+      "id": "VA",
+      "name": "계단 A",
+      "x": -44,
+      "v": -28,
+      "r": 5,
+      "kind": "core",
+      "zones": [
+        "통행·출입",
+        "표지·설비 점검"
+      ],
+      "position": [
+        -44,
+        -82,
+        28
+      ],
+      "doors": [
+        {
+          "id": "B5-T02",
+          "angle": -24.443954780416547,
+          "position": [
+            -40.17646079465706,
+            26.262027633935027
+          ]
+        },
+        {
+          "id": "B5-T08",
+          "angle": 167.19573393471325,
+          "position": [
+            -48.09555799432413,
+            28.930808635073667
+          ]
+        },
+        {
+          "id": "B5-T16",
+          "angle": 47.48955292199917,
+          "position": [
+            -41.161956560227146,
+            31.096047388843115
+          ]
+        }
+      ]
+    },
+    "VB": {
+      "id": "VB",
+      "name": "계단 B",
+      "x": 44,
+      "v": 28,
+      "r": 5,
+      "kind": "core",
+      "zones": [
+        "통행·출입",
+        "표지·설비 점검"
+      ],
+      "position": [
+        44,
+        -82,
+        -28
+      ],
+      "doors": [
+        {
+          "id": "B5-T07",
+          "angle": 142.12501634890182,
+          "position": [
+            40.68472068701943,
+            -25.421449423237334
+          ]
+        },
+        {
+          "id": "B5-T15",
+          "angle": -4.5739212599008745,
+          "position": [
+            48.186624169851726,
+            -28.33492993358814
+          ]
+        },
+        {
+          "id": "B5-T18",
+          "angle": -132.51044707800082,
+          "position": [
+            41.161956560227146,
+            -31.096047388843115
+          ]
+        }
+      ]
+    },
+    "VL": {
+      "id": "VL",
+      "name": "화물 승강기",
+      "x": 44,
+      "v": -28,
+      "r": 5,
+      "kind": "core",
+      "zones": [
+        "통행·출입",
+        "표지·설비 점검"
+      ],
+      "position": [
+        44,
+        -82,
+        28
+      ],
+      "doors": [
+        {
+          "id": "B5-T06",
+          "angle": -164.05460409907715,
+          "position": [
+            39.961599419908545,
+            26.846171262831014
+          ]
+        },
+        {
+          "id": "B5-T12",
+          "angle": 12.804266065286765,
+          "position": [
+            48.09555799432413,
+            28.930808635073667
+          ]
+        },
+        {
+          "id": "B5-T17",
+          "angle": 132.51044707800082,
+          "position": [
+            41.161956560227146,
+            31.096047388843115
+          ]
+        }
+      ]
+    },
+    "W01": {
+      "id": "W01",
+      "name": "일반 실험체 생활·격리",
+      "x": -88,
+      "v": -38,
+      "r": 10,
+      "kind": "cavern",
+      "wing": true,
+      "items": [
+        80,
+        80,
+        80,
+        80,
+        50,
+        66,
+        88
+      ],
+      "zones": [
+        "개별 생활 모듈 4칸",
+        "중앙 이송·감시 구역",
+        "배식·리넨 전달"
+      ],
+      "position": [
+        -88,
+        -82,
+        38
+      ],
+      "doors": [
+        {
+          "id": "B5-T08",
+          "angle": -12.804266065286773,
+          "position": [
+            -79.02877772671857,
+            35.96108584698149
+          ]
+        },
+        {
+          "id": "B5-T09",
+          "angle": -140.19442890773482,
+          "position": [
+            -95.06763577229586,
+            32.110303523086785
+          ]
+        }
+      ]
+    },
+    "W02": {
+      "id": "W02",
+      "name": "추가 실험체 생활·격리",
+      "x": -124,
+      "v": -8,
+      "r": 11,
+      "kind": "cavern",
+      "wing": true,
+      "items": [
+        80,
+        80,
+        80,
+        80,
+        50,
+        66,
+        88
+      ],
+      "zones": [
+        "개별 생활 모듈 4칸",
+        "관찰 대기",
+        "물품 전달"
+      ],
+      "position": [
+        -124,
+        -82,
+        8
+      ],
+      "doors": [
+        {
+          "id": "B5-T09",
+          "angle": 39.805571092265225,
+          "position": [
+            -116.16414294810677,
+            14.529880876577696
+          ]
+        },
+        {
+          "id": "B5-T10",
+          "angle": -49.39870535499554,
+          "position": [
+            -117.36192799074912,
+            0.2555826558739751
+          ]
+        }
+      ]
+    },
+    "W03": {
+      "id": "W03",
+      "name": "검사·의료 안정 공동",
+      "x": -94,
+      "v": 27,
+      "r": 9,
+      "kind": "cavern",
+      "wing": true,
+      "items": [
+        51,
+        51,
+        50,
+        84,
+        86,
+        9,
+        89,
+        138
+      ],
+      "zones": [
+        "검사 침대",
+        "회복 관찰",
+        "진료 물품 보관"
+      ],
+      "position": [
+        -94,
+        -82,
+        -27
+      ],
+      "doors": [
+        {
+          "id": "B5-T10",
+          "angle": 130.6012946450045,
+          "position": [
+            -99.33648926233894,
+            -20.774095860604568
+          ]
+        },
+        {
+          "id": "B5-T11",
+          "angle": 12.144278049567024,
+          "position": [
+            -85.98350819321767,
+            -25.274932142844307
+          ]
+        },
+        {
+          "id": "B5-T19",
+          "angle": -27.531976748722307,
+          "position": [
+            -86.72862545446624,
+            -30.790397369480367
+          ]
+        }
+      ]
+    },
+    "E01": {
+      "id": "E01",
+      "name": "격리 생활물품·리넨",
+      "x": 88,
+      "v": -38,
+      "r": 8,
+      "kind": "cavern",
+      "wing": true,
+      "items": [
+        138,
+        138,
+        118,
+        128,
+        129,
+        99
+      ],
+      "zones": [
+        "환의·속옷",
+        "세면용품",
+        "깨끗한 리넨",
+        "사용한 리넨 회수"
+      ],
+      "position": [
+        88,
+        -82,
+        38
+      ],
+      "doors": [
+        {
+          "id": "B5-T12",
+          "angle": -167.19573393471325,
+          "position": [
+            80.97904343830149,
+            36.40432805415943
+          ]
+        },
+        {
+          "id": "B5-T13",
+          "angle": -42.51044707800085,
+          "position": [
+            93.30750980944534,
+            33.13478267467511
+          ]
+        }
+      ]
+    },
+    "E02": {
+      "id": "E02",
+      "name": "격리 배식·생활 지원",
+      "x": 124,
+      "v": -5,
+      "r": 9,
+      "kind": "cavern",
+      "wing": true,
+      "items": [
+        60,
+        121,
+        123,
+        140,
+        120,
+        59,
+        141
+      ],
+      "zones": [
+        "배식 준비",
+        "식기 세척",
+        "급식 냉장",
+        "직원 짧은 대기"
+      ],
+      "position": [
+        124,
+        -82,
+        5
+      ],
+      "doors": [
+        {
+          "id": "B5-T13",
+          "angle": 137.48955292199918,
+          "position": [
+            117.95533605035392,
+            10.540941953842239
+          ]
+        },
+        {
+          "id": "B5-T14",
+          "angle": -129.03551289874684,
+          "position": [
+            118.83562394094601,
+            -1.369397139499931
+          ]
+        }
+      ]
+    },
+    "E03": {
+      "id": "E03",
+      "name": "격리 제염 공동",
+      "x": 94,
+      "v": 32,
+      "r": 8,
+      "kind": "cavern",
+      "wing": true,
+      "items": [
+        31,
+        33,
+        37,
+        12
+      ],
+      "zones": [
+        "주 작업 구역",
+        "벽면 장비·보관",
+        "터널 출입 여유"
+      ],
+      "position": [
+        94,
+        -82,
+        -32
+      ],
+      "doors": [
+        {
+          "id": "B5-T14",
+          "angle": 50.96448710125311,
+          "position": [
+            98.53457410063278,
+            -26.40735860921957
+          ]
+        },
+        {
+          "id": "B5-T15",
+          "angle": 175.42607874009917,
+          "position": [
+            86.8229299945399,
+            -31.425834399563193
+          ]
+        }
+      ]
+    },
+    "N01": {
+      "id": "N01",
+      "name": "중앙 격리 관제",
+      "x": 0,
+      "v": -76,
+      "r": 10,
+      "kind": "cavern",
+      "wing": true,
+      "items": [
+        16,
+        16,
+        52,
+        42
+      ],
+      "zones": [
+        "주 작업 구역",
+        "벽면 장비·보관",
+        "터널 출입 여유"
+      ],
+      "position": [
+        0,
+        -82,
+        76
+      ],
+      "doors": [
+        {
+          "id": "B5-T16",
+          "angle": -132.51044707800082,
+          "position": [
+            -6.2166665823595855,
+            69.21818191015318
+          ]
+        },
+        {
+          "id": "B5-T17",
+          "angle": -47.48955292199916,
+          "position": [
+            6.2166665823595855,
+            69.21818191015318
+          ]
+        }
+      ]
+    },
+    "S01": {
+      "id": "S01",
+      "name": "폐쇄된 시험 공동",
+      "x": 0,
+      "v": 76,
+      "r": 10,
+      "kind": "cavern",
+      "wing": true,
+      "items": [
+        47,
+        48,
+        49,
+        51
+      ],
+      "zones": [
+        "주 작업 구역",
+        "벽면 장비·보관",
+        "터널 출입 여유"
+      ],
+      "position": [
+        0,
+        -82,
+        -76
+      ],
+      "doors": [
+        {
+          "id": "B5-T18",
+          "angle": 47.48955292199916,
+          "position": [
+            6.2166665823595855,
+            -69.21818191015318
+          ]
+        },
+        {
+          "id": "B5-T19",
+          "angle": 152.46802325127774,
+          "position": [
+            -8.158127538891538,
+            -71.7473590488757
+          ]
+        }
+      ]
+    }
+  },
+  "tunnels": [
+    {
+      "id": "B5-T01",
+      "floor": "B5",
+      "a": "C01",
+      "b": "C02",
+      "p": [
+        -17.231327750334263,
+        1.074688998662948
+      ],
+      "q": [
+        -20.496279124774734,
+        -11.985116499098943
+      ],
+      "w": 4.2,
+      "h": 3.4,
+      "length": 13.46,
+      "type": "터널",
+      "role": "동층 연결",
+      "state": "개방 가안"
+    },
+    {
+      "id": "B5-T02",
+      "floor": "B5",
+      "a": "C02",
+      "b": "VA",
+      "p": [
+        -27.644272160268148,
+        -20.56557825466734
+      ],
+      "q": [
+        -40.17646079465706,
+        -26.262027633935027
+      ],
+      "w": 4.2,
+      "h": 3.4,
+      "length": 13.77,
+      "type": "터널",
+      "role": "동층 연결",
+      "state": "개방 가안"
+    },
+    {
+      "id": "B5-T03",
+      "floor": "B5",
+      "a": "C01",
+      "b": "C03",
+      "p": [
+        -5.84016512025455,
+        9.141265480023865
+      ],
+      "q": [
+        7.84016512025455,
+        7.858734519976136
+      ],
+      "w": 4.2,
+      "h": 3.4,
+      "length": 13.74,
+      "type": "터널",
+      "role": "동층 연결",
+      "state": "개방 가안"
+    },
+    {
+      "id": "B5-T04",
+      "floor": "B5",
+      "a": "C03",
+      "b": "C04",
+      "p": [
+        16.6594927233091,
+        -2.193696470654256
+      ],
+      "q": [
+        16.19246063465138,
+        -14.803562864412811
+      ],
+      "w": 4.2,
+      "h": 3.4,
+      "length": 12.62,
+      "type": "터널",
+      "role": "동층 연결",
+      "state": "개방 가안"
+    },
+    {
+      "id": "B5-T05",
+      "floor": "B5",
+      "a": "C04",
+      "b": "C02",
+      "p": [
+        10.80718728747095,
+        -19.726694067761628
+      ],
+      "q": [
+        -15.80856945813844,
+        -18.325864765361136
+      ],
+      "w": 4.2,
+      "h": 3.4,
+      "length": 26.65,
+      "type": "터널",
+      "role": "동층 연결",
+      "state": "개방 가안"
+    },
+    {
+      "id": "B5-T06",
+      "floor": "B5",
+      "a": "C04",
+      "b": "VL",
+      "p": [
+        20.999924527732283,
+        -21.428549865066365
+      ],
+      "q": [
+        39.961599419908545,
+        -26.846171262831014
+      ],
+      "w": 4.2,
+      "h": 3.4,
+      "length": 19.72,
+      "type": "터널",
+      "role": "동층 연결",
+      "state": "개방 가안"
+    },
+    {
+      "id": "B5-T07",
+      "floor": "B5",
+      "a": "C03",
+      "b": "VB",
+      "p": [
+        24.2620403998622,
+        12.648253644337267
+      ],
+      "q": [
+        40.68472068701943,
+        25.421449423237334
+      ],
+      "w": 4.2,
+      "h": 3.4,
+      "length": 20.81,
+      "type": "터널",
+      "role": "동층 연결",
+      "state": "개방 가안"
+    },
+    {
+      "id": "B5-T08",
+      "floor": "B5",
+      "a": "VA",
+      "b": "W01",
+      "p": [
+        -48.09555799432413,
+        -28.930808635073667
+      ],
+      "q": [
+        -79.02877772671857,
+        -35.96108584698149
+      ],
+      "w": 4.2,
+      "h": 3.4,
+      "length": 31.72,
+      "type": "터널",
+      "role": "동층 연결",
+      "state": "개방 가안"
+    },
+    {
+      "id": "B5-T09",
+      "floor": "B5",
+      "a": "W01",
+      "b": "W02",
+      "p": [
+        -95.06763577229586,
+        -32.110303523086785
+      ],
+      "q": [
+        -116.16414294810677,
+        -14.529880876577696
+      ],
+      "w": 4.2,
+      "h": 3.4,
+      "length": 27.46,
+      "type": "터널",
+      "role": "동층 연결",
+      "state": "개방 가안"
+    },
+    {
+      "id": "B5-T10",
+      "floor": "B5",
+      "a": "W02",
+      "b": "W03",
+      "p": [
+        -117.36192799074912,
+        -0.2555826558739751
+      ],
+      "q": [
+        -99.33648926233894,
+        20.774095860604568
+      ],
+      "w": 4.2,
+      "h": 3.4,
+      "length": 27.7,
+      "type": "터널",
+      "role": "동층 연결",
+      "state": "개방 가안"
+    },
+    {
+      "id": "B5-T11",
+      "floor": "B5",
+      "a": "W03",
+      "b": "C01",
+      "p": [
+        -85.98350819321767,
+        25.274932142844307
+      ],
+      "q": [
+        -23.994112758828958,
+        11.935441986077118
+      ],
+      "w": 4.2,
+      "h": 3.4,
+      "length": 63.41,
+      "type": "터널",
+      "role": "동층 연결",
+      "state": "개방 가안"
+    },
+    {
+      "id": "B5-T12",
+      "floor": "B5",
+      "a": "VL",
+      "b": "E01",
+      "p": [
+        48.09555799432413,
+        -28.930808635073667
+      ],
+      "q": [
+        80.97904343830149,
+        -36.40432805415943
+      ],
+      "w": 4.2,
+      "h": 3.4,
+      "length": 33.72,
+      "type": "터널",
+      "role": "동층 연결",
+      "state": "개방 가안"
+    },
+    {
+      "id": "B5-T13",
+      "floor": "B5",
+      "a": "E01",
+      "b": "E02",
+      "p": [
+        93.30750980944534,
+        -33.13478267467511
+      ],
+      "q": [
+        117.95533605035392,
+        -10.540941953842239
+      ],
+      "w": 4.2,
+      "h": 3.4,
+      "length": 33.44,
+      "type": "터널",
+      "role": "동층 연결",
+      "state": "개방 가안"
+    },
+    {
+      "id": "B5-T14",
+      "floor": "B5",
+      "a": "E02",
+      "b": "E03",
+      "p": [
+        118.83562394094601,
+        1.369397139499931
+      ],
+      "q": [
+        98.53457410063278,
+        26.40735860921957
+      ],
+      "w": 4.2,
+      "h": 3.4,
+      "length": 32.23,
+      "type": "터널",
+      "role": "동층 연결",
+      "state": "개방 가안"
+    },
+    {
+      "id": "B5-T15",
+      "floor": "B5",
+      "a": "E03",
+      "b": "VB",
+      "p": [
+        86.8229299945399,
+        31.425834399563193
+      ],
+      "q": [
+        48.186624169851726,
+        28.33492993358814
+      ],
+      "w": 4.2,
+      "h": 3.4,
+      "length": 38.76,
+      "type": "터널",
+      "role": "동층 연결",
+      "state": "개방 가안"
+    },
+    {
+      "id": "B5-T16",
+      "floor": "B5",
+      "a": "VA",
+      "b": "N01",
+      "p": [
+        -41.161956560227146,
+        -31.096047388843115
+      ],
+      "q": [
+        -6.2166665823595855,
+        -69.21818191015318
+      ],
+      "w": 4.2,
+      "h": 3.4,
+      "length": 51.72,
+      "type": "터널",
+      "role": "동층 연결",
+      "state": "개방 가안"
+    },
+    {
+      "id": "B5-T17",
+      "floor": "B5",
+      "a": "N01",
+      "b": "VL",
+      "p": [
+        6.2166665823595855,
+        -69.21818191015318
+      ],
+      "q": [
+        41.161956560227146,
+        -31.096047388843115
+      ],
+      "w": 4.2,
+      "h": 3.4,
+      "length": 51.72,
+      "type": "터널",
+      "role": "동층 연결",
+      "state": "개방 가안"
+    },
+    {
+      "id": "B5-T18",
+      "floor": "B5",
+      "a": "VB",
+      "b": "S01",
+      "p": [
+        41.161956560227146,
+        31.096047388843115
+      ],
+      "q": [
+        6.2166665823595855,
+        69.21818191015318
+      ],
+      "w": 4.2,
+      "h": 3.4,
+      "length": 51.72,
+      "type": "터널",
+      "role": "동층 연결",
+      "state": "개방 가안"
+    },
+    {
+      "id": "B5-T19",
+      "floor": "B5",
+      "a": "S01",
+      "b": "W03",
+      "p": [
+        -8.158127538891538,
+        71.7473590488757
+      ],
+      "q": [
+        -86.72862545446624,
+        30.790397369480367
+      ],
+      "w": 4.2,
+      "h": 3.4,
+      "length": 88.6,
+      "type": "터널",
+      "role": "동층 연결",
+      "state": "개방 가안"
+    }
+  ],
+  "placements": [
+    {
+      "id": "W01_SF_000_LivingBed",
+      "room": "W01",
+      "model": "SF_LivingBed",
+      "position": [
+        -4.33,
+        0,
+        -4.05
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "W01_SF_001_LivingDesk",
+      "room": "W01",
+      "model": "SF_LivingDesk",
+      "position": [
+        -2.58,
+        0,
+        -5.18
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "W01_SF_002_PersonalLocker",
+      "room": "W01",
+      "model": "SF_PersonalLocker",
+      "position": [
+        -2.05,
+        0,
+        -4.35
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "W01_SF_003_SanitaryBasin",
+      "room": "W01",
+      "model": "SF_SanitaryBasin",
+      "position": [
+        -2.25,
+        0,
+        -3.6
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "W01_SF_004_CompactToilet",
+      "room": "W01",
+      "model": "SF_CompactToilet",
+      "position": [
+        -2.25,
+        0,
+        -2.75
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "W01_SF_005_LivingBed",
+      "room": "W01",
+      "model": "SF_LivingBed",
+      "position": [
+        2.2699999999999996,
+        0,
+        -4.05
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "W01_SF_006_LivingDesk",
+      "room": "W01",
+      "model": "SF_LivingDesk",
+      "position": [
+        4.02,
+        0,
+        -5.18
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "W01_SF_007_PersonalLocker",
+      "room": "W01",
+      "model": "SF_PersonalLocker",
+      "position": [
+        4.55,
+        0,
+        -4.35
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "W01_SF_008_SanitaryBasin",
+      "room": "W01",
+      "model": "SF_SanitaryBasin",
+      "position": [
+        4.35,
+        0,
+        -3.6
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "W01_SF_009_CompactToilet",
+      "room": "W01",
+      "model": "SF_CompactToilet",
+      "position": [
+        4.35,
+        0,
+        -2.75
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "W01_SF_010_LivingBed",
+      "room": "W01",
+      "model": "SF_LivingBed",
+      "position": [
+        -2.2699999999999996,
+        0,
+        4.05
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "W01_SF_011_LivingDesk",
+      "room": "W01",
+      "model": "SF_LivingDesk",
+      "position": [
+        -4.02,
+        0,
+        5.18
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "W01_SF_012_PersonalLocker",
+      "room": "W01",
+      "model": "SF_PersonalLocker",
+      "position": [
+        -4.55,
+        0,
+        4.35
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "W01_SF_013_SanitaryBasin",
+      "room": "W01",
+      "model": "SF_SanitaryBasin",
+      "position": [
+        -4.35,
+        0,
+        3.6
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "W01_SF_014_CompactToilet",
+      "room": "W01",
+      "model": "SF_CompactToilet",
+      "position": [
+        -4.35,
+        0,
+        2.75
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "W01_SF_015_LivingBed",
+      "room": "W01",
+      "model": "SF_LivingBed",
+      "position": [
+        4.33,
+        0,
+        4.05
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "W01_SF_016_LivingDesk",
+      "room": "W01",
+      "model": "SF_LivingDesk",
+      "position": [
+        2.58,
+        0,
+        5.18
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "W01_SF_017_PersonalLocker",
+      "room": "W01",
+      "model": "SF_PersonalLocker",
+      "position": [
+        2.05,
+        0,
+        4.35
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "W01_SF_018_SanitaryBasin",
+      "room": "W01",
+      "model": "SF_SanitaryBasin",
+      "position": [
+        2.25,
+        0,
+        3.6
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "W01_SF_019_CompactToilet",
+      "room": "W01",
+      "model": "SF_CompactToilet",
+      "position": [
+        2.25,
+        0,
+        2.75
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "W01_SF_020_TransferNurseDesk",
+      "room": "W01",
+      "model": "SF_TransferNurseDesk",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "W01_SF_021_LinenRack",
+      "room": "W01",
+      "model": "SF_LinenRack",
+      "position": [
+        8.56782745120621,
+        0,
+        1.5107391457022938
+      ],
+      "yaw": -100.0
+    },
+    {
+      "id": "W01_SF_022_LinenReturnCart",
+      "room": "W01",
+      "model": "SF_LinenReturnCart",
+      "position": [
+        -8.7,
+        0,
+        1.0654427152581972e-15
+      ],
+      "yaw": -270.0
+    },
+    {
+      "id": "W01_SF_023_WaitingBench",
+      "room": "W01",
+      "model": "SF_WaitingBench",
+      "position": [
+        5.327213576290986e-16,
+        0,
+        8.7
+      ],
+      "yaw": -180.0
+    },
+    {
+      "id": "W01_SF_024_MealTransportCart",
+      "room": "W01",
+      "model": "SF_MealTransportCart",
+      "position": [
+        -1.5981640728872958e-15,
+        0,
+        -8.7
+      ],
+      "yaw": -360.0
+    },
+    {
+      "id": "W02_SF_025_LivingBed",
+      "room": "W02",
+      "model": "SF_LivingBed",
+      "position": [
+        -4.53,
+        0,
+        -4.6
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "W02_SF_026_LivingDesk",
+      "room": "W02",
+      "model": "SF_LivingDesk",
+      "position": [
+        -2.7800000000000002,
+        0,
+        -5.7299999999999995
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "W02_SF_027_PersonalLocker",
+      "room": "W02",
+      "model": "SF_PersonalLocker",
+      "position": [
+        -2.25,
+        0,
+        -4.8999999999999995
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "W02_SF_028_SanitaryBasin",
+      "room": "W02",
+      "model": "SF_SanitaryBasin",
+      "position": [
+        -2.45,
+        0,
+        -4.1499999999999995
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "W02_SF_029_CompactToilet",
+      "room": "W02",
+      "model": "SF_CompactToilet",
+      "position": [
+        -2.45,
+        0,
+        -3.3
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "W02_SF_030_LivingBed",
+      "room": "W02",
+      "model": "SF_LivingBed",
+      "position": [
+        2.4699999999999998,
+        0,
+        -4.6
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "W02_SF_031_LivingDesk",
+      "room": "W02",
+      "model": "SF_LivingDesk",
+      "position": [
+        4.22,
+        0,
+        -5.7299999999999995
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "W02_SF_032_PersonalLocker",
+      "room": "W02",
+      "model": "SF_PersonalLocker",
+      "position": [
+        4.75,
+        0,
+        -4.8999999999999995
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "W02_SF_033_SanitaryBasin",
+      "room": "W02",
+      "model": "SF_SanitaryBasin",
+      "position": [
+        4.55,
+        0,
+        -4.1499999999999995
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "W02_SF_034_CompactToilet",
+      "room": "W02",
+      "model": "SF_CompactToilet",
+      "position": [
+        4.55,
+        0,
+        -3.3
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "W02_SF_035_LivingBed",
+      "room": "W02",
+      "model": "SF_LivingBed",
+      "position": [
+        -2.4699999999999998,
+        0,
+        4.6
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "W02_SF_036_LivingDesk",
+      "room": "W02",
+      "model": "SF_LivingDesk",
+      "position": [
+        -4.22,
+        0,
+        5.7299999999999995
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "W02_SF_037_PersonalLocker",
+      "room": "W02",
+      "model": "SF_PersonalLocker",
+      "position": [
+        -4.75,
+        0,
+        4.8999999999999995
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "W02_SF_038_SanitaryBasin",
+      "room": "W02",
+      "model": "SF_SanitaryBasin",
+      "position": [
+        -4.55,
+        0,
+        4.1499999999999995
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "W02_SF_039_CompactToilet",
+      "room": "W02",
+      "model": "SF_CompactToilet",
+      "position": [
+        -4.55,
+        0,
+        3.3
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "W02_SF_040_LivingBed",
+      "room": "W02",
+      "model": "SF_LivingBed",
+      "position": [
+        4.53,
+        0,
+        4.6
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "W02_SF_041_LivingDesk",
+      "room": "W02",
+      "model": "SF_LivingDesk",
+      "position": [
+        2.7800000000000002,
+        0,
+        5.7299999999999995
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "W02_SF_042_PersonalLocker",
+      "room": "W02",
+      "model": "SF_PersonalLocker",
+      "position": [
+        2.25,
+        0,
+        4.8999999999999995
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "W02_SF_043_SanitaryBasin",
+      "room": "W02",
+      "model": "SF_SanitaryBasin",
+      "position": [
+        2.45,
+        0,
+        4.1499999999999995
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "W02_SF_044_CompactToilet",
+      "room": "W02",
+      "model": "SF_CompactToilet",
+      "position": [
+        2.45,
+        0,
+        3.3
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "W02_SF_045_IsolationNurseStation",
+      "room": "W02",
+      "model": "SF_IsolationNurseStation",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "W02_SF_046_LinenRack",
+      "room": "W02",
+      "model": "SF_LinenRack",
+      "position": [
+        9.7,
+        0,
+        0.0
+      ],
+      "yaw": -90.0
+    },
+    {
+      "id": "W02_SF_047_LinenReturnCart",
+      "room": "W02",
+      "model": "SF_LinenReturnCart",
+      "position": [
+        -9.7,
+        0,
+        1.1879073951729326e-15
+      ],
+      "yaw": -270.0
+    },
+    {
+      "id": "W02_SF_048_WaitingBench",
+      "room": "W02",
+      "model": "SF_WaitingBench",
+      "position": [
+        5.939536975864663e-16,
+        0,
+        9.7
+      ],
+      "yaw": -180.0
+    },
+    {
+      "id": "W02_SF_049_MealTransportCart",
+      "room": "W02",
+      "model": "SF_MealTransportCart",
+      "position": [
+        -1.7818610927593987e-15,
+        0,
+        -9.7
+      ],
+      "yaw": -360.0
+    },
+    {
+      "id": "W03_SF_050_MedicalBed",
+      "room": "W03",
+      "model": "SF_MedicalBed",
+      "position": [
+        -2.55,
+        0,
+        2.35
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "W03_SF_051_VitalCart",
+      "room": "W03",
+      "model": "SF_VitalCart",
+      "position": [
+        -4.35,
+        0,
+        3.3499999999999996
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "W03_SF_052_ExaminationLight",
+      "room": "W03",
+      "model": "SF_ExaminationLight",
+      "position": [
+        -1.5999999999999999,
+        0,
+        3.3
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "W03_SF_053_PrivacyCurtain",
+      "room": "W03",
+      "model": "SF_PrivacyCurtain",
+      "position": [
+        -4.75,
+        0,
+        1.45
+      ],
+      "yaw": 270
+    },
+    {
+      "id": "W03_SF_054_MedicalGasStation",
+      "room": "W03",
+      "model": "SF_MedicalGasStation",
+      "position": [
+        -2.5999999999999996,
+        0,
+        3.88
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "W03_SF_055_MedicalBed",
+      "room": "W03",
+      "model": "SF_MedicalBed",
+      "position": [
+        3.55,
+        0,
+        2.35
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "W03_SF_056_VitalCart",
+      "room": "W03",
+      "model": "SF_VitalCart",
+      "position": [
+        1.7499999999999996,
+        0,
+        3.3499999999999996
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "W03_SF_057_ExaminationLight",
+      "room": "W03",
+      "model": "SF_ExaminationLight",
+      "position": [
+        4.5,
+        0,
+        3.3
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "W03_SF_058_PrivacyCurtain",
+      "room": "W03",
+      "model": "SF_PrivacyCurtain",
+      "position": [
+        1.35,
+        0,
+        1.45
+      ],
+      "yaw": 270
+    },
+    {
+      "id": "W03_SF_059_MedicalGasStation",
+      "room": "W03",
+      "model": "SF_MedicalGasStation",
+      "position": [
+        3.5,
+        0,
+        3.88
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "W03_SF_060_TransferNurseDesk",
+      "room": "W03",
+      "model": "SF_TransferNurseDesk",
+      "position": [
+        0,
+        0,
+        -3.2
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "W03_SF_061_UltrasoundCart",
+      "room": "W03",
+      "model": "SF_UltrasoundCart",
+      "position": [
+        2.8,
+        0,
+        -2.4
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "W03_SF_062_MedicationCabinet",
+      "room": "W03",
+      "model": "SF_MedicationCabinet",
+      "position": [
+        4.623041666781258e-16,
+        0,
+        7.55
+      ],
+      "yaw": -180.0
+    },
+    {
+      "id": "W03_SF_063_MedicalSterilizer",
+      "room": "W03",
+      "model": "SF_MedicalSterilizer",
+      "position": [
+        -2.582252082108799,
+        0,
+        7.094679286933609
+      ],
+      "yaw": -200.0
+    },
+    {
+      "id": "W03_SF_064_LinenRack",
+      "room": "W03",
+      "model": "SF_LinenRack",
+      "position": [
+        -7.094679286933609,
+        0,
+        -2.5822520821087984
+      ],
+      "yaw": -290.0
+    },
+    {
+      "id": "W03_SF_065_WaitingBench",
+      "room": "W03",
+      "model": "SF_WaitingBench",
+      "position": [
+        -4.853046453133373,
+        0,
+        -5.783635545548283
+      ],
+      "yaw": -320.0
+    },
+    {
+      "id": "W03_SF_066_WaitingBench",
+      "room": "W03",
+      "model": "SF_WaitingBench",
+      "position": [
+        4.853046453133371,
+        0,
+        -5.783635545548285
+      ],
+      "yaw": -400.0
+    },
+    {
+      "id": "C03_SF_067_TwinCoolingPump",
+      "room": "C03",
+      "model": "SF_TwinCoolingPump",
+      "position": [
+        -2.55,
+        0.07,
+        -2.15
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "C03_SF_068_PlateHeatExchanger",
+      "room": "C03",
+      "model": "SF_PlateHeatExchanger",
+      "position": [
+        -2.55,
+        0.07,
+        1.65
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "C03_SF_069_TwinCoolingPump",
+      "room": "C03",
+      "model": "SF_TwinCoolingPump",
+      "position": [
+        2.55,
+        0.07,
+        -2.15
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "C03_SF_070_PlateHeatExchanger",
+      "room": "C03",
+      "model": "SF_PlateHeatExchanger",
+      "position": [
+        2.55,
+        0.07,
+        1.65
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "C03_SF_071_ExpansionVessel",
+      "room": "C03",
+      "model": "SF_ExpansionVessel",
+      "position": [
+        -5.35,
+        0,
+        2.8
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "C03_SF_072_ExpansionVessel",
+      "room": "C03",
+      "model": "SF_ExpansionVessel",
+      "position": [
+        5.35,
+        0,
+        2.8
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "C03_SF_073_ValveManifold",
+      "room": "C03",
+      "model": "SF_ValveManifold",
+      "position": [
+        -4.9,
+        0,
+        -2.4
+      ],
+      "yaw": 90
+    },
+    {
+      "id": "C03_SF_074_ValveManifold",
+      "room": "C03",
+      "model": "SF_ValveManifold",
+      "position": [
+        4.9,
+        0,
+        -2.4
+      ],
+      "yaw": 270
+    },
+    {
+      "id": "C03_SF_075_ProcessControlBay",
+      "room": "C03",
+      "model": "SF_ProcessControlBay",
+      "position": [
+        0,
+        0,
+        6.0
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "C03_SF_076_AirHandlingUnit",
+      "room": "C03",
+      "model": "SF_AirHandlingUnit",
+      "position": [
+        -7.361215932167729,
+        0,
+        4.249999999999999
+      ],
+      "yaw": -240.0
+    },
+    {
+      "id": "C03_SF_077_FilterBank",
+      "room": "C03",
+      "model": "SF_FilterBank",
+      "position": [
+        -7.361215932167728,
+        0,
+        -4.250000000000001
+      ],
+      "yaw": -300.0
+    },
+    {
+      "id": "C03_SF_078_MaintenanceBench",
+      "room": "C03",
+      "model": "SF_MaintenanceBench",
+      "position": [
+        0.7408238133550921,
+        0,
+        -8.467654933779837
+      ],
+      "yaw": -365.0
+    },
+    {
+      "id": "C03_SF_079_ElectricalSwitchgear",
+      "room": "C03",
+      "model": "SF_ElectricalSwitchgear",
+      "position": [
+        8.210369523457079,
+        0,
+        -2.1999618833714334
+      ],
+      "yaw": -434.99999999999994
+    },
+    {
+      "id": "C04_SF_080_ElectricalSwitchgear",
+      "room": "C04",
+      "model": "SF_ElectricalSwitchgear",
+      "position": [
+        -2.9,
+        0,
+        1.7
+      ],
+      "yaw": 90
+    },
+    {
+      "id": "C04_SF_081_ElectricalSwitchgear",
+      "room": "C04",
+      "model": "SF_ElectricalSwitchgear",
+      "position": [
+        -2.9,
+        0,
+        -0.3
+      ],
+      "yaw": 90
+    },
+    {
+      "id": "C04_SF_082_AirHandlingUnit",
+      "room": "C04",
+      "model": "SF_AirHandlingUnit",
+      "position": [
+        2.5,
+        0,
+        1.8
+      ],
+      "yaw": 270
+    },
+    {
+      "id": "C04_SF_083_ProcessControlBay",
+      "room": "C04",
+      "model": "SF_ProcessControlBay",
+      "position": [
+        2.8,
+        0,
+        -1.1
+      ],
+      "yaw": 270
+    },
+    {
+      "id": "C04_SF_084_MaintenanceBench",
+      "room": "C04",
+      "model": "SF_MaintenanceBench",
+      "position": [
+        0,
+        0,
+        -3.6
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "E01_SF_085_SupplyRack",
+      "room": "E01",
+      "model": "SF_SupplyRack",
+      "position": [
+        -2.5,
+        0,
+        -0.7
+      ],
+      "yaw": 90
+    },
+    {
+      "id": "E01_SF_086_SupplyRack",
+      "room": "E01",
+      "model": "SF_SupplyRack",
+      "position": [
+        -2.5,
+        0,
+        1.2
+      ],
+      "yaw": 90
+    },
+    {
+      "id": "E01_SF_087_SupplyRack",
+      "room": "E01",
+      "model": "SF_SupplyRack",
+      "position": [
+        -2.5,
+        0,
+        3.1
+      ],
+      "yaw": 90
+    },
+    {
+      "id": "E01_SF_088_SupplyRack",
+      "room": "E01",
+      "model": "SF_SupplyRack",
+      "position": [
+        2.5,
+        0,
+        -0.7
+      ],
+      "yaw": 270
+    },
+    {
+      "id": "E01_SF_089_SupplyRack",
+      "room": "E01",
+      "model": "SF_SupplyRack",
+      "position": [
+        2.5,
+        0,
+        1.2
+      ],
+      "yaw": 270
+    },
+    {
+      "id": "E01_SF_090_SupplyRack",
+      "room": "E01",
+      "model": "SF_SupplyRack",
+      "position": [
+        2.5,
+        0,
+        3.1
+      ],
+      "yaw": 270
+    },
+    {
+      "id": "E01_SF_091_ReceivingIsland",
+      "room": "E01",
+      "model": "SF_ReceivingIsland",
+      "position": [
+        0,
+        0,
+        -3.55
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "E01_SF_092_ColdStorage",
+      "room": "E01",
+      "model": "SF_ColdStorage",
+      "position": [
+        4.1637991171010006e-16,
+        0,
+        6.8
+      ],
+      "yaw": -180.0
+    },
+    {
+      "id": "E01_SF_093_SealedSupplyCrates",
+      "room": "E01",
+      "model": "SF_SealedSupplyCrates",
+      "position": [
+        -5.570233901165145,
+        0,
+        3.900319767187112
+      ],
+      "yaw": -235.0
+    },
+    {
+      "id": "E01_SF_094_LinenRack",
+      "room": "E01",
+      "model": "SF_LinenRack",
+      "position": [
+        -5.20910221320905,
+        0,
+        -4.370955745868467
+      ],
+      "yaw": -310.0
+    },
+    {
+      "id": "E01_SF_095_LinenReturnCart",
+      "room": "E01",
+      "model": "SF_LinenReturnCart",
+      "position": [
+        -3.9003197671871153,
+        0,
+        -5.5702339011651425
+      ],
+      "yaw": -325.0
+    },
+    {
+      "id": "E01_SF_096_MealTransportCart",
+      "room": "E01",
+      "model": "SF_MealTransportCart",
+      "position": [
+        6.696692720483014,
+        0,
+        -1.1808076081351266
+      ],
+      "yaw": -440.0
+    },
+    {
+      "id": "E01_SF_097_ArchiveCaseRack",
+      "room": "E01",
+      "model": "SF_ArchiveCaseRack",
+      "position": [
+        5.888972745734183,
+        0,
+        3.3999999999999995
+      ],
+      "yaw": -120.0
+    },
+    {
+      "id": "E02_SF_098_MealAssemblyIsland",
+      "room": "E02",
+      "model": "SF_MealAssemblyIsland",
+      "position": [
+        0,
+        0,
+        0.2
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "E02_SF_099_MealPreparation",
+      "room": "E02",
+      "model": "SF_MealPreparation",
+      "position": [
+        -3.4,
+        0,
+        2.7
+      ],
+      "yaw": 90
+    },
+    {
+      "id": "E02_SF_100_DoubleWashSink",
+      "room": "E02",
+      "model": "SF_DoubleWashSink",
+      "position": [
+        3.4,
+        0,
+        -0.7
+      ],
+      "yaw": 270
+    },
+    {
+      "id": "E02_SF_101_TrayDishwasher",
+      "room": "E02",
+      "model": "SF_TrayDishwasher",
+      "position": [
+        3.4,
+        0,
+        1.3
+      ],
+      "yaw": 270
+    },
+    {
+      "id": "E02_SF_102_ColdStorage",
+      "room": "E02",
+      "model": "SF_ColdStorage",
+      "position": [
+        -1.3,
+        0,
+        5.2
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "E02_SF_103_ColdStorage",
+      "room": "E02",
+      "model": "SF_ColdStorage",
+      "position": [
+        1.3,
+        0,
+        5.2
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "E02_SF_104_MealTransportCart",
+      "room": "E02",
+      "model": "SF_MealTransportCart",
+      "position": [
+        -3.5,
+        0,
+        -2.6
+      ],
+      "yaw": 90
+    },
+    {
+      "id": "E02_SF_105_MealTransportCart",
+      "room": "E02",
+      "model": "SF_MealTransportCart",
+      "position": [
+        -0.6,
+        0,
+        -3.4
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "E02_SF_106_SupplyRack",
+      "room": "E02",
+      "model": "SF_SupplyRack",
+      "position": [
+        -7.244443697168012,
+        0,
+        1.9411428382689075
+      ],
+      "yaw": -255.0
+    },
+    {
+      "id": "E02_SF_107_SupplyRack",
+      "room": "E02",
+      "model": "SF_SupplyRack",
+      "position": [
+        -7.047694655894313,
+        0,
+        -2.565151074942515
+      ],
+      "yaw": -290.0
+    },
+    {
+      "id": "E02_SF_108_LinenReturnCart",
+      "room": "E02",
+      "model": "SF_LinenReturnCart",
+      "position": [
+        5.745333323392334,
+        0,
+        -4.820907072649047
+      ],
+      "yaw": -410.0
+    },
+    {
+      "id": "E02_SF_109_SealedSupplyCrates",
+      "room": "E02",
+      "model": "SF_SealedSupplyCrates",
+      "position": [
+        6.143640332167439,
+        0,
+        4.301823272632845
+      ],
+      "yaw": -125.0
+    },
+    {
+      "id": "E03_SF_110_DeconShower",
+      "room": "E03",
+      "model": "SF_DeconShower",
+      "position": [
+        -3.35,
+        0,
+        0
+      ],
+      "yaw": 90
+    },
+    {
+      "id": "E03_SF_111_DeconShower",
+      "room": "E03",
+      "model": "SF_DeconShower",
+      "position": [
+        3.35,
+        0,
+        0
+      ],
+      "yaw": 270
+    },
+    {
+      "id": "E03_SF_112_DeconChangeBench",
+      "room": "E03",
+      "model": "SF_DeconChangeBench",
+      "position": [
+        0,
+        0,
+        4.0
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "E03_SF_113_DeconChangeBench",
+      "room": "E03",
+      "model": "SF_DeconChangeBench",
+      "position": [
+        0,
+        0,
+        -4.0
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "E03_SF_114_PPEDispenser",
+      "room": "E03",
+      "model": "SF_PPEDispenser",
+      "position": [
+        1.734087602186889,
+        0,
+        6.471703036136758
+      ],
+      "yaw": -165.0
+    },
+    {
+      "id": "E03_SF_115_PersonalLocker",
+      "room": "E03",
+      "model": "SF_PersonalLocker",
+      "position": [
+        -1.7340876021868898,
+        0,
+        6.471703036136758
+      ],
+      "yaw": -195.0
+    },
+    {
+      "id": "E03_SF_116_BootDryingRack",
+      "room": "E03",
+      "model": "SF_BootDryingRack",
+      "position": [
+        -5.488318696736246,
+        0,
+        3.8429621235520077
+      ],
+      "yaw": -235.0
+    },
+    {
+      "id": "E03_SF_117_LinenReturnCart",
+      "room": "E03",
+      "model": "SF_LinenReturnCart",
+      "position": [
+        -1.7340876021868883,
+        0,
+        -6.471703036136758
+      ],
+      "yaw": -345.0
+    },
+    {
+      "id": "E03_SF_118_SanitaryBasin",
+      "room": "E03",
+      "model": "SF_SanitaryBasin",
+      "position": [
+        1.734087602186886,
+        0,
+        -6.471703036136758
+      ],
+      "yaw": -375.0
+    },
+    {
+      "id": "N01_SF_119_CentralVideoWall",
+      "room": "N01",
+      "model": "SF_CentralVideoWall",
+      "position": [
+        0,
+        0,
+        6.0
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "N01_SF_120_CentralOperatorDesk",
+      "room": "N01",
+      "model": "SF_CentralOperatorDesk",
+      "position": [
+        -2.6,
+        0,
+        3.85
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "N01_SF_121_TaskChair",
+      "room": "N01",
+      "model": "SF_TaskChair",
+      "position": [
+        -2.6,
+        0,
+        2.8
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "N01_SF_122_CentralOperatorDesk",
+      "room": "N01",
+      "model": "SF_CentralOperatorDesk",
+      "position": [
+        0,
+        0,
+        3.85
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "N01_SF_123_TaskChair",
+      "room": "N01",
+      "model": "SF_TaskChair",
+      "position": [
+        0,
+        0,
+        2.8
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "N01_SF_124_CentralOperatorDesk",
+      "room": "N01",
+      "model": "SF_CentralOperatorDesk",
+      "position": [
+        2.6,
+        0,
+        3.85
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "N01_SF_125_TaskChair",
+      "room": "N01",
+      "model": "SF_TaskChair",
+      "position": [
+        2.6,
+        0,
+        2.8
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "N01_SF_126_CentralOperatorDesk",
+      "room": "N01",
+      "model": "SF_CentralOperatorDesk",
+      "position": [
+        -2.6,
+        0,
+        0.55
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "N01_SF_127_TaskChair",
+      "room": "N01",
+      "model": "SF_TaskChair",
+      "position": [
+        -2.6,
+        0,
+        -0.5
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "N01_SF_128_CentralOperatorDesk",
+      "room": "N01",
+      "model": "SF_CentralOperatorDesk",
+      "position": [
+        0,
+        0,
+        0.55
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "N01_SF_129_TaskChair",
+      "room": "N01",
+      "model": "SF_TaskChair",
+      "position": [
+        0,
+        0,
+        -0.5
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "N01_SF_130_CentralOperatorDesk",
+      "room": "N01",
+      "model": "SF_CentralOperatorDesk",
+      "position": [
+        2.6,
+        0,
+        0.55
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "N01_SF_131_TaskChair",
+      "room": "N01",
+      "model": "SF_TaskChair",
+      "position": [
+        2.6,
+        0,
+        -0.5
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "N01_SF_132_DataRecorderRack",
+      "room": "N01",
+      "model": "SF_DataRecorderRack",
+      "position": [
+        -6.5,
+        0,
+        -0.1
+      ],
+      "yaw": 90
+    },
+    {
+      "id": "N01_SF_133_DataRecorderRack",
+      "room": "N01",
+      "model": "SF_DataRecorderRack",
+      "position": [
+        -6.5,
+        0,
+        1.5
+      ],
+      "yaw": 90
+    },
+    {
+      "id": "N01_SF_134_DataRecorderRack",
+      "room": "N01",
+      "model": "SF_DataRecorderRack",
+      "position": [
+        -6.5,
+        0,
+        3.1
+      ],
+      "yaw": 90
+    },
+    {
+      "id": "N01_SF_135_DataRecorderRack",
+      "room": "N01",
+      "model": "SF_DataRecorderRack",
+      "position": [
+        6.5,
+        0,
+        -0.1
+      ],
+      "yaw": 270
+    },
+    {
+      "id": "N01_SF_136_DataRecorderRack",
+      "room": "N01",
+      "model": "SF_DataRecorderRack",
+      "position": [
+        6.5,
+        0,
+        1.5
+      ],
+      "yaw": 270
+    },
+    {
+      "id": "N01_SF_137_DataRecorderRack",
+      "room": "N01",
+      "model": "SF_DataRecorderRack",
+      "position": [
+        6.5,
+        0,
+        3.1
+      ],
+      "yaw": 270
+    },
+    {
+      "id": "N01_SF_138_BriefingTable",
+      "room": "N01",
+      "model": "SF_BriefingTable",
+      "position": [
+        0,
+        0,
+        -4.4
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "N01_SF_139_TaskChair",
+      "room": "N01",
+      "model": "SF_TaskChair",
+      "position": [
+        -1.5,
+        0,
+        -4.4
+      ],
+      "yaw": 90
+    },
+    {
+      "id": "N01_SF_140_TaskChair",
+      "room": "N01",
+      "model": "SF_TaskChair",
+      "position": [
+        1.5,
+        0,
+        -4.4
+      ],
+      "yaw": 270
+    },
+    {
+      "id": "N01_SF_141_TaskChair",
+      "room": "N01",
+      "model": "SF_TaskChair",
+      "position": [
+        0,
+        0,
+        -5.55
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "N01_SF_142_ArchiveCaseRack",
+      "room": "N01",
+      "model": "SF_ArchiveCaseRack",
+      "position": [
+        -7.04470758088533,
+        0,
+        4.932757352618995
+      ],
+      "yaw": -235.0
+    },
+    {
+      "id": "N01_SF_143_MaintenanceBench",
+      "room": "N01",
+      "model": "SF_MaintenanceBench",
+      "position": [
+        -8.081356538758811,
+        0,
+        -2.941373232600754
+      ],
+      "yaw": -290.0
+    },
+    {
+      "id": "N01_SF_144_ArchiveCaseRack",
+      "room": "N01",
+      "model": "SF_ArchiveCaseRack",
+      "position": [
+        8.08135653875881,
+        0,
+        -2.941373232600757
+      ],
+      "yaw": -429.99999999999994
+    },
+    {
+      "id": "S01_SF_145_TestGantry",
+      "room": "S01",
+      "model": "SF_TestGantry",
+      "position": [
+        0,
+        0,
+        1.1
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "S01_SF_146_MedicalBed",
+      "room": "S01",
+      "model": "SF_MedicalBed",
+      "position": [
+        3.9,
+        0,
+        -3.2
+      ],
+      "yaw": 0
+    },
+    {
+      "id": "S01_SF_147_TestControlConsole",
+      "room": "S01",
+      "model": "SF_TestControlConsole",
+      "position": [
+        -5.2,
+        0,
+        1.0
+      ],
+      "yaw": 180
+    },
+    {
+      "id": "S01_SF_148_ElectricalSwitchgear",
+      "room": "S01",
+      "model": "SF_ElectricalSwitchgear",
+      "position": [
+        2.2258437878816784,
+        0,
+        8.306962106085987
+      ],
+      "yaw": -165.0
+    },
+    {
+      "id": "S01_SF_149_DataRecorderRack",
+      "room": "S01",
+      "model": "SF_DataRecorderRack",
+      "position": [
+        -1.4933743279356007,
+        0,
+        8.469346675904989
+      ],
+      "yaw": -190.0
+    },
+    {
+      "id": "S01_SF_150_ArchiveCaseRack",
+      "room": "S01",
+      "model": "SF_ArchiveCaseRack",
+      "position": [
+        -4.932757352618997,
+        0,
+        7.044707580885328
+      ],
+      "yaw": -215.0
+    },
+    {
+      "id": "S01_SF_151_MedicalSterilizer",
+      "room": "S01",
+      "model": "SF_MedicalSterilizer",
+      "position": [
+        -5.527973443304239,
+        0,
+        -6.58798221082321
+      ],
+      "yaw": -320.0
+    },
+    {
+      "id": "S01_SF_152_SupplyRack",
+      "room": "S01",
+      "model": "SF_SupplyRack",
+      "position": [
+        1.4933743279355978,
+        0,
+        -8.46934667590499
+      ],
+      "yaw": -370.0
+    },
+    {
+      "id": "S01_SF_153_VitalCart",
+      "room": "S01",
+      "model": "SF_VitalCart",
+      "position": [
+        6.081118318204307,
+        0,
+        -6.08111831820431
+      ],
+      "yaw": -405.0
+    }
+  ],
+  "structures": [
+    {
+      "room": "W01",
+      "kind": "living_suite",
+      "x": -3.3,
+      "z": -3.75,
+      "w": 4.2,
+      "d": 3.8,
+      "yaw": 0
+    },
+    {
+      "room": "W01",
+      "kind": "living_suite",
+      "x": 3.3,
+      "z": -3.75,
+      "w": 4.2,
+      "d": 3.8,
+      "yaw": 0
+    },
+    {
+      "room": "W01",
+      "kind": "living_suite",
+      "x": -3.3,
+      "z": 3.75,
+      "w": 4.2,
+      "d": 3.8,
+      "yaw": 180
+    },
+    {
+      "room": "W01",
+      "kind": "living_suite",
+      "x": 3.3,
+      "z": 3.75,
+      "w": 4.2,
+      "d": 3.8,
+      "yaw": 180
+    },
+    {
+      "room": "W01",
+      "kind": "nurse_canopy",
+      "x": 0,
+      "z": 0,
+      "w": 3.1,
+      "d": 2.0,
+      "yaw": 0
+    },
+    {
+      "room": "W02",
+      "kind": "living_suite",
+      "x": -3.5,
+      "z": -4.3,
+      "w": 4.2,
+      "d": 3.8,
+      "yaw": 0
+    },
+    {
+      "room": "W02",
+      "kind": "living_suite",
+      "x": 3.5,
+      "z": -4.3,
+      "w": 4.2,
+      "d": 3.8,
+      "yaw": 0
+    },
+    {
+      "room": "W02",
+      "kind": "living_suite",
+      "x": -3.5,
+      "z": 4.3,
+      "w": 4.2,
+      "d": 3.8,
+      "yaw": 180
+    },
+    {
+      "room": "W02",
+      "kind": "living_suite",
+      "x": 3.5,
+      "z": 4.3,
+      "w": 4.2,
+      "d": 3.8,
+      "yaw": 180
+    },
+    {
+      "room": "W02",
+      "kind": "nurse_canopy",
+      "x": 0,
+      "z": 0,
+      "w": 3.1,
+      "d": 2.0,
+      "yaw": 0
+    },
+    {
+      "room": "W03",
+      "kind": "exam_suite",
+      "x": -3.05,
+      "z": 2.4,
+      "w": 4.25,
+      "d": 3.9,
+      "yaw": 180
+    },
+    {
+      "room": "W03",
+      "kind": "exam_suite",
+      "x": 3.05,
+      "z": 2.4,
+      "w": 4.25,
+      "d": 3.9,
+      "yaw": 180
+    },
+    {
+      "room": "W03",
+      "kind": "triage_screen",
+      "x": 0,
+      "z": -3.2,
+      "w": 3.3,
+      "d": 1.9,
+      "yaw": 180
+    },
+    {
+      "room": "C03",
+      "kind": "machine_plinth",
+      "x": -2.55,
+      "z": -2.15,
+      "w": 2.25,
+      "d": 1.65,
+      "yaw": 0
+    },
+    {
+      "room": "C03",
+      "kind": "machine_plinth",
+      "x": -2.55,
+      "z": 1.65,
+      "w": 2.25,
+      "d": 1.65,
+      "yaw": 0
+    },
+    {
+      "room": "C03",
+      "kind": "machine_plinth",
+      "x": 2.55,
+      "z": -2.15,
+      "w": 2.25,
+      "d": 1.65,
+      "yaw": 0
+    },
+    {
+      "room": "C03",
+      "kind": "machine_plinth",
+      "x": 2.55,
+      "z": 1.65,
+      "w": 2.25,
+      "d": 1.65,
+      "yaw": 0
+    },
+    {
+      "room": "C03",
+      "kind": "control_booth",
+      "x": 0,
+      "z": 5.6,
+      "w": 4.8,
+      "d": 2.7,
+      "yaw": 180
+    },
+    {
+      "room": "C03",
+      "kind": "process_headers",
+      "x": 0,
+      "z": 0,
+      "w": 6.2,
+      "d": 5.9,
+      "yaw": 0
+    },
+    {
+      "room": "C04",
+      "kind": "power_screen",
+      "x": -1.65,
+      "z": 0.7,
+      "w": 0.12,
+      "d": 4.8,
+      "yaw": 0
+    },
+    {
+      "room": "C04",
+      "kind": "service_canopy",
+      "x": 0.4,
+      "z": 0.7,
+      "w": 6.3,
+      "d": 4.5,
+      "yaw": 0
+    },
+    {
+      "room": "E01",
+      "kind": "receiving_canopy",
+      "x": 0,
+      "z": -3.55,
+      "w": 4.1,
+      "d": 2.7,
+      "yaw": 0
+    },
+    {
+      "room": "E01",
+      "kind": "storage_gantry",
+      "x": 0,
+      "z": 1.2,
+      "w": 6.4,
+      "d": 6.3,
+      "yaw": 0
+    },
+    {
+      "room": "E02",
+      "kind": "kitchen_extract",
+      "x": 0,
+      "z": 0.2,
+      "w": 3.9,
+      "d": 3.4,
+      "yaw": 0
+    },
+    {
+      "room": "E02",
+      "kind": "wash_partition",
+      "x": 2.15,
+      "z": 0.1,
+      "w": 0.12,
+      "d": 5.4,
+      "yaw": 0
+    },
+    {
+      "room": "E02",
+      "kind": "cold_partition",
+      "x": 0,
+      "z": 4.25,
+      "w": 5.7,
+      "d": 0.12,
+      "yaw": 0
+    },
+    {
+      "room": "E03",
+      "kind": "decon_partition",
+      "x": 0,
+      "z": -2.3,
+      "w": 9.1,
+      "d": 0.12,
+      "yaw": 0
+    },
+    {
+      "room": "E03",
+      "kind": "decon_partition",
+      "x": 0,
+      "z": 2.3,
+      "w": 9.1,
+      "d": 0.12,
+      "yaw": 0
+    },
+    {
+      "room": "E03",
+      "kind": "wet_canopy",
+      "x": -3.35,
+      "z": 0,
+      "w": 2.5,
+      "d": 2.8,
+      "yaw": 0
+    },
+    {
+      "room": "E03",
+      "kind": "wet_canopy",
+      "x": 3.35,
+      "z": 0,
+      "w": 2.5,
+      "d": 2.8,
+      "yaw": 0
+    },
+    {
+      "room": "N01",
+      "kind": "command_suite",
+      "x": 0,
+      "z": 2.2,
+      "w": 9.6,
+      "d": 9.0,
+      "yaw": 0
+    },
+    {
+      "room": "S01",
+      "kind": "test_cell",
+      "x": 0,
+      "z": 1.0,
+      "w": 5.5,
+      "d": 5.2,
+      "yaw": 0
+    },
+    {
+      "room": "S01",
+      "kind": "observation_booth",
+      "x": -5.2,
+      "z": 0.5,
+      "w": 2.7,
+      "d": 4.2,
+      "yaw": 180
+    },
+    {
+      "room": "C02",
+      "kind": "security_suite",
+      "x": 0,
+      "z": 3.5,
+      "w": 6.25,
+      "d": 4.0,
+      "yaw": 0
+    },
+    {
+      "room": "C02",
+      "kind": "review_booth",
+      "x": -2.1,
+      "z": -2.7,
+      "w": 3.4,
+      "d": 2.6,
+      "yaw": 15
+    },
+    {
+      "room": "C02",
+      "kind": "server_baffle",
+      "x": 3.65,
+      "z": 3.4,
+      "w": 0.1,
+      "d": 3.7,
+      "yaw": 0
+    },
+    {
+      "room": "VA",
+      "kind": "core_detail",
+      "x": 0,
+      "z": 0,
+      "w": 10,
+      "d": 10,
+      "yaw": 0
+    },
+    {
+      "room": "VB",
+      "kind": "core_detail",
+      "x": 0,
+      "z": 0,
+      "w": 10,
+      "d": 10,
+      "yaw": 0
+    },
+    {
+      "room": "VL",
+      "kind": "core_detail",
+      "x": 0,
+      "z": 0,
+      "w": 10,
+      "d": 10,
+      "yaw": 0
+    }
+  ],
+  "lightPolicy": "local fixtures only, existing lights preserved"
+}

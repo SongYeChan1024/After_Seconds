@@ -1,0 +1,888 @@
+{
+  "pairs": [
+    {
+      "a": "C01_FromVA",
+      "b": "VA_FromC01",
+      "lineClearance": 0.21079506240707838,
+      "markerClearance": 0.11079506240707837
+    },
+    {
+      "a": "C01_FromVA",
+      "b": "C02_FromC01",
+      "lineClearance": 0.5349505358099998,
+      "markerClearance": 0.4349505358099998
+    },
+    {
+      "a": "C01_FromVA",
+      "b": "C02_FromVA",
+      "lineClearance": 0.5265862081999737,
+      "markerClearance": 0.42658620819997367
+    },
+    {
+      "a": "C01_FromVA",
+      "b": "B5-T05_C04_to_C02",
+      "lineClearance": 3.022148508448838,
+      "markerClearance": 2.922148508448838
+    },
+    {
+      "a": "C01_FromVA",
+      "b": "B5-T05_C02_to_C04",
+      "lineClearance": 2.7262771493971254,
+      "markerClearance": 2.6262771493971253
+    },
+    {
+      "a": "C01_FromVA",
+      "b": "B5-T16_N01_to_VA",
+      "lineClearance": 2.7654227453797375,
+      "markerClearance": 2.6654227453797374
+    },
+    {
+      "a": "VA_FromC01",
+      "b": "C02_FromC01",
+      "lineClearance": 0.20743050718042463,
+      "markerClearance": 0.10743050718042463
+    },
+    {
+      "a": "VA_FromC01",
+      "b": "C02_FromVA",
+      "lineClearance": 0.20752802457913064,
+      "markerClearance": 0.10752802457913063
+    },
+    {
+      "a": "VA_FromC01",
+      "b": "B5-T05_C04_to_C02",
+      "lineClearance": 2.6822991735596475,
+      "markerClearance": 2.5822991735596474
+    },
+    {
+      "a": "VA_FromC01",
+      "b": "B5-T05_C02_to_C04",
+      "lineClearance": 2.38924837547314,
+      "markerClearance": 2.28924837547314
+    },
+    {
+      "a": "C02_FromC01",
+      "b": "B5-T05_C02_to_C04",
+      "lineClearance": 1.9121515465177672,
+      "markerClearance": 1.8121515465177673
+    },
+    {
+      "a": "C02_FromVA",
+      "b": "B5-T16_N01_to_VA",
+      "lineClearance": 2.7540464018890503,
+      "markerClearance": 2.65404640188905
+    },
+    {
+      "a": "B5-T03_C01_to_C03",
+      "b": "B5-T03_C03_to_C01",
+      "lineClearance": 0.2795462878429773,
+      "markerClearance": 0.17954628784297727
+    },
+    {
+      "a": "B5-T04_C03_to_C04",
+      "b": "B5-T04_C04_to_C03",
+      "lineClearance": 0.18858956049418932,
+      "markerClearance": 0.08858956049418931
+    },
+    {
+      "a": "B5-T04_C03_to_C04",
+      "b": "B5-T05_C04_to_C02",
+      "lineClearance": 1.3399999999999994,
+      "markerClearance": 1.2399999999999995
+    },
+    {
+      "a": "B5-T04_C03_to_C04",
+      "b": "B5-T06_C04_to_VL",
+      "lineClearance": 0.7579075739293856,
+      "markerClearance": 0.6579075739293856
+    },
+    {
+      "a": "B5-T04_C04_to_C03",
+      "b": "B5-T05_C04_to_C02",
+      "lineClearance": 0.5363961030678925,
+      "markerClearance": 0.4363961030678925
+    },
+    {
+      "a": "B5-T04_C04_to_C03",
+      "b": "B5-T05_C02_to_C04",
+      "lineClearance": 0.40911688245431366,
+      "markerClearance": 0.3091168824543136
+    },
+    {
+      "a": "B5-T05_C04_to_C02",
+      "b": "B5-T05_C02_to_C04",
+      "lineClearance": 0.18460498941515366,
+      "markerClearance": 0.08460498941515365
+    },
+    {
+      "a": "B5-T06_C04_to_VL",
+      "b": "B5-T06_VL_to_C04",
+      "lineClearance": 0.28183766184073755,
+      "markerClearance": 0.18183766184073757
+    },
+    {
+      "a": "B5-T06_VL_to_C04",
+      "b": "B5-T17_N01_to_VL",
+      "lineClearance": 0.19662944464672397,
+      "markerClearance": 0.09662944464672396
+    },
+    {
+      "a": "B5-T07_C03_to_VB",
+      "b": "B5-T07_VB_to_C03",
+      "lineClearance": 0.19953810596162316,
+      "markerClearance": 0.09953810596162316
+    },
+    {
+      "a": "B5-T07_C03_to_VB",
+      "b": "B5-T18_VB_to_S01",
+      "lineClearance": 0.23792046978903605,
+      "markerClearance": 0.13792046978903605
+    },
+    {
+      "a": "B5-T08_W01_to_VA",
+      "b": "B5-T08_VA_to_W01",
+      "lineClearance": 0.2563818177180194,
+      "markerClearance": 0.15638181771801934
+    },
+    {
+      "a": "B5-T09_W01_to_W02",
+      "b": "B5-T09_W02_to_W01",
+      "lineClearance": 0.281837661840734,
+      "markerClearance": 0.18183766184073397
+    },
+    {
+      "a": "B5-T10_W02_to_W03",
+      "b": "B5-T10_W03_to_W02",
+      "lineClearance": 0.19816512040208542,
+      "markerClearance": 0.09816512040208542
+    },
+    {
+      "a": "B5-T11_W03_to_C01",
+      "b": "B5-T11_C01_to_W03",
+      "lineClearance": 0.29704034428161896,
+      "markerClearance": 0.19704034428161898
+    },
+    {
+      "a": "B5-T12_E01_to_VL",
+      "b": "B5-T12_VL_to_E01",
+      "lineClearance": 0.18460498941515366,
+      "markerClearance": 0.08460498941515365
+    },
+    {
+      "a": "B5-T13_E01_to_E02",
+      "b": "B5-T13_E02_to_E01",
+      "lineClearance": 0.40190495440740726,
+      "markerClearance": 0.3019049544074072
+    },
+    {
+      "a": "B5-T14_E02_to_E03",
+      "b": "B5-T14_E03_to_E02",
+      "lineClearance": 0.40314274768765934,
+      "markerClearance": 0.3031427476876593
+    },
+    {
+      "a": "B5-T15_E03_to_VB",
+      "b": "B5-T15_VB_to_E03",
+      "lineClearance": 0.24946112362189407,
+      "markerClearance": 0.14946112362189407
+    },
+    {
+      "a": "B5-T16_N01_to_VA",
+      "b": "B5-T16_VA_to_N01",
+      "lineClearance": 0.25638181771802615,
+      "markerClearance": 0.15638181771802617
+    },
+    {
+      "a": "B5-T17_N01_to_VL",
+      "b": "B5-T17_VL_to_N01",
+      "lineClearance": 0.4067492123853371,
+      "markerClearance": 0.3067492123853371
+    },
+    {
+      "a": "B5-T18_S01_to_VB",
+      "b": "B5-T18_VB_to_S01",
+      "lineClearance": 0.3829906831399563,
+      "markerClearance": 0.2829906831399563
+    },
+    {
+      "a": "B5-T19_S01_to_W03",
+      "b": "B5-T19_W03_to_S01",
+      "lineClearance": 0.1836218949770003,
+      "markerClearance": 0.08362189497700029
+    }
+  ],
+  "labels": [
+    {
+      "route": "B5-T03_C01_to_C03",
+      "label": "B5-T03_C03_2.8",
+      "clearance": 0.45000000000000195
+    },
+    {
+      "route": "B5-T03_C01_to_C03",
+      "label": "B5-T03_C03_10.9",
+      "clearance": 0.4500000000000013
+    },
+    {
+      "route": "B5-T03_C01_to_C03",
+      "label": "B5-T03_C01_2.8",
+      "clearance": 0.9699999999999994
+    },
+    {
+      "route": "B5-T03_C01_to_C03",
+      "label": "B5-T03_C01_10.9",
+      "clearance": 0.9699999999999994
+    },
+    {
+      "route": "B5-T03_C03_to_C01",
+      "label": "B5-T03_C03_2.8",
+      "clearance": 0.9700000000000005
+    },
+    {
+      "route": "B5-T03_C03_to_C01",
+      "label": "B5-T03_C03_10.9",
+      "clearance": 0.9700000000000008
+    },
+    {
+      "route": "B5-T03_C03_to_C01",
+      "label": "B5-T03_C01_2.8",
+      "clearance": 0.4499999999999996
+    },
+    {
+      "route": "B5-T03_C03_to_C01",
+      "label": "B5-T03_C01_10.9",
+      "clearance": 0.45000000000000073
+    },
+    {
+      "route": "B5-T04_C03_to_C04",
+      "label": "B5-T04_C04_2.8",
+      "clearance": 0.45000000000000207
+    },
+    {
+      "route": "B5-T04_C03_to_C04",
+      "label": "B5-T04_C04_9.8",
+      "clearance": 0.44999999999999984
+    },
+    {
+      "route": "B5-T04_C03_to_C04",
+      "label": "B5-T04_C03_2.8",
+      "clearance": 0.9700000000000012
+    },
+    {
+      "route": "B5-T04_C03_to_C04",
+      "label": "B5-T04_C03_9.8",
+      "clearance": 0.9699999999999992
+    },
+    {
+      "route": "B5-T04_C04_to_C03",
+      "label": "B5-T04_C03_2.8",
+      "clearance": 0.44999999999999984
+    },
+    {
+      "route": "B5-T04_C04_to_C03",
+      "label": "B5-T04_C03_9.8",
+      "clearance": 0.4499999999999966
+    },
+    {
+      "route": "B5-T05_C04_to_C02",
+      "label": "B5-T05_C02_2.8",
+      "clearance": 0.44999999999999907
+    },
+    {
+      "route": "B5-T05_C04_to_C02",
+      "label": "B5-T05_C02_23.9",
+      "clearance": 0.45000000000000195
+    },
+    {
+      "route": "B5-T05_C04_to_C02",
+      "label": "B5-T05_C04_2.8",
+      "clearance": 0.9700000000000012
+    },
+    {
+      "route": "B5-T05_C04_to_C02",
+      "label": "B5-T05_C04_23.9",
+      "clearance": 0.9700000000000045
+    },
+    {
+      "route": "B5-T05_C02_to_C04",
+      "label": "B5-T05_C02_23.9",
+      "clearance": 0.9700000000000045
+    },
+    {
+      "route": "B5-T05_C02_to_C04",
+      "label": "B5-T05_C04_2.8",
+      "clearance": 0.44999999999999907
+    },
+    {
+      "route": "B5-T05_C02_to_C04",
+      "label": "B5-T05_C04_23.9",
+      "clearance": 0.45000000000000195
+    },
+    {
+      "route": "B5-T06_C04_to_VL",
+      "label": "B5-T06_VL_2.8",
+      "clearance": 0.44999999999999807
+    },
+    {
+      "route": "B5-T06_C04_to_VL",
+      "label": "B5-T06_VL_16.9",
+      "clearance": 0.44999999999999907
+    },
+    {
+      "route": "B5-T06_C04_to_VL",
+      "label": "B5-T06_C04_2.8",
+      "clearance": 0.969999999999997
+    },
+    {
+      "route": "B5-T06_C04_to_VL",
+      "label": "B5-T06_C04_16.9",
+      "clearance": 0.9699999999999976
+    },
+    {
+      "route": "B5-T06_VL_to_C04",
+      "label": "B5-T06_VL_2.8",
+      "clearance": 0.969999999999997
+    },
+    {
+      "route": "B5-T06_VL_to_C04",
+      "label": "B5-T06_VL_16.9",
+      "clearance": 0.9699999999999976
+    },
+    {
+      "route": "B5-T06_VL_to_C04",
+      "label": "B5-T06_C04_2.8",
+      "clearance": 0.44999999999999807
+    },
+    {
+      "route": "B5-T06_VL_to_C04",
+      "label": "B5-T06_C04_16.9",
+      "clearance": 0.44999999999999907
+    },
+    {
+      "route": "B5-T07_C03_to_VB",
+      "label": "B5-T07_VB_2.8",
+      "clearance": 0.44999999999999873
+    },
+    {
+      "route": "B5-T07_C03_to_VB",
+      "label": "B5-T07_VB_18.0",
+      "clearance": 0.4499999999999983
+    },
+    {
+      "route": "B5-T07_C03_to_VB",
+      "label": "B5-T07_C03_2.8",
+      "clearance": 0.9699999999999976
+    },
+    {
+      "route": "B5-T07_C03_to_VB",
+      "label": "B5-T07_C03_18.0",
+      "clearance": 0.9700000000000005
+    },
+    {
+      "route": "B5-T07_VB_to_C03",
+      "label": "B5-T07_VB_2.8",
+      "clearance": 0.9699999999999994
+    },
+    {
+      "route": "B5-T07_VB_to_C03",
+      "label": "B5-T07_VB_18.0",
+      "clearance": 0.9700000000000001
+    },
+    {
+      "route": "B5-T07_VB_to_C03",
+      "label": "B5-T07_C03_2.8",
+      "clearance": 0.44999999999999574
+    },
+    {
+      "route": "B5-T07_VB_to_C03",
+      "label": "B5-T07_C03_18.0",
+      "clearance": 0.4500000000000005
+    },
+    {
+      "route": "B5-T08_W01_to_VA",
+      "label": "B5-T08_VA_2.8",
+      "clearance": 0.44999999999999196
+    },
+    {
+      "route": "B5-T08_W01_to_VA",
+      "label": "B5-T08_VA_28.9",
+      "clearance": 0.4499999999999986
+    },
+    {
+      "route": "B5-T08_W01_to_VA",
+      "label": "B5-T08_W01_2.8",
+      "clearance": 0.9699999999999976
+    },
+    {
+      "route": "B5-T08_W01_to_VA",
+      "label": "B5-T08_W01_28.9",
+      "clearance": 0.9700000000000056
+    },
+    {
+      "route": "B5-T08_VA_to_W01",
+      "label": "B5-T08_VA_2.8",
+      "clearance": 0.9699999999999959
+    },
+    {
+      "route": "B5-T08_VA_to_W01",
+      "label": "B5-T08_VA_28.9",
+      "clearance": 0.9699999999999972
+    },
+    {
+      "route": "B5-T08_VA_to_W01",
+      "label": "B5-T08_W01_2.8",
+      "clearance": 0.4499999999999993
+    },
+    {
+      "route": "B5-T08_VA_to_W01",
+      "label": "B5-T08_W01_28.9",
+      "clearance": 0.4500000000000012
+    },
+    {
+      "route": "B5-T09_W01_to_W02",
+      "label": "B5-T09_W02_2.8",
+      "clearance": 0.44999999999999074
+    },
+    {
+      "route": "B5-T09_W01_to_W02",
+      "label": "B5-T09_W02_24.7",
+      "clearance": 0.4499999999999911
+    },
+    {
+      "route": "B5-T09_W01_to_W02",
+      "label": "B5-T09_W01_2.8",
+      "clearance": 0.9700000000000025
+    },
+    {
+      "route": "B5-T09_W01_to_W02",
+      "label": "B5-T09_W01_24.7",
+      "clearance": 0.9700000000000032
+    },
+    {
+      "route": "B5-T09_W02_to_W01",
+      "label": "B5-T09_W02_2.8",
+      "clearance": 0.9699999999999952
+    },
+    {
+      "route": "B5-T09_W02_to_W01",
+      "label": "B5-T09_W02_24.7",
+      "clearance": 0.9700000000000012
+    },
+    {
+      "route": "B5-T09_W02_to_W01",
+      "label": "B5-T09_W01_2.8",
+      "clearance": 0.4499999999999923
+    },
+    {
+      "route": "B5-T09_W02_to_W01",
+      "label": "B5-T09_W01_24.7",
+      "clearance": 0.4499999999999974
+    },
+    {
+      "route": "B5-T10_W02_to_W03",
+      "label": "B5-T10_W03_2.8",
+      "clearance": 0.44999999999999696
+    },
+    {
+      "route": "B5-T10_W02_to_W03",
+      "label": "B5-T10_W03_24.9",
+      "clearance": 0.44999999999998996
+    },
+    {
+      "route": "B5-T10_W02_to_W03",
+      "label": "B5-T10_W02_2.8",
+      "clearance": 0.969999999999995
+    },
+    {
+      "route": "B5-T10_W02_to_W03",
+      "label": "B5-T10_W02_24.9",
+      "clearance": 0.9699999999999956
+    },
+    {
+      "route": "B5-T10_W03_to_W02",
+      "label": "B5-T10_W03_2.8",
+      "clearance": 0.9700000000000023
+    },
+    {
+      "route": "B5-T10_W03_to_W02",
+      "label": "B5-T10_W03_24.9",
+      "clearance": 0.969999999999993
+    },
+    {
+      "route": "B5-T10_W03_to_W02",
+      "label": "B5-T10_W02_2.8",
+      "clearance": 0.4499999999999934
+    },
+    {
+      "route": "B5-T10_W03_to_W02",
+      "label": "B5-T10_W02_24.9",
+      "clearance": 0.44999999999999263
+    },
+    {
+      "route": "B5-T11_W03_to_C01",
+      "label": "B5-T11_C01_2.8",
+      "clearance": 0.4499999999999975
+    },
+    {
+      "route": "B5-T11_W03_to_C01",
+      "label": "B5-T11_C01_60.6",
+      "clearance": 0.44999999999999885
+    },
+    {
+      "route": "B5-T11_W03_to_C01",
+      "label": "B5-T11_W03_2.8",
+      "clearance": 0.9699999999999992
+    },
+    {
+      "route": "B5-T11_W03_to_C01",
+      "label": "B5-T11_W03_60.6",
+      "clearance": 0.9699999999999968
+    },
+    {
+      "route": "B5-T11_C01_to_W03",
+      "label": "B5-T11_C01_2.8",
+      "clearance": 0.9699999999999945
+    },
+    {
+      "route": "B5-T11_C01_to_W03",
+      "label": "B5-T11_C01_60.6",
+      "clearance": 0.9699999999999999
+    },
+    {
+      "route": "B5-T11_C01_to_W03",
+      "label": "B5-T11_W03_2.8",
+      "clearance": 0.4499999999999994
+    },
+    {
+      "route": "B5-T11_C01_to_W03",
+      "label": "B5-T11_W03_60.6",
+      "clearance": 0.4499999999999993
+    },
+    {
+      "route": "B5-T12_E01_to_VL",
+      "label": "B5-T12_VL_2.8",
+      "clearance": 0.4499999999999943
+    },
+    {
+      "route": "B5-T12_E01_to_VL",
+      "label": "B5-T12_VL_30.9",
+      "clearance": 0.4499999999999994
+    },
+    {
+      "route": "B5-T12_E01_to_VL",
+      "label": "B5-T12_E01_2.8",
+      "clearance": 0.9699999999999976
+    },
+    {
+      "route": "B5-T12_E01_to_VL",
+      "label": "B5-T12_E01_30.9",
+      "clearance": 0.970000000000003
+    },
+    {
+      "route": "B5-T12_VL_to_E01",
+      "label": "B5-T12_VL_2.8",
+      "clearance": 0.9699999999999994
+    },
+    {
+      "route": "B5-T12_VL_to_E01",
+      "label": "B5-T12_VL_30.9",
+      "clearance": 0.9699999999999979
+    },
+    {
+      "route": "B5-T12_VL_to_E01",
+      "label": "B5-T12_E01_2.8",
+      "clearance": 0.4499999999999986
+    },
+    {
+      "route": "B5-T12_VL_to_E01",
+      "label": "B5-T12_E01_30.9",
+      "clearance": 0.4499999999999986
+    },
+    {
+      "route": "B5-T13_E01_to_E02",
+      "label": "B5-T13_E02_2.8",
+      "clearance": 0.4499999999999965
+    },
+    {
+      "route": "B5-T13_E01_to_E02",
+      "label": "B5-T13_E02_30.6",
+      "clearance": 0.4499999999999945
+    },
+    {
+      "route": "B5-T13_E01_to_E02",
+      "label": "B5-T13_E01_2.8",
+      "clearance": 0.9699999999999994
+    },
+    {
+      "route": "B5-T13_E01_to_E02",
+      "label": "B5-T13_E01_30.6",
+      "clearance": 0.9699999999999945
+    },
+    {
+      "route": "B5-T13_E02_to_E01",
+      "label": "B5-T13_E02_2.8",
+      "clearance": 0.9700000000000016
+    },
+    {
+      "route": "B5-T13_E02_to_E01",
+      "label": "B5-T13_E02_30.6",
+      "clearance": 0.9699999999999963
+    },
+    {
+      "route": "B5-T13_E02_to_E01",
+      "label": "B5-T13_E01_2.8",
+      "clearance": 0.4499999999999972
+    },
+    {
+      "route": "B5-T13_E02_to_E01",
+      "label": "B5-T13_E01_30.6",
+      "clearance": 0.4499999999999894
+    },
+    {
+      "route": "B5-T14_E02_to_E03",
+      "label": "B5-T14_E03_2.8",
+      "clearance": 0.4499999999999915
+    },
+    {
+      "route": "B5-T14_E02_to_E03",
+      "label": "B5-T14_E03_29.4",
+      "clearance": 0.4499999999999851
+    },
+    {
+      "route": "B5-T14_E02_to_E03",
+      "label": "B5-T14_E02_2.8",
+      "clearance": 0.9699999999999934
+    },
+    {
+      "route": "B5-T14_E02_to_E03",
+      "label": "B5-T14_E02_29.4",
+      "clearance": 0.9699999999999881
+    },
+    {
+      "route": "B5-T14_E03_to_E02",
+      "label": "B5-T14_E03_2.8",
+      "clearance": 0.9699999999999934
+    },
+    {
+      "route": "B5-T14_E03_to_E02",
+      "label": "B5-T14_E03_29.4",
+      "clearance": 0.9699999999999888
+    },
+    {
+      "route": "B5-T14_E03_to_E02",
+      "label": "B5-T14_E02_2.8",
+      "clearance": 0.4499999999999922
+    },
+    {
+      "route": "B5-T14_E03_to_E02",
+      "label": "B5-T14_E02_29.4",
+      "clearance": 0.4499999999999851
+    },
+    {
+      "route": "B5-T15_E03_to_VB",
+      "label": "B5-T15_VB_2.8",
+      "clearance": 0.4500000000000036
+    },
+    {
+      "route": "B5-T15_E03_to_VB",
+      "label": "B5-T15_VB_36.0",
+      "clearance": 0.45000000000000284
+    },
+    {
+      "route": "B5-T15_E03_to_VB",
+      "label": "B5-T15_E03_2.8",
+      "clearance": 0.9699999999999999
+    },
+    {
+      "route": "B5-T15_E03_to_VB",
+      "label": "B5-T15_E03_36.0",
+      "clearance": 0.9699999999999948
+    },
+    {
+      "route": "B5-T15_VB_to_E03",
+      "label": "B5-T15_VB_2.8",
+      "clearance": 0.9700000000000012
+    },
+    {
+      "route": "B5-T15_VB_to_E03",
+      "label": "B5-T15_E03_2.8",
+      "clearance": 0.4500000000000023
+    },
+    {
+      "route": "B5-T15_VB_to_E03",
+      "label": "B5-T15_E03_36.0",
+      "clearance": 0.44999999999999685
+    },
+    {
+      "route": "B5-T16_N01_to_VA",
+      "label": "B5-T16_VA_2.8",
+      "clearance": 0.4499999999999966
+    },
+    {
+      "route": "B5-T16_N01_to_VA",
+      "label": "B5-T16_VA_48.9",
+      "clearance": 0.45000000000000184
+    },
+    {
+      "route": "B5-T16_N01_to_VA",
+      "label": "B5-T16_N01_2.8",
+      "clearance": 0.9699999999999992
+    },
+    {
+      "route": "B5-T16_N01_to_VA",
+      "label": "B5-T16_N01_48.9",
+      "clearance": 0.9699999999999981
+    },
+    {
+      "route": "B5-T16_VA_to_N01",
+      "label": "B5-T16_VA_2.8",
+      "clearance": 0.969999999999997
+    },
+    {
+      "route": "B5-T16_VA_to_N01",
+      "label": "B5-T16_VA_48.9",
+      "clearance": 0.9700000000000074
+    },
+    {
+      "route": "B5-T16_VA_to_N01",
+      "label": "B5-T16_N01_2.8",
+      "clearance": 0.4499999999999956
+    },
+    {
+      "route": "B5-T16_VA_to_N01",
+      "label": "B5-T16_N01_48.9",
+      "clearance": 0.44999999999999707
+    },
+    {
+      "route": "B5-T17_N01_to_VL",
+      "label": "B5-T06_VL_16.9",
+      "clearance": 3.5786102428805413
+    },
+    {
+      "route": "B5-T17_N01_to_VL",
+      "label": "B5-T06_C04_2.8",
+      "clearance": 3.9239306454060645
+    },
+    {
+      "route": "B5-T17_N01_to_VL",
+      "label": "B5-T17_VL_2.8",
+      "clearance": 0.44999999999999485
+    },
+    {
+      "route": "B5-T17_N01_to_VL",
+      "label": "B5-T17_VL_48.9",
+      "clearance": 0.44999999999999707
+    },
+    {
+      "route": "B5-T17_N01_to_VL",
+      "label": "B5-T17_N01_2.8",
+      "clearance": 0.9700000000000065
+    },
+    {
+      "route": "B5-T17_N01_to_VL",
+      "label": "B5-T17_N01_48.9",
+      "clearance": 0.9699999999999976
+    },
+    {
+      "route": "B5-T17_VL_to_N01",
+      "label": "B5-T17_VL_2.8",
+      "clearance": 0.9700000000000014
+    },
+    {
+      "route": "B5-T17_VL_to_N01",
+      "label": "B5-T17_VL_48.9",
+      "clearance": 0.9700000000000003
+    },
+    {
+      "route": "B5-T17_VL_to_N01",
+      "label": "B5-T17_N01_2.8",
+      "clearance": 0.45000000000000273
+    },
+    {
+      "route": "B5-T17_VL_to_N01",
+      "label": "B5-T17_N01_48.9",
+      "clearance": 0.4499999999999966
+    },
+    {
+      "route": "B5-T18_S01_to_VB",
+      "label": "B5-T18_VB_2.8",
+      "clearance": 0.4499999999999966
+    },
+    {
+      "route": "B5-T18_S01_to_VB",
+      "label": "B5-T18_VB_48.9",
+      "clearance": 0.45000000000000184
+    },
+    {
+      "route": "B5-T18_S01_to_VB",
+      "label": "B5-T18_S01_2.8",
+      "clearance": 0.9699999999999992
+    },
+    {
+      "route": "B5-T18_S01_to_VB",
+      "label": "B5-T18_S01_48.9",
+      "clearance": 0.9699999999999981
+    },
+    {
+      "route": "B5-T18_VB_to_S01",
+      "label": "B5-T18_VB_2.8",
+      "clearance": 0.969999999999997
+    },
+    {
+      "route": "B5-T18_VB_to_S01",
+      "label": "B5-T18_VB_48.9",
+      "clearance": 0.9700000000000074
+    },
+    {
+      "route": "B5-T18_VB_to_S01",
+      "label": "B5-T18_S01_2.8",
+      "clearance": 0.4499999999999956
+    },
+    {
+      "route": "B5-T18_VB_to_S01",
+      "label": "B5-T18_S01_48.9",
+      "clearance": 0.44999999999999707
+    },
+    {
+      "route": "B5-T19_S01_to_W03",
+      "label": "B5-T19_W03_2.8",
+      "clearance": 0.4500000000000035
+    },
+    {
+      "route": "B5-T19_S01_to_W03",
+      "label": "B5-T19_W03_85.8",
+      "clearance": 0.45000000000000173
+    },
+    {
+      "route": "B5-T19_S01_to_W03",
+      "label": "B5-T19_S01_2.8",
+      "clearance": 0.969999999999993
+    },
+    {
+      "route": "B5-T19_S01_to_W03",
+      "label": "B5-T19_S01_85.8",
+      "clearance": 0.9699999999999932
+    },
+    {
+      "route": "B5-T19_W03_to_S01",
+      "label": "B5-T19_W03_2.8",
+      "clearance": 0.9699999999999992
+    },
+    {
+      "route": "B5-T19_W03_to_S01",
+      "label": "B5-T19_W03_85.8",
+      "clearance": 0.9699999999999952
+    },
+    {
+      "route": "B5-T19_W03_to_S01",
+      "label": "B5-T19_S01_2.8",
+      "clearance": 0.4499999999999923
+    },
+    {
+      "route": "B5-T19_W03_to_S01",
+      "label": "B5-T19_S01_85.8",
+      "clearance": 0.4500000000000014
+    }
+  ],
+  "minMarkerClearance": 0.08362189497700029,
+  "minLabelClearance": 0.4499999999999851
+}

@@ -1,0 +1,1586 @@
+[
+  {
+    "room": "W01",
+    "name": "RD_W01_Architecture",
+    "instance": 1829996,
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "yaw": 0.0,
+    "colliders": []
+  },
+  {
+    "room": "W01",
+    "name": "RD_W01_Floor",
+    "instance": 1821718,
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "yaw": 0.0,
+    "colliders": []
+  },
+  {
+    "room": "W01",
+    "name": "RD_W01_Services",
+    "instance": 1832178,
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "yaw": 0.0,
+    "colliders": []
+  },
+  {
+    "room": "W01",
+    "name": "W01_000_LivingAlcove",
+    "instance": 1834334,
+    "position": [
+      1.31104,
+      0.0,
+      7.4353
+    ],
+    "yaw": 190.0,
+    "colliders": [
+      {
+        "name": "W01_000_LivingAlcove",
+        "type": "MeshCollider",
+        "center": [
+          -86.6373,
+          -80.7725,
+          45.72828
+        ],
+        "size": [
+          4.019333,
+          2.45500183,
+          3.55696869
+        ]
+      }
+    ]
+  },
+  {
+    "room": "W01",
+    "name": "W01_001_LivingBed",
+    "instance": 1833956,
+    "position": [
+      2.17939,
+      0.0,
+      7.46496
+    ],
+    "yaw": 190.0,
+    "colliders": [
+      {
+        "name": "W01_001_LivingBed",
+        "type": "BoxCollider",
+        "center": [
+          -85.82061,
+          -81.436,
+          45.46496
+        ],
+        "size": [
+          1.473877,
+          1.11199951,
+          2.39536285
+        ]
+      }
+    ]
+  },
+  {
+    "room": "W01",
+    "name": "W01_002_LivingDesk",
+    "instance": 1828998,
+    "position": [
+      0.66326,
+      0.0,
+      8.48371
+    ],
+    "yaw": 190.0,
+    "colliders": [
+      {
+        "name": "W01_002_LivingDesk",
+        "type": "BoxCollider",
+        "center": [
+          -87.33674,
+          -81.33875,
+          46.48371
+        ],
+        "size": [
+          1.282486,
+          1.27250671,
+          0.7795639
+        ]
+      }
+    ]
+  },
+  {
+    "room": "W01",
+    "name": "W01_003_SanitaryBasin",
+    "instance": 1824398,
+    "position": [
+      0.38944,
+      0.0,
+      7.16117
+    ],
+    "yaw": 190.0,
+    "colliders": [
+      {
+        "name": "W01_003_SanitaryBasin",
+        "type": "BoxCollider",
+        "center": [
+          -87.61436,
+          -81.0765,
+          45.1396255
+        ],
+        "size": [
+          0.894714355,
+          1.822998,
+          0.772018433
+        ]
+      }
+    ]
+  },
+  {
+    "room": "W01",
+    "name": "W01_004_PersonalLocker",
+    "instance": 1821412,
+    "position": [
+      1.89287,
+      0.0,
+      5.84003
+    ],
+    "yaw": 190.0,
+    "colliders": [
+      {
+        "name": "W01_004_PersonalLocker",
+        "type": "BoxCollider",
+        "center": [
+          -86.11375,
+          -81.078,
+          43.8024826
+        ],
+        "size": [
+          0.809112549,
+          1.82000732,
+          0.773628235
+        ]
+      }
+    ]
+  },
+  {
+    "room": "W01",
+    "name": "W01_005_LivingAlcove",
+    "instance": 1825838,
+    "position": [
+      -7.29274,
+      0.0,
+      1.95408
+    ],
+    "yaw": 105.0,
+    "colliders": [
+      {
+        "name": "W01_005_LivingAlcove",
+        "type": "MeshCollider",
+        "center": [
+          -95.5801,
+          -80.7725,
+          40.03108
+        ],
+        "size": [
+          3.8033905,
+          2.45500183,
+          4.206444
+        ]
+      }
+    ]
+  },
+  {
+    "room": "W01",
+    "name": "W01_006_LivingBed",
+    "instance": 1828030,
+    "position": [
+      -7.24661,
+      0.0,
+      2.82171
+    ],
+    "yaw": 105.0,
+    "colliders": [
+      {
+        "name": "W01_006_LivingBed",
+        "type": "BoxCollider",
+        "center": [
+          -95.24661,
+          -81.436,
+          40.82171
+        ],
+        "size": [
+          2.44696045,
+          1.11199951,
+          1.64368439
+        ]
+      }
+    ]
+  },
+  {
+    "room": "W01",
+    "name": "W01_007_LivingDesk",
+    "instance": 1821514,
+    "position": [
+      -8.39362,
+      0.0,
+      1.40014
+    ],
+    "yaw": 105.0,
+    "colliders": [
+      {
+        "name": "W01_007_LivingDesk",
+        "type": "BoxCollider",
+        "center": [
+          -96.3936157,
+          -81.33875,
+          39.40014
+        ],
+        "size": [
+          0.8708191,
+          1.27250671,
+          1.309227
+        ]
+      }
+    ]
+  },
+  {
+    "room": "W01",
+    "name": "W01_008_SanitaryBasin",
+    "instance": 1826010,
+    "position": [
+      -7.09998,
+      0.0,
+      1.0121
+    ],
+    "yaw": 105.0,
+    "colliders": [
+      {
+        "name": "W01_008_SanitaryBasin",
+        "type": "BoxCollider",
+        "center": [
+          -95.07885,
+          -81.0765,
+          39.00644
+        ],
+        "size": [
+          0.8275757,
+          1.822998,
+          0.934524536
+        ]
+      }
+    ]
+  },
+  {
+    "room": "W01",
+    "name": "W01_009_PersonalLocker",
+    "instance": 1833430,
+    "position": [
+      -5.65283,
+      0.0,
+      2.39466
+    ],
+    "yaw": 105.0,
+    "colliders": [
+      {
+        "name": "W01_009_PersonalLocker",
+        "type": "BoxCollider",
+        "center": [
+          -93.6160049,
+          -81.078,
+          40.3847923
+        ],
+        "size": [
+          0.821182251,
+          1.82000732,
+          0.852119446
+        ]
+      }
+    ]
+  },
+  {
+    "room": "W01",
+    "name": "W01_010_LivingAlcove",
+    "instance": 1827386,
+    "position": [
+      -1.31104,
+      0.0,
+      -7.4353
+    ],
+    "yaw": 9.999999,
+    "colliders": [
+      {
+        "name": "W01_010_LivingAlcove",
+        "type": "MeshCollider",
+        "center": [
+          -89.3627,
+          -80.7725,
+          30.27172
+        ],
+        "size": [
+          4.019333,
+          2.45500183,
+          3.55696869
+        ]
+      }
+    ]
+  },
+  {
+    "room": "W01",
+    "name": "W01_011_LivingBed",
+    "instance": 1822386,
+    "position": [
+      -2.17939,
+      0.0,
+      -7.46496
+    ],
+    "yaw": 9.999999,
+    "colliders": [
+      {
+        "name": "W01_011_LivingBed",
+        "type": "BoxCollider",
+        "center": [
+          -90.17939,
+          -81.436,
+          30.53504
+        ],
+        "size": [
+          1.473877,
+          1.11199951,
+          2.395359
+        ]
+      }
+    ]
+  },
+  {
+    "room": "W01",
+    "name": "W01_012_LivingDesk",
+    "instance": 1837714,
+    "position": [
+      -0.66326,
+      0.0,
+      -8.48371
+    ],
+    "yaw": 9.999999,
+    "colliders": [
+      {
+        "name": "W01_012_LivingDesk",
+        "type": "BoxCollider",
+        "center": [
+          -88.66326,
+          -81.33875,
+          29.5162888
+        ],
+        "size": [
+          1.282486,
+          1.27250671,
+          0.7795677
+        ]
+      }
+    ]
+  },
+  {
+    "room": "W01",
+    "name": "W01_013_SanitaryBasin",
+    "instance": 1832458,
+    "position": [
+      -0.38944,
+      0.0,
+      -7.16117
+    ],
+    "yaw": 9.999999,
+    "colliders": [
+      {
+        "name": "W01_013_SanitaryBasin",
+        "type": "BoxCollider",
+        "center": [
+          -88.38564,
+          -81.0765,
+          30.8603725
+        ],
+        "size": [
+          0.894714355,
+          1.822998,
+          0.772018433
+        ]
+      }
+    ]
+  },
+  {
+    "room": "W01",
+    "name": "W01_014_PersonalLocker",
+    "instance": 1830988,
+    "position": [
+      -1.89287,
+      0.0,
+      -5.84003
+    ],
+    "yaw": 9.999999,
+    "colliders": [
+      {
+        "name": "W01_014_PersonalLocker",
+        "type": "BoxCollider",
+        "center": [
+          -89.88625,
+          -81.078,
+          32.1975174
+        ],
+        "size": [
+          0.809112549,
+          1.82000732,
+          0.7736263
+        ]
+      }
+    ]
+  },
+  {
+    "room": "W01",
+    "name": "W01_015_LivingAlcove",
+    "instance": 1828892,
+    "position": [
+      4.85305,
+      0.0,
+      -5.78364
+    ],
+    "yaw": 320.0,
+    "colliders": [
+      {
+        "name": "W01_015_LivingAlcove",
+        "type": "MeshCollider",
+        "center": [
+          -82.95572,
+          -80.7725,
+          31.9884644
+        ],
+        "size": [
+          4.64201355,
+          2.45500183,
+          4.57175446
+        ]
+      }
+    ]
+  },
+  {
+    "room": "W01",
+    "name": "W01_016_LivingBed",
+    "instance": 1824492,
+    "position": [
+      4.31761,
+      0.0,
+      -6.46789
+    ],
+    "yaw": 320.0,
+    "colliders": [
+      {
+        "name": "W01_016_LivingBed",
+        "type": "BoxCollider",
+        "center": [
+          -83.68239,
+          -81.436,
+          31.5321121
+        ],
+        "size": [
+          2.28274536,
+          1.11199951,
+          2.422762
+        ]
+      }
+    ]
+  },
+  {
+    "room": "W01",
+    "name": "W01_017_LivingDesk",
+    "instance": 1822676,
+    "position": [
+      6.07257,
+      0.0,
+      -5.96131
+    ],
+    "yaw": 320.0,
+    "colliders": [
+      {
+        "name": "W01_017_LivingDesk",
+        "type": "BoxCollider",
+        "center": [
+          -81.92743,
+          -81.33875,
+          32.03869
+        ],
+        "size": [
+          1.29206848,
+          1.27250671,
+          1.21565247
+        ]
+      }
+    ]
+  },
+  {
+    "room": "W01",
+    "name": "W01_018_SanitaryBasin",
+    "instance": 1828662,
+    "position": [
+      5.23545,
+      0.0,
+      -4.90144
+    ],
+    "yaw": 320.0,
+    "colliders": [
+      {
+        "name": "W01_018_SanitaryBasin",
+        "type": "BoxCollider",
+        "center": [
+          -82.77861,
+          -81.0765,
+          33.11532
+        ],
+        "size": [
+          1.02279663,
+          1.822998,
+          1.004158
+        ]
+      }
+    ]
+  },
+  {
+    "room": "W01",
+    "name": "W01_019_PersonalLocker",
+    "instance": 1824608,
+    "position": [
+      3.25701,
+      0.0,
+      -5.20392
+    ],
+    "yaw": 320.0,
+    "colliders": [
+      {
+        "name": "W01_019_PersonalLocker",
+        "type": "BoxCollider",
+        "center": [
+          -84.7674942,
+          -81.078,
+          32.8252869
+        ],
+        "size": [
+          0.965103149,
+          1.82000732,
+          0.959709167
+        ]
+      }
+    ]
+  },
+  {
+    "room": "W01",
+    "name": "W01_020_IsolationNurseStation",
+    "instance": 1831792,
+    "position": [
+      8.44965,
+      0.0,
+      1.4899
+    ],
+    "yaw": 260.0,
+    "colliders": [
+      {
+        "name": "W01_020_IsolationNurseStation",
+        "type": "BoxCollider",
+        "center": [
+          -79.585556,
+          -81.26525,
+          39.4836922
+        ],
+        "size": [
+          0.992462158,
+          1.44549561,
+          1.53471375
+        ]
+      }
+    ]
+  },
+  {
+    "room": "W01",
+    "name": "W01_021_LinenReturnCart",
+    "instance": 1821294,
+    "position": [
+      6.57266,
+      0.0,
+      5.51512
+    ],
+    "yaw": 230.0,
+    "colliders": [
+      {
+        "name": "W01_021_LinenReturnCart",
+        "type": "BoxCollider",
+        "center": [
+          -81.43156,
+          -81.48928,
+          43.5115852
+        ],
+        "size": [
+          1.05271912,
+          1.00543213,
+          1.07601929
+        ]
+      }
+    ]
+  },
+  {
+    "room": "W01",
+    "name": "W01_022_MealTransportCart",
+    "instance": 1828280,
+    "position": [
+      -3.62606,
+      0.0,
+      7.77612
+    ],
+    "yaw": 155.0,
+    "colliders": [
+      {
+        "name": "W01_022_MealTransportCart",
+        "type": "BoxCollider",
+        "center": [
+          -91.62606,
+          -81.48928,
+          45.77612
+        ],
+        "size": [
+          1.38340759,
+          1.00543213,
+          1.14155579
+        ]
+      }
+    ]
+  },
+  {
+    "room": "W01",
+    "name": "RD_TransferNurseDesk",
+    "instance": 1832874,
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "yaw": 0.0,
+    "colliders": [
+      {
+        "name": "RD_TransferNurseDesk",
+        "type": "BoxCollider",
+        "center": [
+          -88.0,
+          -81.21275,
+          38.0
+        ],
+        "size": [
+          2.399994,
+          1.55050659,
+          1.09999847
+        ]
+      }
+    ]
+  },
+  {
+    "room": "W01",
+    "name": "W01_Detail_014_LinenRack",
+    "instance": 1827404,
+    "position": [
+      8.053456,
+      0.0,
+      3.7553885
+    ],
+    "yaw": 245.0,
+    "colliders": [
+      {
+        "name": "W01_Detail_014_LinenRack",
+        "type": "BoxCollider",
+        "center": [
+          -79.94133,
+          -80.95875,
+          41.75782
+        ],
+        "size": [
+          1.26277161,
+          2.08250427,
+          1.7505722
+        ]
+      }
+    ]
+  },
+  {
+    "room": "W01",
+    "name": "W01_Detail_015_SupplyRack",
+    "instance": 1825476,
+    "position": [
+      5.711815,
+      0.0,
+      6.807076
+    ],
+    "yaw": 220.0,
+    "colliders": [
+      {
+        "name": "W01_Detail_015_SupplyRack",
+        "type": "BoxCollider",
+        "center": [
+          -82.28449,
+          -80.95875,
+          44.81148
+        ],
+        "size": [
+          1.65940857,
+          2.08250427,
+          1.53511047
+        ]
+      }
+    ]
+  },
+  {
+    "room": "W01",
+    "name": "RD_WaitingBench",
+    "instance": 1835750,
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "yaw": 0.0,
+    "colliders": [
+      {
+        "name": "RD_WaitingBench",
+        "type": "BoxCollider",
+        "center": [
+          -88.0,
+          -81.405,
+          38.0
+        ],
+        "size": [
+          1.75,
+          1.13999939,
+          0.559997559
+        ]
+      }
+    ]
+  },
+  {
+    "room": "W01",
+    "name": "W01_Sanitary_Toilet_0",
+    "instance": 1834038,
+    "position": [
+      0.2696228,
+      0.0,
+      6.48165131
+    ],
+    "yaw": 190.0,
+    "colliders": [
+      {
+        "name": "W01_Sanitary_Toilet_0",
+        "type": "MeshCollider",
+        "center": [
+          -87.73426,
+          -81.615,
+          44.4596443
+        ],
+        "size": [
+          0.596328735,
+          0.7700043,
+          0.787101746
+        ]
+      }
+    ]
+  },
+  {
+    "room": "W01",
+    "name": "W01_Sanitary_Toilet_1",
+    "instance": 1829142,
+    "position": [
+      -6.433487,
+      0.0,
+      0.833507538
+    ],
+    "yaw": 105.0,
+    "colliders": [
+      {
+        "name": "W01_Sanitary_Toilet_1",
+        "type": "MeshCollider",
+        "center": [
+          -94.4119,
+          -81.615,
+          38.8277245
+        ],
+        "size": [
+          0.814437866,
+          0.7700043,
+          0.648139954
+        ]
+      }
+    ]
+  },
+  {
+    "room": "W01",
+    "name": "W01_Sanitary_Toilet_2",
+    "instance": 1829856,
+    "position": [
+      -0.2696228,
+      0.0,
+      -6.481653
+    ],
+    "yaw": 9.999999,
+    "colliders": [
+      {
+        "name": "W01_Sanitary_Toilet_2",
+        "type": "MeshCollider",
+        "center": [
+          -88.26574,
+          -81.615,
+          31.5403519
+        ],
+        "size": [
+          0.596328735,
+          0.7700043,
+          0.787097931
+        ]
+      }
+    ]
+  },
+  {
+    "room": "W01",
+    "name": "W01_Sanitary_Toilet_3",
+    "instance": 1829882,
+    "position": [
+      4.79192352,
+      0.0,
+      -4.3728714
+    ],
+    "yaw": 320.0,
+    "colliders": [
+      {
+        "name": "W01_Sanitary_Toilet_3",
+        "type": "MeshCollider",
+        "center": [
+          -83.22244,
+          -81.615,
+          33.6442451
+        ],
+        "size": [
+          0.8267212,
+          0.7700043,
+          0.855705261
+        ]
+      }
+    ]
+  },
+  {
+    "room": "N01",
+    "name": "RD_N01_Architecture",
+    "instance": 1831708,
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "yaw": 0.0,
+    "colliders": []
+  },
+  {
+    "room": "N01",
+    "name": "RD_N01_Floor",
+    "instance": 1830480,
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "yaw": 0.0,
+    "colliders": []
+  },
+  {
+    "room": "N01",
+    "name": "RD_N01_Services",
+    "instance": 1826474,
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "yaw": 0.0,
+    "colliders": []
+  },
+  {
+    "room": "N01",
+    "name": "N01_103_CentralVideoWall",
+    "instance": 1834228,
+    "position": [
+      0.0,
+      0.0,
+      8.58
+    ],
+    "yaw": 180.0,
+    "colliders": [
+      {
+        "name": "N01_103_CentralVideoWall",
+        "type": "BoxCollider",
+        "center": [
+          0.0,
+          -80.409,
+          84.54188
+        ],
+        "size": [
+          4.825,
+          3.15800476,
+          0.861251831
+        ]
+      }
+    ]
+  },
+  {
+    "room": "N01",
+    "name": "N01_104_DataRecorderRack",
+    "instance": 1835340,
+    "position": [
+      -6.06698,
+      0.0,
+      6.06698
+    ],
+    "yaw": 135.0,
+    "colliders": [
+      {
+        "name": "N01_104_DataRecorderRack",
+        "type": "BoxCollider",
+        "center": [
+          -6.03463,
+          -80.878,
+          82.03463
+        ],
+        "size": [
+          1.23849773,
+          2.22000122,
+          1.23849487
+        ]
+      }
+    ]
+  },
+  {
+    "room": "N01",
+    "name": "N01_105_ElectricalSwitchgear",
+    "instance": 1831674,
+    "position": [
+      -8.28764,
+      0.0,
+      2.22067
+    ],
+    "yaw": 105.0,
+    "colliders": [
+      {
+        "name": "N01_105_ElectricalSwitchgear",
+        "type": "BoxCollider",
+        "center": [
+          -8.228477,
+          -80.878,
+          78.20482
+        ],
+        "size": [
+          1.10997963,
+          2.22000122,
+          1.44055176
+        ]
+      }
+    ]
+  },
+  {
+    "room": "N01",
+    "name": "N01_106_SupplyRack",
+    "instance": 1831456,
+    "position": [
+      -8.28764,
+      0.0,
+      -2.22067
+    ],
+    "yaw": 75.0,
+    "colliders": [
+      {
+        "name": "N01_106_SupplyRack",
+        "type": "BoxCollider",
+        "center": [
+          -8.293194,
+          -80.95875,
+          73.77784
+        ],
+        "size": [
+          1.03199577,
+          2.08250427,
+          1.74511719
+        ]
+      }
+    ]
+  },
+  {
+    "room": "N01",
+    "name": "N01_107_DataRecorderRack",
+    "instance": 1835080,
+    "position": [
+      -2.22067,
+      0.0,
+      -8.28764
+    ],
+    "yaw": 15.000001,
+    "colliders": [
+      {
+        "name": "N01_107_DataRecorderRack",
+        "type": "BoxCollider",
+        "center": [
+          -2.208829,
+          -80.878,
+          67.75655
+        ],
+        "size": [
+          1.07204008,
+          2.22000122,
+          1.07310486
+        ]
+      }
+    ]
+  },
+  {
+    "room": "N01",
+    "name": "N01_108_MaintenanceBench",
+    "instance": 1832194,
+    "position": [
+      2.22067,
+      0.0,
+      -8.28764
+    ],
+    "yaw": 345.0,
+    "colliders": [
+      {
+        "name": "N01_108_MaintenanceBench",
+        "type": "BoxCollider",
+        "center": [
+          2.2114172,
+          -80.979,
+          67.7468948
+        ],
+        "size": [
+          1.818899,
+          2.01800537,
+          1.18356323
+        ]
+      }
+    ]
+  },
+  {
+    "room": "N01",
+    "name": "N01_109_WaitingBench",
+    "instance": 1832372,
+    "position": [
+      8.06256,
+      0.0,
+      -2.93453
+    ],
+    "yaw": 290.0,
+    "colliders": [
+      {
+        "name": "N01_109_WaitingBench",
+        "type": "BoxCollider",
+        "center": [
+          8.06256,
+          -81.405,
+          73.06547
+        ],
+        "size": [
+          1.12476349,
+          1.13999939,
+          1.83599854
+        ]
+      }
+    ]
+  },
+  {
+    "room": "N01",
+    "name": "N01_110_CentralOperatorDesk",
+    "instance": 1830712,
+    "position": [
+      -2.6,
+      0.0,
+      3.6
+    ],
+    "yaw": 180.0,
+    "colliders": [
+      {
+        "name": "N01_110_CentralOperatorDesk",
+        "type": "BoxCollider",
+        "center": [
+          -2.6,
+          -81.23025,
+          79.56425
+        ],
+        "size": [
+          2.225,
+          1.51550293,
+          0.9264984
+        ]
+      }
+    ]
+  },
+  {
+    "room": "N01",
+    "name": "N01_111_CentralOperatorDesk",
+    "instance": 1830650,
+    "position": [
+      0.0,
+      0.0,
+      3.6
+    ],
+    "yaw": 180.0,
+    "colliders": [
+      {
+        "name": "N01_111_CentralOperatorDesk",
+        "type": "BoxCollider",
+        "center": [
+          0.0,
+          -81.23025,
+          79.56425
+        ],
+        "size": [
+          2.225,
+          1.51550293,
+          0.9264984
+        ]
+      }
+    ]
+  },
+  {
+    "room": "N01",
+    "name": "N01_112_CentralOperatorDesk",
+    "instance": 1824280,
+    "position": [
+      2.6,
+      0.0,
+      3.6
+    ],
+    "yaw": 180.0,
+    "colliders": [
+      {
+        "name": "N01_112_CentralOperatorDesk",
+        "type": "BoxCollider",
+        "center": [
+          2.6,
+          -81.23025,
+          79.56425
+        ],
+        "size": [
+          2.225,
+          1.51550293,
+          0.9264984
+        ]
+      }
+    ]
+  },
+  {
+    "room": "N01",
+    "name": "N01_OperatorChair_-2.6",
+    "instance": 1821948,
+    "position": [
+      -2.6,
+      0.0,
+      2.55
+    ],
+    "yaw": 0.0,
+    "colliders": [
+      {
+        "name": "N01_OperatorChair_-2.6",
+        "type": "BoxCollider",
+        "center": [
+          -2.6,
+          -81.42,
+          78.55
+        ],
+        "size": [
+          0.6799998,
+          1.16000366,
+          0.699996948
+        ]
+      }
+    ]
+  },
+  {
+    "room": "N01",
+    "name": "N01_OperatorChair_0",
+    "instance": 1822166,
+    "position": [
+      0.0,
+      0.0,
+      2.55
+    ],
+    "yaw": 0.0,
+    "colliders": [
+      {
+        "name": "N01_OperatorChair_0",
+        "type": "BoxCollider",
+        "center": [
+          0.0,
+          -81.42,
+          78.55
+        ],
+        "size": [
+          0.68,
+          1.16000366,
+          0.699996948
+        ]
+      }
+    ]
+  },
+  {
+    "room": "N01",
+    "name": "N01_OperatorChair_2.6",
+    "instance": 1828256,
+    "position": [
+      2.6,
+      0.0,
+      2.55
+    ],
+    "yaw": 0.0,
+    "colliders": [
+      {
+        "name": "N01_OperatorChair_2.6",
+        "type": "BoxCollider",
+        "center": [
+          2.6,
+          -81.42,
+          78.55
+        ],
+        "size": [
+          0.6799998,
+          1.16000366,
+          0.699996948
+        ]
+      }
+    ]
+  },
+  {
+    "room": "N01",
+    "name": "RD_CentralOperatorDesk",
+    "instance": 1822398,
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "yaw": 0.0,
+    "colliders": [
+      {
+        "name": "RD_CentralOperatorDesk",
+        "type": "BoxCollider",
+        "center": [
+          0.0,
+          -81.23025,
+          76.03575
+        ],
+        "size": [
+          2.225,
+          1.51550293,
+          0.9264984
+        ]
+      }
+    ]
+  },
+  {
+    "room": "N01",
+    "name": "N01_Detail_005_CentralOperatorDesk_Chair",
+    "instance": 1837098,
+    "position": [
+      -2.6,
+      0.0,
+      -0.74999994
+    ],
+    "yaw": 0.0,
+    "colliders": [
+      {
+        "name": "N01_Detail_005_CentralOperatorDesk_Chair",
+        "type": "BoxCollider",
+        "center": [
+          -2.6,
+          -81.42,
+          75.25
+        ],
+        "size": [
+          0.6799998,
+          1.16000366,
+          0.699996948
+        ]
+      }
+    ]
+  },
+  {
+    "room": "N01",
+    "name": "RD_CentralOperatorDesk",
+    "instance": 1830496,
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "yaw": 0.0,
+    "colliders": [
+      {
+        "name": "RD_CentralOperatorDesk",
+        "type": "BoxCollider",
+        "center": [
+          0.0,
+          -81.23025,
+          76.03575
+        ],
+        "size": [
+          2.225,
+          1.51550293,
+          0.9264984
+        ]
+      }
+    ]
+  },
+  {
+    "room": "N01",
+    "name": "N01_Detail_006_CentralOperatorDesk_Chair",
+    "instance": 1824432,
+    "position": [
+      0.0,
+      0.0,
+      -0.74999994
+    ],
+    "yaw": 0.0,
+    "colliders": [
+      {
+        "name": "N01_Detail_006_CentralOperatorDesk_Chair",
+        "type": "BoxCollider",
+        "center": [
+          0.0,
+          -81.42,
+          75.25
+        ],
+        "size": [
+          0.68,
+          1.16000366,
+          0.699996948
+        ]
+      }
+    ]
+  },
+  {
+    "room": "N01",
+    "name": "N01_Detail_007_CentralOperatorDesk",
+    "instance": 1827372,
+    "position": [
+      2.6,
+      0.0,
+      0.3
+    ],
+    "yaw": 180.0,
+    "colliders": [
+      {
+        "name": "N01_Detail_007_CentralOperatorDesk",
+        "type": "BoxCollider",
+        "center": [
+          2.6,
+          -81.23025,
+          76.26425
+        ],
+        "size": [
+          2.225,
+          1.51550293,
+          0.9264984
+        ]
+      }
+    ]
+  },
+  {
+    "room": "N01",
+    "name": "N01_Detail_007_CentralOperatorDesk_Chair",
+    "instance": 1835646,
+    "position": [
+      2.6,
+      0.0,
+      -0.74999994
+    ],
+    "yaw": 0.0,
+    "colliders": [
+      {
+        "name": "N01_Detail_007_CentralOperatorDesk_Chair",
+        "type": "BoxCollider",
+        "center": [
+          2.6,
+          -81.42,
+          75.25
+        ],
+        "size": [
+          0.6799998,
+          1.16000366,
+          0.699996948
+        ]
+      }
+    ]
+  },
+  {
+    "room": "N01",
+    "name": "N01_Detail_032_ArchiveCaseRack",
+    "instance": 1835010,
+    "position": [
+      8.801006,
+      0.0,
+      0.0
+    ],
+    "yaw": 270.0,
+    "colliders": [
+      {
+        "name": "N01_Detail_032_ArchiveCaseRack",
+        "type": "BoxCollider",
+        "center": [
+          8.806756,
+          -80.95875,
+          76.0
+        ],
+        "size": [
+          0.7995014,
+          2.08250427,
+          1.73800659
+        ]
+      }
+    ]
+  },
+  {
+    "room": "N01",
+    "name": "N01_Detail_033_ProcessControlBay",
+    "instance": 1823280,
+    "position": [
+      8.920837,
+      0.0,
+      2.39033127
+    ],
+    "yaw": 255.0,
+    "colliders": [
+      {
+        "name": "N01_Detail_033_ProcessControlBay",
+        "type": "BoxCollider",
+        "center": [
+          8.880268,
+          -80.814,
+          78.37946
+        ],
+        "size": [
+          1.101057,
+          2.3480072,
+          2.08818054
+        ]
+      }
+    ]
+  },
+  {
+    "room": "N01",
+    "name": "N01_Detail_034_DataRecorderRack",
+    "instance": 1823624,
+    "position": [
+      7.90635872,
+      0.0,
+      4.56473827
+    ],
+    "yaw": 240.0,
+    "colliders": [
+      {
+        "name": "N01_Detail_034_DataRecorderRack",
+        "type": "BoxCollider",
+        "center": [
+          7.86673832,
+          -80.878,
+          80.54186
+        ],
+        "size": [
+          1.19657183,
+          2.22000122,
+          1.19602966
+        ]
+      }
+    ]
+  },
+  {
+    "room": "N01",
+    "name": "N01_Detail_035_ServiceWorkBay",
+    "instance": 1822708,
+    "position": [
+      6.195644,
+      0.0,
+      6.195644
+    ],
+    "yaw": 225.0,
+    "colliders": [
+      {
+        "name": "N01_Detail_035_ServiceWorkBay",
+        "type": "BoxCollider",
+        "center": [
+          6.192108,
+          -80.8315,
+          82.19211
+        ],
+        "size": [
+          2.222437,
+          2.31300354,
+          2.22244263
+        ]
+      }
+    ]
+  },
+  {
+    "room": "N01",
+    "name": "N01_Detail_036_ElectricalSwitchgear",
+    "instance": 1829932,
+    "position": [
+      4.58198833,
+      0.0,
+      7.936237
+    ],
+    "yaw": 210.0,
+    "colliders": [
+      {
+        "name": "N01_Detail_036_ElectricalSwitchgear",
+        "type": "BoxCollider",
+        "center": [
+          4.55136347,
+          -80.878,
+          83.883194
+        ],
+        "size": [
+          1.507932,
+          2.22000122,
+          1.33682251
+        ]
+      }
+    ]
+  },
+  {
+    "room": "N01",
+    "name": "RD_ArchiveCaseRack",
+    "instance": 1835860,
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "yaw": 0.0,
+    "colliders": [
+      {
+        "name": "RD_ArchiveCaseRack",
+        "type": "BoxCollider",
+        "center": [
+          0.0,
+          -80.95875,
+          75.99425
+        ],
+        "size": [
+          1.738,
+          2.08250427,
+          0.7994995
+        ]
+      }
+    ]
+  }
+]

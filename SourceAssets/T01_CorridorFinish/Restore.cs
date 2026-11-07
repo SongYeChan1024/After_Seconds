@@ -1,0 +1,2 @@
+using System;using System.Linq;using UnityEngine;using UnityEditor;using UnityEngine.SceneManagement;using UnityEditor.SceneManagement;
+public static class T01CorridorRestore {public static object Run(){if(Application.isPlaying)throw new Exception("Stop Play first");var s=SceneManager.GetActiveScene();bool dirty=s.isDirty;EditorSceneManager.OpenScene(s.path);return new{scene=SceneManager.GetActiveScene().path,discardedPlayTransientState=dirty,dirty=SceneManager.GetActiveScene().isDirty};}}

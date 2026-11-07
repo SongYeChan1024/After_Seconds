@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "command": "command",
+  "data": {
+    "command": "script run",
+    "parameters": {
+      "entry": "OperationalPlay.TestCell",
+      "file": "C:\\GitHubProjects\\After_Seconds\\SourceAssets\\B5_OperationalDetail\\Play.cs"
+    },
+    "result": {
+      "diagnostics": [],
+      "compileMs": 106,
+      "executeMs": 15,
+      "assemblyName": "PipelineRunScript_Play_ae89d65eab0b428687515d105a61baa4",
+      "success": true,
+      "result": {
+        "id": "testcell",
+        "frame": 4510,
+        "from": "(0.00, -81.32, -79.30)"
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

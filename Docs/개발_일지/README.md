@@ -51,3 +51,9 @@
 
 ## 다음 작업
 ```
+
+## 2026-11-08 B5 돔·안내선 작업
+
+- [데일리로그 — 이 공간을 쓰는 사람이라면 어떻게 움직일까](https://songyechan1024.github.io/Kasil_DevLog/posts/daily-log-spaces-that-explain-their-purpose/)
+- [일일개발일지 — B5 돔 구조·장비 보강과 복도 안내선 정리](https://songyechan1024.github.io/Kasil_DevLog/posts/after-seconds-b5-domes-and-corridor-guidance/)
+- [비공개 프로젝트 인수인계](../작업마감_2026-11-08.md). 본문은 블로그에 보관한다. 작성자 송예찬.

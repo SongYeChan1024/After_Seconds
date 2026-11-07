@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "command": "command",
+  "data": {
+    "command": "script run",
+    "parameters": {
+      "entry": "OperationalPlay.Lift",
+      "file": "C:\\GitHubProjects\\After_Seconds\\SourceAssets\\B5_OperationalDetail\\Play.cs"
+    },
+    "result": {
+      "diagnostics": [],
+      "compileMs": 1956,
+      "executeMs": 18,
+      "assemblyName": "PipelineRunScript_Play_f1f0ef4b8a7f4d9cba1ff840e37b9298",
+      "success": true,
+      "result": {
+        "id": "lift",
+        "frame": 116,
+        "from": "(44.00, -81.32, 25.20)"
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

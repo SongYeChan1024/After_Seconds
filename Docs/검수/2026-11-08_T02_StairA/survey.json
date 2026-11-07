@@ -1,0 +1,2525 @@
+{
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Circular.unity",
+  "dirty": false,
+  "root": [
+    0.0,
+    -82.0,
+    0.0
+  ],
+  "renderers": [
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_2/Clinical_Portal/Portal_Frame/CDR_Frame",
+      "position": [
+        -27.6442719,
+        -82.0,
+        20.5655785
+      ],
+      "rotation": [
+        0.0,
+        294.44397,
+        0.0
+      ],
+      "center": [
+        -27.9481068,
+        -80.175,
+        20.7036858
+      ],
+      "size": [
+        3.3648386,
+        3.64999986,
+        5.28529835
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/CDR_ClinicalPortal.fbx",
+      "materials": [
+        "CP_Coat",
+        "CP_Rubber",
+        "CP_Steel",
+        "CDR_Accent",
+        "CDR_Glass",
+        "CDR_Status"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_2/Clinical_Portal/Leaf_Left/CDR_Leaf_Left",
+      "position": [
+        -28.15532,
+        -82.0,
+        19.4412766
+      ],
+      "rotation": [
+        0.0,
+        294.44397,
+        0.0
+      ],
+      "center": [
+        -28.4054623,
+        -80.5955,
+        18.89096
+      ],
+      "size": [
+        0.61499393,
+        2.771,
+        1.15277231
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/CDR_ClinicalPortal.fbx",
+      "materials": [
+        "CP_Coat",
+        "CDR_Glass",
+        "CP_Steel",
+        "CDR_Accent",
+        "CP_Rubber"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_2/Clinical_Portal/Keypad_Tunnel/LP_Keypad",
+      "position": [
+        -27.3140564,
+        -80.65,
+        22.0412
+      ],
+      "rotation": [
+        0.0,
+        294.44397,
+        0.0
+      ],
+      "center": [
+        -27.3281441,
+        -80.65,
+        22.0476036
+      ],
+      "size": [
+        0.136923254,
+        0.285,
+        0.174190357
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Props/Common/LP_Keypad.fbx",
+      "materials": [
+        "LP_Rubber",
+        "LP_Graphite",
+        "LP_Stainless",
+        "LP_Screen",
+        "LP_Indicator",
+        "LP_Legend",
+        "LP_Amber"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_3/CF_PocketDoor_240/Header.001",
+      "position": [
+        -40.17646,
+        -82.0,
+        26.2620277
+      ],
+      "rotation": [
+        0.0,
+        294.44397,
+        0.0
+      ],
+      "center": [
+        -40.17646,
+        -79.03,
+        26.2620277
+      ],
+      "size": [
+        2.60530329,
+        0.220000029,
+        4.968946
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Steel"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_3/CF_PocketDoor_240/Jamb_-1.001",
+      "position": [
+        -40.17646,
+        -82.0,
+        26.2620277
+      ],
+      "rotation": [
+        0.0,
+        294.44397,
+        0.0
+      ],
+      "center": [
+        -40.6854362,
+        -80.57,
+        25.1422768
+      ],
+      "size": [
+        0.470080137,
+        2.86,
+        0.271454662
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Steel"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_3/CF_PocketDoor_240/Jamb_1.001",
+      "position": [
+        -40.17646,
+        -82.0,
+        26.2620277
+      ],
+      "rotation": [
+        0.0,
+        294.44397,
+        0.0
+      ],
+      "center": [
+        -39.6674843,
+        -80.57,
+        27.3817787
+      ],
+      "size": [
+        0.470080137,
+        2.86,
+        0.271454662
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Steel"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_3/CF_PocketDoor_240/Leaf_Left.001",
+      "position": [
+        -40.6813,
+        -82.0,
+        25.15138
+      ],
+      "rotation": [
+        0.0,
+        294.44397,
+        0.0
+      ],
+      "center": [
+        -40.9304123,
+        -80.61,
+        24.60334
+      ],
+      "size": [
+        0.586772561,
+        2.78,
+        1.13199937
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Shell"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_3/CF_PocketDoor_240/Leaf_Right.001",
+      "position": [
+        -39.67162,
+        -82.0,
+        27.3726749
+      ],
+      "rotation": [
+        0.0,
+        294.44397,
+        0.0
+      ],
+      "center": [
+        -39.42251,
+        -80.61,
+        27.9207153
+      ],
+      "size": [
+        0.586772561,
+        2.78,
+        1.13199937
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Shell"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_3/CF_PocketDoor_240/Pocket_-1_-0.001",
+      "position": [
+        -40.17646,
+        -82.0,
+        26.2620277
+      ],
+      "rotation": [
+        0.0,
+        294.44397,
+        0.0
+      ],
+      "center": [
+        -41.1356544,
+        -80.52,
+        24.6109543
+      ],
+      "size": [
+        0.6384978,
+        2.96,
+        1.3014102
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Steel"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_3/CF_PocketDoor_240/Pocket_-1_0.001",
+      "position": [
+        -40.17646,
+        -82.0,
+        26.2620277
+      ],
+      "rotation": [
+        0.0,
+        294.44397,
+        0.0
+      ],
+      "center": [
+        -40.7897148,
+        -80.52,
+        24.4537086
+      ],
+      "size": [
+        0.6384978,
+        2.96,
+        1.3014102
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Steel"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_3/CF_PocketDoor_240/Pocket_1_-0.001",
+      "position": [
+        -40.17646,
+        -82.0,
+        26.2620277
+      ],
+      "rotation": [
+        0.0,
+        294.44397,
+        0.0
+      ],
+      "center": [
+        -39.5632057,
+        -80.52,
+        28.0703468
+      ],
+      "size": [
+        0.6384978,
+        2.96,
+        1.3014102
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Steel"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_3/CF_PocketDoor_240/Pocket_1_0.001",
+      "position": [
+        -40.17646,
+        -82.0,
+        26.2620277
+      ],
+      "rotation": [
+        0.0,
+        294.44397,
+        0.0
+      ],
+      "center": [
+        -39.2172661,
+        -80.52,
+        27.9131012
+      ],
+      "size": [
+        0.6384978,
+        2.96,
+        1.3014102
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Steel"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_3/CF_PocketDoor_240/PocketEnd_-1.001",
+      "position": [
+        -40.17646,
+        -82.0,
+        26.2620277
+      ],
+      "rotation": [
+        0.0,
+        294.44397,
+        0.0
+      ],
+      "center": [
+        -41.24821,
+        -80.52,
+        23.9041786
+      ],
+      "size": [
+        0.433665484,
+        2.96,
+        0.254902542
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Steel"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_3/CF_PocketDoor_240/PocketEnd_1.001",
+      "position": [
+        -40.17646,
+        -82.0,
+        26.2620277
+      ],
+      "rotation": [
+        0.0,
+        294.44397,
+        0.0
+      ],
+      "center": [
+        -39.10471,
+        -80.52,
+        28.6198769
+      ],
+      "size": [
+        0.433665484,
+        2.96,
+        0.254902542
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Steel"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_3/CF_PocketDoor_240/Seal_-1.001",
+      "position": [
+        -40.6813,
+        -82.0,
+        25.15138
+      ],
+      "rotation": [
+        0.0,
+        294.44397,
+        0.0
+      ],
+      "center": [
+        -40.6366119,
+        -80.61,
+        25.116787
+      ],
+      "size": [
+        0.0201935787,
+        2.76,
+        0.0221798345
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Inset"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_3/CF_PocketDoor_240/Seal_1.001",
+      "position": [
+        -39.67162,
+        -82.0,
+        27.3726749
+      ],
+      "rotation": [
+        0.0,
+        294.44397,
+        0.0
+      ],
+      "center": [
+        -39.61617,
+        -80.61,
+        27.36175
+      ],
+      "size": [
+        0.0201935787,
+        2.76,
+        0.0221798345
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Inset"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_3/CF_PocketDoor_240/Threshold.001",
+      "position": [
+        -40.17646,
+        -82.0,
+        26.2620277
+      ],
+      "rotation": [
+        0.0,
+        294.44397,
+        0.0
+      ],
+      "center": [
+        -40.17646,
+        -81.988,
+        26.2620277
+      ],
+      "size": [
+        1.35727358,
+        0.024,
+        2.350401
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Steel"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_3/Keypad_-1/LP_Keypad",
+      "position": [
+        -39.35961,
+        -80.75,
+        27.4066067
+      ],
+      "rotation": [
+        0.0,
+        114.443962,
+        0.0
+      ],
+      "center": [
+        -39.3455238,
+        -80.75,
+        27.4002037
+      ],
+      "size": [
+        0.136923268,
+        0.285,
+        0.174190342
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Props/Common/LP_Keypad.fbx",
+      "materials": [
+        "LP_Rubber",
+        "LP_Graphite",
+        "LP_Stainless",
+        "LP_Screen",
+        "LP_Indicator",
+        "LP_Legend",
+        "LP_Amber"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_3/Keypad_1/LP_Keypad",
+      "position": [
+        -39.85121,
+        -80.75,
+        27.63006
+      ],
+      "rotation": [
+        0.0,
+        294.44397,
+        0.0
+      ],
+      "center": [
+        -39.8653,
+        -80.75,
+        27.6364632
+      ],
+      "size": [
+        0.136923254,
+        0.285,
+        0.174190357
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Props/Common/LP_Keypad.fbx",
+      "materials": [
+        "LP_Rubber",
+        "LP_Graphite",
+        "LP_Stainless",
+        "LP_Screen",
+        "LP_Indicator",
+        "LP_Legend",
+        "LP_Amber"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T08_p/CF_PocketDoor_240/Header.001",
+      "position": [
+        -48.09556,
+        -82.0,
+        28.930809
+      ],
+      "rotation": [
+        0.0,
+        282.80426,
+        0.0
+      ],
+      "center": [
+        -48.09556,
+        -79.03,
+        28.930809
+      ],
+      "size": [
+        1.62935889,
+        0.220000029,
+        5.216074
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Steel"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T08_p/CF_PocketDoor_240/Jamb_-1.001",
+      "position": [
+        -48.09556,
+        -82.0,
+        28.930809
+      ],
+      "rotation": [
+        0.0,
+        282.80426,
+        0.0
+      ],
+      "center": [
+        -48.3681526,
+        -80.57,
+        27.7313957
+      ],
+      "size": [
+        0.4857934,
+        2.86,
+        0.184388727
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Steel"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T08_p/CF_PocketDoor_240/Jamb_1.001",
+      "position": [
+        -48.09556,
+        -82.0,
+        28.930809
+      ],
+      "rotation": [
+        0.0,
+        282.80426,
+        0.0
+      ],
+      "center": [
+        -47.8229637,
+        -80.57,
+        30.1302223
+      ],
+      "size": [
+        0.4857934,
+        2.86,
+        0.184388727
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Steel"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T08_p/CF_PocketDoor_240/Leaf_Left.001",
+      "position": [
+        -48.3659363,
+        -82.0,
+        27.7411461
+      ],
+      "rotation": [
+        0.0,
+        282.80426,
+        0.0
+      ],
+      "center": [
+        -48.49935,
+        -80.61,
+        27.1541157
+      ],
+      "size": [
+        0.363015473,
+        2.78,
+        1.19037116
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Shell"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T08_p/CF_PocketDoor_240/Leaf_Right.001",
+      "position": [
+        -47.82518,
+        -82.0,
+        30.120472
+      ],
+      "rotation": [
+        0.0,
+        282.80426,
+        0.0
+      ],
+      "center": [
+        -47.6917648,
+        -80.61,
+        30.7075024
+      ],
+      "size": [
+        0.363015473,
+        2.78,
+        1.19037116
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Shell"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T08_p/CF_PocketDoor_240/Pocket_-1_-0.001",
+      "position": [
+        -48.09556,
+        -82.0,
+        28.930809
+      ],
+      "rotation": [
+        0.0,
+        282.80426,
+        0.0
+      ],
+      "center": [
+        -48.7019119,
+        -80.52,
+        27.1201649
+      ],
+      "size": [
+        0.373653322,
+        2.96,
+        1.37959123
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Steel"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T08_p/CF_PocketDoor_240/Pocket_-1_0.001",
+      "position": [
+        -48.09556,
+        -82.0,
+        28.930809
+      ],
+      "rotation": [
+        0.0,
+        282.80426,
+        0.0
+      ],
+      "center": [
+        -48.3313637,
+        -80.52,
+        27.0359478
+      ],
+      "size": [
+        0.373653322,
+        2.96,
+        1.37959123
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Steel"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T08_p/CF_PocketDoor_240/Pocket_1_-0.001",
+      "position": [
+        -48.09556,
+        -82.0,
+        28.930809
+      ],
+      "rotation": [
+        0.0,
+        282.80426,
+        0.0
+      ],
+      "center": [
+        -47.8597527,
+        -80.52,
+        30.82567
+      ],
+      "size": [
+        0.373653322,
+        2.96,
+        1.37959123
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Steel"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T08_p/CF_PocketDoor_240/Pocket_1_0.001",
+      "position": [
+        -48.09556,
+        -82.0,
+        28.930809
+      ],
+      "rotation": [
+        0.0,
+        282.80426,
+        0.0
+      ],
+      "center": [
+        -47.4892044,
+        -80.52,
+        30.7414532
+      ],
+      "size": [
+        0.373653322,
+        2.96,
+        1.37959123
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Steel"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T08_p/CF_PocketDoor_240/PocketEnd_-1.001",
+      "position": [
+        -48.09556,
+        -82.0,
+        28.930809
+      ],
+      "rotation": [
+        0.0,
+        282.80426,
+        0.0
+      ],
+      "center": [
+        -48.6695557,
+        -80.52,
+        26.4052143
+      ],
+      "size": [
+        0.4467881,
+        2.96,
+        0.175523877
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Steel"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T08_p/CF_PocketDoor_240/PocketEnd_1.001",
+      "position": [
+        -48.09556,
+        -82.0,
+        28.930809
+      ],
+      "rotation": [
+        0.0,
+        282.80426,
+        0.0
+      ],
+      "center": [
+        -47.52156,
+        -80.52,
+        31.4564037
+      ],
+      "size": [
+        0.4467881,
+        2.96,
+        0.175523877
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Steel"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T08_p/CF_PocketDoor_240/Seal_-1.001",
+      "position": [
+        -48.3659363,
+        -82.0,
+        27.7411461
+      ],
+      "rotation": [
+        0.0,
+        282.80426,
+        0.0
+      ],
+      "center": [
+        -48.3151855,
+        -80.61,
+        27.71628
+      ],
+      "size": [
+        0.0176410358,
+        2.76,
+        0.0206550863
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Inset"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T08_p/CF_PocketDoor_240/Seal_1.001",
+      "position": [
+        -47.82518,
+        -82.0,
+        30.120472
+      ],
+      "rotation": [
+        0.0,
+        282.80426,
+        0.0
+      ],
+      "center": [
+        -47.7686653,
+        -80.61,
+        30.12096
+      ],
+      "size": [
+        0.0176410358,
+        2.76,
+        0.0206550863
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Inset"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T08_p/CF_PocketDoor_240/Threshold.001",
+      "position": [
+        -48.09556,
+        -82.0,
+        28.930809
+      ],
+      "rotation": [
+        0.0,
+        282.80426,
+        0.0
+      ],
+      "center": [
+        -48.09556,
+        -81.988,
+        28.930809
+      ],
+      "size": [
+        0.921944,
+        0.024,
+        2.42896748
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Steel"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T08_p/Keypad_-1/LP_Keypad",
+      "position": [
+        -47.5264359,
+        -80.75,
+        30.2166538
+      ],
+      "rotation": [
+        0.0,
+        102.804276,
+        0.0
+      ],
+      "center": [
+        -47.5113449,
+        -80.75,
+        30.2132244
+      ],
+      "size": [
+        0.112313174,
+        0.285,
+        0.16886422
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Props/Common/LP_Keypad.fbx",
+      "materials": [
+        "LP_Rubber",
+        "LP_Graphite",
+        "LP_Stainless",
+        "LP_Screen",
+        "LP_Indicator",
+        "LP_Legend",
+        "LP_Amber"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T08_p/Keypad_1/LP_Keypad",
+      "position": [
+        -48.0530052,
+        -80.75,
+        30.33633
+      ],
+      "rotation": [
+        0.0,
+        282.80426,
+        0.0
+      ],
+      "center": [
+        -48.0680962,
+        -80.75,
+        30.33976
+      ],
+      "size": [
+        0.112313159,
+        0.285,
+        0.1688642
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Props/Common/LP_Keypad.fbx",
+      "materials": [
+        "LP_Rubber",
+        "LP_Graphite",
+        "LP_Stainless",
+        "LP_Screen",
+        "LP_Indicator",
+        "LP_Legend",
+        "LP_Amber"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T16_p/CF_PocketDoor_240/Header.001",
+      "position": [
+        -41.1619568,
+        -82.0,
+        31.0960464
+      ],
+      "rotation": [
+        0.0,
+        42.51044,
+        0.0
+      ],
+      "center": [
+        -41.1619568,
+        -79.03,
+        31.0960464
+      ],
+      "size": [
+        4.187035,
+        0.220000029,
+        3.894631
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Steel"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T16_p/CF_PocketDoor_240/Jamb_-1.001",
+      "position": [
+        -41.1619568,
+        -82.0,
+        31.0960464
+      ],
+      "rotation": [
+        0.0,
+        42.51044,
+        0.0
+      ],
+      "center": [
+        -42.0686569,
+        -80.57,
+        31.927187
+      ],
+      "size": [
+        0.3833201,
+        2.86,
+        0.4078919
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Steel"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T16_p/CF_PocketDoor_240/Jamb_1.001",
+      "position": [
+        -41.1619568,
+        -82.0,
+        31.0960464
+      ],
+      "rotation": [
+        0.0,
+        42.51044,
+        0.0
+      ],
+      "center": [
+        -40.2552567,
+        -80.57,
+        30.2649059
+      ],
+      "size": [
+        0.3833201,
+        2.86,
+        0.4078919
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Steel"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T16_p/CF_PocketDoor_240/Leaf_Left.001",
+      "position": [
+        -42.0612869,
+        -82.0,
+        31.9204311
+      ],
+      "rotation": [
+        0.0,
+        42.51044,
+        0.0
+      ],
+      "center": [
+        -42.5050545,
+        -80.61,
+        32.3272171
+      ],
+      "size": [
+        0.950683057,
+        2.78,
+        0.8832335
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Shell"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T16_p/CF_PocketDoor_240/Leaf_Right.001",
+      "position": [
+        -40.2626266,
+        -82.0,
+        30.2716618
+      ],
+      "rotation": [
+        0.0,
+        42.51044,
+        0.0
+      ],
+      "center": [
+        -39.81886,
+        -80.61,
+        29.8648758
+      ],
+      "size": [
+        0.950683057,
+        2.78,
+        0.8832335
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Shell"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T16_p/CF_PocketDoor_240/Pocket_-1_-0.001",
+      "position": [
+        -41.1619568,
+        -82.0,
+        31.0960464
+      ],
+      "rotation": [
+        0.0,
+        42.51044,
+        0.0
+      ],
+      "center": [
+        -42.4341621,
+        -80.52,
+        32.51998
+      ],
+      "size": [
+        1.07593775,
+        2.96,
+        0.993929446
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Steel"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T16_p/CF_PocketDoor_240/Pocket_-1_0.001",
+      "position": [
+        -41.1619568,
+        -82.0,
+        31.0960464
+      ],
+      "rotation": [
+        0.0,
+        42.51044,
+        0.0
+      ],
+      "center": [
+        -42.690937,
+        -80.52,
+        32.2398643
+      ],
+      "size": [
+        1.07593775,
+        2.96,
+        0.993929446
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Steel"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T16_p/CF_PocketDoor_240/Pocket_1_-0.001",
+      "position": [
+        -41.1619568,
+        -82.0,
+        31.0960464
+      ],
+      "rotation": [
+        0.0,
+        42.51044,
+        0.0
+      ],
+      "center": [
+        -39.6329765,
+        -80.52,
+        29.9522285
+      ],
+      "size": [
+        1.07593775,
+        2.96,
+        0.993929446
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Steel"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T16_p/CF_PocketDoor_240/Pocket_1_0.001",
+      "position": [
+        -41.1619568,
+        -82.0,
+        31.0960464
+      ],
+      "rotation": [
+        0.0,
+        42.51044,
+        0.0
+      ],
+      "center": [
+        -39.88975,
+        -80.52,
+        29.67211
+      ],
+      "size": [
+        1.07593775,
+        2.96,
+        0.993929446
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Steel"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T16_p/CF_PocketDoor_240/PocketEnd_-1.001",
+      "position": [
+        -41.1619568,
+        -82.0,
+        31.0960464
+      ],
+      "rotation": [
+        0.0,
+        42.51044,
+        0.0
+      ],
+      "center": [
+        -43.0711861,
+        -80.52,
+        32.8461723
+      ],
+      "size": [
+        0.356291115,
+        2.96,
+        0.37840575
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Steel"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T16_p/CF_PocketDoor_240/PocketEnd_1.001",
+      "position": [
+        -41.1619568,
+        -82.0,
+        31.0960464
+      ],
+      "rotation": [
+        0.0,
+        42.51044,
+        0.0
+      ],
+      "center": [
+        -39.2527275,
+        -80.52,
+        29.34592
+      ],
+      "size": [
+        0.356291115,
+        2.96,
+        0.37840575
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Steel"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T16_p/CF_PocketDoor_240/Seal_-1.001",
+      "position": [
+        -42.0612869,
+        -82.0,
+        31.9204311
+      ],
+      "rotation": [
+        0.0,
+        42.51044,
+        0.0
+      ],
+      "center": [
+        -42.108036,
+        -80.61,
+        31.8886719
+      ],
+      "size": [
+        0.0227289144,
+        2.76,
+        0.0224831961
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Inset"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T16_p/CF_PocketDoor_240/Seal_1.001",
+      "position": [
+        -40.2626266,
+        -82.0,
+        30.2716618
+      ],
+      "rotation": [
+        0.0,
+        42.51044,
+        0.0
+      ],
+      "center": [
+        -40.2902069,
+        -80.61,
+        30.2223339
+      ],
+      "size": [
+        0.0227289144,
+        2.76,
+        0.0224831961
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Inset"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T16_p/CF_PocketDoor_240/Threshold.001",
+      "position": [
+        -41.1619568,
+        -82.0,
+        31.0960464
+      ],
+      "rotation": [
+        0.0,
+        42.51044,
+        0.0
+      ],
+      "center": [
+        -41.1619568,
+        -81.988,
+        31.0960464
+      ],
+      "size": [
+        2.03945971,
+        0.024,
+        1.91660082
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CF_PocketDoor_240.fbx",
+      "materials": [
+        "CF_B5_Steel"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T16_p/Keypad_-1/LP_Keypad",
+      "position": [
+        -40.32713,
+        -80.75,
+        29.9645157
+      ],
+      "rotation": [
+        0.0,
+        222.510452,
+        0.0
+      ],
+      "center": [
+        -40.3375854,
+        -80.75,
+        29.9531078
+      ],
+      "size": [
+        0.16828306,
+        0.285,
+        0.16367279
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Props/Common/LP_Keypad.fbx",
+      "materials": [
+        "LP_Rubber",
+        "LP_Graphite",
+        "LP_Stainless",
+        "LP_Screen",
+        "LP_Indicator",
+        "LP_Legend",
+        "LP_Amber"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T16_p/Keypad_1/LP_Keypad",
+      "position": [
+        -39.96224,
+        -80.75,
+        30.3625774
+      ],
+      "rotation": [
+        0.0,
+        42.51044,
+        0.0
+      ],
+      "center": [
+        -39.9517822,
+        -80.75,
+        30.3739853
+      ],
+      "size": [
+        0.168283075,
+        0.285,
+        0.16367279
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Props/Common/LP_Keypad.fbx",
+      "materials": [
+        "LP_Rubber",
+        "LP_Graphite",
+        "LP_Stainless",
+        "LP_Screen",
+        "LP_Indicator",
+        "LP_Legend",
+        "LP_Amber"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/AF_B5_FullLayout/CF_B5-T02_Vault.001",
+      "position": [
+        0.0,
+        -82.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "center": [
+        -33.98838,
+        -80.55,
+        23.46362
+      ],
+      "size": [
+        14.25626,
+        4.25999975,
+        9.733122
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/AF_B5_FullLayout.fbx",
+      "materials": [
+        "CF_B5_Shell"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/AF_B5_FullLayout/CF_B5_VA_Dome.001",
+      "position": [
+        -44.0,
+        -82.0,
+        28.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "center": [
+        -43.9518623,
+        -79.39,
+        27.9999981
+      ],
+      "size": [
+        10.3434925,
+        5.22,
+        10.4397745
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/B5/AF_VA_Smooth.asset",
+      "materials": [
+        "CF_B5_Shell"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T08/CFD_TunnelRib",
+      "position": [
+        -50.67333,
+        -82.0,
+        29.5166664
+      ],
+      "rotation": [
+        0.0,
+        282.80426,
+        0.0
+      ],
+      "center": [
+        -50.67333,
+        -80.302536,
+        29.5166664
+      ],
+      "size": [
+        1.16395378,
+        3.394923,
+        4.144847
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CFD_TunnelRib.fbx",
+      "materials": [
+        "CFD_Coat0",
+        "CFD_Steel"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T08/CFD_SealedLight",
+      "position": [
+        -50.67333,
+        -78.81,
+        29.5166664
+      ],
+      "rotation": [
+        0.0,
+        282.80426,
+        0.0
+      ],
+      "center": [
+        -50.6801529,
+        -78.74,
+        29.5182171
+      ],
+      "size": [
+        0.45512104,
+        0.179999992,
+        1.213154
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CFD_SealedLight.fbx",
+      "materials": [
+        "CFD_Steel",
+        "CFD_Lamp"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T16/CFD_TunnelRib",
+      "position": [
+        -39.22055,
+        -82.0,
+        33.2139435
+      ],
+      "rotation": [
+        0.0,
+        42.51044,
+        0.0
+      ],
+      "center": [
+        -39.22055,
+        -80.302536,
+        33.2139435
+      ],
+      "size": [
+        3.25527287,
+        3.394923,
+        3.01225758
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CFD_TunnelRib.fbx",
+      "materials": [
+        "CFD_Coat0",
+        "CFD_Steel"
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T16/CFD_SealedLight",
+      "position": [
+        -39.22055,
+        -78.81,
+        33.2139435
+      ],
+      "rotation": [
+        0.0,
+        42.51044,
+        0.0
+      ],
+      "center": [
+        -39.21582,
+        -78.74,
+        33.2191048
+      ],
+      "size": [
+        1.01567554,
+        0.179999992,
+        0.953877449
+      ],
+      "mesh": "Assets/Afrer_Seconds/05.Model/Environment/Common/CFD_SealedLight.fbx",
+      "materials": [
+        "CFD_Steel",
+        "CFD_Lamp"
+      ]
+    }
+  ],
+  "doors": [
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_2",
+      "position": [
+        -27.6442719,
+        -82.0,
+        20.5655785
+      ],
+      "rotation": [
+        0.0,
+        294.44397,
+        0.0
+      ],
+      "children": [
+        {
+          "name": "Previous_Rectangular_Door_Inactive",
+          "active": false
+        },
+        {
+          "name": "Clinical_Portal",
+          "active": true
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_3",
+      "position": [
+        -40.17646,
+        -82.0,
+        26.2620277
+      ],
+      "rotation": [
+        0.0,
+        294.44397,
+        0.0
+      ],
+      "children": [
+        {
+          "name": "CF_PocketDoor_240",
+          "active": true
+        },
+        {
+          "name": "Left_ClosedPosition",
+          "active": true
+        },
+        {
+          "name": "Right_ClosedPosition",
+          "active": true
+        },
+        {
+          "name": "Keypad_-1",
+          "active": true
+        },
+        {
+          "name": "Keypad_1",
+          "active": true
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T08_p",
+      "position": [
+        -48.09556,
+        -82.0,
+        28.930809
+      ],
+      "rotation": [
+        0.0,
+        282.80426,
+        0.0
+      ],
+      "children": [
+        {
+          "name": "CF_PocketDoor_240",
+          "active": true
+        },
+        {
+          "name": "Left_ClosedPosition",
+          "active": true
+        },
+        {
+          "name": "Right_ClosedPosition",
+          "active": true
+        },
+        {
+          "name": "Keypad_-1",
+          "active": true
+        },
+        {
+          "name": "Keypad_1",
+          "active": true
+        }
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T16_p",
+      "position": [
+        -41.1619568,
+        -82.0,
+        31.0960464
+      ],
+      "rotation": [
+        0.0,
+        42.51044,
+        0.0
+      ],
+      "children": [
+        {
+          "name": "CF_PocketDoor_240",
+          "active": true
+        },
+        {
+          "name": "Left_ClosedPosition",
+          "active": true
+        },
+        {
+          "name": "Right_ClosedPosition",
+          "active": true
+        },
+        {
+          "name": "Keypad_-1",
+          "active": true
+        },
+        {
+          "name": "Keypad_1",
+          "active": true
+        }
+      ]
+    }
+  ],
+  "colliders": [
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_3/CF_PocketDoor_240/Header.001",
+      "type": "MeshCollider",
+      "center": [
+        -40.17646,
+        -79.03,
+        26.2620277
+      ],
+      "size": [
+        2.605301,
+        0.220001221,
+        4.96894836
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_3/CF_PocketDoor_240/Jamb_-1.001",
+      "type": "MeshCollider",
+      "center": [
+        -40.6854362,
+        -80.57,
+        25.1422768
+      ],
+      "size": [
+        0.4700775,
+        2.86000061,
+        0.271453857
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_3/CF_PocketDoor_240/Jamb_1.001",
+      "type": "MeshCollider",
+      "center": [
+        -39.6674843,
+        -80.57,
+        27.3817787
+      ],
+      "size": [
+        0.4700775,
+        2.86000061,
+        0.271453857
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_3/CF_PocketDoor_240/Leaf_Left.001",
+      "type": "MeshCollider",
+      "center": [
+        -40.9304123,
+        -80.61,
+        24.60334
+      ],
+      "size": [
+        0.5867691,
+        2.77999878,
+        1.132
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_3/CF_PocketDoor_240/Leaf_Right.001",
+      "type": "MeshCollider",
+      "center": [
+        -39.42251,
+        -80.61,
+        27.9207153
+      ],
+      "size": [
+        0.5867691,
+        2.77999878,
+        1.132
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_3/CF_PocketDoor_240/Pocket_-1_-0.001",
+      "type": "MeshCollider",
+      "center": [
+        -41.1356544,
+        -80.52,
+        24.6109543
+      ],
+      "size": [
+        0.6384964,
+        2.96000671,
+        1.30141068
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_3/CF_PocketDoor_240/Pocket_-1_0.001",
+      "type": "MeshCollider",
+      "center": [
+        -40.7897148,
+        -80.52,
+        24.4537086
+      ],
+      "size": [
+        0.6384964,
+        2.96000671,
+        1.30141068
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_3/CF_PocketDoor_240/Pocket_1_-0.001",
+      "type": "MeshCollider",
+      "center": [
+        -39.5632057,
+        -80.52,
+        28.0703468
+      ],
+      "size": [
+        0.6384964,
+        2.96000671,
+        1.30141068
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_3/CF_PocketDoor_240/Pocket_1_0.001",
+      "type": "MeshCollider",
+      "center": [
+        -39.2172661,
+        -80.52,
+        27.9131012
+      ],
+      "size": [
+        0.6384964,
+        2.96000671,
+        1.30141068
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_3/CF_PocketDoor_240/PocketEnd_-1.001",
+      "type": "MeshCollider",
+      "center": [
+        -41.24821,
+        -80.52,
+        23.9041786
+      ],
+      "size": [
+        0.4336624,
+        2.96000671,
+        0.2549019
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_3/CF_PocketDoor_240/PocketEnd_1.001",
+      "type": "MeshCollider",
+      "center": [
+        -39.10471,
+        -80.52,
+        28.6198769
+      ],
+      "size": [
+        0.4336624,
+        2.96000671,
+        0.2549019
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_3/CF_PocketDoor_240/Seal_-1.001",
+      "type": "MeshCollider",
+      "center": [
+        -40.6366119,
+        -80.61,
+        25.116787
+      ],
+      "size": [
+        0.0201950073,
+        2.75999451,
+        0.02217865
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_3/CF_PocketDoor_240/Seal_1.001",
+      "type": "MeshCollider",
+      "center": [
+        -39.61617,
+        -80.61,
+        27.36175
+      ],
+      "size": [
+        0.0201950073,
+        2.75999451,
+        0.02217865
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T02_3/CF_PocketDoor_240/Threshold.001",
+      "type": "MeshCollider",
+      "center": [
+        -40.17646,
+        -81.988,
+        26.2620277
+      ],
+      "size": [
+        1.35727692,
+        0.0240020752,
+        2.35040283
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T08_p/CF_PocketDoor_240/Header.001",
+      "type": "MeshCollider",
+      "center": [
+        -48.09556,
+        -79.03,
+        28.930809
+      ],
+      "size": [
+        1.62935638,
+        0.220001221,
+        5.216072
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T08_p/CF_PocketDoor_240/Jamb_-1.001",
+      "type": "MeshCollider",
+      "center": [
+        -48.3681526,
+        -80.57,
+        27.7313957
+      ],
+      "size": [
+        0.485794067,
+        2.86000061,
+        0.1843872
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T08_p/CF_PocketDoor_240/Jamb_1.001",
+      "type": "MeshCollider",
+      "center": [
+        -47.8229637,
+        -80.57,
+        30.1302223
+      ],
+      "size": [
+        0.485794067,
+        2.86000061,
+        0.1843872
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T08_p/CF_PocketDoor_240/Leaf_Left.001",
+      "type": "MeshCollider",
+      "center": [
+        -48.49935,
+        -80.61,
+        27.1541157
+      ],
+      "size": [
+        0.363014221,
+        2.77999878,
+        1.19037247
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T08_p/CF_PocketDoor_240/Leaf_Right.001",
+      "type": "MeshCollider",
+      "center": [
+        -47.6917648,
+        -80.61,
+        30.7075024
+      ],
+      "size": [
+        0.363014221,
+        2.77999878,
+        1.19037247
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T08_p/CF_PocketDoor_240/Pocket_-1_-0.001",
+      "type": "MeshCollider",
+      "center": [
+        -48.7019119,
+        -80.52,
+        27.1201649
+      ],
+      "size": [
+        0.3736496,
+        2.96000671,
+        1.3795929
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T08_p/CF_PocketDoor_240/Pocket_-1_0.001",
+      "type": "MeshCollider",
+      "center": [
+        -48.3313637,
+        -80.52,
+        27.0359478
+      ],
+      "size": [
+        0.3736496,
+        2.96000671,
+        1.3795929
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T08_p/CF_PocketDoor_240/Pocket_1_-0.001",
+      "type": "MeshCollider",
+      "center": [
+        -47.8597527,
+        -80.52,
+        30.82567
+      ],
+      "size": [
+        0.3736496,
+        2.96000671,
+        1.3795929
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T08_p/CF_PocketDoor_240/Pocket_1_0.001",
+      "type": "MeshCollider",
+      "center": [
+        -47.4892044,
+        -80.52,
+        30.7414532
+      ],
+      "size": [
+        0.3736496,
+        2.96000671,
+        1.3795929
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T08_p/CF_PocketDoor_240/PocketEnd_-1.001",
+      "type": "MeshCollider",
+      "center": [
+        -48.6695557,
+        -80.52,
+        26.4052143
+      ],
+      "size": [
+        0.446784973,
+        2.96000671,
+        0.175525665
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T08_p/CF_PocketDoor_240/PocketEnd_1.001",
+      "type": "MeshCollider",
+      "center": [
+        -47.52156,
+        -80.52,
+        31.4564037
+      ],
+      "size": [
+        0.446784973,
+        2.96000671,
+        0.175525665
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T08_p/CF_PocketDoor_240/Seal_-1.001",
+      "type": "MeshCollider",
+      "center": [
+        -48.3151855,
+        -80.61,
+        27.71628
+      ],
+      "size": [
+        0.01763916,
+        2.75999451,
+        0.0206565857
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T08_p/CF_PocketDoor_240/Seal_1.001",
+      "type": "MeshCollider",
+      "center": [
+        -47.7686653,
+        -80.61,
+        30.12096
+      ],
+      "size": [
+        0.01763916,
+        2.75999451,
+        0.0206565857
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T08_p/CF_PocketDoor_240/Threshold.001",
+      "type": "MeshCollider",
+      "center": [
+        -48.09556,
+        -81.988,
+        28.930809
+      ],
+      "size": [
+        0.921943665,
+        0.0240020752,
+        2.42896652
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T16_p/CF_PocketDoor_240/Header.001",
+      "type": "MeshCollider",
+      "center": [
+        -41.1619568,
+        -79.03,
+        31.0960464
+      ],
+      "size": [
+        4.18703461,
+        0.220001221,
+        3.89463043
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T16_p/CF_PocketDoor_240/Jamb_-1.001",
+      "type": "MeshCollider",
+      "center": [
+        -42.0686569,
+        -80.57,
+        31.9271889
+      ],
+      "size": [
+        0.383323669,
+        2.86000061,
+        0.407892227
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T16_p/CF_PocketDoor_240/Jamb_1.001",
+      "type": "MeshCollider",
+      "center": [
+        -40.2552567,
+        -80.57,
+        30.2649059
+      ],
+      "size": [
+        0.383323669,
+        2.86000061,
+        0.40789032
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T16_p/CF_PocketDoor_240/Leaf_Left.001",
+      "type": "MeshCollider",
+      "center": [
+        -42.5050545,
+        -80.61,
+        32.3272171
+      ],
+      "size": [
+        0.9506836,
+        2.77999878,
+        0.8832321
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T16_p/CF_PocketDoor_240/Leaf_Right.001",
+      "type": "MeshCollider",
+      "center": [
+        -39.81886,
+        -80.61,
+        29.8648758
+      ],
+      "size": [
+        0.9506836,
+        2.77999878,
+        0.8832321
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T16_p/CF_PocketDoor_240/Pocket_-1_-0.001",
+      "type": "MeshCollider",
+      "center": [
+        -42.4341621,
+        -80.52,
+        32.51998
+      ],
+      "size": [
+        1.07593536,
+        2.96000671,
+        0.993927
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T16_p/CF_PocketDoor_240/Pocket_-1_0.001",
+      "type": "MeshCollider",
+      "center": [
+        -42.690937,
+        -80.52,
+        32.2398643
+      ],
+      "size": [
+        1.07593536,
+        2.96000671,
+        0.9939289
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T16_p/CF_PocketDoor_240/Pocket_1_-0.001",
+      "type": "MeshCollider",
+      "center": [
+        -39.6329765,
+        -80.52,
+        29.9522285
+      ],
+      "size": [
+        1.07593536,
+        2.96000671,
+        0.9939308
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T16_p/CF_PocketDoor_240/Pocket_1_0.001",
+      "type": "MeshCollider",
+      "center": [
+        -39.88975,
+        -80.52,
+        29.67211
+      ],
+      "size": [
+        1.07593536,
+        2.96000671,
+        0.9939308
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T16_p/CF_PocketDoor_240/PocketEnd_-1.001",
+      "type": "MeshCollider",
+      "center": [
+        -43.0711861,
+        -80.52,
+        32.8461723
+      ],
+      "size": [
+        0.356292725,
+        2.96000671,
+        0.3784027
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T16_p/CF_PocketDoor_240/PocketEnd_1.001",
+      "type": "MeshCollider",
+      "center": [
+        -39.2527275,
+        -80.52,
+        29.34592
+      ],
+      "size": [
+        0.356292725,
+        2.96000671,
+        0.378406525
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T16_p/CF_PocketDoor_240/Seal_-1.001",
+      "type": "MeshCollider",
+      "center": [
+        -42.108036,
+        -80.61,
+        31.8886719
+      ],
+      "size": [
+        0.0227279663,
+        2.75999451,
+        0.0224838257
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T16_p/CF_PocketDoor_240/Seal_1.001",
+      "type": "MeshCollider",
+      "center": [
+        -40.2902069,
+        -80.61,
+        30.2223339
+      ],
+      "size": [
+        0.0227279663,
+        2.75999451,
+        0.0224838257
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Pocket_Doors_Open/Door_B5-T16_p/CF_PocketDoor_240/Threshold.001",
+      "type": "MeshCollider",
+      "center": [
+        -41.1619568,
+        -81.988,
+        31.0960464
+      ],
+      "size": [
+        2.03945923,
+        0.0240020752,
+        1.91660118
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/AF_B5_FullLayout/CF_B5_VA_Dome.001",
+      "type": "MeshCollider",
+      "center": [
+        -43.9518623,
+        -79.39,
+        28.0
+      ],
+      "size": [
+        10.3434906,
+        5.220001,
+        10.4397755
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T08/CFD_TunnelRib",
+      "type": "MeshCollider",
+      "center": [
+        -50.67333,
+        -80.302536,
+        29.5166664
+      ],
+      "size": [
+        1.16395569,
+        3.394928,
+        4.144848
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T08/CFD_SealedLight",
+      "type": "MeshCollider",
+      "center": [
+        -50.6801529,
+        -78.74,
+        29.5182171
+      ],
+      "size": [
+        0.4551239,
+        0.179992676,
+        1.21315384
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T16/CFD_TunnelRib",
+      "type": "MeshCollider",
+      "center": [
+        -39.22055,
+        -80.302536,
+        33.2139435
+      ],
+      "size": [
+        3.255272,
+        3.394928,
+        3.01225853
+      ]
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T16/CFD_SealedLight",
+      "type": "MeshCollider",
+      "center": [
+        -39.21582,
+        -78.74,
+        33.2191048
+      ],
+      "size": [
+        1.01567841,
+        0.179992676,
+        0.9538803
+      ]
+    }
+  ],
+  "lights": [
+    {
+      "path": "B5_Circular_Core_V0.03/Lighting/VA_Work_0",
+      "position": [
+        -41.4,
+        -78.8,
+        28.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "enabled": true,
+      "intensity": 3.74,
+      "range": 8.5
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Lighting/VA_Work_1",
+      "position": [
+        -44.0,
+        -78.8,
+        25.4
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "enabled": true,
+      "intensity": 3.74,
+      "range": 8.5
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Lighting/VA_Work_2",
+      "position": [
+        -46.6,
+        -78.8,
+        28.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "enabled": true,
+      "intensity": 3.74,
+      "range": 8.5
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Lighting/VA_Work_3",
+      "position": [
+        -44.0,
+        -78.8,
+        30.6
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "enabled": true,
+      "intensity": 3.74,
+      "range": 8.5
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/Lighting/B5-T02_1",
+      "position": [
+        -37.04341,
+        -79.15,
+        24.8379154
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "enabled": true,
+      "intensity": 2.04,
+      "range": 5.0
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T08/CFD_SealedLight/TaskLight",
+      "position": [
+        -50.67333,
+        -78.99,
+        29.5166664
+      ],
+      "rotation": [
+        0.0,
+        282.80426,
+        0.0
+      ],
+      "enabled": true,
+      "intensity": 3.2,
+      "range": 6.2
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T08/CFD_SealedLight/TaskLight",
+      "position": [
+        -55.8288651,
+        -78.99,
+        30.6883774
+      ],
+      "rotation": [
+        0.0,
+        282.80426,
+        0.0
+      ],
+      "enabled": true,
+      "intensity": 3.2,
+      "range": 6.2
+    },
+    {
+      "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T16/CFD_SealedLight/TaskLight",
+      "position": [
+        -39.22055,
+        -78.99,
+        33.2139435
+      ],
+      "rotation": [
+        0.0,
+        42.51044,
+        0.0
+      ],
+      "enabled": true,
+      "intensity": 3.2,
+      "range": 6.2
+    }
+  ]
+}

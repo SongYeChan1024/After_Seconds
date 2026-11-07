@@ -1,0 +1,560 @@
+{
+  "extra": [
+    {
+      "id": "W01_Detail_000_TransferNurseDesk",
+      "room": "W01",
+      "model": "RD_TransferNurseDesk",
+      "position": [
+        0,
+        0,
+        -2
+      ],
+      "yaw": 0,
+      "collision": true
+    },
+    {
+      "id": "W02_Detail_001_TransferNurseDesk",
+      "room": "W02",
+      "model": "RD_TransferNurseDesk",
+      "position": [
+        0,
+        0,
+        1
+      ],
+      "yaw": 0,
+      "collision": true
+    },
+    {
+      "id": "E01_Detail_002_ReceivingIsland",
+      "room": "E01",
+      "model": "RD_ReceivingIsland",
+      "position": [
+        0,
+        0,
+        -2
+      ],
+      "yaw": 0,
+      "collision": true
+    },
+    {
+      "id": "E02_Detail_003_MealAssemblyIsland",
+      "room": "E02",
+      "model": "RD_MealAssemblyIsland",
+      "position": [
+        0,
+        0,
+        -2
+      ],
+      "yaw": 0,
+      "collision": true
+    },
+    {
+      "id": "E03_Detail_004_DeconChangeBench",
+      "room": "E03",
+      "model": "RD_DeconChangeBench",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "yaw": 0,
+      "collision": true
+    },
+    {
+      "id": "N01_Detail_005_CentralOperatorDesk",
+      "room": "N01",
+      "model": "RD_CentralOperatorDesk",
+      "position": [
+        -2.6,
+        0,
+        0.3
+      ],
+      "yaw": 180,
+      "collision": true
+    },
+    {
+      "id": "N01_Detail_006_CentralOperatorDesk",
+      "room": "N01",
+      "model": "RD_CentralOperatorDesk",
+      "position": [
+        0,
+        0,
+        0.3
+      ],
+      "yaw": 180,
+      "collision": true
+    },
+    {
+      "id": "N01_Detail_007_CentralOperatorDesk",
+      "room": "N01",
+      "model": "RD_CentralOperatorDesk",
+      "position": [
+        2.6,
+        0,
+        0.3
+      ],
+      "yaw": 180,
+      "collision": true
+    },
+    {
+      "id": "C03_Detail_008_ValveManifold",
+      "room": "C03",
+      "model": "RD_ValveManifold",
+      "position": [
+        -8.352709511007905,
+        0,
+        3.0401376374790856
+      ],
+      "yaw": 110.00000000000001,
+      "collision": true
+    },
+    {
+      "id": "C03_Detail_009_ProcessControlBay",
+      "room": "C03",
+      "model": "RD_ProcessControlBay",
+      "position": [
+        9.235530557576809,
+        0,
+        0.0
+      ],
+      "yaw": -90.0,
+      "collision": true
+    },
+    {
+      "id": "C03_Detail_010_FilterBank",
+      "room": "C03",
+      "model": "RD_FilterBank",
+      "position": [
+        -5.647992595981178,
+        0,
+        6.731015467206066
+      ],
+      "yaw": 140.0,
+      "collision": true
+    },
+    {
+      "id": "C03_Detail_011_MedicalGasStation",
+      "room": "C03",
+      "model": "RD_MedicalGasStation",
+      "position": [
+        -7.0625373263298865,
+        0,
+        -5.926172465699181
+      ],
+      "yaw": 50.0,
+      "collision": true
+    },
+    {
+      "id": "C04_Detail_012_ProcessControlBay",
+      "room": "C04",
+      "model": "RD_ProcessControlBay",
+      "position": [
+        2.6581686679576007,
+        0,
+        3.796258284727989
+      ],
+      "yaw": -145.0,
+      "collision": true
+    },
+    {
+      "id": "C04_Detail_013_FilterBank",
+      "room": "C04",
+      "model": "RD_FilterBank",
+      "position": [
+        -3.2600737589139395,
+        0,
+        -3.2600737589139386
+      ],
+      "yaw": 45.000000000000014,
+      "collision": true
+    },
+    {
+      "id": "W01_Detail_014_LinenRack",
+      "room": "W01",
+      "model": "RD_LinenRack",
+      "position": [
+        8.053456748346038,
+        0,
+        3.755388556373811
+      ],
+      "yaw": -115.0,
+      "collision": true
+    },
+    {
+      "id": "W01_Detail_015_SupplyRack",
+      "room": "W01",
+      "model": "RD_SupplyRack",
+      "position": [
+        5.711814779733259,
+        0,
+        6.807075783979816
+      ],
+      "yaw": -140.0,
+      "collision": true
+    },
+    {
+      "id": "W01_Detail_016_WaitingBench",
+      "room": "W01",
+      "model": "RD_WaitingBench",
+      "position": [
+        -1.5753201046629803,
+        0,
+        8.934084269653429
+      ],
+      "yaw": 170.0,
+      "collision": true
+    },
+    {
+      "id": "W02_Detail_017_WaitingBench",
+      "room": "W02",
+      "model": "RD_WaitingBench",
+      "position": [
+        9.925024484252603,
+        0,
+        1.7500496007658513
+      ],
+      "yaw": -100.0,
+      "collision": true
+    },
+    {
+      "id": "W02_Detail_018_LinenRack",
+      "room": "W02",
+      "model": "RD_LinenRack",
+      "position": [
+        8.97817838394138,
+        0,
+        4.1865933367135355
+      ],
+      "yaw": -115.0,
+      "collision": true
+    },
+    {
+      "id": "W02_Detail_019_SupplyRack",
+      "room": "W02",
+      "model": "RD_SupplyRack",
+      "position": [
+        5.682033891844785,
+        0,
+        8.11478537687927
+      ],
+      "yaw": -145.0,
+      "collision": true
+    },
+    {
+      "id": "W03_Detail_020_MedicalGasStation",
+      "room": "W03",
+      "model": "RD_MedicalGasStation",
+      "position": [
+        7.094469013241497,
+        0,
+        4.095993594552436
+      ],
+      "yaw": -119.99999999999999,
+      "collision": true
+    },
+    {
+      "id": "W03_Detail_021_ServiceWorkBay",
+      "room": "W03",
+      "model": "RD_ServiceWorkBay",
+      "position": [
+        -2.0008012893821854,
+        0,
+        7.467092067823633
+      ],
+      "yaw": 165.0,
+      "collision": true
+    },
+    {
+      "id": "W03_Detail_022_PPEDispenser",
+      "room": "W03",
+      "model": "RD_PPEDispenser",
+      "position": [
+        -7.811164657928631,
+        0,
+        0.6833883565031075
+      ],
+      "yaw": 95.0,
+      "collision": true
+    },
+    {
+      "id": "E01_Detail_023_LinenRack",
+      "room": "E01",
+      "model": "RD_LinenRack",
+      "position": [
+        5.231658695529066,
+        0,
+        4.389882881863849
+      ],
+      "yaw": -130.0,
+      "collision": true
+    },
+    {
+      "id": "E01_Detail_024_SupplyRack",
+      "room": "E01",
+      "model": "RD_SupplyRack",
+      "position": [
+        3.414722698221122,
+        0,
+        5.914473207077668
+      ],
+      "yaw": -150.0,
+      "collision": true
+    },
+    {
+      "id": "E01_Detail_025_ArchiveCaseRack",
+      "room": "E01",
+      "model": "RD_ArchiveCaseRack",
+      "position": [
+        -6.514633944123684,
+        0,
+        1.7455909043123228
+      ],
+      "yaw": 105.00000000000001,
+      "collision": true
+    },
+    {
+      "id": "E01_Detail_026_LinenReturnCart",
+      "room": "E01",
+      "model": "RD_LinenReturnCart",
+      "position": [
+        7.425049751958606,
+        0,
+        0.0
+      ],
+      "yaw": -90.0,
+      "collision": true
+    },
+    {
+      "id": "E02_Detail_027_MealTransportCart",
+      "room": "E02",
+      "model": "RD_MealTransportCart",
+      "position": [
+        8.380746523062278,
+        0,
+        0.7332203126522531
+      ],
+      "yaw": -95.0,
+      "collision": true
+    },
+    {
+      "id": "E02_Detail_028_ServiceWorkBay",
+      "room": "E02",
+      "model": "RD_ServiceWorkBay",
+      "position": [
+        2.6439875917539766,
+        0,
+        7.264296205662254
+      ],
+      "yaw": -160.0,
+      "collision": true
+    },
+    {
+      "id": "E02_Detail_029_SupplyRack",
+      "room": "E02",
+      "model": "RD_SupplyRack",
+      "position": [
+        6.4393559305012085,
+        0,
+        4.5088855637523455
+      ],
+      "yaw": -125.00000000000001,
+      "collision": true
+    },
+    {
+      "id": "E03_Detail_030_BootDryingRack",
+      "room": "E03",
+      "model": "RD_BootDryingRack",
+      "position": [
+        6.830197404846249,
+        0,
+        1.8301458787737022
+      ],
+      "yaw": -105.0,
+      "collision": true
+    },
+    {
+      "id": "E03_Detail_031_PPEDispenser",
+      "room": "E03",
+      "model": "RD_PPEDispenser",
+      "position": [
+        -5.216337768364464,
+        0,
+        4.377027097530739
+      ],
+      "yaw": 130.0,
+      "collision": true
+    },
+    {
+      "id": "N01_Detail_032_ArchiveCaseRack",
+      "room": "N01",
+      "model": "RD_ArchiveCaseRack",
+      "position": [
+        8.801006297444488,
+        0,
+        0.0
+      ],
+      "yaw": -90.0,
+      "collision": true
+    },
+    {
+      "id": "N01_Detail_033_ProcessControlBay",
+      "room": "N01",
+      "model": "RD_ProcessControlBay",
+      "position": [
+        8.920837485045318,
+        0,
+        2.3903311999271804
+      ],
+      "yaw": -105.0,
+      "collision": true
+    },
+    {
+      "id": "N01_Detail_034_DataRecorderRack",
+      "room": "N01",
+      "model": "RD_DataRecorderRack",
+      "position": [
+        7.906358733717728,
+        0,
+        4.564738343221678
+      ],
+      "yaw": -119.99999999999999,
+      "collision": true
+    },
+    {
+      "id": "N01_Detail_035_ServiceWorkBay",
+      "room": "N01",
+      "model": "RD_ServiceWorkBay",
+      "position": [
+        6.195644122568988,
+        0,
+        6.195644122568988
+      ],
+      "yaw": -135.0,
+      "collision": true
+    },
+    {
+      "id": "N01_Detail_036_ElectricalSwitchgear",
+      "room": "N01",
+      "model": "RD_ElectricalSwitchgear",
+      "position": [
+        4.58198835697168,
+        0,
+        7.936236633963989
+      ],
+      "yaw": -150.0,
+      "collision": true
+    },
+    {
+      "id": "N01_Detail_037_ArchiveCaseRack",
+      "room": "N01",
+      "model": "RD_ArchiveCaseRack",
+      "position": [
+        -3.7194659829949375,
+        0,
+        7.976420541132534
+      ],
+      "yaw": 155.0,
+      "collision": true
+    },
+    {
+      "id": "S01_Detail_038_ArchiveCaseRack",
+      "room": "S01",
+      "model": "RD_ArchiveCaseRack",
+      "position": [
+        8.801006297444488,
+        0,
+        0.0
+      ],
+      "yaw": -90.0,
+      "collision": true
+    },
+    {
+      "id": "S01_Detail_039_ServiceWorkBay",
+      "room": "S01",
+      "model": "RD_ServiceWorkBay",
+      "position": [
+        8.463407264236986,
+        0,
+        2.2677631416679978
+      ],
+      "yaw": -105.00000000000001,
+      "collision": true
+    },
+    {
+      "id": "S01_Detail_040_MedicalGasStation",
+      "room": "S01",
+      "model": "RD_MedicalGasStation",
+      "position": [
+        7.984310564116386,
+        0,
+        4.609743853486167
+      ],
+      "yaw": -119.99999999999999,
+      "collision": true
+    },
+    {
+      "id": "S01_Detail_041_FilterBank",
+      "room": "S01",
+      "model": "RD_FilterBank",
+      "position": [
+        3.0052340898758474,
+        0,
+        8.25681280210915
+      ],
+      "yaw": -160.0,
+      "collision": true
+    },
+    {
+      "id": "S01_Detail_042_TestControlConsole",
+      "room": "S01",
+      "model": "RD_TestControlConsole",
+      "position": [
+        -2.413928994094438,
+        0,
+        9.008905651824072
+      ],
+      "yaw": 165.0,
+      "collision": true
+    }
+  ],
+  "changes": [
+    {
+      "id": "W03_056_PrivacyCurtain",
+      "room": "W03",
+      "model": "RD_PrivacyCurtain",
+      "position": [
+        -3.6,
+        0,
+        3
+      ],
+      "yaw": 90,
+      "collision": true
+    },
+    {
+      "id": "W03_059_PrivacyCurtain",
+      "room": "W03",
+      "model": "RD_PrivacyCurtain",
+      "position": [
+        1.4,
+        0,
+        3
+      ],
+      "yaw": 90,
+      "collision": true
+    }
+  ],
+  "unplaced": [
+    [
+      "C03",
+      "ValveManifold"
+    ],
+    [
+      "C03",
+      "ServiceWorkBay"
+    ],
+    [
+      "E03",
+      "ServiceWorkBay"
+    ]
+  ]
+}

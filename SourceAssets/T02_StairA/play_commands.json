@@ -1,0 +1,1975 @@
+{
+  "success": true,
+  "command": "command",
+  "data": {
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+    },
+    "server": {
+      "version": "0.0.1",
+      "port": 7801
+    },
+    "commands": [
+      {
+        "command": "animation.timeline add_track",
+        "name": "add_track",
+        "group": "animation.timeline",
+        "description": "Add a track (Animation | Audio | Activation | Control | Playable | Signal | Marker) to a TimelineAsset, optionally nested under a parent group/track. Requires the com.unity.timeline package.",
+        "tags": [
+          "animation/timeline"
+        ],
+        "package": "Unity.Pipeline.Editor",
+        "mainThreadRequired": true,
+        "parameters": [
+          {
+            "name": "timeline",
+            "description": "Reference to the TimelineAsset to edit (path / guid / globalId).",
+            "type": "ObjectRef",
+            "required": true,
+            "defaultValue": null
+          },
+          {
+            "name": "trackType",
+            "description": "Track type: Animation | Audio | Activation | Control | Playable | Signal | Marker.",
+            "type": "String",
+            "required": true,
+            "defaultValue": null
+          },
+          {
+            "name": "name",
+            "description": "Optional track display name.",
+            "type": "String",
+            "required": false,
+            "defaultValue": null
+          },
+          {
+            "name": "parentTrack",
+            "description": "Optional name of an existing group/track to nest the new track under.",
+            "type": "String",
+            "required": false,
+            "defaultValue": null
+          },
+          {
+            "name": "dry_run",
+            "description": "If true, validate inputs without writing the track.",
+            "type": "Boolean",
+            "required": false,
+            "defaultValue": false
+          }
+        ],
+        "schema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "title": "animation.timeline add_track",
+          "description": "Add a track (Animation | Audio | Activation | Control | Playable | Signal | Marker) to a TimelineAsset, optionally nested under a parent group/track. Requires the com.unity.timeline package.",
+          "properties": {
+            "timeline": {
+              "type": "string",
+              "description": "Reference to the TimelineAsset to edit (path / guid / globalId)."
+            },
+            "trackType": {
+              "type": "string",
+              "description": "Track type: Animation | Audio | Activation | Control | Playable | Signal | Marker."
+            },
+            "name": {
+              "type": "string",
+              "description": "Optional track display name."
+            },
+            "parentTrack": {
+              "type": "string",
+              "description": "Optional name of an existing group/track to nest the new track under."
+            },
+            "dry_run": {
+              "type": "boolean",
+              "description": "If true, validate inputs without writing the track.",
+              "default": false
+            }
+          },
+          "required": [
+            "timeline",
+            "trackType"
+          ],
+          "additionalProperties": false,
+          "x-command-metadata": {
+            "mainThreadRequired": true,
+            "methodName": "Unity.Pipeline.Editor.Commands.Animation.TimelineCommands.AddTrack"
+          }
+        }
+      },
+      {
+        "command": "animation.timeline create",
+        "name": "create",
+        "group": "animation.timeline",
+        "description": "Create a .playable TimelineAsset under the authoring root (optional frame rate). Requires the com.unity.timeline package.",
+        "tags": [
+          "animation/timeline"
+        ],
+        "package": "Unity.Pipeline.Editor",
+        "mainThreadRequired": true,
+        "parameters": [
+          {
+            "name": "path",
+            "description": "Asset path ending in .playable, relative to the authoring root. The Assets/ prefix is optional.",
+            "type": "String",
+            "required": true,
+            "defaultValue": null
+          },
+          {
+            "name": "frameRate",
+            "description": "Timeline frame rate (default 60).",
+            "type": "Single",
+            "required": false,
+            "defaultValue": 60
+          },
+          {
+            "name": "confirm",
+            "description": "Required (true) only when overwriting an existing asset at the path.",
+            "type": "Boolean",
+            "required": false,
+            "defaultValue": false
+          },
+          {
+            "name": "dry_run",
+            "description": "If true, validate inputs and report what would be created without writing anything.",
+            "type": "Boolean",
+            "required": false,
+            "defaultValue": false
+          }
+        ],
+        "schema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "title": "animation.timeline create",
+          "description": "Create a .playable TimelineAsset under the authoring root (optional frame rate). Requires the com.unity.timeline package.",
+          "properties": {
+            "path": {
+              "type": "string",
+              "description": "Asset path ending in .playable, relative to the authoring root. The Assets/ prefix is optional."
+            },
+            "frameRate": {
+              "type": "number",
+              "description": "Timeline frame rate (default 60).",
+              "default": 60
+            },
+            "confirm": {
+              "type": "boolean",
+              "description": "Required (true) only when overwriting an existing asset at the path.",
+              "default": false
+            },
+            "dry_run": {
+              "type": "boolean",
+              "description": "If true, validate inputs and report what would be created without writing anything.",
+              "default": false
+            }
+          },
+          "required": [
+            "path"
+          ],
+          "additionalProperties": false,
+          "x-command-metadata": {
+            "mainThreadRequired": true,
+            "methodName": "Unity.Pipeline.Editor.Commands.Animation.TimelineCommands.Create"
+          }
+        }
+      },
+      {
+        "command": "build run",
+        "name": "run",
+        "group": "build",
+        "description": "Trigger an async Player build and report the full BuildReport. Returns immediately (queued); poll build status until status is 'completed'. DetailedBuildReport is included by default unless 'options' is supplied. Use dry_run to validate without building.",
+        "tags": [
+          "build"
+        ],
+        "package": "Unity.Pipeline.Editor",
+        "mainThreadRequired": false,
+        "parameters": [
+          {
+            "name": "target",
+            "description": "BuildTarget name (e.g. StandaloneWindows64). Defaults to the active target. Must be installed.",
+            "type": "String",
+            "required": false,
+            "defaultValue": ""
+          },
+          {
+            "name": "outputPath",
+            "description": "Output path (absolute, or relative to the project root). Defaults to the last/auto path.",
+            "type": "String",
+            "required": false,
+            "defaultValue": ""
+          },
+          {
+            "name": "profileName",
+            "description": "Build Profile name to activate before building (Unity 6 only; ignored otherwise).",
+            "type": "String",
+            "required": false,
+            "defaultValue": ""
+          },
+          {
+            "name": "options",
+            "description": "BuildOptions names. Omit to get just DetailedBuildReport; supplying any disables that default.",
+            "type": "String[]",
+            "required": false,
+            "defaultValue": null
+          },
+          {
+            "name": "scenes",
+            "description": "Scene asset paths to build (e.g. Assets/Scenes/Main.unity). Defaults to EditorBuildSettings.",
+            "type": "String[]",
+            "required": false,
+            "defaultValue": null
+          },
+          {
+            "name": "confirm",
+            "description": "Acknowledge and run the build; without it the call is refused. Use dry_run to validate only.",
+            "type": "Boolean",
+            "required": false,
+            "defaultValue": false
+          },
+          {
+            "name": "dry_run",
+            "description": "Validate target/outputPath/scenes without building.",
+            "type": "Boolean",
+            "required": false,
+            "defaultValue": false
+          },
+          {
+            "name": "timeout",
+            "description": "Seconds to wait for the build to be validated and queued (the build itself is polled via build status).",
+            "type": "Double",
+            "required": false,
+            "defaultValue": 60
+          }
+        ],
+        "schema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "title": "build run",
+          "description": "Trigger an async Player build and report the full BuildReport. Returns immediately (queued); poll build status until status is 'completed'. DetailedBuildReport is included by default unless 'options' is supplied. Use dry_run to validate without building.",
+          "properties": {
+            "target": {
+              "type": "string",
+              "description": "BuildTarget name (e.g. StandaloneWindows64). Defaults to the active target. Must be installed.",
+              "default": ""
+            },
+            "outputPath": {
+              "type": "string",
+              "description": "Output path (absolute, or relative to the project root). Defaults to the last/auto path.",
+              "default": ""
+            },
+            "profileName": {
+              "type": "string",
+              "description": "Build Profile name to activate before building (Unity 6 only; ignored otherwise).",
+              "default": ""
+            },
+            "options": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "BuildOptions names. Omit to get just DetailedBuildReport; supplying any disables that default."
+            },
+            "scenes": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Scene asset paths to build (e.g. Assets/Scenes/Main.unity). Defaults to EditorBuildSettings."
+            },
+            "confirm": {
+              "type": "boolean",
+              "description": "Acknowledge and run the build; without it the call is refused. Use dry_run to validate only.",
+              "default": false
+            },
+            "dry_run": {
+              "type": "boolean",
+              "description": "Validate target/outputPath/scenes without building.",
+              "default": false
+            },
+            "timeout": {
+              "type": "number",
+              "description": "Seconds to wait for the build to be validated and queued (the build itself is polled via build status).",
+              "default": 60
+            }
+          },
+          "required": [],
+          "additionalProperties": false,
+          "x-command-metadata": {
+            "mainThreadRequired": false,
+            "methodName": "Unity.Pipeline.Editor.Commands.Build.BuildCommand.Run"
+          }
+        }
+      },
+      {
+        "command": "console get",
+        "name": "get",
+        "group": "console",
+        "description": "Get captured Unity console output (Editor or Player; supports tail, level filtering, and follow via a cursor)",
+        "tags": [
+          "observability/console"
+        ],
+        "package": "Unity.Pipeline",
+        "mainThreadRequired": false,
+        "parameters": [
+          {
+            "name": "tail",
+            "description": "Maximum number of most-recent entries to return",
+            "type": "Int32",
+            "required": false,
+            "defaultValue": 100
+          },
+          {
+            "name": "level",
+            "description": "Minimum severity to include: log | warn | error",
+            "type": "String",
+            "required": false,
+            "defaultValue": "log"
+          },
+          {
+            "name": "since",
+            "description": "Cursor: only return entries newer than this seq. Use the 'cursor' from a previous response to follow.",
+            "type": "Int64",
+            "required": false,
+            "defaultValue": -1
+          },
+          {
+            "name": "since_session",
+            "description": "Session the 'since' cursor came from: pass the 'session' from a previous response. A cursor from another session is refused and the tail returned with reset=true.",
+            "type": "String",
+            "required": false,
+            "defaultValue": null
+          }
+        ],
+        "schema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "title": "console get",
+          "description": "Get captured Unity console output (Editor or Player; supports tail, level filtering, and follow via a cursor)",
+          "properties": {
+            "tail": {
+              "type": "integer",
+              "description": "Maximum number of most-recent entries to return",
+              "default": 100
+            },
+            "level": {
+              "type": "string",
+              "description": "Minimum severity to include: log | warn | error",
+              "default": "log"
+            },
+            "since": {
+              "type": "integer",
+              "description": "Cursor: only return entries newer than this seq. Use the 'cursor' from a previous response to follow.",
+              "default": -1
+            },
+            "since_session": {
+              "type": "string",
+              "description": "Session the 'since' cursor came from: pass the 'session' from a previous response. A cursor from another session is refused and the tail returned with reset=true."
+            }
+          },
+          "required": [],
+          "additionalProperties": false,
+          "x-command-metadata": {
+            "mainThreadRequired": false,
+            "methodName": "Unity.Pipeline.Runtime.Commands.ConsoleCommand.Get"
+          }
+        }
+      },
+      {
+        "command": "editor.playmode list_instances",
+        "name": "list_instances",
+        "group": "editor.playmode",
+        "description": "List running Editor instances reachable over Pipeline (this Editor + its MPPM virtual player clones). Connect to one with 'unity command --project-path <its projectPath>'.",
+        "tags": [
+          "editor/instances"
+        ],
+        "package": "Unity.Pipeline.Editor",
+        "mainThreadRequired": false,
+        "parameters": [],
+        "schema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "title": "editor.playmode list_instances",
+          "description": "List running Editor instances reachable over Pipeline (this Editor + its MPPM virtual player clones). Connect to one with 'unity command --project-path <its projectPath>'.",
+          "properties": {},
+          "required": [],
+          "additionalProperties": false,
+          "x-command-metadata": {
+            "mainThreadRequired": false,
+            "methodName": "Unity.Pipeline.Editor.Commands.InstanceCommands.ListInstances"
+          }
+        }
+      },
+      {
+        "command": "editor.playmode pause",
+        "name": "pause",
+        "group": "editor.playmode",
+        "description": "Toggle pause state of Unity Editor play mode",
+        "tags": [
+          "editor/playmode"
+        ],
+        "package": "Unity.Pipeline.Editor",
+        "mainThreadRequired": true,
+        "parameters": [],
+        "schema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "title": "editor.playmode pause",
+          "description": "Toggle pause state of Unity Editor play mode",
+          "properties": {},
+          "required": [],
+          "additionalProperties": false,
+          "x-command-metadata": {
+            "mainThreadRequired": true,
+            "methodName": "Unity.Pipeline.Editor.Commands.PlayModeCommands.Pause"
+          }
+        }
+      },
+      {
+        "command": "editor.playmode set_run_in_background",
+        "name": "set_run_in_background",
+        "group": "editor.playmode",
+        "description": "Override the project's Run In Background Player Setting, recording enough state to restore it later and to keep it out of builds",
+        "tags": [
+          "editor/playmode"
+        ],
+        "package": "Unity.Pipeline.Editor",
+        "mainThreadRequired": true,
+        "parameters": [
+          {
+            "name": "enable",
+            "description": "Turn the override on (true, default) or stop it (false) and restore the project's own value, unless the \"Ensure editor runs in background in PlayMode\" setting is still forcing it on right now",
+            "type": "Boolean",
+            "required": false,
+            "defaultValue": true
+          }
+        ],
+        "schema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "title": "editor.playmode set_run_in_background",
+          "description": "Override the project's Run In Background Player Setting, recording enough state to restore it later and to keep it out of builds",
+          "properties": {
+            "enable": {
+              "type": "boolean",
+              "description": "Turn the override on (true, default) or stop it (false) and restore the project's own value, unless the \"Ensure editor runs in background in PlayMode\" setting is still forcing it on right now",
+              "default": true
+            }
+          },
+          "required": [],
+          "additionalProperties": false,
+          "x-command-metadata": {
+            "mainThreadRequired": true,
+            "methodName": "Unity.Pipeline.Editor.Commands.PlayModeCommands.SetRunInBackground"
+          }
+        }
+      },
+      {
+        "command": "editor.playmode start",
+        "name": "start",
+        "group": "editor.playmode",
+        "description": "Enter Unity Editor play mode",
+        "tags": [
+          "editor/playmode"
+        ],
+        "package": "Unity.Pipeline.Editor",
+        "mainThreadRequired": true,
+        "parameters": [],
+        "schema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "title": "editor.playmode start",
+          "description": "Enter Unity Editor play mode",
+          "properties": {},
+          "required": [],
+          "additionalProperties": false,
+          "x-command-metadata": {
+            "mainThreadRequired": true,
+            "methodName": "Unity.Pipeline.Editor.Commands.PlayModeCommands.Start"
+          }
+        }
+      },
+      {
+        "command": "editor.playmode stop",
+        "name": "stop",
+        "group": "editor.playmode",
+        "description": "Exit Unity Editor play mode",
+        "tags": [
+          "editor/playmode"
+        ],
+        "package": "Unity.Pipeline.Editor",
+        "mainThreadRequired": true,
+        "parameters": [],
+        "schema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "title": "editor.playmode stop",
+          "description": "Exit Unity Editor play mode",
+          "properties": {},
+          "required": [],
+          "additionalProperties": false,
+          "x-command-metadata": {
+            "mainThreadRequired": true,
+            "methodName": "Unity.Pipeline.Editor.Commands.PlayModeCommands.Stop"
+          }
+        }
+      },
+      {
+        "command": "job batch",
+        "name": "batch",
+        "group": "job",
+        "description": "Run multiple registered commands in one transactional request. Later ops can reference earlier results with \"$<id-or-index>.<jsonPath>\" (e.g. \"$0.instanceId\"; \"$$\" escapes a literal '$'). transactional=true (default) groups every op into one Undo step and reverts all applied ops if any op fails; commands that mutate outside the Undo system (asset/file/settings writes) are rejected unless transactional=false. on_error=abort|continue (continue forces transactional=false); dry_run validates without mutating; timeout (seconds, default 60) bounds execution — when it is about to run out the remaining ops are skipped and a transactional batch rolls back (submit long batches with \"job\": true). Excludes build run, build.target switch, the package commands, editor.playmode start/stop/pause, script recompile, script eval, script eval_file, script run, editor invoke_menu, scene open/scene create, async commands (test run/test list), runtime-only commands, and nested job batch.",
+        "tags": [
+          "batch"
+        ],
+        "package": "Unity.Pipeline.Editor",
+        "mainThreadRequired": true,
+        "parameters": [
+          {
+            "name": "operations",
+            "description": "Ordered operations to run; each is { id?, command, params }, with command written as \"<group> <name>\" (e.g. \"gameobject create\"). Max 200.",
+            "type": "List`1",
+            "required": true,
+            "defaultValue": null
+          },
+          {
+            "name": "transactional",
+            "description": "Group all ops into one Undo step and revert every applied op if any op fails. Default true. Forced false when on_error=continue. Rejects commands whose mutations Undo cannot revert (asset/file/settings writes).",
+            "type": "Boolean",
+            "required": false,
+            "defaultValue": true
+          },
+          {
+            "name": "on_error",
+            "description": "abort (default): stop at the first failing op. continue: run every op, collecting per-op errors (forces transactional=false).",
+            "type": "String",
+            "required": false,
+            "defaultValue": "abort"
+          },
+          {
+            "name": "dry_run",
+            "description": "Validate command names, parameters, reference topology and excluded commands without mutating anything.",
+            "type": "Boolean",
+            "required": false,
+            "defaultValue": false
+          },
+          {
+            "name": "result_fields",
+            "description": "Optional per-op result projection: map of op id-or-index -> array of result field paths to keep (context economy).",
+            "type": "JObject",
+            "required": false,
+            "defaultValue": null
+          },
+          {
+            "name": "timeout",
+            "description": "Timeout for the whole batch in seconds (default 60). Checked before each op after the first; when it is about to run out the remaining ops are skipped and a transactional batch rolls back. Use \"job\": true for long batches.",
+            "type": "Double",
+            "required": false,
+            "defaultValue": 60
+          }
+        ],
+        "schema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "title": "job batch",
+          "description": "Run multiple registered commands in one transactional request. Later ops can reference earlier results with \"$<id-or-index>.<jsonPath>\" (e.g. \"$0.instanceId\"; \"$$\" escapes a literal '$'). transactional=true (default) groups every op into one Undo step and reverts all applied ops if any op fails; commands that mutate outside the Undo system (asset/file/settings writes) are rejected unless transactional=false. on_error=abort|continue (continue forces transactional=false); dry_run validates without mutating; timeout (seconds, default 60) bounds execution — when it is about to run out the remaining ops are skipped and a transactional batch rolls back (submit long batches with \"job\": true). Excludes build run, build.target switch, the package commands, editor.playmode start/stop/pause, script recompile, script eval, script eval_file, script run, editor invoke_menu, scene open/scene create, async commands (test run/test list), runtime-only commands, and nested job batch.",
+          "properties": {
+            "operations": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "description": "Optional id for referencing this op's result from a later op (\"$<id>.<field>\"). Unique within the batch; must match ^[A-Za-z_][A-Za-z0-9_-]*$ (not purely numeric, no dots)."
+                  },
+                  "command": {
+                    "type": "string",
+                    "description": "The command to run, written as \"<group> <name>\" (e.g. \"gameobject create\")."
+                  },
+                  "params": {
+                    "type": "string",
+                    "description": "Parameters for the command. String values may reference a prior op's result: \"$<id-or-index>.<jsonPath>\"."
+                  }
+                },
+                "required": [
+                  "command"
+                ],
+                "additionalProperties": false
+              },
+              "description": "Ordered operations to run; each is { id?, command, params }, with command written as \"<group> <name>\" (e.g. \"gameobject create\"). Max 200."
+            },
+            "transactional": {
+              "type": "boolean",
+              "description": "Group all ops into one Undo step and revert every applied op if any op fails. Default true. Forced false when on_error=continue. Rejects commands whose mutations Undo cannot revert (asset/file/settings writes).",
+              "default": true
+            },
+            "on_error": {
+              "type": "string",
+              "description": "abort (default): stop at the first failing op. continue: run every op, collecting per-op errors (forces transactional=false).",
+              "default": "abort"
+            },
+            "dry_run": {
+              "type": "boolean",
+              "description": "Validate command names, parameters, reference topology and excluded commands without mutating anything.",
+              "default": false
+            },
+            "result_fields": {
+              "type": "string",
+              "description": "Optional per-op result projection: map of op id-or-index -> array of result field paths to keep (context economy)."
+            },
+            "timeout": {
+              "type": "number",
+              "description": "Timeout for the whole batch in seconds (default 60). Checked before each op after the first; when it is about to run out the remaining ops are skipped and a transactional batch rolls back. Use \"job\": true for long batches.",
+              "default": 60
+            }
+          },
+          "required": [
+            "operations"
+          ],
+          "additionalProperties": false,
+          "x-command-metadata": {
+            "mainThreadRequired": true,
+            "methodName": "Unity.Pipeline.Editor.Commands.Batch.BatchCommand.Batch"
+          }
+        }
+      },
+      {
+        "command": "script.methodreload reload_player",
+        "name": "reload_player",
+        "group": "script.methodreload",
+        "description": "Compile a file's (or folder's) [MethodReload] method(s) and push the IL to a connected player (IL2CPP-safe) over PlayerConnection. Folders are walked recursively and pushed once.",
+        "tags": [
+          "scripts/methodreload"
+        ],
+        "package": "Unity.Pipeline.Editor",
+        "mainThreadRequired": true,
+        "parameters": [
+          {
+            "name": "filename",
+            "description": "Source .cs file or a folder containing [MethodReload] methods (e.g. Assets/pong.cs or Assets/Scripts)",
+            "type": "String",
+            "required": true,
+            "defaultValue": null
+          },
+          {
+            "name": "player",
+            "description": "Target connected player id; -1 = broadcast to all connected players",
+            "type": "Int32",
+            "required": false,
+            "defaultValue": -1
+          }
+        ],
+        "schema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "title": "script.methodreload reload_player",
+          "description": "Compile a file's (or folder's) [MethodReload] method(s) and push the IL to a connected player (IL2CPP-safe) over PlayerConnection. Folders are walked recursively and pushed once.",
+          "properties": {
+            "filename": {
+              "type": "string",
+              "description": "Source .cs file or a folder containing [MethodReload] methods (e.g. Assets/pong.cs or Assets/Scripts)"
+            },
+            "player": {
+              "type": "integer",
+              "description": "Target connected player id; -1 = broadcast to all connected players",
+              "default": -1
+            }
+          },
+          "required": [
+            "filename"
+          ],
+          "additionalProperties": false,
+          "x-command-metadata": {
+            "mainThreadRequired": true,
+            "methodName": "Unity.Pipeline.Editor.Commands.PushReloadCommand.ReloadPlayer"
+          }
+        }
+      },
+      {
+        "command": "settings.player get",
+        "name": "get",
+        "group": "settings.player",
+        "description": "Read PlayerSettings (company/product/version, scripting backend, API level).",
+        "tags": [
+          "settings/player"
+        ],
+        "package": "Unity.Pipeline.Editor",
+        "mainThreadRequired": true,
+        "parameters": [],
+        "schema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "title": "settings.player get",
+          "description": "Read PlayerSettings (company/product/version, scripting backend, API level).",
+          "properties": {},
+          "required": [],
+          "additionalProperties": false,
+          "x-command-metadata": {
+            "mainThreadRequired": true,
+            "methodName": "Unity.Pipeline.Editor.Commands.ProjectSettings.PlayerSettingsCommands.Get"
+          }
+        }
+      },
+      {
+        "command": "settings.player set",
+        "name": "set",
+        "group": "settings.player",
+        "description": "Change PlayerSettings. Requires confirm=true; use dry_run to preview. Not undoable via Ctrl+Z. Scripting backend / API level changes trigger a domain reload.",
+        "tags": [
+          "settings/player"
+        ],
+        "package": "Unity.Pipeline.Editor",
+        "mainThreadRequired": true,
+        "parameters": [
+          {
+            "name": "settings",
+            "description": "Fields to change; omitted fields are left unchanged.",
+            "type": "PlayerSettingsInput",
+            "required": false,
+            "defaultValue": null
+          },
+          {
+            "name": "confirm",
+            "description": "Apply the change. Without it the call is refused.",
+            "type": "Boolean",
+            "required": false,
+            "defaultValue": false
+          },
+          {
+            "name": "dry_run",
+            "description": "Preview the change without applying it.",
+            "type": "Boolean",
+            "required": false,
+            "defaultValue": false
+          }
+        ],
+        "schema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "title": "settings.player set",
+          "description": "Change PlayerSettings. Requires confirm=true; use dry_run to preview. Not undoable via Ctrl+Z. Scripting backend / API level changes trigger a domain reload.",
+          "properties": {
+            "settings": {
+              "type": "object",
+              "properties": {
+                "companyName": {
+                  "type": "string",
+                  "description": "Company name."
+                },
+                "productName": {
+                  "type": "string",
+                  "description": "Product name."
+                },
+                "bundleVersion": {
+                  "type": "string",
+                  "description": "Bundle/application version string."
+                },
+                "scriptingBackend": {
+                  "type": "string",
+                  "enum": [
+                    "Mono2x",
+                    "IL2CPP",
+                    "WinRTDotNET",
+                    "CoreCLR"
+                  ],
+                  "description": "Scripting backend (e.g. Mono2x, IL2CPP). Triggers a domain reload."
+                },
+                "apiCompatibilityLevel": {
+                  "type": "string",
+                  "enum": [
+                    "NET_2_0",
+                    "NET_2_0_Subset",
+                    "NET_4_6",
+                    "NET_Unity_4_8",
+                    "NET_Web",
+                    "NET_Micro",
+                    "NET_Standard_2_0",
+                    "NET_Standard"
+                  ],
+                  "description": "API compatibility level (e.g. NET_Standard_2_0, NET_Unity_4_8). Triggers a domain reload."
+                }
+              },
+              "additionalProperties": false,
+              "description": "Fields to change; omitted fields are left unchanged."
+            },
+            "confirm": {
+              "type": "boolean",
+              "description": "Apply the change. Without it the call is refused.",
+              "default": false
+            },
+            "dry_run": {
+              "type": "boolean",
+              "description": "Preview the change without applying it.",
+              "default": false
+            }
+          },
+          "required": [],
+          "additionalProperties": false,
+          "x-command-metadata": {
+            "mainThreadRequired": true,
+            "methodName": "Unity.Pipeline.Editor.Commands.ProjectSettings.PlayerSettingsCommands.Set"
+          }
+        }
+      },
+      {
+        "command": "settings.runtime_pipeline set",
+        "name": "set",
+        "group": "settings.runtime_pipeline",
+        "description": "Change Pipeline Runtime settings. Requires confirm=true; use dry_run to preview. Not undoable via Ctrl+Z. Refused while in Play Mode: the running driver already loaded its own settings, so a change would silently not apply until the next Play session or build. port and maxWorkItemsPerFrame are rejected outright if outside the same bounds the Project Settings page enforces.",
+        "tags": [
+          "settings/runtime_pipeline"
+        ],
+        "package": "Unity.Pipeline.Editor",
+        "mainThreadRequired": true,
+        "parameters": [
+          {
+            "name": "settings",
+            "description": "Fields to change; omitted fields are left unchanged.",
+            "type": "RuntimePipelineSettingsInput",
+            "required": false,
+            "defaultValue": null
+          },
+          {
+            "name": "confirm",
+            "description": "Apply the change. Without it the call is refused.",
+            "type": "Boolean",
+            "required": false,
+            "defaultValue": false
+          },
+          {
+            "name": "dry_run",
+            "description": "Preview the change without applying it.",
+            "type": "Boolean",
+            "required": false,
+            "defaultValue": false
+          }
+        ],
+        "schema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "title": "settings.runtime_pipeline set",
+          "description": "Change Pipeline Runtime settings. Requires confirm=true; use dry_run to preview. Not undoable via Ctrl+Z. Refused while in Play Mode: the running driver already loaded its own settings, so a change would silently not apply until the next Play session or build. port and maxWorkItemsPerFrame are rejected outright if outside the same bounds the Project Settings page enforces.",
+          "properties": {
+            "settings": {
+              "type": "object",
+              "properties": {
+                "enableInDevelopmentBuilds": {
+                  "type": "boolean",
+                  "description": "Compile the Pipeline into development builds. Writes a scripting define symbol for every installed build target, so it triggers a recompile."
+                },
+                "enableInReleaseBuilds": {
+                  "type": "boolean",
+                  "description": "Compile the Pipeline into release builds. SECURITY WARNING: a release build carrying the Pipeline exposes code execution over a local HTTP server."
+                },
+                "port": {
+                  "type": "integer",
+                  "description": "HTTP port for the Pipeline server. 0 = auto-assign from range 7900-7999."
+                },
+                "enableAuditLogging": {
+                  "type": "boolean",
+                  "description": "Log every remote request for security auditing."
+                },
+                "autoStart": {
+                  "type": "boolean",
+                  "description": "Start the server automatically when the Player boots (or Play Mode is entered)."
+                },
+                "maxWorkItemsPerFrame": {
+                  "type": "integer",
+                  "description": "Maximum work items the dispatcher processes per frame."
+                }
+              },
+              "additionalProperties": false,
+              "description": "Fields to change; omitted fields are left unchanged."
+            },
+            "confirm": {
+              "type": "boolean",
+              "description": "Apply the change. Without it the call is refused.",
+              "default": false
+            },
+            "dry_run": {
+              "type": "boolean",
+              "description": "Preview the change without applying it.",
+              "default": false
+            }
+          },
+          "required": [],
+          "additionalProperties": false,
+          "x-command-metadata": {
+            "mainThreadRequired": true,
+            "methodName": "Unity.Pipeline.Editor.Commands.ProjectSettings.RuntimePipelineSettingsCommands.Set"
+          }
+        }
+      },
+      {
+        "command": "test list",
+        "name": "list",
+        "group": "test",
+        "description": "List all available tests (EditMode and/or PlayMode) without running them",
+        "tags": [
+          "tests"
+        ],
+        "package": "Unity.Pipeline.Editor",
+        "mainThreadRequired": true,
+        "parameters": [
+          {
+            "name": "mode",
+            "description": "Test mode: all, editor, playmode (default: all)",
+            "type": "String",
+            "required": false,
+            "defaultValue": "all"
+          }
+        ],
+        "schema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "title": "test list",
+          "description": "List all available tests (EditMode and/or PlayMode) without running them",
+          "properties": {
+            "mode": {
+              "type": "string",
+              "description": "Test mode: all, editor, playmode (default: all)",
+              "default": "all"
+            }
+          },
+          "required": [],
+          "additionalProperties": false,
+          "x-command-metadata": {
+            "mainThreadRequired": true,
+            "methodName": "Unity.Pipeline.Editor.Commands.TestCommands.List"
+          }
+        }
+      }
+    ],
+    "count": 15,
+    "total": 15,
+    "offset": 0,
+    "limit": null,
+    "search": {
+      "pattern": "play",
+      "count": 46,
+      "matches": [
+        {
+          "kind": "pipeline",
+          "name": "script.methodreload reload_player",
+          "path": "script.methodreload reload_player",
+          "description": "Compile a file's (or folder's) [MethodReload] method(s) and push the IL to a connected player (IL2CPP-safe) over PlayerConnection. Folders are walked recursively and pushed once.",
+          "matchedOn": "name",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command script.methodreload reload_player --project-path C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+        },
+        {
+          "kind": "pipeline",
+          "name": "editor.playmode list_instances",
+          "path": "editor.playmode list_instances",
+          "description": "List running Editor instances reachable over Pipeline (this Editor + its MPPM virtual player clones). Connect to one with 'unity command --project-path <its projectPath>'.",
+          "matchedOn": "name",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command editor.playmode list_instances --project-path C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+        },
+        {
+          "kind": "pipeline",
+          "name": "editor.playmode pause",
+          "path": "editor.playmode pause",
+          "description": "Toggle pause state of Unity Editor play mode",
+          "matchedOn": "name",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command editor.playmode pause --project-path C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+        },
+        {
+          "kind": "pipeline",
+          "name": "editor.playmode set_run_in_background",
+          "path": "editor.playmode set_run_in_background",
+          "description": "Override the project's Run In Background Player Setting, recording enough state to restore it later and to keep it out of builds",
+          "matchedOn": "name",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command editor.playmode set_run_in_background --project-path C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+        },
+        {
+          "kind": "pipeline",
+          "name": "editor.playmode start",
+          "path": "editor.playmode start",
+          "description": "Enter Unity Editor play mode",
+          "matchedOn": "name",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command editor.playmode start --project-path C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+        },
+        {
+          "kind": "pipeline",
+          "name": "editor.playmode stop",
+          "path": "editor.playmode stop",
+          "description": "Exit Unity Editor play mode",
+          "matchedOn": "name",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command editor.playmode stop --project-path C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+        },
+        {
+          "kind": "pipeline",
+          "name": "settings.player get",
+          "path": "settings.player get",
+          "description": "Read PlayerSettings (company/product/version, scripting backend, API level).",
+          "matchedOn": "name",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command settings.player get --project-path C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+        },
+        {
+          "kind": "pipeline",
+          "name": "settings.player set",
+          "path": "settings.player set",
+          "description": "Change PlayerSettings. Requires confirm=true; use dry_run to preview. Not undoable via Ctrl+Z. Scripting backend / API level changes trigger a domain reload.",
+          "matchedOn": "name",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command settings.player set --project-path C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+        },
+        {
+          "kind": "command",
+          "name": "build run",
+          "path": "build run",
+          "description": "Launch the project's most recent successful build without rebuilding. Standalone players launch natively; WebGL builds are served from a local static server.",
+          "matchedOn": "description",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity build run"
+        },
+        {
+          "kind": "command",
+          "name": "language",
+          "path": "language",
+          "description": "Show or change the CLI display language",
+          "matchedOn": "description",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity language"
+        },
+        {
+          "kind": "command",
+          "name": "test",
+          "path": "test",
+          "description": "Run a project's EditMode/PlayMode tests in the editor and write a results report",
+          "matchedOn": "description",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity test"
+        },
+        {
+          "kind": "pipeline",
+          "name": "animation.timeline add_track",
+          "path": "animation.timeline add_track",
+          "description": "Add a track (Animation | Audio | Activation | Control | Playable | Signal | Marker) to a TimelineAsset, optionally nested under a parent group/track. Requires the com.unity.timeline package.",
+          "matchedOn": "description",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command animation.timeline add_track --project-path C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+        },
+        {
+          "kind": "pipeline",
+          "name": "animation.timeline create",
+          "path": "animation.timeline create",
+          "description": "Create a .playable TimelineAsset under the authoring root (optional frame rate). Requires the com.unity.timeline package.",
+          "matchedOn": "description",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command animation.timeline create --project-path C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+        },
+        {
+          "kind": "pipeline",
+          "name": "build run",
+          "path": "build run",
+          "description": "Trigger an async Player build and report the full BuildReport. Returns immediately (queued); poll build status until status is 'completed'. DetailedBuildReport is included by default unless 'options' is supplied. Use dry_run to validate without building.",
+          "matchedOn": "description",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command build run --project-path C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+        },
+        {
+          "kind": "pipeline",
+          "name": "console get",
+          "path": "console get",
+          "description": "Get captured Unity console output (Editor or Player; supports tail, level filtering, and follow via a cursor)",
+          "matchedOn": "description",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command console get --project-path C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+        },
+        {
+          "kind": "pipeline",
+          "name": "job batch",
+          "path": "job batch",
+          "description": "Run multiple registered commands in one transactional request. Later ops can reference earlier results with \"$<id-or-index>.<jsonPath>\" (e.g. \"$0.instanceId\"; \"$$\" escapes a literal '$'). transactional=true (default) groups every op into one Undo step and reverts all applied ops if any op fails; commands that mutate outside the Undo system (asset/file/settings writes) are rejected unless transactional=false. on_error=abort|continue (continue forces transactional=false); dry_run validates without mutating; timeout (seconds, default 60) bounds execution — when it is about to run out the remaining ops are skipped and a transactional batch rolls back (submit long batches with \"job\": true). Excludes build run, build.target switch, the package commands, editor.playmode start/stop/pause, script recompile, script eval, script eval_file, script run, editor invoke_menu, scene open/scene create, async commands (test run/test list), runtime-only commands, and nested job batch.",
+          "matchedOn": "description",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command job batch --project-path C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+        },
+        {
+          "kind": "pipeline",
+          "name": "settings.runtime_pipeline set",
+          "path": "settings.runtime_pipeline set",
+          "description": "Change Pipeline Runtime settings. Requires confirm=true; use dry_run to preview. Not undoable via Ctrl+Z. Refused while in Play Mode: the running driver already loaded its own settings, so a change would silently not apply until the next Play session or build. port and maxWorkItemsPerFrame are rejected outright if outside the same bounds the Project Settings page enforces.",
+          "matchedOn": "description",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command settings.runtime_pipeline set --project-path C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+        },
+        {
+          "kind": "pipeline",
+          "name": "test list",
+          "path": "test list",
+          "description": "List all available tests (EditMode and/or PlayMode) without running them",
+          "matchedOn": "description",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command test list --project-path C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+        },
+        {
+          "kind": "command",
+          "name": "build",
+          "path": "build",
+          "description": "Build a Unity project from the command line. Spawns the editor in batch mode and forwards conventional CI flags.",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity build"
+        },
+        {
+          "kind": "command",
+          "name": "collaboration annotations create",
+          "path": "collaboration annotations create",
+          "description": "Create a new annotation on a target",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity collaboration annotations create"
+        },
+        {
+          "kind": "command",
+          "name": "collaboration annotations export",
+          "path": "collaboration annotations export",
+          "description": "Export all annotations on a project as JSON",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity collaboration annotations export"
+        },
+        {
+          "kind": "command",
+          "name": "collaboration annotations get",
+          "path": "collaboration annotations get",
+          "description": "Get a single annotation by ID",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity collaboration annotations get"
+        },
+        {
+          "kind": "command",
+          "name": "collaboration annotations update",
+          "path": "collaboration annotations update",
+          "description": "Update an existing annotation",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity collaboration annotations update"
+        },
+        {
+          "kind": "command",
+          "name": "collaboration annotations replies",
+          "path": "collaboration annotations replies",
+          "description": "List replies for a root annotation",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity collaboration annotations replies"
+        },
+        {
+          "kind": "command",
+          "name": "collaboration attachments update sketch",
+          "path": "collaboration attachments update sketch",
+          "description": "Update a sketch attachment",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity collaboration attachments update sketch"
+        },
+        {
+          "kind": "command",
+          "name": "collaboration attachments update spatial",
+          "path": "collaboration attachments update spatial",
+          "description": "Update a spatial-3d attachment",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity collaboration attachments update spatial"
+        },
+        {
+          "kind": "command",
+          "name": "collaboration attachments upload",
+          "path": "collaboration attachments upload",
+          "description": "Upload a file as an attachment on an annotation",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity collaboration attachments upload"
+        },
+        {
+          "kind": "command",
+          "name": "collaboration attachments add file",
+          "path": "collaboration attachments add file",
+          "description": "Add a file attachment to an annotation",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity collaboration attachments add file"
+        },
+        {
+          "kind": "command",
+          "name": "collaboration attachments add sketch",
+          "path": "collaboration attachments add sketch",
+          "description": "Add a sketch attachment to an annotation",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity collaboration attachments add sketch"
+        },
+        {
+          "kind": "command",
+          "name": "collaboration attachments add spatial",
+          "path": "collaboration attachments add spatial",
+          "description": "Add a spatial-3d attachment to an annotation",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity collaboration attachments add spatial"
+        },
+        {
+          "kind": "command",
+          "name": "collaboration jira server add",
+          "path": "collaboration jira server add",
+          "description": "Add a new Jira server configuration",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity collaboration jira server add"
+        },
+        {
+          "kind": "command",
+          "name": "collaboration jira server update",
+          "path": "collaboration jira server update",
+          "description": "Update a Jira server configuration",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity collaboration jira server update"
+        },
+        {
+          "kind": "command",
+          "name": "install",
+          "path": "install",
+          "description": "Install a Unity editor",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity install"
+        },
+        {
+          "kind": "command",
+          "name": "job status",
+          "path": "job status",
+          "description": "Show a detached job's state, progress, and result",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity job status"
+        },
+        {
+          "kind": "command",
+          "name": "job wait",
+          "path": "job wait",
+          "description": "Wait for a detached job to finish and print its result",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity job wait"
+        },
+        {
+          "kind": "command",
+          "name": "job cancel",
+          "path": "job cancel",
+          "description": "Request cancellation of a detached job",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity job cancel"
+        },
+        {
+          "kind": "command",
+          "name": "mcp",
+          "path": "mcp",
+          "description": "MCP server and client configuration for Unity Editor",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity mcp"
+        },
+        {
+          "kind": "command",
+          "name": "pipeline cloud-build targets create",
+          "path": "pipeline cloud-build targets create",
+          "description": "Create a Build Automation build target",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity pipeline cloud-build targets create"
+        },
+        {
+          "kind": "command",
+          "name": "pipeline cloud-build targets update",
+          "path": "pipeline cloud-build targets update",
+          "description": "Change a Build Automation build target",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity pipeline cloud-build targets update"
+        },
+        {
+          "kind": "command",
+          "name": "command",
+          "path": "command",
+          "description": "Execute commands on connected Unity Editor instances, or list available commands",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command"
+        },
+        {
+          "kind": "command",
+          "name": "templates create",
+          "path": "templates create",
+          "description": "Create a custom template from an existing Unity project",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity templates create"
+        },
+        {
+          "kind": "command",
+          "name": "templates pack",
+          "path": "templates pack",
+          "description": "Pack a Unity project into a portable template archive",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity templates pack"
+        },
+        {
+          "kind": "command",
+          "name": "templates delete",
+          "path": "templates delete",
+          "description": "Delete a user-generated custom template",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity templates delete"
+        },
+        {
+          "kind": "command",
+          "name": "templates edit",
+          "path": "templates edit",
+          "description": "Edit a custom (user-generated) template's metadata",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity templates edit"
+        },
+        {
+          "kind": "command",
+          "name": "vcs sync",
+          "path": "vcs sync",
+          "description": "Pull safely: refuse while an Editor holds the project, pull the commits and the LFS objects, then report the reimport",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity vcs sync"
+        },
+        {
+          "kind": "command",
+          "name": "watch test",
+          "path": "watch test",
+          "description": "Re-run unity test --affected each time a project file changes",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity watch test"
+        }
+      ],
+      "hint": "",
+      "items": [
+        {
+          "kind": "pipeline",
+          "name": "script.methodreload reload_player",
+          "path": "script.methodreload reload_player",
+          "description": "Compile a file's (or folder's) [MethodReload] method(s) and push the IL to a connected player (IL2CPP-safe) over PlayerConnection. Folders are walked recursively and pushed once.",
+          "matchedOn": "name",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command script.methodreload reload_player --project-path C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+        },
+        {
+          "kind": "pipeline",
+          "name": "editor.playmode list_instances",
+          "path": "editor.playmode list_instances",
+          "description": "List running Editor instances reachable over Pipeline (this Editor + its MPPM virtual player clones). Connect to one with 'unity command --project-path <its projectPath>'.",
+          "matchedOn": "name",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command editor.playmode list_instances --project-path C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+        },
+        {
+          "kind": "pipeline",
+          "name": "editor.playmode pause",
+          "path": "editor.playmode pause",
+          "description": "Toggle pause state of Unity Editor play mode",
+          "matchedOn": "name",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command editor.playmode pause --project-path C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+        },
+        {
+          "kind": "pipeline",
+          "name": "editor.playmode set_run_in_background",
+          "path": "editor.playmode set_run_in_background",
+          "description": "Override the project's Run In Background Player Setting, recording enough state to restore it later and to keep it out of builds",
+          "matchedOn": "name",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command editor.playmode set_run_in_background --project-path C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+        },
+        {
+          "kind": "pipeline",
+          "name": "editor.playmode start",
+          "path": "editor.playmode start",
+          "description": "Enter Unity Editor play mode",
+          "matchedOn": "name",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command editor.playmode start --project-path C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+        },
+        {
+          "kind": "pipeline",
+          "name": "editor.playmode stop",
+          "path": "editor.playmode stop",
+          "description": "Exit Unity Editor play mode",
+          "matchedOn": "name",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command editor.playmode stop --project-path C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+        },
+        {
+          "kind": "pipeline",
+          "name": "settings.player get",
+          "path": "settings.player get",
+          "description": "Read PlayerSettings (company/product/version, scripting backend, API level).",
+          "matchedOn": "name",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command settings.player get --project-path C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+        },
+        {
+          "kind": "pipeline",
+          "name": "settings.player set",
+          "path": "settings.player set",
+          "description": "Change PlayerSettings. Requires confirm=true; use dry_run to preview. Not undoable via Ctrl+Z. Scripting backend / API level changes trigger a domain reload.",
+          "matchedOn": "name",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command settings.player set --project-path C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+        },
+        {
+          "kind": "command",
+          "name": "build run",
+          "path": "build run",
+          "description": "Launch the project's most recent successful build without rebuilding. Standalone players launch natively; WebGL builds are served from a local static server.",
+          "matchedOn": "description",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity build run"
+        },
+        {
+          "kind": "command",
+          "name": "language",
+          "path": "language",
+          "description": "Show or change the CLI display language",
+          "matchedOn": "description",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity language"
+        },
+        {
+          "kind": "command",
+          "name": "test",
+          "path": "test",
+          "description": "Run a project's EditMode/PlayMode tests in the editor and write a results report",
+          "matchedOn": "description",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity test"
+        },
+        {
+          "kind": "pipeline",
+          "name": "animation.timeline add_track",
+          "path": "animation.timeline add_track",
+          "description": "Add a track (Animation | Audio | Activation | Control | Playable | Signal | Marker) to a TimelineAsset, optionally nested under a parent group/track. Requires the com.unity.timeline package.",
+          "matchedOn": "description",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command animation.timeline add_track --project-path C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+        },
+        {
+          "kind": "pipeline",
+          "name": "animation.timeline create",
+          "path": "animation.timeline create",
+          "description": "Create a .playable TimelineAsset under the authoring root (optional frame rate). Requires the com.unity.timeline package.",
+          "matchedOn": "description",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command animation.timeline create --project-path C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+        },
+        {
+          "kind": "pipeline",
+          "name": "build run",
+          "path": "build run",
+          "description": "Trigger an async Player build and report the full BuildReport. Returns immediately (queued); poll build status until status is 'completed'. DetailedBuildReport is included by default unless 'options' is supplied. Use dry_run to validate without building.",
+          "matchedOn": "description",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command build run --project-path C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+        },
+        {
+          "kind": "pipeline",
+          "name": "console get",
+          "path": "console get",
+          "description": "Get captured Unity console output (Editor or Player; supports tail, level filtering, and follow via a cursor)",
+          "matchedOn": "description",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command console get --project-path C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+        },
+        {
+          "kind": "pipeline",
+          "name": "job batch",
+          "path": "job batch",
+          "description": "Run multiple registered commands in one transactional request. Later ops can reference earlier results with \"$<id-or-index>.<jsonPath>\" (e.g. \"$0.instanceId\"; \"$$\" escapes a literal '$'). transactional=true (default) groups every op into one Undo step and reverts all applied ops if any op fails; commands that mutate outside the Undo system (asset/file/settings writes) are rejected unless transactional=false. on_error=abort|continue (continue forces transactional=false); dry_run validates without mutating; timeout (seconds, default 60) bounds execution — when it is about to run out the remaining ops are skipped and a transactional batch rolls back (submit long batches with \"job\": true). Excludes build run, build.target switch, the package commands, editor.playmode start/stop/pause, script recompile, script eval, script eval_file, script run, editor invoke_menu, scene open/scene create, async commands (test run/test list), runtime-only commands, and nested job batch.",
+          "matchedOn": "description",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command job batch --project-path C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+        },
+        {
+          "kind": "pipeline",
+          "name": "settings.runtime_pipeline set",
+          "path": "settings.runtime_pipeline set",
+          "description": "Change Pipeline Runtime settings. Requires confirm=true; use dry_run to preview. Not undoable via Ctrl+Z. Refused while in Play Mode: the running driver already loaded its own settings, so a change would silently not apply until the next Play session or build. port and maxWorkItemsPerFrame are rejected outright if outside the same bounds the Project Settings page enforces.",
+          "matchedOn": "description",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command settings.runtime_pipeline set --project-path C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+        },
+        {
+          "kind": "pipeline",
+          "name": "test list",
+          "path": "test list",
+          "description": "List all available tests (EditMode and/or PlayMode) without running them",
+          "matchedOn": "description",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command test list --project-path C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+        },
+        {
+          "kind": "command",
+          "name": "build",
+          "path": "build",
+          "description": "Build a Unity project from the command line. Spawns the editor in batch mode and forwards conventional CI flags.",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity build"
+        },
+        {
+          "kind": "command",
+          "name": "collaboration annotations create",
+          "path": "collaboration annotations create",
+          "description": "Create a new annotation on a target",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity collaboration annotations create"
+        },
+        {
+          "kind": "command",
+          "name": "collaboration annotations export",
+          "path": "collaboration annotations export",
+          "description": "Export all annotations on a project as JSON",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity collaboration annotations export"
+        },
+        {
+          "kind": "command",
+          "name": "collaboration annotations get",
+          "path": "collaboration annotations get",
+          "description": "Get a single annotation by ID",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity collaboration annotations get"
+        },
+        {
+          "kind": "command",
+          "name": "collaboration annotations update",
+          "path": "collaboration annotations update",
+          "description": "Update an existing annotation",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity collaboration annotations update"
+        },
+        {
+          "kind": "command",
+          "name": "collaboration annotations replies",
+          "path": "collaboration annotations replies",
+          "description": "List replies for a root annotation",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity collaboration annotations replies"
+        },
+        {
+          "kind": "command",
+          "name": "collaboration attachments update sketch",
+          "path": "collaboration attachments update sketch",
+          "description": "Update a sketch attachment",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity collaboration attachments update sketch"
+        },
+        {
+          "kind": "command",
+          "name": "collaboration attachments update spatial",
+          "path": "collaboration attachments update spatial",
+          "description": "Update a spatial-3d attachment",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity collaboration attachments update spatial"
+        },
+        {
+          "kind": "command",
+          "name": "collaboration attachments upload",
+          "path": "collaboration attachments upload",
+          "description": "Upload a file as an attachment on an annotation",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity collaboration attachments upload"
+        },
+        {
+          "kind": "command",
+          "name": "collaboration attachments add file",
+          "path": "collaboration attachments add file",
+          "description": "Add a file attachment to an annotation",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity collaboration attachments add file"
+        },
+        {
+          "kind": "command",
+          "name": "collaboration attachments add sketch",
+          "path": "collaboration attachments add sketch",
+          "description": "Add a sketch attachment to an annotation",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity collaboration attachments add sketch"
+        },
+        {
+          "kind": "command",
+          "name": "collaboration attachments add spatial",
+          "path": "collaboration attachments add spatial",
+          "description": "Add a spatial-3d attachment to an annotation",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity collaboration attachments add spatial"
+        },
+        {
+          "kind": "command",
+          "name": "collaboration jira server add",
+          "path": "collaboration jira server add",
+          "description": "Add a new Jira server configuration",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity collaboration jira server add"
+        },
+        {
+          "kind": "command",
+          "name": "collaboration jira server update",
+          "path": "collaboration jira server update",
+          "description": "Update a Jira server configuration",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity collaboration jira server update"
+        },
+        {
+          "kind": "command",
+          "name": "install",
+          "path": "install",
+          "description": "Install a Unity editor",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity install"
+        },
+        {
+          "kind": "command",
+          "name": "job status",
+          "path": "job status",
+          "description": "Show a detached job's state, progress, and result",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity job status"
+        },
+        {
+          "kind": "command",
+          "name": "job wait",
+          "path": "job wait",
+          "description": "Wait for a detached job to finish and print its result",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity job wait"
+        },
+        {
+          "kind": "command",
+          "name": "job cancel",
+          "path": "job cancel",
+          "description": "Request cancellation of a detached job",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity job cancel"
+        },
+        {
+          "kind": "command",
+          "name": "mcp",
+          "path": "mcp",
+          "description": "MCP server and client configuration for Unity Editor",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity mcp"
+        },
+        {
+          "kind": "command",
+          "name": "pipeline cloud-build targets create",
+          "path": "pipeline cloud-build targets create",
+          "description": "Create a Build Automation build target",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity pipeline cloud-build targets create"
+        },
+        {
+          "kind": "command",
+          "name": "pipeline cloud-build targets update",
+          "path": "pipeline cloud-build targets update",
+          "description": "Change a Build Automation build target",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity pipeline cloud-build targets update"
+        },
+        {
+          "kind": "command",
+          "name": "command",
+          "path": "command",
+          "description": "Execute commands on connected Unity Editor instances, or list available commands",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity command"
+        },
+        {
+          "kind": "command",
+          "name": "templates create",
+          "path": "templates create",
+          "description": "Create a custom template from an existing Unity project",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity templates create"
+        },
+        {
+          "kind": "command",
+          "name": "templates pack",
+          "path": "templates pack",
+          "description": "Pack a Unity project into a portable template archive",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity templates pack"
+        },
+        {
+          "kind": "command",
+          "name": "templates delete",
+          "path": "templates delete",
+          "description": "Delete a user-generated custom template",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity templates delete"
+        },
+        {
+          "kind": "command",
+          "name": "templates edit",
+          "path": "templates edit",
+          "description": "Edit a custom (user-generated) template's metadata",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity templates edit"
+        },
+        {
+          "kind": "command",
+          "name": "vcs sync",
+          "path": "vcs sync",
+          "description": "Pull safely: refuse while an Editor holds the project, pull the commits and the LFS objects, then report the reimport",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity vcs sync"
+        },
+        {
+          "kind": "command",
+          "name": "watch test",
+          "path": "watch test",
+          "description": "Re-run unity test --affected each time a project file changes",
+          "matchedOn": "option",
+          "state": null,
+          "installed": null,
+          "installCommand": null,
+          "invoke": "unity watch test"
+        }
+      ],
+      "total": 46,
+      "nextPage": null,
+      "partial": false
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

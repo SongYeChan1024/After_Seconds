@@ -1,0 +1,767 @@
+{
+  "version": "V0.01",
+  "author": "송예찬",
+  "date": "2026-11-08",
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B5_Circular.unity",
+  "source": "SourceAssets/B5_RemainingDomes",
+  "review": "Docs/검수/2026-11-08_B5_RemainingDomes/review.html",
+  "creation": "Local Blender geometry and raster textures; existing project PBR materials reused",
+  "scope": [
+    "C03",
+    "C04",
+    "VB",
+    "VL",
+    "W01",
+    "W02",
+    "W03",
+    "E01",
+    "E02",
+    "E03",
+    "N01",
+    "S01"
+  ],
+  "models": {
+    "RD_LivingBed": {
+      "triangles": 6384,
+      "parts": 36,
+      "beveled_parts": 34,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_LivingBed.fbx",
+      "category": "Props"
+    },
+    "RD_MedicalBed": {
+      "triangles": 9292,
+      "parts": 53,
+      "beveled_parts": 49,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_MedicalBed.fbx",
+      "category": "Props"
+    },
+    "RD_LivingDesk": {
+      "triangles": 4368,
+      "parts": 24,
+      "beveled_parts": 23,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_LivingDesk.fbx",
+      "category": "Props"
+    },
+    "RD_SanitaryBasin": {
+      "triangles": 9592,
+      "parts": 46,
+      "beveled_parts": 44,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_SanitaryBasin.fbx",
+      "category": "Props"
+    },
+    "RD_LivingAlcove": {
+      "triangles": 3808,
+      "parts": 20,
+      "beveled_parts": 20,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_LivingAlcove.fbx",
+      "category": "Props"
+    },
+    "RD_LinenRack": {
+      "triangles": 9588,
+      "parts": 51,
+      "beveled_parts": 51,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_LinenRack.fbx",
+      "category": "Props"
+    },
+    "RD_LinenReturnCart": {
+      "triangles": 6640,
+      "parts": 36,
+      "beveled_parts": 34,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_LinenReturnCart.fbx",
+      "category": "Props"
+    },
+    "RD_SupplyRack": {
+      "triangles": 15044,
+      "parts": 95,
+      "beveled_parts": 79,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_SupplyRack.fbx",
+      "category": "Props"
+    },
+    "RD_MealTransportCart": {
+      "triangles": 6572,
+      "parts": 37,
+      "beveled_parts": 35,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_MealTransportCart.fbx",
+      "category": "Props"
+    },
+    "RD_PrivacyCurtain": {
+      "triangles": 3436,
+      "parts": 15,
+      "beveled_parts": 14,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_PrivacyCurtain.fbx",
+      "category": "Props"
+    },
+    "RD_ExaminationLight": {
+      "triangles": 2024,
+      "parts": 10,
+      "beveled_parts": 9,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_ExaminationLight.fbx",
+      "category": "Props"
+    },
+    "RD_MedicalSterilizer": {
+      "triangles": 10134,
+      "parts": 56,
+      "beveled_parts": 50,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_MedicalSterilizer.fbx",
+      "category": "Props"
+    },
+    "RD_VitalCart": {
+      "triangles": 8650,
+      "parts": 67,
+      "beveled_parts": 41,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_VitalCart.fbx",
+      "category": "Props"
+    },
+    "RD_UltrasoundCart": {
+      "triangles": 8650,
+      "parts": 67,
+      "beveled_parts": 41,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_UltrasoundCart.fbx",
+      "category": "Props"
+    },
+    "RD_MedicationCabinet": {
+      "triangles": 7216,
+      "parts": 36,
+      "beveled_parts": 36,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_MedicationCabinet.fbx",
+      "category": "Props"
+    },
+    "RD_PersonalLocker": {
+      "triangles": 7524,
+      "parts": 39,
+      "beveled_parts": 39,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_PersonalLocker.fbx",
+      "category": "Props"
+    },
+    "RD_TwinCoolingPump": {
+      "triangles": 9032,
+      "parts": 38,
+      "beveled_parts": 37,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_TwinCoolingPump.fbx",
+      "category": "Props"
+    },
+    "RD_ExpansionVessel": {
+      "triangles": 8082,
+      "parts": 37,
+      "beveled_parts": 29,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_ExpansionVessel.fbx",
+      "category": "Props"
+    },
+    "RD_PlateHeatExchanger": {
+      "triangles": 7532,
+      "parts": 37,
+      "beveled_parts": 37,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_PlateHeatExchanger.fbx",
+      "category": "Props"
+    },
+    "RD_ElectricalSwitchgear": {
+      "triangles": 13654,
+      "parts": 92,
+      "beveled_parts": 67,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_ElectricalSwitchgear.fbx",
+      "category": "Props"
+    },
+    "RD_AirHandlingUnit": {
+      "triangles": 12166,
+      "parts": 84,
+      "beveled_parts": 59,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_AirHandlingUnit.fbx",
+      "category": "Props"
+    },
+    "RD_MaintenanceBench": {
+      "triangles": 10564,
+      "parts": 51,
+      "beveled_parts": 51,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_MaintenanceBench.fbx",
+      "category": "Props"
+    },
+    "RD_SealedSupplyCrates": {
+      "triangles": 4560,
+      "parts": 28,
+      "beveled_parts": 24,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_SealedSupplyCrates.fbx",
+      "category": "Props"
+    },
+    "RD_ColdStorage": {
+      "triangles": 9838,
+      "parts": 58,
+      "beveled_parts": 52,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_ColdStorage.fbx",
+      "category": "Props"
+    },
+    "RD_DoubleWashSink": {
+      "triangles": 3220,
+      "parts": 19,
+      "beveled_parts": 17,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_DoubleWashSink.fbx",
+      "category": "Props"
+    },
+    "RD_MealPreparation": {
+      "triangles": 11112,
+      "parts": 54,
+      "beveled_parts": 54,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_MealPreparation.fbx",
+      "category": "Props"
+    },
+    "RD_TrayDishwasher": {
+      "triangles": 10158,
+      "parts": 58,
+      "beveled_parts": 52,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_TrayDishwasher.fbx",
+      "category": "Props"
+    },
+    "RD_DeconShower": {
+      "triangles": 5344,
+      "parts": 28,
+      "beveled_parts": 26,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_DeconShower.fbx",
+      "category": "Props"
+    },
+    "RD_PPEDispenser": {
+      "triangles": 9588,
+      "parts": 51,
+      "beveled_parts": 51,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_PPEDispenser.fbx",
+      "category": "Props"
+    },
+    "RD_BootDryingRack": {
+      "triangles": 3856,
+      "parts": 20,
+      "beveled_parts": 20,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_BootDryingRack.fbx",
+      "category": "Props"
+    },
+    "RD_TestGantry": {
+      "triangles": 4260,
+      "parts": 23,
+      "beveled_parts": 19,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_TestGantry.fbx",
+      "category": "Props"
+    },
+    "RD_TestControlConsole": {
+      "triangles": 24166,
+      "parts": 148,
+      "beveled_parts": 120,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_TestControlConsole.fbx",
+      "category": "Props"
+    },
+    "RD_CentralOperatorDesk": {
+      "triangles": 31528,
+      "parts": 213,
+      "beveled_parts": 155,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_CentralOperatorDesk.fbx",
+      "category": "Props"
+    },
+    "RD_CentralVideoWall": {
+      "triangles": 36396,
+      "parts": 318,
+      "beveled_parts": 168,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_CentralVideoWall.fbx",
+      "category": "Props"
+    },
+    "RD_DataRecorderRack": {
+      "triangles": 15994,
+      "parts": 115,
+      "beveled_parts": 82,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_DataRecorderRack.fbx",
+      "category": "Props"
+    },
+    "RD_WaitingBench": {
+      "triangles": 752,
+      "parts": 4,
+      "beveled_parts": 4,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_WaitingBench.fbx",
+      "category": "Props"
+    },
+    "RD_IsolationNurseStation": {
+      "triangles": 25806,
+      "parts": 158,
+      "beveled_parts": 130,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_IsolationNurseStation.fbx",
+      "category": "Props"
+    },
+    "RD_C03_Architecture": {
+      "triangles": 87420,
+      "parts": 265,
+      "beveled_parts": 185,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_C03_Architecture.fbx",
+      "category": "Environment"
+    },
+    "RD_C03_Floor": {
+      "triangles": 2916,
+      "parts": 11,
+      "beveled_parts": 6,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_C03_Floor.fbx",
+      "category": "Environment"
+    },
+    "RD_C03_Services": {
+      "triangles": 19156,
+      "parts": 95,
+      "beveled_parts": 84,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_C03_Services.fbx",
+      "category": "Environment"
+    },
+    "RD_C04_Architecture": {
+      "triangles": 68448,
+      "parts": 214,
+      "beveled_parts": 134,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_C04_Architecture.fbx",
+      "category": "Environment"
+    },
+    "RD_C04_Floor": {
+      "triangles": 2716,
+      "parts": 9,
+      "beveled_parts": 5,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_C04_Floor.fbx",
+      "category": "Environment"
+    },
+    "RD_C04_Services": {
+      "triangles": 11672,
+      "parts": 50,
+      "beveled_parts": 44,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_C04_Services.fbx",
+      "category": "Environment"
+    },
+    "RD_W01_Architecture": {
+      "triangles": 90768,
+      "parts": 274,
+      "beveled_parts": 194,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_W01_Architecture.fbx",
+      "category": "Environment"
+    },
+    "RD_W01_Floor": {
+      "triangles": 3116,
+      "parts": 13,
+      "beveled_parts": 7,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_W01_Floor.fbx",
+      "category": "Environment"
+    },
+    "RD_W01_Services": {
+      "triangles": 19156,
+      "parts": 95,
+      "beveled_parts": 84,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_W01_Services.fbx",
+      "category": "Environment"
+    },
+    "RD_W02_Architecture": {
+      "triangles": 93744,
+      "parts": 282,
+      "beveled_parts": 202,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_W02_Architecture.fbx",
+      "category": "Environment"
+    },
+    "RD_W02_Floor": {
+      "triangles": 3116,
+      "parts": 13,
+      "beveled_parts": 7,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_W02_Floor.fbx",
+      "category": "Environment"
+    },
+    "RD_W02_Services": {
+      "triangles": 20704,
+      "parts": 104,
+      "beveled_parts": 92,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_W02_Services.fbx",
+      "category": "Environment"
+    },
+    "RD_W03_Architecture": {
+      "triangles": 86304,
+      "parts": 262,
+      "beveled_parts": 182,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_W03_Architecture.fbx",
+      "category": "Environment"
+    },
+    "RD_W03_Floor": {
+      "triangles": 2916,
+      "parts": 11,
+      "beveled_parts": 6,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_W03_Floor.fbx",
+      "category": "Environment"
+    },
+    "RD_W03_Services": {
+      "triangles": 16188,
+      "parts": 77,
+      "beveled_parts": 68,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_W03_Services.fbx",
+      "category": "Environment"
+    },
+    "RD_E01_Architecture": {
+      "triangles": 88536,
+      "parts": 268,
+      "beveled_parts": 188,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_E01_Architecture.fbx",
+      "category": "Environment"
+    },
+    "RD_E01_Floor": {
+      "triangles": 3116,
+      "parts": 13,
+      "beveled_parts": 7,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_E01_Floor.fbx",
+      "category": "Environment"
+    },
+    "RD_E01_Services": {
+      "triangles": 17928,
+      "parts": 86,
+      "beveled_parts": 76,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_E01_Services.fbx",
+      "category": "Environment"
+    },
+    "RD_E02_Architecture": {
+      "triangles": 90768,
+      "parts": 274,
+      "beveled_parts": 194,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_E02_Architecture.fbx",
+      "category": "Environment"
+    },
+    "RD_E02_Floor": {
+      "triangles": 3116,
+      "parts": 13,
+      "beveled_parts": 7,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_E02_Floor.fbx",
+      "category": "Environment"
+    },
+    "RD_E02_Services": {
+      "triangles": 17736,
+      "parts": 86,
+      "beveled_parts": 76,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_E02_Services.fbx",
+      "category": "Environment"
+    },
+    "RD_E03_Architecture": {
+      "triangles": 88536,
+      "parts": 268,
+      "beveled_parts": 188,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_E03_Architecture.fbx",
+      "category": "Environment"
+    },
+    "RD_E03_Floor": {
+      "triangles": 3116,
+      "parts": 13,
+      "beveled_parts": 7,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_E03_Floor.fbx",
+      "category": "Environment"
+    },
+    "RD_E03_Services": {
+      "triangles": 19476,
+      "parts": 95,
+      "beveled_parts": 84,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_E03_Services.fbx",
+      "category": "Environment"
+    },
+    "RD_N01_Architecture": {
+      "triangles": 90768,
+      "parts": 274,
+      "beveled_parts": 194,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_N01_Architecture.fbx",
+      "category": "Environment"
+    },
+    "RD_N01_Floor": {
+      "triangles": 3116,
+      "parts": 13,
+      "beveled_parts": 7,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_N01_Floor.fbx",
+      "category": "Environment"
+    },
+    "RD_N01_Services": {
+      "triangles": 17608,
+      "parts": 86,
+      "beveled_parts": 76,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_N01_Services.fbx",
+      "category": "Environment"
+    },
+    "RD_S01_Architecture": {
+      "triangles": 90768,
+      "parts": 274,
+      "beveled_parts": 194,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_S01_Architecture.fbx",
+      "category": "Environment"
+    },
+    "RD_S01_Floor": {
+      "triangles": 3116,
+      "parts": 13,
+      "beveled_parts": 7,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_S01_Floor.fbx",
+      "category": "Environment"
+    },
+    "RD_S01_Services": {
+      "triangles": 19156,
+      "parts": 95,
+      "beveled_parts": 84,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_S01_Services.fbx",
+      "category": "Environment"
+    },
+    "RD_T03_Finish": {
+      "triangles": 55296,
+      "parts": 240,
+      "beveled_parts": 240,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_T03_Finish.fbx",
+      "category": "Environment"
+    },
+    "RD_T04_Finish": {
+      "triangles": 53040,
+      "parts": 228,
+      "beveled_parts": 228,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_T04_Finish.fbx",
+      "category": "Environment"
+    },
+    "RD_T05_Finish": {
+      "triangles": 105924,
+      "parts": 455,
+      "beveled_parts": 455,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_T05_Finish.fbx",
+      "category": "Environment"
+    },
+    "RD_T06_Finish": {
+      "triangles": 79848,
+      "parts": 342,
+      "beveled_parts": 342,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_T06_Finish.fbx",
+      "category": "Environment"
+    },
+    "RD_T07_Finish": {
+      "triangles": 82004,
+      "parts": 355,
+      "beveled_parts": 355,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_T07_Finish.fbx",
+      "category": "Environment"
+    },
+    "RD_T08_Finish": {
+      "triangles": 123952,
+      "parts": 532,
+      "beveled_parts": 532,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_T08_Finish.fbx",
+      "category": "Environment"
+    },
+    "RD_T09_Finish": {
+      "triangles": 107428,
+      "parts": 463,
+      "beveled_parts": 463,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_T09_Finish.fbx",
+      "category": "Environment"
+    },
+    "RD_T10_Finish": {
+      "triangles": 112164,
+      "parts": 479,
+      "beveled_parts": 479,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_T10_Finish.fbx",
+      "category": "Environment"
+    },
+    "RD_T11_Finish": {
+      "triangles": 249220,
+      "parts": 1063,
+      "beveled_parts": 1063,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_T11_Finish.fbx",
+      "category": "Environment"
+    },
+    "RD_T12_Finish": {
+      "triangles": 132228,
+      "parts": 567,
+      "beveled_parts": 567,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_T12_Finish.fbx",
+      "category": "Environment"
+    },
+    "RD_T13_Finish": {
+      "triangles": 131980,
+      "parts": 565,
+      "beveled_parts": 565,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_T13_Finish.fbx",
+      "category": "Environment"
+    },
+    "RD_T14_Finish": {
+      "triangles": 129844,
+      "parts": 555,
+      "beveled_parts": 555,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_T14_Finish.fbx",
+      "category": "Environment"
+    },
+    "RD_T15_Finish": {
+      "triangles": 154892,
+      "parts": 661,
+      "beveled_parts": 661,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_T15_Finish.fbx",
+      "category": "Environment"
+    },
+    "RD_T16_Finish": {
+      "triangles": 201004,
+      "parts": 861,
+      "beveled_parts": 861,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_T16_Finish.fbx",
+      "category": "Environment"
+    },
+    "RD_T17_Finish": {
+      "triangles": 201004,
+      "parts": 861,
+      "beveled_parts": 861,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_T17_Finish.fbx",
+      "category": "Environment"
+    },
+    "RD_T18_Finish": {
+      "triangles": 201004,
+      "parts": 861,
+      "beveled_parts": 861,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_T18_Finish.fbx",
+      "category": "Environment"
+    },
+    "RD_T19_Finish": {
+      "triangles": 344676,
+      "parts": 1471,
+      "beveled_parts": 1471,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_T19_Finish.fbx",
+      "category": "Environment"
+    },
+    "RD_VB_Shaft": {
+      "triangles": 5964,
+      "parts": 1,
+      "beveled_parts": 0,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_VB_Shaft.fbx",
+      "category": "Environment"
+    },
+    "RD_VL_Shaft": {
+      "triangles": 5964,
+      "parts": 1,
+      "beveled_parts": 0,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_VL_Shaft.fbx",
+      "category": "Environment"
+    },
+    "RD_VL_Hoist": {
+      "triangles": 18998,
+      "parts": 104,
+      "beveled_parts": 98,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_VL_Hoist.fbx",
+      "category": "Environment"
+    },
+    "RD_VL_Floor": {
+      "triangles": 4172,
+      "parts": 13,
+      "beveled_parts": 13,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_VL_Floor.fbx",
+      "category": "Environment"
+    },
+    "RD_ReceivingIsland": {
+      "triangles": 14910,
+      "parts": 102,
+      "beveled_parts": 76,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_ReceivingIsland.fbx",
+      "category": "Props"
+    },
+    "RD_MealAssemblyIsland": {
+      "triangles": 23316,
+      "parts": 123,
+      "beveled_parts": 123,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_MealAssemblyIsland.fbx",
+      "category": "Props"
+    },
+    "RD_TransferNurseDesk": {
+      "triangles": 21322,
+      "parts": 139,
+      "beveled_parts": 109,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_TransferNurseDesk.fbx",
+      "category": "Props"
+    },
+    "RD_DeconChangeBench": {
+      "triangles": 2820,
+      "parts": 15,
+      "beveled_parts": 15,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_DeconChangeBench.fbx",
+      "category": "Props"
+    },
+    "RD_ProcessControlBay": {
+      "triangles": 13948,
+      "parts": 116,
+      "beveled_parts": 66,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_ProcessControlBay.fbx",
+      "category": "Props"
+    },
+    "RD_ValveManifold": {
+      "triangles": 22140,
+      "parts": 97,
+      "beveled_parts": 77,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_ValveManifold.fbx",
+      "category": "Props"
+    },
+    "RD_FilterBank": {
+      "triangles": 16544,
+      "parts": 88,
+      "beveled_parts": 88,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_FilterBank.fbx",
+      "category": "Props"
+    },
+    "RD_MedicalGasStation": {
+      "triangles": 3080,
+      "parts": 14,
+      "beveled_parts": 8,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_MedicalGasStation.fbx",
+      "category": "Props"
+    },
+    "RD_ArchiveCaseRack": {
+      "triangles": 15780,
+      "parts": 87,
+      "beveled_parts": 75,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_ArchiveCaseRack.fbx",
+      "category": "Props"
+    },
+    "RD_ServiceWorkBay": {
+      "triangles": 28170,
+      "parts": 167,
+      "beveled_parts": 142,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_ServiceWorkBay.fbx",
+      "category": "Props"
+    },
+    "RD_C03_ProcessConnections": {
+      "triangles": 12272,
+      "parts": 60,
+      "beveled_parts": 48,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_C03_ProcessConnections.fbx",
+      "category": "Environment"
+    },
+    "RD_VB_Services": {
+      "triangles": 22256,
+      "parts": 84,
+      "beveled_parts": 79,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_VB_Services.fbx",
+      "category": "Environment"
+    },
+    "RD_VL_Lighting": {
+      "triangles": 2880,
+      "parts": 16,
+      "beveled_parts": 16,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_VL_Lighting.fbx",
+      "category": "Environment"
+    },
+    "RD_CompactToilet": {
+      "triangles": 5742,
+      "parts": 10,
+      "beveled_parts": 7,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/RD_CompactToilet.fbx",
+      "category": "Props"
+    },
+    "RD_VB_SafetyEquipment": {
+      "triangles": 4108,
+      "parts": 21,
+      "beveled_parts": 21,
+      "asset": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Environment/B5/RD_VB_SafetyEquipment.fbx",
+      "category": "Environment"
+    }
+  },
+  "placements": 174,
+  "reusedChairs": 6,
+  "staticDisplays": 18,
+  "gameplayCodeChanged": false,
+  "userArtReview": "pending",
+  "lightingReview": "pending",
+  "guidance": {
+    "destinations": 15,
+    "corridors": 19,
+    "routes": 38,
+    "labels": 68,
+    "legends": 15
+  },
+  "verification": {
+    "controllerPathsPassed": 71,
+    "guideSamples": 18366,
+    "blocked": 0,
+    "missingFloor": 0,
+    "degenerateTriangles": 0,
+    "missingMaterials": 0
+  }
+}

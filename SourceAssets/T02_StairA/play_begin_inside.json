@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "command": "command",
+  "data": {
+    "command": "script run",
+    "parameters": {
+      "entry": "StairAPlay.Inside",
+      "file": "C:\\GitHubProjects\\After_Seconds\\SourceAssets\\T02_StairA\\Play.cs"
+    },
+    "result": {
+      "diagnostics": [],
+      "compileMs": 2258,
+      "executeMs": 30,
+      "assemblyName": "PipelineRunScript_Play_7303e8c47a5146c8b59db06bbe3b0cf6",
+      "success": true,
+      "result": {
+        "id": "inside",
+        "frame": 54,
+        "from": "(-30.00, -81.32, 21.64)"
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

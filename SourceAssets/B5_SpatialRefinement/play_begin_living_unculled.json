@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "command": "command",
+  "data": {
+    "command": "script run",
+    "parameters": {
+      "entry": "SpatialPlay.LivingUnculled",
+      "file": "C:\\GitHubProjects\\After_Seconds\\SourceAssets\\B5_SpatialRefinement\\Play.cs"
+    },
+    "result": {
+      "diagnostics": [],
+      "compileMs": 2465,
+      "executeMs": 23,
+      "assemblyName": "PipelineRunScript_Play_ba67e0578f30455295de97f56e6c185f",
+      "success": true,
+      "result": {
+        "id": "living_unculled",
+        "frame": 80,
+        "from": "(-88.00, -81.32, 40.20)"
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

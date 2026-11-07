@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "command": "command",
+  "data": {
+    "command": "script run",
+    "parameters": {
+      "entry": "OperationalPlay.Cooling",
+      "file": "C:\\GitHubProjects\\After_Seconds\\SourceAssets\\B5_OperationalDetail\\Play.cs"
+    },
+    "result": {
+      "diagnostics": [],
+      "compileMs": 1990,
+      "executeMs": 19,
+      "assemblyName": "PipelineRunScript_Play_3095bd51a7a94c1591f2c9ddafa5fd20",
+      "success": true,
+      "result": {
+        "id": "cooling",
+        "frame": 87,
+        "from": "(17.00, -81.32, -11.80)"
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}
