@@ -1,5 +1,11 @@
-# 개발 일지 V0.05
+# 개발 일지 V0.06
 
+2026-11-08 저녁 글 게시 완료: 블로그 `272b353` main 반영과 배포 성공, 두 글 및 이미지5장 HTTP200 확인. 아래의 원고 상태는 작성 당시 기록이다.
+
+- [데일리로그 — 생활층과 실험층을 나누고 나니 필요한 설비가 달라짐](https://songyechan1024.github.io/Kasil_DevLog/posts/daily-log-living-floor-and-experiment-floor/)
+- [일일개발일지 — B4 전체 제작과 실험 운용 설비 배치](https://songyechan1024.github.io/Kasil_DevLog/posts/after-seconds-b4-experiment-operations/)
+
+이전 기록:
 작업 나열보다 문제를 어떻게 발견하고 해결했는지 기록합니다. 매일의 학습 과정은 공개 「데일리 로그」로, 프로젝트의 구현 문제와 해결 과정은 별도의 기술 글로 작성합니다.
 
 **현재 게시 저장소는 [Kasil_DevLog](https://github.com/SongYeChan1024/Kasil_DevLog)이며 `_posts/YYYY-MM-DD-영문-슬러그.md`에서 관리합니다.** 로컬 저장소는 학원 PC 기준 `C:/Users/503-26/Desktop/Projects/02.Kasil_DevLog`, 집 기준 `C:/GitHubProjects/Kasil_DevLog`입니다. 이 폴더에는 블로그 본문을 복제하지 않고 공개 글 링크와 기존 기록·노션 링크를 보관합니다. 현재 상태는 [2026-11-06 세션 인수인계](../이어하기_2026-11-06.md), 다음 순서는 [회사 작업 목록](../회사_작업목록_2026-11-06.md)에 기록합니다.
@@ -68,3 +74,5 @@
 - [저녁 인수인계](../WorkClose_2026-11-08_Evening.md). 본문은 블로그에만 보관한다.
 
 - V0.05 (2026-11-08): B4 작업과 영문 이름 변경을 담은 저녁 원고 위치·로컬 상태 기록. 송예찬.
+
+- V0.06 (2026-11-08): 저녁 글2편 공개와 배포 검증 링크. 송예찬.
