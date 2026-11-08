@@ -1,0 +1,318 @@
+{
+  "author": "송예찬",
+  "date": "2026-11-08",
+  "task": "B4 능력 측정·발달·강화층 실험 운용 설비",
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B4_Circular.unity",
+  "source": "로컬 Blender 모델 제작, Pillow 정적 계측/운용 화면과 밀착 라벨 제작. 기존 B4 공용 Base/Normal PBR와 B5 작업의자 재사용.",
+  "newModels": [
+    {
+      "name": "BX_SubjectCheckIn",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_SubjectCheckIn.fbx",
+      "triangles": 20464,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_SubjectCheckIn.blend",
+      "sha256": "487bfa92f9f869b6f3891d213c4347603b873093874482efc4b02e4546930b25",
+      "placed": true
+    },
+    {
+      "name": "BX_EscortBench",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_EscortBench.fbx",
+      "triangles": 1932,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_EscortBench.blend",
+      "sha256": "ae25b6d5596868fb84f861f0764ec3e4da5daaa4e513899302a32ded056bd16b",
+      "placed": true
+    },
+    {
+      "name": "BX_GuardControlPost",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_GuardControlPost.fbx",
+      "triangles": 15992,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_GuardControlPost.blend",
+      "sha256": "af94532be75d33d55676733a23c318a4955ccbfa965124ad17f956a45656f0e7",
+      "placed": true
+    },
+    {
+      "name": "BX_ObservationBooth",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_ObservationBooth.fbx",
+      "triangles": 36052,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_ObservationBooth.blend",
+      "sha256": "567d6aa2358ce75c0dd1c2b4057deaedc667ed7ef664022ce028e6b24c56f01e",
+      "placed": true
+    },
+    {
+      "name": "BX_ScreenedEntry",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_ScreenedEntry.fbx",
+      "triangles": 4762,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_ScreenedEntry.blend",
+      "sha256": "00e7a8b935a6f429c82e2ff3a00a7025a2dad5c16b68a2eaa8753260514b85ab",
+      "placed": false
+    },
+    {
+      "name": "BX_SensorFittingStand",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_SensorFittingStand.fbx",
+      "triangles": 7224,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_SensorFittingStand.blend",
+      "sha256": "576a7466e219b450f5f7a99f37cf6dd68c549667e6b72869fffb440f9f048f9d",
+      "placed": true
+    },
+    {
+      "name": "BX_PrecisionPlatform",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_PrecisionPlatform.fbx",
+      "triangles": 3670,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_PrecisionPlatform.blend",
+      "sha256": "fef107492122315d7ec8ee5eaf62ff4d03933eeb064a4834710e0134d3bec939",
+      "placed": true
+    },
+    {
+      "name": "BX_AdaptiveTargetArray",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_AdaptiveTargetArray.fbx",
+      "triangles": 6456,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_AdaptiveTargetArray.blend",
+      "sha256": "0af2417bcd5ee1db66b4b5a717c2a369c354dfe003d58263bd22a3170dfd53ce",
+      "placed": true
+    },
+    {
+      "name": "BX_LoadResistanceRig",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_LoadResistanceRig.fbx",
+      "triangles": 11618,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_LoadResistanceRig.blend",
+      "sha256": "2a64ab7aae9b542867f0259ee08cf6b1513bdda76f38f5ae9e9c969b21d5c0a8",
+      "placed": true
+    },
+    {
+      "name": "BX_PursuitTrack",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_PursuitTrack.fbx",
+      "triangles": 3930,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_PursuitTrack.blend",
+      "sha256": "eed4e975a00055535b52b49682068e38fa5a07c70c8ec84d11b7489bef445265",
+      "placed": true
+    },
+    {
+      "name": "BX_StimulusWall",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_StimulusWall.fbx",
+      "triangles": 11182,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_StimulusWall.blend",
+      "sha256": "56315a2d8748d3532c21bca3b90b724683c572a6b1b8c8486710b112d6ffa8bb",
+      "placed": true
+    },
+    {
+      "name": "BX_OperatorIsland",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_OperatorIsland.fbx",
+      "triangles": 38880,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_OperatorIsland.blend",
+      "sha256": "27179db22989a9446fe626abac3212fa8d2a3dedb23f5f1d8c6374b76ebe8cb4",
+      "placed": true
+    },
+    {
+      "name": "BX_CalibrationRack",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_CalibrationRack.fbx",
+      "triangles": 27718,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_CalibrationRack.blend",
+      "sha256": "85f94e5278fa2d5d4b8fe8f787c3466be30fd6e9660ea817ff43d86cfbae84bc",
+      "placed": true
+    },
+    {
+      "name": "BX_TimingReferenceTower",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_TimingReferenceTower.fbx",
+      "triangles": 17410,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_TimingReferenceTower.blend",
+      "sha256": "b0bf2266558cf6278b8f6dc945602eb6bd8d08cfdbf3b362e33185228ed4d78e",
+      "placed": true
+    },
+    {
+      "name": "BX_MobileAcquisitionCart",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_MobileAcquisitionCart.fbx",
+      "triangles": 23978,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_MobileAcquisitionCart.blend",
+      "sha256": "e347352c836de951b05266e7069f6060f395ac25516e1d3d3668fa15d98e58e9",
+      "placed": true
+    },
+    {
+      "name": "BX_ProjectileCabinet",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_ProjectileCabinet.fbx",
+      "triangles": 9874,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_ProjectileCabinet.blend",
+      "sha256": "64d182c4f59e0de17c62d851579fff77d55bf10f61c980b730bd4ff039c18588",
+      "placed": true
+    },
+    {
+      "name": "BX_TargetRecoveryTrolley",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_TargetRecoveryTrolley.fbx",
+      "triangles": 12372,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_TargetRecoveryTrolley.blend",
+      "sha256": "436dcb982dfc6c3ecfb43ad48dc4ff3610de1bac1a5dc0c24f1bf97490db4357",
+      "placed": true
+    },
+    {
+      "name": "BX_EquipmentCaseRack",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_EquipmentCaseRack.fbx",
+      "triangles": 12884,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_EquipmentCaseRack.blend",
+      "sha256": "5665d591f5bca82d6eb62c71683449e4fffa85dfa691468fb770fea57e860782",
+      "placed": true
+    },
+    {
+      "name": "BX_ElectrodePrepBench",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_ElectrodePrepBench.fbx",
+      "triangles": 11258,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_ElectrodePrepBench.blend",
+      "sha256": "154c85ceca59a437846b0dda157b3d7968a7af32aa8a2dcf622e8eb9a07a2736",
+      "placed": true
+    },
+    {
+      "name": "BX_RecoveryRecliner",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_RecoveryRecliner.fbx",
+      "triangles": 2352,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_RecoveryRecliner.blend",
+      "sha256": "f49c1427d17f3154642fa0051c73813a8f5441c1776707988a1f191bbb928605",
+      "placed": true
+    },
+    {
+      "name": "BX_EmergencyCart",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_EmergencyCart.fbx",
+      "triangles": 14106,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_EmergencyCart.blend",
+      "sha256": "bb1a812f6dcf5060d684aa9c326044f807335df2aa98385b5294bf4a483c291d",
+      "placed": true
+    },
+    {
+      "name": "BX_UtilityServiceSpine",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_UtilityServiceSpine.fbx",
+      "triangles": 8662,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_UtilityServiceSpine.blend",
+      "sha256": "1fa4078374073b4752e22d4a3335173495aad91c8121d1a6528df3bde7f73f36",
+      "placed": true
+    },
+    {
+      "name": "BX_DualReviewStation",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_DualReviewStation.fbx",
+      "triangles": 26904,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_DualReviewStation.blend",
+      "sha256": "1126b64ac98223d0e6a9ae39aac6428c1b11fe6534d3ec4fdf675b2d816356f1",
+      "placed": true
+    },
+    {
+      "name": "BX_ProtocolTable",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_ProtocolTable.fbx",
+      "triangles": 8102,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_ProtocolTable.blend",
+      "sha256": "6aca9a12d115e065fe946349f774042c0dabd9bd8c83fe54d801316b04a3daf2",
+      "placed": true
+    },
+    {
+      "name": "BX_EquipmentWashStation",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_EquipmentWashStation.fbx",
+      "triangles": 11072,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_EquipmentWashStation.blend",
+      "sha256": "f0ffd4383648ee8dbce6bc35156cbfbf0f6d6fd611a41bfd85b5e32df4120e93",
+      "placed": true
+    },
+    {
+      "name": "BX_CleanReturnCabinet",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_CleanReturnCabinet.fbx",
+      "triangles": 14578,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_CleanReturnCabinet.blend",
+      "sha256": "d7fc3bc0fc78ba1f7b92b7e1bf8e671a9dd4a9bc65ec253a1cccc0278df1455d",
+      "placed": true
+    },
+    {
+      "name": "BX_ConsumableWall",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_ConsumableWall.fbx",
+      "triangles": 15654,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_ConsumableWall.blend",
+      "sha256": "b46e422242915fa38f9abf8e7fd320d172cbd9696f6216f1201e328c3886c833",
+      "placed": true
+    },
+    {
+      "name": "BX_TrialInterlock",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_TrialInterlock.fbx",
+      "triangles": 7026,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_TrialInterlock.blend",
+      "sha256": "9b581ece7f62a3c1b0cb722d9c69ee0c175eecde1436b19121e4db48186a3009",
+      "placed": true
+    },
+    {
+      "name": "BX_ShieldPowerPack",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_ShieldPowerPack.fbx",
+      "triangles": 14354,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_ShieldPowerPack.blend",
+      "sha256": "0233665b47064e22e06f5514ebf3b9e873a49eb56be7c96079eac3a002c5a467",
+      "placed": true
+    },
+    {
+      "name": "BX_SafetyEquipment",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_SafetyEquipment.fbx",
+      "triangles": 1790,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_SafetyEquipment.blend",
+      "sha256": "13eb5e8995f75b22538bdbb1cc2c36d39a2ee30e6b69910729945b851fd57b4d",
+      "placed": true
+    },
+    {
+      "name": "BX_AcousticPartition",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_AcousticPartition.fbx",
+      "triangles": 11844,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_AcousticPartition.blend",
+      "sha256": "51921d2c26a4350a1ba21b64211f23449519eb008aa7138dde405f8444f1a14f",
+      "placed": true
+    },
+    {
+      "name": "BX_InstrumentServiceBay",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_InstrumentServiceBay.fbx",
+      "triangles": 13210,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_InstrumentServiceBay.blend",
+      "sha256": "92b7620baa20a53f7b91399c2c381516af3eb18ad3f7ec8c1b8d9f6e26fea784",
+      "placed": true
+    },
+    {
+      "name": "BX_SmallSupplyCart",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_SmallSupplyCart.fbx",
+      "triangles": 12876,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_SmallSupplyCart.blend",
+      "sha256": "2901d63739ff03ff820be40595a81312de85e7ed17c8ae2239cc43c6285efca7",
+      "placed": true
+    },
+    {
+      "name": "BX_RollingCableReel",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_RollingCableReel.fbx",
+      "triangles": 6636,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_RollingCableReel.blend",
+      "sha256": "2cdb6484a4ceed77ff2aa6a8262a03de5046fb87f35654def8fda6cfbf5aea2a",
+      "placed": true
+    },
+    {
+      "name": "BX_TaskLightPole",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_TaskLightPole.fbx",
+      "triangles": 2664,
+      "source": "SourceAssets/B4_ExperimentOperations/BX_TaskLightPole.blend",
+      "sha256": "01546bb567181d2cdcaa7b496cf0c47a4810f2ed5875809f4d63e523f7d9a129",
+      "placed": true
+    }
+  ],
+  "placements": 210,
+  "usedNewModels": 34,
+  "reusedAssets": [
+    "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+    "Assets/Afrer_Seconds/05.Model/Environment/B4/Materials/B4O_*"
+  ],
+  "textures": [
+    "BX_Display_23..40: 정적 화면18장",
+    "BX_Display_41..42: 밀착 장비/접근 라벨2장",
+    "기존 B4O Base/Normal 공용 PBR 재사용"
+  ],
+  "sourcePrograms": [
+    "equipment.py",
+    "worklight.py",
+    "textures.py"
+  ],
+  "sceneAssembly": [
+    "Apply.cs",
+    "Repair.cs",
+    "BoothAccess.cs",
+    "FunctionScreens.cs"
+  ],
+  "layout": "SourceAssets/B4_ExperimentOperations/layout.json",
+  "report": "Docs/검수/2026-11-08_B4_ExperimentOperations/검수결과.md",
+  "limits": [
+    "정적 아트; 화면 수치는 장식용 예시이며 게임 규칙이 아님",
+    "문/승강기/시험장비/감시 기능 및 B5↔B4↔B3 전환은 후속",
+    "최종 아트와 조명/성능은 사용자 전체 검수 후 마감"
+  ]
+}

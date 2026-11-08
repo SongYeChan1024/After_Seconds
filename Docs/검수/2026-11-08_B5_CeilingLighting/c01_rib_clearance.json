@@ -1,0 +1,166 @@
+{
+  "geometry": {
+    "ribNames": [
+      "AF_C01_ThreePortalRibs"
+    ],
+    "sampleAngles": [
+      {
+        "deg": -150.0,
+        "count": 37
+      },
+      {
+        "deg": -145.0,
+        "count": 37
+      },
+      {
+        "deg": -105.0,
+        "count": 37
+      },
+      {
+        "deg": -100.0,
+        "count": 37
+      },
+      {
+        "deg": -60.0,
+        "count": 37
+      },
+      {
+        "deg": -55.0,
+        "count": 37
+      },
+      {
+        "deg": -15.0,
+        "count": 37
+      },
+      {
+        "deg": -10.0,
+        "count": 37
+      },
+      {
+        "deg": 30.0,
+        "count": 37
+      },
+      {
+        "deg": 35.0,
+        "count": 37
+      },
+      {
+        "deg": 75.0,
+        "count": 37
+      },
+      {
+        "deg": 80.0,
+        "count": 37
+      },
+      {
+        "deg": 120.0,
+        "count": 37
+      },
+      {
+        "deg": 125.0,
+        "count": 37
+      },
+      {
+        "deg": 165.0,
+        "count": 37
+      },
+      {
+        "deg": 170.0,
+        "count": 37
+      }
+    ],
+    "fixtures": [
+      {
+        "name": "C01_천장등_01",
+        "position": "(-9.71, -73.84, -9.07)",
+        "angle": 10.0000019,
+        "nearestRibVertex": 1.91867709,
+        "radius": 0.995101333
+      },
+      {
+        "name": "C01_천장등_02",
+        "position": "(-11.92, -73.84, -5.60)",
+        "angle": 55.0,
+        "nearestRibVertex": 1.918677,
+        "radius": 1.1323539
+      },
+      {
+        "name": "C01_천장등_03",
+        "position": "(-15.93, -73.84, -4.71)",
+        "angle": 100.0,
+        "nearestRibVertex": 1.91867757,
+        "radius": 0.995101631
+      },
+      {
+        "name": "C01_천장등_04",
+        "position": "(-19.40, -73.84, -6.92)",
+        "angle": 145.0,
+        "nearestRibVertex": 1.91867685,
+        "radius": 1.13235378
+      },
+      {
+        "name": "C01_천장등_05",
+        "position": "(-20.29, -73.84, -10.93)",
+        "angle": -170.0,
+        "nearestRibVertex": 1.91867733,
+        "radius": 0.9951014
+      },
+      {
+        "name": "C01_천장등_06",
+        "position": "(-18.08, -73.84, -14.40)",
+        "angle": -125.0,
+        "nearestRibVertex": 1.91867685,
+        "radius": 1.13235366
+      },
+      {
+        "name": "C01_천장등_07",
+        "position": "(-14.07, -73.84, -15.29)",
+        "angle": -80.0,
+        "nearestRibVertex": 1.91867733,
+        "radius": 0.9951014
+      },
+      {
+        "name": "C01_천장등_08",
+        "position": "(-10.60, -73.84, -13.08)",
+        "angle": -35.00002,
+        "nearestRibVertex": 1.9186759,
+        "radius": 1.13235366
+      }
+    ]
+  },
+  "clearance": [
+    {
+      "name": "C01_천장등_01",
+      "conservativeClearance": 0.934785366
+    },
+    {
+      "name": "C01_천장등_02",
+      "conservativeClearance": 0.7975329
+    },
+    {
+      "name": "C01_천장등_03",
+      "conservativeClearance": 0.9347852
+    },
+    {
+      "name": "C01_천장등_04",
+      "conservativeClearance": 0.7975329
+    },
+    {
+      "name": "C01_천장등_05",
+      "conservativeClearance": 0.9347852
+    },
+    {
+      "name": "C01_천장등_06",
+      "conservativeClearance": 0.7975327
+    },
+    {
+      "name": "C01_천장등_07",
+      "conservativeClearance": 0.9347853
+    },
+    {
+      "name": "C01_천장등_08",
+      "conservativeClearance": 0.797532439
+    }
+  ],
+  "minClearance": 0.797532439
+}

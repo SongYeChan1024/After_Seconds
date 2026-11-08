@@ -1,0 +1,569 @@
+[
+  {
+    "name": "B4_N01_연구작업석_02",
+    "before": {
+      "room": "N01",
+      "name": "B4_N01_연구작업석_02",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_ObservationConsole.fbx",
+      "position": [
+        -4.9483888424098685,
+        0,
+        7.199950443088351
+      ],
+      "yaw": 145.5,
+      "size": [
+        2.15,
+        1.504283,
+        1.087534
+      ],
+      "center": [
+        0.0,
+        0.760358453,
+        -0.06976698
+      ],
+      "meshCollider": false
+    },
+    "position": [
+      -2.6,
+      0,
+      5.0
+    ],
+    "yaw": 180
+  },
+  {
+    "name": "B4_N01_작업의자_03",
+    "before": {
+      "room": "N01",
+      "name": "B4_N01_작업의자_03",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        -4.3706544807465395,
+        0,
+        6.359341730693895
+      ],
+      "yaw": 325.5,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "meshCollider": false
+    },
+    "position": [
+      -2.6,
+      0,
+      3.98
+    ],
+    "yaw": 0
+  },
+  {
+    "name": "B4_N01_연구작업석_04",
+    "before": {
+      "room": "N01",
+      "name": "B4_N01_연구작업석_04",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_ObservationConsole.fbx",
+      "position": [
+        4.758220422574373,
+        0,
+        7.3270169188292975
+      ],
+      "yaw": 213.0,
+      "size": [
+        2.15,
+        1.504283,
+        1.087534
+      ],
+      "center": [
+        0.0,
+        0.760358453,
+        -0.06976698
+      ],
+      "meshCollider": false
+    },
+    "position": [
+      0,
+      0,
+      5.0
+    ],
+    "yaw": 180
+  },
+  {
+    "name": "B4_N01_작업의자_05",
+    "before": {
+      "room": "N01",
+      "name": "B4_N01_작업의자_05",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        4.202688606859046,
+        0,
+        6.4715729395249655
+      ],
+      "yaw": 33.0,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "meshCollider": false
+    },
+    "position": [
+      0,
+      0,
+      3.98
+    ],
+    "yaw": 0
+  },
+  {
+    "name": "B4_N01_연구작업석_06",
+    "before": {
+      "room": "N01",
+      "name": "B4_N01_연구작업석_06",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_TrialControlConsole.fbx",
+      "position": [
+        -7.19995044308835,
+        0,
+        4.94838884240987
+      ],
+      "yaw": 124.5,
+      "size": [
+        2.15,
+        1.504283,
+        1.087534
+      ],
+      "center": [
+        0.0,
+        0.760358453,
+        -0.06976698
+      ],
+      "meshCollider": false
+    },
+    "position": [
+      2.6,
+      0,
+      5.0
+    ],
+    "yaw": 180
+  },
+  {
+    "name": "B4_N01_작업의자_07",
+    "before": {
+      "room": "N01",
+      "name": "B4_N01_작업의자_07",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        -6.359341730693894,
+        0,
+        4.370654480746541
+      ],
+      "yaw": 304.5,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "meshCollider": false
+    },
+    "position": [
+      2.6,
+      0,
+      3.98
+    ],
+    "yaw": 0
+  },
+  {
+    "name": "B4_N01_교대구획_12",
+    "before": {
+      "room": "N01",
+      "name": "B4_N01_교대구획_12",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BF_GlazedDivider.fbx",
+      "position": [
+        -9.149601437388114,
+        0,
+        0.9616618620624143
+      ],
+      "yaw": 96.0,
+      "size": [
+        2.66999984,
+        2.5,
+        0.3
+      ],
+      "center": [
+        0.0,
+        1.25,
+        0.0
+      ],
+      "meshCollider": true
+    },
+    "position": [
+      -4.3,
+      0,
+      4.6
+    ],
+    "yaw": 90
+  },
+  {
+    "name": "B4_N01_관제구획_가림_13",
+    "cloneFrom": "B4_N01_교대구획_12",
+    "position": [
+      4.3,
+      0,
+      4.6
+    ],
+    "yaw": 90
+  },
+  {
+    "name": "B4_E02_연구작업석_01",
+    "before": {
+      "room": "E02",
+      "name": "B4_E02_연구작업석_01",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BF_ResearchDesk.fbx",
+      "position": [
+        7.899159619908679,
+        0,
+        0.41397741388168596
+      ],
+      "yaw": 267.0,
+      "size": [
+        2.1,
+        1.65749991,
+        0.88
+      ],
+      "center": [
+        0.0,
+        0.83374995,
+        0.0
+      ],
+      "meshCollider": false
+    },
+    "position": [
+      5.2,
+      0,
+      -3
+    ],
+    "yaw": 270
+  },
+  {
+    "name": "B4_E02_작업의자_02",
+    "before": {
+      "room": "E02",
+      "name": "B4_E02_작업의자_02",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        6.880557494459014,
+        0,
+        0.3605947385138828
+      ],
+      "yaw": 87.0,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "meshCollider": false
+    },
+    "position": [
+      4.18,
+      0,
+      -3
+    ],
+    "yaw": 90
+  },
+  {
+    "name": "B4_E02_연구작업석_03",
+    "before": {
+      "room": "E02",
+      "name": "B4_E02_연구작업석_03",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BF_ResearchDesk.fbx",
+      "position": [
+        7.139449599207398,
+        0,
+        3.4053427757536148
+      ],
+      "yaw": 244.5,
+      "size": [
+        2.1,
+        1.65749991,
+        0.88
+      ],
+      "center": [
+        0.0,
+        0.83374995,
+        0.0
+      ],
+      "meshCollider": false
+    },
+    "position": [
+      5.2,
+      0,
+      0
+    ],
+    "yaw": 270
+  },
+  {
+    "name": "B4_E02_작업의자_04",
+    "before": {
+      "room": "E02",
+      "name": "B4_E02_작업의자_04",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        6.2188126091705405,
+        0,
+        2.9662214570091536
+      ],
+      "yaw": 64.5,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "meshCollider": false
+    },
+    "position": [
+      4.18,
+      0,
+      0
+    ],
+    "yaw": 90
+  },
+  {
+    "name": "B4_E02_연구작업석_05",
+    "before": {
+      "room": "E02",
+      "name": "B4_E02_연구작업석_05",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BF_ResearchDesk.fbx",
+      "position": [
+        7.384621173592865,
+        0,
+        -2.834690480903329
+      ],
+      "yaw": 291.0,
+      "size": [
+        2.1,
+        1.65749991,
+        0.88
+      ],
+      "center": [
+        0.0,
+        0.83374995,
+        0.0
+      ],
+      "meshCollider": false
+    },
+    "position": [
+      5.2,
+      0,
+      3
+    ],
+    "yaw": 270
+  },
+  {
+    "name": "B4_E02_작업의자_06",
+    "before": {
+      "room": "E02",
+      "name": "B4_E02_작업의자_06",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        6.4323691385657185,
+        0,
+        -2.4691551723671226
+      ],
+      "yaw": 111.0,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "meshCollider": false
+    },
+    "position": [
+      4.18,
+      0,
+      3
+    ],
+    "yaw": 90
+  },
+  {
+    "name": "B4_E02_집중작업구획_11",
+    "before": {
+      "room": "E02",
+      "name": "B4_E02_집중작업구획_11",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BF_GlazedDivider.fbx",
+      "position": [
+        1.85589064265445,
+        0,
+        -7.730340867161528
+      ],
+      "yaw": 346.5,
+      "size": [
+        2.66999984,
+        2.5,
+        0.3
+      ],
+      "center": [
+        0.0,
+        1.25,
+        0.0
+      ],
+      "meshCollider": true
+    },
+    "position": [
+      5.3,
+      0,
+      -1.5
+    ],
+    "yaw": 0
+  },
+  {
+    "name": "B4_E02_집중작업구획_12",
+    "cloneFrom": "B4_E02_집중작업구획_11",
+    "position": [
+      5.3,
+      0,
+      1.5
+    ],
+    "yaw": 0
+  },
+  {
+    "name": "B4_E02_연구검토테이블_07",
+    "before": {
+      "room": "E02",
+      "name": "B4_E02_연구검토테이블_07",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_BriefingTable.fbx",
+      "position": [
+        5.300330232841905,
+        0,
+        5.585382656794614
+      ],
+      "yaw": 223.5,
+      "size": [
+        1.8,
+        1.27749991,
+        1.3
+      ],
+      "center": [
+        0.0,
+        0.638749957,
+        0.0
+      ],
+      "meshCollider": false
+    },
+    "position": [
+      0.8,
+      0,
+      4.5
+    ],
+    "yaw": 0
+  },
+  {
+    "name": "B4_E02_검토회의석_13",
+    "cloneFrom": "B4_E02_작업의자_02",
+    "position": [
+      0.8,
+      0,
+      5.8
+    ],
+    "yaw": 180
+  },
+  {
+    "name": "B4_E02_검토회의석_14",
+    "cloneFrom": "B4_E02_작업의자_02",
+    "position": [
+      0.8,
+      0,
+      3.2
+    ],
+    "yaw": 0
+  },
+  {
+    "name": "B4_C04_신호분석대_01",
+    "before": {
+      "room": "C04",
+      "name": "B4_C04_신호분석대_01",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BF_AnalysisBench.fbx",
+      "position": [
+        5.984235540150471,
+        0,
+        3.454999999999999
+      ],
+      "yaw": 240.0,
+      "size": [
+        2.64999986,
+        1.505,
+        0.88
+      ],
+      "center": [
+        0.0,
+        0.7575,
+        0.0
+      ],
+      "meshCollider": false
+    },
+    "position": [
+      4.65,
+      0,
+      2.685
+    ],
+    "yaw": 240
+  },
+  {
+    "name": "B4_C04_시료측정대_02",
+    "before": {
+      "room": "C04",
+      "name": "B4_C04_시료측정대_02",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BF_AnalysisBench.fbx",
+      "position": [
+        -1.9625460319041053,
+        0,
+        -6.625444367939213
+      ],
+      "yaw": 16.5,
+      "size": [
+        2.64999986,
+        1.505,
+        0.88
+      ],
+      "center": [
+        0.0,
+        0.7575,
+        0.0
+      ],
+      "meshCollider": false
+    },
+    "position": [
+      -1.54,
+      0,
+      -5.2
+    ],
+    "yaw": 16.5
+  }
+]

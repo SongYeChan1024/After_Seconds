@@ -1,0 +1,210 @@
+{
+  "author": "송예찬",
+  "date": "2026-11-08",
+  "task": "B4 중앙 관찰동 대표 구역 / T02 접근 복도",
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B4_Circular.unity",
+  "source": "로컬 Blender 제작 및 Pillow 정적 화면 제작. 기존 공용 PBR·의자·터널 리브 재사용. 외부 생성/다운로드 에셋 없음.",
+  "newModels": [
+    {
+      "name": "BO_C01_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_C01_Shell.fbx",
+      "triangles": 6330,
+      "parts": 1,
+      "source": "SourceAssets/B4_Observation/BO_C01_Shell.blend",
+      "sha256": "27bdd548d1cdd41733cbd64e88d9abb1140275d2a5ce3158ffaf0687b47ccea9"
+    },
+    {
+      "name": "BO_C01_Floor",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_C01_Floor.fbx",
+      "triangles": 1916,
+      "parts": 1,
+      "source": "SourceAssets/B4_Observation/BO_C01_Floor.blend",
+      "sha256": "ee39769bfd24695ef2f590566c6aadaac38e4ba610ebdef87131705d3012d0c8"
+    },
+    {
+      "name": "BO_C01_PanelsRibs",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_C01_PanelsRibs.fbx",
+      "triangles": 147156,
+      "parts": 445,
+      "source": "SourceAssets/B4_Observation/BO_C01_PanelsRibs.blend",
+      "sha256": "6535f36108f80b594d1f79684c8aed19e9d3b8eb10996ccd80f36dc2c78c27d8"
+    },
+    {
+      "name": "BO_C01_DeckStructure",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_C01_DeckStructure.fbx",
+      "triangles": 28864,
+      "parts": 112,
+      "source": "SourceAssets/B4_Observation/BO_C01_DeckStructure.blend",
+      "sha256": "6d15d041e106633dda518403f0b4d3a636c65f53da7dfb3e0d72e94270a1382e"
+    },
+    {
+      "name": "BO_C01_DeckGuards",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_C01_DeckGuards.fbx",
+      "triangles": 40200,
+      "parts": 174,
+      "source": "SourceAssets/B4_Observation/BO_C01_DeckGuards.blend",
+      "sha256": "2c93b6d57990b8eaa44e83b1cbfb9bbf7a845e1889ae790c5c8d3dc76dc4872e"
+    },
+    {
+      "name": "BO_C01_Stairs",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_C01_Stairs.fbx",
+      "triangles": 33912,
+      "parts": 178,
+      "source": "SourceAssets/B4_Observation/BO_C01_Stairs.blend",
+      "sha256": "ffacb9be48cd005682fd7ef77fc1d8f2f6caf9d04fff1c81424382ac40bda683"
+    },
+    {
+      "name": "BO_C01_Services",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_C01_Services.fbx",
+      "triangles": 19744,
+      "parts": 104,
+      "source": "SourceAssets/B4_Observation/BO_C01_Services.blend",
+      "sha256": "76b33c727199b0bf3de1d43213fe1cdaa0d258b4c51322dbfacfe50c7dc52265"
+    },
+    {
+      "name": "BO_C01_MeasurementFloor",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_C01_MeasurementFloor.fbx",
+      "triangles": 15184,
+      "parts": 80,
+      "source": "SourceAssets/B4_Observation/BO_C01_MeasurementFloor.blend",
+      "sha256": "1546d212faea909e6498f7b46bbbc1b540fcd51bd40d3cfe437f421a4b5bb49e"
+    },
+    {
+      "name": "BO_T02_ApproachShell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_T02_ApproachShell.fbx",
+      "triangles": 356,
+      "parts": 2,
+      "source": "SourceAssets/B4_Observation/BO_T02_ApproachShell.blend",
+      "sha256": "9143cef41ecda13f32ad8fdbef2c61a95239f747d5a7b10d315405c4114f4049"
+    },
+    {
+      "name": "BO_ObservationConsole",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_ObservationConsole.fbx",
+      "triangles": 27380,
+      "parts": 190,
+      "source": "SourceAssets/B4_Observation/BO_ObservationConsole.blend",
+      "sha256": "c0827e92e55bec7e521e75aca91218d95310b0af5062e821435ef926c2b8311c"
+    },
+    {
+      "name": "BO_TrialControlConsole",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_TrialControlConsole.fbx",
+      "triangles": 27380,
+      "parts": 190,
+      "source": "SourceAssets/B4_Observation/BO_TrialControlConsole.blend",
+      "sha256": "f7ffc2ea2486e5d8b676e78a19a8b105fa444557f0058efcdc41a45fa6948c6b"
+    },
+    {
+      "name": "BO_SensorPreparationBench",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_SensorPreparationBench.fbx",
+      "triangles": 16054,
+      "parts": 80,
+      "source": "SourceAssets/B4_Observation/BO_SensorPreparationBench.blend",
+      "sha256": "af4ccd524620e2ce07b48cb42ed88804cc86d7feeed7e787a349112548128081"
+    },
+    {
+      "name": "BO_AcquisitionRack",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_AcquisitionRack.fbx",
+      "triangles": 20454,
+      "parts": 172,
+      "source": "SourceAssets/B4_Observation/BO_AcquisitionRack.blend",
+      "sha256": "7915618f35928995a56cf2b353e39cd838250c4862cf4ac0f83c6deb588f9f1a"
+    },
+    {
+      "name": "BO_SensorStorage",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_SensorStorage.fbx",
+      "triangles": 7528,
+      "parts": 41,
+      "source": "SourceAssets/B4_Observation/BO_SensorStorage.blend",
+      "sha256": "0a81215a7670e92e12c6b65275feff8ef222e9e351cf3958fba58ce553785689"
+    },
+    {
+      "name": "BO_SynchronizationCart",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_SynchronizationCart.fbx",
+      "triangles": 8774,
+      "parts": 56,
+      "source": "SourceAssets/B4_Observation/BO_SynchronizationCart.blend",
+      "sha256": "e201281ae01d5a140f1cab286d3a790b72627601f437eeae937e3f3658276f38"
+    },
+    {
+      "name": "BO_OpticalTrackingCamera",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_OpticalTrackingCamera.fbx",
+      "triangles": 3248,
+      "parts": 12,
+      "source": "SourceAssets/B4_Observation/BO_OpticalTrackingCamera.blend",
+      "sha256": "d7d98e46dbafbe05403e1c74b5eaab2a6dc8a1c760aa27e2e747f1c7ab9641e9"
+    },
+    {
+      "name": "BO_CalibrationTarget",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_CalibrationTarget.fbx",
+      "triangles": 1436,
+      "parts": 53,
+      "source": "SourceAssets/B4_Observation/BO_CalibrationTarget.blend",
+      "sha256": "454fd3df1190be90979a38abd31093e8a69a2795051d2ad1ab1017e6dac139e1"
+    },
+    {
+      "name": "BO_SealedTaskLight",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_SealedTaskLight.fbx",
+      "triangles": 2008,
+      "parts": 10,
+      "source": "SourceAssets/B4_Observation/BO_SealedTaskLight.blend",
+      "sha256": "653e09072678c7ffce9251a52ae0d109f0675e6a55e631ed0d063fc59fec8dfb"
+    },
+    {
+      "name": "BO_VaultPortal",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_VaultPortal.fbx",
+      "triangles": 2360,
+      "parts": 10,
+      "source": "SourceAssets/B4_Observation/BO_VaultPortal.blend",
+      "sha256": "5dc7913b9620ec18bfe7d355bef44e52c5dbb902b0c874f39d17250acb161e2e"
+    },
+    {
+      "name": "BO_ClosedVaultDoor",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_ClosedVaultDoor.fbx",
+      "triangles": 3388,
+      "parts": 13,
+      "source": "SourceAssets/B4_Observation/BO_ClosedVaultDoor.blend",
+      "sha256": "6303816b3ddbcefb300fc3b3a4b62ab449fa496a77a080aeb5b5e4dd218643af"
+    },
+    {
+      "name": "BO_C01_Skirting",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_C01_Skirting.fbx",
+      "triangles": 51324,
+      "parts": 273,
+      "source": "SourceAssets/B4_Observation/BO_C01_Skirting.blend",
+      "sha256": "ae8811d51100e2e98612bf5ccb910dc58ca4e8afb686e49e4d4c2697581e3d2d"
+    },
+    {
+      "name": "BO_TrackingCameraSupport",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_TrackingCameraSupport.fbx",
+      "triangles": 1268,
+      "parts": 7,
+      "source": "SourceAssets/B4_Observation/BO_TrackingCameraSupport.blend",
+      "sha256": "7cc7c0f79f2ddcaad8f931238601427a5ddca7c2d5513d43540c37d8138aa2d0"
+    }
+  ],
+  "reusedAssets": [
+    "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+    "Assets/Afrer_Seconds/05.Model/Environment/Common/CFD_TunnelRib.prefab",
+    "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/LP_Coating_Base.png",
+    "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/LP_Concrete_Base.png",
+    "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/LP_Stainless_Base.png"
+  ],
+  "authoring": [
+    "SourceAssets/B4_Observation/architecture.py",
+    "SourceAssets/B4_Observation/props.py",
+    "SourceAssets/B4_Observation/textures.py"
+  ],
+  "sceneAssembly": [
+    "SourceAssets/B4_Observation/Build.cs",
+    "SourceAssets/B4_Observation/Refine.cs",
+    "SourceAssets/B4_Observation/FinishArt.cs",
+    "SourceAssets/B4_Observation/OcclusionSettings.cs:Detach"
+  ],
+  "report": "Docs/검수/2026-11-08_B4_Observation/검수결과.md",
+  "originalAssetsPreserved": true,
+  "limitations": [
+    "C01/T02 대표 구역만 구현",
+    "모니터/문/실험 장비는 정적 아트",
+    "나머지 B4 공간·층간 연결·게임 기능은 후속"
+  ]
+}

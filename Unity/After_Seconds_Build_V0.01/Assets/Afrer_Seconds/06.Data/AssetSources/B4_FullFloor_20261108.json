@@ -1,0 +1,882 @@
+{
+  "author": "송예찬",
+  "date": "2026-11-08",
+  "task": "B4 남은 전체 구역 일괄 제작",
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B4_Circular.unity",
+  "source": "로컬 Blender 모델 제작, Pillow 정적 화면·안내 텍스처 제작. 기존 B4/B5 장비와 공용 PBR 재사용. 외부 다운로드·유료 생성 없음.",
+  "newModels": [
+    {
+      "name": "BF_C02_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_C02_Shell.fbx",
+      "triangles": 6008,
+      "source": "SourceAssets/B4_FullFloor/BF_C02_Shell.blend",
+      "sha256": "59199de73713dcdb3e28d4061cfbb0129fe2e4927fa46c7ff7b295d52743baf9"
+    },
+    {
+      "name": "BF_C02_Floor",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_C02_Floor.fbx",
+      "triangles": 1488,
+      "source": "SourceAssets/B4_FullFloor/BF_C02_Floor.blend",
+      "sha256": "d853427bd05eb2e0d17bc4c803ba28b12e6031106bd8aefe81b958da7a68ccb9"
+    },
+    {
+      "name": "BF_C02_Lining",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_C02_Lining.fbx",
+      "triangles": 60808,
+      "source": "SourceAssets/B4_FullFloor/BF_C02_Lining.blend",
+      "sha256": "d57c3515312495e789708c65b352a0fefd36116b9eac07c3176852cf89617ed4"
+    },
+    {
+      "name": "BF_C02_Services",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_C02_Services.fbx",
+      "triangles": 8776,
+      "source": "SourceAssets/B4_FullFloor/BF_C02_Services.blend",
+      "sha256": "9c013cfa9d63c19e2b2d38a1262306ba8b018d571022f8914f27be622495c8a1"
+    },
+    {
+      "name": "BF_C03_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_C03_Shell.fbx",
+      "triangles": 6494,
+      "source": "SourceAssets/B4_FullFloor/BF_C03_Shell.blend",
+      "sha256": "fbf48cb379cc03d9a485dc5116f407b0ad63910fd1e312ee2eea2e96acc06345"
+    },
+    {
+      "name": "BF_C03_Floor",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_C03_Floor.fbx",
+      "triangles": 1532,
+      "source": "SourceAssets/B4_FullFloor/BF_C03_Floor.blend",
+      "sha256": "5f503e23ade57851e8367f9a04c81b45a90f3f5179a66800aea8e956df636afa"
+    },
+    {
+      "name": "BF_C03_Lining",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_C03_Lining.fbx",
+      "triangles": 55764,
+      "source": "SourceAssets/B4_FullFloor/BF_C03_Lining.blend",
+      "sha256": "3af8cefac9fd19a0d31321f0e18735d500a91831453e3adaf4a519b74070cf00"
+    },
+    {
+      "name": "BF_C03_Services",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_C03_Services.fbx",
+      "triangles": 8776,
+      "source": "SourceAssets/B4_FullFloor/BF_C03_Services.blend",
+      "sha256": "111418d3c4c05cb58adff1abc2408d42e5477779f0c7bd96170e1ddbb672269a"
+    },
+    {
+      "name": "BF_C04_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_C04_Shell.fbx",
+      "triangles": 6516,
+      "source": "SourceAssets/B4_FullFloor/BF_C04_Shell.blend",
+      "sha256": "89e9d5868e96cfb5ec846400d9186db4e09ef6592d99858af51732331b10fa26"
+    },
+    {
+      "name": "BF_C04_Floor",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_C04_Floor.fbx",
+      "triangles": 1532,
+      "source": "SourceAssets/B4_FullFloor/BF_C04_Floor.blend",
+      "sha256": "0c7858d814af8a9a47666c4a714bc3c8582c598c5797e9798bb3e828fa35b4db"
+    },
+    {
+      "name": "BF_C04_Lining",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_C04_Lining.fbx",
+      "triangles": 57300,
+      "source": "SourceAssets/B4_FullFloor/BF_C04_Lining.blend",
+      "sha256": "8ab0b50d52ae094f661b9d332f2a14b9d08f4e395e5f719adaf9d42ef25de39d"
+    },
+    {
+      "name": "BF_C04_Services",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_C04_Services.fbx",
+      "triangles": 7228,
+      "source": "SourceAssets/B4_FullFloor/BF_C04_Services.blend",
+      "sha256": "9304b1fec286dafef8e5b80d7a58ac1b023168dc0bd244168f016c435a8d62b2"
+    },
+    {
+      "name": "BF_C05_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_C05_Shell.fbx",
+      "triangles": 5956,
+      "source": "SourceAssets/B4_FullFloor/BF_C05_Shell.blend",
+      "sha256": "897bf5669cd3badc792a12dc66aa2a8d09eb10edb7fb1cae1fbf16e592ee0e87"
+    },
+    {
+      "name": "BF_C05_Floor",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_C05_Floor.fbx",
+      "triangles": 1532,
+      "source": "SourceAssets/B4_FullFloor/BF_C05_Floor.blend",
+      "sha256": "a02d02d33f7cc8a89722d4d7b2190c915859016e3b51a4fa483d785a44a280c4"
+    },
+    {
+      "name": "BF_C05_Lining",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_C05_Lining.fbx",
+      "triangles": 57300,
+      "source": "SourceAssets/B4_FullFloor/BF_C05_Lining.blend",
+      "sha256": "7511cdb75cdbb8daf8afbf58b2dcb41b1c437f702c3090894765541a20d16575"
+    },
+    {
+      "name": "BF_C05_Services",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_C05_Services.fbx",
+      "triangles": 8776,
+      "source": "SourceAssets/B4_FullFloor/BF_C05_Services.blend",
+      "sha256": "c0174a9446e1ea0b437414d4a5b9486aa0d7f10cf0553786845eff947b5713f7"
+    },
+    {
+      "name": "BF_VA_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_VA_Shell.fbx",
+      "triangles": 6264,
+      "source": "SourceAssets/B4_FullFloor/BF_VA_Shell.blend",
+      "sha256": "164622d7a552147c554d02d28b8dd753378b2073841c94a68a17b94d577629e5"
+    },
+    {
+      "name": "BF_VA_Floor",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_VA_Floor.fbx",
+      "triangles": 1532,
+      "source": "SourceAssets/B4_FullFloor/BF_VA_Floor.blend",
+      "sha256": "865bf63f5c59c872e0d2ae5ed8fcd710ba2cc8aac7d2b7c89f910bdbd7edaed3"
+    },
+    {
+      "name": "BF_VA_Lining",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_VA_Lining.fbx",
+      "triangles": 17656,
+      "source": "SourceAssets/B4_FullFloor/BF_VA_Lining.blend",
+      "sha256": "bd3516ce665607fb96a80a6707c05294746b68bce39850c26330f7cd2b2126d0"
+    },
+    {
+      "name": "BF_VA_Services",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_VA_Services.fbx",
+      "triangles": 7228,
+      "source": "SourceAssets/B4_FullFloor/BF_VA_Services.blend",
+      "sha256": "684895d1a2c7b8830f9e792102cc5d6788462d3852fb28770aeeea51ed29c0dc"
+    },
+    {
+      "name": "BF_VB_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_VB_Shell.fbx",
+      "triangles": 6236,
+      "source": "SourceAssets/B4_FullFloor/BF_VB_Shell.blend",
+      "sha256": "7b63dea0d299f1653f4a9c90623c4ada3379b5b4aae2cd5dd8f2d8db98a08d2a"
+    },
+    {
+      "name": "BF_VB_Floor",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_VB_Floor.fbx",
+      "triangles": 1532,
+      "source": "SourceAssets/B4_FullFloor/BF_VB_Floor.blend",
+      "sha256": "7b9a2e2829ca7a21126af4bf9086cef1362e5a9f982ada0e88cce680a6597d3b"
+    },
+    {
+      "name": "BF_VB_Lining",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_VB_Lining.fbx",
+      "triangles": 18096,
+      "source": "SourceAssets/B4_FullFloor/BF_VB_Lining.blend",
+      "sha256": "005824ab856e1c18c93ec22ecebe8967a7422d0ec309ef26271503ae54268fab"
+    },
+    {
+      "name": "BF_VB_Services",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_VB_Services.fbx",
+      "triangles": 7228,
+      "source": "SourceAssets/B4_FullFloor/BF_VB_Services.blend",
+      "sha256": "270ca457fd1bb0017260ee3939d34c0a532262e7ea54dce04da263c6250dd3f4"
+    },
+    {
+      "name": "BF_VL_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_VL_Shell.fbx",
+      "triangles": 6260,
+      "source": "SourceAssets/B4_FullFloor/BF_VL_Shell.blend",
+      "sha256": "79105c7a2ad8e2f29ac17fcecbc9c8f4470731074423cb5385e398e4e00805c6"
+    },
+    {
+      "name": "BF_VL_Floor",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_VL_Floor.fbx",
+      "triangles": 1532,
+      "source": "SourceAssets/B4_FullFloor/BF_VL_Floor.blend",
+      "sha256": "d3e3d599048bccfefb6b641d1c322bc4ea02303313999566cbc6d9fdabe38895"
+    },
+    {
+      "name": "BF_VL_Lining",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_VL_Lining.fbx",
+      "triangles": 17656,
+      "source": "SourceAssets/B4_FullFloor/BF_VL_Lining.blend",
+      "sha256": "75dfc8fa13ad62582c76e4f73993a7935312bd30b90183b6636353eebb84b612"
+    },
+    {
+      "name": "BF_VL_Services",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_VL_Services.fbx",
+      "triangles": 7228,
+      "source": "SourceAssets/B4_FullFloor/BF_VL_Services.blend",
+      "sha256": "b95b0c4691e87dec93ee58d4db179d48b57007d285bce52d9eeda35539a6647a"
+    },
+    {
+      "name": "BF_W01_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_W01_Shell.fbx",
+      "triangles": 5570,
+      "source": "SourceAssets/B4_FullFloor/BF_W01_Shell.blend",
+      "sha256": "b476f12d413ab377e4bb9a1101dd488b977d7b4f51f981ce98757223a29faedb"
+    },
+    {
+      "name": "BF_W01_Floor",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_W01_Floor.fbx",
+      "triangles": 1532,
+      "source": "SourceAssets/B4_FullFloor/BF_W01_Floor.blend",
+      "sha256": "76e30238076bf993b9574d992e5f02df1e7ba512e040127a37deec61ba994dea"
+    },
+    {
+      "name": "BF_W01_Lining",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_W01_Lining.fbx",
+      "triangles": 67828,
+      "source": "SourceAssets/B4_FullFloor/BF_W01_Lining.blend",
+      "sha256": "af93cf9b5b9332c62b10912f2489c8c58d12492ec803d7b0becff0b9a706be73"
+    },
+    {
+      "name": "BF_W01_Services",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_W01_Services.fbx",
+      "triangles": 11872,
+      "source": "SourceAssets/B4_FullFloor/BF_W01_Services.blend",
+      "sha256": "cc337974559a7839b9b0d86b39d2d1e9eb52a6e7b4ca4c7e3bb225abf474735f"
+    },
+    {
+      "name": "BF_W02_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_W02_Shell.fbx",
+      "triangles": 5546,
+      "source": "SourceAssets/B4_FullFloor/BF_W02_Shell.blend",
+      "sha256": "f15d65015f726464410929090dcde871c0e28427ed74c6c2843ac7cccf851a92"
+    },
+    {
+      "name": "BF_W02_Floor",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_W02_Floor.fbx",
+      "triangles": 1532,
+      "source": "SourceAssets/B4_FullFloor/BF_W02_Floor.blend",
+      "sha256": "95f84e28753716bd1be64d9540ffe4fa669f9f5aa63c5cdeab1daf08eab568d1"
+    },
+    {
+      "name": "BF_W02_Lining",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_W02_Lining.fbx",
+      "triangles": 68268,
+      "source": "SourceAssets/B4_FullFloor/BF_W02_Lining.blend",
+      "sha256": "335b2a2ea12ea75a9949a4d90b5bcb01f997a376829188318799dc9275b2bf24"
+    },
+    {
+      "name": "BF_W02_Services",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_W02_Services.fbx",
+      "triangles": 10324,
+      "source": "SourceAssets/B4_FullFloor/BF_W02_Services.blend",
+      "sha256": "0234e38ce5e866a86f6beb8e2e36b1eab5b6d8e778fb0de8e115b97fe21db8a8"
+    },
+    {
+      "name": "BF_W03_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_W03_Shell.fbx",
+      "triangles": 6036,
+      "source": "SourceAssets/B4_FullFloor/BF_W03_Shell.blend",
+      "sha256": "945b186ee663beae831444dded557e4c2940d32606a78b31c5587ca1f19e122f"
+    },
+    {
+      "name": "BF_W03_Floor",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_W03_Floor.fbx",
+      "triangles": 1532,
+      "source": "SourceAssets/B4_FullFloor/BF_W03_Floor.blend",
+      "sha256": "268ebfdebe77a5b7c2c39ca40e6384dd25710496f17ad53ec3f02e9cb36d784b"
+    },
+    {
+      "name": "BF_W03_Lining",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_W03_Lining.fbx",
+      "triangles": 63660,
+      "source": "SourceAssets/B4_FullFloor/BF_W03_Lining.blend",
+      "sha256": "9729295dd321d06e5527d6d2560d6c32a2e0f62132a717ceb9de0a5d778031f1"
+    },
+    {
+      "name": "BF_W03_Services",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_W03_Services.fbx",
+      "triangles": 7228,
+      "source": "SourceAssets/B4_FullFloor/BF_W03_Services.blend",
+      "sha256": "bc4e80eb7313c7d8281d902f289f77a7191dbb52c0b2f5f12e71bac438585731"
+    },
+    {
+      "name": "BF_E01_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_E01_Shell.fbx",
+      "triangles": 5564,
+      "source": "SourceAssets/B4_FullFloor/BF_E01_Shell.blend",
+      "sha256": "91aa4683f18cefcc866940231f0688b5d4fe636cccf8016545ba15398f2a2371"
+    },
+    {
+      "name": "BF_E01_Floor",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_E01_Floor.fbx",
+      "triangles": 1532,
+      "source": "SourceAssets/B4_FullFloor/BF_E01_Floor.blend",
+      "sha256": "d26ede6dc36c47a39cf204286b81ed3d4fd13717368ed9f0bc7cfb4893cebff0"
+    },
+    {
+      "name": "BF_E01_Lining",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_E01_Lining.fbx",
+      "triangles": 68048,
+      "source": "SourceAssets/B4_FullFloor/BF_E01_Lining.blend",
+      "sha256": "ac24feb519e740da08109d87c228e3f5876695974686488da8d3b63b964bcc54"
+    },
+    {
+      "name": "BF_E01_Services",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_E01_Services.fbx",
+      "triangles": 8776,
+      "source": "SourceAssets/B4_FullFloor/BF_E01_Services.blend",
+      "sha256": "9ab1174bde3c76e6362beccf0103385660cf281b88b9080bbb15c599b9c233fd"
+    },
+    {
+      "name": "BF_E02_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_E02_Shell.fbx",
+      "triangles": 5554,
+      "source": "SourceAssets/B4_FullFloor/BF_E02_Shell.blend",
+      "sha256": "8ea5c6588b9c35fd5e85f5416518cd9f8e530f9015bfa2d8e7b69b32d0f77563"
+    },
+    {
+      "name": "BF_E02_Floor",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_E02_Floor.fbx",
+      "triangles": 1532,
+      "source": "SourceAssets/B4_FullFloor/BF_E02_Floor.blend",
+      "sha256": "6ff506acdb1d2cc03313f668260d13a7b4199ec58dbf70facf1be35c24853921"
+    },
+    {
+      "name": "BF_E02_Lining",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_E02_Lining.fbx",
+      "triangles": 68924,
+      "source": "SourceAssets/B4_FullFloor/BF_E02_Lining.blend",
+      "sha256": "1138b375299af88cf45e5398e1f90121e72bb2119302408ae443474f4b02bee1"
+    },
+    {
+      "name": "BF_E02_Services",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_E02_Services.fbx",
+      "triangles": 10324,
+      "source": "SourceAssets/B4_FullFloor/BF_E02_Services.blend",
+      "sha256": "7c36f06cbab206b3a45fff3aadf1f2ecbfb4d2c478d5fab645b4e9248cb7896c"
+    },
+    {
+      "name": "BF_E03_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_E03_Shell.fbx",
+      "triangles": 5560,
+      "source": "SourceAssets/B4_FullFloor/BF_E03_Shell.blend",
+      "sha256": "967dfc1b349d8ce355c4362a1ce93524dbd53a39c7289606cc39f300e6e4ca68"
+    },
+    {
+      "name": "BF_E03_Floor",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_E03_Floor.fbx",
+      "triangles": 1532,
+      "source": "SourceAssets/B4_FullFloor/BF_E03_Floor.blend",
+      "sha256": "be2b2c145e2913d51763e1d7c563eb0bd110f33b710a0ed086df8add7e265546"
+    },
+    {
+      "name": "BF_E03_Lining",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_E03_Lining.fbx",
+      "triangles": 68484,
+      "source": "SourceAssets/B4_FullFloor/BF_E03_Lining.blend",
+      "sha256": "c8afbb5f18bc16f23dd720c604b011c5186217a5fd9f8b4fec96315592c1bee8"
+    },
+    {
+      "name": "BF_E03_Services",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_E03_Services.fbx",
+      "triangles": 11872,
+      "source": "SourceAssets/B4_FullFloor/BF_E03_Services.blend",
+      "sha256": "78cd177e3c87e2396987e8806126ca29347071359914c43eb00585b34a481806"
+    },
+    {
+      "name": "BF_N01_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_N01_Shell.fbx",
+      "triangles": 5572,
+      "source": "SourceAssets/B4_FullFloor/BF_N01_Shell.blend",
+      "sha256": "354f899c55ef5d18719da463dd0152785f0b44aaf0794707374f2c42c16f8959"
+    },
+    {
+      "name": "BF_N01_Floor",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_N01_Floor.fbx",
+      "triangles": 1532,
+      "source": "SourceAssets/B4_FullFloor/BF_N01_Floor.blend",
+      "sha256": "af7b4f00e18e5a37ea5b284c4940b43271f2902eaa71f1e7fbc682ab87e7687a"
+    },
+    {
+      "name": "BF_N01_Lining",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_N01_Lining.fbx",
+      "triangles": 69800,
+      "source": "SourceAssets/B4_FullFloor/BF_N01_Lining.blend",
+      "sha256": "4b90d106fe870ced012cde0c7fd719b8dbdb7ccd59a90294445772ec7891bdc0"
+    },
+    {
+      "name": "BF_N01_Services",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_N01_Services.fbx",
+      "triangles": 10324,
+      "source": "SourceAssets/B4_FullFloor/BF_N01_Services.blend",
+      "sha256": "3de97f11c5084da7088bf5419796198b453c6dfe1fc22bd326fac18aaf18d67e"
+    },
+    {
+      "name": "BF_S01_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_S01_Shell.fbx",
+      "triangles": 5566,
+      "source": "SourceAssets/B4_FullFloor/BF_S01_Shell.blend",
+      "sha256": "e029f6957090e3bc39fdaa9fed708364946a98cb863c3ff5f6bb0fff61a841f2"
+    },
+    {
+      "name": "BF_S01_Floor",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_S01_Floor.fbx",
+      "triangles": 1532,
+      "source": "SourceAssets/B4_FullFloor/BF_S01_Floor.blend",
+      "sha256": "7d0c2d60eafa4a817cc9a7730053280fe0e7197689d7ac99ba0a269f44f67d62"
+    },
+    {
+      "name": "BF_S01_Lining",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_S01_Lining.fbx",
+      "triangles": 69800,
+      "source": "SourceAssets/B4_FullFloor/BF_S01_Lining.blend",
+      "sha256": "c08def2e0426a628e74263a8cfeb53442befe1d0b8443674c9ccd8f06ec68ff2"
+    },
+    {
+      "name": "BF_S01_Services",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_S01_Services.fbx",
+      "triangles": 11872,
+      "source": "SourceAssets/B4_FullFloor/BF_S01_Services.blend",
+      "sha256": "7362c5e6787011e5be0316726841a180f91df36031490404312579ebd47a468d"
+    },
+    {
+      "name": "BF_T01_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T01_Shell.fbx",
+      "triangles": 622,
+      "source": "SourceAssets/B4_FullFloor/BF_T01_Shell.blend",
+      "sha256": "7d2b5558d846d415a00d4a6e899208c200ab3ca58f5a5abfa24d6baafdaa8109"
+    },
+    {
+      "name": "BF_T01_Finish",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T01_Finish.fbx",
+      "triangles": 15264,
+      "source": "SourceAssets/B4_FullFloor/BF_T01_Finish.blend",
+      "sha256": "053945cd5b39d2959a95e67c39707d4a1446f31a3e38d4c7e7d1a4ebbed83d08"
+    },
+    {
+      "name": "BF_T03_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T03_Shell.fbx",
+      "triangles": 530,
+      "source": "SourceAssets/B4_FullFloor/BF_T03_Shell.blend",
+      "sha256": "4d56fa64a7c48495b823d799d8c77417d61d3b62549073b0b1518033672940d7"
+    },
+    {
+      "name": "BF_T03_Finish",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T03_Finish.fbx",
+      "triangles": 11988,
+      "source": "SourceAssets/B4_FullFloor/BF_T03_Finish.blend",
+      "sha256": "91ab136a14c041c7759e5a91c8eb8cb7aa3062b9bccce7dff7132c565fb35ed3"
+    },
+    {
+      "name": "BF_T04_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T04_Shell.fbx",
+      "triangles": 612,
+      "source": "SourceAssets/B4_FullFloor/BF_T04_Shell.blend",
+      "sha256": "f073c98909ff9f86b7c1e63b92e07b29052b5f865d8b77fa1cb73240de19ad5d"
+    },
+    {
+      "name": "BF_T04_Finish",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T04_Finish.fbx",
+      "triangles": 13888,
+      "source": "SourceAssets/B4_FullFloor/BF_T04_Finish.blend",
+      "sha256": "cbfc86438229ebffc92e83aa95eb6c3316e653f5e71df7de8ba619791f49352d"
+    },
+    {
+      "name": "BF_T05_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T05_Shell.fbx",
+      "triangles": 568,
+      "source": "SourceAssets/B4_FullFloor/BF_T05_Shell.blend",
+      "sha256": "ba54cac0cc19edf03f017e1c060ab67a3fedaf0d8299365f737dff82ac673950"
+    },
+    {
+      "name": "BF_T05_Finish",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T05_Finish.fbx",
+      "triangles": 23588,
+      "source": "SourceAssets/B4_FullFloor/BF_T05_Finish.blend",
+      "sha256": "44097c64e05814190b236f7573c22e1b2e430bb31a96c955376c22f5a0aae801"
+    },
+    {
+      "name": "BF_T06_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T06_Shell.fbx",
+      "triangles": 510,
+      "source": "SourceAssets/B4_FullFloor/BF_T06_Shell.blend",
+      "sha256": "84625047a38e166b58a9927f200096514908507b8fb8086d25bf9d36d7da4701"
+    },
+    {
+      "name": "BF_T06_Finish",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T06_Finish.fbx",
+      "triangles": 13492,
+      "source": "SourceAssets/B4_FullFloor/BF_T06_Finish.blend",
+      "sha256": "6220b2661e76939d97e384333547e659a78070db94ec0bd572fae8c8452337fc"
+    },
+    {
+      "name": "BF_T07_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T07_Shell.fbx",
+      "triangles": 564,
+      "source": "SourceAssets/B4_FullFloor/BF_T07_Shell.blend",
+      "sha256": "1aa6dfe0c349f6759339a24a61d786d3546fc7ceca62c8d2ac1f4ec0480cffd8"
+    },
+    {
+      "name": "BF_T07_Finish",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T07_Finish.fbx",
+      "triangles": 33684,
+      "source": "SourceAssets/B4_FullFloor/BF_T07_Finish.blend",
+      "sha256": "744a4fb76cd147383948fdae65c3a28f8c9c2f3ff6c58ec8b2c3ab17c30ab017"
+    },
+    {
+      "name": "BF_T08_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T08_Shell.fbx",
+      "triangles": 556,
+      "source": "SourceAssets/B4_FullFloor/BF_T08_Shell.blend",
+      "sha256": "abd6fc780127d384db8df7f89ec1ee18374e0bb6ec8402ae30237ae66c08b360"
+    },
+    {
+      "name": "BF_T08_Finish",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T08_Finish.fbx",
+      "triangles": 13620,
+      "source": "SourceAssets/B4_FullFloor/BF_T08_Finish.blend",
+      "sha256": "4cb9f4c863cab7fe9838a440681fbe43a7fa12d0e0e459ea577e854545e940ea"
+    },
+    {
+      "name": "BF_T09_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T09_Shell.fbx",
+      "triangles": 644,
+      "source": "SourceAssets/B4_FullFloor/BF_T09_Shell.blend",
+      "sha256": "c98d6209cc1b6002367bd3c835479103a73629183d3693c0d08e11156750ee1d"
+    },
+    {
+      "name": "BF_T09_Finish",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T09_Finish.fbx",
+      "triangles": 17036,
+      "source": "SourceAssets/B4_FullFloor/BF_T09_Finish.blend",
+      "sha256": "29c3aba32504d71e55374e3c57e788a7edf415fe7ceccee62ef6542c349f2f94"
+    },
+    {
+      "name": "BF_T10_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T10_Shell.fbx",
+      "triangles": 598,
+      "source": "SourceAssets/B4_FullFloor/BF_T10_Shell.blend",
+      "sha256": "2d74acff5b3f3579073a44ad2e8c60f912573279e8c84e5e42995ee11a510963"
+    },
+    {
+      "name": "BF_T10_Finish",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T10_Finish.fbx",
+      "triangles": 22276,
+      "source": "SourceAssets/B4_FullFloor/BF_T10_Finish.blend",
+      "sha256": "5cb3e860974f31f2114f0bd825b8d98dac050012ac724bd79b4c27290f35dc9e"
+    },
+    {
+      "name": "BF_T11_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T11_Shell.fbx",
+      "triangles": 616,
+      "source": "SourceAssets/B4_FullFloor/BF_T11_Shell.blend",
+      "sha256": "8d742a0eeb60b02e5236282652dae364682dbc2ad352994f430fd24cc7353a5f"
+    },
+    {
+      "name": "BF_T11_Finish",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T11_Finish.fbx",
+      "triangles": 33684,
+      "source": "SourceAssets/B4_FullFloor/BF_T11_Finish.blend",
+      "sha256": "173ea248ba2605d55c32efc9b58b45b817b098434defaface11ad56d668e0138"
+    },
+    {
+      "name": "BF_T12_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T12_Shell.fbx",
+      "triangles": 550,
+      "source": "SourceAssets/B4_FullFloor/BF_T12_Shell.blend",
+      "sha256": "c2b444f98d256c0d4c75500823fb0b420073fd5cc2ece3923e258885ae193604"
+    },
+    {
+      "name": "BF_T12_Finish",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T12_Finish.fbx",
+      "triangles": 32040,
+      "source": "SourceAssets/B4_FullFloor/BF_T12_Finish.blend",
+      "sha256": "69bc5a4dd9168f9f45661b992f84ef4b350dcf5aa9e31d89cfa00b13fcf88f4c"
+    },
+    {
+      "name": "BF_T13_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T13_Shell.fbx",
+      "triangles": 550,
+      "source": "SourceAssets/B4_FullFloor/BF_T13_Shell.blend",
+      "sha256": "3a16e2c26c987f205f2fb2351c6c4d460ec8f2990d870ea102f4c428b18423fe"
+    },
+    {
+      "name": "BF_T13_Finish",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T13_Finish.fbx",
+      "triangles": 31976,
+      "source": "SourceAssets/B4_FullFloor/BF_T13_Finish.blend",
+      "sha256": "330e95c0ee20b63c3e2378e14099857980499fdbfd9b0642e5424df805a9b687"
+    },
+    {
+      "name": "BF_T14_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T14_Shell.fbx",
+      "triangles": 568,
+      "source": "SourceAssets/B4_FullFloor/BF_T14_Shell.blend",
+      "sha256": "c49a8c0d88a04e6a5a26c0ea9bdd6b243656c73cd32239a66832200c0d6a39c9"
+    },
+    {
+      "name": "BF_T14_Finish",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T14_Finish.fbx",
+      "triangles": 58656,
+      "source": "SourceAssets/B4_FullFloor/BF_T14_Finish.blend",
+      "sha256": "c9a683c561ce9055522e526df4071fa3c1a752d6349e02de939dd21540bc79f6"
+    },
+    {
+      "name": "BF_T15_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T15_Shell.fbx",
+      "triangles": 616,
+      "source": "SourceAssets/B4_FullFloor/BF_T15_Shell.blend",
+      "sha256": "004e88dbc0a8a9d26258ef8a037749885ff4822030dacb63f8cb46b9239afe16"
+    },
+    {
+      "name": "BF_T15_Finish",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T15_Finish.fbx",
+      "triangles": 33684,
+      "source": "SourceAssets/B4_FullFloor/BF_T15_Finish.blend",
+      "sha256": "f0d606ee111bfe23a2f5ea0ebefab37010726d8488b19106fe6f7e4a1ec98aaa"
+    },
+    {
+      "name": "BF_T16_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T16_Shell.fbx",
+      "triangles": 558,
+      "source": "SourceAssets/B4_FullFloor/BF_T16_Shell.blend",
+      "sha256": "4dd4797df0c5c0ae9617936d471d5e61c850b4bacc28bb2da03042c8fe2a8dd0"
+    },
+    {
+      "name": "BF_T16_Finish",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T16_Finish.fbx",
+      "triangles": 33684,
+      "source": "SourceAssets/B4_FullFloor/BF_T16_Finish.blend",
+      "sha256": "06397178a2dffe91066d7ac00b1ceecf680c4b3f5f365a319e218e2883630120"
+    },
+    {
+      "name": "BF_T17_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T17_Shell.fbx",
+      "triangles": 550,
+      "source": "SourceAssets/B4_FullFloor/BF_T17_Shell.blend",
+      "sha256": "9753661fc0779677e5264e46b9ee6a6d05368adece8d41a47a245d8817cfe64c"
+    },
+    {
+      "name": "BF_T17_Finish",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T17_Finish.fbx",
+      "triangles": 31912,
+      "source": "SourceAssets/B4_FullFloor/BF_T17_Finish.blend",
+      "sha256": "2e6abd3954e8538a189f51de45c43e0b9e2c43a84d7dadb0ae8352faac282dd7"
+    },
+    {
+      "name": "BF_T18_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T18_Shell.fbx",
+      "triangles": 616,
+      "source": "SourceAssets/B4_FullFloor/BF_T18_Shell.blend",
+      "sha256": "43f62d61de6b4506e165878a21ec815bcdae8c4063ff50034d3595d581efe5c4"
+    },
+    {
+      "name": "BF_T18_Finish",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T18_Finish.fbx",
+      "triangles": 38464,
+      "source": "SourceAssets/B4_FullFloor/BF_T18_Finish.blend",
+      "sha256": "b46dff7341a226acf0fa7323ad38b9bb61753e02f9628cdcea2576b9169cae08"
+    },
+    {
+      "name": "BF_T19_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T19_Shell.fbx",
+      "triangles": 570,
+      "source": "SourceAssets/B4_FullFloor/BF_T19_Shell.blend",
+      "sha256": "66462918d41555aaf38fcda049388a8a638e3ce554d24a43954cce273813395f"
+    },
+    {
+      "name": "BF_T19_Finish",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T19_Finish.fbx",
+      "triangles": 50332,
+      "source": "SourceAssets/B4_FullFloor/BF_T19_Finish.blend",
+      "sha256": "7c682dafaf5e715a703a2cd5684943a89d09d5c03199c55bb35f4688f2da48ba"
+    },
+    {
+      "name": "BF_T20_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T20_Shell.fbx",
+      "triangles": 570,
+      "source": "SourceAssets/B4_FullFloor/BF_T20_Shell.blend",
+      "sha256": "c8d183f4c2bf7a1c54701479077f12232e6960e002d7d9923ed8c8169c3be1f4"
+    },
+    {
+      "name": "BF_T20_Finish",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T20_Finish.fbx",
+      "triangles": 50332,
+      "source": "SourceAssets/B4_FullFloor/BF_T20_Finish.blend",
+      "sha256": "f534a207f63d64bd834556179deb9c3b834bfb970aa4047954558987d99aeda3"
+    },
+    {
+      "name": "BF_T21_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T21_Shell.fbx",
+      "triangles": 570,
+      "source": "SourceAssets/B4_FullFloor/BF_T21_Shell.blend",
+      "sha256": "b0a9ba18f1ae4fbbc9a2dda3ee592934ad083579721249dfcac529e9bbe21a3f"
+    },
+    {
+      "name": "BF_T21_Finish",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T21_Finish.fbx",
+      "triangles": 50332,
+      "source": "SourceAssets/B4_FullFloor/BF_T21_Finish.blend",
+      "sha256": "65111ca5b2e08c0ce19a2b131b2243ce3c69d7832695efea8dec250534b76384"
+    },
+    {
+      "name": "BF_T22_Shell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T22_Shell.fbx",
+      "triangles": 542,
+      "source": "SourceAssets/B4_FullFloor/BF_T22_Shell.blend",
+      "sha256": "aed2ef68bdbff04b69a305f23208616a06369fd656b5403e415fc2bb64e4235b"
+    },
+    {
+      "name": "BF_T22_Finish",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_T22_Finish.fbx",
+      "triangles": 85132,
+      "source": "SourceAssets/B4_FullFloor/BF_T22_Finish.blend",
+      "sha256": "405ab6c8a06be63965b3a5da644b915576daf95cf5d358dd1fa28a45f5016bba"
+    },
+    {
+      "name": "BF_VerticalStairs",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_VerticalStairs.fbx",
+      "triangles": 98252,
+      "source": "SourceAssets/B4_FullFloor/BF_VerticalStairs.blend",
+      "sha256": "07c3ce967a0d313b5a8d45c30236ab8441259b11ecf0964f2eb41ca83d8c3637"
+    },
+    {
+      "name": "BF_CargoLift",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BF_CargoLift.fbx",
+      "triangles": 13038,
+      "source": "SourceAssets/B4_FullFloor/BF_CargoLift.blend",
+      "sha256": "a947d8b1c15bfa97ded0c138d5972e17149faeef6bdaa99a6f4057b7a887f9f9"
+    },
+    {
+      "name": "BF_SensorWorkbench",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BF_SensorWorkbench.fbx",
+      "triangles": 8594,
+      "source": "SourceAssets/B4_FullFloor/BF_SensorWorkbench.blend",
+      "sha256": "a3183181a9b13ab510085aad630b6db040a9061c88cbd5cf0cd7badcf922680a"
+    },
+    {
+      "name": "BF_AnalysisBench",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BF_AnalysisBench.fbx",
+      "triangles": 11944,
+      "source": "SourceAssets/B4_FullFloor/BF_AnalysisBench.blend",
+      "sha256": "5198643c9f378dfef5f17fcd04a3d0ba550177f858df6bd7b8e218572296f645"
+    },
+    {
+      "name": "BF_ThrowLane",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BF_ThrowLane.fbx",
+      "triangles": 7290,
+      "source": "SourceAssets/B4_FullFloor/BF_ThrowLane.blend",
+      "sha256": "d9db64de474694309ec0ca98affeff2c08d7536834206055bfa66cc6c18f3784"
+    },
+    {
+      "name": "BF_TrajectoryGantry",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BF_TrajectoryGantry.fbx",
+      "triangles": 7720,
+      "source": "SourceAssets/B4_FullFloor/BF_TrajectoryGantry.blend",
+      "sha256": "e55ff065cb10955fde6eb9d49cf95cb3afd691d85c106f02e7167960f362b962"
+    },
+    {
+      "name": "BF_ReactionBooth",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BF_ReactionBooth.fbx",
+      "triangles": 12106,
+      "source": "SourceAssets/B4_FullFloor/BF_ReactionBooth.blend",
+      "sha256": "4b150dc9b8f8efa547fa0fbad9afe6d38650834db29348cff17ab2f03285f25f"
+    },
+    {
+      "name": "BF_DiagnosticChair",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BF_DiagnosticChair.fbx",
+      "triangles": 7170,
+      "source": "SourceAssets/B4_FullFloor/BF_DiagnosticChair.blend",
+      "sha256": "052fe21107a13814e52e5920ae860ba84db83c269c653ffea37ff6ed4cc36ab2"
+    },
+    {
+      "name": "BF_RecordRack",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BF_RecordRack.fbx",
+      "triangles": 48816,
+      "source": "SourceAssets/B4_FullFloor/BF_RecordRack.blend",
+      "sha256": "5a1c58586164687d494126a56f500ca6eda1d6dcb670b5c41a20aa72b31ff5d2"
+    },
+    {
+      "name": "BF_ResearchDesk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BF_ResearchDesk.fbx",
+      "triangles": 18590,
+      "source": "SourceAssets/B4_FullFloor/BF_ResearchDesk.blend",
+      "sha256": "d14bc8811480d2a6c9f165b8006b64a47e687c4946f98b59560dfee987eb1aed"
+    },
+    {
+      "name": "BF_InterpretationWall",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BF_InterpretationWall.fbx",
+      "triangles": 18684,
+      "source": "SourceAssets/B4_FullFloor/BF_InterpretationWall.blend",
+      "sha256": "359f3b1e6f085f80b84ea691a0142321ffd071bb05d9c2fe88fbee4bde008e3b"
+    },
+    {
+      "name": "BF_IntegratedControlWall",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BF_IntegratedControlWall.fbx",
+      "triangles": 27932,
+      "source": "SourceAssets/B4_FullFloor/BF_IntegratedControlWall.blend",
+      "sha256": "b905995273f3292e2aa46e48d9b056deb40c1f4ad4b8617de94a9e300834a98b"
+    },
+    {
+      "name": "BF_ShieldTestCell",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BF_ShieldTestCell.fbx",
+      "triangles": 9834,
+      "source": "SourceAssets/B4_FullFloor/BF_ShieldTestCell.blend",
+      "sha256": "45944b06098a8d53e19907089524eb7b8b0020583f1ec1b957e8993587d2f070"
+    },
+    {
+      "name": "BF_GlazedDivider",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BF_GlazedDivider.fbx",
+      "triangles": 1128,
+      "source": "SourceAssets/B4_FullFloor/BF_GlazedDivider.blend",
+      "sha256": "cec34a23a8df4212e883ac3f52f1e20a5016026ee9f4b1b447817b48368f320b"
+    },
+    {
+      "name": "BF_CustodyTransferHatch",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BF_CustodyTransferHatch.fbx",
+      "triangles": 10034,
+      "source": "SourceAssets/B4_FullFloor/BF_CustodyTransferHatch.blend",
+      "sha256": "0bc0953eddb293c1137dac14b03afb4006b9ebfcb6ad6e90ed2b504061452637"
+    }
+  ],
+  "reusedAssets": [
+    "Assets/Afrer_Seconds/05.Model/Props/B4/BO_AcquisitionRack.fbx",
+    "Assets/Afrer_Seconds/05.Model/Props/B4/BO_CalibrationTarget.fbx",
+    "Assets/Afrer_Seconds/05.Model/Props/B4/BO_ObservationConsole.fbx",
+    "Assets/Afrer_Seconds/05.Model/Props/B4/BO_SensorPreparationBench.fbx",
+    "Assets/Afrer_Seconds/05.Model/Props/B4/BO_SensorStorage.fbx",
+    "Assets/Afrer_Seconds/05.Model/Props/B4/BO_SynchronizationCart.fbx",
+    "Assets/Afrer_Seconds/05.Model/Props/B4/BO_TrialControlConsole.fbx",
+    "Assets/Afrer_Seconds/05.Model/Props/B5/SF_ArchiveCaseRack.fbx",
+    "Assets/Afrer_Seconds/05.Model/Props/B5/SF_BriefingTable.fbx",
+    "Assets/Afrer_Seconds/05.Model/Props/B5/SF_ColdStorage.fbx",
+    "Assets/Afrer_Seconds/05.Model/Props/B5/SF_LinenRack.fbx",
+    "Assets/Afrer_Seconds/05.Model/Props/B5/SF_MaintenanceBench.fbx",
+    "Assets/Afrer_Seconds/05.Model/Props/B5/SF_MedicalBed.fbx",
+    "Assets/Afrer_Seconds/05.Model/Props/B5/SF_MedicalGasStation.fbx",
+    "Assets/Afrer_Seconds/05.Model/Props/B5/SF_MedicalSterilizer.fbx",
+    "Assets/Afrer_Seconds/05.Model/Props/B5/SF_MedicationCabinet.fbx",
+    "Assets/Afrer_Seconds/05.Model/Props/B5/SF_SC_GearLockers.fbx",
+    "Assets/Afrer_Seconds/05.Model/Props/B5/SF_SC_NetworkRack.fbx",
+    "Assets/Afrer_Seconds/05.Model/Props/B5/SF_SC_RadioDutyStation.fbx",
+    "Assets/Afrer_Seconds/05.Model/Props/B5/SF_SC_UPSRack.fbx",
+    "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+    "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TransferNurseDesk.fbx",
+    "Assets/Afrer_Seconds/05.Model/Props/B5/SF_VitalCart.fbx",
+    "Assets/Afrer_Seconds/05.Model/Props/B5/SF_WaitingBench.fbx",
+    "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_VaultPortal.fbx",
+    "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_SealedTaskLight.fbx",
+    "Assets/Afrer_Seconds/05.Model/Environment/Common/CFD_TunnelRib.prefab"
+  ],
+  "textures": [
+    "BF_Display_07..22: 정적 계측/진단/관제 화면16장",
+    "BF_Guide_CODE: 목적지16장; 복도에만 배치",
+    "기존 B4O 재질의 Base/Normal 공용 PBR 재사용"
+  ],
+  "authoring": [
+    "architecture.py",
+    "props.py",
+    "textures.py",
+    "layout.py",
+    "refine_plan.py",
+    "refine_measurement.py"
+  ],
+  "sceneAssembly": [
+    "Apply.cs",
+    "Refine.cs",
+    "MeasureRefine.cs",
+    "Occlusion.cs"
+  ],
+  "report": "Docs/검수/2026-11-08_B4_FullFloor/검수결과.md",
+  "limits": [
+    "전체 B4 첫 외형 제작, 최종 아트는 사용자 검수 대기",
+    "모니터/측정 장비/문/화물 승강기 정적",
+    "B5↔B4↔B3 실제 연결과 게임 기믹·AI 미구현"
+  ]
+}

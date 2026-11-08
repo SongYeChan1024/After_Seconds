@@ -1,0 +1,18 @@
+{
+  "author": "송예찬",
+  "date": "2026-11-08",
+  "task": "B5 돔 천장등·복도 리브 사이 등기구 정렬",
+  "source": "기존 프로젝트 모델과 재질을 재사용. 외부 생성/다운로드 없음.",
+  "reusedAssets": [
+    "Assets/Afrer_Seconds/05.Model/Environment/B5/CL_PodCeilingLight.fbx",
+    "Assets/Afrer_Seconds/05.Model/Environment/Common/CFD_SealedLight.prefab"
+  ],
+  "newMaterial": "Assets/Afrer_Seconds/05.Model/Environment/B5/Materials/DL_CeilingDiffuser.mat",
+  "ceilingFixtures": 80,
+  "corridorFixturesMoved": 98,
+  "corridorFixturesAdded": 29,
+  "newLights": 93,
+  "script": "SourceAssets/B5_CeilingLighting/Apply.cs",
+  "report": "Docs/검수/2026-11-08_B5_CeilingLighting/검수결과.md",
+  "originalAssetsPreserved": true
+}

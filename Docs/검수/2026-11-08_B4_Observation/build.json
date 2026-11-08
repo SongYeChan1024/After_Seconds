@@ -1,0 +1,650 @@
+{
+  "result": {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B4_Circular.unity",
+    "placements": 58,
+    "renderers": 64,
+    "colliders": 23,
+    "lights": 18,
+    "materials": 23
+  },
+  "placements": [
+    {
+      "name": "B4_C01_돔벽체",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_C01_Shell.fbx",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "yaw": 0.0,
+      "meshCollider": true
+    },
+    {
+      "name": "B4_C01_시험바닥",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_C01_Floor.fbx",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "yaw": 0.0,
+      "meshCollider": true
+    },
+    {
+      "name": "B4_C01_벽패널_기둥",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_C01_PanelsRibs.fbx",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "yaw": 0.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_관찰데크",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_C01_DeckStructure.fbx",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "yaw": 0.0,
+      "meshCollider": true
+    },
+    {
+      "name": "B4_C01_관찰데크_유리난간",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_C01_DeckGuards.fbx",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "yaw": 0.0,
+      "meshCollider": true
+    },
+    {
+      "name": "B4_C01_관찰데크_양측계단",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_C01_Stairs.fbx",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "yaw": 0.0,
+      "meshCollider": true
+    },
+    {
+      "name": "B4_C01_환기_전력배관",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_C01_Services.fbx",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "yaw": 0.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_시험영역_측정눈금",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_C01_MeasurementFloor.fbx",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "yaw": 0.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_상부관측석_01",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_ObservationConsole.fbx",
+      "position": [
+        -3.5,
+        2.5,
+        8.55
+      ],
+      "yaw": 180.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_상부관측의자_01",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        -3.5,
+        2.5,
+        7.65
+      ],
+      "yaw": 0.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_상부관측석_02",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_ObservationConsole.fbx",
+      "position": [
+        3.5,
+        2.5,
+        8.55
+      ],
+      "yaw": 180.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_상부관측의자_02",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        3.5,
+        2.5,
+        7.65
+      ],
+      "yaw": 0.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_시험제어석_01",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_TrialControlConsole.fbx",
+      "position": [
+        9.0,
+        0.0,
+        0.4
+      ],
+      "yaw": 270.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_시험제어의자_01",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        8.02,
+        0.0,
+        0.400000066
+      ],
+      "yaw": 450.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_시험제어석_02",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_TrialControlConsole.fbx",
+      "position": [
+        4.5,
+        0.0,
+        -8.1
+      ],
+      "yaw": 210.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_시험제어의자_02",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        4.01,
+        0.0,
+        -8.948706
+      ],
+      "yaw": 390.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_센서준비대",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_SensorPreparationBench.fbx",
+      "position": [
+        0.0,
+        0.0,
+        -9.65
+      ],
+      "yaw": 0.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_동기화계측카트",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_SynchronizationCart.fbx",
+      "position": [
+        7.1,
+        0.0,
+        -7.2
+      ],
+      "yaw": 315.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_측정기록랙",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_AcquisitionRack.fbx",
+      "position": [
+        -8.9,
+        0.0,
+        -2.9
+      ],
+      "yaw": 72.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_센서보관장",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_SensorStorage.fbx",
+      "position": [
+        -9.15,
+        0.0,
+        -0.9
+      ],
+      "yaw": 90.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_광학보정타깃",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_CalibrationTarget.fbx",
+      "position": [
+        -4.8,
+        0.0,
+        -3.9
+      ],
+      "yaw": 40.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_광학추적카메라_01",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_OpticalTrackingCamera.fbx",
+      "position": [
+        10.1164808,
+        4.1,
+        4.190384
+      ],
+      "yaw": 0.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_광학추적카메라_02",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_OpticalTrackingCamera.fbx",
+      "position": [
+        -4.190383,
+        4.1,
+        10.1164808
+      ],
+      "yaw": 0.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_광학추적카메라_03",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_OpticalTrackingCamera.fbx",
+      "position": [
+        -10.1164808,
+        4.1,
+        -4.19038343
+      ],
+      "yaw": 0.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_광학추적카메라_04",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_OpticalTrackingCamera.fbx",
+      "position": [
+        4.19038534,
+        4.1,
+        -10.11648
+      ],
+      "yaw": 0.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_아치문틀_B4-T02",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_VaultPortal.fbx",
+      "position": [
+        -9.964068,
+        0.0,
+        5.978441
+      ],
+      "yaw": 300.963745,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_아치문틀_B4-T03",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_VaultPortal.fbx",
+      "position": [
+        10.3932438,
+        0.0,
+        -5.196622
+      ],
+      "yaw": 116.565063,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_닫힌문_B4-T03",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_ClosedVaultDoor.fbx",
+      "position": [
+        10.3932438,
+        0.0,
+        -5.196622
+      ],
+      "yaw": 296.565063,
+      "meshCollider": true
+    },
+    {
+      "name": "B4_C01_아치문틀_B4-T06",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_VaultPortal.fbx",
+      "position": [
+        -8.21658,
+        0.0,
+        -8.21658
+      ],
+      "yaw": 225.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_닫힌문_B4-T06",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_ClosedVaultDoor.fbx",
+      "position": [
+        -8.21658,
+        0.0,
+        -8.21658
+      ],
+      "yaw": 405.0,
+      "meshCollider": true
+    },
+    {
+      "name": "B4_C01_아치문틀_B4-T08",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_VaultPortal.fbx",
+      "position": [
+        8.21658,
+        0.0,
+        8.21658
+      ],
+      "yaw": 45.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_닫힌문_B4-T08",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_ClosedVaultDoor.fbx",
+      "position": [
+        8.21658,
+        0.0,
+        8.21658
+      ],
+      "yaw": 225.0,
+      "meshCollider": true
+    },
+    {
+      "name": "B4_T02_터널벽_바닥",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_T02_ApproachShell.fbx",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "yaw": 0.0,
+      "meshCollider": true
+    },
+    {
+      "name": "B4_T02_C02측_닫힌문",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_ClosedVaultDoor.fbx",
+      "position": [
+        -19.5806446,
+        0.0,
+        11.7483864
+      ],
+      "yaw": 120.96376,
+      "meshCollider": true
+    },
+    {
+      "name": "B4_T02_C02측_아치문틀",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_VaultPortal.fbx",
+      "position": [
+        -19.5806446,
+        0.0,
+        11.7483864
+      ],
+      "yaw": 120.96376,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_T02_아치기둥_01",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/Common/CFD_TunnelRib.prefab",
+      "position": [
+        -19.0833,
+        0.0,
+        11.44998
+      ],
+      "yaw": 120.96376,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_T02_기둥사이등_01",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_SealedTaskLight.fbx",
+      "position": [
+        -18.11862,
+        3.31,
+        10.871172
+      ],
+      "yaw": 0.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_T02_아치기둥_02",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/Common/CFD_TunnelRib.prefab",
+      "position": [
+        -17.15394,
+        0.0,
+        10.2923641
+      ],
+      "yaw": 120.96376,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_T02_기둥사이등_02",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_SealedTaskLight.fbx",
+      "position": [
+        -16.18926,
+        3.31,
+        9.713556
+      ],
+      "yaw": 0.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_T02_아치기둥_03",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/Common/CFD_TunnelRib.prefab",
+      "position": [
+        -15.2245808,
+        0.0,
+        9.134748
+      ],
+      "yaw": 120.96376,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_T02_기둥사이등_03",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_SealedTaskLight.fbx",
+      "position": [
+        -14.259901,
+        3.31,
+        8.555941
+      ],
+      "yaw": 0.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_T02_아치기둥_04",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/Common/CFD_TunnelRib.prefab",
+      "position": [
+        -13.2952213,
+        0.0,
+        7.97713327
+      ],
+      "yaw": 120.96376,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_T02_기둥사이등_04",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_SealedTaskLight.fbx",
+      "position": [
+        -12.3305426,
+        3.31,
+        7.39832544
+      ],
+      "yaw": 0.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_T02_아치기둥_05",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/Common/CFD_TunnelRib.prefab",
+      "position": [
+        -11.3658628,
+        0.0,
+        6.81951761
+      ],
+      "yaw": 120.96376,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_천장등_01",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_SealedTaskLight.fbx",
+      "position": [
+        5.980734,
+        9.829888,
+        2.4773016
+      ],
+      "yaw": 0.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_천장등_02",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_SealedTaskLight.fbx",
+      "position": [
+        2.47730136,
+        9.829888,
+        5.980734
+      ],
+      "yaw": 0.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_천장등_03",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_SealedTaskLight.fbx",
+      "position": [
+        -2.47730112,
+        9.829888,
+        5.980735
+      ],
+      "yaw": 0.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_천장등_04",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_SealedTaskLight.fbx",
+      "position": [
+        -5.980734,
+        9.829888,
+        2.4773016
+      ],
+      "yaw": 0.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_천장등_05",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_SealedTaskLight.fbx",
+      "position": [
+        -5.980734,
+        9.829888,
+        -2.47730136
+      ],
+      "yaw": 0.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_천장등_06",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_SealedTaskLight.fbx",
+      "position": [
+        -2.47730231,
+        9.829888,
+        -5.980734
+      ],
+      "yaw": 0.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_천장등_07",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_SealedTaskLight.fbx",
+      "position": [
+        2.47730231,
+        9.829888,
+        -5.980734
+      ],
+      "yaw": 0.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_천장등_08",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_SealedTaskLight.fbx",
+      "position": [
+        5.980735,
+        9.829888,
+        -2.47730136
+      ],
+      "yaw": 0.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_데크하부등_01",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_SealedTaskLight.fbx",
+      "position": [
+        3.71904063,
+        2.27,
+        7.975509
+      ],
+      "yaw": 0.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_데크하부등_02",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_SealedTaskLight.fbx",
+      "position": [
+        1.27489388,
+        2.27,
+        8.707161
+      ],
+      "yaw": 0.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_데크하부등_03",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_SealedTaskLight.fbx",
+      "position": [
+        -1.2764132,
+        2.27,
+        8.706938
+      ],
+      "yaw": 0.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_데크하부등_04",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_SealedTaskLight.fbx",
+      "position": [
+        -3.72043324,
+        2.27,
+        7.974859
+      ],
+      "yaw": 0.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_관측석작업등_01",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_SealedTaskLight.fbx",
+      "position": [
+        -3.5,
+        5.7,
+        8.4
+      ],
+      "yaw": 0.0,
+      "meshCollider": false
+    },
+    {
+      "name": "B4_C01_관측석작업등_02",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B4/BO_SealedTaskLight.fbx",
+      "position": [
+        3.5,
+        5.7,
+        8.4
+      ],
+      "yaw": 0.0,
+      "meshCollider": false
+    }
+  ]
+}

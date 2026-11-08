@@ -1,0 +1,3527 @@
+[
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-7019544265662657637-768233341",
+    "name": "Enemy_Guard_V0.1",
+    "parent": null,
+    "position": [
+      30.0,
+      0.0,
+      -30.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": true,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Enemy/Enemy_Guard_V0.1.prefab",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-6830644144082044423-768233341",
+    "name": "VisualRoot",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-7019544265662657637-768233341",
+    "position": [
+      30.0,
+      0.0,
+      -30.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.80003321,
+      1.80003321,
+      1.80003321
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Enemy/Enemy_Guard_V0.1.prefab",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5323137420213413589-768233341",
+    "name": "AS06_GuardDummy_ImportedModel",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-6830644144082044423-768233341",
+    "position": [
+      30.0,
+      0.0,
+      -30.0
+    ],
+    "rotation": [
+      -0.7071068,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": true,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Enemy/AS06_GuardDummy.fbx",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-6712002501738753015-1689892092",
+    "name": "Player_Dummy_V0.1",
+    "parent": null,
+    "position": [
+      -30.0,
+      0.5,
+      30.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": true,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/Player_Dummy_V0.1.prefab",
+    "children": 2
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-3510223001173974897-1689892092",
+    "name": "VisualRoot",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-6712002501738753015-1689892092",
+    "position": [
+      -30.0,
+      0.5,
+      30.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.80396354,
+      1.80396354,
+      1.80396354
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/Player_Dummy_V0.1.prefab",
+    "children": 2
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5221087381497417840-1689892092",
+    "name": "AS05_PlayerDummy_Rigged",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-3510223001173974897-1689892092",
+    "position": [
+      -30.03975,
+      0.872249961,
+      30.21815
+    ],
+    "rotation": [
+      -3.774895E-08,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": false,
+    "prefabRoot": true,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 2
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2803183801730706385-1689892092",
+    "name": "mesh_0",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5221087381497417840-1689892092",
+    "position": [
+      -30.03975,
+      0.872249961,
+      30.21815
+    ],
+    "rotation": [
+      -7.54979E-08,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-9033656336518367431-1689892092",
+    "name": "skel",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5221087381497417840-1689892092",
+    "position": [
+      -30.03975,
+      0.872249961,
+      30.21815
+    ],
+    "rotation": [
+      -3.774895E-08,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5971394919211000438-1689892092",
+    "name": "Root",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-9033656336518367431-1689892092",
+    "position": [
+      -30.03975,
+      0.872249961,
+      30.21815
+    ],
+    "rotation": [
+      -3.774895E-08,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8559090012574980746-1689892092",
+    "name": "Hips",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5971394919211000438-1689892092",
+    "position": [
+      -30.0447311,
+      0.9598497,
+      30.20837
+    ],
+    "rotation": [
+      -3.774895E-08,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 3
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2332752493201677719-1689892092",
+    "name": "LeftUpLeg",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8559090012574980746-1689892092",
+    "position": [
+      -30.0447311,
+      0.9598497,
+      30.20837
+    ],
+    "rotation": [
+      0.5,
+      -0.5,
+      -0.49999997,
+      -0.49999997
+    ],
+    "scale": [
+      1.0,
+      0.99999994,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-6797177071081281490-1689892092",
+    "name": "LeftLeg",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2332752493201677719-1689892092",
+    "position": [
+      -30.1291065,
+      0.9598497,
+      30.20837
+    ],
+    "rotation": [
+      0.999190867,
+      -0.0228576064,
+      -0.0228587687,
+      -0.0239279345
+    ],
+    "scale": [
+      1.00000012,
+      1.00000012,
+      1.00000012
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5698871947633860270-1689892092",
+    "name": "LeftFoot",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-6797177071081281490-1689892092",
+    "position": [
+      -30.1502,
+      0.5098497,
+      30.1872768
+    ],
+    "rotation": [
+      0.9988501,
+      -0.007438064,
+      -0.0074360366,
+      -0.04677368
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-3978178427920804018-1689892092",
+    "name": "LeftToeBase",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5698871947633860270-1689892092",
+    "position": [
+      -30.15723,
+      0.05984968,
+      30.1450882
+    ],
+    "rotation": [
+      0.998850048,
+      -0.00743800448,
+      -0.00743693067,
+      -0.04677362
+    ],
+    "scale": [
+      0.99999994,
+      0.9999999,
+      0.99999994
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2394899522817389482-1689892092",
+    "name": "RightUpLeg",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8559090012574980746-1689892092",
+    "position": [
+      -30.0447311,
+      0.9598497,
+      30.20837
+    ],
+    "rotation": [
+      0.5,
+      0.5,
+      0.49999997,
+      -0.49999997
+    ],
+    "scale": [
+      1.0,
+      0.99999994,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-7142441337947925378-1689892092",
+    "name": "RightLeg",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2394899522817389482-1689892092",
+    "position": [
+      -29.9603558,
+      0.9598497,
+      30.20837
+    ],
+    "rotation": [
+      0.9991909,
+      0.0228576064,
+      0.0228588283,
+      -0.0239278749
+    ],
+    "scale": [
+      1.00000024,
+      1.00000024,
+      1.00000024
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-6546555480278893196-1689892092",
+    "name": "RightFoot",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-7142441337947925378-1689892092",
+    "position": [
+      -29.9392624,
+      0.509849668,
+      30.1872768
+    ],
+    "rotation": [
+      0.9986767,
+      0.0148710916,
+      0.0148672154,
+      -0.0469308272
+    ],
+    "scale": [
+      1.0,
+      0.99999994,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1666383549824128061-1689892092",
+    "name": "RightToeBase",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-6546555480278893196-1689892092",
+    "position": [
+      -29.9252,
+      0.0598498881,
+      30.1450882
+    ],
+    "rotation": [
+      0.9986768,
+      0.0148710916,
+      0.0148666492,
+      -0.0469307974
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2515714768379475377-1689892092",
+    "name": "Spine",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8559090012574980746-1689892092",
+    "position": [
+      -30.0447311,
+      1.03719354,
+      30.20837
+    ],
+    "rotation": [
+      -3.774895E-08,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8748999495059605035-1689892092",
+    "name": "Spine1",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2515714768379475377-1689892092",
+    "position": [
+      -30.0447311,
+      1.135631,
+      30.20837
+    ],
+    "rotation": [
+      -3.774895E-08,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8952495540612834383-1689892092",
+    "name": "Spine2",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8748999495059605035-1689892092",
+    "position": [
+      -30.0447311,
+      1.23406839,
+      30.20837
+    ],
+    "rotation": [
+      -3.774895E-08,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      0.99999994,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 3
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8084808259030889526-1689892092",
+    "name": "LeftShoulder",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8952495540612834383-1689892092",
+    "position": [
+      -30.0447311,
+      1.332506,
+      30.20837
+    ],
+    "rotation": [
+      -0.2833489,
+      0.393782824,
+      0.393782675,
+      0.7807585
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-6302579015357730681-1689892092",
+    "name": "LeftArm",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8084808259030889526-1689892092",
+    "position": [
+      -30.1783257,
+      1.41688085,
+      30.1872768
+    ],
+    "rotation": [
+      -0.532671332,
+      0.4883031,
+      0.4883029,
+      0.489266574
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      0.9999999
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5859582623519019801-1689892092",
+    "name": "LeftForeArm",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-6302579015357730681-1689892092",
+    "position": [
+      -30.4947319,
+      1.40281832,
+      30.173214
+    ],
+    "rotation": [
+      -0.4707584,
+      0.527623653,
+      0.527623653,
+      0.470758379
+    ],
+    "scale": [
+      0.99999994,
+      0.99999994,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8803894653355470853-1689892092",
+    "name": "LeftHand",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5859582623519019801-1689892092",
+    "position": [
+      -30.7408257,
+      1.40281832,
+      30.2013378
+    ],
+    "rotation": [
+      -0.4707584,
+      0.527623653,
+      0.527623653,
+      0.470758379
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 5
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-7228678854852656879-1689892092",
+    "name": "HandLoRA_Bip01_L_Finger0",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8803894653355470853-1689892092",
+    "position": [
+      -30.7662945,
+      1.39554143,
+      30.2286282
+    ],
+    "rotation": [
+      -0.158260226,
+      0.68916893,
+      0.68916893,
+      0.158260584
+    ],
+    "scale": [
+      0.99999994,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-4184347896249527377-1689892092",
+    "name": "HandLoRA_Bip01_L_Finger01",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-7228678854852656879-1689892092",
+    "position": [
+      -30.78085,
+      1.39554143,
+      30.258646
+    ],
+    "rotation": [
+      -0.329454839,
+      0.637505054,
+      0.6375052,
+      0.2804176
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-4796689369406568784-1689892092",
+    "name": "HandLoRA_Bip01_L_Finger02",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-4184347896249527377-1689892092",
+    "position": [
+      -30.8044987,
+      1.39463186,
+      30.2777481
+    ],
+    "rotation": [
+      -0.3294551,
+      0.6375052,
+      0.6375051,
+      0.280417621
+    ],
+    "scale": [
+      1.0,
+      0.99999994,
+      0.99999994
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5747341415556730505-1689892092",
+    "name": "HandLoRA_Bip01_L_Finger1",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8803894653355470853-1689892092",
+    "position": [
+      -30.8381557,
+      1.40554726,
+      30.2313557
+    ],
+    "rotation": [
+      -0.5554274,
+      0.5208789,
+      0.5208789,
+      0.385837823
+    ],
+    "scale": [
+      1.0,
+      0.9999999,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1096445651053446539-1689892092",
+    "name": "HandLoRA_Bip01_L_Finger11",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5747341415556730505-1689892092",
+    "position": [
+      -30.87727,
+      1.39917994,
+      30.2359047
+    ],
+    "rotation": [
+      -0.553176165,
+      0.5219606,
+      0.521960735,
+      0.386148572
+    ],
+    "scale": [
+      0.99999994,
+      0.9999999,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5856651008510912703-1689892092",
+    "name": "HandLoRA_Bip01_L_Finger12",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1096445651053446539-1689892092",
+    "position": [
+      -30.90001,
+      1.39554143,
+      30.2386341
+    ],
+    "rotation": [
+      -0.5531761,
+      0.5219606,
+      0.521960735,
+      0.386148572
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.00000012
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-7290963821841257816-1689892092",
+    "name": "HandLoRA_Bip01_L_Finger2",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8803894653355470853-1689892092",
+    "position": [
+      -30.8436127,
+      1.403728,
+      30.2086163
+    ],
+    "rotation": [
+      -0.538727164,
+      0.521020234,
+      0.521020234,
+      0.4084717
+    ],
+    "scale": [
+      0.9999999,
+      0.99999994,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-7463750471838925839-1689892092",
+    "name": "HandLoRA_Bip01_L_Finger21",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-7290963821841257816-1689892092",
+    "position": [
+      -30.8872757,
+      1.39827037,
+      30.2131634
+    ],
+    "rotation": [
+      -0.545545757,
+      0.519944966,
+      0.519945,
+      0.402112454
+    ],
+    "scale": [
+      1.0,
+      0.99999994,
+      0.99999994
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5108188174895291004-1689892092",
+    "name": "HandLoRA_Bip01_L_Finger22",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-7463750471838925839-1689892092",
+    "position": [
+      -30.9136543,
+      1.39463186,
+      30.2158928
+    ],
+    "rotation": [
+      -0.5455458,
+      0.519944966,
+      0.5199451,
+      0.4021125
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-4136484332640672145-1689892092",
+    "name": "HandLoRA_Bip01_L_Finger3",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8803894653355470853-1689892092",
+    "position": [
+      -30.8436127,
+      1.4000895,
+      30.1895142
+    ],
+    "rotation": [
+      -0.534292459,
+      0.5180356,
+      0.5180357,
+      0.421675056
+    ],
+    "scale": [
+      0.9999999,
+      0.99999994,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2020191068222518700-1689892092",
+    "name": "HandLoRA_Bip01_L_Finger31",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-4136484332640672145-1689892092",
+    "position": [
+      -30.8854561,
+      1.39554143,
+      30.1931515
+    ],
+    "rotation": [
+      -0.549069166,
+      0.520920157,
+      0.5209203,
+      0.394724458
+    ],
+    "scale": [
+      0.9999999,
+      0.9999999,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8146194016491961973-1689892092",
+    "name": "HandLoRA_Bip01_L_Finger32",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2020191068222518700-1689892092",
+    "position": [
+      -30.910017,
+      1.39190292,
+      30.19588
+    ],
+    "rotation": [
+      -0.549069166,
+      0.5209202,
+      0.5209202,
+      0.3947245
+    ],
+    "scale": [
+      1.0,
+      0.99999994,
+      0.99999994
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-9111856460399234773-1689892092",
+    "name": "HandLoRA_Bip01_L_Finger4",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8803894653355470853-1689892092",
+    "position": [
+      -30.8399754,
+      1.39372218,
+      30.17223
+    ],
+    "rotation": [
+      -0.5258029,
+      0.5320029,
+      0.532003,
+      0.396834046
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-7839898856445935371-1689892092",
+    "name": "HandLoRA_Bip01_L_Finger41",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-9111856460399234773-1689892092",
+    "position": [
+      -30.8699913,
+      1.39008355,
+      30.1767788
+    ],
+    "rotation": [
+      -0.570687056,
+      0.521102667,
+      0.5211028,
+      0.3622435
+    ],
+    "scale": [
+      0.9999999,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8603425433140458834-1689892092",
+    "name": "HandLoRA_Bip01_L_Finger42",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-7839898856445935371-1689892092",
+    "position": [
+      -30.8836365,
+      1.38735485,
+      30.1785984
+    ],
+    "rotation": [
+      -0.570687,
+      0.521102548,
+      0.5211028,
+      0.3622434
+    ],
+    "scale": [
+      1.0,
+      0.99999994,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-3399939515799043498-1689892092",
+    "name": "Neck",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8952495540612834383-1689892092",
+    "position": [
+      -30.0447311,
+      1.332506,
+      30.20837
+    ],
+    "rotation": [
+      -0.06622728,
+      0.0,
+      0.0,
+      0.9978046
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2378935109914722353-1689892092",
+    "name": "Head",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-3399939515799043498-1689892092",
+    "position": [
+      -30.0447311,
+      1.43797469,
+      30.1943073
+    ],
+    "rotation": [
+      -0.0662272945,
+      0.0,
+      0.0,
+      0.9978046
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-6801564210967701526-1689892092",
+    "name": "RightShoulder",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8952495540612834383-1689892092",
+    "position": [
+      -30.0447311,
+      1.332506,
+      30.20837
+    ],
+    "rotation": [
+      -0.2833489,
+      -0.393782824,
+      -0.393782675,
+      0.7807585
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-476755047992081120-1689892092",
+    "name": "RightArm",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-6801564210967701526-1689892092",
+    "position": [
+      -29.9111366,
+      1.41688085,
+      30.1872768
+    ],
+    "rotation": [
+      -0.532671332,
+      -0.488303035,
+      -0.488302946,
+      0.4892666
+    ],
+    "scale": [
+      1.0,
+      0.9999999,
+      0.9999999
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8309036531024686249-1689892092",
+    "name": "RightForeArm",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-476755047992081120-1689892092",
+    "position": [
+      -29.59473,
+      1.40281844,
+      30.173214
+    ],
+    "rotation": [
+      -0.470758349,
+      -0.527623653,
+      -0.527623653,
+      0.470758319
+    ],
+    "scale": [
+      0.9999999,
+      0.9999998,
+      0.99999994
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2871869278824978950-1689892092",
+    "name": "RightHand",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8309036531024686249-1689892092",
+    "position": [
+      -29.3486366,
+      1.40281844,
+      30.2013378
+    ],
+    "rotation": [
+      -0.470758319,
+      -0.5276236,
+      -0.527623653,
+      0.470758319
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 5
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1128610406030138213-1689892092",
+    "name": "HandLoRA_Bip01_R_Finger0",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2871869278824978950-1689892092",
+    "position": [
+      -29.3221722,
+      1.395257,
+      30.2334747
+    ],
+    "rotation": [
+      -0.2601404,
+      -0.678365946,
+      -0.6783658,
+      0.109392144
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2351723762431680860-1689892092",
+    "name": "HandLoRA_Bip01_R_Finger01",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1128610406030138213-1689892092",
+    "position": [
+      -29.3051586,
+      1.39336669,
+      30.2627754
+    ],
+    "rotation": [
+      -0.342686355,
+      -0.63184154,
+      -0.631841362,
+      0.290032536
+    ],
+    "scale": [
+      0.9999999,
+      0.9999999,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-992726810471748495-1689892092",
+    "name": "HandLoRA_Bip01_R_Finger02",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2351723762431680860-1689892092",
+    "position": [
+      -29.2824745,
+      1.39242148,
+      30.279789
+    ],
+    "rotation": [
+      -0.342686117,
+      -0.63184154,
+      -0.63184154,
+      0.2900325
+    ],
+    "scale": [
+      1.0,
+      0.99999994,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5613368123118350378-1689892092",
+    "name": "HandLoRA_Bip01_R_Finger1",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2871869278824978950-1689892092",
+    "position": [
+      -29.2484474,
+      1.40281844,
+      30.2382011
+    ],
+    "rotation": [
+      -0.522070646,
+      -0.5285284,
+      -0.528528452,
+      0.410801381
+    ],
+    "scale": [
+      0.9999998,
+      0.999999762,
+      1.00000012
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2269967673536416154-1689892092",
+    "name": "HandLoRA_Bip01_R_Finger11",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5613368123118350378-1689892092",
+    "position": [
+      -29.21253,
+      1.3990376,
+      30.2429276
+    ],
+    "rotation": [
+      -0.535524547,
+      -0.5266396,
+      -0.5266394,
+      0.39814
+    ],
+    "scale": [
+      0.99999994,
+      0.99999994,
+      0.9999999
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-6039619194663284929-1689892092",
+    "name": "HandLoRA_Bip01_R_Finger12",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2269967673536416154-1689892092",
+    "position": [
+      -29.19079,
+      1.39620209,
+      30.2457638
+    ],
+    "rotation": [
+      -0.535524547,
+      -0.526639462,
+      -0.5266396,
+      0.398139864
+    ],
+    "scale": [
+      1.0,
+      0.9999999,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-4443116855438674150-1689892092",
+    "name": "HandLoRA_Bip01_R_Finger2",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2871869278824978950-1689892092",
+    "position": [
+      -29.242775,
+      1.40281844,
+      30.21268
+    ],
+    "rotation": [
+      -0.5192718,
+      -0.5257008,
+      -0.525700748,
+      0.421466857
+    ],
+    "scale": [
+      0.9999999,
+      0.9999998,
+      1.00000012
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-4723230913388666451-1689892092",
+    "name": "HandLoRA_Bip01_R_Finger21",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-4443116855438674150-1689892092",
+    "position": [
+      -29.2021332,
+      1.39903772,
+      30.2174072
+    ],
+    "rotation": [
+      -0.5212504,
+      -0.531906962,
+      -0.531906962,
+      0.4030486
+    ],
+    "scale": [
+      0.99999994,
+      0.99999994,
+      0.99999994
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8390775281138036642-1689892092",
+    "name": "HandLoRA_Bip01_R_Finger22",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-4723230913388666451-1689892092",
+    "position": [
+      -29.1766129,
+      1.39620221,
+      30.2211876
+    ],
+    "rotation": [
+      -0.5212505,
+      -0.531906843,
+      -0.5319071,
+      0.403048545
+    ],
+    "scale": [
+      1.0,
+      0.99999994,
+      0.99999994
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8836297737629667990-1689892092",
+    "name": "HandLoRA_Bip01_R_Finger3",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2871869278824978950-1689892092",
+    "position": [
+      -29.23994,
+      1.39998293,
+      30.1918869
+    ],
+    "rotation": [
+      -0.5326052,
+      -0.515699267,
+      -0.515699267,
+      0.429465234
+    ],
+    "scale": [
+      0.9999999,
+      0.99999994,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-3871878412482231169-1689892092",
+    "name": "HandLoRA_Bip01_R_Finger31",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8836297737629667990-1689892092",
+    "position": [
+      -29.2021332,
+      1.39620221,
+      30.1947231
+    ],
+    "rotation": [
+      -0.531157732,
+      -0.524224162,
+      -0.5242241,
+      0.410182625
+    ],
+    "scale": [
+      1.0,
+      0.99999994,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8025180954968414639-1689892092",
+    "name": "HandLoRA_Bip01_R_Finger32",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-3871878412482231169-1689892092",
+    "position": [
+      -29.177557,
+      1.39336646,
+      30.1975574
+    ],
+    "rotation": [
+      -0.531157732,
+      -0.5242241,
+      -0.5242242,
+      0.4101826
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      0.99999994
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-3941562046918625484-1689892092",
+    "name": "HandLoRA_Bip01_R_Finger4",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2871869278824978950-1689892092",
+    "position": [
+      -29.242775,
+      1.39242148,
+      30.1729832
+    ],
+    "rotation": [
+      -0.509764552,
+      -0.523793459,
+      -0.5237936,
+      0.437517017
+    ],
+    "scale": [
+      0.99999994,
+      1.0,
+      1.00000012
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8269438694963216762-1689892092",
+    "name": "HandLoRA_Bip01_R_Finger41",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-3941562046918625484-1689892092",
+    "position": [
+      -29.2153645,
+      1.390531,
+      30.17582
+    ],
+    "rotation": [
+      -0.529928863,
+      -0.5235052,
+      -0.5235051,
+      0.4135944
+    ],
+    "scale": [
+      0.99999994,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-413858675390714031-1689892092",
+    "name": "HandLoRA_Bip01_R_Finger42",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8269438694963216762-1689892092",
+    "position": [
+      -29.19835,
+      1.38864064,
+      30.17771
+    ],
+    "rotation": [
+      -0.529928863,
+      -0.5235052,
+      -0.5235051,
+      0.4135944
+    ],
+    "scale": [
+      1.0,
+      0.99999994,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.2.fbx",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-9063120491833650468-1689892092",
+    "name": "PlayerDummy_Rigged_V0.3",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-3510223001173974897-1689892092",
+    "position": [
+      -30.0,
+      1.22158551,
+      30.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": true,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 2
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1393093940888655493-1689892092",
+    "name": "mesh_0",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-9063120491833650468-1689892092",
+    "position": [
+      -30.0,
+      1.22158551,
+      30.0
+    ],
+    "rotation": [
+      -3.774895E-08,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5255232155654632851-1689892092",
+    "name": "skel",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-9063120491833650468-1689892092",
+    "position": [
+      -30.0,
+      1.22158551,
+      30.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-7452616620734127906-1689892092",
+    "name": "Root",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5255232155654632851-1689892092",
+    "position": [
+      -30.0,
+      1.22158551,
+      30.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-4860602645561436126-1689892092",
+    "name": "Hips",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-7452616620734127906-1689892092",
+    "position": [
+      -30.004982,
+      1.30918515,
+      29.990221
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 3
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1579691815828857027-1689892092",
+    "name": "LeftUpLeg",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-4860602645561436126-1689892092",
+    "position": [
+      -30.0893555,
+      1.30918515,
+      29.990221
+    ],
+    "rotation": [
+      0.999190867,
+      -0.0228577144,
+      -0.022860188,
+      -0.0239279922
+    ],
+    "scale": [
+      1.0000025,
+      1.00000012,
+      1.0000025
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-7775403004791466630-1689892092",
+    "name": "LeftLeg",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1579691815828857027-1689892092",
+    "position": [
+      -30.11045,
+      0.859185159,
+      29.9691257
+    ],
+    "rotation": [
+      0.998850167,
+      -0.007438261,
+      -0.00743744336,
+      -0.046773646
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8837714526192591866-1689892092",
+    "name": "LeftFoot",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-7775403004791466630-1689892092",
+    "position": [
+      -30.1174812,
+      0.4091852,
+      29.926939
+    ],
+    "rotation": [
+      0.9988501,
+      -0.007438251,
+      -0.007437788,
+      -0.0467736535
+    ],
+    "scale": [
+      1.0,
+      0.99999994,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-182113681968207334-1689892092",
+    "name": "LeftToeBase",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8837714526192591866-1689892092",
+    "position": [
+      -30.1245117,
+      0.365470231,
+      30.0493164
+    ],
+    "rotation": [
+      0.9988501,
+      -0.007438249,
+      -0.007438101,
+      -0.0467736535
+    ],
+    "scale": [
+      0.99999994,
+      0.9999998,
+      0.9999999
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1481630621878652670-1689892092",
+    "name": "RightUpLeg",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-4860602645561436126-1689892092",
+    "position": [
+      -29.9206066,
+      1.30918515,
+      29.990221
+    ],
+    "rotation": [
+      0.999190867,
+      0.02285771,
+      0.02286019,
+      -0.0239279922
+    ],
+    "scale": [
+      1.0000025,
+      1.00000012,
+      1.0000025
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-6245551311196051158-1689892092",
+    "name": "RightLeg",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1481630621878652670-1689892092",
+    "position": [
+      -29.8995132,
+      0.8591851,
+      29.9691257
+    ],
+    "rotation": [
+      0.9986767,
+      0.0148712564,
+      0.01486858,
+      -0.04693085
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8028126859550687192-1689892092",
+    "name": "RightFoot",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-6245551311196051158-1689892092",
+    "position": [
+      -29.88545,
+      0.4091852,
+      29.926939
+    ],
+    "rotation": [
+      0.9986767,
+      0.0148712555,
+      0.0148690138,
+      -0.0469308458
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2491480550644197737-1689892092",
+    "name": "RightToeBase",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8028126859550687192-1689892092",
+    "position": [
+      -29.8713875,
+      0.347535431,
+      30.05605
+    ],
+    "rotation": [
+      0.9986767,
+      0.0148712527,
+      0.0148684941,
+      -0.0469308347
+    ],
+    "scale": [
+      0.99999994,
+      0.9999999,
+      0.99999994
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1682716917520206053-1689892092",
+    "name": "Spine",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-4860602645561436126-1689892092",
+    "position": [
+      -30.004982,
+      1.38652885,
+      29.990221
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5537487942894418815-1689892092",
+    "name": "Spine1",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1682716917520206053-1689892092",
+    "position": [
+      -30.004982,
+      1.48496628,
+      29.990221
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5300187131167922459-1689892092",
+    "name": "Spine2",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5537487942894418815-1689892092",
+    "position": [
+      -30.004982,
+      1.58340383,
+      29.990221
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      0.99999994,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 3
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5008188710467750242-1689892092",
+    "name": "LeftShoulder",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5300187131167922459-1689892092",
+    "position": [
+      -30.004982,
+      1.68184149,
+      29.990221
+    ],
+    "rotation": [
+      -0.283348858,
+      0.393782824,
+      0.393782675,
+      0.7807585
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-7117069939342176813-1689892092",
+    "name": "LeftArm",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5008188710467750242-1689892092",
+    "position": [
+      -30.1385746,
+      1.7662164,
+      29.9691257
+    ],
+    "rotation": [
+      -0.532671332,
+      0.488303065,
+      0.488302916,
+      0.4892666
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      0.9999999
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-7269583889084214861-1689892092",
+    "name": "LeftForeArm",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-7117069939342176813-1689892092",
+    "position": [
+      -30.45498,
+      1.75215375,
+      29.9550648
+    ],
+    "rotation": [
+      -0.470758379,
+      0.527623653,
+      0.527623653,
+      0.4707584
+    ],
+    "scale": [
+      0.99999994,
+      0.99999994,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5737054676303859025-1689892092",
+    "name": "LeftHand",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-7269583889084214861-1689892092",
+    "position": [
+      -30.7010746,
+      1.75215375,
+      29.9831886
+    ],
+    "rotation": [
+      -0.470758379,
+      0.527623653,
+      0.527623653,
+      0.4707584
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 5
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5900496442975175611-1689892092",
+    "name": "HandLoRA_Bip01_L_Finger0",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5737054676303859025-1689892092",
+    "position": [
+      -30.7265453,
+      1.74487686,
+      30.0104771
+    ],
+    "rotation": [
+      -0.158260226,
+      0.68916893,
+      0.68916893,
+      0.158260584
+    ],
+    "scale": [
+      0.99999994,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1126569938110664965-1689892092",
+    "name": "HandLoRA_Bip01_L_Finger01",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5900496442975175611-1689892092",
+    "position": [
+      -30.7410984,
+      1.74487686,
+      30.0404949
+    ],
+    "rotation": [
+      -0.329454839,
+      0.637505054,
+      0.6375052,
+      0.2804176
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8584679817398289412-1689892092",
+    "name": "HandLoRA_Bip01_L_Finger02",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1126569938110664965-1689892092",
+    "position": [
+      -30.76475,
+      1.74396718,
+      30.059597
+    ],
+    "rotation": [
+      -0.329455048,
+      0.6375051,
+      0.637505233,
+      0.280417681
+    ],
+    "scale": [
+      1.0,
+      0.9999999,
+      0.99999994
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8822837333360718813-1689892092",
+    "name": "HandLoRA_Bip01_L_Finger1",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5737054676303859025-1689892092",
+    "position": [
+      -30.7984047,
+      1.75488269,
+      30.0132065
+    ],
+    "rotation": [
+      -0.5554274,
+      0.5208789,
+      0.5208789,
+      0.385837853
+    ],
+    "scale": [
+      1.0,
+      0.9999999,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-4216759981253556447-1689892092",
+    "name": "HandLoRA_Bip01_L_Finger11",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8822837333360718813-1689892092",
+    "position": [
+      -30.8375187,
+      1.74851525,
+      30.0177555
+    ],
+    "rotation": [
+      -0.553176165,
+      0.5219606,
+      0.521960735,
+      0.3861486
+    ],
+    "scale": [
+      0.99999994,
+      0.9999999,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-7274626566411949547-1689892092",
+    "name": "HandLoRA_Bip01_L_Finger12",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-4216759981253556447-1689892092",
+    "position": [
+      -30.86026,
+      1.74487686,
+      30.020483
+    ],
+    "rotation": [
+      -0.553176165,
+      0.5219606,
+      0.521960735,
+      0.3861486
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.00000012
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5808833906231863308-1689892092",
+    "name": "HandLoRA_Bip01_L_Finger2",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5737054676303859025-1689892092",
+    "position": [
+      -30.8038635,
+      1.75306356,
+      29.9904652
+    ],
+    "rotation": [
+      -0.538727164,
+      0.521020234,
+      0.521020234,
+      0.408471733
+    ],
+    "scale": [
+      0.9999999,
+      0.99999994,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5919764953199180123-1689892092",
+    "name": "HandLoRA_Bip01_L_Finger21",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5808833906231863308-1689892092",
+    "position": [
+      -30.8475246,
+      1.7476058,
+      29.9950142
+    ],
+    "rotation": [
+      -0.545545757,
+      0.519944966,
+      0.519945,
+      0.402112484
+    ],
+    "scale": [
+      1.0,
+      0.99999994,
+      0.99999994
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8309217499067410216-1689892092",
+    "name": "HandLoRA_Bip01_L_Finger22",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5919764953199180123-1689892092",
+    "position": [
+      -30.8739052,
+      1.74396718,
+      29.9977436
+    ],
+    "rotation": [
+      -0.5455457,
+      0.5199449,
+      0.5199451,
+      0.402112454
+    ],
+    "scale": [
+      1.0,
+      1.00000012,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-924387787709834437-1689892092",
+    "name": "HandLoRA_Bip01_L_Finger3",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5737054676303859025-1689892092",
+    "position": [
+      -30.8038635,
+      1.74942493,
+      29.9713631
+    ],
+    "rotation": [
+      -0.534292459,
+      0.5180356,
+      0.5180357,
+      0.4216751
+    ],
+    "scale": [
+      0.9999999,
+      0.99999994,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-3006858966517057784-1689892092",
+    "name": "HandLoRA_Bip01_L_Finger31",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-924387787709834437-1689892092",
+    "position": [
+      -30.845705,
+      1.74487686,
+      29.9750023
+    ],
+    "rotation": [
+      -0.549069166,
+      0.520920157,
+      0.5209203,
+      0.3947245
+    ],
+    "scale": [
+      0.9999999,
+      0.9999999,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-4953593530234241825-1689892092",
+    "name": "HandLoRA_Bip01_L_Finger32",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-3006858966517057784-1689892092",
+    "position": [
+      -30.870266,
+      1.74123847,
+      29.9777317
+    ],
+    "rotation": [
+      -0.549069166,
+      0.520920157,
+      0.520920336,
+      0.3947245
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      0.99999994
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5458497381459997569-1689892092",
+    "name": "HandLoRA_Bip01_L_Finger4",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5737054676303859025-1689892092",
+    "position": [
+      -30.8002243,
+      1.74305761,
+      29.95408
+    ],
+    "rotation": [
+      -0.5258029,
+      0.5320029,
+      0.532003,
+      0.396834075
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-6448944826477970015-1689892092",
+    "name": "HandLoRA_Bip01_L_Finger41",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5458497381459997569-1689892092",
+    "position": [
+      -30.8302422,
+      1.7394191,
+      29.95863
+    ],
+    "rotation": [
+      -0.570687056,
+      0.521102667,
+      0.5211028,
+      0.362243533
+    ],
+    "scale": [
+      0.9999999,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-4816083610874841094-1689892092",
+    "name": "HandLoRA_Bip01_L_Finger42",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-6448944826477970015-1689892092",
+    "position": [
+      -30.8438873,
+      1.73669016,
+      29.9604473
+    ],
+    "rotation": [
+      -0.570686936,
+      0.521102667,
+      0.5211028,
+      0.362243533
+    ],
+    "scale": [
+      1.0,
+      0.99999994,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1917594079871402238-1689892092",
+    "name": "Neck",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5300187131167922459-1689892092",
+    "position": [
+      -30.004982,
+      1.68184149,
+      29.990221
+    ],
+    "rotation": [
+      -0.06622724,
+      0.0,
+      0.0,
+      0.9978046
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1490699993060703589-1689892092",
+    "name": "Head",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1917594079871402238-1689892092",
+    "position": [
+      -30.004982,
+      1.78731012,
+      29.9761581
+    ],
+    "rotation": [
+      -0.06622723,
+      0.0,
+      0.0,
+      0.9978046
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-7770866337783354690-1689892092",
+    "name": "RightShoulder",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5300187131167922459-1689892092",
+    "position": [
+      -30.004982,
+      1.68184149,
+      29.990221
+    ],
+    "rotation": [
+      -0.283348858,
+      -0.393782824,
+      -0.393782675,
+      0.7807585
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-3688005466414270388-1689892092",
+    "name": "RightArm",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-7770866337783354690-1689892092",
+    "position": [
+      -29.8713875,
+      1.7662164,
+      29.9691257
+    ],
+    "rotation": [
+      -0.532671332,
+      -0.488303,
+      -0.488302976,
+      0.489266634
+    ],
+    "scale": [
+      1.0,
+      0.9999999,
+      0.9999999
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5114976391776637437-1689892092",
+    "name": "RightForeArm",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-3688005466414270388-1689892092",
+    "position": [
+      -29.5549812,
+      1.75215387,
+      29.9550648
+    ],
+    "rotation": [
+      -0.470758319,
+      -0.527623653,
+      -0.527623653,
+      0.470758349
+    ],
+    "scale": [
+      0.9999999,
+      0.9999998,
+      0.99999994
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1326669332441933650-1689892092",
+    "name": "RightHand",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5114976391776637437-1689892092",
+    "position": [
+      -29.3088875,
+      1.75215387,
+      29.9831886
+    ],
+    "rotation": [
+      -0.4707583,
+      -0.5276236,
+      -0.527623653,
+      0.470758349
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 5
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-4186670286157850161-1689892092",
+    "name": "HandLoRA_Bip01_R_Finger0",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1326669332441933650-1689892092",
+    "position": [
+      -29.2824211,
+      1.74459243,
+      30.0153255
+    ],
+    "rotation": [
+      -0.2601404,
+      -0.678365946,
+      -0.6783658,
+      0.109392151
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1517901174508264456-1689892092",
+    "name": "HandLoRA_Bip01_R_Finger01",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-4186670286157850161-1689892092",
+    "position": [
+      -29.26541,
+      1.74270213,
+      30.0446262
+    ],
+    "rotation": [
+      -0.342686355,
+      -0.63184154,
+      -0.631841362,
+      0.290032536
+    ],
+    "scale": [
+      0.9999999,
+      0.9999999,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-4068286036630810331-1689892092",
+    "name": "HandLoRA_Bip01_R_Finger02",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1517901174508264456-1689892092",
+    "position": [
+      -29.2427235,
+      1.74175692,
+      30.06164
+    ],
+    "rotation": [
+      -0.342686,
+      -0.6318414,
+      -0.6318417,
+      0.290032476
+    ],
+    "scale": [
+      0.99999994,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8670867233726729598-1689892092",
+    "name": "HandLoRA_Bip01_R_Finger1",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1326669332441933650-1689892092",
+    "position": [
+      -29.2086964,
+      1.75215387,
+      30.020052
+    ],
+    "rotation": [
+      -0.522070646,
+      -0.5285284,
+      -0.528528452,
+      0.4108014
+    ],
+    "scale": [
+      0.9999998,
+      0.999999762,
+      1.00000012
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-3040810237102748878-1689892092",
+    "name": "HandLoRA_Bip01_R_Finger11",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8670867233726729598-1689892092",
+    "position": [
+      -29.17278,
+      1.74837315,
+      30.0247765
+    ],
+    "rotation": [
+      -0.535524547,
+      -0.5266396,
+      -0.5266394,
+      0.398140043
+    ],
+    "scale": [
+      0.99999994,
+      0.99999994,
+      0.9999999
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-7377638320247557525-1689892092",
+    "name": "HandLoRA_Bip01_R_Finger12",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-3040810237102748878-1689892092",
+    "position": [
+      -29.151041,
+      1.74553752,
+      30.0276127
+    ],
+    "rotation": [
+      -0.5355245,
+      -0.5266396,
+      -0.5266394,
+      0.398140043
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      0.99999994
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-583977441087354290-1689892092",
+    "name": "HandLoRA_Bip01_R_Finger2",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1326669332441933650-1689892092",
+    "position": [
+      -29.2030258,
+      1.75215387,
+      29.9945316
+    ],
+    "rotation": [
+      -0.5192718,
+      -0.5257008,
+      -0.525700748,
+      0.4214669
+    ],
+    "scale": [
+      0.9999999,
+      0.9999998,
+      1.00000012
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8376662474225591047-1689892092",
+    "name": "HandLoRA_Bip01_R_Finger21",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-583977441087354290-1689892092",
+    "position": [
+      -29.1623821,
+      1.74837315,
+      29.999258
+    ],
+    "rotation": [
+      -0.5212504,
+      -0.531906962,
+      -0.531906962,
+      0.403048635
+    ],
+    "scale": [
+      0.99999994,
+      0.99999994,
+      0.99999994
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-4738260660150801142-1689892092",
+    "name": "HandLoRA_Bip01_R_Finger22",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-8376662474225591047-1689892092",
+    "position": [
+      -29.1368618,
+      1.74553776,
+      30.0030384
+    ],
+    "rotation": [
+      -0.521250367,
+      -0.531907,
+      -0.5319068,
+      0.403048724
+    ],
+    "scale": [
+      1.0,
+      1.00000012,
+      0.99999994
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5698037213542117314-1689892092",
+    "name": "HandLoRA_Bip01_R_Finger3",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1326669332441933650-1689892092",
+    "position": [
+      -29.20019,
+      1.74931824,
+      29.9737377
+    ],
+    "rotation": [
+      -0.5326052,
+      -0.515699267,
+      -0.515699267,
+      0.429465264
+    ],
+    "scale": [
+      0.9999999,
+      0.99999994,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2260290270054101-1689892092",
+    "name": "HandLoRA_Bip01_R_Finger31",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5698037213542117314-1689892092",
+    "position": [
+      -29.1623821,
+      1.74553776,
+      29.976572
+    ],
+    "rotation": [
+      -0.531157732,
+      -0.524224162,
+      -0.5242241,
+      0.410182655
+    ],
+    "scale": [
+      1.0,
+      0.99999994,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-6551753193393235195-1689892092",
+    "name": "HandLoRA_Bip01_R_Finger32",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2260290270054101-1689892092",
+    "position": [
+      -29.1378078,
+      1.74270189,
+      29.9794083
+    ],
+    "rotation": [
+      -0.5311577,
+      -0.524224162,
+      -0.5242241,
+      0.4101827
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      0.99999994
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-216338337426601368-1689892092",
+    "name": "HandLoRA_Bip01_R_Finger4",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1326669332441933650-1689892092",
+    "position": [
+      -29.2030258,
+      1.74175692,
+      29.954834
+    ],
+    "rotation": [
+      -0.509764552,
+      -0.523793459,
+      -0.5237936,
+      0.437517047
+    ],
+    "scale": [
+      0.99999994,
+      1.0,
+      1.00000012
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5147994737361583150-1689892092",
+    "name": "HandLoRA_Bip01_R_Finger41",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-216338337426601368-1689892092",
+    "position": [
+      -29.1756153,
+      1.7398665,
+      29.9576683
+    ],
+    "rotation": [
+      -0.529928863,
+      -0.5235052,
+      -0.5235051,
+      0.413594425
+    ],
+    "scale": [
+      0.99999994,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-3462697587151465979-1689892092",
+    "name": "HandLoRA_Bip01_R_Finger42",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-5147994737361583150-1689892092",
+    "position": [
+      -29.1586018,
+      1.73797619,
+      29.9595585
+    ],
+    "rotation": [
+      -0.529928863,
+      -0.523505151,
+      -0.5235051,
+      0.413594335
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.00000012
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-9011225398628340897-1689892092",
+    "name": "CameraRoot",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-6712002501738753015-1689892092",
+    "position": [
+      -30.0,
+      1.675,
+      30.33
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Player/Player_Dummy_V0.1.prefab",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-13490853-0",
+    "name": "Props(Interactable)",
+    "parent": null,
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "",
+    "children": 4
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-446277107949151578-1038326919",
+    "name": "AS01_Crate",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-13490853-0",
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": true,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Props/Common/Props_Crate_V0.1.prefab",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2336100158438288365-1038326919",
+    "name": "VisualRoot",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-446277107949151578-1038326919",
+    "position": [
+      0.0,
+      2.98023224E-08,
+      5.96046341E-08
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.00109518,
+      1.00109518,
+      1.00109518
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Props/Common/Props_Crate_V0.1.prefab",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-797591042369286464-1038326919",
+    "name": "AS01_Crate_ImportedModel",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2336100158438288365-1038326919",
+    "position": [
+      0.0,
+      2.98023224E-08,
+      5.96046341E-08
+    ],
+    "rotation": [
+      -0.7071068,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": true,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Props/Common/AS01_Crate.fbx",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-446277107949151578-1162059988",
+    "name": "AS01_Crate (1)",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-13490853-0",
+    "position": [
+      4.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": true,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Props/Common/Props_Crate_V0.1.prefab",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2336100158438288365-1162059988",
+    "name": "VisualRoot",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-446277107949151578-1162059988",
+    "position": [
+      4.0,
+      2.98023224E-08,
+      5.96046341E-08
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.00109518,
+      1.00109518,
+      1.00109518
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Props/Common/Props_Crate_V0.1.prefab",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-797591042369286464-1162059988",
+    "name": "AS01_Crate_ImportedModel",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2336100158438288365-1162059988",
+    "position": [
+      4.0,
+      2.98023224E-08,
+      5.96046341E-08
+    ],
+    "rotation": [
+      -0.7071068,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": true,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Props/Common/AS01_Crate.fbx",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-446277107949151578-1234175307",
+    "name": "AS01_Crate (2)",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-13490853-0",
+    "position": [
+      8.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": true,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Props/Common/Props_Crate_V0.1.prefab",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2336100158438288365-1234175307",
+    "name": "VisualRoot",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-446277107949151578-1234175307",
+    "position": [
+      8.0,
+      2.98023224E-08,
+      5.96046341E-08
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.00109518,
+      1.00109518,
+      1.00109518
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Props/Common/Props_Crate_V0.1.prefab",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-797591042369286464-1234175307",
+    "name": "AS01_Crate_ImportedModel",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2336100158438288365-1234175307",
+    "position": [
+      8.0,
+      2.98023224E-08,
+      5.96046341E-08
+    ],
+    "rotation": [
+      -0.7071068,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": true,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Props/Common/AS01_Crate.fbx",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-446277107949151578-2116347131",
+    "name": "AS01_Crate (3)",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-13490853-0",
+    "position": [
+      -4.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": true,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Props/Common/Props_Crate_V0.1.prefab",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2336100158438288365-2116347131",
+    "name": "VisualRoot",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-446277107949151578-2116347131",
+    "position": [
+      -4.0,
+      2.98023224E-08,
+      5.96046341E-08
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.00109518,
+      1.00109518,
+      1.00109518
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Props/Common/Props_Crate_V0.1.prefab",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-797591042369286464-2116347131",
+    "name": "AS01_Crate_ImportedModel",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-2336100158438288365-2116347131",
+    "position": [
+      -4.0,
+      2.98023224E-08,
+      5.96046341E-08
+    ],
+    "rotation": [
+      -0.7071068,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": true,
+    "prefabAsset": "Assets/Afrer_Seconds/05.Model/Props/Common/AS01_Crate.fbx",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-336969275-0",
+    "name": "Level",
+    "parent": null,
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-533218627-0",
+    "name": "Geometry",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-336969275-0",
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1277541597-0",
+    "name": "Plane",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-533218627-0",
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      10.0,
+      10.0,
+      10.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1803400635-0",
+    "name": "Light",
+    "parent": null,
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "",
+    "children": 2
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-410087041-0",
+    "name": "Directional Light",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1803400635-0",
+    "position": [
+      -4.44107,
+      3.0,
+      -23.99208
+    ],
+    "rotation": [
+      0.408217877,
+      -0.234569684,
+      0.109381631,
+      0.8754261
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-832575519-0",
+    "name": "Global Volume",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1803400635-0",
+    "position": [
+      -4.44107,
+      0.0,
+      -23.99208
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1060343258-0",
+    "name": "Camera",
+    "parent": null,
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "",
+    "children": 2
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1025080336-0",
+    "name": "CM_Player_1st",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1060343258-0",
+    "position": [
+      -30.0,
+      1.675,
+      30.33
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "",
+    "children": 1
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-752672174-0",
+    "name": "cm",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1025080336-0",
+    "position": [
+      -30.0,
+      1.675,
+      30.33
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "",
+    "children": 0
+  },
+  {
+    "id": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-330585546-0",
+    "name": "Main Camera",
+    "parent": "GlobalObjectId_V1-2-99c9720ab356a0642a771bea13969a05-1060343258-0",
+    "position": [
+      -30.0,
+      1.675,
+      30.33
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "active": true,
+    "prefabRoot": false,
+    "prefabAsset": "",
+    "children": 0
+  }
+]

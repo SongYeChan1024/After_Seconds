@@ -1,0 +1,4 @@
+using System;using System.Linq;using UnityEngine;using UnityEngine.SceneManagement;using UnityEditor;using UnityEditor.SceneManagement;
+public static class BEOBoothAccess {
+ public static object Run(){var s=SceneManager.GetActiveScene();if(s.isDirty||Application.isPlaying||!s.path.EndsWith("Level_B4_Circular.unity"))throw new Exception("Saved B4 edit required");var root=s.GetRootGameObjects().Single(g=>g.name.StartsWith("B4_")).transform.Find("B4_실험운용설비");int n=0;foreach(var t in root.GetComponentsInChildren<Transform>().Where(t=>t.name.Contains("_작업의자_")&&t.parent.name.Contains("보호관측"))){var p=t.localPosition;p.x=Mathf.Sign(p.x)*1.02f;t.localPosition=p;PrefabUtility.RecordPrefabInstancePropertyModifications(t);n++;}Physics.SyncTransforms();EditorSceneManager.MarkSceneDirty(s);EditorSceneManager.SaveScene(s);return new{chairs=n,centerAisle=1.38f};}
+}

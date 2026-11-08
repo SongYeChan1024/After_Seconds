@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "command": "command",
+  "data": {
+    "command": "console status",
+    "parameters": {},
+    "result": {
+      "entries": [],
+      "cursor": 374,
+      "session": "1d053167c440466985f4d970c593d531",
+      "returned": 0,
+      "dropped": false,
+      "reset": false,
+      "counts": {
+        "error": 3,
+        "warn": 0,
+        "log": 76
+      },
+      "groundTruth": {
+        "sampledUtc": "2026-11-08T11:56:50.0205868Z",
+        "ageMs": 9,
+        "compilationFailed": false,
+        "compiling": false,
+        "consoleErrors": 0,
+        "consoleWarnings": 0,
+        "consoleLogs": 12,
+        "seeded": true
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "C:\\GitHubProjects\\After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

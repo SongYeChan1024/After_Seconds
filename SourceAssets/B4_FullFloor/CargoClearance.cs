@@ -1,0 +1,4 @@
+using System;using System.Linq;using UnityEngine;using UnityEditor;using UnityEditor.SceneManagement;using UnityEngine.SceneManagement;
+public static class BFFCargoClearance {
+ public static object Run(){var s=SceneManager.GetActiveScene();if(s.isDirty||Application.isPlaying||!s.path.EndsWith("Level_B4_Circular.unity"))throw new Exception("Saved B4 required");var t=s.GetRootGameObjects().SelectMany(g=>g.GetComponentsInChildren<Transform>(true)).Single(t=>t.name=="B4_VL_대기화물");var before=t.localPosition;t.localPosition=new Vector3(3.1f,0,-1.3f);PrefabUtility.RecordPrefabInstancePropertyModifications(t);Physics.SyncTransforms();EditorSceneManager.MarkSceneDirty(s);EditorSceneManager.SaveScene(s);return new{before=before.ToString(),after=t.localPosition.ToString(),reason="Clear C05 approach to cargo core"};}
+}

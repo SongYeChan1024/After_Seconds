@@ -1,0 +1,2271 @@
+{
+  "author": "송예찬",
+  "rooms": [
+    {
+      "code": "C01",
+      "center": [
+        -15,
+        -82,
+        -10
+      ],
+      "radius": 10,
+      "count": 8,
+      "angle": 10,
+      "ring": 5.5,
+      "intensity": 9.75,
+      "range": 16.5
+    },
+    {
+      "code": "C02",
+      "center": [
+        -22,
+        -82,
+        18
+      ],
+      "radius": 7,
+      "count": 4,
+      "angle": 22.5,
+      "ring": 3.8500000000000005,
+      "intensity": 6.37,
+      "range": 11.549999999999999
+    },
+    {
+      "code": "C03",
+      "center": [
+        17,
+        -82,
+        -7
+      ],
+      "radius": 10,
+      "count": 8,
+      "angle": 22.5,
+      "ring": 5.5,
+      "intensity": 13.0,
+      "range": 16.5
+    },
+    {
+      "code": "C04",
+      "center": [
+        16,
+        -82,
+        20
+      ],
+      "radius": 6,
+      "count": 4,
+      "angle": 22.5,
+      "ring": 3.3000000000000003,
+      "intensity": 4.68,
+      "range": 9.899999999999999
+    },
+    {
+      "code": "W01",
+      "center": [
+        -88,
+        -82,
+        38
+      ],
+      "radius": 10,
+      "count": 8,
+      "angle": 22.5,
+      "ring": 5.5,
+      "intensity": 13.0,
+      "range": 16.5
+    },
+    {
+      "code": "W02",
+      "center": [
+        -124,
+        -82,
+        8
+      ],
+      "radius": 11,
+      "count": 8,
+      "angle": 22.5,
+      "ring": 6.050000000000001,
+      "intensity": 15.73,
+      "range": 18.15
+    },
+    {
+      "code": "W03",
+      "center": [
+        -94,
+        -82,
+        -27
+      ],
+      "radius": 9,
+      "count": 8,
+      "angle": 22.5,
+      "ring": 4.95,
+      "intensity": 10.530000000000001,
+      "range": 14.85
+    },
+    {
+      "code": "E01",
+      "center": [
+        88,
+        -82,
+        38
+      ],
+      "radius": 8,
+      "count": 4,
+      "angle": 22.5,
+      "ring": 4.4,
+      "intensity": 8.32,
+      "range": 13.2
+    },
+    {
+      "code": "E02",
+      "center": [
+        124,
+        -82,
+        5
+      ],
+      "radius": 9,
+      "count": 8,
+      "angle": 22.5,
+      "ring": 4.95,
+      "intensity": 10.530000000000001,
+      "range": 14.85
+    },
+    {
+      "code": "E03",
+      "center": [
+        94,
+        -82,
+        -32
+      ],
+      "radius": 8,
+      "count": 4,
+      "angle": 22.5,
+      "ring": 4.4,
+      "intensity": 8.32,
+      "range": 13.2
+    },
+    {
+      "code": "N01",
+      "center": [
+        0,
+        -82,
+        76
+      ],
+      "radius": 10,
+      "count": 8,
+      "angle": 22.5,
+      "ring": 5.5,
+      "intensity": 13.0,
+      "range": 16.5
+    },
+    {
+      "code": "S01",
+      "center": [
+        0,
+        -82,
+        -76
+      ],
+      "radius": 10,
+      "count": 8,
+      "angle": 22.5,
+      "ring": 5.5,
+      "intensity": 13.0,
+      "range": 16.5
+    }
+  ],
+  "tunnels": [
+    {
+      "id": "B5-T01",
+      "p": [
+        -17.231327750334263,
+        -82,
+        -1.074688998662948
+      ],
+      "q": [
+        -20.496279124774734,
+        -82,
+        11.985116499098943
+      ],
+      "length": 13.461739379323626,
+      "forward": [
+        -0.24253562503633286,
+        0.0,
+        0.9701425001453319
+      ],
+      "ribs": [
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-415026833",
+          "s": 2.300000064368205
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-165983903",
+          "s": 5.249999929622178
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-513281197",
+          "s": 8.199999872487552
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1380029046",
+          "s": 11.150000125798528
+        }
+      ],
+      "moves": [
+        {
+          "s": 1.5500000321841023,
+          "position": [
+            -17.60725797694637,
+            -78.81,
+            0.42903190778548184
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1176457115",
+          "path": "B5_Circular_Core_V0.03/B5_Art_C01_T01/CD-002_CFD_SealedLight"
+        },
+        {
+          "s": 3.7749999969951915,
+          "position": [
+            -18.146899734117646,
+            -78.81,
+            2.5875989364705876
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1466453030",
+          "path": "B5_Circular_Core_V0.03/B5_Art_C01_T01/CD-004_CFD_SealedLight"
+        },
+        {
+          "s": 6.724999901054865,
+          "position": [
+            -18.86237980470588,
+            -78.81,
+            5.449519218823528
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1414753524",
+          "path": "B5_Circular_Core_V0.03/B5_Art_C01_T01/CD-006_CFD_SealedLight"
+        },
+        {
+          "s": 9.67499999914304,
+          "position": [
+            -19.57785992235294,
+            -78.81,
+            8.311439689411765
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-250149426",
+          "path": "B5_Circular_Core_V0.03/B5_Art_C01_T01/CD-008_CFD_SealedLight"
+        }
+      ],
+      "additions": [
+        {
+          "s": 11.905869752561077,
+          "position": [
+            -20.118925312372834,
+            -78.81,
+            10.47570124949134
+          ],
+          "cloneId": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-250149426"
+        }
+      ]
+    },
+    {
+      "id": "B5-T02",
+      "p": [
+        -27.644272160268148,
+        -82,
+        20.56557825466734
+      ],
+      "q": [
+        -40.17646079465706,
+        -82,
+        26.262027633935027
+      ],
+      "length": 13.766091947189146,
+      "forward": [
+        -0.9103664774626048,
+        0.0,
+        0.4138029443011839
+      ],
+      "ribs": [],
+      "moves": [],
+      "additions": [
+        {
+          "position": [
+            -30.777319,
+            -78.81,
+            21.98969
+          ],
+          "existingLight": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-1102876958-0",
+          "s": 3.441522448444583
+        },
+        {
+          "position": [
+            -37.04341,
+            -78.81,
+            24.8379154
+          ],
+          "existingLight": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-1018551121-0",
+          "s": 10.324565696128134
+        }
+      ]
+    },
+    {
+      "id": "B5-T03",
+      "p": [
+        -5.84016512025455,
+        -82,
+        -9.141265480023865
+      ],
+      "q": [
+        7.84016512025455,
+        -82,
+        -7.858734519976136
+      ],
+      "length": 13.740317359976396,
+      "forward": [
+        0.9956342260592881,
+        0.0,
+        0.09334070869305831
+      ],
+      "ribs": [],
+      "moves": [],
+      "additions": [
+        {
+          "position": [
+            -2.42008257,
+            -78.81,
+            -8.820633
+          ],
+          "existingLight": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-1043720769-0",
+          "s": 3.4350793058970055
+        },
+        {
+          "position": [
+            4.42008257,
+            -78.81,
+            -8.179367
+          ],
+          "existingLight": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-307247733-0",
+          "s": 10.305238054079389
+        }
+      ]
+    },
+    {
+      "id": "B5-T04",
+      "p": [
+        16.6594927233091,
+        -82,
+        2.193696470654256
+      ],
+      "q": [
+        16.19246063465138,
+        -82,
+        14.803562864412811
+      ],
+      "length": 12.618512172212593,
+      "forward": [
+        -0.037011660509879994,
+        0.0,
+        0.9993148337667671
+      ],
+      "ribs": [],
+      "moves": [],
+      "additions": [
+        {
+          "position": [
+            16.5427341,
+            -78.81,
+            5.34616327
+          ],
+          "existingLight": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-62900590-0",
+          "s": 3.1546282660709615
+        },
+        {
+          "position": [
+            16.30922,
+            -78.81,
+            11.6510963
+          ],
+          "existingLight": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-858137732-0",
+          "s": 9.463884113449483
+        }
+      ]
+    },
+    {
+      "id": "B5-T05",
+      "p": [
+        10.80718728747095,
+        -82,
+        19.726694067761628
+      ],
+      "q": [
+        -15.80856945813844,
+        -82,
+        18.325864765361136
+      ],
+      "length": 26.652595180880894,
+      "forward": [
+        -0.9986178293325098,
+        0.0,
+        -0.0525588331227636
+      ],
+      "ribs": [],
+      "moves": [],
+      "additions": [
+        {
+          "position": [
+            7.48021746,
+            -78.81,
+            19.55159
+          ],
+          "existingLight": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-131429279-0",
+          "s": 3.331574652840394
+        },
+        {
+          "position": [
+            0.8262782,
+            -78.81,
+            19.2013836
+          ],
+          "existingLight": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-953492839-0",
+          "s": 9.994723472908083
+        },
+        {
+          "position": [
+            -5.827661,
+            -78.81,
+            18.8511753
+          ],
+          "existingLight": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-1757090394-0",
+          "s": 16.657872332920487
+        },
+        {
+          "position": [
+            -12.4816,
+            -78.81,
+            18.5009689
+          ],
+          "existingLight": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-293906535-0",
+          "s": 23.321020893347544
+        }
+      ]
+    },
+    {
+      "id": "B5-T06",
+      "p": [
+        20.999924527732283,
+        -82,
+        21.428549865066365
+      ],
+      "q": [
+        39.961599419908545,
+        -82,
+        26.846171262831014
+      ],
+      "length": 19.720439557122074,
+      "forward": [
+        0.9615239476408232,
+        0.0,
+        0.2747211278973781
+      ],
+      "ribs": [],
+      "moves": [],
+      "additions": [
+        {
+          "position": [
+            24.1602039,
+            -78.81,
+            22.3314877
+          ],
+          "existingLight": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-1674288798-0",
+          "s": 3.2867403981049015
+        },
+        {
+          "position": [
+            30.4807625,
+            -78.81,
+            24.13736
+          ],
+          "existingLight": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-253490352-0",
+          "s": 9.860220129566692
+        },
+        {
+          "position": [
+            36.8013229,
+            -78.81,
+            25.9432335
+          ],
+          "existingLight": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-1920034549-0",
+          "s": 16.43370192143694
+        }
+      ]
+    },
+    {
+      "id": "B5-T07",
+      "p": [
+        24.2620403998622,
+        -82,
+        -12.648253644337267
+      ],
+      "q": [
+        40.68472068701943,
+        -82,
+        -25.421449423237334
+      ],
+      "length": 20.80526275297414,
+      "forward": [
+        0.7893522173763262,
+        0.0,
+        -0.6139406135149205
+      ],
+      "ribs": [],
+      "moves": [],
+      "additions": [
+        {
+          "position": [
+            26.999155,
+            -78.81,
+            -14.77712
+          ],
+          "existingLight": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-2076262281-0",
+          "s": 3.4675449953187383
+        },
+        {
+          "position": [
+            32.47338,
+            -78.81,
+            -19.0348511
+          ],
+          "existingLight": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-1267001096-0",
+          "s": 10.402630681201217
+        },
+        {
+          "position": [
+            37.9476051,
+            -78.81,
+            -23.2925835
+          ],
+          "existingLight": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-122641162-0",
+          "s": 17.337717244141707
+        }
+      ]
+    },
+    {
+      "id": "B5-T08",
+      "p": [
+        -48.09555799432413,
+        -82,
+        28.930808635073667
+      ],
+      "q": [
+        -79.02877772671857,
+        -82,
+        35.96108584698149
+      ],
+      "length": 31.722056690713913,
+      "forward": [
+        -0.9751328557914598,
+        0.0,
+        0.22162110358896797
+      ],
+      "ribs": [
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-538455969",
+          "s": 2.6435086218831283
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1353324645",
+          "s": 7.930516171986573
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-331622250",
+          "s": 13.217521833878209
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-477978652",
+          "s": 18.504536675315958
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1691081488",
+          "s": 23.791540094402027
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1527429560",
+          "s": 29.07855266643968
+        }
+      ],
+      "moves": [
+        {
+          "s": 1.7217543109415643,
+          "position": [
+            -49.77449719252384,
+            -78.81,
+            29.3123857255736
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-307602934",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T08/CFD_SealedLight"
+        },
+        {
+          "s": 5.287012396934851,
+          "position": [
+            -53.251097491552066,
+            -78.81,
+            30.102522157170924
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-656466205",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T08/CFD_SealedLight"
+        },
+        {
+          "s": 10.574019002932392,
+          "position": [
+            -58.40663134184676,
+            -78.81,
+            31.274234395874263
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-703429148",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T08/CFD_SealedLight"
+        },
+        {
+          "s": 15.861029254597083,
+          "position": [
+            -63.562168747151276,
+            -78.81,
+            32.445947442534376
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-313842827",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T08/CFD_SealedLight"
+        },
+        {
+          "s": 21.148038384858992,
+          "position": [
+            -68.71770505893909,
+            -78.81,
+            33.61766024066797
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-805348531",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T08/CFD_SealedLight"
+        },
+        {
+          "s": 26.435046380420854,
+          "position": [
+            -73.8732402642436,
+            -78.81,
+            34.78937278732809
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1041826304",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T08/CFD_SealedLight"
+        }
+      ],
+      "additions": [
+        {
+          "s": 30.000304678576796,
+          "position": [
+            -77.34984077015861,
+            -78.81,
+            35.579509265945134
+          ],
+          "cloneId": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1041826304"
+        }
+      ]
+    },
+    {
+      "id": "B5-T09",
+      "p": [
+        -95.06763577229586,
+        -82,
+        32.110303523086785
+      ],
+      "q": [
+        -116.16414294810677,
+        -82,
+        14.529880876577696
+      ],
+      "length": 27.46149805543993,
+      "forward": [
+        -0.768221279597376,
+        0.0,
+        -0.6401843996644797
+      ],
+      "ribs": [
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-451534549",
+          "s": 2.7461488520428095
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1600606753",
+          "s": 8.23845230968104
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1439274119",
+          "s": 13.730750927525214
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1627127142",
+          "s": 19.223048713129657
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1111136451",
+          "s": 24.715353796836272
+        }
+      ],
+      "moves": [
+        {
+          "s": 1.7730744260214046,
+          "position": [
+            -96.42974927667541,
+            -78.81,
+            30.97520893610383
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-52240285",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T09/CFD_SealedLight"
+        },
+        {
+          "s": 5.492300580861925,
+          "position": [
+            -99.28693795245901,
+            -78.81,
+            28.59421837295082
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1623753619",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T09/CFD_SealedLight"
+        },
+        {
+          "s": 10.984601618603127,
+          "position": [
+            -103.50624048360656,
+            -78.81,
+            25.078132930327868
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1126428832",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T09/CFD_SealedLight"
+        },
+        {
+          "s": 16.476899820327436,
+          "position": [
+            -107.72554083606558,
+            -78.81,
+            21.56204930327869
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1434196244",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T09/CFD_SealedLight"
+        },
+        {
+          "s": 21.969201254982963,
+          "position": [
+            -111.94484367213116,
+            -78.81,
+            18.045963606557383
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1349411491",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T09/CFD_SealedLight"
+        }
+      ],
+      "additions": [
+        {
+          "s": 25.688425926138102,
+          "position": [
+            -114.80203120811608,
+            -78.81,
+            15.664973993236607
+          ],
+          "cloneId": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1349411491"
+        }
+      ]
+    },
+    {
+      "id": "B5-T10",
+      "p": [
+        -117.36192799074912,
+        -82,
+        0.2555826558739751
+      ],
+      "q": [
+        -99.33648926233894,
+        -82,
+        -20.774095860604568
+      ],
+      "length": 27.697722286464437,
+      "forward": [
+        0.6507913734559685,
+        0.0,
+        -0.7592566023652967
+      ],
+      "ribs": [
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-118903937",
+          "s": 2.7697703334369126
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-363921099",
+          "s": 8.309314401647432
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1951075551",
+          "s": 13.848858143377612
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1442035019",
+          "s": 19.388407091438786
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-551446199",
+          "s": 24.927951559885997
+        }
+      ],
+      "moves": [
+        {
+          "s": 1.7848851667184564,
+          "position": [
+            -116.20034012163923,
+            -78.81,
+            -1.0996031914208964
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-731351256",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T10/CFD_SealedLight"
+        },
+        {
+          "s": 5.539542367542173,
+          "position": [
+            -113.75684160505882,
+            -78.81,
+            -3.950351460764707
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1562460617",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T10/CFD_SealedLight"
+        },
+        {
+          "s": 11.079086272512523,
+          "position": [
+            -110.15175421882353,
+            -78.81,
+            -8.156286744705884
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-661863768",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T10/CFD_SealedLight"
+        },
+        {
+          "s": 16.6186326174082,
+          "position": [
+            -106.54666524470588,
+            -78.81,
+            -12.362223881176472
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-914614287",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T10/CFD_SealedLight"
+        },
+        {
+          "s": 22.158179325662392,
+          "position": [
+            -102.94157603411765,
+            -78.81,
+            -16.568161293529414
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1446287581",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T10/CFD_SealedLight"
+        }
+      ],
+      "additions": [
+        {
+          "s": 25.912836923175217,
+          "position": [
+            -100.49807725937539,
+            -78.81,
+            -19.418909864062048
+          ],
+          "cloneId": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1446287581"
+        }
+      ]
+    },
+    {
+      "id": "B5-T11",
+      "p": [
+        -85.98350819321767,
+        -82,
+        -25.274932142844307
+      ],
+      "q": [
+        -23.994112758828958,
+        -82,
+        -11.935441986077118
+      ],
+      "length": 63.40841540334769,
+      "forward": [
+        0.977620952046626,
+        0.0,
+        0.21037412892142582
+      ],
+      "ribs": [
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1850849356",
+          "s": 2.882208740636936
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-81680468",
+          "s": 8.646610541797648
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-651132950",
+          "s": 14.411008286450153
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-607887500",
+          "s": 20.175408822891097
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1435119200",
+          "s": 25.93980935933204
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-996315014",
+          "s": 31.704210534320335
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1162501103",
+          "s": 37.468607124390125
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-2005615017",
+          "s": 43.23301186707615
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1649717960",
+          "s": 48.99741343682531
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1250199301",
+          "s": 54.76181327655664
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1471617656",
+          "s": 60.526213883534794
+        }
+      ],
+      "moves": [
+        {
+          "s": 1.841104370318468,
+          "position": [
+            -84.18360598588973,
+            -78.81,
+            -24.88761141468513
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-876892642",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T11/CFD_SealedLight"
+        },
+        {
+          "s": 5.764409641217291,
+          "position": [
+            -80.34810055178407,
+            -78.81,
+            -24.06224948582695
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-2107156651",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T11/CFD_SealedLight"
+        },
+        {
+          "s": 11.5288094141239,
+          "position": [
+            -74.71270255781776,
+            -78.81,
+            -22.84956890484686
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-582112014",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T11/CFD_SealedLight"
+        },
+        {
+          "s": 17.293208554670624,
+          "position": [
+            -69.07730518205972,
+            -78.81,
+            -21.636888456898927
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-185209044",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T11/CFD_SealedLight"
+        },
+        {
+          "s": 23.057609091111566,
+          "position": [
+            -63.441906441646246,
+            -78.81,
+            -20.42420771529096
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1107853549",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T11/CFD_SealedLight"
+        },
+        {
+          "s": 28.822009946826185,
+          "position": [
+            -57.806507389104134,
+            -78.81,
+            -19.211526906516077
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-382272255",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T11/CFD_SealedLight"
+        },
+        {
+          "s": 34.58640882935523,
+          "position": [
+            -52.17111026558958,
+            -78.81,
+            -17.998846512848388
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-38763420",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T11/CFD_SealedLight"
+        },
+        {
+          "s": 40.35080949573314,
+          "position": [
+            -46.53571139814701,
+            -78.81,
+            -16.786165743905052
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-433668408",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T11/CFD_SealedLight"
+        },
+        {
+          "s": 46.11521265195073,
+          "position": [
+            -40.90031009658499,
+            -78.81,
+            -15.573484451163857
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-224333249",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T11/CFD_SealedLight"
+        },
+        {
+          "s": 51.879613356690975,
+          "position": [
+            -35.26491119163859,
+            -78.81,
+            -14.360803674150075
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-67047731",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T11/CFD_SealedLight"
+        },
+        {
+          "s": 57.644013580045716,
+          "position": [
+            -29.629512757304738,
+            -78.81,
+            -13.148122998407349
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1705269019",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T11/CFD_SealedLight"
+        }
+      ],
+      "additions": [
+        {
+          "s": 61.56731464344124,
+          "position": [
+            -25.79401143654247,
+            -78.81,
+            -12.322761954699011
+          ],
+          "cloneId": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1705269019"
+        }
+      ]
+    },
+    {
+      "id": "B5-T12",
+      "p": [
+        48.09555799432413,
+        -82,
+        28.930808635073667
+      ],
+      "q": [
+        80.97904343830149,
+        -82,
+        36.40432805415943
+      ],
+      "length": 33.722056690713906,
+      "forward": [
+        0.9751328557914598,
+        0.0,
+        0.2216211035889681
+      ],
+      "ribs": [
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1137790061",
+          "s": 2.8101729663642985
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-275007655",
+          "s": 8.430514825741264
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-3663254",
+          "s": 14.050856264038138
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-489739090",
+          "s": 19.67119823422566
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-443708446",
+          "s": 25.291540891438608
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1966496106",
+          "s": 30.911886877400516
+        }
+      ],
+      "moves": [
+        {
+          "s": 1.8050864831821491,
+          "position": [
+            49.8557571316201,
+            -78.81,
+            29.330853893550024
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-2096434480",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T12/CFD_SealedLight"
+        },
+        {
+          "s": 5.620343896052781,
+          "position": [
+            53.57613998821218,
+            -78.81,
+            30.176395451866405
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-198549708",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T12/CFD_SealedLight"
+        },
+        {
+          "s": 11.2406855448897,
+          "position": [
+            59.05671979076621,
+            -78.81,
+            31.421981770628683
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-158118433",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T12/CFD_SealedLight"
+        },
+        {
+          "s": 16.8610272491319,
+          "position": [
+            64.53729964734774,
+            -78.81,
+            32.66756810166994
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1519008864",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T12/CFD_SealedLight"
+        },
+        {
+          "s": 22.481369562832136,
+          "position": [
+            70.01788009823184,
+            -78.81,
+            33.91315456777996
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1255916143",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T12/CFD_SealedLight"
+        },
+        {
+          "s": 28.10171388441956,
+          "position": [
+            75.4984625070727,
+            -78.81,
+            35.15874147888016
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1398958915",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T12/CFD_SealedLight"
+        }
+      ],
+      "additions": [
+        {
+          "s": 31.91697178405721,
+          "position": [
+            79.21884583832728,
+            -78.81,
+            36.00428314507438
+          ],
+          "cloneId": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1398958915"
+        }
+      ]
+    },
+    {
+      "id": "B5-T13",
+      "p": [
+        93.30750980944534,
+        -82,
+        33.13478267467511
+      ],
+      "q": [
+        117.95533605035392,
+        -82,
+        10.540941953842239
+      ],
+      "length": 33.43646178829913,
+      "forward": [
+        0.7371541402007413,
+        0.0,
+        -0.6757246285173462
+      ],
+      "ribs": [
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-30025324",
+          "s": 2.786374076691395
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-862102047",
+          "s": 8.359119808758454
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-102660380",
+          "s": 13.931859698878952
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1077347795",
+          "s": 19.50460409178266
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1370639345",
+          "s": 25.07734781510468
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-896549613",
+          "s": 30.65009147085425
+        }
+      ],
+      "moves": [
+        {
+          "s": 1.7931870383456974,
+          "position": [
+            94.62936505891616,
+            -78.81,
+            31.923082029326842
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1961457524",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T13/CFD_SealedLight"
+        },
+        {
+          "s": 5.572746942724924,
+          "position": [
+            97.41548329056604,
+            -78.81,
+            29.36914031698113
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1266892577",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T13/CFD_SealedLight"
+        },
+        {
+          "s": 11.145489753818703,
+          "position": [
+            101.52345372603773,
+            -78.81,
+            25.603500751132078
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1169186712",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T13/CFD_SealedLight"
+        },
+        {
+          "s": 16.718231895330806,
+          "position": [
+            105.63142366792452,
+            -78.81,
+            21.837861637735852
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-2011649768",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T13/CFD_SealedLight"
+        },
+        {
+          "s": 22.29097595344367,
+          "position": [
+            109.7393950226415,
+            -78.81,
+            18.072221229245287
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-877017245",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T13/CFD_SealedLight"
+        },
+        {
+          "s": 27.863719642979465,
+          "position": [
+            113.84736610566037,
+            -78.81,
+            14.30658106981133
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-722578523",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T13/CFD_SealedLight"
+        }
+      ],
+      "additions": [
+        {
+          "s": 31.64327662957669,
+          "position": [
+            116.63348218645515,
+            -78.81,
+            11.752641329082778
+          ],
+          "cloneId": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-722578523"
+        }
+      ]
+    },
+    {
+      "id": "B5-T14",
+      "p": [
+        118.83562394094601,
+        -82,
+        -1.369397139499931
+      ],
+      "q": [
+        98.53457410063278,
+        -82,
+        -26.40735860921957
+      ],
+      "length": 32.234021455258215,
+      "forward": [
+        -0.6298019584212193,
+        0.0,
+        -0.7767557487195037
+      ],
+      "ribs": [
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1312121984",
+          "s": 2.6861702656591113
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1389987024",
+          "s": 8.058505272905304
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1889276498",
+          "s": 13.43084153135806
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-2137583884",
+          "s": 18.803176935379486
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-128818948",
+          "s": 24.175513116156658
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-690197660",
+          "s": 29.547849366212056
+        }
+      ],
+      "moves": [
+        {
+          "s": 1.7430851328295556,
+          "position": [
+            117.73782551059504,
+            -78.81,
+            -2.7233485369327877
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1579934613",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T14/CFD_SealedLight"
+        },
+        {
+          "s": 5.372337769282208,
+          "position": [
+            115.4521150925518,
+            -78.81,
+            -5.542391385852801
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1786898461",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T14/CFD_SealedLight"
+        },
+        {
+          "s": 10.744673402131681,
+          "position": [
+            112.06860758968709,
+            -78.81,
+            -9.715383972719263
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-455277453",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T14/CFD_SealedLight"
+        },
+        {
+          "s": 16.117009233368773,
+          "position": [
+            108.68509996187748,
+            -78.81,
+            -13.888376713684446
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1255807935",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T14/CFD_SealedLight"
+        },
+        {
+          "s": 21.489345025768074,
+          "position": [
+            105.30159235852798,
+            -78.81,
+            -18.061369424482155
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1689256919",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T14/CFD_SealedLight"
+        },
+        {
+          "s": 26.861681241184357,
+          "position": [
+            101.91808448876156,
+            -78.81,
+            -22.234362463860734
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-541961952",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T14/CFD_SealedLight"
+        }
+      ],
+      "additions": [
+        {
+          "s": 30.490935410735133,
+          "position": [
+            99.63237310517012,
+            -78.81,
+            -25.053406503623528
+          ],
+          "cloneId": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-541961952"
+        }
+      ]
+    },
+    {
+      "id": "B5-T15",
+      "p": [
+        86.8229299945399,
+        -82,
+        -31.425834399563193
+      ],
+      "q": [
+        48.186624169851726,
+        -82,
+        -28.33492993358814
+      ],
+      "length": 38.759744815937815,
+      "forward": [
+        -0.996815278536125,
+        0.0,
+        0.07974522228289
+      ],
+      "ribs": [
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-441398827",
+          "s": 2.7685527913834806
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-2024683820",
+          "s": 8.305657069309367
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-634460558",
+          "s": 13.84276534645816
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-2076351685",
+          "s": 19.379873460129225
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-759541050",
+          "s": 24.91697773805512
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-213597677",
+          "s": 30.454087749662488
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1971506899",
+          "s": 35.9911918202508
+        }
+      ],
+      "moves": [
+        {
+          "s": 1.7842763956917405,
+          "position": [
+            85.044336022183,
+            -78.81,
+            -31.28354688177464
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-931091491",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T15/CFD_SealedLight"
+        },
+        {
+          "s": 5.537104930346424,
+          "position": [
+            81.30345920111289,
+            -78.81,
+            -30.984276736089033
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-392543153",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T15/CFD_SealedLight"
+        },
+        {
+          "s": 11.074211207883764,
+          "position": [
+            75.78398706478538,
+            -78.81,
+            -30.542718965182832
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-628968550",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T15/CFD_SealedLight"
+        },
+        {
+          "s": 16.61131940329369,
+          "position": [
+            70.26451301669317,
+            -78.81,
+            -30.101161041335455
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-776181941",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T15/CFD_SealedLight"
+        },
+        {
+          "s": 22.14842559909217,
+          "position": [
+            64.74504096184421,
+            -78.81,
+            -29.659603276947536
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1313998453",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T15/CFD_SealedLight"
+        },
+        {
+          "s": 27.685532743858804,
+          "position": [
+            59.22556796104928,
+            -78.81,
+            -29.218045436883944
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1311356290",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T15/CFD_SealedLight"
+        },
+        {
+          "s": 33.22263978495664,
+          "position": [
+            53.706095063593004,
+            -78.81,
+            -28.776487605087443
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-2041012638",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T15/CFD_SealedLight"
+        }
+      ],
+      "additions": [
+        {
+          "s": 36.97546831809431,
+          "position": [
+            49.965218244035064,
+            -78.81,
+            -28.477217459522805
+          ],
+          "cloneId": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-2041012638"
+        }
+      ]
+    },
+    {
+      "id": "B5-T16",
+      "p": [
+        -41.161956560227146,
+        -82,
+        31.096047388843115
+      ],
+      "q": [
+        -6.2166665823595855,
+        -82,
+        69.21818191015318
+      ],
+      "length": 51.71528238439882,
+      "forward": [
+        0.6757246285173464,
+        0.0,
+        0.7371541402007414
+      ],
+      "ribs": [
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-513513835",
+          "s": 2.873072113564973
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-417499504",
+          "s": 8.619215542555875
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-809168847",
+          "s": 14.365356987373543
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1557920953",
+          "s": 20.111498346189897
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1653433508",
+          "s": 25.857641824324404
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-366587363",
+          "s": 31.60378573246549
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1580052670",
+          "s": 37.349926010122445
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1976575409",
+          "s": 43.09606938996973
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-2008422639",
+          "s": 48.84221413969512
+        }
+      ],
+      "moves": [
+        {
+          "s": 1.8365360567824864,
+          "position": [
+            -39.92096391549909,
+            -78.81,
+            32.44985754672827
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-2033734932",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T16/CFD_SealedLight"
+        },
+        {
+          "s": 5.746143828060424,
+          "position": [
+            -37.279145656603774,
+            -78.81,
+            35.331841101886795
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-467636358",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T16/CFD_SealedLight"
+        },
+        {
+          "s": 11.492286264964708,
+          "position": [
+            -33.39633569301887,
+            -78.81,
+            39.56763378943396
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-958075916",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T16/CFD_SealedLight"
+        },
+        {
+          "s": 17.23842766678172,
+          "position": [
+            -29.51352642886792,
+            -78.81,
+            43.80342571396227
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-79036281",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T16/CFD_SealedLight"
+        },
+        {
+          "s": 22.98457008525715,
+          "position": [
+            -25.630716477735845,
+            -78.81,
+            48.039218387924535
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1360434808",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T16/CFD_SealedLight"
+        },
+        {
+          "s": 28.730713778394946,
+          "position": [
+            -21.747905665283017,
+            -78.81,
+            52.27501200150944
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1632694741",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T16/CFD_SealedLight"
+        },
+        {
+          "s": 34.476855871293964,
+          "position": [
+            -17.86509593415094,
+            -78.81,
+            56.5108044354717
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-421241362",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T16/CFD_SealedLight"
+        },
+        {
+          "s": 40.222997700046086,
+          "position": [
+            -13.982286381509425,
+            -78.81,
+            60.74659667471698
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-109525158",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T16/CFD_SealedLight"
+        },
+        {
+          "s": 45.96914176483243,
+          "position": [
+            -10.099475317924522,
+            -78.81,
+            64.98239056226416
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-2014480039",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T16/CFD_SealedLight"
+        }
+      ],
+      "additions": [
+        {
+          "s": 49.87874826204697,
+          "position": [
+            -7.45765791994522,
+            -78.81,
+            67.86437317824158
+          ],
+          "cloneId": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-2014480039"
+        }
+      ]
+    },
+    {
+      "id": "B5-T17",
+      "p": [
+        6.2166665823595855,
+        -82,
+        69.21818191015318
+      ],
+      "q": [
+        41.161956560227146,
+        -82,
+        31.096047388843115
+      ],
+      "length": 51.71528238439882,
+      "forward": [
+        0.6757246285173464,
+        0.0,
+        -0.7371541402007414
+      ],
+      "ribs": [
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-166676862",
+          "s": 2.8730679203558815
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1862023920",
+          "s": 8.619212994429104
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-897270064",
+          "s": 14.365356374276388
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1210553931",
+          "s": 20.111496651933336
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-134850839",
+          "s": 25.857640560074422
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1522073006",
+          "s": 31.603784038208936
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1012254024",
+          "s": 37.34992539702529
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1523341675",
+          "s": 43.096066841842955
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-323187230",
+          "s": 48.84221027083385
+        }
+      ],
+      "moves": [
+        {
+          "s": 1.836533960177941,
+          "position": [
+            7.457657810360315,
+            -78.81,
+            67.86437329778875
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1718810177",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T17/CFD_SealedLight"
+        },
+        {
+          "s": 5.746140457392492,
+          "position": [
+            10.099475208339623,
+            -78.81,
+            64.98239068181132
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-438133302",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T17/CFD_SealedLight"
+        },
+        {
+          "s": 11.492284684352747,
+          "position": [
+            13.982286381509436,
+            -78.81,
+            60.74659667471698
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1895763753",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T17/CFD_SealedLight"
+        },
+        {
+          "s": 17.238426513104862,
+          "position": [
+            17.865095934150943,
+            -78.81,
+            56.5108044354717
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1433355461",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T17/CFD_SealedLight"
+        },
+        {
+          "s": 22.98456860600388,
+          "position": [
+            21.747905665283017,
+            -78.81,
+            52.27501200150944
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-442777750",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T17/CFD_SealedLight"
+        },
+        {
+          "s": 28.73071229914168,
+          "position": [
+            25.630716477735852,
+            -78.81,
+            48.03921838792452
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1653073812",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T17/CFD_SealedLight"
+        },
+        {
+          "s": 34.476854717617115,
+          "position": [
+            29.513526428867934,
+            -78.81,
+            43.803425713962255
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-873370197",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T17/CFD_SealedLight"
+        },
+        {
+          "s": 40.22299611943412,
+          "position": [
+            33.39633569301887,
+            -78.81,
+            39.567633789433955
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1082376687",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T17/CFD_SealedLight"
+        },
+        {
+          "s": 45.96913855633841,
+          "position": [
+            37.27914565660378,
+            -78.81,
+            35.33184110188679
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-252457995",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T17/CFD_SealedLight"
+        }
+      ],
+      "additions": [
+        {
+          "s": 49.87874632761634,
+          "position": [
+            39.920963915499094,
+            -78.81,
+            32.44985754672826
+          ],
+          "cloneId": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-252457995"
+        }
+      ]
+    },
+    {
+      "id": "B5-T18",
+      "p": [
+        41.161956560227146,
+        -82,
+        -31.096047388843115
+      ],
+      "q": [
+        6.2166665823595855,
+        -82,
+        -69.21818191015318
+      ],
+      "length": 51.71528238439882,
+      "forward": [
+        -0.6757246285173464,
+        0.0,
+        -0.7371541402007414
+      ],
+      "ribs": [
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1614761297",
+          "s": 2.873072113564973
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-410031200",
+          "s": 8.619215542555875
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1852392980",
+          "s": 14.365356987373543
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1343710189",
+          "s": 20.111498346189897
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1267664056",
+          "s": 25.857641824324404
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1607053548",
+          "s": 31.60378573246549
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-2144161715",
+          "s": 37.349926010122445
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-2004235119",
+          "s": 43.09606938996973
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-2000616336",
+          "s": 48.84221413969512
+        }
+      ],
+      "moves": [
+        {
+          "s": 1.8365360567824864,
+          "position": [
+            39.92096391549909,
+            -78.81,
+            -32.44985754672827
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1145236011",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T18/CFD_SealedLight"
+        },
+        {
+          "s": 5.746143828060424,
+          "position": [
+            37.279145656603774,
+            -78.81,
+            -35.331841101886795
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1930664420",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T18/CFD_SealedLight"
+        },
+        {
+          "s": 11.492286264964708,
+          "position": [
+            33.39633569301887,
+            -78.81,
+            -39.56763378943396
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1576018902",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T18/CFD_SealedLight"
+        },
+        {
+          "s": 17.23842766678172,
+          "position": [
+            29.51352642886792,
+            -78.81,
+            -43.80342571396227
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1120662920",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T18/CFD_SealedLight"
+        },
+        {
+          "s": 22.98457008525715,
+          "position": [
+            25.630716477735845,
+            -78.81,
+            -48.039218387924535
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1588230153",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T18/CFD_SealedLight"
+        },
+        {
+          "s": 28.730713778394946,
+          "position": [
+            21.747905665283017,
+            -78.81,
+            -52.27501200150944
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-434247156",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T18/CFD_SealedLight"
+        },
+        {
+          "s": 34.476855871293964,
+          "position": [
+            17.86509593415094,
+            -78.81,
+            -56.5108044354717
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-2142230957",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T18/CFD_SealedLight"
+        },
+        {
+          "s": 40.222997700046086,
+          "position": [
+            13.982286381509425,
+            -78.81,
+            -60.74659667471698
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-640162866",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T18/CFD_SealedLight"
+        },
+        {
+          "s": 45.96914176483243,
+          "position": [
+            10.099475317924522,
+            -78.81,
+            -64.98239056226416
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1194982681",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T18/CFD_SealedLight"
+        }
+      ],
+      "additions": [
+        {
+          "s": 49.87874826204697,
+          "position": [
+            7.45765791994522,
+            -78.81,
+            -67.86437317824158
+          ],
+          "cloneId": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1194982681"
+        }
+      ]
+    },
+    {
+      "id": "B5-T19",
+      "p": [
+        -8.158127538891538,
+        -82,
+        -71.7473590488757
+      ],
+      "q": [
+        -86.72862545446624,
+        -82,
+        -30.790397369480367
+      ],
+      "length": 88.60471687618434,
+      "forward": [
+        -0.8867529933577759,
+        0.0,
+        0.462243581643947
+      ],
+      "ribs": [
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-657380396",
+          "s": 2.953491301757756
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-2084147655",
+          "s": 8.860470376390605
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1712747306",
+          "s": 14.767453627252706
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1101538903",
+          "s": 20.674433542414185
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1401471635",
+          "s": 26.581415125425977
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1539213560",
+          "s": 32.488392669938236
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1133697336",
+          "s": 38.39537365486343
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1275090605",
+          "s": 44.302355928410535
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1275038200",
+          "s": 50.209338019890254
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-1162900399",
+          "s": 56.116318122779234
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-327586449",
+          "s": 62.02329947561258
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-431051802",
+          "s": 67.93028300948097
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-698646487",
+          "s": 73.83726166620788
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-202659516",
+          "s": 79.74424427087231
+        },
+        {
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8918714741006248217-26439025",
+          "s": 85.65122072769714
+        }
+      ],
+      "moves": [
+        {
+          "s": 1.876745650878878,
+          "position": [
+            -9.822337362579571,
+            -78.81,
+            -70.87984541737875
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1920235115",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T19/CFD_SealedLight"
+        },
+        {
+          "s": 5.906980839074181,
+          "position": [
+            -13.396160479647595,
+            -78.81,
+            -69.01689506911988
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-2091096730",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T19/CFD_SealedLight"
+        },
+        {
+          "s": 11.813962001821656,
+          "position": [
+            -18.634193707421915,
+            -78.81,
+            -66.28643093974816
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1931455360",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T19/CFD_SealedLight"
+        },
+        {
+          "s": 17.720943584833446,
+          "position": [
+            -23.872227307866872,
+            -78.81,
+            -63.55596661611196
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1862175288",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T19/CFD_SealedLight"
+        },
+        {
+          "s": 23.62792433392008,
+          "position": [
+            -29.110260168826205,
+            -78.81,
+            -60.8255026779523
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-109482082",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T19/CFD_SealedLight"
+        },
+        {
+          "s": 29.534903897682106,
+          "position": [
+            -34.348291978695386,
+            -78.81,
+            -58.09503928770135
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-356843971",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T19/CFD_SealedLight"
+        },
+        {
+          "s": 35.44188316240083,
+          "position": [
+            -39.58632352338703,
+            -78.81,
+            -55.36457603568124
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1955933723",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T19/CFD_SealedLight"
+        },
+        {
+          "s": 41.348864791636984,
+          "position": [
+            -44.82435716482158,
+            -78.81,
+            -52.63411169067812
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-168526152",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T19/CFD_SealedLight"
+        },
+        {
+          "s": 47.255846974150394,
+          "position": [
+            -50.0623912968764,
+            -78.81,
+            -49.90364708992614
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1825213674",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T19/CFD_SealedLight"
+        },
+        {
+          "s": 53.162828071334744,
+          "position": [
+            -55.300424466512425,
+            -78.81,
+            -47.17318299086055
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1448275195",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T19/CFD_SealedLight"
+        },
+        {
+          "s": 59.06980879919591,
+          "position": [
+            -60.53845730865001,
+            -78.81,
+            -44.44271906251224
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-425073835",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T19/CFD_SealedLight"
+        },
+        {
+          "s": 64.97679124254678,
+          "position": [
+            -65.77649167200322,
+            -78.81,
+            -41.71225434118982
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-926832119",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T19/CFD_SealedLight"
+        },
+        {
+          "s": 70.88377233784442,
+          "position": [
+            -71.01452483996619,
+            -78.81,
+            -38.981790242996354
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-868639803",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T19/CFD_SealedLight"
+        },
+        {
+          "s": 76.79075296854009,
+          "position": [
+            -76.25255759594198,
+            -78.81,
+            -36.251326359562164
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1352254383",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T19/CFD_SealedLight"
+        },
+        {
+          "s": 82.69773249928473,
+          "position": [
+            -81.4905893765329,
+            -78.81,
+            -33.520862984573284
+          ],
+          "id": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1205802571",
+          "path": "B5_Circular_Core_V0.03/B5_FullLayout_Implementation/Added_Corridor_Fittings/B5-T19/CFD_SealedLight"
+        }
+      ],
+      "additions": [
+        {
+          "s": 86.72796880194073,
+          "position": [
+            -85.06441348185228,
+            -78.81,
+            -31.657912121162113
+          ],
+          "cloneId": "GlobalObjectId_V1-2-57dff3269c78c054ea3dfab4bba7a27b-8080388136566619766-1205802571"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+using System;using System.Linq;using UnityEngine;using UnityEngine.SceneManagement;using UnityEditor;
+public static class B4Probe {
+ public static object Run(){var s=SceneManager.GetActiveScene();return new{scene=s.path,dirty=s.isDirty,roots=s.GetRootGameObjects().Select(g=>new{name=g.name,components=g.GetComponents<Component>().Select(c=>c?c.GetType().FullName:"MISSING").ToArray(),children=g.name.StartsWith("Player")?g.GetComponentsInChildren<Transform>(true).Select(t=>new{name=t.name,position=t.position.ToString(),components=t.GetComponents<Component>().Select(c=>c?c.GetType().Name:"MISSING").ToArray()}).ToArray():null}).ToArray(),ambient=RenderSettings.ambientMode.ToString(),intensity=RenderSettings.ambientIntensity,sky=RenderSettings.ambientSkyColor.ToString(),fog=RenderSettings.fog,exposure=RenderSettings.reflectionIntensity};}
+}

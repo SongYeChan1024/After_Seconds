@@ -1,4 +1,4 @@
-# 개발 일지 V0.04
+# 개발 일지 V0.05
 
 작업 나열보다 문제를 어떻게 발견하고 해결했는지 기록합니다. 매일의 학습 과정은 공개 「데일리 로그」로, 프로젝트의 구현 문제와 해결 과정은 별도의 기술 글로 작성합니다.
 
@@ -57,3 +57,14 @@
 - [데일리로그 — 이 공간을 쓰는 사람이라면 어떻게 움직일까](https://songyechan1024.github.io/Kasil_DevLog/posts/daily-log-spaces-that-explain-their-purpose/)
 - [일일개발일지 — B5 돔 구조·장비 보강과 복도 안내선 정리](https://songyechan1024.github.io/Kasil_DevLog/posts/after-seconds-b5-domes-and-corridor-guidance/)
 - [비공개 프로젝트 인수인계](../작업마감_2026-11-08.md). 본문은 블로그에 보관한다. 작성자 송예찬.
+
+
+## 2026-11-08 저녁 B4·영문 이름 작업 — 로컬 원고
+
+블로그 `Kasil_DevLog`의 `docs/2026-11-08-b4-experiment-operations` 브랜치에 작성했다. 아래 두 글은 아직 커밋·push·게시하지 않았다. 새벽의 기존 공개 글을 덮어쓰지 않는다.
+
+- 데일리로그: `_posts/2026-11-08-daily-log-living-floor-and-experiment-floor.md` — 생활층/실험층 구분, 세 역할의 동선과 설비 접근, 영문 이름 규칙.
+- 일일개발일지: `_posts/2026-11-08-after-seconds-b4-experiment-operations.md` — B5 조명, B4 전체 제작·실험 설비, 검수와 이름 전환. 스크린샷5장.
+- [저녁 인수인계](../WorkClose_2026-11-08_Evening.md). 본문은 블로그에만 보관한다.
+
+- V0.05 (2026-11-08): B4 작업과 영문 이름 변경을 담은 저녁 원고 위치·로컬 상태 기록. 송예찬.
