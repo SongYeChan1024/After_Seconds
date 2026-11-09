@@ -1,0 +1,909 @@
+{
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B3_Circular.unity",
+  "isDirty": false,
+  "playing": false,
+  "frame": 25,
+  "focused": false,
+  "focusedWindow": null,
+  "cursor": "None",
+  "devices": [
+    {
+      "name": "Keyboard",
+      "enabled": true,
+      "added": true,
+      "deviceId": 1,
+      "native": true,
+      "description": "Keyboard (RawInput)"
+    },
+    {
+      "name": "Mouse",
+      "enabled": false,
+      "added": true,
+      "deviceId": 2,
+      "native": true,
+      "description": "Mouse (RawInput)"
+    }
+  ],
+  "background": "ResetAndDisableNonBackgroundDevices",
+  "editorBehavior": "PointersAndKeyboardsRespectGameViewFocus",
+  "inputs": [
+    {
+      "name": "Player_Dummy_V0.1",
+      "enabled": true,
+      "inputIsActive": false,
+      "currentControlScheme": null,
+      "map": null,
+      "defaultMap": "Player",
+      "behavior": "InvokeUnityEvents",
+      "asset": "Assets/Afrer_Seconds/02.Scripts/C.System/Player/InputSystem_Actions.inputactions",
+      "devices": [],
+      "events": [
+        {
+          "actionId": "351f2ccd-1f9f-44bf-9bec-d62ac5c5f408",
+          "actionName": "Player/Move[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]",
+          "listeners": [
+            {
+              "method": "OnMove",
+              "target": "Player_Dummy_V0.1",
+              "state": "RuntimeOnly"
+            }
+          ]
+        },
+        {
+          "actionId": "6b444451-8a00-4d00-a97e-f47457f736a8",
+          "actionName": "Player/Look[/Mouse/delta,/Mouse/position]",
+          "listeners": [
+            {
+              "method": "OnLook",
+              "target": "Player_Dummy_V0.1",
+              "state": "RuntimeOnly"
+            }
+          ]
+        },
+        {
+          "actionId": "6c2ab1b8-8984-453a-af3d-a3c78ae1679a",
+          "actionName": "Player/Attack[/Mouse/leftButton,/Keyboard/enter]",
+          "listeners": []
+        },
+        {
+          "actionId": "852140f2-7766-474d-8707-702459ba45f3",
+          "actionName": "Player/Interact[/Keyboard/e]",
+          "listeners": []
+        },
+        {
+          "actionId": "27c5f898-bc57-4ee1-8800-db469aca5fe3",
+          "actionName": "Player/Crouch[/Keyboard/c]",
+          "listeners": []
+        },
+        {
+          "actionId": "f1ba0d36-48eb-4cd5-b651-1c94a6531f70",
+          "actionName": "Player/Jump[/Keyboard/space]",
+          "listeners": []
+        },
+        {
+          "actionId": "2776c80d-3c14-4091-8c56-d04ced07a2b0",
+          "actionName": "Player/Previous[/Mouse/scroll/up]",
+          "listeners": []
+        },
+        {
+          "actionId": "b7230bb6-fc9b-4f52-8b25-f5e19cb2c2ba",
+          "actionName": "Player/Next[/Mouse/scroll/down]",
+          "listeners": []
+        },
+        {
+          "actionId": "641cd816-40e6-41b4-8c3d-04687c349290",
+          "actionName": "Player/Sprint[/Keyboard/leftShift]",
+          "listeners": [
+            {
+              "method": "OnSprint",
+              "target": "Player_Dummy_V0.1",
+              "state": "RuntimeOnly"
+            }
+          ]
+        },
+        {
+          "actionId": "c95b2375-e6d9-4b88-9c4c-c5e76515df4b",
+          "actionName": "UI/Navigate[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]",
+          "listeners": []
+        },
+        {
+          "actionId": "7607c7b6-cd76-4816-beef-bd0341cfe950",
+          "actionName": "UI/Submit[/Keyboard/enter]",
+          "listeners": []
+        },
+        {
+          "actionId": "15cef263-9014-4fd5-94d9-4e4a6234a6ef",
+          "actionName": "UI/Cancel[/Keyboard/escape]",
+          "listeners": []
+        },
+        {
+          "actionId": "32b35790-4ed0-4e9a-aa41-69ac6d629449",
+          "actionName": "UI/Point[/Mouse/position]",
+          "listeners": []
+        },
+        {
+          "actionId": "3c7022bf-7922-4f7c-a998-c437916075ad",
+          "actionName": "UI/Click[/Mouse/leftButton]",
+          "listeners": []
+        },
+        {
+          "actionId": "44b200b1-1557-4083-816c-b22cbdf77ddf",
+          "actionName": "UI/RightClick[/Mouse/rightButton]",
+          "listeners": []
+        },
+        {
+          "actionId": "dad70c86-b58c-4b17-88ad-f5e53adf419e",
+          "actionName": "UI/MiddleClick[/Mouse/middleButton]",
+          "listeners": []
+        },
+        {
+          "actionId": "0489e84a-4833-4c40-bfae-cea84b696689",
+          "actionName": "UI/ScrollWheel[/Mouse/scroll]",
+          "listeners": []
+        },
+        {
+          "actionId": "24908448-c609-4bc3-a128-ea258674378a",
+          "actionName": "UI/TrackedDevicePosition",
+          "listeners": []
+        },
+        {
+          "actionId": "9caa3d8a-6b2f-4e8e-8bad-6ede561bd9be",
+          "actionName": "UI/TrackedDeviceOrientation",
+          "listeners": []
+        }
+      ],
+      "actions": [
+        {
+          "name": "Move",
+          "enabled": false,
+          "phase": "Disabled",
+          "bindings": [
+            {
+              "path": "<Gamepad>/leftStick",
+              "effectivePath": "<Gamepad>/leftStick",
+              "groups": ";Gamepad",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "Dpad",
+              "effectivePath": "Dpad",
+              "groups": "",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Keyboard>/w",
+              "effectivePath": "<Keyboard>/w",
+              "groups": ";Keyboard&Mouse",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Keyboard>/upArrow",
+              "effectivePath": "<Keyboard>/upArrow",
+              "groups": ";Keyboard&Mouse",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Keyboard>/s",
+              "effectivePath": "<Keyboard>/s",
+              "groups": ";Keyboard&Mouse",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Keyboard>/downArrow",
+              "effectivePath": "<Keyboard>/downArrow",
+              "groups": ";Keyboard&Mouse",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Keyboard>/a",
+              "effectivePath": "<Keyboard>/a",
+              "groups": ";Keyboard&Mouse",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Keyboard>/leftArrow",
+              "effectivePath": "<Keyboard>/leftArrow",
+              "groups": ";Keyboard&Mouse",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Keyboard>/d",
+              "effectivePath": "<Keyboard>/d",
+              "groups": ";Keyboard&Mouse",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Keyboard>/rightArrow",
+              "effectivePath": "<Keyboard>/rightArrow",
+              "groups": ";Keyboard&Mouse",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<XRController>/{Primary2DAxis}",
+              "effectivePath": "<XRController>/{Primary2DAxis}",
+              "groups": "XR",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Joystick>/stick",
+              "effectivePath": "<Joystick>/stick",
+              "groups": "Joystick",
+              "interactions": "",
+              "processors": ""
+            }
+          ],
+          "controls": [
+            "/Keyboard/w",
+            "/Keyboard/upArrow",
+            "/Keyboard/s",
+            "/Keyboard/downArrow",
+            "/Keyboard/a",
+            "/Keyboard/leftArrow",
+            "/Keyboard/d",
+            "/Keyboard/rightArrow"
+          ]
+        },
+        {
+          "name": "Look",
+          "enabled": false,
+          "phase": "Disabled",
+          "bindings": [
+            {
+              "path": "<Gamepad>/rightStick",
+              "effectivePath": "<Gamepad>/rightStick",
+              "groups": ";Gamepad",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Pointer>/delta",
+              "effectivePath": "<Pointer>/delta",
+              "groups": ";Keyboard&Mouse;Touch",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Joystick>/{Hatswitch}",
+              "effectivePath": "<Joystick>/{Hatswitch}",
+              "groups": "Joystick",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Mouse>/delta",
+              "effectivePath": "<Mouse>/delta",
+              "groups": ";Keyboard&Mouse",
+              "interactions": "",
+              "processors": ""
+            }
+          ],
+          "controls": [
+            "/Mouse/delta"
+          ]
+        },
+        {
+          "name": "Attack",
+          "enabled": false,
+          "phase": "Disabled",
+          "bindings": [
+            {
+              "path": "<Gamepad>/buttonWest",
+              "effectivePath": "<Gamepad>/buttonWest",
+              "groups": ";Gamepad",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Mouse>/leftButton",
+              "effectivePath": "<Mouse>/leftButton",
+              "groups": ";Keyboard&Mouse",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Touchscreen>/primaryTouch/tap",
+              "effectivePath": "<Touchscreen>/primaryTouch/tap",
+              "groups": ";Touch",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Joystick>/trigger",
+              "effectivePath": "<Joystick>/trigger",
+              "groups": "Joystick",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<XRController>/{PrimaryAction}",
+              "effectivePath": "<XRController>/{PrimaryAction}",
+              "groups": "XR",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Keyboard>/enter",
+              "effectivePath": "<Keyboard>/enter",
+              "groups": "Keyboard&Mouse",
+              "interactions": "",
+              "processors": ""
+            }
+          ],
+          "controls": [
+            "/Mouse/leftButton",
+            "/Keyboard/enter"
+          ]
+        },
+        {
+          "name": "Interact",
+          "enabled": false,
+          "phase": "Disabled",
+          "bindings": [
+            {
+              "path": "<Keyboard>/e",
+              "effectivePath": "<Keyboard>/e",
+              "groups": "Keyboard&Mouse",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Gamepad>/buttonNorth",
+              "effectivePath": "<Gamepad>/buttonNorth",
+              "groups": "Gamepad",
+              "interactions": "",
+              "processors": ""
+            }
+          ],
+          "controls": [
+            "/Keyboard/e"
+          ]
+        },
+        {
+          "name": "Crouch",
+          "enabled": false,
+          "phase": "Disabled",
+          "bindings": [
+            {
+              "path": "<Gamepad>/buttonEast",
+              "effectivePath": "<Gamepad>/buttonEast",
+              "groups": "Gamepad",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Keyboard>/c",
+              "effectivePath": "<Keyboard>/c",
+              "groups": "Keyboard&Mouse",
+              "interactions": "",
+              "processors": ""
+            }
+          ],
+          "controls": [
+            "/Keyboard/c"
+          ]
+        },
+        {
+          "name": "Jump",
+          "enabled": false,
+          "phase": "Disabled",
+          "bindings": [
+            {
+              "path": "<Keyboard>/space",
+              "effectivePath": "<Keyboard>/space",
+              "groups": "Keyboard&Mouse",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Gamepad>/buttonSouth",
+              "effectivePath": "<Gamepad>/buttonSouth",
+              "groups": "Gamepad",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<XRController>/secondaryButton",
+              "effectivePath": "<XRController>/secondaryButton",
+              "groups": "XR",
+              "interactions": "",
+              "processors": ""
+            }
+          ],
+          "controls": [
+            "/Keyboard/space"
+          ]
+        },
+        {
+          "name": "Previous",
+          "enabled": false,
+          "phase": "Disabled",
+          "bindings": [
+            {
+              "path": "<Mouse>/scroll/up",
+              "effectivePath": "<Mouse>/scroll/up",
+              "groups": "Keyboard&Mouse",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Gamepad>/dpad/left",
+              "effectivePath": "<Gamepad>/dpad/left",
+              "groups": "Gamepad",
+              "interactions": "",
+              "processors": ""
+            }
+          ],
+          "controls": [
+            "/Mouse/scroll/up"
+          ]
+        },
+        {
+          "name": "Next",
+          "enabled": false,
+          "phase": "Disabled",
+          "bindings": [
+            {
+              "path": "<Mouse>/scroll/down",
+              "effectivePath": "<Mouse>/scroll/down",
+              "groups": "Keyboard&Mouse",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Gamepad>/dpad/right",
+              "effectivePath": "<Gamepad>/dpad/right",
+              "groups": "Gamepad",
+              "interactions": "",
+              "processors": ""
+            }
+          ],
+          "controls": [
+            "/Mouse/scroll/down"
+          ]
+        },
+        {
+          "name": "Sprint",
+          "enabled": false,
+          "phase": "Disabled",
+          "bindings": [
+            {
+              "path": "<Keyboard>/leftShift",
+              "effectivePath": "<Keyboard>/leftShift",
+              "groups": "Keyboard&Mouse",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Gamepad>/leftStickPress",
+              "effectivePath": "<Gamepad>/leftStickPress",
+              "groups": "Gamepad",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<XRController>/trigger",
+              "effectivePath": "<XRController>/trigger",
+              "groups": "XR",
+              "interactions": "",
+              "processors": ""
+            }
+          ],
+          "controls": [
+            "/Keyboard/leftShift"
+          ]
+        },
+        {
+          "name": "Navigate",
+          "enabled": false,
+          "phase": "Disabled",
+          "bindings": [
+            {
+              "path": "2DVector",
+              "effectivePath": "2DVector",
+              "groups": "",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Gamepad>/leftStick/up",
+              "effectivePath": "<Gamepad>/leftStick/up",
+              "groups": ";Gamepad",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Gamepad>/rightStick/up",
+              "effectivePath": "<Gamepad>/rightStick/up",
+              "groups": ";Gamepad",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Gamepad>/leftStick/down",
+              "effectivePath": "<Gamepad>/leftStick/down",
+              "groups": ";Gamepad",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Gamepad>/rightStick/down",
+              "effectivePath": "<Gamepad>/rightStick/down",
+              "groups": ";Gamepad",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Gamepad>/leftStick/left",
+              "effectivePath": "<Gamepad>/leftStick/left",
+              "groups": ";Gamepad",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Gamepad>/rightStick/left",
+              "effectivePath": "<Gamepad>/rightStick/left",
+              "groups": ";Gamepad",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Gamepad>/leftStick/right",
+              "effectivePath": "<Gamepad>/leftStick/right",
+              "groups": ";Gamepad",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Gamepad>/rightStick/right",
+              "effectivePath": "<Gamepad>/rightStick/right",
+              "groups": ";Gamepad",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Gamepad>/dpad",
+              "effectivePath": "<Gamepad>/dpad",
+              "groups": ";Gamepad",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "2DVector",
+              "effectivePath": "2DVector",
+              "groups": "",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Joystick>/stick/up",
+              "effectivePath": "<Joystick>/stick/up",
+              "groups": "Joystick",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Joystick>/stick/down",
+              "effectivePath": "<Joystick>/stick/down",
+              "groups": "Joystick",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Joystick>/stick/left",
+              "effectivePath": "<Joystick>/stick/left",
+              "groups": "Joystick",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Joystick>/stick/right",
+              "effectivePath": "<Joystick>/stick/right",
+              "groups": "Joystick",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "2DVector",
+              "effectivePath": "2DVector",
+              "groups": "",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Keyboard>/w",
+              "effectivePath": "<Keyboard>/w",
+              "groups": "Keyboard&Mouse",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Keyboard>/upArrow",
+              "effectivePath": "<Keyboard>/upArrow",
+              "groups": "Keyboard&Mouse",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Keyboard>/s",
+              "effectivePath": "<Keyboard>/s",
+              "groups": "Keyboard&Mouse",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Keyboard>/downArrow",
+              "effectivePath": "<Keyboard>/downArrow",
+              "groups": "Keyboard&Mouse",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Keyboard>/a",
+              "effectivePath": "<Keyboard>/a",
+              "groups": "Keyboard&Mouse",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Keyboard>/leftArrow",
+              "effectivePath": "<Keyboard>/leftArrow",
+              "groups": "Keyboard&Mouse",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Keyboard>/d",
+              "effectivePath": "<Keyboard>/d",
+              "groups": "Keyboard&Mouse",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Keyboard>/rightArrow",
+              "effectivePath": "<Keyboard>/rightArrow",
+              "groups": "Keyboard&Mouse",
+              "interactions": "",
+              "processors": ""
+            }
+          ],
+          "controls": [
+            "/Keyboard/w",
+            "/Keyboard/upArrow",
+            "/Keyboard/s",
+            "/Keyboard/downArrow",
+            "/Keyboard/a",
+            "/Keyboard/leftArrow",
+            "/Keyboard/d",
+            "/Keyboard/rightArrow"
+          ]
+        },
+        {
+          "name": "Submit",
+          "enabled": false,
+          "phase": "Disabled",
+          "bindings": [
+            {
+              "path": "*/{Submit}",
+              "effectivePath": "*/{Submit}",
+              "groups": "Keyboard&Mouse;Gamepad;Touch;Joystick;XR",
+              "interactions": "",
+              "processors": ""
+            }
+          ],
+          "controls": [
+            "/Keyboard/enter"
+          ]
+        },
+        {
+          "name": "Cancel",
+          "enabled": false,
+          "phase": "Disabled",
+          "bindings": [
+            {
+              "path": "*/{Cancel}",
+              "effectivePath": "*/{Cancel}",
+              "groups": "Keyboard&Mouse;Gamepad;Touch;Joystick;XR",
+              "interactions": "",
+              "processors": ""
+            }
+          ],
+          "controls": [
+            "/Keyboard/escape"
+          ]
+        },
+        {
+          "name": "Point",
+          "enabled": false,
+          "phase": "Disabled",
+          "bindings": [
+            {
+              "path": "<Mouse>/position",
+              "effectivePath": "<Mouse>/position",
+              "groups": "Keyboard&Mouse",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Pen>/position",
+              "effectivePath": "<Pen>/position",
+              "groups": "Keyboard&Mouse",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Touchscreen>/touch*/position",
+              "effectivePath": "<Touchscreen>/touch*/position",
+              "groups": "Touch",
+              "interactions": "",
+              "processors": ""
+            }
+          ],
+          "controls": [
+            "/Mouse/position"
+          ]
+        },
+        {
+          "name": "Click",
+          "enabled": false,
+          "phase": "Disabled",
+          "bindings": [
+            {
+              "path": "<Mouse>/leftButton",
+              "effectivePath": "<Mouse>/leftButton",
+              "groups": ";Keyboard&Mouse",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Pen>/tip",
+              "effectivePath": "<Pen>/tip",
+              "groups": ";Keyboard&Mouse",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<Touchscreen>/touch*/press",
+              "effectivePath": "<Touchscreen>/touch*/press",
+              "groups": "Touch",
+              "interactions": "",
+              "processors": ""
+            },
+            {
+              "path": "<XRController>/trigger",
+              "effectivePath": "<XRController>/trigger",
+              "groups": "XR",
+              "interactions": "",
+              "processors": ""
+            }
+          ],
+          "controls": [
+            "/Mouse/leftButton"
+          ]
+        },
+        {
+          "name": "RightClick",
+          "enabled": false,
+          "phase": "Disabled",
+          "bindings": [
+            {
+              "path": "<Mouse>/rightButton",
+              "effectivePath": "<Mouse>/rightButton",
+              "groups": "Keyboard&Mouse",
+              "interactions": "",
+              "processors": ""
+            }
+          ],
+          "controls": [
+            "/Mouse/rightButton"
+          ]
+        },
+        {
+          "name": "MiddleClick",
+          "enabled": false,
+          "phase": "Disabled",
+          "bindings": [
+            {
+              "path": "<Mouse>/middleButton",
+              "effectivePath": "<Mouse>/middleButton",
+              "groups": "Keyboard&Mouse",
+              "interactions": "",
+              "processors": ""
+            }
+          ],
+          "controls": [
+            "/Mouse/middleButton"
+          ]
+        },
+        {
+          "name": "ScrollWheel",
+          "enabled": false,
+          "phase": "Disabled",
+          "bindings": [
+            {
+              "path": "<Mouse>/scroll",
+              "effectivePath": "<Mouse>/scroll",
+              "groups": ";Keyboard&Mouse",
+              "interactions": "",
+              "processors": ""
+            }
+          ],
+          "controls": [
+            "/Mouse/scroll"
+          ]
+        },
+        {
+          "name": "TrackedDevicePosition",
+          "enabled": false,
+          "phase": "Disabled",
+          "bindings": [
+            {
+              "path": "<XRController>/devicePosition",
+              "effectivePath": "<XRController>/devicePosition",
+              "groups": "XR",
+              "interactions": "",
+              "processors": ""
+            }
+          ],
+          "controls": []
+        },
+        {
+          "name": "TrackedDeviceOrientation",
+          "enabled": false,
+          "phase": "Disabled",
+          "bindings": [
+            {
+              "path": "<XRController>/deviceRotation",
+              "effectivePath": "<XRController>/deviceRotation",
+              "groups": "XR",
+              "interactions": "",
+              "processors": ""
+            }
+          ],
+          "controls": []
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "name": "Player_Dummy_V0.1",
+      "type": "PlayerPresenter",
+      "enabled": true,
+      "active": true,
+      "json": "{\"MonoBehaviour\":{\"m_Enabled\":true,\"m_EditorHideFlags\":0,\"m_Name\":\"\",\"m_EditorClassIdentifier\":\"PresenterAD::PlayerPresenter\",\"playerMotor\":{\"instanceID\":0},\"playerLook\":{\"instanceID\":0},\"playerAnimationSystem\":{\"instanceID\":0}}}"
+    },
+    {
+      "name": "Player_Dummy_V0.1",
+      "type": "PlayerLook",
+      "enabled": true,
+      "active": true,
+      "json": "{\"MonoBehaviour\":{\"m_Enabled\":true,\"m_EditorHideFlags\":0,\"m_Name\":\"\",\"m_EditorClassIdentifier\":\"SystemAD::PlayerLook\",\"cameraRoot\":{\"instanceID\":0},\"settings\":{\"fileID\":11400000,\"guid\":\"f40468bf07e59e24fa0fe9b05f7ff94e\",\"type\":2}}}"
+    },
+    {
+      "name": "CM_Player_1st",
+      "type": "CinemachineVirtualCamera",
+      "enabled": true,
+      "active": true,
+      "json": "{\"MonoBehaviour\":{\"m_Enabled\":true,\"m_EditorHideFlags\":0,\"m_Name\":\"\",\"m_EditorClassIdentifier\":\"Cinemachine::Cinemachine.CinemachineVirtualCamera\",\"m_ExcludedPropertiesInInspector\":[\"m_Script\"],\"m_LockStageInInspector\":[],\"m_StreamingVersion\":20170927,\"m_Priority\":10,\"m_StandbyUpdate\":2,\"m_LookAt\":{\"instanceID\":0},\"m_Follow\":{\"instanceID\":0},\"m_Lens\":{\"FieldOfView\":60.000003814697269,\"OrthographicSize\":5.0,\"NearClipPlane\":0.05000000074505806,\"FarClipPlane\":1000.0,\"Dutch\":0.0,\"ModeOverride\":0,\"LensShift\":{\"x\":0.0,\"y\":0.0},\"GateFit\":2,\"FocusDistance\":10.0,\"m_SensorSize\":{\"x\":1.0,\"y\":1.0}},\"m_Transitions\":{\"m_BlendHint\":0,\"m_InheritPosition\":false,\"m_OnCameraLive\":{\"m_PersistentCalls\":{\"m_Calls\":[]}}},\"m_LegacyBlendHint\":0,\"m_ComponentOwner\":{\"instanceID\":0}}}"
+    }
+  ],
+  "cameras": [
+    {
+      "name": "Main Camera",
+      "enabled": true,
+      "active": true,
+      "rotation": "(0.00, 305.00, 0.00)"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "author": "송예찬",
+  "version": "V0.01",
+  "scene": "Level_B2_Circular",
+  "scope": "B2 C02 only",
+  "models": [
+    "BC_C02_Shell",
+    "BC_C02_Floor",
+    "BC_C02_Lining",
+    "BC_C02_Services",
+    "BC_MezzanineStructure",
+    "BC_MezzanineGrating",
+    "BC_MezzanineGuards",
+    "BC_MezzanineStairs",
+    "BC_CoolingPipework",
+    "BC_FloorDetails",
+    "BC_PlateHeatExchanger",
+    "BC_PumpDriveCabinet",
+    "BC_UpperValveStation",
+    "BC_MaintenanceBench",
+    "BC_ToolTrolley",
+    "BC_CagedRedLamp",
+    "BC_ServiceLightSupports",
+    "BC_WallSafety_R11"
+  ],
+  "varco": "Existing approved flow assets reused; no new generation",
+  "geometrySource": "SourceAssets/B2_Cooling",
+  "review": "Docs/Review/2026-11-09_B2_Cooling/Review.md",
+  "runtimeCodeAdded": false
+}

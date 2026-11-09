@@ -1,0 +1,61 @@
+{
+  "prior": {
+    "enabled": false,
+    "flags": "HasStateCallbacks, HasControlsWithDefaultState, Native, DisabledInFrontend, DisabledStateHasBeenQueriedFromRuntime, DisabledInRuntime, HasDontResetControls, HasEventMerger"
+  },
+  "after": {
+    "enabled": true,
+    "flags": "HasStateCallbacks, HasControlsWithDefaultState, Native, DisabledStateHasBeenQueriedFromRuntime, HasDontResetControls, HasEventMerger"
+  },
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B3_Circular.unity",
+  "isDirty": false,
+  "references": [
+    {
+      "type": "PlayerLook",
+      "enabled": true,
+      "refs": [
+        {
+          "name": "cameraRoot",
+          "valid": true,
+          "value": "CameraRoot"
+        },
+        {
+          "name": "settings",
+          "valid": true,
+          "value": "PlayerLookSettings"
+        }
+      ]
+    },
+    {
+      "type": "CinemachineVirtualCamera",
+      "enabled": true,
+      "refs": [
+        {
+          "name": "m_LookAt",
+          "valid": false,
+          "value": null
+        },
+        {
+          "name": "m_Follow",
+          "valid": true,
+          "value": "CameraRoot"
+        },
+        {
+          "name": "m_ComponentOwner",
+          "valid": true,
+          "value": "cm"
+        },
+        {
+          "name": "mCachedLookAtTarget",
+          "valid": false,
+          "value": null
+        },
+        {
+          "name": "mCachedLookAtTargetVcam",
+          "valid": false,
+          "value": null
+        }
+      ]
+    }
+  ]
+}

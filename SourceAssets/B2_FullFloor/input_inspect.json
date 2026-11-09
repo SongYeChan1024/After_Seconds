@@ -1,0 +1,217 @@
+﻿{
+  "success": true,
+  "command": "command",
+  "data": {
+    "command": "script run",
+    "parameters": {
+      "file": "C:/Users/503-26/Desktop/Projects/04.After_Seconds/SourceAssets/B2_FullFloor/InputInspect.cs",
+      "entry": "BMInputInspect.Run"
+    },
+    "result": {
+      "diagnostics": [],
+      "compileMs": 50,
+      "executeMs": 4,
+      "assemblyName": "PipelineRunScript_InputInspect_ad5f69f9116743e2bd9d54276e7dff3a",
+      "success": true,
+      "result": {
+        "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B2_Circular.unity",
+        "dirty": false,
+        "isPlaying": true,
+        "runInBackground": true,
+        "isFocused": false,
+        "deltaTime": 0.0101956,
+        "time": 128.148529,
+        "active": true,
+        "isPaused": false,
+        "timeScale": 1,
+        "frameCount": 13900,
+        "map": "Player",
+        "currentControlScheme": "Keyboard&Mouse",
+        "devices": [
+          {
+            "name": "Keyboard",
+            "enabled": true
+          },
+          {
+            "name": "Mouse",
+            "enabled": true
+          }
+        ],
+        "keyboard": true,
+        "w": false,
+        "focus": null,
+        "background": "ResetAndDisableNonBackgroundDevices",
+        "editorMode": "PointersAndKeyboardsRespectGameViewFocus",
+        "actions": [
+          {
+            "name": "Move",
+            "enabled": true,
+            "value": null
+          },
+          {
+            "name": "Look",
+            "enabled": true,
+            "value": null
+          },
+          {
+            "name": "Attack",
+            "enabled": true,
+            "value": null
+          },
+          {
+            "name": "Interact",
+            "enabled": true,
+            "value": null
+          },
+          {
+            "name": "Crouch",
+            "enabled": true,
+            "value": null
+          },
+          {
+            "name": "Jump",
+            "enabled": true,
+            "value": null
+          },
+          {
+            "name": "Previous",
+            "enabled": true,
+            "value": null
+          },
+          {
+            "name": "Next",
+            "enabled": true,
+            "value": null
+          },
+          {
+            "name": "Sprint",
+            "enabled": true,
+            "value": null
+          },
+          {
+            "name": "Navigate",
+            "enabled": true,
+            "value": null
+          },
+          {
+            "name": "Submit",
+            "enabled": true,
+            "value": null
+          },
+          {
+            "name": "Cancel",
+            "enabled": true,
+            "value": null
+          },
+          {
+            "name": "Point",
+            "enabled": true,
+            "value": null
+          },
+          {
+            "name": "Click",
+            "enabled": true,
+            "value": null
+          },
+          {
+            "name": "RightClick",
+            "enabled": true,
+            "value": null
+          },
+          {
+            "name": "MiddleClick",
+            "enabled": true,
+            "value": null
+          },
+          {
+            "name": "ScrollWheel",
+            "enabled": true,
+            "value": null
+          },
+          {
+            "name": "TrackedDevicePosition",
+            "enabled": true,
+            "value": null
+          },
+          {
+            "name": "TrackedDeviceOrientation",
+            "enabled": true,
+            "value": null
+          }
+        ],
+        "components": [
+          {
+            "type": "PlayerInput",
+            "enabled": true,
+            "fields": [
+              {
+                "Name": "m_NeverAutoSwitchControlSchemes",
+                "value": "False"
+              },
+              {
+                "Name": "m_InputActive",
+                "value": "True"
+              },
+              {
+                "Name": "m_Enabled",
+                "value": "True"
+              },
+              {
+                "Name": "m_ActionsInitialized",
+                "value": "True"
+              },
+              {
+                "Name": "m_OnUnpairedDeviceUsedHooked",
+                "value": "True"
+              },
+              {
+                "Name": "m_OnDeviceChangeHooked",
+                "value": "False"
+              }
+            ]
+          },
+          {
+            "type": "PlayerPresenter",
+            "enabled": true,
+            "fields": [
+              {
+                "Name": "lookInput",
+                "value": "(0.00, 0.00)"
+              },
+              {
+                "Name": "moveInput",
+                "value": "(0.00, 0.00)"
+              },
+              {
+                "Name": "sprintInput",
+                "value": "False"
+              }
+            ]
+          },
+          {
+            "type": "PlayerMotor",
+            "enabled": true,
+            "fields": []
+          },
+          {
+            "type": "PlayerLook",
+            "enabled": true,
+            "fields": []
+          },
+          {
+            "type": "PlayerAnimationSystem",
+            "enabled": true,
+            "fields": []
+          }
+        ]
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

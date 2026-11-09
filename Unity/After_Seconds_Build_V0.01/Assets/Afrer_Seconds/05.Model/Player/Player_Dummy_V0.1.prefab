@@ -169,7 +169,19 @@ MonoBehaviour:
     m_ActionId: 852140f2-7766-474d-8707-702459ba45f3
     m_ActionName: 'Player/Interact[/Keyboard/e]'
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8399400799254104364}
+        m_TargetAssemblyTypeName: PlayerPresenter, PresenterAD
+        m_MethodName: OnCrouch
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 27c5f898-bc57-4ee1-8800-db469aca5fe3
     m_ActionName: 'Player/Crouch[/Keyboard/c]'
   - m_PersistentCalls:
@@ -185,7 +197,19 @@ MonoBehaviour:
     m_ActionId: b7230bb6-fc9b-4f52-8b25-f5e19cb2c2ba
     m_ActionName: 'Player/Next[/Mouse/scroll/down]'
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8399400799254104364}
+        m_TargetAssemblyTypeName: PlayerPresenter, PresenterAD
+        m_MethodName: OnSprint
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 641cd816-40e6-41b4-8c3d-04687c349290
     m_ActionName: 'Player/Sprint[/Keyboard/leftShift]'
   - m_PersistentCalls:
@@ -275,6 +299,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: SystemAD::PlayerLook
   cameraRoot: {fileID: 9011225398628340897}
   settings: {fileID: 11400000, guid: f40468bf07e59e24fa0fe9b05f7ff94e, type: 2}
+  crouchEyeSmoothTime: 0.12
 --- !u!114 &8475760720662525911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -288,6 +313,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: SystemAD::PlayerAnimationSystem
   animator: {fileID: 3109314176966932318}
+  locomotionDampTime: 0.12
+  directionDampTime: 0.1
 --- !u!143 &8098509987241885157
 CharacterController:
   m_ObjectHideFlags: 0
@@ -437,16 +464,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1273343018533527625, guid: 5a815a7a3db00024a877f8b86cc7a518, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.022835363
+      value: 0.022835365
       objectReference: {fileID: 0}
     - target: {fileID: 1273343018533527625, guid: 5a815a7a3db00024a877f8b86cc7a518, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.016290482
+      value: -0.016290484
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 5a815a7a3db00024a877f8b86cc7a518, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 57d1a32365f57ea4db5a7dba57b439c4, type: 2}
+      objectReference: {fileID: 9100000, guid: 3560fdb3dd7d02c47b6e3a631aa21ca4, type: 2}
     - target: {fileID: 5866666021909216657, guid: 5a815a7a3db00024a877f8b86cc7a518, type: 3}
       propertyPath: m_ApplyRootMotion
       value: 0

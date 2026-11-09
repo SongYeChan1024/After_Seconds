@@ -1,0 +1,914 @@
+{
+  "version": "V0.01",
+  "author": "송예찬",
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B3_Circular.unity",
+  "source": "SourceAssets/B3_FullFloor",
+  "designSource": "Docs/도면/Decision/원형공동/facility_layout.json",
+  "models": {
+    "BS_C01_Shell": {
+      "triangles": 6568,
+      "parts": 1,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_C01_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_C01_Floor": {
+      "triangles": 1532,
+      "parts": 1,
+      "beveled_parts": 1,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_C01_Floor.fbx",
+      "category": "Environment"
+    },
+    "BS_C01_Lining": {
+      "triangles": 64316,
+      "parts": 245,
+      "beveled_parts": 201,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_C01_Lining.fbx",
+      "category": "Environment"
+    },
+    "BS_C01_Services": {
+      "triangles": 10324,
+      "parts": 47,
+      "beveled_parts": 40,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_C01_Services.fbx",
+      "category": "Environment"
+    },
+    "BS_C02_Shell": {
+      "triangles": 6464,
+      "parts": 1,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_C02_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_C02_Floor": {
+      "triangles": 1532,
+      "parts": 1,
+      "beveled_parts": 1,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_C02_Floor.fbx",
+      "category": "Environment"
+    },
+    "BS_C02_Lining": {
+      "triangles": 54668,
+      "parts": 209,
+      "beveled_parts": 165,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_C02_Lining.fbx",
+      "category": "Environment"
+    },
+    "BS_C02_Services": {
+      "triangles": 5680,
+      "parts": 20,
+      "beveled_parts": 16,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_C02_Services.fbx",
+      "category": "Environment"
+    },
+    "BS_C03_Shell": {
+      "triangles": 6070,
+      "parts": 1,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_C03_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_C03_Floor": {
+      "triangles": 1532,
+      "parts": 1,
+      "beveled_parts": 1,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_C03_Floor.fbx",
+      "category": "Environment"
+    },
+    "BS_C03_Lining": {
+      "triangles": 54448,
+      "parts": 208,
+      "beveled_parts": 164,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_C03_Lining.fbx",
+      "category": "Environment"
+    },
+    "BS_C03_Services": {
+      "triangles": 7228,
+      "parts": 29,
+      "beveled_parts": 24,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_C03_Services.fbx",
+      "category": "Environment"
+    },
+    "BS_C04_Shell": {
+      "triangles": 5772,
+      "parts": 1,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_C04_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_C04_Floor": {
+      "triangles": 1532,
+      "parts": 1,
+      "beveled_parts": 1,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_C04_Floor.fbx",
+      "category": "Environment"
+    },
+    "BS_C04_Lining": {
+      "triangles": 64976,
+      "parts": 248,
+      "beveled_parts": 204,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_C04_Lining.fbx",
+      "category": "Environment"
+    },
+    "BS_C04_Services": {
+      "triangles": 8776,
+      "parts": 38,
+      "beveled_parts": 32,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_C04_Services.fbx",
+      "category": "Environment"
+    },
+    "BS_C05_Shell": {
+      "triangles": 6004,
+      "parts": 1,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_C05_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_C05_Floor": {
+      "triangles": 1532,
+      "parts": 1,
+      "beveled_parts": 1,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_C05_Floor.fbx",
+      "category": "Environment"
+    },
+    "BS_C05_Lining": {
+      "triangles": 61684,
+      "parts": 235,
+      "beveled_parts": 191,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_C05_Lining.fbx",
+      "category": "Environment"
+    },
+    "BS_C05_Services": {
+      "triangles": 8776,
+      "parts": 38,
+      "beveled_parts": 32,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_C05_Services.fbx",
+      "category": "Environment"
+    },
+    "BS_VA_Shell": {
+      "triangles": 6252,
+      "parts": 1,
+      "beveled_parts": 1,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_VA_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_VA_Floor": {
+      "triangles": 1532,
+      "parts": 1,
+      "beveled_parts": 1,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_VA_Floor.fbx",
+      "category": "Environment"
+    },
+    "BS_VA_Lining": {
+      "triangles": 17656,
+      "parts": 62,
+      "beveled_parts": 57,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_VA_Lining.fbx",
+      "category": "Environment"
+    },
+    "BS_VA_Services": {
+      "triangles": 7228,
+      "parts": 29,
+      "beveled_parts": 24,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_VA_Services.fbx",
+      "category": "Environment"
+    },
+    "BS_VB_Shell": {
+      "triangles": 6224,
+      "parts": 1,
+      "beveled_parts": 1,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_VB_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_VB_Floor": {
+      "triangles": 1532,
+      "parts": 1,
+      "beveled_parts": 1,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_VB_Floor.fbx",
+      "category": "Environment"
+    },
+    "BS_VB_Lining": {
+      "triangles": 17876,
+      "parts": 63,
+      "beveled_parts": 58,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_VB_Lining.fbx",
+      "category": "Environment"
+    },
+    "BS_VB_Services": {
+      "triangles": 7228,
+      "parts": 29,
+      "beveled_parts": 24,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_VB_Services.fbx",
+      "category": "Environment"
+    },
+    "BS_VL_Shell": {
+      "triangles": 6256,
+      "parts": 1,
+      "beveled_parts": 1,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_VL_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_VL_Floor": {
+      "triangles": 1532,
+      "parts": 1,
+      "beveled_parts": 1,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_VL_Floor.fbx",
+      "category": "Environment"
+    },
+    "BS_VL_Lining": {
+      "triangles": 17656,
+      "parts": 62,
+      "beveled_parts": 57,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_VL_Lining.fbx",
+      "category": "Environment"
+    },
+    "BS_VL_Services": {
+      "triangles": 7228,
+      "parts": 29,
+      "beveled_parts": 24,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_VL_Services.fbx",
+      "category": "Environment"
+    },
+    "BS_W01_Shell": {
+      "triangles": 5570,
+      "parts": 1,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_W01_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_W01_Floor": {
+      "triangles": 1532,
+      "parts": 1,
+      "beveled_parts": 1,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_W01_Floor.fbx",
+      "category": "Environment"
+    },
+    "BS_W01_Lining": {
+      "triangles": 67828,
+      "parts": 259,
+      "beveled_parts": 215,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_W01_Lining.fbx",
+      "category": "Environment"
+    },
+    "BS_W01_Services": {
+      "triangles": 11872,
+      "parts": 56,
+      "beveled_parts": 48,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_W01_Services.fbx",
+      "category": "Environment"
+    },
+    "BS_W02_Shell": {
+      "triangles": 5546,
+      "parts": 1,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_W02_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_W02_Floor": {
+      "triangles": 1532,
+      "parts": 1,
+      "beveled_parts": 1,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_W02_Floor.fbx",
+      "category": "Environment"
+    },
+    "BS_W02_Lining": {
+      "triangles": 68268,
+      "parts": 261,
+      "beveled_parts": 217,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_W02_Lining.fbx",
+      "category": "Environment"
+    },
+    "BS_W02_Services": {
+      "triangles": 10324,
+      "parts": 47,
+      "beveled_parts": 40,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_W02_Services.fbx",
+      "category": "Environment"
+    },
+    "BS_W03_Shell": {
+      "triangles": 6036,
+      "parts": 1,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_W03_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_W03_Floor": {
+      "triangles": 1532,
+      "parts": 1,
+      "beveled_parts": 1,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_W03_Floor.fbx",
+      "category": "Environment"
+    },
+    "BS_W03_Lining": {
+      "triangles": 62784,
+      "parts": 240,
+      "beveled_parts": 196,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_W03_Lining.fbx",
+      "category": "Environment"
+    },
+    "BS_W03_Services": {
+      "triangles": 7228,
+      "parts": 29,
+      "beveled_parts": 24,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_W03_Services.fbx",
+      "category": "Environment"
+    },
+    "BS_E01_Shell": {
+      "triangles": 5564,
+      "parts": 1,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_E01_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_E01_Floor": {
+      "triangles": 1532,
+      "parts": 1,
+      "beveled_parts": 1,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_E01_Floor.fbx",
+      "category": "Environment"
+    },
+    "BS_E01_Lining": {
+      "triangles": 68048,
+      "parts": 260,
+      "beveled_parts": 216,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_E01_Lining.fbx",
+      "category": "Environment"
+    },
+    "BS_E01_Services": {
+      "triangles": 8776,
+      "parts": 38,
+      "beveled_parts": 32,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_E01_Services.fbx",
+      "category": "Environment"
+    },
+    "BS_E02_Shell": {
+      "triangles": 5564,
+      "parts": 1,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_E02_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_E02_Floor": {
+      "triangles": 1532,
+      "parts": 1,
+      "beveled_parts": 1,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_E02_Floor.fbx",
+      "category": "Environment"
+    },
+    "BS_E02_Lining": {
+      "triangles": 70020,
+      "parts": 267,
+      "beveled_parts": 223,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_E02_Lining.fbx",
+      "category": "Environment"
+    },
+    "BS_E02_Services": {
+      "triangles": 10324,
+      "parts": 47,
+      "beveled_parts": 40,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_E02_Services.fbx",
+      "category": "Environment"
+    },
+    "BS_E03_Shell": {
+      "triangles": 5560,
+      "parts": 1,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_E03_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_E03_Floor": {
+      "triangles": 1532,
+      "parts": 1,
+      "beveled_parts": 1,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_E03_Floor.fbx",
+      "category": "Environment"
+    },
+    "BS_E03_Lining": {
+      "triangles": 68484,
+      "parts": 261,
+      "beveled_parts": 217,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_E03_Lining.fbx",
+      "category": "Environment"
+    },
+    "BS_E03_Services": {
+      "triangles": 11872,
+      "parts": 56,
+      "beveled_parts": 48,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_E03_Services.fbx",
+      "category": "Environment"
+    },
+    "BS_N01_Shell": {
+      "triangles": 5572,
+      "parts": 1,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_N01_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_N01_Floor": {
+      "triangles": 1532,
+      "parts": 1,
+      "beveled_parts": 1,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_N01_Floor.fbx",
+      "category": "Environment"
+    },
+    "BS_N01_Lining": {
+      "triangles": 69800,
+      "parts": 266,
+      "beveled_parts": 222,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_N01_Lining.fbx",
+      "category": "Environment"
+    },
+    "BS_N01_Services": {
+      "triangles": 10324,
+      "parts": 47,
+      "beveled_parts": 40,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_N01_Services.fbx",
+      "category": "Environment"
+    },
+    "BS_S01_Shell": {
+      "triangles": 5566,
+      "parts": 1,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_S01_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_S01_Floor": {
+      "triangles": 1532,
+      "parts": 1,
+      "beveled_parts": 1,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_S01_Floor.fbx",
+      "category": "Environment"
+    },
+    "BS_S01_Lining": {
+      "triangles": 69800,
+      "parts": 266,
+      "beveled_parts": 222,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_S01_Lining.fbx",
+      "category": "Environment"
+    },
+    "BS_S01_Services": {
+      "triangles": 11872,
+      "parts": 56,
+      "beveled_parts": 48,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_S01_Services.fbx",
+      "category": "Environment"
+    },
+    "BS_T01_Shell": {
+      "triangles": 618,
+      "parts": 2,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T01_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_T01_Finish": {
+      "triangles": 13888,
+      "parts": 72,
+      "beveled_parts": 72,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T01_Finish.fbx",
+      "category": "Environment"
+    },
+    "BS_T02_Shell": {
+      "triangles": 528,
+      "parts": 2,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T02_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_T02_Finish": {
+      "triangles": 16768,
+      "parts": 88,
+      "beveled_parts": 88,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T02_Finish.fbx",
+      "category": "Environment"
+    },
+    "BS_T03_Shell": {
+      "triangles": 528,
+      "parts": 2,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T03_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_T03_Finish": {
+      "triangles": 17036,
+      "parts": 89,
+      "beveled_parts": 89,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T03_Finish.fbx",
+      "category": "Environment"
+    },
+    "BS_T04_Shell": {
+      "triangles": 618,
+      "parts": 2,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T04_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_T04_Finish": {
+      "triangles": 18540,
+      "parts": 97,
+      "beveled_parts": 97,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T04_Finish.fbx",
+      "category": "Environment"
+    },
+    "BS_T05_Shell": {
+      "triangles": 544,
+      "parts": 2,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T05_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_T05_Finish": {
+      "triangles": 16768,
+      "parts": 88,
+      "beveled_parts": 88,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T05_Finish.fbx",
+      "category": "Environment"
+    },
+    "BS_T06_Shell": {
+      "triangles": 618,
+      "parts": 2,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T06_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_T06_Finish": {
+      "triangles": 11988,
+      "parts": 63,
+      "beveled_parts": 63,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T06_Finish.fbx",
+      "category": "Environment"
+    },
+    "BS_T07_Shell": {
+      "triangles": 554,
+      "parts": 2,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T07_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_T07_Finish": {
+      "triangles": 15264,
+      "parts": 80,
+      "beveled_parts": 80,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T07_Finish.fbx",
+      "category": "Environment"
+    },
+    "BS_T08_Shell": {
+      "triangles": 606,
+      "parts": 2,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T08_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_T08_Finish": {
+      "triangles": 40236,
+      "parts": 209,
+      "beveled_parts": 209,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T08_Finish.fbx",
+      "category": "Environment"
+    },
+    "BS_T09_Shell": {
+      "triangles": 560,
+      "parts": 2,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T09_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_T09_Finish": {
+      "triangles": 31912,
+      "parts": 166,
+      "beveled_parts": 166,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T09_Finish.fbx",
+      "category": "Environment"
+    },
+    "BS_T10_Shell": {
+      "triangles": 598,
+      "parts": 2,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T10_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_T10_Finish": {
+      "triangles": 28636,
+      "parts": 149,
+      "beveled_parts": 149,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T10_Finish.fbx",
+      "category": "Environment"
+    },
+    "BS_T11_Shell": {
+      "triangles": 616,
+      "parts": 2,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T11_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_T11_Finish": {
+      "triangles": 33684,
+      "parts": 175,
+      "beveled_parts": 175,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T11_Finish.fbx",
+      "category": "Environment"
+    },
+    "BS_T12_Shell": {
+      "triangles": 550,
+      "parts": 2,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T12_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_T12_Finish": {
+      "triangles": 32040,
+      "parts": 166,
+      "beveled_parts": 166,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T12_Finish.fbx",
+      "category": "Environment"
+    },
+    "BS_T13_Shell": {
+      "triangles": 550,
+      "parts": 2,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T13_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_T13_Finish": {
+      "triangles": 31976,
+      "parts": 166,
+      "beveled_parts": 166,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T13_Finish.fbx",
+      "category": "Environment"
+    },
+    "BS_T14_Shell": {
+      "triangles": 608,
+      "parts": 2,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T14_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_T14_Finish": {
+      "triangles": 51964,
+      "parts": 269,
+      "beveled_parts": 269,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T14_Finish.fbx",
+      "category": "Environment"
+    },
+    "BS_T15_Shell": {
+      "triangles": 616,
+      "parts": 2,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T15_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_T15_Finish": {
+      "triangles": 33684,
+      "parts": 175,
+      "beveled_parts": 175,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T15_Finish.fbx",
+      "category": "Environment"
+    },
+    "BS_T16_Shell": {
+      "triangles": 532,
+      "parts": 2,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T16_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_T16_Finish": {
+      "triangles": 33416,
+      "parts": 174,
+      "beveled_parts": 174,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T16_Finish.fbx",
+      "category": "Environment"
+    },
+    "BS_T17_Shell": {
+      "triangles": 540,
+      "parts": 2,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T17_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_T17_Finish": {
+      "triangles": 31912,
+      "parts": 166,
+      "beveled_parts": 166,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T17_Finish.fbx",
+      "category": "Environment"
+    },
+    "BS_T18_Shell": {
+      "triangles": 616,
+      "parts": 2,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T18_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_T18_Finish": {
+      "triangles": 38464,
+      "parts": 200,
+      "beveled_parts": 200,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T18_Finish.fbx",
+      "category": "Environment"
+    },
+    "BS_T19_Shell": {
+      "triangles": 570,
+      "parts": 2,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T19_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_T19_Finish": {
+      "triangles": 50332,
+      "parts": 261,
+      "beveled_parts": 261,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T19_Finish.fbx",
+      "category": "Environment"
+    },
+    "BS_T20_Shell": {
+      "triangles": 570,
+      "parts": 2,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T20_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_T20_Finish": {
+      "triangles": 50332,
+      "parts": 261,
+      "beveled_parts": 261,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T20_Finish.fbx",
+      "category": "Environment"
+    },
+    "BS_T21_Shell": {
+      "triangles": 570,
+      "parts": 2,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T21_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_T21_Finish": {
+      "triangles": 50332,
+      "parts": 261,
+      "beveled_parts": 261,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T21_Finish.fbx",
+      "category": "Environment"
+    },
+    "BS_T22_Shell": {
+      "triangles": 542,
+      "parts": 2,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T22_Shell.fbx",
+      "category": "Environment"
+    },
+    "BS_T22_Finish": {
+      "triangles": 85132,
+      "parts": 441,
+      "beveled_parts": 441,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_T22_Finish.fbx",
+      "category": "Environment"
+    },
+    "BS_VerticalStairs": {
+      "triangles": 98380,
+      "parts": 545,
+      "beveled_parts": 545,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_VerticalStairs.fbx",
+      "category": "Environment"
+    },
+    "BS_CargoLift": {
+      "triangles": 13038,
+      "parts": 74,
+      "beveled_parts": 68,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_CargoLift.fbx",
+      "category": "Environment"
+    },
+    "BS_SampleRack_1": {
+      "triangles": 57410,
+      "parts": 333,
+      "beveled_parts": 306,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Props\\B3\\BS_SampleRack_1.fbx",
+      "category": "Props"
+    },
+    "BS_SampleRack_2": {
+      "triangles": 50024,
+      "parts": 291,
+      "beveled_parts": 267,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Props\\B3\\BS_SampleRack_2.fbx",
+      "category": "Props"
+    },
+    "BS_SampleRack_3": {
+      "triangles": 40176,
+      "parts": 235,
+      "beveled_parts": 215,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Props\\B3\\BS_SampleRack_3.fbx",
+      "category": "Props"
+    },
+    "BS_DeepFreezer": {
+      "triangles": 5836,
+      "parts": 40,
+      "beveled_parts": 31,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Props\\B3\\BS_DeepFreezer.fbx",
+      "category": "Props"
+    },
+    "BS_ColdCabinet": {
+      "triangles": 5836,
+      "parts": 40,
+      "beveled_parts": 31,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Props\\B3\\BS_ColdCabinet.fbx",
+      "category": "Props"
+    },
+    "BS_ServerRack_1": {
+      "triangles": 26336,
+      "parts": 171,
+      "beveled_parts": 132,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Props\\B3\\BS_ServerRack_1.fbx",
+      "category": "Props"
+    },
+    "BS_ServerRack_2": {
+      "triangles": 26336,
+      "parts": 171,
+      "beveled_parts": 132,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Props\\B3\\BS_ServerRack_2.fbx",
+      "category": "Props"
+    },
+    "BS_ArchiveUPS": {
+      "triangles": 8904,
+      "parts": 53,
+      "beveled_parts": 46,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Props\\B3\\BS_ArchiveUPS.fbx",
+      "category": "Props"
+    },
+    "BS_AccessionBench": {
+      "triangles": 18444,
+      "parts": 130,
+      "beveled_parts": 90,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Props\\B3\\BS_AccessionBench.fbx",
+      "category": "Props"
+    },
+    "BS_PackingBench": {
+      "triangles": 12610,
+      "parts": 72,
+      "beveled_parts": 64,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Props\\B3\\BS_PackingBench.fbx",
+      "category": "Props"
+    },
+    "BS_FilterBank": {
+      "triangles": 24678,
+      "parts": 140,
+      "beveled_parts": 134,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Props\\B3\\BS_FilterBank.fbx",
+      "category": "Props"
+    },
+    "BS_ZoneLightingPanel": {
+      "triangles": 942,
+      "parts": 6,
+      "beveled_parts": 5,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Props\\B3\\BS_ZoneLightingPanel.fbx",
+      "category": "Props"
+    },
+    "BS_SealedWasteStation": {
+      "triangles": 2066,
+      "parts": 16,
+      "beveled_parts": 10,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Props\\B3\\BS_SealedWasteStation.fbx",
+      "category": "Props"
+    },
+    "BS_CCTVWallMount_R6": {
+      "triangles": 2076,
+      "parts": 13,
+      "beveled_parts": 11,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_CCTVWallMount_R6.fbx",
+      "category": "Environment"
+    },
+    "BS_CCTVWallMount_R7": {
+      "triangles": 2076,
+      "parts": 13,
+      "beveled_parts": 11,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_CCTVWallMount_R7.fbx",
+      "category": "Environment"
+    },
+    "BS_CCTVWallMount_R8": {
+      "triangles": 2076,
+      "parts": 13,
+      "beveled_parts": 11,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_CCTVWallMount_R8.fbx",
+      "category": "Environment"
+    },
+    "BS_CCTVWallMount_R9": {
+      "triangles": 2076,
+      "parts": 13,
+      "beveled_parts": 11,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_CCTVWallMount_R9.fbx",
+      "category": "Environment"
+    },
+    "BS_CCTVWallMount_R10": {
+      "triangles": 2076,
+      "parts": 13,
+      "beveled_parts": 11,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_CCTVWallMount_R10.fbx",
+      "category": "Environment"
+    },
+    "BS_CCTVWallMount_R11": {
+      "triangles": 2076,
+      "parts": 13,
+      "beveled_parts": 11,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B3\\BS_CCTVWallMount_R11.fbx",
+      "category": "Environment"
+    }
+  },
+  "review": "Docs/Review/2026-11-09_B3_FullFloor/Review.md",
+  "runtimeScriptsAdded": 0
+}

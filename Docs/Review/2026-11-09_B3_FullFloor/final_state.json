@@ -1,0 +1,55 @@
+{
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B3_Circular.unity",
+  "saved": true,
+  "playing": false,
+  "runInBackground": false,
+  "cameras": 1,
+  "mainCamera": "Main Camera",
+  "cameraPlayerLinks": [
+    {
+      "component": "CinemachineVirtualCamera",
+      "property": "m_Follow",
+      "target": "CameraRoot"
+    }
+  ],
+  "playerPosition": "(39.500, -48.360, -24.800)",
+  "playerYaw": 305.0,
+  "defaultOffCircuits": [
+    {
+      "room": "C01",
+      "activeLights": 0
+    },
+    {
+      "room": "C02",
+      "activeLights": 0
+    },
+    {
+      "room": "W01",
+      "activeLights": 0
+    },
+    {
+      "room": "W02",
+      "activeLights": 0
+    },
+    {
+      "room": "E03",
+      "activeLights": 0
+    }
+  ],
+  "missingScripts": 0,
+  "lodColliders": 0,
+  "sourceMetadata": [
+    {
+      "name": "B3_FullFloor.json",
+      "meta": true
+    },
+    {
+      "name": "B3_FullFloor_VARCO.json",
+      "meta": true
+    },
+    {
+      "name": "B4_Finish.json",
+      "meta": true
+    }
+  ]
+}

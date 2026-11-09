@@ -1,0 +1,55 @@
+[
+  {
+    "name": "B2_EmergencyGenerator",
+    "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/B2_EmergencyGenerator.fbx",
+    "height": 1.8,
+    "triangles": 18000,
+    "materials": [
+      {
+        "name": "B2_EmergencyGenerator_PBR_0",
+        "textures": [
+          {
+            "name": "Image Texture",
+            "file": "B2_EmergencyGenerator_0_0.png",
+            "links": [
+              [
+                "BSDF_PRINCIPLED",
+                "Base Color"
+              ]
+            ]
+          },
+          {
+            "name": "Image Texture.001",
+            "file": "B2_EmergencyGenerator_0_1.png",
+            "links": [
+              [
+                "SEPARATE_COLOR",
+                "Color"
+              ]
+            ]
+          },
+          {
+            "name": "Image Texture.002",
+            "file": "B2_EmergencyGenerator_0_2.png",
+            "links": [
+              [
+                "NORMAL_MAP",
+                "Color"
+              ]
+            ]
+          },
+          {
+            "name": "Image Texture.003",
+            "file": "B2_EmergencyGenerator_0_3.png",
+            "links": [
+              [
+                "SEPARATE_COLOR",
+                "Color"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

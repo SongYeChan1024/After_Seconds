@@ -1,0 +1,254 @@
+{
+  "playing": true,
+  "dirty": false,
+  "player": "(-17.63, -65.36, 10.58)",
+  "selected": "B4_E02_TaskLightPole_13",
+  "rows": [
+    {
+      "name": "B4_E02_ResearchDesk_01",
+      "p": "(129.200, -66.000, 2.000)",
+      "scale": "(1.00, 1.00, 1.00)",
+      "colliders": [
+        {
+          "type": "BoxCollider",
+          "enabled": true,
+          "center": "(129.200, -65.166, 2.000)",
+          "size": "(0.880, 1.658, 2.100)",
+          "localCenter": "(0.00, 0.83, 0.00)",
+          "localSize": "(2.10, 1.66, 0.88)"
+        }
+      ],
+      "renderers": [
+        {
+          "name": "B4_E02_ResearchDesk_01",
+          "center": "(129.200, -65.166, 2.000)",
+          "size": "(0.880, 1.658, 2.100)"
+        },
+        {
+          "name": "B4_E02_BenchDetail_090",
+          "center": "(128.950, -65.088, 1.340)",
+          "size": "(0.245, 0.035, 0.194)"
+        },
+        {
+          "name": "B4_E02_ResearchDesk_01_BenchPedestal",
+          "center": "(129.184, -65.630, 2.641)",
+          "size": "(0.603, 0.710, 0.471)"
+        }
+      ]
+    },
+    {
+      "name": "TaskChair_02",
+      "p": "(128.180, -66.000, 2.000)",
+      "scale": "(1.00, 1.00, 1.00)",
+      "colliders": [
+        {
+          "type": "BoxCollider",
+          "enabled": true,
+          "center": "(128.180, -65.436, 1.998)",
+          "size": "(0.669, 1.122, 0.660)",
+          "localCenter": "(0.00, 0.56, 0.00)",
+          "localSize": "(0.66, 1.12, 0.67)"
+        }
+      ],
+      "renderers": [
+        {
+          "name": "TaskChair_02",
+          "center": "(128.180, -65.436, 1.998)",
+          "size": "(0.669, 1.122, 0.660)"
+        }
+      ]
+    },
+    {
+      "name": "B4_E02_SC_GearLockers_09",
+      "p": "(128.537, -66.000, -1.601)",
+      "scale": "(1.00, 1.00, 1.00)",
+      "colliders": [
+        {
+          "type": "BoxCollider",
+          "enabled": true,
+          "center": "(128.536, -64.950, -1.599)",
+          "size": "(1.657, 2.100, 1.437)",
+          "localCenter": "(0.00, 1.05, 0.00)",
+          "localSize": "(1.54, 2.10, 0.69)"
+        }
+      ],
+      "renderers": [
+        {
+          "name": "B4_E02_SC_GearLockers_09",
+          "center": "(128.536, -64.950, -1.599)",
+          "size": "(1.657, 2.100, 1.437)"
+        }
+      ]
+    },
+    {
+      "name": "B4_E02_ProtocolTable_01",
+      "p": "(122.500, -66.000, 2.200)",
+      "scale": "(1.00, 1.00, 1.00)",
+      "colliders": [
+        {
+          "type": "BoxCollider",
+          "enabled": true,
+          "center": "(122.500, -65.266, 2.200)",
+          "size": "(2.800, 1.467, 1.350)",
+          "localCenter": "(0.00, 0.73, 0.00)",
+          "localSize": "(2.80, 1.47, 1.35)"
+        }
+      ],
+      "renderers": [
+        {
+          "name": "B4_E02_ProtocolTable_01",
+          "center": "(122.500, -65.266, 2.200)",
+          "size": "(2.800, 1.468, 1.350)"
+        },
+        {
+          "name": "TaskChair_01",
+          "center": "(121.718, -65.436, 3.300)",
+          "size": "(0.660, 1.122, 0.669)"
+        },
+        {
+          "name": "TaskChair_02",
+          "center": "(123.278, -65.436, 3.300)",
+          "size": "(0.660, 1.122, 0.669)"
+        },
+        {
+          "name": "B4_E02_BenchDetail_094",
+          "center": "(121.340, -65.011, 1.755)",
+          "size": "(0.252, 0.148, 0.212)"
+        }
+      ]
+    },
+    {
+      "name": "TaskChair_01",
+      "p": "(121.720, -66.000, 3.300)",
+      "scale": "(1.00, 1.00, 1.00)",
+      "colliders": [
+        {
+          "type": "BoxCollider",
+          "enabled": true,
+          "center": "(121.720, -65.436, 3.300)",
+          "size": "(0.660, 1.120, 0.670)",
+          "localCenter": "(0.00, 0.56, 0.00)",
+          "localSize": "(0.66, 1.12, 0.67)"
+        }
+      ],
+      "renderers": [
+        {
+          "name": "TaskChair_01",
+          "center": "(121.718, -65.436, 3.300)",
+          "size": "(0.660, 1.122, 0.669)"
+        }
+      ]
+    },
+    {
+      "name": "TaskChair_02",
+      "p": "(123.280, -66.000, 3.300)",
+      "scale": "(1.00, 1.00, 1.00)",
+      "colliders": [
+        {
+          "type": "BoxCollider",
+          "enabled": true,
+          "center": "(123.280, -65.436, 3.300)",
+          "size": "(0.660, 1.120, 0.670)",
+          "localCenter": "(0.00, 0.56, 0.00)",
+          "localSize": "(0.66, 1.12, 0.67)"
+        }
+      ],
+      "renderers": [
+        {
+          "name": "TaskChair_02",
+          "center": "(123.278, -65.436, 3.300)",
+          "size": "(0.660, 1.122, 0.669)"
+        }
+      ]
+    },
+    {
+      "name": "B4_E02_InstrumentServiceBay_02",
+      "p": "(126.900, -66.000, 0.100)",
+      "scale": "(1.00, 1.00, 1.00)",
+      "colliders": [
+        {
+          "type": "BoxCollider",
+          "enabled": true,
+          "center": "(126.900, -65.003, 0.100)",
+          "size": "(2.600, 1.995, 0.900)",
+          "localCenter": "(0.00, 1.00, 0.00)",
+          "localSize": "(2.60, 2.00, 0.90)"
+        }
+      ],
+      "renderers": [
+        {
+          "name": "B4_E02_InstrumentServiceBay_02",
+          "center": "(126.900, -65.003, 0.100)",
+          "size": "(2.600, 1.995, 0.900)"
+        }
+      ]
+    },
+    {
+      "name": "B4_E02_SmallSupplyCart_09",
+      "p": "(124.560, -66.000, 2.650)",
+      "scale": "(1.00, 1.00, 1.00)",
+      "colliders": [
+        {
+          "type": "BoxCollider",
+          "enabled": true,
+          "center": "(124.560, -65.348, 2.650)",
+          "size": "(0.720, 1.255, 0.620)",
+          "localCenter": "(0.00, 0.65, 0.00)",
+          "localSize": "(0.72, 1.26, 0.62)"
+        }
+      ],
+      "renderers": [
+        {
+          "name": "B4_E02_SmallSupplyCart_09",
+          "center": "(124.560, -65.348, 2.650)",
+          "size": "(0.720, 1.255, 0.620)"
+        }
+      ]
+    },
+    {
+      "name": "B4_E02_TaskLightPole_12",
+      "p": "(120.400, -66.000, 2.050)",
+      "scale": "(1.00, 1.00, 1.00)",
+      "colliders": [
+        {
+          "type": "BoxCollider",
+          "enabled": true,
+          "center": "(120.400, -64.788, 2.018)",
+          "size": "(0.820, 2.425, 1.055)",
+          "localCenter": "(0.00, 1.21, -0.03)",
+          "localSize": "(0.82, 2.43, 1.06)"
+        }
+      ],
+      "renderers": [
+        {
+          "name": "B4_E02_TaskLightPole_12",
+          "center": "(120.400, -64.788, 2.018)",
+          "size": "(0.820, 2.425, 1.055)"
+        }
+      ]
+    },
+    {
+      "name": "B4_E02_TaskLightPole_13",
+      "p": "(124.900, -66.000, -0.050)",
+      "scale": "(1.00, 1.00, 1.00)",
+      "colliders": [
+        {
+          "type": "BoxCollider",
+          "enabled": true,
+          "center": "(124.900, -64.788, -0.082)",
+          "size": "(0.820, 2.425, 1.055)",
+          "localCenter": "(0.00, 1.21, -0.03)",
+          "localSize": "(0.82, 2.43, 1.06)"
+        }
+      ],
+      "renderers": [
+        {
+          "name": "B4_E02_TaskLightPole_13",
+          "center": "(124.900, -64.788, -0.083)",
+          "size": "(0.820, 2.425, 1.055)"
+        }
+      ]
+    }
+  ],
+  "desk": []
+}

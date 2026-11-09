@@ -1,0 +1,63 @@
+{
+  "lampMove": "(0.0000, 0.0000, 0.0000)",
+  "oldPosition": "(124.9000, -66.0000, -0.0500)",
+  "newPosition": "(124.9000, -66.0000, -0.0500)",
+  "tests": [
+    {
+      "id": "E02_pole_to_service_bay_before",
+      "result": {
+        "pass": true,
+        "remaining": 0.0185125954,
+        "end": "(125.1609, -65.3200, 1.3815)"
+      }
+    },
+    {
+      "id": "E02_pole_to_service_bay_forward",
+      "result": {
+        "pass": true,
+        "remaining": 0.0185125954,
+        "end": "(125.1609, -65.3200, 1.3815)"
+      }
+    },
+    {
+      "id": "E02_pole_to_service_bay_reverse",
+      "result": {
+        "pass": true,
+        "remaining": 0.00641231332,
+        "end": "(125.1606, -65.3200, -1.2936)"
+      }
+    },
+    {
+      "id": "B4_E02_TaskLightPole_13_front_forward",
+      "result": {
+        "pass": true,
+        "remaining": 0.0200042725,
+        "end": "(125.2400, -65.3200, 0.3800)"
+      }
+    },
+    {
+      "id": "B4_E02_TaskLightPole_13_front_reverse",
+      "result": {
+        "pass": true,
+        "remaining": 0.0100021362,
+        "end": "(123.9300, -65.3200, 0.3800)"
+      }
+    },
+    {
+      "id": "B4_C02_TaskLightPole_15_front_forward",
+      "result": {
+        "pass": true,
+        "remaining": 0.0,
+        "end": "(-23.8800, -65.3200, 12.5300)"
+      }
+    },
+    {
+      "id": "B4_C02_TaskLightPole_15_front_reverse",
+      "result": {
+        "pass": true,
+        "remaining": 0.0,
+        "end": "(-23.8800, -65.3200, 10.5700)"
+      }
+    }
+  ]
+}

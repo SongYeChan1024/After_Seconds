@@ -1,0 +1,108 @@
+[
+  {
+    "name": "B3_CryogenicDewar",
+    "asset": "Assets/Afrer_Seconds/05.Model/Props/B3/B3_CryogenicDewar.fbx",
+    "height": 1.2,
+    "triangles": 10000,
+    "materials": [
+      {
+        "name": "B3_CryogenicDewar_PBR_0",
+        "textures": [
+          {
+            "name": "Image Texture",
+            "file": "B3_CryogenicDewar_0_0.png",
+            "links": [
+              [
+                "BSDF_PRINCIPLED",
+                "Base Color"
+              ]
+            ]
+          },
+          {
+            "name": "Image Texture.001",
+            "file": "B3_CryogenicDewar_0_1.png",
+            "links": [
+              [
+                "SEPARATE_COLOR",
+                "Color"
+              ]
+            ]
+          },
+          {
+            "name": "Image Texture.002",
+            "file": "B3_CryogenicDewar_0_2.png",
+            "links": [
+              [
+                "NORMAL_MAP",
+                "Color"
+              ]
+            ]
+          },
+          {
+            "name": "Image Texture.003",
+            "file": "B3_CryogenicDewar_0_3.png",
+            "links": [
+              [
+                "SEPARATE_COLOR",
+                "Color"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "B3_SealedSampleCarrier",
+    "asset": "Assets/Afrer_Seconds/05.Model/Props/B3/B3_SealedSampleCarrier.fbx",
+    "height": 0.43,
+    "triangles": 10000,
+    "materials": [
+      {
+        "name": "B3_SealedSampleCarrier_PBR_0",
+        "textures": [
+          {
+            "name": "Image Texture",
+            "file": "B3_SealedSampleCarrier_0_0.png",
+            "links": [
+              [
+                "BSDF_PRINCIPLED",
+                "Base Color"
+              ]
+            ]
+          },
+          {
+            "name": "Image Texture.001",
+            "file": "B3_SealedSampleCarrier_0_1.png",
+            "links": [
+              [
+                "SEPARATE_COLOR",
+                "Color"
+              ]
+            ]
+          },
+          {
+            "name": "Image Texture.002",
+            "file": "B3_SealedSampleCarrier_0_2.png",
+            "links": [
+              [
+                "NORMAL_MAP",
+                "Color"
+              ]
+            ]
+          },
+          {
+            "name": "Image Texture.003",
+            "file": "B3_SealedSampleCarrier_0_3.png",
+            "links": [
+              [
+                "SEPARATE_COLOR",
+                "Color"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

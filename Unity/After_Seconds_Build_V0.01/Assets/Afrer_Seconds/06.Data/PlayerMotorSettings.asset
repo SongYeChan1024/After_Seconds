@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a73cf219f53646e6b54f684e973c98c7, type: 3}
   m_Name: PlayerMotorSettings
   m_EditorClassIdentifier: 
-  moveSpeed: 1.5
+  moveSpeed: 5
+  sprintSpeed: 7.5
   gravity: 20
   groundedVerticalSpeed: -2
+  crouchSpeed: 2.5
+  crouchSprintSpeed: 4
+  crouchHeight: 1.2

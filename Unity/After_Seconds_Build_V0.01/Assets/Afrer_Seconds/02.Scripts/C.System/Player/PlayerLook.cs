@@ -44,10 +44,39 @@ public class PlayerLook : MonoBehaviour
 
     #endregion
 
+    #region 의사코드 Ver 0.2 (앉을 때 눈 높이 낮추기)
+
+    /*
+    (Ver 0.2: 몸은 Motor, 눈은 Look이 담당한다.
+             앉으면 몸이 낮아진 만큼 CameraRoot의 높이도 같이 낮춘다)
+
+    기억해둘 정보에 추가:
+        서 있을 때 CameraRoot의 위치 — Awake에서 읽어 둔다
+
+    초기화할 때 추가:
+        CameraRoot의 처음 로컬 위치를 서 있을 때의 눈 위치로 기억한다
+
+    눈 높이를 낮추라는 요청을 받으면 — SetEyeDrop:
+        이 컴포넌트가 비활성화 상태라면:
+            처리를 종료한다
+        CameraRoot의 로컬 위치를
+        "서 있을 때의 눈 위치에서 전달받은 값만큼 아래"로 설정한다
+            (전달받은 값이 0이면 서 있을 때 위치로 돌아간다)
+    */
+
+    #endregion
+
     [SerializeField] private Transform cameraRoot; // 상하 회전에 사용할 CameraRoot의 Transform 참조
     [SerializeField] private PlayerLookSettings settings; //PlayerLookSettings의 설정값 참조
 
     private float pitchAngle; // 현재 상하 회전 각도
+
+    private Vector3 standingEyeLocalPosition; // 서 있을 때 CameraRoot의 로컬 위치 (Awake에서 읽어 둔다)
+    // 의사코드: 몸 높이는 Motor가 확정하고, 눈 높이만 목표까지 부드럽게 따라간다.
+    // 빠르게 앉았다 일어나도 현재 높이와 속도에서 계속 보간해 순간 이동을 피한다.
+    [SerializeField, Min(0f)] private float crouchEyeSmoothTime = 0.12f;
+    private float currentEyeDrop;
+    private float eyeDropVelocity;
 
     private void Awake()
     {
@@ -63,6 +92,24 @@ public class PlayerLook : MonoBehaviour
 
         pitchAngle = 0f; //현재 상하 회전 각도를 0도로 초기화한다
 
+        // 지금 CameraRoot 위치를 서 있을 때의 눈 위치로 기억한다. 숫자로 적지 않고 읽어 두는 이유는
+        // 프리팹에서 CameraRoot 위치를 바꿔도 코드를 고칠 필요가 없게 하려는 것이다.
+        standingEyeLocalPosition = cameraRoot.localPosition;
+    }
+
+    // 앉았을 때 눈 높이를 낮춘다. eyeDrop은 "서 있을 때보다 몇 m 낮출지"이다. 0이면 원래 높이.
+    // Presenter가 매 프레임 Motor의 CrouchHeightDrop(몸이 낮아진 만큼)을 전달한다.
+    public void SetEyeDrop(float eyeDrop)
+    {
+        if (!isActiveAndEnabled) // 이 컴포넌트가 비활성화 상태라면
+        {
+            return;              // 종료
+        }
+
+        // 회전(localRotation)은 Rotate가 따로 바꾸므로, 여기서는 위치(localPosition)만 바꾼다.
+        currentEyeDrop = Mathf.SmoothDamp(currentEyeDrop, eyeDrop, ref eyeDropVelocity,
+            crouchEyeSmoothTime, Mathf.Infinity, Time.deltaTime);
+        cameraRoot.localPosition = standingEyeLocalPosition - Vector3.up * currentEyeDrop;
     }
 
     public void Rotate(Vector2 lookInput) // 마우스로 시야 회전 값이 들어올 때 이 함수를 호출한다.

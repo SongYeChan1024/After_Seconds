@@ -1,0 +1,138 @@
+{
+  "tests": [
+    {
+      "complete": true,
+      "label": "C01",
+      "firstFrame": 848,
+      "lastFrame": 1509,
+      "framesAdvanced": 661,
+      "start": "(3.01, -48.32, -7.30)",
+      "end": "(1.65, -48.32, -6.81)",
+      "displacement": 1.44727147,
+      "rise": 0.0,
+      "frames": 549,
+      "medianMs": 11.4215,
+      "p95Ms": 15.9464,
+      "screen": [
+        1920,
+        1080
+      ],
+      "drawCalls": 1703,
+      "triangles": 4853392,
+      "errors": [],
+      "device": "Existing keyboard W down/up; temporary mouse/look/focus settings restored"
+    },
+    {
+      "complete": true,
+      "label": "Corridor",
+      "firstFrame": 14360,
+      "lastFrame": 15161,
+      "framesAdvanced": 801,
+      "start": "(38.80, -48.32, -24.62)",
+      "end": "(37.86, -48.32, -24.01)",
+      "displacement": 1.12136924,
+      "rise": 0.0,
+      "frames": 644,
+      "medianMs": 9.771698,
+      "p95Ms": 12.416,
+      "screen": [
+        1920,
+        1080
+      ],
+      "drawCalls": 2260,
+      "triangles": 4864909,
+      "errors": [],
+      "device": "Existing keyboard W down/up; temporary mouse/look/focus settings restored"
+    },
+    {
+      "complete": true,
+      "label": "E02",
+      "firstFrame": 2781,
+      "lastFrame": 3637,
+      "framesAdvanced": 856,
+      "start": "(117.66, -48.32, 10.81)",
+      "end": "(118.48, -48.32, 10.06)",
+      "displacement": 1.10596836,
+      "rise": 0.0,
+      "frames": 692,
+      "medianMs": 8.583298,
+      "p95Ms": 13.1801023,
+      "screen": [
+        1920,
+        1080
+      ],
+      "drawCalls": 1515,
+      "triangles": 3837494,
+      "errors": [],
+      "device": "Existing keyboard W down/up; temporary mouse/look/focus settings restored"
+    },
+    {
+      "complete": true,
+      "label": "N01",
+      "firstFrame": 9420,
+      "lastFrame": 10406,
+      "framesAdvanced": 986,
+      "start": "(-5.81, -48.32, 69.66)",
+      "end": "(-5.06, -48.32, 70.48)",
+      "displacement": 1.10857558,
+      "rise": 0.0,
+      "frames": 810,
+      "medianMs": 7.8973,
+      "p95Ms": 9.083801,
+      "screen": [
+        1920,
+        1080
+      ],
+      "drawCalls": 968,
+      "triangles": 2125756,
+      "errors": [],
+      "device": "Existing keyboard W down/up; temporary mouse/look/focus settings restored"
+    },
+    {
+      "complete": true,
+      "label": "Stairs",
+      "firstFrame": 21196,
+      "lastFrame": 22092,
+      "framesAdvanced": 896,
+      "start": "(-44.96, -48.32, 25.90)",
+      "end": "(-44.96, -47.39, 27.68)",
+      "displacement": 1.77594948,
+      "rise": 0.934371948,
+      "frames": 753,
+      "medianMs": 8.522498,
+      "p95Ms": 10.1572981,
+      "screen": [
+        1920,
+        1080
+      ],
+      "drawCalls": 806,
+      "triangles": 2183847,
+      "errors": [],
+      "device": "Existing keyboard W down/up; temporary mouse/look/focus settings restored"
+    },
+    {
+      "complete": true,
+      "label": "W02",
+      "firstFrame": 5722,
+      "lastFrame": 6520,
+      "framesAdvanced": 798,
+      "start": "(-118.16, -48.32, 12.87)",
+      "end": "(-119.09, -48.32, 12.09)",
+      "displacement": 1.20447147,
+      "rise": 0.0,
+      "frames": 678,
+      "medianMs": 9.991801,
+      "p95Ms": 12.8465986,
+      "screen": [
+        1920,
+        1080
+      ],
+      "drawCalls": 240,
+      "triangles": 313770,
+      "errors": [],
+      "device": "Existing keyboard W down/up; temporary mouse/look/focus settings restored"
+    }
+  ],
+  "allPassed": true,
+  "note": "Existing keyboard input; temporary focus/look settings restored. Editor timings are not standalone build guarantees."
+}

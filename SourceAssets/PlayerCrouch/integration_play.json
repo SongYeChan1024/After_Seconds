@@ -1,0 +1,427 @@
+{
+  "success": true,
+  "failure": null,
+  "frames": 794,
+  "passed": 28,
+  "rows": [
+    {
+      "label": "standing idle",
+      "frame": 968,
+      "crouching": false,
+      "height": 1.8,
+      "eyeY": 1.175,
+      "speed": 0.0,
+      "transition": false,
+      "clips": [
+        {
+          "name": "Player_Idle",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "label": "crouch press",
+      "frame": 972,
+      "crouching": true,
+      "height": 1.2,
+      "eyeY": 0.970292866,
+      "speed": 0.0,
+      "transition": true,
+      "clips": [
+        {
+          "name": "Player_Idle",
+          "weight": 0.809282839
+        }
+      ]
+    },
+    {
+      "label": "crouch idle",
+      "frame": 1011,
+      "crouching": true,
+      "height": 1.2,
+      "eyeY": 0.5750384,
+      "speed": 0.0,
+      "transition": false,
+      "clips": [
+        {
+          "name": "Player_Crouch_Idle",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "label": "crouch walk",
+      "frame": 1050,
+      "crouching": true,
+      "height": 1.2,
+      "eyeY": 0.5750001,
+      "speed": 0.994193435,
+      "transition": false,
+      "clips": [
+        {
+          "name": "Player_Crouch_Forward",
+          "weight": 0.9919673
+        }
+      ]
+    },
+    {
+      "label": "crouch sprint",
+      "frame": 1089,
+      "crouching": true,
+      "height": 1.2,
+      "eyeY": 0.5750001,
+      "speed": 1.99393916,
+      "transition": false,
+      "clips": [
+        {
+          "name": "Player_Crouch_Sprint",
+          "weight": 0.993939161
+        }
+      ]
+    },
+    {
+      "label": "backward cannot sprint",
+      "frame": 1128,
+      "crouching": true,
+      "height": 1.2,
+      "eyeY": 0.5750001,
+      "speed": 1.00593078,
+      "transition": false,
+      "clips": [
+        {
+          "name": "Player_Crouch_Back",
+          "weight": 0.9894731
+        }
+      ]
+    },
+    {
+      "label": "left cannot sprint",
+      "frame": 1167,
+      "crouching": true,
+      "height": 1.2,
+      "eyeY": 0.5750001,
+      "speed": 1.00003541,
+      "transition": false,
+      "clips": [
+        {
+          "name": "Player_Crouch_Left",
+          "weight": 0.997648239
+        }
+      ]
+    },
+    {
+      "label": "right cannot sprint",
+      "frame": 1206,
+      "crouching": true,
+      "height": 1.2,
+      "eyeY": 0.5750001,
+      "speed": 1.00000036,
+      "transition": false,
+      "clips": [
+        {
+          "name": "Player_Crouch_Right",
+          "weight": 0.99547863
+        }
+      ]
+    },
+    {
+      "label": "stopped crouch",
+      "frame": 1245,
+      "crouching": true,
+      "height": 1.2,
+      "eyeY": 0.5750001,
+      "speed": 0.005855825,
+      "transition": false,
+      "clips": [
+        {
+          "name": "Player_Crouch_Idle",
+          "weight": 0.9941442
+        }
+      ]
+    },
+    {
+      "label": "blocked stand press",
+      "frame": 1250,
+      "crouching": true,
+      "height": 1.2,
+      "eyeY": 0.5750001,
+      "speed": 0.0030196358,
+      "transition": false,
+      "clips": [
+        {
+          "name": "Player_Crouch_Idle",
+          "weight": 0.996980369
+        }
+      ]
+    },
+    {
+      "label": "blocked stand stays crouched",
+      "frame": 1289,
+      "crouching": true,
+      "height": 1.2,
+      "eyeY": 0.5750001,
+      "speed": 1.72703622E-05,
+      "transition": false,
+      "clips": [
+        {
+          "name": "Player_Crouch_Idle",
+          "weight": 0.9999827
+        }
+      ]
+    },
+    {
+      "label": "clear stand press",
+      "frame": 1294,
+      "crouching": false,
+      "height": 1.8,
+      "eyeY": 0.8218434,
+      "speed": 8.924642E-06,
+      "transition": true,
+      "clips": [
+        {
+          "name": "Player_Crouch_Idle",
+          "weight": 0.755477548
+        }
+      ]
+    },
+    {
+      "label": "standing again",
+      "frame": 1333,
+      "crouching": false,
+      "height": 1.8,
+      "eyeY": 1.17496824,
+      "speed": 5.099131E-08,
+      "transition": false,
+      "clips": [
+        {
+          "name": "Player_Idle",
+          "weight": 0.99999994
+        }
+      ]
+    },
+    {
+      "label": "rapid crouch press",
+      "frame": 1338,
+      "crouching": true,
+      "height": 1.2,
+      "eyeY": 0.928988457,
+      "speed": 2.63970428E-08,
+      "transition": true,
+      "clips": [
+        {
+          "name": "Player_Idle",
+          "weight": 0.758703947
+        }
+      ]
+    },
+    {
+      "label": "rapid release",
+      "frame": 1343,
+      "crouching": true,
+      "height": 1.2,
+      "eyeY": 0.7129624,
+      "speed": 1.36940885E-08,
+      "transition": true,
+      "clips": [
+        {
+          "name": "Player_Idle",
+          "weight": 0.458136737
+        }
+      ]
+    },
+    {
+      "label": "rapid stand press",
+      "frame": 1348,
+      "crouching": false,
+      "height": 1.8,
+      "eyeY": 0.8676828,
+      "speed": 7.08226366E-09,
+      "transition": true,
+      "clips": []
+    },
+    {
+      "label": "rapid release",
+      "frame": 1353,
+      "crouching": false,
+      "height": 1.8,
+      "eyeY": 1.052614,
+      "speed": 3.65772879E-09,
+      "transition": true,
+      "clips": []
+    },
+    {
+      "label": "rapid crouch press",
+      "frame": 1358,
+      "crouching": true,
+      "height": 1.2,
+      "eyeY": 0.8850284,
+      "speed": 1.88212024E-09,
+      "transition": true,
+      "clips": []
+    },
+    {
+      "label": "rapid final crouch",
+      "frame": 1397,
+      "crouching": true,
+      "height": 1.2,
+      "eyeY": 0.575030863,
+      "speed": 1.10071821E-11,
+      "transition": false,
+      "clips": [
+        {
+          "name": "Player_Crouch_Idle",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "label": "crouch walk resumed",
+      "frame": 1436,
+      "crouching": true,
+      "height": 1.2,
+      "eyeY": 0.5750001,
+      "speed": 0.994248331,
+      "transition": false,
+      "clips": [
+        {
+          "name": "Player_Crouch_Forward",
+          "weight": 0.9920467
+        }
+      ]
+    },
+    {
+      "label": "crouch sprint resumed",
+      "frame": 1475,
+      "crouching": true,
+      "height": 1.2,
+      "eyeY": 0.5750001,
+      "speed": 1.99432456,
+      "transition": false,
+      "clips": [
+        {
+          "name": "Player_Crouch_Sprint",
+          "weight": 0.994324565
+        }
+      ]
+    },
+    {
+      "label": "stopped final",
+      "frame": 1514,
+      "crouching": true,
+      "height": 1.2,
+      "eyeY": 0.5750001,
+      "speed": 0.0114192832,
+      "transition": false,
+      "clips": [
+        {
+          "name": "Player_Crouch_Idle",
+          "weight": 0.9885807
+        },
+        {
+          "name": "Player_Crouch_Idle",
+          "weight": 0.0113941291
+        }
+      ]
+    },
+    {
+      "label": "stand press",
+      "frame": 1553,
+      "crouching": false,
+      "height": 1.8,
+      "eyeY": 1.1748805,
+      "speed": 6.60393562E-05,
+      "transition": false,
+      "clips": [
+        {
+          "name": "Player_Idle",
+          "weight": 0.999933958
+        }
+      ]
+    },
+    {
+      "label": "standing settled",
+      "frame": 1592,
+      "crouching": false,
+      "height": 1.8,
+      "eyeY": 1.175,
+      "speed": 3.965423E-07,
+      "transition": false,
+      "clips": [
+        {
+          "name": "Player_Idle",
+          "weight": 0.9999996
+        }
+      ]
+    },
+    {
+      "label": "standing walk",
+      "frame": 1630,
+      "crouching": false,
+      "height": 1.8,
+      "eyeY": 1.175,
+      "speed": 0.9942431,
+      "transition": false,
+      "clips": [
+        {
+          "name": "Player_Walk",
+          "weight": 0.9942431
+        }
+      ]
+    },
+    {
+      "label": "standing sprint",
+      "frame": 1669,
+      "crouching": false,
+      "height": 1.8,
+      "eyeY": 1.175,
+      "speed": 1.99390113,
+      "transition": false,
+      "clips": [
+        {
+          "name": "Player_Run",
+          "weight": 0.993901134
+        }
+      ]
+    },
+    {
+      "label": "standing backwards cannot sprint",
+      "frame": 1708,
+      "crouching": false,
+      "height": 1.8,
+      "eyeY": 1.175,
+      "speed": 1.00593972,
+      "transition": false,
+      "clips": [
+        {
+          "name": "Player_Walk",
+          "weight": 0.9940603
+        }
+      ]
+    },
+    {
+      "label": "standing stopped",
+      "frame": 1747,
+      "crouching": false,
+      "height": 1.8,
+      "eyeY": 1.175,
+      "speed": 0.00576398,
+      "transition": false,
+      "clips": [
+        {
+          "name": "Player_Idle",
+          "weight": 0.994236
+        }
+      ]
+    }
+  ],
+  "sawPoseTransition": true,
+  "sawWalkRunBlend": true,
+  "maxEyeStep": 0.0631837249,
+  "errors": [],
+  "lastState": {
+    "current": -1729304434,
+    "next": 0,
+    "transition": false,
+    "transitionTime": 0.0
+  }
+}

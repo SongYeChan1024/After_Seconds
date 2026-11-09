@@ -1,0 +1,128 @@
+{
+  "version": "V0.03",
+  "date": "2026-11-09",
+  "author": "송예찬",
+  "sourceService": "VARCO 3D",
+  "flowId": "8f7100a4-a7df-488b-81ee-0c2ac6ae60d8",
+  "rigTaskId": "4838631d-f39c-455a-85cc-8d2f519eee6e",
+  "sourceClips": [
+    {
+      "name": "Forward",
+      "animation": "crouch_forward_walk_looping",
+      "nodeId": "329d4aca-62c5-449b-bc6a-2f8f68ed3279",
+      "taskId": "abf19f5f-7a10-4ac2-84d3-1b68818bd61a"
+    },
+    {
+      "name": "Idle",
+      "animation": "crouch_kneel_idle_looping",
+      "nodeId": "0a7f6178-c22e-4a5a-9cb9-b2a572a38008",
+      "taskId": "49221c8d-c88c-4486-a89e-8f1f20fa9db2"
+    },
+    {
+      "name": "Back",
+      "animation": "crouch_back_walk_looping",
+      "nodeId": "1e2f1639-fff3-4266-9ee2-6392eef0f9c1",
+      "taskId": "16e97ad0-e186-4064-99aa-c587dca097e4"
+    },
+    {
+      "name": "Left",
+      "animation": "crouch_left_walk",
+      "nodeId": "211f431c-1c70-4a44-90ba-1c5870858bef",
+      "taskId": "e1b18add-fa91-4ee5-a769-bfd991995682"
+    },
+    {
+      "name": "Right",
+      "animation": "crouch_right_walk",
+      "nodeId": "00094f02-0404-48c8-8fee-75061d63aabf",
+      "taskId": "dfe91cd9-2717-48ed-b367-1f028c02bae4"
+    },
+    {
+      "name": "Stand",
+      "animation": "crouch_stand_up",
+      "nodeId": "7a109a2c-490d-43d0-8323-d77d201e6759",
+      "taskId": "a9bd687e-b181-45fb-846c-91f17e78f65c"
+    },
+    {
+      "name": "Sprint",
+      "animation": "crouch_run_with_gun_looping",
+      "nodeId": "f38adeef-1f89-4293-adfb-67db71f16277",
+      "taskId": "26227d8b-de0f-44bf-a389-a1e0711d0dac",
+      "adaptation": "72 arm, hand and finger curves adapted from Forward walk and retimed to the sprint cycle; retains source torso and legs. Not original unarmed mocap."
+    }
+  ],
+  "retargetModel": "Assets/Afrer_Seconds/05.Model/Player/PlayerDummy_Rigged_V0.3.fbx",
+  "controller": "Assets/Afrer_Seconds/07.Animator/Player/Controllers/Player_Animator_Blend.controller",
+  "previousController": "Assets/Afrer_Seconds/07.Animator/Player/Controllers/Player_Animator.controller",
+  "clipFolder": "Assets/Afrer_Seconds/07.Animator/Player/Clips/Crouch",
+  "finalClips": 8,
+  "derivedEntry": "Reversed, ground-aligned Stand clip; preserves humanoid curves.",
+  "blendTree": {
+    "state": "Crouching/Player_Crouch",
+    "name": "Crouch Direction",
+    "type": "SimpleDirectional2D",
+    "parameters": [
+      "MoveX",
+      "MoveY"
+    ],
+    "children": {
+      "Idle": [
+        0,
+        0
+      ],
+      "Forward": [
+        0,
+        1
+      ],
+      "Back": [
+        0,
+        -1
+      ],
+      "Left": [
+        -1,
+        0
+      ],
+      "Right": [
+        1,
+        0
+      ]
+    }
+  },
+  "transitions": "Existing controller: Standing and Crouching sub-state machines. Crouch Enter -> directional blend tree or forward Sprint -> Exit. Crouch Sprint requires IsMoving, IsSprint, IsCrouch and MoveY > 0.001. Existing standing bool-driven logic is preserved.",
+  "blendController": {
+    "path": "Assets/Afrer_Seconds/07.Animator/Player/Controllers/Player_Animator_Blend.controller",
+    "assignedToPlayer": true,
+    "prefab": "Assets/Afrer_Seconds/05.Model/Player/Player_Dummy_V0.1.prefab",
+    "standing": "1D Speed: Idle at 0, Walk at 1, Run at 2",
+    "crouching": "1D Speed: Idle at 0, nested 2D directional Walk at 1, Sprint at 2",
+    "stanceParameter": "IsCrouch",
+    "directionParameters": ["MoveX", "MoveY"],
+    "speedUnits": "Normalized animation amount, not metres per second. Values between 1 and 2 blend walking and running.",
+    "runtimeContract": "Presenter resolves sprintInput && moveInput.y > 0 for both Motor and Animator, including forward diagonals. SetLocomotion receives the Motor's accepted IsCrouching; blocked standing keeps the crouched animation. Speed and direction are damped; Animator itself does not enforce sprint eligibility.",
+    "postureTransitionSeconds": 0.28,
+    "interruptionSource": "Destination, allowing the reverse posture transition without restarting the source transition",
+    "speedDampSeconds": 0.12,
+    "directionDampSeconds": 0.1,
+    "eyeSmoothSeconds": 0.12,
+    "pending": "User feel/art review. Jump, landing and pickup input/action timing remain separate work."
+  },
+  "runtimeCodeModified": true,
+  "runtimeChanges": ["PlayerAnimationSystem.SetLocomotion/ResetLocomotion", "PlayerPresenter forwards accepted Motor posture and common movement/sprint state", "PlayerLook smooths the existing eye-drop target"],
+  "inputAndCameraAndCollider": "Existing C toggle, height/center changes, clearance check and movement settings retained. Only animation delivery and eye-height interpolation were connected on the user's explicit request. Physical input devices were not disabled.",
+  "validation": {
+    "stateScenarios": 19,
+    "blendDraftScenarios": 14,
+    "inputDrivenPlayScenarios": 28,
+    "inputDrivenNewErrors": 0,
+    "inputDrivenReport": "SourceAssets/PlayerCrouch/integration_play.json",
+    "savedPlayerSceneVerified": true,
+    "sourceHumanMotionClips": 7,
+    "derivedHumanMotionClips": 8,
+    "groundAlignmentTarget": -0.7750726,
+    "groundSampleMaximumErrorMetersExcludingSprint": 0.0008351803,
+    "sprintGroundSampleMaximumErrorMeters": 0.003753,
+    "scope": "Playable preview checks plus 28 live Play Mode cases using an isolated prefab instance and temporary paired virtual keyboard/mouse. Real C/WASD/Shift action callbacks, posture transitions, speed blending, ceiling refusal and rapid toggles verified. Player scene and B2 inherit the saved prefab controller. Final pose renders inspected; no full playthrough claim."
+  },
+  "reviewPending": "Two user subject concept images located in the flow and reviewed in SourceAssets/PlayerSubjectReview. They depict different subjects, not two views of one model. No subject mesh generated or inspected. Recheck retargeting and floor alignment after avatar replacement; final animation art approval remains pending.",
+  "tooling": "SourceAssets/PlayerCrouch. Creation/import tools are historical and must not be rerun blindly: some reset trims or assume the old root state layout. Verify.cs validates the existing controller; VerifyBlend.cs validates the separate draft. Reports: verification.json and blend_verification.json.",
+  "points": 0
+}

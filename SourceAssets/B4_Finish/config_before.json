@@ -1,0 +1,32 @@
+{
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B4_Circular.unity",
+  "urp": "Assets/Settings/PC_RPAsset.asset",
+  "supportsHDR": true,
+  "supportsCameraDepthTexture": true,
+  "supportsCameraOpaqueTexture": true,
+  "shadowDistance": 50.0,
+  "maxAdditionalLightsCount": 4,
+  "supportsAdditionalLightShadows": true,
+  "msaaSampleCount": 4,
+  "ambientMode": "Trilight",
+  "ambient": [
+    0.3,
+    0.31,
+    0.33,
+    1.0
+  ],
+  "ambientIntensity": 1.0,
+  "reflection": "Custom",
+  "reflectionIntensity": 0.18,
+  "fog": false,
+  "volumes": [],
+  "cameras": [
+    {
+      "name": "Main Camera",
+      "allowHDR": true,
+      "useOcclusionCulling": true,
+      "post": true
+    }
+  ],
+  "probes": []
+}
