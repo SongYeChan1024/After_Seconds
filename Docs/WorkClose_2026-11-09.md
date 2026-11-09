@@ -1,4 +1,4 @@
-# After Seconds 집에서 이어하기와 11월 9일 작업 마감 V0.01
+# After Seconds 집에서 이어하기와 11월 9일 작업 마감 V0.02
 
 작성자 송예찬 · 2026-11-09
 
@@ -69,7 +69,7 @@ B3의 기본 소등5구역은 의도된 상태이며 스위치 동작은 아직 
 - 크라우칭: Play 모드에서 임시 가상 키보드/마우스를 별도 프리팹에 페어링해 실제 InputAction 콜백 경로28개, 794프레임, 새 게임 오류0. 천장 거부·방향별 이동·전진 달리기·연속 토글과 중간 블렌드를 확인했다. [결과](../SourceAssets/PlayerCrouch/integration_play.json)
 - 새 Controller의 Playable 미리보기14개 통과. 자세 중간과 최종 앉기/달리기 렌더도 확인했다. [이미지](../SourceAssets/PlayerCrouch/Preview/Blend_Crouched.png)
 - B3 Controller394/394, B2 통로21/21·장비 접근186/186·계단왕복4/4 통과. 상세 조건과 수치는 각 단계 검수 기록을 따른다.
-- OnLook 문제는 실제 Mouse 장치 비활성화 상태를 복구했다. 검수 도구가 실제 Mouse/Keyboard를 비활성화하지 않도록 수정했다. 마감 검수에서 두 장치 모두 활성, 임시 입력 장치 제거, B2 편집 모드와 씬 저장 상태를 확인했다.
+- OnLook 문제는 실제 Mouse 장치 비활성화 상태를 복구했다. 검수 도구가 실제 Mouse/Keyboard를 비활성화하지 않도록 수정했다. 크라우칭 연결 검수 종료 시 두 장치 모두 활성, 임시 입력 장치 제거, B2 편집 모드와 씬 저장 상태를 확인했다. 이후 사용자가 진행 중인 Play 세션은 종료하지 않았으며 Git 마감은 디스크에 저장된 파일을 기준으로 했다.
 - Unity AI의 `NoSubscription`은 AI 서비스 구독 관련 로그다. 이동/크라우칭 오류와 구분한다. 그림자 아틀라스 해상도 경고가 보이면 후속 조명 성능 검수에서 별도 확인한다.
 
 ## 다음 할 일
@@ -87,3 +87,13 @@ B3의 기본 소등5구역은 의도된 상태이며 스위치 동작은 아직 
 - [11월9일 After Seconds 일일개발일지](https://songyechan1024.github.io/Kasil_DevLog/posts/after-seconds-b2-b3-and-crouch-blending/)
 
 위 두 글의 원본은 블로그 저장소 `_posts/`에 있으며, 수업메모 `261109_NCAI`와 별도 글이다.
+
+## 원격 저장과 게시 결과
+
+- After Seconds 제작·코드·인수인계 커밋: `1dc89aa11914c73358c9ef43cfe65152783b027f`, 원격 `main` push 성공. 4,688개 파일의 변경과 모델·제작 원본·검수 자료를 포함한다.
+- 블로그 커밋: `5e5a00efa8ade7e769c7eb63cfdd2c748f709d37`, 원격 `main` push 성공.
+- [Build and Deploy 실행42587673162](https://github.com/SongYeChan1024/Kasil_DevLog/actions/runs/42587673162): 테스트·Jekyll 빌드·사이트 링크 검사·배포 성공.
+- 공개 글2개와 이미지4개의 HTTP200, 두 글의 제목·본문을 확인했다.
+- Player 씬의 이동 전후 GUID 일치, 실제 에셋의 `.meta` 동반, 새 파일100MB 제한 초과0, 인수인계 로컬 링크 누락0을 확인했다.
+
+이 문서의 게시 결과 기록은 제작 커밋 다음의 문서 커밋으로 원격에 함께 반영한다. 집에서는 두 커밋을 포함한 최신 `origin/main`을 받는다.
