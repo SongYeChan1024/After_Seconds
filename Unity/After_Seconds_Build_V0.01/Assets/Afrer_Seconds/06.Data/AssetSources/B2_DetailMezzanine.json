@@ -1,0 +1,578 @@
+{
+  "version": "0.02",
+  "author": "송예찬",
+  "date": "2026-11-10",
+  "source": "Blender 5.2.2 LTS",
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B2_Circular.unity",
+  "sources": [
+    "SourceAssets/B2_DetailMezzanine/build.py",
+    "SourceAssets/B2_DetailMezzanine/services.py"
+  ],
+  "description": "19 crouching service walkways with upper process pipes; 29 equipment connections; reduced red industrial practical lighting. No runtime gameplay code changes.",
+  "models": [
+    {
+      "name": "BD_T01_UpperWalk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T01_UpperWalk.fbx",
+      "triangles": 83676,
+      "lod": false
+    },
+    {
+      "name": "BD_T01_UpperWalk_LOD1",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T01_UpperWalk_LOD1.fbx",
+      "triangles": 23428,
+      "lod": true
+    },
+    {
+      "name": "BD_T01_Collision",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T01_Collision.fbx",
+      "triangles": 1092,
+      "lod": false
+    },
+    {
+      "name": "BD_T02_UpperWalk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T02_UpperWalk.fbx",
+      "triangles": 51200,
+      "lod": false
+    },
+    {
+      "name": "BD_T02_UpperWalk_LOD1",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T02_UpperWalk_LOD1.fbx",
+      "triangles": 14336,
+      "lod": true
+    },
+    {
+      "name": "BD_T02_Collision",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T02_Collision.fbx",
+      "triangles": 708,
+      "lod": false
+    },
+    {
+      "name": "BD_T03_UpperWalk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T03_UpperWalk.fbx",
+      "triangles": 80644,
+      "lod": false
+    },
+    {
+      "name": "BD_T03_UpperWalk_LOD1",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T03_UpperWalk_LOD1.fbx",
+      "triangles": 22580,
+      "lod": true
+    },
+    {
+      "name": "BD_T03_Collision",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T03_Collision.fbx",
+      "triangles": 1068,
+      "lod": false
+    },
+    {
+      "name": "BD_T05_UpperWalk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T05_UpperWalk.fbx",
+      "triangles": 84492,
+      "lod": false
+    },
+    {
+      "name": "BD_T05_UpperWalk_LOD1",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T05_UpperWalk_LOD1.fbx",
+      "triangles": 23656,
+      "lod": true
+    },
+    {
+      "name": "BD_T05_Collision",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T05_Collision.fbx",
+      "triangles": 1116,
+      "lod": false
+    },
+    {
+      "name": "BD_T07_UpperWalk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T07_UpperWalk.fbx",
+      "triangles": 174212,
+      "lod": false
+    },
+    {
+      "name": "BD_T07_UpperWalk_LOD1",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T07_UpperWalk_LOD1.fbx",
+      "triangles": 48778,
+      "lod": true
+    },
+    {
+      "name": "BD_T07_Collision",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T07_Collision.fbx",
+      "triangles": 2172,
+      "lod": false
+    },
+    {
+      "name": "BD_T08_UpperWalk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T08_UpperWalk.fbx",
+      "triangles": 63932,
+      "lod": false
+    },
+    {
+      "name": "BD_T08_UpperWalk_LOD1",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T08_UpperWalk_LOD1.fbx",
+      "triangles": 17900,
+      "lod": true
+    },
+    {
+      "name": "BD_T08_Collision",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T08_Collision.fbx",
+      "triangles": 876,
+      "lod": false
+    },
+    {
+      "name": "BD_T09_UpperWalk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T09_UpperWalk.fbx",
+      "triangles": 87588,
+      "lod": false
+    },
+    {
+      "name": "BD_T09_UpperWalk_LOD1",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T09_UpperWalk_LOD1.fbx",
+      "triangles": 24524,
+      "lod": true
+    },
+    {
+      "name": "BD_T09_Collision",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T09_Collision.fbx",
+      "triangles": 1164,
+      "lod": false
+    },
+    {
+      "name": "BD_T10_UpperWalk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T10_UpperWalk.fbx",
+      "triangles": 119136,
+      "lod": false
+    },
+    {
+      "name": "BD_T10_UpperWalk_LOD1",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T10_UpperWalk_LOD1.fbx",
+      "triangles": 33358,
+      "lod": true
+    },
+    {
+      "name": "BD_T10_Collision",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T10_Collision.fbx",
+      "triangles": 1548,
+      "lod": false
+    },
+    {
+      "name": "BD_T11_UpperWalk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T11_UpperWalk.fbx",
+      "triangles": 110252,
+      "lod": false
+    },
+    {
+      "name": "BD_T11_UpperWalk_LOD1",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T11_UpperWalk_LOD1.fbx",
+      "triangles": 30870,
+      "lod": true
+    },
+    {
+      "name": "BD_T11_Collision",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T11_Collision.fbx",
+      "triangles": 1428,
+      "lod": false
+    },
+    {
+      "name": "BD_T12_UpperWalk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T12_UpperWalk.fbx",
+      "triangles": 107156,
+      "lod": false
+    },
+    {
+      "name": "BD_T12_UpperWalk_LOD1",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T12_UpperWalk_LOD1.fbx",
+      "triangles": 30002,
+      "lod": true
+    },
+    {
+      "name": "BD_T12_Collision",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T12_Collision.fbx",
+      "triangles": 1380,
+      "lod": false
+    },
+    {
+      "name": "BD_T13_UpperWalk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T13_UpperWalk.fbx",
+      "triangles": 237176,
+      "lod": false
+    },
+    {
+      "name": "BD_T13_UpperWalk_LOD1",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T13_UpperWalk_LOD1.fbx",
+      "triangles": 66408,
+      "lod": true
+    },
+    {
+      "name": "BD_T13_Collision",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T13_Collision.fbx",
+      "triangles": 2964,
+      "lod": false
+    },
+    {
+      "name": "BD_T14_UpperWalk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T14_UpperWalk.fbx",
+      "triangles": 119136,
+      "lod": false
+    },
+    {
+      "name": "BD_T14_UpperWalk_LOD1",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T14_UpperWalk_LOD1.fbx",
+      "triangles": 33358,
+      "lod": true
+    },
+    {
+      "name": "BD_T14_Collision",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T14_Collision.fbx",
+      "triangles": 1548,
+      "lod": false
+    },
+    {
+      "name": "BD_T15_UpperWalk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T15_UpperWalk.fbx",
+      "triangles": 119072,
+      "lod": false
+    },
+    {
+      "name": "BD_T15_UpperWalk_LOD1",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T15_UpperWalk_LOD1.fbx",
+      "triangles": 33340,
+      "lod": true
+    },
+    {
+      "name": "BD_T15_Collision",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T15_Collision.fbx",
+      "triangles": 1524,
+      "lod": false
+    },
+    {
+      "name": "BD_T16_UpperWalk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T16_UpperWalk.fbx",
+      "triangles": 115224,
+      "lod": false
+    },
+    {
+      "name": "BD_T16_UpperWalk_LOD1",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T16_UpperWalk_LOD1.fbx",
+      "triangles": 32262,
+      "lod": true
+    },
+    {
+      "name": "BD_T16_Collision",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T16_Collision.fbx",
+      "triangles": 1476,
+      "lod": false
+    },
+    {
+      "name": "BD_T17_UpperWalk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T17_UpperWalk.fbx",
+      "triangles": 139696,
+      "lod": false
+    },
+    {
+      "name": "BD_T17_UpperWalk_LOD1",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T17_UpperWalk_LOD1.fbx",
+      "triangles": 39114,
+      "lod": true
+    },
+    {
+      "name": "BD_T17_Collision",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T17_Collision.fbx",
+      "triangles": 1788,
+      "lod": false
+    },
+    {
+      "name": "BD_T18_UpperWalk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T18_UpperWalk.fbx",
+      "triangles": 189928,
+      "lod": false
+    },
+    {
+      "name": "BD_T18_UpperWalk_LOD1",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T18_UpperWalk_LOD1.fbx",
+      "triangles": 53178,
+      "lod": true
+    },
+    {
+      "name": "BD_T18_Collision",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T18_Collision.fbx",
+      "triangles": 2412,
+      "lod": false
+    },
+    {
+      "name": "BD_T19_UpperWalk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T19_UpperWalk.fbx",
+      "triangles": 192960,
+      "lod": false
+    },
+    {
+      "name": "BD_T19_UpperWalk_LOD1",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T19_UpperWalk_LOD1.fbx",
+      "triangles": 54028,
+      "lod": true
+    },
+    {
+      "name": "BD_T19_Collision",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T19_Collision.fbx",
+      "triangles": 2436,
+      "lod": false
+    },
+    {
+      "name": "BD_T20_UpperWalk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T20_UpperWalk.fbx",
+      "triangles": 189928,
+      "lod": false
+    },
+    {
+      "name": "BD_T20_UpperWalk_LOD1",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T20_UpperWalk_LOD1.fbx",
+      "triangles": 53178,
+      "lod": true
+    },
+    {
+      "name": "BD_T20_Collision",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T20_Collision.fbx",
+      "triangles": 2412,
+      "lod": false
+    },
+    {
+      "name": "BD_T21_UpperWalk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T21_UpperWalk.fbx",
+      "triangles": 340444,
+      "lod": false
+    },
+    {
+      "name": "BD_T21_UpperWalk_LOD1",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T21_UpperWalk_LOD1.fbx",
+      "triangles": 95324,
+      "lod": true
+    },
+    {
+      "name": "BD_T21_Collision",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T21_Collision.fbx",
+      "triangles": 4212,
+      "lod": false
+    },
+    {
+      "name": "BD_IndustrialRedLamp",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_IndustrialRedLamp.fbx",
+      "triangles": 2640,
+      "lod": false
+    },
+    {
+      "name": "BD_FilterHeaders",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BD_FilterHeaders.fbx",
+      "triangles": 7772,
+      "lod": false
+    },
+    {
+      "name": "BD_AirFilterRiser",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BD_AirFilterRiser.fbx",
+      "triangles": 4416,
+      "lod": false
+    },
+    {
+      "name": "BD_FanFlexibleJoint",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BD_FanFlexibleJoint.fbx",
+      "triangles": 11220,
+      "lod": false
+    },
+    {
+      "name": "BD_C01_PowerConnections",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BD_C01_PowerConnections.fbx",
+      "triangles": 3488,
+      "lod": false
+    },
+    {
+      "name": "BD_C03_PowerConnections",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BD_C03_PowerConnections.fbx",
+      "triangles": 4360,
+      "lod": false
+    },
+    {
+      "name": "BD_C04_PowerConnections",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BD_C04_PowerConnections.fbx",
+      "triangles": 872,
+      "lod": false
+    },
+    {
+      "name": "BD_W01_PowerConnections",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BD_W01_PowerConnections.fbx",
+      "triangles": 6976,
+      "lod": false
+    },
+    {
+      "name": "BD_W02_PowerConnections",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BD_W02_PowerConnections.fbx",
+      "triangles": 2616,
+      "lod": false
+    },
+    {
+      "name": "BD_W03_PowerConnections",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BD_W03_PowerConnections.fbx",
+      "triangles": 872,
+      "lod": false
+    },
+    {
+      "name": "BD_E01_PowerConnections",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BD_E01_PowerConnections.fbx",
+      "triangles": 1744,
+      "lod": false
+    },
+    {
+      "name": "BD_E02_PowerConnections",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BD_E02_PowerConnections.fbx",
+      "triangles": 872,
+      "lod": false
+    },
+    {
+      "name": "BD_E03_PowerConnections",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BD_E03_PowerConnections.fbx",
+      "triangles": 872,
+      "lod": false
+    },
+    {
+      "name": "BD_N01_PowerConnections",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BD_N01_PowerConnections.fbx",
+      "triangles": 2616,
+      "lod": false
+    },
+    {
+      "name": "BD_S01_PowerConnections",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BD_S01_PowerConnections.fbx",
+      "triangles": 1744,
+      "lod": false
+    },
+    {
+      "name": "BD_T01_UpperProcessLines",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T01_UpperProcessLines.fbx",
+      "triangles": 31792,
+      "lod": false
+    },
+    {
+      "name": "BD_T02_UpperProcessLines",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T02_UpperProcessLines.fbx",
+      "triangles": 18976,
+      "lod": false
+    },
+    {
+      "name": "BD_T03_UpperProcessLines",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T03_UpperProcessLines.fbx",
+      "triangles": 25800,
+      "lod": false
+    },
+    {
+      "name": "BD_T05_UpperProcessLines",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T05_UpperProcessLines.fbx",
+      "triangles": 31856,
+      "lod": false
+    },
+    {
+      "name": "BD_T07_UpperProcessLines",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T07_UpperProcessLines.fbx",
+      "triangles": 52520,
+      "lod": false
+    },
+    {
+      "name": "BD_T08_UpperProcessLines",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T08_UpperProcessLines.fbx",
+      "triangles": 25288,
+      "lod": false
+    },
+    {
+      "name": "BD_T09_UpperProcessLines",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T09_UpperProcessLines.fbx",
+      "triangles": 31984,
+      "lod": false
+    },
+    {
+      "name": "BD_T10_UpperProcessLines",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T10_UpperProcessLines.fbx",
+      "triangles": 38936,
+      "lod": false
+    },
+    {
+      "name": "BD_T11_UpperProcessLines",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T11_UpperProcessLines.fbx",
+      "triangles": 38616,
+      "lod": false
+    },
+    {
+      "name": "BD_T12_UpperProcessLines",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T12_UpperProcessLines.fbx",
+      "triangles": 38552,
+      "lod": false
+    },
+    {
+      "name": "BD_T13_UpperProcessLines",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T13_UpperProcessLines.fbx",
+      "triangles": 72352,
+      "lod": false
+    },
+    {
+      "name": "BD_T14_UpperProcessLines",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T14_UpperProcessLines.fbx",
+      "triangles": 38936,
+      "lod": false
+    },
+    {
+      "name": "BD_T15_UpperProcessLines",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T15_UpperProcessLines.fbx",
+      "triangles": 38872,
+      "lod": false
+    },
+    {
+      "name": "BD_T16_UpperProcessLines",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T16_UpperProcessLines.fbx",
+      "triangles": 38744,
+      "lod": false
+    },
+    {
+      "name": "BD_T17_UpperProcessLines",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T17_UpperProcessLines.fbx",
+      "triangles": 45504,
+      "lod": false
+    },
+    {
+      "name": "BD_T18_UpperProcessLines",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T18_UpperProcessLines.fbx",
+      "triangles": 59024,
+      "lod": false
+    },
+    {
+      "name": "BD_T19_UpperProcessLines",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T19_UpperProcessLines.fbx",
+      "triangles": 59088,
+      "lod": false
+    },
+    {
+      "name": "BD_T20_UpperProcessLines",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T20_UpperProcessLines.fbx",
+      "triangles": 59024,
+      "lod": false
+    },
+    {
+      "name": "BD_T21_UpperProcessLines",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_T21_UpperProcessLines.fbx",
+      "triangles": 99456,
+      "lod": false
+    },
+    {
+      "name": "BD_RoundBulkhead",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_RoundBulkhead.fbx",
+      "triangles": 4048,
+      "lod": false
+    },
+    {
+      "name": "BD_ServicePendant",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_ServicePendant.fbx",
+      "triangles": 5816,
+      "lod": false
+    },
+    {
+      "name": "BD_PendantSuspension",
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BD_PendantSuspension.fbx",
+      "triangles": 740,
+      "lod": false
+    }
+  ]
+}

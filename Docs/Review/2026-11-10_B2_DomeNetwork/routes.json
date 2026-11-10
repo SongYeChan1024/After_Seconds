@@ -1,0 +1,810 @@
+{
+  "samples": 2227,
+  "routes": [
+    {
+      "name": "T01_ConnectedUpper",
+      "crouch": true,
+      "samples": 158,
+      "passed": true,
+      "issues": [],
+      "moves": [
+        {
+          "reverse": false,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -31.4635124,
+          "index": 157,
+          "expected": -31.58,
+          "position": [
+            25.6599846,
+            -30.863512,
+            6.72558165
+          ]
+        },
+        {
+          "reverse": true,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -33.8704643,
+          "index": 157,
+          "expected": -34.0,
+          "position": [
+            41.92279,
+            -33.2704659,
+            22.5882244
+          ]
+        }
+      ]
+    },
+    {
+      "name": "T11_ConnectedUpper",
+      "crouch": true,
+      "samples": 202,
+      "passed": true,
+      "issues": [],
+      "moves": [
+        {
+          "reverse": false,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -31.4725132,
+          "index": 201,
+          "expected": -31.58,
+          "position": [
+            -117.700584,
+            -30.8725128,
+            13.2495117
+          ]
+        },
+        {
+          "reverse": true,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -33.87047,
+          "index": 201,
+          "expected": -34.0,
+          "position": [
+            -94.7603455,
+            -33.27047,
+            32.366375
+          ]
+        }
+      ]
+    },
+    {
+      "name": "T12_ConnectedUpper",
+      "crouch": true,
+      "samples": 198,
+      "passed": true,
+      "issues": [],
+      "moves": [
+        {
+          "reverse": false,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -33.8704758,
+          "index": 197,
+          "expected": -34.0,
+          "position": [
+            -99.72697,
+            -33.2704773,
+            -20.3185425
+          ]
+        },
+        {
+          "reverse": true,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -31.4725132,
+          "index": 197,
+          "expected": -31.58,
+          "position": [
+            -118.663513,
+            -30.8725128,
+            1.77409589
+          ]
+        }
+      ]
+    },
+    {
+      "name": "T14_ConnectedUpper",
+      "crouch": true,
+      "samples": 218,
+      "passed": true,
+      "issues": [],
+      "moves": [
+        {
+          "reverse": false,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -31.4549,
+          "index": 217,
+          "expected": -31.58,
+          "position": [
+            80.97904,
+            -30.8549,
+            36.4043274
+          ]
+        },
+        {
+          "reverse": true,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -33.870472,
+          "index": 217,
+          "expected": -34.0,
+          "position": [
+            49.65577,
+            -33.2704735,
+            29.2854023
+          ]
+        }
+      ]
+    },
+    {
+      "name": "T15_ConnectedUpper",
+      "crouch": true,
+      "samples": 225,
+      "passed": true,
+      "issues": [],
+      "moves": [
+        {
+          "reverse": false,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -31.4725132,
+          "index": 224,
+          "expected": -31.58,
+          "position": [
+            117.955338,
+            -30.8725128,
+            10.5409422
+          ]
+        },
+        {
+          "reverse": true,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -31.4549,
+          "index": 224,
+          "expected": -31.58,
+          "position": [
+            93.30751,
+            -30.8549,
+            33.13478
+          ]
+        }
+      ]
+    },
+    {
+      "name": "T16_ConnectedUpper",
+      "crouch": true,
+      "samples": 210,
+      "passed": true,
+      "issues": [],
+      "moves": [
+        {
+          "reverse": false,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -33.870472,
+          "index": 209,
+          "expected": -34.0,
+          "position": [
+            99.54226,
+            -33.2704735,
+            -25.164547
+          ]
+        },
+        {
+          "reverse": true,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -31.4725132,
+          "index": 209,
+          "expected": -31.58,
+          "position": [
+            118.835625,
+            -30.8725128,
+            -1.36939716
+          ]
+        }
+      ]
+    },
+    {
+      "name": "E01_RingDeck",
+      "crouch": false,
+      "samples": 193,
+      "passed": true,
+      "issues": [],
+      "moves": [
+        {
+          "reverse": false,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -30.32,
+          "index": 192,
+          "expected": -30.4,
+          "position": [
+            92.4,
+            -29.72,
+            38.0
+          ]
+        },
+        {
+          "reverse": true,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -30.32,
+          "index": 192,
+          "expected": -30.4,
+          "position": [
+            92.4,
+            -29.72,
+            38.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "E01_InternalStair",
+      "crouch": false,
+      "samples": 38,
+      "passed": true,
+      "issues": [],
+      "moves": [
+        {
+          "reverse": false,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -30.32,
+          "index": 37,
+          "expected": -30.4,
+          "position": [
+            85.8,
+            -29.72,
+            40.6
+          ]
+        },
+        {
+          "reverse": true,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -33.86713,
+          "index": 37,
+          "expected": -34.0,
+          "position": [
+            85.8,
+            -33.26713,
+            35.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "E01_StairLanding",
+      "crouch": false,
+      "samples": 8,
+      "passed": true,
+      "issues": [],
+      "moves": [
+        {
+          "reverse": false,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -30.32,
+          "index": 7,
+          "expected": -30.4,
+          "position": [
+            85.8,
+            -29.72,
+            41.8105125
+          ]
+        },
+        {
+          "reverse": true,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -30.32,
+          "index": 7,
+          "expected": -30.4,
+          "position": [
+            85.8,
+            -29.72,
+            40.6
+          ]
+        }
+      ]
+    },
+    {
+      "name": "E01_T14_PortalStair",
+      "crouch": true,
+      "samples": 19,
+      "passed": true,
+      "issues": [],
+      "moves": [
+        {
+          "reverse": false,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -30.32,
+          "index": 18,
+          "expected": -30.4,
+          "position": [
+            83.70941,
+            -29.72,
+            37.024868
+          ]
+        },
+        {
+          "reverse": true,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -31.4548988,
+          "index": 18,
+          "expected": -31.58,
+          "position": [
+            80.97904,
+            -30.8548985,
+            36.4043274
+          ]
+        }
+      ]
+    },
+    {
+      "name": "E01_T15_PortalStair",
+      "crouch": true,
+      "samples": 19,
+      "passed": true,
+      "issues": [],
+      "moves": [
+        {
+          "reverse": false,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -30.3200016,
+          "index": 18,
+          "expected": -30.4,
+          "position": [
+            91.24348,
+            -29.7200012,
+            35.02681
+          ]
+        },
+        {
+          "reverse": true,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -31.4548988,
+          "index": 18,
+          "expected": -31.58,
+          "position": [
+            93.30751,
+            -30.8548985,
+            33.13478
+          ]
+        }
+      ]
+    },
+    {
+      "name": "E02_RingDeck",
+      "crouch": false,
+      "samples": 193,
+      "passed": true,
+      "issues": [],
+      "moves": [
+        {
+          "reverse": false,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -30.32,
+          "index": 192,
+          "expected": -30.4,
+          "position": [
+            128.8,
+            -29.72,
+            5.0
+          ]
+        },
+        {
+          "reverse": true,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -30.32,
+          "index": 192,
+          "expected": -30.4,
+          "position": [
+            128.8,
+            -29.72,
+            5.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "E02_InternalStair",
+      "crouch": false,
+      "samples": 38,
+      "passed": true,
+      "issues": [],
+      "moves": [
+        {
+          "reverse": false,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -30.32,
+          "index": 37,
+          "expected": -30.4,
+          "position": [
+            121.8,
+            -29.72,
+            7.6
+          ]
+        },
+        {
+          "reverse": true,
+          "passed": true,
+          "miss": 1.1920929E-07,
+          "feet": -33.86713,
+          "index": 37,
+          "expected": -34.0,
+          "position": [
+            121.8,
+            -33.26713,
+            1.99999988
+          ]
+        }
+      ]
+    },
+    {
+      "name": "E02_StairLanding",
+      "crouch": false,
+      "samples": 11,
+      "passed": true,
+      "issues": [],
+      "moves": [
+        {
+          "reverse": false,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -30.32,
+          "index": 10,
+          "expected": -30.4,
+          "position": [
+            121.8,
+            -29.72,
+            9.266146
+          ]
+        },
+        {
+          "reverse": true,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -30.32,
+          "index": 10,
+          "expected": -30.4,
+          "position": [
+            121.8,
+            -29.72,
+            7.6
+          ]
+        }
+      ]
+    },
+    {
+      "name": "E02_T15_PortalStair",
+      "crouch": true,
+      "samples": 22,
+      "passed": true,
+      "issues": [],
+      "moves": [
+        {
+          "reverse": false,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -30.32,
+          "index": 21,
+          "expected": -30.4,
+          "position": [
+            120.461662,
+            -29.72,
+            8.243479
+          ]
+        },
+        {
+          "reverse": true,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -31.4725132,
+          "index": 21,
+          "expected": -31.58,
+          "position": [
+            117.955338,
+            -30.8725128,
+            10.5409422
+          ]
+        }
+      ]
+    },
+    {
+      "name": "E02_T16_PortalStair",
+      "crouch": true,
+      "samples": 22,
+      "passed": true,
+      "issues": [],
+      "moves": [
+        {
+          "reverse": false,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -30.32,
+          "index": 21,
+          "expected": -30.4,
+          "position": [
+            120.976952,
+            -29.72,
+            1.27157235
+          ]
+        },
+        {
+          "reverse": true,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -31.4725132,
+          "index": 21,
+          "expected": -31.58,
+          "position": [
+            118.835625,
+            -30.8725128,
+            -1.36939716
+          ]
+        }
+      ]
+    },
+    {
+      "name": "W02_RingDeck",
+      "crouch": false,
+      "samples": 193,
+      "passed": true,
+      "issues": [],
+      "moves": [
+        {
+          "reverse": false,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -30.32,
+          "index": 192,
+          "expected": -30.4,
+          "position": [
+            -119.2,
+            -29.72,
+            8.0
+          ]
+        },
+        {
+          "reverse": true,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -30.32,
+          "index": 192,
+          "expected": -30.4,
+          "position": [
+            -119.2,
+            -29.72,
+            8.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "W02_InternalStair",
+      "crouch": false,
+      "samples": 38,
+      "passed": true,
+      "issues": [],
+      "moves": [
+        {
+          "reverse": false,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -30.32,
+          "index": 37,
+          "expected": -30.4,
+          "position": [
+            -126.2,
+            -29.72,
+            10.6
+          ]
+        },
+        {
+          "reverse": true,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -33.86713,
+          "index": 37,
+          "expected": -34.0,
+          "position": [
+            -126.2,
+            -33.26713,
+            5.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "W02_StairLanding",
+      "crouch": false,
+      "samples": 11,
+      "passed": true,
+      "issues": [],
+      "moves": [
+        {
+          "reverse": false,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -30.32,
+          "index": 10,
+          "expected": -30.4,
+          "position": [
+            -126.2,
+            -29.72,
+            12.2661457
+          ]
+        },
+        {
+          "reverse": true,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -30.32,
+          "index": 10,
+          "expected": -30.4,
+          "position": [
+            -126.2,
+            -29.72,
+            10.6
+          ]
+        }
+      ]
+    },
+    {
+      "name": "W02_T11_PortalStair",
+      "crouch": true,
+      "samples": 22,
+      "passed": true,
+      "issues": [],
+      "moves": [
+        {
+          "reverse": false,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -30.3200016,
+          "index": 21,
+          "expected": -30.4,
+          "position": [
+            -120.312538,
+            -29.7200012,
+            11.0728855
+          ]
+        },
+        {
+          "reverse": true,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -31.4725132,
+          "index": 21,
+          "expected": -31.58,
+          "position": [
+            -117.700584,
+            -30.8725128,
+            13.2495117
+          ]
+        }
+      ]
+    },
+    {
+      "name": "W02_T12_PortalStair",
+      "crouch": true,
+      "samples": 22,
+      "passed": true,
+      "issues": [],
+      "moves": [
+        {
+          "reverse": false,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -30.3200016,
+          "index": 21,
+          "expected": -30.4,
+          "position": [
+            -120.8762,
+            -29.7200012,
+            4.35556841
+          ]
+        },
+        {
+          "reverse": true,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -31.4725132,
+          "index": 21,
+          "expected": -31.58,
+          "position": [
+            -118.663513,
+            -30.8725128,
+            1.774096
+          ]
+        }
+      ]
+    },
+    {
+      "name": "C02_T01_PortalStair",
+      "crouch": true,
+      "samples": 18,
+      "passed": true,
+      "issues": [],
+      "moves": [
+        {
+          "reverse": false,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -30.32,
+          "index": 17,
+          "expected": -30.4,
+          "position": [
+            24.85,
+            -29.72,
+            4.3
+          ]
+        },
+        {
+          "reverse": true,
+          "passed": true,
+          "miss": 0.009302362,
+          "feet": -31.4586964,
+          "index": 17,
+          "expected": -31.58,
+          "position": [
+            25.6580219,
+            -30.858696,
+            6.71659136
+          ]
+        }
+      ]
+    },
+    {
+      "name": "C02_ExistingDeckAccess",
+      "crouch": false,
+      "samples": 149,
+      "passed": true,
+      "issues": [],
+      "moves": [
+        {
+          "reverse": false,
+          "passed": true,
+          "miss": 0.0,
+          "feet": -33.9199944,
+          "index": 148,
+          "expected": -34.0,
+          "position": [
+            12.8,
+            -33.3199959,
+            -8.8
+          ]
+        },
+        {
+          "reverse": true,
+          "passed": true,
+          "miss": 0.000836397,
+          "feet": -30.32,
+          "index": 148,
+          "expected": -30.4,
+          "position": [
+            24.8497925,
+            -29.72,
+            4.29919
+          ]
+        }
+      ]
+    }
+  ]
+}

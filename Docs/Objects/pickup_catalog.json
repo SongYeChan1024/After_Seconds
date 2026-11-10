@@ -1,0 +1,989 @@
+{
+  "title": "After Seconds 층별 획득 오브젝트 제작 목록 V0.04",
+  "version": "V0.04",
+  "author": "송예찬",
+  "date": "2026-11-10",
+  "authority": "../AfterSeconds_메인기획서.md",
+  "spec": "../층별_획득오브젝트_명세.md",
+  "scope": "사용자 승인한 종류·층별 구성 및 제작 명세. 실제 3D·씬 배치·런타임 완료를 뜻하지 않음.",
+  "confirmed_rules": {
+    "capacity": 5,
+    "capacity_unit": "개별 객체",
+    "equipped_counts": true,
+    "stackable": false,
+    "quantity_per_instance": 1,
+    "inventory_window": false,
+    "selector": "화면 오른쪽 아래 / 마우스 휠",
+    "cross_floor_use": true,
+    "all_guards_carry_guns": true,
+    "gun_pickup_optional": true,
+    "swap_rules_unchanged": true,
+    "upward_only": true,
+    "core_choice": "VA/VB/VL 자유 선택",
+    "empty_handed_ascent_allowed": true,
+    "preparation_is_player_choice": true,
+    "failure_from_missing_tools_allowed": true,
+    "guaranteed_empty_handed_progress": false,
+    "automatic_supply_guarantee": false,
+    "cross_floor_preserve": [
+      "instance_id",
+      "type_id",
+      "selected_instance_id",
+      "per_gun_ammo",
+      "content_id",
+      "defined_tool_state",
+      "record_progress"
+    ],
+    "cross_floor_alert": "전환 시 발각·수색/추격·현재 경보·유효 신고 정보를 확인하고 위층 경보 조정에 사용. 새 위치 자동 공개 없음.",
+    "ammo_total": "소지 총별 남은 탄약의 합. 한 자루 N발의 총만 5개 소지하면 최대 5N발. 한 자루당 탄약 수 미정.",
+    "full_capacity_behavior": "reject_pickup",
+    "full_capacity_message": "공간이 없어",
+    "automatic_replacement": false,
+    "record_gallery": "열람한 콘텐츠 등록·재열람. 원본 소지와 분리하여 층 전환 후 유지. 새 회차/체크포인트 해금 보존 범위 미정.",
+    "reading_pauses_game_time": true,
+    "throw_multi_hit": true,
+    "swap_schedule": "각 유효 명중의 게임 시각 +3초. 한 투척의 서로 다른 대상 연속 명중 각각 예약.",
+    "swap_keeps_own_linear_velocity": true
+  },
+  "unresolved": [
+    "물건별 실제 크기·투척 속도·질량·소리 범위",
+    "미사용 물건의 추가 기능",
+    "단말 호환 범위·삽입과 회수 연출",
+    "빛 노출·배터리·내구도·파손",
+    "정확한 배치 좌표와 수량",
+    "한 자루당 탄약 수. 보충/재장전 도입은 별도 미정. 경비 사격은 최우선 상세 결정",
+    "“공간이 없어” 안내 배치/표시 시간·빈손 UI·갤러리 분류/키/재시작 보존 범위",
+    "준비 부족 진행 불가 판정·재시작 범위·체크포인트, 경보 단계별 전파/조정 수치, 컷씬 세부 연출과 스킵",
+    "식판 외 세부 교환 대상 목록·직접 제압 성립/회복/동료 반응·실제 도구 필요 구간·선택형 수동 학습은 메인/잠입 상세 설계 참조"
+  ],
+  "summary": {
+    "item_types": 38,
+    "floor_entries": 58,
+    "asset_candidate_types": 5,
+    "runtime_implemented": 0
+  },
+  "floors": [
+    {
+      "id": "B5",
+      "title": "격리층",
+      "items": [
+        "Pistol",
+        "MealTray",
+        "Spoon",
+        "MetalCup",
+        "WaterBottle",
+        "Pen",
+        "DocumentFolder",
+        "UsbDrive",
+        "DataShard",
+        "Pager"
+      ],
+      "representative": "MealTray",
+      "art_direction": "청백색의 관리된 생활·기본 관찰 공간. 손이 닿는 물건의 세척 흔적과 번호 표식.",
+      "record_topics": "배식·관찰 기록, 피험체 생활 구역 인계, 격리실 관찰 영상",
+      "placement_area_candidates": "배식구·생활실·보안 관제석",
+      "exact_placement_status": "미배치 / 좌표·수량은 실제 접근·감시 동선과 대조 후 결정"
+    },
+    {
+      "id": "B4",
+      "title": "능력 측정·발달·강화층",
+      "items": [
+        "Pistol",
+        "Pen",
+        "UsbDrive",
+        "DataShard",
+        "Clipboard",
+        "Stopwatch",
+        "HandMeter",
+        "TestRemote",
+        "ElectrodeCase",
+        "Penlight"
+      ],
+      "representative": "HandMeter",
+      "art_direction": "어두운 무채색의 전문 측정 공간. 조작부·전극·센서·회차 표기로 업무가 드러나게 한다.",
+      "record_topics": "측정 결과, 시험 순서, 능력 변화, 실패한 측정 영상",
+      "placement_area_candidates": "측정 준비대·관찰석·분석 단말",
+      "exact_placement_status": "미배치 / 좌표·수량은 실제 접근·감시 동선과 대조 후 결정"
+    },
+    {
+      "id": "B3",
+      "title": "시료층",
+      "items": [
+        "Pistol",
+        "DocumentFolder",
+        "UsbDrive",
+        "DataShard",
+        "Flashlight",
+        "SampleCanister",
+        "SampleCarrier",
+        "Thermometer",
+        "Labeler",
+        "SealTape"
+      ],
+      "representative": "Flashlight",
+      "art_direction": "소등된 저온 창고. 라벨·봉인·결로·운반 자국과 낮은 인원 밀도.",
+      "record_topics": "시료 위치, 반출·입고 기록, 온도 이상, 폐기 대상",
+      "placement_area_candidates": "시료 인계대·저온 보관부·작업등 주변",
+      "exact_placement_status": "미배치 / 좌표·수량은 실제 접근·감시 동선과 대조 후 결정"
+    },
+    {
+      "id": "B2",
+      "title": "기계층",
+      "items": [
+        "Pistol",
+        "DocumentFolder",
+        "UsbDrive",
+        "Wrench",
+        "Screwdriver",
+        "Bolt",
+        "Nut",
+        "VoltageMeter",
+        "WorkFlashlight",
+        "Radio"
+      ],
+      "representative": "Wrench",
+      "art_direction": "철색과 붉은 조명. 공구 각인·도장 마모·불규칙한 기름과 먼지.",
+      "record_topics": "배관 연결, 점검 일정, 설비 이상, 상부 정비 통로",
+      "placement_area_candidates": "정비대·관제석·메자닌의 안전한 작업 위치",
+      "exact_placement_status": "미배치 / 좌표·수량은 실제 접근·감시 동선과 대조 후 결정"
+    },
+    {
+      "id": "B1",
+      "title": "실험층",
+      "items": [
+        "Pistol",
+        "DocumentFolder",
+        "UsbDrive",
+        "DataShard",
+        "ResearchNotebook",
+        "VoiceRecorder",
+        "ExperimentCartridge",
+        "HandAnalyzer",
+        "SampleCase"
+      ],
+      "representative": "DataShard",
+      "art_direction": "연구 기록과 실험 장비 중심. 개인 작업물과 연구소 전용 데이터 매체의 차이.",
+      "record_topics": "실험 원본, 연구원 음성 기록, S-03 판정 근거, 책임자 지시",
+      "placement_area_candidates": "연구원 작업실·기록실·실험 준비대",
+      "exact_placement_status": "미배치 / 좌표·수량은 실제 접근·감시 동선과 대조 후 결정"
+    },
+    {
+      "id": "1F",
+      "title": "폐공장 위장층",
+      "items": [
+        "Pistol",
+        "DocumentFolder",
+        "UsbDrive",
+        "Flashlight",
+        "Radio",
+        "Helmet",
+        "PackingTape",
+        "MetalPart",
+        "Key"
+      ],
+      "representative": "DocumentFolder",
+      "art_direction": "낡은 공장 외형과 최근 사용 흔적. 먼지 속 손자국·하역 마모·운송 표식.",
+      "record_topics": "직원 출입, 물자 반출, 위장 운송, 검문·하역 인계",
+      "placement_area_candidates": "검문대·옛 사무동·하역 작업대",
+      "exact_placement_status": "미배치 / 좌표·수량은 실제 접근·감시 동선과 대조 후 결정"
+    }
+  ],
+  "items": [
+    {
+      "id": "Pistol",
+      "name": "총",
+      "floors": [
+        "B5",
+        "B4",
+        "B3",
+        "B2",
+        "B1",
+        "1F"
+      ],
+      "use": "사격",
+      "art_notes": "슬라이드·방아쇠울·그립·총구·탄창 이음새. 총별 남은 탄약 상태를 유지.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": []
+    },
+    {
+      "id": "MealTray",
+      "name": "식판",
+      "floors": [
+        "B5"
+      ],
+      "use": "운반",
+      "art_notes": "구획별 오목한 용기와 말린 테두리. 가장자리 찍힘·세척 얼룩. 배식구 통과 치수 확인.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 기존 자산 재사용·분리 후보 / 휴대 에셋 검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": [
+        {
+          "path": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/MealTraySet.fbx",
+          "note": "기존 식판 세트. 독립 식판 분리·치수·피벗·충돌 확인 필요"
+        }
+      ]
+    },
+    {
+      "id": "Spoon",
+      "name": "숟가락",
+      "floors": [
+        "B5"
+      ],
+      "use": "소품",
+      "art_notes": "오목한 스푼 볼·얇은 목·둥근 손잡이. 금속 긁힘과 두께 표현.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": []
+    },
+    {
+      "id": "MetalCup",
+      "name": "금속컵",
+      "floors": [
+        "B5"
+      ],
+      "use": "소품",
+      "art_notes": "빈 내부·말린 입구·손잡이 접합. 입구와 바닥 사용감.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": []
+    },
+    {
+      "id": "WaterBottle",
+      "name": "물병",
+      "floors": [
+        "B5"
+      ],
+      "use": "소품",
+      "art_notes": "뚜껑·목·몸통·바닥 분리감. 세로 눌림과 부분 라벨.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": []
+    },
+    {
+      "id": "Pen",
+      "name": "펜",
+      "floors": [
+        "B5",
+        "B4"
+      ],
+      "use": "소품",
+      "art_notes": "펜촉·클립·캡 이음새. 작은 표면 긁힘과 기관명.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": []
+    },
+    {
+      "id": "DocumentFolder",
+      "name": "서류철",
+      "floors": [
+        "B5",
+        "B3",
+        "B2",
+        "B1",
+        "1F"
+      ],
+      "use": "직접 읽기",
+      "art_notes": "앞뒤 표지·종이 두께·고정 클립. 층별 제목과 실제 읽을 본문.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": []
+    },
+    {
+      "id": "UsbDrive",
+      "name": "USB",
+      "floors": [
+        "B5",
+        "B4",
+        "B3",
+        "B2",
+        "B1",
+        "1F"
+      ],
+      "use": "업무 단말 열람",
+      "art_notes": "금속 커넥터와 플라스틱 몸체 구분. 층·담당자·자료 식별 라벨.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": []
+    },
+    {
+      "id": "DataShard",
+      "name": "데이터 샤드",
+      "floors": [
+        "B5",
+        "B4",
+        "B3",
+        "B1"
+      ],
+      "use": "연구 단말 열람",
+      "art_notes": "연구소 전용 기록 모듈. 보호 케이스·노출 접점·키 홈·개체 및 시험 번호.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": []
+    },
+    {
+      "id": "Pager",
+      "name": "휴대 호출기",
+      "floors": [
+        "B5"
+      ],
+      "use": "추가 기능 미정",
+      "art_notes": "작은 화면·클립·호출 버튼·충전 접점. 생활 관리용 표시.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": []
+    },
+    {
+      "id": "Clipboard",
+      "name": "클립보드",
+      "floors": [
+        "B4"
+      ],
+      "use": "직접 읽기",
+      "art_notes": "금속 집게·보드 두께·낱장 가장자리. 측정표·회차·관찰 메모.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 기존 자산 재사용·분리 후보 / 휴대 에셋 검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": [
+        {
+          "path": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B4/BF_RecordRack.fbx",
+          "note": "기록 설비 모델. 문서 외형 참고이며 휴대 클립보드 완성 모델로 간주하지 않음"
+        }
+      ]
+    },
+    {
+      "id": "Stopwatch",
+      "name": "스톱워치",
+      "floors": [
+        "B4"
+      ],
+      "use": "추가 기능 미정",
+      "art_notes": "위쪽 버튼·화면·고리. 측정 회차 표식과 손이 닿는 부분의 마모.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": []
+    },
+    {
+      "id": "HandMeter",
+      "name": "휴대 측정기",
+      "floors": [
+        "B4"
+      ],
+      "use": "추가 기능 미정",
+      "art_notes": "화면·조작 버튼·센서 포트·러버 그립. 거치대에서 분리 가능한 형태.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": []
+    },
+    {
+      "id": "TestRemote",
+      "name": "측정 장비 리모컨",
+      "floors": [
+        "B4"
+      ],
+      "use": "추가 기능 미정",
+      "art_notes": "시험 시작·중지 표식과 상태등. 장비 번호 및 낙하 방지 고리.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": []
+    },
+    {
+      "id": "ElectrodeCase",
+      "name": "전극 보관 케이스",
+      "floors": [
+        "B4"
+      ],
+      "use": "소품",
+      "art_notes": "뚜껑·힌지·잠금 탭·완충재. 내부 전극·짧게 정리한 케이블.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 기존 자산 재사용·분리 후보 / 휴대 에셋 검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": [
+        {
+          "path": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B4/BX_ElectrodePrepBench.fbx",
+          "note": "작업대 통합 모델. 전극 보관 부품 분리 후보이며 독립 물건 존재는 추가 확인 필요"
+        }
+      ]
+    },
+    {
+      "id": "Penlight",
+      "name": "펜라이트",
+      "floors": [
+        "B4"
+      ],
+      "use": "조명 켜기 끄기",
+      "art_notes": "작은 렌즈·금속 몸통·클립·버튼. 가까운 관찰용 형태.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": []
+    },
+    {
+      "id": "Flashlight",
+      "name": "손전등",
+      "floors": [
+        "B3",
+        "1F"
+      ],
+      "use": "조명 켜기 끄기",
+      "art_notes": "렌즈·반사경·그립·스위치·배터리 덮개. 낙하 흔적과 지문.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": []
+    },
+    {
+      "id": "SampleCanister",
+      "name": "밀폐 시료통",
+      "floors": [
+        "B3"
+      ],
+      "use": "소품",
+      "art_notes": "뚜껑·패킹·봉인·시료 코드. 용기 내부와 재질 두께.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 기존 자산 재사용·분리 후보 / 휴대 에셋 검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": [
+        {
+          "path": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/Common/P05_SampleCanister.fbx",
+          "note": "기존 시료 용기. 근접 외형·손 크기·충돌 재검수 필요"
+        }
+      ]
+    },
+    {
+      "id": "SampleCarrier",
+      "name": "소형 시료 운반 케이스",
+      "floors": [
+        "B3"
+      ],
+      "use": "소품",
+      "art_notes": "손잡이·잠금쇠·힌지·내부 구획. 손으로 운반 가능한 크기 대조.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 기존 자산 재사용·분리 후보 / 휴대 에셋 검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": [
+        {
+          "path": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B3/B3_SealedSampleCarrier.fbx",
+          "note": "기존 운반 케이스. 휴대 크기와 내부 구획 검토 필요"
+        }
+      ]
+    },
+    {
+      "id": "Thermometer",
+      "name": "휴대 온도계",
+      "floors": [
+        "B3"
+      ],
+      "use": "추가 기능 미정",
+      "art_notes": "센서부·화면·버튼·손잡이. 보관 설비 점검 표식.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": []
+    },
+    {
+      "id": "Labeler",
+      "name": "라벨러",
+      "floors": [
+        "B3"
+      ],
+      "use": "추가 기능 미정",
+      "art_notes": "라벨 배출구·용지 덮개·화면·키. 시료 코드 라벨 조각.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": []
+    },
+    {
+      "id": "SealTape",
+      "name": "봉인 테이프",
+      "floors": [
+        "B3"
+      ],
+      "use": "소품",
+      "art_notes": "심과 감긴 층·뜯긴 끝. 봉인 인쇄와 사용 흔적.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": []
+    },
+    {
+      "id": "Wrench",
+      "name": "스패너",
+      "floors": [
+        "B2"
+      ],
+      "use": "소품",
+      "art_notes": "열린 턱·금속 두께·각인. 모서리 마모와 불규칙한 기름 자국.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": []
+    },
+    {
+      "id": "Screwdriver",
+      "name": "드라이버",
+      "floors": [
+        "B2"
+      ],
+      "use": "소품",
+      "art_notes": "금속 날·축·손잡이 고무 구분. 손잡이 홈과 끝단 마모.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": []
+    },
+    {
+      "id": "Bolt",
+      "name": "볼트",
+      "floors": [
+        "B2"
+      ],
+      "use": "소품",
+      "art_notes": "육각 머리·나사산·끝단. 투척 물건 하나로 분리하며 볼트 묶음으로 합산하지 않음.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": []
+    },
+    {
+      "id": "Nut",
+      "name": "너트",
+      "floors": [
+        "B2"
+      ],
+      "use": "소품",
+      "art_notes": "육각 외형·안쪽 나사산·면취. 개별 선택이 가능한 가독성 확보.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": []
+    },
+    {
+      "id": "VoltageMeter",
+      "name": "휴대 전압 측정기",
+      "floors": [
+        "B2"
+      ],
+      "use": "추가 기능 미정",
+      "art_notes": "선택 다이얼·화면·단자·프로브 수납. 케이블은 몸체에 정리.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": []
+    },
+    {
+      "id": "WorkFlashlight",
+      "name": "정비용 손전등",
+      "floors": [
+        "B2"
+      ],
+      "use": "조명 켜기 끄기",
+      "art_notes": "보호 프레임·렌즈·그립·걸이. 공업용 도장·노출 금속·오염 구분.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": []
+    },
+    {
+      "id": "Radio",
+      "name": "무전기",
+      "floors": [
+        "B2",
+        "1F"
+      ],
+      "use": "추가 기능 미정",
+      "art_notes": "안테나·볼륨 노브·송신 버튼·벨트 클립. 채널 및 소속 표식.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": []
+    },
+    {
+      "id": "ResearchNotebook",
+      "name": "연구 수첩",
+      "floors": [
+        "B1"
+      ],
+      "use": "직접 읽기",
+      "art_notes": "표지·책등·페이지·책갈피. 일자·실험 번호·손글씨 관찰 기록.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": []
+    },
+    {
+      "id": "VoiceRecorder",
+      "name": "녹음기",
+      "floors": [
+        "B1"
+      ],
+      "use": "음성 기록 재생 계획",
+      "art_notes": "마이크 망·재생 버튼·작은 화면·녹음 번호. 실제 음성과 재생 기능은 후속.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": []
+    },
+    {
+      "id": "ExperimentCartridge",
+      "name": "실험용 카트리지",
+      "floors": [
+        "B1"
+      ],
+      "use": "추가 기능 미정",
+      "art_notes": "장비 삽입 레일·접점·고정 탭. 시리얼과 실험 식별 표기.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": []
+    },
+    {
+      "id": "HandAnalyzer",
+      "name": "휴대 분석기",
+      "floors": [
+        "B1"
+      ],
+      "use": "추가 기능 미정",
+      "art_notes": "측정부·화면·시료 삽입부·손잡이. B4 측정기와 조작면 구분.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": []
+    },
+    {
+      "id": "SampleCase",
+      "name": "소형 샘플 케이스",
+      "floors": [
+        "B1"
+      ],
+      "use": "소품",
+      "art_notes": "뚜껑·잠금부·완충재와 개체 라벨. B3 운반 케이스와 크기·용도 구분.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": []
+    },
+    {
+      "id": "Helmet",
+      "name": "안전모",
+      "floors": [
+        "1F"
+      ],
+      "use": "소품",
+      "art_notes": "외피·안쪽 서스펜션·턱끈 고정부. 공장 작업 흔적.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": []
+    },
+    {
+      "id": "PackingTape",
+      "name": "포장 테이프",
+      "floors": [
+        "1F"
+      ],
+      "use": "소품",
+      "art_notes": "테이프 심·감긴 층·찢긴 끝. B3 봉인 테이프와 인쇄 구분.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": []
+    },
+    {
+      "id": "MetalPart",
+      "name": "작은 금속 부품",
+      "floors": [
+        "1F"
+      ],
+      "use": "소품",
+      "art_notes": "하역 설비에서 나온 브래킷 형상. 체결 구멍·절단면·녹과 마찰 흔적.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": []
+    },
+    {
+      "id": "Key",
+      "name": "열쇠",
+      "floors": [
+        "1F"
+      ],
+      "use": "추가 기능 미정",
+      "art_notes": "키 헤드·날·식별 태그. 실제 맞는 잠금장치는 상세 설계하며 코어 통행을 강제하지 않음.",
+      "pickup": true,
+      "throwable": true,
+      "stackable": false,
+      "quantity_per_instance": 1,
+      "carry_cost": 1,
+      "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
+      "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
+      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "runtime_status": "미구현",
+      "asset_candidates": []
+    }
+  ],
+  "opening_sequence": {
+    "status": "사용자 확정 / 미구현",
+    "camera": "Cinemachine",
+    "player_control": false,
+    "action": "식판을 받는 척하다 밀쳐 배식 경비에게 실제 명중",
+    "swap_delay_after_hit_seconds": 3,
+    "after": "포드 밖 착지와 연출 종료 후 조작 복귀. 식판 재획득은 선택이며 자동 지급하지 않음."
+  },
+  "revision_history": [
+    {
+      "version": "V0.02",
+      "date": "2026-11-10",
+      "author": "송예찬",
+      "change": "소지·진행 지속 상태와 발각/경보 전달, 자율 준비·실패·상행만, 첫 식판 컷씬 반영. 기존 38종·58항목과 제작 상태 보존."
+    },
+    {
+      "version": "V0.03",
+      "date": "2026-11-10",
+      "author": "송예찬",
+      "change": "총별 탄약 한도와 미정 수치 구분, 사격/제압/도구 필요 구간과 유효 대상 상세 검토 참조. 항목·제작 상태 보존."
+    },
+    {
+      "version": "V0.04",
+      "date": "2026-11-10",
+      "author": "송예찬",
+      "change": "갤러리·열람 중 시간 정지·연속 명중 예약·속도 유지·5개 소지 시 획득 거절 반영. 기존 아이템/배치 목록 보존."
+    }
+  ],
+  "detail_spec": "../잠입_상호작용_상세설계.md"
+}

@@ -1,0 +1,244 @@
+{
+  "version": "V0.01",
+  "author": "송예찬",
+  "date": "2026-11-10",
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B2_Circular.unity",
+  "source": "SourceAssets/B2_OperationsRebuild",
+  "reuse": "기존 VARCO/Blender 장비의 재질·LOD·GUID를 유지하여 186배치. 신규 VARCO 생성 없음.",
+  "manufactured": "Blender: 부분 데크4·공정 연결12·모터 정비대 변형1(6배치), 베벨·LOD·별도 보행 충돌",
+  "models": {
+    "BO_C02_OperationsDeck": {
+      "triangles": 159404,
+      "parts": 757,
+      "beveled_parts": 757,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B2\\BO_C02_OperationsDeck.fbx",
+      "category": "Environment"
+    },
+    "BO_C02_OperationsDeck_LOD1": {
+      "triangles": 60572,
+      "category": "Environment",
+      "distance_only": true
+    },
+    "BO_C02_OperationsDeck_Collision": {
+      "triangles": 544,
+      "parts": 1,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B2\\BO_C02_OperationsDeck_Collision.fbx",
+      "category": "Environment"
+    },
+    "BO_E02_OperationsDeck": {
+      "triangles": 87812,
+      "parts": 422,
+      "beveled_parts": 422,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B2\\BO_E02_OperationsDeck.fbx",
+      "category": "Environment"
+    },
+    "BO_E02_OperationsDeck_LOD1": {
+      "triangles": 33368,
+      "category": "Environment",
+      "distance_only": true
+    },
+    "BO_E02_OperationsDeck_Collision": {
+      "triangles": 348,
+      "parts": 1,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B2\\BO_E02_OperationsDeck_Collision.fbx",
+      "category": "Environment"
+    },
+    "BO_W02_OperationsDeck": {
+      "triangles": 89636,
+      "parts": 430,
+      "beveled_parts": 430,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B2\\BO_W02_OperationsDeck.fbx",
+      "category": "Environment"
+    },
+    "BO_W02_OperationsDeck_LOD1": {
+      "triangles": 34060,
+      "category": "Environment",
+      "distance_only": true
+    },
+    "BO_W02_OperationsDeck_Collision": {
+      "triangles": 324,
+      "parts": 1,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B2\\BO_W02_OperationsDeck_Collision.fbx",
+      "category": "Environment"
+    },
+    "BO_E01_OperationsDeck": {
+      "triangles": 143756,
+      "parts": 696,
+      "beveled_parts": 696,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B2\\BO_E01_OperationsDeck.fbx",
+      "category": "Environment"
+    },
+    "BO_E01_OperationsDeck_LOD1": {
+      "triangles": 54626,
+      "category": "Environment",
+      "distance_only": true
+    },
+    "BO_E01_OperationsDeck_Collision": {
+      "triangles": 688,
+      "parts": 1,
+      "beveled_parts": 0,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B2\\BO_E01_OperationsDeck_Collision.fbx",
+      "category": "Environment"
+    },
+    "BO_C01_OperationsServices": {
+      "triangles": 39016,
+      "parts": 186,
+      "beveled_parts": 178,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B2\\BO_C01_OperationsServices.fbx",
+      "category": "Environment"
+    },
+    "BO_C01_OperationsServices_LOD1": {
+      "triangles": 14826,
+      "category": "Environment",
+      "distance_only": true
+    },
+    "BO_C02_OperationsServices": {
+      "triangles": 85456,
+      "parts": 402,
+      "beveled_parts": 385,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B2\\BO_C02_OperationsServices.fbx",
+      "category": "Environment"
+    },
+    "BO_C02_OperationsServices_LOD1": {
+      "triangles": 32472,
+      "category": "Environment",
+      "distance_only": true
+    },
+    "BO_C03_OperationsServices": {
+      "triangles": 10036,
+      "parts": 59,
+      "beveled_parts": 47,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B2\\BO_C03_OperationsServices.fbx",
+      "category": "Environment"
+    },
+    "BO_C03_OperationsServices_LOD1": {
+      "triangles": 3812,
+      "category": "Environment",
+      "distance_only": true
+    },
+    "BO_C04_OperationsServices": {
+      "triangles": 6192,
+      "parts": 36,
+      "beveled_parts": 27,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B2\\BO_C04_OperationsServices.fbx",
+      "category": "Environment"
+    },
+    "BO_C04_OperationsServices_LOD1": {
+      "triangles": 2352,
+      "category": "Environment",
+      "distance_only": true
+    },
+    "BO_W01_OperationsServices": {
+      "triangles": 13028,
+      "parts": 75,
+      "beveled_parts": 62,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B2\\BO_W01_OperationsServices.fbx",
+      "category": "Environment"
+    },
+    "BO_W01_OperationsServices_LOD1": {
+      "triangles": 4950,
+      "category": "Environment",
+      "distance_only": true
+    },
+    "BO_W02_OperationsServices": {
+      "triangles": 26336,
+      "parts": 124,
+      "beveled_parts": 115,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B2\\BO_W02_OperationsServices.fbx",
+      "category": "Environment"
+    },
+    "BO_W02_OperationsServices_LOD1": {
+      "triangles": 10006,
+      "category": "Environment",
+      "distance_only": true
+    },
+    "BO_W03_OperationsServices": {
+      "triangles": 2632,
+      "parts": 14,
+      "beveled_parts": 14,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B2\\BO_W03_OperationsServices.fbx",
+      "category": "Environment"
+    },
+    "BO_W03_OperationsServices_LOD1": {
+      "triangles": 1000,
+      "category": "Environment",
+      "distance_only": true
+    },
+    "BO_E01_OperationsServices": {
+      "triangles": 35632,
+      "parts": 168,
+      "beveled_parts": 157,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B2\\BO_E01_OperationsServices.fbx",
+      "category": "Environment"
+    },
+    "BO_E01_OperationsServices_LOD1": {
+      "triangles": 13540,
+      "category": "Environment",
+      "distance_only": true
+    },
+    "BO_E02_OperationsServices": {
+      "triangles": 14236,
+      "parts": 73,
+      "beveled_parts": 69,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B2\\BO_E02_OperationsServices.fbx",
+      "category": "Environment"
+    },
+    "BO_E02_OperationsServices_LOD1": {
+      "triangles": 5408,
+      "category": "Environment",
+      "distance_only": true
+    },
+    "BO_E03_OperationsServices": {
+      "triangles": 40708,
+      "parts": 195,
+      "beveled_parts": 187,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B2\\BO_E03_OperationsServices.fbx",
+      "category": "Environment"
+    },
+    "BO_E03_OperationsServices_LOD1": {
+      "triangles": 15468,
+      "category": "Environment",
+      "distance_only": true
+    },
+    "BO_N01_OperationsServices": {
+      "triangles": 24252,
+      "parts": 129,
+      "beveled_parts": 129,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B2\\BO_N01_OperationsServices.fbx",
+      "category": "Environment"
+    },
+    "BO_N01_OperationsServices_LOD1": {
+      "triangles": 9214,
+      "category": "Environment",
+      "distance_only": true
+    },
+    "BO_S01_OperationsServices": {
+      "triangles": 5472,
+      "parts": 32,
+      "beveled_parts": 25,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Environment\\B2\\BO_S01_OperationsServices.fbx",
+      "category": "Environment"
+    },
+    "BO_S01_OperationsServices_LOD1": {
+      "triangles": 2078,
+      "category": "Environment",
+      "distance_only": true
+    },
+    "BO_MotorServiceBench": {
+      "triangles": 11802,
+      "parts": 65,
+      "beveled_parts": 59,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Props\\B2\\BO_MotorServiceBench.fbx",
+      "category": "Props"
+    },
+    "BO_MotorServiceBench_LOD1": {
+      "triangles": 4720,
+      "category": "Props",
+      "distance_only": true
+    }
+  },
+  "as_built": "Docs/도면/Decision/원형공동/B2_운영동선_재설계/as_built_operations.json"
+}

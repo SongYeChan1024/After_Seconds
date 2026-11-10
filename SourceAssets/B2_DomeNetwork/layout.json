@@ -1,0 +1,3279 @@
+{
+  "version": "0.01",
+  "rooms": [
+    {
+      "id": "C01",
+      "name": "원심분리 공동",
+      "x": -18,
+      "v": 0,
+      "r": 11,
+      "kind": "cavern",
+      "zones": [
+        "주 작업 구역",
+        "벽면 장비·보관",
+        "터널 출입 여유"
+      ],
+      "doors": [
+        {
+          "id": "B2-T02",
+          "x": 10.196276692703105,
+          "z": -0.27557504574873254,
+          "angle": -1.5481576989779675
+        },
+        {
+          "id": "B2-T03",
+          "x": -6.940601213546234,
+          "z": 7.4744936145882521,
+          "angle": 132.87890360333856
+        },
+        {
+          "id": "B2-T05",
+          "x": 7.9163628011859082,
+          "z": -6.43204477596355,
+          "angle": -39.0938588862295
+        },
+        {
+          "id": "B2-T06",
+          "x": 2.2935669683273368,
+          "z": 9.9387901960851224,
+          "angle": 77.0053832080835
+        },
+        {
+          "id": "B2-T13",
+          "x": -9.6114766142154764,
+          "z": -3.414603533997604,
+          "angle": -160.44174846300257
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "name": "냉각·펌프 공동",
+      "x": 19,
+      "v": 1,
+      "r": 11,
+      "kind": "cavern",
+      "zones": [
+        "주 작업 구역",
+        "벽면 장비·보관",
+        "터널 출입 여유"
+      ],
+      "doors": [
+        {
+          "id": "B2-T01",
+          "x": 6.6599841451085169,
+          "z": 7.7255816083258821,
+          "angle": 49.23639479905885
+        },
+        {
+          "id": "B2-T02",
+          "x": -10.196276692703105,
+          "z": 0.27557504574873248,
+          "angle": 178.45184230102205
+        },
+        {
+          "id": "B2-T04",
+          "x": -2.0003845784094771,
+          "z": -10.001922892047384,
+          "angle": -101.30993247402021
+        },
+        {
+          "id": "B2-T09",
+          "x": -7.69163227804032,
+          "z": 6.6991635970028591,
+          "angle": 138.94518622903757
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "name": "배전 공동",
+      "x": -12,
+      "v": -26,
+      "r": 6,
+      "kind": "cavern",
+      "zones": [
+        "주 작업 구역",
+        "벽면 장비·보관",
+        "터널 출입 여유"
+      ],
+      "doors": [
+        {
+          "id": "B2-T06",
+          "x": -1.1692694348335433,
+          "z": -5.0668342176120227,
+          "angle": -102.9946167919165
+        },
+        {
+          "id": "B2-T07",
+          "x": 4.8864016280867242,
+          "z": 1.7785047452934784,
+          "angle": 20.000000000000011
+        },
+        {
+          "id": "B2-T09",
+          "x": 3.9212242986087915,
+          "z": -3.4152598729818493,
+          "angle": -41.054813770962426
+        }
+      ]
+    },
+    {
+      "id": "C04",
+      "name": "관제 공동",
+      "x": 14,
+      "v": 26,
+      "r": 7,
+      "kind": "cavern",
+      "zones": [
+        "주 작업 구역",
+        "벽면 장비·보관",
+        "터널 출입 여유"
+      ],
+      "doors": [
+        {
+          "id": "B2-T04",
+          "x": 1.2159200378567405,
+          "z": 6.0796001892837062,
+          "angle": 78.690067525979785
+        },
+        {
+          "id": "B2-T05",
+          "x": -4.8119068007208465,
+          "z": 3.9096742755856866,
+          "angle": 140.90614111377053
+        },
+        {
+          "id": "B2-T08",
+          "x": 6.1862679787109762,
+          "z": -0.41241786524739865,
+          "angle": -3.8140748342903561
+        }
+      ]
+    },
+    {
+      "id": "VA",
+      "name": "계단 A",
+      "x": -44,
+      "v": -28,
+      "r": 5,
+      "kind": "core",
+      "zones": [
+        "통행·출입",
+        "표지·설비 점검"
+      ],
+      "doors": [
+        {
+          "id": "B2-T03",
+          "x": 2.8578946173425663,
+          "z": -3.0777326648304566,
+          "angle": -47.121096396661464
+        },
+        {
+          "id": "B2-T10",
+          "x": -4.0955579943241318,
+          "z": 0.93080863507366729,
+          "angle": 167.19573393471325
+        },
+        {
+          "id": "B2-T18",
+          "x": 2.8380434397728536,
+          "z": 3.0960473888431146,
+          "angle": 47.48955292199917
+        }
+      ]
+    },
+    {
+      "id": "VB",
+      "name": "계단 B",
+      "x": 44,
+      "v": 28,
+      "r": 5,
+      "kind": "core",
+      "zones": [
+        "통행·출입",
+        "표지·설비 점검"
+      ],
+      "doors": [
+        {
+          "id": "B2-T08",
+          "x": -3.946709007300818,
+          "z": 1.436484601967809,
+          "angle": 160.00000000000003
+        },
+        {
+          "id": "B2-T17",
+          "x": 4.1866241698517257,
+          "z": -0.33492993358813905,
+          "angle": -4.5739212599008745
+        },
+        {
+          "id": "B2-T20",
+          "x": -2.6997079606834689,
+          "z": -3.2173866610997095,
+          "angle": -130.00000000000003
+        }
+      ]
+    },
+    {
+      "id": "VL",
+      "name": "화물 승강기",
+      "x": 44,
+      "v": -28,
+      "r": 5,
+      "kind": "core",
+      "zones": [
+        "통행·출입",
+        "표지·설비 점검"
+      ],
+      "doors": [
+        {
+          "id": "B2-T01",
+          "x": -1.4364846019678055,
+          "z": -3.9467090073008144,
+          "angle": -109.99999999999996
+        },
+        {
+          "id": "B2-T07",
+          "x": -4.2000000000000028,
+          "z": 0.0,
+          "angle": 180.0
+        },
+        {
+          "id": "B2-T14",
+          "x": 4.0955579943241318,
+          "z": 0.93080863507366729,
+          "angle": 12.804266065286765
+        },
+        {
+          "id": "B2-T19",
+          "x": -1.4364846019678055,
+          "z": 3.9467090073008144,
+          "angle": 109.99999999999996
+        }
+      ]
+    },
+    {
+      "id": "W01",
+      "name": "주 전력 공동",
+      "x": -88,
+      "v": -38,
+      "r": 8,
+      "kind": "cavern",
+      "wing": true,
+      "items": [
+        54,
+        54,
+        17,
+        17
+      ],
+      "zones": [
+        "주 작업 구역",
+        "벽면 장비·보관",
+        "터널 출입 여유"
+      ],
+      "doors": [
+        {
+          "id": "B2-T10",
+          "x": 7.0209565616985117,
+          "z": -1.5956719458405715,
+          "angle": -12.804266065286756
+        },
+        {
+          "id": "B2-T11",
+          "x": -5.5311932131011048,
+          "z": -4.609327677584254,
+          "angle": -140.19442890773482
+        }
+      ]
+    },
+    {
+      "id": "W02",
+      "name": "예비 전력 공동",
+      "x": -124,
+      "v": -8,
+      "r": 9,
+      "kind": "cavern",
+      "wing": true,
+      "items": [
+        54,
+        42,
+        17
+      ],
+      "zones": [
+        "주 작업 구역",
+        "벽면 장비·보관",
+        "터널 출입 여유"
+      ],
+      "doors": [
+        {
+          "id": "B2-T11",
+          "x": 6.2994144926984745,
+          "z": 5.2495120772487347,
+          "angle": 39.805571092265225
+        },
+        {
+          "id": "B2-T12",
+          "x": 5.3364892623389437,
+          "z": -6.2259041393954311,
+          "angle": -49.398705354995521
+        }
+      ]
+    },
+    {
+      "id": "W03",
+      "name": "정비·부품 창고",
+      "x": -94,
+      "v": 27,
+      "r": 8,
+      "kind": "cavern",
+      "wing": true,
+      "items": [
+        29,
+        29,
+        13,
+        24
+      ],
+      "zones": [
+        "주 작업 구역",
+        "벽면 장비·보관",
+        "터널 출입 여유"
+      ],
+      "doors": [
+        {
+          "id": "B2-T12",
+          "x": -4.68569788888297,
+          "z": 5.4666475370301342,
+          "angle": 130.60129464500446
+        },
+        {
+          "id": "B2-T13",
+          "x": 6.7845717276815094,
+          "z": 2.4103083769394864,
+          "angle": 19.55825153699746
+        },
+        {
+          "id": "B2-T21",
+          "x": 6.3846215521759859,
+          "z": -3.3281537878364205,
+          "angle": -27.531976748722307
+        }
+      ]
+    },
+    {
+      "id": "E01",
+      "name": "급수·펌프 공동",
+      "x": 88,
+      "v": -38,
+      "r": 8,
+      "kind": "cavern",
+      "wing": true,
+      "items": [
+        19,
+        19,
+        20,
+        20
+      ],
+      "zones": [
+        "주 작업 구역",
+        "벽면 장비·보관",
+        "터널 출입 여유"
+      ],
+      "doors": [
+        {
+          "id": "B2-T14",
+          "x": -7.0209565616985117,
+          "z": -1.5956719458405715,
+          "angle": -167.19573393471325
+        },
+        {
+          "id": "B2-T15",
+          "x": 5.3075098094453352,
+          "z": -4.8652173253248918,
+          "angle": -42.510447078000851
+        }
+      ]
+    },
+    {
+      "id": "E02",
+      "name": "공조 필터 공동",
+      "x": 124,
+      "v": -5,
+      "r": 9,
+      "kind": "cavern",
+      "wing": true,
+      "items": [
+        53,
+        53,
+        18
+      ],
+      "zones": [
+        "주 작업 구역",
+        "벽면 장비·보관",
+        "터널 출입 여유"
+      ],
+      "doors": [
+        {
+          "id": "B2-T15",
+          "x": -6.044663949646079,
+          "z": 5.5409419538422391,
+          "angle": 137.48955292199918
+        },
+        {
+          "id": "B2-T16",
+          "x": -5.1643760590539927,
+          "z": -6.3693971394999309,
+          "angle": -129.03551289874684
+        }
+      ]
+    },
+    {
+      "id": "E03",
+      "name": "폐수·폐기물 설비",
+      "x": 94,
+      "v": 32,
+      "r": 8,
+      "kind": "cavern",
+      "wing": true,
+      "items": [
+        20,
+        19,
+        12,
+        17
+      ],
+      "zones": [
+        "주 작업 구역",
+        "벽면 장비·보관",
+        "터널 출입 여유"
+      ],
+      "doors": [
+        {
+          "id": "B2-T16",
+          "x": 4.5345741006327813,
+          "z": 5.5926413907804289,
+          "angle": 50.964487101253113
+        },
+        {
+          "id": "B2-T17",
+          "x": -7.1770700054600951,
+          "z": 0.57416560043680676,
+          "angle": 175.42607874009917
+        }
+      ]
+    },
+    {
+      "id": "N01",
+      "name": "주 공조·환기 공동",
+      "x": 0,
+      "v": -76,
+      "r": 10,
+      "kind": "cavern",
+      "wing": true,
+      "items": [
+        53,
+        53,
+        18,
+        17
+      ],
+      "zones": [
+        "주 작업 구역",
+        "벽면 장비·보관",
+        "터널 출입 여유"
+      ],
+      "doors": [
+        {
+          "id": "B2-T18",
+          "x": -6.2166665823595855,
+          "z": -6.7818180898468228,
+          "angle": -132.51044707800082
+        },
+        {
+          "id": "B2-T19",
+          "x": 6.2166665823595846,
+          "z": -6.7818180898468228,
+          "angle": -47.48955292199917
+        }
+      ]
+    },
+    {
+      "id": "S01",
+      "name": "설비 감시·정비",
+      "x": 0,
+      "v": 76,
+      "r": 10,
+      "kind": "cavern",
+      "wing": true,
+      "items": [
+        35,
+        16,
+        29,
+        14
+      ],
+      "zones": [
+        "주 작업 구역",
+        "벽면 장비·보관",
+        "터널 출입 여유"
+      ],
+      "doors": [
+        {
+          "id": "B2-T20",
+          "x": 6.2166665823595846,
+          "z": 6.7818180898468228,
+          "angle": 47.48955292199917
+        },
+        {
+          "id": "B2-T21",
+          "x": -8.158127538891538,
+          "z": 4.252640951124306,
+          "angle": 152.46802325127774
+        }
+      ]
+    }
+  ],
+  "ends": {
+    "T01": [
+      "C02"
+    ],
+    "T11": [
+      "W02"
+    ],
+    "T12": [
+      "W02"
+    ],
+    "T14": [
+      "E01"
+    ],
+    "T15": [
+      "E01",
+      "E02"
+    ],
+    "T16": [
+      "E02"
+    ]
+  },
+  "decks": {
+    "E01": 4.4,
+    "E02": 4.8,
+    "W02": 4.8
+  },
+  "tunnels": [
+    {
+      "id": "T01",
+      "floor": "B2",
+      "a": "VL",
+      "b": "C02",
+      "p": [
+        42.563515398032195,
+        -24.053290992699186
+      ],
+      "q": [
+        25.659984145108517,
+        -6.7255816083258821
+      ],
+      "w": 4.2,
+      "h": 3.85,
+      "length": 24.453585871319486,
+      "type": "터널",
+      "role": "동층 연결",
+      "state": "개방 가안",
+      "path": [
+        [
+          42.563515398032195,
+          -24.053290992699186
+        ],
+        [
+          42.358130030355376,
+          -23.526133665037342
+        ],
+        [
+          42.130306795379909,
+          -23.009616001781811
+        ],
+        [
+          41.880975929504217,
+          -22.503321606707143
+        ],
+        [
+          41.611067669126619,
+          -22.006834083587858
+        ],
+        [
+          41.321512250645512,
+          -21.51973703619851
+        ],
+        [
+          41.013239910459284,
+          -21.041614068313624
+        ],
+        [
+          40.687180884966317,
+          -20.572048783707753
+        ],
+        [
+          40.344265410564979,
+          -20.11062478615543
+        ],
+        [
+          39.985423723653646,
+          -19.656925679431186
+        ],
+        [
+          39.611586060630692,
+          -19.210535067309575
+        ],
+        [
+          39.223682657894514,
+          -18.771036553565121
+        ],
+        [
+          38.822643751843472,
+          -18.338013741972372
+        ],
+        [
+          38.409399578875941,
+          -17.911050236305865
+        ],
+        [
+          37.984880375390325,
+          -17.489729640340141
+        ],
+        [
+          37.550016377784978,
+          -17.073635557849741
+        ],
+        [
+          37.105737822458295,
+          -16.6623515926092
+        ],
+        [
+          36.65297494580863,
+          -16.255461348393052
+        ],
+        [
+          36.19265798423438,
+          -15.852548428975842
+        ],
+        [
+          35.725717174133912,
+          -15.453196438132107
+        ],
+        [
+          35.2530827519056,
+          -15.056988979636381
+        ],
+        [
+          34.775684953947845,
+          -14.663509657263212
+        ],
+        [
+          34.294454016659,
+          -14.272342074787135
+        ],
+        [
+          33.810320176437465,
+          -13.883069835982688
+        ],
+        [
+          33.324213669681605,
+          -13.495276544624415
+        ],
+        [
+          32.837064732789791,
+          -13.108545804486848
+        ],
+        [
+          32.349803602160414,
+          -12.722461219344527
+        ],
+        [
+          31.863360514191839,
+          -12.336606392971994
+        ],
+        [
+          31.378665705282465,
+          -11.950564929143784
+        ],
+        [
+          30.896649411830651,
+          -11.563920431634443
+        ],
+        [
+          30.418241870234773,
+          -11.176256504218502
+        ],
+        [
+          29.944373316893223,
+          -10.787156750670501
+        ],
+        [
+          29.475973988204373,
+          -10.396204774764986
+        ],
+        [
+          29.013974120566598,
+          -10.002984180276487
+        ],
+        [
+          28.559303950378283,
+          -9.60707857097955
+        ],
+        [
+          28.112893714037796,
+          -9.2080715506487074
+        ],
+        [
+          27.675673647943519,
+          -8.8055467230585016
+        ],
+        [
+          27.248573988493828,
+          -8.3990876919834712
+        ],
+        [
+          26.832524972087107,
+          -7.9882780611981543
+        ],
+        [
+          26.428456835121729,
+          -7.5727014344770929
+        ],
+        [
+          26.037299813996071,
+          -7.1519414155948215
+        ],
+        [
+          25.659984145108517,
+          -6.7255816083258821
+        ]
+      ],
+      "routing": "Curved entry clearance",
+      "connectedA": false,
+      "connectedB": true
+    },
+    {
+      "id": "T11",
+      "floor": "B2",
+      "a": "W01",
+      "b": "W02",
+      "p": [
+        -93.5311932131011,
+        -33.390672322415746
+      ],
+      "q": [
+        -117.70058550730153,
+        -13.249512077248735
+      ],
+      "w": 4.2,
+      "h": 3.85,
+      "length": 31.461493798626531,
+      "type": "터널",
+      "role": "동층 연결",
+      "state": "개방 가안",
+      "path": [
+        [
+          -93.5311932131011,
+          -33.390672322415746
+        ],
+        [
+          -117.70058550730153,
+          -13.249512077248735
+        ]
+      ],
+      "connectedA": false,
+      "connectedB": true
+    },
+    {
+      "id": "T12",
+      "floor": "B2",
+      "a": "W02",
+      "b": "W03",
+      "p": [
+        -118.66351073766106,
+        -1.7740958606045689
+      ],
+      "q": [
+        -98.68569788888297,
+        21.533352462969866
+      ],
+      "w": 4.2,
+      "h": 3.85,
+      "length": 30.69772236976884,
+      "type": "터널",
+      "role": "동층 연결",
+      "state": "개방 가안",
+      "path": [
+        [
+          -118.66351073766106,
+          -1.7740958606045689
+        ],
+        [
+          -98.68569788888297,
+          21.533352462969866
+        ]
+      ],
+      "connectedA": true,
+      "connectedB": false
+    },
+    {
+      "id": "T14",
+      "floor": "B2",
+      "a": "VL",
+      "b": "E01",
+      "p": [
+        48.095557994324132,
+        -28.930808635073667
+      ],
+      "q": [
+        80.979043438301488,
+        -36.404328054159429
+      ],
+      "w": 4.2,
+      "h": 3.85,
+      "length": 33.72205456086791,
+      "type": "터널",
+      "role": "동층 연결",
+      "state": "개방 가안",
+      "path": [
+        [
+          48.095557994324132,
+          -28.930808635073667
+        ],
+        [
+          80.979043438301488,
+          -36.404328054159429
+        ]
+      ],
+      "connectedA": false,
+      "connectedB": true
+    },
+    {
+      "id": "T15",
+      "floor": "B2",
+      "a": "E01",
+      "b": "E02",
+      "p": [
+        93.307509809445335,
+        -33.134782674675108
+      ],
+      "q": [
+        117.95533605035392,
+        -10.540941953842239
+      ],
+      "w": 4.2,
+      "h": 3.85,
+      "length": 33.436460446749315,
+      "type": "터널",
+      "role": "동층 연결",
+      "state": "개방 가안",
+      "path": [
+        [
+          93.307509809445335,
+          -33.134782674675108
+        ],
+        [
+          117.95533605035392,
+          -10.540941953842239
+        ]
+      ],
+      "connectedA": true,
+      "connectedB": true
+    },
+    {
+      "id": "T16",
+      "floor": "B2",
+      "a": "E02",
+      "b": "E03",
+      "p": [
+        118.83562394094601,
+        1.3693971394999309
+      ],
+      "q": [
+        98.534574100632781,
+        26.407358609219571
+      ],
+      "w": 4.2,
+      "h": 3.85,
+      "length": 32.234019023725153,
+      "type": "터널",
+      "role": "동층 연결",
+      "state": "개방 가안",
+      "path": [
+        [
+          118.83562394094601,
+          1.3693971394999309
+        ],
+        [
+          98.534574100632781,
+          26.407358609219571
+        ]
+      ],
+      "connectedA": true,
+      "connectedB": false
+    }
+  ],
+  "placements": [
+    {
+      "model": "BN_SurgeReservoir",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_SurgeReservoir.fbx",
+      "size": [
+        1.8,
+        4.75,
+        1.8
+      ],
+      "center": [
+        0,
+        2.375,
+        0
+      ],
+      "fit": null,
+      "room": "E01",
+      "name": "B2_E01_Dense_001_SurgeReservoir",
+      "position": [
+        2.15,
+        0,
+        0
+      ],
+      "yaw": 0
+    },
+    {
+      "model": "BN_AirPlenum",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_AirPlenum.fbx",
+      "size": [
+        2.25,
+        4.85,
+        2.15
+      ],
+      "center": [
+        0,
+        2.425,
+        0
+      ],
+      "fit": null,
+      "room": "E02",
+      "name": "B2_E02_Dense_002_AirPlenum",
+      "position": [
+        2.15,
+        0,
+        0
+      ],
+      "yaw": 0
+    },
+    {
+      "model": "BN_DayTank",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_DayTank.fbx",
+      "size": [
+        2.25,
+        3.0,
+        1.65
+      ],
+      "center": [
+        0,
+        1.5,
+        0
+      ],
+      "fit": null,
+      "room": "W02",
+      "name": "B2_W02_Dense_003_DayTank",
+      "position": [
+        2.15,
+        0,
+        0
+      ],
+      "yaw": 0
+    },
+    {
+      "room": "C01",
+      "name": "B2_C01_Dense_004_PumpDriveCabinet",
+      "model": "BC_PumpDriveCabinet",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx",
+      "position": [
+        0.0,
+        0,
+        -3.38
+      ],
+      "yaw": 0,
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "model": "BN_ServiceManifold",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "fit": null,
+      "room": "C01",
+      "name": "B2_C01_Dense_005_ServiceManifold",
+      "position": [
+        2.9,
+        0,
+        1.91
+      ],
+      "yaw": -120
+    },
+    {
+      "room": "C01",
+      "name": "B2_C01_Dense_006_WaterFilterSkid",
+      "model": "BM_WaterFilterSkid",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_WaterFilterSkid.fbx",
+      "position": [
+        -4.0,
+        0,
+        1.05
+      ],
+      "yaw": 105,
+      "size": [
+        1.9,
+        2.72495866,
+        1.6279999
+      ],
+      "center": [
+        0.0,
+        1.36247933,
+        0.113999963
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "model": "BN_MotorSpares",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "fit": null,
+      "room": "C01",
+      "name": "B2_C01_Dense_007_MotorSpares",
+      "position": [
+        -2.55,
+        0,
+        -2.77
+      ],
+      "yaw": 45
+    },
+    {
+      "room": "C01",
+      "name": "B2_C01_Dense_008_ToolTrolley",
+      "model": "BC_ToolTrolley",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx",
+      "position": [
+        -1.16,
+        0,
+        3.6
+      ],
+      "yaw": 165,
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612E-08,
+        0.5715,
+        0.0180000216
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "room": "C01",
+      "name": "B2_C01_Dense_009_PumpDriveCabinet",
+      "model": "BC_PumpDriveCabinet",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx",
+      "position": [
+        2.02,
+        0,
+        -4.15
+      ],
+      "yaw": -30,
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "model": "BN_ServiceManifold",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "fit": null,
+      "room": "C01",
+      "name": "B2_C01_Dense_010_ServiceManifold",
+      "position": [
+        2.8,
+        0,
+        4.2
+      ],
+      "yaw": -150
+    },
+    {
+      "room": "C01",
+      "name": "B2_C01_Dense_011_WaterFilterSkid",
+      "model": "BM_WaterFilterSkid",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_WaterFilterSkid.fbx",
+      "position": [
+        -1.68,
+        0,
+        -5.45
+      ],
+      "yaw": 15,
+      "size": [
+        1.9,
+        2.72495866,
+        1.6279999
+      ],
+      "center": [
+        0.0,
+        1.36247933,
+        0.113999963
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "model": "BN_MotorSpares",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "fit": null,
+      "room": "C01",
+      "name": "B2_C01_Dense_012_MotorSpares",
+      "position": [
+        5.44,
+        0,
+        1.73
+      ],
+      "yaw": -105
+    },
+    {
+      "room": "C01",
+      "name": "B2_C01_Dense_013_ToolTrolley",
+      "model": "BC_ToolTrolley",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx",
+      "position": [
+        4.47,
+        0,
+        -1.61
+      ],
+      "yaw": -75,
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612E-08,
+        0.5715,
+        0.0180000216
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "room": "C01",
+      "name": "B2_C01_Dense_014_PumpDriveCabinet",
+      "model": "BC_PumpDriveCabinet",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx",
+      "position": [
+        -0.53,
+        0,
+        5.45
+      ],
+      "yaw": 180,
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "model": "BN_ServiceManifold",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "fit": null,
+      "room": "C01",
+      "name": "B2_C01_Dense_015_ServiceManifold",
+      "position": [
+        -4.66,
+        0,
+        -3.64
+      ],
+      "yaw": 45
+    },
+    {
+      "model": "BN_MotorSpares",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "fit": null,
+      "room": "C03",
+      "name": "B2_C03_Dense_016_MotorSpares",
+      "position": [
+        0.28,
+        0,
+        2.39
+      ],
+      "yaw": -180
+    },
+    {
+      "room": "C03",
+      "name": "B2_C03_Dense_017_ToolTrolley",
+      "model": "BC_ToolTrolley",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx",
+      "position": [
+        -2.4,
+        0,
+        -0.06
+      ],
+      "yaw": 90,
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612E-08,
+        0.5715,
+        0.0180000216
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "model": "BN_MotorSpares",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "fit": null,
+      "room": "C03",
+      "name": "B2_C03_Dense_018_MotorSpares",
+      "position": [
+        3.43,
+        0,
+        -0.68
+      ],
+      "yaw": -75
+    },
+    {
+      "room": "C03",
+      "name": "B2_C03_Dense_019_ToolTrolley",
+      "model": "BC_ToolTrolley",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx",
+      "position": [
+        -1.75,
+        0,
+        1.64
+      ],
+      "yaw": 135,
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612E-08,
+        0.5715,
+        0.0180000216
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "model": "BN_ServiceManifold",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "fit": null,
+      "room": "C04",
+      "name": "B2_C04_Dense_020_ServiceManifold",
+      "position": [
+        0.8,
+        0,
+        -2.26
+      ],
+      "yaw": -15
+    },
+    {
+      "model": "BN_MotorSpares",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "fit": null,
+      "room": "C04",
+      "name": "B2_C04_Dense_021_MotorSpares",
+      "position": [
+        -1.51,
+        0,
+        -1.88
+      ],
+      "yaw": 45
+    },
+    {
+      "room": "C04",
+      "name": "B2_C04_Dense_022_ToolTrolley",
+      "model": "BC_ToolTrolley",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx",
+      "position": [
+        2.01,
+        0,
+        1.36
+      ],
+      "yaw": -120,
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612E-08,
+        0.5715,
+        0.0180000216
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "model": "BN_ServiceManifold",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "fit": null,
+      "room": "C04",
+      "name": "B2_C04_Dense_023_ServiceManifold",
+      "position": [
+        -2.87,
+        0,
+        -0.01
+      ],
+      "yaw": 90
+    },
+    {
+      "room": "W01",
+      "name": "B2_W01_Dense_024_PowerTransformer",
+      "model": "BM_PowerTransformer",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_PowerTransformer.fbx",
+      "position": [
+        0.98,
+        0,
+        -2.9
+      ],
+      "yaw": -15,
+      "size": [
+        2.4,
+        2.82570767,
+        1.842
+      ],
+      "center": [
+        0.0,
+        1.41285384,
+        -0.0250000358
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "room": "W01",
+      "name": "B2_W01_Dense_025_PumpDriveCabinet",
+      "model": "BC_PumpDriveCabinet",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx",
+      "position": [
+        1.57,
+        0,
+        1.81
+      ],
+      "yaw": -135,
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "model": "BN_ServiceManifold",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "fit": null,
+      "room": "W01",
+      "name": "B2_W01_Dense_026_ServiceManifold",
+      "position": [
+        -2.22,
+        0,
+        0.9
+      ],
+      "yaw": 105
+    },
+    {
+      "model": "BN_MotorSpares",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "fit": null,
+      "room": "W01",
+      "name": "B2_W01_Dense_027_MotorSpares",
+      "position": [
+        -0.41,
+        0,
+        3.01
+      ],
+      "yaw": 165
+    },
+    {
+      "room": "W01",
+      "name": "B2_W01_Dense_028_PumpDriveCabinet",
+      "model": "BC_PumpDriveCabinet",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx",
+      "position": [
+        3.64,
+        0,
+        1.0
+      ],
+      "yaw": -105,
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "model": "BN_ServiceManifold",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "fit": null,
+      "room": "W01",
+      "name": "B2_W01_Dense_029_ServiceManifold",
+      "position": [
+        -3.93,
+        0,
+        -0.95
+      ],
+      "yaw": 75
+    },
+    {
+      "model": "BN_MotorSpares",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "fit": null,
+      "room": "W01",
+      "name": "B2_W01_Dense_030_MotorSpares",
+      "position": [
+        -1.85,
+        0,
+        -3.98
+      ],
+      "yaw": 30
+    },
+    {
+      "room": "W01",
+      "name": "B2_W01_Dense_031_PumpDriveCabinet",
+      "model": "BC_PumpDriveCabinet",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx",
+      "position": [
+        4.07,
+        0,
+        -2.96
+      ],
+      "yaw": -60,
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "model": "BN_ServiceManifold",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "fit": null,
+      "room": "W02",
+      "name": "B2_W02_Dense_032_ServiceManifold",
+      "position": [
+        0.18,
+        0,
+        2.42
+      ],
+      "yaw": -180
+    },
+    {
+      "model": "BN_MotorSpares",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "fit": null,
+      "room": "W02",
+      "name": "B2_W02_Dense_033_MotorSpares",
+      "position": [
+        -0.41,
+        0,
+        -2.45
+      ],
+      "yaw": 15
+    },
+    {
+      "room": "W02",
+      "name": "B2_W02_Dense_034_ToolTrolley",
+      "model": "BC_ToolTrolley",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx",
+      "position": [
+        -3.73,
+        0,
+        -0.33
+      ],
+      "yaw": 90,
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612E-08,
+        0.5715,
+        0.0180000216
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "model": "BN_ServiceManifold",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "fit": null,
+      "room": "W02",
+      "name": "B2_W02_Dense_035_ServiceManifold",
+      "position": [
+        1.1,
+        0,
+        -4.24
+      ],
+      "yaw": -15
+    },
+    {
+      "model": "BN_MotorSpares",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "fit": null,
+      "room": "W02",
+      "name": "B2_W02_Dense_036_MotorSpares",
+      "position": [
+        1.78,
+        0,
+        4.11
+      ],
+      "yaw": -150
+    },
+    {
+      "room": "W02",
+      "name": "B2_W02_Dense_037_ToolTrolley",
+      "model": "BC_ToolTrolley",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx",
+      "position": [
+        -3.76,
+        0,
+        1.94
+      ],
+      "yaw": 120,
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612E-08,
+        0.5715,
+        0.0180000216
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "model": "BN_ServiceManifold",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "fit": null,
+      "room": "W02",
+      "name": "B2_W02_Dense_038_ServiceManifold",
+      "position": [
+        4.52,
+        0,
+        -1.6
+      ],
+      "yaw": -75
+    },
+    {
+      "model": "BN_MotorSpares",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "fit": null,
+      "room": "W02",
+      "name": "B2_W02_Dense_039_MotorSpares",
+      "position": [
+        -4.06,
+        0,
+        -2.33
+      ],
+      "yaw": -60.0
+    },
+    {
+      "room": "W02",
+      "name": "B2_W02_Dense_040_ToolTrolley",
+      "model": "BC_ToolTrolley",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx",
+      "position": [
+        -0.56,
+        0,
+        4.4
+      ],
+      "yaw": 180,
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612E-08,
+        0.5715,
+        0.0180000216
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "model": "BN_ServiceManifold",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "fit": null,
+      "room": "W02",
+      "name": "B2_W02_Dense_041_ServiceManifold",
+      "position": [
+        -1.26,
+        0,
+        -4.69
+      ],
+      "yaw": 15
+    },
+    {
+      "model": "BN_MotorSpares",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "fit": null,
+      "room": "W02",
+      "name": "B2_W02_Dense_042_MotorSpares",
+      "position": [
+        4.6,
+        0,
+        1.51
+      ],
+      "yaw": -105
+    },
+    {
+      "room": "W02",
+      "name": "B2_W02_Dense_043_ToolTrolley",
+      "model": "BC_ToolTrolley",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx",
+      "position": [
+        3.73,
+        0,
+        5.12
+      ],
+      "yaw": -150,
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612E-08,
+        0.5715,
+        0.0180000216
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "room": "W03",
+      "name": "B2_W03_Dense_044_MechanicalSparesRack",
+      "model": "BM_MechanicalSparesRack",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_MechanicalSparesRack.fbx",
+      "position": [
+        -1.87,
+        0,
+        -1.71
+      ],
+      "yaw": 45,
+      "size": [
+        1.83999991,
+        2.33,
+        0.874500036
+      ],
+      "center": [
+        0.0,
+        1.165,
+        0.03475
+      ],
+      "meshCollider": false,
+      "role": "Storage",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "room": "W03",
+      "name": "B2_W03_Dense_045_MaintenanceBench",
+      "model": "BC_MaintenanceBench",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_MaintenanceBench.fbx",
+      "position": [
+        1.24,
+        0,
+        2.55
+      ],
+      "yaw": -150,
+      "size": [
+        1.9,
+        1.64,
+        0.9252498
+      ],
+      "center": [
+        0.0,
+        0.82,
+        -0.0138750821
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "model": "BN_MotorSpares",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "fit": null,
+      "room": "W03",
+      "name": "B2_W03_Dense_046_MotorSpares",
+      "position": [
+        0.7,
+        0,
+        -2.36
+      ],
+      "yaw": -15
+    },
+    {
+      "room": "W03",
+      "name": "B2_W03_Dense_047_ToolTrolley",
+      "model": "BC_ToolTrolley",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx",
+      "position": [
+        -2.67,
+        0,
+        0.78
+      ],
+      "yaw": 105,
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612E-08,
+        0.5715,
+        0.0180000216
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "model": "BN_MotorSpares",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "fit": null,
+      "room": "W03",
+      "name": "B2_W03_Dense_048_MotorSpares",
+      "position": [
+        -0.43,
+        0,
+        -4.35
+      ],
+      "yaw": 0
+    },
+    {
+      "room": "W03",
+      "name": "B2_W03_Dense_049_ToolTrolley",
+      "model": "BC_ToolTrolley",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx",
+      "position": [
+        3.98,
+        0,
+        -0.15
+      ],
+      "yaw": -90,
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612E-08,
+        0.5715,
+        0.0180000216
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "model": "BN_MotorSpares",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "fit": null,
+      "room": "W03",
+      "name": "B2_W03_Dense_050_MotorSpares",
+      "position": [
+        2.65,
+        0,
+        -3.57
+      ],
+      "yaw": -30
+    },
+    {
+      "room": "W03",
+      "name": "B2_W03_Dense_051_ToolTrolley",
+      "model": "BC_ToolTrolley",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx",
+      "position": [
+        -3.88,
+        0,
+        -0.63
+      ],
+      "yaw": 75,
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612E-08,
+        0.5715,
+        0.0180000216
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "room": "E01",
+      "name": "B2_E01_Dense_052_WaterFilterSkid",
+      "model": "BM_WaterFilterSkid",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_WaterFilterSkid.fbx",
+      "position": [
+        0.14,
+        0,
+        2.77
+      ],
+      "yaw": -180,
+      "size": [
+        1.9,
+        2.72495866,
+        1.6279999
+      ],
+      "center": [
+        0.0,
+        1.36247933,
+        0.113999963
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "model": "BN_ServiceManifold",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "fit": null,
+      "room": "E01",
+      "name": "B2_E01_Dense_053_ServiceManifold",
+      "position": [
+        -0.15,
+        0,
+        -2.43
+      ],
+      "yaw": 0
+    },
+    {
+      "model": "BN_MotorSpares",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "fit": null,
+      "room": "E01",
+      "name": "B2_E01_Dense_054_MotorSpares",
+      "position": [
+        -4.09,
+        0,
+        1.17
+      ],
+      "yaw": 105
+    },
+    {
+      "room": "E01",
+      "name": "B2_E01_Dense_055_ToolTrolley",
+      "model": "BC_ToolTrolley",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx",
+      "position": [
+        1.57,
+        0,
+        -3.83
+      ],
+      "yaw": -15,
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612E-08,
+        0.5715,
+        0.0180000216
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "model": "BN_ServiceManifold",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "fit": null,
+      "room": "E01",
+      "name": "B2_E01_Dense_056_ServiceManifold",
+      "position": [
+        4.44,
+        0,
+        -1.63
+      ],
+      "yaw": -75
+    },
+    {
+      "room": "E01",
+      "name": "B2_E01_Dense_057_ToolTrolley",
+      "model": "BC_ToolTrolley",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx",
+      "position": [
+        -0.95,
+        0,
+        -4.36
+      ],
+      "yaw": 15,
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612E-08,
+        0.5715,
+        0.0180000216
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "room": "E01",
+      "name": "B2_E01_Dense_058_ToolTrolley",
+      "model": "BC_ToolTrolley",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx",
+      "position": [
+        -3.75,
+        0,
+        -2.44
+      ],
+      "yaw": 180.0,
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612E-08,
+        0.5715,
+        0.0180000216
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "room": "E02",
+      "name": "B2_E02_Dense_059_AirFilterSkid",
+      "model": "BM_AirFilterSkid",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_AirFilterSkid.fbx",
+      "position": [
+        0.23,
+        0,
+        3.3
+      ],
+      "yaw": -180,
+      "size": [
+        2.6,
+        2.56,
+        1.371
+      ],
+      "center": [
+        0.0,
+        1.28,
+        0.0604999959
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "model": "BN_ServiceManifold",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "fit": null,
+      "room": "E02",
+      "name": "B2_E02_Dense_060_ServiceManifold",
+      "position": [
+        0.14,
+        0,
+        -2.59
+      ],
+      "yaw": 0
+    },
+    {
+      "model": "BN_MotorSpares",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "fit": null,
+      "room": "E02",
+      "name": "B2_E02_Dense_061_MotorSpares",
+      "position": [
+        -3.98,
+        0,
+        -0.24
+      ],
+      "yaw": 90
+    },
+    {
+      "room": "E02",
+      "name": "B2_E02_Dense_062_ToolTrolley",
+      "model": "BC_ToolTrolley",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx",
+      "position": [
+        2.46,
+        0,
+        -2.89
+      ],
+      "yaw": -45,
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612E-08,
+        0.5715,
+        0.0180000216
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "model": "BN_ServiceManifold",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "fit": null,
+      "room": "E02",
+      "name": "B2_E02_Dense_063_ServiceManifold",
+      "position": [
+        -0.96,
+        0,
+        -4.62
+      ],
+      "yaw": 15
+    },
+    {
+      "model": "BN_MotorSpares",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "fit": null,
+      "room": "E02",
+      "name": "B2_E02_Dense_064_MotorSpares",
+      "position": [
+        -4.38,
+        0,
+        -2.59
+      ],
+      "yaw": 60
+    },
+    {
+      "room": "E02",
+      "name": "B2_E02_Dense_065_ToolTrolley",
+      "model": "BC_ToolTrolley",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx",
+      "position": [
+        1.28,
+        0,
+        -4.3
+      ],
+      "yaw": -15,
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612E-08,
+        0.5715,
+        0.0180000216
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "model": "BN_ServiceManifold",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "fit": null,
+      "room": "E02",
+      "name": "B2_E02_Dense_066_ServiceManifold",
+      "position": [
+        -5.09,
+        0,
+        1.82
+      ],
+      "yaw": 105
+    },
+    {
+      "room": "E02",
+      "name": "B2_E02_Dense_067_ToolTrolley",
+      "model": "BC_ToolTrolley",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx",
+      "position": [
+        3.83,
+        0,
+        2.2
+      ],
+      "yaw": -120,
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612E-08,
+        0.5715,
+        0.0180000216
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "room": "E03",
+      "name": "B2_E03_Dense_068_SealedProcessTank",
+      "model": "BM_SealedProcessTank",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_SealedProcessTank.fbx",
+      "position": [
+        2.85,
+        0,
+        -0.82
+      ],
+      "yaw": -75,
+      "size": [
+        1.86,
+        2.81499982,
+        2.19
+      ],
+      "center": [
+        0.0,
+        1.40749991,
+        0.164999992
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "room": "E03",
+      "name": "B2_E03_Dense_069_WaterFilterSkid",
+      "model": "BM_WaterFilterSkid",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_WaterFilterSkid.fbx",
+      "position": [
+        -1.05,
+        0,
+        -2.57
+      ],
+      "yaw": 15,
+      "size": [
+        1.9,
+        2.72495866,
+        1.6279999
+      ],
+      "center": [
+        0.0,
+        1.36247933,
+        0.113999963
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "model": "BN_ServiceManifold",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "fit": null,
+      "room": "E03",
+      "name": "B2_E03_Dense_070_ServiceManifold",
+      "position": [
+        -1.46,
+        0,
+        1.91
+      ],
+      "yaw": 150
+    },
+    {
+      "model": "BN_MotorSpares",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "fit": null,
+      "room": "E03",
+      "name": "B2_E03_Dense_071_MotorSpares",
+      "position": [
+        0.44,
+        0,
+        3.34
+      ],
+      "yaw": -165
+    },
+    {
+      "model": "BN_ServiceManifold",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "fit": null,
+      "room": "E03",
+      "name": "B2_E03_Dense_072_ServiceManifold",
+      "position": [
+        -3.7,
+        0,
+        -1.42
+      ],
+      "yaw": 75
+    },
+    {
+      "model": "BN_MotorSpares",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "fit": null,
+      "room": "E03",
+      "name": "B2_E03_Dense_073_MotorSpares",
+      "position": [
+        -3.81,
+        0,
+        2.16
+      ],
+      "yaw": 120
+    },
+    {
+      "model": "BN_ServiceManifold",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "fit": null,
+      "room": "E03",
+      "name": "B2_E03_Dense_074_ServiceManifold",
+      "position": [
+        3.97,
+        0,
+        1.96
+      ],
+      "yaw": -120
+    },
+    {
+      "room": "N01",
+      "name": "B2_N01_Dense_075_VentilationFan",
+      "model": "BM_VentilationFan",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_VentilationFan.fbx",
+      "position": [
+        -2.24,
+        0,
+        1.59
+      ],
+      "yaw": 120,
+      "size": [
+        2.209958,
+        2.375,
+        1.13500011
+      ],
+      "center": [
+        -2.104044E-05,
+        1.1875,
+        0.09749989
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "room": "N01",
+      "name": "B2_N01_Dense_076_AirFilterSkid",
+      "model": "BM_AirFilterSkid",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_AirFilterSkid.fbx",
+      "position": [
+        2.97,
+        0,
+        0.28
+      ],
+      "yaw": -90,
+      "size": [
+        2.6,
+        2.56,
+        1.371
+      ],
+      "center": [
+        0.0,
+        1.28,
+        0.0604999959
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "model": "BN_ServiceManifold",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "fit": null,
+      "room": "N01",
+      "name": "B2_N01_Dense_077_ServiceManifold",
+      "position": [
+        0.61,
+        0,
+        2.47
+      ],
+      "yaw": -165
+    },
+    {
+      "model": "BN_MotorSpares",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "fit": null,
+      "room": "N01",
+      "name": "B2_N01_Dense_078_MotorSpares",
+      "position": [
+        -0.06,
+        0,
+        -2.83
+      ],
+      "yaw": 0
+    },
+    {
+      "room": "N01",
+      "name": "B2_N01_Dense_079_VentilationFan",
+      "model": "BM_VentilationFan",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_VentilationFan.fbx",
+      "position": [
+        -3.94,
+        0,
+        -1.12
+      ],
+      "yaw": 75,
+      "size": [
+        2.209958,
+        2.375,
+        1.13500011
+      ],
+      "center": [
+        -2.104044E-05,
+        1.1875,
+        0.09749989
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "room": "N01",
+      "name": "B2_N01_Dense_080_AirFilterSkid",
+      "model": "BM_AirFilterSkid",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_AirFilterSkid.fbx",
+      "position": [
+        3.13,
+        0,
+        4.06
+      ],
+      "yaw": -135,
+      "size": [
+        2.6,
+        2.56,
+        1.371
+      ],
+      "center": [
+        0.0,
+        1.28,
+        0.0604999959
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "model": "BN_ServiceManifold",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "fit": null,
+      "room": "N01",
+      "name": "B2_N01_Dense_081_ServiceManifold",
+      "position": [
+        -0.78,
+        0,
+        4.27
+      ],
+      "yaw": 165
+    },
+    {
+      "model": "BN_MotorSpares",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "fit": null,
+      "room": "N01",
+      "name": "B2_N01_Dense_082_MotorSpares",
+      "position": [
+        1.45,
+        0,
+        -4.55
+      ],
+      "yaw": -15
+    },
+    {
+      "room": "N01",
+      "name": "B2_N01_Dense_083_VentilationFan",
+      "model": "BM_VentilationFan",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_VentilationFan.fbx",
+      "position": [
+        -1.53,
+        0,
+        -5.25
+      ],
+      "yaw": 15,
+      "size": [
+        2.209958,
+        2.375,
+        1.13500011
+      ],
+      "center": [
+        -2.104044E-05,
+        1.1875,
+        0.09749989
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "model": "BN_ServiceManifold",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "fit": null,
+      "room": "N01",
+      "name": "B2_N01_Dense_084_ServiceManifold",
+      "position": [
+        4.52,
+        0,
+        -2.31
+      ],
+      "yaw": -60
+    },
+    {
+      "model": "BN_MotorSpares",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "fit": null,
+      "room": "N01",
+      "name": "B2_N01_Dense_085_MotorSpares",
+      "position": [
+        -3.09,
+        0,
+        4.31
+      ],
+      "yaw": 150
+    },
+    {
+      "room": "S01",
+      "name": "B2_S01_Dense_086_MaintenanceBench",
+      "model": "BC_MaintenanceBench",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_MaintenanceBench.fbx",
+      "position": [
+        -1.45,
+        0,
+        -2.11
+      ],
+      "yaw": 30,
+      "size": [
+        1.9,
+        1.64,
+        0.9252498
+      ],
+      "center": [
+        0.0,
+        0.82,
+        -0.0138750821
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "room": "S01",
+      "name": "B2_S01_Dense_087_MechanicalSparesRack",
+      "model": "BM_MechanicalSparesRack",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_MechanicalSparesRack.fbx",
+      "position": [
+        1.7,
+        0,
+        -1.89
+      ],
+      "yaw": -45,
+      "size": [
+        1.83999991,
+        2.33,
+        0.874500036
+      ],
+      "center": [
+        0.0,
+        1.165,
+        0.03475
+      ],
+      "meshCollider": false,
+      "role": "Storage",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "model": "BN_ServiceManifold",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "fit": null,
+      "room": "S01",
+      "name": "B2_S01_Dense_088_ServiceManifold",
+      "position": [
+        -0.24,
+        0,
+        2.4
+      ],
+      "yaw": 180
+    },
+    {
+      "model": "BN_MotorSpares",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "fit": null,
+      "room": "S01",
+      "name": "B2_S01_Dense_089_MotorSpares",
+      "position": [
+        2.91,
+        0,
+        0.29
+      ],
+      "yaw": -90
+    },
+    {
+      "room": "S01",
+      "name": "B2_S01_Dense_090_MaintenanceBench",
+      "model": "BC_MaintenanceBench",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_MaintenanceBench.fbx",
+      "position": [
+        -3.7,
+        0,
+        -0.5
+      ],
+      "yaw": 75,
+      "size": [
+        1.9,
+        1.64,
+        0.9252498
+      ],
+      "center": [
+        0.0,
+        0.82,
+        -0.0138750821
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "room": "S01",
+      "name": "B2_S01_Dense_091_MechanicalSparesRack",
+      "model": "BM_MechanicalSparesRack",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_MechanicalSparesRack.fbx",
+      "position": [
+        -2.48,
+        0,
+        3.54
+      ],
+      "yaw": 150,
+      "size": [
+        1.83999991,
+        2.33,
+        0.874500036
+      ],
+      "center": [
+        0.0,
+        1.165,
+        0.03475
+      ],
+      "meshCollider": false,
+      "role": "Storage",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "model": "BN_ServiceManifold",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "fit": null,
+      "room": "S01",
+      "name": "B2_S01_Dense_092_ServiceManifold",
+      "position": [
+        0.15,
+        0,
+        -4.07
+      ],
+      "yaw": 0
+    },
+    {
+      "model": "BN_MotorSpares",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "fit": null,
+      "room": "S01",
+      "name": "B2_S01_Dense_093_MotorSpares",
+      "position": [
+        1.19,
+        0,
+        4.18
+      ],
+      "yaw": -165
+    },
+    {
+      "room": "S01",
+      "name": "B2_S01_Dense_094_MaintenanceBench",
+      "model": "BC_MaintenanceBench",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_MaintenanceBench.fbx",
+      "position": [
+        4.94,
+        0,
+        -1.38
+      ],
+      "yaw": -75,
+      "size": [
+        1.9,
+        1.64,
+        0.9252498
+      ],
+      "center": [
+        0.0,
+        0.82,
+        -0.0138750821
+      ],
+      "meshCollider": false,
+      "role": "Equipment",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "room": "S01",
+      "name": "B2_S01_Dense_095_MechanicalSparesRack",
+      "model": "BM_MechanicalSparesRack",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_MechanicalSparesRack.fbx",
+      "position": [
+        2.66,
+        0,
+        -4.41
+      ],
+      "yaw": -30,
+      "size": [
+        1.83999991,
+        2.33,
+        0.874500036
+      ],
+      "center": [
+        0.0,
+        1.165,
+        0.03475
+      ],
+      "meshCollider": false,
+      "role": "Storage",
+      "fit": null,
+      "rotation": null
+    },
+    {
+      "model": "BN_ServiceManifold",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "fit": null,
+      "room": "S01",
+      "name": "B2_S01_Dense_096_ServiceManifold",
+      "position": [
+        -3.91,
+        0,
+        -3.12
+      ],
+      "yaw": 45
+    },
+    {
+      "model": "BN_MotorSpares",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "fit": null,
+      "room": "S01",
+      "name": "B2_S01_Dense_097_MotorSpares",
+      "position": [
+        4.45,
+        0,
+        2.15
+      ],
+      "yaw": -120
+    }
+  ]
+}

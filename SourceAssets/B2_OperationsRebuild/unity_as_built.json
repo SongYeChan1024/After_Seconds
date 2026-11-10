@@ -1,0 +1,2792 @@
+[
+  {
+    "name": "B2_C02_Ops_PumpTrainA_01",
+    "parent": "PumpTrainA",
+    "position": [
+      16.5,
+      -34.0,
+      -3.0
+    ],
+    "local": [
+      -2.5,
+      0.0,
+      -2.0
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_C02_Ops_PumpTrainA_02",
+    "parent": "PumpTrainA",
+    "position": [
+      16.5,
+      -34.0,
+      -1.0
+    ],
+    "local": [
+      -2.5,
+      0.0,
+      0.0
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_C02_Ops_PumpTrainA_03",
+    "parent": "PumpTrainA",
+    "position": [
+      16.5,
+      -34.0,
+      1.0
+    ],
+    "local": [
+      -2.5,
+      0.0,
+      2.0
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_C02_Ops_PumpTrainB_04",
+    "parent": "PumpTrainB",
+    "position": [
+      21.3,
+      -34.0,
+      -2.0
+    ],
+    "local": [
+      2.3,
+      0.0,
+      -1.0
+    ],
+    "yaw": 270.0
+  },
+  {
+    "name": "B2_C02_Ops_PumpTrainB_05",
+    "parent": "PumpTrainB",
+    "position": [
+      21.3,
+      -34.0,
+      0.0
+    ],
+    "local": [
+      2.3,
+      0.0,
+      1.0
+    ],
+    "yaw": 270.0
+  },
+  {
+    "name": "B2_C02_Ops_HeatExchange_06",
+    "parent": "HeatExchange",
+    "position": [
+      18.1,
+      -34.0,
+      4.0
+    ],
+    "local": [
+      -0.9,
+      0.0,
+      5.0
+    ],
+    "yaw": 180.0
+  },
+  {
+    "name": "B2_C02_Ops_HeatExchange_07",
+    "parent": "HeatExchange",
+    "position": [
+      20.1,
+      -34.0,
+      4.0
+    ],
+    "local": [
+      1.1,
+      0.0,
+      5.0
+    ],
+    "yaw": 180.0
+  },
+  {
+    "name": "B2_C02_Ops_Accumulator_08",
+    "parent": "Accumulator",
+    "position": [
+      22.8,
+      -34.0,
+      2.1
+    ],
+    "local": [
+      3.8,
+      0.0,
+      3.1
+    ],
+    "yaw": 180.0
+  },
+  {
+    "name": "B2_C02_Ops_DryControl_09",
+    "parent": "DryControl",
+    "position": [
+      26.6,
+      -34.0,
+      -2.5
+    ],
+    "local": [
+      7.6,
+      0.0,
+      -1.5
+    ],
+    "yaw": 270.0
+  },
+  {
+    "name": "B2_C02_Ops_DryControl_10",
+    "parent": "DryControl",
+    "position": [
+      26.6,
+      -34.0,
+      -1.0
+    ],
+    "local": [
+      7.6,
+      0.0,
+      0.0
+    ],
+    "yaw": 270.0
+  },
+  {
+    "name": "B2_C02_Ops_DryControl_11",
+    "parent": "DryControl",
+    "position": [
+      26.6,
+      -34.0,
+      0.5
+    ],
+    "local": [
+      7.6,
+      0.0,
+      1.5
+    ],
+    "yaw": 270.0
+  },
+  {
+    "name": "B2_C02_Ops_Maintenance_12",
+    "parent": "Maintenance",
+    "position": [
+      13.3,
+      -34.0,
+      -5.4
+    ],
+    "local": [
+      -5.7,
+      0.0,
+      -4.4
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_C02_Ops_Maintenance_15",
+    "parent": "Maintenance",
+    "position": [
+      11.1,
+      -34.0,
+      -4.8
+    ],
+    "local": [
+      -7.9,
+      0.0,
+      -3.8
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_C02_Ops_PartsStaging_13",
+    "parent": "PartsStaging",
+    "position": [
+      20.0,
+      -34.0,
+      -6.5
+    ],
+    "local": [
+      1.0,
+      0.0,
+      -5.5
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_C02_Ops_PartsStaging_14",
+    "parent": "PartsStaging",
+    "position": [
+      18.0,
+      -34.0,
+      -7.2
+    ],
+    "local": [
+      -1.0,
+      0.0,
+      -6.2
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_C02_Ops_SupplyHeader_16",
+    "parent": "SupplyHeader",
+    "position": [
+      18.2,
+      -34.0,
+      6.9
+    ],
+    "local": [
+      -0.8,
+      0.0,
+      7.9
+    ],
+    "yaw": 180.0
+  },
+  {
+    "name": "B2_C02_Ops_ReturnHeader_17",
+    "parent": "ReturnHeader",
+    "position": [
+      21.0,
+      -34.0,
+      6.9
+    ],
+    "local": [
+      2.0,
+      0.0,
+      7.9
+    ],
+    "yaw": 180.0
+  },
+  {
+    "name": "B2_C01_Ops_SeparationTrain_01",
+    "parent": "SeparationTrain",
+    "position": [
+      -21.0,
+      -34.0,
+      0.0
+    ],
+    "local": [
+      -3.0,
+      0.0,
+      0.0
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_C01_Ops_SeparationTrain_02",
+    "parent": "SeparationTrain",
+    "position": [
+      -15.0,
+      -34.0,
+      0.0
+    ],
+    "local": [
+      3.0,
+      0.0,
+      0.0
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_C01_Ops_FeedTreatment_03",
+    "parent": "FeedTreatment",
+    "position": [
+      -21.0,
+      -34.0,
+      4.0
+    ],
+    "local": [
+      -3.0,
+      0.0,
+      4.0
+    ],
+    "yaw": 180.0
+  },
+  {
+    "name": "B2_C01_Ops_FeedTreatment_04",
+    "parent": "FeedTreatment",
+    "position": [
+      -15.0,
+      -34.0,
+      4.0
+    ],
+    "local": [
+      3.0,
+      0.0,
+      4.0
+    ],
+    "yaw": 180.0
+  },
+  {
+    "name": "B2_C01_Ops_DischargeCooling_05",
+    "parent": "DischargeCooling",
+    "position": [
+      -21.0,
+      -34.0,
+      -3.6
+    ],
+    "local": [
+      -3.0,
+      0.0,
+      -3.6
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_C01_Ops_DischargeCooling_06",
+    "parent": "DischargeCooling",
+    "position": [
+      -15.0,
+      -34.0,
+      -3.6
+    ],
+    "local": [
+      3.0,
+      0.0,
+      -3.6
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_C01_Ops_ProcessControl_07",
+    "parent": "ProcessControl",
+    "position": [
+      -23.5,
+      -34.0,
+      -3.7
+    ],
+    "local": [
+      -5.5,
+      0.0,
+      -3.7
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_C01_Ops_ProcessControl_08",
+    "parent": "ProcessControl",
+    "position": [
+      -12.5,
+      -34.0,
+      -3.7
+    ],
+    "local": [
+      5.5,
+      0.0,
+      -3.7
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_C01_Ops_FeedHeader_09",
+    "parent": "FeedHeader",
+    "position": [
+      -21.0,
+      -34.0,
+      6.4
+    ],
+    "local": [
+      -3.0,
+      0.0,
+      6.4
+    ],
+    "yaw": 180.0
+  },
+  {
+    "name": "B2_C01_Ops_FeedHeader_10",
+    "parent": "FeedHeader",
+    "position": [
+      -15.0,
+      -34.0,
+      6.4
+    ],
+    "local": [
+      3.0,
+      0.0,
+      6.4
+    ],
+    "yaw": 180.0
+  },
+  {
+    "name": "B2_C01_Ops_MotorRemoval_11",
+    "parent": "MotorRemoval",
+    "position": [
+      -23.4,
+      -34.0,
+      1.8
+    ],
+    "local": [
+      -5.4,
+      0.0,
+      1.8
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_C01_Ops_MotorRemoval_12",
+    "parent": "MotorRemoval",
+    "position": [
+      -12.6,
+      -34.0,
+      1.8
+    ],
+    "local": [
+      5.4,
+      0.0,
+      1.8
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_C01_Ops_Maintenance_13",
+    "parent": "Maintenance",
+    "position": [
+      -21.0,
+      -34.0,
+      -7.0
+    ],
+    "local": [
+      -3.0,
+      0.0,
+      -7.0
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_C01_Ops_Maintenance_14",
+    "parent": "Maintenance",
+    "position": [
+      -15.0,
+      -34.0,
+      -7.0
+    ],
+    "local": [
+      3.0,
+      0.0,
+      -7.0
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_C01_Ops_Parts_15",
+    "parent": "Parts",
+    "position": [
+      -24.0,
+      -34.0,
+      -5.8
+    ],
+    "local": [
+      -6.0,
+      0.0,
+      -5.8
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_C01_Ops_Parts_16",
+    "parent": "Parts",
+    "position": [
+      -12.0,
+      -34.0,
+      4.2
+    ],
+    "local": [
+      6.0,
+      0.0,
+      4.2
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_C01_Ops_CartBay_17",
+    "parent": "CartBay",
+    "position": [
+      -19.5,
+      -34.0,
+      -7.0
+    ],
+    "local": [
+      -1.5,
+      0.0,
+      -7.0
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_C01_Ops_CartBay_18",
+    "parent": "CartBay",
+    "position": [
+      -16.5,
+      -34.0,
+      -7.0
+    ],
+    "local": [
+      1.5,
+      0.0,
+      -7.0
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_C01_Ops_Handover_19",
+    "parent": "Handover",
+    "position": [
+      -25.5,
+      -34.0,
+      2.8
+    ],
+    "local": [
+      -7.5,
+      0.0,
+      2.8
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_C03_Ops_Switchboard_01",
+    "parent": "Switchboard",
+    "position": [
+      -14.8,
+      -34.0,
+      24.2
+    ],
+    "local": [
+      -2.8,
+      0.0,
+      -1.8
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_C03_Ops_Switchboard_02",
+    "parent": "Switchboard",
+    "position": [
+      -14.8,
+      -34.0,
+      25.7
+    ],
+    "local": [
+      -2.8,
+      0.0,
+      -0.3
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_C03_Ops_Switchboard_03",
+    "parent": "Switchboard",
+    "position": [
+      -14.8,
+      -34.0,
+      27.2
+    ],
+    "local": [
+      -2.8,
+      0.0,
+      1.2
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_C03_Ops_Switchboard_04",
+    "parent": "Switchboard",
+    "position": [
+      -13.1,
+      -34.0,
+      29.0
+    ],
+    "local": [
+      -1.1,
+      0.0,
+      3.0
+    ],
+    "yaw": 180.0
+  },
+  {
+    "name": "B2_C03_Ops_Switchboard_05",
+    "parent": "Switchboard",
+    "position": [
+      -11.6,
+      -34.0,
+      29.0
+    ],
+    "local": [
+      0.4,
+      0.0,
+      3.0
+    ],
+    "yaw": 180.0
+  },
+  {
+    "name": "B2_C03_Ops_Switchboard_06",
+    "parent": "Switchboard",
+    "position": [
+      -10.1,
+      -34.0,
+      29.0
+    ],
+    "local": [
+      1.9,
+      0.0,
+      3.0
+    ],
+    "yaw": 180.0
+  },
+  {
+    "name": "B2_C03_Ops_BackupPower_07",
+    "parent": "BackupPower",
+    "position": [
+      -15.6,
+      -34.0,
+      28.8
+    ],
+    "local": [
+      -3.6,
+      0.0,
+      2.8
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_C03_Ops_TestEquipment_08",
+    "parent": "TestEquipment",
+    "position": [
+      -11.2,
+      -34.0,
+      25.2
+    ],
+    "local": [
+      0.8,
+      0.0,
+      -0.8
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_C03_Ops_MeterCart_09",
+    "parent": "MeterCart",
+    "position": [
+      -13.6,
+      -34.0,
+      22.6
+    ],
+    "local": [
+      -1.6,
+      0.0,
+      -3.4
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_C04_Ops_Operations_01",
+    "parent": "Operations",
+    "position": [
+      12.2,
+      -34.0,
+      -26.8
+    ],
+    "local": [
+      -1.8,
+      0.0,
+      -0.8
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_C04_Ops_Operations_02",
+    "parent": "Operations",
+    "position": [
+      14.0,
+      -34.0,
+      -26.8
+    ],
+    "local": [
+      0.0,
+      0.0,
+      -0.8
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_C04_Ops_Operations_03",
+    "parent": "Operations",
+    "position": [
+      15.8,
+      -34.0,
+      -26.8
+    ],
+    "local": [
+      1.8,
+      0.0,
+      -0.8
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_C04_Ops_RearRackRow_04",
+    "parent": "RearRackRow",
+    "position": [
+      11.2,
+      -34.0,
+      -30.6
+    ],
+    "local": [
+      -2.8,
+      0.0,
+      -4.6
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_C04_Ops_RearRackRow_05",
+    "parent": "RearRackRow",
+    "position": [
+      12.4,
+      -34.0,
+      -30.6
+    ],
+    "local": [
+      -1.6,
+      0.0,
+      -4.6
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_C04_Ops_RearRackRow_06",
+    "parent": "RearRackRow",
+    "position": [
+      13.6,
+      -34.0,
+      -30.6
+    ],
+    "local": [
+      -0.4,
+      0.0,
+      -4.6
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_C04_Ops_RearRackRow_07",
+    "parent": "RearRackRow",
+    "position": [
+      14.8,
+      -34.0,
+      -30.6
+    ],
+    "local": [
+      0.8,
+      0.0,
+      -4.6
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_C04_Ops_RearRackRow_08",
+    "parent": "RearRackRow",
+    "position": [
+      16.0,
+      -34.0,
+      -30.6
+    ],
+    "local": [
+      2.0,
+      0.0,
+      -4.6
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_C04_Ops_Backup_09",
+    "parent": "Backup",
+    "position": [
+      17.5,
+      -34.0,
+      -29.8
+    ],
+    "local": [
+      3.5,
+      0.0,
+      -3.8
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_C04_Ops_Handover_10",
+    "parent": "Handover",
+    "position": [
+      9.6,
+      -34.0,
+      -27.6
+    ],
+    "local": [
+      -4.4,
+      0.0,
+      -1.6
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_C04_Ops_ServiceCart_11",
+    "parent": "ServiceCart",
+    "position": [
+      9.2,
+      -34.0,
+      -29.3
+    ],
+    "local": [
+      -4.8,
+      0.0,
+      -3.3
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_C04_Ops_Distribution_12",
+    "parent": "Distribution",
+    "position": [
+      18.4,
+      -34.0,
+      -24.0
+    ],
+    "local": [
+      4.4,
+      0.0,
+      2.0
+    ],
+    "yaw": 270.0
+  },
+  {
+    "name": "B2_W01_Ops_TransformerBank_01",
+    "parent": "TransformerBank",
+    "position": [
+      -90.6,
+      -34.0,
+      39.8
+    ],
+    "local": [
+      -2.6,
+      0.0,
+      1.8
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_W01_Ops_TransformerBank_02",
+    "parent": "TransformerBank",
+    "position": [
+      -85.4,
+      -34.0,
+      39.8
+    ],
+    "local": [
+      2.6,
+      0.0,
+      1.8
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_W01_Ops_TransformerBank_03",
+    "parent": "TransformerBank",
+    "position": [
+      -90.6,
+      -34.0,
+      42.6
+    ],
+    "local": [
+      -2.6,
+      0.0,
+      4.6
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_W01_Ops_TransformerBank_04",
+    "parent": "TransformerBank",
+    "position": [
+      -85.4,
+      -34.0,
+      42.6
+    ],
+    "local": [
+      2.6,
+      0.0,
+      4.6
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_W01_Ops_Isolation_05",
+    "parent": "Isolation",
+    "position": [
+      -90.6,
+      -34.0,
+      36.9
+    ],
+    "local": [
+      -2.6,
+      0.0,
+      -1.1
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_W01_Ops_Isolation_06",
+    "parent": "Isolation",
+    "position": [
+      -85.4,
+      -34.0,
+      36.9
+    ],
+    "local": [
+      2.6,
+      0.0,
+      -1.1
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_W01_Ops_Switchgear_07",
+    "parent": "Switchgear",
+    "position": [
+      -91.0,
+      -34.0,
+      33.1
+    ],
+    "local": [
+      -3.0,
+      0.0,
+      -4.9
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_W01_Ops_Switchgear_08",
+    "parent": "Switchgear",
+    "position": [
+      -89.5,
+      -34.0,
+      33.1
+    ],
+    "local": [
+      -1.5,
+      0.0,
+      -4.9
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_W01_Ops_Switchgear_09",
+    "parent": "Switchgear",
+    "position": [
+      -88.0,
+      -34.0,
+      33.1
+    ],
+    "local": [
+      0.0,
+      0.0,
+      -4.9
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_W01_Ops_Switchgear_10",
+    "parent": "Switchgear",
+    "position": [
+      -86.5,
+      -34.0,
+      33.1
+    ],
+    "local": [
+      1.5,
+      0.0,
+      -4.9
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_W01_Ops_Switchgear_11",
+    "parent": "Switchgear",
+    "position": [
+      -85.0,
+      -34.0,
+      33.1
+    ],
+    "local": [
+      3.0,
+      0.0,
+      -4.9
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_W01_Ops_BatteryBackup_12",
+    "parent": "BatteryBackup",
+    "position": [
+      -93.6,
+      -34.0,
+      38.4
+    ],
+    "local": [
+      -5.6,
+      0.0,
+      0.4
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_W01_Ops_BatteryBackup_13",
+    "parent": "BatteryBackup",
+    "position": [
+      -82.4,
+      -34.0,
+      41.0
+    ],
+    "local": [
+      5.6,
+      0.0,
+      3.0
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_W01_Ops_TestBay_14",
+    "parent": "TestBay",
+    "position": [
+      -88.0,
+      -34.0,
+      44.3
+    ],
+    "local": [
+      0.0,
+      0.0,
+      6.3
+    ],
+    "yaw": 180.0
+  },
+  {
+    "name": "B2_W01_Ops_MeterCart_15",
+    "parent": "MeterCart",
+    "position": [
+      -82.8,
+      -34.0,
+      34.6
+    ],
+    "local": [
+      5.2,
+      0.0,
+      -3.4
+    ],
+    "yaw": 270.0
+  },
+  {
+    "name": "B2_W02_Ops_GeneratorTrain_01",
+    "parent": "GeneratorTrain",
+    "position": [
+      -127.0,
+      -34.0,
+      5.4
+    ],
+    "local": [
+      -3.0,
+      0.0,
+      -2.6
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_W02_Ops_GeneratorTrain_02",
+    "parent": "GeneratorTrain",
+    "position": [
+      -127.0,
+      -34.0,
+      8.1
+    ],
+    "local": [
+      -3.0,
+      0.0,
+      0.1
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_W02_Ops_GeneratorTrain_03",
+    "parent": "GeneratorTrain",
+    "position": [
+      -127.0,
+      -34.0,
+      10.8
+    ],
+    "local": [
+      -3.0,
+      0.0,
+      2.8
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_W02_Ops_FuelDistribution_04",
+    "parent": "FuelDistribution",
+    "position": [
+      -129.5,
+      -34.0,
+      5.4
+    ],
+    "local": [
+      -5.5,
+      0.0,
+      -2.6
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_W02_Ops_FuelDistribution_05",
+    "parent": "FuelDistribution",
+    "position": [
+      -129.5,
+      -34.0,
+      8.1
+    ],
+    "local": [
+      -5.5,
+      0.0,
+      0.1
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_W02_Ops_FuelDistribution_06",
+    "parent": "FuelDistribution",
+    "position": [
+      -129.5,
+      -34.0,
+      10.8
+    ],
+    "local": [
+      -5.5,
+      0.0,
+      2.8
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_W02_Ops_DayTank_07",
+    "parent": "DayTank",
+    "position": [
+      -126.4,
+      -34.0,
+      14.0
+    ],
+    "local": [
+      -2.4,
+      0.0,
+      6.0
+    ],
+    "yaw": 180.0
+  },
+  {
+    "name": "B2_W02_Ops_Control_08",
+    "parent": "Control",
+    "position": [
+      -123.0,
+      -34.0,
+      2.4
+    ],
+    "local": [
+      1.0,
+      0.0,
+      -5.6
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_W02_Ops_Control_09",
+    "parent": "Control",
+    "position": [
+      -121.5,
+      -34.0,
+      2.4
+    ],
+    "local": [
+      2.5,
+      0.0,
+      -5.6
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_W02_Ops_Backup_10",
+    "parent": "Backup",
+    "position": [
+      -124.5,
+      -34.0,
+      0.8000002
+    ],
+    "local": [
+      -0.5,
+      0.0,
+      -7.2
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_W02_Ops_Maintenance_11",
+    "parent": "Maintenance",
+    "position": [
+      -126.4,
+      -34.0,
+      1.5999999
+    ],
+    "local": [
+      -2.4,
+      0.0,
+      -6.4
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_W02_Ops_ToolBay_12",
+    "parent": "ToolBay",
+    "position": [
+      -128.6,
+      -34.0,
+      2.80000019
+    ],
+    "local": [
+      -4.6,
+      0.0,
+      -5.2
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_W02_Ops_ServiceSpares_13",
+    "parent": "ServiceSpares",
+    "position": [
+      -123.8,
+      -34.0,
+      12.7
+    ],
+    "local": [
+      0.2,
+      0.0,
+      4.7
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_W02_Ops_ServiceSpares_14",
+    "parent": "ServiceSpares",
+    "position": [
+      -129.0,
+      -34.0,
+      12.8
+    ],
+    "local": [
+      -5.0,
+      0.0,
+      4.8
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_W02_Ops_Consumables_15",
+    "parent": "Consumables",
+    "position": [
+      -124.0,
+      -34.0,
+      14.7
+    ],
+    "local": [
+      0.0,
+      0.0,
+      6.7
+    ],
+    "yaw": 180.0
+  },
+  {
+    "name": "B2_W03_Ops_PartsA_01",
+    "parent": "PartsA",
+    "position": [
+      -97.0,
+      -34.0,
+      -29.0
+    ],
+    "local": [
+      -3.0,
+      0.0,
+      -2.0
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_W03_Ops_PartsA_02",
+    "parent": "PartsA",
+    "position": [
+      -97.0,
+      -34.0,
+      -26.8
+    ],
+    "local": [
+      -3.0,
+      0.0,
+      0.2
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_W03_Ops_PartsA_03",
+    "parent": "PartsA",
+    "position": [
+      -97.0,
+      -34.0,
+      -24.6
+    ],
+    "local": [
+      -3.0,
+      0.0,
+      2.4
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_W03_Ops_PartsB_04",
+    "parent": "PartsB",
+    "position": [
+      -92.0,
+      -34.0,
+      -29.0
+    ],
+    "local": [
+      2.0,
+      0.0,
+      -2.0
+    ],
+    "yaw": 270.0
+  },
+  {
+    "name": "B2_W03_Ops_PartsB_05",
+    "parent": "PartsB",
+    "position": [
+      -92.0,
+      -34.0,
+      -26.8
+    ],
+    "local": [
+      2.0,
+      0.0,
+      0.2
+    ],
+    "yaw": 270.0
+  },
+  {
+    "name": "B2_W03_Ops_PartsB_06",
+    "parent": "PartsB",
+    "position": [
+      -92.0,
+      -34.0,
+      -24.6
+    ],
+    "local": [
+      2.0,
+      0.0,
+      2.4
+    ],
+    "yaw": 270.0
+  },
+  {
+    "name": "B2_W03_Ops_Repair_07",
+    "parent": "Repair",
+    "position": [
+      -96.5,
+      -34.0,
+      -32.3
+    ],
+    "local": [
+      -2.5,
+      0.0,
+      -5.3
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_W03_Ops_Repair_08",
+    "parent": "Repair",
+    "position": [
+      -94.0,
+      -34.0,
+      -32.7
+    ],
+    "local": [
+      0.0,
+      0.0,
+      -5.7
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_W03_Ops_Repair_09",
+    "parent": "Repair",
+    "position": [
+      -91.5,
+      -34.0,
+      -32.3
+    ],
+    "local": [
+      2.5,
+      0.0,
+      -5.3
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_W03_Ops_RepairMotors_10",
+    "parent": "RepairMotors",
+    "position": [
+      -96.2,
+      -33.015,
+      -32.18
+    ],
+    "local": [
+      -2.2,
+      0.985,
+      -5.18
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_W03_Ops_RepairMotors_11",
+    "parent": "RepairMotors",
+    "position": [
+      -91.2,
+      -33.015,
+      -32.18
+    ],
+    "local": [
+      2.8,
+      0.985,
+      -5.18
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_W03_Ops_Receiving_12",
+    "parent": "Receiving",
+    "position": [
+      -99.4,
+      -34.0,
+      -25.2
+    ],
+    "local": [
+      -5.4,
+      0.0,
+      1.8
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_W03_Ops_Receiving_13",
+    "parent": "Receiving",
+    "position": [
+      -99.6,
+      -34.0,
+      -27.3
+    ],
+    "local": [
+      -5.6,
+      0.0,
+      -0.3
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_W03_Ops_Dispatch_14",
+    "parent": "Dispatch",
+    "position": [
+      -89.3,
+      -34.0,
+      -27.2
+    ],
+    "local": [
+      4.7,
+      0.0,
+      -0.2
+    ],
+    "yaw": 270.0
+  },
+  {
+    "name": "B2_W03_Ops_Dispatch_15",
+    "parent": "Dispatch",
+    "position": [
+      -89.3,
+      -34.0,
+      -28.5
+    ],
+    "local": [
+      4.7,
+      0.0,
+      -1.5
+    ],
+    "yaw": 270.0
+  },
+  {
+    "name": "B2_W03_Ops_HeavyParts_16",
+    "parent": "HeavyParts",
+    "position": [
+      -94.0,
+      -34.0,
+      -21.5
+    ],
+    "local": [
+      0.0,
+      0.0,
+      5.5
+    ],
+    "yaw": 180.0
+  },
+  {
+    "name": "B2_W03_Ops_WeldingBay_17",
+    "parent": "WeldingBay",
+    "position": [
+      -99.2,
+      -34.0,
+      -30.7
+    ],
+    "local": [
+      -5.2,
+      0.0,
+      -3.7
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_W03_Ops_ServicePower_18",
+    "parent": "ServicePower",
+    "position": [
+      -89.3,
+      -34.0,
+      -22.5
+    ],
+    "local": [
+      4.7,
+      0.0,
+      4.5
+    ],
+    "yaw": 230.000015
+  },
+  {
+    "name": "B2_E01_Ops_Accumulator_01",
+    "parent": "Accumulator",
+    "position": [
+      88.0,
+      -34.0,
+      40.3
+    ],
+    "local": [
+      0.0,
+      0.0,
+      2.3
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_E01_Ops_Treatment_02",
+    "parent": "Treatment",
+    "position": [
+      84.2,
+      -34.0,
+      40.0
+    ],
+    "local": [
+      -3.8,
+      0.0,
+      2.0
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_E01_Ops_Treatment_03",
+    "parent": "Treatment",
+    "position": [
+      84.2,
+      -34.0,
+      42.5
+    ],
+    "local": [
+      -3.8,
+      0.0,
+      4.5
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_E01_Ops_BoostTrain_04",
+    "parent": "BoostTrain",
+    "position": [
+      89.4,
+      -34.0,
+      36.0
+    ],
+    "local": [
+      1.4,
+      0.0,
+      -2.0
+    ],
+    "yaw": 270.0
+  },
+  {
+    "name": "B2_E01_Ops_BoostTrain_05",
+    "parent": "BoostTrain",
+    "position": [
+      89.4,
+      -34.0,
+      37.6
+    ],
+    "local": [
+      1.4,
+      0.0,
+      -0.4
+    ],
+    "yaw": 270.0
+  },
+  {
+    "name": "B2_E01_Ops_BoostTrain_06",
+    "parent": "BoostTrain",
+    "position": [
+      91.4,
+      -34.0,
+      37.6
+    ],
+    "local": [
+      3.4,
+      0.0,
+      -0.4
+    ],
+    "yaw": 270.0
+  },
+  {
+    "name": "B2_E01_Ops_DryControls_07",
+    "parent": "DryControls",
+    "position": [
+      85.4,
+      -34.0,
+      33.6
+    ],
+    "local": [
+      -2.6,
+      0.0,
+      -4.4
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_E01_Ops_DryControls_08",
+    "parent": "DryControls",
+    "position": [
+      87.0,
+      -34.0,
+      33.6
+    ],
+    "local": [
+      -1.0,
+      0.0,
+      -4.4
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_E01_Ops_WaterHeader_09",
+    "parent": "WaterHeader",
+    "position": [
+      87.5,
+      -34.0,
+      43.6
+    ],
+    "local": [
+      -0.5,
+      0.0,
+      5.6
+    ],
+    "yaw": 180.0
+  },
+  {
+    "name": "B2_E01_Ops_WaterHeader_10",
+    "parent": "WaterHeader",
+    "position": [
+      86.0,
+      -34.0,
+      44.0
+    ],
+    "local": [
+      -2.0,
+      0.0,
+      6.0
+    ],
+    "yaw": 180.0
+  },
+  {
+    "name": "B2_E01_Ops_Maintenance_11",
+    "parent": "Maintenance",
+    "position": [
+      82.7,
+      -34.0,
+      38.1
+    ],
+    "local": [
+      -5.3,
+      0.0,
+      0.1
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_E01_Ops_SpareSeals_12",
+    "parent": "SpareSeals",
+    "position": [
+      87.5,
+      -34.0,
+      31.3
+    ],
+    "local": [
+      -0.5,
+      0.0,
+      -6.7
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_E01_Ops_PumpRemoval_13",
+    "parent": "PumpRemoval",
+    "position": [
+      91.3,
+      -34.0,
+      35.8
+    ],
+    "local": [
+      3.3,
+      0.0,
+      -2.2
+    ],
+    "yaw": 180.0
+  },
+  {
+    "name": "B2_E02_Ops_FilterBank_01",
+    "parent": "FilterBank",
+    "position": [
+      126.0,
+      -34.0,
+      2.2
+    ],
+    "local": [
+      2.0,
+      0.0,
+      -2.8
+    ],
+    "yaw": 270.0
+  },
+  {
+    "name": "B2_E02_Ops_FilterBank_02",
+    "parent": "FilterBank",
+    "position": [
+      126.0,
+      -34.0,
+      5.0
+    ],
+    "local": [
+      2.0,
+      0.0,
+      0.0
+    ],
+    "yaw": 270.0
+  },
+  {
+    "name": "B2_E02_Ops_FilterBank_03",
+    "parent": "FilterBank",
+    "position": [
+      126.0,
+      -34.0,
+      7.8
+    ],
+    "local": [
+      2.0,
+      0.0,
+      2.8
+    ],
+    "yaw": 270.0
+  },
+  {
+    "name": "B2_E02_Ops_FanDrive_04",
+    "parent": "FanDrive",
+    "position": [
+      129.5,
+      -34.0,
+      2.2
+    ],
+    "local": [
+      5.5,
+      0.0,
+      -2.8
+    ],
+    "yaw": 270.0
+  },
+  {
+    "name": "B2_E02_Ops_FanDrive_05",
+    "parent": "FanDrive",
+    "position": [
+      129.5,
+      -34.0,
+      5.0
+    ],
+    "local": [
+      5.5,
+      0.0,
+      0.0
+    ],
+    "yaw": 270.0
+  },
+  {
+    "name": "B2_E02_Ops_FanDrive_06",
+    "parent": "FanDrive",
+    "position": [
+      129.5,
+      -34.0,
+      7.8
+    ],
+    "local": [
+      5.5,
+      0.0,
+      2.8
+    ],
+    "yaw": 270.0
+  },
+  {
+    "name": "B2_E02_Ops_Plenum_07",
+    "parent": "Plenum",
+    "position": [
+      126.0,
+      -34.0,
+      10.7
+    ],
+    "local": [
+      2.0,
+      0.0,
+      5.7
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_E02_Ops_CleanFilters_08",
+    "parent": "CleanFilters",
+    "position": [
+      121.7,
+      -34.0,
+      10.4
+    ],
+    "local": [
+      -2.3,
+      0.0,
+      5.4
+    ],
+    "yaw": 180.0
+  },
+  {
+    "name": "B2_E02_Ops_SealedReturns_09",
+    "parent": "SealedReturns",
+    "position": [
+      121.6,
+      -34.0,
+      0.5999999
+    ],
+    "local": [
+      -2.4,
+      0.0,
+      -4.4
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_E02_Ops_PressureReadings_10",
+    "parent": "PressureReadings",
+    "position": [
+      118.2,
+      -34.0,
+      5.4
+    ],
+    "local": [
+      -5.8,
+      0.0,
+      0.4
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_E02_Ops_ServiceBench_11",
+    "parent": "ServiceBench",
+    "position": [
+      123.7,
+      -34.0,
+      -1.80000019
+    ],
+    "local": [
+      -0.3,
+      0.0,
+      -6.8
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_E02_Ops_FilterCart_12",
+    "parent": "FilterCart",
+    "position": [
+      119.3,
+      -34.0,
+      2.0
+    ],
+    "local": [
+      -4.7,
+      0.0,
+      -3.0
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_E02_Ops_MotorSpares_13",
+    "parent": "MotorSpares",
+    "position": [
+      128.5,
+      -34.0,
+      -0.3000002
+    ],
+    "local": [
+      4.5,
+      0.0,
+      -5.3
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_E03_Ops_SealedWaste_01",
+    "parent": "SealedWaste",
+    "position": [
+      92.0,
+      -34.0,
+      -34.6
+    ],
+    "local": [
+      -2.0,
+      0.0,
+      -2.6
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_E03_Ops_SealedWaste_02",
+    "parent": "SealedWaste",
+    "position": [
+      94.5,
+      -34.0,
+      -34.6
+    ],
+    "local": [
+      0.5,
+      0.0,
+      -2.6
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_E03_Ops_SealedWaste_03",
+    "parent": "SealedWaste",
+    "position": [
+      97.0,
+      -34.0,
+      -34.6
+    ],
+    "local": [
+      3.0,
+      0.0,
+      -2.6
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_E03_Ops_TransferPumps_04",
+    "parent": "TransferPumps",
+    "position": [
+      92.0,
+      -34.0,
+      -36.8
+    ],
+    "local": [
+      -2.0,
+      0.0,
+      -4.8
+    ],
+    "yaw": 180.0
+  },
+  {
+    "name": "B2_E03_Ops_TransferPumps_05",
+    "parent": "TransferPumps",
+    "position": [
+      95.0,
+      -34.0,
+      -36.8
+    ],
+    "local": [
+      1.0,
+      0.0,
+      -4.8
+    ],
+    "yaw": 180.0
+  },
+  {
+    "name": "B2_E03_Ops_Treatment_06",
+    "parent": "Treatment",
+    "position": [
+      98.9,
+      -34.0,
+      -31.8
+    ],
+    "local": [
+      4.9,
+      0.0,
+      0.2
+    ],
+    "yaw": 270.0
+  },
+  {
+    "name": "B2_E03_Ops_DryControls_07",
+    "parent": "DryControls",
+    "position": [
+      91.2,
+      -34.0,
+      -29.0
+    ],
+    "local": [
+      -2.8,
+      0.0,
+      3.0
+    ],
+    "yaw": 180.0
+  },
+  {
+    "name": "B2_E03_Ops_DryControls_08",
+    "parent": "DryControls",
+    "position": [
+      92.7,
+      -34.0,
+      -29.0
+    ],
+    "local": [
+      -1.3,
+      0.0,
+      3.0
+    ],
+    "yaw": 180.0
+  },
+  {
+    "name": "B2_E03_Ops_DryRecords_09",
+    "parent": "DryRecords",
+    "position": [
+      94.5,
+      -34.0,
+      -27.4
+    ],
+    "local": [
+      0.5,
+      0.0,
+      4.6
+    ],
+    "yaw": 180.0
+  },
+  {
+    "name": "B2_E03_Ops_Decontamination_10",
+    "parent": "Decontamination",
+    "position": [
+      89.2,
+      -34.0,
+      -34.8
+    ],
+    "local": [
+      -4.8,
+      0.0,
+      -2.8
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_E03_Ops_SealedReturns_11",
+    "parent": "SealedReturns",
+    "position": [
+      96.9,
+      -34.0,
+      -31.0
+    ],
+    "local": [
+      2.9,
+      0.0,
+      1.0
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_E03_Ops_PPE_12",
+    "parent": "PPE",
+    "position": [
+      89.3,
+      -34.0,
+      -29.2
+    ],
+    "local": [
+      -4.7,
+      0.0,
+      2.8
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_E03_Ops_WetHeader_13",
+    "parent": "WetHeader",
+    "position": [
+      98.0,
+      -34.0,
+      -36.4
+    ],
+    "local": [
+      4.0,
+      0.0,
+      -4.4
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_E03_Ops_ServiceCart_14",
+    "parent": "ServiceCart",
+    "position": [
+      90.6,
+      -34.0,
+      -27.4
+    ],
+    "local": [
+      -3.4,
+      0.0,
+      4.6
+    ],
+    "yaw": 180.0
+  },
+  {
+    "name": "B2_N01_Ops_FanBankA_01",
+    "parent": "FanBankA",
+    "position": [
+      -3.0,
+      -34.0,
+      73.5
+    ],
+    "local": [
+      -3.0,
+      0.0,
+      -2.5
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_N01_Ops_FanBankA_02",
+    "parent": "FanBankA",
+    "position": [
+      -3.0,
+      -34.0,
+      76.2
+    ],
+    "local": [
+      -3.0,
+      0.0,
+      0.2
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_N01_Ops_FanBankA_03",
+    "parent": "FanBankA",
+    "position": [
+      -3.0,
+      -34.0,
+      78.9
+    ],
+    "local": [
+      -3.0,
+      0.0,
+      2.9
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_N01_Ops_FanBankB_04",
+    "parent": "FanBankB",
+    "position": [
+      3.0,
+      -34.0,
+      73.5
+    ],
+    "local": [
+      3.0,
+      0.0,
+      -2.5
+    ],
+    "yaw": 270.0
+  },
+  {
+    "name": "B2_N01_Ops_FanBankB_05",
+    "parent": "FanBankB",
+    "position": [
+      3.0,
+      -34.0,
+      76.2
+    ],
+    "local": [
+      3.0,
+      0.0,
+      0.2
+    ],
+    "yaw": 270.0
+  },
+  {
+    "name": "B2_N01_Ops_FanBankB_06",
+    "parent": "FanBankB",
+    "position": [
+      3.0,
+      -34.0,
+      78.9
+    ],
+    "local": [
+      3.0,
+      0.0,
+      2.9
+    ],
+    "yaw": 270.0
+  },
+  {
+    "name": "B2_N01_Ops_IntakeFilters_07",
+    "parent": "IntakeFilters",
+    "position": [
+      -3.0,
+      -34.0,
+      82.0
+    ],
+    "local": [
+      -3.0,
+      0.0,
+      6.0
+    ],
+    "yaw": 180.0
+  },
+  {
+    "name": "B2_N01_Ops_IntakeFilters_08",
+    "parent": "IntakeFilters",
+    "position": [
+      0.0,
+      -34.0,
+      82.0
+    ],
+    "local": [
+      0.0,
+      0.0,
+      6.0
+    ],
+    "yaw": 180.0
+  },
+  {
+    "name": "B2_N01_Ops_IntakeFilters_09",
+    "parent": "IntakeFilters",
+    "position": [
+      3.0,
+      -34.0,
+      82.0
+    ],
+    "local": [
+      3.0,
+      0.0,
+      6.0
+    ],
+    "yaw": 180.0
+  },
+  {
+    "name": "B2_N01_Ops_DriveControls_10",
+    "parent": "DriveControls",
+    "position": [
+      -3.0,
+      -34.0,
+      70.0
+    ],
+    "local": [
+      -3.0,
+      0.0,
+      -6.0
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_N01_Ops_DriveControls_11",
+    "parent": "DriveControls",
+    "position": [
+      3.0,
+      -34.0,
+      70.0
+    ],
+    "local": [
+      3.0,
+      0.0,
+      -6.0
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_N01_Ops_ServiceSpares_12",
+    "parent": "ServiceSpares",
+    "position": [
+      -6.0,
+      -34.0,
+      76.2
+    ],
+    "local": [
+      -6.0,
+      0.0,
+      0.2
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_N01_Ops_ServiceSpares_13",
+    "parent": "ServiceSpares",
+    "position": [
+      6.0,
+      -34.0,
+      76.2
+    ],
+    "local": [
+      6.0,
+      0.0,
+      0.2
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_N01_Ops_ServiceBenches_14",
+    "parent": "ServiceBenches",
+    "position": [
+      -6.0,
+      -34.0,
+      79.4
+    ],
+    "local": [
+      -6.0,
+      0.0,
+      3.4
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_N01_Ops_ServiceBenches_15",
+    "parent": "ServiceBenches",
+    "position": [
+      6.0,
+      -34.0,
+      79.4
+    ],
+    "local": [
+      6.0,
+      0.0,
+      3.4
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_N01_Ops_DuctEquipment_16",
+    "parent": "DuctEquipment",
+    "position": [
+      -6.0,
+      -34.0,
+      72.8
+    ],
+    "local": [
+      -6.0,
+      0.0,
+      -3.2
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_N01_Ops_DuctEquipment_17",
+    "parent": "DuctEquipment",
+    "position": [
+      6.0,
+      -34.0,
+      72.8
+    ],
+    "local": [
+      6.0,
+      0.0,
+      -3.2
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_N01_Ops_ToolBay_18",
+    "parent": "ToolBay",
+    "position": [
+      0.0,
+      -34.0,
+      84.2
+    ],
+    "local": [
+      0.0,
+      0.0,
+      8.2
+    ],
+    "yaw": 180.0
+  },
+  {
+    "name": "B2_S01_Ops_DiagnosticBench_01",
+    "parent": "DiagnosticBench",
+    "position": [
+      -3.0,
+      -34.0,
+      -76.0
+    ],
+    "local": [
+      -3.0,
+      0.0,
+      0.0
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_S01_Ops_DiagnosticBench_02",
+    "parent": "DiagnosticBench",
+    "position": [
+      -3.0,
+      -34.0,
+      -78.8
+    ],
+    "local": [
+      -3.0,
+      0.0,
+      -2.8
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_S01_Ops_DiagnosticBench_03",
+    "parent": "DiagnosticBench",
+    "position": [
+      3.0,
+      -34.0,
+      -76.0
+    ],
+    "local": [
+      3.0,
+      0.0,
+      0.0
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_S01_Ops_DiagnosticBench_04",
+    "parent": "DiagnosticBench",
+    "position": [
+      3.0,
+      -34.0,
+      -78.8
+    ],
+    "local": [
+      3.0,
+      0.0,
+      -2.8
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_S01_Ops_TestMotors_05",
+    "parent": "TestMotors",
+    "position": [
+      -2.7,
+      -33.015,
+      -75.88
+    ],
+    "local": [
+      -2.7,
+      0.985,
+      0.12
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_S01_Ops_TestMotors_06",
+    "parent": "TestMotors",
+    "position": [
+      -2.7,
+      -33.015,
+      -78.68
+    ],
+    "local": [
+      -2.7,
+      0.985,
+      -2.68
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_S01_Ops_TestMotors_07",
+    "parent": "TestMotors",
+    "position": [
+      3.3,
+      -33.015,
+      -75.88
+    ],
+    "local": [
+      3.3,
+      0.985,
+      0.12
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_S01_Ops_TestMotors_08",
+    "parent": "TestMotors",
+    "position": [
+      3.3,
+      -33.015,
+      -78.68
+    ],
+    "local": [
+      3.3,
+      0.985,
+      -2.68
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_S01_Ops_StatusStation_09",
+    "parent": "StatusStation",
+    "position": [
+      -1.8,
+      -34.0,
+      -71.0
+    ],
+    "local": [
+      -1.8,
+      0.0,
+      5.0
+    ],
+    "yaw": 180.0
+  },
+  {
+    "name": "B2_S01_Ops_StatusStation_10",
+    "parent": "StatusStation",
+    "position": [
+      0.0,
+      -34.0,
+      -71.0
+    ],
+    "local": [
+      0.0,
+      0.0,
+      5.0
+    ],
+    "yaw": 180.0
+  },
+  {
+    "name": "B2_S01_Ops_StatusStation_11",
+    "parent": "StatusStation",
+    "position": [
+      1.8,
+      -34.0,
+      -71.0
+    ],
+    "local": [
+      1.8,
+      0.0,
+      5.0
+    ],
+    "yaw": 180.0
+  },
+  {
+    "name": "B2_S01_Ops_TestPower_12",
+    "parent": "TestPower",
+    "position": [
+      -3.0,
+      -34.0,
+      -82.0
+    ],
+    "local": [
+      -3.0,
+      0.0,
+      -6.0
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_S01_Ops_TestPower_13",
+    "parent": "TestPower",
+    "position": [
+      3.0,
+      -34.0,
+      -82.0
+    ],
+    "local": [
+      3.0,
+      0.0,
+      -6.0
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_S01_Ops_Tools_14",
+    "parent": "Tools",
+    "position": [
+      -6.0,
+      -34.0,
+      -76.0
+    ],
+    "local": [
+      -6.0,
+      0.0,
+      0.0
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_S01_Ops_Tools_15",
+    "parent": "Tools",
+    "position": [
+      6.0,
+      -34.0,
+      -76.0
+    ],
+    "local": [
+      6.0,
+      0.0,
+      0.0
+    ],
+    "yaw": 90.0
+  },
+  {
+    "name": "B2_S01_Ops_IncomingRepair_16",
+    "parent": "IncomingRepair",
+    "position": [
+      -5.0,
+      -34.0,
+      -72.0
+    ],
+    "local": [
+      -5.0,
+      0.0,
+      4.0
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_S01_Ops_IncomingRepair_17",
+    "parent": "IncomingRepair",
+    "position": [
+      -3.5,
+      -34.0,
+      -72.0
+    ],
+    "local": [
+      -3.5,
+      0.0,
+      4.0
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_S01_Ops_ReleasedRepair_18",
+    "parent": "ReleasedRepair",
+    "position": [
+      5.0,
+      -34.0,
+      -73.0
+    ],
+    "local": [
+      5.0,
+      0.0,
+      3.0
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_S01_Ops_ReleasedRepair_19",
+    "parent": "ReleasedRepair",
+    "position": [
+      6.4,
+      -34.0,
+      -73.0
+    ],
+    "local": [
+      6.4,
+      0.0,
+      3.0
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_S01_Ops_Recording_20",
+    "parent": "Recording",
+    "position": [
+      -1.8,
+      -34.0,
+      -83.0
+    ],
+    "local": [
+      -1.8,
+      0.0,
+      -7.0
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_S01_Ops_Recording_21",
+    "parent": "Recording",
+    "position": [
+      -0.6,
+      -34.0,
+      -83.0
+    ],
+    "local": [
+      -0.6,
+      0.0,
+      -7.0
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_S01_Ops_Backup_22",
+    "parent": "Backup",
+    "position": [
+      1.2,
+      -34.0,
+      -83.0
+    ],
+    "local": [
+      1.2,
+      0.0,
+      -7.0
+    ],
+    "yaw": 0.0
+  },
+  {
+    "name": "B2_S01_Ops_ServiceGas_23",
+    "parent": "ServiceGas",
+    "position": [
+      6.0,
+      -34.0,
+      -79.5
+    ],
+    "local": [
+      6.0,
+      0.0,
+      -3.5
+    ],
+    "yaw": 0.0
+  }
+]

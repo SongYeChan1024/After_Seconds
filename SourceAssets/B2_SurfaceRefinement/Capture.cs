@@ -1,0 +1,15 @@
+using System;using System.IO;using System.Linq;using UnityEngine;using UnityEditor;using UnityEditor.SceneManagement;using UnityEngine.SceneManagement;using UnityEngine.Rendering.Universal;
+public static class BRCapture {
+ static string R=>Path.GetFullPath(Path.Combine(Application.dataPath,"../../.."));static string O=>R+"/Docs/Review/2026-11-10_B2_SurfaceRefinement/";
+ static void Shot(string n,Vector3 p,Vector3 t,float fov=72,bool inspectionLight=false){var g=new GameObject("BR_ReviewCamera"){hideFlags=HideFlags.HideAndDontSave};var c=g.AddComponent<Camera>();c.transform.position=p;c.transform.LookAt(t);if(inspectionLight){var light=g.AddComponent<Light>();light.type=LightType.Spot;light.color=new Color(1,.87f,.72f);light.intensity=4;light.range=7;light.spotAngle=85;light.shadows=LightShadows.Soft;}c.nearClipPlane=.04f;c.farClipPlane=180;c.fieldOfView=fov;c.useOcclusionCulling=false;c.GetUniversalAdditionalCameraData().renderPostProcessing=false;var rt=new RenderTexture(1440,900,24){antiAliasing=4};var old=RenderTexture.active;Texture2D tex=null;try{c.targetTexture=rt;c.Render();RenderTexture.active=rt;tex=new Texture2D(1440,900,TextureFormat.RGB24,false);tex.ReadPixels(new Rect(0,0,1440,900),0,0);tex.Apply();File.WriteAllBytes(O+n+".png",tex.EncodeToPNG());}finally{RenderTexture.active=old;c.targetTexture=null;if(tex)UnityEngine.Object.DestroyImmediate(tex);UnityEngine.Object.DestroyImmediate(rt);UnityEngine.Object.DestroyImmediate(g);}}
+ public static object Details(){Directory.CreateDirectory(O);Shot("detail_console",new Vector3(-23.3f,-32.5f,2.8f),new Vector3(-25.5f,-33.0f,2.8f),53,true);Shot("detail_lubrication",new Vector3(-12.8f,-32.4f,2.8f),new Vector3(-10.1f,-33,2.8f),60,true);Shot("detail_floor",new Vector3(17.5f,-32.4f,-4.2f),new Vector3(16.8f,-34,-2.8f),67,true);Shot("detail_stair",new Vector3(14.2f,-32.3f,-4.2f),new Vector3(13.6f,-30.7f,-.5f),68,true);return "4 close-ups with temporary inspection light, removed after capture";} public static object Before()=>Run("before");public static object After()=>Run("after");
+ static object Run(string p){var s=SceneManager.GetActiveScene();if(s.isDirty||Application.isPlaying||!s.path.EndsWith("Level_B2_Circular.unity"))throw new Exception("Saved B2 required");Directory.CreateDirectory(O);var player=s.GetRootGameObjects().Single(g=>g.name.StartsWith("Player"));bool on=player.activeSelf;player.SetActive(false);try{
+ Shot(p+"_console",new Vector3(-22.5f,-32.4f,2.8f),new Vector3(-25.5f,-32.95f,2.8f),55);
+ Shot(p+"_C01",new Vector3(-18,-32.35f,-10),new Vector3(-18,-32.4f,1));
+ Shot(p+"_C02_parts",new Vector3(19,-32.35f,-9.5f),new Vector3(14,-33,-5.6f));
+ Shot(p+"_C02",new Vector3(18.9f,-32.35f,-6.5f),new Vector3(19,-32,4));
+ Shot(p+"_C02_upper",new Vector3(13,-28.75f,3.8f),new Vector3(18,-30.4f,6.6f));
+ Shot(p+"_C04",new Vector3(14,-32.35f,-20),new Vector3(14,-32.8f,-29));
+ Shot(p+"_floor",new Vector3(18.5f,-32.35f,-3),new Vector3(17.2f,-34,-1));
+ }finally{player.SetActive(on);EditorSceneManager.OpenScene(s.path);}return new{prefix=p,images=7};}
+}

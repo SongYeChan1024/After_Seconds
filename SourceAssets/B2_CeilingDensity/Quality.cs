@@ -1,0 +1,10 @@
+using System;using System.IO;using System.Linq;using System.Collections.Generic;using UnityEngine;using UnityEditor;using UnityEditor.SceneManagement;using UnityEngine.SceneManagement;using Newtonsoft.Json;using Newtonsoft.Json.Linq;
+public static class CDQuality {
+ static string R=>Path.GetFullPath(Path.Combine(Application.dataPath,"../../.."));static string H=>R+"/SourceAssets/B2_CeilingDensity/";static string O=>R+"/Docs/Review/2026-11-10_B2_CeilingDensity/";
+ public static object Run(){var s=SceneManager.GetActiveScene();if(s.isDirty||Application.isPlaying)throw new Exception("Saved edit mode required");var plan=JObject.Parse(File.ReadAllText(H+"plan.json"));var shell=new List<object>();var pair=new List<object>();var scaled=new List<object>();
+ foreach(var row in plan["rooms"]){string id=(string)row["id"];float radius=(float)row["r"];var room=GameObject.Find("B2_"+id+"_Operations").transform;
+ foreach(var root in room.Cast<Transform>().Where(t=>t.name.StartsWith("CD_")&&!t.name.Contains("_CD_"))){int outside=0;float worst=0;Vector3 at=Vector3.zero;foreach(var mf in root.GetComponentsInChildren<MeshFilter>().Where(f=>!f.transform.name.Contains("Far")&&!f.transform.name.Contains("Distance"))){foreach(var v in mf.sharedMesh.vertices){var p=room.InverseTransformPoint(mf.transform.TransformPoint(v));float err=p.magnitude-radius;if(err>0.12f){outside++;if(err>worst){worst=err;at=p;}}}}shell.Add(new{id,name=root.name,outside,worst,at=at.ToString()});}
+ foreach(var p in plan["placements"].Where(p=>(string)p["room"]==id&&p["relative_scale"]!=null)){var g=GameObject.Find((string)p["name"]);var b=g.GetComponentsInChildren<Renderer>().First(r=>r.enabled).bounds;scaled.Add(new{name=g.name,scale=g.transform.localScale.x,height=b.size.y,colliders=g.GetComponentsInChildren<Collider>().Count(c=>c.enabled),lods=g.GetComponentsInChildren<LODGroup>().Length});}
+ }
+ var result=new{shell,scaled};File.WriteAllText(O+"geometry.json",JsonConvert.SerializeObject(result,Formatting.Indented));return new{scaled=scaled.Count,checkedAssemblies=shell.Count,report=O+"geometry.json"};}
+}

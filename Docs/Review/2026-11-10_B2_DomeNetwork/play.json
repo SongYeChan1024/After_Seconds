@@ -1,0 +1,64 @@
+{
+  "complete": true,
+  "results": [
+    {
+      "stage": 0,
+      "name": "T14 crouch portal into E01 deck",
+      "passed": true,
+      "frames": 377,
+      "distance": 4.262384,
+      "rise": 1.2349987,
+      "maxRise": 1.23500061,
+      "minRise": 0.0,
+      "crouching": true,
+      "standBlocked": true,
+      "grounded": true,
+      "moveEvents": 1
+    },
+    {
+      "stage": 1,
+      "name": "E02 interior stair ascent",
+      "passed": true,
+      "frames": 442,
+      "distance": 8.563088,
+      "rise": 3.65500069,
+      "maxRise": 3.65500259,
+      "minRise": 0.0,
+      "crouching": false,
+      "standBlocked": false,
+      "grounded": true,
+      "moveEvents": 2
+    },
+    {
+      "stage": 2,
+      "name": "E02 descent into T16 upper",
+      "passed": true,
+      "frames": 385,
+      "distance": 6.125319,
+      "rise": -1.12500191,
+      "maxRise": 0.0550003052,
+      "minRise": -1.1253643,
+      "crouching": true,
+      "standBlocked": false,
+      "grounded": true,
+      "moveEvents": 3
+    },
+    {
+      "stage": 3,
+      "name": "T14 lower standing bypass",
+      "passed": true,
+      "frames": 391,
+      "distance": 14.0072823,
+      "rise": 0.0550003052,
+      "maxRise": 0.05500412,
+      "minRise": 0.0,
+      "crouching": false,
+      "standBlocked": false,
+      "grounded": true,
+      "moveEvents": 4
+    }
+  ],
+  "errors": [],
+  "mouse": true,
+  "keyboard": true
+}

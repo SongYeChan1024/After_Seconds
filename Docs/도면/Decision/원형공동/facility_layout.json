@@ -1,8 +1,8 @@
 {
-  "title": "After Seconds 원형 공동 제작 설계 V0.06",
+  "title": "After Seconds 원형 공동 제작 설계 V0.09",
   "author": "송예찬",
-  "date": "2026-11-09",
-  "status": "B5/B4 역할 및 B3 보수 유지 / B2 전체 연결과 원형 배관 통로 실제 배치 반영",
+  "date": "2026-11-10",
+  "status": "사용자 확정 B안·세 코어 자유 상행·지속 상태·발각/경보·도입 컷씬·준비 실패 / 기획 동기화·게임 기능 미구현",
   "coordinate": "공통 원점. X=동쪽, v=남쪽, Unity Z=-v. 각 층 루트 Y는 층별 표. 모든 장비 좌표는 층 루트 기준. yaw 0=북,90=동.",
   "floors": [
     {
@@ -15130,7 +15130,13 @@
       "riser": 0.2,
       "tread": 0.28,
       "type": "계단",
-      "note": "주 진행 연결 가안. 다른 층으로 연속 우회하지 않도록 출입 구획 필요."
+      "note": "VA·VB·VL 자유 선택. 선택한 코어의 같은 자리·방향으로 바로 위층에 도착한다. 하행 불가이며 수집·무장 조건을 상행에 강제하지 않는다.",
+      "design_status": "상행 연결과 자유 선택 확정. 논리 연결 명세이며 실제 층간 전환은 미구현.",
+      "implementation_status": "씬 전환·도착 검증·상태 전달 후속 구현",
+      "direction": "up_only",
+      "selectable": true,
+      "required_sequence": false,
+      "geometry_status": "기존 수치는 초기 설계 이력이며 현행 씬 실측값이 아님. 새 계단 연결의 null 치수는 미측정. 실제 계단·캐빈은 층간_코어_연결_대조.md와 후속 씬 검수를 따른다."
     },
     {
       "id": "V02",
@@ -15145,7 +15151,13 @@
       "riser": 0.1889,
       "tread": 0.28,
       "type": "계단",
-      "note": "주 진행 연결 가안. 다른 층으로 연속 우회하지 않도록 출입 구획 필요."
+      "note": "VA·VB·VL 자유 선택. 선택한 코어의 같은 자리·방향으로 바로 위층에 도착한다. 하행 불가이며 수집·무장 조건을 상행에 강제하지 않는다.",
+      "design_status": "상행 연결과 자유 선택 확정. 논리 연결 명세이며 실제 층간 전환은 미구현.",
+      "implementation_status": "씬 전환·도착 검증·상태 전달 후속 구현",
+      "direction": "up_only",
+      "selectable": true,
+      "required_sequence": false,
+      "geometry_status": "기존 수치는 초기 설계 이력이며 현행 씬 실측값이 아님. 새 계단 연결의 null 치수는 미측정. 실제 계단·캐빈은 층간_코어_연결_대조.md와 후속 씬 검수를 따른다."
     },
     {
       "id": "V03",
@@ -15160,7 +15172,13 @@
       "riser": null,
       "tread": null,
       "type": "승강기",
-      "note": "주 진행 연결 가안. 다른 층으로 연속 우회하지 않도록 출입 구획 필요."
+      "note": "VA·VB·VL 자유 선택. 선택한 코어의 같은 자리·방향으로 바로 위층에 도착한다. 하행 불가이며 수집·무장 조건을 상행에 강제하지 않는다.",
+      "design_status": "상행 연결과 자유 선택 확정. 논리 연결 명세이며 실제 층간 전환은 미구현.",
+      "implementation_status": "씬 전환·도착 검증·상태 전달 후속 구현",
+      "direction": "up_only",
+      "selectable": true,
+      "required_sequence": false,
+      "geometry_status": "기존 수치는 초기 설계 이력이며 현행 씬 실측값이 아님. 새 계단 연결의 null 치수는 미측정. 실제 계단·캐빈은 층간_코어_연결_대조.md와 후속 씬 검수를 따른다."
     },
     {
       "id": "V04",
@@ -15175,7 +15193,13 @@
       "riser": 0.2,
       "tread": 0.28,
       "type": "계단",
-      "note": "주 진행 연결 가안. 다른 층으로 연속 우회하지 않도록 출입 구획 필요."
+      "note": "VA·VB·VL 자유 선택. 선택한 코어의 같은 자리·방향으로 바로 위층에 도착한다. 하행 불가이며 수집·무장 조건을 상행에 강제하지 않는다.",
+      "design_status": "상행 연결과 자유 선택 확정. 논리 연결 명세이며 실제 층간 전환은 미구현.",
+      "implementation_status": "씬 전환·도착 검증·상태 전달 후속 구현",
+      "direction": "up_only",
+      "selectable": true,
+      "required_sequence": false,
+      "geometry_status": "기존 수치는 초기 설계 이력이며 현행 씬 실측값이 아님. 새 계단 연결의 null 치수는 미측정. 실제 계단·캐빈은 층간_코어_연결_대조.md와 후속 씬 검수를 따른다."
     },
     {
       "id": "V05",
@@ -15190,7 +15214,223 @@
       "riser": 0.2,
       "tread": 0.28,
       "type": "계단",
-      "note": "주 진행 연결 가안. 다른 층으로 연속 우회하지 않도록 출입 구획 필요."
+      "note": "VA·VB·VL 자유 선택. 선택한 코어의 같은 자리·방향으로 바로 위층에 도착한다. 하행 불가이며 수집·무장 조건을 상행에 강제하지 않는다.",
+      "design_status": "상행 연결과 자유 선택 확정. 논리 연결 명세이며 실제 층간 전환은 미구현.",
+      "implementation_status": "씬 전환·도착 검증·상태 전달 후속 구현",
+      "direction": "up_only",
+      "selectable": true,
+      "required_sequence": false,
+      "geometry_status": "기존 수치는 초기 설계 이력이며 현행 씬 실측값이 아님. 새 계단 연결의 null 치수는 미측정. 실제 계단·캐빈은 층간_코어_연결_대조.md와 후속 씬 검수를 따른다."
+    },
+    {
+      "id": "V06",
+      "lower": "B5",
+      "upper": "B4",
+      "core": "VB",
+      "x": 44,
+      "v": 28,
+      "rise": 16,
+      "steps": null,
+      "flights": null,
+      "riser": null,
+      "tread": null,
+      "type": "계단",
+      "direction": "up_only",
+      "selectable": true,
+      "required_sequence": false,
+      "note": "VA·VB·VL 자유 선택. 선택한 코어의 같은 자리·방향으로 바로 위층에 도착한다. 하행 불가이며 수집·무장 조건을 상행에 강제하지 않는다.",
+      "design_status": "상행 연결과 자유 선택 확정. 논리 연결 명세이며 실제 층간 전환은 미구현.",
+      "geometry_status": "기존 수치는 초기 설계 이력이며 현행 씬 실측값이 아님. 새 계단 연결의 null 치수는 미측정. 실제 계단·캐빈은 층간_코어_연결_대조.md와 후속 씬 검수를 따른다.",
+      "implementation_status": "씬 전환·도착 검증·상태 전달 후속 구현"
+    },
+    {
+      "id": "V07",
+      "lower": "B5",
+      "upper": "B4",
+      "core": "VL",
+      "x": 44,
+      "v": -28,
+      "rise": 16,
+      "steps": 0,
+      "flights": 0,
+      "riser": null,
+      "tread": null,
+      "type": "승강기",
+      "direction": "up_only",
+      "selectable": true,
+      "required_sequence": false,
+      "note": "VA·VB·VL 자유 선택. 선택한 코어의 같은 자리·방향으로 바로 위층에 도착한다. 하행 불가이며 수집·무장 조건을 상행에 강제하지 않는다.",
+      "design_status": "상행 연결과 자유 선택 확정. 논리 연결 명세이며 실제 층간 전환은 미구현.",
+      "geometry_status": "기존 수치는 초기 설계 이력이며 현행 씬 실측값이 아님. 새 계단 연결의 null 치수는 미측정. 실제 계단·캐빈은 층간_코어_연결_대조.md와 후속 씬 검수를 따른다.",
+      "implementation_status": "씬 전환·도착 검증·상태 전달 후속 구현"
+    },
+    {
+      "id": "V08",
+      "lower": "B4",
+      "upper": "B3",
+      "core": "VA",
+      "x": -44,
+      "v": -28,
+      "rise": 17,
+      "steps": null,
+      "flights": null,
+      "riser": null,
+      "tread": null,
+      "type": "계단",
+      "direction": "up_only",
+      "selectable": true,
+      "required_sequence": false,
+      "note": "VA·VB·VL 자유 선택. 선택한 코어의 같은 자리·방향으로 바로 위층에 도착한다. 하행 불가이며 수집·무장 조건을 상행에 강제하지 않는다.",
+      "design_status": "상행 연결과 자유 선택 확정. 논리 연결 명세이며 실제 층간 전환은 미구현.",
+      "geometry_status": "기존 수치는 초기 설계 이력이며 현행 씬 실측값이 아님. 새 계단 연결의 null 치수는 미측정. 실제 계단·캐빈은 층간_코어_연결_대조.md와 후속 씬 검수를 따른다.",
+      "implementation_status": "씬 전환·도착 검증·상태 전달 후속 구현"
+    },
+    {
+      "id": "V09",
+      "lower": "B4",
+      "upper": "B3",
+      "core": "VL",
+      "x": 44,
+      "v": -28,
+      "rise": 17,
+      "steps": 0,
+      "flights": 0,
+      "riser": null,
+      "tread": null,
+      "type": "승강기",
+      "direction": "up_only",
+      "selectable": true,
+      "required_sequence": false,
+      "note": "VA·VB·VL 자유 선택. 선택한 코어의 같은 자리·방향으로 바로 위층에 도착한다. 하행 불가이며 수집·무장 조건을 상행에 강제하지 않는다.",
+      "design_status": "상행 연결과 자유 선택 확정. 논리 연결 명세이며 실제 층간 전환은 미구현.",
+      "geometry_status": "기존 수치는 초기 설계 이력이며 현행 씬 실측값이 아님. 새 계단 연결의 null 치수는 미측정. 실제 계단·캐빈은 층간_코어_연결_대조.md와 후속 씬 검수를 따른다.",
+      "implementation_status": "씬 전환·도착 검증·상태 전달 후속 구현"
+    },
+    {
+      "id": "V10",
+      "lower": "B3",
+      "upper": "B2",
+      "core": "VA",
+      "x": -44,
+      "v": -28,
+      "rise": 15,
+      "steps": null,
+      "flights": null,
+      "riser": null,
+      "tread": null,
+      "type": "계단",
+      "direction": "up_only",
+      "selectable": true,
+      "required_sequence": false,
+      "note": "VA·VB·VL 자유 선택. 선택한 코어의 같은 자리·방향으로 바로 위층에 도착한다. 하행 불가이며 수집·무장 조건을 상행에 강제하지 않는다.",
+      "design_status": "상행 연결과 자유 선택 확정. 논리 연결 명세이며 실제 층간 전환은 미구현.",
+      "geometry_status": "기존 수치는 초기 설계 이력이며 현행 씬 실측값이 아님. 새 계단 연결의 null 치수는 미측정. 실제 계단·캐빈은 층간_코어_연결_대조.md와 후속 씬 검수를 따른다.",
+      "implementation_status": "씬 전환·도착 검증·상태 전달 후속 구현"
+    },
+    {
+      "id": "V11",
+      "lower": "B3",
+      "upper": "B2",
+      "core": "VB",
+      "x": 44,
+      "v": 28,
+      "rise": 15,
+      "steps": null,
+      "flights": null,
+      "riser": null,
+      "tread": null,
+      "type": "계단",
+      "direction": "up_only",
+      "selectable": true,
+      "required_sequence": false,
+      "note": "VA·VB·VL 자유 선택. 선택한 코어의 같은 자리·방향으로 바로 위층에 도착한다. 하행 불가이며 수집·무장 조건을 상행에 강제하지 않는다.",
+      "design_status": "상행 연결과 자유 선택 확정. 논리 연결 명세이며 실제 층간 전환은 미구현.",
+      "geometry_status": "기존 수치는 초기 설계 이력이며 현행 씬 실측값이 아님. 새 계단 연결의 null 치수는 미측정. 실제 계단·캐빈은 층간_코어_연결_대조.md와 후속 씬 검수를 따른다.",
+      "implementation_status": "씬 전환·도착 검증·상태 전달 후속 구현"
+    },
+    {
+      "id": "V12",
+      "lower": "B2",
+      "upper": "B1",
+      "core": "VB",
+      "x": 44,
+      "v": 28,
+      "rise": 16,
+      "steps": null,
+      "flights": null,
+      "riser": null,
+      "tread": null,
+      "type": "계단",
+      "direction": "up_only",
+      "selectable": true,
+      "required_sequence": false,
+      "note": "VA·VB·VL 자유 선택. 선택한 코어의 같은 자리·방향으로 바로 위층에 도착한다. 하행 불가이며 수집·무장 조건을 상행에 강제하지 않는다.",
+      "design_status": "상행 연결과 자유 선택 확정. 논리 연결 명세이며 실제 층간 전환은 미구현.",
+      "geometry_status": "기존 수치는 초기 설계 이력이며 현행 씬 실측값이 아님. 새 계단 연결의 null 치수는 미측정. 실제 계단·캐빈은 층간_코어_연결_대조.md와 후속 씬 검수를 따른다.",
+      "implementation_status": "씬 전환·도착 검증·상태 전달 후속 구현"
+    },
+    {
+      "id": "V13",
+      "lower": "B2",
+      "upper": "B1",
+      "core": "VL",
+      "x": 44,
+      "v": -28,
+      "rise": 16,
+      "steps": 0,
+      "flights": 0,
+      "riser": null,
+      "tread": null,
+      "type": "승강기",
+      "direction": "up_only",
+      "selectable": true,
+      "required_sequence": false,
+      "note": "VA·VB·VL 자유 선택. 선택한 코어의 같은 자리·방향으로 바로 위층에 도착한다. 하행 불가이며 수집·무장 조건을 상행에 강제하지 않는다.",
+      "design_status": "상행 연결과 자유 선택 확정. 논리 연결 명세이며 실제 층간 전환은 미구현.",
+      "geometry_status": "기존 수치는 초기 설계 이력이며 현행 씬 실측값이 아님. 새 계단 연결의 null 치수는 미측정. 실제 계단·캐빈은 층간_코어_연결_대조.md와 후속 씬 검수를 따른다.",
+      "implementation_status": "씬 전환·도착 검증·상태 전달 후속 구현"
+    },
+    {
+      "id": "V14",
+      "lower": "B1",
+      "upper": "1F",
+      "core": "VA",
+      "x": -44,
+      "v": -28,
+      "rise": 18,
+      "steps": null,
+      "flights": null,
+      "riser": null,
+      "tread": null,
+      "type": "계단",
+      "direction": "up_only",
+      "selectable": true,
+      "required_sequence": false,
+      "note": "VA·VB·VL 자유 선택. 선택한 코어의 같은 자리·방향으로 바로 위층에 도착한다. 하행 불가이며 수집·무장 조건을 상행에 강제하지 않는다.",
+      "design_status": "상행 연결과 자유 선택 확정. 논리 연결 명세이며 실제 층간 전환은 미구현.",
+      "geometry_status": "기존 수치는 초기 설계 이력이며 현행 씬 실측값이 아님. 새 계단 연결의 null 치수는 미측정. 실제 계단·캐빈은 층간_코어_연결_대조.md와 후속 씬 검수를 따른다.",
+      "implementation_status": "씬 전환·도착 검증·상태 전달 후속 구현"
+    },
+    {
+      "id": "V15",
+      "lower": "B1",
+      "upper": "1F",
+      "core": "VL",
+      "x": 44,
+      "v": -28,
+      "rise": 18,
+      "steps": 0,
+      "flights": 0,
+      "riser": null,
+      "tread": null,
+      "type": "승강기",
+      "direction": "up_only",
+      "selectable": true,
+      "required_sequence": false,
+      "note": "VA·VB·VL 자유 선택. 선택한 코어의 같은 자리·방향으로 바로 위층에 도착한다. 하행 불가이며 수집·무장 조건을 상행에 강제하지 않는다.",
+      "design_status": "상행 연결과 자유 선택 확정. 논리 연결 명세이며 실제 층간 전환은 미구현.",
+      "geometry_status": "기존 수치는 초기 설계 이력이며 현행 씬 실측값이 아님. 새 계단 연결의 null 치수는 미측정. 실제 계단·캐빈은 층간_코어_연결_대조.md와 후속 씬 검수를 따른다.",
+      "implementation_status": "씬 전환·도착 검증·상태 전달 후속 구현"
     }
   ],
   "placements": [
@@ -89912,7 +90152,7 @@
         "B1-N01"
       ],
       "props": "표적·카메라·타임코드·바닥 눈금·투척물",
-      "note": "3초 지연과 궤적 관측을 보여 주는 장비"
+      "note": "명중 후 3초 교환과 궤적 관측을 보여 주는 장비. 투척 자체는 즉시 출발하는 B안 기준."
     },
     {
       "role": "연구원",
@@ -90228,8 +90468,8 @@
       "https://www.cat.com/en_US/products/new/power-systems/electric-power/diesel-generator-sets.html"
     ]
   },
-  "brief": "외딴 폐공장 아래 비윤리적 인체실험 시설. 미래시 개발에 실패한 실험체가 플레이어. 확인된 능력 표현은 투척 3초 지연과 예상 궤적·목표 지점 확인. 상호작용 전체의 적용 범위와 기존 교환 규칙과의 관계는 추후 확인한다.",
-  "version": "V0.06",
+  "brief": "외딴 폐공장 아래 비윤리적 인체실험 시설. 피험체 S-03이 B5에서 1F까지 잠입·탐색하며 탈출한다. 사용자 확정 B안: 투척·직접 제압은 즉시, 유효 명중 후 위치 교환만 3초 뒤. 교환 예지의 표현 범위는 UI/UX 상세 설계에서 정한다. 현행 규칙은 메인 기획서 2·4·5장을 따른다.",
+  "version": "V0.12",
   "source_revision": {
     "AfterSeconds_시설생활_프랍배치.xlsx": "724f518da71e4c1b466bbdddee23818203cc1d4b1abef782f2599de515b09150",
     "AfterSeconds_층별원형공동_설계도면.pdf": "d152ef2562535f425700509dca17a2eac1b88bd0c498b476f201da12440882e3",
@@ -90277,7 +90517,22 @@
       "accent": "#AA3635",
       "light": "#FF4940",
       "ambient": 0.13,
-      "description": "붉은 상시 보조등. 계단·밸브에는 중성 작업광. 경보 표현은 별도."
+      "description": "어두운 붉은 보조등과 철색 설비. 하부는 사용감 있는 산업용 콘크리트, 상부는 개방 철제 그레이팅. 조작부는 비교적 관리되고 바닥·계단·가장자리는 먼지·기름때·마모가 남는다.",
+      "ground_finish": "industrial concrete / aggregate, old oil marks, edge dust, sparse boot smears",
+      "upper_finish": "open steel grating / scuffed stair centres, oxidised edges",
+      "floor_guidance": false,
+      "reference_images": [
+        "Docs/Reference/B2/1e39fac6a5b023db0459a0977b75e5f2.jpg",
+        "Docs/Reference/B2/3b3e427bff572956e2359e37920e4de5.jpg",
+        "Docs/Reference/B2/6d2cbbe9d0a3b9d3eb75ad494d18aee5.jpg",
+        "Docs/Reference/B2/925da2ef7b080a0feffd7b95233dc77e.jpg",
+        "Docs/Reference/B2/a32492fc4eb5c4f1a30cd7a2e3aa9ec0.jpg",
+        "Docs/Reference/B2/b6453d1da21481531e9e923be8024464.jpg",
+        "Docs/Reference/B2/bbaf126b0618f26e174e14b1c6d686dd.jpg",
+        "Docs/Reference/B2/cddc3f9b0c49bf0bf03cc022268eed71.jpg",
+        "Docs/Reference/B2/d27dc7b29a06bee1af8e134c1151e917.jpg"
+      ],
+      "density_direction": "큰 설비의 작업열과 굵은 배관, 계장 분기, 케이블 트레이, 지지 철골을 바닥부터 돔 천장까지 연결한다. 어둡고 붉은 조명과 철색, 관리된 조작부/사용감 있는 바닥·계단을 함께 유지한다."
     },
     "B1": {
       "label": "직원 생활과 관제",
@@ -90330,7 +90585,7 @@
         "pattern": "dashed"
       }
     ],
-    "rule": "층별 색과 별개로 모든 층에서 같은 의미. 도면 예상 경로와 월드 업무 안내선을 구분한다. 게임 UI 경로 표시 없음.",
+    "rule": "안내선을 사용하는 층에서는 같은 의미를 유지한다. B2 기계층은 2026-11-10 사용자 결정으로 바닥 안내선을 표시하지 않는다. 도면 예상 경로와 월드 업무 안내선을 구분하며 게임 UI 경로 표시는 별도다.",
     "records": [
       {
         "floor": "B5",
@@ -90352,7 +90607,14 @@
         "room": "E02",
         "text": "지상 출입 검문 인계는 R1 직원 동선을 따른다. 정비 노선 M1과 혼동하지 말 것."
       }
-    ]
+    ],
+    "floor_exceptions": {
+      "B2": {
+        "enabled": false,
+        "reason": "기계층 바닥에는 이동 안내선·색상 경계 도색을 표시하지 않는다. 콘크리트 시공 줄눈과 계단 미끄럼 방지면은 재질/구조 표현이다.",
+        "date": "2026-11-10"
+      }
+    }
   },
   "guidance_routes": [
     {
@@ -93249,9 +93511,9 @@
   ],
   "security_plan": {
     "roles": {
-      "guard": "추격",
+      "guard": "추격하면서 무전으로 관측 정보 전달",
       "cctv": "경비 호출",
-      "researcher": "도주하며 주변 알림",
+      "researcher": "도주 후 게임 시간 30초 뒤 전체 경보. 최근 유효 관측 위치 공유. 시작 사건 상세 확인 중.",
       "director": "엔딩"
     },
     "candidate_rooms": {
@@ -93280,7 +93542,14 @@
       ]
     },
     "B3": "보관 공동 상주 인원 최소화. 작업·인계 구역 중심. 소등이 감지 면역을 뜻하지 않음.",
-    "state": "가안 / AI·정확한 인원·시야각 미구현"
+    "state": "역할·피격 반응·추적·그레이팅 감시 기준 확정 / 배치 후보·인원·시야각·보고 범위 및 지연 수치 미정 / AI 미구현",
+    "confirmed_behavior": {
+      "hit": "교환을 유발하는 명중은 즉시 사망·기절시키지 않는다. 피격을 인지하며 경계·추격을 계속할 수 있다. 직접 제압은 성립 즉시 무력화한다.",
+      "tracking": "직접 보이는 현재 플레이어 위치 우선. 시야 단절 시 마지막 관측·전달 정보 중 최신 유효 위치를 수색한다. 발사 위치는 발사 당시 정보이며 교환만으로 새 위치를 자동 인지하지 않는다.",
+      "grating": "열린 격자는 상하 시야를 통과시킨다. 실제 불투명 배관·기계가 엄폐이며 보행용 연속 Collider를 불투명 감지 차단면으로 그대로 쓰지 않는다.",
+      "floor_transition": "전환 순간 직접 목격 여부·수색/추격·현재 경보 단계·유효 신고를 확인해 위층 경보 조정에 사용. 무조건 평상 초기화하거나 도착 좌표를 자동 공개하지 않는다. 단계/전파 수치와 경비 실제 층간 이동은 미정.",
+      "reporting": "연구원 도주 후 게임 시간 30초 뒤 전체 경보·최신 유효 관측 위치. 경비 추격 중 무전. 연구원 타이머 시작 사건과 무전 지연/범위 상세 미정."
+    }
   },
   "manufacturing": {
     "bevel": "모든 새 예각, 부품 크기에 맞는 폭",
@@ -93297,7 +93566,7 @@
   "tunnel_junctions": [],
   "production_status": {
     "B5": "핵심 공동4·코어3·터널7, 문14세트, 기존 프랍17개 첫 제작",
-    "B2": "C02 메자닌 검토 씬: 실제 그레이팅·계단2·작업대·탱크2·펌프2·배관 연결",
+    "B2": "운영 배치194개, 설비27개 확대, 12공동 천장 배관/케이블 트레이, S01 정비 프레임·E03 처리 프레임. 바닥/콘솔 보수 유지, 하부226·상부34·실제 Play8경로 검수. 사용자 근접 외형 검수 단계.",
     "B4_B3_B1_1F": "설계 데이터 수정 완료 / 새 원형 씬 제작은 후속",
     "B3_switches": "13회로 설계, 이 중5개 보관 구역 기본 소등 / 스위치 동작 미구현",
     "checks": [
@@ -93321,6 +93590,54 @@
       "as_built": "B2_배관통로/as_built_layout.json",
       "review": "../../../Review/2026-11-09_B2_FullFloor/Review.md",
       "runtime_added": false
+    },
+    "B2_DomeNetwork": {
+      "date": "2026-11-10",
+      "scene": "Level_B2_Circular.unity",
+      "status": "공동 밀도·상부 연결 제작 및 보행 검수 / 사용자 외형 검수 단계",
+      "dome_deck_height_m": 3.6,
+      "tunnel_deck_height_m": 2.42,
+      "connections": {
+        "C02": [
+          "T01"
+        ],
+        "W02": [
+          "T11",
+          "T12"
+        ],
+        "E01": [
+          "T14",
+          "T15"
+        ],
+        "E02": [
+          "T15",
+          "T16"
+        ]
+      },
+      "plan": "B2_배관통로/README.md",
+      "diagram": "B2_배관통로/B2_공동상부연결.png",
+      "review": "../../../Review/2026-11-10_B2_DomeNetwork/Review.md",
+      "runtime_added": false
+    },
+    "B2_Operations": {
+      "date": "2026-11-10",
+      "status": "Unity 적용·정적 통행 및 Play 검수 / 사용자 외형 검수 단계",
+      "as_built": "B2_운영동선_재설계/as_built_operations.json",
+      "review": "../../../Review/2026-11-10_B2_Operations/Review.md",
+      "supersedes_interior": "B2_DomeNetwork",
+      "runtime_added": false
+    },
+    "B2_SurfaceRefinement": {
+      "date": "2026-11-10",
+      "as_built": "B2_운영동선_재설계/as_built_surface_refinement.json",
+      "review": "../../../Review/2026-11-10_B2_SurfaceRefinement/Review.md",
+      "runtime_added": false
+    },
+    "B2_CeilingDensity": {
+      "date": "2026-11-10",
+      "as_built": "B2_운영동선_재설계/as_built_ceiling_density.json",
+      "review": "../../../Review/2026-11-10_B2_CeilingDensity/Review.md",
+      "runtime_added": false
     }
   },
   "revision_history": [
@@ -93335,6 +93652,72 @@
       "date": "2026-11-09",
       "author": "송예찬",
       "change": "B2 공동12·코어3·통로21 연결. T01/T07/T08/T19/T20 곡선 진입, 내경5m 배관 단면, 실제 장비144배치 별도 명세. 게임 기능 미구현."
+    },
+    {
+      "version": "V0.07",
+      "date": "2026-11-10",
+      "author": "송예찬",
+      "change": "사용자 확정 B안·양쪽 교환 공간·피격/추적·그레이팅 감시와 층별 코어 운영 이유를 메인 기획서 기준으로 동기화. B2 최신 공동 상부 연결 참조 추가. 공동·통로·배치 좌표와 수치 보존, 게임 기능 미구현."
+    },
+    {
+      "version": "V0.08",
+      "date": "2026-11-10",
+      "author": "송예찬",
+      "change": "강제 5연결을 자유 선택 15상행 연결로 정리. 소지/진행과 현장 상태 분리, 발각·경보 전달, Cinemachine 식판 컷씬과 준비 부족 실패 반영. 기존 공간·배치와 제작 상태 보존."
+    },
+    {
+      "version": "V0.09",
+      "date": "2026-11-10",
+      "author": "송예찬",
+      "change": "갤러리·열람 정지·연속 명중별 예약·속도 유지·30초 신고/무전·5개 획득 거절 반영. 공간/배치 보존."
+    },
+    {
+      "version": "V0.10",
+      "date": "2026-11-10",
+      "author": "송예찬",
+      "change": "사용자 승인한 B2 점검·순찰 관점 내부 운영 동선을 Unity 12공동으로 확대. 현행 내부 실배치 참조 추가; 외부 공동·터널 연결 및 게임 규칙 유지."
+    },
+    {
+      "version": "V0.11",
+      "date": "2026-11-10",
+      "author": "송예찬",
+      "change": "B2 적치 배치·콘솔 근접 마감과 산업용 바닥/계단 사용감. B2 바닥 안내선 미표시 사용자 결정."
+    },
+    {
+      "version": "V0.12",
+      "date": "2026-11-10",
+      "author": "송예찬",
+      "change": "B2 레퍼런스9장에 맞춘 설비 크기·천장 밀도와 S01/E03 구조 보강, 통행/배관 간섭 보수."
     }
-  ]
+  ],
+  "gameplay_rules": {
+    "authority": "../../../AfterSeconds_메인기획서.md",
+    "decision": "2026-11-10 사용자 확정 B안·세 코어 자유 상행·소지/진행/발각 정보 전달·도입 컷씬·준비 실패",
+    "mode": "B",
+    "throw_and_direct_takedown": "즉시 효력. 집기·빼앗기·직접 제압은 교환 예약 없음.",
+    "swap_delay_seconds_after_hit": 3,
+    "bullet": "발사 시 즉시 명중 판정",
+    "thrown_object": "놓는 즉시 출발. 한 투척의 서로 다른 유효 대상 연속 명중 각각 게임 시각 +3초에 예약. 식판 등 독립 물체 대상 지원.",
+    "swap_anchor": "실행 순간의 발 위치 / 물체의 바닥 접지 기준점",
+    "queue": "실행 시각순, 같으면 예약순. hitTime+3 유지, 앞 실행 후 다시 3초 아님. 각 실행의 현재 위치/공간 재검사.",
+    "hit_validation": "유효 대상·사거리·실제 경로의 벽·닫힌 문·차단 유리 검사. 명중 후 시야 단절만으로 예약 취소하지 않음.",
+    "execution_validation": "대상 존재·유효·손에 들리지 않음, 양쪽의 현재 자세·몸 크기·지지 바닥 검사. 두 대상 자신이 비우는 몸체는 제외.",
+    "cancellation": "한쪽이라도 공간 조건 실패 시 해당 교환 전체 취소 및 이유 표시. 자동 축소·강제 앉기·주변 밀어내기 없음. 붙잡힘·재시작 시 남은 예약 취소.",
+    "vertical_access": "VA·VB·VL 모두 자유 선택. 인접 층 5쌍 × 3코어 = 15개 상행 연결. 같은 코어·자리·방향 도착. 하행·강제 코어 순서 없음.",
+    "feedback": "유효 대상·예약 대상·남은 시간·순서·양쪽 도착 공간·취소 이유 전달. 예측과 실행 확정을 구분. 전체 미래 동선 공개·구체 UI 형식은 미정.",
+    "implementation_status": "확정 기획 / 이번 문서 반영에서 게임 코드·씬·Animator 변경 없음",
+    "route_scope": "floors의 route/alternate 및 validation의 경로 수치는 기존 시험 예시다. 특정 코어로 가야 하는 필수 동선이나 전체 자유 경로 검증 완료를 뜻하지 않는다.",
+    "carried_objects": "손에 든 물건 포함 개별 객체 최대 5개·수량 1·비합산. 우하단 휠 선택. 객체 ID·종류·선택·총별 탄약·내용 ID·정의된 도구 상태를 층 전환 때 유지.",
+    "world_and_progress": "지난 층 경비·바닥 물건 등 현장 상태는 지속 저장하지 않아도 된다. 소지품·읽거나 해제한 기록의 진행과 전달할 경보 정보는 유지한다.",
+    "transition_alert": "전환 순간 직접 목격 여부·수색/추격·현재 경보 단계·유효 신고를 확인해 위층 경보 조정에 사용. 무조건 평상 초기화하거나 도착 좌표를 자동 공개하지 않는다. 단계/전파 수치와 경비 실제 층간 이동은 미정.",
+    "opening_cutscene": "Cinemachine 컷씬. 식판을 받는 척하다 밀쳐 경비를 실제로 맞힘 → 명중부터 3초 → 위치 교환 → 연출 종료 후 조작 복귀. 직접 조작 튜토리얼 아님. 기존 교환 규칙 유지.",
+    "preparation": "물건을 챙길지는 선택. 빈손·탄약 0으로도 상행 가능하며 이후 준비 부족 게임 오버를 허용. 모든 층의 빈손 통과·자동 보충 보장 없음. 소지 0 자체로 즉시 실패시키지 않음.",
+    "transition_details": "예약 정리 시점·로딩 실패 복구·체크포인트·준비를 바꿀 재시작 범위는 층간_코어_연결_대조.md의 상세안. 실제 하행과 구분.",
+    "swap_velocity": "각자 이동·낙하 선속도 유지. 회전·각속도 세부 미정.",
+    "record_gallery": "열람한 콘텐츠 등록·재열람, 원본 소지와 분리해 상행 후 유지. 체크포인트/새 회차 해금 범위 미정.",
+    "reading_pause": "기록·단말·갤러리 열람 중 게임 시간 정지: 이동/물리/교환/연구원30초/경보/소음 수명. 닫으면 남은 시간 재개.",
+    "full_capacity": "5개면 “공간이 없어” 표시·획득 거절. 소지품 자동 교체/버리기 없음.",
+    "reporting": "연구원 도주 후 게임 시간 30초 뒤 전체 경보·최신 유효 관측 위치. 경비 추격 중 무전. 연구원 타이머 시작 사건과 무전 지연/범위 상세 미정.",
+    "noise_reference": "../../../소음_어그로_루시드다이버_참조.md"
+  }
 }

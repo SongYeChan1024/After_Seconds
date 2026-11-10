@@ -1,0 +1,64 @@
+{
+  "complete": true,
+  "results": [
+    {
+      "stage": 0,
+      "name": "upper crouch and blocked standing",
+      "passed": true,
+      "frames": 396,
+      "distance": 6.96374035,
+      "rise": 0.0549983978,
+      "maxRise": 0.0550003052,
+      "minRise": 0.0,
+      "crouching": true,
+      "standBlocked": true,
+      "grounded": true,
+      "moveEvents": 1
+    },
+    {
+      "stage": 1,
+      "name": "climb upper stair",
+      "passed": true,
+      "frames": 463,
+      "distance": 6.98772669,
+      "rise": 2.47499847,
+      "maxRise": 2.47500038,
+      "minRise": 0.0,
+      "crouching": true,
+      "standBlocked": false,
+      "grounded": true,
+      "moveEvents": 2
+    },
+    {
+      "stage": 2,
+      "name": "descend upper stair",
+      "passed": true,
+      "frames": 454,
+      "distance": 7.01758432,
+      "rise": -2.36500359,
+      "maxRise": 0.0550003052,
+      "minRise": -2.36500359,
+      "crouching": true,
+      "standBlocked": false,
+      "grounded": true,
+      "moveEvents": 3
+    },
+    {
+      "stage": 3,
+      "name": "lower standing bypass",
+      "passed": true,
+      "frames": 457,
+      "distance": 14.0047617,
+      "rise": 0.0550003052,
+      "maxRise": 0.05500412,
+      "minRise": 0.0,
+      "crouching": false,
+      "standBlocked": false,
+      "grounded": true,
+      "moveEvents": 4
+    }
+  ],
+  "errors": [],
+  "mouse": true,
+  "keyboard": true
+}

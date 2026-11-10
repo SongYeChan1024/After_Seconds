@@ -1,0 +1,6059 @@
+{
+  "version": "0.01",
+  "author": "송예찬",
+  "rooms": [
+    {
+      "id": "C01",
+      "name": "원심분리 공동",
+      "x": -18,
+      "v": 0,
+      "r": 11,
+      "kind": "cavern",
+      "zones": [
+        "주 작업 구역",
+        "벽면 장비·보관",
+        "터널 출입 여유"
+      ],
+      "doors": [
+        {
+          "id": "B2-T02",
+          "x": 10.196276692703105,
+          "z": -0.27557504574873254,
+          "angle": -1.5481576989779675
+        },
+        {
+          "id": "B2-T03",
+          "x": -6.940601213546234,
+          "z": 7.474493614588252,
+          "angle": 132.87890360333856
+        },
+        {
+          "id": "B2-T05",
+          "x": 7.916362801185908,
+          "z": -6.43204477596355,
+          "angle": -39.0938588862295
+        },
+        {
+          "id": "B2-T06",
+          "x": 2.2935669683273368,
+          "z": 9.938790196085122,
+          "angle": 77.0053832080835
+        },
+        {
+          "id": "B2-T13",
+          "x": -9.611476614215476,
+          "z": -3.414603533997604,
+          "angle": -160.44174846300257
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "name": "냉각·펌프 공동",
+      "x": 19,
+      "v": 1,
+      "r": 11,
+      "kind": "cavern",
+      "zones": [
+        "주 작업 구역",
+        "벽면 장비·보관",
+        "터널 출입 여유"
+      ],
+      "doors": [
+        {
+          "id": "B2-T01",
+          "x": 6.659984145108517,
+          "z": 7.725581608325882,
+          "angle": 49.23639479905885
+        },
+        {
+          "id": "B2-T02",
+          "x": -10.196276692703105,
+          "z": 0.2755750457487325,
+          "angle": 178.45184230102205
+        },
+        {
+          "id": "B2-T04",
+          "x": -2.000384578409477,
+          "z": -10.001922892047384,
+          "angle": -101.30993247402021
+        },
+        {
+          "id": "B2-T09",
+          "x": -7.69163227804032,
+          "z": 6.699163597002859,
+          "angle": 138.94518622903757
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "name": "배전 공동",
+      "x": -12,
+      "v": -26,
+      "r": 6,
+      "kind": "cavern",
+      "zones": [
+        "주 작업 구역",
+        "벽면 장비·보관",
+        "터널 출입 여유"
+      ],
+      "doors": [
+        {
+          "id": "B2-T06",
+          "x": -1.1692694348335433,
+          "z": -5.066834217612023,
+          "angle": -102.9946167919165
+        },
+        {
+          "id": "B2-T07",
+          "x": 4.886401628086724,
+          "z": 1.7785047452934784,
+          "angle": 20.00000000000001
+        },
+        {
+          "id": "B2-T09",
+          "x": 3.9212242986087915,
+          "z": -3.4152598729818493,
+          "angle": -41.054813770962426
+        }
+      ]
+    },
+    {
+      "id": "C04",
+      "name": "관제 공동",
+      "x": 14,
+      "v": 26,
+      "r": 7,
+      "kind": "cavern",
+      "zones": [
+        "주 작업 구역",
+        "벽면 장비·보관",
+        "터널 출입 여유"
+      ],
+      "doors": [
+        {
+          "id": "B2-T04",
+          "x": 1.2159200378567405,
+          "z": 6.079600189283706,
+          "angle": 78.69006752597979
+        },
+        {
+          "id": "B2-T05",
+          "x": -4.8119068007208465,
+          "z": 3.9096742755856866,
+          "angle": 140.90614111377053
+        },
+        {
+          "id": "B2-T08",
+          "x": 6.186267978710976,
+          "z": -0.41241786524739865,
+          "angle": -3.814074834290356
+        }
+      ]
+    },
+    {
+      "id": "W01",
+      "name": "주 전력 공동",
+      "x": -88,
+      "v": -38,
+      "r": 8,
+      "kind": "cavern",
+      "wing": true,
+      "items": [
+        54,
+        54,
+        17,
+        17
+      ],
+      "zones": [
+        "주 작업 구역",
+        "벽면 장비·보관",
+        "터널 출입 여유"
+      ],
+      "doors": [
+        {
+          "id": "B2-T10",
+          "x": 7.020956561698512,
+          "z": -1.5956719458405715,
+          "angle": -12.804266065286756
+        },
+        {
+          "id": "B2-T11",
+          "x": -5.531193213101105,
+          "z": -4.609327677584254,
+          "angle": -140.19442890773482
+        }
+      ]
+    },
+    {
+      "id": "W02",
+      "name": "예비 전력 공동",
+      "x": -124,
+      "v": -8,
+      "r": 9,
+      "kind": "cavern",
+      "wing": true,
+      "items": [
+        54,
+        42,
+        17
+      ],
+      "zones": [
+        "주 작업 구역",
+        "벽면 장비·보관",
+        "터널 출입 여유"
+      ],
+      "doors": [
+        {
+          "id": "B2-T11",
+          "x": 6.2994144926984745,
+          "z": 5.249512077248735,
+          "angle": 39.805571092265225
+        },
+        {
+          "id": "B2-T12",
+          "x": 5.336489262338944,
+          "z": -6.225904139395431,
+          "angle": -49.39870535499552
+        }
+      ]
+    },
+    {
+      "id": "W03",
+      "name": "정비·부품 창고",
+      "x": -94,
+      "v": 27,
+      "r": 8,
+      "kind": "cavern",
+      "wing": true,
+      "items": [
+        29,
+        29,
+        13,
+        24
+      ],
+      "zones": [
+        "주 작업 구역",
+        "벽면 장비·보관",
+        "터널 출입 여유"
+      ],
+      "doors": [
+        {
+          "id": "B2-T12",
+          "x": -4.68569788888297,
+          "z": 5.466647537030134,
+          "angle": 130.60129464500446
+        },
+        {
+          "id": "B2-T13",
+          "x": 6.784571727681509,
+          "z": 2.4103083769394864,
+          "angle": 19.55825153699746
+        },
+        {
+          "id": "B2-T21",
+          "x": 6.384621552175986,
+          "z": -3.3281537878364205,
+          "angle": -27.531976748722307
+        }
+      ]
+    },
+    {
+      "id": "E01",
+      "name": "급수·펌프 공동",
+      "x": 88,
+      "v": -38,
+      "r": 8,
+      "kind": "cavern",
+      "wing": true,
+      "items": [
+        19,
+        19,
+        20,
+        20
+      ],
+      "zones": [
+        "주 작업 구역",
+        "벽면 장비·보관",
+        "터널 출입 여유"
+      ],
+      "doors": [
+        {
+          "id": "B2-T14",
+          "x": -7.020956561698512,
+          "z": -1.5956719458405715,
+          "angle": -167.19573393471325
+        },
+        {
+          "id": "B2-T15",
+          "x": 5.307509809445335,
+          "z": -4.865217325324892,
+          "angle": -42.51044707800085
+        }
+      ]
+    },
+    {
+      "id": "E02",
+      "name": "공조 필터 공동",
+      "x": 124,
+      "v": -5,
+      "r": 9,
+      "kind": "cavern",
+      "wing": true,
+      "items": [
+        53,
+        53,
+        18
+      ],
+      "zones": [
+        "주 작업 구역",
+        "벽면 장비·보관",
+        "터널 출입 여유"
+      ],
+      "doors": [
+        {
+          "id": "B2-T15",
+          "x": -6.044663949646079,
+          "z": 5.540941953842239,
+          "angle": 137.48955292199918
+        },
+        {
+          "id": "B2-T16",
+          "x": -5.164376059053993,
+          "z": -6.369397139499931,
+          "angle": -129.03551289874684
+        }
+      ]
+    },
+    {
+      "id": "E03",
+      "name": "폐수·폐기물 설비",
+      "x": 94,
+      "v": 32,
+      "r": 8,
+      "kind": "cavern",
+      "wing": true,
+      "items": [
+        20,
+        19,
+        12,
+        17
+      ],
+      "zones": [
+        "주 작업 구역",
+        "벽면 장비·보관",
+        "터널 출입 여유"
+      ],
+      "doors": [
+        {
+          "id": "B2-T16",
+          "x": 4.534574100632781,
+          "z": 5.592641390780429,
+          "angle": 50.96448710125311
+        },
+        {
+          "id": "B2-T17",
+          "x": -7.177070005460095,
+          "z": 0.5741656004368068,
+          "angle": 175.42607874009917
+        }
+      ]
+    },
+    {
+      "id": "N01",
+      "name": "주 공조·환기 공동",
+      "x": 0,
+      "v": -76,
+      "r": 10,
+      "kind": "cavern",
+      "wing": true,
+      "items": [
+        53,
+        53,
+        18,
+        17
+      ],
+      "zones": [
+        "주 작업 구역",
+        "벽면 장비·보관",
+        "터널 출입 여유"
+      ],
+      "doors": [
+        {
+          "id": "B2-T18",
+          "x": -6.2166665823595855,
+          "z": -6.781818089846823,
+          "angle": -132.51044707800082
+        },
+        {
+          "id": "B2-T19",
+          "x": 6.216666582359585,
+          "z": -6.781818089846823,
+          "angle": -47.48955292199917
+        }
+      ]
+    },
+    {
+      "id": "S01",
+      "name": "설비 감시·정비",
+      "x": 0,
+      "v": 76,
+      "r": 10,
+      "kind": "cavern",
+      "wing": true,
+      "items": [
+        35,
+        16,
+        29,
+        14
+      ],
+      "zones": [
+        "주 작업 구역",
+        "벽면 장비·보관",
+        "터널 출입 여유"
+      ],
+      "doors": [
+        {
+          "id": "B2-T20",
+          "x": 6.216666582359585,
+          "z": 6.781818089846823,
+          "angle": 47.48955292199917
+        },
+        {
+          "id": "B2-T21",
+          "x": -8.158127538891538,
+          "z": 4.252640951124306,
+          "angle": 152.46802325127774
+        }
+      ]
+    }
+  ],
+  "placements": [
+    {
+      "name": "B2_C02_Ops_PumpTrainA_01",
+      "room": "C02",
+      "group": "PumpTrainA",
+      "model": "BM_CoolingPump",
+      "position": [
+        -2.5,
+        0,
+        -2
+      ],
+      "yaw": 90,
+      "source": "B2_E01_CoolingPump_06",
+      "size": [
+        1.65,
+        0.8002237606684305,
+        0.8774720864535221
+      ],
+      "center": [
+        0,
+        0.40011188033421524,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/Props_CoolingPump_B5_Lite.prefab"
+    },
+    {
+      "name": "B2_C02_Ops_PumpTrainA_02",
+      "room": "C02",
+      "group": "PumpTrainA",
+      "model": "BM_CoolingPump",
+      "position": [
+        -2.5,
+        0,
+        0
+      ],
+      "yaw": 90,
+      "source": "B2_E01_CoolingPump_06",
+      "size": [
+        1.65,
+        0.8002237606684305,
+        0.8774720864535221
+      ],
+      "center": [
+        0,
+        0.40011188033421524,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/Props_CoolingPump_B5_Lite.prefab"
+    },
+    {
+      "name": "B2_C02_Ops_PumpTrainA_03",
+      "room": "C02",
+      "group": "PumpTrainA",
+      "model": "BM_CoolingPump",
+      "position": [
+        -2.5,
+        0,
+        2
+      ],
+      "yaw": 90,
+      "source": "B2_E01_CoolingPump_06",
+      "size": [
+        1.65,
+        0.8002237606684305,
+        0.8774720864535221
+      ],
+      "center": [
+        0,
+        0.40011188033421524,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/Props_CoolingPump_B5_Lite.prefab"
+    },
+    {
+      "name": "B2_C02_Ops_PumpTrainB_04",
+      "room": "C02",
+      "group": "PumpTrainB",
+      "model": "BM_CoolingPump",
+      "position": [
+        2.3,
+        0,
+        -1
+      ],
+      "yaw": 270,
+      "source": "B2_E01_CoolingPump_06",
+      "size": [
+        1.65,
+        0.8002237606684305,
+        0.8774720864535221
+      ],
+      "center": [
+        0,
+        0.40011188033421524,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/Props_CoolingPump_B5_Lite.prefab"
+    },
+    {
+      "name": "B2_C02_Ops_PumpTrainB_05",
+      "room": "C02",
+      "group": "PumpTrainB",
+      "model": "BM_CoolingPump",
+      "position": [
+        2.3,
+        0,
+        1
+      ],
+      "yaw": 270,
+      "source": "B2_E01_CoolingPump_06",
+      "size": [
+        1.65,
+        0.8002237606684305,
+        0.8774720864535221
+      ],
+      "center": [
+        0,
+        0.40011188033421524,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/Props_CoolingPump_B5_Lite.prefab"
+    },
+    {
+      "name": "B2_C02_Ops_HeatExchange_06",
+      "room": "C02",
+      "group": "HeatExchange",
+      "model": "BC_PlateHeatExchanger",
+      "position": [
+        -0.9,
+        0,
+        5
+      ],
+      "yaw": 180,
+      "source": "B2_C01_PlateHeatExchanger_04",
+      "size": [
+        1.75,
+        1.78,
+        1.378
+      ],
+      "center": [
+        0.0,
+        0.89,
+        0.119000018
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PlateHeatExchanger.fbx"
+    },
+    {
+      "name": "B2_C02_Ops_HeatExchange_07",
+      "room": "C02",
+      "group": "HeatExchange",
+      "model": "BC_PlateHeatExchanger",
+      "position": [
+        1.1,
+        0,
+        5
+      ],
+      "yaw": 180,
+      "source": "B2_C01_PlateHeatExchanger_04",
+      "size": [
+        1.75,
+        1.78,
+        1.378
+      ],
+      "center": [
+        0.0,
+        0.89,
+        0.119000018
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PlateHeatExchanger.fbx"
+    },
+    {
+      "name": "B2_C02_Ops_Accumulator_08",
+      "room": "C02",
+      "group": "Accumulator",
+      "model": "BN_SurgeReservoir",
+      "position": [
+        3.8,
+        0,
+        3.1
+      ],
+      "yaw": 180,
+      "source": "B2_E01_Dense_001_SurgeReservoir",
+      "size": [
+        1.8,
+        4.75,
+        1.8
+      ],
+      "center": [
+        0,
+        2.375,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_SurgeReservoir.fbx"
+    },
+    {
+      "name": "B2_C02_Ops_DryControl_09",
+      "room": "C02",
+      "group": "DryControl",
+      "model": "BC_PumpDriveCabinet",
+      "position": [
+        7.6,
+        0,
+        -1.5
+      ],
+      "yaw": 270,
+      "source": "B2_C01_PumpDriveCabinet_01",
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx"
+    },
+    {
+      "name": "B2_C02_Ops_DryControl_10",
+      "room": "C02",
+      "group": "DryControl",
+      "model": "BC_PumpDriveCabinet",
+      "position": [
+        7.6,
+        0,
+        0
+      ],
+      "yaw": 270,
+      "source": "B2_C01_PumpDriveCabinet_01",
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx"
+    },
+    {
+      "name": "B2_C02_Ops_DryControl_11",
+      "room": "C02",
+      "group": "DryControl",
+      "model": "BC_PumpDriveCabinet",
+      "position": [
+        7.6,
+        0,
+        1.5
+      ],
+      "yaw": 270,
+      "source": "B2_C01_PumpDriveCabinet_01",
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx"
+    },
+    {
+      "name": "B2_C02_Ops_Maintenance_12",
+      "room": "C02",
+      "group": "Maintenance",
+      "model": "BC_MaintenanceBench",
+      "position": [
+        -5.7,
+        0,
+        -4.4
+      ],
+      "yaw": 0,
+      "source": "B2_C01_MaintenanceBench_06",
+      "size": [
+        1.9,
+        1.64,
+        0.9252498
+      ],
+      "center": [
+        0.0,
+        0.82,
+        -0.0138750821
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_MaintenanceBench.fbx"
+    },
+    {
+      "name": "B2_C02_Ops_PartsStaging_13",
+      "room": "C02",
+      "group": "PartsStaging",
+      "model": "BN_MotorSpares",
+      "position": [
+        1,
+        0,
+        -5.5
+      ],
+      "yaw": 0,
+      "source": "B2_C01_Dense_007_MotorSpares",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx"
+    },
+    {
+      "name": "B2_C02_Ops_PartsStaging_14",
+      "room": "C02",
+      "group": "PartsStaging",
+      "model": "BC_ToolTrolley",
+      "position": [
+        -1,
+        0,
+        -6.2
+      ],
+      "yaw": 0,
+      "source": "B2_C01_ToolTrolley_07",
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612e-08,
+        0.5715,
+        0.0180000216
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx"
+    },
+    {
+      "name": "B2_C02_Ops_Maintenance_15",
+      "room": "C02",
+      "group": "Maintenance",
+      "model": "BM_MechanicalSparesRack",
+      "position": [
+        -7.9,
+        0,
+        -3.8
+      ],
+      "yaw": 90,
+      "source": "B2_C01_MechanicalSparesRack_08",
+      "size": [
+        1.83999991,
+        2.33,
+        0.874500036
+      ],
+      "center": [
+        0.0,
+        1.165,
+        0.03475
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_MechanicalSparesRack.fbx"
+    },
+    {
+      "name": "B2_C02_Ops_SupplyHeader_16",
+      "room": "C02",
+      "group": "SupplyHeader",
+      "model": "BN_ServiceManifold",
+      "position": [
+        -0.8,
+        0,
+        7.9
+      ],
+      "yaw": 180,
+      "source": "B2_C01_Dense_005_ServiceManifold",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx"
+    },
+    {
+      "name": "B2_C02_Ops_ReturnHeader_17",
+      "room": "C02",
+      "group": "ReturnHeader",
+      "model": "BN_ServiceManifold",
+      "position": [
+        2,
+        0,
+        7.9
+      ],
+      "yaw": 180,
+      "source": "B2_C01_Dense_005_ServiceManifold",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx"
+    },
+    {
+      "name": "B2_C01_Ops_SeparationTrain_01",
+      "room": "C01",
+      "group": "SeparationTrain",
+      "model": "BM_Centrifuge",
+      "position": [
+        -3,
+        0,
+        0
+      ],
+      "yaw": 0,
+      "source": "B2_C01_IndustrialCentrifuge_01",
+      "size": [
+        2.6278898808241027,
+        3.4,
+        2.989190094191146
+      ],
+      "center": [
+        0,
+        1.7,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/Props_IndustrialCentrifuge.fbx"
+    },
+    {
+      "name": "B2_C01_Ops_SeparationTrain_02",
+      "room": "C01",
+      "group": "SeparationTrain",
+      "model": "BM_Centrifuge",
+      "position": [
+        3,
+        0,
+        0
+      ],
+      "yaw": 0,
+      "source": "B2_C01_IndustrialCentrifuge_01",
+      "size": [
+        2.6278898808241027,
+        3.4,
+        2.989190094191146
+      ],
+      "center": [
+        0,
+        1.7,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/Props_IndustrialCentrifuge.fbx"
+    },
+    {
+      "name": "B2_C01_Ops_FeedTreatment_03",
+      "room": "C01",
+      "group": "FeedTreatment",
+      "model": "BM_WaterFilterSkid",
+      "position": [
+        -3,
+        0,
+        4
+      ],
+      "yaw": 180,
+      "source": "B2_C01_WaterFilterSkid_12",
+      "size": [
+        1.9,
+        2.72495866,
+        1.6279999
+      ],
+      "center": [
+        0.0,
+        1.36247933,
+        0.113999963
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_WaterFilterSkid.fbx"
+    },
+    {
+      "name": "B2_C01_Ops_FeedTreatment_04",
+      "room": "C01",
+      "group": "FeedTreatment",
+      "model": "BM_WaterFilterSkid",
+      "position": [
+        3,
+        0,
+        4
+      ],
+      "yaw": 180,
+      "source": "B2_C01_WaterFilterSkid_12",
+      "size": [
+        1.9,
+        2.72495866,
+        1.6279999
+      ],
+      "center": [
+        0.0,
+        1.36247933,
+        0.113999963
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_WaterFilterSkid.fbx"
+    },
+    {
+      "name": "B2_C01_Ops_DischargeCooling_05",
+      "room": "C01",
+      "group": "DischargeCooling",
+      "model": "BC_PlateHeatExchanger",
+      "position": [
+        -3,
+        0,
+        -3.6
+      ],
+      "yaw": 0,
+      "source": "B2_C01_PlateHeatExchanger_04",
+      "size": [
+        1.75,
+        1.78,
+        1.378
+      ],
+      "center": [
+        0.0,
+        0.89,
+        0.119000018
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PlateHeatExchanger.fbx"
+    },
+    {
+      "name": "B2_C01_Ops_DischargeCooling_06",
+      "room": "C01",
+      "group": "DischargeCooling",
+      "model": "BC_PlateHeatExchanger",
+      "position": [
+        3,
+        0,
+        -3.6
+      ],
+      "yaw": 0,
+      "source": "B2_C01_PlateHeatExchanger_04",
+      "size": [
+        1.75,
+        1.78,
+        1.378
+      ],
+      "center": [
+        0.0,
+        0.89,
+        0.119000018
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PlateHeatExchanger.fbx"
+    },
+    {
+      "name": "B2_C01_Ops_ProcessControl_07",
+      "room": "C01",
+      "group": "ProcessControl",
+      "model": "BC_PumpDriveCabinet",
+      "position": [
+        -5.5,
+        0,
+        -3.7
+      ],
+      "yaw": 0,
+      "source": "B2_C01_PumpDriveCabinet_01",
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx"
+    },
+    {
+      "name": "B2_C01_Ops_ProcessControl_08",
+      "room": "C01",
+      "group": "ProcessControl",
+      "model": "BC_PumpDriveCabinet",
+      "position": [
+        5.5,
+        0,
+        -3.7
+      ],
+      "yaw": 0,
+      "source": "B2_C01_PumpDriveCabinet_01",
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx"
+    },
+    {
+      "name": "B2_C01_Ops_FeedHeader_09",
+      "room": "C01",
+      "group": "FeedHeader",
+      "model": "BN_ServiceManifold",
+      "position": [
+        -3,
+        0,
+        6.4
+      ],
+      "yaw": 180,
+      "source": "B2_C01_Dense_005_ServiceManifold",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx"
+    },
+    {
+      "name": "B2_C01_Ops_FeedHeader_10",
+      "room": "C01",
+      "group": "FeedHeader",
+      "model": "BN_ServiceManifold",
+      "position": [
+        3,
+        0,
+        6.4
+      ],
+      "yaw": 180,
+      "source": "B2_C01_Dense_005_ServiceManifold",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx"
+    },
+    {
+      "name": "B2_C01_Ops_MotorRemoval_11",
+      "room": "C01",
+      "group": "MotorRemoval",
+      "model": "BN_MotorSpares",
+      "position": [
+        -5.4,
+        0,
+        1.8
+      ],
+      "yaw": 90,
+      "source": "B2_C01_Dense_007_MotorSpares",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx"
+    },
+    {
+      "name": "B2_C01_Ops_MotorRemoval_12",
+      "room": "C01",
+      "group": "MotorRemoval",
+      "model": "BN_MotorSpares",
+      "position": [
+        5.4,
+        0,
+        1.8
+      ],
+      "yaw": 90,
+      "source": "B2_C01_Dense_007_MotorSpares",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx"
+    },
+    {
+      "name": "B2_C01_Ops_Maintenance_13",
+      "room": "C01",
+      "group": "Maintenance",
+      "model": "BC_MaintenanceBench",
+      "position": [
+        -3,
+        0,
+        -7
+      ],
+      "yaw": 0,
+      "source": "B2_C01_MaintenanceBench_06",
+      "size": [
+        1.9,
+        1.64,
+        0.9252498
+      ],
+      "center": [
+        0.0,
+        0.82,
+        -0.0138750821
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_MaintenanceBench.fbx"
+    },
+    {
+      "name": "B2_C01_Ops_Maintenance_14",
+      "room": "C01",
+      "group": "Maintenance",
+      "model": "BC_MaintenanceBench",
+      "position": [
+        3,
+        0,
+        -7
+      ],
+      "yaw": 0,
+      "source": "B2_C01_MaintenanceBench_06",
+      "size": [
+        1.9,
+        1.64,
+        0.9252498
+      ],
+      "center": [
+        0.0,
+        0.82,
+        -0.0138750821
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_MaintenanceBench.fbx"
+    },
+    {
+      "name": "B2_C01_Ops_Parts_15",
+      "room": "C01",
+      "group": "Parts",
+      "model": "BM_MechanicalSparesRack",
+      "position": [
+        -6,
+        0,
+        -5.8
+      ],
+      "yaw": 90,
+      "source": "B2_C01_MechanicalSparesRack_08",
+      "size": [
+        1.83999991,
+        2.33,
+        0.874500036
+      ],
+      "center": [
+        0.0,
+        1.165,
+        0.03475
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_MechanicalSparesRack.fbx"
+    },
+    {
+      "name": "B2_C01_Ops_Parts_16",
+      "room": "C01",
+      "group": "Parts",
+      "model": "BM_MechanicalSparesRack",
+      "position": [
+        6,
+        0,
+        4.2
+      ],
+      "yaw": 90,
+      "source": "B2_C01_MechanicalSparesRack_08",
+      "size": [
+        1.83999991,
+        2.33,
+        0.874500036
+      ],
+      "center": [
+        0.0,
+        1.165,
+        0.03475
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_MechanicalSparesRack.fbx"
+    },
+    {
+      "name": "B2_C01_Ops_CartBay_17",
+      "room": "C01",
+      "group": "CartBay",
+      "model": "BC_ToolTrolley",
+      "position": [
+        -1.5,
+        0,
+        -7
+      ],
+      "yaw": 0,
+      "source": "B2_C01_ToolTrolley_07",
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612e-08,
+        0.5715,
+        0.0180000216
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx"
+    },
+    {
+      "name": "B2_C01_Ops_CartBay_18",
+      "room": "C01",
+      "group": "CartBay",
+      "model": "BC_ToolTrolley",
+      "position": [
+        1.5,
+        0,
+        -7
+      ],
+      "yaw": 0,
+      "source": "B2_C01_ToolTrolley_07",
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612e-08,
+        0.5715,
+        0.0180000216
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx"
+    },
+    {
+      "name": "B2_C01_Ops_Handover_19",
+      "room": "C01",
+      "group": "Handover",
+      "model": "BM_ControlConsole",
+      "position": [
+        -7.5,
+        0,
+        2.8
+      ],
+      "yaw": 90,
+      "source": "B2_C01_ControlConsole_14",
+      "size": [
+        1.3870855069627486,
+        1.45,
+        1.2330699595275154
+      ],
+      "center": [
+        0,
+        0.725,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/B2_ControlDeskIsland.fbx"
+    },
+    {
+      "name": "B2_C03_Ops_Switchboard_01",
+      "room": "C03",
+      "group": "Switchboard",
+      "model": "BC_PumpDriveCabinet",
+      "position": [
+        -2.8,
+        0,
+        -1.8
+      ],
+      "yaw": 90,
+      "source": "B2_C01_PumpDriveCabinet_01",
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx"
+    },
+    {
+      "name": "B2_C03_Ops_Switchboard_02",
+      "room": "C03",
+      "group": "Switchboard",
+      "model": "BC_PumpDriveCabinet",
+      "position": [
+        -2.8,
+        0,
+        -0.3
+      ],
+      "yaw": 90,
+      "source": "B2_C01_PumpDriveCabinet_01",
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx"
+    },
+    {
+      "name": "B2_C03_Ops_Switchboard_03",
+      "room": "C03",
+      "group": "Switchboard",
+      "model": "BC_PumpDriveCabinet",
+      "position": [
+        -2.8,
+        0,
+        1.2
+      ],
+      "yaw": 90,
+      "source": "B2_C01_PumpDriveCabinet_01",
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx"
+    },
+    {
+      "name": "B2_C03_Ops_Switchboard_04",
+      "room": "C03",
+      "group": "Switchboard",
+      "model": "BC_PumpDriveCabinet",
+      "position": [
+        -1.1,
+        0,
+        3
+      ],
+      "yaw": 180,
+      "source": "B2_C01_PumpDriveCabinet_01",
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx"
+    },
+    {
+      "name": "B2_C03_Ops_Switchboard_05",
+      "room": "C03",
+      "group": "Switchboard",
+      "model": "BC_PumpDriveCabinet",
+      "position": [
+        0.4,
+        0,
+        3
+      ],
+      "yaw": 180,
+      "source": "B2_C01_PumpDriveCabinet_01",
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx"
+    },
+    {
+      "name": "B2_C03_Ops_Switchboard_06",
+      "room": "C03",
+      "group": "Switchboard",
+      "model": "BC_PumpDriveCabinet",
+      "position": [
+        1.9,
+        0,
+        3
+      ],
+      "yaw": 180,
+      "source": "B2_C01_PumpDriveCabinet_01",
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx"
+    },
+    {
+      "name": "B2_C03_Ops_BackupPower_07",
+      "room": "C03",
+      "group": "BackupPower",
+      "model": "BS_ArchiveUPS",
+      "position": [
+        -3.6,
+        0,
+        2.8
+      ],
+      "yaw": 90,
+      "source": "B2_C03_ArchiveUPS_06",
+      "size": [
+        1.24499989,
+        1.92,
+        0.801499963
+      ],
+      "center": [
+        -5.96046448e-08,
+        0.971999943,
+        0.05325
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B3/BS_ArchiveUPS.fbx"
+    },
+    {
+      "name": "B2_C03_Ops_TestEquipment_08",
+      "room": "C03",
+      "group": "TestEquipment",
+      "model": "BC_MaintenanceBench",
+      "position": [
+        0.8,
+        0,
+        -0.8
+      ],
+      "yaw": 0,
+      "source": "B2_C01_MaintenanceBench_06",
+      "size": [
+        1.9,
+        1.64,
+        0.9252498
+      ],
+      "center": [
+        0.0,
+        0.82,
+        -0.0138750821
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_MaintenanceBench.fbx"
+    },
+    {
+      "name": "B2_C03_Ops_MeterCart_09",
+      "room": "C03",
+      "group": "MeterCart",
+      "model": "BC_ToolTrolley",
+      "position": [
+        -1.6,
+        0,
+        -3.4
+      ],
+      "yaw": 0,
+      "source": "B2_C01_ToolTrolley_07",
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612e-08,
+        0.5715,
+        0.0180000216
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx"
+    },
+    {
+      "name": "B2_C04_Ops_Operations_01",
+      "room": "C04",
+      "group": "Operations",
+      "model": "BM_ControlConsole",
+      "position": [
+        -1.8,
+        0,
+        -0.8
+      ],
+      "yaw": 0,
+      "source": "B2_C01_ControlConsole_14",
+      "size": [
+        1.3870855069627486,
+        1.45,
+        1.2330699595275154
+      ],
+      "center": [
+        0,
+        0.725,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/B2_ControlDeskIsland.fbx"
+    },
+    {
+      "name": "B2_C04_Ops_Operations_02",
+      "room": "C04",
+      "group": "Operations",
+      "model": "BM_ControlConsole",
+      "position": [
+        0,
+        0,
+        -0.8
+      ],
+      "yaw": 0,
+      "source": "B2_C01_ControlConsole_14",
+      "size": [
+        1.3870855069627486,
+        1.45,
+        1.2330699595275154
+      ],
+      "center": [
+        0,
+        0.725,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/B2_ControlDeskIsland.fbx"
+    },
+    {
+      "name": "B2_C04_Ops_Operations_03",
+      "room": "C04",
+      "group": "Operations",
+      "model": "BM_ControlConsole",
+      "position": [
+        1.8,
+        0,
+        -0.8
+      ],
+      "yaw": 0,
+      "source": "B2_C01_ControlConsole_14",
+      "size": [
+        1.3870855069627486,
+        1.45,
+        1.2330699595275154
+      ],
+      "center": [
+        0,
+        0.725,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/B2_ControlDeskIsland.fbx"
+    },
+    {
+      "name": "B2_C04_Ops_RearRackRow_04",
+      "room": "C04",
+      "group": "RearRackRow",
+      "model": "BS_ServerRack_1",
+      "position": [
+        -2.8,
+        0,
+        -4.6
+      ],
+      "yaw": 0,
+      "source": "B2_C04_ServerRack_1_04",
+      "size": [
+        0.84,
+        2.25,
+        1.2387979
+      ],
+      "center": [
+        0.0,
+        1.125,
+        -0.005398959
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B3/BS_ServerRack_1.fbx"
+    },
+    {
+      "name": "B2_C04_Ops_RearRackRow_05",
+      "room": "C04",
+      "group": "RearRackRow",
+      "model": "BS_ServerRack_1",
+      "position": [
+        -1.6,
+        0,
+        -4.6
+      ],
+      "yaw": 0,
+      "source": "B2_C04_ServerRack_1_04",
+      "size": [
+        0.84,
+        2.25,
+        1.2387979
+      ],
+      "center": [
+        0.0,
+        1.125,
+        -0.005398959
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B3/BS_ServerRack_1.fbx"
+    },
+    {
+      "name": "B2_C04_Ops_RearRackRow_06",
+      "room": "C04",
+      "group": "RearRackRow",
+      "model": "BS_ServerRack_1",
+      "position": [
+        -0.4,
+        0,
+        -4.6
+      ],
+      "yaw": 0,
+      "source": "B2_C04_ServerRack_1_04",
+      "size": [
+        0.84,
+        2.25,
+        1.2387979
+      ],
+      "center": [
+        0.0,
+        1.125,
+        -0.005398959
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B3/BS_ServerRack_1.fbx"
+    },
+    {
+      "name": "B2_C04_Ops_RearRackRow_07",
+      "room": "C04",
+      "group": "RearRackRow",
+      "model": "BS_ServerRack_2",
+      "position": [
+        0.8,
+        0,
+        -4.6
+      ],
+      "yaw": 0,
+      "source": "B2_C04_ServerRack_2_05",
+      "size": [
+        0.84,
+        2.25,
+        1.2387979
+      ],
+      "center": [
+        0.0,
+        1.125,
+        -0.005398959
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B3/BS_ServerRack_2.fbx"
+    },
+    {
+      "name": "B2_C04_Ops_RearRackRow_08",
+      "room": "C04",
+      "group": "RearRackRow",
+      "model": "BS_ServerRack_2",
+      "position": [
+        2,
+        0,
+        -4.6
+      ],
+      "yaw": 0,
+      "source": "B2_C04_ServerRack_2_05",
+      "size": [
+        0.84,
+        2.25,
+        1.2387979
+      ],
+      "center": [
+        0.0,
+        1.125,
+        -0.005398959
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B3/BS_ServerRack_2.fbx"
+    },
+    {
+      "name": "B2_C04_Ops_Backup_09",
+      "room": "C04",
+      "group": "Backup",
+      "model": "BS_ArchiveUPS",
+      "position": [
+        3.5,
+        0,
+        -3.8
+      ],
+      "yaw": 0,
+      "source": "B2_C03_ArchiveUPS_06",
+      "size": [
+        1.24499989,
+        1.92,
+        0.801499963
+      ],
+      "center": [
+        -5.96046448e-08,
+        0.971999943,
+        0.05325
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B3/BS_ArchiveUPS.fbx"
+    },
+    {
+      "name": "B2_C04_Ops_Handover_10",
+      "room": "C04",
+      "group": "Handover",
+      "model": "BC_MaintenanceBench",
+      "position": [
+        -4.4,
+        0,
+        -1.6
+      ],
+      "yaw": 90,
+      "source": "B2_C01_MaintenanceBench_06",
+      "size": [
+        1.9,
+        1.64,
+        0.9252498
+      ],
+      "center": [
+        0.0,
+        0.82,
+        -0.0138750821
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_MaintenanceBench.fbx"
+    },
+    {
+      "name": "B2_C04_Ops_ServiceCart_11",
+      "room": "C04",
+      "group": "ServiceCart",
+      "model": "BC_ToolTrolley",
+      "position": [
+        -4.8,
+        0,
+        -3.3
+      ],
+      "yaw": 90,
+      "source": "B2_C01_ToolTrolley_07",
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612e-08,
+        0.5715,
+        0.0180000216
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx"
+    },
+    {
+      "name": "B2_C04_Ops_Distribution_12",
+      "room": "C04",
+      "group": "Distribution",
+      "model": "BC_PumpDriveCabinet",
+      "position": [
+        4.4,
+        0,
+        2
+      ],
+      "yaw": 270,
+      "source": "B2_C01_PumpDriveCabinet_01",
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx"
+    },
+    {
+      "name": "B2_W01_Ops_TransformerBank_01",
+      "room": "W01",
+      "group": "TransformerBank",
+      "model": "BM_PowerTransformer",
+      "position": [
+        -2.6,
+        0,
+        1.8
+      ],
+      "yaw": 0,
+      "source": "B2_W01_PowerTransformer_01",
+      "size": [
+        2.4,
+        2.82570767,
+        1.842
+      ],
+      "center": [
+        0.0,
+        1.41285384,
+        -0.0250000358
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_PowerTransformer.fbx"
+    },
+    {
+      "name": "B2_W01_Ops_TransformerBank_02",
+      "room": "W01",
+      "group": "TransformerBank",
+      "model": "BM_PowerTransformer",
+      "position": [
+        2.6,
+        0,
+        1.8
+      ],
+      "yaw": 0,
+      "source": "B2_W01_PowerTransformer_01",
+      "size": [
+        2.4,
+        2.82570767,
+        1.842
+      ],
+      "center": [
+        0.0,
+        1.41285384,
+        -0.0250000358
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_PowerTransformer.fbx"
+    },
+    {
+      "name": "B2_W01_Ops_TransformerBank_03",
+      "room": "W01",
+      "group": "TransformerBank",
+      "model": "BM_PowerTransformer",
+      "position": [
+        -2.6,
+        0,
+        4.6
+      ],
+      "yaw": 0,
+      "source": "B2_W01_PowerTransformer_01",
+      "size": [
+        2.4,
+        2.82570767,
+        1.842
+      ],
+      "center": [
+        0.0,
+        1.41285384,
+        -0.0250000358
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_PowerTransformer.fbx"
+    },
+    {
+      "name": "B2_W01_Ops_TransformerBank_04",
+      "room": "W01",
+      "group": "TransformerBank",
+      "model": "BM_PowerTransformer",
+      "position": [
+        2.6,
+        0,
+        4.6
+      ],
+      "yaw": 0,
+      "source": "B2_W01_PowerTransformer_01",
+      "size": [
+        2.4,
+        2.82570767,
+        1.842
+      ],
+      "center": [
+        0.0,
+        1.41285384,
+        -0.0250000358
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_PowerTransformer.fbx"
+    },
+    {
+      "name": "B2_W01_Ops_Isolation_05",
+      "room": "W01",
+      "group": "Isolation",
+      "model": "BC_PumpDriveCabinet",
+      "position": [
+        -2.6,
+        0,
+        -1.1
+      ],
+      "yaw": 0,
+      "source": "B2_C01_PumpDriveCabinet_01",
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx"
+    },
+    {
+      "name": "B2_W01_Ops_Isolation_06",
+      "room": "W01",
+      "group": "Isolation",
+      "model": "BC_PumpDriveCabinet",
+      "position": [
+        2.6,
+        0,
+        -1.1
+      ],
+      "yaw": 0,
+      "source": "B2_C01_PumpDriveCabinet_01",
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx"
+    },
+    {
+      "name": "B2_W01_Ops_Switchgear_07",
+      "room": "W01",
+      "group": "Switchgear",
+      "model": "BC_PumpDriveCabinet",
+      "position": [
+        -3,
+        0,
+        -4.9
+      ],
+      "yaw": 0,
+      "source": "B2_C01_PumpDriveCabinet_01",
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx"
+    },
+    {
+      "name": "B2_W01_Ops_Switchgear_08",
+      "room": "W01",
+      "group": "Switchgear",
+      "model": "BC_PumpDriveCabinet",
+      "position": [
+        -1.5,
+        0,
+        -4.9
+      ],
+      "yaw": 0,
+      "source": "B2_C01_PumpDriveCabinet_01",
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx"
+    },
+    {
+      "name": "B2_W01_Ops_Switchgear_09",
+      "room": "W01",
+      "group": "Switchgear",
+      "model": "BC_PumpDriveCabinet",
+      "position": [
+        0,
+        0,
+        -4.9
+      ],
+      "yaw": 0,
+      "source": "B2_C01_PumpDriveCabinet_01",
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx"
+    },
+    {
+      "name": "B2_W01_Ops_Switchgear_10",
+      "room": "W01",
+      "group": "Switchgear",
+      "model": "BC_PumpDriveCabinet",
+      "position": [
+        1.5,
+        0,
+        -4.9
+      ],
+      "yaw": 0,
+      "source": "B2_C01_PumpDriveCabinet_01",
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx"
+    },
+    {
+      "name": "B2_W01_Ops_Switchgear_11",
+      "room": "W01",
+      "group": "Switchgear",
+      "model": "BC_PumpDriveCabinet",
+      "position": [
+        3,
+        0,
+        -4.9
+      ],
+      "yaw": 0,
+      "source": "B2_C01_PumpDriveCabinet_01",
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx"
+    },
+    {
+      "name": "B2_W01_Ops_BatteryBackup_12",
+      "room": "W01",
+      "group": "BatteryBackup",
+      "model": "BS_ArchiveUPS",
+      "position": [
+        -5.6,
+        0,
+        0.4
+      ],
+      "yaw": 90,
+      "source": "B2_C03_ArchiveUPS_06",
+      "size": [
+        1.24499989,
+        1.92,
+        0.801499963
+      ],
+      "center": [
+        -5.96046448e-08,
+        0.971999943,
+        0.05325
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B3/BS_ArchiveUPS.fbx"
+    },
+    {
+      "name": "B2_W01_Ops_BatteryBackup_13",
+      "room": "W01",
+      "group": "BatteryBackup",
+      "model": "BS_ArchiveUPS",
+      "position": [
+        5.6,
+        0,
+        3
+      ],
+      "yaw": 90,
+      "source": "B2_C03_ArchiveUPS_06",
+      "size": [
+        1.24499989,
+        1.92,
+        0.801499963
+      ],
+      "center": [
+        -5.96046448e-08,
+        0.971999943,
+        0.05325
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B3/BS_ArchiveUPS.fbx"
+    },
+    {
+      "name": "B2_W01_Ops_TestBay_14",
+      "room": "W01",
+      "group": "TestBay",
+      "model": "BC_MaintenanceBench",
+      "position": [
+        0,
+        0,
+        6.3
+      ],
+      "yaw": 180,
+      "source": "B2_C01_MaintenanceBench_06",
+      "size": [
+        1.9,
+        1.64,
+        0.9252498
+      ],
+      "center": [
+        0.0,
+        0.82,
+        -0.0138750821
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_MaintenanceBench.fbx"
+    },
+    {
+      "name": "B2_W01_Ops_MeterCart_15",
+      "room": "W01",
+      "group": "MeterCart",
+      "model": "BC_ToolTrolley",
+      "position": [
+        5.2,
+        0,
+        -3.4
+      ],
+      "yaw": 270,
+      "source": "B2_C01_ToolTrolley_07",
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612e-08,
+        0.5715,
+        0.0180000216
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx"
+    },
+    {
+      "name": "B2_W02_Ops_GeneratorTrain_01",
+      "room": "W02",
+      "group": "GeneratorTrain",
+      "model": "B2_EmergencyGenerator",
+      "position": [
+        -3,
+        0,
+        -2.6
+      ],
+      "yaw": 0,
+      "source": "B2_W02_EmergencyGenerator_01",
+      "size": [
+        2.75156665,
+        1.8,
+        1.470111
+      ],
+      "center": [
+        0.0,
+        0.9,
+        0.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/B2_EmergencyGenerator.fbx"
+    },
+    {
+      "name": "B2_W02_Ops_GeneratorTrain_02",
+      "room": "W02",
+      "group": "GeneratorTrain",
+      "model": "B2_EmergencyGenerator",
+      "position": [
+        -3,
+        0,
+        0.1
+      ],
+      "yaw": 0,
+      "source": "B2_W02_EmergencyGenerator_01",
+      "size": [
+        2.75156665,
+        1.8,
+        1.470111
+      ],
+      "center": [
+        0.0,
+        0.9,
+        0.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/B2_EmergencyGenerator.fbx"
+    },
+    {
+      "name": "B2_W02_Ops_GeneratorTrain_03",
+      "room": "W02",
+      "group": "GeneratorTrain",
+      "model": "B2_EmergencyGenerator",
+      "position": [
+        -3,
+        0,
+        2.8
+      ],
+      "yaw": 0,
+      "source": "B2_W02_EmergencyGenerator_01",
+      "size": [
+        2.75156665,
+        1.8,
+        1.470111
+      ],
+      "center": [
+        0.0,
+        0.9,
+        0.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/B2_EmergencyGenerator.fbx"
+    },
+    {
+      "name": "B2_W02_Ops_FuelDistribution_04",
+      "room": "W02",
+      "group": "FuelDistribution",
+      "model": "BN_ServiceManifold",
+      "position": [
+        -5.5,
+        0,
+        -2.6
+      ],
+      "yaw": 90,
+      "source": "B2_C01_Dense_005_ServiceManifold",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx"
+    },
+    {
+      "name": "B2_W02_Ops_FuelDistribution_05",
+      "room": "W02",
+      "group": "FuelDistribution",
+      "model": "BN_ServiceManifold",
+      "position": [
+        -5.5,
+        0,
+        0.1
+      ],
+      "yaw": 90,
+      "source": "B2_C01_Dense_005_ServiceManifold",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx"
+    },
+    {
+      "name": "B2_W02_Ops_FuelDistribution_06",
+      "room": "W02",
+      "group": "FuelDistribution",
+      "model": "BN_ServiceManifold",
+      "position": [
+        -5.5,
+        0,
+        2.8
+      ],
+      "yaw": 90,
+      "source": "B2_C01_Dense_005_ServiceManifold",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx"
+    },
+    {
+      "name": "B2_W02_Ops_DayTank_07",
+      "room": "W02",
+      "group": "DayTank",
+      "model": "BN_DayTank",
+      "position": [
+        -2.4,
+        0,
+        6
+      ],
+      "yaw": 180,
+      "source": "B2_W02_Dense_003_DayTank",
+      "size": [
+        2.25,
+        3.0,
+        1.65
+      ],
+      "center": [
+        0,
+        1.5,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_DayTank.fbx"
+    },
+    {
+      "name": "B2_W02_Ops_Control_08",
+      "room": "W02",
+      "group": "Control",
+      "model": "BC_PumpDriveCabinet",
+      "position": [
+        1,
+        0,
+        -5.6
+      ],
+      "yaw": 0,
+      "source": "B2_C01_PumpDriveCabinet_01",
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx"
+    },
+    {
+      "name": "B2_W02_Ops_Control_09",
+      "room": "W02",
+      "group": "Control",
+      "model": "BC_PumpDriveCabinet",
+      "position": [
+        2.5,
+        0,
+        -5.6
+      ],
+      "yaw": 0,
+      "source": "B2_C01_PumpDriveCabinet_01",
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx"
+    },
+    {
+      "name": "B2_W02_Ops_Backup_10",
+      "room": "W02",
+      "group": "Backup",
+      "model": "BS_ArchiveUPS",
+      "position": [
+        -0.5,
+        0,
+        -7.2
+      ],
+      "yaw": 0,
+      "source": "B2_C03_ArchiveUPS_06",
+      "size": [
+        1.24499989,
+        1.92,
+        0.801499963
+      ],
+      "center": [
+        -5.96046448e-08,
+        0.971999943,
+        0.05325
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B3/BS_ArchiveUPS.fbx"
+    },
+    {
+      "name": "B2_W02_Ops_Maintenance_11",
+      "room": "W02",
+      "group": "Maintenance",
+      "model": "BC_MaintenanceBench",
+      "position": [
+        -2.4,
+        0,
+        -6.4
+      ],
+      "yaw": 0,
+      "source": "B2_C01_MaintenanceBench_06",
+      "size": [
+        1.9,
+        1.64,
+        0.9252498
+      ],
+      "center": [
+        0.0,
+        0.82,
+        -0.0138750821
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_MaintenanceBench.fbx"
+    },
+    {
+      "name": "B2_W02_Ops_ToolBay_12",
+      "room": "W02",
+      "group": "ToolBay",
+      "model": "BC_ToolTrolley",
+      "position": [
+        -4.6,
+        0,
+        -5.2
+      ],
+      "yaw": 0,
+      "source": "B2_C01_ToolTrolley_07",
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612e-08,
+        0.5715,
+        0.0180000216
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx"
+    },
+    {
+      "name": "B2_W02_Ops_ServiceSpares_13",
+      "room": "W02",
+      "group": "ServiceSpares",
+      "model": "BN_MotorSpares",
+      "position": [
+        0.2,
+        0,
+        4.7
+      ],
+      "yaw": 0,
+      "source": "B2_C01_Dense_007_MotorSpares",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx"
+    },
+    {
+      "name": "B2_W02_Ops_ServiceSpares_14",
+      "room": "W02",
+      "group": "ServiceSpares",
+      "model": "BN_MotorSpares",
+      "position": [
+        -5,
+        0,
+        4.8
+      ],
+      "yaw": 0,
+      "source": "B2_C01_Dense_007_MotorSpares",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx"
+    },
+    {
+      "name": "B2_W02_Ops_Consumables_15",
+      "room": "W02",
+      "group": "Consumables",
+      "model": "BM_MechanicalSparesRack",
+      "position": [
+        0,
+        0,
+        6.7
+      ],
+      "yaw": 180,
+      "source": "B2_C01_MechanicalSparesRack_08",
+      "size": [
+        1.83999991,
+        2.33,
+        0.874500036
+      ],
+      "center": [
+        0.0,
+        1.165,
+        0.03475
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_MechanicalSparesRack.fbx"
+    },
+    {
+      "name": "B2_W03_Ops_PartsA_01",
+      "room": "W03",
+      "group": "PartsA",
+      "model": "BM_MechanicalSparesRack",
+      "position": [
+        -3,
+        0,
+        -2
+      ],
+      "yaw": 90,
+      "source": "B2_C01_MechanicalSparesRack_08",
+      "size": [
+        1.83999991,
+        2.33,
+        0.874500036
+      ],
+      "center": [
+        0.0,
+        1.165,
+        0.03475
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_MechanicalSparesRack.fbx"
+    },
+    {
+      "name": "B2_W03_Ops_PartsA_02",
+      "room": "W03",
+      "group": "PartsA",
+      "model": "BM_MechanicalSparesRack",
+      "position": [
+        -3,
+        0,
+        0.2
+      ],
+      "yaw": 90,
+      "source": "B2_C01_MechanicalSparesRack_08",
+      "size": [
+        1.83999991,
+        2.33,
+        0.874500036
+      ],
+      "center": [
+        0.0,
+        1.165,
+        0.03475
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_MechanicalSparesRack.fbx"
+    },
+    {
+      "name": "B2_W03_Ops_PartsA_03",
+      "room": "W03",
+      "group": "PartsA",
+      "model": "BM_MechanicalSparesRack",
+      "position": [
+        -3,
+        0,
+        2.4
+      ],
+      "yaw": 90,
+      "source": "B2_C01_MechanicalSparesRack_08",
+      "size": [
+        1.83999991,
+        2.33,
+        0.874500036
+      ],
+      "center": [
+        0.0,
+        1.165,
+        0.03475
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_MechanicalSparesRack.fbx"
+    },
+    {
+      "name": "B2_W03_Ops_PartsB_04",
+      "room": "W03",
+      "group": "PartsB",
+      "model": "BM_MechanicalSparesRack",
+      "position": [
+        2,
+        0,
+        -2
+      ],
+      "yaw": 270,
+      "source": "B2_C01_MechanicalSparesRack_08",
+      "size": [
+        1.83999991,
+        2.33,
+        0.874500036
+      ],
+      "center": [
+        0.0,
+        1.165,
+        0.03475
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_MechanicalSparesRack.fbx"
+    },
+    {
+      "name": "B2_W03_Ops_PartsB_05",
+      "room": "W03",
+      "group": "PartsB",
+      "model": "BM_MechanicalSparesRack",
+      "position": [
+        2,
+        0,
+        0.2
+      ],
+      "yaw": 270,
+      "source": "B2_C01_MechanicalSparesRack_08",
+      "size": [
+        1.83999991,
+        2.33,
+        0.874500036
+      ],
+      "center": [
+        0.0,
+        1.165,
+        0.03475
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_MechanicalSparesRack.fbx"
+    },
+    {
+      "name": "B2_W03_Ops_PartsB_06",
+      "room": "W03",
+      "group": "PartsB",
+      "model": "BM_MechanicalSparesRack",
+      "position": [
+        2,
+        0,
+        2.4
+      ],
+      "yaw": 270,
+      "source": "B2_C01_MechanicalSparesRack_08",
+      "size": [
+        1.83999991,
+        2.33,
+        0.874500036
+      ],
+      "center": [
+        0.0,
+        1.165,
+        0.03475
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_MechanicalSparesRack.fbx"
+    },
+    {
+      "name": "B2_W03_Ops_Repair_07",
+      "room": "W03",
+      "group": "Repair",
+      "model": "BC_MaintenanceBench",
+      "position": [
+        -2.5,
+        0,
+        -5.3
+      ],
+      "yaw": 0,
+      "source": "B2_C01_MaintenanceBench_06",
+      "size": [
+        1.9,
+        1.64,
+        0.9252498
+      ],
+      "center": [
+        0.0,
+        0.82,
+        -0.0138750821
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_MaintenanceBench.fbx",
+      "visual_variant": "BO_MotorServiceBench"
+    },
+    {
+      "name": "B2_W03_Ops_Repair_08",
+      "room": "W03",
+      "group": "Repair",
+      "model": "BC_MaintenanceBench",
+      "position": [
+        0,
+        0,
+        -5.7
+      ],
+      "yaw": 0,
+      "source": "B2_C01_MaintenanceBench_06",
+      "size": [
+        1.9,
+        1.64,
+        0.9252498
+      ],
+      "center": [
+        0.0,
+        0.82,
+        -0.0138750821
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_MaintenanceBench.fbx"
+    },
+    {
+      "name": "B2_W03_Ops_Repair_09",
+      "room": "W03",
+      "group": "Repair",
+      "model": "BC_MaintenanceBench",
+      "position": [
+        2.5,
+        0,
+        -5.3
+      ],
+      "yaw": 0,
+      "source": "B2_C01_MaintenanceBench_06",
+      "size": [
+        1.9,
+        1.64,
+        0.9252498
+      ],
+      "center": [
+        0.0,
+        0.82,
+        -0.0138750821
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_MaintenanceBench.fbx",
+      "visual_variant": "BO_MotorServiceBench"
+    },
+    {
+      "name": "B2_W03_Ops_RepairMotors_10",
+      "room": "W03",
+      "group": "RepairMotors",
+      "model": "BN_MotorSpares",
+      "position": [
+        -2.2,
+        0.985,
+        -5.18
+      ],
+      "yaw": 0,
+      "source": "B2_C01_Dense_007_MotorSpares",
+      "size": [
+        0.9099999999999999,
+        0.6174999999999999,
+        0.5525
+      ],
+      "center": [
+        0.0,
+        0.30874999999999997,
+        0.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx",
+      "scale": 0.65
+    },
+    {
+      "name": "B2_W03_Ops_RepairMotors_11",
+      "room": "W03",
+      "group": "RepairMotors",
+      "model": "BN_MotorSpares",
+      "position": [
+        2.8,
+        0.985,
+        -5.18
+      ],
+      "yaw": 0,
+      "source": "B2_C01_Dense_007_MotorSpares",
+      "size": [
+        0.9099999999999999,
+        0.6174999999999999,
+        0.5525
+      ],
+      "center": [
+        0.0,
+        0.30874999999999997,
+        0.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx",
+      "scale": 0.65
+    },
+    {
+      "name": "B2_W03_Ops_Receiving_12",
+      "room": "W03",
+      "group": "Receiving",
+      "model": "BX_EquipmentCaseRack",
+      "position": [
+        -5.4,
+        0,
+        1.8
+      ],
+      "yaw": 90,
+      "source": "B2_W03_EquipmentCaseRack_13",
+      "size": [
+        1.5999999,
+        2.22999978,
+        0.788
+      ],
+      "center": [
+        0.0,
+        1.12,
+        0.003999993
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BX_EquipmentCaseRack.fbx"
+    },
+    {
+      "name": "B2_W03_Ops_Receiving_13",
+      "room": "W03",
+      "group": "Receiving",
+      "model": "BC_ToolTrolley",
+      "position": [
+        -5.6,
+        0,
+        -0.3
+      ],
+      "yaw": 90,
+      "source": "B2_C01_ToolTrolley_07",
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612e-08,
+        0.5715,
+        0.0180000216
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx"
+    },
+    {
+      "name": "B2_W03_Ops_Dispatch_14",
+      "room": "W03",
+      "group": "Dispatch",
+      "model": "BC_ToolTrolley",
+      "position": [
+        4.7,
+        0,
+        -0.2
+      ],
+      "yaw": 270,
+      "source": "B2_C01_ToolTrolley_07",
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612e-08,
+        0.5715,
+        0.0180000216
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx"
+    },
+    {
+      "name": "B2_W03_Ops_Dispatch_15",
+      "room": "W03",
+      "group": "Dispatch",
+      "model": "BC_ToolTrolley",
+      "position": [
+        4.7,
+        0,
+        -1.5
+      ],
+      "yaw": 270,
+      "source": "B2_C01_ToolTrolley_07",
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612e-08,
+        0.5715,
+        0.0180000216
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx"
+    },
+    {
+      "name": "B2_W03_Ops_HeavyParts_16",
+      "room": "W03",
+      "group": "HeavyParts",
+      "model": "BM_MechanicalSparesRack",
+      "position": [
+        0,
+        0,
+        5.5
+      ],
+      "yaw": 180,
+      "source": "B2_C01_MechanicalSparesRack_08",
+      "size": [
+        1.83999991,
+        2.33,
+        0.874500036
+      ],
+      "center": [
+        0.0,
+        1.165,
+        0.03475
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_MechanicalSparesRack.fbx"
+    },
+    {
+      "name": "B2_W03_Ops_WeldingBay_17",
+      "room": "W03",
+      "group": "WeldingBay",
+      "model": "SD_CylinderTrolley",
+      "position": [
+        -5.2,
+        0,
+        -3.7
+      ],
+      "yaw": 0,
+      "source": "B2_W03_CylinderTrolley_14",
+      "size": [
+        0.6606773,
+        1.41526067,
+        0.554798245
+      ],
+      "center": [
+        -0.003951609,
+        0.6996595,
+        -0.002399087
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/Common/SD_CylinderTrolley.fbx"
+    },
+    {
+      "name": "B2_W03_Ops_ServicePower_18",
+      "room": "W03",
+      "group": "ServicePower",
+      "model": "BC_PumpDriveCabinet",
+      "position": [
+        4.7,
+        0,
+        4.5
+      ],
+      "yaw": 230,
+      "source": "B2_C01_PumpDriveCabinet_01",
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx"
+    },
+    {
+      "name": "B2_E01_Ops_Accumulator_01",
+      "room": "E01",
+      "group": "Accumulator",
+      "model": "BN_SurgeReservoir",
+      "position": [
+        0,
+        0,
+        2.3
+      ],
+      "yaw": 0,
+      "source": "B2_E01_Dense_001_SurgeReservoir",
+      "size": [
+        1.8,
+        4.75,
+        1.8
+      ],
+      "center": [
+        0,
+        2.375,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_SurgeReservoir.fbx"
+    },
+    {
+      "name": "B2_E01_Ops_Treatment_02",
+      "room": "E01",
+      "group": "Treatment",
+      "model": "BM_WaterFilterSkid",
+      "position": [
+        -3.8,
+        0,
+        2
+      ],
+      "yaw": 90,
+      "source": "B2_C01_WaterFilterSkid_12",
+      "size": [
+        1.9,
+        2.72495866,
+        1.6279999
+      ],
+      "center": [
+        0.0,
+        1.36247933,
+        0.113999963
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_WaterFilterSkid.fbx"
+    },
+    {
+      "name": "B2_E01_Ops_Treatment_03",
+      "room": "E01",
+      "group": "Treatment",
+      "model": "BM_WaterFilterSkid",
+      "position": [
+        -3.8,
+        0,
+        4.5
+      ],
+      "yaw": 90,
+      "source": "B2_C01_WaterFilterSkid_12",
+      "size": [
+        1.9,
+        2.72495866,
+        1.6279999
+      ],
+      "center": [
+        0.0,
+        1.36247933,
+        0.113999963
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_WaterFilterSkid.fbx"
+    },
+    {
+      "name": "B2_E01_Ops_BoostTrain_04",
+      "room": "E01",
+      "group": "BoostTrain",
+      "model": "BM_CoolingPump",
+      "position": [
+        1.4,
+        0,
+        -2
+      ],
+      "yaw": 270,
+      "source": "B2_E01_CoolingPump_06",
+      "size": [
+        1.65,
+        0.8002237606684305,
+        0.8774720864535221
+      ],
+      "center": [
+        0,
+        0.40011188033421524,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/Props_CoolingPump_B5_Lite.prefab"
+    },
+    {
+      "name": "B2_E01_Ops_BoostTrain_05",
+      "room": "E01",
+      "group": "BoostTrain",
+      "model": "BM_CoolingPump",
+      "position": [
+        1.4,
+        0,
+        -0.4
+      ],
+      "yaw": 270,
+      "source": "B2_E01_CoolingPump_06",
+      "size": [
+        1.65,
+        0.8002237606684305,
+        0.8774720864535221
+      ],
+      "center": [
+        0,
+        0.40011188033421524,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/Props_CoolingPump_B5_Lite.prefab"
+    },
+    {
+      "name": "B2_E01_Ops_BoostTrain_06",
+      "room": "E01",
+      "group": "BoostTrain",
+      "model": "BM_CoolingPump",
+      "position": [
+        3.4,
+        0,
+        -0.4
+      ],
+      "yaw": 270,
+      "source": "B2_E01_CoolingPump_06",
+      "size": [
+        1.65,
+        0.8002237606684305,
+        0.8774720864535221
+      ],
+      "center": [
+        0,
+        0.40011188033421524,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/Props_CoolingPump_B5_Lite.prefab"
+    },
+    {
+      "name": "B2_E01_Ops_DryControls_07",
+      "room": "E01",
+      "group": "DryControls",
+      "model": "BC_PumpDriveCabinet",
+      "position": [
+        -2.6,
+        0,
+        -4.4
+      ],
+      "yaw": 0,
+      "source": "B2_C01_PumpDriveCabinet_01",
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx"
+    },
+    {
+      "name": "B2_E01_Ops_DryControls_08",
+      "room": "E01",
+      "group": "DryControls",
+      "model": "BC_PumpDriveCabinet",
+      "position": [
+        -1,
+        0,
+        -4.4
+      ],
+      "yaw": 0,
+      "source": "B2_C01_PumpDriveCabinet_01",
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx"
+    },
+    {
+      "name": "B2_E01_Ops_WaterHeader_09",
+      "room": "E01",
+      "group": "WaterHeader",
+      "model": "BN_ServiceManifold",
+      "position": [
+        -0.5,
+        0,
+        5.6
+      ],
+      "yaw": 180,
+      "source": "B2_C01_Dense_005_ServiceManifold",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx"
+    },
+    {
+      "name": "B2_E01_Ops_WaterHeader_10",
+      "room": "E01",
+      "group": "WaterHeader",
+      "model": "BC_UpperValveStation",
+      "position": [
+        -2,
+        0,
+        6
+      ],
+      "yaw": 180,
+      "source": "B2_W01_UpperValveStation_11",
+      "size": [
+        1.16,
+        1.52249992,
+        0.567000031
+      ],
+      "center": [
+        0.0,
+        0.761249959,
+        0.008499995
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_UpperValveStation.fbx"
+    },
+    {
+      "name": "B2_E01_Ops_Maintenance_11",
+      "room": "E01",
+      "group": "Maintenance",
+      "model": "BC_MaintenanceBench",
+      "position": [
+        -5.3,
+        0,
+        0.1
+      ],
+      "yaw": 90,
+      "source": "B2_C01_MaintenanceBench_06",
+      "size": [
+        1.9,
+        1.64,
+        0.9252498
+      ],
+      "center": [
+        0.0,
+        0.82,
+        -0.0138750821
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_MaintenanceBench.fbx"
+    },
+    {
+      "name": "B2_E01_Ops_SpareSeals_12",
+      "room": "E01",
+      "group": "SpareSeals",
+      "model": "BC_ToolTrolley",
+      "position": [
+        -0.5,
+        0,
+        -6.7
+      ],
+      "yaw": 0,
+      "source": "B2_C01_ToolTrolley_07",
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612e-08,
+        0.5715,
+        0.0180000216
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx"
+    },
+    {
+      "name": "B2_E01_Ops_PumpRemoval_13",
+      "room": "E01",
+      "group": "PumpRemoval",
+      "model": "BN_MotorSpares",
+      "position": [
+        3.3,
+        0,
+        -2.2
+      ],
+      "yaw": 180,
+      "source": "B2_C01_Dense_007_MotorSpares",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx"
+    },
+    {
+      "name": "B2_E02_Ops_FilterBank_01",
+      "room": "E02",
+      "group": "FilterBank",
+      "model": "BM_AirFilterSkid",
+      "position": [
+        2,
+        0,
+        -2.8
+      ],
+      "yaw": 270,
+      "source": "B2_E02_AirFilterSkid_01",
+      "size": [
+        2.6,
+        2.56,
+        1.371
+      ],
+      "center": [
+        0.0,
+        1.28,
+        0.0604999959
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_AirFilterSkid.fbx"
+    },
+    {
+      "name": "B2_E02_Ops_FilterBank_02",
+      "room": "E02",
+      "group": "FilterBank",
+      "model": "BM_AirFilterSkid",
+      "position": [
+        2,
+        0,
+        0
+      ],
+      "yaw": 270,
+      "source": "B2_E02_AirFilterSkid_01",
+      "size": [
+        2.6,
+        2.56,
+        1.371
+      ],
+      "center": [
+        0.0,
+        1.28,
+        0.0604999959
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_AirFilterSkid.fbx"
+    },
+    {
+      "name": "B2_E02_Ops_FilterBank_03",
+      "room": "E02",
+      "group": "FilterBank",
+      "model": "BM_AirFilterSkid",
+      "position": [
+        2,
+        0,
+        2.8
+      ],
+      "yaw": 270,
+      "source": "B2_E02_AirFilterSkid_01",
+      "size": [
+        2.6,
+        2.56,
+        1.371
+      ],
+      "center": [
+        0.0,
+        1.28,
+        0.0604999959
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_AirFilterSkid.fbx"
+    },
+    {
+      "name": "B2_E02_Ops_FanDrive_04",
+      "room": "E02",
+      "group": "FanDrive",
+      "model": "BM_VentilationFan",
+      "position": [
+        5.5,
+        0,
+        -2.8
+      ],
+      "yaw": 270,
+      "source": "B2_E02_VentilationFan_07",
+      "size": [
+        2.209958,
+        2.375,
+        1.13500011
+      ],
+      "center": [
+        -2.104044e-05,
+        1.1875,
+        0.09749989
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_VentilationFan.fbx"
+    },
+    {
+      "name": "B2_E02_Ops_FanDrive_05",
+      "room": "E02",
+      "group": "FanDrive",
+      "model": "BM_VentilationFan",
+      "position": [
+        5.5,
+        0,
+        0
+      ],
+      "yaw": 270,
+      "source": "B2_E02_VentilationFan_07",
+      "size": [
+        2.209958,
+        2.375,
+        1.13500011
+      ],
+      "center": [
+        -2.104044e-05,
+        1.1875,
+        0.09749989
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_VentilationFan.fbx"
+    },
+    {
+      "name": "B2_E02_Ops_FanDrive_06",
+      "room": "E02",
+      "group": "FanDrive",
+      "model": "BM_VentilationFan",
+      "position": [
+        5.5,
+        0,
+        2.8
+      ],
+      "yaw": 270,
+      "source": "B2_E02_VentilationFan_07",
+      "size": [
+        2.209958,
+        2.375,
+        1.13500011
+      ],
+      "center": [
+        -2.104044e-05,
+        1.1875,
+        0.09749989
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_VentilationFan.fbx"
+    },
+    {
+      "name": "B2_E02_Ops_Plenum_07",
+      "room": "E02",
+      "group": "Plenum",
+      "model": "BN_AirPlenum",
+      "position": [
+        2,
+        0,
+        5.7
+      ],
+      "yaw": 90,
+      "source": "B2_E02_Dense_002_AirPlenum",
+      "size": [
+        2.25,
+        4.85,
+        2.15
+      ],
+      "center": [
+        0,
+        2.425,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_AirPlenum.fbx"
+    },
+    {
+      "name": "B2_E02_Ops_CleanFilters_08",
+      "room": "E02",
+      "group": "CleanFilters",
+      "model": "BM_MechanicalSparesRack",
+      "position": [
+        -2.3,
+        0,
+        5.4
+      ],
+      "yaw": 180,
+      "source": "B2_C01_MechanicalSparesRack_08",
+      "size": [
+        1.83999991,
+        2.33,
+        0.874500036
+      ],
+      "center": [
+        0.0,
+        1.165,
+        0.03475
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_MechanicalSparesRack.fbx"
+    },
+    {
+      "name": "B2_E02_Ops_SealedReturns_09",
+      "room": "E02",
+      "group": "SealedReturns",
+      "model": "OD_ClosedPPEReturn",
+      "position": [
+        -2.4,
+        0,
+        -4.4
+      ],
+      "yaw": 0,
+      "source": "B2_E03_ClosedPPEReturn_10",
+      "size": [
+        1.32999992,
+        1.1475563,
+        0.8515186
+      ],
+      "center": [
+        0.0,
+        0.581778169,
+        0.0337592959
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/OD_ClosedPPEReturn.fbx"
+    },
+    {
+      "name": "B2_E02_Ops_PressureReadings_10",
+      "room": "E02",
+      "group": "PressureReadings",
+      "model": "BC_PumpDriveCabinet",
+      "position": [
+        -5.8,
+        0,
+        0.4
+      ],
+      "yaw": 90,
+      "source": "B2_C01_PumpDriveCabinet_01",
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx"
+    },
+    {
+      "name": "B2_E02_Ops_ServiceBench_11",
+      "room": "E02",
+      "group": "ServiceBench",
+      "model": "BC_MaintenanceBench",
+      "position": [
+        -0.3,
+        0,
+        -6.8
+      ],
+      "yaw": 0,
+      "source": "B2_C01_MaintenanceBench_06",
+      "size": [
+        1.9,
+        1.64,
+        0.9252498
+      ],
+      "center": [
+        0.0,
+        0.82,
+        -0.0138750821
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_MaintenanceBench.fbx"
+    },
+    {
+      "name": "B2_E02_Ops_FilterCart_12",
+      "room": "E02",
+      "group": "FilterCart",
+      "model": "BC_ToolTrolley",
+      "position": [
+        -4.7,
+        0,
+        -3
+      ],
+      "yaw": 90,
+      "source": "B2_C01_ToolTrolley_07",
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612e-08,
+        0.5715,
+        0.0180000216
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx"
+    },
+    {
+      "name": "B2_E02_Ops_MotorSpares_13",
+      "room": "E02",
+      "group": "MotorSpares",
+      "model": "BN_MotorSpares",
+      "position": [
+        4.5,
+        0,
+        -5.3
+      ],
+      "yaw": 0,
+      "source": "B2_C01_Dense_007_MotorSpares",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx"
+    },
+    {
+      "name": "B2_E03_Ops_SealedWaste_01",
+      "room": "E03",
+      "group": "SealedWaste",
+      "model": "BM_SealedProcessTank",
+      "position": [
+        -2,
+        0,
+        -2.6
+      ],
+      "yaw": 0,
+      "source": "B2_C01_SealedProcessTank_13",
+      "size": [
+        1.86,
+        2.81499982,
+        2.19
+      ],
+      "center": [
+        0.0,
+        1.40749991,
+        0.164999992
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_SealedProcessTank.fbx"
+    },
+    {
+      "name": "B2_E03_Ops_SealedWaste_02",
+      "room": "E03",
+      "group": "SealedWaste",
+      "model": "BM_SealedProcessTank",
+      "position": [
+        0.5,
+        0,
+        -2.6
+      ],
+      "yaw": 0,
+      "source": "B2_C01_SealedProcessTank_13",
+      "size": [
+        1.86,
+        2.81499982,
+        2.19
+      ],
+      "center": [
+        0.0,
+        1.40749991,
+        0.164999992
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_SealedProcessTank.fbx"
+    },
+    {
+      "name": "B2_E03_Ops_SealedWaste_03",
+      "room": "E03",
+      "group": "SealedWaste",
+      "model": "BM_SealedProcessTank",
+      "position": [
+        3,
+        0,
+        -2.6
+      ],
+      "yaw": 0,
+      "source": "B2_C01_SealedProcessTank_13",
+      "size": [
+        1.86,
+        2.81499982,
+        2.19
+      ],
+      "center": [
+        0.0,
+        1.40749991,
+        0.164999992
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_SealedProcessTank.fbx"
+    },
+    {
+      "name": "B2_E03_Ops_TransferPumps_04",
+      "room": "E03",
+      "group": "TransferPumps",
+      "model": "BM_CoolingPump",
+      "position": [
+        -2,
+        0,
+        -4.8
+      ],
+      "yaw": 180,
+      "source": "B2_E01_CoolingPump_06",
+      "size": [
+        1.65,
+        0.8002237606684305,
+        0.8774720864535221
+      ],
+      "center": [
+        0,
+        0.40011188033421524,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/Props_CoolingPump_B5_Lite.prefab"
+    },
+    {
+      "name": "B2_E03_Ops_TransferPumps_05",
+      "room": "E03",
+      "group": "TransferPumps",
+      "model": "BM_CoolingPump",
+      "position": [
+        1,
+        0,
+        -4.8
+      ],
+      "yaw": 180,
+      "source": "B2_E01_CoolingPump_06",
+      "size": [
+        1.65,
+        0.8002237606684305,
+        0.8774720864535221
+      ],
+      "center": [
+        0,
+        0.40011188033421524,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/Props_CoolingPump_B5_Lite.prefab"
+    },
+    {
+      "name": "B2_E03_Ops_Treatment_06",
+      "room": "E03",
+      "group": "Treatment",
+      "model": "BM_WaterFilterSkid",
+      "position": [
+        4.9,
+        0,
+        0.2
+      ],
+      "yaw": 270,
+      "source": "B2_C01_WaterFilterSkid_12",
+      "size": [
+        1.9,
+        2.72495866,
+        1.6279999
+      ],
+      "center": [
+        0.0,
+        1.36247933,
+        0.113999963
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_WaterFilterSkid.fbx"
+    },
+    {
+      "name": "B2_E03_Ops_DryControls_07",
+      "room": "E03",
+      "group": "DryControls",
+      "model": "BC_PumpDriveCabinet",
+      "position": [
+        -2.8,
+        0,
+        3
+      ],
+      "yaw": 180,
+      "source": "B2_C01_PumpDriveCabinet_01",
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx"
+    },
+    {
+      "name": "B2_E03_Ops_DryControls_08",
+      "room": "E03",
+      "group": "DryControls",
+      "model": "BC_PumpDriveCabinet",
+      "position": [
+        -1.3,
+        0,
+        3
+      ],
+      "yaw": 180,
+      "source": "B2_C01_PumpDriveCabinet_01",
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx"
+    },
+    {
+      "name": "B2_E03_Ops_DryRecords_09",
+      "room": "E03",
+      "group": "DryRecords",
+      "model": "BM_ControlConsole",
+      "position": [
+        0.5,
+        0,
+        4.6
+      ],
+      "yaw": 180,
+      "source": "B2_C01_ControlConsole_14",
+      "size": [
+        1.3870855069627486,
+        1.45,
+        1.2330699595275154
+      ],
+      "center": [
+        0,
+        0.725,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/B2_ControlDeskIsland.fbx"
+    },
+    {
+      "name": "B2_E03_Ops_Decontamination_10",
+      "room": "E03",
+      "group": "Decontamination",
+      "model": "SF_DoubleWashSink",
+      "position": [
+        -4.8,
+        0,
+        -2.8
+      ],
+      "yaw": 90,
+      "source": "B2_E03_DoubleWashSink_09",
+      "size": [
+        1.8,
+        1.318,
+        0.7724999
+      ],
+      "center": [
+        0.0,
+        0.670999944,
+        -0.0112500191
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_DoubleWashSink.fbx"
+    },
+    {
+      "name": "B2_E03_Ops_SealedReturns_11",
+      "room": "E03",
+      "group": "SealedReturns",
+      "model": "OD_ClosedPPEReturn",
+      "position": [
+        2.9,
+        0,
+        1
+      ],
+      "yaw": 0,
+      "source": "B2_E03_ClosedPPEReturn_10",
+      "size": [
+        1.32999992,
+        1.1475563,
+        0.8515186
+      ],
+      "center": [
+        0.0,
+        0.581778169,
+        0.0337592959
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/OD_ClosedPPEReturn.fbx"
+    },
+    {
+      "name": "B2_E03_Ops_PPE_12",
+      "room": "E03",
+      "group": "PPE",
+      "model": "OD_CleanPPEDispenser",
+      "position": [
+        -4.7,
+        0,
+        2.8
+      ],
+      "yaw": 90,
+      "source": "B2_E03_CleanPPEDispenser_11",
+      "size": [
+        1.825,
+        2.12,
+        0.65
+      ],
+      "center": [
+        5.96046448e-08,
+        1.072,
+        0.04249999
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/OD_CleanPPEDispenser.fbx"
+    },
+    {
+      "name": "B2_E03_Ops_WetHeader_13",
+      "room": "E03",
+      "group": "WetHeader",
+      "model": "BN_ServiceManifold",
+      "position": [
+        4,
+        0,
+        -4.4
+      ],
+      "yaw": 0,
+      "source": "B2_C01_Dense_005_ServiceManifold",
+      "size": [
+        1.45,
+        2.05,
+        0.72
+      ],
+      "center": [
+        0,
+        1.025,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_ServiceManifold.fbx"
+    },
+    {
+      "name": "B2_E03_Ops_ServiceCart_14",
+      "room": "E03",
+      "group": "ServiceCart",
+      "model": "BC_ToolTrolley",
+      "position": [
+        -3.4,
+        0,
+        4.6
+      ],
+      "yaw": 180,
+      "source": "B2_C01_ToolTrolley_07",
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612e-08,
+        0.5715,
+        0.0180000216
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx"
+    },
+    {
+      "name": "B2_N01_Ops_FanBankA_01",
+      "room": "N01",
+      "group": "FanBankA",
+      "model": "BM_VentilationFan",
+      "position": [
+        -3,
+        0,
+        -2.5
+      ],
+      "yaw": 90,
+      "source": "B2_E02_VentilationFan_07",
+      "size": [
+        2.209958,
+        2.375,
+        1.13500011
+      ],
+      "center": [
+        -2.104044e-05,
+        1.1875,
+        0.09749989
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_VentilationFan.fbx"
+    },
+    {
+      "name": "B2_N01_Ops_FanBankA_02",
+      "room": "N01",
+      "group": "FanBankA",
+      "model": "BM_VentilationFan",
+      "position": [
+        -3,
+        0,
+        0.2
+      ],
+      "yaw": 90,
+      "source": "B2_E02_VentilationFan_07",
+      "size": [
+        2.209958,
+        2.375,
+        1.13500011
+      ],
+      "center": [
+        -2.104044e-05,
+        1.1875,
+        0.09749989
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_VentilationFan.fbx"
+    },
+    {
+      "name": "B2_N01_Ops_FanBankA_03",
+      "room": "N01",
+      "group": "FanBankA",
+      "model": "BM_VentilationFan",
+      "position": [
+        -3,
+        0,
+        2.9
+      ],
+      "yaw": 90,
+      "source": "B2_E02_VentilationFan_07",
+      "size": [
+        2.209958,
+        2.375,
+        1.13500011
+      ],
+      "center": [
+        -2.104044e-05,
+        1.1875,
+        0.09749989
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_VentilationFan.fbx"
+    },
+    {
+      "name": "B2_N01_Ops_FanBankB_04",
+      "room": "N01",
+      "group": "FanBankB",
+      "model": "BM_VentilationFan",
+      "position": [
+        3,
+        0,
+        -2.5
+      ],
+      "yaw": 270,
+      "source": "B2_E02_VentilationFan_07",
+      "size": [
+        2.209958,
+        2.375,
+        1.13500011
+      ],
+      "center": [
+        -2.104044e-05,
+        1.1875,
+        0.09749989
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_VentilationFan.fbx"
+    },
+    {
+      "name": "B2_N01_Ops_FanBankB_05",
+      "room": "N01",
+      "group": "FanBankB",
+      "model": "BM_VentilationFan",
+      "position": [
+        3,
+        0,
+        0.2
+      ],
+      "yaw": 270,
+      "source": "B2_E02_VentilationFan_07",
+      "size": [
+        2.209958,
+        2.375,
+        1.13500011
+      ],
+      "center": [
+        -2.104044e-05,
+        1.1875,
+        0.09749989
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_VentilationFan.fbx"
+    },
+    {
+      "name": "B2_N01_Ops_FanBankB_06",
+      "room": "N01",
+      "group": "FanBankB",
+      "model": "BM_VentilationFan",
+      "position": [
+        3,
+        0,
+        2.9
+      ],
+      "yaw": 270,
+      "source": "B2_E02_VentilationFan_07",
+      "size": [
+        2.209958,
+        2.375,
+        1.13500011
+      ],
+      "center": [
+        -2.104044e-05,
+        1.1875,
+        0.09749989
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_VentilationFan.fbx"
+    },
+    {
+      "name": "B2_N01_Ops_IntakeFilters_07",
+      "room": "N01",
+      "group": "IntakeFilters",
+      "model": "BM_AirFilterSkid",
+      "position": [
+        -3,
+        0,
+        6
+      ],
+      "yaw": 180,
+      "source": "B2_E02_AirFilterSkid_01",
+      "size": [
+        2.6,
+        2.56,
+        1.371
+      ],
+      "center": [
+        0.0,
+        1.28,
+        0.0604999959
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_AirFilterSkid.fbx"
+    },
+    {
+      "name": "B2_N01_Ops_IntakeFilters_08",
+      "room": "N01",
+      "group": "IntakeFilters",
+      "model": "BM_AirFilterSkid",
+      "position": [
+        0,
+        0,
+        6
+      ],
+      "yaw": 180,
+      "source": "B2_E02_AirFilterSkid_01",
+      "size": [
+        2.6,
+        2.56,
+        1.371
+      ],
+      "center": [
+        0.0,
+        1.28,
+        0.0604999959
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_AirFilterSkid.fbx"
+    },
+    {
+      "name": "B2_N01_Ops_IntakeFilters_09",
+      "room": "N01",
+      "group": "IntakeFilters",
+      "model": "BM_AirFilterSkid",
+      "position": [
+        3,
+        0,
+        6
+      ],
+      "yaw": 180,
+      "source": "B2_E02_AirFilterSkid_01",
+      "size": [
+        2.6,
+        2.56,
+        1.371
+      ],
+      "center": [
+        0.0,
+        1.28,
+        0.0604999959
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_AirFilterSkid.fbx"
+    },
+    {
+      "name": "B2_N01_Ops_DriveControls_10",
+      "room": "N01",
+      "group": "DriveControls",
+      "model": "BC_PumpDriveCabinet",
+      "position": [
+        -3,
+        0,
+        -6
+      ],
+      "yaw": 0,
+      "source": "B2_C01_PumpDriveCabinet_01",
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx"
+    },
+    {
+      "name": "B2_N01_Ops_DriveControls_11",
+      "room": "N01",
+      "group": "DriveControls",
+      "model": "BC_PumpDriveCabinet",
+      "position": [
+        3,
+        0,
+        -6
+      ],
+      "yaw": 0,
+      "source": "B2_C01_PumpDriveCabinet_01",
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx"
+    },
+    {
+      "name": "B2_N01_Ops_ServiceSpares_12",
+      "room": "N01",
+      "group": "ServiceSpares",
+      "model": "BN_MotorSpares",
+      "position": [
+        -6,
+        0,
+        0.2
+      ],
+      "yaw": 0,
+      "source": "B2_C01_Dense_007_MotorSpares",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx"
+    },
+    {
+      "name": "B2_N01_Ops_ServiceSpares_13",
+      "room": "N01",
+      "group": "ServiceSpares",
+      "model": "BN_MotorSpares",
+      "position": [
+        6,
+        0,
+        0.2
+      ],
+      "yaw": 0,
+      "source": "B2_C01_Dense_007_MotorSpares",
+      "size": [
+        1.4,
+        0.95,
+        0.85
+      ],
+      "center": [
+        0,
+        0.475,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx"
+    },
+    {
+      "name": "B2_N01_Ops_ServiceBenches_14",
+      "room": "N01",
+      "group": "ServiceBenches",
+      "model": "BC_MaintenanceBench",
+      "position": [
+        -6,
+        0,
+        3.4
+      ],
+      "yaw": 90,
+      "source": "B2_C01_MaintenanceBench_06",
+      "size": [
+        1.9,
+        1.64,
+        0.9252498
+      ],
+      "center": [
+        0.0,
+        0.82,
+        -0.0138750821
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_MaintenanceBench.fbx"
+    },
+    {
+      "name": "B2_N01_Ops_ServiceBenches_15",
+      "room": "N01",
+      "group": "ServiceBenches",
+      "model": "BC_MaintenanceBench",
+      "position": [
+        6,
+        0,
+        3.4
+      ],
+      "yaw": 90,
+      "source": "B2_C01_MaintenanceBench_06",
+      "size": [
+        1.9,
+        1.64,
+        0.9252498
+      ],
+      "center": [
+        0.0,
+        0.82,
+        -0.0138750821
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_MaintenanceBench.fbx"
+    },
+    {
+      "name": "B2_N01_Ops_DuctEquipment_16",
+      "room": "N01",
+      "group": "DuctEquipment",
+      "model": "BM_HVACUnit",
+      "position": [
+        -6,
+        0,
+        -3.2
+      ],
+      "yaw": 90,
+      "source": "B2_E02_HVACUnit_05",
+      "size": [
+        2.156467704597185,
+        1.5226499477629927,
+        1.45
+      ],
+      "center": [
+        0,
+        0.7613249738814963,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/Props_HVACUnit_B5_Lite.prefab"
+    },
+    {
+      "name": "B2_N01_Ops_DuctEquipment_17",
+      "room": "N01",
+      "group": "DuctEquipment",
+      "model": "BM_HVACUnit",
+      "position": [
+        6,
+        0,
+        -3.2
+      ],
+      "yaw": 90,
+      "source": "B2_E02_HVACUnit_05",
+      "size": [
+        2.156467704597185,
+        1.5226499477629927,
+        1.45
+      ],
+      "center": [
+        0,
+        0.7613249738814963,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/Props_HVACUnit_B5_Lite.prefab"
+    },
+    {
+      "name": "B2_N01_Ops_ToolBay_18",
+      "room": "N01",
+      "group": "ToolBay",
+      "model": "BC_ToolTrolley",
+      "position": [
+        0,
+        0,
+        8.2
+      ],
+      "yaw": 180,
+      "source": "B2_C01_ToolTrolley_07",
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612e-08,
+        0.5715,
+        0.0180000216
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx"
+    },
+    {
+      "name": "B2_S01_Ops_DiagnosticBench_01",
+      "room": "S01",
+      "group": "DiagnosticBench",
+      "model": "BC_MaintenanceBench",
+      "position": [
+        -3,
+        0,
+        0
+      ],
+      "yaw": 0,
+      "source": "B2_C01_MaintenanceBench_06",
+      "size": [
+        1.9,
+        1.64,
+        0.9252498
+      ],
+      "center": [
+        0.0,
+        0.82,
+        -0.0138750821
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_MaintenanceBench.fbx",
+      "visual_variant": "BO_MotorServiceBench"
+    },
+    {
+      "name": "B2_S01_Ops_DiagnosticBench_02",
+      "room": "S01",
+      "group": "DiagnosticBench",
+      "model": "BC_MaintenanceBench",
+      "position": [
+        -3,
+        0,
+        -2.8
+      ],
+      "yaw": 0,
+      "source": "B2_C01_MaintenanceBench_06",
+      "size": [
+        1.9,
+        1.64,
+        0.9252498
+      ],
+      "center": [
+        0.0,
+        0.82,
+        -0.0138750821
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_MaintenanceBench.fbx",
+      "visual_variant": "BO_MotorServiceBench"
+    },
+    {
+      "name": "B2_S01_Ops_DiagnosticBench_03",
+      "room": "S01",
+      "group": "DiagnosticBench",
+      "model": "BC_MaintenanceBench",
+      "position": [
+        3,
+        0,
+        0
+      ],
+      "yaw": 0,
+      "source": "B2_C01_MaintenanceBench_06",
+      "size": [
+        1.9,
+        1.64,
+        0.9252498
+      ],
+      "center": [
+        0.0,
+        0.82,
+        -0.0138750821
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_MaintenanceBench.fbx",
+      "visual_variant": "BO_MotorServiceBench"
+    },
+    {
+      "name": "B2_S01_Ops_DiagnosticBench_04",
+      "room": "S01",
+      "group": "DiagnosticBench",
+      "model": "BC_MaintenanceBench",
+      "position": [
+        3,
+        0,
+        -2.8
+      ],
+      "yaw": 0,
+      "source": "B2_C01_MaintenanceBench_06",
+      "size": [
+        1.9,
+        1.64,
+        0.9252498
+      ],
+      "center": [
+        0.0,
+        0.82,
+        -0.0138750821
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_MaintenanceBench.fbx",
+      "visual_variant": "BO_MotorServiceBench"
+    },
+    {
+      "name": "B2_S01_Ops_TestMotors_05",
+      "room": "S01",
+      "group": "TestMotors",
+      "model": "BN_MotorSpares",
+      "position": [
+        -2.7,
+        0.985,
+        0.12
+      ],
+      "yaw": 0,
+      "source": "B2_C01_Dense_007_MotorSpares",
+      "size": [
+        0.9099999999999999,
+        0.6174999999999999,
+        0.5525
+      ],
+      "center": [
+        0.0,
+        0.30874999999999997,
+        0.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx",
+      "scale": 0.65
+    },
+    {
+      "name": "B2_S01_Ops_TestMotors_06",
+      "room": "S01",
+      "group": "TestMotors",
+      "model": "BN_MotorSpares",
+      "position": [
+        -2.7,
+        0.985,
+        -2.6799999999999997
+      ],
+      "yaw": 0,
+      "source": "B2_C01_Dense_007_MotorSpares",
+      "size": [
+        0.9099999999999999,
+        0.6174999999999999,
+        0.5525
+      ],
+      "center": [
+        0.0,
+        0.30874999999999997,
+        0.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx",
+      "scale": 0.65
+    },
+    {
+      "name": "B2_S01_Ops_TestMotors_07",
+      "room": "S01",
+      "group": "TestMotors",
+      "model": "BN_MotorSpares",
+      "position": [
+        3.3,
+        0.985,
+        0.12
+      ],
+      "yaw": 0,
+      "source": "B2_C01_Dense_007_MotorSpares",
+      "size": [
+        0.9099999999999999,
+        0.6174999999999999,
+        0.5525
+      ],
+      "center": [
+        0.0,
+        0.30874999999999997,
+        0.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx",
+      "scale": 0.65
+    },
+    {
+      "name": "B2_S01_Ops_TestMotors_08",
+      "room": "S01",
+      "group": "TestMotors",
+      "model": "BN_MotorSpares",
+      "position": [
+        3.3,
+        0.985,
+        -2.6799999999999997
+      ],
+      "yaw": 0,
+      "source": "B2_C01_Dense_007_MotorSpares",
+      "size": [
+        0.9099999999999999,
+        0.6174999999999999,
+        0.5525
+      ],
+      "center": [
+        0.0,
+        0.30874999999999997,
+        0.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx",
+      "scale": 0.65
+    },
+    {
+      "name": "B2_S01_Ops_StatusStation_09",
+      "room": "S01",
+      "group": "StatusStation",
+      "model": "BM_ControlConsole",
+      "position": [
+        -1.8,
+        0,
+        5
+      ],
+      "yaw": 180,
+      "source": "B2_C01_ControlConsole_14",
+      "size": [
+        1.3870855069627486,
+        1.45,
+        1.2330699595275154
+      ],
+      "center": [
+        0,
+        0.725,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/B2_ControlDeskIsland.fbx"
+    },
+    {
+      "name": "B2_S01_Ops_StatusStation_10",
+      "room": "S01",
+      "group": "StatusStation",
+      "model": "BM_ControlConsole",
+      "position": [
+        0,
+        0,
+        5
+      ],
+      "yaw": 180,
+      "source": "B2_C01_ControlConsole_14",
+      "size": [
+        1.3870855069627486,
+        1.45,
+        1.2330699595275154
+      ],
+      "center": [
+        0,
+        0.725,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/B2_ControlDeskIsland.fbx"
+    },
+    {
+      "name": "B2_S01_Ops_StatusStation_11",
+      "room": "S01",
+      "group": "StatusStation",
+      "model": "BM_ControlConsole",
+      "position": [
+        1.8,
+        0,
+        5
+      ],
+      "yaw": 180,
+      "source": "B2_C01_ControlConsole_14",
+      "size": [
+        1.3870855069627486,
+        1.45,
+        1.2330699595275154
+      ],
+      "center": [
+        0,
+        0.725,
+        0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/B2_ControlDeskIsland.fbx"
+    },
+    {
+      "name": "B2_S01_Ops_TestPower_12",
+      "room": "S01",
+      "group": "TestPower",
+      "model": "BC_PumpDriveCabinet",
+      "position": [
+        -3,
+        0,
+        -6
+      ],
+      "yaw": 0,
+      "source": "B2_C01_PumpDriveCabinet_01",
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx"
+    },
+    {
+      "name": "B2_S01_Ops_TestPower_13",
+      "room": "S01",
+      "group": "TestPower",
+      "model": "BC_PumpDriveCabinet",
+      "position": [
+        3,
+        0,
+        -6
+      ],
+      "yaw": 0,
+      "source": "B2_C01_PumpDriveCabinet_01",
+      "size": [
+        1.145,
+        1.96999991,
+        0.899
+      ],
+      "center": [
+        0.0,
+        0.9969999,
+        0.0295000076
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_PumpDriveCabinet.fbx"
+    },
+    {
+      "name": "B2_S01_Ops_Tools_14",
+      "room": "S01",
+      "group": "Tools",
+      "model": "BM_MechanicalSparesRack",
+      "position": [
+        -6,
+        0,
+        0
+      ],
+      "yaw": 90,
+      "source": "B2_C01_MechanicalSparesRack_08",
+      "size": [
+        1.83999991,
+        2.33,
+        0.874500036
+      ],
+      "center": [
+        0.0,
+        1.165,
+        0.03475
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_MechanicalSparesRack.fbx"
+    },
+    {
+      "name": "B2_S01_Ops_Tools_15",
+      "room": "S01",
+      "group": "Tools",
+      "model": "BM_MechanicalSparesRack",
+      "position": [
+        6,
+        0,
+        0
+      ],
+      "yaw": 90,
+      "source": "B2_C01_MechanicalSparesRack_08",
+      "size": [
+        1.83999991,
+        2.33,
+        0.874500036
+      ],
+      "center": [
+        0.0,
+        1.165,
+        0.03475
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BM_MechanicalSparesRack.fbx"
+    },
+    {
+      "name": "B2_S01_Ops_IncomingRepair_16",
+      "room": "S01",
+      "group": "IncomingRepair",
+      "model": "BC_ToolTrolley",
+      "position": [
+        -5,
+        0,
+        4
+      ],
+      "yaw": 0,
+      "source": "B2_C01_ToolTrolley_07",
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612e-08,
+        0.5715,
+        0.0180000216
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx"
+    },
+    {
+      "name": "B2_S01_Ops_IncomingRepair_17",
+      "room": "S01",
+      "group": "IncomingRepair",
+      "model": "BC_ToolTrolley",
+      "position": [
+        -3.5,
+        0,
+        4
+      ],
+      "yaw": 0,
+      "source": "B2_C01_ToolTrolley_07",
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612e-08,
+        0.5715,
+        0.0180000216
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx"
+    },
+    {
+      "name": "B2_S01_Ops_ReleasedRepair_18",
+      "room": "S01",
+      "group": "ReleasedRepair",
+      "model": "BC_ToolTrolley",
+      "position": [
+        5,
+        0,
+        3
+      ],
+      "yaw": 0,
+      "source": "B2_C01_ToolTrolley_07",
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612e-08,
+        0.5715,
+        0.0180000216
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx"
+    },
+    {
+      "name": "B2_S01_Ops_ReleasedRepair_19",
+      "room": "S01",
+      "group": "ReleasedRepair",
+      "model": "BC_ToolTrolley",
+      "position": [
+        6.4,
+        0,
+        3
+      ],
+      "yaw": 0,
+      "source": "B2_C01_ToolTrolley_07",
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "center": [
+        1.49011612e-08,
+        0.5715,
+        0.0180000216
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx"
+    },
+    {
+      "name": "B2_S01_Ops_Recording_20",
+      "room": "S01",
+      "group": "Recording",
+      "model": "BS_ServerRack_1",
+      "position": [
+        -1.8,
+        0,
+        -7
+      ],
+      "yaw": 0,
+      "source": "B2_C04_ServerRack_1_04",
+      "size": [
+        0.84,
+        2.25,
+        1.2387979
+      ],
+      "center": [
+        0.0,
+        1.125,
+        -0.005398959
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B3/BS_ServerRack_1.fbx"
+    },
+    {
+      "name": "B2_S01_Ops_Recording_21",
+      "room": "S01",
+      "group": "Recording",
+      "model": "BS_ServerRack_2",
+      "position": [
+        -0.6,
+        0,
+        -7
+      ],
+      "yaw": 0,
+      "source": "B2_C04_ServerRack_2_05",
+      "size": [
+        0.84,
+        2.25,
+        1.2387979
+      ],
+      "center": [
+        0.0,
+        1.125,
+        -0.005398959
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B3/BS_ServerRack_2.fbx"
+    },
+    {
+      "name": "B2_S01_Ops_Backup_22",
+      "room": "S01",
+      "group": "Backup",
+      "model": "BS_ArchiveUPS",
+      "position": [
+        1.2,
+        0,
+        -7
+      ],
+      "yaw": 0,
+      "source": "B2_C03_ArchiveUPS_06",
+      "size": [
+        1.24499989,
+        1.92,
+        0.801499963
+      ],
+      "center": [
+        -5.96046448e-08,
+        0.971999943,
+        0.05325
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B3/BS_ArchiveUPS.fbx"
+    },
+    {
+      "name": "B2_S01_Ops_ServiceGas_23",
+      "room": "S01",
+      "group": "ServiceGas",
+      "model": "SD_CylinderTrolley",
+      "position": [
+        6,
+        0,
+        -3.5
+      ],
+      "yaw": 0,
+      "source": "B2_W03_CylinderTrolley_14",
+      "size": [
+        0.6606773,
+        1.41526067,
+        0.554798245
+      ],
+      "center": [
+        -0.003951609,
+        0.6996595,
+        -0.002399087
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/Common/SD_CylinderTrolley.fbx"
+    }
+  ],
+  "services": {
+    "C01": {
+      "kind": "separation"
+    },
+    "C02": {
+      "kind": "cooling"
+    },
+    "C03": {
+      "kind": "power"
+    },
+    "C04": {
+      "kind": "control"
+    },
+    "W01": {
+      "kind": "power"
+    },
+    "W02": {
+      "kind": "fuel"
+    },
+    "W03": {
+      "kind": "repair"
+    },
+    "E01": {
+      "kind": "water"
+    },
+    "E02": {
+      "kind": "air"
+    },
+    "E03": {
+      "kind": "waste"
+    },
+    "N01": {
+      "kind": "air"
+    },
+    "S01": {
+      "kind": "diagnostics"
+    }
+  },
+  "routes": [
+    {
+      "name": "C02_Upper_0",
+      "room": "C02",
+      "height": 1.8,
+      "points": [
+        [
+          -5.4,
+          3.6,
+          2.7
+        ],
+        [
+          -5.4,
+          3.6,
+          5.6
+        ],
+        [
+          -2.4,
+          3.6,
+          7.4
+        ],
+        [
+          2,
+          3.6,
+          7.4
+        ],
+        [
+          5.2,
+          3.6,
+          4.8
+        ],
+        [
+          7,
+          3.6,
+          2.4
+        ],
+        [
+          5.4,
+          3.6,
+          -1.3
+        ]
+      ]
+    },
+    {
+      "name": "C02_Stair_0",
+      "room": "C02",
+      "height": 1.8,
+      "points": [
+        [
+          -5.4,
+          0,
+          -2.7
+        ],
+        [
+          -5.4,
+          3.6,
+          1.835
+        ],
+        [
+          -5.4,
+          3.6,
+          2.7
+        ]
+      ]
+    },
+    {
+      "name": "C02_Stair_1",
+      "room": "C02",
+      "height": 1.8,
+      "points": [
+        [
+          5.4,
+          0,
+          -6.7
+        ],
+        [
+          5.4,
+          3.6,
+          -2.238832789506257
+        ],
+        [
+          5.4,
+          3.6,
+          -1.3
+        ]
+      ]
+    },
+    {
+      "name": "C02_Stair_2",
+      "room": "C02",
+      "height": 1.2,
+      "points": [
+        [
+          6.659984145108517,
+          2.42,
+          7.725581608325882
+        ],
+        [
+          5.595296452201854,
+          3.6,
+          5.592112732369609
+        ],
+        [
+          5.2,
+          3.6,
+          4.8
+        ]
+      ]
+    },
+    {
+      "name": "E02_Upper_0",
+      "room": "E02",
+      "height": 1.8,
+      "points": [
+        [
+          -3.2,
+          3.6,
+          -4
+        ],
+        [
+          -3.2,
+          3.6,
+          4
+        ]
+      ]
+    },
+    {
+      "name": "E02_Upper_1",
+      "room": "E02",
+      "height": 1.8,
+      "points": [
+        [
+          -3.2,
+          3.6,
+          2.6
+        ],
+        [
+          -0.5,
+          3.6,
+          2.6
+        ]
+      ]
+    },
+    {
+      "name": "E02_Stair_0",
+      "room": "E02",
+      "height": 1.8,
+      "points": [
+        [
+          -0.5,
+          0,
+          -3
+        ],
+        [
+          -0.5,
+          3.6,
+          1.7599999999999998
+        ],
+        [
+          -0.5,
+          3.6,
+          2.6
+        ]
+      ]
+    },
+    {
+      "name": "E02_Stair_1",
+      "room": "E02",
+      "height": 1.2,
+      "points": [
+        [
+          -6.044663949646079,
+          2.42,
+          5.540941953842239
+        ],
+        [
+          -4.085171252435176,
+          3.6,
+          4.4794933754414625
+        ],
+        [
+          -3.2,
+          3.6,
+          4
+        ]
+      ]
+    },
+    {
+      "name": "E02_Stair_2",
+      "room": "E02",
+      "height": 1.2,
+      "points": [
+        [
+          -5.164376059053993,
+          2.42,
+          -6.369397139499931
+        ],
+        [
+          -3.930231977680509,
+          3.6,
+          -4.88079344640395
+        ],
+        [
+          -3.2,
+          3.6,
+          -4
+        ]
+      ]
+    },
+    {
+      "name": "W02_Upper_0",
+      "room": "W02",
+      "height": 1.8,
+      "points": [
+        [
+          2.6,
+          3.6,
+          -4.2
+        ],
+        [
+          2.6,
+          3.6,
+          3.5
+        ],
+        [
+          -0.4,
+          3.6,
+          4.2
+        ]
+      ]
+    },
+    {
+      "name": "W02_Stair_0",
+      "room": "W02",
+      "height": 1.8,
+      "points": [
+        [
+          0.2,
+          0,
+          -2.8
+        ],
+        [
+          0.2,
+          3.6,
+          1.9849999999999994
+        ],
+        [
+          0.2,
+          3.6,
+          2.8
+        ],
+        [
+          2.6,
+          3.6,
+          2.8
+        ]
+      ]
+    },
+    {
+      "name": "W02_Stair_1",
+      "room": "W02",
+      "height": 1.2,
+      "points": [
+        [
+          6.2994144926984745,
+          2.42,
+          5.249512077248735
+        ],
+        [
+          3.4861602542517196,
+          3.6,
+          3.9190793084287017
+        ],
+        [
+          2.6,
+          3.6,
+          3.5
+        ]
+      ]
+    },
+    {
+      "name": "W02_Stair_2",
+      "room": "W02",
+      "height": 1.2,
+      "points": [
+        [
+          5.336489262338944,
+          2.42,
+          -6.225904139395431
+        ],
+        [
+          3.4821486077943113,
+          3.6,
+          -4.853080770565455
+        ],
+        [
+          2.6,
+          3.6,
+          -4.2
+        ]
+      ]
+    },
+    {
+      "name": "E01_Upper_0",
+      "room": "E01",
+      "height": 1.8,
+      "points": [
+        [
+          -4.290584565482423,
+          3.6,
+          -0.9751328557914605
+        ],
+        [
+          -3.8105117766515306,
+          3.6,
+          -2.1999999999999997
+        ],
+        [
+          -3.111269837220809,
+          3.6,
+          -3.1112698372208096
+        ],
+        [
+          -2.1999999999999993,
+          3.6,
+          -3.8105117766515306
+        ],
+        [
+          -1.138803798451092,
+          3.6,
+          -4.250073635671901
+        ],
+        [
+          2.6942229581241775e-16,
+          3.6,
+          -4.4
+        ],
+        [
+          1.1388037984510913,
+          3.6,
+          -4.250073635671901
+        ],
+        [
+          2.2000000000000006,
+          3.6,
+          -3.81051177665153
+        ],
+        [
+          3.1112698372208096,
+          3.6,
+          -3.1112698372208096
+        ],
+        [
+          3.8105117766515306,
+          3.6,
+          -2.1999999999999997
+        ],
+        [
+          4.250073635671901,
+          3.6,
+          -1.1388037984510913
+        ],
+        [
+          4.4,
+          3.6,
+          0.0
+        ],
+        [
+          4.250073635671901,
+          3.6,
+          1.1388037984510913
+        ]
+      ]
+    },
+    {
+      "name": "E01_Stair_0",
+      "room": "E01",
+      "height": 1.8,
+      "points": [
+        [
+          1,
+          0,
+          5.6
+        ],
+        [
+          3.673359137212086,
+          3.6,
+          1.9304278717238859
+        ],
+        [
+          4.250073635671901,
+          3.6,
+          1.1388037984510913
+        ]
+      ]
+    },
+    {
+      "name": "E01_Stair_1",
+      "room": "E01",
+      "height": 1.2,
+      "points": [
+        [
+          -7.020956561698512,
+          2.42,
+          -1.5956719458405715
+        ],
+        [
+          -5.143218082337089,
+          3.6,
+          -1.1689132005311575
+        ],
+        [
+          -4.290584565482423,
+          3.6,
+          -0.9751328557914605
+        ]
+      ]
+    },
+    {
+      "name": "E01_Stair_2",
+      "room": "E01",
+      "height": 1.2,
+      "points": [
+        [
+          5.307509809445335,
+          2.42,
+          -4.865217325324892
+        ],
+        [
+          3.8680360479202487,
+          3.6,
+          -3.545699710593562
+        ],
+        [
+          3.243478216883262,
+          3.6,
+          -2.9731883654763243
+        ]
+      ]
+    }
+  ],
+  "decks": {
+    "C02": {
+      "paths": [
+        [
+          [
+            [
+              -5.4,
+              2.7
+            ],
+            [
+              -5.4,
+              5.6
+            ],
+            [
+              -2.4,
+              7.4
+            ],
+            [
+              2,
+              7.4
+            ],
+            [
+              5.2,
+              4.8
+            ],
+            [
+              7,
+              2.4
+            ],
+            [
+              5.4,
+              -1.3
+            ]
+          ],
+          1.65
+        ]
+      ],
+      "stairs": [
+        [
+          [
+            -5.4,
+            0,
+            -2.7
+          ],
+          [
+            -5.4,
+            3.6,
+            1.835
+          ],
+          [
+            -5.4,
+            3.6,
+            2.7
+          ]
+        ],
+        [
+          [
+            5.4,
+            0,
+            -6.7
+          ],
+          [
+            5.4,
+            3.6,
+            -2.238832789506257
+          ],
+          [
+            5.4,
+            3.6,
+            -1.3
+          ]
+        ]
+      ],
+      "links": [
+        [
+          [
+            6.659984145108517,
+            2.42,
+            7.725581608325882
+          ],
+          [
+            5.595296452201854,
+            3.6,
+            5.592112732369609
+          ],
+          [
+            5.2,
+            3.6,
+            4.8
+          ]
+        ]
+      ],
+      "outline": [
+        [
+          -6.2250000000000005,
+          6.067107062649474
+        ],
+        [
+          -2.628511771082457,
+          8.225
+        ],
+        [
+          2.2929085158209896,
+          8.225
+        ],
+        [
+          5.799062715319259,
+          5.376249712907655
+        ],
+        [
+          7.947259655058255,
+          2.5119871265889944
+        ],
+        [
+          6.1572320546671175,
+          -1.6274516993155104
+        ],
+        [
+          5.829780355351607,
+          -2.384683753982628
+        ],
+        [
+          4.315316246017373,
+          -1.7297803553516073
+        ],
+        [
+          6.052740344941745,
+          2.2880128734110055
+        ],
+        [
+          4.600937284680741,
+          4.2237502870923445
+        ],
+        [
+          1.7070914841790112,
+          6.575
+        ],
+        [
+          -2.171488228917543,
+          6.575
+        ],
+        [
+          -4.575,
+          5.132892937350525
+        ],
+        [
+          -4.575,
+          2.7
+        ],
+        [
+          -4.575,
+          1.8750000000000002
+        ],
+        [
+          -6.2250000000000005,
+          1.8750000000000002
+        ],
+        [
+          -6.2250000000000005,
+          6.067107062649474
+        ]
+      ]
+    },
+    "E02": {
+      "paths": [
+        [
+          [
+            [
+              -3.2,
+              -4
+            ],
+            [
+              -3.2,
+              4
+            ]
+          ],
+          1.7
+        ],
+        [
+          [
+            [
+              -3.2,
+              2.6
+            ],
+            [
+              -0.5,
+              2.6
+            ]
+          ],
+          1.6
+        ]
+      ],
+      "stairs": [
+        [
+          [
+            -0.5,
+            0,
+            -3
+          ],
+          [
+            -0.5,
+            3.6,
+            1.7599999999999998
+          ],
+          [
+            -0.5,
+            3.6,
+            2.6
+          ]
+        ]
+      ],
+      "links": [
+        [
+          [
+            -6.044663949646079,
+            2.42,
+            5.540941953842239
+          ],
+          [
+            -4.085171252435176,
+            3.6,
+            4.4794933754414625
+          ],
+          [
+            -3.2,
+            3.6,
+            4
+          ]
+        ],
+        [
+          [
+            -5.164376059053993,
+            2.42,
+            -6.369397139499931
+          ],
+          [
+            -3.930231977680509,
+            3.6,
+            -4.88079344640395
+          ],
+          [
+            -3.2,
+            3.6,
+            -4
+          ]
+        ]
+      ],
+      "outline": [
+        [
+          -4.05,
+          4.85
+        ],
+        [
+          -2.35,
+          4.85
+        ],
+        [
+          -2.35,
+          3.4000000000000004
+        ],
+        [
+          -0.5,
+          3.4000000000000004
+        ],
+        [
+          0.30000000000000004,
+          3.4000000000000004
+        ],
+        [
+          0.30000000000000004,
+          1.8
+        ],
+        [
+          -2.35,
+          1.8
+        ],
+        [
+          -2.35,
+          -4.0
+        ],
+        [
+          -2.35,
+          -4.85
+        ],
+        [
+          -4.05,
+          -4.85
+        ],
+        [
+          -4.05,
+          4.0
+        ],
+        [
+          -4.05,
+          4.85
+        ]
+      ]
+    },
+    "W02": {
+      "paths": [
+        [
+          [
+            [
+              2.6,
+              -4.2
+            ],
+            [
+              2.6,
+              3.5
+            ],
+            [
+              -0.4,
+              4.2
+            ]
+          ],
+          1.7
+        ]
+      ],
+      "stairs": [
+        [
+          [
+            0.2,
+            0,
+            -2.8
+          ],
+          [
+            0.2,
+            3.6,
+            1.9849999999999994
+          ],
+          [
+            0.2,
+            3.6,
+            2.8
+          ],
+          [
+            2.6,
+            3.6,
+            2.8
+          ]
+        ]
+      ],
+      "links": [
+        [
+          [
+            6.2994144926984745,
+            2.42,
+            5.249512077248735
+          ],
+          [
+            3.4861602542517196,
+            3.6,
+            3.9190793084287017
+          ],
+          [
+            2.6,
+            3.6,
+            3.5
+          ]
+        ],
+        [
+          [
+            5.336489262338944,
+            2.42,
+            -6.225904139395431
+          ],
+          [
+            3.4821486077943113,
+            3.6,
+            -4.853080770565455
+          ],
+          [
+            2.6,
+            3.6,
+            -4.2
+          ]
+        ]
+      ],
+      "outline": [
+        [
+          1.75,
+          2.8255010979575363
+        ],
+        [
+          -0.5931451732654557,
+          3.372234971719476
+        ],
+        [
+          -1.42091020154598,
+          3.565380144984932
+        ],
+        [
+          -1.0346198550150685,
+          5.22091020154598
+        ],
+        [
+          3.45,
+          4.174498902042464
+        ],
+        [
+          3.45,
+          -4.2
+        ],
+        [
+          3.45,
+          -5.05
+        ],
+        [
+          1.75,
+          -5.05
+        ],
+        [
+          1.75,
+          2.8255010979575363
+        ]
+      ]
+    },
+    "E01": {
+      "paths": [
+        [
+          [
+            [
+              -4.290584565482423,
+              -0.9751328557914605
+            ],
+            [
+              -3.8105117766515306,
+              -2.1999999999999997
+            ],
+            [
+              -3.111269837220809,
+              -3.1112698372208096
+            ],
+            [
+              -2.1999999999999993,
+              -3.8105117766515306
+            ],
+            [
+              -1.138803798451092,
+              -4.250073635671901
+            ],
+            [
+              2.6942229581241775e-16,
+              -4.4
+            ],
+            [
+              1.1388037984510913,
+              -4.250073635671901
+            ],
+            [
+              2.2000000000000006,
+              -3.81051177665153
+            ],
+            [
+              3.1112698372208096,
+              -3.1112698372208096
+            ],
+            [
+              3.8105117766515306,
+              -2.1999999999999997
+            ],
+            [
+              4.250073635671901,
+              -1.1388037984510913
+            ],
+            [
+              4.4,
+              0.0
+            ],
+            [
+              4.250073635671901,
+              1.1388037984510913
+            ]
+          ],
+          1.65
+        ]
+      ],
+      "stairs": [
+        [
+          [
+            1,
+            0,
+            5.6
+          ],
+          [
+            3.673359137212086,
+            3.6,
+            1.9304278717238859
+          ],
+          [
+            4.250073635671901,
+            3.6,
+            1.1388037984510913
+          ]
+        ]
+      ],
+      "links": [
+        [
+          [
+            -7.020956561698512,
+            2.42,
+            -1.5956719458405715
+          ],
+          [
+            -5.143218082337089,
+            3.6,
+            -1.1689132005311575
+          ],
+          [
+            -4.290584565482423,
+            3.6,
+            -0.9751328557914605
+          ]
+        ],
+        [
+          [
+            5.307509809445335,
+            2.42,
+            -4.865217325324892
+          ],
+          [
+            3.8680360479202487,
+            3.6,
+            -3.545699710593562
+          ],
+          [
+            3.243478216883262,
+            3.6,
+            -2.9731883654763243
+          ]
+        ]
+      ],
+      "outline": [
+        [
+          -3.0849742505682825,
+          -1.7903282167838472
+        ],
+        [
+          -2.5228729255957325,
+          -2.5228729255957343
+        ],
+        [
+          -1.783940553760686,
+          -3.089875676796069
+        ],
+        [
+          -0.9234355812880074,
+          -3.44630850688374
+        ],
+        [
+          1.5277292153443478e-16,
+          -3.5678811075213743
+        ],
+        [
+          0.9234355812880056,
+          -3.44630850688374
+        ],
+        [
+          1.7839405537606874,
+          -3.0898756767960682
+        ],
+        [
+          2.522872925595735,
+          -2.522872925595732
+        ],
+        [
+          3.089875676796069,
+          -1.783940553760686
+        ],
+        [
+          3.44630850688374,
+          -0.9234355812880074
+        ],
+        [
+          3.5678811075213743,
+          0.0
+        ],
+        [
+          3.4321316250385077,
+          1.031119689869549
+        ],
+        [
+          3.3244475164569653,
+          1.8490617005029426
+        ],
+        [
+          4.960331537723753,
+          2.0644299176660272
+        ],
+        [
+          5.232118892478626,
+          0.0
+        ],
+        [
+          5.053838764460062,
+          -1.3541720156141765
+        ],
+        [
+          4.531147876506992,
+          -2.616059446239314
+        ],
+        [
+          3.6996667488458836,
+          -3.6996667488458876
+        ],
+        [
+          2.6160594462393125,
+          -4.531147876506993
+        ],
+        [
+          1.3541720156141768,
+          -5.053838764460062
+        ],
+        [
+          3.627725918913522e-16,
+          -5.232118892478626
+        ],
+        [
+          -1.354172015614178,
+          -5.053838764460062
+        ],
+        [
+          -2.616059446239313,
+          -4.531147876506992
+        ],
+        [
+          -3.699666748845886,
+          -3.699666748845885
+        ],
+        [
+          -4.536049302734778,
+          -2.609671783216154
+        ],
+        [
+          -5.058694406406298,
+          -1.2761847986117967
+        ],
+        [
+          -5.359746349226635,
+          -0.5080749576879214
+        ],
+        [
+          -3.8235266673788835,
+          0.09402892795275097
+        ],
+        [
+          -3.0849742505682825,
+          -1.7903282167838472
+        ]
+      ]
+    }
+  },
+  "unity_state": {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B2_Circular.unity",
+    "saved": true,
+    "rooms": 12,
+    "originalTransforms": 3311,
+    "missingOriginal": [],
+    "lights": 158,
+    "whiteDirect": 0,
+    "newLodGroups": 190,
+    "missingMeshes": [],
+    "missingMaterials": [],
+    "controllers": 0,
+    "reflections": 37
+  },
+  "surface_refinement": {
+    "path": "as_built_surface_refinement.json",
+    "note": "C02 적치물2개 위치/방향과 새 설비2개, 콘솔8·바닥·데크 재질은 이 후속 참조가 최신."
+  }
+}

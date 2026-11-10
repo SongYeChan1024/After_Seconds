@@ -1,0 +1,61 @@
+[
+  {
+    "name": "B2_C02_MezzanineGrating",
+    "parent": "Mezzanine",
+    "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BC_MezzanineGrating.fbx",
+    "position": "(0.00, 0.00, 0.00)",
+    "colliders": []
+  },
+  {
+    "name": "B2_C02_MezzanineGuards",
+    "parent": "Mezzanine",
+    "asset": "Assets/Afrer_Seconds/05.Model/Environment/B2/BC_MezzanineGuards.fbx",
+    "position": "(0.00, 0.00, 0.00)",
+    "colliders": [
+      {
+        "type": "MeshCollider",
+        "center": "(19.00, -29.83, 0.85)",
+        "size": "(14.72, 1.13, 7.62)"
+      }
+    ]
+  },
+  {
+    "name": "GratingWalkSurface",
+    "parent": "Mezzanine",
+    "asset": "",
+    "position": "(0.00, 0.00, 0.00)",
+    "colliders": [
+      {
+        "type": "BoxCollider",
+        "center": "(19.00, -30.44, 3.50)",
+        "size": "(14.60, 0.08, 2.20)"
+      }
+    ]
+  },
+  {
+    "name": "GratingWalkSurface",
+    "parent": "Mezzanine",
+    "asset": "",
+    "position": "(0.00, 0.00, 0.00)",
+    "colliders": [
+      {
+        "type": "BoxCollider",
+        "center": "(12.80, -30.44, -0.25)",
+        "size": "(2.20, 0.08, 5.30)"
+      }
+    ]
+  },
+  {
+    "name": "GratingWalkSurface",
+    "parent": "Mezzanine",
+    "asset": "",
+    "position": "(0.00, 0.00, 0.00)",
+    "colliders": [
+      {
+        "type": "BoxCollider",
+        "center": "(25.20, -30.44, -0.25)",
+        "size": "(2.20, 0.08, 5.30)"
+      }
+    ]
+  }
+]

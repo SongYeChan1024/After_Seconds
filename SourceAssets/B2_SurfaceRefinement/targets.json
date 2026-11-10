@@ -1,0 +1,1072 @@
+﻿[
+    {
+        "name":  "B2_C02_Floor",
+        "path":  "B2_C02_CoolingSector/Architecture/B2_C02_Floor",
+        "position":  [
+                         19.0,
+                         -34.0,
+                         -1.0
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Environment/B2/BC_C02_Floor.fbx",
+        "materials":  [
+                          {
+                              "name":  "BCM_Floor",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Floor.mat",
+                              "tex":  "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/FM_B4_Base.png"
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      19.0,
+                                      -34.12,
+                                      -1.0
+                                  ],
+                       "size":  [
+                                    21.99,
+                                    0.24,
+                                    21.99
+                                ]
+                   }
+    },
+    {
+        "name":  "B2_FloorDetails",
+        "path":  "B2_C02_CoolingSector/Architecture/B2_FloorDetails",
+        "position":  [
+                         19.0,
+                         -34.0,
+                         -1.0
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Environment/B2/BC_FloorDetails.fbx",
+        "materials":  [
+                          {
+                              "name":  "BCM_Dark",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Dark.mat",
+                              "tex":  null
+                          },
+                          {
+                              "name":  "BCM_Steel",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Steel.mat",
+                              "tex":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Textures/BC_SteelWear_Base.png"
+                          },
+                          {
+                              "name":  "BCM_Hazard",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Hazard.mat",
+                              "tex":  null
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      19.0,
+                                      -33.98925,
+                                      -1.0
+                                  ],
+                       "size":  [
+                                    21.6999989,
+                                    0.0215,
+                                    12.0119991
+                                ]
+                   }
+    },
+    {
+        "name":  "B2_C01_Floor",
+        "path":  "B2_MachineryNetwork/B2_C01_Sector/Architecture/B2_C01_Floor",
+        "position":  [
+                         -18.0,
+                         -34.0,
+                         0.0
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Environment/B2/BM_Surface_002.asset",
+        "materials":  [
+                          {
+                              "name":  "BCM_Floor",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Floor.mat",
+                              "tex":  "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/FM_B4_Base.png"
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      -18.0,
+                                      -34.12,
+                                      0.0
+                                  ],
+                       "size":  [
+                                    21.99,
+                                    0.24,
+                                    21.99
+                                ]
+                   }
+    },
+    {
+        "name":  "B2_C03_Floor",
+        "path":  "B2_MachineryNetwork/B2_C03_Sector/Architecture/B2_C03_Floor",
+        "position":  [
+                         -12.0,
+                         -34.0,
+                         26.0
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Environment/B2/BM_Surface_007.asset",
+        "materials":  [
+                          {
+                              "name":  "BCM_Floor",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Floor.mat",
+                              "tex":  "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/FM_B4_Base.png"
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      -12.0,
+                                      -34.12,
+                                      26.0
+                                  ],
+                       "size":  [
+                                    11.99,
+                                    0.24,
+                                    11.99
+                                ]
+                   }
+    },
+    {
+        "name":  "B2_C04_Floor",
+        "path":  "B2_MachineryNetwork/B2_C04_Sector/Architecture/B2_C04_Floor",
+        "position":  [
+                         14.0,
+                         -34.0,
+                         -26.0
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Environment/B2/BM_Surface_010.asset",
+        "materials":  [
+                          {
+                              "name":  "BCM_Floor",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Floor.mat",
+                              "tex":  "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/FM_B4_Base.png"
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      14.0,
+                                      -34.12,
+                                      -26.0
+                                  ],
+                       "size":  [
+                                    13.99,
+                                    0.24,
+                                    13.99
+                                ]
+                   }
+    },
+    {
+        "name":  "B2_VA_Floor",
+        "path":  "B2_MachineryNetwork/B2_VA_Sector/Architecture/B2_VA_Floor",
+        "position":  [
+                         -44.0,
+                         -34.0,
+                         28.0
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Environment/B2/BM_Surface_013.asset",
+        "materials":  [
+                          {
+                              "name":  "BCM_Floor",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Floor.mat",
+                              "tex":  "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/FM_B4_Base.png"
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      -44.0,
+                                      -34.12,
+                                      28.0
+                                  ],
+                       "size":  [
+                                    9.99,
+                                    0.24,
+                                    9.99
+                                ]
+                   }
+    },
+    {
+        "name":  "B2_VB_Floor",
+        "path":  "B2_MachineryNetwork/B2_VB_Sector/Architecture/B2_VB_Floor",
+        "position":  [
+                         44.0,
+                         -34.0,
+                         -28.0
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Environment/B2/BM_Surface_016.asset",
+        "materials":  [
+                          {
+                              "name":  "BCM_Floor",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Floor.mat",
+                              "tex":  "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/FM_B4_Base.png"
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      44.0,
+                                      -34.12,
+                                      -28.0
+                                  ],
+                       "size":  [
+                                    9.99,
+                                    0.24,
+                                    9.99
+                                ]
+                   }
+    },
+    {
+        "name":  "B2_VL_Floor",
+        "path":  "B2_MachineryNetwork/B2_VL_Sector/Architecture/B2_VL_Floor",
+        "position":  [
+                         44.0,
+                         -34.0,
+                         28.0
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Environment/B2/BM_Surface_019.asset",
+        "materials":  [
+                          {
+                              "name":  "BCM_Floor",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Floor.mat",
+                              "tex":  "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/FM_B4_Base.png"
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      44.0,
+                                      -34.12,
+                                      28.0
+                                  ],
+                       "size":  [
+                                    9.99,
+                                    0.24,
+                                    9.99
+                                ]
+                   }
+    },
+    {
+        "name":  "B2_W01_Floor",
+        "path":  "B2_MachineryNetwork/B2_W01_Sector/Architecture/B2_W01_Floor",
+        "position":  [
+                         -88.0,
+                         -34.0,
+                         38.0
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Environment/B2/BM_Surface_022.asset",
+        "materials":  [
+                          {
+                              "name":  "BCM_Floor",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Floor.mat",
+                              "tex":  "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/FM_B4_Base.png"
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      -88.0,
+                                      -34.12,
+                                      38.0
+                                  ],
+                       "size":  [
+                                    15.99,
+                                    0.24,
+                                    15.99
+                                ]
+                   }
+    },
+    {
+        "name":  "B2_W02_Floor",
+        "path":  "B2_MachineryNetwork/B2_W02_Sector/Architecture/B2_W02_Floor",
+        "position":  [
+                         -124.0,
+                         -34.0,
+                         8.0
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Environment/B2/BM_Surface_025.asset",
+        "materials":  [
+                          {
+                              "name":  "BCM_Floor",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Floor.mat",
+                              "tex":  "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/FM_B4_Base.png"
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      -124.0,
+                                      -34.12,
+                                      8.0
+                                  ],
+                       "size":  [
+                                    17.99,
+                                    0.24,
+                                    17.99
+                                ]
+                   }
+    },
+    {
+        "name":  "B2_W03_Floor",
+        "path":  "B2_MachineryNetwork/B2_W03_Sector/Architecture/B2_W03_Floor",
+        "position":  [
+                         -94.0,
+                         -34.0,
+                         -27.0
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Environment/B2/BM_Surface_028.asset",
+        "materials":  [
+                          {
+                              "name":  "BCM_Floor",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Floor.mat",
+                              "tex":  "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/FM_B4_Base.png"
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      -94.0,
+                                      -34.12,
+                                      -27.0
+                                  ],
+                       "size":  [
+                                    15.99,
+                                    0.24,
+                                    15.99
+                                ]
+                   }
+    },
+    {
+        "name":  "B2_E01_Floor",
+        "path":  "B2_MachineryNetwork/B2_E01_Sector/Architecture/B2_E01_Floor",
+        "position":  [
+                         88.0,
+                         -34.0,
+                         38.0
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Environment/B2/BM_Surface_031.asset",
+        "materials":  [
+                          {
+                              "name":  "BCM_Floor",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Floor.mat",
+                              "tex":  "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/FM_B4_Base.png"
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      88.0,
+                                      -34.12,
+                                      38.0
+                                  ],
+                       "size":  [
+                                    15.99,
+                                    0.24,
+                                    15.99
+                                ]
+                   }
+    },
+    {
+        "name":  "B2_E02_Floor",
+        "path":  "B2_MachineryNetwork/B2_E02_Sector/Architecture/B2_E02_Floor",
+        "position":  [
+                         124.0,
+                         -34.0,
+                         5.0
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Environment/B2/BM_Surface_034.asset",
+        "materials":  [
+                          {
+                              "name":  "BCM_Floor",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Floor.mat",
+                              "tex":  "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/FM_B4_Base.png"
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      124.0,
+                                      -34.12,
+                                      5.0
+                                  ],
+                       "size":  [
+                                    17.99,
+                                    0.24,
+                                    17.99
+                                ]
+                   }
+    },
+    {
+        "name":  "B2_E03_Floor",
+        "path":  "B2_MachineryNetwork/B2_E03_Sector/Architecture/B2_E03_Floor",
+        "position":  [
+                         94.0,
+                         -34.0,
+                         -32.0
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Environment/B2/BM_Surface_037.asset",
+        "materials":  [
+                          {
+                              "name":  "BCM_Floor",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Floor.mat",
+                              "tex":  "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/FM_B4_Base.png"
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      94.0,
+                                      -34.12,
+                                      -32.0
+                                  ],
+                       "size":  [
+                                    15.99,
+                                    0.24,
+                                    15.99
+                                ]
+                   }
+    },
+    {
+        "name":  "B2_N01_Floor",
+        "path":  "B2_MachineryNetwork/B2_N01_Sector/Architecture/B2_N01_Floor",
+        "position":  [
+                         0.0,
+                         -34.0,
+                         76.0
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Environment/B2/BM_Surface_040.asset",
+        "materials":  [
+                          {
+                              "name":  "BCM_Floor",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Floor.mat",
+                              "tex":  "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/FM_B4_Base.png"
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      0.0,
+                                      -34.12,
+                                      76.0
+                                  ],
+                       "size":  [
+                                    19.99,
+                                    0.24,
+                                    19.99
+                                ]
+                   }
+    },
+    {
+        "name":  "B2_S01_Floor",
+        "path":  "B2_MachineryNetwork/B2_S01_Sector/Architecture/B2_S01_Floor",
+        "position":  [
+                         0.0,
+                         -34.0,
+                         -76.0
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Environment/B2/BM_Surface_043.asset",
+        "materials":  [
+                          {
+                              "name":  "BCM_Floor",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Floor.mat",
+                              "tex":  "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/FM_B4_Base.png"
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      0.0,
+                                      -34.12,
+                                      -76.0
+                                  ],
+                       "size":  [
+                                    19.99,
+                                    0.24,
+                                    19.99
+                                ]
+                   }
+    },
+    {
+        "name":  "B2_DestinationGuidance",
+        "path":  "B2_MachineryNetwork/B2_DestinationGuidance",
+        "position":  [
+                         0.0,
+                         -34.0,
+                         0.0
+                     ],
+        "mesh":  null,
+        "materials":  null,
+        "bounds":  null
+    },
+    {
+        "name":  "PartsStaging",
+        "path":  "B2_MachineryNetwork/B2_OperationsLayout/B2_C02_Operations/PartsStaging",
+        "position":  [
+                         19.0,
+                         -34.0,
+                         -1.0
+                     ],
+        "mesh":  null,
+        "materials":  null,
+        "bounds":  null
+    },
+    {
+        "name":  "B2_C02_Ops_PartsStaging_13",
+        "path":  "B2_MachineryNetwork/B2_OperationsLayout/B2_C02_Operations/PartsStaging/B2_C02_Ops_PartsStaging_13",
+        "position":  [
+                         20.0,
+                         -34.0,
+                         -6.5
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Props/B2/BN_MotorSpares.fbx",
+        "materials":  [
+                          {
+                              "name":  "BCM_Steel",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Steel.mat",
+                              "tex":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Textures/BC_SteelWear_Base.png"
+                          },
+                          {
+                              "name":  "BCM_Dark",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Dark.mat",
+                              "tex":  null
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      20.0,
+                                      -33.52222,
+                                      -6.5
+                                  ],
+                       "size":  [
+                                    1.4,
+                                    0.955556333,
+                                    0.799999952
+                                ]
+                   }
+    },
+    {
+        "name":  "B2_C02_Ops_PartsStaging_14",
+        "path":  "B2_MachineryNetwork/B2_OperationsLayout/B2_C02_Operations/PartsStaging/B2_C02_Ops_PartsStaging_14",
+        "position":  [
+                         18.0,
+                         -34.0,
+                         -7.2
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx",
+        "materials":  [
+                          {
+                              "name":  "BCM_Rubber",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Rubber.mat",
+                              "tex":  null
+                          },
+                          {
+                              "name":  "BCM_Steel",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Steel.mat",
+                              "tex":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Textures/BC_SteelWear_Base.png"
+                          },
+                          {
+                              "name":  "BCM_Teal",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Teal.mat",
+                              "tex":  null
+                          },
+                          {
+                              "name":  "BCM_Coat",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Coat.mat",
+                              "tex":  "Assets/Afrer_Seconds/05.Model/Environment/Common/Textures/WW_B3_Base.png"
+                          },
+                          {
+                              "name":  "BCM_Dark",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Dark.mat",
+                              "tex":  null
+                          },
+                          {
+                              "name":  "BCM_Hazard",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Hazard.mat",
+                              "tex":  null
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      18.0,
+                                      -33.4285,
+                                      -7.18199968
+                                  ],
+                       "size":  [
+                                    0.820000052,
+                                    1.113,
+                                    0.7160001
+                                ]
+                   }
+    },
+    {
+        "name":  "BO_C02_OperationsDeck",
+        "path":  "B2_MachineryNetwork/B2_OperationsLayout/B2_C02_Operations/BO_C02_OperationsDeck",
+        "position":  [
+                         19.0,
+                         -34.0,
+                         -1.0
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Environment/B2/BO_C02_OperationsDeck.fbx",
+        "materials":  [
+                          {
+                              "name":  "BCM_Steel",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Steel.mat",
+                              "tex":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Textures/BC_SteelWear_Base.png"
+                          },
+                          {
+                              "name":  "BCM_Hazard",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Hazard.mat",
+                              "tex":  null
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      19.83863,
+                                      -31.8594551,
+                                      -0.217499971
+                                  ],
+                       "size":  [
+                                    14.35726,
+                                    4.93891144,
+                                    15.105
+                                ]
+                   }
+    },
+    {
+        "name":  "BO_C02_OperationsDeck_Collision",
+        "path":  "B2_MachineryNetwork/B2_OperationsLayout/B2_C02_Operations/BO_C02_OperationsDeck_Collision",
+        "position":  [
+                         19.0,
+                         -34.0,
+                         -1.0
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Environment/B2/BO_C02_OperationsDeck_Collision.fbx",
+        "materials":  [
+                          {
+                              "name":  "BCM_Dark",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Dark.mat",
+                              "tex":  null
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      19.8473969,
+                                      -31.72,
+                                      -0.207499981
+                                  ],
+                       "size":  [
+                                    14.2547951,
+                                    4.68,
+                                    14.985
+                                ]
+                   }
+    },
+    {
+        "name":  "B2_C01_ControlConsole_14_Visual",
+        "path":  "B2_MachineryNetwork/B2_OperationsLayout/B2_C01_Operations/Handover/B2_C01_Ops_Handover_19/B2_C01_ControlConsole_14_Visual",
+        "position":  [
+                         -25.5,
+                         -34.0,
+                         2.8
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Props/B2/B2_ControlDeskIsland.fbx",
+        "materials":  [
+                          {
+                              "name":  "B2_ControlDeskIsland_URP",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Props/B2/Materials/B2_ControlDeskIsland_URP.mat",
+                              "tex":  "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/B2_ControlDeskIsland_00_00_baseColor_00.png"
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      -25.5,
+                                      -33.275,
+                                      2.8
+                                  ],
+                       "size":  [
+                                    1.23307025,
+                                    1.45,
+                                    1.38708591
+                                ]
+                   }
+    },
+    {
+        "name":  "B2_C01_ControlConsole_14_Visual",
+        "path":  "B2_MachineryNetwork/B2_OperationsLayout/B2_C04_Operations/Operations/B2_C04_Ops_Operations_01/B2_C01_ControlConsole_14_Visual",
+        "position":  [
+                         12.2,
+                         -34.0,
+                         -26.8
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Props/B2/B2_ControlDeskIsland.fbx",
+        "materials":  [
+                          {
+                              "name":  "B2_ControlDeskIsland_URP",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Props/B2/Materials/B2_ControlDeskIsland_URP.mat",
+                              "tex":  "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/B2_ControlDeskIsland_00_00_baseColor_00.png"
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      12.2,
+                                      -33.275,
+                                      -26.8
+                                  ],
+                       "size":  [
+                                    1.38708556,
+                                    1.45,
+                                    1.23307
+                                ]
+                   }
+    },
+    {
+        "name":  "B2_C01_ControlConsole_14_Visual",
+        "path":  "B2_MachineryNetwork/B2_OperationsLayout/B2_C04_Operations/Operations/B2_C04_Ops_Operations_02/B2_C01_ControlConsole_14_Visual",
+        "position":  [
+                         14.0,
+                         -34.0,
+                         -26.8
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Props/B2/B2_ControlDeskIsland.fbx",
+        "materials":  [
+                          {
+                              "name":  "B2_ControlDeskIsland_URP",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Props/B2/Materials/B2_ControlDeskIsland_URP.mat",
+                              "tex":  "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/B2_ControlDeskIsland_00_00_baseColor_00.png"
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      14.0,
+                                      -33.275,
+                                      -26.8
+                                  ],
+                       "size":  [
+                                    1.38708556,
+                                    1.45,
+                                    1.23307
+                                ]
+                   }
+    },
+    {
+        "name":  "B2_C01_ControlConsole_14_Visual",
+        "path":  "B2_MachineryNetwork/B2_OperationsLayout/B2_C04_Operations/Operations/B2_C04_Ops_Operations_03/B2_C01_ControlConsole_14_Visual",
+        "position":  [
+                         15.8,
+                         -34.0,
+                         -26.8
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Props/B2/B2_ControlDeskIsland.fbx",
+        "materials":  [
+                          {
+                              "name":  "B2_ControlDeskIsland_URP",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Props/B2/Materials/B2_ControlDeskIsland_URP.mat",
+                              "tex":  "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/B2_ControlDeskIsland_00_00_baseColor_00.png"
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      15.8,
+                                      -33.275,
+                                      -26.8
+                                  ],
+                       "size":  [
+                                    1.38708556,
+                                    1.45,
+                                    1.23307
+                                ]
+                   }
+    },
+    {
+        "name":  "BO_W02_OperationsDeck",
+        "path":  "B2_MachineryNetwork/B2_OperationsLayout/B2_W02_Operations/BO_W02_OperationsDeck",
+        "position":  [
+                         -124.0,
+                         -34.0,
+                         8.0
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Environment/B2/BO_W02_OperationsDeck.fbx",
+        "materials":  [
+                          {
+                              "name":  "BCM_Steel",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Steel.mat",
+                              "tex":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Textures/BC_SteelWear_Base.png"
+                          },
+                          {
+                              "name":  "BCM_Hazard",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Hazard.mat",
+                              "tex":  null
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      -121.3876,
+                                      -31.8594589,
+                                      7.55242157
+                                  ],
+                       "size":  [
+                                    8.206615,
+                                    4.93891668,
+                                    12.9986706
+                                ]
+                   }
+    },
+    {
+        "name":  "BO_W02_OperationsDeck_Collision",
+        "path":  "B2_MachineryNetwork/B2_OperationsLayout/B2_W02_Operations/BO_W02_OperationsDeck_Collision",
+        "position":  [
+                         -124.0,
+                         -34.0,
+                         8.0
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Environment/B2/BO_W02_OperationsDeck_Collision.fbx",
+        "materials":  [
+                          {
+                              "name":  "BCM_Dark",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Dark.mat",
+                              "tex":  null
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      -121.3958,
+                                      -31.72,
+                                      7.55392647
+                                  ],
+                       "size":  [
+                                    8.108656,
+                                    4.68,
+                                    12.9099007
+                                ]
+                   }
+    },
+    {
+        "name":  "BO_E01_OperationsDeck",
+        "path":  "B2_MachineryNetwork/B2_OperationsLayout/B2_E01_Operations/BO_E01_OperationsDeck",
+        "position":  [
+                         88.0,
+                         -34.0,
+                         38.0
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Environment/B2/BO_E01_OperationsDeck.fbx",
+        "materials":  [
+                          {
+                              "name":  "BCM_Steel",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Steel.mat",
+                              "tex":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Textures/BC_SteelWear_Base.png"
+                          },
+                          {
+                              "name":  "BCM_Hazard",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Hazard.mat",
+                              "tex":  null
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      87.32719,
+                                      -31.8594551,
+                                      38.30732
+                                  ],
+                       "size":  [
+                                    13.1953163,
+                                    4.93891144,
+                                    11.679266
+                                ]
+                   }
+    },
+    {
+        "name":  "BO_E01_OperationsDeck_Collision",
+        "path":  "B2_MachineryNetwork/B2_OperationsLayout/B2_E01_Operations/BO_E01_OperationsDeck_Collision",
+        "position":  [
+                         88.0,
+                         -34.0,
+                         38.0
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Environment/B2/BO_E01_OperationsDeck_Collision.fbx",
+        "materials":  [
+                          {
+                              "name":  "BCM_Dark",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Dark.mat",
+                              "tex":  null
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      87.334,
+                                      -31.72,
+                                      38.3050957
+                                  ],
+                       "size":  [
+                                    13.0822363,
+                                    4.68,
+                                    11.5790453
+                                ]
+                   }
+    },
+    {
+        "name":  "BO_E02_OperationsDeck",
+        "path":  "B2_MachineryNetwork/B2_OperationsLayout/B2_E02_Operations/BO_E02_OperationsDeck",
+        "position":  [
+                         124.0,
+                         -34.0,
+                         5.0
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Environment/B2/BO_E02_OperationsDeck.fbx",
+        "materials":  [
+                          {
+                              "name":  "BCM_Steel",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Steel.mat",
+                              "tex":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Textures/BC_SteelWear_Base.png"
+                          },
+                          {
+                              "name":  "BCM_Hazard",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Hazard.mat",
+                              "tex":  null
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      120.939766,
+                                      -31.8594589,
+                                      4.68339348
+                                  ],
+                       "size":  [
+                                    6.88047,
+                                    4.938916,
+                                    13.2795334
+                                ]
+                   }
+    },
+    {
+        "name":  "BO_E02_OperationsDeck_Collision",
+        "path":  "B2_MachineryNetwork/B2_OperationsLayout/B2_E02_Operations/BO_E02_OperationsDeck_Collision",
+        "position":  [
+                         124.0,
+                         -34.0,
+                         5.0
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Environment/B2/BO_E02_OperationsDeck_Collision.fbx",
+        "materials":  [
+                          {
+                              "name":  "BCM_Dark",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Environment/B2/Materials/BCM_Dark.mat",
+                              "tex":  null
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      120.947624,
+                                      -31.72,
+                                      4.687009
+                                  ],
+                       "size":  [
+                                    6.784758,
+                                    4.68,
+                                    13.1850586
+                                ]
+                   }
+    },
+    {
+        "name":  "B2_C01_ControlConsole_14_Visual",
+        "path":  "B2_MachineryNetwork/B2_OperationsLayout/B2_E03_Operations/DryRecords/B2_E03_Ops_DryRecords_09/B2_C01_ControlConsole_14_Visual",
+        "position":  [
+                         94.5,
+                         -34.0,
+                         -27.4
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Props/B2/B2_ControlDeskIsland.fbx",
+        "materials":  [
+                          {
+                              "name":  "B2_ControlDeskIsland_URP",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Props/B2/Materials/B2_ControlDeskIsland_URP.mat",
+                              "tex":  "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/B2_ControlDeskIsland_00_00_baseColor_00.png"
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      94.5,
+                                      -33.275,
+                                      -27.4
+                                  ],
+                       "size":  [
+                                    1.38708568,
+                                    1.45,
+                                    1.23307014
+                                ]
+                   }
+    },
+    {
+        "name":  "B2_C01_ControlConsole_14_Visual",
+        "path":  "B2_MachineryNetwork/B2_OperationsLayout/B2_S01_Operations/StatusStation/B2_S01_Ops_StatusStation_09/B2_C01_ControlConsole_14_Visual",
+        "position":  [
+                         -1.8,
+                         -34.0,
+                         -71.0
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Props/B2/B2_ControlDeskIsland.fbx",
+        "materials":  [
+                          {
+                              "name":  "B2_ControlDeskIsland_URP",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Props/B2/Materials/B2_ControlDeskIsland_URP.mat",
+                              "tex":  "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/B2_ControlDeskIsland_00_00_baseColor_00.png"
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      -1.8,
+                                      -33.275,
+                                      -71.0
+                                  ],
+                       "size":  [
+                                    1.38708568,
+                                    1.45,
+                                    1.23307014
+                                ]
+                   }
+    },
+    {
+        "name":  "B2_C01_ControlConsole_14_Visual",
+        "path":  "B2_MachineryNetwork/B2_OperationsLayout/B2_S01_Operations/StatusStation/B2_S01_Ops_StatusStation_10/B2_C01_ControlConsole_14_Visual",
+        "position":  [
+                         0.0,
+                         -34.0,
+                         -71.0
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Props/B2/B2_ControlDeskIsland.fbx",
+        "materials":  [
+                          {
+                              "name":  "B2_ControlDeskIsland_URP",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Props/B2/Materials/B2_ControlDeskIsland_URP.mat",
+                              "tex":  "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/B2_ControlDeskIsland_00_00_baseColor_00.png"
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      -2.605402E-15,
+                                      -33.275,
+                                      -71.0
+                                  ],
+                       "size":  [
+                                    1.38708568,
+                                    1.45,
+                                    1.23307014
+                                ]
+                   }
+    },
+    {
+        "name":  "B2_C01_ControlConsole_14_Visual",
+        "path":  "B2_MachineryNetwork/B2_OperationsLayout/B2_S01_Operations/StatusStation/B2_S01_Ops_StatusStation_11/B2_C01_ControlConsole_14_Visual",
+        "position":  [
+                         1.8,
+                         -34.0,
+                         -71.0
+                     ],
+        "mesh":  "Assets/Afrer_Seconds/05.Model/Props/B2/B2_ControlDeskIsland.fbx",
+        "materials":  [
+                          {
+                              "name":  "B2_ControlDeskIsland_URP",
+                              "path":  "Assets/Afrer_Seconds/05.Model/Props/B2/Materials/B2_ControlDeskIsland_URP.mat",
+                              "tex":  "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/B2_ControlDeskIsland_00_00_baseColor_00.png"
+                          }
+                      ],
+        "bounds":  {
+                       "center":  [
+                                      1.8,
+                                      -33.275,
+                                      -71.0
+                                  ],
+                       "size":  [
+                                    1.38708568,
+                                    1.45,
+                                    1.23307014
+                                ]
+                   }
+    }
+]

@@ -1,0 +1,1694 @@
+[
+  {
+    "id": "C01",
+    "free": 2488,
+    "connected": 2488,
+    "targets": [
+      {
+        "name": "B2-T02",
+        "kind": "door",
+        "reachable": true,
+        "error": 0.0247072466,
+        "move": null
+      },
+      {
+        "name": "B2-T03",
+        "kind": "door",
+        "reachable": true,
+        "error": 0.04794859,
+        "move": {
+          "passed": true,
+          "miss": 0.0,
+          "feet": -33.920002,
+          "expected": -34.0,
+          "index": 83,
+          "position": [
+            -24.9,
+            -33.920002,
+            7.50000048
+          ]
+        }
+      },
+      {
+        "name": "B2-T05",
+        "kind": "door",
+        "reachable": true,
+        "error": 0.176000208,
+        "move": {
+          "passed": true,
+          "miss": 9.536743E-07,
+          "feet": -33.920002,
+          "expected": -34.0,
+          "index": 28,
+          "position": [
+            -10.1999989,
+            -33.920002,
+            -6.3
+          ]
+        }
+      },
+      {
+        "name": "B2-T06",
+        "kind": "door",
+        "reachable": true,
+        "error": 0.113281332,
+        "move": {
+          "passed": true,
+          "miss": 9.536743E-07,
+          "feet": -33.920002,
+          "expected": -34.0,
+          "index": 60,
+          "position": [
+            -15.5999994,
+            -33.920002,
+            9.900001
+          ]
+        }
+      },
+      {
+        "name": "B2-T13",
+        "kind": "door",
+        "reachable": true,
+        "error": 0.115176484,
+        "move": {
+          "passed": true,
+          "miss": 1.90734863E-06,
+          "feet": -33.920002,
+          "expected": -34.0,
+          "index": 76,
+          "position": [
+            -27.5999985,
+            -33.920002,
+            -3.30000019
+          ]
+        }
+      },
+      {
+        "name": "B2_C01_Ops_SeparationTrain_01",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.141892672
+      },
+      {
+        "name": "B2_C01_Ops_SeparationTrain_02",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.141892672
+      },
+      {
+        "name": "B2_C01_Ops_FeedTreatment_03",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.113600016
+      },
+      {
+        "name": "B2_C01_Ops_FeedTreatment_04",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.113600016
+      },
+      {
+        "name": "B2_C01_Ops_DischargeCooling_05",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.2119999
+      },
+      {
+        "name": "B2_C01_Ops_DischargeCooling_06",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.2119999
+      },
+      {
+        "name": "B2_C01_Ops_ProcessControl_07",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.12744011
+      },
+      {
+        "name": "B2_C01_Ops_ProcessControl_08",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.12744011
+      },
+      {
+        "name": "B2_C01_Ops_FeedHeader_09",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.172046483
+      },
+      {
+        "name": "B2_C01_Ops_FeedHeader_10",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.172046542
+      },
+      {
+        "name": "B2_C01_Ops_MotorRemoval_11",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.125000149
+      },
+      {
+        "name": "B2_C01_Ops_MotorRemoval_12",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.125000149
+      },
+      {
+        "name": "B2_C01_Ops_Maintenance_13",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.0487499237
+      },
+      {
+        "name": "B2_C01_Ops_Maintenance_14",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.0487499237
+      },
+      {
+        "name": "B2_C01_Ops_Parts_15",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.1624313
+      },
+      {
+        "name": "B2_C01_Ops_Parts_16",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.128000259
+      },
+      {
+        "name": "B2_C01_Ops_CartBay_17",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.0240001678
+      },
+      {
+        "name": "B2_C01_Ops_CartBay_18",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.0240001678
+      },
+      {
+        "name": "B2_C01_Ops_Handover_19",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.101357765
+      },
+      {
+        "name": "B2_C01_LubricationStation",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.0999999046
+      }
+    ]
+  },
+  {
+    "id": "C02",
+    "free": 2696,
+    "connected": 2696,
+    "targets": [
+      {
+        "name": "B2-T01",
+        "kind": "door",
+        "reachable": true,
+        "error": 0.0955833048,
+        "move": null
+      },
+      {
+        "name": "B2-T02",
+        "kind": "door",
+        "reachable": true,
+        "error": 0.0247072466,
+        "move": {
+          "passed": true,
+          "miss": 1.90734863E-06,
+          "feet": -33.920002,
+          "expected": -34.0,
+          "index": 87,
+          "position": [
+            8.800001,
+            -33.920002,
+            -0.7
+          ]
+        }
+      },
+      {
+        "name": "B2-T04",
+        "kind": "door",
+        "reachable": true,
+        "error": 0.142517939,
+        "move": {
+          "passed": true,
+          "miss": 1.90734863E-06,
+          "feet": -33.920002,
+          "expected": -34.0,
+          "index": 88,
+          "position": [
+            16.9000015,
+            -33.920002,
+            -10.9000006
+          ]
+        }
+      },
+      {
+        "name": "B2-T09",
+        "kind": "door",
+        "reachable": true,
+        "error": 0.146890834,
+        "move": {
+          "passed": true,
+          "miss": 9.536743E-07,
+          "feet": -33.920002,
+          "expected": -34.0,
+          "index": 58,
+          "position": [
+            11.2000008,
+            -33.920002,
+            5.60000038
+          ]
+        }
+      },
+      {
+        "name": "B2_C02_Ops_PumpTrainA_01",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.122528076
+      },
+      {
+        "name": "B2_C02_Ops_PumpTrainA_02",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.122528076
+      },
+      {
+        "name": "B2_C02_Ops_PumpTrainA_03",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.122528076
+      },
+      {
+        "name": "B2_C02_Ops_PumpTrainB_04",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.0225281119
+      },
+      {
+        "name": "B2_C02_Ops_PumpTrainB_05",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.0225281119
+      },
+      {
+        "name": "B2_C02_Ops_HeatExchange_06",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.280435324
+      },
+      {
+        "name": "B2_C02_Ops_HeatExchange_07",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.280435324
+      },
+      {
+        "name": "B2_C02_Ops_Accumulator_08",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.100000381
+      },
+      {
+        "name": "B2_C02_Ops_DryControl_09",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.07900047
+      },
+      {
+        "name": "B2_C02_Ops_DryControl_10",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.07900047
+      },
+      {
+        "name": "B2_C02_Ops_DryControl_11",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.07900047
+      },
+      {
+        "name": "B2_C02_Ops_Maintenance_12",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.05124998
+      },
+      {
+        "name": "B2_C02_Ops_PartsStaging_13",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.160078049
+      },
+      {
+        "name": "B2_C02_Ops_PartsStaging_14",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.12560232
+      },
+      {
+        "name": "B2_C02_Ops_Maintenance_15",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.212565109
+      },
+      {
+        "name": "B2_C02_Ops_SupplyHeader_16",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.139999866
+      },
+      {
+        "name": "B2_C02_Ops_ReturnHeader_17",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.172046348
+      },
+      {
+        "name": "B2_C02_PartsCradle",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.1562052
+      }
+    ]
+  },
+  {
+    "id": "C03",
+    "free": 783,
+    "connected": 783,
+    "targets": [
+      {
+        "name": "B2-T06",
+        "kind": "door",
+        "reachable": true,
+        "error": 0.0452144779,
+        "move": null
+      },
+      {
+        "name": "B2-T07",
+        "kind": "door",
+        "reachable": true,
+        "error": 0.0890351757,
+        "move": {
+          "passed": true,
+          "miss": 4.76837158E-07,
+          "feet": -33.920002,
+          "expected": -34.0,
+          "index": 43,
+          "position": [
+            -7.20000029,
+            -33.920002,
+            27.8
+          ]
+        }
+      },
+      {
+        "name": "B2-T09",
+        "kind": "door",
+        "reachable": true,
+        "error": 0.117197506,
+        "move": {
+          "passed": true,
+          "miss": 0.0,
+          "feet": -33.920002,
+          "expected": -34.0,
+          "index": 23,
+          "position": [
+            -8.1,
+            -33.920002,
+            22.7
+          ]
+        }
+      },
+      {
+        "name": "B2_C03_Ops_Switchboard_01",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.0789999962
+      },
+      {
+        "name": "B2_C03_Ops_Switchboard_02",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.0789999962
+      },
+      {
+        "name": "B2_C03_Ops_Switchboard_03",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.0789999962
+      },
+      {
+        "name": "B2_C03_Ops_Switchboard_04",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.1569744
+      },
+      {
+        "name": "B2_C03_Ops_Switchboard_05",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.1569744
+      },
+      {
+        "name": "B2_C03_Ops_Switchboard_06",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.156974331
+      },
+      {
+        "name": "B2_C03_Ops_BackupPower_07",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.176963285
+      },
+      {
+        "name": "B2_C03_Ops_TestEquipment_08",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.1123681
+      },
+      {
+        "name": "B2_C03_Ops_MeterCart_09",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.102839686
+      }
+    ]
+  },
+  {
+    "id": "C04",
+    "free": 1097,
+    "connected": 1097,
+    "targets": [
+      {
+        "name": "B2-T04",
+        "kind": "door",
+        "reachable": true,
+        "error": 0.08117673,
+        "move": null
+      },
+      {
+        "name": "B2-T05",
+        "kind": "door",
+        "reachable": true,
+        "error": 0.0153412959,
+        "move": {
+          "passed": true,
+          "miss": 9.536743E-07,
+          "feet": -33.920002,
+          "expected": -34.0,
+          "index": 27,
+          "position": [
+            9.200001,
+            -33.920002,
+            -22.1
+          ]
+        }
+      },
+      {
+        "name": "B2-T08",
+        "kind": "door",
+        "reachable": true,
+        "error": 0.15991503,
+        "move": {
+          "passed": true,
+          "miss": 0.0,
+          "feet": -33.920002,
+          "expected": -34.0,
+          "index": 38,
+          "position": [
+            20.3,
+            -33.920002,
+            -26.3
+          ]
+        }
+      },
+      {
+        "name": "B2_C04_Ops_Operations_01",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.116535068
+      },
+      {
+        "name": "B2_C04_Ops_Operations_02",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.116535068
+      },
+      {
+        "name": "B2_C04_Ops_Operations_03",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.116535068
+      },
+      {
+        "name": "B2_C04_Ops_RearRackRow_04",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.13189365
+      },
+      {
+        "name": "B2_C04_Ops_RearRackRow_05",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.131893739
+      },
+      {
+        "name": "B2_C04_Ops_RearRackRow_06",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.131893709
+      },
+      {
+        "name": "B2_C04_Ops_RearRackRow_07",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.131893739
+      },
+      {
+        "name": "B2_C04_Ops_RearRackRow_08",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.131893829
+      },
+      {
+        "name": "B2_C04_Ops_Backup_09",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.110072732
+      },
+      {
+        "name": "B2_C04_Ops_Handover_10",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.112367995
+      },
+      {
+        "name": "B2_C04_Ops_ServiceCart_11",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.0759999752
+      },
+      {
+        "name": "B2_C04_Ops_Distribution_12",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.10218133
+      }
+    ]
+  },
+  {
+    "id": "W01",
+    "free": 1100,
+    "connected": 1002,
+    "targets": [
+      {
+        "name": "B2-T10",
+        "kind": "door",
+        "reachable": true,
+        "error": 0.15421921,
+        "move": null
+      },
+      {
+        "name": "B2-T11",
+        "kind": "door",
+        "reachable": true,
+        "error": 0.170775324,
+        "move": {
+          "passed": true,
+          "miss": 7.62939453E-06,
+          "feet": -33.920002,
+          "expected": -34.0,
+          "index": 51,
+          "position": [
+            -93.3999939,
+            -33.920002,
+            33.5
+          ]
+        }
+      },
+      {
+        "name": "B2_W01_Ops_TransformerBank_01",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.134804413
+      },
+      {
+        "name": "B2_W01_Ops_TransformerBank_02",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.134804413
+      },
+      {
+        "name": "B2_W01_Ops_TransformerBank_03",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.148364946
+      },
+      {
+        "name": "B2_W01_Ops_TransformerBank_04",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.148365259
+      },
+      {
+        "name": "B2_W01_Ops_Isolation_05",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.156974658
+      },
+      {
+        "name": "B2_W01_Ops_Isolation_06",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.156974658
+      },
+      {
+        "name": "B2_W01_Ops_Switchgear_07",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.0789999962
+      },
+      {
+        "name": "B2_W01_Ops_Switchgear_08",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.0789999962
+      },
+      {
+        "name": "B2_W01_Ops_Switchgear_09",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.0789999962
+      },
+      {
+        "name": "B2_W01_Ops_Switchgear_10",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.0789999962
+      },
+      {
+        "name": "B2_W01_Ops_Switchgear_11",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.0789999962
+      },
+      {
+        "name": "B2_W01_Ops_BatteryBackup_12",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.2729764
+      },
+      {
+        "name": "B2_W01_Ops_BatteryBackup_13",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.053999424
+      },
+      {
+        "name": "B2_W01_Ops_TestBay_14",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.148749828
+      },
+      {
+        "name": "B2_W01_Ops_MeterCart_15",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.102839515
+      }
+    ]
+  },
+  {
+    "id": "W02",
+    "free": 1570,
+    "connected": 1570,
+    "targets": [
+      {
+        "name": "B2-T11",
+        "kind": "door",
+        "reachable": true,
+        "error": 0.149512962,
+        "move": null
+      },
+      {
+        "name": "B2-T12",
+        "kind": "door",
+        "reachable": true,
+        "error": 0.09759037,
+        "move": {
+          "passed": true,
+          "miss": 2.38418579E-07,
+          "feet": -33.920002,
+          "expected": -34.0,
+          "index": 41,
+          "position": [
+            -118.6,
+            -33.920002,
+            1.7
+          ]
+        }
+      },
+      {
+        "name": "B2_W02_Ops_GeneratorTrain_01",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.202583432
+      },
+      {
+        "name": "B2_W02_Ops_GeneratorTrain_02",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.102583289
+      },
+      {
+        "name": "B2_W02_Ops_GeneratorTrain_03",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.002583027
+      },
+      {
+        "name": "B2_W02_Ops_FuelDistribution_04",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.0599999428
+      },
+      {
+        "name": "B2_W02_Ops_FuelDistribution_05",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.116618961
+      },
+      {
+        "name": "B2_W02_Ops_FuelDistribution_06",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.116618924
+      },
+      {
+        "name": "B2_W02_Ops_DayTank_07",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.225000381
+      },
+      {
+        "name": "B2_W02_Ops_Control_08",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.102181159
+      },
+      {
+        "name": "B2_W02_Ops_Control_09",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.1021811
+      },
+      {
+        "name": "B2_W02_Ops_Backup_10",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.17696318
+      },
+      {
+        "name": "B2_W02_Ops_Maintenance_11",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.0487499237
+      },
+      {
+        "name": "B2_W02_Ops_ToolBay_12",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.500576138
+      },
+      {
+        "name": "B2_W02_Ops_ServiceSpares_13",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.103077553
+      },
+      {
+        "name": "B2_W02_Ops_ServiceSpares_14",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.160078347
+      },
+      {
+        "name": "B2_W02_Ops_Consumables_15",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.0720005
+      }
+    ]
+  },
+  {
+    "id": "W03",
+    "free": 1395,
+    "connected": 1392,
+    "targets": [
+      {
+        "name": "B2-T12",
+        "kind": "door",
+        "reachable": true,
+        "error": 0.13231355,
+        "move": null
+      },
+      {
+        "name": "B2-T13",
+        "kind": "door",
+        "reachable": true,
+        "error": 0.115887821,
+        "move": {
+          "passed": true,
+          "miss": 7.62939453E-06,
+          "feet": -33.920002,
+          "expected": -34.0,
+          "index": 49,
+          "position": [
+            -87.1000061,
+            -33.920002,
+            -24.6
+          ]
+        }
+      },
+      {
+        "name": "B2-T21",
+        "kind": "door",
+        "reachable": true,
+        "error": 0.08918192,
+        "move": {
+          "passed": true,
+          "miss": 7.62939453E-06,
+          "feet": -33.920002,
+          "expected": -34.0,
+          "index": 66,
+          "position": [
+            -87.7000046,
+            -33.920002,
+            -30.3
+          ]
+        }
+      },
+      {
+        "name": "B2_W03_Ops_PartsA_01",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.1624317
+      },
+      {
+        "name": "B2_W03_Ops_PartsA_02",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.162431508
+      },
+      {
+        "name": "B2_W03_Ops_PartsA_03",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.128000021
+      },
+      {
+        "name": "B2_W03_Ops_PartsB_04",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.103846304
+      },
+      {
+        "name": "B2_W03_Ops_PartsB_05",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.103846006
+      },
+      {
+        "name": "B2_W03_Ops_PartsB_06",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.0280000567
+      },
+      {
+        "name": "B2_W03_Ops_Repair_07",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.112367883
+      },
+      {
+        "name": "B2_W03_Ops_Repair_08",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.1487503
+      },
+      {
+        "name": "B2_W03_Ops_Repair_09",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.112367883
+      },
+      {
+        "name": "B2_W03_Ops_RepairMotors_10",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.144097164
+      },
+      {
+        "name": "B2_W03_Ops_RepairMotors_11",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.144097164
+      },
+      {
+        "name": "B2_W03_Ops_Receiving_12",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.09800005
+      },
+      {
+        "name": "B2_W03_Ops_Receiving_13",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.124000072
+      },
+      {
+        "name": "B2_W03_Ops_Dispatch_14",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.1592982
+      },
+      {
+        "name": "B2_W03_Ops_Dispatch_15",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.123999596
+      },
+      {
+        "name": "B2_W03_Ops_HeavyParts_16",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.07200003
+      },
+      {
+        "name": "B2_W03_Ops_WeldingBay_17",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.162575543
+      },
+      {
+        "name": "B2_W03_Ops_ServicePower_18",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.0972650647
+      }
+    ]
+  },
+  {
+    "id": "E01",
+    "free": 1290,
+    "connected": 1287,
+    "targets": [
+      {
+        "name": "B2-T14",
+        "kind": "door",
+        "reachable": true,
+        "error": 0.15421921,
+        "move": null
+      },
+      {
+        "name": "B2-T15",
+        "kind": "door",
+        "reachable": true,
+        "error": 0.113171093,
+        "move": {
+          "passed": true,
+          "miss": 7.62939453E-06,
+          "feet": -33.920002,
+          "expected": -34.0,
+          "index": 52,
+          "position": [
+            93.3999939,
+            -33.920002,
+            33.2
+          ]
+        }
+      },
+      {
+        "name": "B2_E01_Ops_Accumulator_01",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.0999999046
+      },
+      {
+        "name": "B2_E01_Ops_Treatment_02",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.162431628
+      },
+      {
+        "name": "B2_E01_Ops_Treatment_03",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.128000021
+      },
+      {
+        "name": "B2_E01_Ops_BoostTrain_04",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.173592851
+      },
+      {
+        "name": "B2_E01_Ops_BoostTrain_05",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.17359288
+      },
+      {
+        "name": "B2_E01_Ops_BoostTrain_06",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.2767988
+      },
+      {
+        "name": "B2_E01_Ops_DryControls_07",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.10218133
+      },
+      {
+        "name": "B2_E01_Ops_DryControls_08",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.102181159
+      },
+      {
+        "name": "B2_E01_Ops_WaterHeader_09",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.172046378
+      },
+      {
+        "name": "B2_E01_Ops_WaterHeader_10",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.100319587
+      },
+      {
+        "name": "B2_E01_Ops_Maintenance_11",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.112368025
+      },
+      {
+        "name": "B2_E01_Ops_SpareSeals_12",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.102839634
+      },
+      {
+        "name": "B2_E01_Ops_PumpRemoval_13",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.0250000954
+      }
+    ]
+  },
+  {
+    "id": "E02",
+    "free": 1801,
+    "connected": 1801,
+    "targets": [
+      {
+        "name": "B2-T15",
+        "kind": "door",
+        "reachable": true,
+        "error": 0.147849724,
+        "move": null
+      },
+      {
+        "name": "B2-T16",
+        "kind": "door",
+        "reachable": true,
+        "error": 0.0946583,
+        "move": {
+          "passed": true,
+          "miss": 0.0,
+          "feet": -33.920002,
+          "expected": -34.0,
+          "index": 46,
+          "position": [
+            118.9,
+            -33.920002,
+            -1.30000019
+          ]
+        }
+      },
+      {
+        "name": "B2_E02_Ops_FilterBank_01",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.265548438
+      },
+      {
+        "name": "B2_E02_Ops_FilterBank_02",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.05400002
+      },
+      {
+        "name": "B2_E02_Ops_FilterBank_03",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.113648504
+      },
+      {
+        "name": "B2_E02_Ops_FanDrive_04",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.10596776
+      },
+      {
+        "name": "B2_E02_Ops_FanDrive_05",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.0349998549
+      },
+      {
+        "name": "B2_E02_Ops_FanDrive_06",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.10592816
+      },
+      {
+        "name": "B2_E02_Ops_Plenum_07",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.07499981
+      },
+      {
+        "name": "B2_E02_Ops_CleanFilters_08",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.162431434
+      },
+      {
+        "name": "B2_E02_Ops_SealedReturns_09",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.04048133
+      },
+      {
+        "name": "B2_E02_Ops_PressureReadings_10",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.127440229
+      },
+      {
+        "name": "B2_E02_Ops_ServiceBench_11",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.05124998
+      },
+      {
+        "name": "B2_E02_Ops_FilterCart_12",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.123999596
+      },
+      {
+        "name": "B2_E02_Ops_MotorSpares_13",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.07499981
+      }
+    ]
+  },
+  {
+    "id": "E03",
+    "free": 1140,
+    "connected": 1139,
+    "targets": [
+      {
+        "name": "B2-T16",
+        "kind": "door",
+        "reachable": true,
+        "error": 0.112788759,
+        "move": null
+      },
+      {
+        "name": "B2-T17",
+        "kind": "door",
+        "reachable": true,
+        "error": 0.03454287,
+        "move": {
+          "passed": true,
+          "miss": 0.0,
+          "feet": -33.920002,
+          "expected": -34.0,
+          "index": 56,
+          "position": [
+            86.8,
+            -33.920002,
+            -31.4
+          ]
+        }
+      },
+      {
+        "name": "B2_E03_Ops_SealedWaste_01",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.172046483
+      },
+      {
+        "name": "B2_E03_Ops_SealedWaste_02",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.172046408
+      },
+      {
+        "name": "B2_E03_Ops_SealedWaste_03",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.139999866
+      },
+      {
+        "name": "B2_E03_Ops_TransferPumps_04",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.108421825
+      },
+      {
+        "name": "B2_E03_Ops_TransferPumps_05",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.108421549
+      },
+      {
+        "name": "B2_E03_Ops_Treatment_06",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.123223327
+      },
+      {
+        "name": "B2_E03_Ops_DryControls_07",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.1569744
+      },
+      {
+        "name": "B2_E03_Ops_DryControls_08",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.15697448
+      },
+      {
+        "name": "B2_E03_Ops_DryRecords_09",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.130255029
+      },
+      {
+        "name": "B2_E03_Ops_Decontamination_10",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.124999806
+      },
+      {
+        "name": "B2_E03_Ops_SealedReturns_11",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.107882984
+      },
+      {
+        "name": "B2_E03_Ops_PPE_12",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.19508028
+      },
+      {
+        "name": "B2_E03_Ops_WetHeader_13",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.5192302
+      },
+      {
+        "name": "B2_E03_Ops_ServiceCart_14",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.2935577
+      },
+      {
+        "name": "B2_E03_CD_Equalization_193",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.107703194
+      },
+      {
+        "name": "B2_E03_CD_FilterSpares_194",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.1624313
+      }
+    ]
+  },
+  {
+    "id": "N01",
+    "free": 2129,
+    "connected": 2129,
+    "targets": [
+      {
+        "name": "B2-T18",
+        "kind": "door",
+        "reachable": true,
+        "error": 0.1446081,
+        "move": null
+      },
+      {
+        "name": "B2-T19",
+        "kind": "door",
+        "reachable": true,
+        "error": 0.1446081,
+        "move": {
+          "passed": true,
+          "miss": 9.536743E-07,
+          "feet": -33.920002,
+          "expected": -34.0,
+          "index": 42,
+          "position": [
+            6.299999,
+            -33.920002,
+            69.1
+          ]
+        }
+      },
+      {
+        "name": "B2_N01_Ops_FanBankA_01",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.119250633
+      },
+      {
+        "name": "B2_N01_Ops_FanBankA_02",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.119250812
+      },
+      {
+        "name": "B2_N01_Ops_FanBankA_03",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.119250633
+      },
+      {
+        "name": "B2_N01_Ops_FanBankB_04",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.119286016
+      },
+      {
+        "name": "B2_N01_Ops_FanBankB_05",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.11928609
+      },
+      {
+        "name": "B2_N01_Ops_FanBankB_06",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.119286016
+      },
+      {
+        "name": "B2_N01_Ops_IntakeFilters_07",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.146000385
+      },
+      {
+        "name": "B2_N01_Ops_IntakeFilters_08",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.146000385
+      },
+      {
+        "name": "B2_N01_Ops_IntakeFilters_09",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.146000385
+      },
+      {
+        "name": "B2_N01_Ops_DriveControls_10",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.120999813
+      },
+      {
+        "name": "B2_N01_Ops_DriveControls_11",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.120999813
+      },
+      {
+        "name": "B2_N01_Ops_ServiceSpares_12",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.0250000954
+      },
+      {
+        "name": "B2_N01_Ops_ServiceSpares_13",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.0250000954
+      },
+      {
+        "name": "B2_N01_Ops_ServiceBenches_14",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.17923905
+      },
+      {
+        "name": "B2_N01_Ops_ServiceBenches_15",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.179238647
+      },
+      {
+        "name": "B2_N01_Ops_DuctEquipment_16",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.150519818
+      },
+      {
+        "name": "B2_N01_Ops_DuctEquipment_17",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.150520176
+      },
+      {
+        "name": "B2_N01_Ops_ToolBay_18",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.023999691
+      }
+    ]
+  },
+  {
+    "id": "S01",
+    "free": 2327,
+    "connected": 2327,
+    "targets": [
+      {
+        "name": "B2-T20",
+        "kind": "door",
+        "reachable": true,
+        "error": 0.1446081,
+        "move": null
+      },
+      {
+        "name": "B2-T21",
+        "kind": "door",
+        "reachable": true,
+        "error": 0.07842073,
+        "move": {
+          "passed": true,
+          "miss": 9.536743E-07,
+          "feet": -33.920002,
+          "expected": -34.0,
+          "index": 57,
+          "position": [
+            -8.099999,
+            -33.920002,
+            -71.8
+          ]
+        }
+      },
+      {
+        "name": "B2_S01_Ops_DiagnosticBench_01",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.148749769
+      },
+      {
+        "name": "B2_S01_Ops_DiagnosticBench_02",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.0487499237
+      },
+      {
+        "name": "B2_S01_Ops_DiagnosticBench_03",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.148749769
+      },
+      {
+        "name": "B2_S01_Ops_DiagnosticBench_04",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.0487499237
+      },
+      {
+        "name": "B2_S01_Ops_TestMotors_05",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.09625
+      },
+      {
+        "name": "B2_S01_Ops_TestMotors_06",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.00374996662
+      },
+      {
+        "name": "B2_S01_Ops_TestMotors_07",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.09625
+      },
+      {
+        "name": "B2_S01_Ops_TestMotors_08",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.00374996662
+      },
+      {
+        "name": "B2_S01_Ops_StatusStation_09",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.116535187
+      },
+      {
+        "name": "B2_S01_Ops_StatusStation_10",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.116535187
+      },
+      {
+        "name": "B2_S01_Ops_StatusStation_11",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.116535187
+      },
+      {
+        "name": "B2_S01_Ops_TestPower_12",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.120999813
+      },
+      {
+        "name": "B2_S01_Ops_TestPower_13",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.120999813
+      },
+      {
+        "name": "B2_S01_Ops_Tools_14",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.127999783
+      },
+      {
+        "name": "B2_S01_Ops_Tools_15",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.128000259
+      },
+      {
+        "name": "B2_S01_Ops_IncomingRepair_16",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.159299135
+      },
+      {
+        "name": "B2_S01_Ops_IncomingRepair_17",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.159298986
+      },
+      {
+        "name": "B2_S01_Ops_ReleasedRepair_18",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.125602841
+      },
+      {
+        "name": "B2_S01_Ops_ReleasedRepair_19",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.125602454
+      },
+      {
+        "name": "B2_S01_Ops_Recording_20",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.0859999657
+      },
+      {
+        "name": "B2_S01_Ops_Recording_21",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.0859999657
+      },
+      {
+        "name": "B2_S01_Ops_Backup_22",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.0539999
+      },
+      {
+        "name": "B2_S01_Ops_ServiceGas_23",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.07510407
+      },
+      {
+        "name": "B2_S01_CD_CalibrationPower_189",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.120999813
+      },
+      {
+        "name": "B2_S01_CD_ServiceParts_190",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.1624313
+      },
+      {
+        "name": "B2_S01_CD_ServiceParts_191",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.10384579
+      },
+      {
+        "name": "B2_S01_CD_CalibrationPower_192",
+        "kind": "operatingFace",
+        "reachable": true,
+        "error": 0.07900047
+      }
+    ]
+  }
+]

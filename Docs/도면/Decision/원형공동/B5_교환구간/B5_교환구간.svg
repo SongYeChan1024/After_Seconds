@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 900" font-family="'Malgun Gothic','Noto Sans KR',sans-serif">
+  <title>B5 교환 구간 평면도 V0.04</title>
+  <rect width="1120" height="900" fill="#f4f7fa"/>
+
+  <!-- 지도: 단위 m. x=동쪽(오른쪽), v=남쪽(아래). 1m = 14px -->
+  <g transform="translate(756,532) scale(14)">
+    <!-- 통로 (폭 4.2m) -->
+    <g stroke="#c4d0d8" stroke-width="4.2" fill="none">
+      <line x1="-15" y1="10" x2="-22" y2="-18"/>
+      <line x1="-22" y1="-18" x2="-44" y2="-28"/>
+    </g>
+    <!-- 1차 시험에서 잠그는 통로 -->
+    <g stroke="#dde4e9" stroke-width="4.2" fill="none" stroke-dasharray="1.2 0.6">
+      <line x1="-15" y1="10" x2="-1.1" y2="8.7"/>
+      <line x1="-15" y1="10" x2="-31.6" y2="13.6"/>
+      <line x1="-22" y1="-18" x2="-10" y2="-18.6"/>
+      <line x1="-44" y1="-28" x2="-52.8" y2="-30"/>
+      <line x1="-44" y1="-28" x2="-37.9" y2="-34.6"/>
+    </g>
+
+    <!-- 공동 -->
+    <g fill="#e8eef2" stroke="#5b7285" stroke-width="0.25">
+      <circle cx="-15" cy="10" r="10"/>
+      <circle cx="-22" cy="-18" r="7"/>
+      <circle cx="-44" cy="-28" r="5"/>
+    </g>
+
+    <!-- 포드 (유리: 총알과 던진 물체를 막음) -->
+    <circle cx="-15" cy="10" r="4.2" fill="#d6ecf5" stroke="#2f8fb3" stroke-width="0.3"/>
+    <!-- 배식구로 던지는 방향 -->
+    <polygon points="-15,14.2 -17.6,19 -12.4,19" fill="#d6453d" opacity="0.16"/>
+    <rect x="-15.4" y="13.95" width="0.8" height="0.5" fill="#1d2a33"/>
+
+    <!-- 엄폐물 -->
+    <rect x="-24.6" y="-24.3" width="2.6" height="0.5" fill="#6d7f8c"/>
+    <rect x="-27.2" y="-15.6" width="2.4" height="0.7" fill="#1d2a33"/>
+    <rect x="-33.9" y="-25.4" width="1.2" height="0.8" fill="#1d2a33" transform="rotate(24.4 -33.3 -25)"/>
+
+    <!-- 걸어서 가는 경로 -->
+    <polyline points="-15,15.2 -20.6,13 -21,6.5 -17.6,1.5 -20.5,-12 -25.6,-14.4 -27,-19.6 -33,-24.2 -40.2,-26.3 -43,-27.6"
+              fill="none" stroke="#2f9e5b" stroke-width="0.22" stroke-dasharray="0.25 0.5" stroke-linecap="round"/>
+
+    <!-- 경비 이동: A의 배식 동선, C의 순찰 -->
+    <g fill="none" stroke="#e8842a" stroke-width="0.25" stroke-dasharray="0.9 0.5">
+      <polyline points="-17.2,1.1 -10.5,4.5 -8.8,10 -10.5,15 -14.3,15.9"/>
+      <line x1="-22" y1="-18" x2="-38.8" y2="-25.6"/>
+    </g>
+
+    <!-- 사선 -->
+    <line x1="-27" y1="-20.3" x2="-38.8" y2="-25.6" stroke="#d6453d" stroke-width="0.16" stroke-dasharray="0.6 0.4" fill="none"/>
+
+    <!-- 교환 뒤 도착 지점 -->
+    <g fill="none" stroke="#0f8f8f" stroke-width="0.22">
+      <circle cx="-15" cy="14.9" r="0.55"/>
+      <circle cx="-31.6" cy="-22.3" r="0.55"/>
+    </g>
+
+    <!-- 사격 위치 -->
+    <circle cx="-27" cy="-20.3" r="0.35" fill="#0f8f8f"/>
+
+    <!-- 플레이어 시작 -->
+    <circle cx="-15" cy="11" r="0.5" fill="#3b6fb6"/>
+
+    <!-- 경비 -->
+    <g fill="#e8842a" stroke="#8a4a10" stroke-width="0.1">
+      <circle cx="-15" cy="15.9" r="0.5"/>
+      <circle cx="-23.2" cy="-22.7" r="0.5"/>
+      <circle cx="-38.8" cy="-25.6" r="0.5"/>
+    </g>
+
+    <!-- 체크포인트 -->
+    <g fill="#7a55c7">
+      <rect x="-18.1" y="16.1" width="0.7" height="0.7" transform="rotate(45 -17.75 16.45)"/>
+      <rect x="-42" y="-27.3" width="0.7" height="0.7" transform="rotate(45 -41.65 -26.95)"/>
+    </g>
+
+    <!-- 지점 번호 -->
+    <g fill="#0f8f8f">
+      <circle cx="-11" cy="18.1" r="0.95"/>
+      <circle cx="-25.4" cy="-11" r="0.95"/>
+      <circle cx="-29.3" cy="-25.6" r="0.95"/>
+    </g>
+    <g fill="#ffffff" font-size="1.15" font-weight="700" text-anchor="middle">
+      <text x="-11" y="18.5">1</text>
+      <text x="-25.4" y="-10.6">2</text>
+      <text x="-29.3" y="-25.2">3</text>
+    </g>
+
+    <!-- 이름 -->
+    <g fill="#22323d" font-size="0.95" font-weight="700" text-anchor="middle">
+      <text x="-15" y="21.7">C01 실험동</text>
+      <text x="-44" y="-33.9">VA 계단 A</text>
+    </g>
+    <text x="-14.2" y="-21.6" fill="#22323d" font-size="0.95" font-weight="700">C02 보안관제동</text>
+
+    <g fill="#4a5c68" font-size="0.75">
+      <text x="-15" y="8.6" text-anchor="middle">유리 포드</text>
+      <text x="-14" y="11.3">S-03 시작</text>
+      <text x="-14.1" y="16.3">A 배식 경비</text>
+      <text x="-7.9" y="12.6">A가 오는 길</text>
+      <text x="-15.6" y="-5">T01 13.5m</text>
+      <text x="-30.4" y="-18.4" text-anchor="end">T02 13.8m</text>
+      <text x="-21.9" y="-26">B 관제 요원 (화면을 봄)</text>
+      <text x="-27.9" y="-14.9" text-anchor="end">로커 (엄폐)</text>
+      <text x="-39.6" y="-21.6" text-anchor="middle">C 순찰 경비</text>
+      <text x="-33.3" y="-28.4" text-anchor="middle">캐비닛 (숨을 곳)</text>
+      <text x="-0.8" y="6.6" text-anchor="end" fill="#8a98a3">T03 잠금</text>
+      <text x="-31.4" y="16.6" fill="#8a98a3">T11 잠금</text>
+      <text x="-9.8" y="-16.2" text-anchor="end" fill="#8a98a3">T05 잠금</text>
+    </g>
+  </g>
+
+  <!-- 방위와 축척 -->
+  <g fill="#22323d" font-size="13">
+    <path d="M30 60 L38 36 L46 60 L38 54 Z" fill="#22323d"/>
+    <text x="38" y="78" text-anchor="middle" font-weight="700">북</text>
+    <line x1="30" y1="868" x2="170" y2="868" stroke="#22323d" stroke-width="2"/>
+    <line x1="30" y1="862" x2="30" y2="874" stroke="#22323d" stroke-width="2"/>
+    <line x1="170" y1="862" x2="170" y2="874" stroke="#22323d" stroke-width="2"/>
+    <text x="100" y="858" text-anchor="middle">10 m</text>
+  </g>
+
+  <!-- 범례 -->
+  <g transform="translate(786,40)" fill="#22323d">
+    <text font-size="20" font-weight="700">B5 교환 구간 평면도 V0.04</text>
+    <text y="24" font-size="12" fill="#5b6b76">C01 → C02 → 계단 A · 작성자 송예찬 · 2026-11-10</text>
+    <text y="42" font-size="12" fill="#5b6b76">A 경로 시험 예시. 통로 잠금은 시험 전용.</text>
+
+    <g font-size="13" transform="translate(0,78)">
+      <circle cx="9" cy="-4" r="7" fill="#3b6fb6"/><text x="26">플레이어 시작</text>
+      <circle cx="9" cy="22" r="7" fill="#e8842a" stroke="#8a4a10"/><text x="26" y="26">경비 (A 배식 · B 앉음 · C 순찰). 모두 총을 지님</text>
+      <circle cx="9" cy="48" r="5" fill="#0f8f8f"/><text x="26" y="52">쏘는 자리</text>
+      <circle cx="9" cy="74" r="7" fill="none" stroke="#0f8f8f" stroke-width="3"/><text x="26" y="78">교환 뒤 내가 서는 자리</text>
+      <line x1="0" y1="100" x2="18" y2="100" stroke="#d6453d" stroke-width="2" stroke-dasharray="6 4"/><text x="26" y="104">사선</text>
+      <line x1="0" y1="126" x2="18" y2="126" stroke="#2f9e5b" stroke-width="3" stroke-dasharray="3 6" stroke-linecap="round"/><text x="26" y="130">걸어서 가는 길</text>
+      <line x1="0" y1="152" x2="18" y2="152" stroke="#e8842a" stroke-width="3" stroke-dasharray="9 5"/><text x="26" y="156">경비가 다니는 길</text>
+      <rect x="2" y="170" width="14" height="10" fill="#1d2a33"/><text x="26" y="182">엄폐물 (높이 1.9m)</text>
+      <rect x="4" y="198" width="10" height="10" fill="#7a55c7" transform="rotate(45 9 203)"/><text x="26" y="208">체크포인트</text>
+    </g>
+
+    <g font-size="13" transform="translate(0,330)">
+      <text font-weight="700" font-size="14">1 · 능력 소개 컷씬 (Cinemachine)</text>
+      <text y="20">받는 척하며 식판을 밀쳐 A를 맞힌다.</text>
+      <text y="38">실제 명중 3초 뒤 나는 밖, A는 안.</text>
+      <text y="56" fill="#b0483f">직접 조작 없이 진행, 종료 후 조작 복귀.</text>
+
+      <text y="96" font-weight="700" font-size="14">2 · 쓰러뜨릴지, 피할지 (선택)</text>
+      <text y="116">B를 뒤에서 쓰러뜨리면 총을 얻는다.</text>
+      <text y="134">던질 물건으로 교환해 넘어도 된다.</text>
+      <text y="152" fill="#2f9e5b">걷기: 로커 뒤로 B의 등 뒤를 지난다.</text>
+
+      <text y="192" font-weight="700" font-size="14">3 · 순찰 넘기 (선택)</text>
+      <text y="212">통로의 C를 쏘거나 물건을 던져 맞힌다.</text>
+      <text y="230">C와 앞뒤가 바뀌어 계단 쪽에 선다.</text>
+      <text y="248" fill="#2f9e5b">걷기: 캐비닛 뒤에서 C를 보낸다.</text>
+
+      <text y="288" font-size="12" fill="#5b6b76">총은 강제하지 않는다.</text>
+      <text y="305" font-size="12" fill="#5b6b76">코어 자유 선택 · 상행만 · 준비는 선택.</text>
+    </g>
+  </g>
+</svg>

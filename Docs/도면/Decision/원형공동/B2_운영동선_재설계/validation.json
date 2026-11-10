@@ -1,0 +1,227 @@
+{
+  "version": "0.01",
+  "scope": "proposal drawings only; not Unity clearance or NavMesh validation",
+  "source_sha256": "95cd2db20c454768d01aced59cfed99e373729ec4ff57d880d26e4fd832f1fe6",
+  "existing_rooms": 15,
+  "caverns": 12,
+  "existing_tunnels": 21,
+  "routes_checked": 5,
+  "adjacency_checks": 28,
+  "all_route_edges_exist": true,
+  "equipment_footprints_inside_room_circle": true,
+  "route_edges": [
+    [
+      "central",
+      "C04",
+      "C02",
+      "T04"
+    ],
+    [
+      "central",
+      "C02",
+      "C03",
+      "T09"
+    ],
+    [
+      "central",
+      "C03",
+      "C01",
+      "T06"
+    ],
+    [
+      "central",
+      "C01",
+      "C04",
+      "T05"
+    ],
+    [
+      "west",
+      "C04",
+      "C01",
+      "T05"
+    ],
+    [
+      "west",
+      "C01",
+      "W03",
+      "T13"
+    ],
+    [
+      "west",
+      "W03",
+      "W02",
+      "T12"
+    ],
+    [
+      "west",
+      "W02",
+      "W01",
+      "T11"
+    ],
+    [
+      "west",
+      "W01",
+      "VA",
+      "T10"
+    ],
+    [
+      "west",
+      "VA",
+      "C01",
+      "T03"
+    ],
+    [
+      "west",
+      "C01",
+      "C04",
+      "T05"
+    ],
+    [
+      "east",
+      "C04",
+      "C02",
+      "T04"
+    ],
+    [
+      "east",
+      "C02",
+      "VL",
+      "T01"
+    ],
+    [
+      "east",
+      "VL",
+      "E01",
+      "T14"
+    ],
+    [
+      "east",
+      "E01",
+      "E02",
+      "T15"
+    ],
+    [
+      "east",
+      "E02",
+      "E03",
+      "T16"
+    ],
+    [
+      "east",
+      "E03",
+      "VB",
+      "T17"
+    ],
+    [
+      "east",
+      "VB",
+      "C04",
+      "T08"
+    ],
+    [
+      "north",
+      "C01",
+      "VA",
+      "T03"
+    ],
+    [
+      "north",
+      "VA",
+      "N01",
+      "T18"
+    ],
+    [
+      "north",
+      "N01",
+      "VL",
+      "T19"
+    ],
+    [
+      "north",
+      "VL",
+      "C03",
+      "T07"
+    ],
+    [
+      "north",
+      "C03",
+      "C01",
+      "T06"
+    ],
+    [
+      "south",
+      "C04",
+      "VB",
+      "T08"
+    ],
+    [
+      "south",
+      "VB",
+      "S01",
+      "T20"
+    ],
+    [
+      "south",
+      "S01",
+      "W03",
+      "T21"
+    ],
+    [
+      "south",
+      "W03",
+      "C01",
+      "T13"
+    ],
+    [
+      "south",
+      "C01",
+      "C04",
+      "T05"
+    ]
+  ],
+  "lower_plan_centerline_sampling": [
+    {
+      "room": "C02",
+      "route": "technician",
+      "minimum_centerline_distance_to_2d_blocks_or_wall_m": 0.435,
+      "sample_spacing_m": 0.025,
+      "test_radius_m": 0.4
+    },
+    {
+      "room": "C02",
+      "route": "guard",
+      "minimum_centerline_distance_to_2d_blocks_or_wall_m": 0.451,
+      "sample_spacing_m": 0.025,
+      "test_radius_m": 0.4
+    },
+    {
+      "room": "E02",
+      "route": "technician",
+      "minimum_centerline_distance_to_2d_blocks_or_wall_m": 0.5,
+      "sample_spacing_m": 0.025,
+      "test_radius_m": 0.4
+    },
+    {
+      "room": "E02",
+      "route": "guard",
+      "minimum_centerline_distance_to_2d_blocks_or_wall_m": 0.802,
+      "sample_spacing_m": 0.025,
+      "test_radius_m": 0.4
+    },
+    {
+      "room": "E02",
+      "route": "rear",
+      "minimum_centerline_distance_to_2d_blocks_or_wall_m": 0.639,
+      "sample_spacing_m": 0.025,
+      "test_radius_m": 0.4
+    }
+  ],
+  "not_validated": [
+    "3D overlap",
+    "stair section",
+    "cart swept clearance",
+    "NavMesh",
+    "visibility",
+    "runtime AI"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "version": "V0.01",
+  "author": "송예찬",
+  "date": "2026-11-10",
+  "source": "SourceAssets/B2_SurfaceRefinement",
+  "models": {
+    "BR_PlantConsole": {
+      "triangles": 19416,
+      "parts": 108,
+      "beveled_parts": 100,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Props\\B2\\BR_PlantConsole.fbx"
+    },
+    "BR_PlantConsole_Far": {
+      "triangles": 7766,
+      "distance_only": true
+    },
+    "BR_PartsCradle": {
+      "triangles": 2446,
+      "parts": 14,
+      "beveled_parts": 13,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Props\\B2\\BR_PartsCradle.fbx"
+    },
+    "BR_PartsCradle_Far": {
+      "triangles": 978,
+      "distance_only": true
+    },
+    "BR_LubricationStation": {
+      "triangles": 16418,
+      "parts": 68,
+      "beveled_parts": 61,
+      "asset": "C:\\Users\\503-26\\Desktop\\Projects\\04.After_Seconds\\Unity\\After_Seconds_Build_V0.01\\Assets\\Afrer_Seconds\\05.Model\\Props\\B2\\BR_LubricationStation.fbx"
+    },
+    "BR_LubricationStation_Far": {
+      "triangles": 6566,
+      "distance_only": true
+    }
+  },
+  "method": "Blender manual construction with bevels and distance LOD; procedural PBR/legible static display textures. Original VARCO console preserved inactive in this scene; no new VARCO generation.",
+  "floor_guidance": false,
+  "screen_runtime": false,
+  "inspection_images": "detail_* use temporary inspection lighting; no additional scene lights saved."
+}
