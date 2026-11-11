@@ -1,0 +1,2460 @@
+{
+  "replaceRooms": [
+    "C01",
+    "C02",
+    "C05",
+    "N01"
+  ],
+  "remove": [
+    {
+      "room": "C01",
+      "name": "B1_C01_TrialTargetRail_01",
+      "model": "BL_TrialTargetRail",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/BL_TrialTargetRail.fbx",
+      "position": [
+        0.0,
+        0.0,
+        -4.5
+      ],
+      "yaw": 0,
+      "size": [
+        2.9000000953674316,
+        3.305000066757202,
+        1.2999999523162842
+      ],
+      "center": [
+        0.0,
+        1.652500033378601,
+        0.0
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_PredictiveSensorFrame_02",
+      "model": "BL_PredictiveSensorFrame",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/BL_PredictiveSensorFrame.fbx",
+      "position": [
+        0.0,
+        0.0,
+        1.8
+      ],
+      "yaw": 0,
+      "size": [
+        2.0,
+        2.8000001907348633,
+        2.0
+      ],
+      "center": [
+        0.0,
+        1.4000000953674316,
+        0.0
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "N01",
+      "name": "B1_N01_TrialTargetRail_01",
+      "model": "BL_TrialTargetRail",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/BL_TrialTargetRail.fbx",
+      "position": [
+        -3.0,
+        0.0,
+        -2.0
+      ],
+      "yaw": 20,
+      "size": [
+        2.9000000953674316,
+        3.305000066757202,
+        1.2999999523162842
+      ],
+      "center": [
+        0.0,
+        1.652500033378601,
+        0.0
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "N01",
+      "name": "B1_N01_PredictiveSensorFrame_02",
+      "model": "BL_PredictiveSensorFrame",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/BL_PredictiveSensorFrame.fbx",
+      "position": [
+        3.0,
+        0.0,
+        -2.0
+      ],
+      "yaw": -20,
+      "size": [
+        2.0,
+        2.8000001907348633,
+        2.0
+      ],
+      "center": [
+        0.0,
+        1.4000000953674316,
+        0.0
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_TrialControlConsole_03",
+      "model": "BO_TrialControlConsole",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_TrialControlConsole.fbx",
+      "position": [
+        10.691806529868291,
+        -0.008216953000000027,
+        -1.2815986311476611e-17
+      ],
+      "yaw": 270,
+      "size": [
+        2.15,
+        1.504283,
+        1.087534
+      ],
+      "center": [
+        0.0,
+        0.760358453,
+        -0.06976698
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_TrialControlConsole_04",
+      "model": "BO_TrialControlConsole",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_TrialControlConsole.fbx",
+      "position": [
+        10.047011698987825,
+        -0.008216953000000027,
+        -3.6568132017558725
+      ],
+      "yaw": -70,
+      "size": [
+        2.15,
+        1.504283,
+        1.087534
+      ],
+      "center": [
+        0.0,
+        0.760358453,
+        -0.06976698
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_AcquisitionRack_05",
+      "model": "BO_AcquisitionRack",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_AcquisitionRack.fbx",
+      "position": [
+        1.4789015062033404,
+        -0.012000069999999807,
+        10.697121660270872
+      ],
+      "yaw": 188,
+      "size": [
+        0.7684853,
+        2.188,
+        0.839
+      ],
+      "center": [
+        -0.0242426544,
+        1.10600007,
+        0.0195000172
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_SynchronizationCart_06",
+      "model": "BO_SynchronizationCart",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_SynchronizationCart.fbx",
+      "position": [
+        5.864973309753493,
+        -0.008000000000000007,
+        -9.385919299502694
+      ],
+      "yaw": -32,
+      "size": [
+        0.82,
+        1.007,
+        0.617334366
+      ],
+      "center": [
+        0.0,
+        0.5115,
+        0.0186672062
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_MedicalGasStation_07",
+      "model": "SF_MedicalGasStation",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_MedicalGasStation.fbx",
+      "position": [
+        2.6225112580382577,
+        0.0,
+        -10.51831815172296
+      ],
+      "yaw": -14,
+      "size": [
+        1.4,
+        2.18,
+        0.719999969
+      ],
+      "center": [
+        0.0,
+        1.09,
+        0.0
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_SensorStorage_08",
+      "model": "BO_SensorStorage",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_SensorStorage.fbx",
+      "position": [
+        9.99227269358241,
+        -0.011999943000000068,
+        4.448846369362675
+      ],
+      "yaw": 246,
+      "size": [
+        1.325,
+        1.92,
+        0.691249847
+      ],
+      "center": [
+        5.96046448e-08,
+        0.971999943,
+        0.03812492
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_WaitingBench_09",
+      "model": "SF_WaitingBench",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_WaitingBench.fbx",
+      "position": [
+        -4.500836762835145,
+        -0.02499996900000001,
+        -10.109044882667748
+      ],
+      "yaw": 24,
+      "size": [
+        1.75,
+        1.14,
+        0.56
+      ],
+      "center": [
+        0.0,
+        0.594999969,
+        0.0
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_WaitingBench_10",
+      "model": "SF_WaitingBench",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_WaitingBench.fbx",
+      "position": [
+        -3.0501278047884686,
+        -0.02499996900000001,
+        10.637059761980074
+      ],
+      "yaw": 164,
+      "size": [
+        1.75,
+        1.14,
+        0.56
+      ],
+      "center": [
+        0.0,
+        0.594999969,
+        0.0
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_TestControlConsole_11",
+      "model": "SF_TestControlConsole",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TestControlConsole.fbx",
+      "position": [
+        -9.680035133523246,
+        -0.011999947000000066,
+        -5.146965979308792
+      ],
+      "yaw": 62,
+      "size": [
+        1.675,
+        1.5005,
+        0.7565
+      ],
+      "center": [
+        0.0,
+        0.762249947,
+        0.0357499868
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "C02",
+      "name": "B1_C02_SensorPrepBench_01",
+      "model": "LB_SensorPrepBench",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/LB_SensorPrepBench.fbx",
+      "position": [
+        5.6504919237689135,
+        0.0,
+        0.0
+      ],
+      "yaw": 270,
+      "size": [
+        1.8,
+        1.1761,
+        1.3
+      ],
+      "center": [
+        0.0,
+        0.58805,
+        0.0
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "C02",
+      "name": "B1_C02_CentrifugeBench_02",
+      "model": "SD_CentrifugeBench",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/Common/SD_CentrifugeBench.fbx",
+      "position": [
+        -4.583801159715646,
+        0.00459826200000002,
+        -3.8453264824146727
+      ],
+      "yaw": 50,
+      "size": [
+        1.403848,
+        1.11495543,
+        0.655350447
+      ],
+      "center": [
+        0.0007196069,
+        0.552879453,
+        0.000163972378
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "C02",
+      "name": "B1_C02_DoubleWashSink_03",
+      "model": "SF_DoubleWashSink",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_DoubleWashSink.fbx",
+      "position": [
+        -5.52285553479106,
+        -0.011999943999999929,
+        -2.0101550228162943
+      ],
+      "yaw": 70,
+      "size": [
+        1.8,
+        1.318,
+        0.7724999
+      ],
+      "center": [
+        0.0,
+        0.670999944,
+        -0.0112500191
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "C02",
+      "name": "B1_C02_ColdCabinet_04",
+      "model": "BS_ColdCabinet",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B3/BS_ColdCabinet.fbx",
+      "position": [
+        2.952818824845853,
+        -0.012000094999999877,
+        -4.725497923403239
+      ],
+      "yaw": -32,
+      "size": [
+        1.08,
+        2.09799981,
+        1.14999807
+      ],
+      "center": [
+        0.0,
+        1.061,
+        0.06900102
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "C02",
+      "name": "B1_C02_PPEDispenser_05",
+      "model": "SF_PPEDispenser",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_PPEDispenser.fbx",
+      "position": [
+        4.130846731628857,
+        0.0,
+        3.989112319182477
+      ],
+      "yaw": 226,
+      "size": [
+        1.83799994,
+        2.0825,
+        0.6695
+      ],
+      "center": [
+        0.0,
+        1.04125,
+        -0.00575000048
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "C02",
+      "name": "B1_C02_ReagentShelf_06",
+      "model": "CP_ReagentShelf",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/CP_ReagentShelf.fbx",
+      "position": [
+        5.654030228160748,
+        0.039999992999999956,
+        2.5173364451787323
+      ],
+      "yaw": 246,
+      "size": [
+        1.2,
+        1.01099992,
+        0.3475
+      ],
+      "center": [
+        0.0,
+        0.465499967,
+        0.0362499952
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "C02",
+      "name": "B1_C02_MedicalSterilizer_07",
+      "model": "SF_MedicalSterilizer",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_MedicalSterilizer.fbx",
+      "position": [
+        -2.406874478014345,
+        -0.0119999999999999,
+        -5.405928587791736
+      ],
+      "yaw": 24,
+      "size": [
+        1.125,
+        1.368,
+        0.7665
+      ],
+      "center": [
+        0.0,
+        0.696,
+        0.0357499868
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "C02",
+      "name": "B1_C02_SampleTrolley_08",
+      "model": "LP_SampleTrolley",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/Common/LP_SampleTrolley.fbx",
+      "position": [
+        -1.6475658714451185,
+        -0.0049999670000000496,
+        5.829188049613187
+      ],
+      "yaw": 164,
+      "size": [
+        0.845999956,
+        1.0715,
+        0.52
+      ],
+      "center": [
+        0.0230000168,
+        0.540749967,
+        0.0
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "C05",
+      "name": "B1_C05_ObservationConsole_01",
+      "model": "BO_ObservationConsole",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_ObservationConsole.fbx",
+      "position": [
+        4.494425353118665,
+        -0.008216953000000027,
+        -0.955319599741481
+      ],
+      "yaw": -78,
+      "size": [
+        2.15,
+        1.504283,
+        1.087534
+      ],
+      "center": [
+        0.0,
+        0.760358453,
+        -0.06976698
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "C05",
+      "name": "B1_C05_ObservationConsole_02",
+      "model": "BO_ObservationConsole",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_ObservationConsole.fbx",
+      "position": [
+        0.4802908835846804,
+        -0.008216953000000027,
+        4.569662510465242
+      ],
+      "yaw": 186,
+      "size": [
+        2.15,
+        1.504283,
+        1.087534
+      ],
+      "center": [
+        0.0,
+        0.760358453,
+        -0.06976698
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "C05",
+      "name": "B1_C05_AcquisitionRack_03",
+      "model": "BO_AcquisitionRack",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_AcquisitionRack.fbx",
+      "position": [
+        3.629395698423629,
+        -0.012000069999999807,
+        -2.80483032206838
+      ],
+      "yaw": -52,
+      "size": [
+        0.7684853,
+        2.188,
+        0.839
+      ],
+      "center": [
+        -0.0242426544,
+        1.10600007,
+        0.0195000172
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "C05",
+      "name": "B1_C05_SignalAnalysisBench_04",
+      "model": "LB_SignalAnalysisBench",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/LB_SignalAnalysisBench.fbx",
+      "position": [
+        -4.828697850513163,
+        -1.999999943436137e-09,
+        -0.16862184458306756
+      ],
+      "yaw": 88,
+      "size": [
+        2.64999986,
+        1.28107893,
+        0.859999955
+      ],
+      "center": [
+        0.0,
+        0.640539467,
+        0.0
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "C05",
+      "name": "B1_C05_SensorStorage_05",
+      "model": "BO_SensorStorage",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_SensorStorage.fbx",
+      "position": [
+        3.436290045607438,
+        -0.011999943000000068,
+        3.318386641164184
+      ],
+      "yaw": 226,
+      "size": [
+        1.325,
+        1.92,
+        0.691249847
+      ],
+      "center": [
+        5.96046448e-08,
+        0.971999943,
+        0.03812492
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "N01",
+      "name": "B1_N01_TrialControlConsole_03",
+      "model": "BO_TrialControlConsole",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_TrialControlConsole.fbx",
+      "position": [
+        8.672675235665576,
+        -0.008216953000000027,
+        -1.2815986311476611e-17
+      ],
+      "yaw": 270,
+      "size": [
+        2.15,
+        1.504283,
+        1.087534
+      ],
+      "center": [
+        0.0,
+        0.760358453,
+        -0.06976698
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "N01",
+      "name": "B1_N01_TrialControlConsole_04",
+      "model": "BO_TrialControlConsole",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_TrialControlConsole.fbx",
+      "position": [
+        8.149648921427632,
+        -0.008216953000000027,
+        -2.966229627119317
+      ],
+      "yaw": -70,
+      "size": [
+        2.15,
+        1.504283,
+        1.087534
+      ],
+      "center": [
+        0.0,
+        0.760358453,
+        -0.06976698
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "N01",
+      "name": "B1_N01_ElectrodePrepBench_05",
+      "model": "LB_ElectrodePrepBench",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/LB_ElectrodePrepBench.fbx",
+      "position": [
+        1.2304656691073081,
+        0.0,
+        8.755218166399365
+      ],
+      "yaw": 188,
+      "size": [
+        2.3,
+        1.63,
+        0.849999964
+      ],
+      "center": [
+        0.0,
+        0.815,
+        0.0
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "N01",
+      "name": "B1_N01_AcquisitionRack_06",
+      "model": "BO_AcquisitionRack",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_AcquisitionRack.fbx",
+      "position": [
+        4.661431439367792,
+        -0.012000069999999807,
+        -7.414101860978133
+      ],
+      "yaw": -32,
+      "size": [
+        0.7684853,
+        2.188,
+        0.839
+      ],
+      "center": [
+        -0.0242426544,
+        1.10600007,
+        0.0195000172
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "N01",
+      "name": "B1_N01_SynchronizationCart_07",
+      "model": "BO_SynchronizationCart",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_SynchronizationCart.fbx",
+      "position": [
+        6.516620373994421,
+        -0.008000000000000007,
+        6.293027144845489
+      ],
+      "yaw": 226,
+      "size": [
+        0.82,
+        1.007,
+        0.617334366
+      ],
+      "center": [
+        0.0,
+        0.5115,
+        0.0186672062
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "N01",
+      "name": "B1_N01_SensorStorage_08",
+      "model": "BO_SensorStorage",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/BO_SensorStorage.fbx",
+      "position": [
+        8.136446282619687,
+        -0.011999943000000068,
+        3.6225792162488824
+      ],
+      "yaw": 246,
+      "size": [
+        1.325,
+        1.92,
+        0.691249847
+      ],
+      "center": [
+        5.96046448e-08,
+        0.971999943,
+        0.03812492
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "N01",
+      "name": "B1_N01_SignalAnalysisBench_09",
+      "model": "LB_SignalAnalysisBench",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B4/LB_SignalAnalysisBench.fbx",
+      "position": [
+        -3.6149135622343818,
+        -1.999999943436137e-09,
+        -8.119228795263512
+      ],
+      "yaw": 24,
+      "size": [
+        2.64999986,
+        1.28107893,
+        0.859999955
+      ],
+      "center": [
+        0.0,
+        0.640539467,
+        0.0
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "N01",
+      "name": "B1_N01_WaitingBench_10",
+      "model": "SF_WaitingBench",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_WaitingBench.fbx",
+      "position": [
+        -2.495843195871069,
+        -0.02499996900000001,
+        8.704039610842823
+      ],
+      "yaw": 164,
+      "size": [
+        1.75,
+        1.14,
+        0.56
+      ],
+      "center": [
+        0.0,
+        0.594999969,
+        0.0
+      ],
+      "role": "Equipment",
+      "meshCollider": false
+    },
+    {
+      "room": "C02",
+      "name": "B1_C02_ExperimentCartridges_09",
+      "model": "BL_ExperimentCartridges",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/BL_ExperimentCartridges.fbx",
+      "position": [
+        5.4004919237689135,
+        0.93,
+        0.6
+      ],
+      "yaw": 270,
+      "size": [
+        0.41999998688697815,
+        0.2120000123977661,
+        0.30000001192092896
+      ],
+      "center": [
+        0.0,
+        0.10600000619888306,
+        0.0
+      ],
+      "role": "Accessory",
+      "meshCollider": false
+    },
+    {
+      "room": "N01",
+      "name": "B1_N01_ExperimentCartridges_11",
+      "model": "BL_ExperimentCartridges",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/BL_ExperimentCartridges.fbx",
+      "position": [
+        0.6015115526223496,
+        0.93,
+        8.591155009790011
+      ],
+      "yaw": 188,
+      "size": [
+        0.41999998688697815,
+        0.2120000123977661,
+        0.30000001192092896
+      ],
+      "center": [
+        0.0,
+        0.10600000619888306,
+        0.0
+      ],
+      "role": "Accessory",
+      "meshCollider": false
+    },
+    {
+      "room": "C05",
+      "name": "B1_C05_PairedChair_01",
+      "model": "SF_TaskChair",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        3.6101799024923524,
+        0,
+        -0.7673674270839925
+      ],
+      "yaw": 102,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "role": "Seating",
+      "meshCollider": false
+    },
+    {
+      "room": "C05",
+      "name": "B1_C05_PairedChair_02",
+      "model": "SF_TaskChair",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        0.3857971507001524,
+        0,
+        3.6706146971618847
+      ],
+      "yaw": 6,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "role": "Seating",
+      "meshCollider": false
+    }
+  ],
+  "add": [
+    {
+      "room": "C01",
+      "name": "B1_C01_Data_ResearchDesk_01",
+      "model": "BL_ResearchDesk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/BL_ResearchDesk.fbx",
+      "position": [
+        -5.2,
+        -0.0,
+        -5.981499999761581
+      ],
+      "yaw": 0,
+      "size": [
+        1.649999976158142,
+        1.3624999523162842,
+        0.8169999718666077
+      ],
+      "center": [
+        0.0,
+        0.6812499761581421,
+        -0.01850000023841858
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_S01_ResearchDesk_11",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_Data_TaskChair_02",
+      "model": "SF_TaskChair",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        -5.19774999917,
+        -0.0029999999999998916,
+        -5.131500014066696
+      ],
+      "yaw": 180,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "role": "Seating",
+      "meshCollider": false,
+      "template": "B1_S01_PairedChair_02",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_Data_ResearchDesk_03",
+      "model": "BL_ResearchDesk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/BL_ResearchDesk.fbx",
+      "position": [
+        -5.2,
+        -0.0,
+        -2.7814999997615812
+      ],
+      "yaw": 0,
+      "size": [
+        1.649999976158142,
+        1.3624999523162842,
+        0.8169999718666077
+      ],
+      "center": [
+        0.0,
+        0.6812499761581421,
+        -0.01850000023841858
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_S01_ResearchDesk_11",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_Data_TaskChair_04",
+      "model": "SF_TaskChair",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        -5.19774999917,
+        -0.0029999999999998916,
+        -1.931500014066696
+      ],
+      "yaw": 180,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "role": "Seating",
+      "meshCollider": false,
+      "template": "B1_S01_PairedChair_02",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_Data_ResearchDesk_05",
+      "model": "BL_ResearchDesk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/BL_ResearchDesk.fbx",
+      "position": [
+        -2.5,
+        -0.0,
+        -5.981499999761581
+      ],
+      "yaw": 0,
+      "size": [
+        1.649999976158142,
+        1.3624999523162842,
+        0.8169999718666077
+      ],
+      "center": [
+        0.0,
+        0.6812499761581421,
+        -0.01850000023841858
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_S01_ResearchDesk_11",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_Data_TaskChair_06",
+      "model": "SF_TaskChair",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        -2.49774999917,
+        -0.0029999999999998916,
+        -5.131500014066696
+      ],
+      "yaw": 180,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "role": "Seating",
+      "meshCollider": false,
+      "template": "B1_S01_PairedChair_02",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_Data_ResearchDesk_07",
+      "model": "BL_ResearchDesk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/BL_ResearchDesk.fbx",
+      "position": [
+        -2.5,
+        -0.0,
+        -2.7814999997615812
+      ],
+      "yaw": 0,
+      "size": [
+        1.649999976158142,
+        1.3624999523162842,
+        0.8169999718666077
+      ],
+      "center": [
+        0.0,
+        0.6812499761581421,
+        -0.01850000023841858
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_S01_ResearchDesk_11",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_Data_TaskChair_08",
+      "model": "SF_TaskChair",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        -2.49774999917,
+        -0.0029999999999998916,
+        -1.931500014066696
+      ],
+      "yaw": 180,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "role": "Seating",
+      "meshCollider": false,
+      "template": "B1_S01_PairedChair_02",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_Data_ResearchDesk_09",
+      "model": "BL_ResearchDesk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/BL_ResearchDesk.fbx",
+      "position": [
+        0.2,
+        -0.0,
+        -5.981499999761581
+      ],
+      "yaw": 0,
+      "size": [
+        1.649999976158142,
+        1.3624999523162842,
+        0.8169999718666077
+      ],
+      "center": [
+        0.0,
+        0.6812499761581421,
+        -0.01850000023841858
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_S01_ResearchDesk_11",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_Data_TaskChair_10",
+      "model": "SF_TaskChair",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        0.20225000083,
+        -0.0029999999999998916,
+        -5.131500014066696
+      ],
+      "yaw": 180,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "role": "Seating",
+      "meshCollider": false,
+      "template": "B1_S01_PairedChair_02",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_Data_ResearchDesk_11",
+      "model": "BL_ResearchDesk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/BL_ResearchDesk.fbx",
+      "position": [
+        0.2,
+        -0.0,
+        -2.7814999997615812
+      ],
+      "yaw": 0,
+      "size": [
+        1.649999976158142,
+        1.3624999523162842,
+        0.8169999718666077
+      ],
+      "center": [
+        0.0,
+        0.6812499761581421,
+        -0.01850000023841858
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_S01_ResearchDesk_11",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_Data_TaskChair_12",
+      "model": "SF_TaskChair",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        0.20225000083,
+        -0.0029999999999998916,
+        -1.931500014066696
+      ],
+      "yaw": 180,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "role": "Seating",
+      "meshCollider": false,
+      "template": "B1_S01_PairedChair_02",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_Data_ArchiveCaseRack_13",
+      "model": "SF_ArchiveCaseRack",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_ArchiveCaseRack.fbx",
+      "position": [
+        -5.2,
+        -0.0,
+        -8.99424998462
+      ],
+      "yaw": 0,
+      "size": [
+        1.738,
+        2.0825,
+        0.7995
+      ],
+      "center": [
+        0.0,
+        1.04125,
+        -0.00575001538
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_S01_ArchiveCaseRack_15",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_Data_ArchiveCaseRack_14",
+      "model": "SF_ArchiveCaseRack",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_ArchiveCaseRack.fbx",
+      "position": [
+        -2.4,
+        -0.0,
+        -8.99424998462
+      ],
+      "yaw": 0,
+      "size": [
+        1.738,
+        2.0825,
+        0.7995
+      ],
+      "center": [
+        0.0,
+        1.04125,
+        -0.00575001538
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_S01_ArchiveCaseRack_15",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_Data_ArchiveCaseRack_15",
+      "model": "SF_ArchiveCaseRack",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_ArchiveCaseRack.fbx",
+      "position": [
+        0.4,
+        -0.0,
+        -8.99424998462
+      ],
+      "yaw": 0,
+      "size": [
+        1.738,
+        2.0825,
+        0.7995
+      ],
+      "center": [
+        0.0,
+        1.04125,
+        -0.00575001538
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_S01_ArchiveCaseRack_15",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_Data_ArchiveCaseRack_16",
+      "model": "SF_ArchiveCaseRack",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_ArchiveCaseRack.fbx",
+      "position": [
+        3.2,
+        -0.0,
+        -8.99424998462
+      ],
+      "yaw": 0,
+      "size": [
+        1.738,
+        2.0825,
+        0.7995
+      ],
+      "center": [
+        0.0,
+        1.04125,
+        -0.00575001538
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_S01_ArchiveCaseRack_15",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_Data_BriefingTable_17",
+      "model": "SF_BriefingTable",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_BriefingTable.fbx",
+      "position": [
+        -2.8,
+        -2.0000000544584395e-09,
+        5.0
+      ],
+      "yaw": 0,
+      "size": [
+        1.8,
+        1.27749991,
+        1.3
+      ],
+      "center": [
+        0.0,
+        0.638749957,
+        0.0
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_W01_BriefingTable_01",
+      "templateRoom": "W01"
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_Data_TaskChair_18",
+      "model": "SF_TaskChair",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        -4.22,
+        -0.0029999999999998916,
+        5.00225000083
+      ],
+      "yaw": 90,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "role": "Seating",
+      "meshCollider": false,
+      "template": "B1_S01_PairedChair_02",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_Data_TaskChair_19",
+      "model": "SF_TaskChair",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        -1.38,
+        -0.0029999999999998916,
+        4.99774999917
+      ],
+      "yaw": 270,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "role": "Seating",
+      "meshCollider": false,
+      "template": "B1_S01_PairedChair_02",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_Data_BriefingTable_20",
+      "model": "SF_BriefingTable",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_BriefingTable.fbx",
+      "position": [
+        1.2,
+        -2.0000000544584395e-09,
+        5.0
+      ],
+      "yaw": 0,
+      "size": [
+        1.8,
+        1.27749991,
+        1.3
+      ],
+      "center": [
+        0.0,
+        0.638749957,
+        0.0
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_W01_BriefingTable_01",
+      "templateRoom": "W01"
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_Data_TaskChair_21",
+      "model": "SF_TaskChair",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        -0.21999999999999997,
+        -0.0029999999999998916,
+        5.00225000083
+      ],
+      "yaw": 90,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "role": "Seating",
+      "meshCollider": false,
+      "template": "B1_S01_PairedChair_02",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_Data_TaskChair_22",
+      "model": "SF_TaskChair",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        2.62,
+        -0.0029999999999998916,
+        4.99774999917
+      ],
+      "yaw": 270,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "role": "Seating",
+      "meshCollider": false,
+      "template": "B1_S01_PairedChair_02",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_Data_SC_RecordArchive_23",
+      "model": "SF_SC_RecordArchive",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_SC_RecordArchive.fbx",
+      "position": [
+        -9.0320000052,
+        -0.0,
+        -1.959435197043933e-18
+      ],
+      "yaw": 90,
+      "size": [
+        1.27,
+        1.865,
+        0.654
+      ],
+      "center": [
+        0.0,
+        0.9325,
+        0.0320000052
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_E01_SC_RecordArchive_07",
+      "templateRoom": "E01"
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_Data_SC_RecordArchive_24",
+      "model": "SF_SC_RecordArchive",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_SC_RecordArchive.fbx",
+      "position": [
+        -9.0320000052,
+        -0.0,
+        3.0
+      ],
+      "yaw": 90,
+      "size": [
+        1.27,
+        1.865,
+        0.654
+      ],
+      "center": [
+        0.0,
+        0.9325,
+        0.0320000052
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_E01_SC_RecordArchive_07",
+      "templateRoom": "E01"
+    },
+    {
+      "room": "C01",
+      "name": "B1_C01_Data_LoungeSofa_25",
+      "model": "BL_LoungeSofa",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/BL_LoungeSofa.fbx",
+      "position": [
+        5.677500006556511,
+        -0.0,
+        -1.5
+      ],
+      "yaw": 270,
+      "size": [
+        2.0399999618530273,
+        0.9900000095367432,
+        0.8950000107288361
+      ],
+      "center": [
+        0.0,
+        0.4950000047683716,
+        -0.022499993443489075
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_E03_LoungeSofa_16",
+      "templateRoom": "E03"
+    },
+    {
+      "room": "N01",
+      "name": "B1_N01_Data_ResearchDesk_01",
+      "model": "BL_ResearchDesk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/BL_ResearchDesk.fbx",
+      "position": [
+        -3.2,
+        -0.0,
+        -0.4814999997615814
+      ],
+      "yaw": 0,
+      "size": [
+        1.649999976158142,
+        1.3624999523162842,
+        0.8169999718666077
+      ],
+      "center": [
+        0.0,
+        0.6812499761581421,
+        -0.01850000023841858
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_S01_ResearchDesk_11",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "N01",
+      "name": "B1_N01_Data_TaskChair_02",
+      "model": "SF_TaskChair",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        -3.19774999917,
+        -0.0029999999999998916,
+        0.3684999859333038
+      ],
+      "yaw": 180,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "role": "Seating",
+      "meshCollider": false,
+      "template": "B1_S01_PairedChair_02",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "N01",
+      "name": "B1_N01_Data_ResearchDesk_03",
+      "model": "BL_ResearchDesk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/BL_ResearchDesk.fbx",
+      "position": [
+        -3.2,
+        -0.0,
+        2.8185000002384184
+      ],
+      "yaw": 0,
+      "size": [
+        1.649999976158142,
+        1.3624999523162842,
+        0.8169999718666077
+      ],
+      "center": [
+        0.0,
+        0.6812499761581421,
+        -0.01850000023841858
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_S01_ResearchDesk_11",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "N01",
+      "name": "B1_N01_Data_TaskChair_04",
+      "model": "SF_TaskChair",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        -3.19774999917,
+        -0.0029999999999998916,
+        3.6684999859333036
+      ],
+      "yaw": 180,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "role": "Seating",
+      "meshCollider": false,
+      "template": "B1_S01_PairedChair_02",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "N01",
+      "name": "B1_N01_Data_ResearchDesk_05",
+      "model": "BL_ResearchDesk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/BL_ResearchDesk.fbx",
+      "position": [
+        0.0,
+        -0.0,
+        -0.4814999997615814
+      ],
+      "yaw": 0,
+      "size": [
+        1.649999976158142,
+        1.3624999523162842,
+        0.8169999718666077
+      ],
+      "center": [
+        0.0,
+        0.6812499761581421,
+        -0.01850000023841858
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_S01_ResearchDesk_11",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "N01",
+      "name": "B1_N01_Data_TaskChair_06",
+      "model": "SF_TaskChair",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        0.00225000083,
+        -0.0029999999999998916,
+        0.3684999859333038
+      ],
+      "yaw": 180,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "role": "Seating",
+      "meshCollider": false,
+      "template": "B1_S01_PairedChair_02",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "N01",
+      "name": "B1_N01_Data_ResearchDesk_07",
+      "model": "BL_ResearchDesk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/BL_ResearchDesk.fbx",
+      "position": [
+        0.0,
+        -0.0,
+        2.8185000002384184
+      ],
+      "yaw": 0,
+      "size": [
+        1.649999976158142,
+        1.3624999523162842,
+        0.8169999718666077
+      ],
+      "center": [
+        0.0,
+        0.6812499761581421,
+        -0.01850000023841858
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_S01_ResearchDesk_11",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "N01",
+      "name": "B1_N01_Data_TaskChair_08",
+      "model": "SF_TaskChair",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        0.00225000083,
+        -0.0029999999999998916,
+        3.6684999859333036
+      ],
+      "yaw": 180,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "role": "Seating",
+      "meshCollider": false,
+      "template": "B1_S01_PairedChair_02",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "N01",
+      "name": "B1_N01_Data_ResearchDesk_09",
+      "model": "BL_ResearchDesk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/BL_ResearchDesk.fbx",
+      "position": [
+        3.2,
+        -0.0,
+        -0.4814999997615814
+      ],
+      "yaw": 0,
+      "size": [
+        1.649999976158142,
+        1.3624999523162842,
+        0.8169999718666077
+      ],
+      "center": [
+        0.0,
+        0.6812499761581421,
+        -0.01850000023841858
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_S01_ResearchDesk_11",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "N01",
+      "name": "B1_N01_Data_TaskChair_10",
+      "model": "SF_TaskChair",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        3.2022500008300003,
+        -0.0029999999999998916,
+        0.3684999859333038
+      ],
+      "yaw": 180,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "role": "Seating",
+      "meshCollider": false,
+      "template": "B1_S01_PairedChair_02",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "N01",
+      "name": "B1_N01_Data_ResearchDesk_11",
+      "model": "BL_ResearchDesk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/BL_ResearchDesk.fbx",
+      "position": [
+        3.2,
+        -0.0,
+        2.8185000002384184
+      ],
+      "yaw": 0,
+      "size": [
+        1.649999976158142,
+        1.3624999523162842,
+        0.8169999718666077
+      ],
+      "center": [
+        0.0,
+        0.6812499761581421,
+        -0.01850000023841858
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_S01_ResearchDesk_11",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "N01",
+      "name": "B1_N01_Data_TaskChair_12",
+      "model": "SF_TaskChair",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        3.2022500008300003,
+        -0.0029999999999998916,
+        3.6684999859333036
+      ],
+      "yaw": 180,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "role": "Seating",
+      "meshCollider": false,
+      "template": "B1_S01_PairedChair_02",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "N01",
+      "name": "B1_N01_Data_ArchiveCaseRack_13",
+      "model": "SF_ArchiveCaseRack",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_ArchiveCaseRack.fbx",
+      "position": [
+        -3.2,
+        -0.0,
+        6.60575001538
+      ],
+      "yaw": 0,
+      "size": [
+        1.738,
+        2.0825,
+        0.7995
+      ],
+      "center": [
+        0.0,
+        1.04125,
+        -0.00575001538
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_S01_ArchiveCaseRack_15",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "N01",
+      "name": "B1_N01_Data_ArchiveCaseRack_14",
+      "model": "SF_ArchiveCaseRack",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_ArchiveCaseRack.fbx",
+      "position": [
+        0.0,
+        -0.0,
+        6.60575001538
+      ],
+      "yaw": 0,
+      "size": [
+        1.738,
+        2.0825,
+        0.7995
+      ],
+      "center": [
+        0.0,
+        1.04125,
+        -0.00575001538
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_S01_ArchiveCaseRack_15",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "N01",
+      "name": "B1_N01_Data_ArchiveCaseRack_15",
+      "model": "SF_ArchiveCaseRack",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_ArchiveCaseRack.fbx",
+      "position": [
+        3.2,
+        -0.0,
+        6.60575001538
+      ],
+      "yaw": 0,
+      "size": [
+        1.738,
+        2.0825,
+        0.7995
+      ],
+      "center": [
+        0.0,
+        1.04125,
+        -0.00575001538
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_S01_ArchiveCaseRack_15",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "N01",
+      "name": "B1_N01_Data_SC_RecordArchive_16",
+      "model": "SF_SC_RecordArchive",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_SC_RecordArchive.fbx",
+      "position": [
+        -7.332000005199999,
+        -0.0,
+        0.3
+      ],
+      "yaw": 90,
+      "size": [
+        1.27,
+        1.865,
+        0.654
+      ],
+      "center": [
+        0.0,
+        0.9325,
+        0.0320000052
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_E01_SC_RecordArchive_07",
+      "templateRoom": "E01"
+    },
+    {
+      "room": "N01",
+      "name": "B1_N01_Data_SC_RecordArchive_17",
+      "model": "SF_SC_RecordArchive",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_SC_RecordArchive.fbx",
+      "position": [
+        7.332000005199999,
+        -0.0,
+        0.3
+      ],
+      "yaw": 270,
+      "size": [
+        1.27,
+        1.865,
+        0.654
+      ],
+      "center": [
+        0.0,
+        0.9325,
+        0.0320000052
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_E01_SC_RecordArchive_07",
+      "templateRoom": "E01"
+    },
+    {
+      "room": "C05",
+      "name": "B1_C05_Data_BriefingTable_01",
+      "model": "SF_BriefingTable",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_BriefingTable.fbx",
+      "position": [
+        0.0,
+        -2.0000000544584395e-09,
+        0.0
+      ],
+      "yaw": 0,
+      "size": [
+        1.8,
+        1.27749991,
+        1.3
+      ],
+      "center": [
+        0.0,
+        0.638749957,
+        0.0
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_W01_BriefingTable_01",
+      "templateRoom": "W01"
+    },
+    {
+      "room": "C05",
+      "name": "B1_C05_Data_TaskChair_02",
+      "model": "SF_TaskChair",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        -1.4,
+        -0.0029999999999998916,
+        -0.44774999917
+      ],
+      "yaw": 90,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "role": "Seating",
+      "meshCollider": false,
+      "template": "B1_S01_PairedChair_02",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "C05",
+      "name": "B1_C05_Data_TaskChair_03",
+      "model": "SF_TaskChair",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        -1.4,
+        -0.0029999999999998916,
+        0.45225000083
+      ],
+      "yaw": 90,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "role": "Seating",
+      "meshCollider": false,
+      "template": "B1_S01_PairedChair_02",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "C05",
+      "name": "B1_C05_Data_TaskChair_04",
+      "model": "SF_TaskChair",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        1.4,
+        -0.0029999999999998916,
+        -0.45225000083
+      ],
+      "yaw": 270,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "role": "Seating",
+      "meshCollider": false,
+      "template": "B1_S01_PairedChair_02",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "C05",
+      "name": "B1_C05_Data_TaskChair_05",
+      "model": "SF_TaskChair",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        1.4,
+        -0.0029999999999998916,
+        0.44774999917
+      ],
+      "yaw": 270,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "role": "Seating",
+      "meshCollider": false,
+      "template": "B1_S01_PairedChair_02",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "C02",
+      "name": "B1_C02_Data_ResearchDesk_01",
+      "model": "BL_ResearchDesk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/BL_ResearchDesk.fbx",
+      "position": [
+        5.839119287474646,
+        -0.0,
+        -3.3983949114306874e-18
+      ],
+      "yaw": 270,
+      "size": [
+        1.649999976158142,
+        1.3624999523162842,
+        0.8169999718666077
+      ],
+      "center": [
+        0.0,
+        0.6812499761581421,
+        -0.01850000023841858
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_S01_ResearchDesk_11",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "C02",
+      "name": "B1_C02_Data_TaskChair_02",
+      "model": "SF_TaskChair",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        4.989119301779761,
+        -0.0029999999999998916,
+        0.0022500008299998404
+      ],
+      "yaw": 90,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "role": "Seating",
+      "meshCollider": false,
+      "template": "B1_S01_PairedChair_02",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "C02",
+      "name": "B1_C02_Data_ResearchDesk_03",
+      "model": "BL_ResearchDesk",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/BL_ResearchDesk.fbx",
+      "position": [
+        5.248165651212846,
+        -0.0,
+        2.559701418288481
+      ],
+      "yaw": 244,
+      "size": [
+        1.649999976158142,
+        1.3624999523162842,
+        0.8169999718666077
+      ],
+      "center": [
+        0.0,
+        0.6812499761581421,
+        -0.01850000023841858
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_S01_ResearchDesk_11",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "C02",
+      "name": "B1_C02_Data_TaskChair_04",
+      "model": "SF_TaskChair",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        4.483204389271783,
+        -0.0029999999999998916,
+        2.189108237138887
+      ],
+      "yaw": 64,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "role": "Seating",
+      "meshCollider": false,
+      "template": "B1_S01_PairedChair_02",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "C02",
+      "name": "B1_C02_Data_ArchiveCaseRack_05",
+      "model": "SF_ArchiveCaseRack",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_ArchiveCaseRack.fbx",
+      "position": [
+        3.649460536281998,
+        -0.0,
+        4.349257705144863
+      ],
+      "yaw": 220,
+      "size": [
+        1.738,
+        2.0825,
+        0.7995
+      ],
+      "center": [
+        0.0,
+        1.04125,
+        -0.00575001538
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_S01_ArchiveCaseRack_15",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "C02",
+      "name": "B1_C02_Data_ArchiveCaseRack_06",
+      "model": "SF_ArchiveCaseRack",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_ArchiveCaseRack.fbx",
+      "position": [
+        -1.9418373921196619,
+        -0.0,
+        5.335154387101423
+      ],
+      "yaw": 160,
+      "size": [
+        1.738,
+        2.0825,
+        0.7995
+      ],
+      "center": [
+        0.0,
+        1.04125,
+        -0.00575001538
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_S01_ArchiveCaseRack_15",
+      "templateRoom": "S01"
+    },
+    {
+      "room": "C02",
+      "name": "B1_C02_Data_SC_RecordArchive_07",
+      "model": "SF_SC_RecordArchive",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_SC_RecordArchive.fbx",
+      "position": [
+        1.8083620940059915,
+        -0.0,
+        5.565566245974007
+      ],
+      "yaw": 198,
+      "size": [
+        1.27,
+        1.865,
+        0.654
+      ],
+      "center": [
+        0.0,
+        0.9325,
+        0.0320000052
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_E01_SC_RecordArchive_07",
+      "templateRoom": "E01"
+    },
+    {
+      "room": "C02",
+      "name": "B1_C02_Data_LoungeSofa_08",
+      "model": "BL_LoungeSofa",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/BL_LoungeSofa.fbx",
+      "position": [
+        -5.7315920638486615,
+        -0.0,
+        1.2182875019868573
+      ],
+      "yaw": 102,
+      "size": [
+        2.0399999618530273,
+        0.9900000095367432,
+        0.8950000107288361
+      ],
+      "center": [
+        0.0,
+        0.4950000047683716,
+        -0.022499993443489075
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_E03_LoungeSofa_16",
+      "templateRoom": "E03"
+    },
+    {
+      "room": "C05",
+      "name": "B1_C05_Data_SC_RecordArchive_06",
+      "model": "SF_SC_RecordArchive",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_SC_RecordArchive.fbx",
+      "position": [
+        3.788587545588863,
+        -0.0,
+        2.959968994130942
+      ],
+      "yaw": 232,
+      "size": [
+        1.27,
+        1.865,
+        0.654
+      ],
+      "center": [
+        0.0,
+        0.9325,
+        0.0320000052
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_E01_SC_RecordArchive_07",
+      "templateRoom": "E01"
+    },
+    {
+      "room": "C05",
+      "name": "B1_C05_Data_SC_RecordArchive_07",
+      "model": "SF_SC_RecordArchive",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_SC_RecordArchive.fbx",
+      "position": [
+        2.403893302374691,
+        -0.0,
+        4.163665335687498
+      ],
+      "yaw": 210,
+      "size": [
+        1.27,
+        1.865,
+        0.654
+      ],
+      "center": [
+        0.0,
+        0.9325,
+        0.0320000052
+      ],
+      "role": "Equipment",
+      "meshCollider": false,
+      "template": "B1_E01_SC_RecordArchive_07",
+      "templateRoom": "E01"
+    }
+  ],
+  "roomNames": {
+    "C01": [
+      "연구 자료 열람·대조",
+      "RESEARCH DATA LIBRARY"
+    ],
+    "C02": [
+      "연구 기록 인계·정리",
+      "RECORDS INTAKE"
+    ],
+    "C03": [
+      "연구 기록 보관",
+      "RESEARCH ARCHIVE"
+    ],
+    "C04": [
+      "직원 의무실",
+      "STAFF CLINIC"
+    ],
+    "C05": [
+      "직원 회의·보고",
+      "STAFF MEETING"
+    ],
+    "W01": [
+      "연구원 사무실",
+      "RESEARCH OFFICES"
+    ],
+    "W02": [
+      "직원 식당·휴게·조리",
+      "STAFF DINING"
+    ],
+    "W03": [
+      "연구원·지원인력 생활",
+      "STAFF QUARTERS"
+    ],
+    "E01": [
+      "출입 보안 업무",
+      "ACCESS SECURITY"
+    ],
+    "E02": [
+      "책임자·기밀 기록",
+      "RESTRICTED ARCHIVE"
+    ],
+    "E03": [
+      "경비 숙소·교대 대기",
+      "GUARD QUARTERS"
+    ],
+    "N01": [
+      "연구 데이터 분석",
+      "RESEARCH DATA ANALYSIS"
+    ],
+    "S01": [
+      "백업 서버·기록 대조",
+      "BACKUP SERVERS"
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "title": "B2 냉각 펌프 형상·정렬 보수 V0.01",
+  "author": "송예찬",
+  "date": "2026-11-11",
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B2_Circular.unity",
+  "assetName": "Props_CoolingPump",
+  "models": [
+    {
+      "model": "BM_CoolingPump",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/VA_BM_CoolingPump.fbx",
+      "alignedMotorVertices": 172,
+      "levels": [
+        {
+          "level": 0,
+          "name": "VA_BM_CoolingPump_LOD0",
+          "triangles": 10000,
+          "vertices": 5022,
+          "boundary": 0,
+          "overused": 0,
+          "degenerate": 0
+        },
+        {
+          "level": 1,
+          "name": "VA_BM_CoolingPump_LOD1",
+          "triangles": 4000,
+          "vertices": 2022,
+          "boundary": 0,
+          "overused": 0,
+          "degenerate": 0
+        }
+      ],
+      "source": "Props_CoolingPump_Repaired.asset + manually rebuilt level skid",
+      "bodyOriginalUVPreserved": true,
+      "newSkidUV": "planar tiling"
+    }
+  ],
+  "placements": [
+    {
+      "name": "B2_C02_Ops_PumpTrainA_01",
+      "lods": 2,
+      "boundsDriftMetres": 3.81469727e-06,
+      "groundY": -34.0,
+      "oldGroundY": -34.0,
+      "lodTiltDegrees": 0.0
+    },
+    {
+      "name": "B2_C02_Ops_PumpTrainA_02",
+      "lods": 2,
+      "boundsDriftMetres": 1.922192e-06,
+      "groundY": -34.0,
+      "oldGroundY": -34.0,
+      "lodTiltDegrees": 0.0
+    },
+    {
+      "name": "B2_C02_Ops_PumpTrainA_03",
+      "lods": 2,
+      "boundsDriftMetres": 1.91107029e-06,
+      "groundY": -34.0,
+      "oldGroundY": -34.0364532,
+      "lodTiltDegrees": 0.0
+    },
+    {
+      "name": "B2_C02_Ops_PumpTrainB_04",
+      "lods": 2,
+      "boundsDriftMetres": 1.96605e-06,
+      "groundY": -34.0,
+      "oldGroundY": -34.0,
+      "lodTiltDegrees": 0.0
+    },
+    {
+      "name": "B2_C02_Ops_PumpTrainB_05",
+      "lods": 2,
+      "boundsDriftMetres": 1.90734863e-06,
+      "groundY": -34.0,
+      "oldGroundY": -34.0,
+      "lodTiltDegrees": 0.0
+    },
+    {
+      "name": "B2_E01_Ops_BoostTrain_04",
+      "lods": 2,
+      "boundsDriftMetres": 1.7059845e-05,
+      "groundY": -34.0,
+      "oldGroundY": -34.0000038,
+      "lodTiltDegrees": 0.0
+    },
+    {
+      "name": "B2_E01_Ops_BoostTrain_05",
+      "lods": 2,
+      "boundsDriftMetres": 1.7059845e-05,
+      "groundY": -34.0,
+      "oldGroundY": -34.0000038,
+      "lodTiltDegrees": 0.0
+    },
+    {
+      "name": "B2_E01_Ops_BoostTrain_06",
+      "lods": 2,
+      "boundsDriftMetres": 1.7059845e-05,
+      "groundY": -34.0,
+      "oldGroundY": -34.0000038,
+      "lodTiltDegrees": 0.0
+    },
+    {
+      "name": "B2_E03_Ops_TransferPumps_04",
+      "lods": 2,
+      "boundsDriftMetres": 8.52992252e-06,
+      "groundY": -34.0,
+      "oldGroundY": -34.0000038,
+      "lodTiltDegrees": 0.0
+    },
+    {
+      "name": "B2_E03_Ops_TransferPumps_05",
+      "lods": 2,
+      "boundsDriftMetres": 8.52992252e-06,
+      "groundY": -34.0,
+      "oldGroundY": -34.0000038,
+      "lodTiltDegrees": 0.0
+    }
+  ],
+  "changes": [
+    "찢어져 보이던 모터 뒤 덮개의 면 방향/노멀을 복구하고 축 기준 반경을 정렬",
+    "뒤틀린 스키드를 수평 상판·I형 레일·가로 보강·체결부로 교체",
+    "C02 PumpTrainA_03의 LOD0만 기울었던 약2도를 바로잡고 LOD0/1 자세 일치",
+    "본체 원본 UV/재질을 유지하며 새 받침대는 기존 B2 금속 텍스처를 재사용"
+  ],
+  "triangles": [
+    10000,
+    4000
+  ],
+  "newModelBytes": 609436,
+  "newTextureCount": 0,
+  "newMaterialCount": 1,
+  "readWriteEnabled": false,
+  "validation": {
+    "placements": 194,
+    "colliders": 194,
+    "repairedPumps": 10,
+    "errors": []
+  },
+  "scope": "B2 C02 5개/E01 3개/E03 2개. 다른 층·원본 모델·이전 프랍3종 보수는 유지. 에디터 형상/배치/LOD 검수이며 빌드 FPS 검증은 아님."
+}

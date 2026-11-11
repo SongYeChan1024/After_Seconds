@@ -1,0 +1,18 @@
+from pathlib import Path
+H=Path(__file__).resolve().parent;R=H.parents[1]
+p=H/'Apply.cs';s=p.read_text(encoding='utf8')
+s=s.replace('var m=new Material(Shader.Find("Universal Render Pipeline/Lit")){name="B1M_"+n};','var existing=AssetDatabase.LoadAssetAtPath<Material>(E+"Materials/B1M_"+n+".mat");if(existing){mats[n]=existing;return existing;}var m=new Material(Shader.Find("Universal Render Pipeline/Lit")){name="B1M_"+n};')
+s=s.replace('AssetDatabase.CreateAsset(floor,E+"Materials/B1M_Floor.mat");mats["Floor"]=floor;','if(AssetDatabase.LoadAssetAtPath<Material>(E+"Materials/B1M_Floor.mat")){UnityEngine.Object.DestroyImmediate(floor);floor=AssetDatabase.LoadAssetAtPath<Material>(E+"Materials/B1M_Floor.mat");}else AssetDatabase.CreateAsset(floor,E+"Materials/B1M_Floor.mat");mats["Floor"]=floor;')
+s=s.replace('public static object Run(){if(Application.isPlaying||SceneManager.GetActiveScene().isDirty)', 'public static object Run()=>Build(false);public static object Resume(){if(!SceneManager.GetActiveScene().path.EndsWith("Level_B1_Circular.unity"))throw new Exception("B1 retry only");EditorSceneManager.OpenScene(ScenePath);return Build(true);}static object Build(bool resume){if(Application.isPlaying||SceneManager.GetActiveScene().isDirty)')
+s=s.replace('if(File.Exists(ScenePath))throw','if(!resume&&File.Exists(ScenePath))throw').replace('if(!AssetDatabase.CopyAsset(','if(!resume&&!AssetDatabase.CopyAsset(')
+s=s.replace('+(int)radius+".fbx"','+Mathf.Min(11,(int)radius)+".fbx"');p.write_text(s,encoding='utf8')
+s=(R/'SourceAssets/B3_FullFloor/Review.cs').read_text(encoding='utf8').replace('B3','B1').replace('2026-11-09_B1','2026-11-11_B1').replace('new Vector3(0,-49,0)','new Vector3(0,-18,0)')
+s=s.replace('var a=origin+new Vector3((float)t["p"][0],0,-(float)t["p"][1]);var b=origin+new Vector3((float)t["q"][0],0,-(float)t["q"][1]);foreach(bool reverse in new[]{false,true})results.Add(Travel(cc,player,(string)t["id"]+(reverse?"_reverse":"_forward"),new List<Vector3>{reverse?b:a,reverse?a:b}));','var path=t["path"].Select(p=>origin+new Vector3((float)p[0],0,-(float)p[1])).ToList();foreach(bool reverse in new[]{false,true}){var pts=new List<Vector3>(path);if(reverse)pts.Reverse();results.Add(Travel(cc,player,(string)t["id"]+(reverse?"_reverse":"_forward"),pts));}')
+s=s.replace('f<8','f<10').replace('f<7','f<9').replace('1.875f','1.8f').replace('2.38f','2.32f').replace(',15,',',18,').replace('15m','18m')
+s=s.replace('EncodeToPNG()','EncodeToJPG(88)').replace('file+".png"','file+".jpg"')
+(H/'Review.cs').write_text(s,encoding='utf8')
+s=(R/'SourceAssets/B3_FullFloor/Play.cs').read_text(encoding='utf8').replace('B3','B1').replace('2026-11-09_B1','2026-11-11_B1').replace('-48.32f','-17.32f').replace('-48.32f','-17.32f').replace('public static object W02()=>Room("W02");','public static object W02()=>Room("W02");public static object W03()=>Room("W03");public static object E01()=>Room("E01");')
+(H/'Play.cs').write_text(s,encoding='utf8')
+s=(R/'SourceAssets/B3_FullFloor/LiveFrame.cs').read_text(encoding='utf8').replace('B3','B1').replace('2026-11-09_B1','2026-11-11_B1')
+(H/'LiveFrame.cs').write_text(s,encoding='utf8')
+print('B1-scoped retry and review scripts prepared')

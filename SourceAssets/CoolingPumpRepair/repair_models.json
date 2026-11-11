@@ -1,0 +1,30 @@
+[
+  {
+    "model": "BM_CoolingPump",
+    "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/VA_BM_CoolingPump.fbx",
+    "alignedMotorVertices": 172,
+    "levels": [
+      {
+        "level": 0,
+        "name": "VA_BM_CoolingPump_LOD0",
+        "triangles": 10000,
+        "vertices": 5022,
+        "boundary": 0,
+        "overused": 0,
+        "degenerate": 0
+      },
+      {
+        "level": 1,
+        "name": "VA_BM_CoolingPump_LOD1",
+        "triangles": 4000,
+        "vertices": 2022,
+        "boundary": 0,
+        "overused": 0,
+        "degenerate": 0
+      }
+    ],
+    "source": "Props_CoolingPump_Repaired.asset + manually rebuilt level skid",
+    "bodyOriginalUVPreserved": true,
+    "newSkidUV": "planar tiling"
+  }
+]

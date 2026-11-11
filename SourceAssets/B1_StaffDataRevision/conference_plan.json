@@ -1,0 +1,279 @@
+{
+  "remove": [
+    "B1_C05_Data_TaskChair_04",
+    "B1_C05_Data_TaskChair_03",
+    "B1_C05_Data_BriefingTable_01",
+    "B1_C05_Data_TaskChair_02",
+    "B1_C05_Data_TaskChair_05"
+  ],
+  "add": [
+    {
+      "name": "B1_C05_Conference_ConferenceTable_01",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/BL_ConferenceTable.fbx",
+      "category": "Props",
+      "triangles": [
+        6904,
+        2898
+      ],
+      "size": [
+        4.199999809265137,
+        0.8195499777793884,
+        1.4500000476837158
+      ],
+      "center": [
+        0.0,
+        0.4097749888896942,
+        0.0
+      ],
+      "parts": 62,
+      "materials": [
+        "B1M_Warm",
+        "B1M_Steel",
+        "B1M_Rubber",
+        "B1M_Dark",
+        "B1M_Teal",
+        "B1M_Paper"
+      ],
+      "room": "C05",
+      "model": "BL_ConferenceTable",
+      "yaw": 0,
+      "role": "Equipment",
+      "meshCollider": false,
+      "position": [
+        0.0,
+        -0.0,
+        -0.4
+      ]
+    },
+    {
+      "name": "B1_C05_Conference_PresentationBoard_02",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/BL_PresentationBoard.fbx",
+      "category": "Props",
+      "triangles": [
+        1318,
+        552
+      ],
+      "size": [
+        3.0799999237060547,
+        2.934999942779541,
+        0.7000000178813934
+      ],
+      "center": [
+        0.0,
+        1.4674999713897705,
+        -0.019999995827674866
+      ],
+      "parts": 8,
+      "materials": [
+        "B1M_Dark",
+        "B1M_Paper",
+        "B1M_Display_01",
+        "B1M_Steel"
+      ],
+      "room": "C05",
+      "model": "BL_PresentationBoard",
+      "yaw": 180,
+      "role": "Equipment",
+      "meshCollider": false,
+      "position": [
+        2.4492930873322444e-18,
+        -0.0,
+        3.480000004172325
+      ]
+    },
+    {
+      "room": "C05",
+      "name": "B1_C05_Conference_TaskChair_03",
+      "model": "SF_TaskChair",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        -1.4022500008299998,
+        -0.0029999999999998916,
+        -1.6
+      ],
+      "yaw": 0,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "role": "Seating",
+      "meshCollider": false
+    },
+    {
+      "room": "C05",
+      "name": "B1_C05_Conference_TaskChair_04",
+      "model": "SF_TaskChair",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        -1.39774999917,
+        -0.0029999999999998916,
+        0.8
+      ],
+      "yaw": 180,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "role": "Seating",
+      "meshCollider": false
+    },
+    {
+      "room": "C05",
+      "name": "B1_C05_Conference_TaskChair_05",
+      "model": "SF_TaskChair",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        -0.00225000083,
+        -0.0029999999999998916,
+        -1.6
+      ],
+      "yaw": 0,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "role": "Seating",
+      "meshCollider": false
+    },
+    {
+      "room": "C05",
+      "name": "B1_C05_Conference_TaskChair_06",
+      "model": "SF_TaskChair",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        0.00225000083,
+        -0.0029999999999998916,
+        0.8
+      ],
+      "yaw": 180,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "role": "Seating",
+      "meshCollider": false
+    },
+    {
+      "room": "C05",
+      "name": "B1_C05_Conference_TaskChair_07",
+      "model": "SF_TaskChair",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        1.39774999917,
+        -0.0029999999999998916,
+        -1.6
+      ],
+      "yaw": 0,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "role": "Seating",
+      "meshCollider": false
+    },
+    {
+      "room": "C05",
+      "name": "B1_C05_Conference_TaskChair_08",
+      "model": "SF_TaskChair",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        1.4022500008299998,
+        -0.0029999999999998916,
+        0.8
+      ],
+      "yaw": 180,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "role": "Seating",
+      "meshCollider": false
+    },
+    {
+      "room": "C05",
+      "name": "B1_C05_Conference_TaskChair_09",
+      "model": "SF_TaskChair",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        -2.55,
+        -0.0029999999999998916,
+        -0.39774999917000003
+      ],
+      "yaw": 90,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "role": "Seating",
+      "meshCollider": false
+    },
+    {
+      "room": "C05",
+      "name": "B1_C05_Conference_TaskChair_10",
+      "model": "SF_TaskChair",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B5/SF_TaskChair.fbx",
+      "position": [
+        2.55,
+        -0.0029999999999998916,
+        -0.40225000083
+      ],
+      "yaw": 270,
+      "size": [
+        0.6595,
+        1.122,
+        0.6686339
+      ],
+      "center": [
+        0.00225000083,
+        0.564,
+        0.0
+      ],
+      "role": "Seating",
+      "meshCollider": false
+    }
+  ],
+  "template": "B1_W01_PairedChair_01",
+  "templateRoom": "W01"
+}

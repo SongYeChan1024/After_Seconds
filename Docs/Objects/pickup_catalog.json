@@ -1,8 +1,8 @@
 {
-  "title": "After Seconds 층별 획득 오브젝트 제작 목록 V0.04",
-  "version": "V0.04",
+  "title": "After Seconds 층별 획득 오브젝트 제작 목록 V0.05",
+  "version": "V0.05",
   "author": "송예찬",
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "authority": "../AfterSeconds_메인기획서.md",
   "spec": "../층별_획득오브젝트_명세.md",
   "scope": "사용자 승인한 종류·층별 구성 및 제작 명세. 실제 3D·씬 배치·런타임 완료를 뜻하지 않음.",
@@ -58,9 +58,10 @@
   ],
   "summary": {
     "item_types": 38,
-    "floor_entries": 58,
+    "floor_entries": 55,
     "asset_candidate_types": 5,
-    "runtime_implemented": 0
+    "runtime_implemented": 0,
+    "active_item_types": 35
   },
   "floors": [
     {
@@ -149,22 +150,19 @@
     },
     {
       "id": "B1",
-      "title": "실험층",
+      "title": "연구 데이터·직원 생활층",
       "items": [
         "Pistol",
         "DocumentFolder",
         "UsbDrive",
         "DataShard",
         "ResearchNotebook",
-        "VoiceRecorder",
-        "ExperimentCartridge",
-        "HandAnalyzer",
-        "SampleCase"
+        "VoiceRecorder"
       ],
       "representative": "DataShard",
-      "art_direction": "연구 기록과 실험 장비 중심. 개인 작업물과 연구소 전용 데이터 매체의 차이.",
+      "art_direction": "연구 기록·서류·데이터 매체와 직원 일상. 현장 능력 실험 장비 없음.",
       "record_topics": "실험 원본, 연구원 음성 기록, S-03 판정 근거, 책임자 지시",
-      "placement_area_candidates": "연구원 작업실·기록실·실험 준비대",
+      "placement_area_candidates": "연구원 사무실·자료 인계·열람·보관",
       "exact_placement_status": "미배치 / 좌표·수량은 실제 접근·감시 동선과 대조 후 결정"
     },
     {
@@ -826,9 +824,7 @@
     {
       "id": "ExperimentCartridge",
       "name": "실험용 카트리지",
-      "floors": [
-        "B1"
-      ],
+      "floors": [],
       "use": "추가 기능 미정",
       "art_notes": "장비 삽입 레일·접점·고정 탭. 시리얼과 실험 식별 표기.",
       "pickup": true,
@@ -838,16 +834,14 @@
       "carry_cost": 1,
       "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
       "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
-      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "production_status": "B1 용도 정정으로 배치 제외 / 정의 이력 보관, 다른 층 배치 미정",
       "runtime_status": "미구현",
       "asset_candidates": []
     },
     {
       "id": "HandAnalyzer",
       "name": "휴대 분석기",
-      "floors": [
-        "B1"
-      ],
+      "floors": [],
       "use": "추가 기능 미정",
       "art_notes": "측정부·화면·시료 삽입부·손잡이. B4 측정기와 조작면 구분.",
       "pickup": true,
@@ -857,16 +851,14 @@
       "carry_cost": 1,
       "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
       "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
-      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "production_status": "B1 용도 정정으로 배치 제외 / 정의 이력 보관, 다른 층 배치 미정",
       "runtime_status": "미구현",
       "asset_candidates": []
     },
     {
       "id": "SampleCase",
       "name": "소형 샘플 케이스",
-      "floors": [
-        "B1"
-      ],
+      "floors": [],
       "use": "소품",
       "art_notes": "뚜껑·잠금부·완충재와 개체 라벨. B3 운반 케이스와 크기·용도 구분.",
       "pickup": true,
@@ -876,7 +868,7 @@
       "carry_cost": 1,
       "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
       "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
-      "production_status": "제작 명세 완료 / 독립 에셋 제작·검수 미완료",
+      "production_status": "B1 용도 정정으로 배치 제외 / 정의 이력 보관, 다른 층 배치 미정",
       "runtime_status": "미구현",
       "asset_candidates": []
     },
@@ -983,6 +975,11 @@
       "date": "2026-11-10",
       "author": "송예찬",
       "change": "갤러리·열람 중 시간 정지·연속 명중 예약·속도 유지·5개 소지 시 획득 거절 반영. 기존 아이템/배치 목록 보존."
+    },
+    {
+      "version": "V0.05",
+      "date": "2026-11-11",
+      "change": "B1 연구 데이터·직원 생활. 현장 시험 소품3종 제외, 55개 층별 항목."
     }
   ],
   "detail_spec": "../잠입_상호작용_상세설계.md"

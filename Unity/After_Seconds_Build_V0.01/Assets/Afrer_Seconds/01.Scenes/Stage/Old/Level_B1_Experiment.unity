@@ -5004,6 +5004,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 68
       objectReference: {fileID: 0}
+    - target: {fileID: 8867665497093851322, guid: 8764b35b3ea78a14b98c88c845df0449, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: d59b56c957b3107488ebc0f46e194c1e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6619,6 +6623,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1577930021}
     m_Modifications:
+    - target: {fileID: 1305391862642911929, guid: 8fccf308486de1c4ab771361b0295835, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: 6cd535fa7bfc66b4999b259f6637fec5, type: 2}
     - target: {fileID: 2326370900670356159, guid: 8fccf308486de1c4ab771361b0295835, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 68
@@ -13724,6 +13732,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 68
       objectReference: {fileID: 0}
+    - target: {fileID: 7316816846568744513, guid: 60253afb983715d4492913ad23d4748e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: 2c4bc25751757274899c4e8a706ddb41, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13786,6 +13798,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 68
       objectReference: {fileID: 0}
+    - target: {fileID: 5221588035260251333, guid: dfdc04b437470c245a9bb9448916f06e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: 7416d0b13b9e63b40bbd300e1d102132, type: 2}
     - target: {fileID: 6403598838940501377, guid: dfdc04b437470c245a9bb9448916f06e, type: 3}
       propertyPath: m_Name
       value: U06_WallVentGrille_58
@@ -14583,6 +14599,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: SystemAD::PlayerAnimationSystem
   animator: {fileID: 487755050}
+  locomotionDampTime: 0.12
+  directionDampTime: 0.1
 --- !u!114 &1505996723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14597,6 +14615,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: SystemAD::PlayerLook
   cameraRoot: {fileID: 802809863}
   settings: {fileID: 11400000, guid: f40468bf07e59e24fa0fe9b05f7ff94e, type: 2}
+  crouchEyeSmoothTime: 0.12
 --- !u!114 &1505996724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18854,6 +18873,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2890089729794280720, guid: 5ea462722e1b4c24a9f049abe07d60f2, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: dc9b15b1bf1704f48b3586546df8e8d0, type: 2}
     - target: {fileID: 3570199684687075275, guid: 5ea462722e1b4c24a9f049abe07d60f2, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 68
@@ -19730,6 +19753,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 68
       objectReference: {fileID: 0}
+    - target: {fileID: 9087983979221572855, guid: 51f4e7dfd3c206345bd4267f725e6f51, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: fdd2ef2c195c5b14ab43877bdd97677b, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

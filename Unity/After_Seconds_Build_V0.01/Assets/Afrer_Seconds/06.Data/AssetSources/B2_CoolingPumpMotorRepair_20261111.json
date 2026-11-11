@@ -1,0 +1,173 @@
+{
+  "title": "냉각 펌프 모터 방열핀·플랜지 재제작 V0.01",
+  "author": "송예찬",
+  "date": "2026-11-11",
+  "userReference": "스크린샷 2026-11-11 154123.png",
+  "problem": "VARCO가 생성한 모터 방열핀·측면 플랜지 자체가 찌그러짐. 이전 받침대/덮개/노멀 보수로는 해결되지 않았음.",
+  "method": "기존 모터 구간을 제거하고 원통 하우징·직선 방열핀26개·원형 측면 플랜지/가스켓/6볼트·단자함·후면 팬 가드·지지대를 재제작. 기존 펌프 전단과 UV, 수평 받침대 유지.",
+  "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/VA_BM_CoolingPump.fbx",
+  "assetGuidPreserved": true,
+  "placements": [
+    "B2_C02_Ops_PumpTrainA_01",
+    "B2_C02_Ops_PumpTrainA_02",
+    "B2_C02_Ops_PumpTrainA_03",
+    "B2_C02_Ops_PumpTrainB_04",
+    "B2_C02_Ops_PumpTrainB_05",
+    "B2_E01_Ops_BoostTrain_04",
+    "B2_E01_Ops_BoostTrain_05",
+    "B2_E01_Ops_BoostTrain_06",
+    "B2_E03_Ops_TransferPumps_04",
+    "B2_E03_Ops_TransferPumps_05"
+  ],
+  "lodTriangles": [
+    12000,
+    5500
+  ],
+  "previousLodTriangles": [
+    10000,
+    4000
+  ],
+  "finCountPerLOD": 26,
+  "finThicknessMetres": 0.006,
+  "finLengthMetres": 0.374,
+  "assetBytes": 644844,
+  "newFBXFiles": 0,
+  "newTextureCount": 0,
+  "newMaterials": 2,
+  "materialSlotsPerRenderer": 4,
+  "scope": "B2의 기존 보수 펌프10개. 다른 층이나 펌프 전단의 VARCO 조형 전체를 재제작한 것은 아님.",
+  "validation": {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B2_Circular.unity",
+    "placementsChecked": 194,
+    "collidersChecked": 194,
+    "pumps": [
+      {
+        "name": "B2_C02_Ops_PumpTrainA_01",
+        "boundsDriftMetres": 0.00170183182,
+        "groundY": -34.0,
+        "materials": [
+          "VA_CoolingPump_AlignedMetal",
+          "Props_CoolingPump_URP",
+          "VA_CoolingPump_Dark",
+          "VA_CoolingPump_Orange"
+        ]
+      },
+      {
+        "name": "B2_C02_Ops_PumpTrainA_02",
+        "boundsDriftMetres": 0.00170183182,
+        "groundY": -34.0,
+        "materials": [
+          "VA_CoolingPump_AlignedMetal",
+          "Props_CoolingPump_URP",
+          "VA_CoolingPump_Dark",
+          "VA_CoolingPump_Orange"
+        ]
+      },
+      {
+        "name": "B2_C02_Ops_PumpTrainA_03",
+        "boundsDriftMetres": 0.00170183182,
+        "groundY": -34.0,
+        "materials": [
+          "VA_CoolingPump_AlignedMetal",
+          "Props_CoolingPump_URP",
+          "VA_CoolingPump_Dark",
+          "VA_CoolingPump_Orange"
+        ]
+      },
+      {
+        "name": "B2_C02_Ops_PumpTrainB_04",
+        "boundsDriftMetres": 0.00170183182,
+        "groundY": -34.0,
+        "materials": [
+          "VA_CoolingPump_AlignedMetal",
+          "Props_CoolingPump_URP",
+          "VA_CoolingPump_Dark",
+          "VA_CoolingPump_Orange"
+        ]
+      },
+      {
+        "name": "B2_C02_Ops_PumpTrainB_05",
+        "boundsDriftMetres": 0.00170183182,
+        "groundY": -34.0,
+        "materials": [
+          "VA_CoolingPump_AlignedMetal",
+          "Props_CoolingPump_URP",
+          "VA_CoolingPump_Dark",
+          "VA_CoolingPump_Orange"
+        ]
+      },
+      {
+        "name": "B2_E01_Ops_BoostTrain_04",
+        "boundsDriftMetres": 0.00127792358,
+        "groundY": -34.0,
+        "materials": [
+          "VA_CoolingPump_AlignedMetal",
+          "Props_CoolingPump_URP",
+          "VA_CoolingPump_Dark",
+          "VA_CoolingPump_Orange"
+        ]
+      },
+      {
+        "name": "B2_E01_Ops_BoostTrain_05",
+        "boundsDriftMetres": 0.00127792358,
+        "groundY": -34.0,
+        "materials": [
+          "VA_CoolingPump_AlignedMetal",
+          "Props_CoolingPump_URP",
+          "VA_CoolingPump_Dark",
+          "VA_CoolingPump_Orange"
+        ]
+      },
+      {
+        "name": "B2_E01_Ops_BoostTrain_06",
+        "boundsDriftMetres": 0.00127792358,
+        "groundY": -34.0,
+        "materials": [
+          "VA_CoolingPump_AlignedMetal",
+          "Props_CoolingPump_URP",
+          "VA_CoolingPump_Dark",
+          "VA_CoolingPump_Orange"
+        ]
+      },
+      {
+        "name": "B2_E03_Ops_TransferPumps_04",
+        "boundsDriftMetres": 0.00127410889,
+        "groundY": -34.0,
+        "materials": [
+          "VA_CoolingPump_AlignedMetal",
+          "Props_CoolingPump_URP",
+          "VA_CoolingPump_Dark",
+          "VA_CoolingPump_Orange"
+        ]
+      },
+      {
+        "name": "B2_E03_Ops_TransferPumps_05",
+        "boundsDriftMetres": 0.00127410889,
+        "groundY": -34.0,
+        "materials": [
+          "VA_CoolingPump_AlignedMetal",
+          "Props_CoolingPump_URP",
+          "VA_CoolingPump_Dark",
+          "VA_CoolingPump_Orange"
+        ]
+      }
+    ],
+    "meshes": [
+      {
+        "name": "VA_BM_CoolingPump_LOD0",
+        "vertices": 13561,
+        "triangles": 12000,
+        "submeshes": 4,
+        "readable": false
+      },
+      {
+        "name": "VA_BM_CoolingPump_LOD1",
+        "vertices": 7659,
+        "triangles": 5500,
+        "submeshes": 4,
+        "readable": false
+      }
+    ],
+    "errors": []
+  }
+}

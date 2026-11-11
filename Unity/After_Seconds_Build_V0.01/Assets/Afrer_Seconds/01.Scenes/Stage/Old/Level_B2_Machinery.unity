@@ -11981,6 +11981,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 68
       objectReference: {fileID: 0}
+    - target: {fileID: 9050308061972001072, guid: ea18a7ff50ea09943bafe02cad193ef1, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: 1a9cc0b87b4b54b4baa5cfc218460fc7, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16557,6 +16561,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 68
       objectReference: {fileID: 0}
+    - target: {fileID: 1471503205945962525, guid: d69e15df6bbe2c046a16408e76e0076a, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: a8917b94a32a36745a6394f592c9b552, type: 2}
     - target: {fileID: 2922800317886014722, guid: d69e15df6bbe2c046a16408e76e0076a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 68
@@ -17905,6 +17913,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: SystemAD::PlayerAnimationSystem
   animator: {fileID: 1450297680}
+  locomotionDampTime: 0.12
+  directionDampTime: 0.1
 --- !u!114 &1184030279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17919,6 +17929,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: SystemAD::PlayerLook
   cameraRoot: {fileID: 1466195898}
   settings: {fileID: 11400000, guid: f40468bf07e59e24fa0fe9b05f7ff94e, type: 2}
+  crouchEyeSmoothTime: 0.12
 --- !u!114 &1184030280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22246,6 +22257,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7998613208572009180, guid: b0094822bf7a7f24a95645f34e81274a, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: 06111ac5de853754a9ec023c9719bea4, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23829,6 +23844,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7411634}
     m_Modifications:
+    - target: {fileID: 1871070479277065822, guid: a50f346090cba424fabe7bc05eb8d55c, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: 448f34300f3bca0429398e68e65c37fb, type: 2}
     - target: {fileID: 2302849084939938689, guid: a50f346090cba424fabe7bc05eb8d55c, type: 3}
       propertyPath: m_Name
       value: Props_IndustrialCentrifuge_00
@@ -27438,6 +27457,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 68
       objectReference: {fileID: 0}
+    - target: {fileID: 9050308061972001072, guid: ea18a7ff50ea09943bafe02cad193ef1, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: 1a9cc0b87b4b54b4baa5cfc218460fc7, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29756,6 +29779,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 68
       objectReference: {fileID: 0}
+    - target: {fileID: 5221588035260251333, guid: dfdc04b437470c245a9bb9448916f06e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: 7416d0b13b9e63b40bbd300e1d102132, type: 2}
     - target: {fileID: 6403598838940501377, guid: dfdc04b437470c245a9bb9448916f06e, type: 3}
       propertyPath: m_Name
       value: U06_WallVentGrille_57
@@ -31010,6 +31037,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5663953015797560387, guid: 95c6c87f2974f9c46861320aa8adf539, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: 7257457699e22e841a15437500bf72fc, type: 2}
     - target: {fileID: 8250150845470138716, guid: 95c6c87f2974f9c46861320aa8adf539, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 68
@@ -31142,6 +31173,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 112333231043386265, guid: 633931e3037626741ab235b3e5a2a680, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: ae8372a00fdc2e04da29026e0d3c45f0, type: 2}
+    - target: {fileID: 735148269737010913, guid: 633931e3037626741ab235b3e5a2a680, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: ae8372a00fdc2e04da29026e0d3c45f0, type: 2}
     - target: {fileID: 4630249249956801634, guid: 633931e3037626741ab235b3e5a2a680, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

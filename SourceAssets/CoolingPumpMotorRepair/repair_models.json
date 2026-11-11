@@ -1,0 +1,30 @@
+[
+  {
+    "model": "BM_CoolingPump",
+    "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/VA_BM_CoolingPump.fbx",
+    "levels": [
+      {
+        "level": 0,
+        "name": "VA_BM_CoolingPump_LOD0",
+        "triangles": 12000,
+        "vertices": 6164,
+        "boundary": 0,
+        "overused": 0,
+        "degenerate": 0
+      },
+      {
+        "level": 1,
+        "name": "VA_BM_CoolingPump_LOD1",
+        "triangles": 5500,
+        "vertices": 2914,
+        "boundary": 0,
+        "overused": 0,
+        "degenerate": 0
+      }
+    ],
+    "source": "Original pump volute + rebuilt motor housing, straight fins, circular side flange and existing level skid",
+    "newSkidUV": "planar tiling",
+    "finCountPerLOD": 26,
+    "retainedPumpUVPreserved": true
+  }
+]

@@ -1,0 +1,142 @@
+{
+  "edgeToleranceMetres": 5e-05,
+  "scenes": [
+    {
+      "scene": "Level_1F_Checkpoint",
+      "residualProjectedArea": 0,
+      "largestResidualFaceArea": 0,
+      "float32EdgeSliverTriangles": 0,
+      "interiorOverlaps": 0,
+      "interiorArea": 0,
+      "details": []
+    },
+    {
+      "scene": "Level_B1_Experiment",
+      "residualProjectedArea": 0,
+      "largestResidualFaceArea": 0,
+      "float32EdgeSliverTriangles": 0,
+      "interiorOverlaps": 0,
+      "interiorArea": 0,
+      "details": []
+    },
+    {
+      "scene": "Level_B2_Circular",
+      "residualProjectedArea": 0.0006307127996858403,
+      "largestResidualFaceArea": 0.00032130810450325953,
+      "float32EdgeSliverTriangles": 903,
+      "interiorOverlaps": 0,
+      "interiorArea": 0,
+      "details": []
+    },
+    {
+      "scene": "Level_B2_Machinery",
+      "residualProjectedArea": 0,
+      "largestResidualFaceArea": 0,
+      "float32EdgeSliverTriangles": 0,
+      "interiorOverlaps": 0,
+      "interiorArea": 0,
+      "details": []
+    },
+    {
+      "scene": "Level_B2_MezzaninePreview",
+      "residualProjectedArea": 0,
+      "largestResidualFaceArea": 0,
+      "float32EdgeSliverTriangles": 0,
+      "interiorOverlaps": 0,
+      "interiorArea": 0,
+      "details": []
+    },
+    {
+      "scene": "Level_B3_Circular",
+      "residualProjectedArea": 0.0003151007683007077,
+      "largestResidualFaceArea": 8.160159268300049e-05,
+      "float32EdgeSliverTriangles": 845,
+      "interiorOverlaps": 0,
+      "interiorArea": 0,
+      "details": []
+    },
+    {
+      "scene": "Level_B3_SampleStorage",
+      "residualProjectedArea": 0,
+      "largestResidualFaceArea": 0,
+      "float32EdgeSliverTriangles": 0,
+      "interiorOverlaps": 0,
+      "interiorArea": 0,
+      "details": []
+    },
+    {
+      "scene": "Level_B3_Stealth",
+      "residualProjectedArea": 0,
+      "largestResidualFaceArea": 0,
+      "float32EdgeSliverTriangles": 0,
+      "interiorOverlaps": 0,
+      "interiorArea": 0,
+      "details": []
+    },
+    {
+      "scene": "Level_B4_Circular",
+      "residualProjectedArea": 0.00045401009439139,
+      "largestResidualFaceArea": 0.00010380972889834084,
+      "float32EdgeSliverTriangles": 895,
+      "interiorOverlaps": 0,
+      "interiorArea": 0,
+      "details": []
+    },
+    {
+      "scene": "Level_B4_Observation",
+      "residualProjectedArea": 0,
+      "largestResidualFaceArea": 0,
+      "float32EdgeSliverTriangles": 0,
+      "interiorOverlaps": 0,
+      "interiorArea": 0,
+      "details": []
+    },
+    {
+      "scene": "Level_B4_Stealth",
+      "residualProjectedArea": 0,
+      "largestResidualFaceArea": 0,
+      "float32EdgeSliverTriangles": 0,
+      "interiorOverlaps": 0,
+      "interiorArea": 0,
+      "details": []
+    },
+    {
+      "scene": "Level_B5_Circular",
+      "residualProjectedArea": 6.67808093268115e-05,
+      "largestResidualFaceArea": 1.7809133169066627e-05,
+      "float32EdgeSliverTriangles": 305,
+      "interiorOverlaps": 0,
+      "interiorArea": 0,
+      "details": []
+    },
+    {
+      "scene": "Level_B5_Isolation",
+      "residualProjectedArea": 0,
+      "largestResidualFaceArea": 0,
+      "float32EdgeSliverTriangles": 0,
+      "interiorOverlaps": 0,
+      "interiorArea": 0,
+      "details": []
+    },
+    {
+      "scene": "Level_B5_Stealth",
+      "residualProjectedArea": 0,
+      "largestResidualFaceArea": 0,
+      "float32EdgeSliverTriangles": 0,
+      "interiorOverlaps": 0,
+      "interiorArea": 0,
+      "details": []
+    },
+    {
+      "scene": "Player",
+      "residualProjectedArea": 0,
+      "largestResidualFaceArea": 0,
+      "float32EdgeSliverTriangles": 0,
+      "interiorOverlaps": 0,
+      "interiorArea": 0,
+      "details": []
+    }
+  ],
+  "nontrivialInteriorOverlaps": 0,
+  "note": "Planar overlap at the float32 edge precision limit is reported, not repeatedly retriangulated. Zero interior means erosion by 0.05 mm removes the entire remainder; it does not mean mathematically zero overlap."
+}

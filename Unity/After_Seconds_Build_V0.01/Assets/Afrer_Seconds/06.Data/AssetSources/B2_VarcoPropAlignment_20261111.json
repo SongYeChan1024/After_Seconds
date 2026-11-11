@@ -1,0 +1,154 @@
+{
+  "title": "B2 VARCO 프랍 메시 보수 V0.01",
+  "author": "송예찬",
+  "date": "2026-11-11",
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B2_Circular.unity",
+  "scope": "현재 검수 중인 B2. 다른 층 및 원본 모델은 변경하지 않음.",
+  "method": "원본 UV 및 재질 유지, 면 연결 복원, 노멀 정렬, 접합된 메시에서 LOD 재생성. 기존 프랍 루트 좌표에 정렬하고 외곽·접지 일치.",
+  "models": [
+    {
+      "model": "SD_CylinderTrolley",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/VA_SD_CylinderTrolley.fbx",
+      "levels": [
+        {
+          "name": "VA_SD_CylinderTrolley_LOD0",
+          "level": 0,
+          "triangles": 8000,
+          "vertices": 3926,
+          "boundary": 0,
+          "overused": 0,
+          "degenerate": 0
+        },
+        {
+          "name": "VA_SD_CylinderTrolley_LOD1",
+          "level": 1,
+          "triangles": 3200,
+          "vertices": 1526,
+          "boundary": 0,
+          "overused": 0,
+          "degenerate": 0
+        },
+        {
+          "name": "VA_SD_CylinderTrolley_LOD2",
+          "level": 2,
+          "triangles": 960,
+          "vertices": 406,
+          "boundary": 0,
+          "overused": 0,
+          "degenerate": 0
+        }
+      ]
+    },
+    {
+      "model": "BM_HVACUnit",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/VA_BM_HVACUnit.fbx",
+      "levels": [
+        {
+          "name": "VA_BM_HVACUnit_LOD0",
+          "level": 0,
+          "triangles": 23990,
+          "vertices": 11645,
+          "boundary": 0,
+          "overused": 0,
+          "degenerate": 0
+        },
+        {
+          "name": "VA_BM_HVACUnit_LOD1",
+          "level": 1,
+          "triangles": 9596,
+          "vertices": 4448,
+          "boundary": 0,
+          "overused": 0,
+          "degenerate": 0
+        }
+      ]
+    },
+    {
+      "model": "B2_EmergencyGenerator",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/VA_B2_EmergencyGenerator.fbx",
+      "levels": [
+        {
+          "name": "VA_B2_EmergencyGenerator_LOD0",
+          "level": 0,
+          "triangles": 18000,
+          "vertices": 8602,
+          "boundary": 0,
+          "overused": 0,
+          "degenerate": 0
+        },
+        {
+          "name": "VA_B2_EmergencyGenerator_LOD1",
+          "level": 1,
+          "triangles": 7740,
+          "vertices": 3472,
+          "boundary": 0,
+          "overused": 0,
+          "degenerate": 0
+        },
+        {
+          "name": "VA_B2_EmergencyGenerator_LOD2",
+          "level": 2,
+          "triangles": 2880,
+          "vertices": 1042,
+          "boundary": 0,
+          "overused": 0,
+          "degenerate": 0
+        }
+      ]
+    }
+  ],
+  "placements": [
+    {
+      "name": "B2_W02_Ops_GeneratorTrain_01",
+      "lods": 3,
+      "boundsDriftMetres": 3.844384e-06,
+      "groundY": -34.0
+    },
+    {
+      "name": "B2_W02_Ops_GeneratorTrain_02",
+      "lods": 3,
+      "boundsDriftMetres": 3.81469727e-06,
+      "groundY": -34.0
+    },
+    {
+      "name": "B2_W02_Ops_GeneratorTrain_03",
+      "lods": 3,
+      "boundsDriftMetres": 3.81469727e-06,
+      "groundY": -34.0
+    },
+    {
+      "name": "B2_W03_Ops_WeldingBay_17",
+      "lods": 3,
+      "boundsDriftMetres": 1.90734863e-06,
+      "groundY": -34.0
+    },
+    {
+      "name": "B2_N01_Ops_DuctEquipment_16",
+      "lods": 2,
+      "boundsDriftMetres": 0.0,
+      "groundY": -33.9999962
+    },
+    {
+      "name": "B2_N01_Ops_DuctEquipment_17",
+      "lods": 2,
+      "boundsDriftMetres": 0.0,
+      "groundY": -33.9999962
+    },
+    {
+      "name": "B2_S01_Ops_ServiceGas_23",
+      "lods": 3,
+      "boundsDriftMetres": 0.0,
+      "groundY": -34.0
+    }
+  ],
+  "newModelBytes": 3458036,
+  "originalModelsPreserved": true,
+  "gameplayScriptsChanged": false,
+  "triangulationNote": "각 LOD를 명시 삼각화. 원거리 모델은 가까이 확대하면 단순화가 보인다.",
+  "limitations": [
+    "B2의 31종/194개 배치 중 현재 보이는 VARCO 5종을 출처와 3시점으로 확인했다.",
+    "다른 층의 VARCO 프랍 전체 검수를 완료한 기록이 아니다.",
+    "VARCO가 생성한 사용감·비대칭 형상은 유지했다. 공조기의 찌그러진 블레이드 전체를 새 형상으로 재설계한 것은 아니다.",
+    "에디터 시각·구조 검수이며 빌드 FPS 또는 전체 동선 Play 재검증을 의미하지 않는다."
+  ]
+}
