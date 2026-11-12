@@ -1,4 +1,8 @@
-# After Seconds — Codex 작업 안내 V1.05
+# After Seconds — Codex 작업 안내 V1.06
+
+2026-11-12 작업 마감: 오늘의 B1 실내 재설계·데스크 기물 보수와 지상1F 위장 폐공장·Terrain·반복 무늬 보수를 `87a4cd5f`로 커밋·push했다. 블로그 일일개발일지·데일리로그도 `89a929c`로 게시했고 자동 검사·Pages 배포 성공, 글2편과 이미지6장 HTTP200 및 이미지 원본 해시 일치를 확인했다. **이어서 시작할 때 [오늘 작업 마감과 다음 작업](Docs/WorkClose_2026-11-12.md)을 먼저 읽는다.** 다음은 사용자 전체1F 분위기·표면·지형 검수와 지정 구역 보수다. Unity6000.4.0f1의 저장된 `Level_1F_Factory`가 최신이며 이전 제작기/Import/report를 일괄 재실행하지 않는다. 아래 ‘커밋/push/블로그 미실시’는 제작 단계 당시 기록이다. 작성자 송예찬.
+
+이전 단계 기록:
 
 2026-11-12 최신 사용자 정정: 지상1F는 사용하지 않는 위장용 폐공장이다. 레퍼런스 기반 파손 지붕/창·철골·굴뚝/사일로·잔해/식생과384×320m Terrain을 저장했다. AE_VA_Walls의 반복 얼룩도 벽돌 크기를 유지한 월드 좌표 오염으로 보수했고 관련10재질에 적용했다. 통행79/79·실제Play11곳·Look·정밀 깊이 충돌0·새메시/셰이더 오류0, 기존Unity13171파일 보존. 현재 Level_1F_Factory 저장 편집, AE_VA_Walls 선택. **다음은 사용자 전체1F 분위기·표면·지형 검수와 지정 구역 보수**다. 이전1F 운영형 초안은 현재 수용안이 아니다. 제작기/Import/report를 후속 편집 뒤 일괄 재실행하지 않는다. 게임 C#/Player 프리팹/Animator·B1/다른층 보존, 1F 카메라에만 Skybox 오버라이드. 커밋/push/블로그 미실시. 작성자 송예찬. [최신 검수](Docs/Review/2026-11-12_1F_Abandoned/Review.md) · [전후 화면](Docs/Review/2026-11-12_1F_Abandoned/review.html) · [원본](SourceAssets/F1_AbandonedCamouflage/README.md).
 

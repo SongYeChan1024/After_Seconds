@@ -1,4 +1,11 @@
-# 개발 일지 V0.06
+# 개발 일지 V0.07
+
+2026-11-12 공개 게시 완료. [오늘 작업 마감·원격 저장 결과](../WorkClose_2026-11-12.md)와 [공개 기록](2026-11-12.md)을 따른다. 다음 작업은 사용자 전체1F 검수와 지정 구역 보수다. 작성자 송예찬.
+
+- [일일개발일지 — B1 실내 재설계와 지상 폐공장 제작](https://songyechan1024.github.io/Kasil_DevLog/posts/after-seconds-b1-redesign-and-abandoned-factory/)
+- [데일리 로그 — 책상 위 배치와 폐공장의 흔적](https://songyechan1024.github.io/Kasil_DevLog/posts/daily-log-use-traces-and-texture-scale/)
+
+이전 기록:
 
 2026-11-08 저녁 글 게시 완료: 블로그 `272b353` main 반영과 배포 성공, 두 글 및 이미지5장 HTTP200 확인. 아래의 원고 상태는 작성 당시 기록이다.
 
