@@ -1,0 +1,58 @@
+{
+  "tested": 4,
+  "failed": 0,
+  "results": [
+    {
+      "id": "catwalk_up",
+      "passed": true,
+      "steps": 209,
+      "segment": 22,
+      "remaining": 0.0349998474,
+      "heightError": 0.0799996853,
+      "end": [
+        -24.65,
+        3.5449996,
+        7.965
+      ]
+    },
+    {
+      "id": "catwalk_down",
+      "passed": true,
+      "steps": 209,
+      "segment": 22,
+      "remaining": 0.0349998474,
+      "heightError": 0.0799998641,
+      "end": [
+        -24.65,
+        0.0799998641,
+        -10.665
+      ]
+    },
+    {
+      "id": "outside_road",
+      "passed": true,
+      "steps": 528,
+      "segment": 88,
+      "remaining": 0.0,
+      "heightError": 0.08000028,
+      "end": [
+        -95.0,
+        -0.220473886,
+        -29.54
+      ]
+    },
+    {
+      "id": "outside_road_return",
+      "passed": true,
+      "steps": 528,
+      "segment": 88,
+      "remaining": 0.0,
+      "heightError": 0.07999992,
+      "end": [
+        -51.0,
+        0.07999992,
+        -28.0
+      ]
+    }
+  ]
+}

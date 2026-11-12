@@ -1,0 +1,4409 @@
+{
+  "version": "V0.01",
+  "author": "송예찬",
+  "date": "2026-11-12",
+  "project": "After Seconds",
+  "scope": "1F abandoned camouflage factory and terrain; repetitive material correction",
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_1F_Factory.unity",
+  "references": [
+    "Docs/Reference/1F/01.jpg",
+    "Docs/Reference/1F/02.jpg",
+    "Docs/Reference/1F/03.jpg",
+    "Docs/Reference/1F/04.jpg",
+    "Docs/Reference/1F/06.jpg",
+    "Docs/Reference/1F/07.jpg",
+    "Docs/Reference/1F/08.jpg"
+  ],
+  "source": "SourceAssets/F1_AbandonedCamouflage",
+  "models": {
+    "InteriorFloor": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_InteriorFloor.fbx",
+      "category": "Environment",
+      "center": [
+        -1.0995502471923828,
+        0.0,
+        0.0
+      ],
+      "size": [
+        100.19910049438477,
+        0.0,
+        66.0
+      ],
+      "triangles": [
+        64
+      ],
+      "materials": [
+        "AE_M_Concrete"
+      ]
+    },
+    "C01_Walls": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C01_Walls.fbx",
+      "category": "Environment",
+      "center": [
+        -11.99899959564209,
+        4.499999970197678,
+        -0.003773212432861328
+      ],
+      "size": [
+        28.510339736938477,
+        9.000000059604645,
+        28.492077827453613
+      ],
+      "triangles": [
+        5707
+      ],
+      "materials": [
+        "AE_M_Plaster",
+        "AE_M_Corrosion",
+        "AE_M_Glass",
+        "AE_M_Concrete"
+      ]
+    },
+    "C02_Walls": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C02_Walls.fbx",
+      "category": "Environment",
+      "center": [
+        23.999309539794922,
+        3.6500000655651093,
+        -8.004992008209229
+      ],
+      "size": [
+        20.4810791015625,
+        7.300000250339508,
+        20.49916362762451
+      ],
+      "triangles": [
+        4296
+      ],
+      "materials": [
+        "AE_M_Plaster",
+        "AE_M_Corrosion",
+        "AE_M_Glass",
+        "AE_M_Concrete"
+      ]
+    },
+    "C03_Walls": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C03_Walls.fbx",
+      "category": "Environment",
+      "center": [
+        -29.996423721313477,
+        1.899999976158142,
+        -26.011239051818848
+      ],
+      "size": [
+        14.493511199951172,
+        3.799999952316284,
+        14.482481002807617
+      ],
+      "triangles": [
+        1973
+      ],
+      "materials": [
+        "AE_M_Plaster",
+        "AE_M_Corrosion",
+        "AE_M_Glass",
+        "AE_M_Concrete"
+      ]
+    },
+    "C04_Walls": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C04_Walls.fbx",
+      "category": "Environment",
+      "center": [
+        -11.99410629272461,
+        1.899999976158142,
+        24.998592376708984
+      ],
+      "size": [
+        14.498340606689453,
+        3.799999952316284,
+        14.484870910644531
+      ],
+      "triangles": [
+        1920
+      ],
+      "materials": [
+        "AE_M_Plaster",
+        "AE_M_Corrosion",
+        "AE_M_Glass",
+        "AE_M_Concrete"
+      ]
+    },
+    "VA_Walls": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_VA_Walls.fbx",
+      "category": "Environment",
+      "center": [
+        -44.009267807006836,
+        2.0999999046325684,
+        28.00265598297119
+      ],
+      "size": [
+        10.51650619506836,
+        4.199999809265137,
+        10.497282028198242
+      ],
+      "triangles": [
+        336
+      ],
+      "materials": [
+        "AE_M_Plaster",
+        "AE_M_Concrete"
+      ]
+    },
+    "VB_Walls": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_VB_Walls.fbx",
+      "category": "Environment",
+      "center": [
+        44.00728225708008,
+        2.0999999046325684,
+        -28.008241653442383
+      ],
+      "size": [
+        10.475990295410156,
+        4.199999809265137,
+        10.48739242553711
+      ],
+      "triangles": [
+        336
+      ],
+      "materials": [
+        "AE_M_Plaster",
+        "AE_M_Concrete"
+      ]
+    },
+    "VL_Walls": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_VL_Walls.fbx",
+      "category": "Environment",
+      "center": [
+        44.004133224487305,
+        2.3000001907348633,
+        28.0087890625
+      ],
+      "size": [
+        10.503055572509766,
+        4.600000381469727,
+        10.50067138671875
+      ],
+      "triangles": [
+        336
+      ],
+      "materials": [
+        "AE_M_Plaster",
+        "AE_M_Concrete"
+      ]
+    },
+    "T01_Walls": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T01_Walls.fbx",
+      "category": "Environment",
+      "center": [
+        31.896873474121094,
+        1.7000000476837158,
+        -24.138859748840332
+      ],
+      "size": [
+        14.206260681152344,
+        3.4000000953674316,
+        12.330656051635742
+      ],
+      "triangles": [
+        1013
+      ],
+      "materials": [
+        "AE_M_Plaster",
+        "AE_M_Concrete",
+        "AE_M_Corrosion",
+        "AE_M_Glass"
+      ]
+    },
+    "T02_Walls": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T02_Walls.fbx",
+      "category": "Environment",
+      "center": [
+        7.999999761581421,
+        1.7000000476837158,
+        -4.444444417953491
+      ],
+      "size": [
+        12.039047718048096,
+        3.4000000953674316,
+        7.207743167877197
+      ],
+      "triangles": [
+        962
+      ],
+      "materials": [
+        "AE_M_Plaster",
+        "AE_M_Corrosion",
+        "AE_M_Glass",
+        "AE_M_Concrete"
+      ]
+    },
+    "T03_Walls": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T03_Walls.fbx",
+      "category": "Environment",
+      "center": [
+        -23.62112808227539,
+        1.7000000178813934,
+        -16.486720085144043
+      ],
+      "size": [
+        17.396400451660156,
+        3.4000001549720764,
+        5.61699104309082
+      ],
+      "triangles": [
+        964
+      ],
+      "materials": [
+        "AE_M_Plaster",
+        "AE_M_Corrosion",
+        "AE_M_Glass",
+        "AE_M_Concrete"
+      ]
+    },
+    "T04_Walls": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T04_Walls.fbx",
+      "category": "Environment",
+      "center": [
+        -42.50000190734863,
+        1.7000000476837158,
+        -27.190475463867188
+      ],
+      "size": [
+        11.017070770263672,
+        3.4000000953674316,
+        5.598453521728516
+      ],
+      "triangles": [
+        859
+      ],
+      "materials": [
+        "AE_M_Plaster",
+        "AE_M_Corrosion",
+        "AE_M_Glass",
+        "AE_M_Concrete"
+      ]
+    },
+    "T05_Walls": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T05_Walls.fbx",
+      "category": "Environment",
+      "center": [
+        33.9903564453125,
+        1.7000000178813934,
+        12.5
+      ],
+      "size": [
+        24.619277954101562,
+        3.4000001549720764,
+        21.0
+      ],
+      "triangles": [
+        2200
+      ],
+      "materials": [
+        "AE_M_Plaster",
+        "AE_M_Corrosion",
+        "AE_M_Glass",
+        "AE_M_Concrete"
+      ]
+    },
+    "T06_Walls": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T06_Walls.fbx",
+      "category": "Environment",
+      "center": [
+        -28.999998092651367,
+        1.7000000178813934,
+        26.593750953674316
+      ],
+      "size": [
+        20.016803741455078,
+        3.4000001549720764,
+        6.426332473754883
+      ],
+      "triangles": [
+        1379
+      ],
+      "materials": [
+        "AE_M_Plaster",
+        "AE_M_Corrosion",
+        "AE_M_Glass",
+        "AE_M_Concrete"
+      ]
+    },
+    "T07_Walls": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T07_Walls.fbx",
+      "category": "Environment",
+      "center": [
+        -11.990660667419434,
+        1.7000000476837158,
+        15.999999523162842
+      ],
+      "size": [
+        4.630342483520508,
+        3.4000000953674316,
+        4.000000953674316
+      ],
+      "triangles": [
+        72
+      ],
+      "materials": [
+        "AE_M_Plaster",
+        "AE_M_Concrete"
+      ]
+    },
+    "C01_Frames": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C01_Frames.fbx",
+      "category": "Environment",
+      "center": [
+        -11.999999046325684,
+        5.71444845199585,
+        -4.76837158203125e-07
+      ],
+      "size": [
+        28.026487350463867,
+        11.4288969039917,
+        28.00000286102295
+      ],
+      "triangles": [
+        2760
+      ],
+      "materials": [
+        "AE_M_Corrosion",
+        "AE_M_Dark"
+      ]
+    },
+    "C01_Roof": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C01_Roof.fbx",
+      "category": "Environment",
+      "center": [
+        -12.0,
+        10.239999771118164,
+        0.0
+      ],
+      "size": [
+        28.0,
+        2.479999542236328,
+        28.0
+      ],
+      "triangles": [
+        4922
+      ],
+      "materials": [
+        "AE_M_Corrosion",
+        "AE_M_Plaster"
+      ]
+    },
+    "C02_Frames": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C02_Frames.fbx",
+      "category": "Environment",
+      "center": [
+        24.0,
+        4.589367866516113,
+        -8.0
+      ],
+      "size": [
+        20.028343200683594,
+        9.178735733032227,
+        20.0
+      ],
+      "triangles": [
+        2760
+      ],
+      "materials": [
+        "AE_M_Corrosion",
+        "AE_M_Dark"
+      ]
+    },
+    "C02_Roof": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C02_Roof.fbx",
+      "category": "Environment",
+      "center": [
+        24.0,
+        8.264999866485596,
+        -8.000000953674316
+      ],
+      "size": [
+        20.0,
+        1.9299993515014648,
+        20.000001907348633
+      ],
+      "triangles": [
+        3362
+      ],
+      "materials": [
+        "AE_M_Corrosion",
+        "AE_M_Plaster"
+      ]
+    },
+    "C03_Roof": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C03_Roof.fbx",
+      "category": "Environment",
+      "center": [
+        -30.0,
+        4.002500057220459,
+        -26.0
+      ],
+      "size": [
+        14.139999389648438,
+        0.4049997329711914,
+        14.0
+      ],
+      "triangles": [
+        192
+      ],
+      "materials": [
+        "AE_M_Concrete"
+      ]
+    },
+    "C04_Roof": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C04_Roof.fbx",
+      "category": "Environment",
+      "center": [
+        -12.0,
+        4.002500057220459,
+        25.0
+      ],
+      "size": [
+        14.139999389648438,
+        0.4049997329711914,
+        14.0
+      ],
+      "triangles": [
+        192
+      ],
+      "materials": [
+        "AE_M_Concrete"
+      ]
+    },
+    "VA_Roof": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_VA_Roof.fbx",
+      "category": "Environment",
+      "center": [
+        -44.0,
+        4.4024999141693115,
+        28.0
+      ],
+      "size": [
+        10.139999389648438,
+        0.4050002098083496,
+        10.0
+      ],
+      "triangles": [
+        216
+      ],
+      "materials": [
+        "AE_M_Concrete"
+      ]
+    },
+    "VB_Roof": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_VB_Roof.fbx",
+      "category": "Environment",
+      "center": [
+        44.0,
+        4.4024999141693115,
+        -28.0
+      ],
+      "size": [
+        10.139999389648438,
+        0.4050002098083496,
+        10.0
+      ],
+      "triangles": [
+        216
+      ],
+      "materials": [
+        "AE_M_Concrete"
+      ]
+    },
+    "VL_Roof": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_VL_Roof.fbx",
+      "category": "Environment",
+      "center": [
+        44.0,
+        4.802500009536743,
+        28.0
+      ],
+      "size": [
+        10.139999389648438,
+        0.4050002098083496,
+        10.0
+      ],
+      "triangles": [
+        216
+      ],
+      "materials": [
+        "AE_M_Concrete"
+      ]
+    },
+    "T01_Roof": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T01_Roof.fbx",
+      "category": "Environment",
+      "center": [
+        31.94098663330078,
+        3.504999876022339,
+        -24.05000114440918
+      ],
+      "size": [
+        14.218025207519531,
+        0.1100001335144043,
+        12.200000762939453
+      ],
+      "triangles": [
+        192
+      ],
+      "materials": [
+        "AE_M_Corrosion"
+      ]
+    },
+    "T02_Roof": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T02_Roof.fbx",
+      "category": "Environment",
+      "center": [
+        8.0,
+        3.5049996376037598,
+        -4.444445848464966
+      ],
+      "size": [
+        12.100000381469727,
+        0.1100006103515625,
+        7.066739559173584
+      ],
+      "triangles": [
+        96
+      ],
+      "materials": [
+        "AE_M_Corrosion"
+      ]
+    },
+    "T03_Roof": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T03_Roof.fbx",
+      "category": "Environment",
+      "center": [
+        -23.555191040039062,
+        3.50499951839447,
+        -16.449999809265137
+      ],
+      "size": [
+        17.189613342285156,
+        0.1100008487701416,
+        5.19999885559082
+      ],
+      "triangles": [
+        192
+      ],
+      "materials": [
+        "AE_M_Corrosion"
+      ]
+    },
+    "T04_Roof": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T04_Roof.fbx",
+      "category": "Environment",
+      "center": [
+        -42.500003814697266,
+        3.5049993991851807,
+        -27.190476417541504
+      ],
+      "size": [
+        11.099998474121094,
+        0.1100010871887207,
+        5.366174697875977
+      ],
+      "triangles": [
+        96
+      ],
+      "materials": [
+        "AE_M_Corrosion"
+      ]
+    },
+    "T05_Roof": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T05_Roof.fbx",
+      "category": "Environment",
+      "center": [
+        33.99999809265137,
+        3.504999041557312,
+        12.500000536441803
+      ],
+      "size": [
+        24.299999237060547,
+        0.11000180244445801,
+        21.100001215934753
+      ],
+      "triangles": [
+        192
+      ],
+      "materials": [
+        "AE_M_Corrosion"
+      ]
+    },
+    "T06_Roof": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T06_Roof.fbx",
+      "category": "Environment",
+      "center": [
+        -29.0,
+        3.50499951839447,
+        26.593749046325684
+      ],
+      "size": [
+        20.099998474121094,
+        0.1100008487701416,
+        6.192983627319336
+      ],
+      "triangles": [
+        96
+      ],
+      "materials": [
+        "AE_M_Corrosion"
+      ]
+    },
+    "T07_Roof": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T07_Roof.fbx",
+      "category": "Environment",
+      "center": [
+        -12.0,
+        3.5049993991851807,
+        16.000000953674316
+      ],
+      "size": [
+        4.30000114440918,
+        0.1100006103515625,
+        4.100000381469727
+      ],
+      "triangles": [
+        96
+      ],
+      "materials": [
+        "AE_M_Corrosion"
+      ]
+    },
+    "C01_CatwalkPipes": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C01_CatwalkPipes.fbx",
+      "category": "Environment",
+      "center": [
+        -24.9091157913208,
+        3.6957244873046875,
+        -4.76837158203125e-07
+      ],
+      "size": [
+        1.8082332611083984,
+        7.408551216125488,
+        25.800000190734863
+      ],
+      "triangles": [
+        1016
+      ],
+      "materials": [
+        "AE_M_Corrosion"
+      ]
+    },
+    "ExteriorProcessRuins": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_ExteriorProcessRuins.fbx",
+      "category": "Environment",
+      "center": [
+        -7.26500129699707,
+        9.933749675750732,
+        28.997499227523804
+      ],
+      "size": [
+        50.869998931884766,
+        20.46749973297119,
+        50.45499849319458
+      ],
+      "triangles": [
+        8272
+      ],
+      "materials": [
+        "AE_M_Plaster",
+        "AE_M_Corrosion",
+        "AE_M_Dark",
+        "AE_M_Concrete",
+        "AE_M_Rust"
+      ]
+    },
+    "Grass_-6_-4": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-6_-4.fbx",
+      "category": "Environment",
+      "center": [
+        -95.0237808227539,
+        0.9537854492664337,
+        -59.70651054382324
+      ],
+      "size": [
+        8.561065673828125,
+        1.2124430537223816,
+        8.278728485107422
+      ],
+      "triangles": [
+        330,
+        138,
+        52
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-6_-3": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-6_-3.fbx",
+      "category": "Environment",
+      "center": [
+        -93.10137939453125,
+        0.9295609295368195,
+        -41.48216247558594
+      ],
+      "size": [
+        4.868804931640625,
+        1.176900327205658,
+        10.969978332519531
+      ],
+      "triangles": [
+        330,
+        138,
+        52
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-6_-2": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-6_-2.fbx",
+      "category": "Environment",
+      "center": [
+        -93.07918167114258,
+        0.45910221338272095,
+        -29.457653045654297
+      ],
+      "size": [
+        5.674812316894531,
+        1.5237706899642944,
+        10.729751586914062
+      ],
+      "triangles": [
+        297,
+        124,
+        47
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-6_-1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-6_-1.fbx",
+      "category": "Environment",
+      "center": [
+        -93.91294479370117,
+        1.4525824785232544,
+        -9.01156547665596
+      ],
+      "size": [
+        5.808158874511719,
+        1.1538746356964111,
+        16.403428494930267
+      ],
+      "triangles": [
+        396,
+        166,
+        63
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-6_0": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-6_0.fbx",
+      "category": "Environment",
+      "center": [
+        -94.79407501220703,
+        1.36880224943161,
+        7.806109212338924
+      ],
+      "size": [
+        6.49462890625,
+        1.0589176416397095,
+        16.083774998784065
+      ],
+      "triangles": [
+        495,
+        207,
+        79
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-6_1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-6_1.fbx",
+      "category": "Environment",
+      "center": [
+        -94.03473663330078,
+        1.0852795243263245,
+        30.25546932220459
+      ],
+      "size": [
+        7.827606201171875,
+        1.142717957496643,
+        10.26683235168457
+      ],
+      "triangles": [
+        330,
+        138,
+        52
+      ],
+      "materials": [
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-6_2": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-6_2.fbx",
+      "category": "Environment",
+      "center": [
+        -92.71382904052734,
+        0.8938544690608978,
+        42.429935455322266
+      ],
+      "size": [
+        4.117645263671875,
+        1.2378619313240051,
+        11.35699462890625
+      ],
+      "triangles": [
+        429,
+        180,
+        68
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-6_3": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-6_3.fbx",
+      "category": "Environment",
+      "center": [
+        -91.33563232421875,
+        0.4891960993409157,
+        57.9487247467041
+      ],
+      "size": [
+        0.465118408203125,
+        0.8373926132917404,
+        0.7247505187988281
+      ],
+      "triangles": [
+        33,
+        13,
+        5
+      ],
+      "materials": [
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-5_-4": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-5_-4.fbx",
+      "category": "Environment",
+      "center": [
+        -80.93846130371094,
+        0.617281090002507,
+        -60.995351791381836
+      ],
+      "size": [
+        17.191513061523438,
+        1.213428714312613,
+        5.577465057373047
+      ],
+      "triangles": [
+        231,
+        97,
+        36
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-5_-3": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-5_-3.fbx",
+      "category": "Environment",
+      "center": [
+        -81.19943618774414,
+        0.4592171609401703,
+        -47.90138816833496
+      ],
+      "size": [
+        17.709327697753906,
+        1.4522095322608948,
+        10.521228790283203
+      ],
+      "triangles": [
+        957,
+        401,
+        153
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-5_-2": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-5_-2.fbx",
+      "category": "Environment",
+      "center": [
+        -80.86046981811523,
+        0.3494197055697441,
+        -26.999966621398926
+      ],
+      "size": [
+        18.315696716308594,
+        1.105292096734047,
+        16.915189743041992
+      ],
+      "triangles": [
+        198,
+        83,
+        31
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-5_-1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-5_-1.fbx",
+      "category": "Environment",
+      "center": [
+        -81.38097381591797,
+        0.7845240645110607,
+        -9.088613957166672
+      ],
+      "size": [
+        17.282974243164062,
+        1.6935241594910622,
+        16.623377859592438
+      ],
+      "triangles": [
+        627,
+        263,
+        100
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-5_0": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-5_0.fbx",
+      "category": "Environment",
+      "center": [
+        -79.39953994750977,
+        0.44068755954504013,
+        8.833174034953117
+      ],
+      "size": [
+        15.084190368652344,
+        1.1457888633012772,
+        18.491496473550797
+      ],
+      "triangles": [
+        363,
+        152,
+        58
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-5_1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-5_1.fbx",
+      "category": "Environment",
+      "center": [
+        -80.40214538574219,
+        0.36220546066761017,
+        25.446638107299805
+      ],
+      "size": [
+        15.984344482421875,
+        1.2079250514507294,
+        15.429798126220703
+      ],
+      "triangles": [
+        627,
+        263,
+        100
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-5_2": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-5_2.fbx",
+      "category": "Environment",
+      "center": [
+        -80.89268112182617,
+        0.3263912573456764,
+        48.50704574584961
+      ],
+      "size": [
+        17.705223083496094,
+        0.9872955530881882,
+        11.450004577636719
+      ],
+      "triangles": [
+        495,
+        207,
+        79
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-5_3": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-5_3.fbx",
+      "category": "Environment",
+      "center": [
+        -79.93436050415039,
+        0.2581752613186836,
+        57.14282989501953
+      ],
+      "size": [
+        7.147651672363281,
+        0.7905638068914413,
+        2.0457077026367188
+      ],
+      "triangles": [
+        198,
+        83,
+        31
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-4_-4": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-4_-4.fbx",
+      "category": "Environment",
+      "center": [
+        -61.843936920166016,
+        0.4817150607705116,
+        -60.02839469909668
+      ],
+      "size": [
+        15.555915832519531,
+        1.1288843601942062,
+        5.766750335693359
+      ],
+      "triangles": [
+        297,
+        124,
+        47
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-4_-3": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-4_-3.fbx",
+      "category": "Environment",
+      "center": [
+        -63.33759117126465,
+        0.10027693212032318,
+        -43.75402641296387
+      ],
+      "size": [
+        17.572193145751953,
+        1.147483617067337,
+        15.006580352783203
+      ],
+      "triangles": [
+        297,
+        124,
+        47
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-4_-2": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-4_-2.fbx",
+      "category": "Environment",
+      "center": [
+        -58.4880256652832,
+        0.3236800581216812,
+        -27.949841499328613
+      ],
+      "size": [
+        7.914100646972656,
+        1.0458978116512299,
+        15.860830307006836
+      ],
+      "triangles": [
+        495,
+        207,
+        79
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-4_-1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-4_-1.fbx",
+      "category": "Environment",
+      "center": [
+        -62.4947566986084,
+        0.21102574467658997,
+        -9.113055221736431
+      ],
+      "size": [
+        17.58206558227539,
+        0.9091516137123108,
+        17.92521859705448
+      ],
+      "triangles": [
+        660,
+        277,
+        105
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-4_0": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-4_0.fbx",
+      "category": "Environment",
+      "center": [
+        -63.20438003540039,
+        0.2630006819963455,
+        9.161178588867188
+      ],
+      "size": [
+        17.93085479736328,
+        1.025094598531723,
+        17.685699462890625
+      ],
+      "triangles": [
+        594,
+        249,
+        95
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-4_1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-4_1.fbx",
+      "category": "Environment",
+      "center": [
+        -63.391319274902344,
+        0.240318164229393,
+        26.62817668914795
+      ],
+      "size": [
+        17.059036254882812,
+        1.0173522531986237,
+        14.595674514770508
+      ],
+      "triangles": [
+        396,
+        166,
+        63
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-4_2": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-4_2.fbx",
+      "category": "Environment",
+      "center": [
+        -64.04406547546387,
+        0.22939372807741165,
+        43.95048141479492
+      ],
+      "size": [
+        15.945697784423828,
+        0.9163813441991806,
+        9.696624755859375
+      ],
+      "triangles": [
+        330,
+        138,
+        52
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-3_-4": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-3_-4.fbx",
+      "category": "Environment",
+      "center": [
+        -45.63421058654785,
+        0.41681332141160965,
+        -60.594411849975586
+      ],
+      "size": [
+        17.25814437866211,
+        1.1627651304006577,
+        6.703113555908203
+      ],
+      "triangles": [
+        363,
+        152,
+        58
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-3_-3": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-3_-3.fbx",
+      "category": "Environment",
+      "center": [
+        -45.080244064331055,
+        0.08028104901313782,
+        -42.29056739807129
+      ],
+      "size": [
+        18.02206802368164,
+        1.4142524600028992,
+        13.147899627685547
+      ],
+      "triangles": [
+        1056,
+        443,
+        168
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-3_-2": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-3_-2.fbx",
+      "category": "Environment",
+      "center": [
+        -46.521278381347656,
+        0.30693066120147705,
+        -25.873661041259766
+      ],
+      "size": [
+        15.485267639160156,
+        1.0567370653152466,
+        15.279319763183594
+      ],
+      "triangles": [
+        594,
+        249,
+        95
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-3_-1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-3_-1.fbx",
+      "category": "Environment",
+      "center": [
+        -45.24392509460449,
+        0.2593361884355545,
+        -9.312619686126709
+      ],
+      "size": [
+        17.229976654052734,
+        1.139562577009201,
+        16.342106819152832
+      ],
+      "triangles": [
+        825,
+        346,
+        132
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-3_0": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-3_0.fbx",
+      "category": "Environment",
+      "center": [
+        -44.78471755981445,
+        0.2266189157962799,
+        9.194891333580017
+      ],
+      "size": [
+        16.446044921875,
+        1.0034671425819397,
+        17.684413194656372
+      ],
+      "triangles": [
+        528,
+        221,
+        84
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-3_1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-3_1.fbx",
+      "category": "Environment",
+      "center": [
+        -45.00156021118164,
+        0.2946661487221718,
+        26.890252113342285
+      ],
+      "size": [
+        17.868064880371094,
+        1.0631648749113083,
+        17.953832626342773
+      ],
+      "triangles": [
+        891,
+        374,
+        142
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-3_2": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-3_2.fbx",
+      "category": "Environment",
+      "center": [
+        -45.34860801696777,
+        0.3008391559123993,
+        41.60806655883789
+      ],
+      "size": [
+        17.31368637084961,
+        1.0650035738945007,
+        11.585243225097656
+      ],
+      "triangles": [
+        759,
+        318,
+        121
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-3_3": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-3_3.fbx",
+      "category": "Environment",
+      "center": [
+        -52.73424530029297,
+        0.07434067130088806,
+        54.909236907958984
+      ],
+      "size": [
+        1.323760986328125,
+        0.7138067483901978,
+        1.3687896728515625
+      ],
+      "triangles": [
+        66,
+        27,
+        10
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-2_-4": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-2_-4.fbx",
+      "category": "Environment",
+      "center": [
+        -26.11584186553955,
+        0.3647981435060501,
+        -59.942867279052734
+      ],
+      "size": [
+        15.538457870483398,
+        1.0943691432476044,
+        5.923561096191406
+      ],
+      "triangles": [
+        396,
+        166,
+        63
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-2_-3": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-2_-3.fbx",
+      "category": "Environment",
+      "center": [
+        -27.989388465881348,
+        0.0387495756149292,
+        -43.95442199707031
+      ],
+      "size": [
+        16.37923240661621,
+        1.3846871852874756,
+        16.254104614257812
+      ],
+      "triangles": [
+        759,
+        318,
+        121
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-2_-2": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-2_-2.fbx",
+      "category": "Environment",
+      "center": [
+        -25.52035427093506,
+        0.2297973334789276,
+        -27.27885913848877
+      ],
+      "size": [
+        15.534563064575195,
+        0.9911591410636902,
+        17.63068962097168
+      ],
+      "triangles": [
+        528,
+        221,
+        84
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-2_-1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-2_-1.fbx",
+      "category": "Environment",
+      "center": [
+        -31.20478057861328,
+        0.2733173295855522,
+        -7.660812713205814
+      ],
+      "size": [
+        9.4541015625,
+        1.011403575539589,
+        14.897216126322746
+      ],
+      "triangles": [
+        660,
+        277,
+        105
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-2_0": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-2_0.fbx",
+      "category": "Environment",
+      "center": [
+        -27.71841335296631,
+        0.29912590235471725,
+        9.8130561709404
+      ],
+      "size": [
+        16.79392433166504,
+        1.0650423914194107,
+        16.558007836341858
+      ],
+      "triangles": [
+        792,
+        332,
+        126
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-2_1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-2_1.fbx",
+      "category": "Environment",
+      "center": [
+        -28.0076847076416,
+        0.2045147866010666,
+        27.586591720581055
+      ],
+      "size": [
+        16.34353256225586,
+        1.0588150322437286,
+        16.981685638427734
+      ],
+      "triangles": [
+        957,
+        401,
+        153
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-2_2": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-2_2.fbx",
+      "category": "Environment",
+      "center": [
+        -27.387324333190918,
+        0.2238474190235138,
+        42.46661949157715
+      ],
+      "size": [
+        17.937524795532227,
+        1.0133383870124817,
+        13.535480499267578
+      ],
+      "triangles": [
+        759,
+        318,
+        121
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-2_3": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-2_3.fbx",
+      "category": "Environment",
+      "center": [
+        -26.765432357788086,
+        0.3065238520503044,
+        56.506710052490234
+      ],
+      "size": [
+        17.047542572021484,
+        0.8906043916940689,
+        3.31951904296875
+      ],
+      "triangles": [
+        99,
+        41,
+        15
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-1_-4": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-1_-4.fbx",
+      "category": "Environment",
+      "center": [
+        -9.335458517074585,
+        0.256723515689373,
+        -59.61612892150879
+      ],
+      "size": [
+        17.43828248977661,
+        0.9477174431085587,
+        5.105937957763672
+      ],
+      "triangles": [
+        330,
+        138,
+        52
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-1_-3": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-1_-3.fbx",
+      "category": "Environment",
+      "center": [
+        -12.646467208862305,
+        -0.09361809492111206,
+        -42.7953987121582
+      ],
+      "size": [
+        10.202255249023438,
+        1.2294756174087524,
+        13.059822082519531
+      ],
+      "triangles": [
+        693,
+        291,
+        110
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-1_-2": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-1_-2.fbx",
+      "category": "Environment",
+      "center": [
+        -8.946994245052338,
+        0.29489973187446594,
+        -27.124140739440918
+      ],
+      "size": [
+        18.20704758167267,
+        1.0435424447059631,
+        18.051897048950195
+      ],
+      "triangles": [
+        891,
+        374,
+        142
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-1_-1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-1_-1.fbx",
+      "category": "Environment",
+      "center": [
+        -6.958224453032017,
+        0.2401062250137329,
+        -16.492814540863037
+      ],
+      "size": [
+        14.211402580142021,
+        0.8977347612380981,
+        3.6142091751098633
+      ],
+      "triangles": [
+        165,
+        69,
+        26
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-1_0": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-1_0.fbx",
+      "category": "Environment",
+      "center": [
+        -10.90321159362793,
+        0.24198018014431,
+        16.11970090866089
+      ],
+      "size": [
+        12.403766632080078,
+        0.9382794201374054,
+        2.805596351623535
+      ],
+      "triangles": [
+        132,
+        55,
+        21
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-1_1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-1_1.fbx",
+      "category": "Environment",
+      "center": [
+        -8.642232361249626,
+        0.28694746643304825,
+        26.9599027633667
+      ],
+      "size": [
+        17.326066130772233,
+        1.0182543247938156,
+        18.20072364807129
+      ],
+      "triangles": [
+        693,
+        291,
+        110
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-1_2": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-1_2.fbx",
+      "category": "Environment",
+      "center": [
+        -8.623796850442886,
+        0.282255157828331,
+        45.190086364746094
+      ],
+      "size": [
+        17.441451251506805,
+        1.0808452665805817,
+        17.845535278320312
+      ],
+      "triangles": [
+        1089,
+        457,
+        174
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_-1_3": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-1_3.fbx",
+      "category": "Environment",
+      "center": [
+        -13.985337257385254,
+        0.153873510658741,
+        56.53494834899902
+      ],
+      "size": [
+        4.845617294311523,
+        0.7523240894079208,
+        2.706951141357422
+      ],
+      "triangles": [
+        132,
+        55,
+        21
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf"
+      ]
+    },
+    "Grass_0_-4": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_0_-4.fbx",
+      "category": "Environment",
+      "center": [
+        4.325124800205231,
+        0.4575040265917778,
+        -59.766008377075195
+      ],
+      "size": [
+        9.141267657279968,
+        1.2265517860651016,
+        8.56496810913086
+      ],
+      "triangles": [
+        495,
+        207,
+        79
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_0_-3": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_0_-3.fbx",
+      "category": "Environment",
+      "center": [
+        9.85154402256012,
+        -0.07166120409965515,
+        -44.25971031188965
+      ],
+      "size": [
+        14.424673795700073,
+        1.004942238330841,
+        5.018169403076172
+      ],
+      "triangles": [
+        330,
+        138,
+        52
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_0_-2": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_0_-2.fbx",
+      "category": "Environment",
+      "center": [
+        9.022981204092503,
+        0.23236222565174103,
+        -26.532094955444336
+      ],
+      "size": [
+        18.40493480861187,
+        1.0790958106517792,
+        17.57973861694336
+      ],
+      "triangles": [
+        1221,
+        512,
+        195
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_0_-1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_0_-1.fbx",
+      "category": "Environment",
+      "center": [
+        6.371201418340206,
+        0.2842586636543274,
+        -8.997487142682076
+      ],
+      "size": [
+        13.21865101158619,
+        1.0423592329025269,
+        18.029676288366318
+      ],
+      "triangles": [
+        858,
+        360,
+        137
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_0_0": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_0_0.fbx",
+      "category": "Environment",
+      "center": [
+        9.08361966907978,
+        0.29904579371213913,
+        9.744934797286987
+      ],
+      "size": [
+        17.777062267065048,
+        1.0823304802179337,
+        15.436586856842041
+      ],
+      "triangles": [
+        1089,
+        457,
+        174
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_0_1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_0_1.fbx",
+      "category": "Environment",
+      "center": [
+        9.143967345356941,
+        0.22579312324523926,
+        27.364176750183105
+      ],
+      "size": [
+        17.49773272871971,
+        1.092893123626709,
+        17.830812454223633
+      ],
+      "triangles": [
+        1155,
+        485,
+        184
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_0_2": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_0_2.fbx",
+      "category": "Environment",
+      "center": [
+        3.681068181991577,
+        0.2461864948272705,
+        41.670392990112305
+      ],
+      "size": [
+        7.760481357574463,
+        1.0636811256408691,
+        11.277271270751953
+      ],
+      "triangles": [
+        528,
+        221,
+        84
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_0_3": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_0_3.fbx",
+      "category": "Environment",
+      "center": [
+        6.920766115188599,
+        0.332071422948502,
+        56.82370185852051
+      ],
+      "size": [
+        3.3826632499694824,
+        0.6685678970534354,
+        0.7695121765136719
+      ],
+      "triangles": [
+        66,
+        27,
+        10
+      ],
+      "materials": [
+        "AE_M_Leaf"
+      ]
+    },
+    "Grass_1_-4": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_1_-4.fbx",
+      "category": "Environment",
+      "center": [
+        28.577608108520508,
+        0.3807322010397911,
+        -58.23773384094238
+      ],
+      "size": [
+        14.19393539428711,
+        1.1938025504350662,
+        8.897457122802734
+      ],
+      "triangles": [
+        726,
+        304,
+        116
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_1_-3": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_1_-3.fbx",
+      "category": "Environment",
+      "center": [
+        26.276260375976562,
+        -0.03243543207645416,
+        -45.233713150024414
+      ],
+      "size": [
+        17.026145935058594,
+        0.9304709136486053,
+        17.347660064697266
+      ],
+      "triangles": [
+        660,
+        277,
+        105
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_1_-2": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_1_-2.fbx",
+      "category": "Environment",
+      "center": [
+        26.937952041625977,
+        0.28965461254119873,
+        -27.144262313842773
+      ],
+      "size": [
+        18.53622055053711,
+        1.0827624797821045,
+        17.316707611083984
+      ],
+      "triangles": [
+        1221,
+        512,
+        195
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_1_-1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_1_-1.fbx",
+      "category": "Environment",
+      "center": [
+        35.21565818786621,
+        0.22652284801006317,
+        -9.331743001937866
+      ],
+      "size": [
+        1.7390174865722656,
+        0.9902869760990143,
+        9.904755115509033
+      ],
+      "triangles": [
+        132,
+        55,
+        21
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_1_0": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_1_0.fbx",
+      "category": "Environment",
+      "center": [
+        26.636253356933594,
+        0.23128008842468262,
+        10.13018023967743
+      ],
+      "size": [
+        17.650772094726562,
+        1.0931742191314697,
+        15.41370415687561
+      ],
+      "triangles": [
+        825,
+        346,
+        132
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_1_1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_1_1.fbx",
+      "category": "Environment",
+      "center": [
+        27.374956130981445,
+        0.311682790517807,
+        27.129382133483887
+      ],
+      "size": [
+        17.766887664794922,
+        1.075479805469513,
+        18.391489028930664
+      ],
+      "triangles": [
+        1122,
+        471,
+        179
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_1_2": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_1_2.fbx",
+      "category": "Environment",
+      "center": [
+        27.88624668121338,
+        0.2667706683278084,
+        45.11216926574707
+      ],
+      "size": [
+        15.77735710144043,
+        1.020453318953514,
+        17.751827239990234
+      ],
+      "triangles": [
+        990,
+        415,
+        158
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_1_3": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_1_3.fbx",
+      "category": "Environment",
+      "center": [
+        24.087294578552246,
+        0.2835112661123276,
+        56.294342041015625
+      ],
+      "size": [
+        7.26252555847168,
+        0.9389089643955231,
+        3.2384109497070312
+      ],
+      "triangles": [
+        198,
+        83,
+        31
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_2_-4": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_2_-4.fbx",
+      "category": "Environment",
+      "center": [
+        41.85601806640625,
+        0.5263946391642094,
+        -60.5705623626709
+      ],
+      "size": [
+        9.914085388183594,
+        1.1803681179881096,
+        7.286273956298828
+      ],
+      "triangles": [
+        462,
+        194,
+        73
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_2_-3": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_2_-3.fbx",
+      "category": "Environment",
+      "center": [
+        46.31771469116211,
+        0.1935442090034485,
+        -42.09558868408203
+      ],
+      "size": [
+        14.690528869628906,
+        1.0689948797225952,
+        12.178787231445312
+      ],
+      "triangles": [
+        924,
+        388,
+        147
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_2_-2": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_2_-2.fbx",
+      "category": "Environment",
+      "center": [
+        45.51793670654297,
+        0.2173522710800171,
+        -26.813385009765625
+      ],
+      "size": [
+        17.29706573486328,
+        1.0377097129821777,
+        17.95819091796875
+      ],
+      "triangles": [
+        825,
+        346,
+        132
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_2_-1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_2_-1.fbx",
+      "category": "Environment",
+      "center": [
+        43.75667953491211,
+        0.2714351415634155,
+        -8.831592291593552
+      ],
+      "size": [
+        15.679763793945312,
+        1.0768567323684692,
+        16.28514152765274
+      ],
+      "triangles": [
+        1518,
+        637,
+        242
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_2_0": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_2_0.fbx",
+      "category": "Environment",
+      "center": [
+        45.0780029296875,
+        0.28362973034381866,
+        8.881625011563301
+      ],
+      "size": [
+        18.281455993652344,
+        1.1064582765102386,
+        18.04279550909996
+      ],
+      "triangles": [
+        1518,
+        637,
+        242
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_2_1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_2_1.fbx",
+      "category": "Environment",
+      "center": [
+        45.07583808898926,
+        0.217118501663208,
+        27.075350761413574
+      ],
+      "size": [
+        17.876537322998047,
+        1.0762546062469482,
+        18.344057083129883
+      ],
+      "triangles": [
+        1221,
+        512,
+        195
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_2_2": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_2_2.fbx",
+      "category": "Environment",
+      "center": [
+        44.85994338989258,
+        0.25050659477710724,
+        41.742631912231445
+      ],
+      "size": [
+        15.802558898925781,
+        1.0446579158306122,
+        8.180965423583984
+      ],
+      "triangles": [
+        792,
+        332,
+        126
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_2_3": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_2_3.fbx",
+      "category": "Environment",
+      "center": [
+        46.18515205383301,
+        0.4040966681204736,
+        56.72170639038086
+      ],
+      "size": [
+        9.158496856689453,
+        0.8310074703767896,
+        2.6951370239257812
+      ],
+      "triangles": [
+        165,
+        69,
+        26
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_3_-4": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_3_-4.fbx",
+      "category": "Environment",
+      "center": [
+        63.831464767456055,
+        0.36957821249961853,
+        -59.138450622558594
+      ],
+      "size": [
+        11.07754898071289,
+        1.1373656392097473,
+        8.875236511230469
+      ],
+      "triangles": [
+        495,
+        207,
+        79
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_3_-3": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_3_-3.fbx",
+      "category": "Environment",
+      "center": [
+        60.21944808959961,
+        0.2259732186794281,
+        -44.962419509887695
+      ],
+      "size": [
+        12.738471984863281,
+        1.0446237921714783,
+        17.753917694091797
+      ],
+      "triangles": [
+        627,
+        263,
+        100
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_3_-2": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_3_-2.fbx",
+      "category": "Environment",
+      "center": [
+        63.50571060180664,
+        0.2945624887943268,
+        -26.130595207214355
+      ],
+      "size": [
+        17.098670959472656,
+        1.1468271613121033,
+        16.714235305786133
+      ],
+      "triangles": [
+        1155,
+        485,
+        184
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_3_-1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_3_-1.fbx",
+      "category": "Environment",
+      "center": [
+        62.19909477233887,
+        0.24033838510513306,
+        -8.81580566446064
+      ],
+      "size": [
+        12.494892120361328,
+        1.027620792388916,
+        17.635196227231063
+      ],
+      "triangles": [
+        561,
+        235,
+        89
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_3_0": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_3_0.fbx",
+      "category": "Environment",
+      "center": [
+        62.74500274658203,
+        0.256753072142601,
+        9.200122691690922
+      ],
+      "size": [
+        17.933944702148438,
+        1.0809876024723053,
+        18.007141396403313
+      ],
+      "triangles": [
+        990,
+        415,
+        158
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_3_1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_3_1.fbx",
+      "category": "Environment",
+      "center": [
+        62.401695251464844,
+        0.18966902792453766,
+        26.338765144348145
+      ],
+      "size": [
+        17.254562377929688,
+        0.9527297914028168,
+        16.22089195251465
+      ],
+      "triangles": [
+        792,
+        332,
+        126
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_3_2": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_3_2.fbx",
+      "category": "Environment",
+      "center": [
+        60.05367469787598,
+        0.2426329031586647,
+        44.163015365600586
+      ],
+      "size": [
+        12.322612762451172,
+        0.9785948246717453,
+        12.870845794677734
+      ],
+      "triangles": [
+        528,
+        221,
+        84
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_3_3": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_3_3.fbx",
+      "category": "Environment",
+      "center": [
+        59.868967056274414,
+        0.45414105895906687,
+        57.84672737121582
+      ],
+      "size": [
+        0.7720298767089844,
+        0.9671463202685118,
+        0.8014335632324219
+      ],
+      "triangles": [
+        33,
+        13,
+        5
+      ],
+      "materials": [
+        "AE_M_Leaf"
+      ]
+    },
+    "Grass_4_-3": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_4_-3.fbx",
+      "category": "Environment",
+      "center": [
+        79.89426040649414,
+        0.3674594387412071,
+        -43.87496757507324
+      ],
+      "size": [
+        0.38916778564453125,
+        0.4438762217760086,
+        0.2761497497558594
+      ],
+      "triangles": [
+        33,
+        13,
+        5
+      ],
+      "materials": [
+        "AE_M_Leaf"
+      ]
+    },
+    "Grass_4_-2": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_4_-2.fbx",
+      "category": "Environment",
+      "center": [
+        75.75375747680664,
+        0.4973414931446314,
+        -30.499168395996094
+      ],
+      "size": [
+        7.150047302246094,
+        1.037498276680708,
+        4.2751007080078125
+      ],
+      "triangles": [
+        297,
+        124,
+        47
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_4_-1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_4_-1.fbx",
+      "category": "Environment",
+      "center": [
+        76.58400344848633,
+        0.40754806995391846,
+        -8.286048367619514
+      ],
+      "size": [
+        6.825401306152344,
+        1.2317225933074951,
+        16.419247716665268
+      ],
+      "triangles": [
+        231,
+        97,
+        36
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Grass_4_0": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_4_0.fbx",
+      "category": "Environment",
+      "center": [
+        74.24670791625977,
+        0.24633534997701645,
+        1.4288974702358246
+      ],
+      "size": [
+        2.7293319702148438,
+        0.9314403086900711,
+        1.4079168438911438
+      ],
+      "triangles": [
+        66,
+        27,
+        10
+      ],
+      "materials": [
+        "AE_M_Leaf"
+      ]
+    },
+    "Grass_4_1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_4_1.fbx",
+      "category": "Environment",
+      "center": [
+        75.53779983520508,
+        0.3780065327882767,
+        29.73228931427002
+      ],
+      "size": [
+        6.935508728027344,
+        0.8836099803447723,
+        3.345487594604492
+      ],
+      "triangles": [
+        231,
+        97,
+        36
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Shrubs_-3_-2": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_-3_-2.fbx",
+      "category": "Environment",
+      "center": [
+        -85.55389022827148,
+        0.9090347290039062,
+        -55.94482612609863
+      ],
+      "size": [
+        25.966026306152344,
+        1.755507230758667,
+        18.11520004272461
+      ],
+      "triangles": [
+        2352,
+        987,
+        376
+      ],
+      "materials": [
+        "AE_M_Bark",
+        "AE_M_Leaf"
+      ]
+    },
+    "Shrubs_-3_-1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_-3_-1.fbx",
+      "category": "Environment",
+      "center": [
+        -83.64031600952148,
+        1.016094133257866,
+        -20.541003227233887
+      ],
+      "size": [
+        20.867088317871094,
+        2.007040649652481,
+        31.36631965637207
+      ],
+      "triangles": [
+        1344,
+        564,
+        215
+      ],
+      "materials": [
+        "AE_M_Bark",
+        "AE_M_Leaf"
+      ]
+    },
+    "Shrubs_-3_0": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_-3_0.fbx",
+      "category": "Environment",
+      "center": [
+        -92.21419143676758,
+        1.51804780960083,
+        15.261520385742188
+      ],
+      "size": [
+        11.276832580566406,
+        2.1850500106811523,
+        30.619525909423828
+      ],
+      "triangles": [
+        1680,
+        705,
+        268
+      ],
+      "materials": [
+        "AE_M_Bark",
+        "AE_M_Leaf"
+      ]
+    },
+    "Shrubs_-3_1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_-3_1.fbx",
+      "category": "Environment",
+      "center": [
+        -86.66512680053711,
+        1.0080143213272095,
+        50.7563533782959
+      ],
+      "size": [
+        25.56755828857422,
+        2.3024938106536865,
+        19.57156753540039
+      ],
+      "triangles": [
+        1680,
+        705,
+        268
+      ],
+      "materials": [
+        "AE_M_Bark",
+        "AE_M_Leaf"
+      ]
+    },
+    "Shrubs_-2_-2": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_-2_-2.fbx",
+      "category": "Environment",
+      "center": [
+        -51.22865104675293,
+        0.7081087827682495,
+        -50.56363105773926
+      ],
+      "size": [
+        24.628520965576172,
+        2.3220653533935547,
+        27.02633285522461
+      ],
+      "triangles": [
+        2016,
+        846,
+        322
+      ],
+      "materials": [
+        "AE_M_Bark",
+        "AE_M_Leaf"
+      ]
+    },
+    "Shrubs_-2_-1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_-2_-1.fbx",
+      "category": "Environment",
+      "center": [
+        -51.64917755126953,
+        0.7975738644599915,
+        -20.517826080322266
+      ],
+      "size": [
+        19.476638793945312,
+        1.9455355405807495,
+        2.3623580932617188
+      ],
+      "triangles": [
+        672,
+        282,
+        107
+      ],
+      "materials": [
+        "AE_M_Bark",
+        "AE_M_Leaf"
+      ]
+    },
+    "Shrubs_-2_0": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_-2_0.fbx",
+      "category": "Environment",
+      "center": [
+        -48.05998229980469,
+        0.6831722855567932,
+        18.501345306634903
+      ],
+      "size": [
+        19.286544799804688,
+        1.9552501440048218,
+        36.62361401319504
+      ],
+      "triangles": [
+        2016,
+        846,
+        322
+      ],
+      "materials": [
+        "AE_M_Bark",
+        "AE_M_Leaf"
+      ]
+    },
+    "Shrubs_-2_1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_-2_1.fbx",
+      "category": "Environment",
+      "center": [
+        -48.58252143859863,
+        0.74671670794487,
+        46.51143455505371
+      ],
+      "size": [
+        24.909259796142578,
+        2.0289469361305237,
+        22.105083465576172
+      ],
+      "triangles": [
+        3696,
+        1552,
+        591
+      ],
+      "materials": [
+        "AE_M_Bark",
+        "AE_M_Leaf"
+      ]
+    },
+    "Shrubs_-1_-2": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_-1_-2.fbx",
+      "category": "Environment",
+      "center": [
+        -22.359286308288574,
+        0.8803582787513733,
+        -56.60652160644531
+      ],
+      "size": [
+        25.582536697387695,
+        2.292159914970398,
+        15.822463989257812
+      ],
+      "triangles": [
+        2352,
+        987,
+        376
+      ],
+      "materials": [
+        "AE_M_Bark",
+        "AE_M_Leaf"
+      ]
+    },
+    "Shrubs_-1_-1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_-1_-1.fbx",
+      "category": "Environment",
+      "center": [
+        -8.410126686096191,
+        0.7245341837406158,
+        -27.690451622009277
+      ],
+      "size": [
+        13.626869201660156,
+        1.7949220538139343,
+        4.047189712524414
+      ],
+      "triangles": [
+        672,
+        282,
+        107
+      ],
+      "materials": [
+        "AE_M_Bark",
+        "AE_M_Leaf"
+      ]
+    },
+    "Shrubs_-1_0": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_-1_0.fbx",
+      "category": "Environment",
+      "center": [
+        -31.764060020446777,
+        0.5689056813716888,
+        19.619017601013184
+      ],
+      "size": [
+        10.285097122192383,
+        1.7408135533332825,
+        26.253786087036133
+      ],
+      "triangles": [
+        1344,
+        564,
+        215
+      ],
+      "materials": [
+        "AE_M_Bark",
+        "AE_M_Leaf"
+      ]
+    },
+    "Shrubs_-1_1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_-1_1.fbx",
+      "category": "Environment",
+      "center": [
+        -15.79692554473877,
+        0.7836730182170868,
+        48.795555114746094
+      ],
+      "size": [
+        27.770959854125977,
+        2.0276980996131897,
+        21.475433349609375
+      ],
+      "triangles": [
+        3024,
+        1270,
+        483
+      ],
+      "materials": [
+        "AE_M_Bark",
+        "AE_M_Leaf"
+      ]
+    },
+    "Shrubs_0_-2": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_0_-2.fbx",
+      "category": "Environment",
+      "center": [
+        18.629618167877197,
+        0.6358210444450378,
+        -51.22037124633789
+      ],
+      "size": [
+        35.61016368865967,
+        2.3343015909194946,
+        26.47087860107422
+      ],
+      "triangles": [
+        2688,
+        1128,
+        430
+      ],
+      "materials": [
+        "AE_M_Bark",
+        "AE_M_Leaf"
+      ]
+    },
+    "Shrubs_0_-1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_0_-1.fbx",
+      "category": "Environment",
+      "center": [
+        22.271260261535645,
+        0.4927547425031662,
+        -31.954744338989258
+      ],
+      "size": [
+        1.0707721710205078,
+        1.31798854470253,
+        1.5514717102050781
+      ],
+      "triangles": [
+        336,
+        141,
+        53
+      ],
+      "materials": [
+        "AE_M_Bark",
+        "AE_M_Leaf"
+      ]
+    },
+    "Shrubs_0_0": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_0_0.fbx",
+      "category": "Environment",
+      "center": [
+        22.153185844421387,
+        0.5188229382038116,
+        14.47691822052002
+      ],
+      "size": [
+        23.114595413208008,
+        1.3290151953697205,
+        18.849897384643555
+      ],
+      "triangles": [
+        1008,
+        423,
+        161
+      ],
+      "materials": [
+        "AE_M_Bark",
+        "AE_M_Leaf"
+      ]
+    },
+    "Shrubs_0_1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_0_1.fbx",
+      "category": "Environment",
+      "center": [
+        25.15246295928955,
+        0.7893823385238647,
+        43.814029693603516
+      ],
+      "size": [
+        6.867399215698242,
+        2.018115997314453,
+        6.4152679443359375
+      ],
+      "triangles": [
+        672,
+        282,
+        107
+      ],
+      "materials": [
+        "AE_M_Bark",
+        "AE_M_Leaf"
+      ]
+    },
+    "Shrubs_1_-2": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_1_-2.fbx",
+      "category": "Environment",
+      "center": [
+        53.55675506591797,
+        0.7604696452617645,
+        -48.24726867675781
+      ],
+      "size": [
+        35.17692565917969,
+        1.9817691445350647,
+        24.891403198242188
+      ],
+      "triangles": [
+        2352,
+        987,
+        376
+      ],
+      "materials": [
+        "AE_M_Bark",
+        "AE_M_Leaf"
+      ]
+    },
+    "Shrubs_1_-1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_1_-1.fbx",
+      "category": "Environment",
+      "center": [
+        56.33003044128418,
+        0.6889077425003052,
+        -17.832045078277588
+      ],
+      "size": [
+        29.170642852783203,
+        1.93565034866333,
+        28.42267894744873
+      ],
+      "triangles": [
+        3024,
+        1270,
+        483
+      ],
+      "materials": [
+        "AE_M_Bark",
+        "AE_M_Leaf"
+      ]
+    },
+    "Shrubs_1_0": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_1_0.fbx",
+      "category": "Environment",
+      "center": [
+        51.75010299682617,
+        0.6923490166664124,
+        19.822040557861328
+      ],
+      "size": [
+        31.53577423095703,
+        1.8454903364181519,
+        29.030677795410156
+      ],
+      "triangles": [
+        1344,
+        564,
+        215
+      ],
+      "materials": [
+        "AE_M_Bark",
+        "AE_M_Leaf"
+      ]
+    },
+    "Shrubs_1_1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_1_1.fbx",
+      "category": "Environment",
+      "center": [
+        53.72553825378418,
+        0.8536311388015747,
+        47.93392562866211
+      ],
+      "size": [
+        34.708805084228516,
+        2.1678519248962402,
+        21.4031982421875
+      ],
+      "triangles": [
+        2688,
+        1128,
+        430
+      ],
+      "materials": [
+        "AE_M_Bark",
+        "AE_M_Leaf"
+      ]
+    },
+    "Shrubs_2_-2": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_2_-2.fbx",
+      "category": "Environment",
+      "center": [
+        81.30228805541992,
+        1.0587159991264343,
+        -48.97689437866211
+      ],
+      "size": [
+        5.486717224121094,
+        1.8597203493118286,
+        9.491661071777344
+      ],
+      "triangles": [
+        672,
+        282,
+        107
+      ],
+      "materials": [
+        "AE_M_Bark",
+        "AE_M_Leaf"
+      ]
+    },
+    "Shrubs_2_-1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_2_-1.fbx",
+      "category": "Environment",
+      "center": [
+        75.73555374145508,
+        0.6435070931911469,
+        -14.602701187133789
+      ],
+      "size": [
+        5.206398010253906,
+        1.4015076756477356,
+        5.610157012939453
+      ],
+      "triangles": [
+        672,
+        282,
+        107
+      ],
+      "materials": [
+        "AE_M_Bark",
+        "AE_M_Leaf"
+      ]
+    },
+    "Shrubs_2_0": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_2_0.fbx",
+      "category": "Environment",
+      "center": [
+        78.5468521118164,
+        0.844052255153656,
+        15.473949432373047
+      ],
+      "size": [
+        7.5838775634765625,
+        1.7197600603103638,
+        14.651832580566406
+      ],
+      "triangles": [
+        672,
+        282,
+        107
+      ],
+      "materials": [
+        "AE_M_Bark",
+        "AE_M_Leaf"
+      ]
+    },
+    "Shrubs_2_1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_2_1.fbx",
+      "category": "Environment",
+      "center": [
+        80.0135612487793,
+        0.9926092028617859,
+        44.641754150390625
+      ],
+      "size": [
+        8.016304016113281,
+        1.8933416604995728,
+        14.217628479003906
+      ],
+      "triangles": [
+        1008,
+        423,
+        161
+      ],
+      "materials": [
+        "AE_M_Bark",
+        "AE_M_Leaf"
+      ]
+    },
+    "WallIvy": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_WallIvy.fbx",
+      "category": "Environment",
+      "center": [
+        2.772226333618164,
+        1.762421876192093,
+        0.001880645751953125
+      ],
+      "size": [
+        93.05546188354492,
+        3.6506404280662537,
+        66.55623626708984
+      ],
+      "triangles": [
+        4986,
+        2094,
+        797
+      ],
+      "materials": [
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "C01_Debris": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C01_Debris.fbx",
+      "category": "Environment",
+      "center": [
+        -11.970802545547485,
+        0.12799944635480642,
+        0.06135272979736328
+      ],
+      "size": [
+        28.89986753463745,
+        0.2239988911896944,
+        28.786691665649414
+      ],
+      "triangles": [
+        3152,
+        1322,
+        504
+      ],
+      "materials": [
+        "AE_M_Concrete",
+        "AE_M_Brick",
+        "AE_M_DryLeaf",
+        "AE_M_Corrosion"
+      ]
+    },
+    "C02_Debris": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C02_Debris.fbx",
+      "category": "Environment",
+      "center": [
+        24.026973247528076,
+        0.08510303404182196,
+        -7.998640775680542
+      ],
+      "size": [
+        20.784729957580566,
+        0.13820606656372547,
+        20.775728702545166
+      ],
+      "triangles": [
+        2176,
+        913,
+        348
+      ],
+      "materials": [
+        "AE_M_Concrete",
+        "AE_M_Brick",
+        "AE_M_DryLeaf"
+      ]
+    },
+    "C03_Debris": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C03_Debris.fbx",
+      "category": "Environment",
+      "center": [
+        -30.04265022277832,
+        0.08454079832881689,
+        -25.994394302368164
+      ],
+      "size": [
+        14.80386734008789,
+        0.13708159513771534,
+        14.910205841064453
+      ],
+      "triangles": [
+        1632,
+        685,
+        261
+      ],
+      "materials": [
+        "AE_M_Concrete",
+        "AE_M_Brick",
+        "AE_M_DryLeaf"
+      ]
+    },
+    "C04_Debris": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C04_Debris.fbx",
+      "category": "Environment",
+      "center": [
+        -12.038807153701782,
+        0.07794967014342546,
+        24.931077003479004
+      ],
+      "size": [
+        14.83565092086792,
+        0.13589934073388577,
+        14.715986251831055
+      ],
+      "triangles": [
+        1692,
+        709,
+        270
+      ],
+      "materials": [
+        "AE_M_Concrete",
+        "AE_M_Brick",
+        "AE_M_DryLeaf",
+        "AE_M_Paper"
+      ]
+    },
+    "VA_Debris": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_VA_Debris.fbx",
+      "category": "Environment",
+      "center": [
+        -44.00334167480469,
+        0.0835467642173171,
+        28.00125026702881
+      ],
+      "size": [
+        10.863723754882812,
+        0.13509352691471577,
+        10.850412368774414
+      ],
+      "triangles": [
+        1088,
+        455,
+        174
+      ],
+      "materials": [
+        "AE_M_Concrete",
+        "AE_M_Brick",
+        "AE_M_DryLeaf"
+      ]
+    },
+    "VB_Debris": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_VB_Debris.fbx",
+      "category": "Environment",
+      "center": [
+        43.99375343322754,
+        0.08368810918182135,
+        -28.03669261932373
+      ],
+      "size": [
+        10.88412857055664,
+        0.13537621684372425,
+        10.756914138793945
+      ],
+      "triangles": [
+        1088,
+        455,
+        174
+      ],
+      "materials": [
+        "AE_M_Concrete",
+        "AE_M_Brick",
+        "AE_M_DryLeaf"
+      ]
+    },
+    "VL_Debris": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_VL_Debris.fbx",
+      "category": "Environment",
+      "center": [
+        44.01193809509277,
+        0.08328825142234564,
+        27.98360252380371
+      ],
+      "size": [
+        10.820140838623047,
+        0.13457650132477283,
+        10.846759796142578
+      ],
+      "triangles": [
+        1088,
+        455,
+        174
+      ],
+      "materials": [
+        "AE_M_Concrete",
+        "AE_M_Brick",
+        "AE_M_DryLeaf"
+      ]
+    },
+    "BrokenApron": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_BrokenApron.fbx",
+      "category": "Environment",
+      "center": [
+        -64.6851692199707,
+        -0.1783456802368164,
+        -29.56729221343994
+      ],
+      "size": [
+        51.074546813964844,
+        0.25495481491088867,
+        13.306013107299805
+      ],
+      "triangles": [
+        132
+      ],
+      "materials": [
+        "AE_M_Concrete"
+      ]
+    },
+    "RainPuddles": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_RainPuddles.fbx",
+      "category": "Environment",
+      "center": [
+        -28.021364212036133,
+        -0.30665161088109016,
+        -15.532979011535645
+      ],
+      "size": [
+        121.55259323120117,
+        0.4925397261977196,
+        57.642560958862305
+      ],
+      "triangles": [
+        90
+      ],
+      "materials": [
+        "AE_M_Water"
+      ]
+    },
+    "PerimeterFence": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_PerimeterFence.fbx",
+      "category": "Environment",
+      "center": [
+        -4.097721099853516,
+        1.2058625221252441,
+        6.454160690307617
+      ],
+      "size": [
+        130.50457000732422,
+        3.4574995040893555,
+        109.15170669555664
+      ],
+      "triangles": [
+        32280
+      ],
+      "materials": [
+        "AE_M_Corrosion",
+        "AE_M_Plaster"
+      ]
+    },
+    "DeadTrees": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_DeadTrees.fbx",
+      "category": "Environment",
+      "center": [
+        -11.641777038574219,
+        3.789315104484558,
+        -1.6942195892333984
+      ],
+      "size": [
+        177.50074768066406,
+        8.450409173965454,
+        114.12505722045898
+      ],
+      "triangles": [
+        7744,
+        3252,
+        1238
+      ],
+      "materials": [
+        "AE_M_Bark"
+      ]
+    },
+    "Encroachment_00": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_00.fbx",
+      "category": "Environment",
+      "center": [
+        -28.018232345581055,
+        0.40224528312683105,
+        -7.142214417457581
+      ],
+      "size": [
+        4.689243316650391,
+        1.099806308746338,
+        9.916270017623901
+      ],
+      "triangles": [
+        2577,
+        1082,
+        412
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Encroachment_01": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_01.fbx",
+      "category": "Environment",
+      "center": [
+        -28.02756404876709,
+        0.3924040198326111,
+        1.0169843435287476
+      ],
+      "size": [
+        3.988424301147461,
+        1.0550123453140259,
+        8.13605809211731
+      ],
+      "triangles": [
+        1872,
+        786,
+        299
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Encroachment_02": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_02.fbx",
+      "category": "Environment",
+      "center": [
+        -29.087766647338867,
+        0.2898118570446968,
+        17.866194248199463
+      ],
+      "size": [
+        8.187335968017578,
+        1.0461429208517075,
+        4.1566572189331055
+      ],
+      "triangles": [
+        1872,
+        786,
+        299
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Encroachment_03": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_03.fbx",
+      "category": "Environment",
+      "center": [
+        -20.97031307220459,
+        0.2945268079638481,
+        16.902111530303955
+      ],
+      "size": [
+        6.036176681518555,
+        1.0380667597055435,
+        2.5469579696655273
+      ],
+      "triangles": [
+        762,
+        320,
+        121
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Encroachment_04": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_04.fbx",
+      "category": "Environment",
+      "center": [
+        -20.955547332763672,
+        0.29273541271686554,
+        29.0404634475708
+      ],
+      "size": [
+        2.6181716918945312,
+        1.0541373193264008,
+        6.02070426940918
+      ],
+      "triangles": [
+        834,
+        350,
+        133
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Encroachment_05": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_05.fbx",
+      "category": "Environment",
+      "center": [
+        -36.9144287109375,
+        0.2784704715013504,
+        -16.899357795715332
+      ],
+      "size": [
+        5.697486877441406,
+        1.0320000350475311,
+        2.5988330841064453
+      ],
+      "triangles": [
+        834,
+        350,
+        133
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Encroachment_06": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_06.fbx",
+      "category": "Environment",
+      "center": [
+        -38.863901138305664,
+        0.27653106302022934,
+        -30.840959548950195
+      ],
+      "size": [
+        2.488849639892578,
+        1.0103201419115067,
+        5.870334625244141
+      ],
+      "triangles": [
+        834,
+        350,
+        133
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Encroachment_07": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_07.fbx",
+      "category": "Environment",
+      "center": [
+        -47.78648376464844,
+        0.36660634726285934,
+        -21.047961235046387
+      ],
+      "size": [
+        7.8917236328125,
+        1.0575796514749527,
+        2.9183483123779297
+      ],
+      "triangles": [
+        1209,
+        507,
+        193
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Encroachment_08": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_08.fbx",
+      "category": "Environment",
+      "center": [
+        -53.1195068359375,
+        0.3491629883646965,
+        -34.106903076171875
+      ],
+      "size": [
+        9.664772033691406,
+        1.069109097123146,
+        3.3450698852539062
+      ],
+      "triangles": [
+        1755,
+        737,
+        280
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Encroachment_09": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_09.fbx",
+      "category": "Environment",
+      "center": [
+        -63.219438552856445,
+        0.27648933231830597,
+        -21.110600471496582
+      ],
+      "size": [
+        7.779293060302734,
+        1.0908934772014618,
+        3.0337085723876953
+      ],
+      "triangles": [
+        1209,
+        507,
+        193
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Encroachment_10": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_10.fbx",
+      "category": "Environment",
+      "center": [
+        -72.80718231201172,
+        0.3478403687477112,
+        -34.02389335632324
+      ],
+      "size": [
+        11.434402465820312,
+        1.1343019008636475,
+        4.413005828857422
+      ],
+      "triangles": [
+        2808,
+        1179,
+        449
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Encroachment_11": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_11.fbx",
+      "category": "Environment",
+      "center": [
+        -81.18056106567383,
+        0.6633838415145874,
+        -23.004401206970215
+      ],
+      "size": [
+        9.747566223144531,
+        1.5512278079986572,
+        3.462381362915039
+      ],
+      "triangles": [
+        1872,
+        786,
+        299
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Encroachment_12": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_12.fbx",
+      "category": "Environment",
+      "center": [
+        -37.93268394470215,
+        0.2867985665798187,
+        34.00728225708008
+      ],
+      "size": [
+        8.049121856689453,
+        1.1184325814247131,
+        4.198265075683594
+      ],
+      "triangles": [
+        1872,
+        786,
+        299
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Encroachment_13": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_13.fbx",
+      "category": "Environment",
+      "center": [
+        -30.997803688049316,
+        0.30856068432331085,
+        42.118398666381836
+      ],
+      "size": [
+        6.576032638549805,
+        1.1539375483989716,
+        9.998767852783203
+      ],
+      "triangles": [
+        3513,
+        1475,
+        562
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Encroachment_14": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_14.fbx",
+      "category": "Environment",
+      "center": [
+        -9.989397764205933,
+        0.3466947004199028,
+        38.007612228393555
+      ],
+      "size": [
+        12.223394870758057,
+        1.0785272270441055,
+        4.454730987548828
+      ],
+      "triangles": [
+        2808,
+        1179,
+        449
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Encroachment_15": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_15.fbx",
+      "category": "Environment",
+      "center": [
+        4.956265926361084,
+        0.2828034907579422,
+        17.17392921447754
+      ],
+      "size": [
+        4.185520172119141,
+        1.0380047261714935,
+        6.202857971191406
+      ],
+      "triangles": [
+        1410,
+        592,
+        225
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Encroachment_16": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_16.fbx",
+      "category": "Environment",
+      "center": [
+        18.992111206054688,
+        0.256537526845932,
+        18.136596202850342
+      ],
+      "size": [
+        4.245319366455078,
+        0.9802959561347961,
+        5.825024604797363
+      ],
+      "triangles": [
+        1410,
+        592,
+        225
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Encroachment_17": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_17.fbx",
+      "category": "Environment",
+      "center": [
+        34.00800323486328,
+        0.2498304843902588,
+        8.01606798171997
+      ],
+      "size": [
+        6.3397369384765625,
+        1.080620288848877,
+        6.02603816986084
+      ],
+      "triangles": [
+        2115,
+        888,
+        338
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Encroachment_18": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_18.fbx",
+      "category": "Environment",
+      "center": [
+        36.019161224365234,
+        0.2641305476427078,
+        -9.069006085395813
+      ],
+      "size": [
+        3.3098526000976562,
+        1.0531812608242035,
+        11.647338628768921
+      ],
+      "triangles": [
+        2115,
+        888,
+        338
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Encroachment_19": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_19.fbx",
+      "category": "Environment",
+      "center": [
+        52.95637512207031,
+        0.22102859616279602,
+        24.731589317321777
+      ],
+      "size": [
+        4.374656677246094,
+        1.055056631565094,
+        9.965177536010742
+      ],
+      "triangles": [
+        2346,
+        985,
+        375
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Encroachment_20": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_20.fbx",
+      "category": "Environment",
+      "center": [
+        51.93971824645996,
+        0.2328631430864334,
+        -28.977578163146973
+      ],
+      "size": [
+        4.358028411865234,
+        1.0520953834056854,
+        7.92835807800293
+      ],
+      "triangles": [
+        1872,
+        786,
+        299
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Encroachment_21": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_21.fbx",
+      "category": "Environment",
+      "center": [
+        -53.072221755981445,
+        0.37325236946344376,
+        23.99906826019287
+      ],
+      "size": [
+        4.443927764892578,
+        1.0316812247037888,
+        10.258821487426758
+      ],
+      "triangles": [
+        2346,
+        985,
+        375
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "Encroachment_22": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_22.fbx",
+      "category": "Environment",
+      "center": [
+        54.00563621520996,
+        0.25577935576438904,
+        -40.91163635253906
+      ],
+      "size": [
+        7.816692352294922,
+        1.0908119082450867,
+        4.469886779785156
+      ],
+      "triangles": [
+        1872,
+        786,
+        299
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    "ColonisingTrees_0": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_ColonisingTrees_0.fbx",
+      "category": "Environment",
+      "center": [
+        -63.90103721618652,
+        3.4334914684295654,
+        -1.4075202941894531
+      ],
+      "size": [
+        20.679523468017578,
+        7.6365532875061035,
+        87.42513275146484
+      ],
+      "triangles": [
+        8960,
+        3763,
+        1433
+      ],
+      "materials": [
+        "AE_M_Bark",
+        "AE_M_Leaf"
+      ]
+    },
+    "ColonisingTrees_1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_ColonisingTrees_1.fbx",
+      "category": "Environment",
+      "center": [
+        5.412074089050293,
+        3.521545171737671,
+        53.87210655212402
+      ],
+      "size": [
+        65.92745399475098,
+        7.4726033210754395,
+        17.12502670288086
+      ],
+      "triangles": [
+        8960,
+        3763,
+        1433
+      ],
+      "materials": [
+        "AE_M_Bark",
+        "AE_M_Leaf"
+      ]
+    },
+    "ColonisingTrees_2": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_ColonisingTrees_2.fbx",
+      "category": "Environment",
+      "center": [
+        57.01975440979004,
+        3.531818151473999,
+        -20.383830070495605
+      ],
+      "size": [
+        28.63375473022461,
+        7.567789554595947,
+        63.94315528869629
+      ],
+      "triangles": [
+        8960,
+        3763,
+        1433
+      ],
+      "materials": [
+        "AE_M_Bark",
+        "AE_M_Leaf"
+      ]
+    },
+    "C01_IndoorGrowth": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C01_IndoorGrowth.fbx",
+      "category": "Environment",
+      "center": [
+        -0.23235034942626953,
+        0.29384272918105125,
+        -9.078855752944946
+      ],
+      "size": [
+        2.490642786026001,
+        0.5516854599118233,
+        5.063172817230225
+      ],
+      "triangles": [
+        1620,
+        680,
+        259
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf"
+      ]
+    },
+    "C02_IndoorGrowth": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C02_IndoorGrowth.fbx",
+      "category": "Environment",
+      "center": [
+        15.193752765655518,
+        0.2921249233186245,
+        0.38688501715660095
+      ],
+      "size": [
+        2.3458051681518555,
+        0.5482498481869698,
+        2.6767693161964417
+      ],
+      "triangles": [
+        1620,
+        680,
+        259
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf"
+      ]
+    },
+    "C04_IndoorGrowth": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C04_IndoorGrowth.fbx",
+      "category": "Environment",
+      "center": [
+        -17.54846477508545,
+        0.29334941133856773,
+        30.510753631591797
+      ],
+      "size": [
+        2.2273616790771484,
+        0.5506988242268562,
+        2.63165283203125
+      ],
+      "triangles": [
+        1620,
+        680,
+        259
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf"
+      ]
+    },
+    "C03_IndoorGrowth": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C03_IndoorGrowth.fbx",
+      "category": "Environment",
+      "center": [
+        -24.237472534179688,
+        0.2927403412759304,
+        -20.249929428100586
+      ],
+      "size": [
+        2.1809730529785156,
+        0.5494806841015816,
+        2.00653076171875
+      ],
+      "triangles": [
+        1620,
+        680,
+        259
+      ],
+      "materials": [
+        "AE_M_Leaf",
+        "AE_M_DryLeaf"
+      ]
+    },
+    "C01_CollapsePile": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C01_CollapsePile.fbx",
+      "category": "Environment",
+      "center": [
+        -0.003394484519958496,
+        0.5518915913999081,
+        -10.700646877288818
+      ],
+      "size": [
+        1.747725248336792,
+        1.1620785668492317,
+        4.057974815368652
+      ],
+      "triangles": [
+        216,
+        90,
+        36
+      ],
+      "materials": [
+        "AE_M_Concrete",
+        "AE_M_Wood",
+        "AE_M_Corrosion"
+      ]
+    },
+    "C02_CollapsePile": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C02_CollapsePile.fbx",
+      "category": "Environment",
+      "center": [
+        15.452606201171875,
+        0.11541315913200378,
+        0.5540011823177338
+      ],
+      "size": [
+        1.5834197998046875,
+        0.29086488485336304,
+        2.084930956363678
+      ],
+      "triangles": [
+        180,
+        74,
+        30
+      ],
+      "materials": [
+        "AE_M_Concrete",
+        "AE_M_Wood"
+      ]
+    },
+    "C04_CollapsePile": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C04_CollapsePile.fbx",
+      "category": "Environment",
+      "center": [
+        -18.01694679260254,
+        0.11366228945553303,
+        30.699460983276367
+      ],
+      "size": [
+        1.3901329040527344,
+        0.32696666941046715,
+        2.0609169006347656
+      ],
+      "triangles": [
+        180,
+        74,
+        30
+      ],
+      "materials": [
+        "AE_M_Concrete",
+        "AE_M_Wood"
+      ]
+    },
+    "C03_CollapsePile": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C03_CollapsePile.fbx",
+      "category": "Environment",
+      "center": [
+        -23.58096218109131,
+        0.0994824469089508,
+        -19.8641939163208
+      ],
+      "size": [
+        1.1955013275146484,
+        0.2609615623950958,
+        1.951711654663086
+      ],
+      "triangles": [
+        180,
+        74,
+        30
+      ],
+      "materials": [
+        "AE_M_Concrete",
+        "AE_M_Wood"
+      ]
+    },
+    "C04_Frames": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C04_Frames.fbx",
+      "category": "Environment",
+      "triangles": [
+        2138
+      ],
+      "materials": [
+        "AE_M_Steel",
+        "AE_M_Dark",
+        "AE_M_Green",
+        "AE_M_Glass"
+      ],
+      "origin": "Scoped copy of first-pass 1F frame; original retained"
+    },
+    "VA_Frames": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_VA_Frames.fbx",
+      "category": "Environment",
+      "triangles": [
+        2018
+      ],
+      "materials": [
+        "AE_M_Steel",
+        "AE_M_Dark"
+      ],
+      "origin": "Scoped copy of first-pass 1F frame; original retained"
+    },
+    "VB_Frames": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_VB_Frames.fbx",
+      "category": "Environment",
+      "triangles": [
+        2018
+      ],
+      "materials": [
+        "AE_M_Steel",
+        "AE_M_Dark"
+      ],
+      "origin": "Scoped copy of first-pass 1F frame; original retained"
+    },
+    "VL_Frames": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_VL_Frames.fbx",
+      "category": "Environment",
+      "triangles": [
+        2016
+      ],
+      "materials": [
+        "AE_M_Steel",
+        "AE_M_Dark"
+      ],
+      "origin": "Scoped copy of first-pass 1F frame; original retained"
+    }
+  },
+  "weatherShader": {
+    "author": "송예찬",
+    "basePackage": "com.unity.render-pipelines.universal@0c5162adfb45",
+    "baseVersion": "17.4.0",
+    "license": "Unity-URP-LICENSE.md",
+    "change": "Original world-space procedural weather in forward and deferred shading; no geometry changes; shared UnityPerMaterial layout preserved"
+  },
+  "review": "Docs/Review/2026-11-12_1F_Abandoned/Review.md",
+  "resources": {
+    "newFBX": 191,
+    "newMeshes": 493,
+    "modelBytes": 27999172,
+    "lodGroups": 203,
+    "activeLights": 8,
+    "shadowLights": 1,
+    "reflectionProbes": 8,
+    "terrainSize": [
+      384,
+      28,
+      320
+    ],
+    "heightmapResolution": 513,
+    "terrainLayers": 3,
+    "changedWeatherMaterials": 10,
+    "weatherRenderersIncludingLODs": 252,
+    "notes": "Editor validation only, not a packaged-build performance or recommended-hardware benchmark."
+  }
+}

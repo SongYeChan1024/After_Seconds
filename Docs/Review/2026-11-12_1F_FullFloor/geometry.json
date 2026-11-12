@@ -1,0 +1,24 @@
+{
+  "scope": "All 1F active mesh renderers; opaque planar faces >=0.005m2, exact 0.05mm plane tolerance; mutually exclusive LODs separated",
+  "patches": 0,
+  "scanKeys": [
+    "scene",
+    "renderers",
+    "triangles",
+    "errors",
+    "duplicateMeshes",
+    "internal",
+    "overlaps",
+    "rows",
+    "cameras"
+  ],
+  "duplicateMeshes": 0,
+  "internalCandidates": 0,
+  "coplanarCandidates": 7,
+  "exact": {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_1F_Factory.unity",
+    "overlapPairs": 0,
+    "projectedRemovedArea": 0,
+    "maxRetriangulationAreaError": 0
+  }
+}

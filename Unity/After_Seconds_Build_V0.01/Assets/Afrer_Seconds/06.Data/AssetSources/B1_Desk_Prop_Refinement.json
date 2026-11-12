@@ -1,0 +1,2795 @@
+{
+  "version": "V0.01",
+  "date": "2026-11-12",
+  "author": "송예찬",
+  "source": "SourceAssets/B1_DeskPropRefinement/models.py",
+  "method": "Saved Unity mesh lower furniture preserved; Blender tabletop geometry; one generated records atlas; existing key legends reused",
+  "plan": {
+    "version": "V0.01",
+    "targets": [
+      {
+        "name": "B1_W01_BriefingTable_01",
+        "room": "W01",
+        "source": "SF_BriefingTable",
+        "variant": "DP_Comparison_W01_0"
+      },
+      {
+        "name": "B1_W02_DiningSet_01",
+        "room": "W02",
+        "source": "BL_DiningSet",
+        "variant": "DP_Dining_0"
+      },
+      {
+        "name": "B1_W02_DiningSet_02",
+        "room": "W02",
+        "source": "BL_DiningSet",
+        "variant": "DP_Dining_1"
+      },
+      {
+        "name": "B1_W02_DiningSet_03",
+        "room": "W02",
+        "source": "BL_DiningSet",
+        "variant": "DP_Dining_2"
+      },
+      {
+        "name": "B1_C03_ResearchDesk_06",
+        "room": "C03",
+        "source": "BL_ResearchDesk",
+        "variant": "DP_Desk_03"
+      },
+      {
+        "name": "B1_C03_ResearchDesk_07",
+        "room": "C03",
+        "source": "BL_ResearchDesk",
+        "variant": "DP_Desk_10"
+      },
+      {
+        "name": "B1_C03_SC_IncidentReview_09",
+        "room": "C03",
+        "source": "SF_SC_IncidentReview",
+        "variant": "DP_Review_C03"
+      },
+      {
+        "name": "B1_C04_VitalCart_03",
+        "room": "C04",
+        "source": "SF_VitalCart",
+        "variant": "DP_VitalCart"
+      },
+      {
+        "name": "B1_C04_UltrasoundCart_04",
+        "room": "C04",
+        "source": "SF_UltrasoundCart",
+        "variant": "DP_UltrasoundCart"
+      },
+      {
+        "name": "B1_W01_ResearchDesk_02",
+        "room": "W01",
+        "source": "BL_ResearchDesk",
+        "variant": "DP_Desk_06"
+      },
+      {
+        "name": "B1_W01_ResearchDesk_03",
+        "room": "W01",
+        "source": "BL_ResearchDesk",
+        "variant": "DP_Desk_07"
+      },
+      {
+        "name": "B1_W01_ResearchDesk_04",
+        "room": "W01",
+        "source": "BL_ResearchDesk",
+        "variant": "DP_Desk_08"
+      },
+      {
+        "name": "B1_W01_ResearchDesk_05",
+        "room": "W01",
+        "source": "BL_ResearchDesk",
+        "variant": "DP_Desk_09"
+      },
+      {
+        "name": "B1_W01_ResearchDesk_06",
+        "room": "W01",
+        "source": "BL_ResearchDesk",
+        "variant": "DP_Desk_10"
+      },
+      {
+        "name": "B1_W01_ResearchDesk_07",
+        "room": "W01",
+        "source": "BL_ResearchDesk",
+        "variant": "DP_Desk_11"
+      },
+      {
+        "name": "B1_E01_SC_OperatorDesk_A_02",
+        "room": "E01",
+        "source": "SF_SC_OperatorDesk_A",
+        "variant": "DP_Security_A"
+      },
+      {
+        "name": "B1_E01_SC_OperatorDesk_B_03",
+        "room": "E01",
+        "source": "SF_SC_OperatorDesk_B",
+        "variant": "DP_Security_B"
+      },
+      {
+        "name": "B1_E01_SC_RadioDutyStation_04",
+        "room": "E01",
+        "source": "SF_SC_RadioDutyStation",
+        "variant": "DP_Radio_E01"
+      },
+      {
+        "name": "B1_E02_ResearchDesk_05",
+        "room": "E02",
+        "source": "BL_ResearchDesk",
+        "variant": "DP_Desk_05"
+      },
+      {
+        "name": "B1_E03_SC_RadioDutyStation_15",
+        "room": "E03",
+        "source": "SF_SC_RadioDutyStation",
+        "variant": "DP_Radio_E03"
+      },
+      {
+        "name": "B1_S01_ResearchDesk_11",
+        "room": "S01",
+        "source": "BL_ResearchDesk",
+        "variant": "DP_Desk_06"
+      },
+      {
+        "name": "B1_S01_SC_IncidentReview_12",
+        "room": "S01",
+        "source": "SF_SC_IncidentReview",
+        "variant": "DP_Review_S01"
+      },
+      {
+        "name": "B1_C03_HandheldRecorder_11",
+        "room": "C03",
+        "source": "BL_HandheldRecorder",
+        "variant": "DP_Recorder"
+      },
+      {
+        "name": "B1_C03_HandheldRecorder_12",
+        "room": "C03",
+        "source": "BL_HandheldRecorder",
+        "variant": "DP_Recorder"
+      },
+      {
+        "name": "B1_W01_HandheldRecorder_17",
+        "room": "W01",
+        "source": "BL_HandheldRecorder",
+        "variant": "DP_Recorder"
+      },
+      {
+        "name": "B1_W01_HandheldRecorder_18",
+        "room": "W01",
+        "source": "BL_HandheldRecorder",
+        "variant": "DP_Recorder"
+      },
+      {
+        "name": "B1_W01_HandheldRecorder_19",
+        "room": "W01",
+        "source": "BL_HandheldRecorder",
+        "variant": "DP_Recorder"
+      },
+      {
+        "name": "B1_W01_HandheldRecorder_20",
+        "room": "W01",
+        "source": "BL_HandheldRecorder",
+        "variant": "DP_Recorder"
+      },
+      {
+        "name": "B1_W01_HandheldRecorder_21",
+        "room": "W01",
+        "source": "BL_HandheldRecorder",
+        "variant": "DP_Recorder"
+      },
+      {
+        "name": "B1_W01_HandheldRecorder_22",
+        "room": "W01",
+        "source": "BL_HandheldRecorder",
+        "variant": "DP_Recorder"
+      },
+      {
+        "name": "B1_E02_HandheldRecorder_10",
+        "room": "E02",
+        "source": "BL_HandheldRecorder",
+        "variant": "DP_Recorder"
+      },
+      {
+        "name": "B1_S01_HandheldRecorder_16",
+        "room": "S01",
+        "source": "BL_HandheldRecorder",
+        "variant": "DP_Recorder"
+      },
+      {
+        "name": "B1_C01_Data_ResearchDesk_01",
+        "room": "C01",
+        "source": "BL_ResearchDesk",
+        "variant": "DP_Desk_00"
+      },
+      {
+        "name": "B1_C01_Data_ResearchDesk_03",
+        "room": "C01",
+        "source": "BL_ResearchDesk",
+        "variant": "DP_Desk_01"
+      },
+      {
+        "name": "B1_C01_Data_ResearchDesk_05",
+        "room": "C01",
+        "source": "BL_ResearchDesk",
+        "variant": "DP_Desk_02"
+      },
+      {
+        "name": "B1_C01_Data_ResearchDesk_07",
+        "room": "C01",
+        "source": "BL_ResearchDesk",
+        "variant": "DP_Desk_03"
+      },
+      {
+        "name": "B1_C01_Data_ResearchDesk_09",
+        "room": "C01",
+        "source": "BL_ResearchDesk",
+        "variant": "DP_Desk_04"
+      },
+      {
+        "name": "B1_C01_Data_ResearchDesk_11",
+        "room": "C01",
+        "source": "BL_ResearchDesk",
+        "variant": "DP_Desk_05"
+      },
+      {
+        "name": "B1_C01_Data_BriefingTable_17",
+        "room": "C01",
+        "source": "SF_BriefingTable",
+        "variant": "DP_Comparison_C01_0"
+      },
+      {
+        "name": "B1_C01_Data_BriefingTable_20",
+        "room": "C01",
+        "source": "SF_BriefingTable",
+        "variant": "DP_Comparison_C01_1"
+      },
+      {
+        "name": "B1_N01_Data_ResearchDesk_01",
+        "room": "N01",
+        "source": "BL_ResearchDesk",
+        "variant": "DP_Desk_02"
+      },
+      {
+        "name": "B1_N01_Data_ResearchDesk_03",
+        "room": "N01",
+        "source": "BL_ResearchDesk",
+        "variant": "DP_Desk_07"
+      },
+      {
+        "name": "B1_N01_Data_ResearchDesk_05",
+        "room": "N01",
+        "source": "BL_ResearchDesk",
+        "variant": "DP_Desk_04"
+      },
+      {
+        "name": "B1_N01_Data_ResearchDesk_07",
+        "room": "N01",
+        "source": "BL_ResearchDesk",
+        "variant": "DP_Desk_09"
+      },
+      {
+        "name": "B1_N01_Data_ResearchDesk_09",
+        "room": "N01",
+        "source": "BL_ResearchDesk",
+        "variant": "DP_Desk_00"
+      },
+      {
+        "name": "B1_N01_Data_ResearchDesk_11",
+        "room": "N01",
+        "source": "BL_ResearchDesk",
+        "variant": "DP_Desk_11"
+      },
+      {
+        "name": "B1_C02_Data_ResearchDesk_01",
+        "room": "C02",
+        "source": "BL_ResearchDesk",
+        "variant": "DP_Desk_01"
+      },
+      {
+        "name": "B1_C02_Data_ResearchDesk_03",
+        "room": "C02",
+        "source": "BL_ResearchDesk",
+        "variant": "DP_Desk_08"
+      },
+      {
+        "name": "B1_C05_Conference_ConferenceTable_01",
+        "room": "C05",
+        "source": "BL_ConferenceTable",
+        "variant": "DP_Meeting"
+      },
+      {
+        "name": "B1_W02_Interior_BL_DiningSet_200",
+        "room": "W02",
+        "source": "BL_DiningSet",
+        "variant": "DP_Dining_3"
+      },
+      {
+        "name": "B1_N01_Interior_SF_BriefingTable_203",
+        "room": "N01",
+        "source": "SF_BriefingTable",
+        "variant": "DP_Comparison_N01_0"
+      }
+    ],
+    "relocations": [
+      {
+        "name": "B1_C03_HandheldRecorder_11",
+        "room": "C03",
+        "desk": "B1_C03_ResearchDesk_06",
+        "position": [
+          -3.9699999999999998,
+          0.824,
+          3.1264999997615814
+        ],
+        "yaw": 171
+      },
+      {
+        "name": "B1_C03_HandheldRecorder_12",
+        "room": "C03",
+        "desk": "B1_C03_ResearchDesk_07",
+        "position": [
+          2.73,
+          0.824,
+          3.1264999997615814
+        ],
+        "yaw": 187
+      },
+      {
+        "name": "B1_W01_HandheldRecorder_17",
+        "room": "W01",
+        "desk": "B1_W01_ResearchDesk_02",
+        "position": [
+          -3.23,
+          0.824,
+          -0.4264999997615814
+        ],
+        "yaw": -9
+      },
+      {
+        "name": "B1_W01_HandheldRecorder_18",
+        "room": "W01",
+        "desk": "B1_W01_ResearchDesk_03",
+        "position": [
+          0.57,
+          0.824,
+          -0.4264999997615814
+        ],
+        "yaw": 7
+      },
+      {
+        "name": "B1_W01_HandheldRecorder_19",
+        "room": "W01",
+        "desk": "B1_W01_ResearchDesk_04",
+        "position": [
+          4.37,
+          0.824,
+          -0.4264999997615814
+        ],
+        "yaw": -9
+      },
+      {
+        "name": "B1_W01_HandheldRecorder_20",
+        "room": "W01",
+        "desk": "B1_W01_ResearchDesk_05",
+        "position": [
+          -3.23,
+          0.824,
+          2.7735000002384185
+        ],
+        "yaw": 7
+      },
+      {
+        "name": "B1_W01_HandheldRecorder_21",
+        "room": "W01",
+        "desk": "B1_W01_ResearchDesk_06",
+        "position": [
+          0.57,
+          0.824,
+          2.7735000002384185
+        ],
+        "yaw": -9
+      },
+      {
+        "name": "B1_W01_HandheldRecorder_22",
+        "room": "W01",
+        "desk": "B1_W01_ResearchDesk_07",
+        "position": [
+          4.37,
+          0.824,
+          2.7735000002384185
+        ],
+        "yaw": 7
+      },
+      {
+        "name": "B1_E02_HandheldRecorder_10",
+        "room": "E02",
+        "desk": "B1_E02_ResearchDesk_05",
+        "position": [
+          0.5300000000000001,
+          0.824,
+          4.126499999761581
+        ],
+        "yaw": 171
+      },
+      {
+        "name": "B1_S01_HandheldRecorder_16",
+        "room": "S01",
+        "desk": "B1_S01_ResearchDesk_11",
+        "position": [
+          -3.57,
+          0.824,
+          5.526499999761581
+        ],
+        "yaw": 187
+      }
+    ],
+    "variants": 30,
+    "scope": "B1 tabletop props; preserve furniture placement, original geometry below worktop, colliders, architecture and game code"
+  },
+  "models": {
+    "DP_Desk_00": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Desk_00.fbx",
+      "triangles": [
+        32488,
+        15268,
+        5847
+      ],
+      "center": [
+        4.172325134277344e-07,
+        0.6579687595367432,
+        4.76837158203125e-07
+      ],
+      "size": [
+        1.649999976158142,
+        1.3159375190734863,
+        0.7799999713897705
+      ],
+      "materials": {
+        "Saved_B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat",
+        "Saved_B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "Saved_B1M_Clinical": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Clinical.mat",
+        "Saved_B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "Saved_B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "Saved_B1M_Display_01": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Display_01.mat",
+        "Saved_B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "Saved_B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "Saved_B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "DP_ScreenPrint": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkScreens.mat",
+        "B1M_Coat": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Coat.mat",
+        "B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "DP_KeyLegend": "Assets/Afrer_Seconds/05.Model/Props/B4/Materials/PD_KeyLegend.mat",
+        "B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat",
+        "B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "DP_Print": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkRecords.mat"
+      },
+      "features": [
+        {
+          "kind": "monitor",
+          "center": [
+            -0.025,
+            0.823,
+            -0.2
+          ],
+          "size": [
+            0.622,
+            0.22
+          ]
+        },
+        {
+          "kind": "keyboard",
+          "center": [
+            0.0,
+            0.823,
+            0.18
+          ],
+          "size": [
+            0.378,
+            0.158
+          ]
+        },
+        {
+          "kind": "mouse",
+          "center": [
+            -0.405,
+            0.823,
+            0.186
+          ],
+          "size": [
+            0.062,
+            0.112
+          ]
+        },
+        {
+          "kind": "document",
+          "center": [
+            0.48,
+            0.823,
+            0.105
+          ],
+          "size": [
+            0.4,
+            0.26
+          ]
+        },
+        {
+          "kind": "cup",
+          "center": [
+            0.69,
+            0.823,
+            0.29
+          ],
+          "size": [
+            0.12,
+            0.08
+          ]
+        }
+      ]
+    },
+    "DP_Desk_01": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Desk_01.fbx",
+      "triangles": [
+        33052,
+        15534,
+        5948
+      ],
+      "center": [
+        4.172325134277344e-07,
+        0.65234375,
+        4.76837158203125e-07
+      ],
+      "size": [
+        1.649999976158142,
+        1.3046875,
+        0.7799999713897705
+      ],
+      "materials": {
+        "Saved_B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat",
+        "Saved_B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "Saved_B1M_Clinical": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Clinical.mat",
+        "Saved_B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "Saved_B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "Saved_B1M_Display_01": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Display_01.mat",
+        "Saved_B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "Saved_B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "Saved_B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "DP_ScreenPrint": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkScreens.mat",
+        "B1M_Coat": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Coat.mat",
+        "B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "DP_KeyLegend": "Assets/Afrer_Seconds/05.Model/Props/B4/Materials/PD_KeyLegend.mat",
+        "B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "DP_Print": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkRecords.mat",
+        "B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat"
+      },
+      "features": [
+        {
+          "kind": "monitor",
+          "center": [
+            -0.04,
+            0.823,
+            -0.2
+          ],
+          "size": [
+            0.5820000000000001,
+            0.22
+          ]
+        },
+        {
+          "kind": "keyboard",
+          "center": [
+            -0.04,
+            0.823,
+            0.205
+          ],
+          "size": [
+            0.378,
+            0.158
+          ]
+        },
+        {
+          "kind": "mouse",
+          "center": [
+            -0.445,
+            0.823,
+            0.187
+          ],
+          "size": [
+            0.062,
+            0.112
+          ]
+        },
+        {
+          "kind": "cup",
+          "center": [
+            0.69,
+            0.823,
+            0.29
+          ],
+          "size": [
+            0.12,
+            0.08
+          ]
+        }
+      ]
+    },
+    "DP_Desk_02": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Desk_02.fbx",
+      "triangles": [
+        31602,
+        14852,
+        5688
+      ],
+      "center": [
+        4.172325134277344e-07,
+        0.6579687595367432,
+        4.76837158203125e-07
+      ],
+      "size": [
+        1.649999976158142,
+        1.3159375190734863,
+        0.7799999713897705
+      ],
+      "materials": {
+        "Saved_B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat",
+        "Saved_B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "Saved_B1M_Clinical": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Clinical.mat",
+        "Saved_B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "Saved_B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "Saved_B1M_Display_01": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Display_01.mat",
+        "Saved_B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "Saved_B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "Saved_B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "DP_ScreenPrint": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkScreens.mat",
+        "B1M_Coat": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Coat.mat",
+        "B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "DP_KeyLegend": "Assets/Afrer_Seconds/05.Model/Props/B4/Materials/PD_KeyLegend.mat",
+        "B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat",
+        "B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "DP_Print": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkRecords.mat",
+        "B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat"
+      },
+      "features": [
+        {
+          "kind": "monitor",
+          "center": [
+            0.07500000000000001,
+            0.823,
+            -0.2
+          ],
+          "size": [
+            0.622,
+            0.22
+          ]
+        },
+        {
+          "kind": "keyboard",
+          "center": [
+            0.05,
+            0.823,
+            0.18
+          ],
+          "size": [
+            0.378,
+            0.158
+          ]
+        },
+        {
+          "kind": "mouse",
+          "center": [
+            -0.35500000000000004,
+            0.823,
+            0.204
+          ],
+          "size": [
+            0.062,
+            0.112
+          ]
+        },
+        {
+          "kind": "document",
+          "center": [
+            0.5,
+            0.823,
+            0.12
+          ],
+          "size": [
+            0.32,
+            0.26
+          ]
+        }
+      ]
+    },
+    "DP_Desk_03": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Desk_03.fbx",
+      "triangles": [
+        31010,
+        14574,
+        5580
+      ],
+      "center": [
+        4.172325134277344e-07,
+        0.6579687595367432,
+        4.76837158203125e-07
+      ],
+      "size": [
+        1.649999976158142,
+        1.3159375190734863,
+        0.7799999713897705
+      ],
+      "materials": {
+        "Saved_B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat",
+        "Saved_B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "Saved_B1M_Clinical": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Clinical.mat",
+        "Saved_B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "Saved_B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "Saved_B1M_Display_01": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Display_01.mat",
+        "Saved_B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "Saved_B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "Saved_B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "DP_ScreenPrint": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkScreens.mat",
+        "B1M_Coat": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Coat.mat",
+        "B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "DP_KeyLegend": "Assets/Afrer_Seconds/05.Model/Props/B4/Materials/PD_KeyLegend.mat",
+        "B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "DP_Print": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkRecords.mat"
+      },
+      "features": [
+        {
+          "kind": "monitor",
+          "center": [
+            -0.045,
+            0.823,
+            -0.2
+          ],
+          "size": [
+            0.622,
+            0.22
+          ]
+        },
+        {
+          "kind": "keyboard",
+          "center": [
+            -0.02,
+            0.823,
+            0.18
+          ],
+          "size": [
+            0.378,
+            0.158
+          ]
+        },
+        {
+          "kind": "mouse",
+          "center": [
+            -0.42500000000000004,
+            0.823,
+            0.186
+          ],
+          "size": [
+            0.062,
+            0.112
+          ]
+        },
+        {
+          "kind": "document",
+          "center": [
+            0.48,
+            0.823,
+            0.105
+          ],
+          "size": [
+            0.4,
+            0.26
+          ]
+        }
+      ]
+    },
+    "DP_Desk_04": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Desk_04.fbx",
+      "triangles": [
+        33268,
+        15634,
+        5987
+      ],
+      "center": [
+        4.172325134277344e-07,
+        0.6579687595367432,
+        4.76837158203125e-07
+      ],
+      "size": [
+        1.649999976158142,
+        1.3159375190734863,
+        0.7799999713897705
+      ],
+      "materials": {
+        "Saved_B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat",
+        "Saved_B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "Saved_B1M_Clinical": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Clinical.mat",
+        "Saved_B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "Saved_B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "Saved_B1M_Display_01": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Display_01.mat",
+        "Saved_B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "Saved_B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "Saved_B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "DP_ScreenPrint": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkScreens.mat",
+        "B1M_Coat": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Coat.mat",
+        "B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "DP_KeyLegend": "Assets/Afrer_Seconds/05.Model/Props/B4/Materials/PD_KeyLegend.mat",
+        "B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "DP_Print": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkRecords.mat",
+        "B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat"
+      },
+      "features": [
+        {
+          "kind": "monitor",
+          "center": [
+            0.035,
+            0.823,
+            -0.2
+          ],
+          "size": [
+            0.622,
+            0.22
+          ]
+        },
+        {
+          "kind": "keyboard",
+          "center": [
+            0.035,
+            0.823,
+            0.205
+          ],
+          "size": [
+            0.378,
+            0.158
+          ]
+        },
+        {
+          "kind": "mouse",
+          "center": [
+            -0.37,
+            0.823,
+            0.187
+          ],
+          "size": [
+            0.062,
+            0.112
+          ]
+        },
+        {
+          "kind": "cup",
+          "center": [
+            0.69,
+            0.823,
+            0.29
+          ],
+          "size": [
+            0.12,
+            0.08
+          ]
+        }
+      ]
+    },
+    "DP_Desk_05": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Desk_05.fbx",
+      "triangles": [
+        32112,
+        15092,
+        5779
+      ],
+      "center": [
+        4.172325134277344e-07,
+        0.65234375,
+        4.76837158203125e-07
+      ],
+      "size": [
+        1.649999976158142,
+        1.3046875,
+        0.7799999713897705
+      ],
+      "materials": {
+        "Saved_B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat",
+        "Saved_B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "Saved_B1M_Clinical": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Clinical.mat",
+        "Saved_B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "Saved_B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "Saved_B1M_Display_01": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Display_01.mat",
+        "Saved_B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "Saved_B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "Saved_B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "DP_ScreenPrint": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkScreens.mat",
+        "B1M_Coat": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Coat.mat",
+        "B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "DP_KeyLegend": "Assets/Afrer_Seconds/05.Model/Props/B4/Materials/PD_KeyLegend.mat",
+        "B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "DP_Print": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkRecords.mat",
+        "B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat"
+      },
+      "features": [
+        {
+          "kind": "monitor",
+          "center": [
+            -0.025,
+            0.823,
+            -0.2
+          ],
+          "size": [
+            0.5820000000000001,
+            0.22
+          ]
+        },
+        {
+          "kind": "keyboard",
+          "center": [
+            -0.05,
+            0.823,
+            0.18
+          ],
+          "size": [
+            0.378,
+            0.158
+          ]
+        },
+        {
+          "kind": "mouse",
+          "center": [
+            -0.455,
+            0.823,
+            0.204
+          ],
+          "size": [
+            0.062,
+            0.112
+          ]
+        },
+        {
+          "kind": "document",
+          "center": [
+            0.5,
+            0.823,
+            0.12
+          ],
+          "size": [
+            0.32,
+            0.26
+          ]
+        },
+        {
+          "kind": "cup",
+          "center": [
+            0.69,
+            0.823,
+            0.29
+          ],
+          "size": [
+            0.12,
+            0.08
+          ]
+        }
+      ]
+    },
+    "DP_Desk_06": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Desk_06.fbx",
+      "triangles": [
+        38520,
+        18104,
+        6932
+      ],
+      "center": [
+        4.172325134277344e-07,
+        0.6579687595367432,
+        4.76837158203125e-07
+      ],
+      "size": [
+        1.649999976158142,
+        1.3159375190734863,
+        0.7799999713897705
+      ],
+      "materials": {
+        "Saved_B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat",
+        "Saved_B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "Saved_B1M_Clinical": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Clinical.mat",
+        "Saved_B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "Saved_B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "Saved_B1M_Display_01": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Display_01.mat",
+        "Saved_B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "Saved_B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "Saved_B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "DP_ScreenPrint": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkScreens.mat",
+        "B1M_Coat": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Coat.mat",
+        "B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "DP_KeyLegend": "Assets/Afrer_Seconds/05.Model/Props/B4/Materials/PD_KeyLegend.mat",
+        "B1M_Lens": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Lens.mat",
+        "B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat"
+      },
+      "features": [
+        {
+          "kind": "monitor",
+          "center": [
+            -0.025,
+            0.823,
+            -0.2
+          ],
+          "size": [
+            0.622,
+            0.22
+          ]
+        },
+        {
+          "kind": "keyboard",
+          "center": [
+            0.0,
+            0.823,
+            0.18
+          ],
+          "size": [
+            0.378,
+            0.158
+          ]
+        },
+        {
+          "kind": "mouse",
+          "center": [
+            -0.405,
+            0.823,
+            0.186
+          ],
+          "size": [
+            0.062,
+            0.112
+          ]
+        }
+      ]
+    },
+    "DP_Desk_07": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Desk_07.fbx",
+      "triangles": [
+        33632,
+        15806,
+        6052
+      ],
+      "center": [
+        4.172325134277344e-07,
+        0.6579687595367432,
+        4.76837158203125e-07
+      ],
+      "size": [
+        1.649999976158142,
+        1.3159375190734863,
+        0.7799999713897705
+      ],
+      "materials": {
+        "Saved_B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat",
+        "Saved_B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "Saved_B1M_Clinical": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Clinical.mat",
+        "Saved_B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "Saved_B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "Saved_B1M_Display_01": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Display_01.mat",
+        "Saved_B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "Saved_B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "Saved_B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "DP_ScreenPrint": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkScreens.mat",
+        "B1M_Coat": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Coat.mat",
+        "B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "DP_KeyLegend": "Assets/Afrer_Seconds/05.Model/Props/B4/Materials/PD_KeyLegend.mat",
+        "B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "DP_Print": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkRecords.mat"
+      },
+      "features": [
+        {
+          "kind": "monitor",
+          "center": [
+            -0.04,
+            0.823,
+            -0.2
+          ],
+          "size": [
+            0.622,
+            0.22
+          ]
+        },
+        {
+          "kind": "keyboard",
+          "center": [
+            -0.04,
+            0.823,
+            0.205
+          ],
+          "size": [
+            0.378,
+            0.158
+          ]
+        },
+        {
+          "kind": "mouse",
+          "center": [
+            -0.445,
+            0.823,
+            0.187
+          ],
+          "size": [
+            0.062,
+            0.112
+          ]
+        }
+      ]
+    },
+    "DP_Desk_08": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Desk_08.fbx",
+      "triangles": [
+        33080,
+        15546,
+        5953
+      ],
+      "center": [
+        4.172325134277344e-07,
+        0.6579687595367432,
+        4.76837158203125e-07
+      ],
+      "size": [
+        1.649999976158142,
+        1.3159375190734863,
+        0.7799999713897705
+      ],
+      "materials": {
+        "Saved_B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat",
+        "Saved_B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "Saved_B1M_Clinical": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Clinical.mat",
+        "Saved_B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "Saved_B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "Saved_B1M_Display_01": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Display_01.mat",
+        "Saved_B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "Saved_B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "Saved_B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "DP_ScreenPrint": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkScreens.mat",
+        "B1M_Coat": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Coat.mat",
+        "B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "DP_KeyLegend": "Assets/Afrer_Seconds/05.Model/Props/B4/Materials/PD_KeyLegend.mat",
+        "B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat",
+        "B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "DP_Print": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkRecords.mat",
+        "B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat"
+      },
+      "features": [
+        {
+          "kind": "monitor",
+          "center": [
+            0.07500000000000001,
+            0.823,
+            -0.2
+          ],
+          "size": [
+            0.622,
+            0.22
+          ]
+        },
+        {
+          "kind": "keyboard",
+          "center": [
+            0.05,
+            0.823,
+            0.18
+          ],
+          "size": [
+            0.378,
+            0.158
+          ]
+        },
+        {
+          "kind": "mouse",
+          "center": [
+            -0.35500000000000004,
+            0.823,
+            0.204
+          ],
+          "size": [
+            0.062,
+            0.112
+          ]
+        },
+        {
+          "kind": "document",
+          "center": [
+            0.5,
+            0.823,
+            0.12
+          ],
+          "size": [
+            0.32,
+            0.26
+          ]
+        },
+        {
+          "kind": "cup",
+          "center": [
+            0.69,
+            0.823,
+            0.29
+          ],
+          "size": [
+            0.12,
+            0.08
+          ]
+        }
+      ]
+    },
+    "DP_Desk_09": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Desk_09.fbx",
+      "triangles": [
+        31520,
+        14814,
+        5673
+      ],
+      "center": [
+        4.172325134277344e-07,
+        0.65234375,
+        4.76837158203125e-07
+      ],
+      "size": [
+        1.649999976158142,
+        1.3046875,
+        0.7799999713897705
+      ],
+      "materials": {
+        "Saved_B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat",
+        "Saved_B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "Saved_B1M_Clinical": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Clinical.mat",
+        "Saved_B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "Saved_B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "Saved_B1M_Display_01": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Display_01.mat",
+        "Saved_B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "Saved_B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "Saved_B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "DP_ScreenPrint": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkScreens.mat",
+        "B1M_Coat": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Coat.mat",
+        "B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "DP_KeyLegend": "Assets/Afrer_Seconds/05.Model/Props/B4/Materials/PD_KeyLegend.mat",
+        "B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "DP_Print": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkRecords.mat",
+        "B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat"
+      },
+      "features": [
+        {
+          "kind": "monitor",
+          "center": [
+            -0.045,
+            0.823,
+            -0.2
+          ],
+          "size": [
+            0.5820000000000001,
+            0.22
+          ]
+        },
+        {
+          "kind": "keyboard",
+          "center": [
+            -0.02,
+            0.823,
+            0.18
+          ],
+          "size": [
+            0.378,
+            0.158
+          ]
+        },
+        {
+          "kind": "mouse",
+          "center": [
+            -0.42500000000000004,
+            0.823,
+            0.186
+          ],
+          "size": [
+            0.062,
+            0.112
+          ]
+        },
+        {
+          "kind": "document",
+          "center": [
+            0.48,
+            0.823,
+            0.105
+          ],
+          "size": [
+            0.4,
+            0.26
+          ]
+        },
+        {
+          "kind": "cup",
+          "center": [
+            0.69,
+            0.823,
+            0.29
+          ],
+          "size": [
+            0.12,
+            0.08
+          ]
+        }
+      ]
+    },
+    "DP_Desk_10": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Desk_10.fbx",
+      "triangles": [
+        33292,
+        15646,
+        5992
+      ],
+      "center": [
+        4.172325134277344e-07,
+        0.6579687595367432,
+        4.76837158203125e-07
+      ],
+      "size": [
+        1.649999976158142,
+        1.3159375190734863,
+        0.7799999713897705
+      ],
+      "materials": {
+        "Saved_B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat",
+        "Saved_B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "Saved_B1M_Clinical": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Clinical.mat",
+        "Saved_B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "Saved_B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "Saved_B1M_Display_01": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Display_01.mat",
+        "Saved_B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "Saved_B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "Saved_B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "DP_ScreenPrint": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkScreens.mat",
+        "B1M_Coat": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Coat.mat",
+        "B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "DP_KeyLegend": "Assets/Afrer_Seconds/05.Model/Props/B4/Materials/PD_KeyLegend.mat",
+        "B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat"
+      },
+      "features": [
+        {
+          "kind": "monitor",
+          "center": [
+            0.035,
+            0.823,
+            -0.2
+          ],
+          "size": [
+            0.622,
+            0.22
+          ]
+        },
+        {
+          "kind": "keyboard",
+          "center": [
+            0.035,
+            0.823,
+            0.205
+          ],
+          "size": [
+            0.378,
+            0.158
+          ]
+        },
+        {
+          "kind": "mouse",
+          "center": [
+            -0.37,
+            0.823,
+            0.187
+          ],
+          "size": [
+            0.062,
+            0.112
+          ]
+        }
+      ]
+    },
+    "DP_Desk_11": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Desk_11.fbx",
+      "triangles": [
+        31602,
+        14852,
+        5688
+      ],
+      "center": [
+        4.172325134277344e-07,
+        0.6579687595367432,
+        4.76837158203125e-07
+      ],
+      "size": [
+        1.649999976158142,
+        1.3159375190734863,
+        0.7799999713897705
+      ],
+      "materials": {
+        "Saved_B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat",
+        "Saved_B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "Saved_B1M_Clinical": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Clinical.mat",
+        "Saved_B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "Saved_B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "Saved_B1M_Display_01": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Display_01.mat",
+        "Saved_B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "Saved_B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "Saved_B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "DP_ScreenPrint": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkScreens.mat",
+        "B1M_Coat": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Coat.mat",
+        "B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "DP_KeyLegend": "Assets/Afrer_Seconds/05.Model/Props/B4/Materials/PD_KeyLegend.mat",
+        "B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "DP_Print": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkRecords.mat"
+      },
+      "features": [
+        {
+          "kind": "monitor",
+          "center": [
+            -0.025,
+            0.823,
+            -0.2
+          ],
+          "size": [
+            0.622,
+            0.22
+          ]
+        },
+        {
+          "kind": "keyboard",
+          "center": [
+            -0.05,
+            0.823,
+            0.18
+          ],
+          "size": [
+            0.378,
+            0.158
+          ]
+        },
+        {
+          "kind": "mouse",
+          "center": [
+            -0.455,
+            0.823,
+            0.204
+          ],
+          "size": [
+            0.062,
+            0.112
+          ]
+        },
+        {
+          "kind": "document",
+          "center": [
+            0.5,
+            0.823,
+            0.12
+          ],
+          "size": [
+            0.32,
+            0.26
+          ]
+        }
+      ]
+    },
+    "DP_Security_A": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Security_A.fbx",
+      "triangles": [
+        42438,
+        19944,
+        7638
+      ],
+      "center": [
+        3.4570693969726562e-06,
+        0.6745312237180769,
+        0.009746253490447998
+      ],
+      "size": [
+        1.9499999284744263,
+        1.3390624476596713,
+        0.8794999718666077
+      ],
+      "materials": {
+        "Saved_B1M_Clinical": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Clinical.mat",
+        "Saved_B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "Saved_B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "Saved_B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "Saved_BL_AccessSecurity": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/BL_AccessSecurity.mat",
+        "Saved_B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "Saved_B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "Saved_SF_Label": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/SF_Label.mat",
+        "B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "DP_ScreenPrint": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkScreens.mat",
+        "B1M_Coat": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Coat.mat",
+        "B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "DP_KeyLegend": "Assets/Afrer_Seconds/05.Model/Props/B4/Materials/PD_KeyLegend.mat",
+        "B1M_Lens": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Lens.mat",
+        "B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat"
+      },
+      "features": [
+        {
+          "kind": "monitor",
+          "center": [
+            0.38,
+            0.823,
+            -0.22
+          ],
+          "size": [
+            0.722,
+            0.22
+          ]
+        },
+        {
+          "kind": "monitor",
+          "center": [
+            -0.38,
+            0.823,
+            -0.22
+          ],
+          "size": [
+            0.722,
+            0.22
+          ]
+        },
+        {
+          "kind": "keyboard",
+          "center": [
+            0.03,
+            0.823,
+            0.21
+          ],
+          "size": [
+            0.378,
+            0.158
+          ]
+        },
+        {
+          "kind": "mouse",
+          "center": [
+            -0.38,
+            0.823,
+            0.23
+          ],
+          "size": [
+            0.062,
+            0.112
+          ]
+        }
+      ]
+    },
+    "DP_Security_B": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Security_B.fbx",
+      "triangles": [
+        42616,
+        20028,
+        7669
+      ],
+      "center": [
+        3.4570693969726562e-06,
+        0.6745312237180769,
+        0.009749799966812134
+      ],
+      "size": [
+        1.9499999284744263,
+        1.3390624476596713,
+        0.8794999718666077
+      ],
+      "materials": {
+        "Saved_B1M_Clinical": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Clinical.mat",
+        "Saved_B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "Saved_B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "Saved_B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "Saved_BL_AccessSecurity": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/BL_AccessSecurity.mat",
+        "Saved_B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "Saved_B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "Saved_SF_Label": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/SF_Label.mat",
+        "B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "DP_ScreenPrint": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkScreens.mat",
+        "B1M_Coat": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Coat.mat",
+        "B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "DP_KeyLegend": "Assets/Afrer_Seconds/05.Model/Props/B4/Materials/PD_KeyLegend.mat",
+        "B1M_Lens": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Lens.mat",
+        "B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "DP_Print": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkRecords.mat"
+      },
+      "features": [
+        {
+          "kind": "monitor",
+          "center": [
+            0.38,
+            0.823,
+            -0.22
+          ],
+          "size": [
+            0.722,
+            0.22
+          ]
+        },
+        {
+          "kind": "monitor",
+          "center": [
+            -0.38,
+            0.823,
+            -0.22
+          ],
+          "size": [
+            0.722,
+            0.22
+          ]
+        },
+        {
+          "kind": "keyboard",
+          "center": [
+            0.03,
+            0.823,
+            0.21
+          ],
+          "size": [
+            0.378,
+            0.158
+          ]
+        },
+        {
+          "kind": "mouse",
+          "center": [
+            -0.38,
+            0.823,
+            0.23
+          ],
+          "size": [
+            0.062,
+            0.112
+          ]
+        },
+        {
+          "kind": "document",
+          "center": [
+            0.55,
+            0.823,
+            0.28
+          ],
+          "size": [
+            0.32,
+            0.26
+          ]
+        }
+      ]
+    },
+    "DP_Review_C03": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Review_C03.fbx",
+      "triangles": [
+        29850,
+        14028,
+        5372
+      ],
+      "center": [
+        1.8775463104248047e-06,
+        0.664218733087182,
+        2.6226043701171875e-06
+      ],
+      "size": [
+        1.7500004172325134,
+        1.2884374670684338,
+        0.7600001692771912
+      ],
+      "materials": {
+        "Saved_B1M_Clinical": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Clinical.mat",
+        "Saved_B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "Saved_B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "Saved_B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "Saved_BL_DataReview": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/BL_DataReview.mat",
+        "Saved_B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "Saved_B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "Saved_B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "Saved_SF_Label": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/SF_Label.mat",
+        "B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "DP_ScreenPrint": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkScreens.mat",
+        "B1M_Coat": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Coat.mat",
+        "B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "DP_KeyLegend": "Assets/Afrer_Seconds/05.Model/Props/B4/Materials/PD_KeyLegend.mat",
+        "B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "DP_Print": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkRecords.mat",
+        "B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat"
+      },
+      "features": [
+        {
+          "kind": "monitor",
+          "center": [
+            -0.1,
+            0.8155,
+            -0.2
+          ],
+          "size": [
+            0.622,
+            0.22
+          ]
+        },
+        {
+          "kind": "keyboard",
+          "center": [
+            -0.03,
+            0.8155,
+            0.19
+          ],
+          "size": [
+            0.378,
+            0.158
+          ]
+        },
+        {
+          "kind": "mouse",
+          "center": [
+            -0.43,
+            0.8155,
+            0.19
+          ],
+          "size": [
+            0.062,
+            0.112
+          ]
+        }
+      ]
+    },
+    "DP_Review_S01": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Review_S01.fbx",
+      "triangles": [
+        29850,
+        14028,
+        5372
+      ],
+      "center": [
+        1.8775463104248047e-06,
+        0.664218733087182,
+        2.6226043701171875e-06
+      ],
+      "size": [
+        1.7500004172325134,
+        1.2884374670684338,
+        0.7600001692771912
+      ],
+      "materials": {
+        "Saved_B1M_Clinical": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Clinical.mat",
+        "Saved_B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "Saved_B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "Saved_B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "Saved_BL_DataReview": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/BL_DataReview.mat",
+        "Saved_B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "Saved_B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "Saved_B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "Saved_SF_Label": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/SF_Label.mat",
+        "B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "DP_ScreenPrint": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkScreens.mat",
+        "B1M_Coat": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Coat.mat",
+        "B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "DP_KeyLegend": "Assets/Afrer_Seconds/05.Model/Props/B4/Materials/PD_KeyLegend.mat",
+        "B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "DP_Print": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkRecords.mat",
+        "B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat"
+      },
+      "features": [
+        {
+          "kind": "monitor",
+          "center": [
+            -0.1,
+            0.8155,
+            -0.2
+          ],
+          "size": [
+            0.622,
+            0.22
+          ]
+        },
+        {
+          "kind": "keyboard",
+          "center": [
+            -0.03,
+            0.8155,
+            0.19
+          ],
+          "size": [
+            0.378,
+            0.158
+          ]
+        },
+        {
+          "kind": "mouse",
+          "center": [
+            -0.43,
+            0.8155,
+            0.19
+          ],
+          "size": [
+            0.062,
+            0.112
+          ]
+        }
+      ]
+    },
+    "DP_Comparison_C01_0": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Comparison_C01_0.fbx",
+      "triangles": [
+        8432,
+        3962,
+        1516
+      ],
+      "center": [
+        0.0,
+        0.6435937285423279,
+        0.0
+      ],
+      "size": [
+        1.7999999523162842,
+        1.2871874570846558,
+        1.2999999523162842
+      ],
+      "materials": {
+        "Saved_SF_Blue": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/SF_Blue.mat",
+        "Saved_B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "Saved_B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "Saved_B1M_Coat": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Coat.mat",
+        "Saved_B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "Saved_BL_DataReview": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/BL_DataReview.mat",
+        "Saved_B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "Saved_B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "Saved_B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "Saved_SF_Label": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/SF_Label.mat",
+        "B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "DP_ScreenPrint": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkScreens.mat",
+        "B1M_Coat": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Coat.mat",
+        "B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat",
+        "B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "DP_Print": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkRecords.mat",
+        "B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat"
+      },
+      "features": [
+        {
+          "kind": "monitor",
+          "center": [
+            0,
+            0.8055,
+            -0.4
+          ],
+          "size": [
+            0.5820000000000001,
+            0.22
+          ]
+        },
+        {
+          "kind": "document",
+          "center": [
+            0.42,
+            0.8055,
+            0.18
+          ],
+          "size": [
+            0.4,
+            0.26
+          ]
+        },
+        {
+          "kind": "document",
+          "center": [
+            -0.44,
+            0.8055,
+            0.2
+          ],
+          "size": [
+            0.32,
+            0.26
+          ]
+        },
+        {
+          "kind": "cup",
+          "center": [
+            0.69,
+            0.8055,
+            -0.22
+          ],
+          "size": [
+            0.12,
+            0.08
+          ]
+        }
+      ]
+    },
+    "DP_Comparison_C01_1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Comparison_C01_1.fbx",
+      "triangles": [
+        4234,
+        1988,
+        762
+      ],
+      "center": [
+        0.0,
+        0.4307500123977661,
+        0.0
+      ],
+      "size": [
+        1.7999999523162842,
+        0.8615000247955322,
+        1.2999999523162842
+      ],
+      "materials": {
+        "Saved_SF_Blue": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/SF_Blue.mat",
+        "Saved_B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "Saved_B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "Saved_B1M_Coat": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Coat.mat",
+        "Saved_B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "Saved_BL_DataReview": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/BL_DataReview.mat",
+        "Saved_B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "Saved_B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "Saved_B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "Saved_SF_Label": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/SF_Label.mat",
+        "B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "DP_Print": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkRecords.mat",
+        "B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat"
+      },
+      "features": [
+        {
+          "kind": "document",
+          "center": [
+            0.15,
+            0.8055,
+            0.18
+          ],
+          "size": [
+            0.4,
+            0.26
+          ]
+        },
+        {
+          "kind": "document",
+          "center": [
+            -0.44,
+            0.8055,
+            -0.02
+          ],
+          "size": [
+            0.32,
+            0.26
+          ]
+        }
+      ]
+    },
+    "DP_Comparison_N01_0": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Comparison_N01_0.fbx",
+      "triangles": [
+        8432,
+        3962,
+        1516
+      ],
+      "center": [
+        0.0,
+        0.6435937285423279,
+        0.0
+      ],
+      "size": [
+        1.7999999523162842,
+        1.2871874570846558,
+        1.2999999523162842
+      ],
+      "materials": {
+        "Saved_SF_Blue": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/SF_Blue.mat",
+        "Saved_B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "Saved_B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "Saved_B1M_Coat": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Coat.mat",
+        "Saved_B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "Saved_BL_DataReview": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/BL_DataReview.mat",
+        "Saved_B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "Saved_B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "Saved_B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "Saved_SF_Label": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/SF_Label.mat",
+        "B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "DP_ScreenPrint": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkScreens.mat",
+        "B1M_Coat": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Coat.mat",
+        "B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat",
+        "B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "DP_Print": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkRecords.mat",
+        "B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat"
+      },
+      "features": [
+        {
+          "kind": "monitor",
+          "center": [
+            0,
+            0.8055,
+            -0.4
+          ],
+          "size": [
+            0.5820000000000001,
+            0.22
+          ]
+        },
+        {
+          "kind": "document",
+          "center": [
+            0.42,
+            0.8055,
+            0.18
+          ],
+          "size": [
+            0.4,
+            0.26
+          ]
+        },
+        {
+          "kind": "document",
+          "center": [
+            -0.44,
+            0.8055,
+            0.2
+          ],
+          "size": [
+            0.32,
+            0.26
+          ]
+        },
+        {
+          "kind": "cup",
+          "center": [
+            0.69,
+            0.8055,
+            -0.22
+          ],
+          "size": [
+            0.12,
+            0.08
+          ]
+        }
+      ]
+    },
+    "DP_Comparison_W01_0": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Comparison_W01_0.fbx",
+      "triangles": [
+        8084,
+        3798,
+        1454
+      ],
+      "center": [
+        0.0,
+        0.6435937285423279,
+        0.0
+      ],
+      "size": [
+        1.7999999523162842,
+        1.2871874570846558,
+        1.2999999523162842
+      ],
+      "materials": {
+        "Saved_SF_Blue": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/SF_Blue.mat",
+        "Saved_B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "Saved_B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "Saved_B1M_Coat": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Coat.mat",
+        "Saved_B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "Saved_BL_DataReview": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/BL_DataReview.mat",
+        "Saved_B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "Saved_B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "Saved_B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "Saved_SF_Label": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/SF_Label.mat",
+        "B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "DP_ScreenPrint": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkScreens.mat",
+        "B1M_Coat": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Coat.mat",
+        "B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "DP_Print": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkRecords.mat",
+        "B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat"
+      },
+      "features": [
+        {
+          "kind": "monitor",
+          "center": [
+            0,
+            0.8055,
+            -0.4
+          ],
+          "size": [
+            0.5820000000000001,
+            0.22
+          ]
+        },
+        {
+          "kind": "document",
+          "center": [
+            0.15,
+            0.8055,
+            0.18
+          ],
+          "size": [
+            0.4,
+            0.26
+          ]
+        },
+        {
+          "kind": "document",
+          "center": [
+            -0.44,
+            0.8055,
+            -0.02
+          ],
+          "size": [
+            0.32,
+            0.26
+          ]
+        }
+      ]
+    },
+    "DP_Meeting": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Meeting.fbx",
+      "triangles": [
+        10884,
+        5114,
+        1958
+      ],
+      "center": [
+        0.0,
+        0.44600000977516174,
+        0.0
+      ],
+      "size": [
+        4.199999809265137,
+        0.8920000195503235,
+        1.4499999284744263
+      ],
+      "materials": {
+        "Saved_B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat",
+        "Saved_B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "Saved_B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "Saved_B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "Saved_B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "Saved_B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "DP_Print": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkRecords.mat",
+        "B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat"
+      },
+      "features": [
+        {
+          "kind": "document",
+          "center": [
+            0,
+            0.793,
+            0
+          ],
+          "size": [
+            0.4,
+            0.26
+          ]
+        },
+        {
+          "kind": "document",
+          "center": [
+            0,
+            0.793,
+            0
+          ],
+          "size": [
+            0.32,
+            0.26
+          ]
+        },
+        {
+          "kind": "document",
+          "center": [
+            0,
+            0.793,
+            0
+          ],
+          "size": [
+            0.32,
+            0.26
+          ]
+        },
+        {
+          "kind": "document",
+          "center": [
+            0,
+            0.793,
+            0
+          ],
+          "size": [
+            0.32,
+            0.26
+          ]
+        },
+        {
+          "kind": "cup",
+          "center": [
+            -1.78,
+            0.793,
+            0.42
+          ],
+          "size": [
+            0.12,
+            0.08
+          ]
+        },
+        {
+          "kind": "cup",
+          "center": [
+            1.77,
+            0.793,
+            -0.4
+          ],
+          "size": [
+            0.12,
+            0.08
+          ]
+        }
+      ]
+    },
+    "DP_Dining_0": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Dining_0.fbx",
+      "triangles": [
+        11288,
+        5305,
+        2031
+      ],
+      "center": [
+        0.0,
+        0.5199999809265137,
+        0.0
+      ],
+      "size": [
+        1.7999999523162842,
+        1.0399999618530273,
+        2.134999990463257
+      ],
+      "materials": {
+        "Saved_B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat",
+        "Saved_B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "Saved_B1M_Fabric": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Fabric.mat",
+        "Saved_B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "Saved_B1M_Coat": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Coat.mat",
+        "B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat",
+        "B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "DP_Print": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkRecords.mat"
+      },
+      "features": [
+        {
+          "kind": "cup",
+          "center": [
+            0.16,
+            0.793,
+            -0.025
+          ],
+          "size": [
+            0.12,
+            0.08
+          ]
+        },
+        {
+          "kind": "cup",
+          "center": [
+            0.16,
+            0.793,
+            -0.025
+          ],
+          "size": [
+            0.12,
+            0.08
+          ]
+        },
+        {
+          "kind": "cup",
+          "center": [
+            0.16,
+            0.793,
+            -0.025
+          ],
+          "size": [
+            0.12,
+            0.08
+          ]
+        },
+        {
+          "kind": "document",
+          "center": [
+            0.0,
+            0.793,
+            0
+          ],
+          "size": [
+            0.32,
+            0.26
+          ]
+        }
+      ]
+    },
+    "DP_Dining_1": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Dining_1.fbx",
+      "triangles": [
+        11098,
+        5216,
+        1997
+      ],
+      "center": [
+        0.0,
+        0.5199999809265137,
+        0.0
+      ],
+      "size": [
+        1.7999999523162842,
+        1.0399999618530273,
+        2.134999990463257
+      ],
+      "materials": {
+        "Saved_B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat",
+        "Saved_B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "Saved_B1M_Fabric": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Fabric.mat",
+        "Saved_B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "Saved_B1M_Coat": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Coat.mat",
+        "B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat",
+        "B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "B1M_Coat": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Coat.mat"
+      },
+      "features": [
+        {
+          "kind": "cup",
+          "center": [
+            0.16,
+            0.793,
+            -0.025
+          ],
+          "size": [
+            0.12,
+            0.08
+          ]
+        },
+        {
+          "kind": "cup",
+          "center": [
+            0.16,
+            0.793,
+            -0.025
+          ],
+          "size": [
+            0.12,
+            0.08
+          ]
+        },
+        {
+          "kind": "cup",
+          "center": [
+            0.16,
+            0.793,
+            -0.025
+          ],
+          "size": [
+            0.12,
+            0.08
+          ]
+        }
+      ]
+    },
+    "DP_Dining_2": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Dining_2.fbx",
+      "triangles": [
+        12576,
+        5910,
+        2262
+      ],
+      "center": [
+        0.0,
+        0.5199999809265137,
+        0.0
+      ],
+      "size": [
+        1.7999999523162842,
+        1.0399999618530273,
+        2.134999990463257
+      ],
+      "materials": {
+        "Saved_B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat",
+        "Saved_B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "Saved_B1M_Fabric": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Fabric.mat",
+        "Saved_B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "Saved_B1M_Coat": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Coat.mat",
+        "B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat",
+        "B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat"
+      },
+      "features": [
+        {
+          "kind": "cup",
+          "center": [
+            0.16,
+            0.793,
+            -0.025
+          ],
+          "size": [
+            0.12,
+            0.08
+          ]
+        },
+        {
+          "kind": "cup",
+          "center": [
+            0.16,
+            0.793,
+            -0.025
+          ],
+          "size": [
+            0.12,
+            0.08
+          ]
+        },
+        {
+          "kind": "cup",
+          "center": [
+            0.16,
+            0.793,
+            -0.025
+          ],
+          "size": [
+            0.12,
+            0.08
+          ]
+        },
+        {
+          "kind": "cup",
+          "center": [
+            0,
+            0.793,
+            0
+          ],
+          "size": [
+            0.12,
+            0.08
+          ]
+        }
+      ]
+    },
+    "DP_Dining_3": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Dining_3.fbx",
+      "triangles": [
+        10910,
+        5127,
+        1963
+      ],
+      "center": [
+        0.0,
+        0.5199999809265137,
+        0.0
+      ],
+      "size": [
+        1.7999999523162842,
+        1.0399999618530273,
+        2.134999990463257
+      ],
+      "materials": {
+        "Saved_B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat",
+        "Saved_B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "Saved_B1M_Fabric": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Fabric.mat",
+        "Saved_B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "Saved_B1M_Coat": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Coat.mat",
+        "B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "B1M_Warm": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Warm.mat",
+        "B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat"
+      },
+      "features": [
+        {
+          "kind": "cup",
+          "center": [
+            0.16,
+            0.793,
+            -0.025
+          ],
+          "size": [
+            0.12,
+            0.08
+          ]
+        },
+        {
+          "kind": "cup",
+          "center": [
+            0.16,
+            0.793,
+            -0.025
+          ],
+          "size": [
+            0.12,
+            0.08
+          ]
+        },
+        {
+          "kind": "cup",
+          "center": [
+            0.16,
+            0.793,
+            -0.025
+          ],
+          "size": [
+            0.12,
+            0.08
+          ]
+        }
+      ]
+    },
+    "DP_Radio_E01": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Radio_E01.fbx",
+      "triangles": [
+        11246,
+        5284,
+        2024
+      ],
+      "center": [
+        1.5497207641601562e-06,
+        0.6902500484138727,
+        -6.705522537231445e-07
+      ],
+      "size": [
+        1.4600002765655518,
+        1.340500097721815,
+        0.6800001561641693
+      ],
+      "materials": {
+        "Saved_B1M_Clinical": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Clinical.mat",
+        "Saved_B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "Saved_B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "Saved_B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "Saved_B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "Saved_BL_AccessSecurity": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/BL_AccessSecurity.mat",
+        "Saved_B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "Saved_SF_Label": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/SF_Label.mat",
+        "B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "B1M_Lens": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Lens.mat",
+        "B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "B1M_Coat": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Coat.mat",
+        "B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "DP_Print": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkRecords.mat"
+      },
+      "features": [
+        {
+          "kind": "document",
+          "center": [
+            0.22,
+            0.9505,
+            0.17
+          ],
+          "size": [
+            0.32,
+            0.26
+          ]
+        }
+      ]
+    },
+    "DP_Radio_E03": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Radio_E03.fbx",
+      "triangles": [
+        11246,
+        5284,
+        2024
+      ],
+      "center": [
+        1.5497207641601562e-06,
+        0.6902500484138727,
+        -6.705522537231445e-07
+      ],
+      "size": [
+        1.4600002765655518,
+        1.340500097721815,
+        0.6800001561641693
+      ],
+      "materials": {
+        "Saved_B1M_Clinical": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Clinical.mat",
+        "Saved_B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "Saved_B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "Saved_B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "Saved_B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "Saved_BL_AccessSecurity": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/BL_AccessSecurity.mat",
+        "Saved_B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "Saved_SF_Label": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/SF_Label.mat",
+        "B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "B1M_Lens": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Lens.mat",
+        "B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "B1M_Coat": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Coat.mat",
+        "B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "B1M_Paper": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Paper.mat",
+        "DP_Print": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkRecords.mat"
+      },
+      "features": [
+        {
+          "kind": "document",
+          "center": [
+            -0.23,
+            0.9505,
+            0.17
+          ],
+          "size": [
+            0.32,
+            0.26
+          ]
+        }
+      ]
+    },
+    "DP_VitalCart": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_VitalCart.fbx",
+      "triangles": [
+        14172,
+        6660,
+        2550
+      ],
+      "center": [
+        1.6540288925170898e-06,
+        0.8252499625086784,
+        0.011499196290969849
+      ],
+      "size": [
+        0.6250001490116119,
+        1.6344999223947525,
+        0.5370001196861267
+      ],
+      "materials": {
+        "Saved_B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "Saved_B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "Saved_B1M_Clinical": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Clinical.mat",
+        "Saved_B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "DP_ScreenPrint": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkScreens.mat",
+        "Saved_B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "Saved_B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "Saved_SF_Label": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/SF_Label.mat",
+        "B1M_Coat": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Coat.mat",
+        "B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "B1M_Fabric": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Fabric.mat",
+        "B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat"
+      },
+      "features": []
+    },
+    "DP_UltrasoundCart": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_UltrasoundCart.fbx",
+      "triangles": [
+        15172,
+        7130,
+        2730
+      ],
+      "center": [
+        1.4901161193847656e-08,
+        0.8252499625086784,
+        0.01150086522102356
+      ],
+      "size": [
+        0.6250001490116119,
+        1.6344999223947525,
+        0.5370001196861267
+      ],
+      "materials": {
+        "Saved_B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "Saved_B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat",
+        "Saved_B1M_Clinical": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Clinical.mat",
+        "Saved_B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "DP_ScreenPrint": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkScreens.mat",
+        "Saved_B1M_Indicator": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Indicator.mat",
+        "Saved_B1M_Teal": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Teal.mat",
+        "Saved_SF_Label": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/SF_Label.mat",
+        "B1M_Coat": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Coat.mat",
+        "B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "B1M_Rubber": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Rubber.mat"
+      },
+      "features": []
+    },
+    "DP_Recorder": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Recorder.fbx",
+      "triangles": [
+        2446,
+        1148,
+        440
+      ],
+      "center": [
+        0.0,
+        0.029500000178813934,
+        0.0005000010132789612
+      ],
+      "size": [
+        0.10000000149011612,
+        0.05900000035762787,
+        0.19099999964237213
+      ],
+      "materials": {
+        "B1M_Dark": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Dark.mat",
+        "B1M_Steel": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Steel.mat",
+        "DP_Print": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/DP_WorkRecords.mat",
+        "B1M_Coat": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Coat.mat",
+        "B1M_Red": "Assets/Afrer_Seconds/05.Model/Environment/B1/Materials/B1M_Red.mat"
+      },
+      "features": []
+    }
+  },
+  "metrics": {
+    "surveyedPlacements": 53,
+    "changedPlacements": 51,
+    "researchDesks": 24,
+    "researchDeskVariants": 12,
+    "rightHandedStations": 28,
+    "newModels": 30,
+    "lodMeshes": 90,
+    "modelBytes": 43763192,
+    "newTextures": 1,
+    "textureSize": [
+      2048,
+      2048
+    ],
+    "newMaterials": 2,
+    "activeLodGroups": 342,
+    "activeLights": 209,
+    "changedPlacementLod0TrianglesBefore": 757256,
+    "changedPlacementLod0TrianglesAfter": 1097344,
+    "deltaLod0Triangles": 340088,
+    "protectedTransforms": 2735,
+    "protectedColliders": 519,
+    "protectedFiles": 13041,
+    "walkPass": 297,
+    "playRooms": 5
+  }
+}

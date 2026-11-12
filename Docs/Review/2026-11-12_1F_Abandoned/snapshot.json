@@ -1,0 +1,5140 @@
+{
+  "version": "V0.01",
+  "author": "송예찬",
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_1F_Factory.unity",
+  "placements": [
+    {
+      "name": "F1_C01_Press_01",
+      "model": "Press",
+      "room": "C01",
+      "position": [
+        -16.0,
+        0.0,
+        2.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_Press.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C01_ConveyorLong_02",
+      "model": "ConveyorLong",
+      "room": "C01",
+      "position": [
+        -9.0,
+        0.0,
+        2.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_ConveyorLong.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C01_ConveyorShort_03",
+      "model": "ConveyorShort",
+      "room": "C01",
+      "position": [
+        -6.0,
+        0.0,
+        -4.0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_ConveyorShort.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C01_Forklift_04",
+      "model": "Forklift",
+      "room": "C01",
+      "position": [
+        -5.0,
+        0.0,
+        -8.0
+      ],
+      "rotation": [
+        0.0,
+        335.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_Forklift.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C01_CableReel_05",
+      "model": "CableReel",
+      "room": "C01",
+      "position": [
+        -20.0,
+        0.0,
+        -7.0
+      ],
+      "rotation": [
+        0.0,
+        20.0000019,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_CableReel.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C01_CableReel_06",
+      "model": "CableReel",
+      "room": "C01",
+      "position": [
+        -17.5,
+        0.0,
+        -7.0
+      ],
+      "rotation": [
+        0.0,
+        345.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_CableReel.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C01_PartsRack_07",
+      "model": "PartsRack",
+      "room": "C01",
+      "position": [
+        -22.0,
+        0.0,
+        7.0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_PartsRack.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C01_PartsRack_08",
+      "model": "PartsRack",
+      "room": "C01",
+      "position": [
+        -22.0,
+        0.0,
+        3.0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_PartsRack.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C01_PartsRack_09",
+      "model": "PartsRack",
+      "room": "C01",
+      "position": [
+        -17.0,
+        0.0,
+        11.0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_PartsRack.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C01_PartsRack_10",
+      "model": "PartsRack",
+      "room": "C01",
+      "position": [
+        -8.0,
+        0.0,
+        11.0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_PartsRack.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C01_MotorBench_11",
+      "model": "MotorBench",
+      "room": "C01",
+      "position": [
+        -5.0,
+        0.0,
+        10.0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_MaintenanceBench.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C01_Switchgear_12",
+      "model": "Switchgear",
+      "room": "C01",
+      "position": [
+        -1.0,
+        0.0,
+        7.0
+      ],
+      "rotation": [
+        0.0,
+        270.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_Switchgear.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C01_Switchgear_13",
+      "model": "Switchgear",
+      "room": "C01",
+      "position": [
+        -1.0,
+        0.0,
+        4.0
+      ],
+      "rotation": [
+        0.0,
+        270.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_Switchgear.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C01_CrateLoad_A_14",
+      "model": "CrateLoad_A",
+      "room": "C01",
+      "position": [
+        -22.0,
+        0.0,
+        -1.0
+      ],
+      "rotation": [
+        0.0,
+        353.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_CrateLoad_A.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C01_CrateLoad_B_15",
+      "model": "CrateLoad_B",
+      "room": "C01",
+      "position": [
+        -22.0,
+        0.0,
+        -4.0
+      ],
+      "rotation": [
+        0.0,
+        82.99999,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_CrateLoad_B.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C01_DrumGroup_16",
+      "model": "DrumGroup",
+      "room": "C01",
+      "position": [
+        -9.0,
+        0.0,
+        -9.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_DrumGroup.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C01_ScrapBin_17",
+      "model": "ScrapBin",
+      "room": "C01",
+      "position": [
+        -2.0,
+        0.0,
+        -11.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_ScrapBin.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C01_ToolCart_18",
+      "model": "ToolCart",
+      "room": "C01",
+      "position": [
+        -19.0,
+        0.0,
+        5.0
+      ],
+      "rotation": [
+        0.0,
+        270.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C02_CrateLoad_A_01",
+      "model": "CrateLoad_A",
+      "room": "C02",
+      "position": [
+        18.0,
+        0.0,
+        -13.0
+      ],
+      "rotation": [
+        0.0,
+        11.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_CrateLoad_A.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C02_CrateLoad_B_02",
+      "model": "CrateLoad_B",
+      "room": "C02",
+      "position": [
+        18.0,
+        0.0,
+        -9.0
+      ],
+      "rotation": [
+        0.0,
+        11.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_CrateLoad_B.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C02_CrateLoad_A_03",
+      "model": "CrateLoad_A",
+      "room": "C02",
+      "position": [
+        18.0,
+        0.0,
+        -5.0
+      ],
+      "rotation": [
+        0.0,
+        101.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_CrateLoad_A.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C02_PalletStack_04",
+      "model": "PalletStack",
+      "room": "C02",
+      "position": [
+        22.0,
+        0.0,
+        -14.0
+      ],
+      "rotation": [
+        0.0,
+        11.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_PalletStack.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C02_PalletStack_05",
+      "model": "PalletStack",
+      "room": "C02",
+      "position": [
+        29.0,
+        0.0,
+        -12.0
+      ],
+      "rotation": [
+        0.0,
+        11.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_PalletStack.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C02_PalletJack_06",
+      "model": "PalletJack",
+      "room": "C02",
+      "position": [
+        23.5,
+        0.0,
+        -10.0
+      ],
+      "rotation": [
+        0.0,
+        25.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_PalletJack.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C02_HandTruck_07",
+      "model": "HandTruck",
+      "room": "C02",
+      "position": [
+        29.0,
+        0.0,
+        -7.0
+      ],
+      "rotation": [
+        0.0,
+        350.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_HandTruck.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C02_ShippingDesk_08",
+      "model": "ShippingDesk",
+      "room": "C02",
+      "position": [
+        19.0,
+        0.0,
+        -1.0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Desk_04.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C02_PartsRack_09",
+      "model": "PartsRack",
+      "room": "C02",
+      "position": [
+        24.0,
+        0.0,
+        -1.0
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_PartsRack.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C02_ShippingCage_10",
+      "model": "ShippingCage",
+      "room": "C02",
+      "position": [
+        30.0,
+        0.0,
+        -3.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_ShippingCage.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C02_DrumGroup_11",
+      "model": "DrumGroup",
+      "room": "C02",
+      "position": [
+        30.0,
+        0.0,
+        -15.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_DrumGroup.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C02_ScrapBin_13",
+      "model": "ScrapBin",
+      "room": "C02",
+      "position": [
+        16.0,
+        0.0,
+        -15.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_ScrapBin.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C04_OfficeDesk_A_01",
+      "model": "OfficeDesk_A",
+      "room": "C04",
+      "position": [
+        -16.0,
+        0.0,
+        28.8
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Desk_00.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C04_OfficeDesk_B_02",
+      "model": "OfficeDesk_B",
+      "room": "C04",
+      "position": [
+        -13.0,
+        0.0,
+        28.8
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Desk_05.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C04_OfficeDesk_C_03",
+      "model": "OfficeDesk_C",
+      "room": "C04",
+      "position": [
+        -16.0,
+        0.0,
+        21.3
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Desk_09.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C04_FileCabinet_04",
+      "model": "FileCabinet",
+      "room": "C04",
+      "position": [
+        -17.8,
+        0.0,
+        25.8
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_FileCabinet.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C04_FileCabinet_05",
+      "model": "FileCabinet",
+      "room": "C04",
+      "position": [
+        -17.8,
+        0.0,
+        24.4
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_FileCabinet.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C04_Locker_06",
+      "model": "Locker",
+      "room": "C04",
+      "position": [
+        -7.2,
+        0.0,
+        19.3
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_Locker.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C04_Locker_07",
+      "model": "Locker",
+      "room": "C04",
+      "position": [
+        -8.8,
+        0.0,
+        19.3
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_Locker.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C04_BreakTable_08",
+      "model": "BreakTable",
+      "room": "C04",
+      "position": [
+        -8.3,
+        0.0,
+        28.3
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Dining_1.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C04_KitchenCounter_09",
+      "model": "KitchenCounter",
+      "room": "C04",
+      "position": [
+        -6.1,
+        0.0,
+        25.4
+      ],
+      "rotation": [
+        0.0,
+        270.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_KitchenCounter.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C03_SecurityDesk_01",
+      "model": "SecurityDesk",
+      "room": "C03",
+      "position": [
+        -31.0,
+        0.0,
+        -22.3
+      ],
+      "rotation": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Desk_07.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C03_FileCabinet_05",
+      "model": "FileCabinet",
+      "room": "C03",
+      "position": [
+        -35.8,
+        0.0,
+        -22.0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_FileCabinet.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C03_InspectionCounter_06",
+      "model": "InspectionCounter",
+      "room": "C03",
+      "position": [
+        -33.7,
+        0.0,
+        -29.3
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_InspectionCounter.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C03_Bench_07",
+      "model": "Bench",
+      "room": "C03",
+      "position": [
+        -26.3,
+        0.0,
+        -31.7
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_Bench.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_VA_ArrivalFireDoor_01",
+      "model": "ArrivalFireDoor",
+      "room": "VA",
+      "position": [
+        -44.0,
+        0.0,
+        23.28
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_ArrivalFireDoor.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_VB_ArrivalFireDoor_01",
+      "model": "ArrivalFireDoor",
+      "room": "VB",
+      "position": [
+        44.0,
+        0.0,
+        -32.72
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_ArrivalFireDoor.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_VL_LiftCabin_01",
+      "model": "LiftCabin",
+      "room": "VL",
+      "position": [
+        44.0,
+        0.0,
+        26.75
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_LiftCabin.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_OUT_GuardBollard_02",
+      "model": "GuardBollard",
+      "room": "OUT",
+      "position": [
+        -53.0,
+        -0.18,
+        -30.7
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_GuardBollard.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_OUT_GuardBollard_03",
+      "model": "GuardBollard",
+      "room": "OUT",
+      "position": [
+        -53.0,
+        -0.18,
+        -25.3
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_GuardBollard.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_OUT_DrumGroup_04",
+      "model": "DrumGroup",
+      "room": "OUT",
+      "position": [
+        -64.0,
+        -0.18,
+        -20.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_DrumGroup.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_OUT_CableReel_05",
+      "model": "CableReel",
+      "room": "OUT",
+      "position": [
+        -63.0,
+        -0.18,
+        -36.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_CableReel.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C02_ShippingDesk_08_Chair",
+      "model": "OfficeChair",
+      "room": "C02",
+      "position": [
+        19.0,
+        0.0,
+        -1.92
+      ],
+      "rotation": [
+        0.0,
+        337.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_OfficeChair.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C04_OfficeDesk_A_01_Chair",
+      "model": "OfficeChair",
+      "room": "C04",
+      "position": [
+        -16.0,
+        0.0,
+        27.88
+      ],
+      "rotation": [
+        0.0,
+        27.0000019,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_OfficeChair.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C04_OfficeDesk_B_02_Chair",
+      "model": "OfficeChair",
+      "room": "C04",
+      "position": [
+        -12.75,
+        0.334999651,
+        27.9299984
+      ],
+      "rotation": [
+        0.0,
+        36.0,
+        86.99999
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_OfficeChair.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C04_OfficeDesk_C_03_Chair",
+      "model": "OfficeChair",
+      "room": "C04",
+      "position": [
+        -16.0,
+        0.0,
+        22.22
+      ],
+      "rotation": [
+        0.0,
+        207.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_OfficeChair.fbx",
+      "condition": "Abandoned, no powered displays"
+    },
+    {
+      "name": "F1_C03_SecurityDesk_01_Chair",
+      "model": "OfficeChair",
+      "room": "C03",
+      "position": [
+        -31.0,
+        0.0,
+        -23.22
+      ],
+      "rotation": [
+        0.0,
+        337.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_OfficeChair.fbx",
+      "condition": "Abandoned, no powered displays"
+    }
+  ],
+  "models": [
+    {
+      "name": "AE_C04_Frames",
+      "path": "1F_AbandonedFactory/1F_C04/AE_C04_Frames",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C04_Frames.fbx"
+    },
+    {
+      "name": "AE_VA_Frames",
+      "path": "1F_AbandonedFactory/1F_VA/AE_VA_Frames",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_VA_Frames.fbx"
+    },
+    {
+      "name": "AE_VB_Frames",
+      "path": "1F_AbandonedFactory/1F_VB/AE_VB_Frames",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_VB_Frames.fbx"
+    },
+    {
+      "name": "AE_VL_Frames",
+      "path": "1F_AbandonedFactory/1F_VL/AE_VL_Frames",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_VL_Frames.fbx"
+    },
+    {
+      "name": "AE_InteriorFloor",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_InteriorFloor",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_InteriorFloor.fbx"
+    },
+    {
+      "name": "AE_C01_Walls",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_C01_Walls",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C01_Walls.fbx"
+    },
+    {
+      "name": "AE_C02_Walls",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_C02_Walls",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C02_Walls.fbx"
+    },
+    {
+      "name": "AE_C03_Walls",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_C03_Walls",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C03_Walls.fbx"
+    },
+    {
+      "name": "AE_C04_Walls",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_C04_Walls",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C04_Walls.fbx"
+    },
+    {
+      "name": "AE_VA_Walls",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_VA_Walls",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_VA_Walls.fbx"
+    },
+    {
+      "name": "AE_VB_Walls",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_VB_Walls",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_VB_Walls.fbx"
+    },
+    {
+      "name": "AE_VL_Walls",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_VL_Walls",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_VL_Walls.fbx"
+    },
+    {
+      "name": "AE_T01_Walls",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_T01_Walls",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T01_Walls.fbx"
+    },
+    {
+      "name": "AE_T02_Walls",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_T02_Walls",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T02_Walls.fbx"
+    },
+    {
+      "name": "AE_T03_Walls",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_T03_Walls",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T03_Walls.fbx"
+    },
+    {
+      "name": "AE_T04_Walls",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_T04_Walls",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T04_Walls.fbx"
+    },
+    {
+      "name": "AE_T05_Walls",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_T05_Walls",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T05_Walls.fbx"
+    },
+    {
+      "name": "AE_T06_Walls",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_T06_Walls",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T06_Walls.fbx"
+    },
+    {
+      "name": "AE_T07_Walls",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_T07_Walls",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T07_Walls.fbx"
+    },
+    {
+      "name": "AE_C01_Frames",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_C01_Frames",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C01_Frames.fbx"
+    },
+    {
+      "name": "AE_C01_Roof",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_C01_Roof",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C01_Roof.fbx"
+    },
+    {
+      "name": "AE_C02_Frames",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_C02_Frames",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C02_Frames.fbx"
+    },
+    {
+      "name": "AE_C02_Roof",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_C02_Roof",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C02_Roof.fbx"
+    },
+    {
+      "name": "AE_C03_Roof",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_C03_Roof",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C03_Roof.fbx"
+    },
+    {
+      "name": "AE_C04_Roof",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_C04_Roof",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C04_Roof.fbx"
+    },
+    {
+      "name": "AE_VA_Roof",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_VA_Roof",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_VA_Roof.fbx"
+    },
+    {
+      "name": "AE_VB_Roof",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_VB_Roof",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_VB_Roof.fbx"
+    },
+    {
+      "name": "AE_VL_Roof",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_VL_Roof",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_VL_Roof.fbx"
+    },
+    {
+      "name": "AE_T01_Roof",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_T01_Roof",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T01_Roof.fbx"
+    },
+    {
+      "name": "AE_T02_Roof",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_T02_Roof",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T02_Roof.fbx"
+    },
+    {
+      "name": "AE_T03_Roof",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_T03_Roof",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T03_Roof.fbx"
+    },
+    {
+      "name": "AE_T04_Roof",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_T04_Roof",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T04_Roof.fbx"
+    },
+    {
+      "name": "AE_T05_Roof",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_T05_Roof",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T05_Roof.fbx"
+    },
+    {
+      "name": "AE_T06_Roof",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_T06_Roof",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T06_Roof.fbx"
+    },
+    {
+      "name": "AE_T07_Roof",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_T07_Roof",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T07_Roof.fbx"
+    },
+    {
+      "name": "AE_C01_CatwalkPipes",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_C01_CatwalkPipes",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C01_CatwalkPipes.fbx"
+    },
+    {
+      "name": "AE_ExteriorProcessRuins",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_ExteriorProcessRuins",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_ExteriorProcessRuins.fbx"
+    },
+    {
+      "name": "AE_Grass_-6_-4",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-6_-4",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-6_-4.fbx"
+    },
+    {
+      "name": "AE_Grass_-6_-3",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-6_-3",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-6_-3.fbx"
+    },
+    {
+      "name": "AE_Grass_-6_-2",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-6_-2",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-6_-2.fbx"
+    },
+    {
+      "name": "AE_Grass_-6_-1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-6_-1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-6_-1.fbx"
+    },
+    {
+      "name": "AE_Grass_-6_0",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-6_0",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-6_0.fbx"
+    },
+    {
+      "name": "AE_Grass_-6_1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-6_1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-6_1.fbx"
+    },
+    {
+      "name": "AE_Grass_-6_2",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-6_2",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-6_2.fbx"
+    },
+    {
+      "name": "AE_Grass_-6_3",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-6_3",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-6_3.fbx"
+    },
+    {
+      "name": "AE_Grass_-5_-4",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-5_-4",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-5_-4.fbx"
+    },
+    {
+      "name": "AE_Grass_-5_-3",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-5_-3",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-5_-3.fbx"
+    },
+    {
+      "name": "AE_Grass_-5_-2",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-5_-2",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-5_-2.fbx"
+    },
+    {
+      "name": "AE_Grass_-5_-1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-5_-1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-5_-1.fbx"
+    },
+    {
+      "name": "AE_Grass_-5_0",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-5_0",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-5_0.fbx"
+    },
+    {
+      "name": "AE_Grass_-5_1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-5_1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-5_1.fbx"
+    },
+    {
+      "name": "AE_Grass_-5_2",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-5_2",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-5_2.fbx"
+    },
+    {
+      "name": "AE_Grass_-5_3",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-5_3",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-5_3.fbx"
+    },
+    {
+      "name": "AE_Grass_-4_-4",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-4_-4",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-4_-4.fbx"
+    },
+    {
+      "name": "AE_Grass_-4_-3",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-4_-3",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-4_-3.fbx"
+    },
+    {
+      "name": "AE_Grass_-4_-2",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-4_-2",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-4_-2.fbx"
+    },
+    {
+      "name": "AE_Grass_-4_-1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-4_-1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-4_-1.fbx"
+    },
+    {
+      "name": "AE_Grass_-4_0",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-4_0",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-4_0.fbx"
+    },
+    {
+      "name": "AE_Grass_-4_1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-4_1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-4_1.fbx"
+    },
+    {
+      "name": "AE_Grass_-4_2",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-4_2",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-4_2.fbx"
+    },
+    {
+      "name": "AE_Grass_-3_-4",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-3_-4",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-3_-4.fbx"
+    },
+    {
+      "name": "AE_Grass_-3_-3",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-3_-3",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-3_-3.fbx"
+    },
+    {
+      "name": "AE_Grass_-3_-2",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-3_-2",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-3_-2.fbx"
+    },
+    {
+      "name": "AE_Grass_-3_-1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-3_-1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-3_-1.fbx"
+    },
+    {
+      "name": "AE_Grass_-3_0",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-3_0",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-3_0.fbx"
+    },
+    {
+      "name": "AE_Grass_-3_1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-3_1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-3_1.fbx"
+    },
+    {
+      "name": "AE_Grass_-3_2",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-3_2",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-3_2.fbx"
+    },
+    {
+      "name": "AE_Grass_-3_3",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-3_3",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-3_3.fbx"
+    },
+    {
+      "name": "AE_Grass_-2_-4",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-2_-4",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-2_-4.fbx"
+    },
+    {
+      "name": "AE_Grass_-2_-3",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-2_-3",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-2_-3.fbx"
+    },
+    {
+      "name": "AE_Grass_-2_-2",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-2_-2",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-2_-2.fbx"
+    },
+    {
+      "name": "AE_Grass_-2_-1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-2_-1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-2_-1.fbx"
+    },
+    {
+      "name": "AE_Grass_-2_0",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-2_0",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-2_0.fbx"
+    },
+    {
+      "name": "AE_Grass_-2_1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-2_1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-2_1.fbx"
+    },
+    {
+      "name": "AE_Grass_-2_2",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-2_2",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-2_2.fbx"
+    },
+    {
+      "name": "AE_Grass_-2_3",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-2_3",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-2_3.fbx"
+    },
+    {
+      "name": "AE_Grass_-1_-4",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-1_-4",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-1_-4.fbx"
+    },
+    {
+      "name": "AE_Grass_-1_-3",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-1_-3",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-1_-3.fbx"
+    },
+    {
+      "name": "AE_Grass_-1_-2",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-1_-2",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-1_-2.fbx"
+    },
+    {
+      "name": "AE_Grass_-1_-1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-1_-1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-1_-1.fbx"
+    },
+    {
+      "name": "AE_Grass_-1_0",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-1_0",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-1_0.fbx"
+    },
+    {
+      "name": "AE_Grass_-1_1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-1_1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-1_1.fbx"
+    },
+    {
+      "name": "AE_Grass_-1_2",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-1_2",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-1_2.fbx"
+    },
+    {
+      "name": "AE_Grass_-1_3",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_-1_3",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_-1_3.fbx"
+    },
+    {
+      "name": "AE_Grass_0_-4",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_0_-4",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_0_-4.fbx"
+    },
+    {
+      "name": "AE_Grass_0_-3",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_0_-3",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_0_-3.fbx"
+    },
+    {
+      "name": "AE_Grass_0_-2",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_0_-2",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_0_-2.fbx"
+    },
+    {
+      "name": "AE_Grass_0_-1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_0_-1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_0_-1.fbx"
+    },
+    {
+      "name": "AE_Grass_0_0",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_0_0",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_0_0.fbx"
+    },
+    {
+      "name": "AE_Grass_0_1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_0_1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_0_1.fbx"
+    },
+    {
+      "name": "AE_Grass_0_2",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_0_2",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_0_2.fbx"
+    },
+    {
+      "name": "AE_Grass_0_3",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_0_3",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_0_3.fbx"
+    },
+    {
+      "name": "AE_Grass_1_-4",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_1_-4",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_1_-4.fbx"
+    },
+    {
+      "name": "AE_Grass_1_-3",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_1_-3",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_1_-3.fbx"
+    },
+    {
+      "name": "AE_Grass_1_-2",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_1_-2",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_1_-2.fbx"
+    },
+    {
+      "name": "AE_Grass_1_-1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_1_-1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_1_-1.fbx"
+    },
+    {
+      "name": "AE_Grass_1_0",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_1_0",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_1_0.fbx"
+    },
+    {
+      "name": "AE_Grass_1_1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_1_1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_1_1.fbx"
+    },
+    {
+      "name": "AE_Grass_1_2",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_1_2",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_1_2.fbx"
+    },
+    {
+      "name": "AE_Grass_1_3",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_1_3",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_1_3.fbx"
+    },
+    {
+      "name": "AE_Grass_2_-4",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_2_-4",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_2_-4.fbx"
+    },
+    {
+      "name": "AE_Grass_2_-3",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_2_-3",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_2_-3.fbx"
+    },
+    {
+      "name": "AE_Grass_2_-2",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_2_-2",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_2_-2.fbx"
+    },
+    {
+      "name": "AE_Grass_2_-1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_2_-1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_2_-1.fbx"
+    },
+    {
+      "name": "AE_Grass_2_0",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_2_0",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_2_0.fbx"
+    },
+    {
+      "name": "AE_Grass_2_1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_2_1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_2_1.fbx"
+    },
+    {
+      "name": "AE_Grass_2_2",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_2_2",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_2_2.fbx"
+    },
+    {
+      "name": "AE_Grass_2_3",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_2_3",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_2_3.fbx"
+    },
+    {
+      "name": "AE_Grass_3_-4",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_3_-4",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_3_-4.fbx"
+    },
+    {
+      "name": "AE_Grass_3_-3",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_3_-3",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_3_-3.fbx"
+    },
+    {
+      "name": "AE_Grass_3_-2",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_3_-2",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_3_-2.fbx"
+    },
+    {
+      "name": "AE_Grass_3_-1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_3_-1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_3_-1.fbx"
+    },
+    {
+      "name": "AE_Grass_3_0",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_3_0",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_3_0.fbx"
+    },
+    {
+      "name": "AE_Grass_3_1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_3_1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_3_1.fbx"
+    },
+    {
+      "name": "AE_Grass_3_2",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_3_2",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_3_2.fbx"
+    },
+    {
+      "name": "AE_Grass_3_3",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_3_3",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_3_3.fbx"
+    },
+    {
+      "name": "AE_Grass_4_-3",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_4_-3",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_4_-3.fbx"
+    },
+    {
+      "name": "AE_Grass_4_-2",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_4_-2",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_4_-2.fbx"
+    },
+    {
+      "name": "AE_Grass_4_-1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_4_-1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_4_-1.fbx"
+    },
+    {
+      "name": "AE_Grass_4_0",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_4_0",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_4_0.fbx"
+    },
+    {
+      "name": "AE_Grass_4_1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Grass_4_1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Grass_4_1.fbx"
+    },
+    {
+      "name": "AE_Shrubs_-3_-2",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Shrubs_-3_-2",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_-3_-2.fbx"
+    },
+    {
+      "name": "AE_Shrubs_-3_-1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Shrubs_-3_-1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_-3_-1.fbx"
+    },
+    {
+      "name": "AE_Shrubs_-3_0",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Shrubs_-3_0",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_-3_0.fbx"
+    },
+    {
+      "name": "AE_Shrubs_-3_1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Shrubs_-3_1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_-3_1.fbx"
+    },
+    {
+      "name": "AE_Shrubs_-2_-2",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Shrubs_-2_-2",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_-2_-2.fbx"
+    },
+    {
+      "name": "AE_Shrubs_-2_-1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Shrubs_-2_-1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_-2_-1.fbx"
+    },
+    {
+      "name": "AE_Shrubs_-2_0",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Shrubs_-2_0",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_-2_0.fbx"
+    },
+    {
+      "name": "AE_Shrubs_-2_1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Shrubs_-2_1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_-2_1.fbx"
+    },
+    {
+      "name": "AE_Shrubs_-1_-2",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Shrubs_-1_-2",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_-1_-2.fbx"
+    },
+    {
+      "name": "AE_Shrubs_-1_-1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Shrubs_-1_-1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_-1_-1.fbx"
+    },
+    {
+      "name": "AE_Shrubs_-1_0",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Shrubs_-1_0",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_-1_0.fbx"
+    },
+    {
+      "name": "AE_Shrubs_-1_1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Shrubs_-1_1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_-1_1.fbx"
+    },
+    {
+      "name": "AE_Shrubs_0_-2",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Shrubs_0_-2",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_0_-2.fbx"
+    },
+    {
+      "name": "AE_Shrubs_0_-1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Shrubs_0_-1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_0_-1.fbx"
+    },
+    {
+      "name": "AE_Shrubs_0_0",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Shrubs_0_0",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_0_0.fbx"
+    },
+    {
+      "name": "AE_Shrubs_0_1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Shrubs_0_1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_0_1.fbx"
+    },
+    {
+      "name": "AE_Shrubs_1_-2",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Shrubs_1_-2",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_1_-2.fbx"
+    },
+    {
+      "name": "AE_Shrubs_1_-1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Shrubs_1_-1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_1_-1.fbx"
+    },
+    {
+      "name": "AE_Shrubs_1_0",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Shrubs_1_0",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_1_0.fbx"
+    },
+    {
+      "name": "AE_Shrubs_1_1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Shrubs_1_1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_1_1.fbx"
+    },
+    {
+      "name": "AE_Shrubs_2_-2",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Shrubs_2_-2",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_2_-2.fbx"
+    },
+    {
+      "name": "AE_Shrubs_2_-1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Shrubs_2_-1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_2_-1.fbx"
+    },
+    {
+      "name": "AE_Shrubs_2_0",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Shrubs_2_0",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_2_0.fbx"
+    },
+    {
+      "name": "AE_Shrubs_2_1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Shrubs_2_1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Shrubs_2_1.fbx"
+    },
+    {
+      "name": "AE_WallIvy",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_WallIvy",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_WallIvy.fbx"
+    },
+    {
+      "name": "AE_BrokenApron",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_BrokenApron",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_BrokenApron.fbx"
+    },
+    {
+      "name": "AE_RainPuddles",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_RainPuddles",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_RainPuddles.fbx"
+    },
+    {
+      "name": "AE_PerimeterFence",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_PerimeterFence",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_PerimeterFence.fbx"
+    },
+    {
+      "name": "AE_DeadTrees",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_DeadTrees",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_DeadTrees.fbx"
+    },
+    {
+      "name": "AE_Encroachment_00",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Encroachment_00",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_00.fbx"
+    },
+    {
+      "name": "AE_Encroachment_01",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Encroachment_01",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_01.fbx"
+    },
+    {
+      "name": "AE_Encroachment_02",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Encroachment_02",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_02.fbx"
+    },
+    {
+      "name": "AE_Encroachment_03",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Encroachment_03",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_03.fbx"
+    },
+    {
+      "name": "AE_Encroachment_04",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Encroachment_04",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_04.fbx"
+    },
+    {
+      "name": "AE_Encroachment_05",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Encroachment_05",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_05.fbx"
+    },
+    {
+      "name": "AE_Encroachment_06",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Encroachment_06",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_06.fbx"
+    },
+    {
+      "name": "AE_Encroachment_07",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Encroachment_07",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_07.fbx"
+    },
+    {
+      "name": "AE_Encroachment_08",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Encroachment_08",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_08.fbx"
+    },
+    {
+      "name": "AE_Encroachment_09",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Encroachment_09",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_09.fbx"
+    },
+    {
+      "name": "AE_Encroachment_10",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Encroachment_10",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_10.fbx"
+    },
+    {
+      "name": "AE_Encroachment_11",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Encroachment_11",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_11.fbx"
+    },
+    {
+      "name": "AE_Encroachment_12",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Encroachment_12",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_12.fbx"
+    },
+    {
+      "name": "AE_Encroachment_13",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Encroachment_13",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_13.fbx"
+    },
+    {
+      "name": "AE_Encroachment_14",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Encroachment_14",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_14.fbx"
+    },
+    {
+      "name": "AE_Encroachment_15",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Encroachment_15",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_15.fbx"
+    },
+    {
+      "name": "AE_Encroachment_16",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Encroachment_16",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_16.fbx"
+    },
+    {
+      "name": "AE_Encroachment_17",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Encroachment_17",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_17.fbx"
+    },
+    {
+      "name": "AE_Encroachment_18",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Encroachment_18",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_18.fbx"
+    },
+    {
+      "name": "AE_Encroachment_19",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Encroachment_19",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_19.fbx"
+    },
+    {
+      "name": "AE_Encroachment_20",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Encroachment_20",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_20.fbx"
+    },
+    {
+      "name": "AE_Encroachment_21",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Encroachment_21",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_21.fbx"
+    },
+    {
+      "name": "AE_Encroachment_22",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_Encroachment_22",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Encroachment_22.fbx"
+    },
+    {
+      "name": "AE_ColonisingTrees_0",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_ColonisingTrees_0",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_ColonisingTrees_0.fbx"
+    },
+    {
+      "name": "AE_ColonisingTrees_1",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_ColonisingTrees_1",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_ColonisingTrees_1.fbx"
+    },
+    {
+      "name": "AE_ColonisingTrees_2",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/OvergrownSite/AE_ColonisingTrees_2",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_ColonisingTrees_2.fbx"
+    },
+    {
+      "name": "AE_C01_Debris",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/Abandonment/AE_C01_Debris",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C01_Debris.fbx"
+    },
+    {
+      "name": "AE_C02_Debris",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/Abandonment/AE_C02_Debris",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C02_Debris.fbx"
+    },
+    {
+      "name": "AE_C03_Debris",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/Abandonment/AE_C03_Debris",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C03_Debris.fbx"
+    },
+    {
+      "name": "AE_C04_Debris",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/Abandonment/AE_C04_Debris",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C04_Debris.fbx"
+    },
+    {
+      "name": "AE_VA_Debris",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/Abandonment/AE_VA_Debris",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_VA_Debris.fbx"
+    },
+    {
+      "name": "AE_VB_Debris",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/Abandonment/AE_VB_Debris",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_VB_Debris.fbx"
+    },
+    {
+      "name": "AE_VL_Debris",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/Abandonment/AE_VL_Debris",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_VL_Debris.fbx"
+    },
+    {
+      "name": "AE_C01_IndoorGrowth",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/Abandonment/AE_C01_IndoorGrowth",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C01_IndoorGrowth.fbx"
+    },
+    {
+      "name": "AE_C02_IndoorGrowth",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/Abandonment/AE_C02_IndoorGrowth",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C02_IndoorGrowth.fbx"
+    },
+    {
+      "name": "AE_C04_IndoorGrowth",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/Abandonment/AE_C04_IndoorGrowth",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C04_IndoorGrowth.fbx"
+    },
+    {
+      "name": "AE_C03_IndoorGrowth",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/Abandonment/AE_C03_IndoorGrowth",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C03_IndoorGrowth.fbx"
+    },
+    {
+      "name": "AE_C01_CollapsePile",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/Abandonment/AE_C01_CollapsePile",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C01_CollapsePile.fbx"
+    },
+    {
+      "name": "AE_C02_CollapsePile",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/Abandonment/AE_C02_CollapsePile",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C02_CollapsePile.fbx"
+    },
+    {
+      "name": "AE_C04_CollapsePile",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/Abandonment/AE_C04_CollapsePile",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C04_CollapsePile.fbx"
+    },
+    {
+      "name": "AE_C03_CollapsePile",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/Abandonment/AE_C03_CollapsePile",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C03_CollapsePile.fbx"
+    }
+  ],
+  "terrain": "AE_CamouflageTerrain",
+  "reflections": [
+    {
+      "name": "C01",
+      "mode": "Custom",
+      "texture": "Assets/Afrer_Seconds/05.Model/Environment/1F/Textures/AE_Reflection_C01.exr",
+      "resolution": 128
+    },
+    {
+      "name": "C02",
+      "mode": "Custom",
+      "texture": "Assets/Afrer_Seconds/05.Model/Environment/1F/Textures/AE_Reflection_C02.exr",
+      "resolution": 128
+    },
+    {
+      "name": "C03",
+      "mode": "Custom",
+      "texture": "Assets/Afrer_Seconds/05.Model/Environment/1F/Textures/AE_Reflection_C03.exr",
+      "resolution": 128
+    },
+    {
+      "name": "C04",
+      "mode": "Custom",
+      "texture": "Assets/Afrer_Seconds/05.Model/Environment/1F/Textures/AE_Reflection_C04.exr",
+      "resolution": 128
+    },
+    {
+      "name": "VA",
+      "mode": "Custom",
+      "texture": "Assets/Afrer_Seconds/05.Model/Environment/1F/Textures/AE_Reflection_VA.exr",
+      "resolution": 128
+    },
+    {
+      "name": "VB",
+      "mode": "Custom",
+      "texture": "Assets/Afrer_Seconds/05.Model/Environment/1F/Textures/AE_Reflection_VB.exr",
+      "resolution": 128
+    },
+    {
+      "name": "VL",
+      "mode": "Custom",
+      "texture": "Assets/Afrer_Seconds/05.Model/Environment/1F/Textures/AE_Reflection_VL.exr",
+      "resolution": 128
+    },
+    {
+      "name": "OUT",
+      "mode": "Custom",
+      "texture": "Assets/Afrer_Seconds/05.Model/Environment/1F/Textures/AE_Reflection_OUT.exr",
+      "resolution": 128
+    }
+  ],
+  "lights": [
+    {
+      "name": "OvercastDirectional",
+      "type": "Directional",
+      "intensity": 1.55,
+      "shadow": "Soft"
+    },
+    {
+      "name": "C01_DiffuseSkyBounce",
+      "type": "Point",
+      "intensity": 0.65,
+      "shadow": "None"
+    },
+    {
+      "name": "C02_DiffuseSkyBounce",
+      "type": "Point",
+      "intensity": 0.65,
+      "shadow": "None"
+    },
+    {
+      "name": "C03_DiffuseSkyBounce",
+      "type": "Point",
+      "intensity": 0.65,
+      "shadow": "None"
+    },
+    {
+      "name": "C04_DiffuseSkyBounce",
+      "type": "Point",
+      "intensity": 0.65,
+      "shadow": "None"
+    },
+    {
+      "name": "VA_DiffuseSkyBounce",
+      "type": "Point",
+      "intensity": 0.5,
+      "shadow": "None"
+    },
+    {
+      "name": "VB_DiffuseSkyBounce",
+      "type": "Point",
+      "intensity": 0.5,
+      "shadow": "None"
+    },
+    {
+      "name": "VL_DiffuseSkyBounce",
+      "type": "Point",
+      "intensity": 0.5,
+      "shadow": "None"
+    }
+  ]
+}

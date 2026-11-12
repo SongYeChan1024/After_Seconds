@@ -1,0 +1,132 @@
+{
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_1F_Factory.unity",
+  "saved": true,
+  "errors": [],
+  "arrivals": [
+    {
+      "id": "VA",
+      "match": true,
+      "position": [
+        -44.0,
+        0.0,
+        24.2
+      ]
+    },
+    {
+      "id": "VB",
+      "match": true,
+      "position": [
+        44.0,
+        0.0,
+        -31.8
+      ]
+    },
+    {
+      "id": "VL",
+      "match": true,
+      "position": [
+        44.0,
+        0.075,
+        26.8
+      ]
+    }
+  ],
+  "floorRays": [
+    {
+      "id": "C01",
+      "hit": true,
+      "normal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "collider": "AE_InteriorFloor"
+    },
+    {
+      "id": "C02",
+      "hit": true,
+      "normal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "collider": "AE_InteriorFloor"
+    },
+    {
+      "id": "C03",
+      "hit": true,
+      "normal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "collider": "AE_InteriorFloor"
+    },
+    {
+      "id": "C04",
+      "hit": true,
+      "normal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "collider": "AE_InteriorFloor"
+    },
+    {
+      "id": "VA",
+      "hit": true,
+      "normal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "collider": "AE_InteriorFloor"
+    },
+    {
+      "id": "VB",
+      "hit": true,
+      "normal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "collider": "AE_InteriorFloor"
+    },
+    {
+      "id": "VL",
+      "hit": true,
+      "normal": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "collider": "F1_VL_LiftCabin_01"
+    }
+  ],
+  "terrain": {
+    "size": [
+      384.0,
+      28.0,
+      320.0
+    ],
+    "position": [
+      -192.0,
+      -6.0,
+      -160.0
+    ],
+    "resolution": 513,
+    "layers": 3,
+    "minWorldY": -0.916315556,
+    "maxWorldY": 8.816944,
+    "holes": 4165,
+    "collider": true,
+    "shader": "Universal Render Pipeline/Terrain/Lit"
+  },
+  "activeLights": 8,
+  "shadowLights": 1,
+  "poweredEmissions": [],
+  "activeRenderers": 682,
+  "lodGroups": 203,
+  "missingScripts": 0,
+  "readableMeshes": 0
+}

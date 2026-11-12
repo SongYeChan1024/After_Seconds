@@ -1,0 +1,1039 @@
+{
+  "version": "V0.01",
+  "author": "송예찬",
+  "date": "2026-11-12",
+  "source": "SourceAssets/F1_FullFloor",
+  "method": "Local Blender hard-surface meshes, generated wear/concrete/records textures; native Unity import, materials, scene editing, verified coplanar clipping; no runtime code changes",
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_1F_Factory.unity",
+  "newAssets": [
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_GroundFloor.fbx",
+      "triangles": [
+        68
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Floor.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_C01_Walls.fbx",
+      "triangles": [
+        11296
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Coat.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Glass.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_C01_Frames.fbx",
+      "triangles": [
+        2676
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_C01_Roof.fbx",
+      "triangles": [
+        87
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Coat.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_C02_Walls.fbx",
+      "triangles": [
+        9293
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Coat.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Glass.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_C02_Frames.fbx",
+      "triangles": [
+        2553
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_C02_Roof.fbx",
+      "triangles": [
+        88
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Coat.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_C03_Walls.fbx",
+      "triangles": [
+        6340
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Coat.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Glass.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_C03_Frames.fbx",
+      "triangles": [
+        2018
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_C03_Roof.fbx",
+      "triangles": [
+        12
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_C04_Walls.fbx",
+      "triangles": [
+        6340
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Coat.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Glass.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_C04_Frames.fbx",
+      "triangles": [
+        2138
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Glass.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_C04_Roof.fbx",
+      "triangles": [
+        12
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_VA_Walls.fbx",
+      "triangles": [
+        488
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Coat.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_VA_Frames.fbx",
+      "triangles": [
+        2018
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_VA_Roof.fbx",
+      "triangles": [
+        12
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_VB_Walls.fbx",
+      "triangles": [
+        488
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Coat.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_VB_Frames.fbx",
+      "triangles": [
+        2018
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_VB_Roof.fbx",
+      "triangles": [
+        12
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_VL_Walls.fbx",
+      "triangles": [
+        496
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Coat.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_VL_Frames.fbx",
+      "triangles": [
+        2016
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_VL_Roof.fbx",
+      "triangles": [
+        12
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_T01_Walls.fbx",
+      "triangles": [
+        376
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Coat.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_T01_Roof.fbx",
+      "triangles": [
+        30
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_T02_Walls.fbx",
+      "triangles": [
+        137
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Coat.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_T02_Roof.fbx",
+      "triangles": [
+        14
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_T03_Walls.fbx",
+      "triangles": [
+        357
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Coat.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_T03_Roof.fbx",
+      "triangles": [
+        31
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_T04_Walls.fbx",
+      "triangles": [
+        126
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Coat.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_T04_Roof.fbx",
+      "triangles": [
+        13
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_T05_Walls.fbx",
+      "triangles": [
+        427
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Coat.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_T05_Roof.fbx",
+      "triangles": [
+        30
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_T06_Walls.fbx",
+      "triangles": [
+        128
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Coat.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_T06_Roof.fbx",
+      "triangles": [
+        14
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_T07_Walls.fbx",
+      "triangles": [
+        130
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Coat.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_T07_Roof.fbx",
+      "triangles": [
+        14
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_Yard.fbx",
+      "triangles": [
+        4260
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Floor.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Paper.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Hazard.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Coat.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_FloorMarkings.fbx",
+      "triangles": [
+        144
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Hazard.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Paper.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_OperationalSigns.fbx",
+      "triangles": [
+        14272
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Paper.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/F1_Wayfinding.fbx",
+      "triangles": [
+        4112
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Paper.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_Press.fbx",
+      "triangles": [
+        4916,
+        2064,
+        786
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Coat.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Red.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Indicator.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Hazard.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_ConveyorLong.fbx",
+      "triangles": [
+        6452,
+        2708,
+        1032
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_ConveyorShort.fbx",
+      "triangles": [
+        4196,
+        1762,
+        670
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_Forklift.fbx",
+      "triangles": [
+        4620,
+        1940,
+        738
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Hazard.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Rubber.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Paper.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_PartsRack.fbx",
+      "triangles": [
+        3684,
+        1546,
+        588
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Rust.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Coat.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Paper.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Wood.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_CrateLoad_A.fbx",
+      "triangles": [
+        1848,
+        776,
+        294
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Wood.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Paper.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Coat.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_CrateLoad_B.fbx",
+      "triangles": [
+        2328,
+        976,
+        372
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Wood.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Paper.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Coat.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_PalletStack.fbx",
+      "triangles": [
+        3456,
+        1450,
+        552
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Wood.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_PalletJack.fbx",
+      "triangles": [
+        1648,
+        692,
+        262
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Hazard.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Rubber.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_HandTruck.fbx",
+      "triangles": [
+        1220,
+        512,
+        194
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Rubber.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_CableReel.fbx",
+      "triangles": [
+        11132,
+        4674,
+        1780
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Wood.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Rubber.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_DrumGroup.fbx",
+      "triangles": [
+        5820,
+        2444,
+        930
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Rust.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_ScrapBin.fbx",
+      "triangles": [
+        1455,
+        588,
+        224
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Rust.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_ShippingCage.fbx",
+      "triangles": [
+        2540,
+        553,
+        212
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Wood.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_Scanner.fbx",
+      "triangles": [
+        2936,
+        1232,
+        468
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Coat.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Rubber.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Red.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_InspectionCounter.fbx",
+      "triangles": [
+        756,
+        316,
+        120
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Wood.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_FileCabinet.fbx",
+      "triangles": [
+        972,
+        408,
+        154
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Coat.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_Locker.fbx",
+      "triangles": [
+        408,
+        170,
+        64
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_RadioCabinet.fbx",
+      "triangles": [
+        900,
+        378,
+        144
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_Switchgear.fbx",
+      "triangles": [
+        1440,
+        604,
+        230
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Red.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_KitchenCounter.fbx",
+      "triangles": [
+        992,
+        416,
+        158
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Coat.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_Bench.fbx",
+      "triangles": [
+        648,
+        272,
+        102
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Wood.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_KeyBoard.fbx",
+      "triangles": [
+        4744,
+        1992,
+        758
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Paper.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_NoticeBoard.fbx",
+      "triangles": [
+        4008,
+        1682,
+        640
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Wood.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Paper.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_SafetyStation.fbx",
+      "triangles": [
+        1276,
+        534,
+        204
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Red.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Paper.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_HardHat.fbx",
+      "triangles": [
+        1016,
+        426,
+        162
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Hazard.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_HandRadio.fbx",
+      "triangles": [
+        480,
+        200,
+        76
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Rubber.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Indicator.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Coat.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_ShippingRecord.fbx",
+      "triangles": [
+        420,
+        176,
+        66
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Paper.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_ArrivalFireDoor.fbx",
+      "triangles": [
+        2140,
+        898,
+        342
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Paper.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_LiftCabin.fbx",
+      "triangles": [
+        1024
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Green.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Hazard.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_BarrierPedestal.fbx",
+      "triangles": [
+        342,
+        144,
+        54
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Hazard.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_GateBarrier.fbx",
+      "triangles": [
+        228,
+        94,
+        36
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Hazard.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Paper.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_GuardBollard.fbx",
+      "triangles": [
+        690,
+        296,
+        112
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Hazard.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat"
+      ]
+    },
+    {
+      "path": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_OfficeChair.fbx",
+      "triangles": [
+        1428,
+        598,
+        228
+      ],
+      "materials": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Steel.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Fabric.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Dark.mat",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/F1M_Rubber.mat"
+      ]
+    }
+  ],
+  "reuse": {
+    "OfficeDesk_A": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Desk_00.fbx",
+      "center": [
+        4.172325e-07,
+        0.65796876,
+        4.76837158e-07
+      ],
+      "size": [
+        1.64999986,
+        1.31593752,
+        0.78
+      ],
+      "reuse": true,
+      "triangles": [
+        32488,
+        15268,
+        5847
+      ]
+    },
+    "OfficeDesk_B": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Desk_05.fbx",
+      "center": [
+        4.172325e-07,
+        0.65234375,
+        4.76837158e-07
+      ],
+      "size": [
+        1.64999986,
+        1.3046875,
+        0.78
+      ],
+      "reuse": true,
+      "triangles": [
+        32112,
+        15092,
+        5779
+      ]
+    },
+    "OfficeDesk_C": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Desk_09.fbx",
+      "center": [
+        4.172325e-07,
+        0.65234375,
+        4.76837158e-07
+      ],
+      "size": [
+        1.64999986,
+        1.3046875,
+        0.78
+      ],
+      "reuse": true,
+      "triangles": [
+        31520,
+        14814,
+        5673
+      ]
+    },
+    "ShippingDesk": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Desk_04.fbx",
+      "center": [
+        4.172325e-07,
+        0.65796876,
+        4.76837158e-07
+      ],
+      "size": [
+        1.64999986,
+        1.31593752,
+        0.78
+      ],
+      "reuse": true,
+      "triangles": [
+        33268,
+        15634,
+        5987
+      ]
+    },
+    "SecurityDesk": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Desk_07.fbx",
+      "center": [
+        4.172325e-07,
+        0.65796876,
+        4.76837158e-07
+      ],
+      "size": [
+        1.64999986,
+        1.31593752,
+        0.78
+      ],
+      "reuse": true,
+      "triangles": [
+        33632,
+        15806,
+        6052
+      ]
+    },
+    "BreakTable": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B1/DP_Dining_1.fbx",
+      "center": [
+        0.0,
+        0.52,
+        0.0
+      ],
+      "size": [
+        1.8,
+        1.04,
+        2.135
+      ],
+      "reuse": true,
+      "triangles": [
+        11098,
+        5216,
+        1997
+      ]
+    },
+    "MotorBench": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_MaintenanceBench.fbx",
+      "center": [
+        0.0,
+        0.82,
+        -0.0138750821
+      ],
+      "size": [
+        1.9,
+        1.64,
+        0.9252498
+      ],
+      "reuse": true,
+      "triangles": [
+        15122
+      ]
+    },
+    "ToolCart": {
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/B2/BC_ToolTrolley.fbx",
+      "center": [
+        1.49011612e-08,
+        0.5715,
+        0.0180000216
+      ],
+      "size": [
+        0.820000052,
+        1.113,
+        0.7160001
+      ],
+      "reuse": true,
+      "triangles": [
+        7300
+      ]
+    }
+  },
+  "newTextureAssets": [
+    "Assets/Afrer_Seconds/05.Model/Environment/1F/Textures/F1_SurfaceWear.png",
+    "Assets/Afrer_Seconds/05.Model/Environment/1F/Textures/F1_Concrete.png",
+    "Assets/Afrer_Seconds/05.Model/Props/1F/Textures/F1_WorkRecords.png"
+  ],
+  "review": "Docs/Review/2026-11-12_1F_FullFloor/Review.md"
+}

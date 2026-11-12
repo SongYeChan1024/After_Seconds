@@ -1,0 +1,24 @@
+{
+  "scope": "All B1 active mesh renderers; opaque planar faces >=0.005m2, exact 0.05mm plane tolerance; mutually exclusive LODs separated",
+  "patches": 0,
+  "scanKeys": [
+    "scene",
+    "renderers",
+    "triangles",
+    "errors",
+    "duplicateMeshes",
+    "internal",
+    "overlaps",
+    "rows",
+    "cameras"
+  ],
+  "duplicateMeshes": 0,
+  "internalCandidates": 0,
+  "coplanarCandidates": 34,
+  "exact": {
+    "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_B1_Circular.unity",
+    "overlapPairs": 0,
+    "projectedRemovedArea": 0,
+    "maxRetriangulationAreaError": 0
+  }
+}

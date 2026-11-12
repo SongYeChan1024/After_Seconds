@@ -1,0 +1,425 @@
+{
+  "version": "V0.01",
+  "targets": [
+    {
+      "name": "B1_W01_BriefingTable_01",
+      "room": "W01",
+      "source": "SF_BriefingTable",
+      "variant": "DP_Comparison_W01_0"
+    },
+    {
+      "name": "B1_W02_DiningSet_01",
+      "room": "W02",
+      "source": "BL_DiningSet",
+      "variant": "DP_Dining_0"
+    },
+    {
+      "name": "B1_W02_DiningSet_02",
+      "room": "W02",
+      "source": "BL_DiningSet",
+      "variant": "DP_Dining_1"
+    },
+    {
+      "name": "B1_W02_DiningSet_03",
+      "room": "W02",
+      "source": "BL_DiningSet",
+      "variant": "DP_Dining_2"
+    },
+    {
+      "name": "B1_C03_ResearchDesk_06",
+      "room": "C03",
+      "source": "BL_ResearchDesk",
+      "variant": "DP_Desk_03"
+    },
+    {
+      "name": "B1_C03_ResearchDesk_07",
+      "room": "C03",
+      "source": "BL_ResearchDesk",
+      "variant": "DP_Desk_10"
+    },
+    {
+      "name": "B1_C03_SC_IncidentReview_09",
+      "room": "C03",
+      "source": "SF_SC_IncidentReview",
+      "variant": "DP_Review_C03"
+    },
+    {
+      "name": "B1_C04_VitalCart_03",
+      "room": "C04",
+      "source": "SF_VitalCart",
+      "variant": "DP_VitalCart"
+    },
+    {
+      "name": "B1_C04_UltrasoundCart_04",
+      "room": "C04",
+      "source": "SF_UltrasoundCart",
+      "variant": "DP_UltrasoundCart"
+    },
+    {
+      "name": "B1_W01_ResearchDesk_02",
+      "room": "W01",
+      "source": "BL_ResearchDesk",
+      "variant": "DP_Desk_06"
+    },
+    {
+      "name": "B1_W01_ResearchDesk_03",
+      "room": "W01",
+      "source": "BL_ResearchDesk",
+      "variant": "DP_Desk_07"
+    },
+    {
+      "name": "B1_W01_ResearchDesk_04",
+      "room": "W01",
+      "source": "BL_ResearchDesk",
+      "variant": "DP_Desk_08"
+    },
+    {
+      "name": "B1_W01_ResearchDesk_05",
+      "room": "W01",
+      "source": "BL_ResearchDesk",
+      "variant": "DP_Desk_09"
+    },
+    {
+      "name": "B1_W01_ResearchDesk_06",
+      "room": "W01",
+      "source": "BL_ResearchDesk",
+      "variant": "DP_Desk_10"
+    },
+    {
+      "name": "B1_W01_ResearchDesk_07",
+      "room": "W01",
+      "source": "BL_ResearchDesk",
+      "variant": "DP_Desk_11"
+    },
+    {
+      "name": "B1_E01_SC_OperatorDesk_A_02",
+      "room": "E01",
+      "source": "SF_SC_OperatorDesk_A",
+      "variant": "DP_Security_A"
+    },
+    {
+      "name": "B1_E01_SC_OperatorDesk_B_03",
+      "room": "E01",
+      "source": "SF_SC_OperatorDesk_B",
+      "variant": "DP_Security_B"
+    },
+    {
+      "name": "B1_E01_SC_RadioDutyStation_04",
+      "room": "E01",
+      "source": "SF_SC_RadioDutyStation",
+      "variant": "DP_Radio_E01"
+    },
+    {
+      "name": "B1_E02_ResearchDesk_05",
+      "room": "E02",
+      "source": "BL_ResearchDesk",
+      "variant": "DP_Desk_05"
+    },
+    {
+      "name": "B1_E03_SC_RadioDutyStation_15",
+      "room": "E03",
+      "source": "SF_SC_RadioDutyStation",
+      "variant": "DP_Radio_E03"
+    },
+    {
+      "name": "B1_S01_ResearchDesk_11",
+      "room": "S01",
+      "source": "BL_ResearchDesk",
+      "variant": "DP_Desk_06"
+    },
+    {
+      "name": "B1_S01_SC_IncidentReview_12",
+      "room": "S01",
+      "source": "SF_SC_IncidentReview",
+      "variant": "DP_Review_S01"
+    },
+    {
+      "name": "B1_C03_HandheldRecorder_11",
+      "room": "C03",
+      "source": "BL_HandheldRecorder",
+      "variant": "DP_Recorder"
+    },
+    {
+      "name": "B1_C03_HandheldRecorder_12",
+      "room": "C03",
+      "source": "BL_HandheldRecorder",
+      "variant": "DP_Recorder"
+    },
+    {
+      "name": "B1_W01_HandheldRecorder_17",
+      "room": "W01",
+      "source": "BL_HandheldRecorder",
+      "variant": "DP_Recorder"
+    },
+    {
+      "name": "B1_W01_HandheldRecorder_18",
+      "room": "W01",
+      "source": "BL_HandheldRecorder",
+      "variant": "DP_Recorder"
+    },
+    {
+      "name": "B1_W01_HandheldRecorder_19",
+      "room": "W01",
+      "source": "BL_HandheldRecorder",
+      "variant": "DP_Recorder"
+    },
+    {
+      "name": "B1_W01_HandheldRecorder_20",
+      "room": "W01",
+      "source": "BL_HandheldRecorder",
+      "variant": "DP_Recorder"
+    },
+    {
+      "name": "B1_W01_HandheldRecorder_21",
+      "room": "W01",
+      "source": "BL_HandheldRecorder",
+      "variant": "DP_Recorder"
+    },
+    {
+      "name": "B1_W01_HandheldRecorder_22",
+      "room": "W01",
+      "source": "BL_HandheldRecorder",
+      "variant": "DP_Recorder"
+    },
+    {
+      "name": "B1_E02_HandheldRecorder_10",
+      "room": "E02",
+      "source": "BL_HandheldRecorder",
+      "variant": "DP_Recorder"
+    },
+    {
+      "name": "B1_S01_HandheldRecorder_16",
+      "room": "S01",
+      "source": "BL_HandheldRecorder",
+      "variant": "DP_Recorder"
+    },
+    {
+      "name": "B1_C01_Data_ResearchDesk_01",
+      "room": "C01",
+      "source": "BL_ResearchDesk",
+      "variant": "DP_Desk_00"
+    },
+    {
+      "name": "B1_C01_Data_ResearchDesk_03",
+      "room": "C01",
+      "source": "BL_ResearchDesk",
+      "variant": "DP_Desk_01"
+    },
+    {
+      "name": "B1_C01_Data_ResearchDesk_05",
+      "room": "C01",
+      "source": "BL_ResearchDesk",
+      "variant": "DP_Desk_02"
+    },
+    {
+      "name": "B1_C01_Data_ResearchDesk_07",
+      "room": "C01",
+      "source": "BL_ResearchDesk",
+      "variant": "DP_Desk_03"
+    },
+    {
+      "name": "B1_C01_Data_ResearchDesk_09",
+      "room": "C01",
+      "source": "BL_ResearchDesk",
+      "variant": "DP_Desk_04"
+    },
+    {
+      "name": "B1_C01_Data_ResearchDesk_11",
+      "room": "C01",
+      "source": "BL_ResearchDesk",
+      "variant": "DP_Desk_05"
+    },
+    {
+      "name": "B1_C01_Data_BriefingTable_17",
+      "room": "C01",
+      "source": "SF_BriefingTable",
+      "variant": "DP_Comparison_C01_0"
+    },
+    {
+      "name": "B1_C01_Data_BriefingTable_20",
+      "room": "C01",
+      "source": "SF_BriefingTable",
+      "variant": "DP_Comparison_C01_1"
+    },
+    {
+      "name": "B1_N01_Data_ResearchDesk_01",
+      "room": "N01",
+      "source": "BL_ResearchDesk",
+      "variant": "DP_Desk_02"
+    },
+    {
+      "name": "B1_N01_Data_ResearchDesk_03",
+      "room": "N01",
+      "source": "BL_ResearchDesk",
+      "variant": "DP_Desk_07"
+    },
+    {
+      "name": "B1_N01_Data_ResearchDesk_05",
+      "room": "N01",
+      "source": "BL_ResearchDesk",
+      "variant": "DP_Desk_04"
+    },
+    {
+      "name": "B1_N01_Data_ResearchDesk_07",
+      "room": "N01",
+      "source": "BL_ResearchDesk",
+      "variant": "DP_Desk_09"
+    },
+    {
+      "name": "B1_N01_Data_ResearchDesk_09",
+      "room": "N01",
+      "source": "BL_ResearchDesk",
+      "variant": "DP_Desk_00"
+    },
+    {
+      "name": "B1_N01_Data_ResearchDesk_11",
+      "room": "N01",
+      "source": "BL_ResearchDesk",
+      "variant": "DP_Desk_11"
+    },
+    {
+      "name": "B1_C02_Data_ResearchDesk_01",
+      "room": "C02",
+      "source": "BL_ResearchDesk",
+      "variant": "DP_Desk_01"
+    },
+    {
+      "name": "B1_C02_Data_ResearchDesk_03",
+      "room": "C02",
+      "source": "BL_ResearchDesk",
+      "variant": "DP_Desk_08"
+    },
+    {
+      "name": "B1_C05_Conference_ConferenceTable_01",
+      "room": "C05",
+      "source": "BL_ConferenceTable",
+      "variant": "DP_Meeting"
+    },
+    {
+      "name": "B1_W02_Interior_BL_DiningSet_200",
+      "room": "W02",
+      "source": "BL_DiningSet",
+      "variant": "DP_Dining_3"
+    },
+    {
+      "name": "B1_N01_Interior_SF_BriefingTable_203",
+      "room": "N01",
+      "source": "SF_BriefingTable",
+      "variant": "DP_Comparison_N01_0"
+    }
+  ],
+  "relocations": [
+    {
+      "name": "B1_C03_HandheldRecorder_11",
+      "room": "C03",
+      "desk": "B1_C03_ResearchDesk_06",
+      "position": [
+        -3.9699999999999998,
+        0.824,
+        3.1264999997615814
+      ],
+      "yaw": 171
+    },
+    {
+      "name": "B1_C03_HandheldRecorder_12",
+      "room": "C03",
+      "desk": "B1_C03_ResearchDesk_07",
+      "position": [
+        2.73,
+        0.824,
+        3.1264999997615814
+      ],
+      "yaw": 187
+    },
+    {
+      "name": "B1_W01_HandheldRecorder_17",
+      "room": "W01",
+      "desk": "B1_W01_ResearchDesk_02",
+      "position": [
+        -3.23,
+        0.824,
+        -0.4264999997615814
+      ],
+      "yaw": -9
+    },
+    {
+      "name": "B1_W01_HandheldRecorder_18",
+      "room": "W01",
+      "desk": "B1_W01_ResearchDesk_03",
+      "position": [
+        0.57,
+        0.824,
+        -0.4264999997615814
+      ],
+      "yaw": 7
+    },
+    {
+      "name": "B1_W01_HandheldRecorder_19",
+      "room": "W01",
+      "desk": "B1_W01_ResearchDesk_04",
+      "position": [
+        4.37,
+        0.824,
+        -0.4264999997615814
+      ],
+      "yaw": -9
+    },
+    {
+      "name": "B1_W01_HandheldRecorder_20",
+      "room": "W01",
+      "desk": "B1_W01_ResearchDesk_05",
+      "position": [
+        -3.23,
+        0.824,
+        2.7735000002384185
+      ],
+      "yaw": 7
+    },
+    {
+      "name": "B1_W01_HandheldRecorder_21",
+      "room": "W01",
+      "desk": "B1_W01_ResearchDesk_06",
+      "position": [
+        0.57,
+        0.824,
+        2.7735000002384185
+      ],
+      "yaw": -9
+    },
+    {
+      "name": "B1_W01_HandheldRecorder_22",
+      "room": "W01",
+      "desk": "B1_W01_ResearchDesk_07",
+      "position": [
+        4.37,
+        0.824,
+        2.7735000002384185
+      ],
+      "yaw": 7
+    },
+    {
+      "name": "B1_E02_HandheldRecorder_10",
+      "room": "E02",
+      "desk": "B1_E02_ResearchDesk_05",
+      "position": [
+        0.5300000000000001,
+        0.824,
+        4.126499999761581
+      ],
+      "yaw": 171
+    },
+    {
+      "name": "B1_S01_HandheldRecorder_16",
+      "room": "S01",
+      "desk": "B1_S01_ResearchDesk_11",
+      "position": [
+        -3.57,
+        0.824,
+        5.526499999761581
+      ],
+      "yaw": 187
+    }
+  ],
+  "variants": 30,
+  "scope": "B1 tabletop props; preserve furniture placement, original geometry below worktop, colliders, architecture and game code"
+}
