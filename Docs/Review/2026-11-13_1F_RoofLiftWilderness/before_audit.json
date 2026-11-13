@@ -1,0 +1,533 @@
+{
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_1F_Factory.unity",
+  "transforms": 1086,
+  "colliders": 97,
+  "missingScripts": 0,
+  "missingMeshes": [],
+  "missingMaterials": [],
+  "terrain": [
+    {
+      "name": "AE_OvergrownFactoryTerrain",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_CamouflageTerrain.asset",
+      "position": [
+        -192.0,
+        -6.0,
+        -160.0
+      ],
+      "size": [
+        384.0,
+        28.0,
+        320.0
+      ],
+      "resolution": 513,
+      "holes": 512,
+      "layers": [
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Earth.terrainlayer",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Gravel.terrainlayer",
+        "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_Moss.terrainlayer"
+      ]
+    }
+  ],
+  "targets": [
+    {
+      "name": "F1_VA_ArrivalFireDoor_01",
+      "path": "1F_AbandonedFactory/1F_VA/F1_VA_ArrivalFireDoor_01",
+      "position": [
+        -44.0,
+        0.0,
+        23.28
+      ],
+      "meshes": [
+        {
+          "name": "F1_ArrivalFireDoor_LOD0",
+          "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_ArrivalFireDoor.fbx",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Green.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Steel.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Dark.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Paper.mat"
+          ]
+        },
+        {
+          "name": "F1_ArrivalFireDoor_LOD1",
+          "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_ArrivalFireDoor.fbx",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Green.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Steel.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Dark.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Paper.mat"
+          ]
+        },
+        {
+          "name": "F1_ArrivalFireDoor_LOD2",
+          "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_ArrivalFireDoor.fbx",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Green.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Steel.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Dark.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Paper.mat"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "F1_ArrivalFireDoor_LOD0",
+      "path": "1F_AbandonedFactory/1F_VA/F1_VA_ArrivalFireDoor_01/F1_ArrivalFireDoor_LOD0",
+      "position": [
+        -44.0,
+        0.0,
+        23.28
+      ],
+      "meshes": [
+        {
+          "name": "F1_ArrivalFireDoor_LOD0",
+          "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_ArrivalFireDoor.fbx",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Green.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Steel.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Dark.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Paper.mat"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "F1_ArrivalFireDoor_LOD1",
+      "path": "1F_AbandonedFactory/1F_VA/F1_VA_ArrivalFireDoor_01/F1_ArrivalFireDoor_LOD1",
+      "position": [
+        -44.0,
+        0.0,
+        23.28
+      ],
+      "meshes": [
+        {
+          "name": "F1_ArrivalFireDoor_LOD1",
+          "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_ArrivalFireDoor.fbx",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Green.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Steel.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Dark.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Paper.mat"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "F1_ArrivalFireDoor_LOD2",
+      "path": "1F_AbandonedFactory/1F_VA/F1_VA_ArrivalFireDoor_01/F1_ArrivalFireDoor_LOD2",
+      "position": [
+        -44.0,
+        0.0,
+        23.28
+      ],
+      "meshes": [
+        {
+          "name": "F1_ArrivalFireDoor_LOD2",
+          "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_ArrivalFireDoor.fbx",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Green.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Steel.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Dark.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Paper.mat"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "F1_VB_ArrivalFireDoor_01",
+      "path": "1F_AbandonedFactory/1F_VB/F1_VB_ArrivalFireDoor_01",
+      "position": [
+        44.0,
+        0.0,
+        -32.72
+      ],
+      "meshes": [
+        {
+          "name": "F1_ArrivalFireDoor_LOD0",
+          "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_ArrivalFireDoor.fbx",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Green.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Steel.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Dark.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Paper.mat"
+          ]
+        },
+        {
+          "name": "F1_ArrivalFireDoor_LOD1",
+          "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_ArrivalFireDoor.fbx",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Green.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Steel.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Dark.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Paper.mat"
+          ]
+        },
+        {
+          "name": "F1_ArrivalFireDoor_LOD2",
+          "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_ArrivalFireDoor.fbx",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Green.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Steel.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Dark.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Paper.mat"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "F1_ArrivalFireDoor_LOD0",
+      "path": "1F_AbandonedFactory/1F_VB/F1_VB_ArrivalFireDoor_01/F1_ArrivalFireDoor_LOD0",
+      "position": [
+        44.0,
+        0.0,
+        -32.72
+      ],
+      "meshes": [
+        {
+          "name": "F1_ArrivalFireDoor_LOD0",
+          "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_ArrivalFireDoor.fbx",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Green.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Steel.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Dark.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Paper.mat"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "F1_ArrivalFireDoor_LOD1",
+      "path": "1F_AbandonedFactory/1F_VB/F1_VB_ArrivalFireDoor_01/F1_ArrivalFireDoor_LOD1",
+      "position": [
+        44.0,
+        0.0,
+        -32.72
+      ],
+      "meshes": [
+        {
+          "name": "F1_ArrivalFireDoor_LOD1",
+          "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_ArrivalFireDoor.fbx",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Green.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Steel.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Dark.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Paper.mat"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "F1_ArrivalFireDoor_LOD2",
+      "path": "1F_AbandonedFactory/1F_VB/F1_VB_ArrivalFireDoor_01/F1_ArrivalFireDoor_LOD2",
+      "position": [
+        44.0,
+        0.0,
+        -32.72
+      ],
+      "meshes": [
+        {
+          "name": "F1_ArrivalFireDoor_LOD2",
+          "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_ArrivalFireDoor.fbx",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Green.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Steel.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Dark.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Paper.mat"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "F1_VL_LiftCabin_01",
+      "path": "1F_AbandonedFactory/1F_VL/F1_VL_LiftCabin_01",
+      "position": [
+        44.0,
+        0.0,
+        26.75
+      ],
+      "meshes": [
+        {
+          "name": "F1_VL_LiftCabin_01",
+          "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/F1_LiftCabin.fbx",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Steel.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Green.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Hazard.mat"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AE_InteriorFloor",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_InteriorFloor",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "meshes": [
+        {
+          "name": "AE_InteriorFloor",
+          "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_InteriorFloor.fbx",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Concrete.mat"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AE_C01_Roof",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_C01_Roof",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "meshes": [
+        {
+          "name": "AE_C01_Roof",
+          "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C01_Roof.fbx",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Corrosion.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Plaster.mat"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AE_C02_Roof",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_C02_Roof",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "meshes": [
+        {
+          "name": "AE_C02_Roof",
+          "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C02_Roof.fbx",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Corrosion.mat",
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Plaster.mat"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AE_C03_Roof",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_C03_Roof",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "meshes": [
+        {
+          "name": "AE_C03_Roof",
+          "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C03_Roof.fbx",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Concrete.mat"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AE_C04_Roof",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_C04_Roof",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "meshes": [
+        {
+          "name": "AE_C04_Roof",
+          "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_C04_Roof.fbx",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Concrete.mat"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AE_VA_Roof",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_VA_Roof",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "meshes": [
+        {
+          "name": "AE_VA_Roof",
+          "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_VA_Roof.fbx",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Concrete.mat"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AE_VB_Roof",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_VB_Roof",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "meshes": [
+        {
+          "name": "AE_VB_Roof",
+          "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_VB_Roof.fbx",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Concrete.mat"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AE_VL_Roof",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_VL_Roof",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "meshes": [
+        {
+          "name": "AE_VL_Roof",
+          "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_VL_Roof.fbx",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Concrete.mat"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AE_T01_Roof",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_T01_Roof",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "meshes": [
+        {
+          "name": "AE_T01_Roof",
+          "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T01_Roof.fbx",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Corrosion.mat"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AE_T02_Roof",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_T02_Roof",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "meshes": [
+        {
+          "name": "AE_T02_Roof",
+          "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T02_Roof.fbx",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Corrosion.mat"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AE_T03_Roof",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_T03_Roof",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "meshes": [
+        {
+          "name": "AE_T03_Roof",
+          "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T03_Roof.fbx",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Corrosion.mat"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AE_T04_Roof",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_T04_Roof",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "meshes": [
+        {
+          "name": "AE_T04_Roof",
+          "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T04_Roof.fbx",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Corrosion.mat"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AE_T05_Roof",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_T05_Roof",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "meshes": [
+        {
+          "name": "AE_T05_Roof",
+          "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T05_Roof.fbx",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Corrosion.mat"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AE_T06_Roof",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_T06_Roof",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "meshes": [
+        {
+          "name": "AE_T06_Roof",
+          "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T06_Roof.fbx",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Corrosion.mat"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AE_T07_Roof",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/RuinedShell/AE_T07_Roof",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "meshes": [
+        {
+          "name": "AE_T07_Roof",
+          "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_T07_Roof.fbx",
+          "materials": [
+            "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/AE_M_Corrosion.mat"
+          ]
+        }
+      ]
+    }
+  ]
+}

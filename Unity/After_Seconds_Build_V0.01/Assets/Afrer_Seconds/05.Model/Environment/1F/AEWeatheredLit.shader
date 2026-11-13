@@ -4,7 +4,9 @@ Shader "AfterSeconds/1F/ContinuousWeatheredLit"
 {
     Properties
     {
-        _AE_Mode("Weather: Plaster 1, Steel 2, Concrete 3", Float) = 1
+        _AE_Mode("Surface: Cladding 1, Metal 2, Concrete 3, Wood 4, Rubber 5, Fabric 6", Float) = 1
+        _AE_WearAmount("Small chip coverage", Range(0,1)) = 0.3
+        _AE_Seed("Surface variation", Float) = 1
         _AE_MacroScale("World wear frequency", Float) = 0.28
         // Specular vs Metallic workflow
         _WorkflowMode("WorkflowMode", Float) = 1.0

@@ -1,0 +1,4 @@
+using System;using System.IO;using UnityEngine;using UnityEditor;using UnityEngine.SceneManagement;
+public static class PRSurfaceRefresh {
+ public static object Run(){if(Application.isPlaying||SceneManager.GetActiveScene().isDirty)throw new Exception("Saved edit required");string h=Path.GetFullPath(Application.dataPath+"/../../../SourceAssets/F1_PropRefinement/"),p="Assets/Afrer_Seconds/05.Model/Props/1F/";File.Copy(h+"PRPropSurface.hlsl",p+"PRPropSurface.hlsl",true);AssetDatabase.ImportAsset(p+"PRPropSurface.hlsl",ImportAssetOptions.ForceSynchronousImport);AssetDatabase.ImportAsset(p+"PRPropLit.shader",ImportAssetOptions.ForceSynchronousImport);var shader=AssetDatabase.LoadAssetAtPath<Shader>(p+"PRPropLit.shader");if(ShaderUtil.ShaderHasError(shader))throw new Exception("Shader error");return new{woodGrainAlignedToPlanks=true};}
+}

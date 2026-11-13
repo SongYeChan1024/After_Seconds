@@ -9,6 +9,36 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: AE_M_Concrete
     second: {fileID: 2100000, guid: d6e38d546e784cb4fb309e2230f34371, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AE_M_Corrosion
+    second: {fileID: 2100000, guid: 795db11b2fcabf549ba5ea765d3c76d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AE_M_Dark
+    second: {fileID: 2100000, guid: 633737cbc07618747b377a81494211cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AE_M_RoofAggregate
+    second: {fileID: 2100000, guid: e362680bda0fd6b44917b5bb166cf752, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AE_M_RoofEdgeRust
+    second: {fileID: 2100000, guid: dbe3b19a17481604fa27a073585a13c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AE_M_RoofFracture
+    second: {fileID: 2100000, guid: 78f0663de32908f4b84a3dcf28c8651b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AE_M_RoofRawSteel
+    second: {fileID: 2100000, guid: eca6eefff3d5fc9438f8680f18235d67, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -46,8 +76,8 @@ ModelImporter:
     importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0

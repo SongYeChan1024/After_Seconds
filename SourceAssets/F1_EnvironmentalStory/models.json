@@ -1,0 +1,113 @@
+[
+  {
+    "name": "ES_C01_Utilities",
+    "triangles": [
+      6780,
+      3118,
+      1220
+    ],
+    "materials": [
+      "AE_M_Corrosion",
+      "AE_M_Dark",
+      "AE_M_Steel",
+      "AE_M_Rubber"
+    ],
+    "zeroArea": 0,
+    "kind": "utilities"
+  },
+  {
+    "name": "ES_FloorAnchors",
+    "triangles": [
+      1824,
+      838,
+      328
+    ],
+    "materials": [
+      "AE_M_RoofEdgeRust",
+      "AE_M_Steel",
+      "AE_M_RoofAggregate"
+    ],
+    "zeroArea": 0,
+    "kind": "anchors"
+  },
+  {
+    "name": "ES_C01_RoofFall",
+    "triangles": [
+      7384,
+      3396,
+      1328
+    ],
+    "materials": [
+      "AE_M_Corrosion",
+      "AE_M_RoofEdgeRust",
+      "AE_M_Steel",
+      "AE_M_Dark",
+      "AE_M_Gravel",
+      "AE_M_Dust"
+    ],
+    "zeroArea": 0,
+    "kind": "roofFall"
+  },
+  {
+    "name": "ES_C02_RoofFall",
+    "triangles": [
+      7416,
+      3410,
+      1334
+    ],
+    "materials": [
+      "AE_M_Corrosion",
+      "AE_M_RoofEdgeRust",
+      "AE_M_Steel",
+      "AE_M_Dark",
+      "AE_M_Gravel",
+      "AE_M_Dust"
+    ],
+    "zeroArea": 0,
+    "kind": "roofFall"
+  },
+  {
+    "name": "ES_C03_RoofFall",
+    "triangles": [
+      2848,
+      1310,
+      512
+    ],
+    "materials": [
+      "AE_M_FallenConcrete",
+      "AE_M_RoofEdgeRust",
+      "AE_M_RoofAggregate"
+    ],
+    "zeroArea": 0,
+    "kind": "roofFall"
+  },
+  {
+    "name": "ES_C04_RoofFall",
+    "triangles": [
+      2892,
+      1330,
+      520
+    ],
+    "materials": [
+      "AE_M_FallenConcrete",
+      "AE_M_RoofEdgeRust",
+      "AE_M_RoofAggregate"
+    ],
+    "zeroArea": 0,
+    "kind": "roofFall"
+  },
+  {
+    "name": "ES_RoofSprouts",
+    "triangles": [
+      1257,
+      578,
+      226
+    ],
+    "materials": [
+      "AE_M_DryLeaf",
+      "AE_M_DeepLeaf"
+    ],
+    "zeroArea": 0,
+    "kind": "roofFall"
+  }
+]

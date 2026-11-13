@@ -9,6 +9,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: AE_M_Corrosion
     second: {fileID: 2100000, guid: 795db11b2fcabf549ba5ea765d3c76d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AE_M_RoofEdgeRust
+    second: {fileID: 2100000, guid: dbe3b19a17481604fa27a073585a13c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AE_M_RoofRawSteel
+    second: {fileID: 2100000, guid: eca6eefff3d5fc9438f8680f18235d67, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -46,8 +56,8 @@ ModelImporter:
     importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0

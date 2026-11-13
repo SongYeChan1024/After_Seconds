@@ -1,0 +1,4 @@
+using System;using System.Linq;using UnityEngine;using UnityEditor;using UnityEngine.SceneManagement;
+public static class PRFinal {
+ public static object Run(){if(Application.isPlaying)throw new Exception("Edit required");PlayerSettings.runInBackground=false;Application.runInBackground=false;AssetDatabase.SaveAssets();var s=SceneManager.GetActiveScene();var t=s.GetRootGameObjects().SelectMany(g=>g.GetComponentsInChildren<Transform>(true)).Single(x=>x.name=="F1_C01_CableReel_05");Selection.activeGameObject=t.gameObject;var sv=SceneView.lastActiveSceneView;if(sv){var target=t.position+Vector3.up*.7f;var p=target+t.TransformDirection(new Vector3(-1.8f,.7f,2.3f));sv.LookAt(target,Quaternion.LookRotation(target-p),2.1f,false,true);sv.Repaint();}return new{saved=!s.isDirty,scene=s.path,playing=Application.isPlaying,selected=t.name,background=Application.runInBackground};}
+}

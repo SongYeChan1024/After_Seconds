@@ -1,0 +1,22 @@
+using System;using System.IO;using System.Linq;using UnityEngine;using UnityEditor;using UnityEngine.SceneManagement;using UnityEngine.Rendering.Universal;using Newtonsoft.Json;
+public static class F1StoryInspect {
+ public static string Root=>Path.GetFullPath(Application.dataPath+"/../../.."); public static string Out=>Root+"/Docs/Review/2026-11-13_1F_EnvironmentalStory/";
+ static float[] V(Vector3 v)=>new[]{v.x,v.y,v.z};
+ public static object Before()=>Run("before");public static object After()=>Run("after");
+ static object Run(string phase){var s=SceneManager.GetActiveScene();if(Application.isPlaying||s.isDirty||!s.path.EndsWith("Level_1F_Factory.unity"))throw new Exception("Saved 1F edit required");Directory.CreateDirectory(Out+phase);var ts=s.GetRootGameObjects().SelectMany(g=>g.GetComponentsInChildren<Transform>(true)).ToArray();
+ var state=ts.Select(t=>new{path=AnimationUtility.CalculateTransformPath(t,null),position=V(t.position),local=V(t.localPosition),rotation=V(t.localEulerAngles),scale=V(t.localScale),active=t.gameObject.activeSelf,colliders=t.GetComponents<Collider>().Select(c=>new{type=c.GetType().Name,enabled=c.enabled}).ToArray()}).ToArray();File.WriteAllText(Out+phase+"_transforms.json",JsonConvert.SerializeObject(state,Formatting.Indented));
+ var items=ts.Where(t=>t.GetComponent<LODGroup>()||t.name.StartsWith("F1_")&&!t.name.Contains("LOD")||t.parent&&t.parent.name=="F1_VL_LiftAssembly").Select(t=>new{name=t.name,path=AnimationUtility.CalculateTransformPath(t,null),position=V(t.position),rotation=V(t.eulerAngles),scale=V(t.localScale),active=t.gameObject.activeInHierarchy,meshes=t.GetComponentsInChildren<MeshFilter>(true).Select(f=>new{name=f.name,asset=AssetDatabase.GetAssetPath(f.sharedMesh),mesh=f.sharedMesh?f.sharedMesh.name:null,bounds=f.sharedMesh?new[]{V(f.sharedMesh.bounds.min),V(f.sharedMesh.bounds.max)}:null,position=V(f.transform.localPosition),materials=f.GetComponent<Renderer>()?.sharedMaterials.Select(m=>m?m.name:null).ToArray()}).ToArray()}).ToArray();File.WriteAllText(Out+phase+"_inventory.json",JsonConvert.SerializeObject(items,Formatting.Indented));
+ Shot(phase,"Warmup",new Vector3(-21.0f,2.1f,-10.0f),new Vector3(-12.0f,0.7f,2.0f),70);
+ Shot(phase,"Factory",new Vector3(-21.0f,2.1f,-10.0f),new Vector3(-12.0f,0.7f,2.0f),70);
+ Shot(phase,"PressFloor",new Vector3(-20.0f,1.65f,-1.0f),new Vector3(-15.2f,0.25f,1.9f),67);
+ Shot(phase,"Footprint",new Vector3(-22.0f,1.65f,-10.0f),new Vector3(-18.0f,0.08f,-9.8f),65);
+ Shot(phase,"Loading",new Vector3(25.0f,1.7f,-17.0f),new Vector3(23.0f,0.1f,-7.0f),72);
+ Shot(phase,"Wall",new Vector3(-8.0f,1.2f,-15.5f),new Vector3(-7.5f,1.2f,-14.14f),63);
+ Shot(phase,"Facade",new Vector3(-15.0f,2.4f,-22.0f),new Vector3(-12.0f,3.3f,-14.0f),72);
+ Shot(phase,"Ivy",new Vector3(-28.0f,1.7f,-36.0f),new Vector3(-29.0f,1.4f,-33.0f),65);
+ Shot(phase,"RoofDebris",new Vector3(-5.0f,1.65f,-10.0f),new Vector3(-3.5f,0.4f,-6.4f),68);
+ Shot(phase,"OfficeDebris",new Vector3(-29.0f,1.65f,-29.0f),new Vector3(-34.0f,0.2f,-26.0f),67);
+ if(phase=="after"){Shot(phase,"UtilityConnection",new Vector3(-18.7f,1.65f,5.5f),new Vector3(-14.3f,.3f,3.1f),64);Shot(phase,"FallenMetal",new Vector3(-.5f,1.5f,-9),new Vector3(-3.3f,.12f,-6.2f),65);Shot(phase,"IvyCluster",new Vector3(-3.5f,1.3f,-17.4f),new Vector3(-4.9f,1.0f,-14.1f),63);}
+ return new{phase,transforms=ts.Length,colliders=ts.Sum(t=>t.GetComponents<Collider>().Length),groups=items.Length};}
+ public static void Shot(string phase,string name,Vector3 p,Vector3 target,float fov){var go=new GameObject("TemporaryDetailReview"){hideFlags=HideFlags.HideAndDontSave};var c=go.AddComponent<Camera>();c.transform.position=p;c.transform.LookAt(target);c.fieldOfView=fov;c.nearClipPlane=.025f;c.farClipPlane=2200;c.useOcclusionCulling=false;c.GetUniversalAdditionalCameraData().renderPostProcessing=false;var rt=new RenderTexture(1600,1000,24){antiAliasing=4};var old=RenderTexture.active;bool async=ShaderUtil.allowAsyncCompilation;Texture2D tex=null;try{ShaderUtil.allowAsyncCompilation=false;c.targetTexture=rt;c.Render();c.Render();RenderTexture.active=rt;tex=new Texture2D(1600,1000,TextureFormat.RGB24,false);tex.ReadPixels(new Rect(0,0,1600,1000),0,0);tex.Apply();File.WriteAllBytes(Out+phase+"/"+name+".jpg",tex.EncodeToJPG(92));}finally{ShaderUtil.allowAsyncCompilation=async;RenderTexture.active=old;c.targetTexture=null;if(tex)UnityEngine.Object.DestroyImmediate(tex);UnityEngine.Object.DestroyImmediate(rt);UnityEngine.Object.DestroyImmediate(go);}}
+}

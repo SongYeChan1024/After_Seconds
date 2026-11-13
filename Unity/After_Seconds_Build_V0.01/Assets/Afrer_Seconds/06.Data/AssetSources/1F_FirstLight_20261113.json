@@ -1,0 +1,22 @@
+{
+  "author": "송예찬",
+  "date": "2026-11-13",
+  "source": "Original procedural sky revision and Unity URP Bloom; no external HDRI or runtime scripts",
+  "sourceFolder": "SourceAssets/F1_FirstLight",
+  "shader": "Assets/Afrer_Seconds/05.Model/Environment/1F/FS_SunsetSky.shader",
+  "shaderGuid": "9ab780de7ba04f445858c9a59dd9d105",
+  "material": "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/FS_SunsetSky.mat",
+  "materialGuid": "5d00dd99e23ff3b44abde20dccdc11e7",
+  "profile": "Assets/Afrer_Seconds/06.Data/Rendering/1F/FL_FirstLightBloom.asset",
+  "profileGuid": "65bdb566629e5fc4f84d0c809e025108",
+  "sunRadius": 0.026,
+  "sunDiameterRatio": 2.888889,
+  "sunElevation": 5,
+  "coronaStrength": 1.2,
+  "haloStrength": 0.6,
+  "haloWidth": 0.16,
+  "bloomThreshold": 1.2,
+  "bloomIntensity": 0.7,
+  "bloomScatter": 0.78,
+  "scope": "1F sky material and shader; one Bloom Volume/Profile; eight reflection probes. Existing cameras, lights, transforms and gameplay preserved."
+}

@@ -1,0 +1,29 @@
+{
+  "pipeline": "Assets/Settings/PC_RPAsset.asset",
+  "supportsHDR": true,
+  "defaultRenderer": 0,
+  "renderers": [
+    {
+      "index": 0,
+      "path": "Assets/Settings/PC_Renderer.asset",
+      "postProcessData": "Packages/com.unity.render-pipelines.universal/Runtime/Data/PostProcessData.asset"
+    }
+  ],
+  "cameras": [
+    {
+      "path": "Camera/Main Camera",
+      "name": "Main Camera",
+      "enabled": true,
+      "active": true,
+      "tag": "MainCamera",
+      "allowHDR": true,
+      "farClipPlane": 1000.0,
+      "additionalData": true,
+      "post": true,
+      "volumeMask": 1,
+      "renderType": "Base",
+      "rendererIndex": -1
+    }
+  ],
+  "volumes": []
+}

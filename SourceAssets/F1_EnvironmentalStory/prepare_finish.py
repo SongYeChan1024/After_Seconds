@@ -1,0 +1,4 @@
+from pathlib import Path
+H=Path(__file__).resolve().parent
+p=H/'PlayCheck.cs';s=p.read_text(encoding='utf8').replace('"WallIvy",new Vector3(-8,1.2f,-15.5f),new Vector3(-7.5f,1.2f,-14.14f),63','"WallIvy",new Vector3(-3.5f,1.3f,-17.4f),new Vector3(-4.9f,1,-14.1f),63').replace('"Lift",new Vector3(43.2f,1.7f,25.5f),new Vector3(44,1.5f,29),78','"Floor",new Vector3(-22,1.65f,-10),new Vector3(-18,.08f,-9.8f),65').replace('new Vector3(-23,1.7f,-10),new Vector3(-8,5.2f,5),86','new Vector3(-21,2.1f,-10),new Vector3(-12,.7f,2),70');p.write_text(s,encoding='utf8')
+p=H/'Check.cs';s=p.read_text(encoding='utf8').replace('GameObject.Find("F1_VL_LiftAssembly");SceneView.lastActiveSceneView?.LookAt(new Vector3(44,1.8f,28.4f),Quaternion.Euler(3,0,0),4.8f,false,true)','GameObject.Find("EnvironmentalStory");SceneView.lastActiveSceneView?.LookAt(new Vector3(-12,.7f,2),Quaternion.LookRotation(new Vector3(9,-1.4f,12)),15,false,true)');p.write_text(s,encoding='utf8')

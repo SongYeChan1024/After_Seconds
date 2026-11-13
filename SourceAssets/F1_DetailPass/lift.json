@@ -1,0 +1,110 @@
+[
+  {
+    "name": "FD_LiftCar",
+    "triangles": [
+      13200,
+      6072,
+      2376
+    ],
+    "materials": [
+      "AE_M_Green",
+      "AE_M_Steel",
+      "AE_M_Dark",
+      "AE_M_Paper",
+      "AE_M_Red",
+      "AE_M_Corrosion"
+    ],
+    "zeroArea": 0,
+    "parent": "Car"
+  },
+  {
+    "name": "FD_LiftDoorLeft",
+    "triangles": [
+      1088,
+      500,
+      194
+    ],
+    "materials": [
+      "AE_M_Steel",
+      "AE_M_Dark",
+      "AE_M_Rubber"
+    ],
+    "zeroArea": 0,
+    "parent": "Car/DoorLeft"
+  },
+  {
+    "name": "FD_LiftDoorRight",
+    "triangles": [
+      1088,
+      500,
+      194
+    ],
+    "materials": [
+      "AE_M_Steel",
+      "AE_M_Dark",
+      "AE_M_Rubber"
+    ],
+    "zeroArea": 0,
+    "parent": "Car/DoorRight"
+  },
+  {
+    "name": "FD_LiftHoist",
+    "triangles": [
+      4896,
+      2252,
+      880
+    ],
+    "materials": [
+      "AE_M_Steel",
+      "AE_M_Dark",
+      "AE_M_Green",
+      "AE_M_Rubber",
+      "AE_M_Paper"
+    ],
+    "zeroArea": 0,
+    "parent": "FixedShaft/MachineBedMotorBrake"
+  },
+  {
+    "name": "FD_LiftSheave",
+    "triangles": [
+      2592,
+      1192,
+      466
+    ],
+    "materials": [
+      "AE_M_Steel",
+      "AE_M_Dark"
+    ],
+    "zeroArea": 0,
+    "parent": "Sheave"
+  },
+  {
+    "name": "FD_LiftGuides",
+    "triangles": [
+      18788,
+      8642,
+      3380
+    ],
+    "materials": [
+      "AE_M_Steel",
+      "AE_M_Dark",
+      "AE_M_Corrosion"
+    ],
+    "zeroArea": 0,
+    "parent": "FixedShaft"
+  },
+  {
+    "name": "FD_LiftCounterweight",
+    "triangles": [
+      864,
+      396,
+      154
+    ],
+    "materials": [
+      "AE_M_Steel",
+      "AE_M_Dark"
+    ],
+    "zeroArea": 0,
+    "parent": "Counterweight"
+  }
+]

@@ -1,0 +1,9 @@
+// Native asset-only update. Does not change the user's active scene or play state.
+using System;using System.IO;using System.Linq;using System.Collections.Generic;using UnityEngine;using UnityEditor;using Newtonsoft.Json.Linq;
+public static class F1DetailRefineAssets {
+ public static object Run(){const string E="Assets/Afrer_Seconds/05.Model/Environment/1F/",P="Assets/Afrer_Seconds/05.Model/Props/1F/";string root=Path.GetFullPath(Application.dataPath+"/../../..");var mats=Directory.GetFiles(E+"Materials","AE_M_*.mat").Select(p=>AssetDatabase.LoadAssetAtPath<Material>(p.Replace('\\','/'))).Where(m=>m).ToDictionary(m=>m.name);
+ foreach(var m in mats.Values.Where(m=>m.name.StartsWith("AE_M_Ivy"))){if(m.name!="AE_M_IvyBark")m.SetFloat("_Cull",0);m.SetTexture("_BumpMap",AssetDatabase.LoadAssetAtPath<Texture2D>(E+"Textures/AE_Grain_Normal.png"));m.SetFloat("_BumpScale",.1f);m.SetTextureScale("_BaseMap",Vector2.one*6);m.EnableKeyword("_NORMALMAP");EditorUtility.SetDirty(m);}
+ var qs=new List<JToken>();foreach(string file in new[]{"props","lift","walls"})qs.AddRange(JArray.Parse(File.ReadAllText(root+"/SourceAssets/F1_DetailPass/"+file+".json")));qs.Add(JObject.Parse(File.ReadAllText(root+"/SourceAssets/F1_DetailPass/ivy.json")));
+ foreach(var q in qs){string n=(string)q["name"],path=(n=="AE_WallIvy"||n.EndsWith("_WallTrim")?E:P)+n+".fbx";string guid=AssetDatabase.AssetPathToGUID(path);if(string.IsNullOrEmpty(guid))throw new Exception("Expected already imported "+path);File.Copy(Path.Combine(Path.GetTempPath(),"AfterSeconds_DetailPass_20261113/candidate/"+n+".fbx"),path,true);AssetDatabase.ImportAsset(path,ImportAssetOptions.ForceSynchronousImport|ImportAssetOptions.ForceUpdate);if(guid!=AssetDatabase.AssetPathToGUID(path))throw new Exception("GUID changed");}
+ AssetDatabase.SaveAssets();return new{refinedAssets=qs.Count,activeSceneChanged=false};}
+}

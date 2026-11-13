@@ -1,0 +1,110 @@
+{
+  "tested": 8,
+  "failed": 0,
+  "results": [
+    {
+      "id": "VB_lobby_to_landing",
+      "passed": true,
+      "steps": 154,
+      "segment": 4,
+      "remaining": 0.0,
+      "heightError": 0.0799998641,
+      "end": [
+        44.96,
+        0.0799998641,
+        -30.32
+      ]
+    },
+    {
+      "id": "VB_landing_to_lobby",
+      "passed": true,
+      "steps": 154,
+      "segment": 4,
+      "remaining": 0.0,
+      "heightError": 0.0799998641,
+      "end": [
+        40.0,
+        0.0799998641,
+        -28.0
+      ]
+    },
+    {
+      "id": "VB_18m_up",
+      "passed": true,
+      "steps": 918,
+      "segment": 149,
+      "remaining": 0.0,
+      "heightError": 0.08000034,
+      "end": [
+        44.96,
+        0.0799998641,
+        -30.3
+      ]
+    },
+    {
+      "id": "VB_18m_down",
+      "passed": true,
+      "steps": 918,
+      "segment": 149,
+      "remaining": 0.0,
+      "heightError": 0.07999992,
+      "end": [
+        43.04,
+        -17.92,
+        -29.95
+      ]
+    },
+    {
+      "id": "Lift_enter",
+      "passed": true,
+      "steps": 73,
+      "segment": 2,
+      "remaining": 0.0100002289,
+      "heightError": 0.07999997,
+      "end": [
+        44.0,
+        0.154999971,
+        28.49
+      ]
+    },
+    {
+      "id": "Lift_exit",
+      "passed": true,
+      "steps": 73,
+      "segment": 2,
+      "remaining": 0.0,
+      "heightError": 0.07999992,
+      "end": [
+        44.0,
+        0.07999992,
+        23.4
+      ]
+    },
+    {
+      "id": "Wilderness_585m",
+      "passed": true,
+      "steps": 8468,
+      "segment": 292,
+      "remaining": 0.0,
+      "heightError": 0.08003664,
+      "end": [
+        -649.0,
+        4.225716,
+        -51.26426
+      ]
+    },
+    {
+      "id": "Wilderness_return",
+      "passed": true,
+      "steps": 8468,
+      "segment": 292,
+      "remaining": 0.0,
+      "heightError": 0.08000499,
+      "end": [
+        -65.0,
+        -0.02392453,
+        -28.49
+      ]
+    }
+  ]
+}

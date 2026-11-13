@@ -1,0 +1,60 @@
+﻿{
+    "entries":  [
+                    {
+                        "seq":  9,
+                        "timestampUtc":  "2026-11-13T02:10:18.0739689Z",
+                        "level":  "warn",
+                        "logType":  "Warning",
+                        "message":  "Failed to collect Windows signature for C:\\Users\\503-26\\.unity\\relay\\relay_win.exe: Input data cannot be coded as a valid certificate.",
+                        "stackTrace":  "UnityEngine.Debug:LogWarning (object)\nUnity.AI.MCP.Editor.Security.ExecutableIdentityCollector:CollectWindowsSignature (string,Unity.AI.MCP.Editor.Models.ExecutableIdentity) (at ./Library/PackageCache/com.unity.ai.assistant@890548b66362/Modules/Unity.AI.MCP.Editor/Security/ExecutableIdentityCollector.cs:315)\nUnity.AI.MCP.Editor.Security.ExecutableIdentityCollector:CollectSignatureInfo (string,Unity.AI.MCP.Editor.Models.ExecutableIdentity) (at ./Library/PackageCache/com.unity.ai.assistant@890548b66362/Modules/Unity.AI.MCP.Editor/Security/ExecutableIdentityCollector.cs:249)\nUnity.AI.MCP.Editor.Security.ExecutableIdentityCollector:CollectIdentity (string) (at ./Library/PackageCache/com.unity.ai.assistant@890548b66362/Modules/Unity.AI.MCP.Editor/Security/ExecutableIdentityCollector.cs:108)\nUnity.AI.MCP.Editor.Security.ProcessInfoCollector:CollectProcessInfo (int) (at ./Library/PackageCache/com.unity.ai.assistant@890548b66362/Modules/Unity.AI.MCP.Editor/Security/ProcessInfoCollector.cs:69)\nUnity.AI.MCP.Editor.Security.ProcessInfoCollector:CollectConnectionInfo (int,Unity.AI.MCP.Editor.Security.ValidationConfig) (at ./Library/PackageCache/com.unity.ai.assistant@890548b66362/Modules/Unity.AI.MCP.Editor/Security/ProcessInfoCollector.cs:109)\nUnity.AI.MCP.Editor.Security.ConnectionValidator:ValidateConnection (Unity.AI.MCP.Editor.Connection.IConnectionTransport,Unity.AI.MCP.Editor.Security.ValidationConfig) (at ./Library/PackageCache/com.unity.ai.assistant@890548b66362/Modules/Unity.AI.MCP.Editor/Security/ConnectionValidator.cs:39)\nUnity.AI.MCP.Editor.Bridge/\u003c\u003ec__DisplayClass67_0:\u003cValidateAndApproveAsync\u003eb__1 () (at ./Library/PackageCache/com.unity.ai.assistant@890548b66362/Modules/Unity.AI.MCP.Editor/Bridge.cs:1050)\nSystem.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()\n",
+                        "seeded":  false
+                    },
+                    {
+                        "seq":  10,
+                        "timestampUtc":  "2026-11-13T02:10:33.5561741Z",
+                        "level":  "warn",
+                        "logType":  "Warning",
+                        "message":  "Failed to collect Windows signature for C:\\Users\\503-26\\AppData\\Local\\OpenAI\\Codex\\bin\\9e1da79431da526b\\codex.exe: Input data cannot be coded as a valid certificate.",
+                        "stackTrace":  "UnityEngine.Debug:LogWarning (object)\nUnity.AI.MCP.Editor.Security.ExecutableIdentityCollector:CollectWindowsSignature (string,Unity.AI.MCP.Editor.Models.ExecutableIdentity) (at ./Library/PackageCache/com.unity.ai.assistant@890548b66362/Modules/Unity.AI.MCP.Editor/Security/ExecutableIdentityCollector.cs:315)\nUnity.AI.MCP.Editor.Security.ExecutableIdentityCollector:CollectSignatureInfo (string,Unity.AI.MCP.Editor.Models.ExecutableIdentity) (at ./Library/PackageCache/com.unity.ai.assistant@890548b66362/Modules/Unity.AI.MCP.Editor/Security/ExecutableIdentityCollector.cs:249)\nUnity.AI.MCP.Editor.Security.ExecutableIdentityCollector:CollectIdentity (string) (at ./Library/PackageCache/com.unity.ai.assistant@890548b66362/Modules/Unity.AI.MCP.Editor/Security/ExecutableIdentityCollector.cs:108)\nUnity.AI.MCP.Editor.Security.ProcessInfoCollector:CollectProcessInfo (int) (at ./Library/PackageCache/com.unity.ai.assistant@890548b66362/Modules/Unity.AI.MCP.Editor/Security/ProcessInfoCollector.cs:69)\nUnity.AI.MCP.Editor.Security.ProcessInfoCollector:CollectConnectionInfo (int,Unity.AI.MCP.Editor.Security.ValidationConfig) (at ./Library/PackageCache/com.unity.ai.assistant@890548b66362/Modules/Unity.AI.MCP.Editor/Security/ProcessInfoCollector.cs:122)\nUnity.AI.MCP.Editor.Security.ConnectionValidator:ValidateConnection (Unity.AI.MCP.Editor.Connection.IConnectionTransport,Unity.AI.MCP.Editor.Security.ValidationConfig) (at ./Library/PackageCache/com.unity.ai.assistant@890548b66362/Modules/Unity.AI.MCP.Editor/Security/ConnectionValidator.cs:39)\nUnity.AI.MCP.Editor.Bridge/\u003c\u003ec__DisplayClass67_0:\u003cValidateAndApproveAsync\u003eb__1 () (at ./Library/PackageCache/com.unity.ai.assistant@890548b66362/Modules/Unity.AI.MCP.Editor/Bridge.cs:1050)\nSystem.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()\n",
+                        "seeded":  false
+                    },
+                    {
+                        "seq":  11,
+                        "timestampUtc":  "2026-11-13T02:10:37.8034355Z",
+                        "level":  "warn",
+                        "logType":  "Warning",
+                        "message":  "Failed to collect Windows signature for C:\\Users\\503-26\\.codex\\packages\\app-server-daemon\\releases\\0.167.2-x86_64-pc-windows-msvc\\bin\\codex.exe: Input data cannot be coded as a valid certificate.",
+                        "stackTrace":  "UnityEngine.Debug:LogWarning (object)\nUnity.AI.MCP.Editor.Security.ExecutableIdentityCollector:CollectWindowsSignature (string,Unity.AI.MCP.Editor.Models.ExecutableIdentity) (at ./Library/PackageCache/com.unity.ai.assistant@890548b66362/Modules/Unity.AI.MCP.Editor/Security/ExecutableIdentityCollector.cs:315)\nUnity.AI.MCP.Editor.Security.ExecutableIdentityCollector:CollectSignatureInfo (string,Unity.AI.MCP.Editor.Models.ExecutableIdentity) (at ./Library/PackageCache/com.unity.ai.assistant@890548b66362/Modules/Unity.AI.MCP.Editor/Security/ExecutableIdentityCollector.cs:249)\nUnity.AI.MCP.Editor.Security.ExecutableIdentityCollector:CollectIdentity (string) (at ./Library/PackageCache/com.unity.ai.assistant@890548b66362/Modules/Unity.AI.MCP.Editor/Security/ExecutableIdentityCollector.cs:108)\nUnity.AI.MCP.Editor.Security.ProcessInfoCollector:CollectProcessInfo (int) (at ./Library/PackageCache/com.unity.ai.assistant@890548b66362/Modules/Unity.AI.MCP.Editor/Security/ProcessInfoCollector.cs:69)\nUnity.AI.MCP.Editor.Security.ProcessInfoCollector:CollectConnectionInfo (int,Unity.AI.MCP.Editor.Security.ValidationConfig) (at ./Library/PackageCache/com.unity.ai.assistant@890548b66362/Modules/Unity.AI.MCP.Editor/Security/ProcessInfoCollector.cs:122)\nUnity.AI.MCP.Editor.Security.ConnectionValidator:ValidateConnection (Unity.AI.MCP.Editor.Connection.IConnectionTransport,Unity.AI.MCP.Editor.Security.ValidationConfig) (at ./Library/PackageCache/com.unity.ai.assistant@890548b66362/Modules/Unity.AI.MCP.Editor/Security/ConnectionValidator.cs:39)\nUnity.AI.MCP.Editor.Bridge/\u003c\u003ec__DisplayClass67_0:\u003cValidateAndApproveAsync\u003eb__1 () (at ./Library/PackageCache/com.unity.ai.assistant@890548b66362/Modules/Unity.AI.MCP.Editor/Bridge.cs:1050)\nSystem.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()\n",
+                        "seeded":  false
+                    },
+                    {
+                        "seq":  12,
+                        "timestampUtc":  "2026-11-13T02:19:24.7128404Z",
+                        "level":  "warn",
+                        "logType":  "Warning",
+                        "message":  "Failed to collect Windows signature for C:\\Users\\503-26\\AppData\\Local\\Claude-Data\\claude_pzs8sxrjxfjjc\\claude-code\\2.1.321\\d0e23af87588\\claude.exe: Input data cannot be coded as a valid certificate.",
+                        "stackTrace":  "UnityEngine.Debug:LogWarning (object)\nUnity.AI.MCP.Editor.Security.ExecutableIdentityCollector:CollectWindowsSignature (string,Unity.AI.MCP.Editor.Models.ExecutableIdentity) (at ./Library/PackageCache/com.unity.ai.assistant@890548b66362/Modules/Unity.AI.MCP.Editor/Security/ExecutableIdentityCollector.cs:315)\nUnity.AI.MCP.Editor.Security.ExecutableIdentityCollector:CollectSignatureInfo (string,Unity.AI.MCP.Editor.Models.ExecutableIdentity) (at ./Library/PackageCache/com.unity.ai.assistant@890548b66362/Modules/Unity.AI.MCP.Editor/Security/ExecutableIdentityCollector.cs:249)\nUnity.AI.MCP.Editor.Security.ExecutableIdentityCollector:CollectIdentity (string) (at ./Library/PackageCache/com.unity.ai.assistant@890548b66362/Modules/Unity.AI.MCP.Editor/Security/ExecutableIdentityCollector.cs:108)\nUnity.AI.MCP.Editor.Security.ProcessInfoCollector:CollectProcessInfo (int) (at ./Library/PackageCache/com.unity.ai.assistant@890548b66362/Modules/Unity.AI.MCP.Editor/Security/ProcessInfoCollector.cs:69)\nUnity.AI.MCP.Editor.Security.ProcessInfoCollector:CollectConnectionInfo (int,Unity.AI.MCP.Editor.Security.ValidationConfig) (at ./Library/PackageCache/com.unity.ai.assistant@890548b66362/Modules/Unity.AI.MCP.Editor/Security/ProcessInfoCollector.cs:122)\nUnity.AI.MCP.Editor.Security.ConnectionValidator:ValidateConnection (Unity.AI.MCP.Editor.Connection.IConnectionTransport,Unity.AI.MCP.Editor.Security.ValidationConfig) (at ./Library/PackageCache/com.unity.ai.assistant@890548b66362/Modules/Unity.AI.MCP.Editor/Security/ConnectionValidator.cs:39)\nUnity.AI.MCP.Editor.Bridge/\u003c\u003ec__DisplayClass67_0:\u003cValidateAndApproveAsync\u003eb__1 () (at ./Library/PackageCache/com.unity.ai.assistant@890548b66362/Modules/Unity.AI.MCP.Editor/Bridge.cs:1050)\nSystem.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()\n",
+                        "seeded":  false
+                    }
+                ],
+    "cursor":  27,
+    "session":  "422f425a4a7f456994448c5c2a4490eb",
+    "returned":  4,
+    "dropped":  false,
+    "reset":  false,
+    "counts":  {
+                   "error":  0,
+                   "warn":  4,
+                   "log":  23
+               },
+    "groundTruth":  {
+                        "sampledUtc":  "2026-11-13T02:33:19.5358723Z",
+                        "ageMs":  101,
+                        "compilationFailed":  false,
+                        "compiling":  false,
+                        "consoleErrors":  0,
+                        "consoleWarnings":  0,
+                        "consoleLogs":  5,
+                        "seeded":  true
+                    }
+}

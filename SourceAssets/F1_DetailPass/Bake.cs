@@ -1,0 +1,6 @@
+using System;using System.IO;using UnityEngine;using UnityEditor;using UnityEditor.SceneManagement;using UnityEngine.SceneManagement;using Newtonsoft.Json;
+public static class F1DetailBake {
+ const string PathO="Assets/Afrer_Seconds/01.Scenes/Stage/Level_1F_Factory/OcclusionCullingData.asset";
+ public static object Start(){if(Application.isPlaying||SceneManager.GetActiveScene().isDirty||StaticOcclusionCulling.isRunning)throw new Exception("Saved idle edit required");var guid=AssetDatabase.AssetPathToGUID(PathO);StaticOcclusionCulling.smallestOccluder=3;StaticOcclusionCulling.smallestHole=.7f;StaticOcclusionCulling.backfaceThreshold=100;bool started=StaticOcclusionCulling.GenerateInBackground();return new{started,guid};}
+ public static object Save(){if(Application.isPlaying||StaticOcclusionCulling.isRunning)throw new Exception("Finished bake required");var bytes=StaticOcclusionCulling.umbraDataSize;var s=SceneManager.GetActiveScene();EditorSceneManager.MarkSceneDirty(s);AssetDatabase.SaveAssets();EditorSceneManager.SaveScene(s);var r=new{saved=!s.isDirty,guid=AssetDatabase.AssetPathToGUID(PathO),bytes};File.WriteAllText(System.IO.Path.GetFullPath(Application.dataPath+"/../../../Docs/Review/2026-11-13_1F_DetailPass/occlusion.json"),JsonConvert.SerializeObject(r,Formatting.Indented));return r;}
+}

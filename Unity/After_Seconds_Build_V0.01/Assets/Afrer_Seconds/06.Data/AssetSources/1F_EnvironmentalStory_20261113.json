@@ -1,0 +1,163 @@
+{
+  "author": "송예찬",
+  "date": "2026-11-13",
+  "source": "Original procedural mesh authoring with Blender 5.2.2; adapted project-owned Unity URP material detail",
+  "scope": "1F floor use, localized wall weathering, rooted ivy and material-specific roof fall; static art only",
+  "sourceFolder": "SourceAssets/F1_EnvironmentalStory",
+  "models": [
+    {
+      "name": "ES_C01_Utilities",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/ES_C01_Utilities.fbx",
+      "guid": "931b3a4eeec900847bae3d43b7f2b689",
+      "sha256": "620c531adb6bb112d6aed6ec5e3ca70c77b1ca705a0be690b0b15b8b1d44abf4",
+      "triangles": [
+        6780,
+        3118,
+        1220
+      ],
+      "materials": [
+        "AE_M_Corrosion",
+        "AE_M_Dark",
+        "AE_M_Steel",
+        "AE_M_Rubber"
+      ]
+    },
+    {
+      "name": "ES_FloorAnchors",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/ES_FloorAnchors.fbx",
+      "guid": "f938a38dbc332524188ab314aecdb2be",
+      "sha256": "aa5531169ba3c34b6331f5303a2b7862e8aedf25ab0f3df0dfed0bd167f5dfa8",
+      "triangles": [
+        1824,
+        838,
+        328
+      ],
+      "materials": [
+        "AE_M_RoofEdgeRust",
+        "AE_M_Steel",
+        "AE_M_RoofAggregate"
+      ]
+    },
+    {
+      "name": "ES_C01_RoofFall",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/ES_C01_RoofFall.fbx",
+      "guid": "a08297b7395ca1e45ae3b9b43694481d",
+      "sha256": "dc372c5131ec7b2bf4e428269ede232e2dfa719277d8bb5ece9a9c877f3ae7f4",
+      "triangles": [
+        7384,
+        3396,
+        1328
+      ],
+      "materials": [
+        "AE_M_Corrosion",
+        "AE_M_RoofEdgeRust",
+        "AE_M_Steel",
+        "AE_M_Dark",
+        "AE_M_Gravel",
+        "AE_M_Dust"
+      ]
+    },
+    {
+      "name": "ES_C02_RoofFall",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/ES_C02_RoofFall.fbx",
+      "guid": "3d7d218eeabbf744c85dff8c34c0b88f",
+      "sha256": "8f1d3d9159a475848ed55a5a9ee982fd0448ea0c9b00ba62d38286faafd3e174",
+      "triangles": [
+        7416,
+        3410,
+        1334
+      ],
+      "materials": [
+        "AE_M_Corrosion",
+        "AE_M_RoofEdgeRust",
+        "AE_M_Steel",
+        "AE_M_Dark",
+        "AE_M_Gravel",
+        "AE_M_Dust"
+      ]
+    },
+    {
+      "name": "ES_C03_RoofFall",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/ES_C03_RoofFall.fbx",
+      "guid": "302257c13f4a20e4d86557ca66333b2b",
+      "sha256": "8f3836c138f626847ab9f6592e5abb495fec6b754831dc12d58151f83491c8a4",
+      "triangles": [
+        2848,
+        1310,
+        512
+      ],
+      "materials": [
+        "AE_M_FallenConcrete",
+        "AE_M_RoofEdgeRust",
+        "AE_M_RoofAggregate"
+      ]
+    },
+    {
+      "name": "ES_C04_RoofFall",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/ES_C04_RoofFall.fbx",
+      "guid": "ec5b9267f1d3e2b409f8554b722f59a0",
+      "sha256": "64ee67b1ea9ed555aaa437514d367bfff32ddbf4f6043acccbfa7c95b3cc8e05",
+      "triangles": [
+        2892,
+        1330,
+        520
+      ],
+      "materials": [
+        "AE_M_FallenConcrete",
+        "AE_M_RoofEdgeRust",
+        "AE_M_RoofAggregate"
+      ]
+    },
+    {
+      "name": "ES_RoofSprouts",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/ES_RoofSprouts.fbx",
+      "guid": "0691be3cdbe0d6a428e4cd179ca323f4",
+      "sha256": "3ecfde761825b53efc62b7ca2775c607da94448773fef1fd5bc4900f34264056",
+      "triangles": [
+        1257,
+        578,
+        226
+      ],
+      "materials": [
+        "AE_M_DryLeaf",
+        "AE_M_DeepLeaf"
+      ]
+    },
+    {
+      "name": "AE_WallIvy",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_WallIvy.fbx",
+      "guid": "071b682e96c839247adc7ebd89958935",
+      "sha256": "5a60e17d09c2cf5706d673bcc93520a4fa5eb5a3c37540a60da91a0b696492cd",
+      "triangles": [
+        461240,
+        212170,
+        83023
+      ],
+      "materials": [
+        "AE_M_IvyBark",
+        "AE_M_IvyDark",
+        "AE_M_IvyVein",
+        "AE_M_IvyLight",
+        "AE_M_IvyMid",
+        "AE_M_IvyDry"
+      ]
+    },
+    {
+      "name": "ES_RootLitter",
+      "path": "Assets/Afrer_Seconds/05.Model/Environment/1F/ES_RootLitter.fbx",
+      "guid": "c3124545603e4d644aaa87d6f2194284",
+      "sha256": "66f48db8733ca71dbc1d0514c73d9aeecbcf5de6804e0764fd32fbcd13826b55",
+      "triangles": [
+        7728,
+        3554,
+        1391
+      ],
+      "materials": [
+        "AE_M_DryLeaf",
+        "AE_M_IvyDry",
+        "AE_M_Dust",
+        "AE_M_IvyBark"
+      ]
+    }
+  ]
+}

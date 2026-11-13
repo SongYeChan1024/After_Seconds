@@ -1,0 +1,790 @@
+{
+  "title": "1F Detail Pass",
+  "version": "V0.01",
+  "author": "송예찬",
+  "date": "2026-11-13",
+  "method": "Original procedural Blender geometry; native Unity asset import and scene attachment",
+  "source": "SourceAssets/F1_DetailPass",
+  "review": "Docs/Review/2026-11-13_1F_DetailPass/Review.md",
+  "runtimeScriptsAdded": 0,
+  "models": [
+    {
+      "name": "FD_Press",
+      "triangles": [
+        5328,
+        2450,
+        958
+      ],
+      "materials": [
+        "AE_M_Steel",
+        "AE_M_Dark",
+        "AE_M_Rubber",
+        "AE_M_Green",
+        "AE_M_Paper",
+        "AE_M_Red",
+        "AE_M_Hazard"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/FD_Press.fbx",
+      "guid": "33ce810f5e798eb428b23fec99e308aa"
+    },
+    {
+      "name": "FD_ConveyorLong",
+      "triangles": [
+        5140,
+        2364,
+        924
+      ],
+      "materials": [
+        "AE_M_Steel",
+        "AE_M_Dark",
+        "AE_M_Corrosion",
+        "AE_M_Green",
+        "AE_M_Paper",
+        "AE_M_Rubber"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/FD_ConveyorLong.fbx",
+      "guid": "c4cffc840fa68f54b94f062c0143b4c7"
+    },
+    {
+      "name": "FD_ConveyorShort",
+      "triangles": [
+        3988,
+        1834,
+        716
+      ],
+      "materials": [
+        "AE_M_Steel",
+        "AE_M_Dark",
+        "AE_M_Corrosion",
+        "AE_M_Green",
+        "AE_M_Paper",
+        "AE_M_Rubber"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/FD_ConveyorShort.fbx",
+      "guid": "e076b0d945af2f842ac9e3aeda1121f8"
+    },
+    {
+      "name": "FD_Forklift",
+      "triangles": [
+        5048,
+        2322,
+        908
+      ],
+      "materials": [
+        "AE_M_Rubber",
+        "AE_M_Steel",
+        "AE_M_Dark",
+        "AE_M_Paper"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/FD_Forklift.fbx",
+      "guid": "692c05224ac872e45b6317fb9c2cf7f2"
+    },
+    {
+      "name": "FD_PartsRack",
+      "triangles": [
+        3168,
+        1456,
+        570
+      ],
+      "materials": [
+        "AE_M_Dark",
+        "AE_M_Steel",
+        "AE_M_Paper"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/FD_PartsRack.fbx",
+      "guid": "28c624d6e664abf428fe13fe0d3476c8"
+    },
+    {
+      "name": "FD_CrateLoad_A",
+      "triangles": [
+        3480,
+        1600,
+        626
+      ],
+      "materials": [
+        "AE_M_Steel",
+        "AE_M_Dark",
+        "AE_M_Paper"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/FD_CrateLoad_A.fbx",
+      "guid": "42c2fe86ee28a2f4396ea85aa2d81a3e"
+    },
+    {
+      "name": "FD_CrateLoad_B",
+      "triangles": [
+        3864,
+        1776,
+        694
+      ],
+      "materials": [
+        "AE_M_Steel",
+        "AE_M_Dark",
+        "AE_M_Paper"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/FD_CrateLoad_B.fbx",
+      "guid": "32e083a744043b545a016c97d1270619"
+    },
+    {
+      "name": "FD_PalletStack",
+      "triangles": [
+        10080,
+        4636,
+        1814
+      ],
+      "materials": [
+        "AE_M_Steel",
+        "AE_M_Dark"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/FD_PalletStack.fbx",
+      "guid": "24c8ee09d90d90542beea235c6217abf"
+    },
+    {
+      "name": "FD_DrumGroup",
+      "triangles": [
+        3720,
+        1710,
+        668
+      ],
+      "materials": [
+        "AE_M_Steel",
+        "AE_M_Paper",
+        "AE_M_Dark"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/FD_DrumGroup.fbx",
+      "guid": "c657a163fc58b674a9272f1905f5acd6"
+    },
+    {
+      "name": "FD_CableReel",
+      "triangles": [
+        2180,
+        1002,
+        392
+      ],
+      "materials": [
+        "AE_M_Dark",
+        "AE_M_Steel",
+        "AE_M_Rubber"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/FD_CableReel.fbx",
+      "guid": "3146332b6e5a7e14a80e7ba557dd2cf1"
+    },
+    {
+      "name": "FD_Switchgear",
+      "triangles": [
+        1036,
+        476,
+        186
+      ],
+      "materials": [
+        "AE_M_Steel",
+        "AE_M_Dark",
+        "AE_M_Paper",
+        "AE_M_Hazard",
+        "AE_M_Rubber"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/FD_Switchgear.fbx",
+      "guid": "6600c5699dde3a742ab168770b298a71"
+    },
+    {
+      "name": "FD_FileCabinet",
+      "triangles": [
+        848,
+        390,
+        152
+      ],
+      "materials": [
+        "AE_M_Steel",
+        "AE_M_Dark",
+        "AE_M_Paper"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/FD_FileCabinet.fbx",
+      "guid": "09f22c6f99ecfdc47b5d449e51157ba0"
+    },
+    {
+      "name": "FD_Locker",
+      "triangles": [
+        500,
+        230,
+        90
+      ],
+      "materials": [
+        "AE_M_Steel",
+        "AE_M_Dark",
+        "AE_M_Paper"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/FD_Locker.fbx",
+      "guid": "8cbaee3db76104a4087dd47d59b332fc"
+    },
+    {
+      "name": "FD_KitchenCounter",
+      "triangles": [
+        1384,
+        636,
+        248
+      ],
+      "materials": [
+        "AE_M_Steel",
+        "AE_M_Dark",
+        "AE_M_Paper"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/FD_KitchenCounter.fbx",
+      "guid": "20fcd9f8f1b6e574ba20e0acb25df893"
+    },
+    {
+      "name": "FD_ScrapBin",
+      "triangles": [
+        552,
+        252,
+        98
+      ],
+      "materials": [
+        "AE_M_Steel",
+        "AE_M_Dark",
+        "AE_M_Corrosion"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/FD_ScrapBin.fbx",
+      "guid": "147185bc7ad70904bba939842f96abe6"
+    },
+    {
+      "name": "FD_ShippingCage",
+      "triangles": [
+        632,
+        290,
+        112
+      ],
+      "materials": [
+        "AE_M_Steel",
+        "AE_M_Dark"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/FD_ShippingCage.fbx",
+      "guid": "956054358e6b5a643a8f4ca2c0222977"
+    },
+    {
+      "name": "FD_PalletJack",
+      "triangles": [
+        824,
+        378,
+        148
+      ],
+      "materials": [
+        "AE_M_Steel",
+        "AE_M_Dark",
+        "AE_M_Paper",
+        "AE_M_Rubber"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/FD_PalletJack.fbx",
+      "guid": "8f4487c2ff425a54592f9cdb90980b5d"
+    },
+    {
+      "name": "FD_HandTruck",
+      "triangles": [
+        652,
+        298,
+        116
+      ],
+      "materials": [
+        "AE_M_Steel",
+        "AE_M_Dark",
+        "AE_M_Rubber"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/FD_HandTruck.fbx",
+      "guid": "693bdab6335beb64ea33342b94510efc"
+    },
+    {
+      "name": "FD_Bench",
+      "triangles": [
+        708,
+        324,
+        126
+      ],
+      "materials": [
+        "AE_M_Steel",
+        "AE_M_Dark"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/FD_Bench.fbx",
+      "guid": "a5a189eaa53055849afc66a861f1eddc"
+    },
+    {
+      "name": "FD_OfficeChair",
+      "triangles": [
+        628,
+        288,
+        112
+      ],
+      "materials": [
+        "AE_M_Steel",
+        "AE_M_Dark"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/FD_OfficeChair.fbx",
+      "guid": "22a83690bf4f12d49bde960872a04d4e"
+    },
+    {
+      "name": "FD_Desk",
+      "triangles": [
+        304,
+        138,
+        54
+      ],
+      "materials": [
+        "AE_M_Steel",
+        "AE_M_Rubber",
+        "AE_M_Paper",
+        "AE_M_Dark"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/FD_Desk.fbx",
+      "guid": "a3429b87392c9484c85f04ee7b6101ac"
+    },
+    {
+      "name": "FD_MotorBench",
+      "triangles": [
+        1048,
+        482,
+        188
+      ],
+      "materials": [
+        "AE_M_Dark",
+        "AE_M_Steel",
+        "AE_M_Rubber"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/FD_MotorBench.fbx",
+      "guid": "e1643b0730b5d19419f8b49e9afbb0f2"
+    },
+    {
+      "name": "FD_ToolCart",
+      "triangles": [
+        744,
+        342,
+        132
+      ],
+      "materials": [
+        "AE_M_Paper",
+        "AE_M_Dark",
+        "AE_M_Steel"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/FD_ToolCart.fbx",
+      "guid": "2798859cd4d6cac4b92919e8b68ce56e"
+    },
+    {
+      "name": "FD_InspectionCounter",
+      "triangles": [
+        408,
+        186,
+        72
+      ],
+      "materials": [
+        "AE_M_Dark",
+        "AE_M_Paper",
+        "AE_M_Steel"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/FD_InspectionCounter.fbx",
+      "guid": "ee41707ff3fb6094dba5024b757fccd7"
+    },
+    {
+      "name": "FD_LiftCar",
+      "triangles": [
+        13200,
+        6072,
+        2376
+      ],
+      "materials": [
+        "AE_M_Green",
+        "AE_M_Steel",
+        "AE_M_Dark",
+        "AE_M_Paper",
+        "AE_M_Red",
+        "AE_M_Corrosion"
+      ],
+      "zeroArea": 0,
+      "parent": "Car",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/FD_LiftCar.fbx",
+      "guid": "11ee3c823be9f984891312679c0d4373"
+    },
+    {
+      "name": "FD_LiftDoorLeft",
+      "triangles": [
+        1088,
+        500,
+        194
+      ],
+      "materials": [
+        "AE_M_Steel",
+        "AE_M_Dark",
+        "AE_M_Rubber"
+      ],
+      "zeroArea": 0,
+      "parent": "Car/DoorLeft",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/FD_LiftDoorLeft.fbx",
+      "guid": "4a4facdec581e8047811207a58727d6a"
+    },
+    {
+      "name": "FD_LiftDoorRight",
+      "triangles": [
+        1088,
+        500,
+        194
+      ],
+      "materials": [
+        "AE_M_Steel",
+        "AE_M_Dark",
+        "AE_M_Rubber"
+      ],
+      "zeroArea": 0,
+      "parent": "Car/DoorRight",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/FD_LiftDoorRight.fbx",
+      "guid": "729a4b851d5c36a44b8e53fee8659182"
+    },
+    {
+      "name": "FD_LiftHoist",
+      "triangles": [
+        4896,
+        2252,
+        880
+      ],
+      "materials": [
+        "AE_M_Steel",
+        "AE_M_Dark",
+        "AE_M_Green",
+        "AE_M_Rubber",
+        "AE_M_Paper"
+      ],
+      "zeroArea": 0,
+      "parent": "FixedShaft/MachineBedMotorBrake",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/FD_LiftHoist.fbx",
+      "guid": "e5e496c5c4aa45e488cf46752ccdd691"
+    },
+    {
+      "name": "FD_LiftSheave",
+      "triangles": [
+        2592,
+        1192,
+        466
+      ],
+      "materials": [
+        "AE_M_Steel",
+        "AE_M_Dark"
+      ],
+      "zeroArea": 0,
+      "parent": "Sheave",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/FD_LiftSheave.fbx",
+      "guid": "8f816f86b21d19e4992f0aded9674785"
+    },
+    {
+      "name": "FD_LiftGuides",
+      "triangles": [
+        18788,
+        8642,
+        3380
+      ],
+      "materials": [
+        "AE_M_Steel",
+        "AE_M_Dark",
+        "AE_M_Corrosion"
+      ],
+      "zeroArea": 0,
+      "parent": "FixedShaft",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/FD_LiftGuides.fbx",
+      "guid": "523abbad348890c4facc461c8bdbf3cf"
+    },
+    {
+      "name": "FD_LiftCounterweight",
+      "triangles": [
+        864,
+        396,
+        154
+      ],
+      "materials": [
+        "AE_M_Steel",
+        "AE_M_Dark"
+      ],
+      "zeroArea": 0,
+      "parent": "Counterweight",
+      "asset": "Assets/Afrer_Seconds/05.Model/Props/1F/FD_LiftCounterweight.fbx",
+      "guid": "3e807e17c88444e4f84d23eec8d9a1a9"
+    },
+    {
+      "name": "FD_C01_WallTrim",
+      "triangles": [
+        65112,
+        29950,
+        11720
+      ],
+      "materials": [
+        "AE_M_Corrosion",
+        "AE_M_Steel",
+        "AE_M_Plaster",
+        "AE_M_Dark"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/FD_C01_WallTrim.fbx",
+      "guid": "b6732c97381d2dd48b70ef50039a23fc"
+    },
+    {
+      "name": "FD_C02_WallTrim",
+      "triangles": [
+        54048,
+        24862,
+        9728
+      ],
+      "materials": [
+        "AE_M_Corrosion",
+        "AE_M_Steel",
+        "AE_M_Plaster",
+        "AE_M_Dark"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/FD_C02_WallTrim.fbx",
+      "guid": "64434b6f950a8f74faa51c047f91df37"
+    },
+    {
+      "name": "FD_C03_WallTrim",
+      "triangles": [
+        30288,
+        13932,
+        5450
+      ],
+      "materials": [
+        "AE_M_Corrosion",
+        "AE_M_Steel",
+        "AE_M_Plaster",
+        "AE_M_Dark"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/FD_C03_WallTrim.fbx",
+      "guid": "28c8c11112e39b049b908bf5a046bc5b"
+    },
+    {
+      "name": "FD_C04_WallTrim",
+      "triangles": [
+        30288,
+        13932,
+        5450
+      ],
+      "materials": [
+        "AE_M_Corrosion",
+        "AE_M_Steel",
+        "AE_M_Plaster",
+        "AE_M_Dark"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/FD_C04_WallTrim.fbx",
+      "guid": "fa47430edacbc684dbe9e1885a55e82f"
+    },
+    {
+      "name": "FD_VA_WallTrim",
+      "triangles": [
+        18624,
+        8566,
+        3352
+      ],
+      "materials": [
+        "AE_M_Corrosion",
+        "AE_M_Steel",
+        "AE_M_Plaster",
+        "AE_M_Dark"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/FD_VA_WallTrim.fbx",
+      "guid": "cd517946f1ca5a445891639b41bb6c1f"
+    },
+    {
+      "name": "FD_VB_WallTrim",
+      "triangles": [
+        18792,
+        8644,
+        3382
+      ],
+      "materials": [
+        "AE_M_Corrosion",
+        "AE_M_Steel",
+        "AE_M_Plaster",
+        "AE_M_Dark"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/FD_VB_WallTrim.fbx",
+      "guid": "693d6c17cd107bf4e80e14228ac9d9c2"
+    },
+    {
+      "name": "FD_VL_WallTrim",
+      "triangles": [
+        18792,
+        8644,
+        3382
+      ],
+      "materials": [
+        "AE_M_Corrosion",
+        "AE_M_Steel",
+        "AE_M_Plaster",
+        "AE_M_Dark"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/FD_VL_WallTrim.fbx",
+      "guid": "94b4b76139fd51a4d891e1e0ff22530b"
+    },
+    {
+      "name": "FD_T01_WallTrim",
+      "triangles": [
+        21912,
+        10078,
+        3944
+      ],
+      "materials": [
+        "AE_M_Corrosion",
+        "AE_M_Steel",
+        "AE_M_Plaster",
+        "AE_M_Dark"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/FD_T01_WallTrim.fbx",
+      "guid": "ea24b7029dab7ed43be9b04976d7ddc8"
+    },
+    {
+      "name": "FD_T02_WallTrim",
+      "triangles": [
+        14064,
+        6468,
+        2530
+      ],
+      "materials": [
+        "AE_M_Corrosion",
+        "AE_M_Steel",
+        "AE_M_Plaster",
+        "AE_M_Dark"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/FD_T02_WallTrim.fbx",
+      "guid": "632f7cad2f1c3754fb013f71ff28f035"
+    },
+    {
+      "name": "FD_T03_WallTrim",
+      "triangles": [
+        18960,
+        8720,
+        3412
+      ],
+      "materials": [
+        "AE_M_Corrosion",
+        "AE_M_Steel",
+        "AE_M_Plaster",
+        "AE_M_Dark"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/FD_T03_WallTrim.fbx",
+      "guid": "8fd026e9867a5e241b1c042248e876dd"
+    },
+    {
+      "name": "FD_T04_WallTrim",
+      "triangles": [
+        12192,
+        5608,
+        2194
+      ],
+      "materials": [
+        "AE_M_Corrosion",
+        "AE_M_Steel",
+        "AE_M_Plaster",
+        "AE_M_Dark"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/FD_T04_WallTrim.fbx",
+      "guid": "fd8b0e2b0eedebb4a9c78edd8f1beb88"
+    },
+    {
+      "name": "FD_T05_WallTrim",
+      "triangles": [
+        36408,
+        16746,
+        6552
+      ],
+      "materials": [
+        "AE_M_Corrosion",
+        "AE_M_Steel",
+        "AE_M_Plaster",
+        "AE_M_Dark"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/FD_T05_WallTrim.fbx",
+      "guid": "b87f4133cdf3b1f47966fcc1319ffd81"
+    },
+    {
+      "name": "FD_T06_WallTrim",
+      "triangles": [
+        20160,
+        9272,
+        3628
+      ],
+      "materials": [
+        "AE_M_Corrosion",
+        "AE_M_Steel",
+        "AE_M_Plaster",
+        "AE_M_Dark"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/FD_T06_WallTrim.fbx",
+      "guid": "8364cfb0417346a4bbdaf86de55a2967"
+    },
+    {
+      "name": "FD_T07_WallTrim",
+      "triangles": [
+        4896,
+        2252,
+        880
+      ],
+      "materials": [
+        "AE_M_Corrosion",
+        "AE_M_Steel",
+        "AE_M_Plaster",
+        "AE_M_Dark"
+      ],
+      "zeroArea": 0,
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/FD_T07_WallTrim.fbx",
+      "guid": "e1d451f4e86452b4293b94ba202eabd2"
+    },
+    {
+      "name": "AE_WallIvy",
+      "triangles": [
+        332312,
+        152863,
+        59816
+      ],
+      "materials": [
+        "AE_M_IvyBark",
+        "AE_M_IvyMid",
+        "AE_M_IvyVein",
+        "AE_M_IvyDark",
+        "AE_M_IvyLight",
+        "AE_M_IvyDry"
+      ],
+      "zeroArea": 0,
+      "leaves": 5554,
+      "branches": 1857,
+      "vines": 120,
+      "windowClearance": true,
+      "asset": "Assets/Afrer_Seconds/05.Model/Environment/1F/AE_WallIvy.fbx",
+      "guid": "071b682e96c839247adc7ebd89958935"
+    }
+  ]
+}

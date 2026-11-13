@@ -1,4 +1,44 @@
-# After Seconds — Codex 작업 안내 V1.06
+# After Seconds — Codex 작업 안내 V1.16
+
+2026-11-13 최신 프랍 보수: 릴·의자·카트·지게차·프레스5종11배치의 곡면/케이블·기계 연결·재질별 마모를 보수했다. 새1F 전용5FBX·17재질·3LOD, 기존4,790Transform 변경0·44추가→4,834·Collider165유지. 통행75/75·최종Play3시점728프레임 새 경고/오류0·기존14,222파일 중 허용 씬/반사 외 변경0. 승인 하늘/Bloom·황야·다른층·게임 코드 보존. 저장된1F 편집, CableReel 선택. 커밋/push 미실시. 첫Apply/Before/이전 제작기 재실행 금지. 작성자 송예찬. [검수](Docs/Review/2026-11-13_1F_PropRefinement/Review.md) · [전후](Docs/Review/2026-11-13_1F_PropRefinement/review.html) · [원본](SourceAssets/F1_PropRefinement/README.md).
+
+이전 단계 기록:
+
+2026-11-13 최신 황야 보수: 사용자가 수용한 석양/태양/Bloom을 보존하고 바위·식생12형태, 출구 접근부27청크·306포기, 지면4층과 겹친 원경을 보수했다. 기존643배치 메시 교체·465추가, 기존531식생 경사 회전 외 Transform 변경0. 총4,790Transform·Collider165. 585m왕복2/2·폭879표본 막힘0·실제Play3시점725프레임 새 경고/오류0. 보호215파일·승인 하늘/Bloom 보존. 1F Cinemachine 렌즈 거리4,500m로 원경 표시 고정. 저장된1F 편집·WildernessEnding 선택, 커밋/push 미실시. 첫 Apply/Before와 이전 제작기 일괄 재실행 금지. 작성자 송예찬. [검수](Docs/Review/2026-11-13_1F_WildernessDetail/Review.md) · [전후 화면](Docs/Review/2026-11-13_1F_WildernessDetail/review.html) · [제작 원본](SourceAssets/F1_WildernessDetail/README.md).
+
+이전 단계 기록:
+
+2026-11-13 최신 태양 보수: 태양 지름 약2.9배·가까운 광륜·넓은 대기 산란과1F 전용 Bloom을 반영하고 반사8개를 갱신했다. 기존2,107Transform 변경0·Volume1개 추가→2,108·Collider165유지. 기존 조명/안개/카메라 보존, 실제Play3시점724프레임·새 경고/오류0. 보호215파일 해시와 하늘2.meta 일치. 저장된1F 편집, FS_SunsetSky 재질 선택. 정적 표현이며 눈 적응/엔딩 기능은 미구현. 커밋/push 미실시. 최신 제작 원본은 F1_FirstLight이며 첫 Apply/Before와 이전 전체 제작기는 재실행하지 않는다. 작성자 송예찬. [검수](Docs/Review/2026-11-13_1F_FirstLight/Review.md) · [전후 화면](Docs/Review/2026-11-13_1F_FirstLight/review.html) · [제작 원본](SourceAssets/F1_FirstLight/README.md).
+
+이전 단계 기록:
+
+2026-11-13 최신 하늘: HDRI 없이1F 전용 절차적 석양을 제작했다. 서쪽 황야 진행 방향의 고도5°태양·주황/보라 하늘·얇은 구름, 햇빛·안개·실내 보조광7개·반사8개를 맞췄다. Transform2,107·Collider165유지, 태양 회전 외 배치 변경0. 실제Play3시점330프레임·새 경고/오류0. 코드/다른씬/설정53개 해시 일치. FS_SunsetSky 재질 선택과 황야 시야, 저장된1F 편집 상태. 기존 하늘 에셋과 승강기/구조/게임 코드 보존, 커밋/push 미실시. 정적인 석양이며 시간 진행·엔딩 기능은 사용자 후속 구현. 첫 Apply와 이전 전체 제작기는 재실행하지 않는다. 작성자 송예찬. [검수](Docs/Review/2026-11-13_1F_SunsetSky/Review.md) · [전후 화면](Docs/Review/2026-11-13_1F_SunsetSky/review.html) · [제작 원본](SourceAssets/F1_SunsetSky/README.md).
+
+이전 단계 기록:
+
+2026-11-13 최신 환경 연결 보수: 바닥 설비 연결·철거 앵커/마모·국소 기름때 → 창턱/벽 하단 노후화 → 분기 아이비·접지 낙엽·지붕 재질별 잔해를 반영했다. 신규8모델과 아이비 갱신, 기존2,074Transform 변경0·33추가→2,107·Collider165유지. 통행75/75·실제Play3시점825프레임·새 경고/오류0, 보호13,131파일 해시 일치. 승강기 피벗·Player/Input·게임 C#/Animator·다른층·황야 보존. 게임 운행·문 제어는 사용자 후속 구현이다. 저장된 Level_1F_Factory에서 EnvironmentalStory 선택, 로컬 저장·커밋/push 미실시. 첫 Apply/이전 제작기를 일괄 재실행하지 않는다. 작성자 송예찬. [최신 검수](Docs/Review/2026-11-13_1F_EnvironmentalStory/Review.md) · [전후 화면](Docs/Review/2026-11-13_1F_EnvironmentalStory/review.html) · [제작 원본](SourceAssets/F1_EnvironmentalStory/README.md).
+
+이전 단계 기록:
+
+2026-11-13 최신 근접 디테일: 벽14구역의 금속판 표면·창/하단 마감, 승강기11배치의 기계/카/문 부품, 줄기120개·잎5,554장의 벽 아이비, 내부 프랍24종·49배치를 보강했다. 기존1,778Transform 변경0, 부품296추가→2,074, Collider165유지. 통행75/75·실제Play3시점696프레임·누락참조/셰이더/콘솔 오류0, 보호13,131파일 해시 일치. 창 비율·지붕·황야·다른층과 기존 가동부 피벗 유지. 게임 운행/문 제어는 사용자가 작성한다. 저장된 Level_1F_Factory가 최신이며 승강기 선택, 로컬 저장·커밋/push 미실시. 이전 전체 제작기와 첫 Apply를 일괄 재실행하지 않는다. 작성자 송예찬. [최신 검수](Docs/Review/2026-11-13_1F_DetailPass/Review.md) · [전후 화면](Docs/Review/2026-11-13_1F_DetailPass/review.html) · [제작/부품 연결](SourceAssets/F1_DetailPass/README.md).
+
+이전 단계 기록:
+
+2026-11-13 최신 창·지붕 보수: 벽14개에서 창 개구 비율을 수정 벽 구간 면적 기준44.8%→19.8%로 줄였다. 금속 지붕9개는 실제 골판·체결·지지대·들린 판재, 콘크리트2개는 박락 단면·골재·균열·노출 철근으로 보강했다. PNNL/FEMA/NPS 자료를 조사해 재질별 파손 원리를 구분했다. 기존25FBX GUID·1,778Transform·165Collider 유지, 통행75/75·누락참조0, 기존 표면/승강기/계단/황야 보존. 게임 기능은 사용자 후속 구현 범위다. 최신은 저장된 Level_1F_Factory, AE_C01_Walls 선택. 로컬 저장, 커밋/push 미실시. 이전 전체 제작기나 Apply/Import를 일괄 재실행하지 않는다. 작성자 송예찬. [최신 검수](Docs/Review/2026-11-13_1F_WindowRoofDamage/Review.md) · [전후 화면](Docs/Review/2026-11-13_1F_WindowRoofDamage/review.html) · [제작 원본](SourceAssets/F1_WindowRoofDamage/README.md).
+
+이전 단계 기록:
+
+2026-11-13 최신 표면 보수: 외벽의 벽돌 텍스처 연결을 제거하고 도장 금속판의 이음새·체결점·작은 녹/박리로 바꿨다. 1F 재질14개와 관련 Renderer444개에 금속·콘크리트·목재·고무·직물 디테일을 적용했다. 1,778 Transform·165 Collider 유지, 셰이더/콘솔 오류0·누락 참조0·실제 Play3시점 확인. 아래 천장·승강기·VB 계단·황야 구조는 유지한다. **승강기 운행·문 제어·엔딩 스크립트는 사용자가 후속 구현한다.** 저장된 Level_1F_Factory가 최신이며 AE_C01_Walls 근접 시야를 선택했다. 로컬 저장, 커밋/push 미실시. 이전 전체 제작기와 단계별 Apply/Import 일괄 재실행 금지. 작성자 송예찬. [최신 검수](Docs/Review/2026-11-13_1F_SurfaceDetail/Review.md) · [표면 전후 화면](Docs/Review/2026-11-13_1F_SurfaceDetail/review.html) · [표면 수정값](SourceAssets/F1_SurfaceDetail/README.md) · [가동 부품 안내](SourceAssets/F1_RoofLiftWilderness/README.md).
+
+이전 단계 기록:
+
+2026-11-13 사용자 후속 요청: 1F 천장11곳의 사각 결손을 불규칙 파손·꺾인 철판·철근으로 보수했다. VL은 고정 승강로와 Car·Counterweight·Sheave·Ropes·문을 분리했고, VB 도착문은 실제18m 계단/도착참에 연결했다. 서쪽 출구에는 황야와 엔딩용 위치3개를 배치했다. 기존통행75/75·새접속/외부왕복8/8·실제Play6지점·누락참조0, 다른층/게임C#/Player/Animator/설정 보존. **승강기 운행·문 제어·엔딩 스크립트는 사용자가 후속 구현한다.** 저장된 Level_1F_Factory가 최신이며 WildernessEnding을 선택했다. 로컬 저장, 커밋/push 미실시. 이전 전체 제작기와 이번 첫 Apply/Import 일괄 재실행 금지. 작성자 송예찬. [최신 검수](Docs/Review/2026-11-13_1F_RoofLiftWilderness/Review.md) · [전후 화면](Docs/Review/2026-11-13_1F_RoofLiftWilderness/review.html) · [부품 연결 안내](SourceAssets/F1_RoofLiftWilderness/README.md).
+
+이전 단계 기록:
+
+2026-11-13 후속: 저장된1F를 다시 검수해 VA/VB/VL 천장의 반복2cm 틈을 보수했다. 기존3FBX와 해당 반사3EXR만 변경했고6.meta·GUID/fileID·외곽 범위·재질·1086Transform·97Collider를 보존했다. 틈162/162, 누락 참조0·콘솔 오류/경고0. [최신 천장 검수](Docs/Review/2026-11-13_1F_CoreRoof/Review.md)와 [전후 화면](Docs/Review/2026-11-13_1F_CoreRoof/review.html)을 먼저 읽는다. 현재 저장된1F 편집 씬, AE_VA_Roof 선택. **다음은 사용자 전체1F 분위기·표면·지형 검수와 지정 구역 보수**다. 이번 변경은 로컬 저장이며 커밋/push 미실시. 이전 architecture.py/Apply/Import 일괄 재실행 금지. 제작 원본은 SourceAssets/F1_CoreRoofRepair. 작성자 송예찬.
+
+이전 마감 기록:
 
 2026-11-12 작업 마감: 오늘의 B1 실내 재설계·데스크 기물 보수와 지상1F 위장 폐공장·Terrain·반복 무늬 보수를 `87a4cd5f`로 커밋·push했다. 블로그 일일개발일지·데일리로그도 `89a929c`로 게시했고 자동 검사·Pages 배포 성공, 글2편과 이미지6장 HTTP200 및 이미지 원본 해시 일치를 확인했다. **이어서 시작할 때 [오늘 작업 마감과 다음 작업](Docs/WorkClose_2026-11-12.md)을 먼저 읽는다.** 다음은 사용자 전체1F 분위기·표면·지형 검수와 지정 구역 보수다. Unity6000.4.0f1의 저장된 `Level_1F_Factory`가 최신이며 이전 제작기/Import/report를 일괄 재실행하지 않는다. 아래 ‘커밋/push/블로그 미실시’는 제작 단계 당시 기록이다. 작성자 송예찬.
 
@@ -344,3 +384,23 @@
 - V1.03 (2026-11-12): B1 데스크·기물51배치 후속 보수와 검수·현재 원본 연결. 송예찬.
 
 - V1.05 (2026-11-12): 지상1F 위장 폐공장·지형 재작업과 반복 무늬 보수/검수 기록. 송예찬.
+
+- V1.07 (2026-11-13): 1F 코어 천장3곳 틈 보수·반사 갱신과 검수·미커밋 상태 기록. 송예찬.
+
+- V1.08 (2026-11-13): 천장 파손 외형·가동부 분리 승강로·VB 계단 접속·황야와 검수 및 스크립트 인계 범위 기록. 송예찬.
+
+- V1.09 (2026-11-13): 외벽 벽돌 무늬 제거·국소 녹/박리와 재질별 근접 디테일, 표면 검수·최신 씬 상태 기록. 송예찬.
+
+- V1.10 (2026-11-13): 창 면적 축소와 조사 기반 금속/콘크리트 지붕 파손 보수·검수 기록. 송예찬.
+
+- V1.11 (2026-11-13): 벽·승강기·아이비·프랍 근접 디테일과 보존/통행/Play 검수 기록. 송예찬.
+
+- V1.12 (2026-11-13): 바닥·벽 위치별 노후화·식생/잔해 연결과 접지·보존·통행·Play 검수. 송예찬.
+
+- V1.13 (2026-11-13): 1F 석양·조명·반사와 보존/Play 검수. 송예찬.
+
+- V1.14 (2026-11-13): 1F 태양 확대·광륜·Bloom·반사와 보존/Play 검수. 송예찬.
+
+- V1.15 (2026-11-13): 수용한 하늘 보존·황야/접근부 보수·이동/보존/Play 검수. 송예찬.
+
+- V1.16 (2026-11-13): 1F 프랍5종·11배치 곡면/연결/마모 보수와 검수. 송예찬.

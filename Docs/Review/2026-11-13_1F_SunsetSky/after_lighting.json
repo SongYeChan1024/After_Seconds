@@ -1,0 +1,1039 @@
+{
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_1F_Factory.unity",
+  "skybox": "Assets/Afrer_Seconds/05.Model/Environment/1F/Materials/FS_SunsetSky.mat",
+  "sun": "OvercastDirectional",
+  "ambientMode": "Trilight",
+  "sky": [
+    0.4,
+    0.38,
+    0.49,
+    1.0
+  ],
+  "equator": [
+    0.46,
+    0.34,
+    0.29,
+    1.0
+  ],
+  "ground": [
+    0.23,
+    0.18,
+    0.19,
+    1.0
+  ],
+  "ambientIntensity": 1.0,
+  "fog": true,
+  "fogMode": "Linear",
+  "fogColor": [
+    0.63,
+    0.38,
+    0.3,
+    1.0
+  ],
+  "fogDensity": 0.01,
+  "fogStartDistance": 280.0,
+  "fogEndDistance": 3100.0,
+  "lights": [
+    {
+      "name": "StairwellBounce_0",
+      "path": "1F_AbandonedFactory/1F_VB/F1_VB_StairConnection/StairwellBounce_0",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        0.62,
+        0.68,
+        0.74,
+        1.0
+      ],
+      "intensity": 0.65,
+      "enabled": true,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "StairwellBounce_1",
+      "path": "1F_AbandonedFactory/1F_VB/F1_VB_StairConnection/StairwellBounce_1",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        0.62,
+        0.68,
+        0.74,
+        1.0
+      ],
+      "intensity": 0.65,
+      "enabled": true,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "StairwellBounce_2",
+      "path": "1F_AbandonedFactory/1F_VB/F1_VB_StairConnection/StairwellBounce_2",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        0.62,
+        0.68,
+        0.74,
+        1.0
+      ],
+      "intensity": 0.65,
+      "enabled": true,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "StairwellBounce_3",
+      "path": "1F_AbandonedFactory/1F_VB/F1_VB_StairConnection/StairwellBounce_3",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        0.62,
+        0.68,
+        0.74,
+        1.0
+      ],
+      "intensity": 0.65,
+      "enabled": true,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "CabinBounce",
+      "path": "1F_AbandonedFactory/1F_VL/F1_VL_LiftAssembly/Car/CabinBounce",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        0.78,
+        0.79,
+        0.69,
+        1.0
+      ],
+      "intensity": 0.7,
+      "enabled": true,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "C01_TaskLight_0",
+      "path": "1F_AbandonedFactory/Lighting/C01_TaskLight_0",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        0.85,
+        0.93,
+        1.0,
+        1.0
+      ],
+      "intensity": 5.368,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "C01_TaskLight_1",
+      "path": "1F_AbandonedFactory/Lighting/C01_TaskLight_1",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        0.85,
+        0.93,
+        1.0,
+        1.0
+      ],
+      "intensity": 5.368,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "C01_TaskLight_2",
+      "path": "1F_AbandonedFactory/Lighting/C01_TaskLight_2",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        0.85,
+        0.93,
+        1.0,
+        1.0
+      ],
+      "intensity": 5.368,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "C01_TaskLight_3",
+      "path": "1F_AbandonedFactory/Lighting/C01_TaskLight_3",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        0.85,
+        0.93,
+        1.0,
+        1.0
+      ],
+      "intensity": 5.368,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "C01_TaskLight_4",
+      "path": "1F_AbandonedFactory/Lighting/C01_TaskLight_4",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        0.85,
+        0.93,
+        1.0,
+        1.0
+      ],
+      "intensity": 5.368,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "C01_TaskLight_5",
+      "path": "1F_AbandonedFactory/Lighting/C01_TaskLight_5",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        0.85,
+        0.93,
+        1.0,
+        1.0
+      ],
+      "intensity": 5.368,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "C02_TaskLight_0",
+      "path": "1F_AbandonedFactory/Lighting/C02_TaskLight_0",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        0.85,
+        0.93,
+        1.0,
+        1.0
+      ],
+      "intensity": 3.66,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "C02_TaskLight_1",
+      "path": "1F_AbandonedFactory/Lighting/C02_TaskLight_1",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        0.85,
+        0.93,
+        1.0,
+        1.0
+      ],
+      "intensity": 3.66,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "C02_TaskLight_2",
+      "path": "1F_AbandonedFactory/Lighting/C02_TaskLight_2",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        0.85,
+        0.93,
+        1.0,
+        1.0
+      ],
+      "intensity": 3.66,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "C02_TaskLight_3",
+      "path": "1F_AbandonedFactory/Lighting/C02_TaskLight_3",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        0.85,
+        0.93,
+        1.0,
+        1.0
+      ],
+      "intensity": 3.66,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "C03_TaskLight_0",
+      "path": "1F_AbandonedFactory/Lighting/C03_TaskLight_0",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.91,
+        0.76,
+        1.0
+      ],
+      "intensity": 3.66,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "C03_TaskLight_1",
+      "path": "1F_AbandonedFactory/Lighting/C03_TaskLight_1",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.91,
+        0.76,
+        1.0
+      ],
+      "intensity": 3.66,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "C04_TaskLight_0",
+      "path": "1F_AbandonedFactory/Lighting/C04_TaskLight_0",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.91,
+        0.76,
+        1.0
+      ],
+      "intensity": 3.66,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "C04_TaskLight_1",
+      "path": "1F_AbandonedFactory/Lighting/C04_TaskLight_1",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.91,
+        0.76,
+        1.0
+      ],
+      "intensity": 3.66,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "VA_TaskLight_0",
+      "path": "1F_AbandonedFactory/Lighting/VA_TaskLight_0",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        0.85,
+        0.93,
+        1.0,
+        1.0
+      ],
+      "intensity": 3.66,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "VA_TaskLight_1",
+      "path": "1F_AbandonedFactory/Lighting/VA_TaskLight_1",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        0.85,
+        0.93,
+        1.0,
+        1.0
+      ],
+      "intensity": 3.66,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "VB_TaskLight_0",
+      "path": "1F_AbandonedFactory/Lighting/VB_TaskLight_0",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        0.85,
+        0.93,
+        1.0,
+        1.0
+      ],
+      "intensity": 3.66,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "VB_TaskLight_1",
+      "path": "1F_AbandonedFactory/Lighting/VB_TaskLight_1",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        0.85,
+        0.93,
+        1.0,
+        1.0
+      ],
+      "intensity": 3.66,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "VL_TaskLight_0",
+      "path": "1F_AbandonedFactory/Lighting/VL_TaskLight_0",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        0.85,
+        0.93,
+        1.0,
+        1.0
+      ],
+      "intensity": 3.66,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "VL_TaskLight_1",
+      "path": "1F_AbandonedFactory/Lighting/VL_TaskLight_1",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        0.85,
+        0.93,
+        1.0,
+        1.0
+      ],
+      "intensity": 3.66,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "T01_ServiceLight_2_0",
+      "path": "1F_AbandonedFactory/Lighting/T01_ServiceLight_2_0",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.91,
+        0.76,
+        1.0
+      ],
+      "intensity": 1.952,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "T01_ServiceLight_2_1",
+      "path": "1F_AbandonedFactory/Lighting/T01_ServiceLight_2_1",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.91,
+        0.76,
+        1.0
+      ],
+      "intensity": 1.952,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "T02_ServiceLight_1_1",
+      "path": "1F_AbandonedFactory/Lighting/T02_ServiceLight_1_1",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.91,
+        0.76,
+        1.0
+      ],
+      "intensity": 1.952,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "T02_ServiceLight_1_2",
+      "path": "1F_AbandonedFactory/Lighting/T02_ServiceLight_1_2",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.91,
+        0.76,
+        1.0
+      ],
+      "intensity": 1.952,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "T03_ServiceLight_2_0",
+      "path": "1F_AbandonedFactory/Lighting/T03_ServiceLight_2_0",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.91,
+        0.76,
+        1.0
+      ],
+      "intensity": 1.952,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "T03_ServiceLight_2_1",
+      "path": "1F_AbandonedFactory/Lighting/T03_ServiceLight_2_1",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.91,
+        0.76,
+        1.0
+      ],
+      "intensity": 1.952,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "T03_ServiceLight_3_0",
+      "path": "1F_AbandonedFactory/Lighting/T03_ServiceLight_3_0",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.91,
+        0.76,
+        1.0
+      ],
+      "intensity": 1.952,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "T04_ServiceLight_1_1",
+      "path": "1F_AbandonedFactory/Lighting/T04_ServiceLight_1_1",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.91,
+        0.76,
+        1.0
+      ],
+      "intensity": 1.952,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "T04_ServiceLight_1_2",
+      "path": "1F_AbandonedFactory/Lighting/T04_ServiceLight_1_2",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.91,
+        0.76,
+        1.0
+      ],
+      "intensity": 1.952,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "T05_ServiceLight_1_1",
+      "path": "1F_AbandonedFactory/Lighting/T05_ServiceLight_1_1",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.91,
+        0.76,
+        1.0
+      ],
+      "intensity": 1.952,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "T05_ServiceLight_2_0",
+      "path": "1F_AbandonedFactory/Lighting/T05_ServiceLight_2_0",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.91,
+        0.76,
+        1.0
+      ],
+      "intensity": 1.952,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "T05_ServiceLight_2_1",
+      "path": "1F_AbandonedFactory/Lighting/T05_ServiceLight_2_1",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.91,
+        0.76,
+        1.0
+      ],
+      "intensity": 1.952,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "T05_ServiceLight_2_2",
+      "path": "1F_AbandonedFactory/Lighting/T05_ServiceLight_2_2",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.91,
+        0.76,
+        1.0
+      ],
+      "intensity": 1.952,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "T05_ServiceLight_3_0",
+      "path": "1F_AbandonedFactory/Lighting/T05_ServiceLight_3_0",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.91,
+        0.76,
+        1.0
+      ],
+      "intensity": 1.952,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "T06_ServiceLight_1_1",
+      "path": "1F_AbandonedFactory/Lighting/T06_ServiceLight_1_1",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.91,
+        0.76,
+        1.0
+      ],
+      "intensity": 1.952,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "T06_ServiceLight_1_2",
+      "path": "1F_AbandonedFactory/Lighting/T06_ServiceLight_1_2",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.91,
+        0.76,
+        1.0
+      ],
+      "intensity": 1.952,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "LateAfternoonSun",
+      "path": "1F_AbandonedFactory/Lighting/LateAfternoonSun",
+      "type": "Directional",
+      "rotation": [
+        42.0000038,
+        322.0,
+        -1.14886575E-06
+      ],
+      "color": [
+        1.0,
+        0.94,
+        0.83,
+        1.0
+      ],
+      "intensity": 1.35,
+      "enabled": false,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "OvercastDirectional",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/DaylightThroughDamage/OvercastDirectional",
+      "type": "Directional",
+      "rotation": [
+        5.00000048,
+        88.0,
+        0.0
+      ],
+      "color": [
+        1.0,
+        0.6,
+        0.32,
+        1.0
+      ],
+      "intensity": 1.12,
+      "enabled": true,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "C01_DiffuseSkyBounce",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/DaylightThroughDamage/C01_DiffuseSkyBounce",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        0.62,
+        0.53,
+        0.6,
+        1.0
+      ],
+      "intensity": 0.46,
+      "enabled": true,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "C02_DiffuseSkyBounce",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/DaylightThroughDamage/C02_DiffuseSkyBounce",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        0.62,
+        0.53,
+        0.6,
+        1.0
+      ],
+      "intensity": 0.46,
+      "enabled": true,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "C03_DiffuseSkyBounce",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/DaylightThroughDamage/C03_DiffuseSkyBounce",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        0.62,
+        0.53,
+        0.6,
+        1.0
+      ],
+      "intensity": 0.46,
+      "enabled": true,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "C04_DiffuseSkyBounce",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/DaylightThroughDamage/C04_DiffuseSkyBounce",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        0.62,
+        0.53,
+        0.6,
+        1.0
+      ],
+      "intensity": 0.46,
+      "enabled": true,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "VA_DiffuseSkyBounce",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/DaylightThroughDamage/VA_DiffuseSkyBounce",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        0.62,
+        0.53,
+        0.6,
+        1.0
+      ],
+      "intensity": 0.38,
+      "enabled": true,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "VB_DiffuseSkyBounce",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/DaylightThroughDamage/VB_DiffuseSkyBounce",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        0.62,
+        0.53,
+        0.6,
+        1.0
+      ],
+      "intensity": 0.38,
+      "enabled": true,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    },
+    {
+      "name": "VL_DiffuseSkyBounce",
+      "path": "1F_AbandonedFactory/AbandonedCamouflage/DaylightThroughDamage/VL_DiffuseSkyBounce",
+      "type": "Point",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color": [
+        0.62,
+        0.53,
+        0.6,
+        1.0
+      ],
+      "intensity": 0.38,
+      "enabled": true,
+      "useColorTemperature": false,
+      "colorTemperature": 6570.0
+    }
+  ],
+  "skyOverrides": []
+}

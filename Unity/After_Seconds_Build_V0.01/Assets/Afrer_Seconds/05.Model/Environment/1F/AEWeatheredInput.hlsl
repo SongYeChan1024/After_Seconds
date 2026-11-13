@@ -35,6 +35,8 @@ half _DetailNormalMapScale;
 half _Surface;
 float _AE_Mode;
 float _AE_MacroScale;
+float _AE_WearAmount;
+float _AE_Seed;
 UNITY_TEXTURE_STREAMING_DEBUG_VARS;
 CBUFFER_END
 

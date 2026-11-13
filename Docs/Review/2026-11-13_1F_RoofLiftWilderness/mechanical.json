@@ -1,0 +1,57 @@
+{
+  "scene": "Assets/Afrer_Seconds/01.Scenes/Stage/Level_1F_Factory.unity",
+  "assemblyPosition": [
+    44.0,
+    0.0,
+    29.0
+  ],
+  "separateRoots": [
+    "Car",
+    "Counterweight",
+    "Sheave",
+    "FixedShaft",
+    "Ropes"
+  ],
+  "wheelAxis": "local Z",
+  "doorSlideAxis": "local X",
+  "attachedBehaviourTypes": [
+    "UnityEngine.Rendering.Universal.UniversalAdditionalLightData"
+  ],
+  "gameplayBehaviours": 0,
+  "animations": 0,
+  "travel": [
+    {
+      "carY": 0.0,
+      "weightY": -17.2,
+      "carRope": 1.76000023,
+      "weightRope": 19.79,
+      "totalStraight": 21.5500011,
+      "carBottom": -0.075,
+      "carTop": 3.79,
+      "weightBottom": -17.2,
+      "weightTop": -14.2400007
+    },
+    {
+      "carY": -9.0,
+      "weightY": -8.200001,
+      "carRope": 10.76,
+      "weightRope": 10.7900009,
+      "totalStraight": 21.5500011,
+      "carBottom": -9.075,
+      "carTop": -5.21,
+      "weightBottom": -8.200001,
+      "weightTop": -5.24000072
+    },
+    {
+      "carY": -18.0,
+      "weightY": 0.799999237,
+      "carRope": 19.76,
+      "weightRope": 1.79000092,
+      "totalStraight": 21.5500011,
+      "carBottom": -18.075,
+      "carTop": -14.21,
+      "weightBottom": 0.799999237,
+      "weightTop": 3.75999928
+    }
+  ]
+}
