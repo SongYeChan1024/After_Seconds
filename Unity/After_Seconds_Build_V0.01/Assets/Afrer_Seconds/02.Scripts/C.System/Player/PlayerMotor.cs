@@ -142,6 +142,116 @@
 */
 
 #endregion
+
+#region 의사코드 Ver 0.4 (점프 추가)
+
+/*
+플레이어를 이동시키는 기능
+(Ver 0.4: 바닥에 있을 때 위로 뛰어오른다. Ver 0.3에서 바뀐 부분만 적는다.
+         점프 키를 눌렀는지는 Presenter가 받고, Motor는 "지금 뛸 수 있는가"를 판단해 수직 속도를 바꾼다)
+
+기억해둘 정보에 추가:
+    지금 점프로 공중에 떠 있는지 — isJumping, 처음에는 false
+    (점프 시작 속도는 숫자로 적지 않고 설정 에셋에서 가져온다 — JumpForce)
+
+밖에서 읽을 수 있게 공개하는 값에 추가 (읽기만 가능):
+    지금 점프로 공중에 떠 있는지 — IsJumping
+        (나중에 Presenter가 이 값을 애니메이션에 전달한다)
+
+점프하라는 요청을 받으면 — Jump:
+    바닥에 닿아 있지 않다면: 아무것도 하지 않는다
+        (공중에서 다시 뛰거나, 난간에서 떨어지는 중에 뛰는 것을 막는다)
+
+    앉아 있다면:
+        일어서기를 시도한다 (TryStandUp)
+        일어서지 못했다면: 아무것도 하지 않는다
+            (낮은 통로 안에서는 머리 위가 막혀 있으므로 점프하지 않는다)
+
+    현재 수직 속도를 점프 시작 속도로 정한다
+        (더하지 않고 정한다. 언제 눌러도 같은 높이로 뛰게 하려고)
+    점프 중인 상태로 기록한다
+
+한 프레임의 이동 — 수정:
+    (속도 고르기와 수평 속도 계산은 Ver 0.3과 같음)
+
+    직전 이동에서 바닥에 닿았고, 현재 하강 중이라면:
+        수직 속도를 접지 유지용 하강 속도로 조정한다
+        점프 중이 아닌 상태로 기록한다 (착지했으므로)
+
+    수직 속도에 "중력 가속도 × 경과 시간"을 더한다
+
+    수평 속도와 수직 속도를 합쳐 이번 이동량을 구한다
+    CharacterController에 이번 이동량을 전달하고, 어느 쪽이 부딪혔는지 결과를 받는다
+
+    결과에 "위쪽이 부딪혔다"가 들어 있고, 현재 상승 중이라면:
+        수직 속도를 0으로 바꾼다
+            (천장에 머리가 닿으면 그 자리에서 떨어지기 시작하게 한다)
+*/
+
+#endregion
+
+#region 의사코드 Ver 0.5 (공중에서 수평 속도 유지)
+
+/*
+플레이어를 이동시키는 기능
+(Ver 0.5: 공중에서는 방향키로 조종할 수 없고, 발이 떨어진 순간의 수평 속도로 계속 날아간다.
+         Ver 0.4에서는 매 프레임 입력으로 수평 속도를 새로 계산해서, 공중에서 키를 떼면 그 자리에서 멈췄다.
+         Ver 0.4에서 바뀐 부분만 적는다)
+
+기억해둘 정보에 추가:
+    현재 수평 속도 — horizontalVelocity, 처음에는 (0, 0, 0)
+        (수직 속도처럼 프레임이 끝나도 남겨 둔다. 방향과 빠르기를 함께 담는다)
+
+한 프레임의 이동 — 수정:
+    (속도 고르기는 Ver 0.3과 같음)
+
+    직전 이동에서 바닥에 닿았다면:
+        이동 방향에 고른 속도를 곱해 현재 수평 속도로 정한다
+            (바닥에서는 지금까지처럼 입력대로 바로 움직이고 바로 멈춘다)
+    바닥에 닿아 있지 않다면:
+        현재 수평 속도를 바꾸지 않는다
+            (공중에서는 키를 누르거나 떼도, 시점을 돌려도 날아가는 방향과 빠르기가 그대로다)
+
+    (착지 처리와 중력은 Ver 0.4와 같음)
+
+    현재 수평 속도와 수직 속도를 합쳐 이번 이동량을 구한다
+    (CharacterController 전달과 천장 처리는 Ver 0.4와 같음)
+*/
+
+#endregion
+
+#region 의사코드 Ver 0.6 (바닥에서 서서히 빨라지고 서서히 멈추기)
+
+/*
+플레이어를 이동시키는 기능
+(Ver 0.6: 사람이 처음부터 최고 속도로 걷거나 뛰지 않으므로, 바닥에서 수평 속도를 조금씩 바꾼다.
+         Ver 0.5에서는 바닥에 닿아 있으면 입력대로 수평 속도를 "바로 정했다".
+         Ver 0.5에서 바뀐 부분만 적는다)
+
+(빠르기 숫자는 코드에 적지 않고 설정 에셋에서 가져온다 — Acceleration, Deceleration)
+
+한 프레임의 이동 — 수정:
+    (속도 고르기는 Ver 0.3과 같음)
+
+    직전 이동에서 바닥에 닿았다면:
+        이동 방향에 고른 속도를 곱해 "원하는 수평 속도"를 구한다
+            (입력이 없으면 원하는 수평 속도는 (0, 0, 0)이다)
+
+        이동 입력이 없다면:
+            이번에 쓸 빠르기를 감속도로 정한다 (키를 떼면 빨리 멈추게)
+        그렇지 않다면:
+            이번에 쓸 빠르기를 가속도로 정한다 (출발·방향 전환·걷기→달리기)
+
+        현재 수평 속도를 원하는 수평 속도 쪽으로 "고른 빠르기 × 경과 시간"만큼만 옮긴다
+            (Vector3.MoveTowards — 목표를 지나치지 않고, 가까우면 목표에 정확히 멈춘다)
+
+    바닥에 닿아 있지 않다면:
+        현재 수평 속도를 바꾸지 않는다 (Ver 0.5와 같음)
+
+    (착지·중력·이동 전달·천장 처리는 Ver 0.5와 같음)
+*/
+
+#endregion
 [RequireComponent(typeof(CharacterController))]
 public class PlayerMotor : MonoBehaviour
 {
@@ -150,15 +260,23 @@ public class PlayerMotor : MonoBehaviour
     private CharacterController characterController;
     private float verticalVelocity;
 
+    // 현재 수평 속도(방향과 빠르기). 수직 속도처럼 프레임이 끝나도 남겨 둔다.
+    // 바닥에서는 매 프레임 입력으로 새로 정하고, 공중에서는 바꾸지 않아 날아가던 그대로 유지된다.
+    private Vector3 horizontalVelocity = Vector3.zero;
+
     // ── 앉기에 쓰는 정보 ──
     private float standingHeight;    // 서 있을 때 CharacterController 높이 (Awake에서 읽어 둔다)
     private Vector3 standingCenter;  // 서 있을 때 CharacterController 중심
     private Vector3 crouchingCenter; // 앉았을 때 중심 (발바닥 위치가 그대로 있도록 계산)
     private bool isCrouching;        // 지금 앉아 있는지
+    private bool isJumping;
 
     // 지금 앉아 있는지 밖에서 읽기만 할 수 있게 공개한다.
     // 나중에 경비 감지 기능이 이 값을 읽어 "앉아 있으면 늦게 들키게" 만든다.
     public bool IsCrouching => isCrouching;
+
+    // 지금 점프 했는지 밖에서 읽기만 할 수 있게 공개한다.
+    public bool IsJumping => isJumping;
 
     // 서 있을 때보다 몸이 얼마나 낮아졌는지(m). 서 있으면 0이다.
     // Presenter가 이 값만큼 눈 높이(CameraRoot)를 낮추도록 PlayerLook에 전달한다.
@@ -220,6 +338,32 @@ public class PlayerMotor : MonoBehaviour
         characterController.center = standingCenter; // 원래 중심으로
         isCrouching = false;
         return true;
+    }
+
+    // 점프하라는 요청. 점프 키를 눌렀는지는 Presenter가 받고, 여기서는 "지금 뛸 수 있는지"를 판단한다.
+    // 결과를 밖에서 쓰지 않으므로 돌려주는 값이 없는 void로 만든다.
+    public void Jump()
+    {
+        // isGrounded는 "직전 이동에서 바닥에 닿았는지"를 알려 준다.
+        if (characterController.isGrounded == false) // 바닥에 닿아 있지 않다면
+        {
+            return; // 공중에서 다시 뛰거나, 난간에서 떨어지는 중에 뛰지 않는다
+        }
+
+        if (isCrouching) // 앉아 있다면 먼저 일어서야 뛸 수 있다
+        {
+            // TryStandUp()은 일어서기에 성공하면 true, 머리 위가 막혀 실패하면 false를 돌려준다.
+            if (TryStandUp() == false) // 일어서지 못했다면 (낮은 통로 안)
+            {
+                return; // 앉은 채로 두고 점프하지 않는다
+            }
+        }
+
+        // 수직 속도를 점프 시작 속도로 정한다.
+        // += 로 더하지 않고 = 로 정하는 이유: 언제 눌러도 같은 높이로 뛰게 하려고.
+        verticalVelocity = settings.JumpForce;
+
+        isJumping = true; // 점프 중인 상태로 기록한다. 착지하면 Move에서 false로 되돌린다.
     }
 
     // 지금 앉은 머리 위치부터 서 있을 때의 머리 위치까지 비어 있는지 확인한다.
@@ -288,16 +432,52 @@ public class PlayerMotor : MonoBehaviour
             currentSpeed = settings.MoveSpeed;
         }
 
-        Vector3 horizontalVelocity = moveDirection * currentSpeed; // 방향 × 고른 속도 = 수평 속도
+        // 바닥에 닿아 있을 때만 입력으로 수평 속도를 바꾼다.
+        // 공중에서는 이 블록을 건너뛰므로, 발이 떨어진 순간의 수평 속도가 그대로 남는다.
+        // (isGrounded는 "직전 이동에서 바닥에 닿았는지"라서, 점프한 프레임에는 아직 true다.
+        //  그래서 뛰는 순간의 입력까지는 반영되고, 그다음 프레임부터 고정된다)
+        if (characterController.isGrounded)
+        {
+            // 입력대로라면 내고 싶은 속도. 입력이 없으면 (0, 0, 0)이 된다.
+            Vector3 targetVelocity = moveDirection * currentSpeed; // 방향 × 고른 속도 = 원하는 수평 속도
+
+            // 이번에 속도를 바꿀 빠르기를 고른다.
+            float changeRate;
+            if (limitedInput == Vector2.zero)   // 이동 입력이 없다면 (키를 뗐다면)
+            {
+                changeRate = settings.Deceleration; // 감속도: 빨리 멈춘다
+            }
+            else                                // 이동 입력이 있다면
+            {
+                changeRate = settings.Acceleration; // 가속도: 출발·방향 전환·걷기→달리기
+            }
+
+            // MoveTowards(지금 값, 목표 값, 이번에 바꿀 수 있는 최대량):
+            // 지금 값을 목표 쪽으로 최대량만큼만 옮긴 결과를 돌려준다. 목표를 지나치지 않는다.
+            // "빠르기 × 경과 시간"을 넣어야 프레임 수와 상관없이 1초에 같은 양만큼 바뀐다.
+            horizontalVelocity = Vector3.MoveTowards(horizontalVelocity, targetVelocity, changeRate * deltaTime);
+        }
 
         if (characterController.isGrounded && verticalVelocity < 0f)
         {
             verticalVelocity = settings.GroundedVerticalSpeed;
+            isJumping = false;
         }
 
         verticalVelocity += settings.GravityAcceleration * deltaTime;
 
         Vector3 velocity = horizontalVelocity + Vector3.up * verticalVelocity;
-        characterController.Move(velocity * deltaTime);
+
+        // Move는 몸을 움직인 뒤 "이번 이동에서 어느 쪽이 부딪혔는지"를 CollisionFlags로 돌려준다.
+        // 충돌을 감지하는 것은 Move이고, flags는 그 결과를 담아 두는 변수다.
+        CollisionFlags flags = characterController.Move(velocity * deltaTime);
+
+        // 위쪽(천장)이 부딪혔고, 지금 올라가는 중이라면 상승을 멈춘다.
+        // 벽과 천장에 동시에 닿을 수 있어서 == 로 비교하지 않고, & 로 "위쪽 표시가 들어 있는지"만 골라 확인한다.
+        // 올라가는 중일 때만 바꾸는 이유: 낮은 통로에서 머리가 스치기만 할 때 하강 속도를 건드리지 않으려고.
+        if ((flags & CollisionFlags.Above) != 0 && verticalVelocity > 0f)
+        {
+            verticalVelocity = 0f; // 천장에 붙어 있지 않고 그 자리에서 바로 떨어지기 시작한다
+        }
     }
 }

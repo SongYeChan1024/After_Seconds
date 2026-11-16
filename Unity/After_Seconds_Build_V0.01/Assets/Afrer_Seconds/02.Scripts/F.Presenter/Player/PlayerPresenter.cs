@@ -152,7 +152,7 @@ Look 입력 이벤트를 받으면 — OnLook:
         isMove에 false를 전달해 이동 애니메이션 상태를 초기화한다
     */
 
-    #endregion 
+    #endregion
 
     #region 의사코드 Ver 0.3 (스프린트 추가)
 
@@ -268,6 +268,47 @@ Crouch 입력 이벤트를 받으면 — OnCrouch:
 
     #endregion
 
+    #region 의사코드 Ver 0.5 (점프 추가)
+
+    /*
+    (Ver 0.5: Space를 누른 순간 한 번 점프한다. Ver 0.4에서 바뀐 부분만 적는다
+             지금 뛸 수 있는지(바닥에 있는지, 일어설 수 있는지)는 Motor가 판단하고,
+             Presenter는 "눌렀다"는 사실만 전달한다)
+
+기억해둘 정보에 추가:
+    이번에 점프 키를 눌렀는지 — jumpPressed, 처음에는 false
+        (점프도 "누르고 있는 동안"이 아니라 "누른 순간"이 중요하므로,
+         누른 순간을 표시해 두고 Update에서 한 번만 처리한 뒤 지운다)
+
+Jump 입력 이벤트를 받으면 — OnJump:
+    이 컴포넌트나 게임 오브젝트가 비활성화 상태라면:
+        이번 이벤트 처리를 종료한다
+    점프 키를 눌렀다면 — performed:
+        점프 키를 눌렀다고 표시한다
+    (키를 뗄 때 — canceled — 는 아무것도 하지 않는다)
+
+매 프레임 — Update 수정:
+    저장한 시야 입력값을 PlayerLook에 전달해 회전을 요청한다
+
+    (앉기 토글 처리는 Ver 0.4와 같음)
+
+    점프 키를 눌렀다는 표시가 있다면:
+        표시를 지운다 (한 번 누르면 한 번만 처리)
+        Motor에 점프를 요청한다
+            (공중이거나 낮은 통로 안이면 Motor가 거절하고 아무 일도 일어나지 않는다)
+
+    Motor가 낮아진 몸 높이만큼 눈 높이도 낮추도록 PlayerLook에 전달한다
+        (앉은 채로 점프해 일어섰다면 눈 높이도 여기서 함께 올라간다)
+
+    (이하 Ver 0.4와 같음: 달리기 판단 → 이동 요청 → 애니메이션 전달
+     점프 요청이 이동 요청보다 먼저여야 이번 프레임의 이동에 점프 속도가 반영된다)
+
+이 컴포넌트가 비활성화되면 — OnDisable 추가:
+    점프 키를 눌렀다는 표시를 지운다
+    */
+
+    #endregion
+
     // 이동을 담당하는 Motor의 참조. 다른 클래스에서 직접 접근하지 못하도록 private으로 둔다.
     // SerializeField는 이 필드를 저장 대상으로 만들어 인스펙터에서 연결할 수 있게 한다.
     [SerializeField] private PlayerMotor playerMotor;
@@ -291,6 +332,10 @@ Crouch 입력 이벤트를 받으면 — OnCrouch:
     // 이번에 앉기 키(C)를 눌렀는지 표시한다. 토글이라 "누른 순간"만 필요하므로
     // OnCrouch에서 true로 표시하고, Update에서 한 번 처리한 뒤 바로 false로 지운다.
     private bool crouchTogglePressed = false;
+
+    // 이번에 점프 키(Space)를 눌렀는지 표시한다. 점프도 "누른 순간"만 필요하므로
+    // OnJump에서 true로 표시하고, Update에서 한 번 처리한 뒤 바로 false로 지운다.
+    private bool jumpPressed = false;
 
     // 동작을 시작하기 전에 필요한 참조 확보와 검증을 끝내기 위해
     // Start보다 앞선 초기화 단계인 Awake에서 처리한다.
@@ -415,6 +460,21 @@ Crouch 입력 이벤트를 받으면 — OnCrouch:
         // 키를 뗄 때(canceled)는 토글 방식이라 아무것도 하지 않는다.
     }
 
+    public void OnJump(InputAction.CallbackContext context) // Player Input의 Jump 입력을 처리하기 위해 만든 전용 함수.
+    {
+        if (!isActiveAndEnabled) // 컴포넌트나 게임 오브젝트가 비활성화 상태라면
+        {
+            return; // 종료
+        }
+
+        if (context.performed) // 점프 키를 누른 순간
+        {
+            // "눌렀다"는 표시만 남긴다. 실제로 뛸 수 있는지는 Update에서 Motor가 판단한다.
+            jumpPressed = true;
+        }
+        // 키를 뗄 때(canceled)는 아무것도 하지 않는다.
+    }
+
     // 활성화된 동안 매 프레임 저장된 입력으로 시야 회전과 이동을 요청한다.
     // 성능은 변수 개수보다 매 프레임 실제로 수행하는 연산, 검색, 메모리 할당 등의 비용에 좌우된다.
 
@@ -441,7 +501,19 @@ Crouch 입력 이벤트를 받으면 — OnCrouch:
             }
         }
 
+        // 점프: Space를 누른 순간 한 번만 처리한다.
+        // 앉기 토글 뒤에 두어, 같은 프레임에 C와 Space를 함께 눌러도 자세가 먼저 정해진 뒤 점프를 판단한다.
+        if (jumpPressed)
+        {
+            jumpPressed = false; // 표시를 지워서 다음 프레임에 또 처리되지 않게 한다.
+
+            // 공중이거나 낮은 통로 안이면 Motor가 거절하고 아무 일도 일어나지 않는다.
+            // 아래의 Move보다 먼저 불러야 이번 프레임의 이동에 점프 속도가 반영된다.
+            playerMotor.Jump();
+        }
+
         // 몸이 낮아진 만큼 눈 높이(CameraRoot)도 낮춘다. 서 있으면 0이라 원래 높이로 돌아간다.
+        // 앉은 채로 점프해 일어섰다면 눈 높이도 여기서 함께 올라간다.
         playerLook.SetEyeDrop(playerMotor.CrouchHeightDrop);
 
         // 달리기 키를 누르고 있고, 앞으로 가는 입력(y > 0)일 때만 달리기로 판단한다.
@@ -468,6 +540,7 @@ Crouch 입력 이벤트를 받으면 — OnCrouch:
         lookInput = Vector2.zero; // 재활성화할 때 이전 입력이 남지 않도록 초기화한다.
         sprintInput = false;      // 재활성화할 때 달리기 입력이 남지 않도록 초기화한다.
         crouchTogglePressed = false; // 처리하지 못한 앉기 키 표시를 지운다. 앉아 있는 몸 상태는 그대로 둔다.
+        jumpPressed = false;         // 처리하지 못한 점프 키 표시를 지운다. 다시 켰을 때 갑자기 뛰지 않게 한다.
 
         if (playerAnimationSystem != null) // AnimationSystem이 연결되어 있다면
         {
