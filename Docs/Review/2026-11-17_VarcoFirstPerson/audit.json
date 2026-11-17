@@ -1,0 +1,94 @@
+{
+  "isPlaying": false,
+  "scene": "Level_B5_Circular",
+  "dirty": false,
+  "missingScripts": 0,
+  "hands": true,
+  "animationReference": true,
+  "animator": "PlayerDummy_Rigged_V0.3",
+  "controller": "Assets/Afrer_Seconds/07.Animator/Player/Controllers/Player_Animator_Blend.controller",
+  "cullingMode": 0,
+  "lowerTriangles": 4486,
+  "sharedBodyBones": true,
+  "overhand": "Assets/Afrer_Seconds/07.Animator/Player/Clips/VarcoFirstPerson/Player_Overhand_Varco.fbx",
+  "clipMeshes": 0,
+  "errors": 0,
+  "warnings": 1,
+  "logs": 40,
+  "motions": [
+    {
+      "name": "Player_Idle",
+      "threshold": 0.0,
+      "timeScale": 1.0,
+      "cycleOffset": 0.0
+    },
+    {
+      "name": "Player_Walk",
+      "threshold": 1.0,
+      "timeScale": 1.0,
+      "cycleOffset": 0.0
+    },
+    {
+      "name": "Player_Run",
+      "threshold": 2.0,
+      "timeScale": 1.0,
+      "cycleOffset": 0.0
+    },
+    {
+      "name": "Player_Crouch_Idle",
+      "threshold": 0.0,
+      "timeScale": 1.0,
+      "cycleOffset": 0.0
+    },
+    {
+      "name": "Crouch Walk Direction",
+      "threshold": 1.0,
+      "timeScale": 1.0,
+      "cycleOffset": 0.0
+    },
+    {
+      "name": "Player_Crouch_Idle",
+      "threshold": 0.0,
+      "timeScale": 1.0,
+      "cycleOffset": 0.0
+    },
+    {
+      "name": "Player_Crouch_Forward",
+      "threshold": 0.25,
+      "timeScale": 1.0,
+      "cycleOffset": 0.0
+    },
+    {
+      "name": "Player_Crouch_Back",
+      "threshold": 0.5,
+      "timeScale": 1.0,
+      "cycleOffset": 0.0
+    },
+    {
+      "name": "Player_Crouch_Left",
+      "threshold": 0.75,
+      "timeScale": 1.0,
+      "cycleOffset": 0.0
+    },
+    {
+      "name": "Player_Crouch_Right",
+      "threshold": 1.0,
+      "timeScale": 1.0,
+      "cycleOffset": 0.0
+    },
+    {
+      "name": "Player_Crouch_Sprint",
+      "threshold": 2.0,
+      "timeScale": 1.0,
+      "cycleOffset": 0.0
+    }
+  ],
+  "OverhandSpeed": 12.0,
+  "UnderhandSpeed": 6.0,
+  "UnderhandAngle": 35.0,
+  "underhandPosition": "(0.26, -0.34, 0.68)",
+  "underhandZoomLift": 0.08,
+  "background": false,
+  "inputBehavior": "ResetAndDisableNonBackgroundDevices",
+  "editorInputBehavior": "PointersAndKeyboardsRespectGameViewFocus"
+}

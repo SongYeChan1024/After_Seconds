@@ -1,0 +1,31 @@
+PASS R selects rolling mode without E
+PASS B5 direct click releases rolling object
+PASS holding left prepares rolling mode
+PASS neutral preview reaches first floor contact
+PASS low ready hand stays visible
+PASS release throws exactly once without windup delay
+PASS underhand speed is 4.5m/s
+PASS neutral launch points down
+PASS spawn stays at actual hand
+PASS preview and physics use same damping
+PASS forward spin clears default angular speed cap
+PASS floor contact happens within .7 seconds
+PASS flight never rises above release
+PASS hand follows through down and forward
+PASS released ball does not hide follow-through hands
+PASS predicted first contact matches actual within 8cm
+PASS roll travels at least 1m after contact
+PASS ball rotates multiple turns on floor
+PASS floor does not create a high bounce
+PASS roll slows to rest
+MEASURE contactTime=0.484s predictedError=0.0438m groundTravel=2.568m turns=7.01 maxBounce=0.0000m startRollSpeed=1.746 finalSpeed=0.0249 sleeping=False launch=(-0.33, -0.93, 4.39) handDown=-0.038 handForward=0.115
+PASS looking up cannot turn roll into a lob
+PASS looking down remains a forward low push
+PASS zoom keeps low hand visible
+PASS quick click rolls without E or charging
+PASS overhand still uses 12m/s with upward angle
+PASS distant overhand contact still hides marker beyond visible line
+PASS overhand retains original angular damping and no added spin
+PASS blocked rolling hand still refuses launch
+PASS real play frames advanced
+TOTAL passed=29, failed=0, frames=43→735

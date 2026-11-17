@@ -1,0 +1,23 @@
+PASS R changes to underhand while aiming
+PASS underhand starts at least 15cm below overhand
+PASS low held item remains in frame
+PASS both hands remain visible
+PASS neutral aim launches upward
+PASS zoom keeps low item visible
+PASS overhand speed 12m/s
+PASS underhand speed 6m/s
+PASS speed ratio 2 to 1
+PASS arc starts at low held item
+PASS arc rises visibly before falling
+PASS underhand travels materially less far
+PASS underhand has first contact circle
+speed: over=12.000, under=6.000; range over=8.985m, under=4.804m; under rise=0.567m
+PASS underhand releases immediately
+PASS released physics uses underhand speed
+PASS underhand hides duplicate and circle
+PASS underhand prediction matches impact within 8cm
+underhand impact error=0.0184m
+PASS deliberate downward aim is retained
+PASS cancel clears line and marker without throw
+PASS live frames advanced
+TOTAL passed=20, failed=0, frames=6200→6533

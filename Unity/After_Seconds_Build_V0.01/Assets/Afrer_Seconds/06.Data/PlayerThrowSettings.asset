@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0ed39be28756aa4bab4613e9db97ebf, type: 3}
+  m_Name: PlayerThrowSettings
+  m_EditorClassIdentifier: SystemAD::PlayerThrowSettings
+  overhandSpeed: 15
+  overhandAngle: 8
+  overhandHandOffset: {x: 0.3, y: -0.15, z: 0.45}
+  overhandConvergeDistance: 10
+  underhandSpeed: 10
+  underhandAngle: -12
+  underhandMaxElevation: -5
+  underhandDamping: 0.8
+  underhandPhysicsMaterial: {fileID: 13400000, guid: 2cb6f4d5141fb3649b0db99cbc844495, type: 2}
+  underhandHandOffset: {x: 0.26, y: -0.34, z: 0.68}
+  underhandConvergeDistance: 4
+  minConvergeDistance: 2
+  minHitSpeed: 1
+  testItemLifetime: 20
+  trajectoryTimeStep: 0.05
+  trajectoryMaxTime: 3
+  trajectoryLength: 2.5
+  trajectoryZoomedLength: 4
+  trajectoryWidth: 0.012
+  trajectoryOpacity: 0.3
+  fadeStart: 0.35
+  surfaceSkin: 0.005
+  collisionMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  showFullTrajectory: 0
+  maxPreviewDistance: 60
+  landingMarkerRadius: 0.2
+  landingMarkerWidth: 0.018

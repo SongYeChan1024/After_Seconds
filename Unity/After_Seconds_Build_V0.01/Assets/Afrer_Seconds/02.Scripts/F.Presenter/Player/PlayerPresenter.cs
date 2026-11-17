@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerPresenter : MonoBehaviour
@@ -309,6 +309,109 @@ Jump 입력 이벤트를 받으면 — OnJump:
 
     #endregion
 
+    #region 의사코드 Ver 0.6 (던지기 연결)
+
+    /*
+    (Ver 0.6: E로 던지기 자세를 켜고 끄고, 왼쪽 클릭을 누르고 있다가 떼면 던진다.
+             조준 중에 오른쪽 클릭을 누르면 던지지 않고 취소한다. Ver 0.5에서 바뀐 부분만 적는다
+             자세를 바꾸고 물건을 던지는 일은 PlayerThrow가 하고, Presenter는 누른 키를 전달만 한다)
+
+기억해둘 정보에 추가:
+    PlayerThrow의 참조 — playerThrow
+    이번에 던지기 자세 키(E)를 눌렀는지 — throwStancePressed, 처음에는 false
+    이번에 왼쪽 클릭을 눌렀는지 — attackPressed, 처음에는 false
+    이번에 왼쪽 클릭을 뗐는지 — attackReleased, 처음에는 false
+    이번에 오른쪽 클릭을 눌렀는지 — aimPressed, 처음에는 false
+        (점프와 같은 방식이다. 누른 순간을 표시해 두고 Update에서 한 번만 처리한 뒤 지운다)
+
+초기화할 때 — Awake 추가:
+    인스펙터에서 연결한 PlayerThrow가 없다면:
+        같은 게임 오브젝트에서 PlayerThrow를 찾아 보관한다
+    그래도 PlayerThrow가 없다면:
+        오류를 알리고 이 컴포넌트를 비활성화한다
+
+ThrowStance 입력 이벤트를 받으면 — OnThrowStance:
+    E를 눌렀다면 — performed: 던지기 자세 키를 눌렀다고 표시한다
+
+Attack 입력 이벤트를 받으면 — OnAttack:
+    왼쪽 클릭을 눌렀다면 — performed: 왼쪽 클릭을 눌렀다고 표시한다
+    왼쪽 클릭을 뗐다면 — canceled: 왼쪽 클릭을 뗐다고 표시한다
+        (던지기는 "누른 순간"과 "뗀 순간"이 둘 다 필요해서 표시가 두 개다)
+
+Aim 입력 이벤트를 받으면 — OnAim:
+    오른쪽 클릭을 눌렀다면 — performed: 오른쪽 클릭을 눌렀다고 표시한다
+
+매 프레임 — Update 끝에 추가 (이동과 애니메이션 전달 뒤):
+    던지기 자세 키를 눌렀다는 표시가 있다면:
+        표시를 지우고 PlayerThrow에 던지기 자세 전환을 요청한다
+
+    오른쪽 클릭을 눌렀다는 표시가 있다면:
+        표시를 지운다
+        지금 조준 중이라면: PlayerThrow에 조준 취소를 요청한다
+        (조준 중이 아닐 때의 오른쪽 클릭은 확대 조준이다. 다음 버전에서 추가한다)
+
+    왼쪽 클릭을 눌렀다는 표시가 있다면:
+        표시를 지우고 PlayerThrow에 조준 시작을 요청한다
+        (던지기 자세가 아니면 PlayerThrow가 아무것도 하지 않는다)
+
+    왼쪽 클릭을 뗐다는 표시가 있다면:
+        표시를 지우고 PlayerThrow에 던지기를 요청한다
+        (조준 중이 아니면 PlayerThrow가 아무것도 하지 않는다)
+
+    처리 순서의 이유:
+        누름 → 뗌 순서로 처리해서, 짧게 눌렀다 떼어 한 프레임에 둘 다 들어와도 바로 던져진다
+        이동 뒤에 처리해서, 이번 프레임에 움직인 자리와 돌린 시선 그대로 던진다
+
+이 컴포넌트가 비활성화되면 — OnDisable 추가:
+    던지기 관련 표시 네 개를 지운다
+    PlayerThrow가 연결되어 있다면: 조준을 취소한다 (다시 켰을 때 갑자기 던지지 않게)
+    */
+
+    #endregion
+
+    #region 의사코드 Ver 0.7 (확대 조준, 던지는 방식 전환, 궤적 표시 연결)
+
+    /*
+    (Ver 0.7: 오른쪽 클릭으로 확대 조준을 켜고 끄고, R로 위로/아래로 던지기를 바꾸고,
+             조준하는 동안 궤적이 보이게 한다. Ver 0.6에서 바뀐 부분만 적는다)
+
+기억해둘 정보에 추가:
+    PlayerZoom의 참조 — playerZoom
+    이번에 던지는 방식 키(R)를 눌렀는지 — throwModePressed, 처음에는 false
+
+초기화할 때 — Awake 추가:
+    PlayerZoom도 PlayerThrow와 같은 방식으로 찾고, 없으면 오류를 알리고 비활성화한다
+
+ThrowMode 입력 이벤트를 받으면 — OnThrowMode:
+    R을 눌렀다면 — performed: 던지는 방식 키를 눌렀다고 표시한다
+
+매 프레임 — Update 수정:
+    시야 입력에 PlayerZoom의 감도 비율을 곱해서 PlayerLook에 전달한다
+        (확대 중에는 같은 마우스 움직임에도 화면이 크게 움직이므로 감도를 낮춘다)
+
+    오른쪽 클릭을 눌렀다는 표시가 있다면 — 수정:
+        지금 조준 중이라면: 조준을 취소한다 (Ver 0.6과 같음)
+        조준 중이 아니고 물건을 들고 있다면: 확대 조준을 켜거나 끈다
+            (같은 오른쪽 클릭이 "왼쪽 클릭을 누르기 전에는 확대, 누르는 중에는 취소"가 된다)
+
+    던지는 방식 키를 눌렀다는 표시가 있다면:
+        표시를 지우고 PlayerThrow에 던지는 방식 전환을 요청한다
+        (던지기 자세가 아니면 PlayerThrow가 아무것도 하지 않는다)
+
+    왼쪽 클릭을 뗐다는 표시가 있다면 — 수정:
+        PlayerThrow에 던지기를 요청하고, 실제로 던졌다면 확대 조준을 푼다
+            (던진 물건은 손을 떠났으므로 조준을 계속할 이유가 없다)
+
+    맨 끝에서: PlayerThrow에 궤적을 새로 그리라고 요청한다
+        (위의 입력 처리가 모두 끝난 뒤의 상태로 그린다. 조준 중이 아니면 PlayerThrow가 궤적을 숨긴다)
+
+이 컴포넌트가 비활성화되면 — OnDisable 추가:
+    던지는 방식 키 표시를 지운다
+    PlayerZoom이 연결되어 있다면: 확대를 푼다
+    */
+
+    #endregion
+
     // 이동을 담당하는 Motor의 참조. 다른 클래스에서 직접 접근하지 못하도록 private으로 둔다.
     // SerializeField는 이 필드를 저장 대상으로 만들어 인스펙터에서 연결할 수 있게 한다.
     [SerializeField] private PlayerMotor playerMotor;
@@ -337,11 +440,33 @@ Jump 입력 이벤트를 받으면 — OnJump:
     // OnJump에서 true로 표시하고, Update에서 한 번 처리한 뒤 바로 false로 지운다.
     private bool jumpPressed = false;
 
+    // 던지기를 담당하는 PlayerThrow의 참조. 자세 전환과 던지기는 PlayerThrow가 하고, 여기서는 누른 키만 전달한다.
+    [SerializeField] private PlayerThrow playerThrow;
+
+    // 던지기 관련 키를 "이번에 눌렀는지/뗐는지" 표시한다. 점프와 같은 방식으로
+    // 입력 이벤트에서 true로 표시하고, Update에서 한 번 처리한 뒤 바로 false로 지운다.
+    // 최신 의사코드(2026-11-17): 좌클릭 누름 → 자동 준비, 해제 → 즉시1회 투척.
+    // E/조준 중 우클릭 취소를 먼저 처리한다. 같은 프레임의 좌클릭 시작/해제도 취소가 우선한다.
+    // R은 준비 전에도 방식을 고른다. 입력 맵 비활성화에 의한 canceled는 투척으로 처리하지 않는다.
+    private bool throwStancePressed = false; // E: 투척 취소(이름/기존 바인딩 유지)
+    private bool attackPressed = false;      // 왼쪽 클릭을 누른 순간: 조준 시작
+    private bool attackReleased = false;     // 왼쪽 클릭을 뗀 순간: 던지기
+    private bool aimPressed = false;         // 오른쪽 클릭을 누른 순간: 조준 중이면 취소, 아니면 확대 조준
+    private bool throwModePressed = false;   // R: 위로 던지기 ↔ 아래로 던지기
+    private InputAction attackAction;        // 물리 버튼 해제와 입력 맵 해제를 구분할 현재 액션
+    private PlayerInventory inventory;
+    private bool interactPressed, dropPressed;
+    private int selectionStep;
+
+    // 확대 조준을 담당하는 PlayerZoom의 참조. 언제 확대해도 되는지는 여기서 판단하고, 확대 자체는 PlayerZoom이 한다.
+    [SerializeField] private PlayerZoom playerZoom;
+
     // 동작을 시작하기 전에 필요한 참조 확보와 검증을 끝내기 위해
     // Start보다 앞선 초기화 단계인 Awake에서 처리한다.
     // 다른 컴포넌트의 Awake보다 먼저 실행된다는 뜻은 아니다.
     private void Awake()
     {
+        inventory = GetComponent<PlayerInventory>();
         if (playerMotor == null) // 인스펙터에서 연결한 Motor가 없다면 같은 오브젝트에서 찾는다.
         {
             playerMotor = GetComponent<PlayerMotor>(); // 찾은 컴포넌트의 참조를 보관한다.
@@ -376,6 +501,30 @@ Jump 입력 이벤트를 받으면 — OnJump:
         {
             Debug.LogError("플레이어에 PlayerAnimationSystem 컴포넌트를 연결해야 합니다."); // 설정 누락을 알린다.
             enabled = false; // 이후 Update 호출을 막는다. 현재 실행 중인 함수를 즉시 끝내는 명령은 아니다.
+            return; // Awake() 종료
+        }
+
+        if (playerThrow == null) // 인스펙터에서 연결한 PlayerThrow가 없다면 같은 오브젝트에서 찾는다.
+        {
+            playerThrow = GetComponent<PlayerThrow>(); // 찾은 컴포넌트의 참조를 보관한다.
+        }
+
+        if (playerThrow == null) // 같은 오브젝트에서도 PlayerThrow를 찾지 못했다면 갱신을 시작하지 않는다.
+        {
+            Debug.LogError("플레이어에 PlayerThrow 컴포넌트를 연결해야 합니다."); // 설정 누락을 알린다.
+            enabled = false; // 이후 Update 호출을 막는다.
+            return; // Awake() 종료
+        }
+
+        if (playerZoom == null) // 인스펙터에서 연결한 PlayerZoom이 없다면 같은 오브젝트에서 찾는다.
+        {
+            playerZoom = GetComponent<PlayerZoom>(); // 찾은 컴포넌트의 참조를 보관한다.
+        }
+
+        if (playerZoom == null) // 같은 오브젝트에서도 PlayerZoom을 찾지 못했다면 갱신을 시작하지 않는다.
+        {
+            Debug.LogError("플레이어에 PlayerZoom 컴포넌트를 연결해야 합니다."); // 설정 누락을 알린다.
+            enabled = false; // 이후 Update 호출을 막는다.
             return; // Awake() 종료
         }
     }
@@ -419,7 +568,7 @@ Jump 입력 이벤트를 받으면 — OnJump:
             lookInput = context.ReadValue<Vector2>();
         }
 
-        // 시야s 입력값이 0으로 돌아오거나, 진행 중인 Look 액션이 비활성화되어 취소된 경우.
+        // 시야 입력값이 0으로 돌아오거나, 진행 중인 Look 액션이 비활성화되어 취소된 경우.
         else if (context.canceled)
         {
             lookInput = Vector2.zero; // 이후 프레임에 추가 회전량이 없도록 입력을 초기화한다.
@@ -475,6 +624,69 @@ Jump 입력 이벤트를 받으면 — OnJump:
         // 키를 뗄 때(canceled)는 아무것도 하지 않는다.
     }
 
+    public void OnThrowStance(InputAction.CallbackContext context) // Player Input의 ThrowStance(E) 입력을 처리하기 위해 만든 전용 함수.
+    {
+        if (!isActiveAndEnabled) // 컴포넌트나 게임 오브젝트가 비활성화 상태라면
+        {
+            return; // 종료
+        }
+
+        if (context.performed) // E를 누른 순간
+        {
+            throwStancePressed = true; // "취소 키를 눌렀다"는 표시만 남긴다.
+        }
+    }
+
+    public void OnAttack(InputAction.CallbackContext context) // Player Input의 Attack(왼쪽 클릭) 입력을 처리하기 위해 만든 전용 함수.
+    {
+        if (!isActiveAndEnabled) // 컴포넌트나 게임 오브젝트가 비활성화 상태라면
+        {
+            return; // 종료
+        }
+
+        attackAction = context.action;
+        if (context.performed) // 왼쪽 클릭을 누른 순간
+        {
+            attackPressed = true; // 조준 시작을 요청할 표시
+        }
+        else if (context.canceled) // 왼쪽 클릭에서 손을 뗀 순간
+        {
+            attackReleased = true; // 던지기를 요청할 표시
+        }
+    }
+
+    public void OnAim(InputAction.CallbackContext context) // Player Input의 Aim(오른쪽 클릭) 입력을 처리하기 위해 만든 전용 함수.
+    {
+        if (!isActiveAndEnabled) // 컴포넌트나 게임 오브젝트가 비활성화 상태라면
+        {
+            return; // 종료
+        }
+
+        if (context.performed) // 오른쪽 클릭을 누른 순간
+        {
+            aimPressed = true; // 조준 중이면 취소, 아니면 확대 조준. 어느 쪽인지는 Update에서 정한다.
+        }
+    }
+
+    public void OnThrowMode(InputAction.CallbackContext context) // Player Input의 ThrowMode(R) 입력을 처리하기 위해 만든 전용 함수.
+    {
+        if (!isActiveAndEnabled) // 컴포넌트나 게임 오브젝트가 비활성화 상태라면
+        {
+            return; // 종료
+        }
+
+        if (context.performed) // R을 누른 순간
+        {
+            throwModePressed = true; // "눌렀다"는 표시만 남긴다. 던지기 자세인지는 PlayerThrow가 판단한다.
+        }
+    }
+
+    // 의사코드: F/Q/휠 입력을 한 번 기록 → Update에서 소지품 처리 → 같은 프레임 투척 취소 우선.
+    public void OnInteract(InputAction.CallbackContext context) { if (isActiveAndEnabled && context.performed) interactPressed = true; }
+    public void OnDrop(InputAction.CallbackContext context) { if (isActiveAndEnabled && context.performed) dropPressed = true; }
+    public void OnPrevious(InputAction.CallbackContext context) { if (isActiveAndEnabled && context.performed) selectionStep--; }
+    public void OnNext(InputAction.CallbackContext context) { if (isActiveAndEnabled && context.performed) selectionStep++; }
+
     // 활성화된 동안 매 프레임 저장된 입력으로 시야 회전과 이동을 요청한다.
     // 성능은 변수 개수보다 매 프레임 실제로 수행하는 연산, 검색, 메모리 할당 등의 비용에 좌우된다.
 
@@ -482,7 +694,9 @@ Jump 입력 이벤트를 받으면 — OnJump:
     {
         // 좌우 입력으로 플레이어 전체를, 상하 입력으로 CameraRoot를 먼저 회전한다.
         // Motor는 이번 프레임에 회전한 플레이어의 방향을 기준으로 이동한다.
-        playerLook.Rotate(lookInput);
+        // 확대 조준 중에는 같은 마우스 움직임에도 화면이 크게 움직이므로, 감도 비율을 곱해 낮춘다.
+        // 확대하지 않았을 때는 비율이 1이라 입력이 그대로 전달된다.
+        playerLook.Rotate(lookInput * playerZoom.SensitivityScale);
 
         // 앉기 토글: C를 누른 순간 한 번만 처리한다.
         if (crouchTogglePressed)
@@ -528,6 +742,73 @@ Jump 입력 이벤트를 받으면 — OnJump:
         // 입력 → Motor에서 자세 확정 → 같은 자세/달리기 결과를 Animator에 전달한다.
         // 천장에 막혀 일어서지 못하면 IsCrouching은 true이므로 애니메이션도 앉아 있는다.
         playerAnimationSystem.SetLocomotion(moveInput, isSprinting, playerMotor.IsCrouching, Time.deltaTime);
+
+        // ── 던지기 ──
+        // 이동과 시선 회전이 끝난 뒤에 처리해서, 이번 프레임에 움직인 자리와 돌린 시선 그대로 던진다.
+
+        // E는 취소만 한다. 액션 맵 해제로 발생한 canceled도 물리적인 버튼 해제 투척과 구분한다.
+        bool inventoryInput = interactPressed || dropPressed || selectionStep != 0;
+        if (inventory != null && inventory.isActiveAndEnabled && inventoryInput)
+        {
+            playerThrow.ExitStance();
+            if (dropPressed) inventory.TryDrop();
+            else if (interactPressed) inventory.TryPickup();
+            else inventory.SelectRelative(selectionStep);
+            playerZoom.SetZoomed(false);
+        }
+        interactPressed = dropPressed = false; selectionStep = 0;
+        bool cancelThrowThisFrame = inventoryInput || throwStancePressed || (attackAction != null && !attackAction.enabled);
+        throwStancePressed = false;
+        if (cancelThrowThisFrame) playerThrow.ExitStance();
+
+        // 오른쪽 클릭: 왼쪽 클릭을 누르고 조준하는 중이라면 던지지 않고 취소한다.
+        if (aimPressed)
+        {
+            aimPressed = false;
+
+            if (playerThrow.IsAiming || attackPressed) // 같은 프레임의 좌클릭 누름도 취소 우선
+            {
+                cancelThrowThisFrame = true;
+                playerThrow.ExitStance(); // 새 좌클릭 전까지 다시 준비하지 않는다.
+            }
+            else if (playerThrow.HasHeldItem) // 조준 중이 아니고, 물건을 들고 있다면
+            {
+                // 확대 조준을 켜거나 끈다. 던지기 자세가 아니어도 물건을 들고 있으면 된다.
+                // (총을 들었을 때의 "겨누기"도 나중에 이 확대를 그대로 쓴다)
+                playerZoom.Toggle();
+            }
+        }
+
+        // R: 물건을 들고 있으면 준비 전에도 위/아래 방식을 고를 수 있다.
+        if (throwModePressed)
+        {
+            throwModePressed = false;
+            playerThrow.ToggleThrowMode();
+        }
+
+        // 왼쪽 클릭을 누른 순간: E 없이 자동으로 준비하고 조준을 시작한다.
+        if (attackPressed)
+        {
+            attackPressed = false;
+            if (!cancelThrowThisFrame) playerThrow.BeginAim();
+        }
+
+        // 왼쪽 클릭을 뗀 순간: 던진다. 조준 중이 아니면(취소했다면) PlayerThrow가 아무것도 하지 않는다.
+        // "누름"을 "뗌"보다 먼저 처리하므로, 짧게 눌렀다 떼어 한 프레임에 둘 다 들어와도 바로 던져진다.
+        if (attackReleased)
+        {
+            attackReleased = false;
+
+            // ReleaseThrow는 실제로 던졌으면 true를 돌려준다.
+            if (!cancelThrowThisFrame && playerThrow.ReleaseThrow())
+            {
+                playerZoom.SetZoomed(false); // 던진 물건은 손을 떠났으므로 확대 조준을 푼다.
+            }
+        }
+
+        // 위의 입력 처리가 모두 끝난 뒤의 상태로 궤적을 그린다.
+        // 조준 중이면 지금 시선 방향의 궤적을 보여 주고, 아니면 PlayerThrow가 궤적을 숨긴다.
+        // 궤적은 손 표시가 갱신된 뒤 PlayerThrow.LateUpdate에서 그린다.
     }
 
 
@@ -541,6 +822,27 @@ Jump 입력 이벤트를 받으면 — OnJump:
         sprintInput = false;      // 재활성화할 때 달리기 입력이 남지 않도록 초기화한다.
         crouchTogglePressed = false; // 처리하지 못한 앉기 키 표시를 지운다. 앉아 있는 몸 상태는 그대로 둔다.
         jumpPressed = false;         // 처리하지 못한 점프 키 표시를 지운다. 다시 켰을 때 갑자기 뛰지 않게 한다.
+
+        // 처리하지 못한 던지기 관련 표시를 지운다.
+        throwStancePressed = false;
+        attackPressed = false;
+        attackReleased = false;
+        attackAction = null;
+        interactPressed = dropPressed = false; selectionStep = 0;
+        aimPressed = false;
+
+        if (playerThrow != null) // PlayerThrow가 연결되어 있다면
+        {
+            playerThrow.ExitStance(); // 재활성화 뒤 조준/자세가 남지 않게 한다.
+            playerThrow.RefreshTrajectory(false); // 조준이 취소됐으므로 화면에 남은 궤적을 숨긴다.
+        }
+
+        throwModePressed = false; // 처리하지 못한 던지는 방식 키 표시를 지운다.
+
+        if (playerZoom != null) // PlayerZoom이 연결되어 있다면
+        {
+            playerZoom.SetZoomed(false); // 확대된 채로 남지 않게 푼다.
+        }
 
         if (playerAnimationSystem != null) // AnimationSystem이 연결되어 있다면
         {

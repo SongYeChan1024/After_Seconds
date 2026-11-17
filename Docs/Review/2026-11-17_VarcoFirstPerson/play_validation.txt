@@ -1,0 +1,52 @@
+PASS VARCO animation set connected
+PASS three humanoid sources
+PASS walk loop continuous
+PASS run loop continuous
+PASS follow-through returns smoothly
+PASS follow-through has motion
+PASS idle both hands in frame
+PASS looking down shows both feet
+PASS crouch retains lower body and a visible foot
+PASS B5 ground contact marker
+walk: samples=92, speed=5.000, swing=0.0834m, correlation=-0.991, footStride=1.326m
+PASS walk actual movement
+PASS walk opposing hand rhythm
+PASS walk animated feet
+PASS walk both hands in frame
+run: samples=92, speed=7.500, swing=0.1550m, correlation=-0.898, footStride=2.006m
+PASS run actual movement
+PASS run opposing hand rhythm
+PASS run animated feet
+PASS run both hands in frame
+aim_run: samples=88, speed=7.498, swing=0.0234m, correlation=-0.924, footStride=1.996m
+PASS aim_run actual movement
+PASS aim_run opposing hand rhythm
+PASS aim_run animated feet
+PASS aim_run both hands in frame
+PASS running swing stronger than walking
+PASS aim suppresses running swing
+PASS stop blends motion out
+PASS moving down-view feet remain visible
+PASS jump keeps body and hands
+PASS landing restores grounded pose
+PASS input E + left hold shows landing marker
+PASS full path extends past old 2.5m cap
+PASS right cancel clears line and circle
+PASS cancel then release does not spawn
+PASS release once
+PASS release clears circle and held duplicate
+PASS VARCO follow-through starts without delay
+PASS duplicate release refused
+actual first impact difference=0.0461m predicted=(1000.01, 200.00, 1009.81) actual=(1000.01, 200.00, 1009.86)
+PASS marker matches real first impact within 8cm
+PASS wall marker follows wall normal
+PASS slope marker follows surface
+PASS time cap has no false landing circle
+PASS distance cap has no false landing circle
+PASS marker returns after valid surface
+PASS blocked start clears stale contact
+PASS item removal clears preview
+PASS disable cancels aim and hides lower body
+PASS reenable restores body
+PASS live frames advanced
+TOTAL passed=47, failed=0, frames=3345→4376

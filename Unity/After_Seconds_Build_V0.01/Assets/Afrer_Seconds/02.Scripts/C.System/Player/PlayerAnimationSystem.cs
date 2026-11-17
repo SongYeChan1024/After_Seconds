@@ -136,6 +136,15 @@ public class PlayerAnimationSystem : MonoBehaviour
         animator.SetBool("IsSprint", isSprinting); // 전달받은 달리기 여부를 Animator의 "IsSprint" 값으로 설정
     }
 
+    public void isJump(bool isJumping)
+    {
+        if (!isActiveAndEnabled)
+        {
+            return;
+        }
+        animator.SetBool("IsJump", isJumping);
+    }
+
     private void OnDisable() // 이 컴포넌트가 비활성화되면
     {
         ResetLocomotion();

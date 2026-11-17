@@ -1,0 +1,31 @@
+PASS default uses short fading guide
+PASS B5 guide respects 2.5m cap
+PASS underhand guide respects same cap
+PASS underhand rises from lowered hand
+PASS zoom guide respects 4m cap
+PASS far collision retains a short 2.5m line
+PASS far collision retains a separate circle
+PASS line originates at actual held item
+PASS preview end equals visible line end
+PASS fade starts at configured opacity
+PASS fade is softer in latter half
+PASS line tip fades fully transparent
+PASS zoom extends guide only to 4m
+PASS zoom still stops before collision circle
+PASS underhand far circle survives line cutoff
+PASS near wall ends guide before distance cap
+PASS wall circle follows hit normal
+PASS near-hit line is still faded
+PASS time limit creates no fake circle
+PASS prediction distance limit creates no fake circle
+PASS collider beyond prediction cap is ignored
+FAIL airborne path without contact has no circle
+PASS blocked hand clears line and old circle
+PASS cancel clears both without release
+PASS release remains immediate
+PASS release clears guide circle and duplicate
+PASS hidden path still predicts real impact within 8cm
+impact error=0.0457m
+PASS item removal clears both
+PASS live frames advanced
+TOTAL passed=28, failed=1, frames=3556→3954

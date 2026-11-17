@@ -1,0 +1,37 @@
+PASS start empty without automatic test supply
+PASS one real B5 ball is available
+PASS looking at nearby B5 ball offers pickup
+PASS F stores the same world object
+PASS pickup connects to held visual
+PASS repeated F cannot duplicate a held object
+PASS left click throws and removes exactly one slot
+PASS throw reuses original world instance
+PASS underhand settings remain active
+PASS thrown ball can be picked up again
+PASS blocked drop preserves inventory and world ownership
+PASS Q drops same object without throwing
+PASS drop restores original physics after underhand
+PASS freshly dropped object has pickup grace period
+PASS drop contact does not emit throw hit
+PASS wall blocks pickup
+PASS distant object cannot be picked up
+PASS F works again after wall and distance rejection
+PASS five identical types remain five separate instances
+PASS sixth pickup is rejected and stays in world
+PASS full inventory reports reason
+PASS wheel up selects previous individual object
+PASS wheel down selects next individual object
+PASS wheel wraps selection
+PASS selection cancels held aim without throwing
+PASS same-frame Q and release drops only once
+PASS blocked throw never consumes inventory
+PASS disabled inventory cannot release stored items
+PASS inventory enable restores selection
+PASS reacquired ball retains overhand profile on next release
+PASS remaining items stay held after throw
+PASS second item drops before collision check
+PASS separately released items still collide with each other
+PASS disabled input map cannot drop or throw
+PASS world item survives beyond old 20-second test lifetime
+PASS game frames advanced during validation
+TOTAL passed=36, failed=0, frames=72→1368, ballId=-92816, elapsed=21.01s

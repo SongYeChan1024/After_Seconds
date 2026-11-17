@@ -1,0 +1,35 @@
+PASS idle does not require E or stance
+PASS left press alone starts aiming
+PASS holding left previews without throwing
+PASS same-frame quick click throws exactly once without E
+PASS quick throw exits aim and stance
+PASS quick click does not duplicate
+PASS long hold never auto-fires
+PASS release fires in next input update
+PASS release clears visual and guide
+PASS overhand speed remains 12
+PASS three consecutive clicks need no E
+PASS R preselects underhand before aiming
+PASS preselected underhand throws directly
+PASS R switches while holding left
+PASS right click cancels held aim
+PASS continuing left hold cannot restart canceled aim
+PASS release after right cancel never throws
+PASS fresh click after cancel works
+PASS E cancels without delayed throw
+PASS E at idle does not require a setup mode
+PASS simultaneous left and right prioritizes cancel
+PASS E cancels same-frame quick click
+PASS idle right click still toggles zoom
+PASS left press starts aim while zoomed
+PASS direct zoom throw restores normal view
+PASS presenter disable cancels without ghost release
+PASS action map disable is not a throw
+PASS fresh click works after input reactivation
+PASS item switch cancels old click
+PASS empty hand cannot aim or throw
+PASS blocked hand refuses direct throw without consuming
+PASS single item is consumed once
+PASS consumed item cannot be thrown twice
+PASS real game frames advanced
+TOTAL passed=34, failed=0, frames=737→1028

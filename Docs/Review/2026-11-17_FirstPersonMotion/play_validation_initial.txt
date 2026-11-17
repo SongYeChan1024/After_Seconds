@@ -1,0 +1,45 @@
+PASS idle both hands in frame
+PASS looking down shows both feet
+FAIL crouch retains visible lower body
+PASS B5 ground contact marker
+walk: samples=47, speed=5.003, swing=0.0688m, correlation=-0.527, footStride=0.000m
+PASS walk actual movement
+FAIL walk opposing hand rhythm
+FAIL walk animated feet
+PASS walk both hands in frame
+run: samples=48, speed=7.496, swing=0.1360m, correlation=-0.789, footStride=1.123m
+PASS run actual movement
+PASS run opposing hand rhythm
+PASS run animated feet
+PASS run both hands in frame
+aim_run: samples=48, speed=7.501, swing=0.0208m, correlation=0.970, footStride=1.987m
+PASS aim_run actual movement
+FAIL aim_run opposing hand rhythm
+PASS aim_run animated feet
+PASS aim_run both hands in frame
+PASS running swing stronger than walking
+PASS aim suppresses running swing
+PASS stop blends motion out
+PASS moving down-view feet remain visible
+PASS jump keeps body and hands
+PASS landing restores grounded pose
+PASS input E + left hold shows landing marker
+PASS full path extends past old 2.5m cap
+PASS right cancel clears line and circle
+PASS cancel then release does not spawn
+PASS release once
+PASS release clears circle and held duplicate
+PASS duplicate release refused
+actual first impact difference=0.0627m predicted=(999.94, 200.00, 1005.14) actual=(999.94, 200.00, 1005.21)
+PASS marker matches real first impact within 8cm
+PASS wall marker follows wall normal
+PASS slope marker follows surface
+PASS time cap has no false landing circle
+PASS distance cap has no false landing circle
+PASS marker returns after valid surface
+PASS blocked start clears stale contact
+PASS item removal clears preview
+PASS disable cancels aim and hides lower body
+PASS reenable restores body
+PASS live frames advanced
+TOTAL passed=36, failed=4, frames=4664→5563

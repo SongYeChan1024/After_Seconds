@@ -1,0 +1,36 @@
+{
+  "walk": {
+    "name": "Player_Walk",
+    "length": 1.20000029,
+    "frameRate": 30.0
+  },
+  "run": {
+    "name": "Player_Run",
+    "length": 1.56666672,
+    "frameRate": 30.0
+  },
+  "overhand": {
+    "name": "Player_Overhand_Varco",
+    "length": 3.33333349,
+    "frameRate": 30.0
+  },
+  "sourceReleaseTime": 2.133333,
+  "sourceReleaseEnd": 2.55,
+  "releaseDuration": 0.42,
+  "curves": [
+    {
+      "name": "walkRight",
+      "keys": 61
+    },
+    {
+      "name": "runRight",
+      "keys": 81
+    },
+    {
+      "name": "releaseRight",
+      "keys": 51
+    }
+  ],
+  "prefabPath": "Assets/Afrer_Seconds/05.Model/Player/Player_Dummy_V0.1.prefab",
+  "assetPath": "Assets/Afrer_Seconds/06.Data/PlayerHandAnimations.asset"
+}

@@ -1,4 +1,8 @@
-# After Seconds Unity 프로젝트 안내 V0.62
+# After Seconds Unity 프로젝트 안내 V0.63
+
+2026-11-17 최신: B5에서 F 줍기·좌클릭 투척·재획득, Q 내려놓기·휠 선택·5개 개별 소지품과 한글 HUD를 연결했다. 시작 위치 앞바닥의 시험용 공1개로 검수한다. 실제 입력/물리36/36, 관련 컴포넌트428개 참조 검사 통과. 기존1인칭 손/하체·VARCO 동작과 짧고 흐린 궤적을 유지한다. 사용자 현재 투척 속도는 위15m/s·아래10m/s다. [최신 검수](../Docs/Review/2026-11-17_PickupLoop/Review.md)를 우선하며, 아래 날짜별 문단은 이전 이력이다. B5 저장 편집 상태, 이번 작업 커밋/push 없음. 작성자 송예찬.
+
+이전 단계 기록:
 
 2026-11-12 작업 마감: 오늘의 B1 실내 재설계·데스크 기물 보수와 지상1F 위장 폐공장·Terrain·반복 무늬 보수를 `87a4cd5f`로 커밋·push했다. 블로그 일일개발일지·데일리로그도 `89a929c`로 게시했고 자동 검사·Pages 배포 성공, 글2편과 이미지6장 HTTP200 및 이미지 원본 해시 일치를 확인했다. **이어서 시작할 때 [오늘 작업 마감과 다음 작업](../Docs/WorkClose_2026-11-12.md)을 먼저 읽는다.** 다음은 사용자 전체1F 분위기·표면·지형 검수와 지정 구역 보수다. Unity6000.4.0f1의 저장된 `Level_1F_Factory`가 최신이며 이전 제작기/Import/report를 일괄 재실행하지 않는다. 아래 ‘커밋/push/블로그 미실시’는 제작 단계 당시 기록이다. 작성자 송예찬.
 
@@ -368,10 +372,12 @@ Assets/Afrer_Seconds/
 | `03.Art` | **2D 이미지 전용. UI·컷씬 등 종류별 하위 폴더로 분류** | 2D 표지·아틀라스·증기 이미지. 과거 VARCO 모델은 05.Model로 정리 완료 |
 | `04.Prefabs` | **충돌·설정을 조립하고 해당 기능을 검증한 게임 에셋** | Environment/ObservationPod.prefab의 외형·정적 충돌 조립 완료. 배식구·탈출 기능은 미구현 |
 | `05.Model` | **기준 리깅 모델·부속 재질과 조립 중인 외형 에셋** | Player·Enemy는 직접 분류, Props·Environment는 층별/Common으로 분류. 하위는 Materials·Textures만 사용하고 제작 기록은 06.Data/AssetSources에 보관함 |
-| `06.Data` | ScriptableObject 설정 에셋 | 이동·시야 설정 |
+| `06.Data` | ScriptableObject 설정·UI 폰트 데이터 | 이동·시야·투척·손·소지품 설정, Items/종류 데이터, UI/한글 폰트와 라이선스 |
 | `07.Animator` | **동작 FBX·클립 및 AnimatorController·AnimatorOverrideController·AvatarMask** | Player/Clips에 기존 동작 6종을 유지하며 Rigged_V0.3에 신규 6종을 분리함. Controller는 Player/Controllers에서 관리함 |
 
 앞으로 `03.Art`에는 2D 이미지만 추가한다. UI 이미지는 `03.Art/UI/`, 컷씬 이미지는 `03.Art/Cutscenes/`처럼 이미지 종류별 하위 폴더로 분류한다. 필요한 종류의 폴더는 해당 이미지를 반입할 때 만든다.
+
+2026-11-17 반입한 프로젝트 전용 한글 원본·TMP 동적 폰트·OFL 라이선스는 `06.Data/UI/`에 둔다. TMP Essential Resources는 `Assets/TextMesh Pro/`의 Unity 표준 경로를 유지한다. 해당 기본 폴더의 AssetDatabase 이동은 Windows 접근 거부로 취소했으며, 별도 복제나 강제 이동 없이 정상 참조를 확인했다. [출처와 실제 파일](../SourceAssets/PickupLoop/README.md).
 
 앞으로 가져오는 기준 리깅 모델과 부속 재질·외형 에셋은 `05.Model`의 용도에 맞는 분류에 정리한다. 플레이어에 사용할 모델은 `05.Model/Player`에, 환경·경비·소품은 해당 분류에 둔다. 모델을 묶은 `.prefab` 형식의 파일도 이 단계에서는 `05.Model`에서 관리한다. 동작이 필요한 에셋은 스크립트와 설정을 연결해 검증한 뒤 `04.Prefabs`에서 관리한다. ObservationPod는 검증한 정적 충돌을 외형과 조립해 이곳에 둔 경우이며, 프리팹 경로가 배식구·탈출 기능 완성을 뜻하지 않는다.
 
@@ -453,3 +459,5 @@ Assets와 `.meta`, Packages, ProjectSettings를 함께 버전 관리한다. Libr
 - V0.59 (2026-11-12): B1 데스크·기물 보수 모델 경로와 검수 갱신. 송예찬.
 
 - V0.61 (2026-11-12): 지상1F 위장 폐공장·지형 재작업과 반복 무늬 보수/검수 기록. 송예찬.
+
+- V0.63 (2026-11-17): B5 줍기·소지품·투척/재획득 연결과 한글 폰트/TMP 리소스 경로·검수 기록. 송예찬.

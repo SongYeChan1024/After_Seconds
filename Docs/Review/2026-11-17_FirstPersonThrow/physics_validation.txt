@@ -1,0 +1,15 @@
+free dt=0.01000 damping=0.0: max position error=0.0000000m PASS
+free dt=0.02000 damping=0.0: max position error=0.0000000m PASS
+free dt=0.03333 damping=0.0: max position error=0.0000000m PASS
+free dt=0.01000 damping=0.5: max position error=0.0000000m PASS
+free dt=0.02000 damping=0.5: max position error=0.0000000m PASS
+free dt=0.03333 damping=0.5: max position error=0.0000000m PASS
+flat: predicted tick=38, actual tick=38, post-solver center difference=0.15642m, pre-contact max=0.0000000m PASS
+high: predicted tick=67, actual tick=67, post-solver center difference=0.00000m, pre-contact max=0.0000000m PASS
+slope: predicted tick=31, actual tick=32, post-solver center difference=0.21544m, pre-contact max=0.0000000m PASS
+ceiling: predicted tick=6, actual tick=5, post-solver center difference=0.04571m, pre-contact max=0.0000000m PASS
+close_wall: predicted tick=1, actual tick=1, post-solver center difference=0.00000m, pre-contact max=0.0000000m PASS
+door_frame: predicted tick=8, actual tick=8, post-solver center difference=0.00000m, pre-contact max=0.0000000m PASS
+narrow_window: predicted tick=8, actual tick=8, post-solver center difference=0.00000m, pre-contact max=0.0000000m PASS
+open_window: predicted tick=38, actual tick=38, post-solver center difference=0.15642m, pre-contact max=0.0000000m PASS
+TOTAL passed=14, failed=0. Collision positions include remaining fixed-step solver motion, not sub-frame impact time.

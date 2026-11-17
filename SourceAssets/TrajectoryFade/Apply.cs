@@ -1,0 +1,10 @@
+if(Application.isPlaying)throw new System.Exception("Edit mode required");
+var settings=AssetDatabase.LoadAssetAtPath<PlayerThrowSettings>("Assets/Afrer_Seconds/06.Data/PlayerThrowSettings.asset");
+var so=new SerializedObject(settings);
+so.FindProperty("showFullTrajectory").boolValue=false;
+so.FindProperty("trajectoryLength").floatValue=2.5f;
+so.FindProperty("trajectoryZoomedLength").floatValue=4f;
+so.FindProperty("trajectoryOpacity").floatValue=.30f;
+so.FindProperty("fadeStart").floatValue=.35f;
+so.ApplyModifiedPropertiesWithoutUndo();EditorUtility.SetDirty(settings);AssetDatabase.SaveAssets();
+return new{settings.ShowFullTrajectory,settings.TrajectoryLength,settings.TrajectoryZoomedLength,settings.TrajectoryOpacity,settings.FadeStart};

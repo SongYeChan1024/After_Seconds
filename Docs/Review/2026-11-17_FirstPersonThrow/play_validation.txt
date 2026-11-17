@@ -1,0 +1,41 @@
+PASS frame loop advancing
+PASS E enters stance through PlayerInput
+PASS left hold aims
+PASS normal preview length 2.5m
+PASS R selects underhand
+PASS right click cancels while holding left
+PASS canceled release does not spawn
+PASS right click zooms outside aim
+PASS zoom preview extends farther
+PASS release spawns exactly once
+PASS held duplicate hidden on release
+PASS zoom exits on release
+PASS duplicate release rejected
+PASS spawn shares actual hand center
+PASS own collider ignored
+PASS test item returns after recovery
+PASS single release at target FPS 30
+targetFPS=30, sampledFrames=6, wallSeconds=0.187
+PASS single release at target FPS 60
+targetFPS=60, sampledFrames=6, wallSeconds=0.098
+PASS single release at target FPS 144
+targetFPS=144, sampledFrames=6, wallSeconds=0.087
+PASS W moves player
+PASS walking aim and release preserves movement
+PASS sprint accelerates
+PASS C crouches and lowers eyes
+PASS crouched release
+PASS jump from crouch stands and jumps
+PASS rapid look keeps hands finite
+PASS disable cancels aim
+PASS enable does not emit stale throw
+PASS hand disable cancels aim
+PASS overlapping start blocks release
+PASS trigger excluded from launch clearance
+PASS non-test item consumed once
+PASS consumed item does not reappear
+PASS one release event per spawned object
+PASS all release frames hide held duplicate
+PASS all spawn centers match held item
+release events=7, maximum same-frame hand/spawn mismatch=0.0000000m
+TOTAL passed=36, failed=0, final frame=1211

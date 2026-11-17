@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ff1c6c5848a25547b2314bf8b8e25a3, type: 3}
+  m_Name: PlayerHandSettings
+  m_EditorClassIdentifier: SystemAD::PlayerHandSettings
+  restingItem: {x: 0.28, y: -0.17, z: 0.5}
+  sprintOffset: {x: -0.015, y: -0.015, z: -0.01}
+  crouchOffset: {x: 0, y: 0.025, z: 0}
+  zoomOffset: {x: -0.055, y: 0.07, z: 0.06}
+  underhandZoomLift: 0.08
+  aimHoldOffset: {x: -0.015, y: 0.025, z: 0.015}
+  rightShoulder: {x: 0.19, y: -0.28, z: -0.015}
+  leftShoulder: {x: -0.19, y: -0.28, z: -0.015}
+  poseSmoothTime: 0.1
+  recoveryTime: 0.24
+  underhandFollowThrough: {x: -0.03, y: -0.06, z: 0.18}
+  bobAmount: 0.008
+  zoomMotionScale: 0.25
+  turnSway: 0.002
+  maxSway: 0.025
+  palmToItem: {x: 0, y: 0.025, z: 0.075}
+  leftRestingHand: {x: -0.24, y: -0.17, z: 0.43}
+  walkSwing: {x: 0.012, y: 0.025, z: 0.045}
+  runSwing: {x: 0.025, y: 0.055, z: 0.09}
+  leftSwingScale: 0.75
+  walkStrideLength: 2.8
+  runStrideLength: 3.2
+  aimingMotionScale: 0.15
+  movementBlendTime: 0.14
+  airborneOffset: {x: 0, y: 0.045, z: -0.025}
+  maxLandingDip: 0.08

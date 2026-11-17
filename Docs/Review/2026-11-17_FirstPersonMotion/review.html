@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>After Seconds · 양손과 발 · 2026-11-17</title>
+<style>body{margin:0;background:#10171c;color:#e7edf0;font:16px/1.7 system-ui,sans-serif}main{max-width:1180px;margin:auto;padding:36px 24px}h1{font-size:30px}h2{font-size:21px;margin-top:42px}p{color:#b7c6cc}img{width:100%;display:block;border-radius:10px;background:#000}figure{margin:16px 0}figcaption{padding:9px 0;color:#b7c6cc}button,a{color:#9adddf}button{border:1px solid #415d67;border-radius:6px;background:#1d3039;padding:9px 15px;margin:5px 8px 10px 0;cursor:pointer}button[aria-pressed=true]{background:#31535f}.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}@media(max-width:760px){.grid{grid-template-columns:1fr}}</style>
+<main>
+<p>AFTER SECONDS · 2026-11-17 · 송예찬</p>
+<h1>양손의 움직임, 아래로 보이는 발</h1>
+<p>실제 B5 플레이 화면. 기존 더미 모델을 재사용한 기능 구현이며, 손·의상과 전용 투척 클립은 후속 아트 작업이다.</p>
+<p><a href="Review.md">구현과 조절값</a> · <a href="play_validation.txt">동작 검사 40/40</a> · <a href="final_visual.txt">화면 촬영 기록</a></p>
+<div class="grid"><figure><img src="idle.png" alt="화면 양쪽에 보이는 왼손과 시험용 공을 든 오른손"><figcaption>기본 자세 — 양손 표시</figcaption></figure><figure><img src="look_down.png" alt="바닥을 내려다보면 보이는 다리와 양발"><figcaption>아래 보기 — 다리와 발</figcaption></figure></div>
+<h2>이동 중 두 순간 비교</h2><p>버튼으로 실제 촬영한 서로 다른 프레임을 비교할 수 있다. 연속 영상은 아니다.</p>
+<div id="controls"><button type="button" data-group="walk" data-index="a" aria-pressed="true">걷기 A</button><button type="button" data-group="walk" data-index="b" aria-pressed="false">걷기 B</button><button type="button" data-group="run" data-index="a" aria-pressed="false">달리기 A</button><button type="button" data-group="run" data-index="b" aria-pressed="false">달리기 B</button><button type="button" data-group="walk_down" data-index="a" aria-pressed="false">아래 보며 걷기 A</button><button type="button" data-group="walk_down" data-index="b" aria-pressed="false">아래 보며 걷기 B</button></div>
+<figure><img id="motion" src="b5_walk_a.png" alt="B5에서 걷는 첫 번째 프레임"><figcaption id="motion-label">걷기 A</figcaption></figure>
+<h2>오른손에서 예상 접촉점까지</h2><p>원은 예상 접촉 위치를 안내한다. 폭발·피해 범위를 뜻하지 않는다. 취소·막힘·예측 한계에서는 표시를 숨긴다.</p>
+<figure><img src="aim_floor.png" alt="오른손에서 바닥의 원형 접촉 표시까지 이어지는 투척선"><figcaption>첫 접촉까지 이어지는 경로와 바닥 표식</figcaption></figure>
+<div class="grid"><figure><img src="aim_underhand.png" alt="아래 던지기의 손 위치와 바닥 접촉 표시"><figcaption>아래 던지기</figcaption></figure><figure><img src="aim_zoom.png" alt="양손을 유지하는 확대 조준"><figcaption>확대 조준 — 손 흔들림 감소</figcaption></figure></div>
+<h2>앉은 자세</h2><figure><img src="crouch_down.png" alt="앉아 아래를 보면 기존 앉기 애니메이션을 따라 움직이는 무릎과 발"><figcaption>앉기 클립의 자세에 따라 무릎이 한쪽 발을 가릴 수 있다.</figcaption></figure>
+</main><script>document.querySelectorAll('#controls button').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('#controls button').forEach(x=>x.setAttribute('aria-pressed','false'));b.setAttribute('aria-pressed','true');const img=document.querySelector('#motion');img.src=`b5_${b.dataset.group}_${b.dataset.index}.png`;img.alt=b.textContent;document.querySelector('#motion-label').textContent=b.textContent;}));</script></html>
