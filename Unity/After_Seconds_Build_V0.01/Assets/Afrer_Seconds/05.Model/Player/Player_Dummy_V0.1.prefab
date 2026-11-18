@@ -1153,6 +1153,7 @@ GameObject:
   - component: {fileID: 8171348549256890288}
   - component: {fileID: 1693483816451637152}
   - component: {fileID: 808107516780447216}
+  - component: {fileID: 2880110206399662375}
   m_Layer: 0
   m_Name: Player_Dummy_V0.1
   m_TagString: Player
@@ -1612,6 +1613,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: SystemAD::PlayerInventory
   settings: {fileID: 11400000, guid: 26fab9e95be2365468e2945e28d67d36, type: 2}
+--- !u!114 &2880110206399662375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3092406324764749909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3af3ef3ba31e49a468fa9df60593b770, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: SystemAD::PlayerSwap
+  settings: {fileID: 11400000, guid: b7b82aa942797f645851b25ffea72103, type: 2}
 --- !u!1 &3257217765563235320
 GameObject:
   m_ObjectHideFlags: 0

@@ -73,14 +73,16 @@ public class PlayerMotorSettings : ScriptableObject
     [SerializeField, Min(0.0f)] private float jumpForce = 10f;
 
     // 바닥에서 속도를 올리는 빠르기(m/s²). "1초에 속도가 얼마나 바뀌는가"를 뜻한다.
-    // 걷기 속도 5에 가속도 30이면 5 ÷ 30 ≈ 0.17초 만에 걷기 속도에 도달한다.
-    [Tooltip("이동 입력이 있을 때 속도가 바뀌는 빠르기(m/s²)입니다. 클수록 즉시 반응하고, 작을수록 서서히 빨라집니다.")]
-    [SerializeField, Min(0f)] private float acceleration = 30f;
+    [Tooltip("출발하거나 제동을 마친 뒤 목표 속도에 가까워지는 빠르기(m/s²)입니다.")]
+    [SerializeField, Min(0f)] private float acceleration = 15f;
 
     // 바닥에서 속도를 줄이는 빠르기(m/s²). 키를 뗐을 때 쓴다.
     // 난간 앞에서 미끄러져 떨어지지 않도록 가속도보다 크게 둔다.
     [Tooltip("이동 입력이 없을 때 속도가 줄어드는 빠르기(m/s²)입니다. 클수록 빨리 멈춥니다.")]
-    [SerializeField, Min(0f)] private float deceleration = 40f;
+    [SerializeField, Min(0f)] private float deceleration = 18f;
+
+    [Tooltip("새 입력을 거스르는 속도를 줄이는 빠르기(m/s²)입니다. 0이면 일반 가속도를 씁니다.")]
+    [SerializeField, Min(0f)] private float reverseBraking = 20f;
 
     // => 는 "이 값을 돌려준다"는 짧은 속성 문법이다. get만 있으므로 밖에서 읽기만 할 수 있다(캡슐화).
     public float MoveSpeed => moveSpeed;
@@ -95,4 +97,5 @@ public class PlayerMotorSettings : ScriptableObject
 
     public float Acceleration => acceleration; // 속도를 올리는 빠르기를 그대로 돌려준다
     public float Deceleration => deceleration; // 속도를 줄이는 빠르기를 그대로 돌려준다
+    public float ReverseBraking => reverseBraking;
 }

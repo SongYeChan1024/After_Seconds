@@ -206,6 +206,8 @@ public class PlayerThrowSettings : ScriptableObject
     public float MinConvergeDistance => minConvergeDistance;
     public float MinHitSpeed => minHitSpeed;
     public float TestItemLifetime => testItemLifetime;
+    [SerializeField, Min(0f)] private float swapDelay = 3f;
+    public float SwapDelay => swapDelay;
     public float TrajectoryTimeStep => trajectoryTimeStep;
     public float TrajectoryMaxTime => trajectoryMaxTime;
     public float TrajectoryLength => trajectoryLength;

@@ -29,6 +29,10 @@ public class ItemDefinition : ScriptableObject
     [Tooltip("던졌을 때 날아가는 물건의 프리팹입니다. ThrownObject와 Rigidbody가 붙어 있어야 합니다.")]
     [SerializeField] private ThrownObject worldPrefab;
 
+    [Tooltip("물체 중심에서 오른손으로 쥐는 지점까지의 거리 (로컬 축, m)")]
+    [SerializeField] private Vector3 gripOffset;
+    public Vector3 GripOffset => gripOffset;
+
     // => 는 "이 값을 돌려준다"는 짧은 속성 문법이다. get만 있으므로 밖에서 읽기만 할 수 있다.
     public string DisplayName => displayName;
     public ThrownObject WorldPrefab => worldPrefab;

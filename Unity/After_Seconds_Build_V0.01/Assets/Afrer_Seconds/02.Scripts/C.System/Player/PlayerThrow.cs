@@ -242,6 +242,7 @@ public class PlayerThrow : MonoBehaviour
     public ThrownObject LastThrown { get; private set; }
     public ThrowLaunch LastLaunch { get; private set; }
     public event System.Action<ItemDefinition, ThrownObject> Released;
+    public event System.Action<ThrownObject, Collision> Hit;
 
     private void Awake()
     {
@@ -345,8 +346,8 @@ public class PlayerThrow : MonoBehaviour
 
         ItemDefinition item = heldItem;
         bool fromInventory = heldWorldItem != null;
-        ThrownObject thrown = fromInventory ? heldWorldItem.Release(launch.Position, throwOrigin.rotation, pickupDelay) :
-            Instantiate(item.WorldPrefab, launch.Position, throwOrigin.rotation);
+        ThrownObject thrown = fromInventory ? heldWorldItem.Release(launch.Position, launch.Rotation, pickupDelay) :
+            Instantiate(item.WorldPrefab, launch.Position, launch.Rotation);
         if (thrown == null) return false;
         var own = GetComponentsInChildren<Collider>(true);
         foreach (Collider collider in thrown.GetComponentsInChildren<Collider>())
@@ -356,7 +357,7 @@ public class PlayerThrow : MonoBehaviour
         Rigidbody body = thrown.GetComponent<Rigidbody>();
         body.linearDamping = launch.Damping;
         body.linearVelocity = launch.Velocity;
-        if (isUnderhand)
+        if (isUnderhand && !launch.Shape.IsBox)
         {
             if (settings.UnderhandPhysicsMaterial != null)
                 thrown.GetComponent<SphereCollider>().sharedMaterial = settings.UnderhandPhysicsMaterial;
@@ -384,19 +385,23 @@ public class PlayerThrow : MonoBehaviour
     {
         launch = default;
         if (!HasHeldItem || settings == null || throwOrigin == null ||
-            !ThrowFlight.TryProfile(heldItem.WorldPrefab, out float radius, out Rigidbody body)) return false;
-        Vector3 position = hands != null && hands.Ready ? hands.ItemPosition : throwOrigin.TransformPoint(HandOffset);
+            !ThrowFlight.TryShape(heldItem.WorldPrefab, out ThrowShape shape, out Rigidbody body)) return false;
+        Quaternion rotation = throwOrigin.rotation;
+        Vector3 position = hands != null && hands.Ready ? hands.ItemPosition :
+            throwOrigin.TransformPoint(HandOffset) - rotation * heldItem.GripOffset;
         if (hands != null && hands.Ready && hands.Obstructed) return false;
-        if (OverlapsWorld(position, radius + settings.SurfaceSkin)) return false;
+        if (OverlapsWorld(position, shape, rotation, settings.SurfaceSkin)) return false;
         Vector3 toHand = position - throwOrigin.position;
-        if (OverlapsWorld(throwOrigin.position, radius) ||
-            Sweep(throwOrigin.position, toHand, radius, out _)) return false;
+        if (OverlapsWorld(throwOrigin.position, shape, rotation, 0f) ||
+            Sweep(throwOrigin.position, toHand, shape, rotation, 0f, out _)) return false;
 
         launch.Position = position;
         launch.Velocity = GetThrowVelocity(position);
         launch.Gravity = body.useGravity ? Physics.gravity : Vector3.zero;
         launch.Damping = isUnderhand ? Mathf.Max(body.linearDamping, settings.UnderhandDamping) : body.linearDamping;
-        launch.Radius = radius;
+        launch.Radius = shape.Radius;
+        launch.Rotation = rotation;
+        launch.Shape = shape;
         IsBlocked = false;
         return true;
     }
@@ -428,15 +433,15 @@ public class PlayerThrow : MonoBehaviour
     public Vector3 ConstrainHand(Vector3 desired, out bool blocked, Transform releasedVisualException = null)
     {
         blocked = false;
-        if (!HasHeldItem || !ThrowFlight.TryProfile(heldItem.WorldPrefab, out float radius, out _)) return desired;
+        if (!HasHeldItem || !ThrowFlight.TryShape(heldItem.WorldPrefab, out ThrowShape shape, out _)) return desired;
         Vector3 delta = desired - throwOrigin.position;
-        if (Sweep(throwOrigin.position, delta, radius + settings.SurfaceSkin, out RaycastHit hit, releasedVisualException))
+        if (Sweep(throwOrigin.position, delta, shape, throwOrigin.rotation, settings.SurfaceSkin, out RaycastHit hit, releasedVisualException))
         {
             blocked = true;
             return throwOrigin.position + delta.normalized * Mathf.Max(0f, hit.distance - settings.SurfaceSkin);
         }
-        blocked = OverlapsWorld(desired, radius + settings.SurfaceSkin, releasedVisualException) ||
-                  OverlapsWorld(throwOrigin.position, radius, releasedVisualException);
+        blocked = OverlapsWorld(desired, shape, throwOrigin.rotation, settings.SurfaceSkin, releasedVisualException) ||
+                  OverlapsWorld(throwOrigin.position, shape, throwOrigin.rotation, 0f, releasedVisualException);
         return desired;
     }
 
@@ -444,21 +449,29 @@ public class PlayerThrow : MonoBehaviour
         collider != null && collider.enabled && !collider.isTrigger && !collider.transform.IsChildOf(transform) &&
         (excludedRoot == null || !collider.transform.IsChildOf(excludedRoot));
 
-    private bool OverlapsWorld(Vector3 position, float radius, Transform excludedRoot = null)
+    private bool OverlapsWorld(Vector3 position, ThrowShape shape, Quaternion rotation, float skin, Transform excludedRoot = null)
     {
-        int count = Physics.OverlapSphereNonAlloc(position, radius, overlaps, settings.CollisionMask, QueryTriggerInteraction.Ignore);
+        int count = shape.IsBox
+            ? Physics.OverlapBoxNonAlloc(position, shape.HalfExtents + Vector3.one * skin, overlaps, rotation, settings.CollisionMask, QueryTriggerInteraction.Ignore)
+            : Physics.OverlapSphereNonAlloc(position, shape.Radius + skin, overlaps, settings.CollisionMask, QueryTriggerInteraction.Ignore);
         if (count == overlaps.Length) return true; // 버퍼 포화는 빈 공간이라고 해석하지 않는다.
         for (int i = 0; i < count; i++) if (IsWorld(overlaps[i], excludedRoot)) return true;
         return false;
     }
 
     public bool Sweep(Vector3 start, Vector3 delta, float radius, out RaycastHit closest, Transform excludedRoot = null)
+        => Sweep(start, delta, new ThrowShape {Radius = radius}, Quaternion.identity, 0f, out closest, excludedRoot);
+
+    private bool Sweep(Vector3 start, Vector3 delta, ThrowShape shape, Quaternion rotation, float skin,
+        out RaycastHit closest, Transform excludedRoot = null)
     {
         closest = default;
         float length = delta.magnitude;
         if (length < 0.00001f) return false;
-        int count = radius > 0f
-            ? Physics.SphereCastNonAlloc(start, radius, delta / length, hits, length, settings.CollisionMask, QueryTriggerInteraction.Ignore)
+        int count = shape.IsBox
+            ? Physics.BoxCastNonAlloc(start, shape.HalfExtents + Vector3.one * skin, delta / length, hits, rotation, length, settings.CollisionMask, QueryTriggerInteraction.Ignore)
+            : shape.Radius + skin > 0f
+            ? Physics.SphereCastNonAlloc(start, shape.Radius + skin, delta / length, hits, length, settings.CollisionMask, QueryTriggerInteraction.Ignore)
             : Physics.RaycastNonAlloc(start, delta / length, hits, length, settings.CollisionMask, QueryTriggerInteraction.Ignore);
         float nearest = float.PositiveInfinity;
         bool found = false;
@@ -504,7 +517,7 @@ public class PlayerThrow : MonoBehaviour
             if (remaining <= 0.00001f) break;
             bool predictionCapped = delta.magnitude > remaining;
             if (predictionCapped) { delta = delta.normalized * remaining; next = position + delta; }
-            bool hit = Sweep(position, delta, launch.Radius, out RaycastHit contact);
+            bool hit = Sweep(position, delta, launch.Shape, launch.Rotation, 0f, out RaycastHit contact);
             if (hit) next = position + delta.normalized * contact.distance; // 선은 물체 중심의 길이다.
             float length = Vector3.Distance(position, next);
             if (travelled < visibleLength)
@@ -523,7 +536,7 @@ public class PlayerThrow : MonoBehaviour
             // SphereCast의 중심 경로 끝과 실제 표면 접촉점을 구분한다.
             Vector3 towardSurface = firstContact.point - position;
             if (towardSurface.sqrMagnitude > 0.000001f && firstContact.collider.Raycast(
-                new Ray(position, towardSurface.normalized), out RaycastHit surface, launch.Radius + 0.05f))
+                new Ray(position, towardSurface.normalized), out RaycastHit surface, launch.Shape.Reach + 0.05f))
                 firstContact = surface;
             PreviewContact = firstContact.point;
             PreviewNormal = firstContact.normal.normalized;
@@ -601,8 +614,7 @@ public class PlayerThrow : MonoBehaviour
 
     private void OnThrownObjectHit(ThrownObject thrown, Collision collision)
     {
-        // 여기서는 명중 알림만 유지한다. 명중 시각+3초 교환 큐는 이번 범위가 아니다.
-        Debug.Log($"[투척 명중] {thrown.name} → {collision.collider.name}, 시각 {Time.time:F2}초, 위치 {collision.GetContact(0).point}", collision.collider);
+        if (isActiveAndEnabled) Hit?.Invoke(thrown, collision);
     }
 
     private void OnDisable() { ExitStance(); IsBlocked = false; }

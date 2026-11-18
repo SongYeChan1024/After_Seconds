@@ -252,6 +252,15 @@
 */
 
 #endregion
+
+#region 의사코드 Ver 0.7 (바닥에서 반대 방향 입력으로 제동)
+/*
+이동 입력을 놓으면 감속도로 수평 속도를 0에 가깝게 한다.
+입력이 있으면 현재 수평 속도가 새 입력 방향을 따라 얼마나 움직이는지 구한다.
+    그 값이 음수면 역방향 제동으로 그 성분을 먼저 줄인다. 옆으로 가던 속도는 남는다.
+    제동에 쓰고 남은 프레임 시간 동안 목표 속도를 향해 가속한다.
+*/
+#endregion
 [RequireComponent(typeof(CharacterController))]
 public class PlayerMotor : MonoBehaviour
 {
@@ -261,7 +270,7 @@ public class PlayerMotor : MonoBehaviour
     private float verticalVelocity;
 
     // 현재 수평 속도(방향과 빠르기). 수직 속도처럼 프레임이 끝나도 남겨 둔다.
-    // 바닥에서는 매 프레임 입력으로 새로 정하고, 공중에서는 바꾸지 않아 날아가던 그대로 유지된다.
+    // 바닥에서는 입력에 따라 가속·제동하고, 공중에서는 발이 떨어진 순간의 속도를 유지한다.
     private Vector3 horizontalVelocity = Vector3.zero;
 
     // ── 앉기에 쓰는 정보 ──
@@ -438,24 +447,7 @@ public class PlayerMotor : MonoBehaviour
         //  그래서 뛰는 순간의 입력까지는 반영되고, 그다음 프레임부터 고정된다)
         if (characterController.isGrounded)
         {
-            // 입력대로라면 내고 싶은 속도. 입력이 없으면 (0, 0, 0)이 된다.
-            Vector3 targetVelocity = moveDirection * currentSpeed; // 방향 × 고른 속도 = 원하는 수평 속도
-
-            // 이번에 속도를 바꿀 빠르기를 고른다.
-            float changeRate;
-            if (limitedInput == Vector2.zero)   // 이동 입력이 없다면 (키를 뗐다면)
-            {
-                changeRate = settings.Deceleration; // 감속도: 빨리 멈춘다
-            }
-            else                                // 이동 입력이 있다면
-            {
-                changeRate = settings.Acceleration; // 가속도: 출발·방향 전환·걷기→달리기
-            }
-
-            // MoveTowards(지금 값, 목표 값, 이번에 바꿀 수 있는 최대량):
-            // 지금 값을 목표 쪽으로 최대량만큼만 옮긴 결과를 돌려준다. 목표를 지나치지 않는다.
-            // "빠르기 × 경과 시간"을 넣어야 프레임 수와 상관없이 1초에 같은 양만큼 바뀐다.
-            horizontalVelocity = Vector3.MoveTowards(horizontalVelocity, targetVelocity, changeRate * deltaTime);
+            UpdateGroundVelocity(moveDirection * currentSpeed, deltaTime);
         }
 
         if (characterController.isGrounded && verticalVelocity < 0f)
@@ -479,5 +471,27 @@ public class PlayerMotor : MonoBehaviour
         {
             verticalVelocity = 0f; // 천장에 붙어 있지 않고 그 자리에서 바로 떨어지기 시작한다
         }
+    }
+
+    private void UpdateGroundVelocity(Vector3 targetVelocity, float deltaTime)
+    {
+        if (targetVelocity == Vector3.zero)
+        {
+            horizontalVelocity = Vector3.MoveTowards(horizontalVelocity, Vector3.zero, settings.Deceleration * deltaTime);
+            return;
+        }
+
+        Vector3 inputDirection = targetVelocity.normalized;
+        float speedAlongInput = Vector3.Dot(horizontalVelocity, inputDirection);
+        if (speedAlongInput < 0f && settings.ReverseBraking > 0f)
+        {
+            // 새 입력을 거스르는 속도가 0이 될 때까지만 제동한다.
+            float brakingTime = Mathf.Min(deltaTime, -speedAlongInput / settings.ReverseBraking);
+            horizontalVelocity += inputDirection * (settings.ReverseBraking * brakingTime);
+            deltaTime -= brakingTime;
+        }
+
+        // 한 프레임 안에서 제동이 끝났다면 남은 시간으로 바로 새 방향에 가속한다.
+        horizontalVelocity = Vector3.MoveTowards(horizontalVelocity, targetVelocity, settings.Acceleration * deltaTime);
     }
 }

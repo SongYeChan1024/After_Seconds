@@ -1,8 +1,8 @@
 {
-  "title": "After Seconds 층별 획득 오브젝트 제작 목록 V0.05",
-  "version": "V0.05",
+  "title": "After Seconds 층별 획득 오브젝트 제작 목록 V0.06",
+  "version": "V0.06",
   "author": "송예찬",
-  "date": "2026-11-11",
+  "date": "2026-11-18",
   "authority": "../AfterSeconds_메인기획서.md",
   "spec": "../층별_획득오브젝트_명세.md",
   "scope": "사용자 승인한 종류·층별 구성 및 제작 명세. 실제 3D·씬 배치·런타임 완료를 뜻하지 않음.",
@@ -60,7 +60,7 @@
     "item_types": 38,
     "floor_entries": 55,
     "asset_candidate_types": 5,
-    "runtime_implemented": 0,
+    "runtime_implemented": 1,
     "active_item_types": 35
   },
   "floors": [
@@ -83,7 +83,7 @@
       "art_direction": "청백색의 관리된 생활·기본 관찰 공간. 손이 닿는 물건의 세척 흔적과 번호 표식.",
       "record_topics": "배식·관찰 기록, 피험체 생활 구역 인계, 격리실 관찰 영상",
       "placement_area_candidates": "배식구·생활실·보안 관제석",
-      "exact_placement_status": "미배치 / 좌표·수량은 실제 접근·감시 동선과 대조 후 결정"
+      "exact_placement_status": "B5 시작 지점 앞에 휴대 식판 1개 배치. 배식 경비는 포드 남쪽에 있다."
     },
     {
       "id": "B4",
@@ -226,12 +226,12 @@
       "carry_cost": 1,
       "instance_state": "객체별 고유 ID와 상태 유지. 같은 종류도 합치지 않음.",
       "swap_rules": "메인 기획서 4장의 기존 규칙 참조. 이 목록은 교환 도착 대상 허용 목록이 아님.",
-      "production_status": "제작 명세 완료 / 기존 자산 재사용·분리 후보 / 휴대 에셋 검수 미완료",
-      "runtime_status": "미구현",
+      "production_status": "식판 바닥·테두리 분리, 중심 피벗 및 상자 충돌체 0.45 × 0.031 × 0.30m",
+      "runtime_status": "B5 줍기·투척·재획득, 배식구 통과, 경비 명중 및 독립 식판 대상 교환 검수",
       "asset_candidates": [
         {
-          "path": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/05.Model/Props/B5/MealTraySet.fbx",
-          "note": "기존 식판 세트. 독립 식판 분리·치수·피벗·충돌 확인 필요"
+          "path": "Unity/After_Seconds_Build_V0.01/Assets/Afrer_Seconds/04.Prefabs/Items/MealTray.prefab",
+          "note": "월드·소지·투척에 사용하는 독립 식판"
         }
       ]
     },
@@ -980,6 +980,12 @@
       "version": "V0.05",
       "date": "2026-11-11",
       "change": "B1 연구 데이터·직원 생활. 현장 시험 소품3종 제외, 55개 층별 항목."
+    },
+    {
+      "version": "V0.06",
+      "date": "2026-11-18",
+      "author": "송예찬",
+      "change": "B5 식판을 첫 구현 아이템으로 기록했다."
     }
   ],
   "detail_spec": "../잠입_상호작용_상세설계.md"

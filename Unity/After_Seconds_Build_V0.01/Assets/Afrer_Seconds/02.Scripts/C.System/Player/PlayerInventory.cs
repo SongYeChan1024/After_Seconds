@@ -35,7 +35,14 @@ public class PlayerInventory : MonoBehaviour
     private void LateUpdate()
     {
         // 외부 사건으로 소지 객체가 사라져도 유령 슬롯을 남기지 않는다.
-        if (items.RemoveAll(item => item == null) > 0) { selectedIndex = Mathf.Clamp(selectedIndex, 0, items.Count - 1); SyncSelection(); }
+        for (int i = items.Count - 1; i >= 0; i--)
+        {
+            if (items[i] != null) continue;
+            items.RemoveAt(i);
+            if (i < selectedIndex) selectedIndex--;
+            else if (i == selectedIndex) selectedIndex = Mathf.Min(i, items.Count - 1);
+            SyncSelection();
+        }
         RefreshCandidate();
     }
 
@@ -56,7 +63,7 @@ public class PlayerInventory : MonoBehaviour
         }
         if (first == null) return;
         var item = first.GetComponentInParent<WorldItem>();
-        if (item == null || !item.CanPickup || !ThrowFlight.TryProfile(item.Definition.WorldPrefab, out _, out _)) return;
+        if (item == null || !item.CanPickup || !ThrowFlight.TryShape(item.Definition.WorldPrefab, out _, out _)) return;
         Vector3 toward = first.bounds.center - eye.position;
         if (Vector3.Distance(eye.position, first.ClosestPoint(eye.position)) > settings.pickupDistance) return;
         // 조준 보조 구체가 모서리 너머를 잡아도 실제 시선이 벽을 통과할 수는 없다.
@@ -80,7 +87,10 @@ public class PlayerInventory : MonoBehaviour
     public bool SelectRelative(int direction)
     {
         if (!isActiveAndEnabled || Time.timeScale <= 0f || items.Count == 0 || direction == 0) return false;
-        selectedIndex = (selectedIndex + (direction > 0 ? 1 : items.Count - 1)) % items.Count;
+        // -1은 소지 공간을 쓰지 않는 맨손이다. 맨손 ↔ 첫 물건 ↔ … ↔ 마지막 물건 ↔ 맨손.
+        selectedIndex += direction > 0 ? 1 : -1;
+        if (selectedIndex >= items.Count) selectedIndex = -1;
+        else if (selectedIndex < -1) selectedIndex = items.Count - 1;
         SyncSelection(); return true;
     }
 
@@ -90,7 +100,7 @@ public class PlayerInventory : MonoBehaviour
         thrower.ExitStance();
         if (!thrower.TryGetLaunch(out ThrowLaunch launch)) { Tell("내려놓을 공간이 없어"); return false; }
         WorldItem item = Selected;
-        var thrown = item.Release(launch.Position, thrower.Origin.rotation, settings.pickupDelay);
+        var thrown = item.Release(launch.Position, launch.Rotation, settings.pickupDelay);
         if (thrown == null) return false;
         thrown.Disarm();
         foreach (var collider in thrown.GetComponentsInChildren<Collider>())
@@ -113,5 +123,5 @@ public class PlayerInventory : MonoBehaviour
         if (zoom != null) zoom.SetZoomed(false);
         Changed?.Invoke();
     }
-    private void Tell(string text) { message = text; messageUntil = Time.time + settings.messageDuration; }
+    internal void Tell(string text) { message = text; messageUntil = Time.time + settings.messageDuration; }
 }

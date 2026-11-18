@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4afab042832b7504c88c00c373f00c4b, type: 3}
+  m_Name: B5_GuardSettings
+  m_EditorClassIdentifier: SystemAD::GuardSettings
+  decisionInterval: 0.1
+  sightDistance: 15
+  fieldOfView: 90
+  identifyStanding: 2.2
+  identifyCrouching: 3.5
+  forgetExposure: 1
+  eyeHeight: 1.6
+  sightMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  patrolSpeed: 1.5
+  chaseSpeed: 6
+  turnSpeed: 240
+  acceleration: 18
+  patrolWait: 2
+  stalledTime: 1
+  searchTime: 6
+  arrivalDistance: 0.18
+  captureReach: 0.9
+  captureWarningTime: 0.4

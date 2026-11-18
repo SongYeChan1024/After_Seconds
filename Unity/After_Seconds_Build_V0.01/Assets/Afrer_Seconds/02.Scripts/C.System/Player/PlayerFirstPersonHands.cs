@@ -188,7 +188,8 @@ public class PlayerFirstPersonHands : MonoBehaviour
         leftLocal = Vector3.SmoothDamp(leftLocal, leftTargetLocal, ref leftSmoothVelocity, settings.poseSmoothTime, Mathf.Infinity, dt);
         // 방금 놓은 공이 손 후속 동작을 가려 양팔이 사라지지 않게 한다. 실제 투척 검사는 예외 없이 유지한다.
         Transform releasedVisualException = recovery > 0f && thrower.LastThrown != null ? thrower.LastThrown.transform : null;
-        Vector3 safe = thrower.ConstrainHand(eye.TransformPoint(itemLocal), out bool blocked, releasedVisualException);
+        Vector3 gripOffset = thrower.HeldItem != null ? eye.rotation * thrower.HeldItem.GripOffset : Vector3.zero;
+        Vector3 safe = thrower.ConstrainHand(eye.TransformPoint(itemLocal) - gripOffset, out bool blocked, releasedVisualException);
         Obstructed = blocked;
         itemAnchor.position = safe; itemAnchor.rotation = eye.rotation;
         // 손까지의 공간이 막히면 표시를 숨긴다. 별도의 시작 겹침/구체 이동 검사도 발사를 거절한다.
@@ -199,7 +200,8 @@ public class PlayerFirstPersonHands : MonoBehaviour
         if (!visible) return;
         for (int i = 0; i < bones.Length; i++)
         { bones[i].localRotation = restRotations[i]; bones[i].localPosition = restPositions[i]; }
-        Vector3 wrist = safe - eye.TransformVector(settings.palmToItem);
+        Vector3 grip = safe + gripOffset;
+        Vector3 wrist = grip - eye.TransformVector(settings.palmToItem);
         SolveArm(rightUpper, rightLower, rightHand, eye.TransformPoint(settings.rightShoulder), wrist,
             eye.TransformPoint(new Vector3(0.38f, -0.38f, 0.12f)));
         Vector3 leftTarget = eye.TransformPoint(leftLocal);
@@ -208,7 +210,7 @@ public class PlayerFirstPersonHands : MonoBehaviour
         rightHand.rotation = Quaternion.AngleAxis(wave * 9f * gaitScale, eye.forward) * rightHand.rotation;
         leftHand.rotation = Quaternion.AngleAxis(-wave * 9f * gaitScale, eye.forward) * leftHand.rotation;
         // 손가락 포즈는 임시다. 손끝을 구체 중심 주위로 굽혀서 소지품과 연결한다.
-        if (recovery <= 0f && thrower.HasHeldItem) CurlFingers(rightHand, safe);
+        if (recovery <= 0f && thrower.HasHeldItem) CurlFingers(rightHand, grip);
         CurlFingers(leftHand, leftTarget + eye.forward * 0.07f - eye.up * 0.025f, 0.30f);
     }
 

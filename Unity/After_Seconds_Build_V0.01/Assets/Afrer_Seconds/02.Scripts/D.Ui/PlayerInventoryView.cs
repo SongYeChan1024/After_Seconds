@@ -9,9 +9,11 @@ public class PlayerInventoryView : MonoBehaviour
     [SerializeField] private PlayerInventory inventory;
     [SerializeField] private TMP_Text prompt;
     [SerializeField] private TMP_Text contents;
+    [SerializeField] private RectTransform backing;
     private readonly StringBuilder text = new StringBuilder();
     private WorldItem previousCandidate;
     private string previousMessage;
+    public string EncounterPrompt { get; set; }
 
     private void OnEnable()
     {
@@ -24,6 +26,7 @@ public class PlayerInventoryView : MonoBehaviour
     {
         if (inventory == null || contents == null) return;
         text.Clear();text.Append("소지품  ").Append(inventory.Count).Append('/').Append(inventory.Capacity).Append('\n');
+        text.Append(inventory.SelectedIndex < 0 ? "<color=#C6EBED>▶ 빈손</color>\n" : "<color=#B8C3C8>  빈손</color>\n");
         for (int i = 0; i < inventory.Count; i++)
         {
             var item = inventory.Items[i];
@@ -31,15 +34,20 @@ public class PlayerInventoryView : MonoBehaviour
             text.Append(i == inventory.SelectedIndex ? "<color=#C6EBED>▶ " : "<color=#B8C3C8>  ");
             text.Append(item.Definition.DisplayName).Append(" · ").Append(item.Number.ToString("00")).Append("</color>\n");
         }
-        if (inventory.Count == 0) text.Append("빈손\n");
         text.Append("<size=75%>휠 선택   Q 내려놓기</size>");
         contents.text = text.ToString();
+        if (backing)
+        {
+            float height = Mathf.Ceil(contents.preferredHeight);
+            contents.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, height);
+            backing.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, height + 32f);
+        }
     }
     private void LateUpdate()
     {
         if (inventory == null || prompt == null) return;
         var candidate = inventory.isActiveAndEnabled ? inventory.Candidate : null;
-        string message = inventory.Message;
+        string message = EncounterPrompt ?? inventory.Message;
         if (candidate == previousCandidate && message == previousMessage) return;
         previousCandidate = candidate; previousMessage = message;
         prompt.text = !string.IsNullOrEmpty(message) ? message : candidate != null ? "[F] " + candidate.Definition.DisplayName + " 줍기" : "";

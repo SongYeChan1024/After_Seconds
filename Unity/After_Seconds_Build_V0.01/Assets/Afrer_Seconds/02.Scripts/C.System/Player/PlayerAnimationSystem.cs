@@ -110,7 +110,8 @@ public class PlayerAnimationSystem : MonoBehaviour
 
     public void ResetLocomotion()
     {
-        if (animator == null) return;
+        // 층 재시도나 에디터 재생 종료로 몸 전체가 꺼졌으면 초기화할 그래프도 없다.
+        if (animator == null || !animator.isActiveAndEnabled || !animator.isInitialized) return;
         if (hasSpeedParameter) animator.SetFloat(SpeedId, 0f);
         animator.SetFloat(MoveXId, 0f);
         animator.SetFloat(MoveYId, 0f);
