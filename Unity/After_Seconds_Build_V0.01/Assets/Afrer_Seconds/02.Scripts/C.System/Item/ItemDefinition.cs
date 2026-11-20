@@ -33,6 +33,18 @@ public class ItemDefinition : ScriptableObject
     [SerializeField] private Vector3 gripOffset;
     public Vector3 GripOffset => gripOffset;
 
+    [SerializeField] private bool hasIronSights;
+    [Tooltip("월드 프리팹 루트 기준 뒤쪽 조준 홈의 중심입니다.")]
+    [SerializeField] private Vector3 rearSightLocal;
+    [Tooltip("조준 자세에서 카메라와 가늠자 사이의 화면용 거리입니다.")]
+    [SerializeField, Min(0.2f)] private float sightEyeDistance = 0.32f;
+    [SerializeField, Min(0)] private int initialRounds;
+    [SerializeField, Min(0f)] private float swapShotRange;
+    public int InitialRounds => initialRounds;
+    public float SwapShotRange => swapShotRange;
+    public bool HasIronSights => hasIronSights;
+    public Vector3 AimedGripLocal => Vector3.forward * sightEyeDistance - rearSightLocal + gripOffset;
+
     // => 는 "이 값을 돌려준다"는 짧은 속성 문법이다. get만 있으므로 밖에서 읽기만 할 수 있다.
     public string DisplayName => displayName;
     public ThrownObject WorldPrefab => worldPrefab;

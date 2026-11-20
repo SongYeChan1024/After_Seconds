@@ -1,0 +1,1628 @@
+{
+  "date": "2026-11-19",
+  "flow": "https://3d.varco.ai/flow/fb981dd5-dfb9-4499-94b2-9e0ae0537f4c",
+  "requests": "SourceAssets/PickupItems/varco_requests.json",
+  "conversion": "SourceAssets/PickupItems/prepare_models.py",
+  "pointEstimates": [
+    {
+      "executionId": "c622daa5-4910-4c74-af71-70a35846a282",
+      "points": 8500
+    },
+    {
+      "executionId": "b219005d-4ecb-472a-a927-6461d85c9462",
+      "points": 400
+    },
+    {
+      "executionId": "316fadce-9c8a-4770-838a-55b6033451ae",
+      "points": 1600
+    },
+    {
+      "executionId": "a5a6ad8f-91a8-4282-8c9f-a87838f41471",
+      "points": 300
+    },
+    {
+      "executionId": "b14dc707-aa8d-407e-8338-3db8a006b51d",
+      "points": 1200
+    }
+  ],
+  "items": [
+    {
+      "id": "Pen",
+      "name": "펜",
+      "floors": [
+        "B5",
+        "B4"
+      ],
+      "selected": "retry",
+      "source": "SourceAssets/PickupItems/Models/Pen.glb",
+      "sourceSha256": "d055e82b34cfe7e6fd34ea5ae84515b32cb46847ec4300be3d5d60a6fe951be1",
+      "sourceTriangles": 500000,
+      "reference": "SourceAssets/PickupItems/References/Pen.png",
+      "referenceSha256": "06aafcf41a3df6c7e2058004be8281b2b77e0635ddc898f60767e9e05cdd89a0",
+      "first": {
+        "text": "0806bba8-aa90-477d-b757-3a3a6f2ae68c",
+        "image": "98d220b1-9adb-48a3-b047-43b236261ef3",
+        "mesh": "6f0f0fa3-2fa1-497f-b426-33b66316758a",
+        "task": "31d8febb-6875-4629-af41-1ef734759e6e"
+      },
+      "retry": {
+        "reason": "펜 두 자루가 십자로 붙어 있음",
+        "prompt": "One continuous studio product photograph of one capped charcoal retractable ballpoint pen with one cylindrical shaft, narrow conical writing tip and integrated pocket clip, lying diagonally across the view, pen fully assembled Single physical sample only, photographed once against seamless light neutral grey. The entire item fits within the central 70 percent of the frame with empty margin on all sides. Soft controlled lighting; natural worn material texture. No secondary image, montage, inset, labels outside the object, human, furniture, floor scene, HUD or companion parts.",
+        "text": "a2b1919d-8aea-4721-a328-86dc1f13a5b2",
+        "image": "c891e905-a608-427b-b30b-bdde489e367e",
+        "mesh": "f2b2262f-622a-4e65-a2fd-e85626c27160",
+        "task": "4b922ea5-d5ac-4ddd-8ce2-f658faf629c0"
+      },
+      "model": "Assets/Afrer_Seconds/05.Model/Props/Common/Pickup_Pen.fbx",
+      "modelSha256": "9ac35e2d26248ed0dfeb232806d10d208da842d0bb5dbefb1924e00abdc67245",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/Common/Materials/Pickup_Pen.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/Pickup_Pen_Albedo.png",
+          "sha256": "ac9be0c8a89b7260990c9fde78a94e68c0c82321a6234c7a434c58b5b3868222"
+        },
+        "normal": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/Pickup_Pen_Normal.png",
+          "sha256": "baf4ba02047e0b6c786a77ec943edf34578e18e6af15b87398da1cf82d20def0"
+        },
+        "metallicGloss": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/Pickup_Pen_MetallicGloss.png",
+          "sha256": "b60ca3f8bba83d14ac190d725363bbcc3426b66993c80dd42315b3ae12971a85"
+        }
+      },
+      "triangles": 1500,
+      "longestMeters": 0.145,
+      "closeReview": {
+        "result": "형태 재제작",
+        "note": "펜촉·몸통·버튼을 한 축에 놓고 클립에 곡선을 남겼다. 몸통 33개 단면의 최대 편차가 3.18 mm에서 0.01 mm 미만으로 줄었다.",
+        "boundaryEdges": 0,
+        "meshIslands": 2,
+        "metallic": 0.45,
+        "roughness": 0.4,
+        "reflectance": "금속도 R, 매끄러움 A",
+        "blenderScript": "SourceAssets/PickupItems/refine_pickups.py"
+      }
+    },
+    {
+      "id": "DocumentFolder",
+      "name": "서류철",
+      "floors": [
+        "B5",
+        "B3",
+        "B2",
+        "B1",
+        "1F"
+      ],
+      "selected": "repair",
+      "source": "SourceAssets/PickupItems/Models/DocumentFolder.glb",
+      "sourceSha256": "cca54114677adf7dae4e3e46c936d0531d118723814827dd52b981ed6308bcc6",
+      "sourceTriangles": 3856,
+      "reference": "SourceAssets/PickupItems/References/DocumentFolder.png",
+      "referenceSha256": "ec1d2970735a04d83c226bc67bfaa673a20dac377d875a641c34b94c9f4544e9",
+      "first": {
+        "text": "0d9e1223-ef6e-4fef-bbdc-6eb69c494b0a",
+        "image": "28ae5d39-d8cf-4e2a-83f5-aaa62159f41d",
+        "mesh": "6f68d9a9-d3eb-4b2f-b342-fc90bb257ff6",
+        "task": "480ad7d6-9c5d-4c7a-9a9f-fd9651159d7e"
+      },
+      "retry": {
+        "reason": "접힌 사각 표지의 하단 윤곽과 라벨이 찌그러짐",
+        "prompt": "One continuous studio product photograph of one slim closed rigid A4 office file folder. Flat rectangular pale blue-grey front cover with four intact square corners; narrow band of cream paper visible between the covers; small black binder fastener along the spine; blank cover. One straight, flat unit. Single physical sample only, photographed once against seamless light neutral grey. The entire item fits within the central 70 percent of the frame with empty margin on all sides. Soft controlled lighting; natural worn material texture. No secondary image, montage, inset, labels outside the object, human, furniture, floor scene, HUD or companion parts.",
+        "text": "d938fd69-86b8-4c0b-8243-8adc7e872584",
+        "image": "4d66b0f7-2f14-410d-90ec-cc087f77d42b",
+        "mesh": "4cb8099a-3154-4701-b04e-8bed22536a75",
+        "task": "1dcf177f-b962-493c-9295-4f1a212811f7"
+      },
+      "rebuildScript": "SourceAssets/PickupItems/rebuild_pickups.py",
+      "rebuildReason": "재생성한 메시에서도 서류철이 상자 두께로 복원되어 표지·책등·종이 묶음·고정쇠를 재모델링했다.",
+      "model": "Assets/Afrer_Seconds/05.Model/Props/Common/Pickup_DocumentFolder.fbx",
+      "modelSha256": "324325ca93d8298f384df7c0eeabc7af7d0710e4dd3d04739045a1a8eb1f662a",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/Common/Materials/Pickup_DocumentFolder.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/Pickup_DocumentFolder_Albedo.png",
+          "sha256": "b26382d84bebe0c62c208b22d2a3919bba3a6ca6f0cb6f07174a387a5191565c"
+        }
+      },
+      "triangles": 3000,
+      "longestMeters": 0.32,
+      "closeReview": {
+        "result": "형태 유지",
+        "note": "비스듬한 측면에서 앞뒤 표지 사이로 종이 단면과 책등 고정쇠가 보인다.",
+        "boundaryEdges": 0,
+        "meshIslands": 12,
+        "metallic": 0,
+        "roughness": 0.7599999904632568
+      }
+    },
+    {
+      "id": "UsbDrive",
+      "name": "USB",
+      "floors": [
+        "B5",
+        "B4",
+        "B3",
+        "B2",
+        "B1",
+        "1F"
+      ],
+      "selected": "original",
+      "source": "SourceAssets/PickupItems/Models/UsbDrive.glb",
+      "sourceSha256": "ce0ba08698669bc48298d510559667dfab8de157a6d7821f5a2aff53b67aef34",
+      "sourceTriangles": 500000,
+      "reference": "SourceAssets/PickupItems/References/UsbDrive.png",
+      "referenceSha256": "3035a67f1db543f05897db4ee07d933a309f17f188bd70c442e9be15c4d3eda3",
+      "first": {
+        "text": "9812f22f-617d-4407-a45e-c402b9ac6e7c",
+        "image": "af5fa5ea-f698-46c0-be4f-8811e3f0530b",
+        "mesh": "6e5e27f7-f44d-490d-a85a-772651038499",
+        "task": "eae0d51e-388b-4cd8-969a-06dd9b4d61bf"
+      },
+      "model": "Assets/Afrer_Seconds/05.Model/Props/Common/Pickup_UsbDrive.fbx",
+      "modelSha256": "7c79acd7ca2bffb7a0ca80236c6f4fb3d7ef470023285f57083a0e3088baa2cd",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/Common/Materials/Pickup_UsbDrive.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/Pickup_UsbDrive_Albedo.png",
+          "sha256": "3293205700d3033b667b6b5d59c156c1531e5de44bd36864759f59d513036307"
+        },
+        "normal": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/Pickup_UsbDrive_Normal.png",
+          "sha256": "bb622d680fde48f01d62aece2fd9a6da137c394e7ab0533d7c9678efd78d7161"
+        }
+      },
+      "triangles": 2000,
+      "longestMeters": 0.062,
+      "closeReview": {
+        "result": "부위 수정",
+        "note": "단자 안의 세 원형 자국을 없애고 금속 셸, 절연판과 네 접점을 모델링했다. 몸체와 고리는 보존했다.",
+        "boundaryEdges": 0,
+        "meshIslands": 9,
+        "metallic": 0.13,
+        "roughness": 0.53,
+        "blenderScript": "SourceAssets/PickupItems/refine_pickups.py"
+      }
+    },
+    {
+      "id": "DataShard",
+      "name": "데이터 샤드",
+      "floors": [
+        "B5",
+        "B4",
+        "B3",
+        "B1"
+      ],
+      "selected": "repair",
+      "source": "SourceAssets/PickupItems/Models/DataShard.glb",
+      "sourceSha256": "aed749c30dd93fde7b786a3bfed62c7154032580a54cfc2ae6ac9d23f935ad4f",
+      "sourceTriangles": 4876,
+      "reference": "SourceAssets/PickupItems/References/DataShard.png",
+      "referenceSha256": "353b919ff1203a182b759d015eea485d3b1d76575661c4c3ea5d32bb58a4e422",
+      "first": {
+        "text": "3906f141-9563-4334-a07f-704820fad2d9",
+        "image": "4337d7da-2b45-425c-b599-07d8c54a77cb",
+        "mesh": "cbd04f8a-0a94-4ff9-988d-20d4f761d1da",
+        "task": "bd2610bd-2631-478e-b857-a652b0bac8d9"
+      },
+      "retry": {
+        "reason": "카트리지 뒷면 피복 손상",
+        "prompt": "One continuous studio product photograph of one sealed rectangular black industrial memory cartridge with an intact flat back cover, chamfered corners and a short straight row of gold contacts inset into one front edge, isolated in a three quarter view Single physical sample only, photographed once against seamless light neutral grey. The entire item fits within the central 70 percent of the frame with empty margin on all sides. Soft controlled lighting; natural worn material texture. No secondary image, montage, inset, labels outside the object, human, furniture, floor scene, HUD or companion parts.",
+        "text": "67a04e34-699d-4f8b-b2d2-1837bdbce2b3",
+        "image": "ea0fd1bf-e2b3-4dfd-9c42-16f868e9bbda",
+        "mesh": "f605ed2b-8297-4dda-85ba-cda3b56f170a",
+        "task": "b2de109b-f973-4720-bbdd-5dbe6a6f710f"
+      },
+      "rebuildScript": "SourceAssets/PickupItems/rebuild_pickups.py",
+      "rebuildReason": "재생성 후에도 뒷면에 삼각형 모양의 얼룩이 남아 밀폐 케이스·가이드 레일·금속 접점을 재모델링했다.",
+      "model": "Assets/Afrer_Seconds/05.Model/Props/Common/Pickup_DataShard.fbx",
+      "modelSha256": "587d2ff3d397517eea6c548bbb2421490d185f0b0ff791b5192baa35040656a2",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/Common/Materials/Pickup_DataShard.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/Pickup_DataShard_Albedo.png",
+          "sha256": "60c13a0c65c3026dea8570a2d9dedb7c741f60174cb4b5dfc3def24fb37197d1"
+        }
+      },
+      "triangles": 2200,
+      "longestMeters": 0.074,
+      "closeReview": {
+        "result": "형태 유지",
+        "note": "앞면 접점 열과 뒷면 가이드 레일이 분리되어 삽입 방향을 읽을 수 있다.",
+        "boundaryEdges": 0,
+        "meshIslands": 17,
+        "metallic": 0,
+        "roughness": 0.7599999904632568
+      }
+    },
+    {
+      "id": "Flashlight",
+      "name": "손전등",
+      "floors": [
+        "B3",
+        "1F"
+      ],
+      "selected": "original",
+      "source": "SourceAssets/PickupItems/Models/Flashlight.glb",
+      "sourceSha256": "e5d7f4f16845d38b315e11d8312de05c012a0352eb7dac706d7a5e99c5c7e578",
+      "sourceTriangles": 500000,
+      "reference": "SourceAssets/PickupItems/References/Flashlight.png",
+      "referenceSha256": "92e8d83458a4e44efb7a6ca2cef0b4a384d4fc178ff64f219ccfff262dcd844d",
+      "first": {
+        "text": "7e104e65-c7e8-4914-bb06-5f61c55f7b85",
+        "image": "eb8bfe8b-b137-4648-ab91-ba690cc03bc1",
+        "mesh": "5c650892-c6d8-42c3-80f6-c4cc6c8703f9",
+        "task": "4ac09982-b03e-4f0d-89a4-ed6a5c4134d0"
+      },
+      "model": "Assets/Afrer_Seconds/05.Model/Props/Common/Pickup_Flashlight.fbx",
+      "modelSha256": "ec9e2a92027f435d3d1bf4057b3cc4ca170291c5d5dd6ea83721a394b8bb227e",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/Common/Materials/Pickup_Flashlight.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/Pickup_Flashlight_Albedo.png",
+          "sha256": "2b1da37e8ea8125209a90682cbf2a5dd33a04fd3b5c1c1942f0c8cfe0eba1748"
+        },
+        "normal": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/Pickup_Flashlight_Normal.png",
+          "sha256": "9620b2985ee412801197108c39c48253af917c7e5369b6c4efcbdf13657e3784"
+        }
+      },
+      "triangles": 3500,
+      "longestMeters": 0.17,
+      "closeReview": {
+        "result": "부위 수정",
+        "note": "뒤쪽의 두 번째 렌즈처럼 보이던 홈을 잘라내고 배터리 캡과 오목한 고무 버튼으로 마감했다.",
+        "boundaryEdges": 0,
+        "meshIslands": 2,
+        "metallic": 0.12,
+        "roughness": 0.55,
+        "blenderScript": "SourceAssets/PickupItems/refine_pickups.py"
+      }
+    },
+    {
+      "id": "Pistol",
+      "name": "총",
+      "floors": [
+        "B5",
+        "B4",
+        "B3",
+        "B2",
+        "B1",
+        "1F"
+      ],
+      "selected": "retry",
+      "source": "SourceAssets/PickupItems/Models/Pistol.glb",
+      "sourceSha256": "1d8619fb3d8e9775ce31f8666527034e2d9556f0c34f406c820c12ccd1aaa3e8",
+      "sourceTriangles": 500000,
+      "reference": "SourceAssets/PickupItems/References/Pistol.png",
+      "referenceSha256": "51d067ccfc3f367512b4a0e357685c774b8ce30ce1b20a8dffc9315ca74dbed1",
+      "first": {
+        "text": "e787cfbc-68de-4c19-8df9-9aabbab3833a",
+        "image": "932722db-cd45-4e70-8589-41ffdaf0f244",
+        "mesh": "3e3acbf5-13a3-4c78-aea2-1ddae84f3abc",
+        "task": "aeaff587-d392-41db-b32f-58530042f79b"
+      },
+      "retry": {
+        "reason": "여러 시점의 소품이 분리된 형상으로 생성됨",
+        "prompt": "One continuous studio product photograph of one inert one-piece fictional security-sidearm prop from a stage costume department. Seamless solid matte charcoal casting with an enclosed nose and integral grip. Show the full unbroken silhouette from one side at a slight angle. Blank sides. Single physical sample only, photographed once against seamless light neutral grey. The entire item fits within the central 70 percent of the frame with empty margin on all sides. Soft controlled lighting; natural worn material texture. No secondary image, montage, inset, labels outside the object, human, furniture, floor scene, HUD or companion parts.",
+        "text": "3b802134-0f5f-4d3d-80a6-d63e58239cdf",
+        "image": "e7e370bd-751e-4f50-a0bd-da200e887dc1",
+        "mesh": "f8cb5e01-4d0b-4d79-825f-0bb5c0b03225",
+        "task": "fa801da1-65b2-4f3c-96d0-3a22a09abc3c"
+      },
+      "model": "Assets/Afrer_Seconds/05.Model/Props/Common/Pickup_Pistol.fbx",
+      "modelSha256": "684c7e93c284e4b9a8f5940db58873b9565dc2348299ea8a354443e1e26b5f6c",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/Common/Materials/Pickup_Pistol.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/Pickup_Pistol_Albedo.png",
+          "sha256": "d4a488b646757858afc228552ec3f0f4937f790f79566bc6f1f1b04d050af0b2"
+        },
+        "normal": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/Pickup_Pistol_Normal.png",
+          "sha256": "4b517c2ae1bb002f04d9e1734ae6cb345c7fb68e40a44f18ed89df44631570ce"
+        },
+        "metallicGloss": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/Pickup_Pistol_MetallicGloss.png",
+          "sha256": "ac4105f1b10aa858355c1a3caf38a19c7f1d6e2e79384410bc1204671286af45"
+        }
+      },
+      "triangles": 4500,
+      "longestMeters": 0.19,
+      "closeReview": {
+        "result": "형태 재제작",
+        "note": "금속 상부와 무광 손잡이의 윤곽을 새로 잡았다. 1인칭 조준 자세에서 흰 가늠자 표식 두 개 사이로 황색 가늠쇠가 보인다.",
+        "boundaryEdges": 0,
+        "meshIslands": 28,
+        "metallic": 0.38,
+        "roughness": 0.52,
+        "reflectance": "금속도 R, 매끄러움 A",
+        "blenderScript": "SourceAssets/PickupItems/refine_pickups.py"
+      }
+    },
+    {
+      "id": "Spoon",
+      "name": "숟가락",
+      "floors": [
+        "B5"
+      ],
+      "selected": "original",
+      "source": "SourceAssets/PickupItems/Models/Spoon.glb",
+      "sourceSha256": "12f19e65131693d532400ebd7f4a0f968757bb8debeb6a2b0900509e45d98c62",
+      "sourceTriangles": 500000,
+      "reference": "SourceAssets/PickupItems/References/Spoon.png",
+      "referenceSha256": "fb6d75eaa63d88ff1102636d12ba397679a338022074f180312204c5c54e190a",
+      "first": {
+        "text": "7d891e4a-fcf0-4a10-9ab7-6d4f241318e2",
+        "image": "02ec1ae5-40cf-4f27-b1f2-d17d363961d3",
+        "mesh": "034a909c-a211-4601-95ca-0889e5da22c5",
+        "task": "20f6e382-cf03-46be-b054-3107afac4e0e"
+      },
+      "model": "Assets/Afrer_Seconds/05.Model/Props/B5/Pickup_Spoon.fbx",
+      "modelSha256": "69edd6ab535fcb0c22e1ce55476d8986c78349f8ac65663df9d020d313d67db2",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/Pickup_Spoon.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/Pickup_Spoon_Albedo.png",
+          "sha256": "40bfe2abe0721660e55601a4bd975faa817673a17f358418cf6e3024d71ce1d9"
+        },
+        "normal": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/Pickup_Spoon_Normal.png",
+          "sha256": "772f2790cda09d393579b258496d854c93284dc07add4ea173a15d0fca35132b"
+        }
+      },
+      "triangles": 2000,
+      "longestMeters": 0.175,
+      "closeReview": {
+        "result": "재질 조정",
+        "note": "오목한 볼과 목이 연속된 형태다. 금속 하이라이트로 볼 안팎을 구분했다.",
+        "boundaryEdges": 0,
+        "meshIslands": 1,
+        "metallic": 0.7,
+        "roughness": 0.34
+      }
+    },
+    {
+      "id": "MetalCup",
+      "name": "금속컵",
+      "floors": [
+        "B5"
+      ],
+      "selected": "retry",
+      "source": "SourceAssets/PickupItems/Models/MetalCup.glb",
+      "sourceSha256": "6602dc28f29ed50615e8185a598ba5935a07218402c6ac1d0fc0cdc5f29b9ea3",
+      "sourceTriangles": 500000,
+      "reference": "SourceAssets/PickupItems/References/MetalCup.png",
+      "referenceSha256": "6fab37151c195b41cd12790c4b51dee18bc12482daabf908cad97a956558a335",
+      "first": {
+        "text": "c1644609-5151-4b99-b51a-feea91bcf512",
+        "image": "16213cad-1ac7-4151-828d-5dec3946974e",
+        "mesh": "49d3bc5b-4655-432b-bf21-02bab8eb8315",
+        "task": "a2c02fa5-7437-4f11-b553-b42fe2dc801a"
+      },
+      "retry": {
+        "reason": "한 모델에 떨어진 컵 두 개",
+        "prompt": "One continuous studio product photograph of one upright stainless steel camp mug, one empty shallow cylindrical vessel, single attached D-shaped metal handle, clearly open mouth with elliptical rim, brushed silver. Show opening and handle in the same view. Single physical sample only, photographed once against seamless light neutral grey. The entire item fits within the central 70 percent of the frame with empty margin on all sides. Soft controlled lighting; natural worn material texture. No secondary image, montage, inset, labels outside the object, human, furniture, floor scene, HUD or companion parts.",
+        "text": "f7b01d32-4dfe-494b-b63e-00c8b2fdd1a6",
+        "image": "e7473e36-9442-4375-8022-2a906825b109",
+        "mesh": "0f4f4a37-940a-4b30-8010-72cd0538c22c",
+        "task": "656f1629-a708-4ef3-8663-4bd817dcc5bd"
+      },
+      "model": "Assets/Afrer_Seconds/05.Model/Props/B5/Pickup_MetalCup.fbx",
+      "modelSha256": "cadbb4e77aebc4817cd130e2460a7732f0c1390766a0abdaea498c77773a9160",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/Pickup_MetalCup.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/Pickup_MetalCup_Albedo.png",
+          "sha256": "c73c6041650227dc75042d4f95b65773068f8bea5e3ba626a20143f0c85674db"
+        },
+        "normal": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/Pickup_MetalCup_Normal.png",
+          "sha256": "7bdd2f111d7d5102d8239ce2200c1fbe8fa751287591d8a25b499140782cf6b7"
+        }
+      },
+      "triangles": 3200,
+      "longestMeters": 0.1,
+      "closeReview": {
+        "result": "재질 조정",
+        "note": "손잡이 양 끝이 몸체에 닿고 컵 안이 비어 있다. 입구와 옆면에 스테인리스 반사를 조정했다.",
+        "boundaryEdges": 0,
+        "meshIslands": 1,
+        "metallic": 0.74,
+        "roughness": 0.35
+      }
+    },
+    {
+      "id": "WaterBottle",
+      "name": "물병",
+      "floors": [
+        "B5"
+      ],
+      "selected": "original",
+      "source": "SourceAssets/PickupItems/Models/WaterBottle.glb",
+      "sourceSha256": "b7d0608d500a01a7b0aaf6fd4aa0c8f263761c0957f08e4f044cd947d08dfb1a",
+      "sourceTriangles": 500000,
+      "reference": "SourceAssets/PickupItems/References/WaterBottle.png",
+      "referenceSha256": "6388a4c907211326bff89f823aec2f53b845c177b11740636fe45d224f02d893",
+      "first": {
+        "text": "d7c38370-427c-40d6-a264-3691ae173641",
+        "image": "bcf50986-eaff-4b6a-ae03-9f1502e5be84",
+        "mesh": "1e9e3bd2-4526-43f6-8848-fbc5f7bc817e",
+        "task": "86a90eeb-c808-473f-8232-67531db7d3a3"
+      },
+      "model": "Assets/Afrer_Seconds/05.Model/Props/B5/Pickup_WaterBottle.fbx",
+      "modelSha256": "d253381f2f09166b7e3bbad244ded4fcbff366f048d2a752587366adbd24d0d7",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/Pickup_WaterBottle.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/Pickup_WaterBottle_Albedo.png",
+          "sha256": "15175ad9e6d0d5107087887f425760c86b18b831cdb9067e75bfa7d1fe79f4b1"
+        },
+        "normal": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/Pickup_WaterBottle_Normal.png",
+          "sha256": "14118f813e9b0c14a42e2b2b185ab126e596040d62b993099bd129e44f668bb8"
+        }
+      },
+      "triangles": 3200,
+      "longestMeters": 0.215,
+      "closeReview": {
+        "result": "형태 유지",
+        "note": "뚜껑과 병목, 눌린 옆면 및 바닥을 확인했다. 표면의 생활 흠집은 유지했다.",
+        "boundaryEdges": 0,
+        "meshIslands": 1,
+        "metallic": 0,
+        "roughness": 1
+      }
+    },
+    {
+      "id": "Pager",
+      "name": "휴대 호출기",
+      "floors": [
+        "B5"
+      ],
+      "selected": "retry",
+      "source": "SourceAssets/PickupItems/Models/Pager.glb",
+      "sourceSha256": "0ad895aa45ab6545d6d8c5a07f209eb1e3101e95ffc13ef65cde09ed98d83c59",
+      "sourceTriangles": 500000,
+      "reference": "SourceAssets/PickupItems/References/Pager.png",
+      "referenceSha256": "5064cb1df2f32fb577de00620ddbc1b44b002afcf1c34a4c8f1d645ace89ff5a",
+      "first": {
+        "text": "b2a83dba-c75e-4c2a-a5df-bade8a95ce08",
+        "image": "817e0866-a7d0-4045-bce6-1ca5be20e059",
+        "mesh": "b0e1adc4-6135-4cf6-b40c-0a7a541c60b3",
+        "task": "4d359bba-8891-4aba-b1d0-10fbf8efef7f"
+      },
+      "retry": {
+        "reason": "분리된 호출기 세 개",
+        "prompt": "One continuous studio product photograph of one pocket pager, 1990s institutional design: one compact charcoal rectangular enclosure, small dark unlit LCD, exactly one push button. A flush rear clip attaches to the same enclosure. Display only the front at one three-quarter angle. Single physical sample only, photographed once against seamless light neutral grey. The entire item fits within the central 70 percent of the frame with empty margin on all sides. Soft controlled lighting; natural worn material texture. No secondary image, montage, inset, labels outside the object, human, furniture, floor scene, HUD or companion parts.",
+        "text": "fe9c33eb-1490-4802-856e-f6057ab9b325",
+        "image": "73e9659e-897b-4080-9267-e32f9c7368f7",
+        "mesh": "5b201853-c539-4abe-9023-df144f0e9ea7",
+        "task": "5ce98bca-55c1-4836-83fc-6324a258026b"
+      },
+      "model": "Assets/Afrer_Seconds/05.Model/Props/B5/Pickup_Pager.fbx",
+      "modelSha256": "1a2171f08b516c9ad863d1036adbb9f1746166e929c527f24cd455633f7d5f18",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/B5/Materials/Pickup_Pager.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/Pickup_Pager_Albedo.png",
+          "sha256": "8be626e0acbd5332a84381ae4599b39dee90144595f3fc8437666ec69b383ffa"
+        },
+        "normal": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B5/Textures/Pickup_Pager_Normal.png",
+          "sha256": "df55071daaf7341e68ddae8f9f4caaf060c03af64e949a37b6dba24a5ecd3219"
+        }
+      },
+      "triangles": 2086,
+      "longestMeters": 0.082,
+      "closeReview": {
+        "result": "부위 수정",
+        "note": "두 번째 본체처럼 두꺼웠던 뒷부분을 덜어내고 배터리 덮개와 안쪽에 틈이 있는 벨트 클립을 만들었다.",
+        "boundaryEdges": 0,
+        "meshIslands": 4,
+        "metallic": 0.015,
+        "roughness": 0.61,
+        "blenderScript": "SourceAssets/PickupItems/refine_pickups.py"
+      }
+    },
+    {
+      "id": "Clipboard",
+      "name": "클립보드",
+      "floors": [
+        "B4"
+      ],
+      "selected": "repair",
+      "source": "SourceAssets/PickupItems/Models/Clipboard.glb",
+      "sourceSha256": "eefdaf7e1d3c9b556eef262e10e9559cfd4a41d100e4fadf1b18b2147122fd60",
+      "sourceTriangles": 3852,
+      "reference": "SourceAssets/PickupItems/References/Clipboard.png",
+      "referenceSha256": "b757f9d0849de531a506cd38db068c248e33ca16974d46b2b90e4107359637f3",
+      "first": {
+        "text": "a72240e8-bb8a-4ff3-908b-0ae479fc7855",
+        "image": "058e38d3-2cd4-4f91-a122-c3c932f5a936",
+        "mesh": "d0b6ed22-d304-4239-9518-85104c3d9bc0",
+        "task": "35b89064-7d1a-43d1-8e89-70fef6fddfe7"
+      },
+      "retry": {
+        "reason": "집게 아래 종이 중앙과 모서리 경계가 뭉개짐",
+        "prompt": "One continuous studio product photograph of one standard A4 clipboard. Four squared corners on a hard straight graphite board, one white blank paper sheet lying flat and exactly one small silver spring clip at the top. Crisp paper edges. Complete single clipboard. Single physical sample only, photographed once against seamless light neutral grey. The entire item fits within the central 70 percent of the frame with empty margin on all sides. Soft controlled lighting; natural worn material texture. No secondary image, montage, inset, labels outside the object, human, furniture, floor scene, HUD or companion parts.",
+        "text": "a67b7c0f-1b78-4ef9-987f-650256ec6a8b",
+        "image": "e2631169-9a3e-44a0-9a3a-b503fb7fc59c",
+        "mesh": "421902cc-bf3a-44b1-bc5c-f4d9e8cbc5fc",
+        "task": "0402d535-132e-4f46-8bc6-17db3272639d"
+      },
+      "rebuildScript": "SourceAssets/PickupItems/rebuild_pickups.py",
+      "rebuildReason": "정면 원화의 깊이가 상자로 복원되어 얇은 보드·종이·스프링 클립을 재모델링했다.",
+      "model": "Assets/Afrer_Seconds/05.Model/Props/B4/Pickup_Clipboard.fbx",
+      "modelSha256": "89e9294e4868ae695dc08594d31afde8881a2b76ca58cc6ff18f5ebb1b7e2953",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/B4/Materials/Pickup_Clipboard.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B4/Textures/Pickup_Clipboard_Albedo.png",
+          "sha256": "b26382d84bebe0c62c208b22d2a3919bba3a6ca6f0cb6f07174a387a5191565c"
+        }
+      },
+      "triangles": 3200,
+      "longestMeters": 0.32,
+      "closeReview": {
+        "result": "형태 유지",
+        "note": "옆에서 보았을 때 보드·종이·집게 사이의 높이 차이가 유지된다.",
+        "boundaryEdges": 0,
+        "meshIslands": 9,
+        "metallic": 0,
+        "roughness": 0.7599999904632568
+      }
+    },
+    {
+      "id": "Stopwatch",
+      "name": "스톱워치",
+      "floors": [
+        "B4"
+      ],
+      "selected": "retry",
+      "source": "SourceAssets/PickupItems/Models/Stopwatch.glb",
+      "sourceSha256": "9d1503e79da197c792b1761da800fc4d21998b8e9fd6fd44dcf7d0215e931962",
+      "sourceTriangles": 500000,
+      "reference": "SourceAssets/PickupItems/References/Stopwatch.png",
+      "referenceSha256": "d814032c7629904a05b08bb15493871e2a2f28f2172d472d160d5b9557bf6822",
+      "first": {
+        "text": "5925eb4e-7596-4baa-91b4-92fdc92258e7",
+        "image": "4ba6c861-a4a1-476d-ba07-a567839e1b9e",
+        "mesh": "d6b9668d-76a1-4236-ad15-391739a8f466",
+        "task": "550cf540-a8c6-463d-a328-bff9704a01d1"
+      },
+      "retry": {
+        "reason": "LCD 숫자 윤곽이 겹쳐 보임",
+        "prompt": "One continuous studio product photograph of one handheld grey digital stopwatch, a round rubber case with three buttons integrated into the top and one dark, blank, inactive LCD window. No dangling cord. One complete object with a clean flat glass screen. Single physical sample only, photographed once against seamless light neutral grey. The entire item fits within the central 70 percent of the frame with empty margin on all sides. Soft controlled lighting; natural worn material texture. No secondary image, montage, inset, labels outside the object, human, furniture, floor scene, HUD or companion parts.",
+        "text": "413b9453-f51e-4104-938a-664dd3fb0ac5",
+        "image": "de564ca0-9ad4-452f-887d-1434d6cfbc20",
+        "mesh": "8d6fbc2b-3676-41cf-9c99-1b6c14a47ac8",
+        "task": "b6f113e8-3793-4d41-a6cc-25e5918c3b2d"
+      },
+      "model": "Assets/Afrer_Seconds/05.Model/Props/B4/Pickup_Stopwatch.fbx",
+      "modelSha256": "991f834b6145e2158b32cdd9aad9758f9fc218282d0721b05508c1cd46a71991",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/B4/Materials/Pickup_Stopwatch.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B4/Textures/Pickup_Stopwatch_Albedo.png",
+          "sha256": "196443adcc4af589dc60844b0bd8a7a7f171f9a759177b0c4d6f231492c6becf"
+        },
+        "normal": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B4/Textures/Pickup_Stopwatch_Normal.png",
+          "sha256": "0ab8fe21047e2fbd8ccd247f9b7aab201f4102cd6737909ae062af91c2adf7db"
+        }
+      },
+      "triangles": 2998,
+      "longestMeters": 0.071,
+      "closeReview": {
+        "result": "분리 조각 제거",
+        "note": "독립된 면 조각을 제거했다. 상단 버튼과 꺼진 상태의 LCD 테두리를 확인했다.",
+        "boundaryEdges": 0,
+        "meshIslands": 1,
+        "metallic": 0,
+        "roughness": 1,
+        "blenderScript": "SourceAssets/PickupItems/refine_pickups.py"
+      }
+    },
+    {
+      "id": "HandMeter",
+      "name": "휴대 측정기",
+      "floors": [
+        "B4"
+      ],
+      "selected": "original",
+      "source": "SourceAssets/PickupItems/Models/HandMeter.glb",
+      "sourceSha256": "9e81f015db545b4bf5992ed5fdcfe355910cfdfdf7040c7b47062ffb68e71b57",
+      "sourceTriangles": 500000,
+      "reference": "SourceAssets/PickupItems/References/HandMeter.png",
+      "referenceSha256": "f856743a408569a52af120f778cbffa52bdd77a7b34c90fe8dd497285a1c82d9",
+      "first": {
+        "text": "dd577ac8-d9a6-4441-9439-9d98a8d63fb2",
+        "image": "e18dfd01-d65d-4e75-8518-ac1d5d00d027",
+        "mesh": "7f9404b2-7130-4838-80dc-7f627d0d31df",
+        "task": "8ed012ed-cc19-43db-92ac-0cd4a83fc03e"
+      },
+      "model": "Assets/Afrer_Seconds/05.Model/Props/B4/Pickup_HandMeter.fbx",
+      "modelSha256": "79597ffab17c359341cc555933bfce267525334e31793be286ccd8598bd90fd6",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/B4/Materials/Pickup_HandMeter.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B4/Textures/Pickup_HandMeter_Albedo.png",
+          "sha256": "ed9e926186d85577335948c6e3198972bc80425de71038f5ca6118db3024f0b3"
+        },
+        "normal": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B4/Textures/Pickup_HandMeter_Normal.png",
+          "sha256": "1598d8d4ea0373f4210e9780c49483dc57e84ae7cb25414ceb64f8cb63982706"
+        }
+      },
+      "triangles": 3600,
+      "longestMeters": 0.16,
+      "closeReview": {
+        "result": "형태 유지",
+        "note": "정면 버튼과 후면 그립, 측정부의 센서 포트가 독립된 윤곽으로 보인다.",
+        "boundaryEdges": 0,
+        "meshIslands": 1,
+        "metallic": 0,
+        "roughness": 1
+      }
+    },
+    {
+      "id": "TestRemote",
+      "name": "측정 장비 리모컨",
+      "floors": [
+        "B4"
+      ],
+      "selected": "retry",
+      "source": "SourceAssets/PickupItems/Models/TestRemote.glb",
+      "sourceSha256": "0d93df00f440c26c100ffe4857604403e1b3c32269a6b3c2b1f77cb95fc202ff",
+      "sourceTriangles": 500000,
+      "reference": "SourceAssets/PickupItems/References/TestRemote.png",
+      "referenceSha256": "9e0b9d277638888e0347ca846933e37011ed23b656a7c5a66ee537f78414fddd",
+      "first": {
+        "text": "1834615b-1545-49f8-8b4d-7474b8bce25b",
+        "image": "615091eb-932d-454a-98d3-f08c2b4b74c1",
+        "mesh": "1d5e1e73-d21e-466d-aef1-e59c13127bbb",
+        "task": "6456b20a-9d50-4f36-8e7e-030534e48f4b"
+      },
+      "retry": {
+        "reason": "본체에서 끊긴 여러 줄이 늘어짐",
+        "prompt": "One continuous studio product photograph of one compact wireless laboratory control remote. Single rectangular dark grey shell, two raised round buttons, one tiny amber indicator and a small closed attachment eye molded directly into one corner. No cables or loose straps. Single physical sample only, photographed once against seamless light neutral grey. The entire item fits within the central 70 percent of the frame with empty margin on all sides. Soft controlled lighting; natural worn material texture. No secondary image, montage, inset, labels outside the object, human, furniture, floor scene, HUD or companion parts.",
+        "text": "a9eab548-f78f-4f65-8f5e-b6d6043b720d",
+        "image": "da282a49-8455-4ed6-a3c4-60abec394e14",
+        "mesh": "58703439-2242-4aa1-b50d-dcdb082b8525",
+        "task": "bec29dd4-f30f-42a9-943a-b8f78a2df9fb"
+      },
+      "model": "Assets/Afrer_Seconds/05.Model/Props/B4/Pickup_TestRemote.fbx",
+      "modelSha256": "36fd55e980d94a41f8bbfb2020ac0204575fe480308300f5498549f684560a02",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/B4/Materials/Pickup_TestRemote.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B4/Textures/Pickup_TestRemote_Albedo.png",
+          "sha256": "2296610e1c3446219672888319fac42b069c9694e1437084cf3d6550e99df0dc"
+        },
+        "normal": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B4/Textures/Pickup_TestRemote_Normal.png",
+          "sha256": "dd2c22e408f6b48167007172caa89691eb4e06f066db50c5bb80ad6371558e05"
+        }
+      },
+      "triangles": 2800,
+      "longestMeters": 0.135,
+      "closeReview": {
+        "result": "형태 유지",
+        "note": "두 버튼, 상태등, 끈 고리가 몸체에 붙어 있고 바닥면이 막혀 있다.",
+        "boundaryEdges": 0,
+        "meshIslands": 1,
+        "metallic": 0,
+        "roughness": 1
+      }
+    },
+    {
+      "id": "ElectrodeCase",
+      "name": "전극 보관 케이스",
+      "floors": [
+        "B4"
+      ],
+      "selected": "original",
+      "source": "SourceAssets/PickupItems/Models/ElectrodeCase.glb",
+      "sourceSha256": "9b500858f244d18a5a18fd54ab9697e0a0fb6c6ab805990beb43cd3ffada21e2",
+      "sourceTriangles": 500000,
+      "reference": "SourceAssets/PickupItems/References/ElectrodeCase.png",
+      "referenceSha256": "54175c7bac36e24c6e152a9531fac0b05a17c550129e2d2e17b188cb5b27d897",
+      "first": {
+        "text": "62d3cb7a-96d8-4b76-8588-7e82eb21697b",
+        "image": "56f13d4c-d470-4bd0-941d-257389e2ebd4",
+        "mesh": "0cb49b0c-7d46-4671-88ee-977ee5234d38",
+        "task": "7c0817e0-5f58-4acd-a505-010a25fbaf89"
+      },
+      "model": "Assets/Afrer_Seconds/05.Model/Props/B4/Pickup_ElectrodeCase.fbx",
+      "modelSha256": "61509eb12c3d1d9ff8f3b8b0ccea0b71f1ea08f5b28d06ace4e7c8089f8f9af0",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/B4/Materials/Pickup_ElectrodeCase.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B4/Textures/Pickup_ElectrodeCase_Albedo.png",
+          "sha256": "084301cec8d7d010941032a48ba28a1283623dc6071576dcb54b772e41bf699b"
+        },
+        "normal": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B4/Textures/Pickup_ElectrodeCase_Normal.png",
+          "sha256": "e9202d9fc9b3ef097af8e4406472b8907669ca4fb4575c542ef094e927086f06"
+        }
+      },
+      "triangles": 5200,
+      "longestMeters": 0.23,
+      "closeReview": {
+        "result": "형태 유지",
+        "note": "열린 덮개와 힌지의 연결, 내부에 감긴 선 및 완충재를 확인했다.",
+        "boundaryEdges": 0,
+        "meshIslands": 1,
+        "metallic": 0,
+        "roughness": 1
+      }
+    },
+    {
+      "id": "Penlight",
+      "name": "펜라이트",
+      "floors": [
+        "B4"
+      ],
+      "selected": "original",
+      "source": "SourceAssets/PickupItems/Models/Penlight.glb",
+      "sourceSha256": "9ef9bb81992fdc6521d24969f5b41b011c1e4ca5bcebfe3f250e34f77f6227b1",
+      "sourceTriangles": 500000,
+      "reference": "SourceAssets/PickupItems/References/Penlight.png",
+      "referenceSha256": "9598fa0c58b73c64140d49713243d25d858a9216a314fb6214bf5ac559d8552c",
+      "first": {
+        "text": "fc59e94d-bda1-4175-bc62-1df17e7a6735",
+        "image": "4679cae2-e1a3-4572-9288-6b7d8c7fdb44",
+        "mesh": "ddfb40c2-b9a7-4547-82b1-2ab39213f232",
+        "task": "4e46a85f-a24d-46fc-a524-eb837bbceaf2"
+      },
+      "model": "Assets/Afrer_Seconds/05.Model/Props/B4/Pickup_Penlight.fbx",
+      "modelSha256": "af7a86667e232d1f8584e0a918731c3a28fd7607f3b351b2a83315bbef18d875",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/B4/Materials/Pickup_Penlight.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B4/Textures/Pickup_Penlight_Albedo.png",
+          "sha256": "a617dc7a63e5e9431611d1b9baddc9fad4b64e1208be6b213965fe1c02399f8b"
+        },
+        "normal": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B4/Textures/Pickup_Penlight_Normal.png",
+          "sha256": "347e1bd15144956d06338d3f95565f2404b39cb99a89de2e4ab27b6d29ca2036"
+        }
+      },
+      "triangles": 2000,
+      "longestMeters": 0.133,
+      "closeReview": {
+        "result": "재질 조정",
+        "note": "끝 렌즈와 뒤 스위치, 옆 클립을 확인했다. 금속 몸통의 무광 반사를 조정했다.",
+        "boundaryEdges": 0,
+        "meshIslands": 1,
+        "metallic": 0.45,
+        "roughness": 0.48
+      }
+    },
+    {
+      "id": "SampleCanister",
+      "name": "밀폐 시료통",
+      "floors": [
+        "B3"
+      ],
+      "selected": "repair",
+      "source": "SourceAssets/PickupItems/Models/SampleCanister.glb",
+      "sourceSha256": "351004c08a08329983987ee7ca5992ff1dca7403f917efd21c35ce44b37a7c44",
+      "sourceTriangles": 4756,
+      "reference": "SourceAssets/PickupItems/References/SampleCanister.png",
+      "referenceSha256": "c013cb95e0d97414505a10d4bc041003a020176eede864bedf7460ec991b4ec2",
+      "first": {
+        "text": "2232eff1-d9aa-4fed-a1d8-deb64f67f8a4",
+        "image": "b63ac425-7017-41ef-b9c2-ee689cced4e3",
+        "mesh": "60fbc645-f92c-4590-84eb-449cc0279548",
+        "task": "6f1a7569-7775-44dd-9c93-cb60d4174b86"
+      },
+      "retry": {
+        "reason": "밀폐통 몸체에 큰 측면 개구부",
+        "prompt": "One continuous studio product photograph of one closed laboratory storage canister, a solid pale grey cylindrical vessel with an unbroken smooth side wall. A blue screw cap fully seals the top. One blank rectangular label, plain circular base. Show the continuous wall in the photograph. Single physical sample only, photographed once against seamless light neutral grey. The entire item fits within the central 70 percent of the frame with empty margin on all sides. Soft controlled lighting; natural worn material texture. No secondary image, montage, inset, labels outside the object, human, furniture, floor scene, HUD or companion parts.",
+        "text": "ffe8ed9e-d761-44cf-aa3f-3a460c99f82f",
+        "image": "0e0f3765-5a06-43ee-a192-cbfca0302019",
+        "mesh": "b41a383a-7657-48cc-b726-86fa32646efd",
+        "task": "8c214dc5-f8ff-4ed1-ae32-4a801ed21613"
+      },
+      "rebuildScript": "SourceAssets/PickupItems/rebuild_pickups.py",
+      "rebuildReason": "뚜껑 색이 몸체에 남아서 몸체, 골이 있는 마개, 봉인 이음새와 곡면 라벨을 재모델링했다.",
+      "model": "Assets/Afrer_Seconds/05.Model/Props/B3/Pickup_SampleCanister.fbx",
+      "modelSha256": "a24d184ffea57fe2e04e133f79a9edc6f119d401c699b7a50110ac989e48f137",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/B3/Materials/Pickup_SampleCanister.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B3/Textures/Pickup_SampleCanister_Albedo.png",
+          "sha256": "78c8818d3b2aee27e73e3f7711ac9a3611eb1cc9b25365097ca2ead6217b8949"
+        }
+      },
+      "triangles": 3000,
+      "longestMeters": 0.13,
+      "closeReview": {
+        "result": "형태 유지",
+        "note": "마개와 봉인 이음새가 원통을 둘러싼다. 곡면의 종이 라벨 가장자리는 의도된 열린 면이다.",
+        "boundaryEdges": 46,
+        "meshIslands": 4,
+        "metallic": 0,
+        "roughness": 0.7599999904632568
+      }
+    },
+    {
+      "id": "SampleCarrier",
+      "name": "소형 시료 운반 케이스",
+      "floors": [
+        "B3"
+      ],
+      "selected": "retry",
+      "source": "SourceAssets/PickupItems/Models/SampleCarrier.glb",
+      "sourceSha256": "6a4728100deb729214c492ee34030a4c52418cbdae3088a56c003c46fd743541",
+      "sourceTriangles": 500000,
+      "reference": "SourceAssets/PickupItems/References/SampleCarrier.png",
+      "referenceSha256": "a609aa06b6db66087527daf281fd244080095adb4ad47a0a70506bc8d4750303",
+      "first": {
+        "text": "801b7cf9-5bfc-4517-bf5f-8e0a5f119d5f",
+        "image": "f97b7dc1-0d66-41b9-bfb4-9298d24b3b31",
+        "mesh": "30dd54af-4936-491e-a07b-026e3fa177bc",
+        "task": "e406a0f6-f95d-4605-9c30-80ca464d189d"
+      },
+      "retry": {
+        "reason": "운반함 두 개와 손 조각이 함께 생성됨",
+        "prompt": "One continuous studio product photograph of one closed rigid grey medical sample transport case with a compact rectangular silhouette and one low carrying handle attached to its lid, seen three quarters from slightly above, lid shut Single physical sample only, photographed once against seamless light neutral grey. The entire item fits within the central 70 percent of the frame with empty margin on all sides. Soft controlled lighting; natural worn material texture. No secondary image, montage, inset, labels outside the object, human, furniture, floor scene, HUD or companion parts.",
+        "text": "06464fa3-f24f-4e43-a7b3-3f54271f774d",
+        "image": "4f846c2c-eb25-4ac4-8808-2541b132e3b7",
+        "mesh": "e97faf16-dd58-49ca-8096-0cefdccf3828",
+        "task": "4f2a74b4-fd25-4ff0-8da1-a48e8c5f00fc"
+      },
+      "model": "Assets/Afrer_Seconds/05.Model/Props/B3/Pickup_SampleCarrier.fbx",
+      "modelSha256": "ed514840cb10bb9755d5fffe17c473cbdd38abd5b3ed9e945cd6bd83653b727c",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/B3/Materials/Pickup_SampleCarrier.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B3/Textures/Pickup_SampleCarrier_Albedo.png",
+          "sha256": "644e9a98daaf569ee217683d7d7004c49f41faa16b942e7546cab243de6a0cdd"
+        },
+        "normal": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B3/Textures/Pickup_SampleCarrier_Normal.png",
+          "sha256": "83dd3b3c9d0535ae9e577ec93e356bf31759bf9b6d1576f2080d4d2ed84d6e32"
+        }
+      },
+      "triangles": 5200,
+      "longestMeters": 0.32,
+      "closeReview": {
+        "result": "형태 유지",
+        "note": "손잡이 안쪽이 열려 있고 운반함 몸체와 덮개의 이음새가 이어진다.",
+        "boundaryEdges": 0,
+        "meshIslands": 1,
+        "metallic": 0,
+        "roughness": 1
+      }
+    },
+    {
+      "id": "Thermometer",
+      "name": "휴대 온도계",
+      "floors": [
+        "B3"
+      ],
+      "selected": "original",
+      "source": "SourceAssets/PickupItems/Models/Thermometer.glb",
+      "sourceSha256": "d6964a8e28486927bd7aac258a1e9db05c22d4aad800223ed21318b118975686",
+      "sourceTriangles": 500000,
+      "reference": "SourceAssets/PickupItems/References/Thermometer.png",
+      "referenceSha256": "7187d52d8ba2ec4ae44faf5a96f548e6b6ad18f26de745c7da9a1f044cb307d5",
+      "first": {
+        "text": "f73553c5-ffbf-42d3-93cb-6096d264b40d",
+        "image": "5f50dec1-dcfc-4006-9316-0b1117249ab4",
+        "mesh": "20119e84-4c8d-4af9-96cd-7b9291533682",
+        "task": "239a9960-2025-4893-8e30-b1f49b8db56a"
+      },
+      "model": "Assets/Afrer_Seconds/05.Model/Props/B3/Pickup_Thermometer.fbx",
+      "modelSha256": "7d04de30634760657c1a2559f20623cd4e5c9cf90c08313d8d96a5e3b571df7e",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/B3/Materials/Pickup_Thermometer.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B3/Textures/Pickup_Thermometer_Albedo.png",
+          "sha256": "59ff153e3496c2151d8094e5e8876ca6d84dba9c76f9584013fc3b1b41fd9634"
+        },
+        "normal": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B3/Textures/Pickup_Thermometer_Normal.png",
+          "sha256": "a98021b57d80435c98203c509d74f10de1e131d3df90a18c6afb22b2fcd3cf63"
+        }
+      },
+      "triangles": 3200,
+      "longestMeters": 0.14,
+      "closeReview": {
+        "result": "부위 수정",
+        "note": "열린 관처럼 보이던 탐침 끝을 둥근 밀폐 금속 팁으로 바꿨다. 센서 축과 화면은 보존했다.",
+        "boundaryEdges": 0,
+        "meshIslands": 2,
+        "metallic": 0.08,
+        "roughness": 0.55,
+        "blenderScript": "SourceAssets/PickupItems/refine_pickups.py"
+      }
+    },
+    {
+      "id": "Labeler",
+      "name": "라벨러",
+      "floors": [
+        "B3"
+      ],
+      "selected": "original",
+      "source": "SourceAssets/PickupItems/Models/Labeler.glb",
+      "sourceSha256": "a9fe5340b40d41730327ae759b563329a65c549704b2e5c09400d8251dcc5069",
+      "sourceTriangles": 500000,
+      "reference": "SourceAssets/PickupItems/References/Labeler.png",
+      "referenceSha256": "f1fe4fd685b3d7afd0f69c44fd993fef0d75c9a22c2cd02d5565375cfbc73186",
+      "first": {
+        "text": "b5349e88-ae26-41ac-b6ce-b68139411e8f",
+        "image": "2961a6df-fe09-4018-b4d0-366dd3593f9c",
+        "mesh": "d811d523-7639-49dd-bbfd-6ce00b3a00e6",
+        "task": "60eb9342-167f-4dad-8862-8a685bf03acb"
+      },
+      "model": "Assets/Afrer_Seconds/05.Model/Props/B3/Pickup_Labeler.fbx",
+      "modelSha256": "b5a9838f7b37fdaadcc8e687f59c413bdade6054d08bc337193f60a268c6d50c",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/B3/Materials/Pickup_Labeler.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B3/Textures/Pickup_Labeler_Albedo.png",
+          "sha256": "7a75402e94968c731cd0bbc126e20a91f688ef77c4546f658a0dd4589db54d23"
+        },
+        "normal": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B3/Textures/Pickup_Labeler_Normal.png",
+          "sha256": "dcab01c897011bb2bb1d8982d73a6476b1ff54a4209a2971130cd57344444acb"
+        }
+      },
+      "triangles": 3998,
+      "longestMeters": 0.195,
+      "closeReview": {
+        "result": "분리 조각 제거",
+        "note": "본체와 떨어진 삼각면을 제거했다. 배출구 밖의 라벨 조각과 키패드는 유지했다.",
+        "boundaryEdges": 0,
+        "meshIslands": 1,
+        "metallic": 0,
+        "roughness": 1,
+        "blenderScript": "SourceAssets/PickupItems/refine_pickups.py"
+      }
+    },
+    {
+      "id": "SealTape",
+      "name": "봉인 테이프",
+      "floors": [
+        "B3"
+      ],
+      "selected": "retry",
+      "source": "SourceAssets/PickupItems/Models/SealTape.glb",
+      "sourceSha256": "af87088006161db152c5cba46c1d648fe22e1edb174efb7b8cd8fc893ce0580e",
+      "sourceTriangles": 500000,
+      "reference": "SourceAssets/PickupItems/References/SealTape.png",
+      "referenceSha256": "e276d8e9ccf92786bcdab5bb4bd52962b8f102593cb9c196008b87dd2f03df0c",
+      "first": {
+        "text": "7f1a2c0d-0f15-4ec8-9068-63a534311323",
+        "image": "ec2f0b05-0f1c-43b3-8b6a-ebae369820dd",
+        "mesh": "1812e9b5-1baf-4505-ba2e-97b329c59704",
+        "task": "b9045f85-007c-45b8-8901-9baf5680b05d"
+      },
+      "retry": {
+        "reason": "손과 장갑이 테이프에 붙어 있음",
+        "prompt": "One continuous studio product photograph of one complete short hollow cylinder of matte dark grey tamper-evident adhesive tape wound onto a grey cardboard core, tipped face-up at a 35 degree angle showing its single central round hole and its cylindrical sidewall, tape end pressed flat Single physical sample only, photographed once against seamless light neutral grey. The entire item fits within the central 70 percent of the frame with empty margin on all sides. Soft controlled lighting; natural worn material texture. No secondary image, montage, inset, labels outside the object, human, furniture, floor scene, HUD or companion parts.",
+        "text": "0e7faf2d-2940-4963-b76d-ba5d2c0e688f",
+        "image": "9b2ef9ef-e2bf-4def-9828-497263b1c9da",
+        "mesh": "67f12aed-39a9-4b44-816b-0a6964516d74",
+        "task": "91531131-d673-4bea-8f18-8b2eb521f118"
+      },
+      "model": "Assets/Afrer_Seconds/05.Model/Props/B3/Pickup_SealTape.fbx",
+      "modelSha256": "ef4018d05dcc8f94091662096042117495fab6321fecfe72dd773389c8b7b8e1",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/B3/Materials/Pickup_SealTape.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B3/Textures/Pickup_SealTape_Albedo.png",
+          "sha256": "b3edbd26598fd7edff403ea68b61f46fcee7eb1995e99552ee29a57cfb16159c"
+        },
+        "normal": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B3/Textures/Pickup_SealTape_Normal.png",
+          "sha256": "1f718422d43369f1915c32f9c349f3fd030bed7e85662853c7c0a452c3d280e4"
+        }
+      },
+      "triangles": 2500,
+      "longestMeters": 0.096,
+      "closeReview": {
+        "result": "형태 유지",
+        "note": "중앙 심이 실제로 관통하고 감긴 단면과 바깥쪽 테이프 끝이 구분된다.",
+        "boundaryEdges": 0,
+        "meshIslands": 1,
+        "metallic": 0,
+        "roughness": 1
+      }
+    },
+    {
+      "id": "Wrench",
+      "name": "스패너",
+      "floors": [
+        "B2"
+      ],
+      "selected": "original",
+      "source": "SourceAssets/PickupItems/Models/Wrench.glb",
+      "sourceSha256": "b868a54c854c3f4c25c7143ad04471e9ab17bcedea5ef3b5e678074369727848",
+      "sourceTriangles": 500000,
+      "reference": "SourceAssets/PickupItems/References/Wrench.png",
+      "referenceSha256": "9479d4b4d64338c227a3a5b56b904a14fd19b463f2199454c2bd23f7097635b4",
+      "first": {
+        "text": "0092a1ec-43c7-4102-8955-f5041dcb78dd",
+        "image": "4c28de4f-3a19-4cf1-a410-478a54333050",
+        "mesh": "7bbe72c5-d894-48d3-b841-89f061acead3",
+        "task": "d3e3b3d6-0f26-4444-b216-ac5dd7383135"
+      },
+      "model": "Assets/Afrer_Seconds/05.Model/Props/B2/Pickup_Wrench.fbx",
+      "modelSha256": "6a3f4e5b2cfc899285452d944ae972852257acf5c58dde8714e814606acc195f",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/B2/Materials/Pickup_Wrench.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/Pickup_Wrench_Albedo.png",
+          "sha256": "52004c2eaee787a7188c601d1041ff3cbae528a3329139d88fcb12a2d268b56d"
+        },
+        "normal": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/Pickup_Wrench_Normal.png",
+          "sha256": "d8857ba625829aa37b66d0ea580e476481e7692c9049edc499049b8e55501a06"
+        },
+        "metallicGloss": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/Pickup_Wrench_MetallicGloss.png",
+          "sha256": "3a96af89ac7ec5111c128a334ac20081d4a53153b8f35305edff5e8936615709"
+        }
+      },
+      "triangles": 1844,
+      "longestMeters": 0.18,
+      "closeReview": {
+        "result": "형태 재제작",
+        "note": "끝에서 보이는 겹턱을 없애고 양쪽 턱과 자루를 한 몸으로 다시 만들었다. 자루 중앙에는 단조 보강선을 넣었다.",
+        "boundaryEdges": 0,
+        "meshIslands": 3,
+        "metallic": 0.7,
+        "roughness": 0.48,
+        "blenderScript": "SourceAssets/PickupItems/refine_pickups.py",
+        "reflectance": "금속도 R, 매끄러움 A"
+      }
+    },
+    {
+      "id": "Screwdriver",
+      "name": "드라이버",
+      "floors": [
+        "B2"
+      ],
+      "selected": "original",
+      "source": "SourceAssets/PickupItems/Models/Screwdriver.glb",
+      "sourceSha256": "6c023fa2fa4fd06eb5dd4347ef8e5c4e217bdcc6e5eea788fe4a1d08efae0e67",
+      "sourceTriangles": 500000,
+      "reference": "SourceAssets/PickupItems/References/Screwdriver.png",
+      "referenceSha256": "d3020acabe631d20e93502507176c0c2c5ab59da59e0c80f04ddde52a89b7650",
+      "first": {
+        "text": "800f0c26-f9da-48c8-a765-259c0078348a",
+        "image": "b719e334-dea2-417c-9dae-b03211789339",
+        "mesh": "5d06e788-7f10-422f-be7b-9e2a98a004c1",
+        "task": "4eada369-86f8-4c95-ae07-3c3a4eed70d9"
+      },
+      "model": "Assets/Afrer_Seconds/05.Model/Props/B2/Pickup_Screwdriver.fbx",
+      "modelSha256": "2211011e94a5ca3d491d8da24e99fe4d6ec9eaff07fb7c26466a6db17d659039",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/B2/Materials/Pickup_Screwdriver.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/Pickup_Screwdriver_Albedo.png",
+          "sha256": "94e58a2c8d983d3a238f4709f27a1b646cb86f016754b6a46c41f4cae1a8b5ea"
+        },
+        "normal": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/Pickup_Screwdriver_Normal.png",
+          "sha256": "7760878ecca7127f7c02334402d2bf3e11af8ad0d508f0647e863f9ca5a8871e"
+        }
+      },
+      "triangles": 2600,
+      "longestMeters": 0.19,
+      "closeReview": {
+        "result": "형태 유지",
+        "note": "끝에서 확인한 일자 날과 금속 축이 손잡이 중심에 이어진다.",
+        "boundaryEdges": 0,
+        "meshIslands": 1,
+        "metallic": 0,
+        "roughness": 1
+      }
+    },
+    {
+      "id": "Bolt",
+      "name": "볼트",
+      "floors": [
+        "B2"
+      ],
+      "selected": "original",
+      "source": "SourceAssets/PickupItems/Models/Bolt.glb",
+      "sourceSha256": "fead1d5ecb69446d55effb3b65a0fc6bc86f9e0b679b24adc936cc4a0157b7e9",
+      "sourceTriangles": 500000,
+      "reference": "SourceAssets/PickupItems/References/Bolt.png",
+      "referenceSha256": "0a7aa2791de3281b3e99aab37749cce526ffe2502d9e595cf90bceb7a22d3e43",
+      "first": {
+        "text": "8dd8e516-865c-4f50-9b4c-55e083396742",
+        "image": "d89ba988-2dc0-4278-a63a-7662a4bd4ba8",
+        "mesh": "4220ac92-29cf-498b-82ea-1e15cf2bb0c6",
+        "task": "073e3169-6336-4c6f-869a-25fab73fb83d"
+      },
+      "model": "Assets/Afrer_Seconds/05.Model/Props/B2/Pickup_Bolt.fbx",
+      "modelSha256": "e85c4c0ed4a15f022f26138a96a6b80e94ceee08a8d5084c649487a5d4884cb2",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/B2/Materials/Pickup_Bolt.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/Pickup_Bolt_Albedo.png",
+          "sha256": "4adeb087f27bc0908f9d5a8eaf972f43b0fa6f079c3e1552fb24f78680f852a4"
+        },
+        "normal": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/Pickup_Bolt_Normal.png",
+          "sha256": "baf4ba02047e0b6c786a77ec943edf34578e18e6af15b87398da1cf82d20def0"
+        },
+        "metallicGloss": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/Pickup_Bolt_MetallicGloss.png",
+          "sha256": "b60ca3f8bba83d14ac190d725363bbcc3426b66993c80dd42315b3ae12971a85"
+        }
+      },
+      "triangles": 1600,
+      "longestMeters": 0.044,
+      "closeReview": {
+        "result": "형태 재제작",
+        "note": "찌그러진 머리 윗면을 평평한 육각 머리로 다듬고 축에 연속된 나사산을 모델링했다.",
+        "boundaryEdges": 0,
+        "meshIslands": 1,
+        "metallic": 0.67,
+        "roughness": 0.53,
+        "blenderScript": "SourceAssets/PickupItems/refine_pickups.py",
+        "reflectance": "금속도 R, 매끄러움 A"
+      }
+    },
+    {
+      "id": "Nut",
+      "name": "너트",
+      "floors": [
+        "B2"
+      ],
+      "selected": "original",
+      "source": "SourceAssets/PickupItems/Models/Nut.glb",
+      "sourceSha256": "f205004ed358e0fe24359885746b382ae3bf16ceef054632b5db4b95e926767d",
+      "sourceTriangles": 500000,
+      "reference": "SourceAssets/PickupItems/References/Nut.png",
+      "referenceSha256": "7b1329d3a0ced32834924a7d7300334ace4c06fc823f5579073df38c5a875371",
+      "first": {
+        "text": "2da46a1f-b093-411b-b50c-b06a798c3652",
+        "image": "7d4be808-4eb4-496d-996d-8937ed20b2ae",
+        "mesh": "8fae5e9b-f3db-48be-929f-244188948ecc",
+        "task": "64180120-b13c-4ec4-a16d-4c358d120e79"
+      },
+      "model": "Assets/Afrer_Seconds/05.Model/Props/B2/Pickup_Nut.fbx",
+      "modelSha256": "766da4d53394cd37e64448a64c05da39ff67e0be01db777a94709817931238ee",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/B2/Materials/Pickup_Nut.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/Pickup_Nut_Albedo.png",
+          "sha256": "b3cfba404b890b272d4f3596dabb4c2f1e22da45eea9467fe3f507fac0f6a56e"
+        },
+        "normal": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/Pickup_Nut_Normal.png",
+          "sha256": "48395726c1a2569fee9a172c1071cffba88e8e8a8bfc0ff03250b7a2da0c21fd"
+        }
+      },
+      "triangles": 1600,
+      "longestMeters": 0.022,
+      "closeReview": {
+        "result": "재질 조정",
+        "note": "관통 구멍과 안쪽 나사산을 유지하고 육각 외면의 금속 반사를 조정했다.",
+        "boundaryEdges": 0,
+        "meshIslands": 1,
+        "metallic": 0.62,
+        "roughness": 0.53
+      }
+    },
+    {
+      "id": "VoltageMeter",
+      "name": "휴대 전압 측정기",
+      "floors": [
+        "B2"
+      ],
+      "selected": "original",
+      "source": "SourceAssets/PickupItems/Models/VoltageMeter.glb",
+      "sourceSha256": "df308f55c3dc00231b2491120e32e6e55db159ea0f7a6c638e9c5989dd51a8ed",
+      "sourceTriangles": 500000,
+      "reference": "SourceAssets/PickupItems/References/VoltageMeter.png",
+      "referenceSha256": "8404d81d4afb1da4f068f2c4d5a44d07683936185d2de8f9de5e10e462439cb1",
+      "first": {
+        "text": "ce027cd7-cf76-457a-9a1a-e55efcbf2729",
+        "image": "dacd3a9e-ee94-46da-a90a-aa5e1ac2ccd6",
+        "mesh": "a7e37a6e-c6e4-49c0-af33-5867dc834807",
+        "task": "5b08c530-b44c-4b2e-bc0e-c6db5d8b66cb"
+      },
+      "model": "Assets/Afrer_Seconds/05.Model/Props/B2/Pickup_VoltageMeter.fbx",
+      "modelSha256": "b66914f058b5b79d9e468bea5185d81385445ba5d0d919cb4e7f7382b576bbff",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/B2/Materials/Pickup_VoltageMeter.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/Pickup_VoltageMeter_Albedo.png",
+          "sha256": "3cf666c735cdd09470c55a935091a144a0c87c6762613054e48c2bb56dafaade"
+        },
+        "normal": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/Pickup_VoltageMeter_Normal.png",
+          "sha256": "15aa2e2f5375fe3c648be2608c85719b3f224bb9ea6054156bba15589ea8c265"
+        }
+      },
+      "triangles": 4398,
+      "longestMeters": 0.17,
+      "closeReview": {
+        "result": "분리 조각 제거",
+        "note": "떨어진 면 조각을 제거했다. 다이얼, 창, 색으로 구분된 단자 3개를 확인했다.",
+        "boundaryEdges": 0,
+        "meshIslands": 1,
+        "metallic": 0,
+        "roughness": 1,
+        "blenderScript": "SourceAssets/PickupItems/refine_pickups.py"
+      }
+    },
+    {
+      "id": "WorkFlashlight",
+      "name": "정비용 손전등",
+      "floors": [
+        "B2"
+      ],
+      "selected": "retry",
+      "source": "SourceAssets/PickupItems/Models/WorkFlashlight.glb",
+      "sourceSha256": "6a5fcdaa1be9b205c285864f53392f310aa54cba617fd0b6587e67de2a9fb2ea",
+      "sourceTriangles": 500000,
+      "reference": "SourceAssets/PickupItems/References/WorkFlashlight.png",
+      "referenceSha256": "b3ebf79f81c5237edf4754b7e618930670e544be2fdb55263459ee166b8aac68",
+      "first": {
+        "text": "f61ac724-d1cf-4dc5-b2b7-5eec3f4df8b5",
+        "image": "7e8a6d64-b645-4e41-8d54-25f820e9b252",
+        "mesh": "a8beab18-e774-4a68-8378-f90dc940688c",
+        "task": "af0524b0-30f7-41a3-8a5e-ebc9a7214046"
+      },
+      "retry": {
+        "reason": "보호망과 고리 뒤틀림",
+        "prompt": "One continuous studio product photograph of one rugged enclosed industrial inspection torch, round glass lens set behind a thick protective rim with two short thick guard bars molded against its face, short ribbed black grip and closed tail cap, physically connected single piece Single physical sample only, photographed once against seamless light neutral grey. The entire item fits within the central 70 percent of the frame with empty margin on all sides. Soft controlled lighting; natural worn material texture. No secondary image, montage, inset, labels outside the object, human, furniture, floor scene, HUD or companion parts.",
+        "text": "bc8705b0-706d-4878-ba1a-d98558f071df",
+        "image": "01a708f2-cf63-45d5-b6d7-f045b739988f",
+        "mesh": "c8b0d510-050c-4c2b-b815-64363b5cab32",
+        "task": "167b6488-835c-4331-b9c1-6412052f996e"
+      },
+      "model": "Assets/Afrer_Seconds/05.Model/Props/B2/Pickup_WorkFlashlight.fbx",
+      "modelSha256": "39773018d39c0904fc625049fe1a8d71d9be2646401f3480526042c8784edd52",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/B2/Materials/Pickup_WorkFlashlight.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/Pickup_WorkFlashlight_Albedo.png",
+          "sha256": "cb473142b4193752fb513f84852129e3fe7c8e240f2c8d699dbe9b4d109e96b1"
+        },
+        "normal": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B2/Textures/Pickup_WorkFlashlight_Normal.png",
+          "sha256": "a9a37a85877badcb12264cae512eee120b1fa47b7daec71969e05240b90404bb"
+        }
+      },
+      "triangles": 4600,
+      "longestMeters": 0.235,
+      "closeReview": {
+        "result": "형태 유지",
+        "note": "렌즈 앞 보호대와 그립, 꼬리 쪽 고정부가 보인다. 일반 손전등과 다른 산업용 실루엣을 유지했다.",
+        "boundaryEdges": 0,
+        "meshIslands": 1,
+        "metallic": 0,
+        "roughness": 1
+      }
+    },
+    {
+      "id": "Radio",
+      "name": "무전기",
+      "floors": [
+        "B2",
+        "1F"
+      ],
+      "selected": "original",
+      "source": "SourceAssets/PickupItems/Models/Radio.glb",
+      "sourceSha256": "1c4646fccadd9b1c8d95dc2c38685f559a6ae15922ebd20138efb6bdf4076ef4",
+      "sourceTriangles": 500000,
+      "reference": "SourceAssets/PickupItems/References/Radio.png",
+      "referenceSha256": "914fe66a45a4706e9e68916983b75558854d47ef44f0fbb2a196bb103a1ae8a7",
+      "first": {
+        "text": "d4c8455a-3f9b-44fa-955a-6760baadf91d",
+        "image": "852a7e43-6723-4868-a709-761a141f6262",
+        "mesh": "f603f4c7-67ba-4d54-8427-abb23e282e9f",
+        "task": "44d20b2a-911b-4ad1-aa93-66409c650357"
+      },
+      "model": "Assets/Afrer_Seconds/05.Model/Props/Common/Pickup_Radio.fbx",
+      "modelSha256": "a5846518b0d46fc3cc2b02d619bd4027993b391f9fcf6883e5f0f2360473f247",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/Common/Materials/Pickup_Radio.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/Pickup_Radio_Albedo.png",
+          "sha256": "8a0f9303b252c9b2d010c1252edbb646dbfa44a14a0eaad9c308a803123a8c7c"
+        },
+        "normal": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/Common/Textures/Pickup_Radio_Normal.png",
+          "sha256": "4e9c5d4db3a1aba0beca72ec0420c2d420abfa6c68eb67639e67dc6d47c205c7"
+        }
+      },
+      "triangles": 4300,
+      "longestMeters": 0.225,
+      "closeReview": {
+        "result": "형태 유지",
+        "note": "안테나, 상단 노브, 후면 벨트 클립과 스피커 그릴의 방향을 확인했다.",
+        "boundaryEdges": 0,
+        "meshIslands": 1,
+        "metallic": 0,
+        "roughness": 1
+      }
+    },
+    {
+      "id": "ResearchNotebook",
+      "name": "연구 수첩",
+      "floors": [
+        "B1"
+      ],
+      "selected": "original",
+      "source": "SourceAssets/PickupItems/Models/ResearchNotebook.glb",
+      "sourceSha256": "d9886ddd7f39b7a606c4a4700028b8d9d82665bc05085c2f47141bd68f89d9fe",
+      "sourceTriangles": 500000,
+      "reference": "SourceAssets/PickupItems/References/ResearchNotebook.png",
+      "referenceSha256": "f7e067985b90367666ff5034a8a424c28c8f4685bf5b4a3cb7da2427f7f8cb7a",
+      "first": {
+        "text": "f36d8ebc-dc4b-4a4b-9cdc-a2ac0a1a1f80",
+        "image": "6f9c0c7e-85c8-456b-86d0-94234d27ad24",
+        "mesh": "b7802ebe-74cc-41e3-b6cc-818248b065f7",
+        "task": "44e27b08-eb3a-4a7c-aea4-31d40a4309f4"
+      },
+      "model": "Assets/Afrer_Seconds/05.Model/Props/B1/Pickup_ResearchNotebook.fbx",
+      "modelSha256": "baec821aed06706c60e902b30369ad67a9e63cee401bc4ad483abd44721fd8e7",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/Pickup_ResearchNotebook.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B1/Textures/Pickup_ResearchNotebook_Albedo.png",
+          "sha256": "776bdb938ed5f9159d924d7818df2122122c0b4f933fcef1c07d03dc7cab3224"
+        },
+        "normal": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B1/Textures/Pickup_ResearchNotebook_Normal.png",
+          "sha256": "a56ec9c657eb102863a9fffda9512272bde83490cc80ac6f13d68b19263acff0"
+        }
+      },
+      "triangles": 2566,
+      "longestMeters": 0.185,
+      "closeReview": {
+        "result": "분리 조각 제거",
+        "note": "책갈피 끝에서 약 4 mm 떨어진 조각을 제거하고 표지 사이로 이어지는 리본을 남겼다.",
+        "boundaryEdges": 0,
+        "meshIslands": 1,
+        "metallic": 0,
+        "roughness": 1,
+        "blenderScript": "SourceAssets/PickupItems/refine_pickups.py"
+      }
+    },
+    {
+      "id": "VoiceRecorder",
+      "name": "녹음기",
+      "floors": [
+        "B1"
+      ],
+      "selected": "original",
+      "source": "SourceAssets/PickupItems/Models/VoiceRecorder.glb",
+      "sourceSha256": "360e85ddf6dc2a50923b2fdec075fff1ff4b26e988307e9bdf60622afc130531",
+      "sourceTriangles": 500000,
+      "reference": "SourceAssets/PickupItems/References/VoiceRecorder.png",
+      "referenceSha256": "71c2f0296deadaea43c87bf865bc3bcc4f369ebd7b784b9be60adff08e37088d",
+      "first": {
+        "text": "76ab9737-4720-43f4-a798-2fad190aba9f",
+        "image": "f073e04a-cbcb-4798-bc40-96a619f7a11d",
+        "mesh": "c46a0863-fed8-43bf-a9bf-c3e426412eaf",
+        "task": "ac7109ba-8d5a-4862-80fc-908dc6c7d1fc"
+      },
+      "model": "Assets/Afrer_Seconds/05.Model/Props/B1/Pickup_VoiceRecorder.fbx",
+      "modelSha256": "07ed9394d868a760be5a4ae95f34acadccaa2972ace57ee5fb2657d0071187a7",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/B1/Materials/Pickup_VoiceRecorder.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B1/Textures/Pickup_VoiceRecorder_Albedo.png",
+          "sha256": "3bd608e7b73ebfa8114dbf9e9bdf678028faddbf64085f744a2eb60f45ee3ac7"
+        },
+        "normal": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/B1/Textures/Pickup_VoiceRecorder_Normal.png",
+          "sha256": "0a0702e7e6780f25787f30332c7652fd54dd23af76b50db72e2c81f5dd873a0f"
+        }
+      },
+      "triangles": 2992,
+      "longestMeters": 0.109,
+      "closeReview": {
+        "result": "분리 조각 제거",
+        "note": "마이크 부근의 독립 삼각면을 제거했다. 그릴, 버튼, 표시창의 구분을 확인했다.",
+        "boundaryEdges": 0,
+        "meshIslands": 1,
+        "metallic": 0,
+        "roughness": 1,
+        "blenderScript": "SourceAssets/PickupItems/refine_pickups.py"
+      }
+    },
+    {
+      "id": "Helmet",
+      "name": "안전모",
+      "floors": [
+        "1F"
+      ],
+      "selected": "original",
+      "source": "SourceAssets/PickupItems/Models/Helmet.glb",
+      "sourceSha256": "0f3c391be8fe35b261dc12e96d381f249f3dedfa28b240bd913d25a1b9dfb061",
+      "sourceTriangles": 500000,
+      "reference": "SourceAssets/PickupItems/References/Helmet.png",
+      "referenceSha256": "55892e871fc32b3ddd366d11b8aa162642cb756101e4914849b3ee3bc36b8d06",
+      "first": {
+        "text": "233444e2-ab0b-40c2-8b11-aad6da36937e",
+        "image": "c4cc389d-ac9c-4818-b191-968be29fd818",
+        "mesh": "bee9369c-d34f-42a1-a776-221f6d8ef170",
+        "task": "309b6925-9b17-4eb2-b117-7d8c1fcfd4e7"
+      },
+      "model": "Assets/Afrer_Seconds/05.Model/Props/1F/Pickup_Helmet.fbx",
+      "modelSha256": "565a2979868949b43eb1a44de625e19414cdf51237184ded11f43e30b5edba12",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/1F/Materials/Pickup_Helmet.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/1F/Textures/Pickup_Helmet_Albedo.png",
+          "sha256": "6adc59d82238d952082835e638189718cd3f407e3e1d87e523adaddc87896887"
+        },
+        "normal": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/1F/Textures/Pickup_Helmet_Normal.png",
+          "sha256": "10529adc7054a0744d9d6abc5f3b7b1c21a44ad5555c2b37311f9a16b9cc5ee7"
+        }
+      },
+      "triangles": 4108,
+      "longestMeters": 0.29,
+      "closeReview": {
+        "result": "분리 조각 제거",
+        "note": "외피 안쪽에 떠 있는 메시 조각을 제거하고 외피에 이어진 서스펜션을 보존했다.",
+        "boundaryEdges": 0,
+        "meshIslands": 1,
+        "metallic": 0,
+        "roughness": 1,
+        "blenderScript": "SourceAssets/PickupItems/refine_pickups.py"
+      }
+    },
+    {
+      "id": "PackingTape",
+      "name": "포장 테이프",
+      "floors": [
+        "1F"
+      ],
+      "selected": "retry",
+      "source": "SourceAssets/PickupItems/Models/PackingTape.glb",
+      "sourceSha256": "5aceb8e61b586dcb41fbec8c5b5cd8e2cd9f9c80289867df42b23f6293d39b04",
+      "sourceTriangles": 500000,
+      "reference": "SourceAssets/PickupItems/References/PackingTape.png",
+      "referenceSha256": "4d2167367f0656e4026c66b9c0334e9710f291e2dc3479d10cb6396f6df4aa72",
+      "first": {
+        "text": "38cef4f0-efd2-46f4-8fa5-f63524efc6b8",
+        "image": "5046c348-c83f-48b0-b247-a4bd7293e640",
+        "mesh": "3f1edc91-b290-4c78-a08d-01eae88dec04",
+        "task": "332429bf-2f30-4531-a151-5a6ee782b755"
+      },
+      "retry": {
+        "reason": "테이프 롤이 길게 늘어나고 옆면과 심이 찢어짐",
+        "prompt": "One continuous studio product photograph of one intact short broad amber brown roll of packing tape tightly wound onto a pale cardboard tube, product resting flat photographed from above at 35 degrees; concentric rings, circular opening and a low straight continuous side wall, tape end pressed flush Single physical sample only, photographed once against seamless light neutral grey. The entire item fits within the central 70 percent of the frame with empty margin on all sides. Soft controlled lighting; natural worn material texture. No secondary image, montage, inset, labels outside the object, human, furniture, floor scene, HUD or companion parts.",
+        "text": "cb84bb78-3010-46a7-abec-a31334619a0f",
+        "image": "3900c4cc-9831-42a6-8295-f76a23e3a13b",
+        "mesh": "cdc6ace3-a9c7-45ca-a464-557d66513e6c",
+        "task": "cf7d8d70-8eb0-42c6-9b70-7da5da4d5124"
+      },
+      "model": "Assets/Afrer_Seconds/05.Model/Props/1F/Pickup_PackingTape.fbx",
+      "modelSha256": "77d5a39297c10f06d3104e56bcd284090b802e4b3c22ad537f9868122bf310ff",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/1F/Materials/Pickup_PackingTape.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/1F/Textures/Pickup_PackingTape_Albedo.png",
+          "sha256": "eb747b381f2fee60fb5db00fb0dbbe399650cff5c3419a907f3cde3205bca090"
+        },
+        "normal": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/1F/Textures/Pickup_PackingTape_Normal.png",
+          "sha256": "6ee327e5a272c19798cc25dc15c61686c9433d77311b97b221adaea309da0d94"
+        }
+      },
+      "triangles": 2400,
+      "longestMeters": 0.107,
+      "closeReview": {
+        "result": "형태 유지",
+        "note": "심이 관통하며 종이 심의 이음매와 갈색 테이프 층이 각각 보인다.",
+        "boundaryEdges": 0,
+        "meshIslands": 1,
+        "metallic": 0,
+        "roughness": 1
+      }
+    },
+    {
+      "id": "MetalPart",
+      "name": "작은 금속 부품",
+      "floors": [
+        "1F"
+      ],
+      "selected": "original",
+      "source": "SourceAssets/PickupItems/Models/MetalPart.glb",
+      "sourceSha256": "89bea413b2794630931556cdb5c6e9c90d6830573a56f29f73e867cf4518ac45",
+      "sourceTriangles": 500000,
+      "reference": "SourceAssets/PickupItems/References/MetalPart.png",
+      "referenceSha256": "4ef651dbab30fb4799e94807a60af0115cef9a1b8d848dcef58d8513cf128d2f",
+      "first": {
+        "text": "174ed01c-61c2-4f8f-9055-7260745c221b",
+        "image": "d99f73c7-3c06-4ccf-a9a3-14a8ecbe8805",
+        "mesh": "898abba1-3f6e-4534-9a8e-469e4639ba20",
+        "task": "4756ec0e-6095-4900-a8a6-bfb24de04573"
+      },
+      "model": "Assets/Afrer_Seconds/05.Model/Props/1F/Pickup_MetalPart.fbx",
+      "modelSha256": "b1a92268cdb8a465e7069e2a43ad0ab8bd5fbf697f4e2db1fdf175f068774531",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/1F/Materials/Pickup_MetalPart.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/1F/Textures/Pickup_MetalPart_Albedo.png",
+          "sha256": "67e8c464fe553773122a0b514a6f89f9d2e828ea83d29af517688d58ab8b3da5"
+        },
+        "normal": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/1F/Textures/Pickup_MetalPart_Normal.png",
+          "sha256": "c0fc3b375914d3a5089a634a70ed5891b1a15ea01a76bf57bd89ca74e1bb9cc8"
+        }
+      },
+      "triangles": 2300,
+      "longestMeters": 0.087,
+      "closeReview": {
+        "result": "재질 조정",
+        "note": "꺾인 브래킷의 두께와 실제 체결 구멍을 유지하고 녹이 슨 강재의 반사를 낮게 맞췄다.",
+        "boundaryEdges": 0,
+        "meshIslands": 1,
+        "metallic": 0.45,
+        "roughness": 0.64
+      }
+    },
+    {
+      "id": "Key",
+      "name": "열쇠",
+      "floors": [
+        "1F"
+      ],
+      "selected": "original",
+      "source": "SourceAssets/PickupItems/Models/Key.glb",
+      "sourceSha256": "70c38109ed17c29a7116a3d4323042e49251f2aa0852701b375b603874d6562a",
+      "sourceTriangles": 500000,
+      "reference": "SourceAssets/PickupItems/References/Key.png",
+      "referenceSha256": "a13fbf68ddbbcc2f74634c67296560705a91a7acb56525fcd9e971f0db7f218f",
+      "first": {
+        "text": "aff72d0e-194c-4d1e-99dc-1eae108f587b",
+        "image": "e1c5304a-ec2d-4344-8ec2-97c8249133f0",
+        "mesh": "73013b01-42bf-426b-8021-7226d8f7f98f",
+        "task": "395877b7-4b6a-4b9e-b5b0-ab8786a900d6"
+      },
+      "model": "Assets/Afrer_Seconds/05.Model/Props/1F/Pickup_Key.fbx",
+      "modelSha256": "d9d4d88a42a7794b0699b978d6ba3dc3c958cb3baaad91738cd9dc94ef323311",
+      "material": "Assets/Afrer_Seconds/05.Model/Props/1F/Materials/Pickup_Key.mat",
+      "textures": {
+        "albedo": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/1F/Textures/Pickup_Key_Albedo.png",
+          "sha256": "d2aff38a4564f3a08b28a894d885235bc1f4e44fcb0b4f3b188cc9755577f171"
+        },
+        "normal": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/1F/Textures/Pickup_Key_Normal.png",
+          "sha256": "baf4ba02047e0b6c786a77ec943edf34578e18e6af15b87398da1cf82d20def0"
+        },
+        "metallicGloss": {
+          "path": "Assets/Afrer_Seconds/05.Model/Props/1F/Textures/Pickup_Key_MetallicGloss.png",
+          "sha256": "b60ca3f8bba83d14ac190d725363bbcc3426b66993c80dd42315b3ae12971a85"
+        }
+      },
+      "triangles": 2200,
+      "longestMeters": 0.074,
+      "closeReview": {
+        "result": "형태 재제작",
+        "note": "옆에서 겹쳐 보이던 고리와 두꺼운 태그를 다시 만들었다. 얇은 태그와 열쇠 머리에 각각 구멍을 뒀다.",
+        "boundaryEdges": 0,
+        "meshIslands": 7,
+        "metallic": 0.23,
+        "roughness": 0.52,
+        "blenderScript": "SourceAssets/PickupItems/refine_pickups.py",
+        "reflectance": "금속도 R, 매끄러움 A"
+      }
+    }
+  ],
+  "closeReview": {
+    "date": "2026-11-19",
+    "viewsPerItem": 4,
+    "triangles": 102390,
+    "report": "Docs/Review/2026-11-19_PickupItems/Review.md"
+  }
+}

@@ -12,6 +12,13 @@ public class PlayerInventory : MonoBehaviour
     private readonly RaycastHit[] hits = new RaycastHit[64];
     private PlayerThrow thrower;
     private PlayerZoom zoom;
+    private PlayerSwap swap;
+    private CharacterController playerBody;
+    public CharacterController Body => playerBody;
+    internal PlayerThrow Thrower => thrower;
+    internal PlayerSwap Swap => swap;
+    public IInteractable Focused { get; private set; }
+    public GuardLoadout GuardCandidate => Focused as GuardLoadout;
     private int selectedIndex = -1;
     private string message;
     private float messageUntil;
@@ -20,18 +27,20 @@ public class PlayerInventory : MonoBehaviour
     public int Capacity => settings.capacity;
     public int SelectedIndex => selectedIndex;
     public WorldItem Selected => selectedIndex >= 0 && selectedIndex < items.Count ? items[selectedIndex] : null;
-    public WorldItem Candidate { get; private set; }
+    public WorldItem Candidate => Focused as WorldItem;
     public string Message => Time.time < messageUntil ? message : null;
     public event System.Action Changed;
 
     private void Awake()
     {
+        swap = GetComponent<PlayerSwap>();
+        playerBody = GetComponent<CharacterController>();
         thrower = GetComponent<PlayerThrow>(); zoom = GetComponent<PlayerZoom>();
         if (settings == null) { Debug.LogError("PlayerInventorySettings를 연결해 주세요.", this); enabled = false; return; }
         thrower.SetHeldWorldItem(null);
     }
     private void OnEnable() { if (thrower != null) { thrower.Released += OnReleased; SyncSelection(); } }
-    private void OnDisable() { if (thrower != null) { thrower.Released -= OnReleased; thrower.SetHeldWorldItem(null); } Candidate = null; }
+    private void OnDisable() { if (thrower != null) { thrower.Released -= OnReleased; thrower.SetHeldWorldItem(null); } Focused = null; }
     private void LateUpdate()
     {
         // 외부 사건으로 소지 객체가 사라져도 유령 슬롯을 남기지 않는다.
@@ -48,40 +57,53 @@ public class PlayerInventory : MonoBehaviour
 
     public void RefreshCandidate()
     {
-        Candidate = null;
+        Focused = null;
         if (!isActiveAndEnabled || Time.timeScale <= 0f) return;
         Transform eye = thrower.Origin;
         int count = Physics.SphereCastNonAlloc(eye.position, settings.aimAssistRadius, eye.forward, hits,
             settings.pickupDistance, settings.pickupMask, QueryTriggerInteraction.Ignore);
         if (count == hits.Length) return;
-        float nearest = float.PositiveInfinity; Collider first = null;
+        float nearest = float.PositiveInfinity;
+        int priority = int.MinValue;
         for (int i = 0; i < count; i++)
         {
             var collider = hits[i].collider;
-            if (collider.transform.IsChildOf(transform) || hits[i].distance >= nearest) continue;
-            nearest = hits[i].distance; first = collider;
+            if (collider.transform.IsChildOf(transform)) continue;
+            var target = collider.GetComponentInParent<IInteractable>();
+            if (!(target is MonoBehaviour component) || !component.isActiveAndEnabled || !target.CanInteract(this)) continue;
+            int rank = target.InteractionPriority;
+            if (rank < priority || (rank == priority && hits[i].distance >= nearest)) continue;
+            if (Vector3.Distance(eye.position, collider.bounds.ClosestPoint(eye.position)) > settings.pickupDistance) continue;
+            if (thrower.Sweep(eye.position, collider.bounds.center - eye.position, 0f, out var cover) &&
+                (!cover.collider || !cover.collider.transform.IsChildOf(component.transform))) continue;
+            Focused = target;
+            priority = rank;
+            nearest = hits[i].distance;
         }
-        if (first == null) return;
-        var item = first.GetComponentInParent<WorldItem>();
-        if (item == null || !item.CanPickup || !ThrowFlight.TryShape(item.Definition.WorldPrefab, out _, out _)) return;
-        Vector3 toward = first.bounds.center - eye.position;
-        if (Vector3.Distance(eye.position, first.ClosestPoint(eye.position)) > settings.pickupDistance) return;
-        // 조준 보조 구체가 모서리 너머를 잡아도 실제 시선이 벽을 통과할 수는 없다.
-        if (thrower.Sweep(eye.position, toward, 0f, out RaycastHit hit) &&
-            hit.collider != null && !hit.collider.transform.IsChildOf(item.transform)) return;
-        Candidate = item;
     }
 
     public bool TryPickup()
     {
         if (!isActiveAndEnabled || Time.timeScale <= 0f) return false;
         RefreshCandidate();
-        if (Candidate == null) return false;
+        if (Focused == null || !Focused.Interact(this)) return false;
+        Focused = null;
+        return true;
+    }
+
+    internal bool StoreFocusedItem(WorldItem item)
+    {
+        if (Candidate != item || !item.CanPickup || !ThrowFlight.TryShape(item.Definition.WorldPrefab, out _, out _)) return false;
         if (items.Count >= Capacity) { Tell("공간이 없어"); return false; }
-        WorldItem item = Candidate;
         if (items.Contains(item) || !item.TryStore(transform)) return false;
-        items.Add(item); selectedIndex = items.Count - 1; Candidate = null; message = null;
+        items.Add(item); selectedIndex = items.Count - 1; Focused = null; message = null;
         SyncSelection(); return true;
+    }
+
+    public void UseAimedItem()
+    {
+        if (!isActiveAndEnabled || Time.timeScale <= 0f || !Selected || !Selected.Ability) return;
+        if (Selected.Ability.TryUse(this)) Changed?.Invoke();
     }
 
     public bool SelectRelative(int direction)
@@ -123,5 +145,5 @@ public class PlayerInventory : MonoBehaviour
         if (zoom != null) zoom.SetZoomed(false);
         Changed?.Invoke();
     }
-    internal void Tell(string text) { message = text; messageUntil = Time.time + settings.messageDuration; }
+    public void Tell(string text) { message = text; messageUntil = Time.time + settings.messageDuration; }
 }

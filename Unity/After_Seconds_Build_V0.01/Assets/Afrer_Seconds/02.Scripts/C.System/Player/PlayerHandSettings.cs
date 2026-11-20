@@ -1,5 +1,10 @@
 using UnityEngine;
 
+#region 의사코드
+// 손 표시기가 현재 자세에 맞는 카메라 기준 손 위치와 투척 자세를 선택할 수 있게 값을 제공한다.
+// 걷기·달리기 보폭과 흔들림을 적용한 뒤 조준 중에는 진폭을 줄이고 점프·착지 오프셋을 더한다.
+#endregion
+
 // 영상 측정치가 아닌 프로젝트용 임시 포즈/흔들림 시험값이다.
 [CreateAssetMenu(fileName = "PlayerHandSettings", menuName = "After Seconds/Player Hand Settings")]
 public class PlayerHandSettings : ScriptableObject

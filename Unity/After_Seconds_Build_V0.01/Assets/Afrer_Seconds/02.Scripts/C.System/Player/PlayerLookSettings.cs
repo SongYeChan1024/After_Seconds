@@ -1,5 +1,10 @@
 using UnityEngine;
 
+#region 의사코드
+// 시점 갱신 시 가로·세로 감도를 읽고 상하 회전을 허용 각도 안으로 제한한다.
+// 확대 조준 중에는 설정된 감도·시야각 배율과 보간 시간을 사용한다.
+#endregion
+
 [CreateAssetMenu(
     fileName = "PlayerLookSettings",
     menuName = "After Seconds/Player Look Settings")]

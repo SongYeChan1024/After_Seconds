@@ -1,0 +1,51 @@
+{
+  "unity": "6000.4.0f1",
+  "checks": [
+    {
+      "check": "F pickup candidate at stand / eye (0.00, 1.79, 0.33) prop (0.00, 1.74, 1.15)",
+      "pass": true
+    },
+    {
+      "check": "Picked up through F, held at hip",
+      "pass": true
+    },
+    {
+      "check": "RMB hold shows iron sights",
+      "pass": true
+    },
+    {
+      "check": "Both sight points in front of camera",
+      "pass": true
+    },
+    {
+      "check": "Sight viewport rear (0.50000, 0.49999, 0.38000) front (0.50000, 0.49999, 0.52823)",
+      "pass": true
+    },
+    {
+      "check": "RMB plus LMB does not throw",
+      "pass": true
+    },
+    {
+      "check": "RMB release restores hip",
+      "pass": true
+    },
+    {
+      "check": "Drop while aiming clears pose",
+      "pass": true
+    },
+    {
+      "check": "Generic item selected through F",
+      "pass": true
+    },
+    {
+      "check": "Ordinary item retains toggle zoom after right release",
+      "pass": true
+    },
+    {
+      "check": "Second right click exits ordinary zoom",
+      "pass": true
+    }
+  ],
+  "error": null,
+  "graphics": "Direct3D11"
+}

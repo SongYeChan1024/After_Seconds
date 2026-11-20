@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5368f16a48a0294588b736a7b2c6278, type: 3}
+  m_Name: Item_DataShard
+  m_EditorClassIdentifier: SystemAD::ItemDefinition
+  displayName: "\uB370\uC774\uD130 \uC0E4\uB4DC"
+  worldPrefab: {fileID: 4913871630409804417, guid: bea72dee1c81ee24e9bf3445f2abacb7, type: 3}
+  gripOffset: {x: 0, y: 0, z: -0.01295}
+  hasIronSights: 0
+  rearSightLocal: {x: 0, y: 0, z: 0}
+  sightEyeDistance: 0.32
+  initialRounds: 0
+  swapShotRange: 0

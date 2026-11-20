@@ -267,6 +267,7 @@ public class PlayerMotor : MonoBehaviour
     [SerializeField] private PlayerMotorSettings settings;
 
     private CharacterController characterController;
+    private PlayerDamageReceiver damageReceiver;
     private float verticalVelocity;
 
     // 현재 수평 속도(방향과 빠르기). 수직 속도처럼 프레임이 끝나도 남겨 둔다.
@@ -294,6 +295,7 @@ public class PlayerMotor : MonoBehaviour
     private void Awake()
     {
         characterController = GetComponent<CharacterController>();
+        damageReceiver = GetComponent<PlayerDamageReceiver>();
         verticalVelocity = 0f;
 
         if (settings == null)
@@ -440,6 +442,8 @@ public class PlayerMotor : MonoBehaviour
         {
             currentSpeed = settings.MoveSpeed;
         }
+
+        if (damageReceiver) currentSpeed *= damageReceiver.MovementScale;
 
         // 바닥에 닿아 있을 때만 입력으로 수평 속도를 바꾼다.
         // 공중에서는 이 블록을 건너뛰므로, 발이 떨어진 순간의 수평 속도가 그대로 남는다.

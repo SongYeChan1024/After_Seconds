@@ -452,6 +452,7 @@ ThrowMode 입력 이벤트를 받으면 — OnThrowMode:
     private bool attackPressed = false;      // 왼쪽 클릭을 누른 순간: 조준 시작
     private bool attackReleased = false;     // 왼쪽 클릭을 뗀 순간: 던지기
     private bool aimPressed = false;         // 오른쪽 클릭을 누른 순간: 조준 중이면 취소, 아니면 확대 조준
+    private bool aimReleased;
     private bool throwModePressed = false;   // R: 위로 던지기 ↔ 아래로 던지기
     private InputAction attackAction;        // 물리 버튼 해제와 입력 맵 해제를 구분할 현재 액션
     private PlayerInventory inventory;
@@ -665,7 +666,9 @@ ThrowMode 입력 이벤트를 받으면 — OnThrowMode:
         if (context.performed) // 오른쪽 클릭을 누른 순간
         {
             aimPressed = true; // 조준 중이면 취소, 아니면 확대 조준. 어느 쪽인지는 Update에서 정한다.
+            aimReleased = false;
         }
+        else if (context.canceled) aimReleased = true;
     }
 
     public void OnThrowMode(InputAction.CallbackContext context) // Player Input의 ThrowMode(R) 입력을 처리하기 위해 만든 전용 함수.
@@ -762,7 +765,24 @@ ThrowMode 입력 이벤트를 받으면 — OnThrowMode:
         if (cancelThrowThisFrame) playerThrow.ExitStance();
 
         // 오른쪽 클릭: 왼쪽 클릭을 누르고 조준하는 중이라면 던지지 않고 취소한다.
-        if (aimPressed)
+        // 가늠자가 있는 물건: 우클릭 동안만 자세를 유지한다. 조준 중 좌클릭이 투척으로 이어지지 않게 한다.
+        bool hasSights = playerThrow.HeldItem != null && (playerThrow.HeldItem.HasIronSights ||
+            (inventory && inventory.Selected && inventory.Selected.Ability));
+        bool sightInput = hasSights && (aimPressed || playerZoom.IsZoomed);
+        if (hasSights)
+        {
+            if (aimPressed && !cancelThrowThisFrame)
+            {
+                playerThrow.ExitStance();
+                playerZoom.SetZoomed(true);
+            }
+            if (attackPressed && !cancelThrowThisFrame && playerZoom.IsZoomed && inventory != null)
+                inventory.UseAimedItem();
+            if (aimReleased) playerZoom.SetZoomed(false);
+            cancelThrowThisFrame |= sightInput;
+            aimPressed = false;
+        }
+        else if (aimPressed)
         {
             aimPressed = false;
 
@@ -774,10 +794,10 @@ ThrowMode 입력 이벤트를 받으면 — OnThrowMode:
             else if (playerThrow.HasHeldItem) // 조준 중이 아니고, 물건을 들고 있다면
             {
                 // 확대 조준을 켜거나 끈다. 던지기 자세가 아니어도 물건을 들고 있으면 된다.
-                // (총을 들었을 때의 "겨누기"도 나중에 이 확대를 그대로 쓴다)
                 playerZoom.Toggle();
             }
         }
+        aimReleased = false;
 
         // R: 물건을 들고 있으면 준비 전에도 위/아래 방식을 고를 수 있다.
         if (throwModePressed)
@@ -830,6 +850,7 @@ ThrowMode 입력 이벤트를 받으면 — OnThrowMode:
         attackAction = null;
         interactPressed = dropPressed = false; selectionStep = 0;
         aimPressed = false;
+        aimReleased = false;
 
         if (playerThrow != null) // PlayerThrow가 연결되어 있다면
         {

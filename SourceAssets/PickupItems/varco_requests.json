@@ -1,0 +1,456 @@
+{
+  "flow": "https://3d.varco.ai/flow/fb981dd5-dfb9-4499-94b2-9e0ae0537f4c",
+  "catalog": "Docs/Objects/pickup_catalog.json",
+  "items": [
+    {
+      "id": "Pen",
+      "name": "펜",
+      "floors": [
+        "B5",
+        "B4"
+      ],
+      "prompt": "One capped ballpoint pen, long slender graphite barrel, steel pocket clip along the cap, small blue identification band at one end; show it diagonally, entirely within frame. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 1500,
+      "longestMeters": 0.145,
+      "modelFolder": "Common",
+      "surface": {
+        "metallic": 0.45,
+        "roughness": 0.4
+      }
+    },
+    {
+      "id": "DocumentFolder",
+      "name": "서류철",
+      "floors": [
+        "B5",
+        "B3",
+        "B2",
+        "B1",
+        "1F"
+      ],
+      "prompt": "One closed A4 document folder, matte blue-grey card cover, exposed thin stack of cream paper along the opening edge, stamped blank rectangular label and a small metal binding clip at the spine. Cover and pages stay together. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 3000,
+      "longestMeters": 0.32,
+      "modelFolder": "Common"
+    },
+    {
+      "id": "UsbDrive",
+      "name": "USB",
+      "floors": [
+        "B5",
+        "B4",
+        "B3",
+        "B2",
+        "B1",
+        "1F"
+      ],
+      "prompt": "One compact USB-A flash drive with an exposed metal connector at one end, graphite rectangular polymer body, inset blank lab label, and a small lanyard eye. Lying diagonally with the connector clearly visible. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 2000,
+      "longestMeters": 0.062,
+      "modelFolder": "Common",
+      "surface": {
+        "metallic": 0.13,
+        "roughness": 0.53
+      }
+    },
+    {
+      "id": "DataShard",
+      "name": "데이터 샤드",
+      "floors": [
+        "B5",
+        "B4",
+        "B3",
+        "B1"
+      ],
+      "prompt": "One fictional thumb-sized laboratory data cartridge, wedge-shaped graphite protective shell, small pale ceramic face, recessed contact strip and a keyed corner; unmistakably distinct from a USB flash drive. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 2200,
+      "longestMeters": 0.074,
+      "modelFolder": "Common"
+    },
+    {
+      "id": "Flashlight",
+      "name": "손전등",
+      "floors": [
+        "B3",
+        "1F"
+      ],
+      "prompt": "One dark handheld inspection flashlight with a recessed round lens, narrow body, textured grip and thumb switch. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 3500,
+      "longestMeters": 0.17,
+      "modelFolder": "Common",
+      "surface": {
+        "metallic": 0.12,
+        "roughness": 0.55
+      }
+    },
+    {
+      "id": "Pistol",
+      "name": "총",
+      "floors": [
+        "B5",
+        "B4",
+        "B3",
+        "B2",
+        "B1",
+        "1F"
+      ],
+      "prompt": "One inert fictional security sidearm prop for a stealth videogame, a sealed one-piece solid shell with a recognizable stylized silhouette and muted unit marking. Opaque closed surfaces, no moving or detachable parts, no mechanical internals. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 4500,
+      "longestMeters": 0.19,
+      "modelFolder": "Common",
+      "surface": {
+        "metallic": 0.38,
+        "roughness": 0.52
+      }
+    },
+    {
+      "id": "Spoon",
+      "name": "숟가락",
+      "floors": [
+        "B5"
+      ],
+      "prompt": "One stainless steel cafeteria spoon with a shallow rounded bowl, narrow neck and flattened handle. Soft washing marks; show the concave bowl and full handle. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 2000,
+      "longestMeters": 0.175,
+      "modelFolder": "B5",
+      "surface": {
+        "metallic": 0.7,
+        "roughness": 0.34
+      }
+    },
+    {
+      "id": "MetalCup",
+      "name": "금속컵",
+      "floors": [
+        "B5"
+      ],
+      "prompt": "One empty brushed stainless steel drinking mug with a rolled rim, visible inner cavity and single loop handle. Small worn patch where its base meets the table. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 3200,
+      "longestMeters": 0.1,
+      "modelFolder": "B5",
+      "surface": {
+        "metallic": 0.74,
+        "roughness": 0.35
+      }
+    },
+    {
+      "id": "WaterBottle",
+      "name": "물병",
+      "floors": [
+        "B5"
+      ],
+      "prompt": "One closed reusable water bottle, milky translucent body, screw cap on the bottle, shallow grip indentations, small pale-blue partial label. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 3200,
+      "longestMeters": 0.215,
+      "modelFolder": "B5"
+    },
+    {
+      "id": "Pager",
+      "name": "휴대 호출기",
+      "floors": [
+        "B5"
+      ],
+      "prompt": "One palm-sized institutional pager, small monochrome screen, single call button, belt clip visible behind the case and a discreet identification stripe. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 2600,
+      "longestMeters": 0.082,
+      "modelFolder": "B5",
+      "surface": {
+        "metallic": 0.015,
+        "roughness": 0.61
+      }
+    },
+    {
+      "id": "Clipboard",
+      "name": "클립보드",
+      "floors": [
+        "B4"
+      ],
+      "prompt": "One compact examination clipboard with a spring-steel clip, a small attached stack of squared forms and subtly abraded board edges. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 3200,
+      "longestMeters": 0.32,
+      "modelFolder": "B4"
+    },
+    {
+      "id": "Stopwatch",
+      "name": "스톱워치",
+      "floors": [
+        "B4"
+      ],
+      "prompt": "One handheld dark digital stopwatch with a recessed LCD, raised top buttons and an integral lanyard eye. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 3000,
+      "longestMeters": 0.071,
+      "modelFolder": "B4"
+    },
+    {
+      "id": "HandMeter",
+      "name": "휴대 측정기",
+      "floors": [
+        "B4"
+      ],
+      "prompt": "One palm-sized sensor meter with a rubberized grip, small screen, three physical buttons and a recessed sensor socket. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 3600,
+      "longestMeters": 0.16,
+      "modelFolder": "B4"
+    },
+    {
+      "id": "TestRemote",
+      "name": "측정 장비 리모컨",
+      "floors": [
+        "B4"
+      ],
+      "prompt": "One rectangular lab equipment remote with two deliberately distinct start and stop buttons, a status lens and a lanyard eye. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 2800,
+      "longestMeters": 0.135,
+      "modelFolder": "B4"
+    },
+    {
+      "id": "ElectrodeCase",
+      "name": "전극 보관 케이스",
+      "floors": [
+        "B4"
+      ],
+      "prompt": "One hinged hard case, partially open with foam insert holding small metal electrode pads and a short neatly wound cable, all attached visually as a single prop. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 5200,
+      "longestMeters": 0.23,
+      "modelFolder": "B4"
+    },
+    {
+      "id": "Penlight",
+      "name": "펜라이트",
+      "floors": [
+        "B4"
+      ],
+      "prompt": "One slim cylindrical clinical penlight, small lens at the nose, steel pocket clip and metal push cap. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 2000,
+      "longestMeters": 0.133,
+      "modelFolder": "B4",
+      "surface": {
+        "metallic": 0.45,
+        "roughness": 0.48
+      }
+    },
+    {
+      "id": "SampleCanister",
+      "name": "밀폐 시료통",
+      "floors": [
+        "B3"
+      ],
+      "prompt": "One closed rigid sealed specimen canister with gasket seam, locking lid and a blank label area. No visible biological material. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 3000,
+      "longestMeters": 0.13,
+      "modelFolder": "B3"
+    },
+    {
+      "id": "SampleCarrier",
+      "name": "소형 시료 운반 케이스",
+      "floors": [
+        "B3"
+      ],
+      "prompt": "One insulated specimen transport case with a carry handle lying flat, gasketed lid, latch and label frame. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 5200,
+      "longestMeters": 0.32,
+      "modelFolder": "B3"
+    },
+    {
+      "id": "Thermometer",
+      "name": "휴대 온도계",
+      "floors": [
+        "B3"
+      ],
+      "prompt": "One compact handheld industrial thermometer with sensor tip, small digital display and two tactile buttons. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 3200,
+      "longestMeters": 0.14,
+      "modelFolder": "B3",
+      "surface": {
+        "metallic": 0.08,
+        "roughness": 0.55
+      }
+    },
+    {
+      "id": "Labeler",
+      "name": "라벨러",
+      "floors": [
+        "B3"
+      ],
+      "prompt": "One handheld label printer with a sloped keypad, dark display and short blank label emerging from the mouth. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 4000,
+      "longestMeters": 0.195,
+      "modelFolder": "B3"
+    },
+    {
+      "id": "SealTape",
+      "name": "봉인 테이프",
+      "floors": [
+        "B3"
+      ],
+      "prompt": "One partly used single roll of lab seal tape with an intact core, layered edge and short loose end with a muted repeating security stripe. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 2500,
+      "longestMeters": 0.096,
+      "modelFolder": "B3"
+    },
+    {
+      "id": "Wrench",
+      "name": "스패너",
+      "floors": [
+        "B2"
+      ],
+      "prompt": "One slightly worn forged open-ended workshop spanner, subtly chamfered jaws and a flattened grip. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 2600,
+      "longestMeters": 0.18,
+      "modelFolder": "B2",
+      "surface": {
+        "metallic": 0.7,
+        "roughness": 0.48
+      }
+    },
+    {
+      "id": "Screwdriver",
+      "name": "드라이버",
+      "floors": [
+        "B2"
+      ],
+      "prompt": "One ordinary slotted screwdriver with a graphite rubber grip, banded collar and straight steel shank. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 2600,
+      "longestMeters": 0.19,
+      "modelFolder": "B2"
+    },
+    {
+      "id": "Bolt",
+      "name": "볼트",
+      "floors": [
+        "B2"
+      ],
+      "prompt": "One short industrial hex-head bolt with a visible threaded shank and lightly polished contact flats, shown alone. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 1600,
+      "longestMeters": 0.044,
+      "modelFolder": "B2",
+      "surface": {
+        "metallic": 0.67,
+        "roughness": 0.53
+      }
+    },
+    {
+      "id": "Nut",
+      "name": "너트",
+      "floors": [
+        "B2"
+      ],
+      "prompt": "One hex nut with an open threaded center, visible chamfer and worn contact faces, shown alone. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 1600,
+      "longestMeters": 0.022,
+      "modelFolder": "B2",
+      "surface": {
+        "metallic": 0.62,
+        "roughness": 0.53
+      }
+    },
+    {
+      "id": "VoltageMeter",
+      "name": "휴대 전압 측정기",
+      "floors": [
+        "B2"
+      ],
+      "prompt": "One portable industrial voltmeter with rotary dial, rubber bumper, recessed screen and color-coded sockets. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 4400,
+      "longestMeters": 0.17,
+      "modelFolder": "B2"
+    },
+    {
+      "id": "WorkFlashlight",
+      "name": "정비용 손전등",
+      "floors": [
+        "B2"
+      ],
+      "prompt": "One industrial work flashlight with a protective cage over the broad lens, chunky ribbed grip and integral hanging hook. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 4600,
+      "longestMeters": 0.235,
+      "modelFolder": "B2"
+    },
+    {
+      "id": "Radio",
+      "name": "무전기",
+      "floors": [
+        "B2",
+        "1F"
+      ],
+      "prompt": "One handheld facility radio with a short antenna, channel dial, side push-to-talk button, speaker grille and integrated rear clip. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 4300,
+      "longestMeters": 0.225,
+      "modelFolder": "Common"
+    },
+    {
+      "id": "ResearchNotebook",
+      "name": "연구 수첩",
+      "floors": [
+        "B1"
+      ],
+      "prompt": "One closed, hand-sized research notebook with a cloth binding, slightly uneven cream page edges and attached fabric bookmark. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 2600,
+      "longestMeters": 0.185,
+      "modelFolder": "B1"
+    },
+    {
+      "id": "VoiceRecorder",
+      "name": "녹음기",
+      "floors": [
+        "B1"
+      ],
+      "prompt": "One pocket voice recorder with perforated microphone grille, dark display and large playback button. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 3000,
+      "longestMeters": 0.109,
+      "modelFolder": "B1"
+    },
+    {
+      "id": "Helmet",
+      "name": "안전모",
+      "floors": [
+        "1F"
+      ],
+      "prompt": "One used factory hard hat with a short brim, ridge along the crown and visible inner suspension along the lower edge. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 4200,
+      "longestMeters": 0.29,
+      "modelFolder": "1F"
+    },
+    {
+      "id": "PackingTape",
+      "name": "포장 테이프",
+      "floors": [
+        "1F"
+      ],
+      "prompt": "One roll of amber warehouse packing tape with a paper core, layered translucent edge and a short torn flap. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 2400,
+      "longestMeters": 0.107,
+      "modelFolder": "1F"
+    },
+    {
+      "id": "MetalPart",
+      "name": "작은 금속 부품",
+      "floors": [
+        "1F"
+      ],
+      "prompt": "One small stamped steel bracket with bent flange, mounting holes and sparse rust at chipped edges. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 2300,
+      "longestMeters": 0.087,
+      "modelFolder": "1F",
+      "surface": {
+        "metallic": 0.45,
+        "roughness": 0.64
+      }
+    },
+    {
+      "id": "Key",
+      "name": "열쇠",
+      "floors": [
+        "1F"
+      ],
+      "prompt": "One facility key with a plain metal head on a ring and a blank graphite identification tag; use a fictional generic blade outline. After Seconds, realistic first-person stealth game pickup in an underground research facility. Single isolated handheld object. Three-quarter studio reference, entire silhouette visible, matte medium-grey backdrop, soft diffuse lighting. Restrained industrial materials, modest wear on contact edges. No hands, extra objects, pedestal, cast lettering, trademarks or watermark.",
+      "triangleBudget": 2200,
+      "longestMeters": 0.074,
+      "modelFolder": "1F",
+      "surface": {
+        "metallic": 0.23,
+        "roughness": 0.52
+      }
+    }
+  ]
+}

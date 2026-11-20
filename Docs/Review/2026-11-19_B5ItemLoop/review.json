@@ -1,0 +1,58 @@
+{
+  "unity": "6000.4.0f1",
+  "checks": [
+    {
+      "check": "review stand offers the pistol",
+      "pass": true
+    },
+    {
+      "check": "F picks up one instance with three starting uses",
+      "pass": true
+    },
+    {
+      "check": "wall blocks reservation and a held click spends only one use",
+      "pass": true
+    },
+    {
+      "check": "blocked hit leaves both actors in place after three seconds",
+      "pass": true
+    },
+    {
+      "check": "valid game target schedules the shared swap",
+      "pass": true
+    },
+    {
+      "check": "no exchange before the three-second delay",
+      "pass": true
+    },
+    {
+      "check": "exchange uses current positions at execution",
+      "pass": true
+    },
+    {
+      "check": "last use leaves the empty pistol selected",
+      "pass": true
+    },
+    {
+      "check": "empty aimed click keeps the item",
+      "pass": true
+    },
+    {
+      "check": "ordinary left release throws the empty instance",
+      "pass": true
+    },
+    {
+      "check": "F reacquires the same empty instance",
+      "pass": true
+    },
+    {
+      "check": "flashlight can be picked up at review stand",
+      "pass": true
+    },
+    {
+      "check": "flashlight throws through the ordinary item path",
+      "pass": true
+    }
+  ],
+  "error": null
+}

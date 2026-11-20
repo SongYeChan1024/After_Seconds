@@ -36,11 +36,14 @@ public class ThrownObject : MonoBehaviour
     public event Action<ThrownObject, Collision> Hit;
 
     private float minHitSpeed; // 이 빠르기보다 느린 충돌은 명중으로 알리지 않는다
+    private Rigidbody body;
     private bool armed;
+    private float nextNoise;
 
     // 던진 쪽(PlayerThrow)이 물건을 만든 직후에 불러서 필요한 값을 넘겨 준다.
     public void Initialize(float minimumHitSpeed)
     {
+        body = GetComponent<Rigidbody>();
         minHitSpeed = minimumHitSpeed;
         armed = true;
     }
@@ -59,7 +62,24 @@ public class ThrownObject : MonoBehaviour
         }
 
         // ?. 는 "등록된 쪽이 하나도 없으면 아무것도 하지 않는다"는 뜻이다.
+        if (Time.time >= nextNoise && collision.contactCount > 0)
+        {
+            nextNoise = Time.time + .4f;
+            StealthNoise.Emit(collision.GetContact(0).point, Mathf.Clamp(collision.relativeVelocity.magnitude * 1.5f, 4f, 16f), GuardNoise.Impact);
+        }
         Hit?.Invoke(this, collision);
+    }
+
+    // 바닥에 멈춘 물건은 다음 투척의 대상이다. 맞아서 밀릴 때 옛 투척으로 역예약하지 않는다.
+    private void OnCollisionStay(Collision collision)
+    {
+        if (!armed || body.linearVelocity.sqrMagnitude > .0025f || body.angularVelocity.sqrMagnitude > .04f) return;
+        for (int i = 0; i < collision.contactCount; i++)
+        {
+            if (collision.GetContact(i).normal.y <= .5f) continue;
+            Disarm();
+            return;
+        }
     }
 
     private void OnDestroy()

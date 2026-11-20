@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Afrer_Seconds/01.Scenes/Intro.unity
+    guid: 56745984b613c204aa080f779992687b
+  - enabled: 1
+    path: Assets/Afrer_Seconds/01.Scenes/Loading.unity
+    guid: bbe8deba5d1805e46a11bfaf55705df4
+  - enabled: 1
     path: Assets/Afrer_Seconds/01.Scenes/GameRoot.unity
     guid: 1851e09f7fb7a9d48a7abd5a9e7525fe
   - enabled: 1
@@ -17,5 +23,17 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Afrer_Seconds/01.Scenes/Player.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Afrer_Seconds/01.Scenes/Stage/Level_B3_Circular.unity
+    guid: d4cac94a99f55dc4c93237fe68583844
+  - enabled: 1
+    path: Assets/Afrer_Seconds/01.Scenes/Stage/Level_B2_Circular.unity
+    guid: 8e7cd1ee8f6000f489190086e7526b0a
+  - enabled: 1
+    path: Assets/Afrer_Seconds/01.Scenes/Stage/Level_B1_Circular.unity
+    guid: 8ed4cec000797224d84a3102923e1f43
+  - enabled: 1
+    path: Assets/Afrer_Seconds/01.Scenes/Stage/Level_1F_Factory.unity
+    guid: abefd90999e25724ebdeece6d97bd6f9
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

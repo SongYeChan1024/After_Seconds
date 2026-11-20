@@ -1,5 +1,10 @@
 using UnityEngine;
 
+#region 의사코드
+// 걷기·달리기 및 위로 던지기의 원본 클립과 양손 위치 곡선을 짝지어 보관한다.
+// 요청된 동작의 정규화 시간에서 X·Y·Z 곡선을 각각 읽어 손 위치 벡터를 만든다.
+#endregion
+
 // VARCO 휴머노이드 클립을 현재 리그에 재생해 추출한 1인칭용 손 경로.
 // 원본 클립 참조와 표본 곡선을 함께 보관한다. 전신 본/이동/방출 시점은 변경하지 않는다.
 [CreateAssetMenu(fileName = "PlayerHandAnimations", menuName = "After Seconds/Player Hand Animations")]

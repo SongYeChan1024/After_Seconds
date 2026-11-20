@@ -1,6 +1,12 @@
 using UnityEngine;
 
-// 명중 시 대상과 시각만 보관한다. 실행 시 양쪽 발과 자세를 다시 읽고 둘 다 들어갈 때만 옮긴다.
+#region 의사코드
+// 투척 충돌이나 조준 명중에서 교환 대상과 실행 시각을 큐에 넣는다.
+// 실행 시 두 대상의 현재 위치를 맞바꾼다. 겹치면 가까운 빈자리로 보정하고 두 도착 위치를 한 번에 적용한다.
+// 양쪽이 완전히 막혀 있으면 예약을 유지한다. 다음 대상의 독립적인 예약도 처리한다.
+#endregion
+
+// 명중 순간에는 대상과 시각을 보관한다. 실행 순간의 자세와 위치로 교환을 계산한다.
 [DisallowMultipleComponent, RequireComponent(typeof(CharacterController), typeof(PlayerThrow))]
 public sealed class PlayerSwap : MonoBehaviour
 {
@@ -28,10 +34,37 @@ public sealed class PlayerSwap : MonoBehaviour
 
     private void OnHit(ThrownObject source, Collision collision)
     {
+        ScheduleImpact(source, collision);
+    }
+
+    // 배식 연출과 자유 투척은 같은 물리 충돌과 예약 시각을 사용한다.
+    public float Delay => settings.SwapDelay;
+    public bool HasPending(SwapTarget target) => queue.Contains(target);
+    public bool ScheduleImpact(ThrownObject source, Collision collision)
+    {
         var target = collision.collider.GetComponentInParent<SwapTarget>();
-        if (!settings || !target || !target.Available) return;
-        if (queue.Schedule(source, target, Time.fixedTimeAsDouble, settings.SwapDelay))
-            inventory?.Tell("위치 교환 예약");
+        if (!Schedule(source, target, Time.fixedTimeAsDouble)) return false;
+        if (collision.contactCount > 0 && target.TryGetComponent<GuardLoadout>(out var guard) && !guard.IsDown)
+        {
+            var contact = collision.GetContact(0);
+            guard.ReactToHit(contact.point, -contact.normal);
+        }
+        return true;
+    }
+
+    // 조준 입력은 즉시 명중을 판단하고, 투척은 충돌 시각을 기준으로 같은 교환을 예약한다.
+    public bool ScheduleSightHit(SwapTarget target)
+    {
+        if (!isActiveAndEnabled || !settings || !target || !target.Available) return false;
+        return Schedule(null, target, Time.timeAsDouble);
+    }
+
+    private bool Schedule(ThrownObject source, SwapTarget target, double now)
+    {
+        if (!isActiveAndEnabled || !settings || !target || !target.Available) return false;
+        if (!queue.Schedule(source, target, now, settings.SwapDelay)) return false;
+        inventory?.Tell("위치 교환 예약");
+        return true;
     }
 
     private void Update()
@@ -39,28 +72,29 @@ public sealed class PlayerSwap : MonoBehaviour
         if (Time.timeScale == 0f) return;
         double now = Time.timeAsDouble;
         float pulse = queue.TakePulse(now);
-        while (queue.TryTake(now, out var target))
+        while (queue.TryTake(now, out var reservation))
         {
-            if (!target || !target.Available || !player.enabled)
+            var target = reservation.Target;
+            if (!reservation.StillAvailable)
             {
                 inventory?.Tell("교환할 대상이 없어");
                 continue;
             }
-            Physics.SyncTransforms();
-            var other = target.Body;
-            Vector3 playerFeet = Feet(player), otherFeet = Feet(other);
-            if (!TrySupport(playerFeet, target, out var playerFloor) ||
-                !TrySupport(otherFeet, target, out var otherFloor))
+            if (!player.enabled)
             {
-                inventory?.Tell("교환할 발판이 없어");
+                queue.WaitForSpace(reservation, now);
                 continue;
             }
-            // 접지한 컨트롤러의 skinWidth만큼 떠 있는 공간까지 경비에게 옮기지 않는다.
-            Vector3 playerOffset = otherFloor - playerFeet;
-            Vector3 targetOffset = playerFloor - otherFeet;
-            if (!FitsAt(player, playerOffset, target) || !FitsAt(other, targetOffset, target))
+            // 착석 경비는 좌석 옆의 실제 보행 지점에서 일어나 양쪽 직립 공간을 검사한다.
+            if (target.TryGetComponent<GuardMotor>(out var guardMotor)) guardMotor.StandUp();
+            Physics.SyncTransforms();
+            var other = target.Body;
+            Vector3 playerFeet = Feet(player), otherFeet = target.Feet;
+            var placement = new SwapPlacement(player, target);
+            if (!placement.TryPair(playerFeet, otherFeet, out var playerOffset, out var targetOffset))
             {
-                inventory?.Tell("교환할 공간이나 발판이 없어");
+                if (!reservation.WaitingForSpace) inventory?.Tell("교환할 위치를 보정하는 중");
+                queue.WaitForSpace(reservation, now);
                 continue;
             }
 
@@ -68,7 +102,13 @@ public sealed class PlayerSwap : MonoBehaviour
             var otherController = other as CharacterController;
             player.enabled = false;
             if (otherController) otherController.enabled = false;
-            if (body) body.position += targetOffset;
+            if (body)
+            {
+                Vector3 destination = body.position + targetOffset;
+                body.transform.position = destination;
+                body.position = destination;
+                if (!body.isKinematic) body.WakeUp();
+            }
             else target.transform.position += targetOffset;
             transform.position += playerOffset;
             if (otherController) otherController.enabled = true;
@@ -91,50 +131,5 @@ public sealed class PlayerSwap : MonoBehaviour
     {
         var b = c.bounds;
         return new Vector3(b.center.x, b.min.y, b.center.z);
-    }
-
-    private bool Participant(Collider c, SwapTarget target) =>
-        c.transform.IsChildOf(transform) || c.transform.IsChildOf(target.transform);
-
-    private bool TrySupport(Vector3 foot, SwapTarget target, out Vector3 ground)
-    {
-        ground = foot;
-        float probe = player.skinWidth + Physics.defaultContactOffset;
-        float nearest = float.PositiveInfinity;
-        foreach (var hit in Physics.RaycastAll(foot + Vector3.up * probe, Vector3.down,
-                     2f * probe, ~0, QueryTriggerInteraction.Ignore))
-        {
-            if (Participant(hit.collider, target) || hit.distance >= nearest ||
-                Vector3.Angle(hit.normal, Vector3.up) > player.slopeLimit) continue;
-            ground = hit.point;
-            nearest = hit.distance;
-        }
-        return nearest < float.PositiveInfinity;
-    }
-
-    private bool FitsAt(Collider moving, Vector3 offset, SwapTarget target)
-    {
-        // 접촉 오차 범위만 줄인다. 같은 MeshCollider의 바닥과 벽도 개별 형상으로 검사한다.
-        float inset = Physics.defaultContactOffset;
-        Collider[] contacts;
-        if (moving is BoxCollider box)
-        {
-            var half = Vector3.Scale(box.size, box.transform.lossyScale) * .5f;
-            float margin = Mathf.Min(inset, Mathf.Min(half.x, half.y, half.z) * .25f);
-            contacts = Physics.OverlapBox(box.transform.TransformPoint(box.center) + offset,
-                half - Vector3.one * margin, box.transform.rotation, ~0, QueryTriggerInteraction.Ignore);
-        }
-        else
-        {
-            // B5 플레이어와 직립 경비는 모두 Y축 캡슐이다.
-            var b = moving.bounds;
-            float radius = Mathf.Max(b.extents.x, b.extents.z);
-            Vector3 axis = Vector3.up * Mathf.Max(0f, b.extents.y - radius);
-            Vector3 center = b.center + offset;
-            contacts = Physics.OverlapCapsule(center - axis, center + axis, radius - inset,
-                ~0, QueryTriggerInteraction.Ignore);
-        }
-        foreach (var c in contacts) if (!Participant(c, target)) return false;
-        return true;
     }
 }

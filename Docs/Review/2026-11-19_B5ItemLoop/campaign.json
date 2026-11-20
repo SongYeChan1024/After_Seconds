@@ -1,0 +1,218 @@
+{
+  "unity": "6000.4.0f1",
+  "checks": [
+    {
+      "check": "B5 loads both equipped guards through GameRoot",
+      "pass": true
+    },
+    {
+      "check": "guard carries its own pistol B5_MealGuard",
+      "pass": true
+    },
+    {
+      "check": "F disables one guard and releases one world item B5_MealGuard",
+      "pass": true
+    },
+    {
+      "check": "repeat interaction cannot produce another pistol",
+      "pass": true
+    },
+    {
+      "check": "separate F picks up the released world item B5_MealGuard",
+      "pass": true
+    },
+    {
+      "check": "first guard pistol is empty",
+      "pass": true
+    },
+    {
+      "check": "guard carries its own pistol B5_ControlGuard",
+      "pass": true
+    },
+    {
+      "check": "F disables one guard and releases one world item B5_ControlGuard",
+      "pass": true
+    },
+    {
+      "check": "repeat interaction cannot produce another pistol",
+      "pass": true
+    },
+    {
+      "check": "separate F picks up the released world item B5_ControlGuard",
+      "pass": true
+    },
+    {
+      "check": "two guard pistols preserve independent remaining uses",
+      "pass": true
+    },
+    {
+      "check": "eight B5 props remain on their carts after physics settles",
+      "pass": true
+    },
+    {
+      "check": "supported shelf item 펜",
+      "pass": true
+    },
+    {
+      "check": "reachable on authored shelf 펜",
+      "pass": true
+    },
+    {
+      "check": "real pickup and hand mesh 펜",
+      "pass": true
+    },
+    {
+      "check": "clear launch space 펜",
+      "pass": true
+    },
+    {
+      "check": "real throw 펜",
+      "pass": true
+    },
+    {
+      "check": "supported shelf item 숟가락",
+      "pass": true
+    },
+    {
+      "check": "reachable on authored shelf 숟가락",
+      "pass": true
+    },
+    {
+      "check": "real pickup and hand mesh 숟가락",
+      "pass": true
+    },
+    {
+      "check": "clear launch space 숟가락",
+      "pass": true
+    },
+    {
+      "check": "real throw 숟가락",
+      "pass": true
+    },
+    {
+      "check": "supported shelf item 금속컵",
+      "pass": true
+    },
+    {
+      "check": "reachable on authored shelf 금속컵",
+      "pass": true
+    },
+    {
+      "check": "real pickup and hand mesh 금속컵",
+      "pass": true
+    },
+    {
+      "check": "clear launch space 금속컵",
+      "pass": true
+    },
+    {
+      "check": "real throw 금속컵",
+      "pass": true
+    },
+    {
+      "check": "supported shelf item 물병",
+      "pass": true
+    },
+    {
+      "check": "reachable on authored shelf 물병",
+      "pass": true
+    },
+    {
+      "check": "real pickup and hand mesh 물병",
+      "pass": true
+    },
+    {
+      "check": "clear launch space 물병",
+      "pass": true
+    },
+    {
+      "check": "real throw 물병",
+      "pass": true
+    },
+    {
+      "check": "supported shelf item 서류철",
+      "pass": true
+    },
+    {
+      "check": "folder fits inside the shelf rim",
+      "pass": true
+    },
+    {
+      "check": "reachable on authored shelf 서류철",
+      "pass": true
+    },
+    {
+      "check": "real pickup and hand mesh 서류철",
+      "pass": true
+    },
+    {
+      "check": "clear launch space 서류철",
+      "pass": true
+    },
+    {
+      "check": "real throw 서류철",
+      "pass": true
+    },
+    {
+      "check": "supported shelf item USB",
+      "pass": true
+    },
+    {
+      "check": "reachable on authored shelf USB",
+      "pass": true
+    },
+    {
+      "check": "real pickup and hand mesh USB",
+      "pass": true
+    },
+    {
+      "check": "clear launch space USB",
+      "pass": true
+    },
+    {
+      "check": "real throw USB",
+      "pass": true
+    },
+    {
+      "check": "supported shelf item 데이터 샤드",
+      "pass": true
+    },
+    {
+      "check": "reachable on authored shelf 데이터 샤드",
+      "pass": true
+    },
+    {
+      "check": "real pickup and hand mesh 데이터 샤드",
+      "pass": true
+    },
+    {
+      "check": "clear launch space 데이터 샤드",
+      "pass": true
+    },
+    {
+      "check": "real throw 데이터 샤드",
+      "pass": true
+    },
+    {
+      "check": "supported shelf item 휴대 호출기",
+      "pass": true
+    },
+    {
+      "check": "reachable on authored shelf 휴대 호출기",
+      "pass": true
+    },
+    {
+      "check": "real pickup and hand mesh 휴대 호출기",
+      "pass": true
+    },
+    {
+      "check": "clear launch space 휴대 호출기",
+      "pass": true
+    },
+    {
+      "check": "real throw 휴대 호출기",
+      "pass": true
+    }
+  ],
+  "error": null
+}

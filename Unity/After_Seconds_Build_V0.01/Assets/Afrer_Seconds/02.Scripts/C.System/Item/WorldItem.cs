@@ -2,9 +2,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 // 의사코드: 월드의 개별 물건 → 소유권 확보 → 물리를 멈추고 비활성 보관.
-// 다시 내놓을 때 같은 객체를 꺼내고 원래 물리 설정을 복원한다. 종류가 같아도 합치지 않는다.
-[DisallowMultipleComponent, RequireComponent(typeof(ThrownObject))]
-public class WorldItem : MonoBehaviour
+// 다시 내놓으면 같은 물건의 물리와 교환 판정을 되살린다. 들고 있는 동안에는 교환할 수 없다.
+[DisallowMultipleComponent, RequireComponent(typeof(ThrownObject), typeof(SwapTarget))]
+public class WorldItem : MonoBehaviour, IInteractable
 {
     [SerializeField] private ItemDefinition definition;
     private Rigidbody body;
@@ -16,6 +16,12 @@ public class WorldItem : MonoBehaviour
     private static int nextNumber;
     public ItemDefinition Definition => definition;
     public int Number { get; private set; }
+    public ItemAbility Ability { get; private set; }
+    public int InteractionPriority => 0;
+    public string InteractionPrompt => "[F] " + definition.DisplayName + " 줍기";
+    public bool CanInteract(PlayerInventory actor) => CanPickup;
+    public bool Interact(PlayerInventory actor) => actor.StoreFocusedItem(this);
+
     public bool IsStored => owner != null;
     public bool CanPickup => isActiveAndEnabled && !IsStored && definition != null && Time.time >= pickupAfter;
 
@@ -27,6 +33,25 @@ public class WorldItem : MonoBehaviour
         for (int i = 0; i < colliders.Length; i++) materials[i] = colliders[i].sharedMaterial;
         linearDamping = body.linearDamping; angularDamping = body.angularDamping; maxAngularVelocity = body.maxAngularVelocity;
         Number = ++nextNumber;
+        Ability = GetComponent<ItemAbility>();
+    }
+
+    // 경비 허리의 소품은 보이지만 월드에서 집히지 않는다. 분리한 뒤에도 같은 객체와 잔탄을 쓴다.
+    internal void Wear(Transform carrier)
+    {
+        owner = carrier;
+        body.isKinematic = true;
+        foreach (var c in colliders) c.enabled = false;
+    }
+
+    internal void UnholsterToWorld(Vector3 releaseVelocity)
+    {
+        owner = null;
+        transform.SetParent(null, true);
+        foreach (var c in colliders) c.enabled = true;
+        body.isKinematic = false;
+        body.linearVelocity = releaseVelocity;
+        body.WakeUp();
     }
 
     public bool TryStore(Transform newOwner)

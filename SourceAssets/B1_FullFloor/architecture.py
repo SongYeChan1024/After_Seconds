@@ -3,6 +3,28 @@ from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parent))
 from common import *
 plan=json.loads((H/'plan.json').read_text(encoding='utf8'));rooms={r['id']:r for r in plan['rooms']}
+def arrival_flight(floor):
+ # B2 마지막 단에서 B1 남측 계단참으로 올라오는 두 번째 계단열.
+ x = .96
+ half = 1.68
+ width = 1.54
+ cut(floor,box('LowerFlightOpening',x,-.12,.36,width,.8,4.08,'Floor',0))
+ for i in range(12):
+  z = -half + (i+.5)*.28
+  top = -(i+1)/6
+  box('ArrivalTread',x,top-.09,z,width,.18,.28,'Floor',0)
+ for side in [-1,1]:
+  edge = x+side*width/2
+  box('WellSide',edge,-1.12,.36,.075,2.24,4.08,'Floor',0)
+  for z in [-half,-.28,1.12,2.38]:
+   cyl('WellPost',(edge,.01,z),(edge,1.04,z),.024,'Floor',12)
+  for y in [.52,1.04]:
+   cyl('WellRail',(edge,y,-half),(edge,y,2.38),.028,'Floor',12)
+ box('LowerLanding',x,-2.09,2.04,width,.18,.72,'Floor',0)
+ box('LowerReturnWall',x,-1.06,2.4,width,2.12,.09,'Floor',0)
+ for y in [.52,1.04]:
+  cyl('WellEndRail',(x-width/2,y,2.38),(x+width/2,y,2.38),.028,'Floor',12)
+
 for r in plan['rooms']:
  code=r['id'];rad=r['r'];core=r['kind']=='core';local=[]
  for t in plan['tunnels']:
@@ -15,9 +37,10 @@ for r in plan['rooms']:
  for t in local:cut(o,sweep('Opening',t,extend=4))
  for p in o.data.polygons:p.use_smooth=True
  o.data.set_sharp_from_angle(angle=math.radians(25));save(code+'_Shell')
- reset();cyl('SeamlessFloor',(0,-.24,0),(0,0,0),rad-.005,'Floor',128)
+ reset();floor=cyl('SeamlessFloor',(0,-.24,0),(0,0,0),rad-.005,'Floor',128)
  # Remove cylinder bevel at the floor rim: tunnel and floor meet at exactly y=0.
  for o in bpy.context.scene.objects:o.modifiers.clear()
+ if code in ('VA','VB'):arrival_flight(floor)
  save(code+'_Floor')
  reset()
  def clear(a,y=0):return y>3.7 or all(abs((a-d['angle']+180)%360-180)>math.degrees(math.asin(min(.95,2.85/rad)))+3 for d in r['doors'])

@@ -465,6 +465,8 @@ MonoBehaviour:
   outputCamera: {fileID: 7699914977161823067}
   rippleShader: {fileID: 4800000, guid: 1eeb246020ee4154586385b249b508f8, type: 3}
   duration: 0.58
+  shakePitch: 0.48
+  fovKick: 0.06
 --- !u!1 &9035693050914388696
 GameObject:
   m_ObjectHideFlags: 0
@@ -573,19 +575,39 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3092406324764749909, guid: c7ff08daf3c2e1c4fa16abad150292ee, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8757598355571247162}
   m_SourcePrefab: {fileID: 100100000, guid: c7ff08daf3c2e1c4fa16abad150292ee, type: 3}
 --- !u!114 &1392397451355848320 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2880110206399662375, guid: c7ff08daf3c2e1c4fa16abad150292ee, type: 3}
   m_PrefabInstance: {fileID: 3795125891023288231}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 2179902512064268274}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3af3ef3ba31e49a468fa9df60593b770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: SystemAD::PlayerSwap
+--- !u!1 &2179902512064268274 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3092406324764749909, guid: c7ff08daf3c2e1c4fa16abad150292ee, type: 3}
+  m_PrefabInstance: {fileID: 3795125891023288231}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8757598355571247162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2179902512064268274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dbb6d065455f2f4393c029d9c4442e8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: SystemAD::PlayerDamageReceiver
 --- !u!4 &5306563221043077894 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9011225398628340897, guid: c7ff08daf3c2e1c4fa16abad150292ee, type: 3}

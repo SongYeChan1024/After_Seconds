@@ -1,5 +1,10 @@
 using UnityEngine;
 
+#region 의사코드
+// 눈에서 원뿔 표면 방향으로 빛줄기를 검사해 차폐면까지의 거리를 구한다.
+// 거리와 각도로 메시 꼭짓점을 갱신하고 인식도·추격 여부에 맞춰 원뿔 색을 바꾼다.
+#endregion
+
 // 옆면은 눈에서 시작한다. 앞면의 동심원 표본도 각각 차폐해 벽과 낮은 엄폐물의 윤곽을 따른다.
 [RequireComponent(typeof(MeshFilter), typeof(MeshRenderer))]
 public sealed class GuardSightView : MonoBehaviour
@@ -9,9 +14,8 @@ public sealed class GuardSightView : MonoBehaviour
     private const int CapCenter = 1;
     private const int FirstRing = 2;
     private const int VertexCount = FirstRing + Segments * Rings;
-    private readonly Vector3[] directions = new Vector3[VertexCount];
-    private readonly Vector3[] vertices = new Vector3[VertexCount];
-    private readonly Color32[] colors = new Color32[VertexCount];
+    private Vector3[] directions, vertices;
+    private Color32[] colors;
     private Mesh mesh;
     private MeshRenderer surface;
     private float sampledAngle;
@@ -22,6 +26,15 @@ public sealed class GuardSightView : MonoBehaviour
     private void Awake()
     {
         surface = GetComponent<MeshRenderer>();
+        surface.enabled = false;
+    }
+
+    // 일반 플레이에서는 검수용 메시와 표본 배열을 만들지 않는다.
+    private void CreateMesh()
+    {
+        directions = new Vector3[VertexCount];
+        vertices = new Vector3[VertexCount];
+        colors = new Color32[VertexCount];
         mesh = new Mesh { name = "Guard eye cone" };
         mesh.MarkDynamic();
         mesh.vertices = vertices;
@@ -44,7 +57,6 @@ public sealed class GuardSightView : MonoBehaviour
         }
         mesh.triangles = indices;
         GetComponent<MeshFilter>().sharedMesh = mesh;
-        surface.enabled = false;
     }
 
     // 공유 재질의 뒷면 컬링을 유지하면서 콘 안팎 양쪽에서 읽히게 한다.
@@ -77,6 +89,7 @@ public sealed class GuardSightView : MonoBehaviour
 
     public void Draw(GuardSight sight, GuardSettings settings, CharacterController player, bool alert, float recognition)
     {
+        if (!mesh) CreateMesh();
         owner = sight;
         config = settings;
         FollowEyes();

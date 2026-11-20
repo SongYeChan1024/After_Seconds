@@ -1,5 +1,10 @@
 using UnityEngine;
 
+#region 의사코드
+// 눈 기준 거리와 시야각을 확인한다. 머리와 몸통까지 시선이 닿을 때마다 노출량을 절반씩 더한다.
+// 시선은 투명 표식을 통과한다. 붙잡기·사격에서는 유리까지 포함한 첫 차폐면을 확인한다.
+#endregion
+
 public sealed class GuardSight : MonoBehaviour
 {
     [SerializeField] private Transform eyeAnchor;
@@ -41,12 +46,27 @@ public sealed class GuardSight : MonoBehaviour
         return FirstCoverDistance(eyes, ray.normalized, ray.magnitude, player, settings, throughGlass) > ray.magnitude;
     }
 
+    public bool SeesFallen(SwapTarget fallen, GuardSettings settings)
+    {
+        return VisibleBodyPoint(fallen.transform, fallen.Body.bounds.center, settings) ||
+               VisibleBodyPoint(fallen.transform, fallen.Feet + Vector3.up * .30f, settings);
+    }
+
+    private bool VisibleBodyPoint(Transform fallen, Vector3 point, GuardSettings settings)
+    {
+        var origin = EyePosition(settings);
+        Vector3 ray = point - origin;
+        float distance = ray.magnitude;
+        if (distance > settings.sightDistance || Vector3.Angle(EyeRotation * Vector3.forward, ray) > settings.fieldOfView * .5f) return false;
+        return FirstCoverDistance(origin, ray.normalized, distance, null, settings, true, fallen) > distance;
+    }
+
     public Vector3 EyePosition(GuardSettings settings) =>
         eyeAnchor ? eyeAnchor.position : transform.position + Vector3.up * settings.eyeHeight;
 
     // 판정과 부채꼴이 같은 차폐층·유리 규칙을 사용한다. NonAlloc 결과의 순서는 보장되지 않는다.
     public float FirstCoverDistance(Vector3 eyes, Vector3 direction, float distance,
-        CharacterController player, GuardSettings settings, bool throughGlass = true)
+        CharacterController player, GuardSettings settings, bool throughGlass = true, Transform ignore = null)
     {
         int count = Physics.RaycastNonAlloc(eyes, direction, hits, distance,
             settings.sightMask, QueryTriggerInteraction.Ignore);
@@ -55,7 +75,7 @@ public sealed class GuardSight : MonoBehaviour
         for (int i = 0; i < count; i++)
         {
             var c = hits[i].collider;
-            if (c.transform.IsChildOf(transform) || (player && c.transform.IsChildOf(player.transform)) ||
+            if (c.transform.IsChildOf(transform) || (ignore && c.transform.IsChildOf(ignore)) || (player && c.transform.IsChildOf(player.transform)) ||
                 (throughGlass && c.GetComponentInParent<SightTransparent>())) continue;
             nearest = Mathf.Min(nearest, hits[i].distance);
         }

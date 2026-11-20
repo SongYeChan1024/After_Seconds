@@ -1,0 +1,54 @@
+{
+  "unity": "6000.4.0f1",
+  "checks": [
+    {
+      "check": "B5 guards start at their own maximum HP",
+      "pass": true
+    },
+    {
+      "check": "player starts with three HP",
+      "pass": true
+    },
+    {
+      "check": "nonpositive damage is ignored",
+      "pass": true
+    },
+    {
+      "check": "one guard falling leaves the other guard at full HP",
+      "pass": true
+    },
+    {
+      "check": "guard shot removes one player HP and one round",
+      "pass": true
+    },
+    {
+      "check": "successive guard hits accumulate",
+      "pass": true
+    },
+    {
+      "check": "surviving a hit keeps the attempt active",
+      "pass": true
+    },
+    {
+      "check": "overkill reports only remaining HP and clamps at zero",
+      "pass": true
+    },
+    {
+      "check": "zero HP rejects repeat damage without spending a round",
+      "pass": true
+    },
+    {
+      "check": "zero HP pauses the attempt and offers retry",
+      "pass": true
+    },
+    {
+      "check": "Enter starts a new attempt at full player HP",
+      "pass": true
+    },
+    {
+      "check": "retry restores both B5 guards",
+      "pass": true
+    }
+  ],
+  "error": null
+}

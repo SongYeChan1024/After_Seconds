@@ -11,9 +11,25 @@ public class PlayerInventoryView : MonoBehaviour
     [SerializeField] private TMP_Text contents;
     [SerializeField] private RectTransform backing;
     private readonly StringBuilder text = new StringBuilder();
-    private WorldItem previousCandidate;
+    private IInteractable previousFocus;
     private string previousMessage;
     public string EncounterPrompt { get; set; }
+    public string FloorHint { get; set; }
+    private int facilityLevel = -1;
+    private int reportCountdown = -1;
+    public void SetReportCountdown(int seconds)
+    {
+        if (reportCountdown == seconds) return;
+        reportCountdown = seconds;
+        Rebuild();
+    }
+    private static readonly string[] AlertNames = { "정상", "소음 조사", "구역 비상", "시설 전체 경보" };
+    public void SetFacilityLevel(int level)
+    {
+        if (facilityLevel == level) return;
+        facilityLevel = level;
+        Rebuild();
+    }
 
     private void OnEnable()
     {
@@ -25,16 +41,25 @@ public class PlayerInventoryView : MonoBehaviour
     private void Rebuild()
     {
         if (inventory == null || contents == null) return;
-        text.Clear();text.Append("소지품  ").Append(inventory.Count).Append('/').Append(inventory.Capacity).Append('\n');
+        text.Clear();
+        if (facilityLevel >= 0) text.Append("경보 A").Append(facilityLevel).Append(" · ").Append(AlertNames[facilityLevel]).Append('\n');
+        if (reportCountdown >= 0) text.Append("연구원 신고까지 ").Append(reportCountdown).Append("초\n");
+        text.Append("소지품  ").Append(inventory.Count).Append('/').Append(inventory.Capacity).Append('\n');
         text.Append(inventory.SelectedIndex < 0 ? "<color=#C6EBED>▶ 빈손</color>\n" : "<color=#B8C3C8>  빈손</color>\n");
         for (int i = 0; i < inventory.Count; i++)
         {
             var item = inventory.Items[i];
             if (item == null) continue;
             text.Append(i == inventory.SelectedIndex ? "<color=#C6EBED>▶ " : "<color=#B8C3C8>  ");
-            text.Append(item.Definition.DisplayName).Append(" · ").Append(item.Number.ToString("00")).Append("</color>\n");
+            text.Append(item.Definition.DisplayName).Append(" · ").Append(item.Number.ToString("00"));
+            string status = item.Ability ? item.Ability.StatusText : null;
+            if (!string.IsNullOrEmpty(status)) text.Append(" · ").Append(status);
+            text.Append("</color>\n");
         }
-        text.Append("<size=75%>휠 선택   Q 내려놓기</size>");
+        text.Append("<size=75%>휠 선택   Q 내려놓기");
+        var selected = inventory.Selected;
+        if (selected && selected.Ability) text.Append('\n').Append(selected.Ability.ControlHint);
+        text.Append("</size>");
         contents.text = text.ToString();
         if (backing)
         {
@@ -46,10 +71,11 @@ public class PlayerInventoryView : MonoBehaviour
     private void LateUpdate()
     {
         if (inventory == null || prompt == null) return;
-        var candidate = inventory.isActiveAndEnabled ? inventory.Candidate : null;
-        string message = EncounterPrompt ?? inventory.Message;
-        if (candidate == previousCandidate && message == previousMessage) return;
-        previousCandidate = candidate; previousMessage = message;
-        prompt.text = !string.IsNullOrEmpty(message) ? message : candidate != null ? "[F] " + candidate.Definition.DisplayName + " 줍기" : "";
+        var focus = inventory.isActiveAndEnabled ? inventory.Focused : null;
+        string message = EncounterPrompt ?? inventory.Message ?? (focus == null ? FloorHint : null);
+        if (ReferenceEquals(focus, previousFocus) && message == previousMessage) return;
+        previousFocus = focus;
+        previousMessage = message;
+        prompt.text = !string.IsNullOrEmpty(message) ? message : focus?.InteractionPrompt ?? "";
     }
 }

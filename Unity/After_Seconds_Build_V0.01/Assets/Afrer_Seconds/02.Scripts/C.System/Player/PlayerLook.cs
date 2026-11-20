@@ -112,6 +112,13 @@ public class PlayerLook : MonoBehaviour
         cameraRoot.localPosition = standingEyeLocalPosition - Vector3.up * currentEyeDrop;
     }
 
+    // 도입 중 Cinemachine이 따르는 눈의 피치를 바꾼다. 조작 복귀 뒤에도 같은 각도에서 이어진다.
+    public void SetCinematicPitch(float degrees)
+    {
+        pitchAngle = Mathf.Clamp(degrees, settings.MinPitch, settings.MaxPitch);
+        cameraRoot.localRotation = Quaternion.Euler(pitchAngle, 0f, 0f);
+    }
+
     public void Rotate(Vector2 lookInput) // 마우스로 시야 회전 값이 들어올 때 이 함수를 호출한다.
     {
         if (!isActiveAndEnabled) // 이 컴포넌트가 비활성화 상태라면 (일종의 예외처리)

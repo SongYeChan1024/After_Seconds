@@ -36,6 +36,15 @@ public class PlayerFirstPersonHands : MonoBehaviour
     private bool wasGrounded;
     private float preparation, recoveryDuration;
     private Vector3 leftReleaseLocal;
+    private Vector3 trayGrip;
+    private float trayReach;
+    // 배식 때 양손을 식판의 가까운 가장자리로 뻗고, 놓은 뒤 평소 손 위치로 섞는다.
+    public void ReachForTray(Vector3 position, float weight)
+    {
+        trayGrip = position;
+        trayReach = Mathf.Clamp01(weight);
+    }
+
     public bool Ready => isActiveAndEnabled && itemAnchor != null;
     public bool Obstructed { get; private set; }
     public Vector3 ItemPosition => itemAnchor.position;
@@ -45,7 +54,9 @@ public class PlayerFirstPersonHands : MonoBehaviour
     public float GaitPhase => gaitPhase;
     public bool LowerBodyVisible => lowerBody != null && lowerBody.enabled;
     public bool UsesAnimationClips => animations != null && animations.HasLocomotion && animations.HasOverhand;
-    public string Pose => recovery > 0f ? "Recover" : thrower.IsAiming ? "Aim" : thrower.IsInThrowStance ? "Prepare" : "Hold";
+    public bool UsingIronSights => thrower != null && thrower.HeldItem != null && thrower.HeldItem.HasIronSights &&
+                                  zoom != null && zoom.IsZoomed && recovery <= 0f && !thrower.IsInThrowStance;
+    public string Pose => recovery > 0f ? "Recover" : UsingIronSights ? "IronSights" : thrower.IsAiming ? "Aim" : thrower.IsInThrowStance ? "Prepare" : "Hold";
 
     private void Awake()
     {
@@ -176,6 +187,9 @@ public class PlayerFirstPersonHands : MonoBehaviour
                 target = Vector3.Lerp(releaseLocal + followThrough * Mathf.Sin(releasePhase * Mathf.PI), target, returnBlend);
             }
         }
+        // 소지품 기준점에서 뒤 홈이 시선 중앙에 오도록 손을 옮긴다. 벽 검사는 일반 자세와 공유한다.
+        bool sightPose = UsingIronSights;
+        if (sightPose) target = thrower.HeldItem.AimedGripLocal;
         itemLocal = Vector3.SmoothDamp(itemLocal, target, ref smoothVelocity, settings.poseSmoothTime, Mathf.Infinity, dt);
         Vector3 leftTargetLocal = settings.leftRestingHand + leftSwing + bob + jumpMotion + sway * 0.6f;
         if (crouching) leftTargetLocal += settings.crouchOffset;
@@ -185,6 +199,7 @@ public class PlayerFirstPersonHands : MonoBehaviour
         if (clipOverhand && recovery <= 0f) leftTargetLocal += animations.prepareLeft.Evaluate(preparation);
         if (recovery > 0f && !releasedUnderhand && animations != null && animations.HasOverhand)
             leftTargetLocal = Vector3.Lerp(leftReleaseLocal, leftTargetLocal, Mathf.SmoothStep(0f, 1f, releasePhase)) + leftRecovery;
+        if (sightPose) leftTargetLocal = target + new Vector3(-0.070f, -0.046f, -0.038f);
         leftLocal = Vector3.SmoothDamp(leftLocal, leftTargetLocal, ref leftSmoothVelocity, settings.poseSmoothTime, Mathf.Infinity, dt);
         // 방금 놓은 공이 손 후속 동작을 가려 양팔이 사라지지 않게 한다. 실제 투척 검사는 예외 없이 유지한다.
         Transform releasedVisualException = recovery > 0f && thrower.LastThrown != null ? thrower.LastThrown.transform : null;
@@ -202,16 +217,19 @@ public class PlayerFirstPersonHands : MonoBehaviour
         { bones[i].localRotation = restRotations[i]; bones[i].localPosition = restPositions[i]; }
         Vector3 grip = safe + gripOffset;
         Vector3 wrist = grip - eye.TransformVector(settings.palmToItem);
+        wrist = Vector3.Lerp(wrist, trayGrip + eye.right * .16f, trayReach);
         SolveArm(rightUpper, rightLower, rightHand, eye.TransformPoint(settings.rightShoulder), wrist,
             eye.TransformPoint(new Vector3(0.38f, -0.38f, 0.12f)));
-        Vector3 leftTarget = eye.TransformPoint(leftLocal);
+        Vector3 leftTarget = Vector3.Lerp(eye.TransformPoint(leftLocal), trayGrip - eye.right * .16f, trayReach);
         SolveArm(leftUpper, leftLower, leftHand, eye.TransformPoint(settings.leftShoulder), leftTarget,
             eye.TransformPoint(new Vector3(-0.38f, -0.38f, 0.12f)));
         rightHand.rotation = Quaternion.AngleAxis(wave * 9f * gaitScale, eye.forward) * rightHand.rotation;
         leftHand.rotation = Quaternion.AngleAxis(-wave * 9f * gaitScale, eye.forward) * leftHand.rotation;
         // 손가락 포즈는 임시다. 손끝을 구체 중심 주위로 굽혀서 소지품과 연결한다.
         if (recovery <= 0f && thrower.HasHeldItem) CurlFingers(rightHand, grip);
-        CurlFingers(leftHand, leftTarget + eye.forward * 0.07f - eye.up * 0.025f, 0.30f);
+        Vector3 leftPalmTarget = sightPose ? grip - eye.right * .014f - eye.up * .012f
+                                          : leftTarget + eye.forward * .07f - eye.up * .025f;
+        CurlFingers(leftHand, leftPalmTarget, sightPose ? .50f : .30f);
     }
 
     private static void SolveArm(Transform upper, Transform lower, Transform hand, Vector3 shoulder, Vector3 target, Vector3 hint)
